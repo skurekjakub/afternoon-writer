@@ -1,6 +1,6 @@
 ---
 name: copilot-cli-patching
-description: Create, update, revert, and troubleshoot patches to the Copilot CLI baked-in system prompt (app.js). Use this skill whenever patching copilot's system prompt, adding a new replacement pair to patch-copilot-king.py or patch-copilot-writer.py, diagnosing why copilot stopped working after a patch, reverting a broken patch, or updating patches after `copilot update`. Also triggers on: 'add a line to the patch', 'the patch broke copilot', 'copilot stopped working', 'update the system prompt', 'add to patch-copilot', 'revert the patch', 'copilot update broke things', 'why did copilot crash', 'SyntaxError in app.js', 'patch script', or any request to modify how the CLI agent behaves at the system-prompt level.
+description: Create, update, revert, and troubleshoot patches to the Copilot CLI baked-in system prompt (app.js). Use this skill whenever patching copilot's system prompt, adding a new replacement pair to patch-copilot-king.py or patch-copilot-writer.py, diagnosing why copilot stopped working after a patch, reverting a broken patch, or updating patches after `copilot update`. Also triggers on 'add a line to the patch', 'the patch broke copilot', 'copilot stopped working', 'update the system prompt', 'add to patch-copilot', 'revert the patch', 'copilot update broke things', 'why did copilot crash', 'SyntaxError in app.js', 'patch script', or any request to modify how the CLI agent behaves at the system-prompt level.
 ---
 
 # Copilot CLI Patching
