@@ -1,0 +1,443 @@
+{
+  "$schema": "Task graph for implementing the afternoon grounding-refinement plan and related gate integration.",
+  "version": 1,
+  "family": "grounding-refinement",
+  "generatedAt": "2026-04-06T18:48:54Z",
+  "description": "Execution graph for turning the grounding research, evaluation surface, prompt redesign, skill redesign, and grounding-gate architecture into repo changes. Covers shared grounding references, grounder prompt changes, new gate creation, orchestrator/config integration, documentation updates, and benchmark validation.",
+  "summary": {
+    "totalTasks": 15,
+    "phases": 5,
+    "newFiles": 6,
+    "modifiedFiles": 9,
+    "newAgentFiles": 1,
+    "newSkillRefs": 5
+  },
+  "assumptions": [
+    "The grounding gate will be inserted after the grounder and before the expander.",
+    "Dialogue grounding remains an internal grounder pass for the first implementation, not a separate agent.",
+    "The grounder will own the grounding-map artifact and the gate will fresh-sweep from plan plus prose rather than trusting that map.",
+    "Additional runtime is acceptable if it produces a meaningful quality gain on benchmark chapters."
+  ],
+  "designDecisions": [
+    {
+      "decision": "Implement the evaluation surface before rewriting prompts or adding the gate",
+      "rationale": "The grounder and the gate need a shared contract before new behavior is added, or they will drift into incompatible definitions of grounding quality."
+    },
+    {
+      "decision": "Keep dialogue grounding inside the grounder for the first iteration",
+      "rationale": "Dialogue embodiment depends on the same scene map, source bank, and contact logic as the main grounding pass, so a separate agent would add latency before role separation is proven necessary."
+    },
+    {
+      "decision": "Use a fresh-sweep grounding gate",
+      "rationale": "The gate should share scene vocabulary and failure classes with the grounder, but it must not trust the grounder's self-map or prior gate artifacts when deciding verdicts."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "G-001",
+      "phase": 1,
+      "ref": "grounding-evaluation-surface.md § Failure Classes",
+      "title": "Create shared failure taxonomy reference",
+      "description": "Create a runtime reference file that captures the shared grounding failure vocabulary and severity model. This becomes the common contract for the redesigned grounder and the future grounding gate.",
+      "type": "create",
+      "target": ".github/skills/prose-grounding-framework/references/failure-taxonomy.md",
+      "prerequisites": [],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [
+          ".github/skills/prose-grounding-framework/references/failure-taxonomy.md"
+        ],
+        "modifies": []
+      },
+      "acceptanceCriteria": [
+        "The file defines the shared grounding dimensions and G1-G12 failure classes in implementation-ready language.",
+        "The file includes severity guidance and self-audit questions usable by both the grounder and the gate."
+      ]
+    },
+    {
+      "id": "G-002",
+      "phase": 1,
+      "ref": "prose-grounding-framework-redesign-spec.md § references/dialogue-grounding.md",
+      "title": "Create dialogue grounding reference",
+      "description": "Create a dedicated reference file for dialogue embodiment so the skill stops treating dialogue grounding as a minor side rule. The file should focus on action beats, object interaction, blocking, and anti-filler constraints.",
+      "type": "create",
+      "target": ".github/skills/prose-grounding-framework/references/dialogue-grounding.md",
+      "prerequisites": [],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [
+          ".github/skills/prose-grounding-framework/references/dialogue-grounding.md"
+        ],
+        "modifies": []
+      },
+      "acceptanceCriteria": [
+        "The file gives concrete rules for grounding dialogue through action, contact, posture, and environment.",
+        "The file distinguishes meaningful embodiment from empty stage business and lore insertion."
+      ]
+    },
+    {
+      "id": "G-003",
+      "phase": 1,
+      "ref": "prose-grounding-framework-redesign-spec.md § references/distribution-and-tail-audit.md",
+      "title": "Create distribution and tail audit reference",
+      "description": "Create a reference file that teaches opening/middle/final-third parity and late-scene coverage checks. This becomes the main anti-tail-attenuation teaching surface for the grounder.",
+      "type": "create",
+      "target": ".github/skills/prose-grounding-framework/references/distribution-and-tail-audit.md",
+      "prerequisites": [],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [
+          ".github/skills/prose-grounding-framework/references/distribution-and-tail-audit.md"
+        ],
+        "modifies": []
+      },
+      "acceptanceCriteria": [
+        "The file explains how to compare opening, middle, and final-third grounding quality.",
+        "The file includes explicit final-pressure-beat checks and generic-noun fallback detection."
+      ]
+    },
+    {
+      "id": "G-004",
+      "phase": 1,
+      "ref": "prose-grounding-framework-redesign-spec.md § references/chunking-playbook.md",
+      "title": "Create chunking playbook reference",
+      "description": "Create a reference file for long-chapter grounding mode, including trigger heuristics, rolling summary rules, seam audits, and last-chunk checks. This supports the grounder's chunked mode without overloading the main skill router.",
+      "type": "create",
+      "target": ".github/skills/prose-grounding-framework/references/chunking-playbook.md",
+      "prerequisites": [],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [
+          ".github/skills/prose-grounding-framework/references/chunking-playbook.md"
+        ],
+        "modifies": []
+      },
+      "acceptanceCriteria": [
+        "The file defines when chunked mode should trigger and how the rolling summary works.",
+        "The file includes seam-audit and final-chunk-audit rules."
+      ]
+    },
+    {
+      "id": "G-005",
+      "phase": 1,
+      "ref": "prose-grounding-framework-redesign-spec.md § references/benchmark-deltas.md",
+      "title": "Create benchmark delta reference",
+      "description": "Create a reference file that distills the chapter12 and chapter14 benchmark lessons into reusable teaching signals. The file should capture what the richer prompt got right, what the restrained prompt got right, and where tail drift showed up.",
+      "type": "create",
+      "target": ".github/skills/prose-grounding-framework/references/benchmark-deltas.md",
+      "prerequisites": [],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [
+          ".github/skills/prose-grounding-framework/references/benchmark-deltas.md"
+        ],
+        "modifies": []
+      },
+      "acceptanceCriteria": [
+        "The file captures the chapter12 specificity-versus-restraint tradeoff in concrete terms.",
+        "The file explains why chapter14 acts as a control case for shorter, more mobile chapters."
+      ]
+    },
+    {
+      "id": "G-006",
+      "phase": 1,
+      "ref": "prose-grounding-framework-redesign-spec.md § Proposed Role Of SKILL.md",
+      "title": "Modify grounding skill router to mount the new references",
+      "description": "Update the grounding skill router so it stays exemplar-centered but routes the agent to the new reference packets. The skill should make dialogue grounding, failure taxonomy, tail audit, and chunking discoverable at the right time.",
+      "type": "modify",
+      "target": ".github/skills/prose-grounding-framework/SKILL.md",
+      "prerequisites": ["G-001", "G-002", "G-003", "G-004", "G-005"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [],
+        "modifies": [
+          ".github/skills/prose-grounding-framework/SKILL.md"
+        ]
+      },
+      "acceptanceCriteria": [
+        "SKILL.md routes to the new reference files in a progressive order rather than in one undifferentiated block.",
+        "The skill keeps the exemplar pairs central while explicitly surfacing dialogue and tail-audit guidance."
+      ]
+    },
+    {
+      "id": "G-007",
+      "phase": 2,
+      "ref": "grounder-prompt-redesign-spec.md § Startup sequence redesign",
+      "title": "Add grounding-map and mode-selection workflow to the grounder",
+      "description": "Modify the grounder prompt so it creates a grounding-map artifact before editing prose and decides between standard and chunked mode. This externalizes the chapter plan and reduces long-context drift during grounding.",
+      "type": "modify",
+      "target": ".github/agents/afternoon-grounder.agent.md",
+      "prerequisites": ["G-006"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [
+          ".afternoon/chapters/{chapterId}/grounding-map.json"
+        ],
+        "modifies": [
+          ".github/agents/afternoon-grounder.agent.md"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The prompt requires the grounder to write a grounding-map artifact before changing prose.",
+        "The prompt defines standard versus chunked mode and requires the grounder to choose one explicitly."
+      ]
+    },
+    {
+      "id": "G-008",
+      "phase": 2,
+      "ref": "grounder-prompt-redesign-spec.md § Required Workflow Passes",
+      "title": "Add dedicated dialogue and final-third passes to the grounder",
+      "description": "Modify the grounder prompt so dialogue grounding and final-third auditing are mandatory workflow phases rather than soft suggestions. This is the main behavioral change for improving embodiment and tail reliability.",
+      "type": "modify",
+      "target": ".github/agents/afternoon-grounder.agent.md",
+      "prerequisites": ["G-007"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [],
+        "modifies": [
+          ".github/agents/afternoon-grounder.agent.md"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The prompt defines a dedicated dialogue-grounding pass with concrete expectations for long dialogue runs.",
+        "The prompt defines a separate final-third audit and makes tail attenuation an explicit failure condition."
+      ]
+    },
+    {
+      "id": "G-009",
+      "phase": 2,
+      "ref": "grounder-prompt-redesign-spec.md § Output Artifact Redesign",
+      "title": "Expand grounder outputs for map, coverage, and revision mode",
+      "description": "Update the grounder prompt so its notes and revision-mode artifacts reflect the new workflow. The output contract should expose mode used, scene audits, final-third checks, and revision naming that a future gate loop can rely on.",
+      "type": "modify",
+      "target": ".github/agents/afternoon-grounder.agent.md",
+      "prerequisites": ["G-008"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [
+          ".afternoon/chapters/{chapterId}/grounder-revision-r{N}-notes.json"
+        ],
+        "modifies": [
+          ".github/agents/afternoon-grounder.agent.md"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The prompt defines the new notes fields for mode, scene audits, dialogue actions, final-third audit, and source audit.",
+        "The prompt defines revision-mode filenames that align with a future grounding gate loop."
+      ]
+    },
+    {
+      "id": "G-010",
+      "phase": 3,
+      "ref": "grounding-gate-schema-spec.md § Blueprint",
+      "title": "Create the grounding gate agent prompt",
+      "description": "Create a new agent prompt for the grounding gate that audits grounded prose against the shared evaluation surface. The prompt should use a fresh-sweep audit model, passage-local findings, and suggested fixes for revision mode.",
+      "type": "create",
+      "target": ".github/agents/afternoon-grounding-gate.agent.md",
+      "prerequisites": ["G-006", "G-009"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [
+          ".github/agents/afternoon-grounding-gate.agent.md"
+        ],
+        "modifies": []
+      },
+      "acceptanceCriteria": [
+        "The gate prompt audits against the shared grounding failure classes and does not trust the grounder's map or notes for verdicts.",
+        "The gate prompt defines scene, dialogue, final-third, over-grounding, and source-fidelity sweeps plus suggestion output."
+      ]
+    },
+    {
+      "id": "G-011",
+      "phase": 4,
+      "ref": "grounding-gate-schema-spec.md § Revision Loop Design",
+      "title": "Integrate grounding gate routing into the orchestrator",
+      "description": "Modify the orchestrator so it dispatches the grounding gate after the grounder, routes on pass or fail, and handles the grounder revision loop with versioned v2g-rN files. This wires the new quality gate into the actual afternoon chapter flow.",
+      "type": "modify",
+      "target": ".github/agents/afternoon-orchestrator.agent.md",
+      "prerequisites": ["G-010", "G-009"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [],
+        "modifies": [
+          ".github/agents/afternoon-orchestrator.agent.md"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The orchestrator dispatches the grounding gate after the grounder and before the expander.",
+        "The orchestrator defines retry, revision-loop, promotion, and exhaustion behavior for grounding gate failures."
+      ]
+    },
+    {
+      "id": "G-012",
+      "phase": 4,
+      "ref": "grounding-refinement-plan.md § Phase 5 - Cross-pipeline integration plan",
+      "title": "Add config semantics for grounding gate and chunking controls",
+      "description": "Extend the documented config surface to cover grounding gate enablement, iteration limits, and any chunking-related controls that need to be story-configurable. This keeps the new flow explicit and maintainable.",
+      "type": "modify",
+      "target": ".github/skills/afternoon-pipeline/references/config.md",
+      "prerequisites": ["G-011"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [],
+        "modifies": [
+          ".github/skills/afternoon-pipeline/references/config.md",
+          "docs/afternoon-pipeline-technical.md"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The config reference documents grounding gate enablement and iteration behavior.",
+        "Any chunking or mode-control field added for the grounder is documented in the technical surface."
+      ]
+    },
+    {
+      "id": "G-013",
+      "phase": 4,
+      "ref": "grounding-refinement-plan.md § Phase 5 - Cross-pipeline integration plan",
+      "title": "Update afternoon pipeline docs, skill refs, and changelog",
+      "description": "Update all user-facing and agent-facing documentation to reflect the new grounding flow, the grounding gate, and the revised grounder responsibilities. This preserves cross-surface consistency when the behavior changes land.",
+      "type": "modify",
+      "target": "docs/afternoon-pipeline-architecture.md",
+      "prerequisites": ["G-012"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [],
+        "modifies": [
+          "docs/afternoon-pipeline-architecture.md",
+          "docs/afternoon-pipeline-technical.md",
+          "docs/afternoon-pipeline-guide.md",
+          "docs/afternoon-pipeline-changelog.md",
+          ".github/skills/afternoon-pipeline/references/architecture.md",
+          ".github/skills/afternoon-pipeline/references/agents.md"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All affected docs and skill references describe the same post-change pipeline order and agent contracts.",
+        "The changelog records the grounding-flow change and the reason for it."
+      ]
+    },
+    {
+      "id": "G-014",
+      "phase": 5,
+      "ref": "grounding-refinement-plan.md § Phase 6 - Validation and rollout protocol",
+      "title": "Run benchmark validation on chapter12 and chapter14",
+      "description": "Run the benchmark protocol against the known grounded and ungrounded chapter pairs to verify that the redesign improves dialogue embodiment and final-third reliability without unacceptable bloat. This is the main quality gate before rollout.",
+      "type": "verification",
+      "target": ".afternoon/chapters/",
+      "prerequisites": ["G-011", "G-012"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [
+          "research/copilotcli/grounding-benchmark-results.md"
+        ],
+        "modifies": []
+      },
+      "acceptanceCriteria": [
+        "The validation compares chapter12 and chapter14 against the shared grounding evaluation surface.",
+        "The results show whether dialogue grounding and final-third coverage improved without obvious rhythm damage."
+      ]
+    },
+    {
+      "id": "G-015",
+      "phase": 5,
+      "ref": "grounding-refinement-plan.md § Phase 6 - Validation and rollout protocol",
+      "title": "Verify cross-surface alignment and finalize rollout recommendation",
+      "description": "Perform a final consistency check across prompts, skill refs, config docs, orchestrator logic, and benchmark results. This is the final stop before any implementation is considered production-ready.",
+      "type": "verification",
+      "target": "research/copilotcli/",
+      "prerequisites": ["G-013", "G-014"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": [
+          "research/copilotcli/grounding-rollout-decision.md"
+        ],
+        "modifies": []
+      },
+      "acceptanceCriteria": [
+        "The final review confirms that prompt, gate, config, docs, and benchmarks all reflect the same design.",
+        "The rollout recommendation clearly states whether the redesign should ship, be iterated, or be partially adopted."
+      ]
+    }
+  ],
+  "executionOrder": {
+    "steps": [
+      {
+        "step": 1,
+        "phase": 1,
+        "tasks": ["G-001", "G-002", "G-003", "G-004", "G-005"],
+        "parallelSafe": true,
+        "note": "Create the shared grounding reference packet surfaces in parallel."
+      },
+      {
+        "step": 2,
+        "phase": 1,
+        "tasks": ["G-006"],
+        "parallelSafe": false,
+        "note": "Update the grounding skill router after the new reference files exist."
+      },
+      {
+        "step": 3,
+        "phase": 2,
+        "tasks": ["G-007"],
+        "parallelSafe": false,
+        "note": "Introduce the grounding-map artifact and mode-selection workflow."
+      },
+      {
+        "step": 4,
+        "phase": 2,
+        "tasks": ["G-008"],
+        "parallelSafe": false,
+        "note": "Add the mandatory dialogue-grounding and final-third passes."
+      },
+      {
+        "step": 5,
+        "phase": 2,
+        "tasks": ["G-009"],
+        "parallelSafe": false,
+        "note": "Expand grounder outputs and revision-mode artifact naming."
+      },
+      {
+        "step": 6,
+        "phase": 3,
+        "tasks": ["G-010"],
+        "parallelSafe": false,
+        "note": "Create the grounding gate prompt once the shared contract and grounder outputs are stable."
+      },
+      {
+        "step": 7,
+        "phase": 4,
+        "tasks": ["G-011"],
+        "parallelSafe": false,
+        "note": "Wire the grounding gate and revision loop into the orchestrator."
+      },
+      {
+        "step": 8,
+        "phase": 4,
+        "tasks": ["G-012"],
+        "parallelSafe": false,
+        "note": "Document the new config semantics after orchestration behavior is defined."
+      },
+      {
+        "step": 9,
+        "phase": 4,
+        "tasks": ["G-013"],
+        "parallelSafe": false,
+        "note": "Update all user-facing and agent-facing docs once the implementation shape is fixed."
+      },
+      {
+        "step": 10,
+        "phase": 5,
+        "tasks": ["G-014"],
+        "parallelSafe": false,
+        "note": "Run the benchmark validation on the target chapters."
+      },
+      {
+        "step": 11,
+        "phase": 5,
+        "tasks": ["G-015"],
+        "parallelSafe": false,
+        "note": "Perform the final cross-surface verification and rollout recommendation."
+      }
+    ]
+  }
+}

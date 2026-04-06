@@ -22,6 +22,6 @@ Jaina did not answer.
 
 Another kinetic pulse. Closer now. The glyphs ruptured one after another to leather boots driving over them without breaking stride. A pause at the ossuary gate. Angle checked. Then a sprint again, faster than before.
 
-Kel'Thuzad's eyes narrowed. "You know the footfalls."
+Kel'Thuzad's eyes narrowed. "You know our visitor."
 
 She did. She knew that cadence. Light armor crossing flagstones without drag, every blind corner cleared on the draw. She knew what kind of hunter had breached the crypt.
