@@ -1,0 +1,597 @@
+{
+  "chapterId": "chapter13",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 25,
+      "kills": 20,
+      "keeps": 5,
+      "severePagesOrScenes": [
+        "sanctum threshold and read (v2.md:167-219)",
+        "post-kill desk / exit sequence (v2.md:297-341)"
+      ],
+      "dominantPattern": "F4 — Narrative Over-Translation",
+      "findings": [
+        {
+          "location": "v2.md:185",
+          "line": "Desk under a chalk-filmed slate.",
+          "pattern": "F1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Part of a fragment-stack inventory paragraph where multiple noun-fragment sentences repeat the same clipped template until the sanctum read starts sounding mechanically segmented instead of observed.",
+          "suggestedFix": "A chalk-filmed slate hung over the desk.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:199",
+          "line": "Cold tea close at hand.",
+          "pattern": "F1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Another noun-fragment in the same repetitive sanctum inventory run; the paragraph keeps landing on the same short-label rhythm instead of varying its sentence shape.",
+          "suggestedFix": "A cold cup sat within easy reach.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:301",
+          "line": "Open folios. Nested diagrams.",
+          "pattern": "F1",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The desk paragraph reuses the same fragment-stack template from the sanctum read, extending the rhythmic sameness into the exit beat.",
+          "suggestedFix": "Open folios lay beside nested diagrams.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:135",
+          "line": "The woman's mouth tightened.",
+          "pattern": "F2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Generic emotional-label beat adjacent to dialogue; the beat names tension without giving a character-specific action.",
+          "suggestedFix": "The woman's answer came through clenched teeth.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:227",
+          "line": "Jaina's mouth tightened.",
+          "pattern": "F2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Generic micro-expression beat that could belong to almost any character and merely captions the tension already present in the exchange.",
+          "suggestedFix": "Jaina's mouth drew flat.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "location": "v2.md:185",
+          "line": "one hand near an open folio as if interrupted in ordinary work",
+          "pattern": "F3",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Hedge phrase 'as if' softens a direct room-read that Sylvanas is already making from concrete evidence.",
+          "suggestedFix": "one hand near an open folio, caught mid-task",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:199",
+          "line": "as if the whole place had admitted her",
+          "pattern": "F3",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "reason": "The hedge 'as if' pads a judgment Sylvanas has already made from the room-state, and the same fragment also launders agency onto the building.",
+          "suggestedFix": "with the settled posture of someone already inside the work",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "intent-smear-agency-laundering-guide.md"
+          ]
+        },
+        {
+          "location": "v2.md:219",
+          "line": "Perhaps never.",
+          "pattern": "F3",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Single-word hedge weakens a decisive close instead of committing to Sylvanas's harder judgment.",
+          "suggestedFix": "Never.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:275",
+          "line": "Almost no drama to it.",
+          "pattern": "F3",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Hedge word 'Almost' softens an image that is already strong and direct on its own.",
+          "suggestedFix": "There was no drama to it.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:373",
+          "line": "Perhaps because the question had changed; no one wondered now whether they were reaching the island or leaving it.",
+          "pattern": "F3",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The hedge 'Perhaps' makes the crossing summary less direct even though the paragraph already supports the conclusion.",
+          "suggestedFix": "The question had changed; no one wondered now whether they were reaching the island or leaving it.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:189",
+          "line": "That ordinary shape did the worst of it.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The preceding office details already show why the tableau wounds Sylvanas; this sentence translates the image instead of trusting it.",
+          "suggestedFix": "Delete this sentence.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:191",
+          "line": "Only evidence.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "After listing chains, circles, force, and room-state, this fragment summarizes the same point in abstract form.",
+          "suggestedFix": "Delete this sentence.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:211",
+          "line": "That was the wound in it.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Kel'Thuzad's honest praise already lands as the injury; this sentence subtitles the damage instead of letting the line do it.",
+          "suggestedFix": "That honesty hurt worse than a sneer would have.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:249",
+          "line": "Functional. Damaging.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The previous sentence already shows the cost in the widened line and confirmation gap; this pair restates the conclusion in abstract labels.",
+          "suggestedFix": "It still worked, and Sylvanas felt the cost.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:303",
+          "line": "Too much time here. Too much proof of its shape.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The open folios, copied pages, chalk, and cold cup already prove the duration and nature of the exchange; this sentence restates the desk evidence in summary form.",
+          "suggestedFix": "The cold cup and worked pages said how long the conversation had lasted.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:97",
+          "line": "Scholomance had laid school habits over butcher's work and called the cuts method.",
+          "pattern": "F6",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "reason": "Inventory paragraph closes with a thesis-like capstone that interprets the rooms instead of ending on one of the concrete horrors it just listed.",
+          "suggestedFix": "Scholarly order sat over butcher's work, making every cut look methodical.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "intent-smear-agency-laundering-guide.md"
+          ]
+        },
+        {
+          "location": "v2.md:217",
+          "line": "The room gave Sylvanas the answer and she took it.",
+          "pattern": "F6",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "After the sanctum inventory, this sentence turns the paragraph into claim-plus-conclusion instead of staying inside the observed evidence.",
+          "suggestedFix": "Sylvanas had her answer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "intent-smear-agency-laundering-guide.md"
+          ]
+        },
+        {
+          "location": "v2.md:337",
+          "line": "Scholomance had changed with Kel'Thuzad dead beneath it.",
+          "pattern": "F6",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Thesis-opening sentence declares the state of the building before the paragraph gives the concrete ward and light evidence.",
+          "suggestedFix": "Kel'Thuzad's death left the place running on habit.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:329",
+          "line": "Only the spacing had changed.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Paragraph-finishing emotional summary closes the climb on interpretation instead of letting the escort geometry stand on its own.",
+          "suggestedFix": "Their new spacing stayed with them on the climb.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:349",
+          "line": "Future problem. Not tonight's.",
+          "pattern": "F7",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "This caps the Jandice beat with a neat interpretive button instead of stopping on the escape itself.",
+          "suggestedFix": "Jandice Barov could wait.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:401",
+          "line": "Enough for this stretch of road. The rest could wait until the horses found rhythm and the dark gave them room to hear themselves think.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Scene-end closure sentence explains how the ride will contain the next conversation instead of ending harder on action or dialogue.",
+          "suggestedFix": "The rest could wait until the horses found rhythm.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "intent-smear-agency-laundering-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 12,
+      "kills": 8,
+      "keeps": 4,
+      "clusterFlags": [
+        "sanctum read and aftermath (v2.md:185-327)"
+      ],
+      "repeatNouns": [
+        "room/place"
+      ],
+      "pattern4Alert": "yes",
+      "dominantPattern": "Pattern 5 — objects / abstractions taking human agency",
+      "dedicatedP5P6Sweep": {
+        "candidates": 7,
+        "kills": 5,
+        "keeps": 2,
+        "notes": "Second sweep re-checked every sentence for inanimate subjects carrying desire, cognition, or judgment verbs. The main misses were table/place/room/partnership/dark constructions in the sanctum cluster."
+      },
+      "findings": [
+        {
+          "location": "v2.md:3",
+          "line": "The lake announced itself before the shore.",
+          "pattern": "Pattern 2 variant",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Geography is given a communicative verb. The real agents are cold, mist, and sightlines reaching Sylvanas before the shoreline becomes visible.",
+          "suggestedFix": "Cold reached them before the shoreline did.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:91",
+          "line": "An empty seventh table waited beside iron restraints and a basin gone pink at the drain.",
+          "pattern": "Pattern 5",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The table is given patient intention. The concrete reality is simply that a seventh work station stood ready beside restraints and a stained basin.",
+          "suggestedFix": "An empty seventh table stood beside iron restraints and a basin gone pink at the drain.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:97",
+          "line": "Scholomance had laid school habits over butcher's work and called the cuts method.",
+          "pattern": "Pattern 4",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "reason": "The institution is treated as self-aware enough to rename slaughter. The real agents are the scholars who organized the rooms and labeled the work.",
+          "suggestedFix": "Scholarly order sat over butcher's work, making the cuts look methodical.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md"
+          ]
+        },
+        {
+          "location": "v2.md:199",
+          "line": "as if the whole place had admitted her",
+          "pattern": "Pattern 5",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The building is given gatekeeping intention. The real evidence is Jaina's posture, the chalk, the cup, and her unguarded position in the room.",
+          "suggestedFix": "with the settled posture of someone already inside the work",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md"
+          ]
+        },
+        {
+          "location": "v2.md:217",
+          "line": "The room gave Sylvanas the answer and she took it.",
+          "pattern": "Pattern 2",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The room is made to answer a question. The real agents are the visible clues Sylvanas has just read and the inference she draws from them.",
+          "suggestedFix": "Sylvanas had her answer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md"
+          ]
+        },
+        {
+          "location": "v2.md:301",
+          "line": "Jaina's copied farmhouse pages beside his own work, claimed by the room now that they lay on his wood.",
+          "pattern": "Pattern 5",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The room is given possessive agency. The concrete fact is that Jaina's copied pages now lie on Kel'Thuzad's desk beside his notes.",
+          "suggestedFix": "Jaina's copied farmhouse pages lay beside his own work on the desk.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:327",
+          "line": "The old partnership still knew how to move through danger.",
+          "pattern": "Pattern 4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "An abstraction is given retained knowledge. The real agents are Sylvanas and Jaina, who still move together out of habit and training.",
+          "suggestedFix": "They still knew how to move through danger together.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:401",
+          "line": "The rest could wait until the horses found rhythm and the dark gave them room to hear themselves think.",
+          "pattern": "Pattern 7",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Darkness is given permissive agency. The real mechanism is distance, hoofbeat rhythm, and the deferred conversation on the road.",
+          "suggestedFix": "The rest could wait until the horses found rhythm.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 14,
+      "kills": 8,
+      "keeps": 6,
+      "clusterPages": [
+        "sanctum read / aftermath cluster (v2.md:167-219, v2.md:293-337)"
+      ],
+      "clusterWarnings": [
+        "Pattern 2 fragment pivots repeat through Sylvanas's room-read and the post-kill silence."
+      ],
+      "dominantPattern": "Pattern 2 — fragment pivot",
+      "findings": [
+        {
+          "location": "v2.md:5",
+          "line": "Not mountain cold or road-night cold. A wet mineral chill that got under leather and stayed.",
+          "pattern": "Pattern 8",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Mundane reveal chain. The positive description carries the image without the rejected cold categories.",
+          "suggestedFix": "A wet mineral chill got under leather and stayed.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:79",
+          "line": "Not ruin. School.",
+          "pattern": "Pattern 2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Fragment pivot. The second word delivers the meaning; the first exists only to stage the contrast.",
+          "suggestedFix": "School.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:131",
+          "line": "Not fear. Hurt pride.",
+          "pattern": "Pattern 2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Fragment pivot. Sylvanas's read lands harder by naming the real motive directly.",
+          "suggestedFix": "Hurt pride.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:167",
+          "line": "Not the bark of a cornered man. A lecturer finishing a point.",
+          "pattern": "Pattern 2",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Negation setup only exists to tee up the real comparison. The lecturer image works on its own.",
+          "suggestedFix": "A lecturer finishing a point.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:173",
+          "line": "Not pleading. Not buying time. One voice laying out structure. The other worrying at it and testing the weak place.",
+          "pattern": "Pattern 7",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "reason": "Chained negation pile-up. The useful observation is the two-way analytical exchange, not the rejected alternatives.",
+          "suggestedFix": "They were laying out structure and testing it for weak places.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:205",
+          "line": "Not betrayal. Something colder.",
+          "pattern": "Pattern 2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Fragment pivot. The sentence defines the feeling by rejecting one noun before naming another.",
+          "suggestedFix": "Something colder than betrayal.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:293",
+          "line": "Not much. Enough.",
+          "pattern": "Pattern 2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Fragment pivot. 'Enough' carries the beat without the rejected quantity.",
+          "suggestedFix": "Enough.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:337",
+          "line": "Not empty. Not clean.",
+          "pattern": "Pattern 7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Chained negation. The paragraph can move directly to the concrete ward and light failures without staging two rejected descriptors first.",
+          "suggestedFix": "Still foul. Still active.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 10,
+      "kills": 5,
+      "keeps": 5,
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks tactically, in clipped finished judgments grounded in exits, spacing, threat, readiness, and what bodies are doing. Her sharper abstractions still land as operational conclusions, not polished thematic captions. She does not naturally narrate scenes as literary set-pieces or summarize their thematic meaning from above.",
+      "registerConfidence": "HIGH",
+      "severeScenes": [
+        "sanctum read / post-kill aftermath (v2.md:163-341)"
+      ],
+      "dominantPattern": "B1 — sentence too polished for the POV",
+      "structuralHabit": "yes — narrator voice intrudes most often at paragraph caps and interpretive desk / aftermath lines",
+      "findings": [
+        {
+          "location": "v2.md:163",
+          "line": "The clean room below all this would be the lie laid on top.",
+          "pattern": "B1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "This reads like an authored thematic caption, not Sylvanas's in-the-moment tactical perception; she can clock a polished sanctum over butcher's work, but 'the lie laid on top' is narrator polish.",
+          "suggestedFix": "The clean room below would sit over the same butcher's work.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:187",
+          "line": "An office at the bottom of a grave.",
+          "pattern": "B1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The line is elegant and epigrammatic in a way that sounds written about the scene rather than thought from inside Sylvanas's sweep of it.",
+          "suggestedFix": "A scholar's office buried under stone and bones.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:279",
+          "line": "For one strange instant he was closer to a lecturer deciding whether to finish the sentence than a dying man.",
+          "pattern": "B1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The comparison is too polished and theatrically balanced for Sylvanas under combat aftermath pressure; it sounds like narrator elegance rather than her body-close read.",
+          "suggestedFix": "For one strange instant he looked more annoyed at being interrupted than afraid of dying.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:341",
+          "line": "The work outlived the worker.",
+          "pattern": "B2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "This compresses the discard rooms into a thematic slogan. Sylvanas would register the persistent hooks, vats, and parts, not cap the sight with a maxim.",
+          "suggestedFix": "Kel'Thuzad was dead, but the hooks and vats were still there.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:403",
+          "line": "They formed by habit and damage both.",
+          "pattern": "B2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The sentence summarizes the trio's emotional geometry in an authorial compression that sounds more reflective than Sylvanas's immediate ride-out focus.",
+          "suggestedFix": "Habit put them back into line, but the damage stayed in the spacing.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "dominantPattern": "Tie — Tic 2 ('marked') and Tic 3 ('tightened/eased')",
+      "findings": [
+        {
+          "location": "v2.md:59",
+          "line": "She flattened herself under the window Cyndia had marked, listened, then eased up.",
+          "pattern": "Tic 2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "This is the weakest 'marked' use in the chapter: a mental / route-reference use competing with two stronger physical-mark instances. It is the excess instance beyond the cap.",
+          "suggestedFix": "She flattened herself under the window Cyndia had pointed out, listened, then eased up.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "location": "v2.md:227",
+          "line": "Jaina's mouth tightened.",
+          "pattern": "Tic 3",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The chapter reaches the hard cap on 'tightened' with too many emotional uses and not enough physical ones. This is the weakest emotional instance and should be the cut.",
+          "suggestedFix": "Jaina's mouth drew flat.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 43,
+    "totalKeeps": 24,
+    "guidesRun": 5,
+    "guidesWithKills": 5,
+    "killsWithFix": 43,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "43 KILL verdicts across 5 guides. The densest cluster is the sanctum read / aftermath, where over-translation, negation pivots, narrator seep, and agency laundering stack on the same room-read beats."
+  }
+}

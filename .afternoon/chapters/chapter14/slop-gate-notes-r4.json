@@ -1,0 +1,212 @@
+{
+  "chapterId": "chapter14",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "fixStrategy": "conservative",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 4,
+      "keeps": 4,
+      "severePagesOrScenes": [],
+      "dominantPattern": "F4 — Narrative Over-Translation",
+      "findings": [
+        {
+          "line": "Harness rings stayed almost silent; Thalassian tack was built for that.",
+          "pattern": "F3",
+          "severity": "MODERATE",
+          "word": "almost",
+          "deletionTest": "Harness rings stayed silent; Thalassian tack was built for that.",
+          "verdict": "KILL",
+          "reason": "The hedge word 'almost' weakens a straightforward physical observation; the sentence gets cleaner when the hedge drops.",
+          "suggestedFix": "Harness rings stayed quiet; Thalassian tack was built for that.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "A longer one meant fear dressed as deliberation.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "whatItRestates": "Antonidas's longer pause after Jaina names the plague mechanism and broader threat chain.",
+          "verdict": "KILL",
+          "reason": "Antonidas's silence already carries the pressure; this sentence translates the beat into an abstract psychological caption.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "There it was, stripped of manners at last.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "whatItRestates": "Antonidas's blunt question: \"Can it be stopped?\"",
+          "verdict": "KILL",
+          "reason": "The question itself is the moment; this line adds an interpretive subtitle instead of trusting the dialogue.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "She needed something else from it.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Kel'Thuzad had worked alone in a closed room, pleased with himself.",
+          "verdict": "KILL",
+          "reason": "The paragraph already sets the contrast; this closer finishes the thought in abstract terms instead of stopping on the concrete image.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "dominantPattern": "Pattern 5/9 — abstraction acting on its own",
+      "targetedSweepNote": "Dedicated P5/P6 re-sweep found no additional kills beyond the abstraction at line 321. Road, dust, smoke, and bell verbs stayed literal physics or established collective action.",
+      "findings": [
+        {
+          "line": "Her thoughts were already ordering themselves against the Stratholme map she carried from old lessons and newer reports: markets, bakers, warehouse lanes, the service roads that fed the city its grain.",
+          "subject": "thoughts",
+          "verb": "ordering themselves",
+          "realAgent": "Jaina, who is actively arranging the city layout into a usable intervention plan.",
+          "pattern": "Pattern 5/9",
+          "verdict": "KILL",
+          "reason": "The sentence launders Jaina's active planning onto an abstraction instead of naming her as the one organizing the map.",
+          "suggestedFix": "Jaina set her thoughts against the Stratholme map she carried from old lessons and newer reports: markets, bakers, warehouse lanes, the service roads that fed the city its grain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in quick, built logic. She notices magical mechanism, route geometry, and whether another mind can keep up; even under pressure she stays exact rather than lyrical. She can go fragmentary in thought, but her interiority stays practical and analytic, not proverb-like or theme-polished.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "severePagesOrScenes": [],
+      "dominantPattern": "A7 — Generalizing constructions",
+      "structuralHabit": "yes — pressure beats keep sliding toward polished caption lines or proverb-like compression.",
+      "findings": [
+        {
+          "line": "Armed people riding hard in one direction always meant the trouble was ahead.",
+          "tier": "A",
+          "pattern": "A7",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The proverb-like 'always meant' zooms out from Jaina's immediate read into an authorial generalization about armed traffic.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "There it was, stripped of manners at last.",
+          "tier": "A",
+          "pattern": "A1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This lands as a polished caption pinned over Antonidas's question rather than the raw thought Jaina would actually have in the saddle.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Doors still unlocked because no one yet believed they were the hinges of a massacre.",
+          "tier": "B",
+          "pattern": "B4",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can think in logistics and consequence, but 'hinges of a massacre' is a thematic flourish that sounds authored over her shoulder instead of drawn from her active planning register.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "Doors still unlocked because no one yet believed the grain had turned those doors dangerous.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "cleanReason": "3 candidates examined. 'I did not go there to be impressed' / 'You went there to understand' is an active binary diagnostic about Jaina's motive; 'That will buy me noise, not votes' is a concrete political distinction; 'Not with what I have in hand' states a hard capability limit. No pattern cluster repeated across the chapter."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "cleanReason": "Tic 2 'marked' appears once in a literal landmark use ('marked by a weather-grey shrine post'), well under the cap. Tic 3 'tightened' appears exactly 3 times, with two physical rein-grip uses and one emotional stomach use, so there is no excess to kill. Tic 5 eye/gaze beats stays at two functional route-attention beats ('kept her eyes on the ruts ahead' / 'kept her eyes on the south road'), below the cap; no corner-of-mouth, weight-metaphor, facial-shift, or non-'said' overage triggered."
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 19,
+    "guidesRun": 5,
+    "guidesWithKills": 3,
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "8 KILL verdicts across 3 guides (gpt-5-prose-issues: 4, narrator-seep: 3, intent-smear: 1). Conservative minimal-fix strategy applied because iterationKills plateaued/increased ([27, 27, 17, 19])."
+  }
+}

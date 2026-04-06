@@ -1,0 +1,242 @@
+{
+  "chapterId": "chapter13",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 13,
+      "kills": 10,
+      "keeps": 3,
+      "severePagesOrScenes": [
+        "sanctum tableau",
+        "return crossing / road re-formation"
+      ],
+      "dominantPattern": "F4 — Narrative Over-Translation",
+      "findings": [
+        {
+          "line": "That bought stillness.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The pin and threat already forced compliance; this sentence subtitles the result instead of trusting the beat.",
+          "suggestedFix": "The woman went still.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Books, boards, and specimen jars filled the stone room.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Restates the detailed room sweep that the previous sentence already delivered with more specificity.",
+          "suggestedFix": "Specimen jars crowded the walls around the boards.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Worse: she stood like she belonged there.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The chalk, posture, cold cup, and room placement already carry the read; this sentence explains the conclusion.",
+          "suggestedFix": "She stood three strides off the board, staff down, settled into the room instead of braced against it.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "A weakness she could not ignore.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Turns Jaina's stillness into an abstract label instead of leaving the concrete hesitation on the page.",
+          "suggestedFix": "Jaina held still instead of reaching for the staff.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Sylvanas had her answer: Jaina was still useful and dangerous, but Kel'Thuzad could keep her there longer by feeding her structure than safety allowed.",
+          "pattern": "F4",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "reason": "Highly polished conceptual summary after the room, chalk, cup, and praise already let the reader make the inference.",
+          "suggestedFix": "Kel'Thuzad could hold her with a board and a question longer than chains would have.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "It still worked, and Sylvanas felt the cost.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The widened lane and extra confirmation already show the partnership cost; this sentence translates it.",
+          "suggestedFix": "It worked, but she had checked before she moved.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "He gave one last useful fact before he folded.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Restates the just-spoken corridor data instead of ending on the line itself.",
+          "suggestedFix": "Even dying, he gave them a direction.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "The cup had gone cold beside pages worked over long enough to grind chalk into the grain.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Duplicates the desk evidence from the previous sentence instead of advancing the beat.",
+          "suggestedFix": "The cup sat cold beside pages dusted white from use.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Jaina kept pace easily enough, but the quiet around her felt heavier now.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Scene-state summary closes over the silence after the route and body language already carry the strain.",
+          "suggestedFix": "Jaina kept pace easily enough, but she gave Sylvanas nothing beyond the steps themselves.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "narrator-seep-guide.md"
+          ]
+        },
+        {
+          "line": "They fell back into line by habit, but the old spacing never came back.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Interpretive closure arrives one beat before the chapter gives the concrete new formation.",
+          "suggestedFix": "They fell back into line by habit.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "cleanReason": "3 candidates examined from the main pass and dedicated P5/P6 sweep. The ward that can 'feel' a boat, the sanctum that 'answered' with a pulse, and the body that 'learns' or is 'released' are all literal magical-system behavior or explicit plague-mechanism science established by the chapter's subject matter. No metaphorical objects wanting, refusing, deciding, remembering, or teaching survived the fresh sweep."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 12,
+      "kills": 6,
+      "keeps": 6,
+      "severePagesOrScenes": [
+        "sanctum aftermath",
+        "exit route"
+      ],
+      "dominantPattern": "A1 — Verdict-tag fragments",
+      "findings": [
+        {
+          "line": "Waiting to learn whether she still belonged on the same side of it.",
+          "pattern": "B2",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "This jumps from Jaina's visible pause to a polished conceptual read of her allegiance that sounds authored from outside Sylvanas's body.",
+          "suggestedFix": "Waiting to see where Sylvanas would put her next.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "He did.",
+          "pattern": "A1",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Verdict-tag fragment captions the prior sentence instead of leaving the look on the page.",
+          "suggestedFix": "Annoyance held a moment longer.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Quiet. Controlled.",
+          "pattern": "A2",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Slogan-stack fragment pair labels Jaina's state from above instead of staying with the observable breath beat.",
+          "suggestedFix": "Even that breath was measured.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Good. Any explanation here would sound like a plea, and Jaina left it unsaid.",
+          "pattern": "B2",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The line turns Sylvanas's practical read into a polished summary of Jaina's unspoken strategy.",
+          "suggestedFix": "Good. Jaina left it at that and moved.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "But the ordering mind was gone.",
+          "pattern": "B2",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Conceptual compression outruns the immediate physical evidence and sounds more like authorial framing than Sylvanas's live read.",
+          "suggestedFix": "Without Kel'Thuzad at the center, the wards were already slipping their pattern.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Jaina kept pace easily enough, but the quiet around her felt heavier now.",
+          "pattern": "A5",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Scene-state declaration abstracts the changed silence into mood language instead of staying with concrete behavior.",
+          "suggestedFix": "Jaina kept pace easily enough, but she gave Sylvanas nothing beyond the steps themselves.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 7,
+      "cleanReason": "7 candidates examined. The lake and corridor absence-beats are Sylvanas's tactical inventory style, not dead-weight pivots; the ward-function line is a real binary diagnostic that changes the crossing plan; the upward trail read and the visible-restraint line are spatial or captivity diagnostics; and Jaina's plague explanation in dialogue states a literal hard constraint. None of the candidates improved under the deletion test without losing scene logic."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severePagesOrScenes": [],
+      "dominantPattern": "Tic 2 — Overloaded \"marked\"",
+      "findings": [
+        {
+          "line": "Kel'Thuzad raised his head as another professional might mark a late arrival to an unpleasant meeting.",
+          "pattern": "Tic 2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "This is the third 'marked' instance in the chapter and the weakest one: figurative noticing rather than the stronger physical chalk-mark uses.",
+          "suggestedFix": "Kel'Thuzad raised his head as another professional might note a late arrival to an unpleasant meeting.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 17,
+    "totalKeeps": 21,
+    "guidesRun": 5,
+    "guidesWithKills": 3,
+    "killsWithFix": 17,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "17 KILL verdicts across 3 guides: gpt-5-prose-issues 10, narrator-seep 6, recurring-prose-tics 1. All 17 include concrete suggested fixes."
+  }
+}

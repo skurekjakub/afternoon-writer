@@ -1,0 +1,186 @@
+{
+  "chapterId": "chapter14",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 3-19: opening cadence stays within spec by alternating four short landscape beats with a single 29-word consequence sentence; the long close lands after enough snap to earn it.",
+        "Lines 21-35: Jaina's longer briefing clauses are boxed by Sylvanas's 2-4 word interrogatives, which keeps the talk from flattening into lecture rhythm.",
+        "Lines 39-67: the mechanism block uses built explanatory runs, but each run is punctured by blunt fragments ('Motion. Hunger. Direction.' at line 47) and short command questions ('Then fill it in.' at line 41).",
+        "Lines 93-117: the accusation exchange tightens correctly into terse call-and-response; the one longer sentence at line 111 is an earned reflective beat before Sylvanas narrows the frame again.",
+        "Lines 193-225: long introspection lines at 197 and 219 were re-read in meta-audit and retained; both are boxed by short dialogue and function as Jaina-only pressure valves, not monotone drift.",
+        "Lines 277-363: the relay interruption and closing run cut back to 3-14 word impact beats, including one-line paragraph emphasis at lines 303, 341, 353, and 355."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Line 25 drifted into briefing-passive language ('being softened, converted, and pushed'); revised to active field speech that still carries the strategic claim.",
+        "Line 43 originally leaned clinical/documentary with 'transport, storage, baking' and 'settles in the body'; revised toward road-level nouns and verbs ('road, granary, oven'; 'takes hold').",
+        "Line 67 carried a mild report cadence in 'early reads kept stalling' and 'had time to settle'; revised to what Jaina would say on horseback under pressure.",
+        "Line 121's 'solved the layer' sounded too note-shaped for spoken explanation; revised to 'thought he'd solved the part.'",
+        "Line 201's 'common cases' read clinical; revised to 'most cases' to keep Antonidas-call language expert but human.",
+        "Line 209's 'narrower interventions' was the memo-like peak of the chapter; revised to 'a few places to cut it' without dumbing Jaina down.",
+        "Line 225's 'another proof' abstracted an emotional refusal into essay language; revised to 'Stratholme starts proving me right.'",
+        "Line 319's 'fully dispersed' read like logistics prose; revised to 'broken up and sent out' for lived field language."
+      ],
+      "violations": 8,
+      "fixes": [
+        {
+          "line": 25,
+          "rule": "vocabularyStandards avoid list / document-voice ban — passive briefing language in dialogue",
+          "before": "This isn't a local outbreak. Lordaeron is being softened, converted, and pushed into someone else's war...",
+          "after": "This isn't local. They're softening Lordaeron first, turning it into someone else's war..."
+        },
+        {
+          "line": 43,
+          "rule": "vocabularyStandards baseline — clinical logistics wording in Jaina field speech",
+          "before": "The treated grain survives transport, storage, baking. The first layer settles in the body...",
+          "after": "The treated grain survives the road, the granary, the oven. The first layer takes hold in the gut..."
+        },
+        {
+          "line": 67,
+          "rule": "document voice vs living voice — mechanism explanation sounded report-shaped",
+          "before": "That's why the early reads kept stalling... until it has had time to settle.",
+          "after": "That's why the first reads kept catching only the shell... until it has time to take hold."
+        },
+        {
+          "line": 121,
+          "rule": "dialogue register contamination — abstract technical phrasing in spoken line",
+          "before": "He believed he had solved the layer that keeps memory and mind intact through death.",
+          "after": "He thought he'd solved the part that keeps memory and mind intact through death."
+        },
+        {
+          "line": 201,
+          "rule": "clinical register contamination — 'common cases' in dialogue",
+          "before": "What rises from common cases is low and crude, but it answers.",
+          "after": "What rises in most cases is low and crude, but it answers."
+        },
+        {
+          "line": 209,
+          "rule": "document voice vs living voice — memo phrasing in Antonidas exchange",
+          "before": "There may be narrower interventions... Somewhere the shell can be broken...",
+          "after": "There may be a few places to cut it... Anywhere the shell can be broken..."
+        },
+        {
+          "line": 225,
+          "rule": "avoid abstract summary language in emotional dialogue",
+          "before": "before Stratholme becomes another proof",
+          "after": "before Stratholme starts proving me right"
+        },
+        {
+          "line": 319,
+          "rule": "dialogue register contamination — logistics shorthand in live planning",
+          "before": "if the stores aren't fully dispersed already",
+          "after": "if the grain hasn't already been broken up and sent out"
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorCompliance",
+      "observations": [
+        "Counted roughly 5 figurative images across 3,079 words (~1.62 per thousand): lines 69, 135, 147, 297, and the pre-shot comparison at 37. Density is low but not intrusive.",
+        "Lines 135 and 297 source imagery stays grounded in signal, fire, and siege pressure ('flashed once like a signal'; 'a furnace with gates'), which matches war-road context.",
+        "Line 147's 'quick as a spark' is brief and physical; it sharpens contact without turning the moment ornamental.",
+        "No stacked metaphor chains or mixed source domains were found in the same sentence; paragraphs generally carry zero figurative language, as the policy prefers.",
+        "Numerically the chapter lands below the 2-4/1000 image target, but the meta-audit on the three weakest sections found that forcing new imagery would damage the pressure-chapter plainness. No metaphor expansion applied."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructureTransitions",
+      "observations": [
+        "Paragraph cadence stays varied on the page: 181 body paragraphs over 3,079 words for an average of 16.99 words per paragraph, with many one-line turns carrying pressure cleanly.",
+        "No paragraph exceeds the guide's ~120-word ceiling; the densest thought blocks at lines 13 and 323 stay under the cap and are immediately followed by motion or dialogue.",
+        "Lines 13-19 and 201-225 are the densest reflective stretches; both return to direct speech in the next paragraph instead of stacking introspection on introspection.",
+        "Scene transitions move by consequence rather than clock language: the Lor'themar call at 139-173, Antonidas call at 183-261, and relay rider at 277-311 all arrive as pressure events, not summary bridges.",
+        "Avoid-list transition words are present in dialogue or local syntax, not as chapter-spanning scaffolding; there is no planner-language bridge ('transition', 'sequence', 'geometry', 'vector', 'lane') in the prose."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "dialogueRatioAttribution",
+      "observations": [
+        "Dialogue-to-narration lands at 37.6:62.4. For a travel/aftershock chapter this is slightly narration-heavy versus the overall 45:55 target but still appropriate to the guide's lower-dialogue travel band.",
+        "The chapter keeps dialogue pressure alive anyway: lines 21-63, 69-133, 145-173, 187-261, and 279-335 all return to spoken conflict quickly after narration-heavy beats.",
+        "No-frills attribution dominates: said/asked equivalents are the default markers, with only one explicit force-tag attribution ('shouted' at line 279) and no run of decorative tags.",
+        "Action and spatial beats are used where posture matters: line 147 uses the passing touch as hinge into the recall call; lines 277-283 use mounted movement to orient the interruption before more dialogue starts.",
+        "Clean two-speaker runs are allowed to go untagged when clarity holds, especially in the Jaina/Sylvanas mechanism exchange and the Antonidas call. Reader orientation never collapses."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "expositionIntegration",
+      "observations": [
+        "The plague explanation stays tied to active decisions at lines 39-67, 117-133, 193-209, and 317-323; exposition arrives because Sylvanas or Antonidas needs a usable answer now.",
+        "The chapter preserves the style guide's expertise filter: Jaina does not define basic mage logic to herself. She moves straight to shell, hold, answer, ward failure, and feed points.",
+        "No narrator-side glossary paragraphs appear. Even the largest explanation blocks are broken by questions, bodily tells, or road detail within the same exchange.",
+        "Speculative elements are domesticated correctly: wards, reanimation, sending stones, and plague magic are treated as craft, threat, and failure mode rather than spectacle.",
+        "The organic-to-explicit balance stays healthy: explicit explanation is concentrated in two necessary briefings, while the rest of the chapter carries information through rider reports, bodily memory, and tactical planning."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelChecks",
+      "observations": [
+        "Power dynamics comply across the chapter. Sylvanas's lines stay shorter and more imperative at 23-57, 99-119, 161-167, and 315-335, while Jaina's syntax lengthens when she is explaining or defending.",
+        "Subtext density is strong in the sanctum-room argument at 69-133 and 265-275: the official topic is mechanism and disclosure, but the real subject is trust, contamination, and what Sylvanas saw.",
+        "Scene shape is sound: opening problem-in-motion road briefing (3-67), midpoint political turn via Lor'themar (139-173), second pressure turn via Antonidas (183-261), external escalation via relay rider (277-311), and cliff-edge forward push into Stratholme (343-363).",
+        "Action pacing is appropriate for a noncombat interruption: lines 277-311 privilege hoofbeats, bow position, skidding mud, and brief shouted information rather than overextended choreography.",
+        "Humor stays within policy and thins under horror pressure: Sylvanas's 'Then buy noise' at 167, Antonidas's dry 'That is never the comforting version with you' at 241, and 'That's a road answer' at 335 are brief, dry, and never quippy.",
+        "Speculative comfort and awe calibration stay compliant: nothing magical is treated as decorative wonder; every reference to plague magic, wards, or undeath is framed as consequence, utility, or breach."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Adverbs per page: 1.54 against a max of 4. The chapter stays well under the hard cap even with a few necessary tonal modifiers ('softly' at 259, 'quietly' none after fix pass).",
+        "Passive voice heuristic: 1.63% of sentences, under the 4% cap. Remaining passives are either natural dialogue or structurally harmless; the worst passive-report drift at line 25 was removed.",
+        "Show-versus-tell remains above floor. Shame, grief, and fear are carried by chalk, reins, road posture, touch, tilt, and omission more often than by direct label.",
+        "Simile overload stays controlled: 2 'like' constructions and 1 'as if' construction in the whole chapter, within anti-slop limits.",
+        "Anti-slop watchlist passed on the major failure modes: no planning vocabulary, no elegant-variation epithet churn, no expression-decomposition phrasing, and no repeated breath-tell dependence."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — after fixes at lines 25, 43, 67, 121, 201, 209, 225, and 319, Jaina stays precise, educated, and road-usable; no modern lab or memo jargon survives.",
+        "sentenceRhythm": "pass — lines 13-19, 39-67, 193-225, and 317-323 show built reasoning followed by snapped short beats; long lines 197 and 219 were checked against the spec and retained as earned introspection.",
+        "metaphorDensity": "pass — imagery stays sparse and grounded in signal, heat, and battlefield pressure (135, 147, 297), matching her low-to-moderate fingerprint without slipping ornamental.",
+        "emotionalRegister": "pass — shame and fear leak through bodily strain, omission, and over-focus on method at 85-117, 137-139, 219-259, and 337 instead of overt self-labeling.",
+        "thoughtPatterns": "pass — observation -> mechanism -> consequence -> revised plan governs the chapter, especially at 13-25, 39-67, 193-209, and 315-323; exposition filter stays tied to immediate decisions.",
+        "sensorySignature": "pass — chalk residue, tack noise, crystal warmth, ward failure, smoke, road ruts, and the bodily cost of knowing too much keep the narration in Jaina's tactile-magical lane."
+      },
+      "ruleViolations": [
+        "Document-voice cluster in explanatory dialogue at lines 25, 43, 67, 121, 201, 209, 225, and 319; all eight were revised to keep Jaina exact without sounding like a briefing memo.",
+        "Checked humorType, powerPosture, speculativeComfort, and expositionFilter against lines 21-67, 193-225, and 315-335; no extra violations remained after the register pass."
+      ]
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 1.54,
+    "passiveVoicePercent": 1.63,
+    "dialogueToNarrationRatio": "37.6:62.4",
+    "avgSentenceLength": 8.38,
+    "avgParagraphLength": 16.99,
+    "metaphorsPerThousandWords": 1.62
+  },
+  "totalObservations": 45,
+  "totalFixes": 8,
+  "wordCount": {
+    "before": 3071,
+    "after": 3079
+  }
+}

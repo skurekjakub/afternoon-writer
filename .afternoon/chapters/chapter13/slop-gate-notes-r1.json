@@ -1,0 +1,335 @@
+{
+  "chapterId": "chapter13",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 12,
+      "kills": 8,
+      "keeps": 4,
+      "severePagesOrScenes": [
+        "sanctum threshold scan",
+        "shore exit / relay handoff"
+      ],
+      "dominantPattern": "F1 — rhythmic fragment stacks",
+      "selfCheckNotes": "Re-read dialogue beats, filter verbs, scene endings, and the sanctum/extraction scene boundaries. F2 produced no KILLs because the surviving beats stay character-specific; F3 produced no KILLs because the chapter's negatives are mostly direct absence statements rather than hedges; F5 produced no KILLs because the sanctum crack stays unresolved and the chapter closes on damaged motion, not repair.",
+      "findings": [
+        {
+          "line": "Sylvanas found it. Narrow. High. Good.",
+          "pattern": "F1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Fragment-stack cadence repeats across the breach and sanctum scan passages, contributing to an overly even clipped-template rhythm.",
+          "suggestedFix": "Sylvanas found it: narrow, high, good.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Shelves. Crates. Bench. No corridor.",
+          "pattern": "F1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Another four-fragment scan in the same template family; the repetition turns Sylvanas's room reads into a mechanical cadence.",
+          "suggestedFix": "Shelves, crates, a bench. Storage room.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "No chains. No circle. No visible force.",
+          "pattern": "F1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "A third scan built from identical negation fragments lands in the same chapter rhythm cluster and reinforces the template feel.",
+          "suggestedFix": "Nothing visible held her there: no chains, no circle, no force.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Rooms opened off the corridor in a line. Pantry turned reagent store. Family archive turned records room. Sitting room stripped to stone and worktables.",
+          "pattern": "F6",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Inventory paragraph variant: the prose lists room conversions in essay-like sequence instead of staying inside immediate movement or one concrete focal image.",
+          "suggestedFix": "The corridor had been broken into workrooms: a pantry turned reagent store, a family archive turned records room, a sitting room stripped to stone and worktables.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Hurt pride.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The prior lines already carry Jandice's bitterness and envy through diction and context; this fragment subtitles what the prose has already shown.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Straight to the point. Useful first. No defense.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Caption stack translating Jaina's line after the dialogue already conveyed its clipped, utilitarian shape.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Short. Clean. No chalkboard in the voice now.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Post-dialogue captioning explains the register shift the line itself already showed.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "There it was. The next fire waiting open-mouthed.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Paragraph-close metaphorical mystification. The relay already delivers the new pressure; this closer insists on finishing the emotional thought.",
+          "suggestedFix": "There it was. The next fire was already ahead of them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "intent-smear-agency-laundering-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 10,
+      "kills": 7,
+      "keeps": 3,
+      "clusterFlags": [
+        "sanctum read and aftermath",
+        "road-handoff close"
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "dominantPattern": "P5 — objects / abstractions wanting, deciding, or expecting",
+      "dedicatedP5P6Sweep": {
+        "candidates": 4,
+        "kills": 4,
+        "keeps": 0,
+        "notes": "Fresh sentence-by-sentence P5/P6 sweep caught corridor expected, place running on habit, next fire waiting open-mouthed, and city eating its own dead."
+      },
+      "findings": [
+        {
+          "line": "Scuffs from harder field boots than this corridor expected.",
+          "subject": "corridor",
+          "verb": "expected",
+          "realAgent": "the corridor's usual traffic pattern and wear",
+          "pattern": "P5",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 5 — the corridor is given expectation; the actual comparison is between the scuffs and the kind of boots that usually pass here.",
+          "suggestedFix": "Scuffs from harder field boots than usually came through this corridor.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "After twenty steps the last pretense of manor went out of the place.",
+          "subject": "pretense",
+          "verb": "went out",
+          "realAgent": "the visible architecture shifting from manor remnants to older crypt stone",
+          "pattern": "P5",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 5 — abstraction behaves like an actor leaving the room; the sentence should name the architectural shift instead.",
+          "suggestedFix": "After twenty steps, the manor disguise gave way to the crypt.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "But the new gap lived in it.",
+          "subject": "gap",
+          "verb": "lived",
+          "realAgent": "the extra space Jaina is leaving in their coordination",
+          "pattern": "P5",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Pattern 5 — an abstract gap is made animate even though the next sentence names the concrete behavior creating it.",
+          "suggestedFix": "But Jaina still left extra room in it.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "The cold cup and worked pages said how long the conversation had lasted.",
+          "subject": "cup and pages",
+          "verb": "said",
+          "realAgent": "the visible evidence of cooled tea and sustained work",
+          "pattern": "P2",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 2 — evidence is made to speak instead of simply being read as evidence.",
+          "suggestedFix": "The cold cup and worked pages showed how long the conversation had lasted.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Kel'Thuzad's death left the place running on habit.",
+          "subject": "death",
+          "verb": "left",
+          "realAgent": "wards, lights, and routines still cycling after Kel'Thuzad is dead",
+          "pattern": "P5",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 5 — the abstract event is made to arrange the place's behavior instead of naming the residual systems that keep running.",
+          "suggestedFix": "With Kel'Thuzad dead, the wards and routines kept cycling on their own.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "There it was. The next fire waiting open-mouthed.",
+          "subject": "fire",
+          "verb": "waiting",
+          "realAgent": "the next crisis already lying ahead on the road south",
+          "pattern": "P5",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 5 — the coming crisis is anthropomorphized instead of named as the next emergency in front of them.",
+          "suggestedFix": "There it was. The next fire was already ahead of them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md"
+          ]
+        },
+        {
+          "line": "Ahead the south road ran through contaminated dark toward a city that might already be eating its own dead.",
+          "subject": "city",
+          "verb": "eating",
+          "realAgent": "the city's infected people",
+          "pattern": "P5",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "reason": "Pattern 5 — the city is given the population's action; the prose should assign the eating to the people inside it.",
+          "suggestedFix": "Ahead the south road ran through contaminated dark toward a city whose people might already be eating their own dead.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Clipped, tactical, and exact. She notices exits, posture, competence, proof, and battlefield-useful shifts first; when she compresses, it is usually into operational judgments rather than polished captions or group-wide thematic summaries. She can infer hard from evidence, but she does not naturally drift into epigraph-like phrasing or omniscient certainty about everyone else's interior state.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 11,
+      "kills": 6,
+      "keeps": 5,
+      "severePages": [
+        "sanctum read sequence",
+        "post-kill extraction and road handoff"
+      ],
+      "severeScenes": [
+        "scene 3 sanctum read",
+        "scene 5 extraction"
+      ],
+      "dominantPattern": "A1 — verdict-tag fragments",
+      "structuralHabit": "yes — clipped captions cluster whenever Sylvanas is reading Jaina's silence or Kel'Thuzad's calm",
+      "findings": [
+        {
+          "line": "One small failure to speak quickly enough.",
+          "tier": "A",
+          "pattern": "A1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This reads like a polished caption over Jaina's delay, not the kind of immediate tactical thought Sylvanas would phrase this way in the moment.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "That honesty hurt worse than a sneer would have.",
+          "tier": "B",
+          "pattern": "B1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence is rhythmically polished and interpretive in a way that sounds authored from above the moment rather than clipped through Sylvanas's body-first register.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "The plainness of it hit harder than a sneer.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "He had expected death the way another man expected weather.",
+          "tier": "B",
+          "pattern": "B4",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The weather simile is thematically neat but more polished and reflective than Sylvanas's immediate room-reading register at this instant.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "He looked at it without surprise.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Jaina knew.",
+          "tier": "B",
+          "pattern": "B2",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This turns Sylvanas's inference from spacing and silence into flat omniscient certainty about Jaina's interior state.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "The question had changed; no one wondered now whether they were reaching the island or leaving it.",
+          "tier": "B",
+          "pattern": "B3",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence steps outside Sylvanas into group-wide interpretive commentary about everyone's thoughts instead of staying with observable movement in the boat.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "The return crossing took less time. Everyone faced shore.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        },
+        {
+          "line": "Jaina landed light, but the room's careful stiffness was back in every joint.",
+          "tier": "B",
+          "pattern": "B2",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The conceptual phrase 'the room's careful stiffness' is more authored abstraction than Sylvanas's usual concrete read of posture and movement.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "Jaina landed light, but every joint had gone careful and rigid again.",
+          "fixDifficulty": "low",
+          "crossChecked": []
+        }
+      ]
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "cleanReason": "5 contrast candidates examined. The ward-function line is a hard tactical distinction that changes the crossing plan; the Jandice truth-vs-envy line and the sanctum tableau negatives are active binary diagnostics in Sylvanas's room-read; Jaina's mechanism lines are hard constraints about plague structure. Remaining negatives in the chapter were absence statements or direct denials, not negation pivots."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "cleanReason": "Checked all four tic families in chapter13 and cross-checked recent chapter finals for carryover. chapter13 has 0 corner-of-mouth beats, 2 literal physical 'marked' uses (at cap, both worth keeping), 1 physical 'eased' use, and 1 non-body 'tightened' use; no in-chapter or cross-chapter cap is exceeded."
+    }
+  ],
+  "summary": {
+    "totalKills": 21,
+    "totalKeeps": 21,
+    "guidesRun": 5,
+    "guidesWithKills": 3,
+    "killsWithFix": 21,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "21 KILL verdicts across 3 guides: gpt-5 prose issues (8), intent smear (7), narrator seep (6). All 21 include concrete suggested fixes."
+  }
+}

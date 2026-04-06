@@ -1,0 +1,166 @@
+{
+  "chapterId": "chapter10",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 3-11 open with one dense descriptive paragraph, then snap to the one-line turn at line 11; the emphasis rule is earned rather than ornamental.",
+        "Lines 21-35 keep the gate confrontation in clipped declaratives and short exchanges, matching the guide's competence-collision rhythm.",
+        "Lines 63-89 let Alexei's smoother evasions run longer, then Jaina cuts back to short questions; power and cadence track each other cleanly.",
+        "Lines 365-377 expand into Jaina's mechanism read, then puncture the run with the stand-alone line at 369: 'Resonance.'",
+        "Lines 547-579 use one longer stair-description sentence at 551, then tighten the close into short, pressured beats that keep forward drag."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Lines 31-33 keep Jaina's open-pressure language plain and usable: 'ask about his grain' stays scene-native instead of bureaucratic.",
+        "Lines 77-87 preserve Alexei's aristocratic evasiveness without sliding into memo-speak; his register sounds practiced, not administrative.",
+        "Line 111 originally used planner-like wording ('reclaiming one lane'); it was tightened to 'retaking the conversation' to keep the prose inside live social pressure.",
+        "Line 227 originally summarized the tour in process language; it now reads as Jaina noticing 'chosen rooms,' which is concrete and POV-bound.",
+        "Line 459 originally said 'The model is elegant'; it now says 'The design is elegant,' which stays technical without sounding like a paper abstract.",
+        "Line 467 originally used the more abstract 'threshold of response'; it now lands on 'answering point,' which fits Jaina's embodied magical logic better."
+      ],
+      "violations": 4,
+      "fixes": [
+        {
+          "line": 111,
+          "rule": "planning-vocabulary firewall / document voice",
+          "before": "\"The grain,\" Alexei said, reclaiming one lane with practiced smoothness, \"is my burden.\"",
+          "after": "\"The grain,\" Alexei said, retaking the conversation with practiced smoothness, \"is my burden.\""
+        },
+        {
+          "line": 227,
+          "rule": "document voice vs living voice",
+          "before": "They crossed two more corridors and a stair. By the second turn Jaina knew she was being shown a path rather than a place.",
+          "after": "They crossed two more corridors and a stair. By the second turn Jaina knew Jandice was walking her through chosen rooms."
+        },
+        {
+          "line": 459,
+          "rule": "document register contamination",
+          "before": "\"I'm not pretending anything. The model is elegant.\"",
+          "after": "\"I'm not pretending anything. The design is elegant.\""
+        },
+        {
+          "line": 467,
+          "rule": "academic-discipline contamination",
+          "before": "\"You're treating death as a threshold of response,\" Jaina said.",
+          "after": "\"You're treating death as the answering point,\" Jaina said."
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorPolicy",
+      "observations": [
+        "Line 5 uses 'patient logic of harvest work' once and moves on; the image comes from labor and scale, not decorative fantasy blur.",
+        "Lines 160-180 keep the lake and ward imagery tactile and infrastructural; the ward 'taste' and pressure suit Jaina's magical sensory lane.",
+        "Line 209's notation 'hit Jaina squarely in the chest' is one clean body-pressure image at a recognition point, not a stacked flourish.",
+        "Line 305's 'worse than rot' sharpens institutional horror in a single stroke and does not trigger a second competing image.",
+        "Line 563's pressure 'like weather against the face' stays within the guide's approved pressure/weather source domain."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "Most paragraphs remain 1-4 sentences, which matches the guide; the chapter's visual shape is mostly single-sentence or two-sentence pressure blocks.",
+        "Lines 5-11 give one heavier opener paragraph and then immediately return to a one-line action turn at 11, satisfying scene-balance guidance.",
+        "Lines 147-180 break the lake crossing into compact movement units rather than one descriptive slab; motion keeps interrupting description.",
+        "Lines 227-245 allow one denser archive paragraph, then line 247 returns straight to dialogue and live reaction.",
+        "Lines 551-579 let the descent take one earned longer paragraph, then shorten toward the cliff-edge close instead of ending on summary."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "dialogueAttribution",
+      "observations": [
+        "Explicit no-frills tags dominate the tagged lines: 57 uses of 'said' and 8 uses of 'asked' versus only 3 stronger tags, which stays within the anti-creative-tag rule.",
+        "Lines 19-35 use a clean two-speaker run with minimal tagging; clarity holds without decorative attributions.",
+        "Lines 69-89 keep Alexei and Jaina legible with sparse no-frills tags and social posture doing most of the work.",
+        "Lines 309-337 rely on alternating short lines and action beats instead of tag variety; the exchange remains easy to track.",
+        "Global dialogue-to-narration ratio measures at roughly 31:69 (1435 dialogue words to 3172 narration words), below the 45:55 overall target but still partly explained by the chapter's travel, archive, and dread-heavy sections."
+      ],
+      "violations": 1,
+      "fixes": []
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Lines 5-9 prioritize magical structure and exposure before social texture; Jaina reads wards, distance, and risk before she reads courtesy.",
+        "Lines 160-180 keep her sensory signature on teeth, ward taste, pressure, and lattice behavior rather than scenic awe.",
+        "Lines 209-245 lock into her scholar-pattern filter: notation, lineage, method, and the smell of Dalaran over corruption.",
+        "Lines 365-375 show classic Jaina thought progression: observed pattern -> hypothesis gap -> privacy ward -> risky contact with Antonidas.",
+        "Lines 391-409 keep her full-speed mage register for Antonidas alone, which matches the voice-sheet audience calibration."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 537,
+          "rule": "close-limited-third / over-translation",
+          "before": "Her stomach tightened instead. The master below had already decided.",
+          "after": "Her stomach tightened instead."
+        }
+      ]
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Likely adverbs per page come out to about 1.63, well under the floor of 4 per page.",
+        "Passive-voice candidates measure at roughly 3.92% of sentences, which stays just inside the guide's 4% ceiling.",
+        "Real simile load stays low: one substantive 'like' comparison at line 563, with no 'as if' constructions in chapter prose.",
+        "Filter-word use is limited and usually tied to social observation rather than generic distance; the chapter does not drown in saw/felt/heard scaffolding.",
+        "Showing remains dominant in the hall, archive, call, and descent sections; conclusions usually arrive through posture, material detail, and ward behavior first."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration passes: lines 160-190 and 243-245 embed worldbuilding in Jaina's immediate read of wards, infrastructure, and research rather than pausing for encyclopedia narration.",
+        "Power dynamics pass cleanly in the gate and hall scenes: lines 21-35 and 51-89 give Jaina short pressure lines while Alexei answers with smoother longer evasions.",
+        "Scene shape tracks the guide: the chapter opens with a problem already in motion, pivots hard at the handwriting mirror in lines 209-245, and resolves on cliff-edge forward pressure at 547-579.",
+        "Speculative domestication is strong throughout; wards, resonance, fungi, and necromantic process all read as working realities, not spectacle.",
+        "Subtext density is strongest in the Alexei/Jandice social fencing at lines 51-145, where courtesy is status-testing rather than plain disclosure.",
+        "Subtext density weakens in the theory duel at lines 457-499, where the argument becomes more explicit than the confrontation target would ideally allow; that was flagged but not expanded or re-concealed because adding new material would violate the no-new-content rule."
+      ],
+      "violations": 2,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — lines 5-9, 160-180, and 391-409 keep precise arcane diction without modern lab jargon; the few flatter abstractions at 459 and 467 were corrected.",
+        "sentenceRhythm": "pass — clipped questions and short judgments dominate pressure scenes, while longer reasoning chains appear only in the archive, sending-stone call, and mechanism talk.",
+        "metaphorDensity": "pass — about 3.04 metaphorical images per thousand words, grounded in weather, structure, pressure, and craft rather than ornate fantasy abstraction.",
+        "emotionalRegister": "pass — guilt and stress surface through over-focus, speed, stillness, and bodily tension at 371-375, 437-439, and 537 instead of open self-labeling.",
+        "thoughtPatterns": "pass — she moves from observation to pattern recognition to hypothesis to objection at 243-245, 365-375, and 459-489.",
+        "sensorySignature": "pass — teeth, ward taste, pressure, light, resonance, and the bodily cost of magical attention dominate her sensory lane."
+      },
+      "ruleViolations": [
+        "Global dialogue ratio remains low for the chapter's total mix (31:69); not fixed because solving it would require adding dialogue rather than tightening existing prose.",
+        "Lines 457-499 run more explicit than the confrontation subtext target ideally wants, but the exchange still sounds like Jaina and Jandice rather than an auditor's rewrite."
+      ]
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 1.63,
+    "passiveVoicePercent": 3.92,
+    "dialogueToNarrationRatio": "31:69 (1435 dialogue words / 3172 narration words)",
+    "avgSentenceLength": 12.03,
+    "avgParagraphLength": 16.22,
+    "metaphorsPerThousandWords": 3.04
+  },
+  "totalObservations": 42,
+  "totalFixes": 5,
+  "wordCount": {
+    "before": 4613,
+    "after": 4603
+  }
+}

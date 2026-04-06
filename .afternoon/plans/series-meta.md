@@ -1,0 +1,1237 @@
+# Afternoon Series Meta
+
+Cross-invocation planner and verifier notebook for the current run of the afternoon pipeline.
+
+## Chapter chapter1 — Planner Notes
+
+- **Chapter summary**
+  - Sylvanas starts in her element on routine Amani patrol work with Lor'themar, dodging the Convocation and enjoying the last easy stretch of road.
+  - A runner brings word of a human mage inside the ward line; Sylvanas rides to the Pass, finds Jaina Proudmoore in custody, and the chapter closes as a border nuisance hardens into an interrogation.
+- **Key beats**
+  - Beat 1: Sylvanas drops the last troll raider cleanly, establishing field competence and baseline ease.
+  - Beat 4: The runner reports an unauthorized human mage studying the ward-stones inside the first ring.
+  - Beat 5: Lor'themar turns north to absorb Convocation politics while Sylvanas takes the live problem south.
+  - Beat 8: Cyndia identifies the prisoner as Jaina Proudmoore, escalating the problem from trespass to political-security threat.
+  - Beat 9: Sylvanas chooses immediate interrogation and hands the chapter directly into Chapter 2.
+- **Characters active**
+  - Sylvanas — POV; begins at peak border-is-the-world posture.
+  - Lor'themar — field counterpart and political handoff lane; exits north after the report.
+  - Cyndia — border-post officer who supplies the clean factual briefing.
+  - Jaina — detained mage; present as pressure, not yet an earned ally.
+  - Mounted patrol, runner, border rangers, Amani raiders — operational texture and delivery mechanism.
+- **Threads opened**
+  - Something is wrong in the leylines and/or ward network.
+  - Jaina crossed into Quel'Thalas alone without credentials.
+  - Convocation budget politics and Lor'themar's northbound advocacy lane.
+  - The border problem may be larger than routine troll pressure.
+- **Threads advanced**
+  - None from prior chapters; this chapter plants the investigation lane, the Silvermoon politics lane, and the threat-to-asset partnership starting point.
+- **Structural notes**
+  - Validation warning: beats 1-3 all move upward in mood, so the opening comfort run is unusually smooth before beat 4 cuts it off.
+  - No scene-sequel alternation failure and no weak closing-hook issue.
+- **Enrichments of note**
+  - Eversong should read as curated amber forest and Amani frontier, not generic woodland.
+  - Thalassian Pass is a colder southern chokepoint where ward-stone vibration is physical and patrol horse handling stays quiet and practiced.
+  - Jaina's Antonidas link plus Sylvanas's Ranger-General authority makes the name reveal politically explosive on sight.
+- **Suggestions for next chapter**
+  - Open directly on the interrogation beat; do not replay the chapter-boundary line from outside Jaina's POV.
+  - Keep Sylvanas hard, suspicious, and operational. Trust is nowhere near earned.
+  - Let Jaina's first explanation establish leyline wrongness, lone crossing, and confiscated tools without softening the custody dynamic.
+
+## Chapter chapter1 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Open with character in motion and disturbance already in play; the troll kill plus runner intrusion keeps the chapter from opening in setup mode.
+  - Feed worldbuilding through action and sensation rather than lore pauses; Eversong, the ward-line, and the Pass all work best as operational texture.
+  - Preserve scene/sequel rhythm so each escalation changes the next decision; beats 2, 5, and 9 are load-bearing breathing-room beats.
+  - End on an unresolved confrontation rather than on explanation; the interrogation hook is the chapter's forward engine.
+  - Keep a mid-chapter turn; beat 4 is the true pivot where patrol comfort becomes investigation pressure.
+- **Structural modifications**
+  - Removed the premature identity reveal from beat 6 so beat 8 stays the canonical moment when Cyndia names Jaina.
+  - Tightened the arc-position `chapterTest` and `forcedChoice` wording so the chapter promises what the beats actually deliver: Sylvanas reclassifying a ward-line breach into her own operational problem.
+  - Left scene order intact; the chapter already pivots in the right place and does not need a reorder.
+- **Continuity snapshot**
+  - 9 new beats, 0 callbacks, 0 evolutions.
+  - Chapter 1 has no prior memory state, so every beat is annotated `continuityStatus: new` and `requiredMemory` stays empty.
+  - No memory contradictions or anti-reintroductions to fix yet.
+  - Locked canon for Chapter 2: Jaina has been detained for hours, her staff/materials were confiscated, Lor'themar and the patrol are already northbound, and the boundary line belongs to the chapter break.
+- **Active threads**
+  - Something is wrong in the leylines and/or ward network.
+  - Jaina crossed into Quel'Thalas alone without credentials.
+  - The contained-asset / sovereign-security dynamic between Sylvanas and Jaina.
+  - Convocation politics continuing north with Lor'themar.
+  - Whether Jaina can prove the warning fast enough to move Sylvanas south.
+- **Threads resolved this chapter**
+  - The opening troll sweep closes immediately; routine frontier work is finished before the real story intrudes.
+  - Sylvanas decides the prisoner will be interrogated by her, not left as a minor border-post nuisance.
+- **Chapter-end stance / carry-forward residue**
+  - Sylvanas: angry, alert, suspicious; the breach is now her problem, not background paperwork.
+  - Jaina: exhausted, unheard, politically dangerous, still needing Sylvanas to act.
+  - Lor'themar: northbound into the political lane, carrying the Convocation pressure off-page.
+  - Cyndia: established as competent border-post authority who can become active support in the next chapter.
+- **Chapter bridge note:** null for chapter 1.
+- **Warnings for next chapter**
+  - Do not replay the identity reveal or the boundary line from Sylvanas's POV.
+  - Keep the custody dynamic hard; this is not rapport yet.
+  - Make Jaina's explanation materially advance the contamination case instead of restating the runner's report.
+  - Let Sylvanas read fast and pressure-test hard; do not make her a blunt obstacle.
+  - Let Jaina begin slightly over-translated, then earn the register correction.
+
+## Chapter chapter2 — Planner Notes
+
+- **Chapter summary**
+  - Jaina finally gets a real listener, but the price is armed custody and a forced demonstration on the road south.
+  - The ride to Millhaven turns her warning physical: contaminated ground, a worsening leyline read, and a wildlife attack that proves the necromantic wrongness is already inside living tissue.
+  - By chapter close Jaina still dislikes Sylvanas, but she no longer reads her as a blunt obstacle; Millhaven waits ahead as the first real test site.
+- **Key beats**
+  - Beat 3: Jaina admits she came alone and unauthorized, making the case both weaker politically and stronger personally.
+  - Beat 4: Sylvanas shifts from interrogation to field test with the chapter's core order: show me.
+  - Beat 9: Sylvanas reveals she read the confiscated map properly, breaking Jaina's assumption that she has to translate downward.
+  - Beat 11: The deer-and-wolves attack proves the contamination is physical, lethal, and already warping living bodies.
+  - Beat 12: Jaina's carcass diagnosis confirms the wrongness is in tissue, blood, and organs before the party closes on Millhaven.
+- **Characters active**
+  - Jaina — POV; brilliant, impatient, too used to explanation carrying the argument by itself.
+  - Sylvanas — custodian turned field-test authority; fast reader, faster commander.
+  - Cyndia — border-post officer who becomes active escort lead and decisive finishing shot under pressure.
+  - Lyriel — right-flank escort and first fast shot in the wildlife fight.
+  - Neral — strong road rider and steady horse-control presence; still available for a later northbound dispatch.
+  - One unnamed escort ranger — fourth saddle only; do not build continuity weight on her.
+- **Threads opened**
+  - The contamination is not only in leylines; it has a physical footprint in ground, water, and living tissue.
+  - Jaina's read of Sylvanas as a blunt soldier is now cracked.
+  - Millhaven is the first place where the wrongness knots tightest.
+- **Threads advanced**
+  - Jaina's unauthorized border crossing now has a full motive and a sharper cost.
+  - The custody dynamic from Chapter 1 hardens into a working investigation ride instead of relaxing.
+  - The broader leyline-anomaly thread escalates from border warning to regional threat.
+- **Structural notes**
+  - Validation warning: Scene 2 beats 7-10 run four consecutive scene beats without a sequel; the chapter stays deliberately scene-heavy until the wildlife attack supplies the next breath.
+  - Normalized beat 2 dialogueGuidance away from near-scripted line wording.
+  - Retargeted beat 12 transitionIntent so it pulls into beat 13 instead of skipping straight to the chapter boundary.
+- **Enrichments of note**
+  - Jaina should read with established Warcraft III authority: Antonidas's standout apprentice, twenty-three, already credible as a plague investigator.
+  - Thalassian Pass should feel like a warded southern choke point; once they leave it, both magical dampening and homeland ease fall away.
+  - Plague behavior here should emphasize the threshold where living tissue is already answering necromancy without yet cashing out the full vector answer.
+- **Suggestions for next chapter**
+  - Open directly on the mounted approach to Millhaven; do not waste the closing hook by backing up.
+  - Keep Jaina in full but tense mage register after the correction; she should still be irritated, just no longer condescending.
+  - Let Sylvanas's field judgment and Jaina's magical read converge on the village without granting either woman early trust or softness.
+
+## Chapter chapter2 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Continue chapter two directly from the prior hook instead of pausing for recap; the interrogation opens on the same beat and keeps the king awake.
+  - Keep thriller pressure pointed at the next problem, decision, or consequence; the chapter was judged on whether every scene moved toward proof, danger, or Millhaven.
+  - Travel scenes need concrete goals and an active environment; beats 7-10 were evaluated as road scenes that must escalate danger, not merely cover distance.
+  - Short action bursts need a reaction-and-choice beat afterward; this shaped the scrutiny and revision of beat 12.
+  - Tight POV anchoring matters in a seam chapter; no outside-Jaina replay of the chapter-one boundary line, no detached recap voice.
+- **Structural modifications**
+  - Normalized the opening cast to the exact chapter1 handoff state; Lyriel and Neral now enter only when the mounted detail forms in beat 6.
+  - Seeded Sylvanas's confiscated-map use in beat 5 so the beat-9 correction is earned instead of convenient.
+  - Sharpened beat 10 from generic worsening into visible civilian abandonment and domestic collapse.
+  - Revised beat 12 so Jaina makes an explicit operational choice to give Sylvanas the full answer and accept her field read as necessary.
+  - Added a direct-carry `chapterBridge` locking chapter1 -> chapter2 as the same interrogation moment from Jaina's POV.
+- **Continuity snapshot**
+  - 2 new beats / 1 callback / 10 evolutions.
+  - Fixed 1 chapter-seam contradiction and 2 anti-reintroduction risks.
+  - Anti-reintroduction catches: the chapter boundary line stays a carryover moment, not a replay; Jaina's frost-burned knuckles and custody props stay established details, not fresh reveals.
+  - `requiredMemory` now points the writer at Jaina, Sylvanas, the pass / border-post state, the Antonidas tie, the Jaina-Sylvanas dynamic, and the leyline-warning thread.
+- **Active threads**
+  - The leyline warning has become physical: ground, water, tissue, and wildlife all answer the same wrongness.
+  - The political consequences of detaining Antonidas's apprentice are still open even though Sylvanas rides south.
+  - Jaina's read of Sylvanas has cracked: obstacle is becoming necessary counterpart, but trust is nowhere near earned.
+  - Millhaven is now the first real knot in the contamination pattern.
+- **Threads resolved this chapter**
+  - The immediate question of whether Sylvanas will listen resolves to action: she releases Jaina conditionally and rides south herself.
+  - Jaina's lone crossing motive is functionally answered: nobody believed her quickly enough, so she came without sanction.
+  - The border breach stops being a holding-room problem and becomes a live field investigation.
+- **Chapter-end stance / carry-forward residue**
+  - Jaina: still angry, still under custody, but no longer translating downward; she now knows surviving this road depends on field competence she does not possess.
+  - Sylvanas: still controlling and skeptical, but now treating Jaina as an active guide whose answers shape real decisions.
+  - Cyndia / Lyriel / Neral: escort lane established with distinct tactical jobs for the Millhaven entry.
+- **Chapter bridge note:** direct carry from chapter1's closing interrogation beat; same room-state, same pressure, new POV, no time skip.
+- **Warnings for next chapter**
+  - Do not soften the dynamic into trust or easy camaraderie.
+  - Millhaven must reveal more than 'the contamination is worse'; the village entry needs a fresh tier of consequence after the scene-heavy road chapter.
+  - Keep the named escorts tactically distinct on entry so they do not blur into one ranger mass.
+  - Do not drop the political aftershock of Jaina's identity and unauthorized crossing just because the chapter turned south.
+
+## Chapter chapter3 — Planner Notes
+
+- **Chapter summary**
+  - Sylvanas leads the party into Millhaven and finds the first village fully taken: intact houses, missing bodies, contamination everywhere, and no clean answer from spoor alone.
+  - A cellar survivor plus a second tracking pass confirm the dead marched north toward Quel'Thalas; Sylvanas sends Neral north with the child and warning.
+  - On the road south, an old grain seller gives useful local color and one odd farewell, while the core party narrows to Sylvanas, Jaina, Cyndia, and Lyriel.
+- **Key beats**
+  - Beat 3: Jaina proves the whole village is saturated without solving the vector.
+  - Beat 4: Sylvanas confirms many bodies walked out of Millhaven, but not yet where.
+  - Beat 6: The survivor mentions night movement north and a newer grain man.
+  - Beat 7: Sylvanas and Cyndia confirm a northbound undead movement toward Quel'Thalas.
+  - Beat 8: Neral takes the warning and the girl north, locking the smaller road party.
+- **Characters active**
+  - Sylvanas — POV; field-read pressure forces her to use Jaina's magic as part of the operational picture.
+  - Jaina — magical reader whose usefulness stops being optional color.
+  - Cyndia / Lyriel — escort pair holding the ground read and southbound continuity.
+  - Neral — temporary third ranger; exits north with the dispatch and survivor.
+  - Survivor girl — cellar witness; confirms rising dead and the north-road movement.
+  - Old grain seller — useful local contact, secretly Mal'Ganis on the meta layer, not suspicious on-page.
+- **Threads opened**
+  - Millhaven is the first fully claimed village on this road.
+  - The dead are moving north in rough formation toward Quel'Thalas.
+  - "New grain seller" enters the file as a weak unresolved clue.
+  - "May the stars keep your road" snags on Sylvanas without resolution.
+- **Threads advanced**
+  - Jaina's read becomes operationally necessary rather than optional consultation.
+  - Sylvanas's border-defense framing bends: she warns home and keeps pushing deeper south.
+  - Escort composition tightens toward the durable quartet for the next stretch.
+- **Structural notes**
+  - Opening stays scene-heavy until beat 8; Scene 1 is an intentionally relentless four-beat darkening run.
+  - Current outline supersedes the older `investigation-arc.md` survivor-family summary; use the cellar-survivor / Neral-dispatch version going forward.
+  - Normalized beat labels, added scene arc-pressure where earned, and trimmed several sensory anchors into keyword clusters.
+- **Enrichments of note**
+  - Millhaven should feel like a normal Lordaeron border village — timber, thatch, mud, harvest routine — so the silence lands as violation, not gothic default.
+  - Canon plague rhythm supports sickness first, death next, then feral night movement; keep the vector hidden even when the sequence is visible.
+  - The old trader should feel forgettable and useful, not sinister; the farewell is the only surface snag.
+- **Suggestions for next chapter**
+  - Open with the reduced party two days south, already carrying the warning they could send but not verify from home.
+  - Keep Sylvanas in command but now expecting Jaina to speak when the magical half turns strange.
+  - Let the next village reveal live-settlement misunderstanding, not another empty-village replay.
+
+## Chapter chapter3 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Millhaven now reads through interrupted domestic normalcy, silence, and delayed explanation instead of generic spooky emptiness.
+  - The chapter's long horror run is anchored by compressed sequel beats at 8 and 11 so the pressure does not flatten into sameness.
+  - The survivor's testimony stays fragmented, image-led, and only partly reliable, which keeps the witness scene from turning into neat exposition.
+  - The close preserves forward pressure by carrying southbound pursuit, unresolved vector questions, and a faint road clue instead of resolving the outbreak mechanism.
+- **Structural modifications**
+  - Retyped every `transitionIntent` into explicit causal-pull language so each beat hands clearly into the next.
+  - Shifted beat 8 from already-complete separation to split-imminent dispatch, letting beat 9 keep Neral and the survivor on-page without contradiction.
+  - Added a same-moment chapter bridge from chapter 2 and a targeted `requiredMemory` list for Millhaven, the vector thread, escort distinction, and the Sylvanas/Jaina lane.
+- **Continuity snapshot**
+  - 3 new beats / 0 callbacks / 8 evolutions.
+  - Fixed 1 state contradiction and 2 anti-reintroduction risks.
+  - Required memory now points to `locations/millhaven`, `threads/millhaven-fate`, `characters/jaina-proudmoore`, `threads/living-contamination-vector`, `characters/cyndia`, `characters/neral`, and `relationships/jaina--sylvanas`.
+- **Active threads**
+  - Millhaven's dead marched north toward Quel'Thalas in rough formation.
+  - The living-contamination vector is still unresolved; grain is only a weak clue, not a solved mechanism.
+  - The old grain seller and his odd farewell remain a faint unresolved breadcrumb and must stay faint.
+  - Sylvanas and Jaina are now building one operational picture out of two kinds of evidence, still without warmth or trust.
+  - The road south remains live; the next village is still inhabited enough to misunderstand the danger.
+- **Threads resolved this chapter**
+  - Millhaven stops being a distant hook and becomes a known disaster: intact village, missing dead, one survivor, northbound undead movement.
+  - Neral's dispatch lane cashes out here; she and the unnamed escort rider peel north with the child and warning.
+- **Chapter-end stance / carry-forward residue**
+  - Sylvanas: still frames this as border defense, but now expects Jaina's read to be part of the field map whenever the wrongness turns strange.
+  - Jaina: still under leash, still not trusted, but no longer optional color in the investigation.
+  - Cyndia: remains the grounded ranger Sylvanas trusts most on the spot.
+  - Lyriel: stays the quartet's quick-shot flank presence rather than blending into generic escort mass.
+  - Neral: exits southbound continuity and carries warning, child, and urgency north.
+- **Chapter bridge note:** direct carry from chapter 2's final approach; same mounted party, no time skip, distant Millhaven hook turning into hands-on village entry.
+- **Warnings for next chapter**
+  - Do not treat grain as confirmed yet.
+  - Do not overplay the trader's odd farewell into active suspicion.
+  - The next village must feel different from empty-village dread: alive, functioning, and still misunderstanding what is happening.
+  - Keep the Sylvanas/Jaina lane cold-operational, not softened.
+  - Remember the southbound party is now only Sylvanas, Jaina, Cyndia, and Lyriel.
+
+## Chapter chapter4 — Planner Notes
+
+- **Chapter summary**
+  - Jaina and Sylvanas reach the first still-living village in the pattern and discover the plague hiding inside ordinary routine rather than aftermath silence.
+  - Jaina proves the sickness is entering through bread and repeated ingestion while Sylvanas independently traces the same supplier pattern from Millhaven; the combined read turns the case from outbreak response into a deliberate grain-network hunt.
+  - A live watcher in the granary confirms conspiracy by action rather than confession, then dies by poison before he can give them names, leaving Andorhal as the next hard target.
+- **Key beats**
+  - Beat 2: Sylvanas wins access by pressure and timing rather than force, which is Jaina's first real correction beat.
+  - Beat 5: Jaina locks the gut-first pattern and confirms grain as the carrier.
+  - Beat 6: Sylvanas pulls the matching supplier-and-timeline thread from village routine.
+  - Beat 7: Their two partial reads finally click into one picture.
+  - Beat 10: The watcher's suicide proves trained operational security and closes the easy interrogation route.
+- **Characters active**
+  - Jaina — POV; still reaching for the neat magical answer first, but now forced to treat Sylvanas's read as part of the method.
+  - Sylvanas — logistics / people-read half of the investigation; wins access, spots the supplier pattern, and helps force the combined picture.
+  - Cyndia and Lyriel — still the active escort pair; present in the granary capture and prisoner movement.
+  - Militia captain, village medic, granary keeper — local authorities / witnesses for this outbreak site only.
+  - Village watcher / initiate — disposable local operative; dies before yielding names or structure.
+- **Threads opened**
+  - Grain is now confirmed as the carrier into living bodies.
+  - Village-level watchers are embedded inside the spread pattern.
+  - The road-and-storehouse network points southwest toward Andorhal.
+- **Threads advanced**
+  - The weak Millhaven grain-seller anomaly gains real weight without becoming proof.
+  - Jaina's read of Sylvanas shifts from blunt soldier to necessary analytic counterpart.
+  - The partnership moves from custody-friction into genuinely functional investigation.
+- **Structural notes**
+  - Validation warning: beats 1-6 run scene-heavy before the first sequel at beat 7; the chapter breathes late on purpose.
+  - Outcome texture skews strongly toward yes-but, with only one clean yes and two no-and turns.
+  - Cross-doc drift remains: older arc docs still call this chapter **The Dying Village**; the active outline title **The Sick Village** was kept as authority.
+- **Enrichments of note**
+  - Lordaeron village baseline should stay practical and ordinary — bread smoke, wet mud, timber-and-stone utility — so the sickness feels buried inside daily life.
+  - Gut-first, repeated-ingestion logic is now load-bearing for Jaina's Chapter 4 read and should stay consistent going forward.
+  - Andorhal is established as the breadbasket / granary hub, so later grain-network scenes should feel like spokes feeding a known center.
+- **Suggestions for next chapter**
+  - Open directly on the southwest grain-road pursuit; do not backtrack over the Chapter 4 decision.
+  - Keep the partnership colder than it may feel from inside the logic click; this is function, not trust.
+  - Carry forward the dead watcher's poison as proof of discipline and scale, but leave the exact organization unnamed until later evidence earns it.
+
+## Chapter chapter4 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Late pivots need fair planted evidence, so the Andorhal handoff was forced to come from on-page grain records and sack marks rather than pure chapter-end assertion.
+  - Long procedural runs need a real reaction-and-decision beat, so beat 11 was judged on whether it absorbed consequence instead of only pointing at the next chapter.
+  - Transition logic should carry explicit causal momentum, so every beat handoff was checked and retyped into a named carry rather than a generic next-step note.
+  - Fantasy investigation scenes work best when magic stays rule-bound and complications keep widening, so grain confirmation, the watcher, and the poison silence were all tested for escalation rather than easy resolution.
+- **Structural modifications**
+  - Retyped all 11 transitionIntent entries into explicit causal carries so the chapter threads cleanly from beat to beat and scene to scene.
+  - Added concrete Andorhal-bearing evidence in beat 9 through sack marks and ledger notes; the next target is now earned on-page.
+  - Clarified beat 10's concealed poison capsule so the witness death reads as enemy discipline, not ranger incompetence.
+  - Weighted beat 11 with real local containment orders for the captain and medic before the quartet rides on.
+- **Continuity snapshot**
+  - 3 new beats / 0 callbacks / 8 evolutions.
+  - No contradiction with prior memory state.
+  - Anti-reintroduction catches: broad necromancy remains established knowledge for Jaina, and the old seller / newer grain-man lane stays a weak clue even after the supplier match sharpens.
+  - Required memory now points to Millhaven, the Jaina-Sylvanas relationship, the living-contamination-vector thread, Jaina's profile, and the newer-grain-seller thread.
+- **Active threads**
+  - Grain is now confirmed as the carrier into living bodies, but the exact network behind it is still open.
+  - Village-level watchers are embedded in the spread pattern and trained to die before talking.
+  - Andorhal is now the next visible node in the grain road, but not yet proven as the ultimate source.
+  - Jaina and Sylvanas are now method-dependent on each other without any slide into softness.
+  - The old seller / newer grain-man anomalies remain unresolved and must stay unresolved.
+- **Threads resolved this chapter**
+  - The living-contamination-vector thread advances from weak grain suspicion to earned grain confirmation.
+  - The question of whether the next settlement would simply replay Millhaven resolves: this chapter proves the earlier, still-living stage of the same disaster.
+- **Chapter-end stance / carry-forward residue**
+  - Jaina: more certain of the mechanism, less certain that she can solve anything cleanly without Sylvanas's logistics and people-read.
+  - Sylvanas: still cold, still in command, but now openly operating as if Jaina's magical read belongs inside the field method.
+  - Cyndia and Lyriel: remain tactically distinct support rather than background escort blur, with capture and transport competence still visible.
+  - The quartet leaves the village carrying proof, a dead witness, containment instructions left behind, and a sharper south-west objective.
+- **Chapter bridge note:** intentional two-day jump from chapter3's recommitment south; same reduced quartet, same Millhaven proof, same weak grain clue, now landing in a village alive enough to misread its own doom.
+- **Warnings for next chapter**
+  - Open on the pursuit already in motion; do not replay the beat-11 departure choice.
+  - Keep Andorhal as the next visible node, not instant full-source certainty.
+  - Preserve the relationship lane as functional dependence only; no thaw, no easy banter reset.
+  - Keep the village watcher evidence local enough that later conspiracy escalation still has room to grow.
+  - Do not let the old seller / newer grain-man lane become retroactive certainty just because the grain route is now confirmed.
+
+## Chapter chapter5 — Planner Notes
+
+- **Chapter summary**
+  - Sylvanas and Jaina chase the grain trail through depots, inns, and ledgers until the contamination stops reading like a village problem and starts reading like a kingdom-scale road system.
+  - A cleaned depot and a dead overseer prove the network is reacting in real time; surviving scraps put the Barov name inside the paperwork without proving guilt.
+  - By the close Sylvanas is thinking Jaina's name naturally, the old grain seller has gained new weight, and the quartet chooses the southern feeder road that will take them past Strahnbrad toward Andorhal.
+- **Key beats**
+  - Beat 2: The paperwork confirms the grain road touches dozens of settlements, turning the case into regional weaponization.
+  - Beat 4: The depot has already been stripped, proving the enemy is erasing evidence ahead of them.
+  - Beat 6: Surviving route scraps tie the web to Barov grain operations and narrow the next target to Andorhal.
+  - Beat 7: Sylvanas's internal naming quietly shifts from "the mage" to "Jaina."
+  - Beat 9: The quartet chooses the southern feeder road, locking Chapter 6's Strahnbrad / Arthas intersection into geography rather than coincidence.
+- **Characters active**
+  - Sylvanas — POV; road-reading, paperwork pressure, and the quiet naming shift.
+  - Jaina — analytic counterpart whose live revisions now shape route choice in practice.
+  - Cyndia / Lyriel — perimeter and riding-party continuity; still the supporting ranger pair on this leg.
+  - Depot clerks, innkeepers, merchants, depot staff, dead overseer — local evidence texture rather than continuity-weighted cast.
+- **Threads opened**
+  - The enemy is sanitizing the trail in near real time.
+  - The Barov name enters the file as a logistics clue, not yet a guilt verdict.
+  - The southern feeder road toward Andorhal also runs through Arthas's current military theater.
+- **Threads advanced**
+  - Grain-carrier suspicion becomes full supply-chain pursuit.
+  - The old seller / grain-wagon anomaly from Chapter 3 gains real retrospective weight without resolving.
+  - The partnership shifts from functional cooperation into genuine tactical rhythm.
+- **Structural notes**
+  - Validation warning: beats 1-5 darken in the same general direction before the chapter finally converts dread into narrowed-target pressure.
+  - Validation warning: beats 4-7 run four consecutive scene beats before beat 8 supplies the next sequel / breathing beat.
+  - Normalized explicit beatType and scenePhase fields from markdown headings and tightened value-shift carry-forward wording at beats 4 and 7.
+- **Enrichments of note**
+  - Andorhal is now locked as Lordaeron's agricultural hub / breadbasket, which justifies the road-and-ledger investigation texture.
+  - Barov holdings are established as a plausible grain-logistics clue, but Chapter 5 does not earn Caer Darrow / Kel'Thuzad leakage yet.
+  - Strahnbrad's Blackrock-orc war pressure is now available as route texture for Chapter 6's opening road.
+- **Suggestions for next chapter**
+  - Open directly on the road with the route choice already made; no backfill.
+  - Let Arthas's visible-war priority, not simple personal cruelty, drive the dismissal beat.
+  - Keep Andorhal surface-normal and functioning at first glance so the contamination underneath feels worse.
+  - Preserve the relationship lane as aligned contempt pointed outward, not softness toward each other.
+
+## Chapter chapter5 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Repeated clues should sharpen without over-resolving; the Barov name stays a logistics clue and the old seller stays a breadcrumb instead of collapsing into early certainty.
+  - Procedural chapters need sequel beats that turn discovery into choice; beat 3 and beat 8 now do the chapter's reaction-and-decision work.
+  - Settings must function as evidence machines; the cleaned depot, office, yard, and surviving scraps now each change the hunt rather than merely decorate it.
+  - Partnership tension should travel through competence, friction, and subtext, not sweetness; Sylvanas yields method before she yields tone.
+  - A procedural chapter closes strongest on tactical commitment; the southern feeder road choice now makes chapter 6 inevitable.
+- **Structural modifications**
+  - Strengthened beat 3 so Sylvanas lets Jaina's live revisions set pursuit order before the quiet name-shift payoff.
+  - Reframed beat 5 from a repeated necromantic kill-signature implication into deliberate residue hidden inside a staged death.
+  - Clarified beats 4-6 so the depot cleanup reads as hurried rather than selectively incompetent, which makes the surviving Barov scraps believable.
+  - Retyped every beat transition and added a direct-carry chapter bridge from Tomas's death into the ledger chase.
+- **Continuity snapshot**
+  - 3 new / 1 callback / 5 evolution beats.
+  - Fixed 1 continuity overstatement and 1 anti-reintroduction risk.
+  - Required memory for downstream agents: `threads/grain-distribution-network`, `relationships/jaina--sylvanas`, `threads/new-grain-seller`.
+- **Active threads**
+  - The enemy is sanitizing the grain trail in near real time.
+  - The Barov name now sits in the paperwork as a logistics clue, with culpability still unproven.
+  - The old seller / newer grain-man breadcrumb remains open, recurring, and faint.
+  - Sylvanas and Jaina have shifted into real tactical rhythm without any slide into softness.
+  - The chosen southern feeder road toward Andorhal runs through Arthas's active military theater.
+  - The dead-march-north thread remains strategic pressure in the background even while the quartet rides south.
+- **Threads resolved this chapter**
+  - Whether the grain network is passive or reactive resolves here: reactive.
+  - Whether Tomas's death kills the route outright resolves to no; records and hurriedly missed scraps still narrow the hunt.
+- **Chapter-end stance / carry-forward residue**
+  - Sylvanas: no longer merely bringing Jaina along; she is now changing pursuit method around the mage's live read.
+  - Jaina through Sylvanas's POV: a route-setting intelligence, not post-fact explanation.
+  - Cyndia / Lyriel: the same quartet carries forward, with perimeter and control roles intact.
+  - Story state: Barov clue in hand, guilt unproven, road committed south through visible war pressure.
+- **Chapter bridge note:** direct carry from chapter 4's night departure; Tomas is dead, containment orders are behind them, and paperwork is now the only live trail upstream.
+- **Warnings for next chapter**
+  - Open on the road already chosen; do not spend chapter 6 re-proving the paperwork chase.
+  - Let Arthas enter as a priority collision and obstruction problem, not instant melodrama.
+  - Keep Barov as clue, not verdict.
+  - Preserve the old seller thread as a weak recurring anomaly, not a solved identity.
+  - Keep the relationship lane at tactical respect and aligned contempt, not thaw.
+
+## Chapter chapter6 — Planner Notes
+
+- **Chapter summary**
+  - Jaina finally gets the full grain model to hold together, only to discover that understanding the design makes the enemy feel more formidable, not more manageable.
+  - At Strahnbrad, Arthas hears the warning and still chooses the visible war first; the old personal wound makes the refusal hurt, but the chapter's real correction is institutional.
+  - The road then sharpens the repeated farewell clue and delivers the quartet to a still-working Andorhal, where the plague looks busiest precisely because the city still functions.
+- **Key beats**
+  - Beat 1: Jaina reconciles alchemy, necromancy, grain, and road traffic into one deliberate war design.
+  - Beat 4: Arthas receives correct intelligence and dismisses it in practice because the war in front of him outranks the plague he cannot yet see.
+  - Beat 6: Jaina and Sylvanas stop arguing about whether refusal exists and start aligning against it.
+  - Beat 7: The helpful trader repeats the same odd farewell, turning the old seller file into an actual pattern without resolving it.
+  - Beat 9: Andorhal appears as a working grain city, confirming the source is active rather than ruined.
+- **Characters active**
+  - Jaina — POV; forced to learn that clarity alone still does not move power.
+  - Sylvanas — the faster room-reader; now the person Jaina leans on for the practical meaning of refusal.
+  - Arthas — first on-page appearance; courteous, magnetic, and pointed at the wrong war.
+  - Cyndia / Lyriel — still the steady escort pair carrying the same quartet into Andorhal.
+  - Helpful trader — recurring road contact who repeats the farewell clue; do not upgrade beyond pattern weight yet.
+- **Threads opened**
+  - Official refusal from Lordaeron's command structure.
+  - The repeated farewell now reads as a real pattern, not a one-off oddity.
+  - Andorhal as a living distribution center rather than a dead endpoint.
+- **Threads advanced**
+  - The grain conspiracy now reads as deliberate war-scale design, not only contamination logistics.
+  - Jaina and Sylvanas shift from proof-based friction into aligned contempt aimed outward.
+  - The old seller / grain-side anomaly gains sharper weight without resolving identity.
+- **Structural notes**
+  - Validation warning: beats 1-5 darken in the same general direction before beat 6 turns the pressure into usable alignment.
+  - Validation warning: scene outcomes skew narrow (4 yes-but, 2 no-and, no clean yes), which fits the refusal chapter but leaves little uncomplicated relief.
+  - Preserved the chapter-close locks for Chapter 7 as structured handoff material instead of flattening them away.
+- **Enrichments of note**
+  - Strahnbrad should feel like active war-country: mud, banners, troop churn, and civilian-defense pressure from the Blackrock-orc crisis.
+  - Andorhal is established as Lordaeron's breadbasket and main agricultural distribution point, so its first appearance should be busy, commercial, and wrong underneath.
+  - Jaina's reaction to the plague model should carry both Antonidas-trained analytical authority and genuine horror at recognizing elegant design inside atrocity.
+- **Suggestions for next chapter**
+  - Open inside Andorhal with the same four riders and the Arthas refusal still hot in the system.
+  - Let the city, not argument, tell the truth first; surface normalcy is the chapter-7 pressure engine.
+  - Keep the trader clue as repetition and unease, not solved identity.
+  - Use any institutional help in Chapter 7 as a crack in Jaina's lie, not a full restoration of faith in authority.
+
+## Chapter chapter6 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Investigation chapters stay alive when clue-synthesis changes the next action, so the opening keeps the route-choice pressure active instead of turning into static summary.
+  - Authority-refusal scenes land best when the authority has a legible competing priority; Arthas's visible-war focus was preserved as fair, dangerous misprioritization rather than petty dismissal.
+  - Refusal chapters need a pivot, not just frustration, so beat 6 now turns Jaina toward proof without sanction.
+  - City-approach suspense works through surface order plus buried dissonance; Andorhal stays busy, commercial, and visibly functional while the danger thickens underneath.
+  - Repeated breadcrumbs should sharpen without resolving, so the farewell clue gains weight here without collapsing into solved identity.
+- **Structural modifications**
+  - Added early war-road pressure to beat 1 so chapter 5's south-feeder-road commitment survives the analytical opening.
+  - Retyped beat 6 from scene/disaster to decision sequel so Jaina owns the pivot after Arthas refuses to act.
+  - Reduced beat 9 from source certainty to the tightest active knot yet, preserving room for Chapter 7 to discover what Andorhal really is.
+  - Added a direct chapter bridge from chapter 5's route commitment and rechecked all 9 beat handoffs.
+- **Continuity snapshot**
+  - 2 new / 0 callbacks / 7 evolutions.
+  - Fixed 1 continuity overclaim and 3 anti-reintroduction risks.
+  - Anti-reintroduction catches: the grain-road theorem stays an earned escalation, the repeated farewell stays unresolved pattern rather than solved identity, and Andorhal is treated as an established target receiving its first direct sight rather than a fresh place-name reveal.
+  - `requiredMemory`: `threads/grain-distribution-network`, `world/magic`, `world/military`, `relationships/jaina--sylvanas`, `threads/new-grain-seller`, `characters/jaina-proudmoore`, `locations/andorhal`.
+- **Active threads**
+  - Lordaeron's command structure has now refused a correct warning in practice.
+  - The grain conspiracy reads as deliberate war-scale design, not just poisoned logistics.
+  - The repeated farewell / grain-seller breadcrumb is now a real pattern, still unresolved.
+  - Andorhal is the tightest active hub yet, but not proven as the ultimate origin.
+  - Jaina and Sylvanas are now aligned against institutional blindness while still staying tactically barbed with each other.
+- **Threads resolved this chapter**
+  - Whether Arthas will listen resolves to no in practice.
+  - Whether the south-feeder route really would collide with visible war pressure resolves to yes.
+- **Chapter-end stance / carry-forward residue**
+  - Jaina: corrected, furious, and quicker to trust what the city itself will reveal than what authority will admit.
+  - Sylvanas through Jaina's lane: confirmed as the faster room-reader whose harder read now changes Jaina's next move instead of merely arguing with it.
+  - Cyndia / Lyriel: the same quartet carries forward, still continuity-stable flank support.
+  - Story state: official backing failed; Andorhal now has to supply the proof the briefing could not force.
+- **Chapter bridge note:** Direct carry from chapter 5's feeder-road commitment: the same four riders spend the opening miles on the chosen south road, carrying the Barov clue, the unresolved grain-seller breadcrumb, and the expectation that Strahnbrad's war traffic is now part of the route rather than a detour.
+- **Warnings for next chapter**
+  - Do not treat Andorhal as already solved at the gate.
+  - Keep Arthas's refusal hot in the system, but do not let it swallow the city investigation.
+  - Preserve the repeated-farewell clue as recurring unease, not identity answer.
+  - Keep Jaina and Sylvanas aligned in outward contempt, not softened into easy intimacy.
+  - Give Cyndia and Lyriel distinct tactical jobs on-page so they do not blur into escort wallpaper.
+
+## Chapter chapter7 — Planner Notes
+
+- **Chapter summary**
+  - The quartet gets into Andorhal under inspection cover and discovers a city that still works precisely because the plague is riding its ordinary grain machinery instead of replacing it.
+  - Corin and Captain Havel become the two local witnesses the city has been ignoring; once the work splits, Jaina solves the packaging-side mechanism while Sylvanas maps the embedded cell running it.
+  - By close, Andorhal is confirmed as a live distribution hub, a same-night capture is viable, and Sylvanas privately stops thinking of Jaina as attached support.
+- **Key beats**
+  - Beat 1: The gate cover works, proving the city still thinks in paperwork while the investigation reads it as a weaponized system.
+  - Beat 4: The team divides labor by competence instead of keeping Jaina under visible supervision.
+  - Beat 5: Jaina confirms the grain is being treated during hub packaging with a sophisticated carrier layer.
+  - Beat 6: Sylvanas maps at least eight local operatives and a two-tier hierarchy in the granary district.
+  - Beat 8: Trace-versus-capture becomes a joint plan, locking Chapter 8's same-night operation.
+  - Beat 9: Sylvanas privately admits the investigation now only works as a shared job.
+- **Characters active**
+  - Sylvanas — POV; learns the city only opens when she trusts work she cannot personally oversee line by line.
+  - Jaina — contamination analyst and institutional navigator; delivers answers cleanly without grandstanding.
+  - Cyndia / Lyriel — perimeter and field-security layer; keep their tactical distinctness visible.
+  - Corin — junior Kirin Tor contact; proof that the institution's ground machinery can still function even when hierarchy fails.
+  - Captain Havel — overwhelmed but capable militia captain; local street-and-granary read.
+- **Threads opened**
+  - Andorhal's granary district contains an embedded operative structure with at least eight local assets and a two-tier hierarchy.
+  - Corin and Havel are now inside the trust boundary as local allies.
+  - A same-night live capture is possible before the city scrubs itself clean.
+- **Threads advanced**
+  - Grain-road suspicion becomes hub-level certainty: contamination is introduced during packaging, not harvest.
+  - Jaina's institutional lane complicates her Lie: the problem is not that every Kirin Tor functionary is useless, but that useful people are being buried by the system above them.
+  - The partnership moves from shared method into genuine split-labor trust.
+- **Structural notes**
+  - Validation warning: all 6 scene beats currently land yes-but, so the prose needs strong differentiation between access, ally, discovery, and planning beats.
+  - Validation warning: beats 1-4 are access/discovery heavy before the deeper threat hardens on-page.
+  - Normalized beat 9's value shift to inherit beat 8's exact end state: `two-part operational plan -> one shared job`.
+- **Enrichments of note**
+  - Andorhal should read as Lordaeron's breadbasket logistics hub: low practical walls, busy market traffic, loading yards, grain dust everywhere.
+  - Packaging-floor contamination is now the operative image: post-harvest treatment, hidden residue, disciplined alchemical / necromantic work under ordinary labor cover.
+  - Corin's usefulness should feel Dalaran-authentic: over-prepared, anxious, and correct in a system that prizes consensus too slowly.
+- **Suggestions for next chapter**
+  - Open the same night on the capture operation; do not cool the city off first.
+  - Keep Kel'Thuzad unnamed until fragments, failure, and the city's kill-switch response earn it.
+  - Let Andorhal react fast and surgically once contact is made; this chapter ends before the enemy starts answering back in force.
+  - Keep Sylvanas and Jaina practical, sharp, and load-bearing — not warm.
+
+## Chapter chapter7 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Busy-city infiltration scenes hold best when the city stays visibly alive; the gate and market beats were evaluated as routine machinery hiding danger, not as ruin-tour atmosphere.
+  - Split investigations need reunion sequels that turn information into choice; beats 4, 7, and 9 were treated as structural hinges, not decorative pauses.
+  - Same-night hooks work best when they end on immediate consequence rather than resolution, so the chapter closes on the live-capture plan instead of on a named mastermind.
+- **Structural modifications**
+  - Retuned the arc lane from asset-versus-partner language to supervised-reliance-versus-autonomous split-labor trust, which fits chapters 5 and 6 more accurately.
+  - Rebuilt beat 5 under Sylvanas POV as Jaina reporting back with usable evidence, fixing the limited-third problem in the initial draft.
+  - Reframed beats 1-3 so Andorhal's normal surface, the supplier timeline, and the institutional-failure lane advance earlier continuity instead of reintroducing it.
+- **Continuity snapshot**
+  - 2 new / 0 callback / 7 evolution beats.
+  - No direct contradictions with memory files.
+  - Fixed 4 anti-reintroduction risks: busy Andorhal as old knowledge, the grain-carrier theorem, Jaina's institutional lane, and the partnership baseline.
+- **Active threads**
+  - Andorhal's granary district contains an embedded cell with at least eight operatives and a two-tier hierarchy.
+  - The city is a live packaging hub, not merely a destination on the road.
+  - Corin and Havel are now inside the trust boundary as local allies, proving useful people still exist under failed institutions.
+  - A same-night live capture is possible before the city scrubs itself clean.
+  - Barov culpability remains unresolved even though the logistics web keeps tightening.
+- **Threads resolved this chapter**
+  - Whether Andorhal would be dead on arrival resolves to no; the city is functioning, busy, and therefore worse.
+  - Whether local witnesses exist resolves to yes through Corin and Havel.
+  - Whether the partnership can split the work without collapsing resolves to yes.
+- **Chapter-end stance / carry-forward residue**
+  - Sylvanas: still hard, still unsentimental, but now ready to trust Jaina's half without standing over it.
+  - Jaina through Sylvanas's read: no longer support she supervises, but an autonomous half of the hunt.
+  - Cyndia and Lyriel: still continuity-stable perimeter support who make the split operation possible.
+  - Corin and Havel: useful, pressure-tested local allies, but not proof the whole system can be trusted.
+- **Chapter bridge note:** Direct carry from chapter 6's approach and Arthas's refusal; same four riders, same busy Andorhal already sighted, now entering under cover because the city still believes in paperwork more than warning.
+- **Warnings for next chapter**
+  - Open the same night on the capture operation; do not cool the city off first.
+  - Keep Corin and Havel as competent local allies, not a sentimental restoration of faith in hierarchy.
+  - Do not let Kel'Thuzad's name or full Barov culpability arrive early.
+  - Keep the city reactive and surgical once contact is made.
+  - Keep Sylvanas and Jaina practical, sharp, and load-bearing rather than warm.
+
+## Chapter chapter8 — Planner Notes
+
+- **Chapter summary**
+  - The same-night Andorhal capture works just long enough to expose how disciplined the network is.
+  - The captive is remotely killed, the city flips into rehearsed containment, and the retreat proves the partnership now works by instinct rather than arrangement.
+  - In fallback review, Jaina confirms Andorhal has already shipped the treated grain outward, then Corin, Havel, and the captive's broken clue let the party name Kel'Thuzad and turn north.
+- **Key beats**
+  - Beat 1: The street capture lands cleanly and proves the team can operate at city speed.
+  - Beat 3: The witness is remotely killed, flipping the hunters into prey.
+  - Beat 5: The escape only works because Jaina and Sylvanas now move as one operating system.
+  - Beat 7: Jaina proves Andorhal is the deployment engine, not the endpoint.
+  - Beat 8: Kel'Thuzad is identified from stitched fragments rather than a clean confession.
+- **Characters active**
+  - Jaina — POV; learns that clarity can arrive too late to protect what taught it.
+  - Sylvanas — ambush planner, interrogator, and escape engine.
+  - Cyndia and Lyriel — stable perimeter pair; the four-woman unit stays intact here.
+  - Corin and Havel — trusted local allies in Andorhal only; do not travel with the later field sweep.
+  - Captured operative — disposable witness whose death proves remote-kill doctrine.
+- **Threads opened**
+  - Standing remote-kill protocol for compromised operatives.
+  - City-scale breach / containment doctrine inside the Cult network.
+  - Kel'Thuzad as named architect somewhere north of Andorhal.
+- **Threads advanced**
+  - The grain-distribution network becomes a kingdom-scale rollout problem, not a city-contained one.
+  - The Jaina / Kel'Thuzad mirror thread activates on-page.
+  - The partnership arc reaches peak-function-before-punishment territory.
+- **Structural notes**
+  - Warning: beats 1-5 are five consecutive scene beats before the first sequel; the pace is intentionally breathless.
+  - Warning: beats 2-4 darken in the same general direction before beat 5 supplies the first relief.
+  - Outcome palette stays in yes-but / no-and territory with no clean yes, so the prose will need clear differentiation between competent success and strategic failure.
+  - Wider-thread gap: `kirin-tor-thread.md` expects an Antonidas reaction beat once Kel'Thuzad is named, but the active chapter 8 outline does not currently encode it.
+- **Enrichments of note**
+  - Andorhal should stay breadbasket-busy even at night: grain dust, yeast, loading yards, wagon rhythm.
+  - Cult response can credibly read as layered infiltrator / acolyte / alchemical security doctrine rather than mob panic.
+  - Kel'Thuzad's name carries double weight: former Council of Six mage and Antonidas-linked institutional mirror for Jaina.
+- **Suggestions for next chapter**
+  - Open after the Andorhal breakthrough has widened north; do not cool the Kel'Thuzad reveal into recap.
+  - Keep Corin and Havel local while the moving field unit remains the four-woman core.
+  - Let Jaina price time harder after the failed witness and widen the split between proof and prevention.
+
+## Chapter chapter8 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Open directly on the active grab rather than on one more setup pass; the chapter keeps pressure by landing inside motion.
+  - Treat interrogation suspense as a power contest aimed upward; the witness's fear of command is what makes the interruption bite.
+  - Preserve reaction beats after hard reversals; the Antonidas afterbeat was added because the close needed one last breath after the name lands.
+  - End on widened consequence instead of private shock alone; the final stone silence now points both at Kirin Tor complicity and the northbound campaign.
+- **Structural modifications**
+  - Added a short sequel beat after the Kel'Thuzad reveal so Jaina reports the name to Antonidas on the stone, fulfilling the Kirin Tor thread without bloating the scene.
+  - Tightened beat 8's provenance so Corin and Jaina carry the Kirin Tor recognition while Havel contributes local and northbound field fragments.
+  - Rewired the close so beat 9 carries into Antonidas-pressure, beat 10 carries into chapter 9's Eastweald widening, and the top-level chapter bridge now directly links chapter 7's safe-house plan to chapter 8's live operation.
+- **Continuity snapshot**
+  - 1 new beat / 0 callbacks / 9 evolutions.
+  - Fixed 1 provenance contradiction and 3 anti-reintroduction risks.
+  - Anti-reintroduction catches: Andorhal stays an already-established working grain city, the partnership's automatic timing is treated as an evolution rather than a fresh trust miracle, and beat 7 escalates an already-regional grain web instead of rediscovering it.
+- **Active threads**
+  - The Cult has a standing remote-kill protocol for compromised operatives.
+  - Andorhal's breach-response is disciplined city doctrine, not panic.
+  - Kel'Thuzad is now the named architect somewhere north of Andorhal.
+  - The Jaina / Kel'Thuzad / Kirin Tor mirror is active on-page.
+  - Treated grain is already moving beyond city containment; the field team remains one step behind the rollout.
+  - Corin and Havel remain trusted Andorhal allies, but only as local anchors.
+- **Threads resolved this chapter**
+  - The immediate same-night live-capture thread cashes out: the team gets a prisoner, loses him to the kill-switch, and still tears enough information loose to widen the hunt north.
+  - The question of whether the city can answer back faster than the investigators resolves to yes.
+  - The unnamed command layer becomes partially legible through Kel'Thuzad's name, even though the exact base and full hierarchy remain open.
+- **Chapter-end stance / carry-forward residue**
+  - Jaina: clearer-eyed, colder, and less willing to mistake explanation for prevention; the cost of lateness is now personal and methodological at once.
+  - Sylvanas through Jaina's lane: the woman who keeps the proof alive long enough to matter, and whose instincts are no longer the rough half of the job but part of its survival logic.
+  - Cyndia / Lyriel: still the stable perimeter pair at chapter end; chapter 9 inherits the full four-woman unit before it breaks.
+  - Corin / Havel: validated, useful, and left behind as local Andorhal fixtures rather than promoted into the traveling field team.
+- **Chapter bridge note:** Direct carry from chapter 7's same-night capture plan: no cooling beat between the safe-house maps and the street snatch. By chapter end the name has also gone onto Antonidas's line, and the state handed forward is a northbound widening — Corin and Havel holding Andorhal while the four-woman unit spends the next weeks turning the breakthrough into Eastweald sweeps.
+- **Warnings for next chapter**
+  - Chapter 9's opening bridge must explicitly cover the weeks-later widening, why Corin and Havel stayed local, and why the Kirin Tor beat does not recur as another live call.
+  - Do not let Eastweald sweeps feel like a reset after Andorhal; the campaign should read as the direct consequence of chapter 8's breakthrough.
+  - Keep Lyriel alive and fully integrated until chapter 9 earns the loss.
+  - Keep Barov as route evidence, not proven guilt.
+  - Keep the old seller / repeated-farewell file weak and unresolved.
+
+## Chapter chapter9 — Planner Notes
+
+- **Chapter summary**
+  - The Eastweald campaign widens the Andorhal breakthrough into a live field hunt, and the four-woman unit starts the chapter operating at peak rhythm.
+  - Jaina's insistence on stopping for a fading ritual read gets Sylvanas wounded; Sylvanas's counter-mistake — pushing a physical seam without waiting for the arcane sweep — walks the team into a magical kill corridor that kills Lyriel.
+  - On the regrouping ridge, Barov route evidence, an Arthas / Hearthglen breadcrumb, and collapsing institutional cover force the investigation to split: Jaina rides the Barov thread alone, while Sylvanas and Cyndia turn west toward Hearthglen.
+- **Key beats**
+  - Beat 3: Sylvanas grants Jaina time to read the fading ritual matrix, trading tempo for mechanism data.
+  - Beat 4: The Cult ambush lands before the read is complete, and Sylvanas takes a wound covering Jaina's withdrawal.
+  - Beat 7: The ward calibrated to Farstrider spacing kills Lyriel and proves the enemy built terrain specifically to punish scout doctrine.
+  - Beat 9: Ridge regrouping turns the day's fragments into two actionable lines — Barov route pressure and the Arthas / Hearthglen thread — while the repeated farewell sharpens again without resolving.
+  - Beat 11: The mission splits along competence lines at the exact moment the partnership has learned it should not operate alone.
+- **Characters active**
+  - Sylvanas — POV; excellent field judgment shown failing at the exact edge where arcane method matters.
+  - Jaina — ritual analyst and warning line; her insistence on stopping for understanding costs blood before Sylvanas's mistake costs Lyriel.
+  - Cyndia — surviving Farstrider flank; her doubled right-side check begins here and carries forward as a major continuity thread.
+  - Lyriel — alive at open, killed in Scene 3; the chapter's first irreversible casualty.
+  - Lor'themar / Antonidas — institutional pressure only, delivered through message channels in the active outline.
+- **Threads opened**
+  - Lyriel's death permanently alters the field formation.
+  - The Barov thread becomes actionable enough for Jaina to ride alone.
+  - Arthas / Hearthglen becomes the outside-power line Sylvanas decides to pursue.
+  - The repeated farewell file sharpens again without resolving into identity.
+  - Both institutions are now actively moving toward containment / recall rather than support.
+- **Threads advanced**
+  - Kel'Thuzad remains the northbound architect, but the investigation now has two outward-facing routes instead of one forward hunt.
+  - Barov evidence advances from recurring paperwork pressure to route-level, estate-approach relevance without proving guilt.
+  - The partnership moves from peak function into tests-of-faith damage: both women change behavior because each has now paid for the other's blind spot.
+- **Structural notes**
+  - No scaffold gaps: chapter headers, knowledge ledger, arc position, and cast / handoff rules are all present and strong.
+  - Outcome palette is narrow on the scene beats: five yes-but, two no-and, no clean yes.
+  - Beats 9-11 darken in the same direction, so the close risks monotonic descent unless the prose sharply distinguishes each loss.
+  - Cross-doc contradiction flags: `kirin-tor-thread.md` expects no on-stone Antonidas beat in Chapter 9, and `silvermoon-thread.md` expects Lor'themar on-stage rather than via runner. Kept the outline authority for planning and flagged both for verifier review.
+- **Enrichments of note**
+  - North of Andorhal should still feel like former grain country — orchards, roads, farm structures, and choke-country converted into managed blight.
+  - Caer Darrow / Darrowmere / Barov geography is now established as a credible next-step route target for Chapter 10 without proving Barov culpability.
+  - Hearthglen-side road and woodland terrain can support trap-heavy, scout-punishing perimeter design rather than generic ruin fighting.
+  - Cyndia's field notes on estate approach / layout are now load-bearing handoff material for Jaina's solo Barov lane.
+- **Suggestions for next chapter**
+  - Open Chapter 10 directly with Jaina alone on the Barov thread; do not soften the split by lingering on departure emotion.
+  - Carry the partial ritual data and Cyndia's estate-approach notes as practical tools, not abstract continuity tokens.
+  - Keep Barov as infrastructure evidence, not confession.
+  - Let Jaina price time, exposure, and proof harder after this chapter's costs.
+
+## Chapter chapter9 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Action beats were checked for explicit objective, clean escalation, and readable cause-and-effect so the ambushes stay sharp instead of muddy.
+  - The chapter keeps reaction beats after both major punishments, which lets wound and death register through changed behavior rather than speeches.
+  - Lyriel's death was judged against aftermath craft: the proof of grief is altered formation, altered tempo, and altered command habits.
+  - The split is treated as a point-of-no-return chapter ending: once both institutions narrow the available lanes, the old intact-team option is gone.
+- **Structural modifications**
+  - Strengthened beat 5 so the second push grows from salvaged value in the farmhouse read instead of from generic stubbornness.
+  - Clarified beat 9 provenance: the Barov route line, estate notes, Hearthglen breadcrumb, and farewell callback now read as accumulated campaign fragments.
+  - Removed the live Antonidas stone beat from chapter 9 and kept Kirin Tor pressure off-page to match the thread contract.
+  - Replaced Lor'themar's runner with an in-person intercept so his deterioration lands on-page and the Silvermoon thread stays synced.
+  - Added a stronger chapter bridge so the weeks-later Eastweald widening reads as direct fallout from chapter 8 instead of a reset.
+- **Continuity snapshot**
+  - 0 new / 0 callback / 11 evolution beats.
+  - Fixed 2 cross-doc contradictions in the institutional lanes.
+  - No anti-reintroduction problems required correction; this chapter advances late-book state rather than recapping it.
+  - `requiredMemory` points the writer at Eastweald, the Jaina/Sylvanas lane, the key character states, the grain-network file, the north-of-Andorhal thread, the refusal thread, and the unresolved farewell file.
+- **Active threads**
+  - Lyriel's death permanently alters the field formation.
+  - The Barov route is now actionable but still not proof of knowing Barov guilt.
+  - Arthas / Hearthglen is now the outside-power lane Sylvanas chooses to activate.
+  - The repeated farewell sharpens again without resolving into identity.
+  - Institutional support is collapsing into recall pressure and review language instead of field help.
+  - Kel'Thuzad is still north of Andorhal, but the exact base remains unknown.
+- **Threads resolved this chapter**
+  - The question of whether one intact four-woman unit can keep carrying every live lead resolves to no.
+  - The Andorhal breakthrough stops being a single forward hunt and becomes a two-lane pursuit.
+  - The idea that peak team rhythm equals safety is broken permanently.
+- **Chapter-end stance / carry-forward residue**
+  - Sylvanas: now fully understands Jaina's read as command-critical and is forced to act without it anyway; grief stays hard, practical, and unresolved.
+  - Jaina: rides the Barov thread alone with incomplete ritual data, Cyndia's estate notes, and no room left to mistake clarity for safety.
+  - Cyndia: becomes the surviving flank pair by herself and starts carrying Lyriel's absence in behavior.
+  - Lor'themar: still fighting the political war in person, visibly wearing the cost.
+- **Chapter bridge note:** Intentional widening from chapter 8's escape into weeks of Eastweald sweeps. Corin and Havel stay local in Andorhal while the core four-woman unit rides the fallout north-east; chapter 9 opens inside that campaign state, not before it.
+- **Warnings for next chapter**
+  - Keep the split as bad necessity, not clean answer.
+  - Do not overstate Barov guilt.
+  - Keep the repeated-farewell file weak and unresolved.
+  - Let Lyriel's death keep changing behavior after the chapter break; do not spend it all here.
+  - Keep institutions behind the field, even when the right people finally understand the threat.
+
+## Chapter chapter10 — Planner Notes
+
+- **Chapter summary**
+  - Jaina follows the Barov thread alone, leans on Kirin Tor authority to get through the front door, and quickly learns the estate is only the polished surface of a much larger machine.
+  - Jandice Barov becomes both guide and trap: a peer mirror whose vanity lets Jaina cross Darrowmere, enter Scholomance, and read the work closely enough to recognize Kel'Thuzad's mind in the building.
+  - Antonidas cannot move fast enough to matter, so Jaina uses Jandice's need for recognition to win controlled access below and ends the chapter descending alone with the research log and the unresolved mechanism question.
+- **Key beats**
+  - Beat 1: Jaina feels Sylvanas's absence as missing fieldcraft rather than romance and chooses open authority over fake stealth.
+  - Beat 5: The lake crossing makes the cost of entry physical; easy extraction ends the moment Jaina leaves the shore.
+  - Beat 7: Kel'Thuzad's notes look like her own training lineage, and the mirror turns personal before he appears.
+  - Beat 10: Jandice gives away the resonance concept because she needs Jaina to recognize the elegance of the work.
+  - Beat 11: Jaina is allowed below rather than forcing her way in, which confirms the trap even as she takes it.
+- **Characters active**
+  - Jaina — POV; alone, fast, brilliant, and increasingly forced to admit that clarity is not the same as safety.
+  - Lord Alexei Barov — polished political surface; old-money calm, practiced deflection.
+  - Jandice Barov — peer-speed scholar, validation-hungry guide, and the chapter's live access vector into Scholomance.
+  - Antonidas — off-site mentor only, present through the sending stone and the speed failure of the institution.
+  - Researchers, staff, servants — live institutional texture; this place is functioning, not ruined.
+- **Threads opened**
+  - The Barov estate and Scholomance are confirmed as live plague-support infrastructure.
+  - Jandice's need for recognition is now an exploitable vulnerability.
+  - Resonance emerges as the mechanism bridge Jaina was missing after Chapter 9.
+  - Jaina is now physically inside the institution without same-day extraction support.
+- **Threads advanced**
+  - Jaina's Lie ("being right is enough") sharpens under solo pressure.
+  - The partnership-by-absence thread advances: Sylvanas matters here as missing judgment, exits, and tempo correction.
+  - The Kirin Tor complicity lane advances through methodology, notation, and institutional slowness rather than an on-stone solution.
+  - Barov route evidence advances from paperwork pressure to live-site proof, still without final Barov guilt.
+- **Structural notes**
+  - Required scaffold is strong; planner normalization added explicit constraints plus scene-level arcPressure and enrichment objects.
+  - No scene-sequel alternation failure; the chapter's pressure comes from one long controlled descent rather than repeated action/reaction loops.
+  - Beats 2-9 darken in one long run, so beat 10 has to feel like a real psychological pivot, not just a plot turn.
+- **Enrichments of note**
+  - House Barov reads as old Lordaeron money with maintained roads, orchards, and imported magical comforts rather than generic spooky nobility.
+  - Caer Darrow / Scholomance grounding: island fortress on Darrowmere, crypts converted into a real academic-necromantic institution.
+  - Scholomance should feel like anti-Dalaran built from Dalaran methods — lecture halls, modified ward logic, research traffic, and notation Jaina can read too easily.
+  - Darrowmere's crossing works as both geography and commitment marker: once Jaina crosses, easy exit is gone.
+- **Suggestions for next chapter**
+  - Chapter 11 should stay a hard external interrupt on Sylvanas and Cyndia's Arthas thread; do not immediately continue Jaina's descent.
+  - Chapter 12 must resume below after the deliberate gap, already inside the conversation, not replaying the staircase.
+  - Keep Barov culpability short of final certainty until deeper evidence earns it.
+  - Let Jaina carry the research log, the resonance clue, and the knowledge that institutional help is too slow to save her.
+
+## Chapter chapter10 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Kept the chapter in controlled-revelation mode: enough mechanism and institutional proof to sharpen hunger, but not enough to steal Chapter 12's full payoff.
+  - Checked the suspense staircase beat by beat: access, commitment, curated normalcy, surveillance, failed outside help, then controlled descent.
+  - Treated beats 1, 5, 7, and 9 as necessary breathing beats so the long darkening run does not flatten into one note.
+  - Verified that the estate and Scholomance function as professional surfaces hiding atrocity, not generic spooky scenery.
+  - Preserved the ending as unresolved descent: access granted on enemy terms is stronger than a clean self-won entry.
+- **Structural modifications**
+  - Added a direct chapter bridge from chapter 9 so Jaina opens with the split, Cyndia's estate notes, the Barov packet, and the blood-cost lesson about not faking fieldcraft.
+  - Reduced beat 7 from near-answer to partial theoretical alignment; Chapter 10 stays the entry-and-choice chapter, not the full mechanism chapter.
+  - Reframed beat 10 so resonance becomes the key concept and access lever rather than the whole solution, which keeps the descent earned.
+  - Added continuity guards on Alexei, Antonidas, and the handoff so the chapter does not overclaim Barov guilt or imply available rescue.
+- **Continuity snapshot**
+  - 4 new beats / 0 callbacks / 7 evolutions.
+  - Fixed 2 overclaims against live memory threads: the animation-trigger answer is partial again, and Barov presentation stays short of final guilt proof.
+  - No name, geography, or institutional-lag contradictions found in memory files.
+  - Required memory for downstream agents: `relationships/jaina--sylvanas`, `threads/barov-route-evidence`, `characters/antonidas`, `threads/kel-thuzad-north-of-andorhal`, `threads/lordaeron-command-refusal`, `threads/plague-animation-mechanism`.
+- **Active threads**
+  - The Barov route is now confirmed as live infrastructure, but final Barov culpability is still intentionally unsettled.
+  - Jandice's need for recognition is now the access crack into deeper Scholomance.
+  - Resonance has emerged as the missing mechanism's governing concept, but not yet as the full animation-trigger answer.
+  - Antonidas and the Kirin Tor remain behind field tempo.
+  - Jaina is now physically inside the institution without same-day extraction support.
+  - Kel'Thuzad's presence is functionally certain before he appears on-page.
+- **Threads resolved this chapter**
+  - The question of whether the Barov lead reaches a real command-tier site resolves to yes.
+  - The question of whether Jaina can get inside through scholarly cover resolves to yes, but only on curated enemy terms.
+  - The question of whether institutional help can catch up in time resolves to no for the purposes of this descent.
+- **Chapter-end stance / carry-forward residue**
+  - Jaina: deeper in, intellectually baited, and still trying to prove brilliance can hold a room that fieldcraft would have priced differently.
+  - Sylvanas through absence: now present as missing exits, missing timing correction, and missing friction rather than missing comfort.
+  - Jandice: upgraded from guide to live threshold mirror whose validation hunger can move the plot farther than discipline can stop it.
+  - Antonidas: confirmed again as the right mind trapped inside the wrong speed.
+- **Chapter bridge note:** Direct carry from chapter 9's ridge split. The polished estate opening is a deliberate contrast to Eastweald trap-country, but the state underneath it is the same: Jaina is operating on partial ritual data, fresh grief, and a newly learned distrust of pretending she can do Sylvanas's job.
+- **Warnings for next chapter**
+  - Chapter 12 must own the complete resonance / animation-trigger explanation; do not back-solve it here in retrospect.
+  - Keep Kel'Thuzad calm, lucid, and academically legible rather than theatrical.
+  - Do not let Chapter 12 replay the staircase; the gap after beat 11 is intentional.
+  - Keep Barov culpability below final certainty until deeper evidence or disclosure earns it.
+  - Keep Sylvanas off-page until the Chapter 12 end-state / Chapter 13 entry actually calls her back in.
+
+## Chapter chapter11 — Planner Notes
+
+- **Chapter summary**
+  - Sylvanas and Cyndia ride south through visibly contaminated Eastweald, feeling Jaina's absence as missing magical terrain-read and Lyriel's death as a broken formation.
+  - Sylvanas briefs Arthas successfully, but the success is wrong-shaped: he converts plague intelligence into immediate mobilization at a speed even Uther reads as dangerous.
+  - Recall pressure closes in from Silvermoon just as Farstrider relays confirm Jaina went into Caer Darrow and did not come out, so Sylvanas turns north at once.
+- **Key beats**
+  - Beat 1: The two-woman formation shows its damage immediately — Cyndia's doubled right-flank check and Sylvanas's caution at magical chokepoints.
+  - Beat 3: Sylvanas decides the plague has outgrown ranger scale and commits to using Arthas as the institutional lever.
+  - Beat 6: The briefing lands — Arthas gets the vector and scale, but not the nuance or deeper mechanism.
+  - Beat 8: Uther names the prince's flaw before it matters operationally.
+  - Beat 11: Jaina's vanished Caer Darrow line instantly outranks the Arthas thread and sends Sylvanas north.
+- **Characters active**
+  - Sylvanas — POV; fully acting inside Lordaeron's crisis, not merely protecting the border from afar.
+  - Cyndia — surviving scout pair reduced to one; Lyriel's absence remains visible in behavior.
+  - Arthas — institutional weapon activated by correct intelligence, already moving too fast.
+  - Uther — mentor read on Arthas; the warning file starts here.
+  - Falric — efficient gatekeeper and the camp's loyalty-to-Arthas face.
+  - Jaina — off-page but load-bearing as missing capability and exposed partner.
+- **Threads opened**
+  - Arthas is now a live causal chain, not a hypothetical outside power.
+  - Uther's reading of Arthas as a man who cannot retreat from a battle he thinks he must win.
+  - Jaina's Caer Darrow exposure as the chapter's new top-priority emergency.
+- **Threads advanced**
+  - Sylvanas's Lie about the border being someone else's problem is now functionally dead in action, even if not in language.
+  - The repeated-farewell / old-seller anomaly remains in the file without resolving.
+  - Lor'themar's political lane worsens into recall pressure plus evidence erasure.
+- **Structural notes**
+  - Warning: beats 4-7 are a four-scene run without a sequel; the camp sequence needs crisp differentiation.
+  - Warning: scene outcomes skew heavily yes-but, with beat 2 the lone no-and.
+  - Warning: beats 8-10 darken in one direction, so the late chapter descent can flatten if the prose does not vary the pressure.
+  - Opening beat is reflective-sequel material; anchor it hard in mounted motion and wound/body sensation.
+- **Enrichments of note**
+  - Eastweald should still read as Lordaeron grain country under pressure, not generic wasteland.
+  - Hearthglen is a real fortified town with keep / forge / stables / pass geography, so Arthas's camp can feel concretely military.
+  - Caer Darrow is an island keep on Darrowmere with Scholomance under it, which raises the stakes of the northbound redirect.
+  - Uther / Arthas / Falric form a nested loyalty chain: mentor, prince, lieutenant.
+- **Suggestions for next chapter**
+  - Keep Chapter 12 fully simultaneous; do not let Chapter 11's redirect imply Sylvanas is already inside the room.
+  - Chapter 13 should open with arrival pressure and extraction logic, not a second debate about whether to go after Jaina.
+  - Keep Arthas's thread alive in the background as launched consequence, not solved handoff.
+  - Let Jaina's absence continue to register in route choice and risk pricing rather than sentimental language.
+
+
+## Chapter chapter11 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Open the chapter in motion with active road pressure, not recap; beat 1 was kept viable only because it stays in the saddle, in the wound, and in the broken formation.
+  - Let scene-heavy thriller chapters breathe through short sequel beats; beats 3, 8, and 10 are the chapter's load-bearing reaction turns.
+  - Treat the Arthas briefing as conflict, not exposition; hierarchy, urgency, and misread priority had to change the chapter rather than merely deliver information.
+  - Use a clean orienting anchor for a parallel cut; chapter11 stays legible because Jaina's absence, not explanation, links it back to chapter10.
+  - End on unresolved operational momentum; beat 11 works because Sylvanas makes the turn north without gaining any reassuring knowledge about what waits there.
+- **Structural modifications**
+  - Aligned beat 2's outcome shape to `yes-but`; the riders do keep moving south, and the cost is that the land proves already lost.
+  - Strengthened beat 10 so recall pressure and evidence erasure land as their own consequence instead of reading only as runway into the Jaina relay.
+  - Added an external-observation guard to beat 11 and the top-level chapter bridge so the parallel cut from chapter10 stays timeline-clean.
+  - Left scene order intact; the chapter's real turn already sits in the Arthas conversion, and no reorder was needed.
+- **Continuity snapshot**
+  - 2 new beats, 0 callbacks, 9 evolutions.
+  - No geography, spelling, or timeline contradictions found against memory.
+  - Added anti-reintroduction guards for Arthas and Jaina: Arthas remains an evolution of the chapter6 refusal, and Jaina's Caer Darrow state stays an external carryover from chapter10 rather than a fresh reveal.
+  - `requiredMemory` now points the writer at the broken flank, Eastweald hostile-ground state, Arthas threads, command-refusal file, and Jaina/Sylvanas partnership state.
+- **Active threads**
+  - Arthas is now a launched causal chain rather than a hypothetical outside power.
+  - Uther's reading of Arthas as a man who cannot retreat from a battle he thinks he must win is now live in the file.
+  - Jaina is inside Caer Darrow / Scholomance and has become the chapter's top-priority exposed partner.
+  - Recall pressure and evidence erasure are collapsing support behind the field investigation.
+  - The repeated farewell / old-seller anomaly remains sharp and unresolved.
+- **Threads resolved this chapter**
+  - Whether Sylvanas will actually activate outside human power resolves to yes: she briefs Arthas and sets him moving.
+  - Whether the Arthas line remains hypothetical resolves to no; it is now a dangerous live consequence outside Sylvanas's control.
+  - Whether Jaina's absence can stay only an operational background fact resolves to no once the Caer Darrow relay arrives.
+- **Chapter-end stance / carry-forward residue**
+  - Sylvanas: the border fiction is dead in practice; she is acting inside Lordaeron's collapse and turning north on responsibility rather than distance.
+  - Cyndia: still the surviving field half of a broken flank, carrying Lyriel's absence in behavior while staying operational.
+  - Arthas: launched south as a necessary but dangerous instrument, already moving beyond Sylvanas's direct control.
+  - Jaina: off-page, below Caer Darrow's surface, now the urgent exposed lane the next Sylvanas chapter must inherit.
+- **Chapter bridge note:** Intentional parallel branch from chapter10. Jaina has just gone below Scholomance, and chapter11 cuts sideways to the already-active Hearthglen road, orienting through her absence and ending with external confirmation that she never came back out.
+- **Warnings for next chapter**
+  - Chapter12 must stay fully simultaneous and interior; do not let chapter11's redirect imply Sylvanas has arrived or knows what Jaina has learned.
+- Chapter13 should open on arrival pressure and extraction logic, not on a fresh debate about whether Sylvanas should go after Jaina.
+- Keep Arthas alive in background continuity as launched consequence, not solved handoff.
+- Let beat 10's political-collapse residue survive; chapter11 should not be remembered only as the setup for beat 11.
+- Keep the repeated farewell unresolved.
+
+## Chapter chapter12 — Planner Notes
+
+- **Chapter summary**
+  - Jaina reaches Kel'Thuzad's inner sanctum expecting a monster's lair and finds a working scholar's office instead, which lets the missing plague mechanism arrive in the most dangerous possible form: lucid explanation she can actually follow.
+  - The chapter turns from theorem to ethics to mirror. Kel'Thuzad completes the resonance / animation model, names the Lich King and the Burning Legion above the plague, and forces Jaina to admit how much of his method feels legible to her.
+  - By close Jaina has the answer she came for and the moral wound that comes with it; Sylvanas's approach finally hits the deep wards, setting Chapter 13 at the exact instant context is about to break.
+- **Key beats**
+  - Beat 2: Kel'Thuzad teaches the missing animation-trigger mechanism and completes Jaina's Chapter 9 / 10 partial reads.
+  - Beat 3: The ethics argument reframes Dalaran's necromancy ban as moral and civic rather than analytical failure.
+  - Beat 6: Jaina follows the logic far enough to see its terrible beauty for one heartbeat and cannot unknow it.
+  - Beat 10: Kel'Thuzad names the Burning Legion above the Lich King, widening the plague into invasion logistics.
+  - Beat 13: The sanctum wards register Sylvanas's descent, bridging directly into Chapter 13's misread tableau.
+- **Characters active**
+  - Jaina — POV; arrives hungry for mechanism, leaves intellectually and morally scorched.
+  - Kel'Thuzad — calm scholar-mirror; teaches instead of monologuing, which is worse.
+  - Jandice Barov — threshold-only handoff; remains the access vector, not a participant in the core debate.
+  - Sylvanas — off-page until the final beat; felt as missing epistemic friction and then as incoming tactical motion.
+- **Threads opened**
+  - The full resonance / animation model is now explicit: grain as carrier shell, body as answering chamber, low-fidelity village preservation versus high-fidelity preserved selfhood.
+  - The Lich King is now a named power in the file.
+  - The Burning Legion is now a named force above the Lich King.
+  - Jaina's susceptibility to elegant forbidden logic is no longer theoretical.
+- **Threads advanced**
+  - Jaina / Kel'Thuzad mirror: from notational echo and methodological parallel into direct on-page confrontation.
+  - Partnership-by-absence: Sylvanas's value sharpens because no one is present to price the room while Jaina is thinking inside it.
+  - Kirin Tor / Antonidas lane: the ban and the institutional failure are now being argued from inside the same training lineage.
+- **Structural notes**
+  - Warning: scene-beat outcomes skew narrow (mostly yes-but, with three no-and turns and no clean yes).
+  - Warning: Scenes 1-4 are same-room, same-cast theory combat; the prose must vary the pressure type or the middle will flatten.
+  - Warning: beats 8-10 escalate in one darkening run, so mentor wound, Lich King reveal, and Burning Legion reveal must feel categorically different.
+- **Enrichments of note**
+  - Caer Darrow / Scholomance should read as island keep over converted crypt-academy: still lake air, old stone, preservative compounds, academic order inside atrocity.
+  - Kel'Thuzad's Council-of-Six / expulsion history is now load-bearing for his calm policy-and-method answers.
+  - Lich King -> Burning Legion hierarchy is established here as strategic frame, not full lore lecture.
+  - Jandice remains canon-grounded as Barov daughter / Scholomance figure, but this chapter keeps her threshold-only because Chapter 10 already established the active divergence.
+- **Suggestions for next chapter**
+  - Open Chapter 13 on entry and misread, not recap; Sylvanas did not witness the conversation and must not read it correctly on sight.
+  - Keep the partnership crack about epistemic trust and moral context, not simple jealousy or emotional misunderstanding.
+  - Preserve Kel'Thuzad's calm humanity until the instant violence starts; do not retroactively rewrite him into a ranting villain.
+  - Treat Jaina's new knowledge as wound plus leverage: she has the mechanism now, but it came at a cost that should still be visible.
+
+## Chapter chapter12 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Dialogue-heavy confrontation scenes stay tense when each exchange is a contest of goals rather than an information dump; that standard drove the check on subtext, silence, and power reversals across beats 2-10.
+  - Single-location chapters need changing pressure types, not just rising volume; this chapter survives because it moves from mechanism to ethics to mirror to scale to aftermath instead of arguing one note for thirteen beats.
+  - High-intensity reveals need sequel space; beats 4, 7, 11, and 12 were treated as load-bearing breathing beats that keep the chapter from flattening into uninterrupted awe-horror.
+  - Same-room scenes need active sensory variation; the sanctum's ordinary academic details, ward hum, chalk, jars, and pressure shifts were evaluated as tension surfaces, not decorative backdrop.
+  - Chapter endings hook best when the reveal widens the next danger; beat 13 works because the answer is already earned and the arriving witness lacks the context to read it correctly.
+- **Structural modifications**
+  - Retuned scene 1 / beat 1 so chapter12 honors chapter10's promised deliberate gap. Jaina now opens already inside the sanctum, with Jandice only finishing the threshold handoff instead of replaying arrival.
+  - Tagged beats 9 and 10 as `new` first disclosures because the Lich King and Burning Legion are first named on page here; they still widen established plague architecture, but the dominant continuity function is first reveal.
+  - Added an end-state continuity guard on beat 13: Sylvanas is the one who reaches sanctum depth, while Cyndia remains outside the room on the approach.
+- **Continuity snapshot**
+  - 2 new beats / 0 callbacks / 11 evolutions.
+  - Fixed 1 chapter-seam contradiction at the opening by aligning chapter12 with chapter10's verified handoff.
+  - Added anti-reintroduction guardrails so Scholomance and Jandice are not staged as fresh gothic spectacle and the Lich King / Burning Legion are not treated as prior shared lore.
+  - `requiredMemory` now points the writer at Jaina, Kel'Thuzad, Jandice, Antonidas, the plague-mechanism thread, the Jaina/Sylvanas lane, and Scholomance's established institutional texture.
+- **Active threads**
+  - The full resonance / animation model is now explicit, including grain as carrier shell, body as answering chamber, and the low-fidelity versus preserved-self distinction.
+  - The Lich King is now a named power in the file.
+  - The Burning Legion is now a named force above the Lich King.
+  - Jaina's susceptibility to elegant forbidden logic is now proven rather than hypothetical.
+  - Sylvanas is arriving without the conversation that produced Jaina's current face, posture, and silence.
+  - Arthas remains a launched southern consequence outside this room rather than a resolved thread.
+- **Threads resolved this chapter**
+  - The missing animation-trigger problem is answered; chapter9/10's partial mechanism thread pays off here.
+  - The question of what sits above Kel'Thuzad is partially answered: Jaina now has the immediate chain-of-command names, even if not the full cosmology behind them.
+  - Jandice's access-vector function resolves; she gets Jaina to the room and then exits the chapter's central exchange.
+- **Chapter-end stance / carry-forward residue**
+  - Jaina: has the answer she came for, but the cost is moral and epistemic. She is intellectually and emotionally scorched, and she cannot unsee how legible Kel'Thuzad's logic felt for one heartbeat.
+  - Kel'Thuzad: calm, satisfied, and still in command of the room. His need was comprehension, not theatrics, and he got it.
+  - Sylvanas: still off-page inside this chapter, but now physically close enough to break the sanctum's stillness and walk into aftermath she did not witness.
+  - Jandice: above the sanctum and out of the room, her threshold role complete for now.
+- **Chapter bridge note:** Direct carry from chapter10's controlled descent. Chapter12 opens after the stair and initial formalities, with Jaina already inside the sanctum and the theoretical exchange underway; chapter11 remains simultaneous exterior time only until the final ward disturbance announces an approach Jaina recognizes.
+- **Warnings for next chapter**
+  - Do not let Sylvanas read the conversation correctly on sight; Chapter 13 must preserve the misread.
+  - Keep Kel'Thuzad calm and human until violence actually starts; do not retroactively turn him into a ranting villain.
+  - Keep Cyndia outside the sanctum unless the next chapter explicitly earns a new movement beat.
+  - Carry the Lich King / Burning Legion disclosures forward as destabilizing strategic knowledge, not as lore-dump confidence.
+  - Keep the partnership crack about epistemic trust and moral context, not simple jealousy or easy hurt feelings.
+
+## Chapter chapter13 — Planner Notes
+
+- **Chapter summary**
+  - Sylvanas and Cyndia reach Caer Darrow, make a covert lake crossing, and Sylvanas breaches Scholomance alone through the hidden service route instead of the guided academic path Jaina took.
+  - Jandice's wounded complaint and the hidden work rooms poison Sylvanas's read before she ever reaches the sanctum, so when she finds Jaina and Kel'Thuzad in an office-like room the external evidence all points the wrong way.
+  - Kel'Thuzad dies fast, the extraction works, and the trio turns south with the mechanism in hand and the partnership's first real crack carried in formation spacing rather than argument.
+- **Key beats**
+  - Beat 2: Sylvanas and Cyndia split responsibilities — covert breach for Sylvanas, boat / exit / relay hold for Cyndia.
+  - Beat 4: Jandice gives Sylvanas the poisoned first read by framing Jaina as an engaged peer in Kel'Thuzad's room.
+  - Beat 6: Sylvanas enters the sanctum and the tableau lands exactly badly enough.
+  - Beat 8: Kel'Thuzad's sincere praise hardens Sylvanas's judgment into active watchfulness.
+  - Beat 10: Kel'Thuzad dies with scholarly calm, making the room harder to file away.
+  - Beat 12: The three-woman formation reconstitutes on the road south, visibly damaged.
+- **Characters active**
+  - Sylvanas — POV; arrives late, reads externals fast, and carries the misread out with her.
+  - Jaina — extracted partner carrying the full Scholomance intelligence but unable to explain the room without making it worse.
+  - Cyndia — outside-thread ranger, relay carrier, and visible keeper of Lyriel's absence.
+  - Kel'Thuzad — calm scholar-antagonist; killed in the sanctum.
+  - Jandice — upper-level source and poisoned-provenance vector; escapes alive before close.
+- **Threads opened**
+  - Jandice is now a live loose thread rather than sealed Scholomance furniture.
+  - Sylvanas's trust in Jaina now includes a confirmation step where it used to be automatic.
+  - Kel'Thuzad's calm about death sharpens the possibility of return without resolving it here.
+- **Threads advanced**
+  - The partnership tests-of-faith arc becomes active damage instead of only accumulated cost.
+  - Lyriel's absence continues to reshape field decisions and the restored three-woman formation.
+  - The Arthas / Hearthglen fuse stays live and now directly pulls the trio south.
+  - Jaina's mechanism knowledge becomes portable intelligence rather than room-bound theory.
+- **Structural notes**
+  - Validation warning: beats 1-6 are six consecutive scene beats before the first sequel; the opening descent needs strong pressure differentiation.
+  - Validation warning: beats 3-9 darken in one direction, so the middle can flatten without distinct categories of damage.
+  - Validation warning: scene-beat outcomes stay in yes-but / no-and territory with no clean yes.
+- **Enrichments of note**
+  - Caer Darrow / Darrowmere should read as misted island-keepspace, not generic ruined manor geography.
+  - Scholomance remains an anti-university in the crypts — service rooms, archives, laboratories, and preserved stock beneath the curated route.
+  - Kel'Thuzad's sanctum should stay office-like and academically legible, which is what makes Sylvanas's external read persuasive.
+  - Hearthglen urgency is spatially credible because the trio exits back onto an already-active Eastweald road network, not into isolated wilderness.
+- **Suggestions for next chapter**
+  - Open Chapter 14 on the road south already in motion; do not cool the exit into recap.
+  - Let Jaina brief the usable intelligence product while keeping the sanctum's internal truth withheld on purpose.
+  - Keep Sylvanas listening as commander-plus-evaluator; the half-step matters more than spoken accusation.
+  - Carry Jandice and Kel'Thuzad's possible return as off-page live threads, not immediate detours.
+
+
+## Chapter chapter13 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Open on immediate mission pressure rather than recap; the shoreline breach starts in motion and keeps the chapter alive.
+  - Let the misread stay fair: the reader has the missing context from chapter12, but Sylvanas gets only externals, poisoned provenance, and silence.
+  - Reaction beats after high tension matter; beats 7-8 are load-bearing because the damage must land before the fight can prove the partnership still works.
+  - Transition craft favored causal carries over connective prose; every beat now hands cleanly into the next pressure source.
+  - A short fight only earns its space if it changes aftermath immediately; here the kill matters because it sends the trio out with damaged trust, not because it supplies spectacle.
+- **Structural modifications**
+  - Added the missing `chapterBridge` so the chapter explicitly reads as a full Sylvanas-lane rewind from the shoreline to the sanctum rather than an accidental seam jump after chapter12.
+  - Added beat-level continuity annotations and memory refs across the whole chapter so inherited Caer Darrow and sanctum state are not restaged as fresh reveals.
+  - Added `requiredMemory` covering the disappearance thread, shoreline and sanctum locations, damaged-formation continuity, and the mechanism thread Jaina is carrying out.
+  - Left beat and scene order intact; the descent spine is risky but still the strongest shape for the chapter if the prose keeps each pressure mode distinct.
+  - Flagged the opening six-beat descent as a craft risk for draft execution: hidden-route horror, Jandice complaint, crypt approach, and tableau must not blur into one dark note.
+- **Continuity snapshot**
+  - 1 new beat / 2 callbacks / 9 evolutions.
+  - No geography, spelling, or relationship-state contradictions found against memory.
+  - Anti-reintroduction fixes: the shoreline crossing now reads as inherited disappearance state, and the sanctum tableau now reads as chapter12 aftermath rather than new revelation.
+  - Kel'Thuzad's death is explicitly marked new; the calm possibility of return remains only a thread, not a solved fact.
+- **Active threads**
+  - Jandice is loose after the upper-level encounter and remains a live Scholomance loose end.
+  - Sylvanas now treats trust in Jaina as something that requires confirmation instead of reflex.
+  - Jaina is carrying the full mechanism and larger-war frame south, but Sylvanas only sees the damage pattern around that knowledge.
+  - Arthas and Hearthglen remain active off-page pressure pulling the trio south immediately.
+  - Kel'Thuzad's calm about death keeps the recurrence / return possibility alive without cashing it out.
+- **Threads resolved this chapter**
+  - The missing-Jaina disappearance thread resolves from exposed silence into physical recovery: Sylvanas reaches her and gets her out.
+  - Kel'Thuzad's on-page life in the sanctum resolves into death here.
+  - The split-team recovery objective resolves operationally: Cyndia holds the outside thread, Sylvanas breaches, and the trio reforms on exit.
+- **Chapter-end stance / carry-forward residue**
+  - Sylvanas: got Jaina out, but now files her as a partner with a newly visible failure mode she intends to watch.
+  - Jaina: carries catastrophic usable knowledge and the private wound of how she got it, with no room yet to explain the sanctum truth cleanly.
+  - Cyndia: rejoins as the stabilizing third point in a formation still physically shaped by Lyriel's absence.
+  - Group state: tactically functional, emotionally colder, already moving toward the next crisis without repair time.
+- **Chapter bridge note:** Intentional rewind from chapter12. The prior chapter ended deep below on the ward-signature of Sylvanas's approach; this chapter restarts at the Darrowmere shoreline and follows her full route into the sanctum so the reader can watch the poisoned first read form before the reunion lands.
+- **Warnings for next chapter**
+  - Do not cool the road handoff into recap; chapter14 should open inside motion already underway.
+  - Keep the crack epistemic and operational. No jealous overread, no easy accusation scene, no instant repair.
+  - Let Jaina brief the mechanism and larger-war intelligence product without explaining away the room that produced it.
+  - Keep Jandice and possible Kel'Thuzad return as live background threads, not immediate detours.
+  - Preserve the damaged formation geometry on page: Cyndia left, Jaina center, Sylvanas forward-right by half-step.
+
+## Chapter chapter14 — Planner Notes
+
+- **Chapter summary**
+  - Jaina rides south with the full Scholomance answer in her head and chooses, on purpose, to brief Sylvanas on the usable intelligence without explaining the room that produced it.
+  - The road chapter turns the sanctum crack into formation geometry, then into briefing pressure, then into institutional refusal as both the Convocation and Antonidas try to pull their people home.
+  - By close the damaged three-rider line is still intact, both institutions have been refused, and Hearthglen / Arthas has become the immediate live fuse.
+- **Key beats**
+  - Beat 2: Jaina reads the new formation — Cyndia left, Jaina center, Sylvanas forward-right by half a length — and understands the crack is now physical.
+  - Beat 5: Sylvanas forces the hidden human cost back into Jaina's clean mechanism account, exposing how curated Jaina's Scholomance route really was.
+  - Beat 6: Jaina admits Kel'Thuzad expected lich return, turning his death from closure into transition.
+  - Beat 8: Sylvanas receives the Convocation recall and refuses it without slowing down.
+  - Beat 9: Jaina gives Antonidas the strategic warning, withholds the room, and refuses to come home.
+  - Beat 11: The trio keeps the damaged formation and rides south anyway.
+- **Characters active**
+  - Jaina — POV; carrying the full mechanism, choosing omission deliberately, and starting to understand that being right alone is the road toward Kel'Thuzad.
+  - Sylvanas — commander-listener; still moving with Jaina, still using the intelligence, but now checking where she used to trust.
+  - Cyndia — silent stabilizing third point; left-flank relay holder, witness to the silence, and keeper of the formation's damaged geometry.
+  - Antonidas — sending-stone mentor only; worried, humane, still too slow.
+  - Lor'themar / Convocation — relay pressure only; recall lane worsens.
+- **Threads opened**
+  - Kel'Thuzad's death is now explicitly unstable because Jaina has shared the expected lich return.
+  - The full Lich King / Burning Legion chain is now in Sylvanas's hands as field intelligence.
+  - Trust now comes with a confirmation step inside the partnership.
+  - Both institutions are now openly refusing the field pace the crisis demands.
+- **Threads advanced**
+  - The Chapter 13 sanctum crack becomes active road-state rather than contained aftermath.
+  - The Hearthglen / Arthas lane moves from off-page pressure to immediate destination.
+  - Lyriel's absence continues to shape every formation choice through Cyndia and the three-rider geometry.
+- **Structural notes**
+  - Validation warning: the opening beat is internal and needs hard motion / saddle / formation anchoring in draft execution so the chapter starts in motion rather than abstraction.
+  - Validation warning: beats 5-7 run in one downward line — mechanism at human cost, death destabilized, omission calcified.
+  - Validation warning: scene outcomes skew heavily yes-but, so each compromised success will need distinct cost texture in prose.
+- **Enrichments of note**
+  - The Eastweald / Hearthglen road should still feel like working Lordaeron farm country: orchards, harvest fields, mud-heavy roads, not postwar wasteland.
+  - Antonidas's recall carries full Kirin Tor / Dalaran institutional weight because he is not just mentor but head of the order.
+  - Thalassian field horses should read as quiet, endurance-bred patrol mounts rather than ceremonial fantasy steeds.
+- **Suggestions for next chapter**
+  - Open Chapter 15 directly on arrival pressure at Hearthglen; do not spend time re-explaining the road.
+  - Let Arthas appear as urgency made human — fast, formal, and already converting intelligence into motion.
+  - Keep any repair between Jaina and Sylvanas implicit through action, alignment, and who rides where, not through an explicit talk.
+  - Preserve the omission: Jaina has shared the useful truth, not the whole truth.
+
+## Chapter chapter14 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Aftermath openings should begin in bodily motion rather than recap; this chapter works because the road, saddle, and altered formation stay active from line one.
+  - Fracture scenes gain force through subtext, spacing, and omission; the half-step formation and the withheld sanctum truth do more work than any repair talk could.
+  - Road scenes stay alive when they carry multiple jobs at once: travel, strategic briefing, relationship pressure, and a ticking clock toward the next city.
+  - Middle-chapter closings work best on renewed crisis and choice, which is why the Hearthglen / Arthas relay matters more than any private settling of accounts here.
+  - Reaction-decision beats after sustained tension are load-bearing; beats 1, 3, 7, and 11 keep the chapter from flattening into one long compromised-success run.
+- **Structural modifications**
+  - Clarified beat 5 so Jaina lacks a broad city-scale answer, not every possible targeted use; this keeps chapter 15's source-node plan earned.
+  - Refined beat 9 so Antonidas reads as frightened mentor first and institutional drag second, matching the established line between him and Jaina.
+  - Tightened beat 10 so Hearthglen is provisionally held and still unstable, preserving chapter 15's opening pressure.
+  - Added beat-level continuity annotations, a focused `requiredMemory` list, typed transition carries, and a direct same-road chapter bridge.
+- **Continuity snapshot**
+  - 0 new beats / 0 callbacks / 11 evolutions.
+  - No direct contradictions found against memory.
+  - Fixed 3 anti-reintroduction risks: Antonidas flattened into generic bureaucracy, the mechanism overstated into a ready-made city cure, and Hearthglen treated as more stable than chapter 15 can support.
+- **Active threads**
+  - The sanctum crack remains live: trust still functions, but now with a confirmation step.
+  - Kel'Thuzad's expected lich return is now explicit shared field intelligence.
+  - The Lich King / Burning Legion frame is now in Sylvanas's hands as actionable strategic context.
+  - Jandice remains loose after Scholomance.
+  - Both institutions still lag the field: Silvermoon through recall pressure, Dalaran through distance and slow tempo.
+  - Hearthglen / Arthas has already rolled forward into the Stratholme race.
+- **Threads resolved this chapter**
+  - The Scholomance answer stops being private room knowledge and becomes shared field intelligence.
+  - The question of whether either woman will obey her institution resolves to no; both choose the mission.
+  - The road-state after Caer Darrow is locked: damaged formation, omission intact, southbound urgency dominant.
+- **Chapter-end stance / carry-forward residue**
+  - Jaina: chooses partial truth on purpose, carries the mechanism intact, and keeps the sanctum's inner turn to herself.
+  - Sylvanas: still moves with Jaina and still uses the intelligence, but now checks where she used to trust on reflex.
+  - Cyndia: remains the silent stabilizing third point, with Lyriel's absence still embedded in formation behavior.
+  - Group state: tactically functional, emotionally colder, and already overtaken by the next city-scale crisis.
+- **Chapter bridge note:** Direct carry from chapter 13's extraction road: the trio is already moving south with Kel'Thuzad dead, Jandice loose, the mechanism newly won, and the sanctum misread carried in the formation geometry. Chapter 14 converts that same road-state into briefing pressure before Hearthglen and Arthas overtake any chance at private repair.
+- **Warnings for next chapter**
+  - Do not let Hearthglen read as stabilized; chapter 15 needs a town that survived only provisionally and is still fighting aftermath.
+  - Let Jaina's source plan feel narrow, late, and improvised rather than like a complete cure she somehow sat on.
+- Keep Antonidas distinct from generic recall bureaucracy in any carryover memory of this chapter.
+- Keep the repeated farewell in the background lane; it sharpens, but it still does not own the foreground crisis.
+- Any repair between Jaina and Sylvanas must happen through action and alignment, not through explicit explanatory talk.
+
+## Chapter chapter15 — Planner Notes
+
+- **Chapter summary**
+  - Sylvanas, Jaina, and Cyndia reach Hearthglen and find a town that held only by speed, pyres, and constant reclearing while the dead keep feeding the fight.
+  - Uther confirms the outbreak has outrun any neat battlefield answer, then Arthas receives the full plague picture and immediately turns it into motion toward Stratholme.
+  - Jaina names one narrow source-node plan; Sylvanas rides with it, and the chapter closes on the three-rider head start while the fourth farewell sighting hardens into a pattern.
+- **Key beats**
+  - Beat 2: Hearthglen's aftermath proves the plague is now self-feeding, not only cult-managed.
+  - Beat 3: Uther's healer-on-the-line presence and fear of Arthas give Sylvanas the first human warning from inside the Silver Hand.
+  - Beat 5: Sylvanas and Jaina finish each other's briefing cleanly enough for Uther to see the partnership even while the crack remains.
+  - Beat 6: Jaina turns Kel'Thuzad's teaching into a practical source-node rescue plan instead of hoarding it as theory.
+  - Beat 8: The departure rush delivers the fourth "May the stars keep your road" sighting.
+  - Beat 9: Sylvanas commits to the head-start ride with Jaina's plan, letting action do the first real repair work.
+- **Characters active**
+  - Sylvanas — POV; trying to steer Arthas as an instrument and learning how little control that buys.
+  - Jaina — source plus partner; uses the Scholomance knowledge immediately in service of rescue.
+  - Cyndia — left-flank rider, relay handler, and the clearest witness to the farewell pattern in camp.
+  - Uther — field healer, moral weight, and first on-page witness to what Arthas is becoming.
+  - Arthas — formal, fast, unrepaired, already converting intelligence into speed.
+  - Falric / staff officers / aides — camp machinery and pressure texture around the prince.
+- **Threads opened**
+  - Fourth farewell sighting in an ordinary camp context.
+  - Jaina's source-node countermeasure as a real, narrow field option.
+- **Threads advanced**
+  - Arthas as the live fuse Sylvanas lit in Chapter 11.
+  - The sanctum crack shifting from suspicion into action-based re-alignment.
+  - The Hearthglen -> Stratholme escalation inside the plague war.
+- **Structural notes**
+  - Warning: beats 1-8 are eight straight scene beats before the lone sequel at beat 9.
+  - Warning: all scene beats land yes-but, so the draft must differentiate compromise sharply.
+  - Warning: beats 1-5 darken in one general direction before beat 6 gives the first upward pivot.
+- **Enrichments of note**
+  - Hearthglen should feel like a real fortified town under siege aftermath: walls, towers, chapel, stables, pyres, and wounded overflow.
+  - Uther reads best as the broad, scarred first paladin still doing healer's work with the older hammer at his side.
+  - Falric is canon-grounded as Arthas's loyal King's Guard captain, so the camp should reflect personal command loyalty as much as formal hierarchy.
+  - The ride toward Stratholme runs through grain-country logistics ground, and the Thalassian mounts should stay endurance-bred, quiet, and field-practical.
+- **Suggestions for next chapter**
+  - Open directly on the ride into Stratholme; do not cool the head-start handoff.
+  - Let the source plan achieve a real local win before city scale kills it.
+  - Keep any partnership repair implicit through labor, timing, and where Sylvanas puts her body.
+  - Arthas should arrive at the gate already moving fast enough that Jaina's answer becomes the real hinge.
+
+
+## Chapter chapter15 — Verifier Notes
+
+- **Verdict:** approved-with-modifications.
+- **Craft research applied**
+  - Aftermath-to-briefing chapters stay alive when they begin in motion rather than recap; beat 1 was tightened so Hearthglen pressure lands faster.
+  - Strategy scenes need conflict, withheld uncertainty, and a decision point; the tent sequence works because Arthas converts information into motion and Jaina forces one narrow alternative onto the table.
+  - Ticking-clock chapter endings should hand directly into the next scene on unresolved consequence; beat 9 now ends on commitment and launch rather than doing chapter16's full saddle briefing early.
+  - Scene-heavy chapters need a real recalibration beat; beat 6 remains the crucial upward pivot that keeps the chapter from reading as one long downward line.
+  - Repair-by-action is stronger than repair-by-speech here; the chapter earns movement in the partnership through who rides where when the clock starts.
+- **Structural modifications**
+  - Tightened beat 1 so Eastweald road texture reads as continued pressure instead of reintroduced setup.
+  - Reworked beats 7-9 to restore a real Sylvanas choice between Arthas's force and Jaina's narrower lane.
+  - Advanced Uther's warning thread by having him materially back the head-start attempt instead of only looking afraid.
+  - Retuned beat 8 so the fourth farewell remains a background sting inside departure urgency instead of competing with the launch.
+  - Pulled detailed saddle-target planning out of beat 9 so chapter16 still owns the operational ride-in opener.
+- **Continuity snapshot**
+  - 0 new beats / 1 callback / 8 evolutions.
+  - No direct memory contradictions found.
+  - Anti-reintroduction fixes: Eastweald kept as established road-state rather than reintroduced setting; Arthas/Jaina history treated as callback through the loaded title rather than fresh exposition; the repeated farewell handled as an existing thread sharpening under pressure rather than a new mystery drop.
+- **Active threads**
+  - Arthas is now a moving fuse racing the protagonists toward Stratholme.
+  - Uther's warning about Arthas remains open and has now advanced through concrete support for the head-start lane.
+  - Jaina's mechanism knowledge has become a narrow field answer, but only at node scale.
+  - The sanctum crack remains active: trust is functioning, but still under confirmation pressure.
+  - The repeated farewell has reached a fourth sighting and remains unresolved.
+- **Threads resolved this chapter**
+  - Jaina's willingness to spend the Scholomance answer immediately in service of rescue is now externally proven rather than merely claimed.
+  - The question of whether the team rides with Arthas or against his tempo resolves into a split answer: the army moves, and the smaller team rides ahead.
+- **Chapter-end stance / carry-forward residue**
+  - Sylvanas: still reads Arthas as a fuse and Jaina as a source under scrutiny, but now chooses to spend her own speed on Jaina's attempt anyway.
+  - Jaina: no longer only carrying theory; she now has to prove whether the ugly narrow answer works at all.
+  - Cyndia: remains the left-flank stabilizer and relay holder inside the damaged but functional three-rider geometry.
+  - Arthas: fully in motion, turning understanding into tempo faster than anyone around him can slow.
+  - Uther: still with the main column, clearer than ever about the prince's danger and no longer entirely passive about it.
+- **Chapter bridge note**
+  - Direct carry from chapter14's hard southbound ride: same three riders, same withheld sanctum truth, same refused institutions, same Stratholme clock—now broken over Hearthglen and immediately redirected into the city race.
+- **Warnings for next chapter**
+  - Open chapter16 directly on the live ride and first source-node attempt; do not cool the launch.
+  - Let chapter16 own the detailed target-order briefing that chapter15 now deliberately withholds.
+  - Preserve the sanctum scar as behavior and spacing, not speech.
+  - Give Jaina one real local success before the city-scale failure closes over it.
+  - Keep the farewell thread peripheral even as it sharpens; Stratholme must remain the foreground catastrophe.

@@ -1,0 +1,227 @@
+{
+  "chapterId": "chapter13",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "summary": {
+    "totalKills": 25,
+    "totalKeeps": 21,
+    "guidesRun": 5,
+    "guidesWithKills": 4,
+    "killsWithFix": 25,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "25 KILL verdicts across 4 guides: gpt-5-prose-issues 14, narrator-seep 5, intent-smear 4, negation-addiction 2."
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "kills": 14,
+      "keeps": 6,
+      "findings": [
+        {
+          "line": "Shelves, crates, a bench. Storage room.",
+          "pattern": "F1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "Shelves, crates, a bench: storage room."
+        },
+        {
+          "line": "No guard. No barricade.",
+          "pattern": "F1",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "suggestedFix": "The approach stood open\u2014unguarded, unbarricaded."
+        },
+        {
+          "line": "Work voice. Too even.",
+          "pattern": "F1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "Her work voice came out too even."
+        },
+        {
+          "line": "Scholarly order sat over butcher's work, making the cuts look methodical.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "The cuts were neat, methodical."
+        },
+        {
+          "line": "Worse: as if she had stayed.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "Worse: she stood like she belonged there."
+        },
+        {
+          "line": "Colder than betrayal: a weakness she could not ignore.",
+          "pattern": "F4",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "suggestedFix": "A weakness she could not ignore."
+        },
+        {
+          "line": "He meant it.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "There was no strain in his voice."
+        },
+        {
+          "line": "Wise.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Delete the fragment."
+        },
+        {
+          "line": "That detail would have meant nothing outside this room. Here it meant too much.",
+          "pattern": "F4",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "suggestedFix": "Here, the chalk mattered."
+        },
+        {
+          "line": "With Kel'Thuzad dead, the wards and routines kept cycling on their own.",
+          "pattern": "F6",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "Even dead, Kel'Thuzad left the wards cycling."
+        },
+        {
+          "line": "The discard rooms had not changed.",
+          "pattern": "F6",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "Hooks. Vats. Parts laid out by category."
+        },
+        {
+          "line": "One more place a fourth hand should have been.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "Automatic, and still built for four."
+        },
+        {
+          "line": "This was what the side of the building was for.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "The side route led straight into the work."
+        },
+        {
+          "line": "One last useful fact, given before the body failed.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "He gave one last useful fact before he folded."
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "kills": 4,
+      "keeps": 2,
+      "findings": [
+        {
+          "line": "The plainness of it hit harder than a sneer.",
+          "pattern": "P5",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "His plain delivery hit harder than a sneer."
+        },
+        {
+          "line": "Sylvanas had her answer: Jaina was still useful and dangerous, but structure could hold her still longer than safety allowed.",
+          "pattern": "P5",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "suggestedFix": "Sylvanas had her answer: Jaina was still useful and dangerous, but Kel'Thuzad could keep her there longer by feeding her structure than safety allowed."
+        },
+        {
+          "line": "Silence came down over the sanctum.",
+          "pattern": "P7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "The sanctum went silent."
+        },
+        {
+          "line": "Jaina kept pace easily enough, but the silence around her carried a different weight now.",
+          "pattern": "P7",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina kept pace easily enough, but the quiet around her felt heavier now."
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "kills": 5,
+      "keeps": 7,
+      "findings": [
+        {
+          "line": "A lecturer finishing a point.",
+          "pattern": "A1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "Kel'Thuzad still sounded like he was lecturing."
+        },
+        {
+          "line": "A scholar's office buried under stone and bones.",
+          "pattern": "B1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "Books, boards, and specimen jars filled the stone room."
+        },
+        {
+          "line": "No good time to say that aloud. Never.",
+          "pattern": "A2",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "suggestedFix": "She kept that to herself."
+        },
+        {
+          "line": "Hearthglen was overwhelmed, and Stratholme was next.",
+          "pattern": "B2",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "If Hearthglen had broken, Stratholme came next."
+        },
+        {
+          "line": "They fell back into line by habit, but the spacing stayed wrong.",
+          "pattern": "A5",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "They fell back into line by habit, but the old spacing never came back."
+        }
+      ]
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "kills": 2,
+      "keeps": 6,
+      "findings": [
+        {
+          "line": "Jaina stood three strides off the boards, not near the door, not with her staff raised, not standing like a captive.",
+          "pattern": "Pattern 7",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina stood three strides off the boards, away from the door, staff down, like she belonged in the room."
+        },
+        {
+          "line": "Not touch-close. Escort-close.",
+          "pattern": "Pattern 2",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "Escort-close."
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "kills": 0,
+      "keeps": 6,
+      "cleanReason": "All tic words under cap with physical/literal uses only."
+    }
+  ]
+}

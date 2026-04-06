@@ -1,0 +1,171 @@
+{
+  "chapterId": "chapter3",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 3-11: opening threat scan lands in Sylvanas's clipped tactical cadence; the short commands and environmental hooks match the chapter's opening-gambit spec.",
+        "Lines 27-29: the house read tipped into one fragment too many; I merged the conclusion so the paragraph still snaps without turning telegraphic.",
+        "Lines 45-49: the lane inventory now resolves in one cleaner sentence before Cyndia re-enters, which keeps the catalog from flattening into uniform short beats.",
+        "Lines 105-109: the churned-ground read had a dense run of micro-sentences; I combined two beats and one inference to restore a needed longer pulse.",
+        "Lines 311-317: the north-road spoor now includes one orienting sentence before Jaina's confirmation, preserving pressure while reducing fragment stacking."
+      ],
+      "violations": 4,
+      "fixes": [
+        {
+          "line": 27,
+          "rule": "sentenceRhythmStandards.default — fragment stack exceeded the chapter's baseline cadence",
+          "before": "Dust settling on the sill. Not much. Enough. Interrupted. Not cleared.",
+          "after": "Dust settling on the sill. Not much. Enough to tell her the meal had been broken off, not cleared away."
+        },
+        {
+          "line": 105,
+          "rule": "sentenceRhythmStandards.action/default — terrain read needed one longer orienting sentence",
+          "before": "Dirt broken to clods. Old mud kicked up under new. Drag marks. Heel gouges.",
+          "after": "Dirt broken to clods, old mud kicked up under new. Drag marks and heel gouges."
+        },
+        {
+          "line": 109,
+          "rule": "sentenceRhythmStandards.introspection — inference chain was too chopped to carry causality cleanly",
+          "before": "Not a clean column of tracks. Too much overlap. Too much churn. But the story held. A great deal of movement away from the village. Not carts. Not panicked flight. Feet that dragged, crossed, wandered, then found one pull and followed it.",
+          "after": "No clean column of tracks. Too much overlap, too much churn. But the story held. A great deal of movement away from the village: feet dragging, crossing, wandering, then finding one pull and following it."
+        },
+        {
+          "line": 313,
+          "rule": "sentenceRhythmStandards.default — repeated three-word fragments needed consolidation",
+          "before": "Bare feet. Boot heels. Dragging hems.",
+          "after": "Bare feet, boot heels, dragging hems."
+        }
+      ]
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Lines 15-19: the magical detail stays field-plain — dim crystal, banked blue, no lab-report diction.",
+        "Lines 75-93: Jaina's granary explanation uses ordinary causality words ('bell,' 'wound,' 'grain,' 'stain') instead of technocratic jargon.",
+        "Lines 123-133: her answer about the churn stays in usable soldier-facing language — 'what they disturbed' rather than abstract arcane terminology.",
+        "Line 317: I removed the residual negation scaffold from Jaina's road read so the line lands as plain witness language, not rhetorical setup.",
+        "Lines 349-353: the warning note is diegetic dispatch prose, so its clipped field shorthand reads as character function rather than narration contamination."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 317,
+          "rule": "vocabularyStandards.baseline / anti-slop negation addiction — land on the concrete noun instead of the scaffold",
+          "before": "\"Most of it runs this way,\" the mage said. \"Not carts. Bodies. Many together. They kept to the road once they found it.\"",
+          "after": "\"Most of it runs this way,\" the mage said. \"Bodies. Many together. They kept to the road once they found it.\""
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorCompliance",
+      "observations": [
+        "Line 15: 'like banked fire' is a single clean image tied to contained danger; it does useful work and does not stack.",
+        "Lines 89-90: the bell-and-wound comparison clarifies signal versus source in one stroke and stays inside Jaina's explanatory mode.",
+        "Line 171: 'blue enough to sour the dark' gives contamination texture without blooming into decorative spectacle.",
+        "Line 313: 'looked used up' is lean and serviceable, closer to field judgment than ornamental lyricism.",
+        "Lines 497-509: the close keeps imagery sparse; no epic abstractions, no mixed domains, no back-to-back simile pileup."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "Lines 3-23: opening paragraphs mostly stay within the 1-4 sentence target, with one-line beats used for dread and command turns.",
+        "Lines 27-29: the interior-house conclusion had one extra isolated fragment; compressing it restored a cleaner paragraph finish.",
+        "Line 45: I collapsed the paired absence fragments into one sentence so the paragraph ends with sharper pressure instead of two matching taps.",
+        "Lines 239-291: Mira's questioning sequence breaks every 1-2 sentences, which suits interrogation pacing and keeps the child-response beats clear.",
+        "Lines 343-353: the proof threshold moves straight into the written warning, so scene transition happens by consequence rather than reset."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 45,
+          "rule": "paragraphLengthGuidelines.sceneBalance — end-of-paragraph fragment pairing risked monotony",
+          "before": "No blood worth naming. No bodies.",
+          "after": "No blood worth naming and no bodies."
+        }
+      ]
+    },
+    {
+      "dimension": "dialogueRatioAttribution",
+      "observations": [
+        "Overall ratio measured 31.7:68.3 dialogue-to-narration, which fits a dread-heavy investigation chapter with interrogation pockets.",
+        "Lines 165-231: the cellar rescue swings dialogue-heavy at the right moment, then drops back into concrete reaction beats.",
+        "Said/asked-style tags dominate the chapter; stronger tags ('murmured,' 'whispered,' 'snorted') stay sparse and situational.",
+        "Lines 185-209: Neral's guidance uses dialogue plus action placement after the line, aligning care, status, and readability cleanly.",
+        "Lines 407-477: the Paret exchange stays readable with short answer blocks, minimal tags, and no creative-tag overreach."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Lines 3-11: Sylvanas notices ground, silence, movement, and threat geometry first; the scene opens exactly through her filter.",
+        "Across the chapter, Jaina remains 'the mage' in Sylvanas-facing narration, preserving the chapter-3 relationship phase rule.",
+        "Lines 105-111: Sylvanas processes spoor as threat assessment to conclusion, not as abstract meditation.",
+        "Lines 239-295: Mira's testimony is handled as utility, proof, and consequence; emotion stays present through bodily detail rather than soft-focus pity.",
+        "Lines 499-513: Sylvanas's final acknowledgement of Jaina registers as operational recalculation, not intimacy or overt admiration."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Adverbs per page measured 0.7, well below the hard cap of 4.",
+        "Passive-voice heuristic measured 0.7%, well below the 4% ceiling; the few candidates are not rhythm-breaking.",
+        "Showing dominates: empty houses, churned earth, Mira's body language, and the road spoor all carry information without explanatory gloss.",
+        "Filter-word and academic-register sweeps came back clean; no 'noticed/felt/saw' clutter and no banned systems-talk survived.",
+        "Simile load stays controlled: one clear 'like' simile of note, no 'as if' constructions, no comparison fog."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration stays organic at lines 75-133 and 245-291; world facts arrive through inspection, translation, and questioning under pressure.",
+        "Power dynamics track cleanly: Sylvanas's clipped imperatives dominate lines 17-21, 97-103, and 385-397, while Jaina's longer replies mark explanatory resistance.",
+        "The scene-shape midpoint turn lands when Mira emerges at lines 181-211, shifting the governing question from absence to confirmation.",
+        "Speculative integration is highly domesticated: magic reads as residue, strain, contamination, and proof threshold rather than spectacle.",
+        "Humor deployment is compliant: Neral, Jaina, and Paret each get one dry pressure-valve line, but the horror beats themselves stay straight."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Sylvanas Windrunner",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — lines 3-11, 45-49, and 349-355 use lean martial diction, rank-aware commands, and concrete threat language with no soft or modern contamination.",
+        "sentenceRhythm": "pass — short declaratives still dominate, but lines 27, 105, 109, and 313 were smoothed so the clipped cadence stops short of monotone telegraphese.",
+        "metaphorDensity": "pass — imagery remains sparse and martial-horror adjacent; the chapter never drifts into ornamental lyricism.",
+        "emotionalRegister": "pass — emotion appears as irritation, proof-threshold pressure, and operational urgency rather than named feeling.",
+        "thoughtPatterns": "pass — the chapter repeatedly moves from read to judgment to decision: house scan, granary, churn, survivor testimony, road spoor, warning dispatch.",
+        "sensorySignature": "pass — silence, footing, movement, sightlines, ground-read, and exposure stay foregrounded throughout."
+      },
+      "ruleViolations": [
+        "Fixed lines 27 and 105-109 where fragment density briefly over-cranked Sylvanas's natural clipped cadence.",
+        "No intimacy drift detected: Jaina never becomes 'Jaina' in Sylvanas's interior narration in this chapter."
+      ]
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 0.7,
+    "passiveVoicePercent": 0.7,
+    "dialogueToNarrationRatio": "31.7:68.3",
+    "avgSentenceLength": 6.85,
+    "avgParagraphLength": 2.24,
+    "metaphorsPerThousandWords": 1.8
+  },
+  "totalObservations": 40,
+  "totalFixes": 6,
+  "wordCount": {
+    "before": 3918,
+    "after": 3920
+  }
+}

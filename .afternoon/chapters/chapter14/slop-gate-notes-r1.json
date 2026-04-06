@@ -1,0 +1,568 @@
+{
+  "chapterId": "chapter14",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 12,
+      "kills": 6,
+      "keeps": 6,
+      "severePagesOrScenes": [
+        "chapter close (lines 379-389)"
+      ],
+      "dominantPattern": "F7 — Closure Addiction",
+      "findings": [
+        {
+          "lineNumber": 237,
+          "line": "It only made the refusal hurt somewhere else.",
+          "pattern": "F4",
+          "verdict": "KILL",
+          "reason": "Abstract emotional gloss after \"Child.\" translates a reaction the dialogue already carried.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 259,
+          "line": "\"No,\" she said, and almost managed the shape of a smile. \"It isn't.\"",
+          "pattern": "F3",
+          "verdict": "KILL",
+          "reason": "Hedge word \"almost\" weakens the beat; the partial smile can be written directly.",
+          "suggestedFix": "\"No,\" she said, and managed a thin smile. \"It isn't.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 291,
+          "line": "Sylvanas nodded once.",
+          "pattern": "F2",
+          "verdict": "KILL",
+          "reason": "Generic dialogue beat from the kill list; the line of dialogue already carries the concession.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 379,
+          "line": "It was still something.",
+          "pattern": "F7",
+          "verdict": "KILL",
+          "reason": "Paragraph-final reassurance closes the emotional thought instead of leaving the image open.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 385,
+          "line": "That would have to be enough for this road.",
+          "pattern": "F7",
+          "verdict": "KILL",
+          "reason": "Interpretive closer explains the emotional takeaway after the concrete half-step image.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 387,
+          "line": "For now, it was.",
+          "pattern": "F7",
+          "verdict": "KILL",
+          "reason": "The guide specifically flags this kind of \"for now\" closure loop as model-style emotional sealing.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 11,
+      "kills": 8,
+      "keeps": 3,
+      "clusterFlags": [
+        "Antonidas stone exchange (lines 201-231)",
+        "chapter close (road/shape cluster, lines 361-365)"
+      ],
+      "repeatNouns": [
+        "road"
+      ],
+      "pattern4Alert": "no",
+      "dominantPattern": "Pattern 5 — Objects wanting, refusing, or deciding",
+      "findings": [
+        {
+          "lineNumber": 69,
+          "line": "His gaze stuck on their speed, their faces, the bow on Sylvanas's back.",
+          "pattern": "P8",
+          "subject": "gaze",
+          "verb": "stuck",
+          "realAgent": "the farmer kept staring at the three riders",
+          "verdict": "KILL",
+          "reason": "Body part given its own agency; the farmer is the one staring.",
+          "suggestedFix": "He watched their speed, their faces, and the bow on Sylvanas's back.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 139,
+          "line": "The answer came too fast.",
+          "pattern": "P9",
+          "subject": "answer",
+          "verb": "came",
+          "realAgent": "Jaina answered before she could slow herself",
+          "verdict": "KILL",
+          "reason": "Nominalized action turned into the subject; Jaina is the one answering.",
+          "suggestedFix": "Jaina answered too fast.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 145,
+          "line": "She stayed with the useful part because the south road needed that more than it needed confession.",
+          "pattern": "P5",
+          "subject": "south road",
+          "verb": "needed",
+          "realAgent": "the urgency of reaching Stratholme left no room for confession",
+          "verdict": "KILL",
+          "reason": "The road is given need and preference that belong to the urgent ride and mission pressure.",
+          "suggestedFix": "She stayed with the useful part; there was no time for confession on the ride south.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 201,
+          "line": "Jaina steadied her mare with her knees and spoke into the stone while the road moved under them.",
+          "pattern": "P3",
+          "subject": "road",
+          "verb": "moved",
+          "realAgent": "the horses kept carrying them south",
+          "verdict": "KILL",
+          "reason": "Geography is given motion that belongs to the horses carrying them forward.",
+          "suggestedFix": "Jaina steadied her mare with her knees and spoke into the stone while the horses kept moving.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 203,
+          "line": "Silence came back over the crystal.",
+          "pattern": "P7",
+          "subject": "silence",
+          "verb": "came back",
+          "realAgent": "Antonidas stopped speaking over the stone",
+          "verdict": "KILL",
+          "reason": "Silence is assigned active return; the real event is Antonidas not answering.",
+          "suggestedFix": "Antonidas did not answer at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 231,
+          "line": "The mare stepped around a stone and for one strange second the whole road tilted anyway.",
+          "pattern": "P5",
+          "subject": "road",
+          "verb": "tilted",
+          "realAgent": "Jaina reeled as the mare stepped wide",
+          "verdict": "KILL",
+          "reason": "The road is given physical behavior that belongs to Jaina's disorientation.",
+          "suggestedFix": "The mare stepped around a stone and for one strange second she still felt the world tilt.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 283,
+          "line": "Jaina turned then, because the words demanded it.",
+          "pattern": "P5",
+          "subject": "words",
+          "verb": "demanded",
+          "realAgent": "Sylvanas's accusation forced Jaina to turn",
+          "verdict": "KILL",
+          "reason": "Words are given demand/command agency instead of Jaina reacting to Sylvanas's accusation.",
+          "suggestedFix": "Jaina turned then, because she could not ignore the accusation.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 365,
+          "line": "The shape of it demanded something else.",
+          "pattern": "P5",
+          "subject": "shape",
+          "verb": "demanded",
+          "realAgent": "Jaina concluded the parallel required a different answer",
+          "verdict": "KILL",
+          "reason": "Abstract \"shape\" is given demand agency; the pressure belongs to Jaina's conclusion about what must change.",
+          "suggestedFix": "She needed something else from it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in fast analytical chains, magical mechanism, and tactical utility. Under guilt or pressure she compresses hard, but the compression stays concrete and problem-solving. She does not naturally drift into detached thematic captions or polished relationship summaries from outside her body.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 10,
+      "kills": 6,
+      "keeps": 4,
+      "severePages": [
+        "Antonidas exchange (lines 199-257)"
+      ],
+      "severeScenes": [],
+      "dominantPattern": "A6 — Interpretive restatement",
+      "structuralHabit": "yes — interpretive captions and thematic compression spike when Jaina tries to translate emotion into analysis",
+      "findings": [
+        {
+          "lineNumber": 199,
+          "line": "That at least meant he had stopped pretending the Council still had time for polite upholstery.",
+          "pattern": "B1",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence sounds authored and performative, not like Jaina's fast practical relief.",
+          "confidence": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Too polished and essay-shaped for Jaina's in-the-saddle thought; \"polite upholstery\" is narrator flair rather than her immediate register.",
+          "suggestedFix": "That meant he had stopped wasting time on politeness.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 229,
+          "line": "He asked as her teacher, not her archmage.",
+          "pattern": "A6",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Concrete dialogue is followed by an interpretive caption from above the moment.",
+          "confidence": "HIGH",
+          "verdict": "KILL",
+          "reason": "The dialogue already shows the personal appeal; this sentence steps in to translate it.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 257,
+          "line": "Only the old angle of his dry impatience showed through, long enough to remind her he was still himself under all the pressure.",
+          "pattern": "A6",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The prose translates a voice beat into relationship commentary.",
+          "confidence": "HIGH",
+          "verdict": "KILL",
+          "reason": "This sentence explains the meaning of Antonidas's tone instead of letting the line carry it.",
+          "suggestedFix": "For a moment Antonidas sounded dry and impatient again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 311,
+          "line": "Ordinary Lordaeron work spread over a kingdom already baking its own knife.",
+          "pattern": "B4",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The metaphor is authorially neat and thematic where Jaina would think in plague logistics and civilian danger.",
+          "confidence": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The knife metaphor serves chapter theme more than Jaina's immediate sensory register in this moment.",
+          "suggestedFix": "Ordinary Lordaeron work went on while poisoned grain moved through the kingdom.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 363,
+          "line": "Being right alone looked too much like Kel'Thuzad: a desk, a closed room, a man pleased to find himself mirrored.",
+          "pattern": "B3",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can make the comparison, but this version sounds like story-theme commentary rather than live thought.",
+          "confidence": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The sentence names the chapter's thematic mirror from outside the immediacy of the ride.",
+          "suggestedFix": "Kel'Thuzad had worked alone in a closed room, pleased with himself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 383,
+          "line": "The half-step was still there: trust under strain, still working, still checking every gap.",
+          "pattern": "B2",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina would read the formation in concrete tactical terms before she would name the relationship state this cleanly.",
+          "confidence": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Conceptual relationship summary outruns the concrete half-step Jaina is actually seeing.",
+          "suggestedFix": "Sylvanas still kept the half-step, close enough to listen and far enough to watch.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "dominantPattern": "Pattern 1 — Direct contrast pivot",
+      "findings": [
+        {
+          "lineNumber": 229,
+          "line": "He asked as her teacher, not her archmage.",
+          "pattern": "Pattern 1",
+          "deletionTest": "He asked as her teacher.",
+          "verdict": "KILL",
+          "reason": "Delete the negative half and the sentence lands harder; the contrast is scaffolding, not structural work.",
+          "suggestedFix": "He asked as her teacher.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 14,
+      "kills": 6,
+      "keeps": 8,
+      "clusterWarnings": [
+        "Tic 5 appears 10 times in the chapter; cap is 4, so the weakest 6 eye/gaze beats are kills."
+      ],
+      "dominantPattern": "Tic 5 — Eye/Gaze Repertoire Exhaustion",
+      "findings": [
+        {
+          "lineNumber": 107,
+          "line": "Jaina kept her eyes ahead.",
+          "pattern": "Tic 5",
+          "verdict": "KILL",
+          "reason": "Generic eye beat and one of the weaker instances beyond the chapter cap.",
+          "suggestedFix": "Jaina faced forward.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 161,
+          "line": "Jaina looked straight ahead and wished for hedges, trees, anything but flat country and air.",
+          "pattern": "Tic 5",
+          "verdict": "KILL",
+          "reason": "Another generic look-ahead beat; the wish does the emotional work without the gaze scaffold.",
+          "suggestedFix": "Jaina wished for hedges, trees, anything but flat country and air.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 215,
+          "line": "Jaina looked at the red-gold line of sun caught in a ditch.",
+          "pattern": "Tic 5",
+          "verdict": "KILL",
+          "reason": "Weak visual-routing beat beyond the cap; the image can stand without \"looked.\"",
+          "suggestedFix": "A red-gold line of sun burned in the ditch.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 333,
+          "line": "Sylvanas looked across at her then, fully for the first time since the road began.",
+          "pattern": "Tic 5",
+          "verdict": "KILL",
+          "reason": "Generic connection beat; one of the least character-specific gaze uses in the chapter.",
+          "suggestedFix": "Sylvanas turned to her then, fully for the first time since the road began.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 349,
+          "line": "Jaina looked south.",
+          "pattern": "Tic 5",
+          "verdict": "KILL",
+          "reason": "Extremely generic gaze beat beyond the cap.",
+          "suggestedFix": "Jaina faced south.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 353,
+          "line": "Sylvanas held her gaze another second.",
+          "pattern": "Tic 5",
+          "verdict": "KILL",
+          "reason": "Generic stare-beat and the weakest remaining eye-contact instance once the cap is exceeded.",
+          "suggestedFix": "Sylvanas stayed turned toward her for another second.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 27,
+    "totalKeeps": 24,
+    "guidesRun": 5,
+    "guidesWithKills": 5,
+    "killsWithFix": 27,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "27 KILL verdicts across 5 guides. Top counts: intent-smear 8, gpt-5 6, narrator-seep 6, recurring tics 6, negation 1."
+  }
+}

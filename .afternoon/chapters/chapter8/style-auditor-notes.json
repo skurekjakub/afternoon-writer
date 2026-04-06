@@ -1,0 +1,171 @@
+{
+  "chapterId": "chapter8",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 3-27: the opening alternates 3-14 word sentences with earned one-line beats (\"The cart came.\", \"There.\", \"Like a hand over a bell.\") so the trap snaps shut without monotony.",
+        "Lines 47-127: the interrogation keeps Sylvanas in clipped questions while Jaina gets the longer deductive sentences; the contrast matches the guide's command-vs-analysis rhythm split.",
+        "Lines 141-231: the escape stays mostly in 3-9 word action units, then lengthens only where route geometry needs reorientation (173, 193, 219, 231).",
+        "Lines 267-303: the revelation sequence uses blunt fragments (\"Out of Andorhal.\", \"Plain enough to hurt.\", \"Knowledge, again. Clean, hard, late.\") to puncture longer thought chains.",
+        "Lines 351-397: the Antonidas exchange lets silence and short lines carry force; emphasis comes from cadence, not italics or explanatory tagging."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Lines 13, 63, 85-92, and 161-167 keep the magical diction setting-native and embodied: ward-thread, preserving shell, host trigger, and necromantic signatures all read as craft terms, not modern science jargon.",
+        "Lines 31, 71, 77, 157, and 169 keep Sylvanas in clipped martial/status language built from commands, tests, and tactical verbs rather than explanatory speech.",
+        "Lines 237-259 keep Corin and Havel plainspoken under stress; the cellar dialogue reads like people in a room, not officials briefing up a chain.",
+        "Line 335 originally leaned academic/documentary (\"systems, elegant sufficiencies\"); it was revised to the more immediate \"clean answers\" / \"held together under strain\" so Jaina stays inside lived judgment.",
+        "Line 369 originally said \"the structure of the work fits him too cleanly\"; it was revised to \"the shape of the work\" to keep the reasoning concrete and spoken-credible."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 335,
+          "rule": "vocabularyStandards avoid list / document voice — academic-process phrasing drifted outside lived narration",
+          "before": "Taught to think in systems, in elegant sufficiencies, in the pleasure of solving what others called impossible.",
+          "after": "Taught to love clean answers. Work that held together under strain. The pleasure of solving what others called impossible."
+        },
+        {
+          "line": 369,
+          "rule": "vocabularyStandards baseline — keep Jaina's reasoning concrete, not report-like",
+          "before": "\"As certain as I can be from fragments. Corin knew the old stories. Havel had the northbound rumors. The dead man almost said it, and the structure of the work fits him too cleanly. It's him.\"",
+          "after": "\"As certain as I can be from fragments. Corin knew the old stories. Havel had the northbound rumors. The dead man almost said it, and the shape of the work fits him too cleanly. It's him.\""
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorCompliance",
+      "observations": [
+        "Line 23 uses the bell image to explain ward suppression in one stroke; it clarifies effect and comes straight from Jaina's immediate magical task.",
+        "Lines 141-147 keep the remote-kill imagery sparse and sourced from material force: needle, pin, wet parchment. No ornamental piling follows the strike.",
+        "Line 189 compares Cyndia's burden to spoiled grain; the source domain matches the district, the escape conditions, and Jaina's current observational frame.",
+        "Line 301's ledger comparison fits Jaina's investigative cast of mind and remains a single clean image rather than a stacked metaphor cluster.",
+        "Estimated figurative density stays at about 2.9 images per thousand words; most paragraphs carry none, and no mixed domains or epic-fantasy abstractions survived."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "Average paragraph length lands at about 17.82 words / 2.55 sentences, well inside the 1-4 sentence norm for this style guide.",
+        "The opening scene transitions entirely by consequence: trap to capture to interrogation, with no filler bridges such as later / after a moment / then they moved on.",
+        "The escape sequence uses dense route paragraphs only when geography must be tracked (173, 193, 219, 231), then returns immediately to motion or command beats.",
+        "The cellar sequence pivots from corpse check to map work to name reveal by pressure and discovery, not by detached summary or clock-time scaffolding.",
+        "Line 421 originally closed the chapter in a more abstract thesis register; it was revised to shipment timing and naming delay so the final transition stays concrete."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 421,
+          "rule": "sceneTransitionConventions / paragraphLengthGuidelines — closing beat had drifted into abstract summary instead of consequence-grounded carry-forward",
+          "before": "Outside the shelter, the city would still be loading bread onto wagons, still moving under routines that knew how to hide murder inside commerce. They had the name now. They had the mind on the work. They also had the bitterer thing: proof that being early by every ordinary measure could still mean arriving after the grain had already gone out through the gates.",
+          "after": "Outside the shelter, the city would still be loading bread onto wagons, still moving under routines that knew how to hide murder inside commerce. They had the name now. They had the mind on the work. They also had the bitterer thing: proof that the grain had already gone out through the gates while they were still learning how to name it."
+        }
+      ]
+    },
+    {
+      "dimension": "dialogueRatioAttribution",
+      "observations": [
+        "Overall chapter ratio is 857 dialogue words to 2938 narration words (~23:77), but scene splits fit the guide more accurately than the chapter-wide number.",
+        "Capture/interrogation runs 321:888 (~27:73): lower than a pure negotiation scene, but still dialogue-forward enough for a trap-and-questioning block that starts with physical action.",
+        "Kill/escape runs 96:935 (~9:91), which matches the guide's allowance for action set-pieces to dip hard toward narration while bodies are moving.",
+        "Cellar/reveal runs 440:1121 (~28:72), right inside the guide's travel/aftermath band once they have room to think and speak again.",
+        "Attribution stays clean: most lines use said/asked or no-frills equivalents, action beats land mostly after the line, and the untagged runs remain clear because speaker identity is never muddy."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Lines 13, 63, 85-92, and 267-295 keep Jaina in observation -> pattern -> hypothesis -> consequence, which matches her voice fingerprint exactly.",
+        "Jaina's emotional register stays intellect-first/body-first underneath: fear shows as faster precision, over-analysis, and work-focus rather than theatrical panic.",
+        "Jaina's speculative comfort reads native throughout the chapter; wards, signatures, and the sending stone are treated as craft, structure, and failure mode, not spectacle.",
+        "Sylvanas's dialogue on lines 31, 123, 169, 197, and 417 stays clipped, status-laden, and deadpan; even her humor remains a pressure tool rather than a charm display.",
+        "Line 365 had drifted a little outside Jaina's immediate filter into institutional summary; the revision keeps Antonidas inside what she hears and infers in the moment."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 365,
+          "rule": "perPOVCalibration — Jaina expositionFilter / close limited-third; keep institutional reaction inside what she can hear and judge now",
+          "before": "The silence that followed was worse than any curse. It lasted long enough for Jaina to understand that the name needed no explanation. When Antonidas spoke again, every last piece of academic padding was gone. No lecture. No careful preface. Only age, recognition, and the speed too slow for the field but as fast as the institution knew how to move.",
+          "after": "The silence that followed was worse than any curse. It lasted long enough for Jaina to understand that the name needed no explanation. When Antonidas spoke again, every last piece of academic padding was gone. No lecture. No careful preface. Only age, recognition, and the speed of a man who knew he was already late."
+        }
+      ]
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Estimated adverb load is about 0.66 per page, comfortably below the hard cap of 4 per page.",
+        "Estimated passive voice lands at about 1.45%, below the 4% ceiling even with a deliberately overinclusive scan.",
+        "Filter words stay sparse; sensation and perception are usually rendered directly (dust, pulse, iron taste, cold in the palm, breath knocked thin).",
+        "Show/tell ratio holds above the floor because operational explanation is brief and anchored to immediate choices rather than replacing scene action.",
+        "Secondary anti-slop checks stayed clean enough to leave alone: one as-if construction, no planner-language leaks, no therapy-speak, and no repeated worldbuilding dumps."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration stays organic throughout: the plague mechanism comes through prisoner pressure, route sheets, and magical sensing instead of narrator aside.",
+        "Power dynamics obey the guide in confrontation: Sylvanas gets short imperatives and controlled interruptions while the prisoner lengthens into explanation as he loses ground.",
+        "Scene shape is solid: opening trap, midpoint turn at the remote kill, then hard-consequence resolution in the Kel'Thuzad reveal and Eastweald redirect.",
+        "Speculative integration is fully domesticated; wards, remote necromantic execution, and sending-stone use all read as labor, threat, and constraint rather than awe-spectacle.",
+        "Humor is correctly thinned for chapter 8's tonal position: the lone dry release at line 417 lands after survival pressure and does not deflate the horror or the operational stakes."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — precise arcane/tactical diction dominates; two academic drifts at lines 335 and 369 were corrected.",
+        "sentenceRhythm": "pass — longer reasoning chains get punctured by blunt fragments and snapped short lines under pressure.",
+        "metaphorDensity": "pass — low density, sourced from craft, ledgers, material force, and investigative pressure rather than ornament.",
+        "emotionalRegister": "pass — fear and shock appear as work-focus, stillness, and sharpened precision, not overt self-labeling.",
+        "thoughtPatterns": "pass — observation to pattern recognition to consequence governs interrogation, chase, map reveal, and Antonidas call.",
+        "sensorySignature": "pass — Jaina notices magical pressure, dust, iron taste, cold, light, and bodily cost before broader social texture."
+      },
+      "ruleViolations": [
+        "Line 335 originally leaned into academic abstraction (\"systems, elegant sufficiencies\") before revision restored concrete Jaina wording.",
+        "Line 365 originally summarized Antonidas through institutional language before revision anchored the moment in what Jaina can hear and judge."
+      ]
+    },
+    {
+      "character": "Sylvanas Windrunner",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — dialogue stays lean, martial, and status-aware (lines 31, 71, 77, 169, 197, 417).",
+        "sentenceRhythm": "pass — short declaratives dominate, with longer sentences used only when tactical handoff or contempt needs them.",
+        "metaphorDensity": "pass — almost no figurative language enters her speech; she stays on judgment and command.",
+        "emotionalRegister": "pass — care shows as operational focus and timing, never as named softness.",
+        "thoughtPatterns": "pass — her lines consistently move from threat read to capability judgment to immediate decision.",
+        "sensorySignature": "pass — Jaina's observations of her emphasize readiness, movement, angles, silence, and the next danger."
+      },
+      "ruleViolations": []
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 0.66,
+    "passiveVoicePercent": 1.45,
+    "dialogueToNarrationRatio": "857:2938 overall (~23:77); scene splits 321:888 interrogation, 96:935 escape, 440:1121 cellar",
+    "avgSentenceLength": 6.95,
+    "avgParagraphLength": 17.82,
+    "metaphorsPerThousandWords": 2.9
+  },
+  "totalObservations": 40,
+  "totalFixes": 4,
+  "wordCount": {
+    "before": 3801,
+    "after": 3795
+  }
+}
