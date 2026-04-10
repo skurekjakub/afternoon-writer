@@ -4,6 +4,36 @@ New entries are appended at the top.
 
 ---
 
+## 2026-04-09 — Slop checker v3: per-category file split + slopsquid integration
+
+**Problem:** The monolithic `check.py` had grown to 1485 lines with all 135 patterns inline. Adding new categories required editing a single huge file. The slopsquid statistical AI-overuse dataset (sam-paech/slop-score) had been downloaded but not integrated.
+
+**Root cause:** Original design put all patterns in one `_PATTERNS` list for simplicity. As the pattern count grew through calibration, the file became unwieldy. Slopsquid bigrams and trigrams provide high-signal AI detection (zero occurrences in 384K words of human prose) that complements our hand-crafted patterns.
+
+**Changes:**
+
+| File | Change |
+|---|---|
+| `tools/slop_checker/check.py` | Stripped from 1485→469 lines. Patterns removed; imports from `patterns/` package. Engine, formatters, CLI unchanged. |
+| `tools/slop_checker/patterns/__init__.py` | New auto-collector: walks all pattern modules, exports `ALL_PATTERNS` and `COMBINED_CAPS`. |
+| `tools/slop_checker/patterns/*.py` (22 files) | One file per original category, each exporting `PATTERNS` list and `COMBINED_CAP`. |
+| `tools/slop_checker/patterns/slopsquid.py` | New category: 122 AI-only bigrams + 416 AI-only trigrams as alternation regexes. Cap=0 (zero tolerance). Derived from 67-LLM statistical comparison, filtered against 384K-word human baseline. |
+| `.github/skills/afternoon-slop-gate-workflow/references/1b-run-analytic-tools.md` | Added slopsquid to zero-tolerance section and pattern-to-guide mapping (→ gpt-5 guide, pass B). |
+| `docs/afternoon-pipeline-changelog.md` | This entry. |
+
+**Calibration results (137 patterns, 24 categories):**
+
+| Metric | Human (77 chunks) | Pipeline v4b (24 ch) |
+|---|---|---|
+| Mean violations | 3.7 | 1.9 |
+| Mean matches | 81.7 | 28.0 |
+
+Slopsquid catches 9 genuine AI patterns across 8 of 24 chapters (voice low ×2, eyes locked ×2, swallowed hard, spreading across, world outside, eyes filled, spoke voice). Zero false positives on human baseline.
+
+**Note:** Slopsquid word-level patterns were evaluated but not included — human prose uses them at higher density (38.4/5K) than the pipeline (26.9/5K), making single words useless as discriminators. The signal is entirely in multi-word collocations.
+
+---
+
 ## 2026-04-07 — Split fake simplification out into its own pass-B guide
 
 **Problem:** Fake simplification was buried as Pattern P5 inside `phantom-concreteness-guide.md` and treated in pass B as an extra sweep on that guide. That made the failure mode easy to underweight even after it had proved important in chapter16-style exchanges.
