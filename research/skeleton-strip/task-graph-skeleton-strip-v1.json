@@ -1,0 +1,408 @@
+{
+  "$schema": "Skeleton Strip — hybrid concreteness analysis tool for detecting interpretive prose drift",
+  "version": 1,
+  "family": "skeleton-strip",
+  "generatedAt": "2025-07-17",
+  "description": "Build a Python CLI tool that mechanically decomposes prose into concrete vs abstract content, making invisible AI writing patterns visible to LLM agents. Two analysis layers: Brysbaert concreteness norms (word-level scoring) and regex pattern matching (structural interpretive filter detection). Integrates into the Ravencrest prose pipeline as an 'analytic hint' for the gate agent and a self-check for the writer agent.",
+  "summary": {
+    "totalTasks": 14,
+    "phases": 6,
+    "newFiles": 10,
+    "modifiedFiles": 3,
+    "newDirectories": 3
+  },
+  "assumptions": [
+    "Python 3.12 available on the system",
+    "pip install is available for adding pandas",
+    "Internet access available for downloading Brysbaert norms from HuggingFace (one-time)",
+    "Gate agent and writer agent are dispatched via the ravencrest-pusher-orchestrator",
+    "The gate agent can invoke bash commands (tools: ['*'] in frontmatter)",
+    "The writer agent can invoke bash commands (tools: ['*'] in frontmatter)"
+  ],
+  "designDecisions": [
+    {
+      "decision": "Simple regex tokenization over spacy/nltk",
+      "rationale": "We're doing dictionary lookup, not dependency parsing. Fewer dependencies, faster execution, no model downloads. The Brysbaert norms contain many inflected forms already."
+    },
+    {
+      "decision": "Two analysis layers (vocabulary + structure) over a single model-based approach",
+      "rationale": "Vocabulary scoring catches abstract word choice. Pattern matching catches interpretive structures that can use concrete words. Neither alone is sufficient. Combined, they cover both failure modes. Both are deterministic — no LLM bias in the analysis layer."
+    },
+    {
+      "decision": "Gate reads JSON output, not skeleton view",
+      "rationale": "The JSON format provides structured, parseable data the LLM can reference precisely. The skeleton view is for human debugging. The gate needs paragraph indices, density numbers, and pattern names — not visual formatting."
+    },
+    {
+      "decision": "Writer uses summary mode, not full JSON",
+      "rationale": "The writer's self-check should be lightweight — 5-10 lines of output, not a full report. The writer rewrites flagged zones; it doesn't need per-sentence breakdown. Summary mode keeps context burn minimal."
+    },
+    {
+      "decision": "Graceful degradation if tool is unavailable",
+      "rationale": "The skeleton strip is an enhancement, not a gate. If pip install fails, if the norms aren't downloaded, if the script has a bug — the pipeline must continue. The gate falls back to blind Check 8 (which existed before this tool). Never let a tooling failure block prose delivery."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "S-001",
+      "phase": 1,
+      "ref": "phase-1-foundation-v1.md § 1.1",
+      "title": "Create requirements.txt and install dependencies",
+      "description": "Create the tools/skeleton-strip/ directory structure and requirements.txt with pandas dependency. Install via pip.",
+      "type": "create",
+      "target": "tools/skeleton-strip/requirements.txt",
+      "prerequisites": [],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/requirements.txt", "tools/skeleton-strip/__init__.py", "tools/skeleton-strip/data/.gitkeep"]
+      },
+      "acceptanceCriteria": [
+        "tools/skeleton-strip/ directory exists with __init__.py",
+        "requirements.txt lists pandas>=2.0",
+        "pip install -r requirements.txt succeeds",
+        "python3 -c 'import pandas' succeeds"
+      ]
+    },
+    {
+      "id": "S-002",
+      "phase": 1,
+      "ref": "phase-1-foundation-v1.md § 1.2",
+      "title": "Download and cache Brysbaert concreteness norms",
+      "description": "Create download script that fetches the Brysbaert CSV from HuggingFace and caches it locally. Idempotent — skips if already present.",
+      "type": "create",
+      "target": "tools/skeleton-strip/download_norms.py",
+      "prerequisites": ["S-001"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/download_norms.py", "tools/skeleton-strip/data/concreteness_norms.csv"]
+      },
+      "acceptanceCriteria": [
+        "Running the script downloads CSV to data/concreteness_norms.csv",
+        "CSV has columns Word and Conc.M",
+        "CSV has ≥39,000 rows",
+        "Running again prints 'Already downloaded' and exits cleanly"
+      ]
+    },
+    {
+      "id": "S-003",
+      "phase": 1,
+      "ref": "phase-1-foundation-v1.md § 1.3",
+      "title": "Build word-level scoring module",
+      "description": "Core scoring engine: loads norms, tokenizes text, scores words, classifies as concrete/abstract. Returns SentenceScore dataclass.",
+      "type": "create",
+      "target": "tools/skeleton-strip/scorer.py",
+      "prerequisites": ["S-002"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/scorer.py"]
+      },
+      "acceptanceCriteria": [
+        "load_norms() builds dict from CSV with ~40K entries",
+        "tokenize('She picked up her coffee.') returns ['she', 'picked', 'up', 'her', 'coffee']",
+        "score_word('coffee', norms) returns ~4.9",
+        "score_word('deliberation', norms) returns ~1.8",
+        "score_word('the', norms) returns None",
+        "score_sentence() returns SentenceScore with concrete_words, abstract_words, concrete_ratio"
+      ]
+    },
+    {
+      "id": "S-004",
+      "phase": 2,
+      "ref": "phase-2-patterns-v1.md § 2.1",
+      "title": "Build interpretive pattern matching module",
+      "description": "Regex-based pattern matcher for the 7 core interpretive filter flags plus extensions. Returns PatternMatch objects with positions.",
+      "type": "create",
+      "target": "tools/skeleton-strip/patterns.py",
+      "prerequisites": [],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/patterns.py"]
+      },
+      "acceptanceCriteria": [
+        "Defines ≥10 regex patterns covering 7 core flags plus extensions",
+        "find_patterns on 'kind of deliberation that suggested' returns ≥1 match",
+        "find_patterns on 'She picked up her coffee' returns 0 matches",
+        "find_patterns on 'Something about the way she walked betrayed' returns ≥2 matches",
+        "Matches include character offsets",
+        "Case-insensitive matching works"
+      ]
+    },
+    {
+      "id": "S-005",
+      "phase": 3,
+      "ref": "phase-3-cli-v1.md § 3.1",
+      "title": "Build sentence splitter",
+      "description": "Prose-aware sentence and paragraph splitting that handles abbreviations, dialogue, ellipses, and em-dashes.",
+      "type": "create",
+      "target": "tools/skeleton-strip/splitter.py",
+      "prerequisites": [],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/splitter.py"]
+      },
+      "acceptanceCriteria": [
+        "'Dr. Mars walked in.' is one sentence",
+        "Dialogue with internal punctuation is one sentence",
+        "Ellipses followed by lowercase don't split",
+        "Paragraphs split on double newlines",
+        "Each Sentence has index, paragraph_index, start/end char offsets"
+      ]
+    },
+    {
+      "id": "S-006",
+      "phase": 3,
+      "ref": "phase-3-cli-v1.md § 3.2",
+      "title": "Build the strip analysis engine",
+      "description": "Combines scorer and patterns into SentenceAnalysis, ParagraphAnalysis, and DocumentAnalysis. Produces skeleton strings and verdicts.",
+      "type": "create",
+      "target": "tools/skeleton-strip/engine.py",
+      "prerequisites": ["S-003", "S-004", "S-005"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/engine.py"]
+      },
+      "acceptanceCriteria": [
+        "analyze_sentence produces correct verdict for known good/bad examples",
+        "Skeleton of 'Chin up. Steps even.' retains most content",
+        "Skeleton of 'kind of deliberation that suggested' is nearly empty",
+        "analyze_paragraph correctly flags abstract zones",
+        "analyze_document aggregates paragraph analyses with overall verdict"
+      ]
+    },
+    {
+      "id": "S-007",
+      "phase": 3,
+      "ref": "phase-3-cli-v1.md § 3.3",
+      "title": "Build the CLI entry point",
+      "description": "Main CLI tool with three output modes: --json (gate consumption), --skeleton (human debugging), --summary (writer self-check).",
+      "type": "create",
+      "target": "tools/skeleton-strip/strip.py",
+      "prerequisites": ["S-006"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/strip.py"]
+      },
+      "acceptanceCriteria": [
+        "--json produces valid JSON to stdout",
+        "--skeleton produces readable skeleton view with density indicators",
+        "--summary produces concise flagged-zone output",
+        "Exit code 0 on success, 1 on file not found, 2 on missing norms",
+        "Handles markdown with YAML frontmatter (skips it)"
+      ]
+    },
+    {
+      "id": "S-008",
+      "phase": 4,
+      "ref": "phase-4-gate-integration-v1.md § 4.1",
+      "title": "Add skeleton strip invocation to gate agent Check 8",
+      "description": "Gate runs the skeleton strip CLI before Check 8, reads JSON output as 'analytic hint', focuses Check 8 on flagged zones. Graceful degradation if tool unavailable.",
+      "type": "modify",
+      "target": ".github/agents/ravencrest-prose-gate.agent.md",
+      "prerequisites": ["S-007"],
+      "status": "not-started",
+      "artifacts": {
+        "modifies": [".github/agents/ravencrest-prose-gate.agent.md"]
+      },
+      "acceptanceCriteria": [
+        "Gate instructions include bash invocation of strip.py --json",
+        "Gate reads JSON output before running Check 8",
+        "Gate report includes skeleton_data in interpretive_filter check",
+        "Gate focuses on flagged zones first, then scans remainder",
+        "If strip.py fails, gate falls back to blind Check 8 with logged warning"
+      ]
+    },
+    {
+      "id": "S-009",
+      "phase": 4,
+      "ref": "phase-4-gate-integration-v1.md § 4.2",
+      "title": "Add skeleton strip pre-flight to orchestrator",
+      "description": "Orchestrator checks if skeleton strip tool is available before prose pipeline. Passes availability flag to gate dispatch. Pipeline continues even if unavailable.",
+      "type": "modify",
+      "target": ".github/agents/ravencrest-pusher-orchestrator.agent.md",
+      "prerequisites": ["S-008"],
+      "status": "not-started",
+      "artifacts": {
+        "modifies": [".github/agents/ravencrest-pusher-orchestrator.agent.md"]
+      },
+      "acceptanceCriteria": [
+        "Orchestrator runs python3 strip.py --help as pre-flight check",
+        "Gate dispatch prompt includes tool availability flag",
+        "Pipeline continues when tool is unavailable (degraded mode)"
+      ]
+    },
+    {
+      "id": "S-010",
+      "phase": 5,
+      "ref": "phase-5-writer-integration-v1.md § 5.1",
+      "title": "Add self-check instructions to writer agent",
+      "description": "Writer runs strip.py --summary after drafting. Rewrites flagged zones in place before delivery. Tool failure does not block delivery.",
+      "type": "modify",
+      "target": ".github/agents/ravencrest-prose-writer.agent.md",
+      "prerequisites": ["S-007"],
+      "status": "not-started",
+      "artifacts": {
+        "modifies": [".github/agents/ravencrest-prose-writer.agent.md"]
+      },
+      "acceptanceCriteria": [
+        "Writer instructions include skeleton strip self-check section",
+        "Self-check uses --summary mode (lightweight output)",
+        "Writer rewrites flagged zones before delivery",
+        "Tool failure does not block delivery (graceful degradation)",
+        "Delivery flow documented: write → strip check → fix → deliver"
+      ]
+    },
+    {
+      "id": "S-011",
+      "phase": 6,
+      "ref": "phase-6-calibration-v1.md § 6.1",
+      "title": "Build test fixtures from known good/bad prose",
+      "description": "Collect known-good and known-bad sentences from voice samples and 18-interpretive-filter.md into test fixtures. Include edge cases.",
+      "type": "create",
+      "target": "tools/skeleton-strip/tests/fixtures.py",
+      "prerequisites": ["S-007"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/tests/__init__.py", "tools/skeleton-strip/tests/fixtures.py"]
+      },
+      "acceptanceCriteria": [
+        "≥20 known-good sentences from voice samples and reference file",
+        "≥20 known-bad sentences from reference file",
+        "≥5 edge cases with expected verdicts (interior monologue, dialogue, deliberate metaphor)"
+      ]
+    },
+    {
+      "id": "S-012",
+      "phase": 6,
+      "ref": "phase-6-calibration-v1.md § 6.2",
+      "title": "Run calibration and adjust thresholds",
+      "description": "Run full pipeline against all fixtures. Report accuracy. Adjust thresholds if needed. Target: ≥80% true positive, ≥85% true negative.",
+      "type": "create",
+      "target": "tools/skeleton-strip/tests/test_calibration.py",
+      "prerequisites": ["S-011"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/tests/test_calibration.py"]
+      },
+      "acceptanceCriteria": [
+        "True positive rate ≥80% (bad sentences correctly flagged)",
+        "True negative rate ≥85% (good sentences correctly passed)",
+        "False positive rate ≤15%",
+        "Edge cases with 'should_pass' pass ≥80%",
+        "Calibration report printed with threshold recommendations"
+      ]
+    },
+    {
+      "id": "S-013",
+      "phase": 6,
+      "ref": "phase-6-calibration-v1.md § 6.3",
+      "title": "Run end-to-end test against voice samples",
+      "description": "Run strip.py --json against the full voice-samples.md file. Verify overall verdict is grounded/mixed, zero abstract paragraphs.",
+      "type": "verification",
+      "target": "tools/skeleton-strip/tests/test_voice_samples.py",
+      "prerequisites": ["S-012"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/tests/test_voice_samples.py"]
+      },
+      "acceptanceCriteria": [
+        "Voice samples produce overall verdict 'grounded' or 'mixed'",
+        "Zero paragraphs flagged as 'abstract'",
+        "Any unexpected flags investigated and documented"
+      ]
+    },
+    {
+      "id": "S-014",
+      "phase": 6,
+      "ref": "phase-6-calibration-v1.md § 6.4",
+      "title": "Write README with usage, thresholds, and limitations",
+      "description": "Document the tool: theory, installation, usage, thresholds, calibration results, known limitations.",
+      "type": "create",
+      "target": "tools/skeleton-strip/README.md",
+      "prerequisites": ["S-012"],
+      "status": "not-started",
+      "artifacts": {
+        "creates": ["tools/skeleton-strip/README.md"]
+      },
+      "acceptanceCriteria": [
+        "README has installation instructions",
+        "Three CLI modes documented with examples",
+        "Thresholds documented with rationale",
+        "Known limitations listed (function words, proper nouns, interior monologue)",
+        "Calibration accuracy numbers included"
+      ]
+    }
+  ],
+  "executionOrder": {
+    "steps": [
+      {
+        "step": 1,
+        "phase": 1,
+        "tasks": ["S-001"],
+        "parallelSafe": false,
+        "note": "Create directory structure and install pandas"
+      },
+      {
+        "step": 2,
+        "phase": 1,
+        "tasks": ["S-002"],
+        "parallelSafe": false,
+        "note": "Download Brysbaert norms (requires network)"
+      },
+      {
+        "step": 3,
+        "phase": 1,
+        "tasks": ["S-003", "S-004", "S-005"],
+        "parallelSafe": true,
+        "note": "Build all three independent modules in parallel: scorer, patterns, splitter"
+      },
+      {
+        "step": 4,
+        "phase": 3,
+        "tasks": ["S-006"],
+        "parallelSafe": false,
+        "note": "Build strip engine (depends on scorer + patterns + splitter)"
+      },
+      {
+        "step": 5,
+        "phase": 3,
+        "tasks": ["S-007"],
+        "parallelSafe": false,
+        "note": "Build CLI entry point (depends on engine)"
+      },
+      {
+        "step": 6,
+        "phase": 4,
+        "tasks": ["S-008", "S-010"],
+        "parallelSafe": true,
+        "note": "Gate integration and writer integration (both depend on CLI, independent of each other)"
+      },
+      {
+        "step": 7,
+        "phase": 4,
+        "tasks": ["S-009"],
+        "parallelSafe": false,
+        "note": "Orchestrator pre-flight (depends on gate integration)"
+      },
+      {
+        "step": 8,
+        "phase": 6,
+        "tasks": ["S-011"],
+        "parallelSafe": false,
+        "note": "Build test fixtures from reference files"
+      },
+      {
+        "step": 9,
+        "phase": 6,
+        "tasks": ["S-012"],
+        "parallelSafe": false,
+        "note": "Run calibration, adjust thresholds"
+      },
+      {
+        "step": 10,
+        "phase": 6,
+        "tasks": ["S-013", "S-014"],
+        "parallelSafe": true,
+        "note": "End-to-end voice sample test and README (independent)"
+      }
+    ]
+  }
+}
