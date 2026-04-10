@@ -15,7 +15,7 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 
 **Bootstrap gate:** Reads `storyOverview` field from config.json. If missing, empty, or file doesn't exist → prints fatal error and exits. No chapters processed without a story overview.
 
-**Dispatch order:** planner → plan-verifier → writer → slophunter → slop-gate [↔ slophunter revision loop] → grounder → expander → style-editor → style-auditor → final-slophunter → memory-keeper
+**Dispatch order:** planner → plan-verifier → writer → slophunter → slop-gate A/B [↔ slophunter revision loop] → grounder → grounding-gate [↔ grounder revision loop] → expander → style-editor → style-auditor → final-slophunter → memory-keeper
 
 **Dispatch mode:** All dispatches are synchronous. Never background mode. Never poll. Never sleep. Dispatch → wait for return → read status.json → route.
 
@@ -25,8 +25,10 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 - Crash recovery: uses status.json signals, not file existence
 - Assembly: `cp v5.md final.md` (bash, not read-then-write)
 - Every slop-gate exit (pass, loop-pass, loop-exhaustion, disabled) routes to Grounder, never to Expander directly
-- Grounder kill switch: if `config.agents.grounder.enabled` is false, does `cp v2.md v2g.md` and skips grounder dispatch
-- Grounder failure: graceful degradation — on failure after retry, does `cp v2.md v2g.md` and proceeds (does NOT block chapter)
+- Grounder kill switch: if `config.agents.grounder.enabled` is false, does `cp v2.md v2g.md` and skips BOTH grounder and grounding-gate dispatches
+- Grounder failure: graceful degradation — on failure after retry, does `cp v2.md v2g.md`, skips the grounding-gate, and proceeds (does NOT block chapter)
+- Grounding-gate kill switch: if `config.agents.groundingGate.enabled` is false, routes canonical `v2g.md` straight to Expander
+- Grounding-gate revision loop: on fail verdict, alternates grounder-revision → gate-reaudit up to maxIterations. On pass or loop exhaustion, promotes `v2g-rN.md → v2g.md`, `grounding-map-rN.json → grounding-map.json`, and `grounder-revision-rN-notes.json → grounder-notes.json`, then continues to Expander
 - Expander kill switch: if `config.agents.expander.enabled` is false, does `cp v2g.md v3.md` and skips expander dispatch
 - Slop-gate revision loop: on fail verdict, alternates slophunter-revision → gate-reaudit up to maxIterations. On pass, promotes v2-rN.md → v2.md and revision notes → slophunter-notes.json. On exhaustion, promotes latest revision and continues — does NOT halt.
 - Style-auditor skip: if `.afternoon/style-guide.json` doesn't exist, style-auditor reports `"status": "failed"` — orchestrator treats as skip (proceed to final slophunter), not block
@@ -150,7 +152,7 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 
 **Todos:** Read weapons + target → Research keywords → Hunt 0-10 → Write output (primary/polish) | Read feedback → Apply gate suggestions → Rewrite self-audit → Write output (revision)
 
-**Revision mode behavior:** Reads slop-gate's notes JSON containing KILL findings with `suggestedFix` fields. Applies suggestions with latitude for voice/flow adjustment but preserves the structural fix. For findings where `suggestedFix` is `null` (unfixable), attempts own fix or marks unfixable. After applying all fixes, performs a **rewrite self-audit** — re-reads changed passages against anti-slop resources to catch violations introduced by the rewrites themselves. Self-audit fixes logged with `source: "self-audit"`. Each revision change logged with `source: "gate-suggestion"|"gate-suggestion-adjusted"|"self-authored"|"self-audit"` in the notes JSON. **Vocabulary diversity constraint**: must not default to eye/gaze beats ("looked," "eyes," "gaze") as replacement anchors — prefer action, body position, sound, or environmental detail to avoid pushing Tic 5 over cap.
+**Revision mode behavior:** Reads both slop-gate pass notes JSON files (`feedbackPathA` + `feedbackPathB`) containing KILL findings with `suggestedFix` fields. Applies suggestions with latitude for voice/flow adjustment but preserves the structural fix. For findings where `suggestedFix` is `null` (unfixable), attempts own fix or marks unfixable. If one edit resolves findings from both passes, logs separate change entries so both feedback references stay traceable. After applying all fixes, performs a **rewrite self-audit** — re-reads changed passages against anti-slop resources, including the slop hitlist, to catch violations introduced by the rewrites themselves. Self-audit fixes logged with `source: "self-audit"`. Each revision change logged with `source: "gate-suggestion"|"gate-suggestion-adjusted"|"self-authored"|"self-audit"` in the notes JSON. **Vocabulary diversity constraint**: must not default to eye/gaze beats ("looked," "eyes," "gaze") as replacement anchors — prefer action, body position, sound, or environmental detail to avoid pushing Tic 5 over cap.
 
 **11 targeted hunts:**
 0. Wordcount reduction (over-explanation, restated observations)
@@ -165,6 +167,8 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 9. Biography insertions (mid-scene character history)
 10. Beat transitions (kill temporal connectors)
 
+**Dialogue-register emphasis:** The slophunter's dialogue hunt also kills fake simplification — a reply that claims to put something in plain speech but still hides behind category labels, memo language, or generic consequences instead of usable targets and triggers.
+
 **Notes JSON schema:** counts (before/after/caps), changes array, flags, flaggedForExpander (underwritten scenes spotted during hunts), wordCount
 
 ---
@@ -173,33 +177,42 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 
 **File:** `.github/agents/afternoon-slop-gate.agent.md`
 
+**Workflow skill:** `.github/skills/afternoon-slop-gate-workflow/SKILL.md`
+
 **Reads:**
 - config.json
-- All `.md` files in `resources/` directory (dynamic discovery, alphabetical order)
+- Pass-specific guide subset from `resources/`:
+  - pass A: `negation-addiction-hunting-guide.md`, `intent-smear-agency-laundering-guide.md`, `recurring-prose-tics.md`
+  - pass B: `gpt-5-prose-issues.md`, `narrator-seep-guide.md`, `phantom-concreteness-guide.md`, `fake-simplification-guide.md`
 - chapters/{chapterId}/v2.md (or v2-r{N}.md on re-audit)
 - plans/{chapterId}.json or plans/{chapterId}-initial.json (for POV character voice and subject-matter priming)
 
 **Writes:**
-- chapters/{chapterId}/slop-gate-notes.json (pipeline artifact — KILL findings only, per-guide sections with `suggestedFix`)
-- chapters/{chapterId}/slop-gate-notes-r{N}.json (re-audit on iteration N — same format, against v2-r{N}.md)
-- chapters/{chapterId}/slop-gate-scratchpad.md (human-audit artifact — all KEEP decisions with reasoning, never read by pipeline)
-- chapters/{chapterId}/slop-gate-scratchpad-r{N}.md (re-audit scratchpad)
-- agents/slop-gate/status.json (with verdict field)
+- chapters/{chapterId}/slop-gate-notes-a.json or slop-gate-notes-b.json (initial pass artifacts — KILL findings only)
+- chapters/{chapterId}/slop-gate-notes-r{N}a.json or slop-gate-notes-r{N}b.json (re-audit on iteration N)
+- chapters/{chapterId}/slop-gate-scratchpad-a.md or slop-gate-scratchpad-b.md (human-audit artifact — all KEEP decisions with reasoning)
+- chapters/{chapterId}/slop-gate-scratchpad-r{N}a.md or slop-gate-scratchpad-r{N}b.md (re-audit scratchpad)
+- agents/slop-gate/status.json (with pass + verdict fields)
 
-**Todos:** Read inputs → one audit todo per resource guide (dynamic) → Suggestion phase (cross-validated rewrites) → Aggregate and write status
+**Phased workflow:** Read workspace -> build false-positive filter -> audit assigned pass -> suggest and decide -> write artifacts
 
 **Key responsibilities:**
-- Dynamically discovers all `.md` files in `resources/` and creates one audit todo per file
-- For each guide: reads detection procedures and applies them faithfully to the prose
+- Orchestrator dispatches the same agent twice per audit cycle: pass A then pass B
+- Pass A owns the high-confidence mechanical guides; pass B owns the contextual/register guides
+- The slop hitlist stays slophunter-side via revision self-audit; it is not a separate slop-gate pass
+- Detailed operating instructions now live in `afternoon-slop-gate-workflow`, which keeps the agent prompt thin and routes Phase 3 by pass (`a` or `b`)
+- For each guide in the assigned pass: reads detection procedures and applies them faithfully to the prose
 - Emits KILL/KEEP per finding according to each guide's own criteria. KILL findings go to the notes JSON (pipeline artifact). KEEP findings go to the scratchpad markdown (human-audit artifact).
 - **Severity-aware pass threshold**: zero MODERATE/SEVERE kills required for pass. Up to 3 MILD-only kills still pass (pass-with-warnings). Any MODERATE/SEVERE kill or >3 MILD kills = fail verdict.
-- **Suggestion phase**: For every KILL, writes a concrete `suggestedFix` (replacement text) and cross-checks it against ALL audit guides (not just guides that flagged the same passage). Marks `suggestedFix: null` with `fixDifficulty: "high"` if no clean rewrite found. Uses iteration-aware conservatism: when prior kill counts show oscillation (from `manifest.slopGateLoop.iterationKills`), switches to conservative fix strategy (prefer deletion, minimal substitution, shorter fixes, lower unfixable threshold).
-- Each KILL finding includes `suggestedFix` (string or null), `fixDifficulty` (`"low"` or `"high"`), and `crossChecked` (array of all guide filenames validated against)
+- **Suggestion phase**: For every KILL, writes a concrete `suggestedFix` (replacement text) and cross-checks it against the current pass guide pack (not just the guide that flagged the same passage). Marks `suggestedFix: null` with `fixDifficulty: "high"` if no clean rewrite found. Uses iteration-aware conservatism from the pass-specific trajectory (`manifest.slopGateLoop.iterationKillsA` or `iterationKillsB`): when prior kill counts for that pass show oscillation, switches to conservative fix strategy (prefer deletion, minimal substitution, shorter fixes, lower unfixable threshold).
+- Each KILL finding includes `suggestedFix` (string or null), `fixDifficulty` (`"low"` or `"high"`), and `crossChecked` (array of all guide filenames in the current pass guide pack validated against)
 - Guides with zero KILLs include a `cleanReason` field in the notes JSON explaining what was checked and why nothing triggered
 - Summary includes `killsWithFix` and `killsUnfixable` counts
 - **Dedicated P5/P6 sweep** for the intent-smear guide: after normal detection, performs a second targeted pass for subtle anthropomorphism (objects/geography with agency verbs, abstract states settling into body parts, metaphor chains across consecutive sentences)
-- Writes accumulating `slop-gate-notes.json` with per-guide sections (crash-resumable)
-- Final status.json uses `status: "completed"` + `verdict: "pass"|"fail"` + `totalFindings: N` + `mildFindings: N` (not `status: "failed"` for audit failure). Summary includes `mildKills` and `moderateOrSevereKills` counts. Orchestrator reads `totalFindings` to populate `slopGateLoop.iterationKills`.
+- **Dedicated phantom-concreteness sweep** for `phantom-concreteness-guide.md`: after normal detection, re-reads dialogue-heavy scenes and tactical/inferential paragraphs to kill lines that sound precise without cashing out into named specifics, observable carriers, or local evidence. Dialogue is not blanket-exempt under this guide.
+- **Dedicated fake-simplification audit** for `fake-simplification-guide.md`: audits exchanges where one speaker asks for plainer speech, street terms, smaller words, or the short version, and kills replies that still hide behind category labels, named places, or generic consequences instead of usable targets and visible triggers.
+- Writes pass-specific notes artifacts (`slop-gate-notes-a/b`, `slop-gate-notes-r{N}a/b`) with per-guide sections (crash-resumable)
+- Final status.json uses `status: "completed"` + `pass: "a"|"b"` + `verdict: "pass"|"fail"` + `totalFindings: N` + `mildFindings: N` (not `status: "failed"` for audit failure). Summary includes `mildKills` and `moderateOrSevereKills` counts. Orchestrator reads `totalFindings` to populate `slopGateLoop.iterationKillsA` or `iterationKillsB`.
 - Does NOT edit prose — audits and suggests, but the slophunter applies the fixes
 
 **Config:** `agents.slopGate.enabled` (default true), `agents.slopGate.maxIterations` (default 5)
@@ -212,7 +225,7 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 
 **Reads:**
 - config.json
-- Grounding framework skill (`.github/skills/prose-grounding-framework/`)
+- Grounding framework skill (`.github/skills/prose-grounding-framework/`) - exemplar pairs only
 - All files/directories from config → `priming.antiSlop`
 - Style target from config → `priming.styleTarget`
 - Voice sheets from config → `characters.voiceSheets`
@@ -220,26 +233,75 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 - plans/{chapterId}.json (for requiredMemory and scene context)
 - Memory files via `requiredMemory` targeted reads (NOT broad discovery)
 - Materials from config → `materials`
-- chapters/{chapterId}/v2.md
+- chapters/{chapterId}/v2.md (primary) or `v2g.md`/`v2g-r{N}.md` in revision mode
+- grounding-gate feedback file in revision mode
 
 **Writes:**
 - chapters/{chapterId}/v2g.md
+- chapters/{chapterId}/grounding-map.json
 - chapters/{chapterId}/grounder-notes.json
+- chapters/{chapterId}/v2g-r{N}.md (revision mode)
+- chapters/{chapterId}/grounding-map-r{N}.json (revision mode)
+- chapters/{chapterId}/grounder-revision-r{N}-notes.json (revision mode)
 - agents/grounder/status.json
 
-**Todos:** Read inputs (including exemplar before/after files) → Ground the chapter → Self-audit → Write output
+**Todos:** Read inputs + build grounding map → Ground scene by scene → Dialogue grounding pass → Final-third audit → Whole-chapter protection audit → Write output
 
 **Key responsibilities:**
-- Mounts `prose-grounding-framework` skill which provides a before/after exemplar pair
+- Mounts `prose-grounding-framework` as an exemplar library, not as an audit packet router
 - Learns the grounding transformation from the exemplar, not from a category taxonomy
+- Builds and re-reads `grounding-map.json` before modifying scenes
 - Enriches prose with named geography, titled institutions, material texture, world-register dialogue, physical rhythm beats, and POV-filtered technical vocabulary
+- Runs a dedicated dialogue-grounding pass instead of leaving dialogue embodiment to generic self-audit
+- Audits the final third separately to catch tail attenuation on long chapters
 - Sources all proper nouns from memory, materials, and plan — never invents
-- Self-audits against anti-slop hitlist after grounding
-- Wordcount target: 40-70% growth (immersive enrichment, not noun-swapping)
+- In revision mode, applies grounding-gate suggestions locally against `targetFile`, then re-audits touched scenes
+- Self-audits against its grounding checks plus anti-slop hitlist after grounding
+- Wordcount target: immersive enrichment, not noun-swapping or lore-dump inflation
 
 **Config:** `agents.grounder.enabled` (default true)
 
-**Failure policy:** Graceful degradation — on failure after retry, orchestrator copies v2.md → v2g.md and proceeds. Does NOT block chapter.
+**Failure policy:** Graceful degradation — on failure after retry, orchestrator copies `v2.md → v2g.md`, skips the grounding-gate, and proceeds. Does NOT block chapter.
+
+---
+
+## Grounding-Gate (`afternoon-grounding-gate`)
+
+**File:** `.github/agents/afternoon-grounding-gate.agent.md`
+
+**Reads:**
+- config.json
+- plans/{chapterId}.json
+- Grounding audit skill (`.github/skills/prose-grounding-audit/`)
+- chapters/{chapterId}/v2g.md (primary) or `v2g-r{N}.md` on re-audit
+- Memory files via `requiredMemory` targeted reads
+- Plan-linked or material-linked source files needed for source-fidelity checks
+
+**Does NOT read:** `grounding-map*.json`, `grounder-notes*.json`, or prior `grounding-gate-*` artifacts. Fresh sweep every time.
+
+**Writes:**
+- chapters/{chapterId}/grounding-gate-notes.json
+- chapters/{chapterId}/grounding-gate-notes-r{N}.json (re-audit mode)
+- chapters/{chapterId}/grounding-gate-scratchpad.md
+- chapters/{chapterId}/grounding-gate-scratchpad-r{N}.md (re-audit mode)
+- agents/grounding-gate/status.json
+
+**Todos:** Read plan + target prose → Scene grounding sweep → Dialogue grounding sweep → Final-third sweep → Over-grounding/source-fidelity sweep → Suggestion phase → Write notes + status
+
+**Key responsibilities:**
+- Mounts `prose-grounding-audit`, which owns the shared grounding audit packets
+- Uses the same shared grounding contract as the grounder, but never trusts the grounder's own map or notes
+- Audits for D1-D7 / G1-G12 style failures through structured sweeps, especially dialogue float, tail attenuation, and over-grounding
+- Treats clean pass as exceptional on static-room, dialogue-heavy chapters and pressure-tests the weakest runs before concluding pass
+- Does not let one or two local carrier beats clear an otherwise floating conceptual exchange
+- Emits KILL findings only to the notes JSON; KEEP defenses go to the scratchpad
+- Writes passage-local `suggestedFix` values for every KILL so grounder revision mode has actionable input
+- Returns `status: "completed"` with `verdict: "pass"|"fail"` for audit outcomes; reserves `status: "failed"` for operational errors only
+- Never edits prose directly — orchestrator routes failures back to grounder revision mode
+
+**Config:** `agents.groundingGate.enabled` (default false), `agents.groundingGate.maxIterations` (default 3)
+
+**Failure policy:** Audit failure does NOT block the chapter by itself. The orchestrator enters the grounding-gate revision loop. Only operational failure after retry blocks the chapter.
 
 ---
 
@@ -255,7 +317,7 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 - Voice sheets from config → `characters.voiceSheets`
 - plans/{chapterId}.json (for expansionLevel per beat)
 - chapters/{chapterId}/slophunter-notes.json (flaggedForExpander hints)
-- chapters/{chapterId}/v2g.md
+- chapters/{chapterId}/v2g.md (canonical grounded file after any grounding-gate promotions)
 
 **Writes:**
 - chapters/{chapterId}/v3.md

@@ -1,0 +1,270 @@
+{
+  "chapterId": "chapter25",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": "Jaina shut her eyes for a moment.",
+          "word": "for a moment",
+          "deletionTest": "Jaina shut her eyes.",
+          "issue": "temporal padding",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina shut her eyes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": "Kel'Thuzad had known things too. More than she did, perhaps, about the deeper workings.",
+          "word": "perhaps",
+          "deletionTest": "Kel'Thuzad had known things too. More than she did about the deeper workings.",
+          "issue": "hedge word",
+          "verdict": "KILL",
+          "suggestedFix": "Kel'Thuzad had known things too. More than she did about the deeper workings.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": "The word did what comfort could not.",
+          "whatItRestates": "\"Here.\" plus the reassurance already carried by Sylvanas answering through the wall.",
+          "issue": "interpretive restatement after dialogue",
+          "verdict": "KILL",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "There.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "\"I was never going to be enough alone,\" she said. \"Not at the border. Not in Lordaeron. Not in the throne room. We stopped him because we were right together. Not because I was right and you were useful.\"",
+          "issue": "closure beat that caps the confession instead of stopping on it",
+          "verdict": "KILL",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "That was the seam.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "The faces would change. The body would change. The voice would change. Those were tools. But the farewell had survived five masks and a prison visit. That meant it sat deeper than discipline. Older than this campaign. Older, perhaps, than the world as it stood now.",
+          "issue": "interpretive closer after the pattern is already clear",
+          "verdict": "KILL",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povRegister": [
+        {
+          "character": "Jaina",
+          "registerSummary": "Jaina thinks in measured sensory data, magical mechanism, and self-indicting analytical chains. Even when abstract, her thoughts usually grow straight out of pulse-counting, prison stone, or the partnership problem in front of her.",
+          "registerConfidence": "HIGH"
+        },
+        {
+          "character": "Sylvanas",
+          "registerSummary": "Sylvanas inventories rooms, bodies, routes, and tells with tactical compression. Her internal language is controlled, suspicious, and practical; she does not usually pin epigraph-like captions over her own reactions.",
+          "registerConfidence": "HIGH"
+        }
+      ],
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A1",
+      "findings": [
+        {
+          "pattern": "A2",
+          "severity": "MILD",
+          "line": "One word. Enough.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment pair captions Sylvanas's one-word reply from outside the exchange instead of staying in Jaina's immediate thought-stream.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1",
+          "severity": "MILD",
+          "line": "That was enough.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence captions the meaning of \"I was there when it was forged\" instead of leaving Sylvanas inside the concrete shock of the admission.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1",
+          "severity": "MILD",
+          "line": "Enough to begin.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The closer delivers an authorial verdict on the pattern-lock instead of ending on the concrete count that Sylvanas can carry outward.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "Fed them truth when truth served it.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "Which truths, clues, or disclosures the visitor fed them when it was steering the investigation.",
+          "reason": "Placeholder-noun stand-in; the sentence sounds incisive without naming the actual help it supplied.",
+          "verdict": "KILL",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "Cleaned the ground ahead of them.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "What road, contact, obstacle, or scene-prep the visitor handled before the women arrived.",
+          "reason": "Placeholder phrasing fakes operational specificity without naming any visible carrier.",
+          "verdict": "KILL",
+          "suggestedFix": "Cleared the next stretch of road before they reached it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Both candidate exchanges deliver usable payload on the first pass: Jaina converts the shrinking interval into \"Days. Fewer than we had,\" and her reach answer names a concrete boundary at the vault corridor."
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 10,
+    "mildKills": 10,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 7,
+    "verdict": "fail",
+    "verdictReason": "Pass B found 10 mild kills across three guides; the pass threshold is 3 or fewer mild-only kills."
+  }
+}

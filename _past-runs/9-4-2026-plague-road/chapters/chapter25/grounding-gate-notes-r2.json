@@ -1,0 +1,53 @@
+{
+  "chapterId": "chapter25",
+  "iteration": 2,
+  "targetFile": "v2g-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "excerpt": "The service dark under Lordaeron's bright halls now carried the blade the way a ward line carried pressure.",
+      "reason": "The line slips from prison texture into system metaphor. Jaina already has damp stone, bucket-water sourness, and palace cold on the page; this comparison abstracts the contamination instead of pinning it to actual corridor surfaces.",
+      "suggestedFix": "The service dark under Lordaeron's bright halls held the same cold in its torch brackets, cart axles, and sweating mortar.",
+      "fixMode": "replace-system-metaphor"
+    },
+    {
+      "excerpt": "Just the weight of another mind holding itself ready on the far side of it.",
+      "reason": "This turns Sylvanas into a telepathic impression when the scene has cleaner prison-bounded options. The exchange needs chain, breath, cot, or wall contact so the readiness stays embodied through stone.",
+      "suggestedFix": "Just Sylvanas's chain settling once on the far side, then a long stillness that kept time with slow measured breaths.",
+      "fixMode": "replace-mental-summary"
+    },
+    {
+      "excerpt": "That was how it had always worked between them. She brought the mechanism. Sylvanas asked what it meant on the road.",
+      "reason": "This is relationship dossier language dropped into a live wall exchange. It explains the partnership from above instead of letting Jaina's immediate prison thought stay clipped and field-useful.",
+      "suggestedFix": "Jaina shut her eyes. She gave the read. Sylvanas cut straight to what a rider or guard could use.",
+      "fixMode": "compress-partnership-summary"
+    },
+    {
+      "excerpt": "They slipped back into the language they had built on the road: short lines, clear handoffs, no wasted ornament.",
+      "reason": "The sentence labels the dialogue rather than grounding it. The clipped exchange right after this is already doing the work; the extra explanation floats above the wall instead of staying in tap, echo, and timing.",
+      "suggestedFix": "Jaina tapped once against the wall. Sylvanas answered before the echo died.",
+      "fixMode": "delete-dialogue-explanation"
+    },
+    {
+      "excerpt": "Beyond the stone, Sylvanas's chain gave another small scrape. Thinking already. Turning the blade over from every side it offered her.",
+      "reason": "The process verbs pull the prose back into invisible cognition. This beat wants the chain, the pause, and Jaina's read of how the silence changes once Sylvanas starts cutting the report down to usable parts.",
+      "suggestedFix": "Beyond the stone, Sylvanas's chain gave another small scrape, then went quiet. The pause came back leaner after that, as if she had cut the report down to its hard parts.",
+      "fixMode": "replace-process-verbs"
+    },
+    {
+      "excerpt": "Sylvanas kept her own face still. The creature was reading her for weakness, for the shape of alarm, for where to press if it chose to press.",
+      "reason": "This is speculative mind-reading stated as fact. The visitor is more threatening when Sylvanas tracks what it studies physically in the room instead of summarizing intent in abstract predator language.",
+      "suggestedFix": "Sylvanas kept her own face still. The creature's gaze touched her hands, her throat, then the ankle chain, weighing what in the room could still be used against her.",
+      "fixMode": "physicalize-threat-read"
+    },
+    {
+      "excerpt": "One phrase for Farstrider ears. One question for quartermasters. One scrap for any mage old enough to know what language had just walked through the wall.\n\nFive confirmed uses. One source.",
+      "reason": "The close hardens into briefing syntax and ledger count just when the scene should stay prison-sized. Sylvanas has the usable hook already; the prose should hand it forward as a wall-passable clue, not as a post-scene memo.",
+      "suggestedFix": "She touched two fingers to the cot frame. First the phrase. Then five taps for the faces. Then silence while she held the rest in her teeth until a better crack opened.",
+      "fixMode": "strip-briefing-closure"
+    }
+  ],
+  "summary": {
+    "totalKills": 7
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "chapterId": "chapter15",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 7,
+      "kills": 2,
+      "keeps": 5,
+      "dominantPattern": "pattern-1-direct-contrast-pivot",
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "line": "Once or twice her head turned a fraction, not toward any sound, but toward the pressure under the ground and in the air.",
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "deletionTest": "Once or twice her head turned a fraction toward the pressure under the ground and in the air.",
+          "verdict": "KILL",
+          "reason": "Pattern 1 direct contrast pivot; the sentence survives cleanly once the negative half is removed.",
+          "severity": "mild",
+          "suggestedFix": "Once or twice her head turned a fraction toward the pressure under the ground and in the air.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Hours matter. Not days.",
+          "pattern": "pattern-2-fragment-pivot",
+          "deletionTest": "Hours matter.",
+          "verdict": "KILL",
+          "reason": "Pattern 2 fragment pivot; the second sentence is disposable contrast scaffolding once the real claim is already stated.",
+          "severity": "mild",
+          "suggestedFix": "Hours matter.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "dominantPattern": "pattern-5-objects-wanting-refusing-or-deciding",
+      "clusterWarnings": [],
+      "secondSweep": "Completed the required extra P5/P6 sweep across every sentence. No additional P5/P6 KILLs beyond the two recorded dialogue-level abstraction hits.",
+      "findings": [
+        {
+          "line": "\"This is still answering.\"",
+          "pattern": "pattern-2-infrastructure-or-abstraction-asking-answering",
+          "subject": "This",
+          "verb": "answering",
+          "realAgent": "The outbreak is still producing fresh undead and field pressure despite Kel'Thuzad's death.",
+          "verdict": "KILL",
+          "reason": "The line launders continued plague behavior into an abstract answer instead of naming the concrete response on the field.",
+          "severity": "mild",
+          "suggestedFix": "\"They're still rising.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"This city won't.\"",
+          "pattern": "pattern-5-objects-wanting-refusing-or-deciding",
+          "subject": "city",
+          "verb": "won't",
+          "realAgent": "The plague clock in Stratholme is advancing too fast to defer action.",
+          "verdict": "KILL",
+          "reason": "The line gives the city refusal and decision power instead of naming the concrete urgency driving Arthas's response.",
+          "severity": "mild",
+          "suggestedFix": "\"Stratholme is next.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "cleanReason": "Counted tightened/eased, gaze-eye beats, marked, facial shifted, and non-said dialogue tags. All remained at or under chapter caps, and the surviving instances were mostly tactical or physical rather than generic emotional filler."
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 12,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has four mild sentence-level findings across negation addiction and intent smear, which exceeds the three-mild maximum for a pass."
+  }
+}

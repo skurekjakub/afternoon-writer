@@ -1,0 +1,172 @@
+{
+  "chapterId": "chapter22",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 3-13: the camp arrival alternates one 30+ word orientation sentence with clipped order lines, keeping the opener in the guide's 7-14 word baseline without losing impact.",
+        "Lines 15-19: 'Speak dwarf. / She had. Too late, but she had.' uses sub-5-word beats exactly where the emphasisRule wants them: after the stretcher handoff and before Baelgun's verdict.",
+        "Lines 77-88: Jaina's 'Take. / Throw.' fragment pair punctures a longer analytical run instead of stacking fragments for their own sake.",
+        "Lines 139-147: the breakthrough sequence balances one fast explanatory sentence with short follow-up questions, so the page reads as pressure rather than note-taking.",
+        "Lines 451-457: the palace-threshold paragraph was re-read as one of the chapter's weakest cadence points; after the POV-line fix at 455, the threshold lands in blunt Sylvanas cadence instead of reflective summary."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Lines 39-47: Baelgun's exchange stays in blunt field diction ('useful,' 'take it south,' 'won't help by warming ye'); no memo-language survives in spoken dialogue.",
+        "Lines 89-103: Jaina's Kel'Thuzad reflection uses lived terms like 'flare,' 'warning,' 'turn,' and 'measuring' rather than modern-scientific jargon.",
+        "Lines 121-131: the three-school realization stays concrete ('catch,' 'go through,' 'burn the join') and does not slip into lab-report vocabulary.",
+        "Lines 187-205: the Antonidas stone exchange keeps the mechanism readable in scene language; 'three parts' and 'one exposed instant' stay character-spoken, not essay-spoken.",
+        "Lines 412-426: palace-side exposition names wards, lock, blade, and subfloor in working-mage terms tied to immediate consequence, which matches the style guide's allowed expert shorthand."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "metaphorPolicy",
+      "observations": [
+        "Line 73: 'shattered vertebrae white as ruined pillars' is a single clean image sourced from ruin/structure and does scene work without chaining into a second metaphor.",
+        "Line 91: 'as wrong there as lamplight in a crypt' sharpens contamination dread through one fresh comparison and then gets out.",
+        "Line 157: Arthas having 'spent ships like kindling' keeps the imagery in war/labor territory rather than drifting toward ornamental fantasy abstraction.",
+        "Lines 197 and 301: the chapter's few later comparisons ('as if the sea were another contested field,' 'wrong as fresh loaves in an apothecary') remain domain-appropriate and do not mix source lanes inside a sentence.",
+        "Across lines 1-474: no stacked metaphors, no fate/destiny abstractions, and no decorative body-part similes survived; density stays deliberately low for exhausted endgame prose."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "Lines 3-13: the opener uses a two-sentence environmental paragraph, then short command paragraphs, matching the guide's 1-4 sentence default.",
+        "Lines 31-37: the camp-heat beat is followed immediately by motion and hand activity, satisfying the requirement to return from dense sensation to concrete action.",
+        "Lines 155-165: the Daggercap arrival concentrates description into one paragraph, then breaks cleanly into Dagny's one-line visual catch and command burst.",
+        "Line 291: the scene break before Sylvanas's road section is a hard structural reset that still preserves continuity because the next paragraph opens on humidity, reins, and temper instead of summary.",
+        "Lines 404-416: the Capital City transition moves by consequence and visual threshold rather than 'later/then' scaffolding; the reader never has to re-orient from zero."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "dialogueAttribution",
+      "observations": [
+        "Lines 7, 19, 23, 35, 53, 105, 145, 165, 171, 187, 211, 221, 231, 362, 412, 432, and 453 show the dominant attribution pattern: plain 'said/asked' or no tag at all.",
+        "Lines 161-173: Dagny's scene already carries status through command content and deck action, so it does not need decorative tagging to sound forceful.",
+        "Lines 187-213: the Antonidas sending-stone passage stays readable with no-frills tags and alternating speakers; attribution never has to do emotional overwork.",
+        "Line 311: the village woman's 'she called' was unnecessary because the prior sentence already established her as speaker; in v4b the line is left untagged to keep creative-tag use under the style-guide ceiling.",
+        "Lines 412-445: the service-arch exchange mixes said/asked with clean speaker spacing and action beats, which matches the guide's preference for plain attribution plus posture-based emphasis."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 311,
+          "rule": "attributionStandards.creativeTagPolicy — unnecessary creative tag",
+          "before": "\"Long road from the coast?\" she called.",
+          "after": "\"Long road from the coast?\""
+        }
+      ]
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Lines 37-45 and 85-91: Jaina's body keeps tracing, counting, and testing the hitch in the field, which matches her sensory signature and thought pattern (observation -> mechanism -> consequence).",
+        "Lines 121-147: Jaina's breakthrough reads in her proper register — model-building under pressure, then a blunt short answer once the model locks.",
+        "Lines 179-213: speaking to Antonidas lets Jaina widen into expert shorthand ('three parts,' 'one exposed instant') without ever sounding modern-technocratic.",
+        "Lines 105-117 and 221-227: Sylvanas's dialogue stays clipped, dry, and slightly mean, including the deadpan 'You are welcome' and the practical 'It will stop you lying.'",
+        "Lines 344-345 and 388-392: Sylvanas's command voice remains rank-first and tactical; even covert instructions arrive as clean orders with no emotional naming.",
+        "Line 455 in v4 carried an abstract summary phrase ('The truth remained...') that sounded a shade more essayed than Sylvanas; v4b tightens it into 'Nothing beyond that door changed the job,' which restores her pressure-first posture."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 455,
+          "rule": "perPOVCalibration.Sylvanas sentenceRhythm/powerPosture — abstract summary weakened Sylvanas's clipped tactical voice",
+          "before": "Good. Whatever waited beyond that door, it would be open marble and sword range, no cover worth trusting. The truth remained what it had been on the *Wolfheart*: Sylvanas had to stand in Frostmourne's reach and keep standing long enough for Jaina to finish the spell.",
+          "after": "Good. Whatever waited beyond that door, it would be open marble and sword range, no cover worth trusting. Nothing beyond that door changed the job. Sylvanas had to stand in Frostmourne's reach and keep standing long enough for Jaina to finish the spell."
+        }
+      ]
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Adverbs: 1.34 per 250-word page equivalent, comfortably below the proseQualityFloor max of 4.",
+        "Passive voice: rough heuristic count 1.21%, below the style-guide max of 4%.",
+        "Lines 119-120, 241-243, and 358-360 show pressure through body placement, blood, rope, wrist-locking, and deck motion rather than direct emotion labels; showing remains dominant.",
+        "Filter-word sweep found only sparse, functional uses of 'looked'/'saw' tied to actual viewpoint turns; no distance-heavy 'she noticed/she felt' cluster survived.",
+        "Zero planner-vocabulary breaches remained in prose: no 'transition,' 'sequence,' 'geometry,' 'vector,' or story-structure labels appear as narration."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration, lines 39-47 and 121-147: Frostmourne's mechanics are delivered only when Jaina needs a usable answer; there is no detached lore paragraph.",
+        "Power dynamics, lines 11-12 and 51-59: Baelgun dominates through short imperatives and competence verbs, exactly as the guide maps authority.",
+        "Scene shape, lines 3-61: the chapter opens in aftermath already moving, pivots in the middle third on Jaina's three-school framework, and closes on threshold pressure rather than recovery.",
+        "Speculative integration, lines 77-142 and 412-426: magic is treated as field, lock, pressure, seam, and consequence — fully domesticated, never spectacle-first.",
+        "Subtext density, lines 105-117 and 267-273: the Sylvanas/Jaina dynamic rides beneath surface logistics; the spoken topic is hands, seconds, and spell range while trust and sacrifice stay mostly implied.",
+        "Action pacing, lines 217-241: the ship run compresses repeated labor and expands only the moments where Jaina's body starts to fail, which fits the guide's time-dilation rule.",
+        "Humor, lines 115-117, 165-173, and 390-392: dry wit still appears in controlled flashes, but it thins almost entirely by the palace threshold, matching the story's late-horror humor policy."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — lines 121-147 and 203-205 stay precise, readable, and arcane-literate without drifting into modern scientific jargon.",
+        "sentenceRhythm": "pass — longer reasoning lines dominate in her passages, then snap down to blunt fragments ('Take. / Throw.'; 'Three schools.') when pressure spikes.",
+        "metaphorDensity": "pass — her few images stay grounded in pressure, field-work, and contamination rather than ornate ornament.",
+        "emotionalRegister": "pass — fear shows as tremor, blood loss, urgency, and over-focus on method, not open self-labeling.",
+        "thoughtPatterns": "pass — observation -> pattern recognition -> hypothesis -> revised conclusion is visible across lines 77-147 and 245-256.",
+        "sensorySignature": "pass — she tracks magical wrongness, bread-smell contamination, hand pain, cold, light, and bodily strain throughout Scenes 1-3."
+      },
+      "extendedChecks": {
+        "humorType": "pass — her humor stays dry and brief ('Thank you.') rather than quippy.",
+        "powerPosture": "pass — when weak she speeds up analytically instead of grandstanding; when certain she goes lucid and direct.",
+        "speculativeComfort": "pass — she treats wards, field turns, and lock-softening as native craft, not wonder-object.",
+        "expositionFilter": "pass — she names only the tactical consequences the current problem requires."
+      },
+      "ruleViolations": []
+    },
+    {
+      "character": "Sylvanas Windrunner",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — her lexicon stays martial and rank-aware: walk, keep, road, guard, arch, reach, hold, wrong inside.",
+        "sentenceRhythm": "pass — short declaratives dominate, with longer finished lines reserved for tactical logic and contempt.",
+        "metaphorDensity": "pass — her lane uses sparse war/terrain imagery and avoids lyrical excess.",
+        "emotionalRegister": "pass — anger and care surface through sharper commands, tighter observation, and controlled brevity.",
+        "thoughtPatterns": "pass — she reads competence, timetable, posture, and approach routes before anything else in Scenes 4-5.",
+        "sensorySignature": "pass — humidity on reins, road width, ribbon debris, service arch exposure, and cover scarcity drive her narration."
+      },
+      "extendedChecks": {
+        "humorType": "pass — deadpan contempt remains present but thin ('We are bringing you more of it.').",
+        "powerPosture": "pass — dominant beats stay imperative and spatially controlling; politically constrained beats widen only enough to show what she is calculating.",
+        "speculativeComfort": "pass — she treats magic as battlefield variable and lock condition, not mystical spectacle.",
+        "expositionFilter": "pass — she notices cover, reach, route, guard posture, and operational consequence, not abstract political theory."
+      },
+      "ruleViolations": [
+        "Line 455 in v4 briefly slid into abstract summary ('The truth remained...'); corrected in v4b to a more Sylvanas-native tactical sentence."
+      ]
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 1.34,
+    "passiveVoicePercent": 1.21,
+    "dialogueToNarrationRatio": "871:3790 (18.7% dialogue / 81.3% narration)",
+    "avgSentenceLength": 9.4,
+    "avgParagraphLength": 19.92,
+    "metaphorsPerThousandWords": 1.72
+  },
+  "totalObservations": 43,
+  "totalFixes": 2,
+  "wordCount": {
+    "before": 4666,
+    "after": 4661
+  }
+}

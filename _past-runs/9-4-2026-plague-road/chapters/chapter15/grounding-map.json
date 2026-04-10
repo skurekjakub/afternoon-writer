@@ -1,0 +1,168 @@
+{
+  "chapterId": "chapter15",
+  "globalRisks": [
+    "dialogue-heavy",
+    "war-camp-static",
+    "generic-noun-fallback",
+    "tail-risk"
+  ],
+  "segments": {
+    "openingThird": {
+      "risk": "medium"
+    },
+    "middleThird": {
+      "risk": "high"
+    },
+    "finalThird": {
+      "risk": "high"
+    }
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "The Held City",
+      "riskTags": [
+        "arrival-pressure",
+        "battlefield-aftermath",
+        "healer-read"
+      ],
+      "biggestGap": "The road and triage already work, but Hearthglen can still use more town-system texture so the place reads as a fortified Lordaeron hold under continuous reclearing rather than a generic disaster town.",
+      "sourceBank": {
+        "geography": [
+          "Eastweald",
+          "Hearthglen",
+          "Stratholme"
+        ],
+        "institutions": [
+          "Silver Hand",
+          "Lordaeron",
+          "Uther the Lightbringer"
+        ],
+        "materials": [
+          "gate stone",
+          "square towers",
+          "chapel roof",
+          "triage blankets",
+          "stretchers",
+          "holy fire",
+          "old warhammer"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Hearthglen is a garrison town still holding behind walls, towers, chapel, stables, smithy yard, and triage lanes hacked out under siege pressure.",
+        "materialAnchor": "Gate stone, stretcher boards, mud, burned hair, blankets, wood for pyres, and Uther's hammer keep the field physical.",
+        "povAnchor": "Sylvanas reads the town as military infrastructure under strain first: lanes, reclearing tempo, bodies, and what kind of hold this really is.",
+        "dialogueAnchor": "The refugee question and Uther exchange stay tied to stirrup leather, treatment tents, Light-work, and the movement between triage tasks.",
+        "exitAnchor": "The command pavilion at the south wall must pull the scene out of aftermath and into order-space without losing the field's smoke and pressure."
+      },
+      "dialogueRuns": [
+        {
+          "label": "gate inquiry",
+          "risk": "medium"
+        },
+        {
+          "label": "uther field read",
+          "risk": "medium"
+        }
+      ]
+    },
+    {
+      "sceneId": 2,
+      "title": "The Tent",
+      "riskTags": [
+        "dialogue-heavy",
+        "strategy-room",
+        "command-pressure"
+      ],
+      "biggestGap": "The briefing and source-plan debate risk turning into portable strategy dialogue unless map tools, canvas, relay strips, tack, and body-posture keep interrupting the room.",
+      "sourceBank": {
+        "geography": [
+          "Hearthglen",
+          "Eastweald",
+          "Stratholme"
+        ],
+        "institutions": [
+          "King's Guard",
+          "Silver Hand",
+          "Lordaeron command"
+        ],
+        "materials": [
+          "campaign table",
+          "daggers pinning maps",
+          "relay strips",
+          "chalk marks",
+          "reserve tack",
+          "fresh reins",
+          "route packet"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "The command pavilion and horse line must feel like one war machine turning over beside Hearthglen's south wall.",
+        "materialAnchor": "Wet canvas, map vellum, chalk, daggers, gauntlets, hammer leather, tack chests, and stiff new reins keep the scene from floating.",
+        "povAnchor": "Sylvanas tracks rank, speed, strain, and whether each person turns knowledge into action or into a different kind of danger.",
+        "dialogueAnchor": "Long strategy runs need nearby action beats that reveal tactic, relation, or pressure rather than decorative motion.",
+        "exitAnchor": "The departure rush and repeated farewell must stay rooted in quartermaster labor, route handling, and the lane forced open toward Stratholme."
+      },
+      "dialogueRuns": [
+        {
+          "label": "plague briefing",
+          "risk": "high"
+        },
+        {
+          "label": "source-plan debate",
+          "risk": "high"
+        },
+        {
+          "label": "lane and choice",
+          "risk": "high"
+        }
+      ]
+    },
+    {
+      "sceneId": 3,
+      "title": "The Head Start",
+      "riskTags": [
+        "final-third",
+        "transition-pressure",
+        "on-horseback-dialogue"
+      ],
+      "biggestGap": "The launch is hot, but the ride can still collapse into generic speed language unless the Stratholme road keeps reading like grain-country logistics ground built to feed a city.",
+      "sourceBank": {
+        "geography": [
+          "Hearthglen",
+          "Stratholme",
+          "Eastweald"
+        ],
+        "institutions": [
+          "relay network",
+          "market traffic"
+        ],
+        "materials": [
+          "field mounts",
+          "reins",
+          "district packet",
+          "wagon ruts",
+          "winter fields",
+          "orchard smoke"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "The road to Stratholme is not empty travel space; it is cart-built grain country with lanes, ditches, barns, and traffic logic feeding a threatened city.",
+        "materialAnchor": "Horse necks, reins, bit foam, road ruts, dust, and the district packet keep the launch embodied.",
+        "povAnchor": "Sylvanas reads the three-rider geometry as the chapter's real relational move and prices the road in terms of speed, exposure, and where trouble will first show.",
+        "dialogueAnchor": "Any shouted planning on horseback needs to play against wind, rider position, and the road's infrastructure.",
+        "exitAnchor": "The final beat should leave army dust behind them and a physically specific food-road ahead, not an abstract race."
+      },
+      "dialogueRuns": [
+        {
+          "label": "mounting exchange",
+          "risk": "medium"
+        },
+        {
+          "label": "launch callouts",
+          "risk": "medium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "chapterId": "chapter24",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 9,
+      "kills": 2,
+      "keeps": 7,
+      "dominantPattern": "direct contrast pivots",
+      "severity": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "5",
+          "severity": "mild",
+          "line": "Uther was not spectacular. He was clear.",
+          "deletionTest": "He was clear.",
+          "reason": "KILL — pattern 5 preamble negation; the second sentence carries the meaning cleanly without the negative setup.",
+          "suggestedFix": "Uther was clear.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "1",
+          "severity": "mild",
+          "line": "His voice carried on training, not strength.",
+          "deletionTest": "His voice carried on training.",
+          "reason": "KILL — pattern 1 direct contrast pivot; the negated second term is scaffolding rather than structural necessity.",
+          "suggestedFix": "His voice came from training alone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 9,
+      "kills": 6,
+      "keeps": 3,
+      "dominantPattern": "pattern 8 body-part agency",
+      "clusterFlags": [
+        "Repeated body-part agency in late-cells material",
+        "Smart-POV section shows multiple agency-laundering hits"
+      ],
+      "repeatNouns": [
+        "eyes"
+      ],
+      "pattern4Alert": false,
+      "severity": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "object-self-revelation",
+          "severity": "mild",
+          "line": "For a few precious minutes Ashcombe's case showed itself for what it was: craft.",
+          "subject": "Ashcombe's case",
+          "verb": "showed itself",
+          "realAgent": "Sylvanas could see that the case was crafted rather than truthful.",
+          "reason": "KILL — the case is not the agent doing the revealing; the POV character is reading the prosecution's construction.",
+          "suggestedFix": "For a few precious minutes, Sylvanas could see it for what it was: craft.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "8",
+          "severity": "mild",
+          "line": "Her eyes did not come to Sylvanas until the last possible instant, and even then only once.",
+          "subject": "eyes",
+          "verb": "did not come",
+          "realAgent": "Vereesa withheld the look until the last possible instant.",
+          "reason": "KILL — pattern 8 body-part agency; Vereesa is the one choosing when to look.",
+          "suggestedFix": "She looked at Sylvanas only at the last possible instant, and even then only once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "8",
+          "severity": "mild",
+          "line": "His eyes moved once over the cell, the chains, her face, and sharpened on the bruise at her temple.",
+          "subject": "eyes",
+          "verb": "moved / sharpened",
+          "realAgent": "Lor'themar surveyed the cell and fixed on the bruise.",
+          "reason": "KILL — pattern 8 body-part agency; the character, not his eyes, performs the scan and focus.",
+          "suggestedFix": "He looked once over the cell, the chains, and her face, then fixed on the bruise at her temple.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "8",
+          "severity": "mild",
+          "line": "Her mouth nearly found the old answer by reflex.",
+          "subject": "mouth",
+          "verb": "found",
+          "realAgent": "Sylvanas nearly gave the old answer by reflex.",
+          "reason": "KILL — pattern 8 body-part agency; the mouth is stealing the character's action.",
+          "suggestedFix": "She nearly gave the old answer by reflex.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "6",
+          "severity": "mild",
+          "line": "Years together had taught him enough for that.",
+          "subject": "Years together",
+          "verb": "had taught",
+          "realAgent": "Lor'themar had learned enough from years with Sylvanas to read her reaction.",
+          "reason": "KILL — pattern 6 abstraction-as-teacher; the experience taught him only through what he learned from it.",
+          "suggestedFix": "He had learned that much over years together.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P5/P6 inanimate transport smear",
+          "severity": "mild",
+          "line": "His boots carried the road with them up the corridor toward the cold above.",
+          "subject": "boots",
+          "verb": "carried",
+          "realAgent": "Road dust and the signs of hard travel still clung to him as he went upstairs.",
+          "reason": "KILL — the inanimate subject is doing metaphorical transport work instead of naming the visible travel residue.",
+          "suggestedFix": "Road dust still clung to his boots as he headed up the corridor toward the cold above.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "dominantPattern": "within-cap eye and mouth beats",
+      "cleanReason": "The chapter stays inside the hard caps: one corner-of-mouth beat, two tightened uses with one physical use, and four eye/gaze beats that remain within the chapter cap."
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 14,
+    "mildKills": 8,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has more than three MILD KILL findings after revision, driven mainly by repeated body-part agency plus two remaining negation pivots."
+  }
+}

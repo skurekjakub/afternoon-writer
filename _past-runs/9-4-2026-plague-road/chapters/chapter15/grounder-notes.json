@@ -1,0 +1,139 @@
+{
+  "chapterId": "chapter15",
+  "globalRisks": [
+    "dialogue-heavy",
+    "war-camp-static",
+    "generic-noun-fallback",
+    "tail-risk"
+  ],
+  "sceneAudits": [
+    {
+      "scene": "Scene 1 - The Held City",
+      "biggestGap": "Hearthglen's aftermath already had pressure, but the town itself needed more visible garrison and triage infrastructure so it would read as a fortified hold under continuous reclearing.",
+      "anchorsAdded": {
+        "place": [
+          "stable sheds against the wall",
+          "smithy chimney behind the west yard",
+          "gatehouse stone",
+          "wall walk beyond the tent rows"
+        ],
+        "material": [
+          "horse trough wash basin",
+          "doors used as stretcher boards",
+          "stacked pyre wood",
+          "Uther's hammer in the mud"
+        ],
+        "dialogue": [
+          "stirrup leather beat at the gate",
+          "treatment-tent movement under Uther's field read",
+          "grain sacks held for blessing or burning"
+        ],
+        "exit": [
+          "south-wall command pavilion",
+          "Falric outside the flap with the map slate"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 2 - The Tent",
+      "biggestGap": "The plague briefing and source-plan debate risked turning into portable strategy talk unless the room kept asserting itself through canvas, map tools, command posture, and quartermaster turnover.",
+      "anchorsAdded": {
+        "place": [
+          "wet command pavilion",
+          "horse line outside the south wall",
+          "lane opening through the camp"
+        ],
+        "material": [
+          "daggers weighting the maps",
+          "chalk crossing road vellum",
+          "relay strips",
+          "hammer leather",
+          "reserve tack",
+          "fresh reins"
+        ],
+        "dialogue": [
+          "Falric laying down the slate",
+          "Jaina tracing the road on the map",
+          "map knife shifted aside for the source plan",
+          "outside shout for fresh oil",
+          "Uther's white-thumb grip on the hammer wrap"
+        ],
+        "exit": [
+          "table knife pinning relay strips",
+          "quartermaster labor",
+          "route packet and forced outer lane",
+          "dark ring glimpsed in the departure crush"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 3 - The Head Start",
+      "biggestGap": "The launch already had urgency, but the final ride needed to stay tied to grain-country logistics rather than dissolve into abstract speed.",
+      "anchorsAdded": {
+        "place": [
+          "Stratholme road",
+          "drainage ditches",
+          "winter-cut fields",
+          "long low barns feeding market carts"
+        ],
+        "material": [
+          "best reserve string",
+          "bit foam",
+          "packet case at Cyndia's saddle",
+          "dust behind the forming column"
+        ],
+        "dialogue": [
+          "lane opening through camp",
+          "shouted target callouts torn by wind",
+          "rider geometry held left-center-right"
+        ],
+        "exit": [
+          "orchard lanes on Sylvanas's right",
+          "army dust behind them",
+          "smoke lying low over the south country"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": [
+      "departure rush could lose material contact under order-heavy dialogue",
+      "head-start ride risked generic speed language"
+    ],
+    "fixesApplied": [
+      "kept the departure rooted in tack chests, relay strips, stiff reins, packet handling, and the horse line",
+      "bound the final ride to drainage ditches, barns, winter-cut fields, orchard lanes, and grain-country road use"
+    ],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [
+      "locations/eastweald",
+      "locations/hearthglen",
+      "characters/uther",
+      "relationships/arthas--jaina",
+      "threads/plague-greater-war",
+      "threads/plague-animation-mechanism",
+      "threads/arthas-hearthglen-thread",
+      "threads/uthers-warning-about-arthas",
+      "threads/new-grain-seller",
+      "relationships/jaina--sylvanas"
+    ],
+    "materials": [
+      ".afternoon/config.json",
+      ".afternoon/plans/chapter15.json",
+      "stories/the-plague-road/plans/story-arc.md",
+      "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/jaina-voice.md",
+      ".afternoon/style-guide.json",
+      ".github/skills/prose-grounding-framework/references/*"
+    ],
+    "unsourcedAdditions": []
+  }
+}

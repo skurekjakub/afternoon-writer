@@ -1,0 +1,106 @@
+{
+  "chapterId": "chapter21",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "killRate": 0,
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "cleanReason": "Reviewed the chapter's live contrast-negation candidates (\"not to the air but to the pressure inside it,\" \"We are not with the dead,\" \"Not if he's already laid hands on the bastard,\" \"Not what I mean,\" and \"Not here\"). Each survived as spatial precision, binary diagnostic correction, or hard-constraint dialogue, so no negation-addiction KILLs remained.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 10,
+      "kills": 3,
+      "keeps": 7,
+      "killRate": 30,
+      "dominantPattern": "body-part agency and evidence self-revelation",
+      "clusterFlags": [],
+      "repeatNouns": [
+        "trail"
+      ],
+      "pattern4Alert": false,
+      "findings": [
+        {
+          "line": "The physical trail had already shown itself.",
+          "pattern": "self-revealing trail",
+          "subject": "trail",
+          "verb": "shown itself",
+          "realAgent": "The bootprints, sled grooves, and broken harness that daylight makes visible on the ground.",
+          "severity": "mild",
+          "reason": "The sentence launders visibility onto the trail itself instead of naming the evidence Sylvanas is reading.",
+          "suggestedFix": "The trail was already visible.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "A trail this blunt meant obsession.",
+          "pattern": "evidence-thinking-for-narration",
+          "subject": "trail",
+          "verb": "meant",
+          "realAgent": "Sylvanas's reading of the broad, brutal track and the damage around it.",
+          "severity": "mild",
+          "reason": "The trail is made to deliver judgment instead of keeping the inference with Sylvanas or the concrete signs she reads.",
+          "suggestedFix": "Only an obsessed commander left a trail this blunt.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "fingers trying to finish a pattern the blade kept shifting under her",
+          "pattern": "pattern-8-body-part-agency",
+          "subject": "fingers",
+          "verb": "trying",
+          "realAgent": "Jaina, who is still trying to finish the pattern while Frostmourne's field shifts under her working hand.",
+          "severity": "mild",
+          "reason": "The phrase gives intent to Jaina's fingers instead of keeping the action with Jaina herself.",
+          "suggestedFix": "she kept trying to finish the pattern as the field shifted under her",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "killRate": 0,
+      "dominantPattern": null,
+      "cleanReason": "Counted all chapter-level tic families. No corner-of-mouth beats or overloaded marked uses appeared; tightened/eased stayed below cap with the teeth-ache beat carrying concrete body sensation; non-said dialogue tags stayed at two (\"muttered,\" \"murmured\"); and no eye/gaze or weight-metaphor cluster crossed the guide thresholds.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 16,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 1,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A found three isolated mild intent-smear/body-part-agency leftovers, each with a clean conservative fix and no moderate or severe findings."
+  }
+}

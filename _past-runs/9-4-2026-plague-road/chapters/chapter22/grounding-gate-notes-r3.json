@@ -1,0 +1,53 @@
+{
+  "chapterId": "chapter22",
+  "iteration": 3,
+  "targetFile": "v2g-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "category": "source-fidelity compression",
+      "excerpt": "Then the Dragonblight wind got under her hood, and the switchback down to Daggercap Bay came into focus ahead: black water below, the *Wolfheart* at the planks, tar biting through the cold.",
+      "reason": "This turns the camp exit into an already-arrived coastal overlook even though the next paragraph restores a long trudge through Dragonblight. The beat over-compresses route distance and makes the geography feel staged for effect instead of physically traversed.",
+      "suggestedFix": "Keep the exit pointed south without pretending the bay is already underfoot: \"Then the Dragonblight wind got under her hood, and the trail back toward Daggercap Bay came into focus ahead: sled grooves under new snow, old markers half-buried, the coast still far enough away to feel like a dare.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "conceptual mechanism phrasing",
+      "excerpt": "Something built on frost would catch the turn. Arcane could go through while it was open. And fire—\n\nFire could drive through the opened seam and turn the binding against itself.",
+      "reason": "The discovery beat is bodily up to this point, then it slips into polished mechanism language. \"Opened seam\" and \"turn the binding against itself\" read like a notebook explanation rather than Jaina's half-frozen field thinking under strain.",
+      "suggestedFix": "Roughen the thought into the body's first usable version: \"Frost could pin the hitch. Arcane could knife through while it held. And fire—fire could scorch the join before the whole thing swung shut again.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "schematic spell-note repetition",
+      "excerpt": "The blade turned from taking to throwing.\n\nFreeze the turn with frost.\n\nArcane through the gap.\n\nThen fire before it closed.",
+      "reason": "On deck, this becomes a stack of outline-card lines. The surrounding rope, hull, and shoulder-brace material is strong; this exact formulation flattens that pressure into schematic shorthand when it should stay tied to motion and effort.",
+      "suggestedFix": "Keep the sequence, but let the shipboard strain stay in it: \"The blade turned under her skull again. Frost first, to pin the hitch. Arcane through the slit it made. Fire hard on its heels before the turn could spit her back out.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "planner-language intrusion",
+      "excerpt": "\"The blade turns from taking to throwing. Frost catches the turn. Arcane goes through before it closes. Fire changes the binding while it's bare.\"",
+      "reason": "This is cleaner than earlier drafts, but the final clause still sounds like a tactical brief given from outside the scene. At the arch, with her hand in cold mortar and almost nothing left, Jaina should sound field-plain and contact-based rather than academically exact.",
+      "suggestedFix": "Trim the explanatory clause and end on contact language: \"The blade turns from taking to throwing. Frost catches the turn. Arcane gets through before it snaps shut. Then fire. Burn the join while it's open.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "tactical note shorthand",
+      "excerpt": "Good. A column might steal her half a stride. The dais would pen her in, not hide her. Between throne and doors the white floor stayed bare enough to die on. The truth remained what it had been on the *Wolfheart*: Sylvanas had to stand in Frostmourne's reach and keep standing long enough for Jaina to finish the spell.",
+      "reason": "This is materially improved from the previous pass, but it still reads as four stacked planning notes. Sylvanas's room-read should land as one priced exposure beat, not a miniature tactical memo plus summary sentence.",
+      "suggestedFix": "Fuse the geometry into one embodied read: \"Good. One column might buy her half a stride. The dais would leave her trapped high and bare. From throne to doors the white floor looked wide enough to kill on, and the answer stayed the same: Sylvanas had to stand in Frostmourne's reach until Jaina finished.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "threshold abstraction",
+      "excerpt": "Behind them the door closed, cutting off the blue-white Kirin Tor glow, the kitchen clatter, and the last witness who might still have spoken for them outside the room.",
+      "reason": "The first two losses are physical and strong. The last clause lifts out into thematic adjudication right at the threshold close, turning a door shut into an essay-summary about witness and consequence.",
+      "suggestedFix": "Keep the severed support concrete: \"Behind them the door closed, cutting off the blue-white Kirin Tor glow, the kitchen clatter, and Antonidas's last line to the world outside the room.\"",
+      "fixMode": "local-replace"
+    }
+  ],
+  "summary": {
+    "totalKills": 6
+  }
+}

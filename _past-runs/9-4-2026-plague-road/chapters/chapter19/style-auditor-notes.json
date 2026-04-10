@@ -1,0 +1,186 @@
+{
+  "chapterId": "chapter19",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 5-7: the opening smoke paragraph moves from a long atmospheric setup into two blunt closes, matching the guide's long-then-short pressure pattern.",
+        "Lines 21-31: Jaina's northward explanation alternates built reasoning with clipped fragments ('Which bakeries...' / 'Grain carries. Bodies keep.'), so analysis never turns lecture-flat.",
+        "Lines 39-71: the decision exchange earns its one- to five-word lines ('North.' / 'Your model.' / 'Pack the map.') as pressure beats rather than decorative fragmentation.",
+        "Line 253 in v4 carried the sending-stone read as an 8-sentence block; splitting before 'Jaina's shoulders set against it' restored the drop into 'Held. Thinned again.'",
+        "Line 365 in v4 overran the terrain-read cadence ceiling; splitting after the salt-bearing wind restored a clean release before the horse-response beat."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 253,
+          "rule": "sentenceRhythmStandards.default / emphasisRule - long block dulled the sending-stone beat",
+          "before": "Jaina stood in the open ... The stone flared harder amber and lit the seam of her cuff, the edge of her jaw, the pale knuckles around the crystal. Jaina's shoulders set against it. Then the light thinned. Held. Thinned again.",
+          "after": "Jaina stood in the open ... The stone flared harder amber and lit the seam of her cuff, the edge of her jaw, the pale knuckles around the crystal.\\n\\nJaina's shoulders set against it. Then the light thinned. Held. Thinned again."
+        },
+        {
+          "line": 365,
+          "rule": "sentenceRhythmStandards.introspection - terrain-read run needed a release before the horse-response beat",
+          "before": "The farms thinned ... When it came off the north-east it carried salt before it carried sea, a raw mineral edge that dried the tongue and put cold under the evening air. The horses took the shift too. Ears working. Breath lifting pale when the sun lowered.",
+          "after": "The farms thinned ... When it came off the north-east it carried salt before it carried sea, a raw mineral edge that dried the tongue and put cold under the evening air.\\n\\nThe horses took the shift too. Ears working. Breath lifting pale when the sun lowered."
+        }
+      ]
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Lines 15-17 keep the map scene concrete: iron gall, relay points, chalk smear, broadcaster model; no planner-summary language intrudes.",
+        "Lines 29-35 keep Jaina in plain field terms ('Grain carries. Bodies keep.') instead of toxicology or lab diction.",
+        "Lines 127-141 correctly confine bureaucratic language to the quoted Convocation order and immediately mark it as chamber speech, not living voice.",
+        "Line 375 in v4 used 'operationally,' an abstract institutional adverb closer to a field report than Sylvanas's interior language; revised to 'about distance and timing.'",
+        "Lines 151-165 use status language (figures, names, dates, vote counts, favors owed) as lived political cost, not as document-voice abstraction."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 375,
+          "rule": "vocabularyStandards.baseline / avoid process language - document-voice adverb in narration",
+          "before": "Sylvanas kept the image for what it told her operationally and left the rest alone.",
+          "after": "Sylvanas kept the image for what it told her about distance and timing and left the rest alone."
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorPolicy",
+      "observations": [
+        "Line 5's 'one long bruise' is a single fresh body-strain image that sharpens the sky without ornamental spill.",
+        "Line 17's map image ('half Lordaeron looked cut open with a knife') stays inside martial/body-source domains appropriate to Sylvanas.",
+        "Line 145's wax going red 'as fresh blood' keeps the recall scene tied to bodily threat rather than epic abstraction.",
+        "Line 221's 'clean as an arrow' aligns with Sylvanas's hunting and martial fingerprint and lands exactly at the scene's power turn.",
+        "Outside those pressure points, lines 325-407 stay mostly literal; figurative density remains sparse at roughly 2.2 images per 1000 words, inside spec."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "Line 9 in v4 ran 122 words and 7 sentences on camp inventory; splitting before the cookfire details restored the 1-4 sentence visual cadence without losing the stock-taking effect.",
+        "Lines 23, 31, 151, 159, 163, and 183 remain high sentence-count paragraphs, but they are speaker-turn stacks of short dialogue fragments rather than prose bricks, so they earn the exception.",
+        "Line 215 is a 7-sentence recall montage, but it functions as a deliberate consequence stack immediately pressured by Sylvanas's decision line at 219; kept as an earned limit case.",
+        "Line 343 in v4 bundled the camp-strike sequence into 7 short sentences; splitting after 'Bedrolls cinched.' restored scene balance and page variation.",
+        "One-line impact paragraphs at lines 87, 91, 93, 105, 173, 243, 347, 349, 359, and 395 are earned and varied rather than mechanically repeated."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 9,
+          "rule": "paragraphLengthGuidelines.maximumWithoutBreak - 7-sentence inventory block exceeded cadence ceiling",
+          "before": "Three Farstrider mares waited ... laid arrows out by head instead of letting travel turn them into a heap. A cookfire no bigger than a helmet. Waterskins in shade. Map case on supply crates. Spare reins coiled where a ranger could grab them in the dark and not curse for it.",
+          "after": "Three Farstrider mares waited ... laid arrows out by head instead of letting travel turn them into a heap.\\n\\nA cookfire no bigger than a helmet. Waterskins in shade. Map case on supply crates. Spare reins coiled where a ranger could grab them in the dark and not curse for it."
+        },
+        {
+          "line": 343,
+          "rule": "paragraphLengthGuidelines.sceneBalance - action-reset paragraph needed a visual break",
+          "before": "Cyndia moved before the second syllable died. Fire kicked apart and dirted over. Cook gear packed wet. Bedrolls cinched. Feed sacks redistributed so the staying horses carried weight balanced for distance, not parade. The mares that were staying with them shifted from nosebags to tack with the quiet drilled obedience of Silvermoon road stock. No jangling iron anywhere.",
+          "after": "Cyndia moved before the second syllable died. Fire kicked apart and dirted over. Cook gear packed wet. Bedrolls cinched.\\n\\nFeed sacks redistributed so the staying horses carried weight balanced for distance, not parade. The mares that were staying with them shifted from nosebags to tack with the quiet drilled obedience of Silvermoon road stock. No jangling iron anywhere."
+        }
+      ]
+    },
+    {
+      "dimension": "dialogueAttribution",
+      "observations": [
+        "Lines 19-83 stay legible with long untagged runs because the scene is a clean two-speaker tactical exchange; the handoffs remain unmistakable.",
+        "Lines 127-211 re-anchor identity with plain 'said/asked' tags whenever the confrontation widens beyond two clean volleys.",
+        "Creative dialogue tags are effectively absent; attributed lines lean on said, asked, and no-frills equivalents, satisfying the no-showboating tag rule.",
+        "Action beats usually land after the line or as the hinge into the next line ('she said, lower now'; 'Jaina shifted the page...'), matching the guide's preferred placement.",
+        "Overall dialogue lands at 19.8% of chapter words, below the bookwide 45:55 target but consistent with an aftermath-and-travel chapter; the decision and recall scenes each sit near 24:76, while the northbound departure drops to 7:93 by design."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Lines 7-11 filter the camp through horses, tack, reins, and readiness before any emotional naming, which matches Sylvanas's sensory signature.",
+        "Lines 37-39 run exactly through her thought pattern: road out, dead counted, dispatch home, north still on the page.",
+        "Lines 133-145 read Vereesa through fingers, ride damage, seal, and breath-control; Sylvanas judges cost and rank before feeling.",
+        "Line 373 in v4 gave Jaina a slightly detached body-part agency construction; revising it to first-person bodily report brought the supporting voice back into her precise, lived register.",
+        "Lines 383-387 keep Sylvanas tactically exact even around Jaina's discomfort; she converts sensation into route knowledge instead of translating emotion."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 373,
+          "rule": "perPOVCalibration.Jaina Proudmoore - sensory signature should land as bodily report, not detached body-part agency",
+          "before": "Just louder. The back of my teeth won't stop humming, and it gets worse every mile north.",
+          "after": "Just louder. I can feel it in the back of my teeth now, and it gets worse every mile north."
+        }
+      ]
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Curated adverb count is 15 across 4046 words, about 0.93 per 250-word page, comfortably under the floor's max of 4 per page.",
+        "Passive-voice heuristic found 6 matches across 363 sentence units (about 1.65%), under the 4% ceiling; the clearest passives sit in the quoted legal order, where formality is intentional.",
+        "Lines 177-245 show the family argument through vellum, stance, title shifts, and dust-stiff fatigue instead of explanatory telling, keeping the showing ratio above floor.",
+        "Filter words are sparse; even the sending-stone scene at lines 249-259 stays on posture, light, and inference boundaries rather than 'she noticed' or 'she felt' scaffolding.",
+        "No additional adverb or passive cleanup was required after the prose fixes; the quality floor already held."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevel",
+      "observations": [
+        "Exposition integration: lines 21-35 fold plague mechanics into a map argument under time pressure; no narrator-aside or glossary dump appears.",
+        "Power dynamics: lines 177-231 follow feint, answer, pressure, turn, with Vereesa's longer pleas meeting Sylvanas's clipped reversals as status shifts.",
+        "Scene shape: the chapter opens task-first, turns at Vereesa's arrival (85-105), pivots again at the Jaina-and-Antonidas refusal (249-265), and resolves in forward pressure on the coast road (357-407).",
+        "Speculative integration: lines 249-257 and 373-389 treat the sending-stone and plague signal as working realities with tactical consequences, not as spectacle.",
+        "Humor and subtext: dry wit survives in lines 73, 79-81, 197-201, and 385-387, but it thins under Stratholme residue and never punctures the dread line."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Sylvanas Windrunner",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass - lines 7-17, 37-39, and 133-145 stay in lean martial diction with exact physical nouns, rank language, and field-tested verbs.",
+        "sentenceRhythm": "pass - lines 39-71 and 217-231 use clipped declaratives with occasional longer tactical chains before blunt closures.",
+        "metaphorDensity": "pass - figurative language stays sparse and stays inside martial, bodily, weather, and wound-source domains.",
+        "emotionalRegister": "pass - emotion appears as pressure, discipline, contempt, and route choice rather than open naming; lines 177-245 are especially controlled.",
+        "thoughtPatterns": "pass - the chapter repeatedly moves from threat assessment to capability judgment to decision, especially at lines 37-39, 51-71, and 375-387.",
+        "sensorySignature": "pass - the chapter privileges readiness, gait, breath, sightlines, weather, and the feel of tack, road, and wind on skin."
+      },
+      "ruleViolations": [
+        "Line 375 in v4 used the document-voice adverb 'operationally' inside Sylvanas narration; revised to concrete road-thinking.",
+        "Line 9 in v4 overran the paragraph cadence ceiling during Sylvanas's stock-taking; split to preserve her clipped page shape."
+      ]
+    },
+    {
+      "character": "Jaina Proudmoore (dialogue cross-check)",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass - lines 21-35 and 373-389 use educated but readable field language, with no modern scientific jargon.",
+        "sentenceRhythm": "pass - Jaina's longer reasoning clauses in the map scene collapse cleanly into short hits ('North.' / 'Grain carries. Bodies keep.').",
+        "metaphorDensity": "pass - Jaina's spoken material is almost entirely literal and problem-solving, which suits her low-metaphor calibration here.",
+        "emotionalRegister": "pass - strain shows through roughened voice, tightened mouth, and working urgency rather than overt emotional labels.",
+        "thoughtPatterns": "pass - she reasons from evidence to mechanism to consequence at lines 21-35 and from symptom to route risk at 373-389.",
+        "sensorySignature": "pass - magical signal is rendered as hum, pressure, and bodily discomfort rather than spectacle."
+      },
+      "ruleViolations": [
+        "Line 373 in v4 phrased the symptom as body-part agency ('The back of my teeth won't stop humming'); revised to first-person bodily report."
+      ]
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 0.93,
+    "passiveVoicePercent": 1.65,
+    "dialogueToNarrationRatio": "20:80 overall; decision scene 24:76, recall scene 24:76, departure scene 7:93",
+    "avgSentenceLength": 11.15,
+    "avgParagraphLength": 19.45,
+    "metaphorsPerThousandWords": 2.2
+  },
+  "totalObservations": 40,
+  "totalFixes": 6,
+  "wordCount": {
+    "before": 4040,
+    "after": 4046
+  }
+}

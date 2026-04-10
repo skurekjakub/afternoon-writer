@@ -1,0 +1,120 @@
+{
+  "chapterId": "chapter23",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Re-read the prose for true contrast-style negation pivots and found only three real candidates; each survived as tactical binary diagnosis or hard constraint rather than decorative not-X scaffolding.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 8,
+      "kills": 3,
+      "keeps": 5,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "body-part and scene-state shorthand after the pass-a P5/P6 sweep",
+      "clusterFlags": [
+        "Late exit handoff paragraph (lines 585-587) contains 2 inanimate-motion shorthand KILLs."
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": false,
+      "secondSweep": {
+        "completed": true,
+        "note": "Performed the required P5/P6 full-sentence reread for inanimate subjects carrying agency or physical-behavior verbs; it surfaced the two exit-paragraph motion-shorthand KILLs below."
+      },
+      "findings": [
+        {
+          "line": "The captain found his voice first.",
+          "pattern": "P8",
+          "subject": "voice",
+          "verb": "found",
+          "realAgent": "the captain speaking once he gets control of himself",
+          "severity": "mild",
+          "reason": "Pattern 8 body-part agency: the captain is the actor, not his voice.",
+          "suggestedFix": "The captain spoke first.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The chamber passed out of sight behind her.",
+          "pattern": "p5-inanimate-motion-shorthand",
+          "subject": "chamber",
+          "verb": "passed",
+          "realAgent": "Jaina and the guards moving away from the throne room",
+          "severity": "mild",
+          "reason": "The sentence launders the movement onto the chamber instead of naming the escort's motion.",
+          "suggestedFix": "They left the chamber behind.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The walls turned to service stone almost at once.",
+          "pattern": "p5-inanimate-motion-shorthand",
+          "subject": "walls",
+          "verb": "turned",
+          "realAgent": "the route shifting from ceremonial marble into service corridors",
+          "severity": "mild",
+          "reason": "The architecture is given active behavior instead of the prose naming the visible material change directly.",
+          "suggestedFix": "Service stone replaced marble almost at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Counted all seven tic families. 'marked' appears once in a physical targeting use, tightened/eased stay under cap with enough literal uses, and the eye/gaze beats that actually function as reaction beats stay at the hard cap rather than exceeding it.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 12,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 1,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A lands at three mild KILLs total, all local intent-smear shorthand with conservative drop-in fixes cross-checked against the full pass-A guide pack."
+  }
+}

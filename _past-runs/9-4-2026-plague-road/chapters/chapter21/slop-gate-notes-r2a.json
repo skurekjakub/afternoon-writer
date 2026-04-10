@@ -1,0 +1,213 @@
+{
+  "chapterId": "chapter21",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "findings": [
+        {
+          "line": "The stumble had not come from bad footing. Her head had snapped north toward a line of low bluffs.",
+          "pattern": "pattern-3-source-swap-pivot",
+          "deletionTest": "Her head had snapped north toward a line of low bluffs.",
+          "severity": "mild",
+          "reason": "KILL — source-swap pivot; the negative half is scaffolding before the real cause.",
+          "suggestedFix": "Her head had snapped north toward a line of low bluffs.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"The plague in Lordaeron wasn't one design on the surface. It looked that way because flesh is easier to read than the machinery beneath it. But under that, it repeated itself. The same turns. The same ordering. This does too.\"",
+          "pattern": "pattern-5-preamble-negation",
+          "deletionTest": "\"It looked that way because flesh is easier to read than the machinery beneath it. But under that, it repeated itself. The same turns. The same ordering. This does too.\"",
+          "severity": "mild",
+          "reason": "KILL — preamble negation; the opening refusal delays the explanation that follows.",
+          "suggestedFix": "\"The plague in Lordaeron repeated itself under the surface. Flesh was easier to read than the machinery beneath it. The same turns. The same ordering. This does too.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"Not two maybe. Two.\"",
+          "pattern": "pattern-2-fragment-pivot",
+          "deletionTest": "\"Two.\"",
+          "severity": "mild",
+          "reason": "KILL — fragment pivot; the first fragment only delays the committed count.",
+          "suggestedFix": "\"Two.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Clever. Not enough to win. Enough to leave.",
+          "pattern": "pattern-2-fragment-pivot",
+          "deletionTest": "Clever. Enough to leave.",
+          "severity": "mild",
+          "reason": "KILL — fragment pivot; the negative half is decorative scaffolding before the usable tactical read.",
+          "suggestedFix": "Clever. Enough to leave.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"Not a weakness. A seam. It repeats there.\"",
+          "pattern": "pattern-2-fragment-pivot",
+          "deletionTest": "\"A seam. It repeats there.\"",
+          "severity": "mild",
+          "reason": "KILL — fragment pivot; the refusal lands before the actual diagnostic term.",
+          "suggestedFix": "\"A seam. It repeats there.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 11,
+      "kills": 5,
+      "keeps": 6,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "pattern-5-and-pass-a-physical-behavior-sweep",
+      "findings": [
+        {
+          "line": "Each mile inland pulled that complaint tighter across the back of her teeth.",
+          "subject": "Each mile inland",
+          "verb": "pulled",
+          "realAgent": "Increasing proximity to the source intensified Sylvanas's ward-sense discomfort.",
+          "pattern": "pass-a-p5p6-physical-behavior",
+          "severity": "mild",
+          "reason": "KILL — the sentence launders the tightening onto geography instead of naming the worsening sensation.",
+          "suggestedFix": "The ache across the back of her teeth tightened as they pushed inland.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Frostmourne did not require introduction.",
+          "subject": "Frostmourne",
+          "verb": "require",
+          "realAgent": "Everyone in the chamber recognized the blade on sight.",
+          "pattern": "pattern-5-objects-wanting-refusing-deciding",
+          "severity": "mild",
+          "reason": "KILL — the blade gets a human-style demand instead of the scene naming the observers' recognition.",
+          "suggestedFix": "Everyone there knew what it was.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"And if I stay in it now, a cursed blade walks out into the world with the prince you've come north to stop wrapped around the hilt.\"",
+          "subject": "a cursed blade",
+          "verb": "walks out",
+          "realAgent": "Arthas would carry Frostmourne out of the cave.",
+          "pattern": "pass-a-p5p6-physical-behavior",
+          "severity": "mild",
+          "reason": "KILL — motion is laundered onto the blade instead of the wielder who would carry it out.",
+          "suggestedFix": "\"And if I stay in it now, the prince you've come north to stop walks out into the world carrying a cursed blade.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "No mortal training crossed ground that way.",
+          "subject": "No mortal training",
+          "verb": "crossed",
+          "realAgent": "Arthas moved with impossible speed across the chamber.",
+          "pattern": "pass-a-p5p6-physical-behavior",
+          "severity": "mild",
+          "reason": "KILL — the movement is laundered onto training instead of the body actually moving.",
+          "suggestedFix": "He crossed the ground with impossible speed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Jaina backed toward the mouth without turning, one hand holding the narrowing wall, the other still twitching small furious notations because part of her refused to stop working.",
+          "subject": "part of her",
+          "verb": "refused",
+          "realAgent": "Jaina kept working through the retreat.",
+          "pattern": "pattern-5-objects-wanting-refusing-deciding",
+          "severity": "mild",
+          "reason": "KILL — refusal is laundered onto an abstract part of her instead of the woman still doing the work.",
+          "suggestedFix": "Jaina backed toward the mouth without turning, one hand holding the narrowing wall, the other still twitching small furious notations because she kept working anyway.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "none",
+      "cleanReason": "Checked all seven tic buckets. The chapter stays under cap for tightened/eased (2 tightened, 0 eased), eye/gaze beats (1 generic gaze beat), and non-said performance tags (2: muttered, murmured). No corner-of-mouth, marked, expression-shifted, or overweight heaviness clusters survived detection.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 14,
+    "mildKills": 10,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass A still carries 10 mild KILL findings across negation addiction and intent smear; mild-only findings exceed the pass threshold of 3."
+  }
+}

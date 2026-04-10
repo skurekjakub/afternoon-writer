@@ -1,0 +1,103 @@
+{
+  "chapterId": "chapter19",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "killRate": 25,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "severity": "mild",
+          "line": "The road narrowed into the kind of track merchants still used because merchants had worn it in, not because any lord cared to keep it easy.",
+          "pattern": "P3",
+          "deletionTest": "The road narrowed into the kind of track merchants still used because merchants had worn it in.",
+          "reason": "Pattern 3 source-swap pivot; the real cause survives once the rejected cause is removed.",
+          "suggestedFix": "The road narrowed into the kind of track merchants still used because merchants had worn it in and lords had left it rough.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 3,
+      "kills": 2,
+      "keeps": 1,
+      "killRate": 66.7,
+      "clusterFlags": [
+        "family-confrontation stretch"
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "dominantPattern": "abstract-emotion-agent",
+      "findings": [
+        {
+          "severity": "mild",
+          "line": "Contempt sharpened the words.",
+          "subject": "Contempt",
+          "verb": "sharpened",
+          "realAgent": "Vereesa's exhausted contempt makes her delivery harsher.",
+          "pattern": "abstract-emotion-agent",
+          "reason": "The sentence gives an abstract emotion the speaking work that belongs to Vereesa's delivery.",
+          "suggestedFix": "She said it with contempt.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "line": "Windrunner anger, outrunning sentence and finding a hand.",
+          "subject": "Windrunner anger",
+          "verb": "outrunning / finding",
+          "realAgent": "Vereesa is close to striking Sylvanas before speech catches up.",
+          "pattern": "abstract-emotion-agent",
+          "reason": "The sentence gives anger independent motion and choice instead of naming Vereesa's near-physical reaction.",
+          "suggestedFix": "For one beat, Vereesa looked close to striking her before speech caught up.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "Checked the chapter's physical-vs-emotional 'marked' and 'tightened' uses plus the eye/gaze repertoire. The single 'marked' instance is literal staining, the single counted tightening beat stays under cap, and the three counted eye/gaze beats are character-specific enough to stay below the chapter threshold."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 9,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Three mild pass-A findings remain, all with clean local fixes and no moderate or severe hits."
+  }
+}

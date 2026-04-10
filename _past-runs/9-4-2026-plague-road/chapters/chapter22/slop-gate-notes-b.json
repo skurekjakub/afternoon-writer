@@ -1,0 +1,320 @@
+{
+  "chapterId": "chapter22",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "location": "line 239",
+          "text": "The blood ran bright for a moment, then went black where the salt dried it into the grain of the wood.",
+          "word": "for a moment",
+          "deletionTest": "The blood ran bright, then went black where the salt dried it into the grain of the wood.",
+          "suggestedFix": "The blood ran bright, then went black where the salt dried it into the grain of the wood.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "location": "line 299",
+          "paragraphLocation": "Scene 4 opening paragraph",
+          "text": "Warm country was harder on Sylvanas than the cold had been.",
+          "issue": "thesis opening",
+          "suggestedFix": "Warm damp sat wrong on Sylvanas.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "location": "line 311",
+          "text": "The mage had stopped treating care as interruption.",
+          "whatItRestates": "The shifted ranger spacing around Jaina and Jaina's silent acceptance of it.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "location": "line 428",
+          "text": "Antonidas looked at her then, and fear slipped past the archmage for a beat before work buried it again.",
+          "word": "for a beat",
+          "deletionTest": "Antonidas looked at her then, and fear slipped past the archmage before work buried it again.",
+          "suggestedFix": "Antonidas looked at her then, and fear slipped past the archmage before work buried it again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "location": "line 486",
+          "text": "It shut with the sound of the last help in the kingdom staying outside.",
+          "paragraphLocation": "scene-final",
+          "couldEndEarlierAt": "Behind them the door closed.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "dominantPattern": "A2",
+      "registerSummaries": [
+        {
+          "povCharacter": "Jaina Proudmoore",
+          "registerSummary": "Jaina thinks in magical mechanism, bodily cost, and clipped analytical fragments when the seam in Frostmourne clarifies. Even exhausted, her interior lane stays practical and problem-solving rather than essayistic or thematic.",
+          "registerConfidence": "high"
+        },
+        {
+          "povCharacter": "Sylvanas Windrunner",
+          "registerSummary": "Sylvanas tracks spacing, readiness, timing, and social weakness in hard tactical shorthand. Her close-third lane is unsentimental and incisive, but it still cashes out through field logic rather than epigraph fragments or thematic commentary.",
+          "registerConfidence": "high"
+        }
+      ],
+      "findings": [
+        {
+          "pattern": "A2",
+          "severity": "mild",
+          "location": "line 301",
+          "text": "The body handled it. The temper did not.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This reads like a slogan pinned over Sylvanas's discomfort instead of a tactical thought occurring inside her ride-time attention.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "severity": "mild",
+          "location": "line 344",
+          "text": "He was no longer arriving. He was settled.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The runner's update is already concrete; this compresses it into a caption instead of letting Sylvanas stay in timeline math.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "mild",
+          "location": "line 319",
+          "text": "They were living with the truth available to them, which was a worse innocence than stupidity.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can condemn the village's ignorance, but this sentence does it in polished thematic prose rather than her sharper field register.",
+          "confidence": "moderate",
+          "suggestedFix": "They were cheering the story they'd been given.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "severity": "mild",
+          "location": "line 476",
+          "text": "No cruelty in it. Mere fact.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The quote already lands; the follow-up fragments caption it from above instead of staying inside Sylvanas's active read.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B3",
+          "severity": "mild",
+          "location": "line 486",
+          "text": "It shut with the sound of the last help in the kingdom staying outside.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This comments on the threshold's narrative significance instead of limiting itself to what Sylvanas registers as the door closes.",
+          "confidence": "moderate",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "dominantPattern": "P4",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "location": "line 285",
+          "text": "the body keeping count under everything else presented its bill.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The accumulated sail-pushing exhaustion landing in Jaina's legs the instant she stops feeding the wind.",
+          "reason": "Placeholder-noun phrasing hides the concrete collapse mechanism behind metaphorical bookkeeping.",
+          "suggestedFix": "The moment she stopped feeding the sails, the spent strength hit all at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "location": "line 319",
+          "text": "the truth available to them, which was a worse innocence than stupidity.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The village celebrating the lie that Arthas came home a hero instead of carrying the danger back with him.",
+          "reason": "The sentence wants the weight of moral precision without naming the actual false story these villagers are living under.",
+          "suggestedFix": "They were cheering the story they'd been given.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "location": "line 452",
+          "text": "What showed instead was a man hearing the price attached to one particular body.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "Antonidas realizing Sylvanas is the body that has to stand in Frostmourne's reach.",
+          "reason": "The line sounds exact but dodges the actual person and realization that make the reaction legible.",
+          "suggestedFix": "What showed instead was fear when he looked at Sylvanas.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "location": "line 478",
+          "text": "The ordinary machinery of a palace breathing on the far side of murder.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "Kitchen work and servant life still carrying on just beyond the court.",
+          "reason": "The line reaches for atmosphere instead of naming the ordinary labor that is still going on nearby.",
+          "suggestedFix": "Kitchen work went on beyond the court.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ],
+      "repeatStandIns": [
+        "answer",
+        "truth"
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "dominantPattern": null,
+      "cleanReason": "The one translation setup ('Tell me the plan in words a judge could follow.') cashes out into usable sequence, timing, and proximity. Antonidas needs a follow-up about who buys the seconds, not what the plain-language plan means.",
+      "findings": [],
+      "brokenExchanges": []
+    }
+  ],
+  "summary": {
+    "totalKills": 14,
+    "totalKeeps": 10,
+    "mildKills": 14,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 14,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 14 mild sentence-level kills across three pass-B guides exceeds the pass threshold of 3 mild-only kills."
+  }
+}

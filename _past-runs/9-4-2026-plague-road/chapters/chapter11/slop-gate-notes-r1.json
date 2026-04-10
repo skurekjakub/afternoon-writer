@@ -1,0 +1,676 @@
+{
+  "chapterId": "chapter11",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 31,
+      "kills": 0,
+      "keeps": 31,
+      "severePagesOrScenes": [],
+      "dominantPattern": "none",
+      "findings": [
+        {
+          "line": "Stakes outward. Cavalry lanes wide enough for a charge\u2014healers near the middle, close enough to haul men back from an open fight. Bread wagons tarped by the kitchens. Steam beyond them, thin and sour.",
+          "pattern": "F1",
+          "severity": "n/a",
+          "verdict": "KEEP",
+          "reason": "Fix for previous F1 KILL. Now uses varied fragment lengths (2-word, long clause, medium, short-with-modifier). No rhythmic template. Verified clean."
+        },
+        {
+          "line": "Proper force, gathered in a hurry. Forge tents. Picket lines. Wagon circles. Men in Lordaeron blue crossing paladins in white tabards, all of them moving with the worn impatience of an army already weeks into bad news.",
+          "pattern": "F1",
+          "verdict": "KEEP",
+          "reason": "Inventory paragraph. Character-voice defense: Sylvanas inventorying a camp in tactical shorthand. Fragment lengths vary (2-word to full complex sentence). Military scan mode."
+        },
+        {
+          "line": "Hammer blows from the forge. Wet canvas snapping in the wind. Men speaking too low by the healer's line and too loud by the horse pickets.",
+          "pattern": "F1",
+          "verdict": "KEEP",
+          "reason": "Camp walk-through inventory. Three fragments then one full sentence. Varied lengths and structures. Character-voice defense: ranger sensory scan."
+        },
+        {
+          "line": "Tents dropping. Harness flung over sweating backs. Mess fires kicked apart.",
+          "pattern": "F1",
+          "verdict": "KEEP",
+          "reason": "Camp breakup fragments. Three short fragments but each uses a different verb construction (dropping / flung / kicked apart). Active military observation."
+        },
+        {
+          "line": "Something moved behind Falric's eyes\u2014the reflex of a man deciding whether to escalate.",
+          "pattern": "F2",
+          "verdict": "KEEP",
+          "reason": "Fix for previous F2 KILL ('His brows drew together'). Now character-specific: the second clause ('deciding whether to escalate') is unique to a gatekeeper weighing his options. Cannot belong to any other character in the scene."
+        },
+        {
+          "line": "Uther's hands lifted from the table edge and hung at his sides, empty.",
+          "pattern": "F2",
+          "verdict": "KEEP",
+          "reason": "Fix for previous F2 KILL ('Uther went still'). Now uses Uther's established physicality (big hands, braced on wood from L105). Specific body part + specific position + specific qualifier ('empty'). Character-specific."
+        },
+        {
+          "line": "Cyndia's mouth tightened.",
+          "pattern": "F2",
+          "verdict": "KEEP",
+          "reason": "Generic tension beat. 'Tightened' not on F2 kill list. Within tics cap (1/3). Cyndia's only physical beat in this scene section. Borderline but functional as attribution."
+        },
+        {
+          "line": "Uther's jaw set.",
+          "pattern": "F2",
+          "verdict": "KEEP",
+          "reason": "'Set' not on F2 kill list. Immediately followed by dialogue that provides the specific resistance. Functions as tone-setting attribution."
+        },
+        {
+          "line": "His mouth changed. Briefly. Grief held under discipline.",
+          "pattern": "F2",
+          "verdict": "KEEP",
+          "reason": "Multi-beat sequence. 'Changed' is vague but 'Briefly' adds temporal specificity and 'Grief held under discipline' names the exact read. Sylvanas face-reading Uther's microexpression."
+        },
+        {
+          "line": "Sylvanas could only count bodies, pace, supplies, and the number of ways the whole place assumed a visible war.",
+          "pattern": "F3",
+          "verdict": "KEEP",
+          "reason": "'Could only' is a capability limitation, not a perception filter. The limitation IS the dramatic point: establishing Sylvanas's deficit without Jaina's arcane read. Jaina comparison in preceding sentence makes this structural."
+        },
+        {
+          "line": "He came back almost at once.",
+          "pattern": "F3",
+          "verdict": "KEEP",
+          "reason": "'Almost' is temporal precision, not a hedge. Falric went in and returned quickly but not instantly. The distinction between 'almost at once' and 'at once' is factual."
+        },
+        {
+          "line": "Almost certainly.",
+          "pattern": "F3",
+          "verdict": "KEEP",
+          "reason": "Sylvanas's intelligence assessment in dialogue. She has strong evidence for Stratholme contamination but cannot confirm 100%. The hedge IS the precision: she CAN'T commit fully. Genuine uncertainty affecting tactical decisions."
+        },
+        {
+          "line": "and for a moment Strahnbrad sat just under his face",
+          "pattern": "F3",
+          "verdict": "KEEP",
+          "reason": "'For a moment' is temporal precision: the resemblance to the prior encounter was brief before Arthas's current face reasserted. Not a hedge."
+        },
+        {
+          "line": "Command had cut it harder. Not wiser. Harder.",
+          "pattern": "F4",
+          "verdict": "KEEP",
+          "reason": "Not restatement: adds tactical distinction (hardness vs. wisdom) that the preceding visual observation ('Strahnbrad sat just under his face') does not carry. New information affecting briefing approach."
+        },
+        {
+          "line": "The speed of him.",
+          "pattern": "F4",
+          "verdict": "KEEP",
+          "reason": "Professional assessment of Arthas's decision tempo after watching him issue rapid orders. Adds Sylvanas's evaluation of his command style, which feeds her later assessment of him as dangerous. Character-voice defense: military commanders evaluate decision speed."
+        },
+        {
+          "line": "That was a lie, and the speed with which he needed it chilled her more than the order.",
+          "pattern": "F4",
+          "verdict": "KEEP",
+          "reason": "Not restatement: detects self-deception the reader might not have caught from Arthas's dialogue alone. Second clause adds new data about the SPEED of self-justification."
+        },
+        {
+          "line": "Grief held under discipline.",
+          "pattern": "F4",
+          "verdict": "KEEP",
+          "reason": "'His mouth changed. Briefly.' shows SOMETHING changed but not WHAT. 'Grief held under discipline' names the specific emotion and control mechanism. Adds information. Military face-reading."
+        },
+        {
+          "line": "The border fiction was dead in ink if nowhere else.",
+          "pattern": "F4",
+          "verdict": "KEEP",
+          "reason": "Not restatement: political conclusion from dispatch CONTENTS, not from the physical act of folding the page. New operational assessment."
+        },
+        {
+          "line": "Scene 2: Falric gate / camp briefing",
+          "pattern": "F5",
+          "verdict": "KEEP",
+          "reason": "Falric yields under evidence pressure, not pleasant conversation. Gate friction is genuine. The ease of access is earned by the threat already visible in the camp's own healer tents. Intentional-structure defense."
+        },
+        {
+          "line": "Scene 3: Arthas mobilization",
+          "pattern": "F5",
+          "verdict": "KEEP",
+          "reason": "Arthas's rapid acceptance IS the chapter's central problem, not resolution. He decides before analytical foundation is complete. Scene ends on chill ('That was a lie'), Uther's warning, and Sylvanas's refusal to ride. Intentional-structure defense: the ease is the danger."
+        },
+        {
+          "line": "Scene 4: Uther exchange",
+          "pattern": "F5",
+          "verdict": "KEEP",
+          "reason": "No warmth, no resolution, no comfort. Uther names a flaw he can't fix. Ends with 'It won't'\u2014flat refusal of Light's blessing. Two veterans exchanging truths that help nothing."
+        },
+        {
+          "line": "Scene 5: Column departure / dispatches / redirect",
+          "pattern": "F5",
+          "verdict": "KEEP",
+          "reason": "Political bad news escalates. Jaina's disappearance forces emergency pivot. Ends on gallop toward unknown. Zero resolution."
+        },
+        {
+          "line": "Jaina was not here, and the absence carried cost.",
+          "pattern": "F7",
+          "verdict": "KEEP",
+          "reason": "Fix for previous F7-adjacent kill. 'The absence carried cost' is operational statement (understrength without mage). Opens questions (what cost? how?) rather than closing emotional loop."
+        },
+        {
+          "line": "He had spent half his life pulling boys back from the calls that would cost them everything.",
+          "pattern": "F7",
+          "verdict": "KEEP",
+          "reason": "Fix for previous B1/narrator-seep kill. As F7 candidate: ends Uther's character paragraph. But sentence does structural work\u2014sets up the Arthas-flaw exchange that follows. Cannot be cut without losing the biographical assessment that enables the next scene."
+        },
+        {
+          "line": "because he could not save Arthas from himself and could not walk away",
+          "pattern": "F7",
+          "verdict": "KEEP",
+          "reason": "Fix for previous B2/narrator-seep kill. As F7 candidate: ends the column paragraph. But the trapped-position statement IS the new information (why Uther is still here). Opens the flaw rather than closing it."
+        },
+        {
+          "line": "Caer Darrow sat somewhere beyond with its island walls and whatever had swallowed Jaina whole enough that nobody had seen her come back out.",
+          "pattern": "F7",
+          "verdict": "KEEP",
+          "reason": "Penultimate paragraph of chapter. 'Swallowed Jaina whole' is open-loop (what happened to her?). Chapter closes on next line with pure action ('drove harder'). No emotional summary."
+        },
+        {
+          "line": "Sylvanas bent low over the mare's neck and drove harder.",
+          "pattern": "F7",
+          "verdict": "KEEP",
+          "reason": "Chapter-final sentence. Pure action close. No interpretive gloss, no emotional naming, no thematic summary. Exactly the ending F7 says is correct."
+        },
+        {
+          "line": "Paragraph inventory at lines 9, 39, 89, 111",
+          "pattern": "F6",
+          "verdict": "KEEP",
+          "reason": "Four inventory paragraphs identified. All are Sylvanas's tactical scanning (countryside, camp, walk-through, briefing). None follow thesis-support-restatement structure. Character-voice defense: ranger military assessment mode."
+        },
+        {
+          "line": "All dialogue exchanges (Falric gate, Arthas briefing, Uther exchange)",
+          "pattern": "F2 same-mouth test",
+          "verdict": "KEEP",
+          "reason": "Voices clearly differentiated. Sylvanas: clipped, commanding. Falric: formal military. Arthas: decisive, sharp. Uther: measured, heavy. No interchangeable diction or rhythm."
+        },
+        {
+          "line": "Sentence openings across lines 97-131 (briefing section)",
+          "pattern": "F1",
+          "verdict": "KEEP",
+          "reason": "Subject-verb openings dominate but subjects vary widely (Heat/Arthas/He/Command/Uther/Age/Every). Sentence lengths range from 2-word fragments to complex multi-clause sentences. No rhythmic template."
+        },
+        {
+          "line": "Comma+ing tail check: L39 'moving with', L69 'believing ink', L89 'settling into'",
+          "pattern": "F1",
+          "verdict": "KEEP",
+          "reason": "Three -ing tails found across ~50 lines (~2 pages). Not concentrated enough for F1 kill threshold (3+ on one page). Each uses a different verb and construction."
+        }
+      ],
+      "selfCheck": {
+        "totalKillsCheck": "Zero kills across all 7 modes. This is iteration 1 after a thorough revision pass that addressed 24 kills. The slophunter applied all fixes cleanly. A clean pass after revision is a legitimate outcome.",
+        "f5f7Check": "Zero F5 and F7 kills. Verified: all scene endings use action, observation, or unanswered-question closes. No emotional summary sentences survive. Previous F7 kills (4) were all deleted. Arthas's rapid acceptance is intentional plot structure, not pleasantness bias.",
+        "f3Check": "Zero F3 kills. Prose is exceptionally clean of filter/hedge drag. Sylvanas's voice is direct by nature. The 3 hedge-word instances found ('almost at once', 'Almost certainly', 'for a moment') are all genuine temporal precision, not padding.",
+        "f1Check": "Read briefing section and camp sections aloud. Rhythm varies well between fragments, medium sentences, and long complex sentences. No monotone detected."
+      }
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 18,
+      "kills": 0,
+      "keeps": 18,
+      "clusterWarnings": [],
+      "repeatNouns": [],
+      "findings": [
+        {
+          "line": "every fence line showed it",
+          "subject": "fence line",
+          "verb": "showed",
+          "pattern": "P6",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Fix for previous P6 KILL ('the land still gave itself away'). Fence lines physically display weather/damage effects. Near-literal (condition 3)."
+        },
+        {
+          "line": "Human order going about its business while poison rode in sacks and ovens.",
+          "subject": "Human order",
+          "verb": "going about its business",
+          "realAgent": "farmers, merchants, wagon drivers, ordinary commerce",
+          "pattern": "P5",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Character-voice defense. Sylvanas's contemptuous compression of civilian infrastructure. 'Human' preserves the human agents. She categorizes institutions as abstract forces rather than naming individuals. Consistent with established contempt for bureaucracy."
+        },
+        {
+          "line": "Human ink chasing a thing already inside their bread.",
+          "subject": "ink",
+          "verb": "chasing",
+          "realAgent": "officials, administrators writing notices and measures",
+          "pattern": "P6",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Character-voice defense. Previous gate kept with same reasoning. Sylvanas's contemptuous metonym for bureaucratic futility. 'Human' preserves agent visibility."
+        },
+        {
+          "line": "a field camp crouched around them",
+          "subject": "field camp",
+          "verb": "crouched",
+          "realAgent": "the camp's physical layout, low-profile defensive posture",
+          "pattern": "P6",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Character-voice defense. Military commanders describe installations through posture metaphors ('the position crouches', 'the line sits forward'). Standard tactical vocabulary for a camp's physical profile."
+        },
+        {
+          "line": "And all of it faced the wrong way.",
+          "subject": "all of it (camp orientation)",
+          "verb": "faced",
+          "pattern": "P6",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Near-literal (condition 3). Defensive positions literally face directions. Stakes face outward. Cavalry lanes open in a direction. Physical orientation, not human intent."
+        },
+        {
+          "line": "Heat from the braziers fought wet wool and map ink and lost.",
+          "subject": "Heat",
+          "verb": "fought / lost",
+          "pattern": "P5",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Near-literal physics (condition 3). Heat physically opposes moisture in enclosed spaces. 'Lost' means insufficient thermal output. Standard thermodynamic description."
+        },
+        {
+          "line": "He had the shoulders of a door that expected to stay shut.",
+          "subject": "door (inside simile)",
+          "verb": "expected",
+          "realAgent": "Falric expects to keep people out",
+          "pattern": "P5",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Sentence subject is 'He' (Falric, a person). 'Expected' is on the simile vehicle, not on the sentence's agent. Agency stays with Falric. The metaphor describes his physical and psychological posture through the comparison."
+        },
+        {
+          "line": "Quartermaster scribes bent over manifests, still believing ink could outrun catastrophe.",
+          "subject": "ink",
+          "verb": "outrun",
+          "pattern": "P6",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 'Believing' is attributed to the scribes (human agents). The intent verb is inside what THEY believe, not what ink does independently. Correct attribution chain."
+        },
+        {
+          "line": "the number of ways the whole place assumed a visible war",
+          "subject": "the whole place",
+          "verb": "assumed",
+          "pattern": "P6",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Character-voice defense. 'Assumed' in military context is technical: 'the position assumes an infantry threat' = 'is configured to counter.' Standard tactical vocabulary for defensive orientation."
+        },
+        {
+          "line": "Cyndia mounted silence the way other people wore wool",
+          "subject": "Cyndia (person)",
+          "verb": "mounted",
+          "pattern": "P7",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Human character IS the agent. Cyndia is choosing silence. Correct attribution."
+        },
+        {
+          "line": "the camp had already turned itself inside out",
+          "subject": "camp",
+          "verb": "turned itself inside out",
+          "pattern": "P6",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Collective actor (condition 1). Camp is people physically breaking down tents and packing. People established in scene. Matches calibration example: 'The camp moved on without her' = KEEP."
+        },
+        {
+          "line": "weariness took the place where the grief had been",
+          "subject": "weariness",
+          "verb": "took the place",
+          "pattern": "P5",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 POV emotional metaphor (condition 2). Emotional succession inside Sylvanas's read of Uther's face. No agency transfer: describes how the emotion manifests, not what it commands."
+        },
+        {
+          "line": "Evening gathered under the trees.",
+          "subject": "Evening",
+          "verb": "gathered",
+          "pattern": "P6",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Near-literal (condition 3). Dusk physically accumulates in shaded terrain: shadows deepen, light dims under canopy. Visibility change a ranger would note."
+        },
+        {
+          "line": "institutions argued about permission",
+          "subject": "institutions",
+          "verb": "argued",
+          "realAgent": "Convocation members, Kirin Tor officials, specific bureaucrats",
+          "pattern": "P4",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Character-voice defense. Inside Sylvanas's unspoken interior answer to Uther's question. She categorizes bureaucratic opposition as institutional obstruction\u2014she doesn't respect the individuals enough to name them. Consistent with established contempt for institutional process. Phase 0.5 filter overrides Pattern 4 mechanical KILL."
+        },
+        {
+          "line": "The dead rising from bodies already taught what to answer after death.",
+          "subject": "bodies",
+          "verb": "taught",
+          "pattern": "P6",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Subject-matter defense. The plague mechanism IS about conditioning tissue: bodies being 'taught' a pattern is the literal description of the in-world plague science. The chapter's subject is grain-vector biological conditioning."
+        },
+        {
+          "line": "Dust and damp rose together and bruised the southern road.",
+          "subject": "Dust and damp",
+          "verb": "bruised",
+          "pattern": "P6",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Near-literal (condition 3). Dust kicked up by 600 horses mixed with moisture physically discolors the road surface. 'Bruised' describes the visual effect. Real physical agents (dust, damp) are named."
+        },
+        {
+          "line": "North lay under mist, stone, and an island keep Jaina had entered alone.",
+          "subject": "North",
+          "verb": "lay under",
+          "pattern": "P5",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Fix for previous P5 KILL ('North waited'). 'Lay' is positional, not intent. Geography existing in a location is near-literal. Verified clean."
+        },
+        {
+          "line": "Caer Darrow sat somewhere beyond with its island walls and whatever had swallowed Jaina whole enough that nobody had seen her come back out.",
+          "subject": "Caer Darrow / whatever",
+          "verb": "sat / had swallowed",
+          "pattern": "P6/P5",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 'Sat' is positional (near-literal). 'Whatever had swallowed Jaina' preserves genuine uncertainty: Sylvanas cannot name the real agent because she does not know what is inside. 'Whatever' IS the most honest available subject. Step 2 yields no more concrete agent."
+        }
+      ],
+      "selfCheck": {
+        "keepRateNote": "KEEP rate at 100% (18/18). Expected for iteration 1 after a revision pass that fixed all 7 intent-smear kills. 4 new candidates identified that the previous gate missed (institutions argued, Human order, door expected, bodies taught). All survive Phase 0.5 filter with documented defenses.",
+        "pattern4Alert": "One Pattern 4 candidate found ('institutions argued about permission'). Mechanical detection says KILL. Phase 0.5 character-voice filter overrides: inside Sylvanas's unspoken contemptuous interior monologue. Defense documented.",
+        "antiRationalizationCheck": "Examined each KEEP against the guide's anti-rationalization questions. Most challenging cases: 'Human ink chasing' and 'institutions argued'\u2014both kept on character-voice defense with Sylvanas's established contempt for institutional process."
+      }
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 18,
+      "kills": 0,
+      "keeps": 18,
+      "povRegister": {
+        "character": "Sylvanas Windrunner",
+        "summary": "Tactical military commander, ~1500-year-old elven aristocrat. Reads rooms for exits, threats, competence. Thinks in compressed finished judgments and military shorthand. Notices physical details: rank insignia, weapon quality, body contradictions, terrain. Contemptuous of bureaucracy and emotional process. Voice sheet confirms: 'She speaks in finished judgments, not exploratory thought.' Would NOT think in philosophical abstractions, thematic summaries, or literary metaphors outside military/political domain.",
+        "confidence": "HIGH"
+      },
+      "tierAKills": 0,
+      "tierBKills": 0,
+      "severePages": [],
+      "severeScenes": [],
+      "dominantPattern": "none",
+      "structuralHabit": false,
+      "findings": [
+        {
+          "line": "Worked. Sealed. Built to keep.",
+          "tier": "A",
+          "pattern": "A1",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Active military assessment of granary construction. Each fragment adds concrete physical information (processed, airtight, designed for storage). Active tactical evaluation, not retrospective caption."
+        },
+        {
+          "line": "Supply traffic, once.",
+          "tier": "A",
+          "pattern": "A1",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Temporal tactical assessment. 'Once' is the diagnostic finding: this was routine commerce, now it's stopped. Active intelligence gathering from physical evidence."
+        },
+        {
+          "line": "That was the count now.",
+          "tier": "A",
+          "pattern": "A1",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Force accounting. 'Now' marks temporal degradation. Sylvanas completing a casualty count as part of operational planning."
+        },
+        {
+          "line": "Proper force, gathered in a hurry.",
+          "tier": "A",
+          "pattern": "A1",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Tactical assessment of camp quality on approach. Affects her entry strategy: real army, hastily assembled."
+        },
+        {
+          "line": "That bought one heartbeat.",
+          "tier": "A",
+          "pattern": "A1",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Sylvanas measuring verbal maneuver effect in heartbeats. Active tactical timing. Character-voice: she counts tactical effects in heartbeats."
+        },
+        {
+          "line": "Not understanding. Weight.",
+          "tier": "A",
+          "pattern": "A1",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Active face-reading in real time. Sylvanas distinguishing between two possible reactions on Falric's face. Binary diagnostic that affects her next move."
+        },
+        {
+          "line": "Not wiser. Harder.",
+          "tier": "A",
+          "pattern": "A2",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Character-voice defense. Voice sheet: 'She speaks in finished judgments.' Binary tactical diagnostic of Arthas's change. Distinction between wisdom and hardness affects briefing approach. Phase 0.5 filter: Sylvanas's cognitive profile explicitly produces compressed binary judgments."
+        },
+        {
+          "line": "The speed of him.",
+          "tier": "A",
+          "pattern": "A1",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Fix for previous A1 KILL ('There it was.'). Now character-specific: professional assessment of another commander's decision tempo. Military commanders evaluate decision speed. Feeds subsequent evaluation of Arthas as dangerous."
+        },
+        {
+          "line": "No detail. No guessing. Good.",
+          "tier": "A",
+          "pattern": "A1",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Intelligence quality assessment. Sylvanas grades dispatch quality by absence of speculation. Active operational evaluation of source reliability."
+        },
+        {
+          "line": "Tent heat pressed in around the table.",
+          "tier": "A",
+          "pattern": "A5",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Names a specific physical change (heat from braziers in enclosed space). Not a mood label. Physics, not 'the room felt different.'"
+        },
+        {
+          "line": "He was an old campaign scar given shoulders. He had spent half his life pulling boys back from the calls that would cost them everything.",
+          "tier": "B",
+          "pattern": "B1",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Fix for previous B1 KILL. 'Campaign scar' is military vocabulary. 'Pulling boys back from calls' is mentoring language within military domain. Sylvanas reading Uther's career through his physicality. Within register for a 1500-year-old military commander assessing another veteran."
+        },
+        {
+          "line": "because he could not save Arthas from himself and could not walk away",
+          "tier": "B",
+          "pattern": "B2",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Fix for previous B2 KILL ('love and duty had both failed him'). Now in concrete operational terms: two specific impossibilities defining Uther's trapped position. Binary diagnostic, not philosophical abstraction."
+        },
+        {
+          "line": "That was a lie, and the speed with which he needed it chilled her more than the order.",
+          "tier": "B",
+          "pattern": "B2",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Deception detection (tactical read) + emotional response (chilled). Both inside Sylvanas's 1500-year experience of reading liars. 'Speed of self-deception' is within her analytical capacity."
+        },
+        {
+          "line": "The border fiction was dead in ink if nowhere else.",
+          "tier": "B",
+          "pattern": "B2",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Political/tactical assessment. 'Border fiction' is Sylvanas's term for the Convocation pretense. 'Dead in ink' is her read of Lor'themar's dispatch. Operational conclusion, not literary abstraction."
+        },
+        {
+          "line": "So did the last chance to pretend the plague could be solved by telling the right men and letting rank take it from there.",
+          "tier": "B",
+          "pattern": "B3",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Tactical realization about closed options. She's recognizing institutional delegation has failed and she's committed to direct action. Operational assessment, not narrative commentary."
+        },
+        {
+          "line": "Grief held under discipline.",
+          "tier": "B",
+          "pattern": "B2",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Military face-reading. Names the emotion (grief) and the control mechanism (discipline). Exactly how a military commander categorizes what she sees on another soldier's face."
+        },
+        {
+          "line": "He was an old campaign scar given shoulders.",
+          "tier": "B",
+          "pattern": "B4",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Military metaphor from Sylvanas's domain. Campaign scars and shoulders are within her experiential world. Describes Uther through damage and endurance, which is how soldiers read each other."
+        },
+        {
+          "line": "I came to light the fuse, not carry it.",
+          "tier": "B",
+          "pattern": "B3",
+          "verdict": "KEEP",
+          "reason": "KEEP \u2014 Dialogue defense. Sylvanas's deliberate metaphorical statement about her operational role. Characters choose words in dialogue. Military/political metaphor within her register."
+        }
+      ],
+      "selfCheck": {
+        "registerEstablished": true,
+        "tierACheck": "Zero Tier A kills. Previous gate's A1 kills ('That landed.', 'There it was.') both deleted. Remaining fragments are all active tactical assessments matching Sylvanas's voice sheet ('speaks in finished judgments'). A2 candidate ('Not wiser. Harder.') kept on character-voice defense: compressed binary judgment IS her cognitive mode.",
+        "tierBCheck": "Zero Tier B kills. Previous gate's B1, B2, B3 kills all fixed with in-register rewrites. Fixes verified: 'pulling boys back' replaces 'certainty they mistook for courage' (military vs. philosophical); 'could not save / could not walk away' replaces 'love and duty had both failed him' (concrete vs. abstract).",
+        "killsPerPageCheck": "Below 1 kill/page threshold. Justified: iteration 1 revision specifically targeted all 5 narrator-seep kills. Prose now maintains Sylvanas's tactical register consistently."
+      }
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 10,
+      "kills": 0,
+      "keeps": 10,
+      "killRate": "0%",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "keepRateNote": "KEEP rate at 100%. Expected for iteration 1: previous gate's 3 negation kills were all fixed (source-swap eliminated, preamble negation deleted, minimizer deleted). Remaining negations are binary diagnostics, hard constraints, and dialogue. POV character is a military intelligence analyst whose primary analytical mode IS diagnostic absence.",
+      "findings": [
+        {
+          "line": "No panic in the spacing. No snapped leather.",
+          "pattern": "Pattern 2 \u2014 diagnostic absence pair",
+          "deletionTest": "Loses diagnostic information about track condition. Does not survive.",
+          "verdict": "KEEP",
+          "reason": "Binary diagnostic (condition 1). 'No panic' distinguishes calm commerce from flight\u2014both real possibilities in plague country. Changes Sylvanas's tactical read."
+        },
+        {
+          "line": "Not understanding. Weight.",
+          "pattern": "Pattern 2 \u2014 fragment pivot",
+          "deletionTest": "'Weight' alone lacks context. Does not survive.",
+          "verdict": "KEEP",
+          "reason": "Binary diagnostic (condition 1). Sylvanas distinguishes two possible reactions on Falric's face. The distinction affects her next move."
+        },
+        {
+          "line": "Not wiser. Harder.",
+          "pattern": "Pattern 2 \u2014 fragment pivot",
+          "deletionTest": "'Harder' after 'Command had cut it harder' creates repetition. Does not survive alone.",
+          "verdict": "KEEP",
+          "reason": "Binary diagnostic (condition 1). Wiser vs. harder distinguishes improvement from intensification. Changes how she approaches the briefing."
+        },
+        {
+          "line": "Not all of it. Not Jaina inside Caer Darrow. Not Kel'Thuzad's full shape under the work.",
+          "pattern": "Pattern 7 \u2014 triple/chained negation",
+          "deletionTest": "Loses critical plot information: WHAT she withheld. 'Those belonged to another road' has no antecedent. Does not survive.",
+          "verdict": "KEEP",
+          "reason": "Hard constraint (condition 3). Three real operational constraints on information sharing. She CAN'T reveal these without compromising Jaina's mission and the parallel plot thread."
+        },
+        {
+          "line": "No detail. No guessing. Good.",
+          "pattern": "Pattern 2 \u2014 diagnostic absence pair",
+          "deletionTest": "'Good' alone tells reader nothing about dispatch quality. Does not survive.",
+          "verdict": "KEEP",
+          "reason": "Binary diagnostic (condition 1). Speculative vs. factual intelligence. Absence of speculation IS the quality marker for this dispatch."
+        },
+        {
+          "line": "Jaina was not here, and the absence carried cost.",
+          "pattern": "Pattern 5 \u2014 simple negation",
+          "deletionTest": "'The absence carried cost' loses subject without 'Jaina was not here.' Does not survive.",
+          "verdict": "KEEP",
+          "reason": "Fix for previous source-swap KILL. Now simple factual negation: Jaina's physical absence is the stated fact, and the cost is the consequence. Not a contrast construction."
+        },
+        {
+          "line": "I came to light the fuse, not carry it.",
+          "pattern": "Pattern 1 \u2014 direct contrast pivot (in dialogue)",
+          "deletionTest": "'I came to light the fuse'\u2014survives but loses the refusal to ride with the army.",
+          "verdict": "KEEP",
+          "reason": "Dialogue defense. Also: binary diagnostic (condition 1). She is making an active decision about two real options (stay vs. ride). The distinction changes her next action."
+        },
+        {
+          "line": "Blood at one fetlock from pace, not battle.",
+          "pattern": "Pattern 1 \u2014 direct contrast pivot",
+          "deletionTest": "'Blood at one fetlock from pace'\u2014survives but loses the tactical read.",
+          "verdict": "KEEP",
+          "reason": "Binary diagnostic (condition 1). Pace-injury vs. battle-injury changes Sylvanas's read of the rider's urgency. Both are real possibilities that affect response."
+        },
+        {
+          "line": "Enough to move. Not enough to stop thinking.",
+          "pattern": "Pattern 2 \u2014 fragment pivot (in dialogue)",
+          "deletionTest": "'Enough to move'\u2014loses Uther's argument. Does not survive.",
+          "verdict": "KEEP",
+          "reason": "Dialogue defense. Uther's character voice in active argument with Arthas. Also: binary diagnostic distinguishing two levels of knowledge."
+        },
+        {
+          "line": "because he could not save Arthas from himself and could not walk away",
+          "pattern": "Pattern 7 variant \u2014 double negation",
+          "deletionTest": "Sentence describes being trapped between two impossibilities. No positive Y exists. Does not survive.",
+          "verdict": "KEEP",
+          "reason": "Hard constraint (condition 3). Two real capability boundaries defining Uther's trapped position. There IS no positive alternative\u2014the negation is the point."
+        }
+      ],
+      "selfCheck": {
+        "allKeepsJustified": true,
+        "deletionTestsRun": true,
+        "wouldKeepInCluster": "Each KEEP examined against cluster-degradation question. All binary diagnostics are in separate scenes with distinct diagnostic content. Would survive cluster proximity.",
+        "previousKillsVerified": "All 3 previous kills confirmed addressed: source-swap 'no longer carried irritation' rewritten to 'the absence carried cost'; preamble 'No pause spent on whether belief ought to hurt' deleted; minimizer 'Not a question' deleted."
+      }
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "findings": [
+        {
+          "tic": "Tic 1: Corner-of-Mouth",
+          "cap": 1,
+          "count": 1,
+          "instances": [
+            "Line 213: 'The corner of his mouth moved once.' (Uther)"
+          ],
+          "verdict": "KEEP",
+          "reason": "At cap (1/1). Single instance is the strongest use\u2014Uther's almost-smile after Sylvanas's 'It won't.' Character-specific and earned."
+        },
+        {
+          "tic": "Tic 2: Overloaded 'marked'",
+          "cap": 2,
+          "count": 0,
+          "instances": [],
+          "note": "'Marks' appears in line 225 ('relay marks from other hands') as a physical noun, not the verb tic pattern.",
+          "verdict": "KEEP",
+          "reason": "Zero instances of 'marked' as a verb."
+        },
+        {
+          "tic": "Tic 3: Tightened/Eased",
+          "cap": "3 tightened / 2 eased",
+          "count": "1 tightened / 0 eased",
+          "instances": [
+            "Line 29: 'Cyndia's mouth tightened.' (emotional)"
+          ],
+          "note": "Line 5 'tighten the air' is metaphorical/environmental, not a body part. Line 227 'Convocation pressure tightening' is institutional/abstract, not a body part. Neither counted against cap.",
+          "verdict": "KEEP",
+          "reason": "Well within cap (1/3 tightened, 0/2 eased). Single instance is emotional but character-specific to Cyndia."
+        },
+        {
+          "tic": "Tic 4: Mouth Shifted / Expression Shifted",
+          "cap": 1,
+          "count": 0,
+          "instances": [],
+          "note": "Line 201 'His mouth changed' uses 'changed' not 'shifted'. Not the tic pattern.",
+          "verdict": "KEEP",
+          "reason": "Zero instances of 'shifted' for facial expressions."
+        }
+      ],
+      "selfCheck": {
+        "allInstancesCounted": true,
+        "physicalVsEmotional": "1 emotional tightened (Cyndia), 0 physical. Within cap.",
+        "slophunterIntroducedTics": "Checked all slophunter fixes: L81 introduced 'Something moved behind Falric's eyes' (not a tracked tic). L143 introduced 'Uther's hands lifted' (not a tracked tic). L131 introduced 'officers stopped qualifying' (not a tracked tic). No new tics introduced by revision."
+      }
+    }
+  ],
+  "summary": {
+    "totalKills": 0,
+    "totalKeeps": 81,
+    "guidesRun": 5,
+    "guidesWithKills": 0,
+    "killsWithFix": 0,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Zero KILL verdicts across all 5 guides. All 24 kills from iteration 0 were addressed by the slophunter: 9 deletions, 15 rewrites. All fixes verified clean with no new violations introduced. Prose maintains Sylvanas's tactical register throughout. Iteration 1 revision is a clean pass."
+  }
+}

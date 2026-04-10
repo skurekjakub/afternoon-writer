@@ -1,0 +1,209 @@
+{
+  "chapterId": "chapter16",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "Pattern 2 fragment pivots",
+      "findings": [
+        {
+          "lineNumber": 9,
+          "line": "The lead was no longer miles. It was ovens.",
+          "pattern": "Pattern 2",
+          "deletionTest": "It was ovens.",
+          "severity": "mild",
+          "reason": "KILL - fragment pivot; the negative half is scaffolding and the positive half carries the meaning.",
+          "suggestedFix": "The lead was measured in ovens now.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 33,
+          "line": "Bells thin in the damp air, meant to order a morning, not warn a wall.",
+          "pattern": "Pattern 1",
+          "deletionTest": "Bells thin in the damp air, meant to order a morning.",
+          "severity": "mild",
+          "reason": "KILL - direct contrast pivot; the sentence lands on contrast instead of naming the concrete sound directly.",
+          "suggestedFix": "Bells thinned through the damp air, the sound of an ordinary morning.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 229,
+          "line": "Not one more store. Not one more lane.",
+          "pattern": "Pattern 7",
+          "deletionTest": "",
+          "severity": "mild",
+          "reason": "KILL - chained negation fragments; the paragraph improves when the rejected counts are removed and the prose proceeds directly to the real conclusion.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 9,
+      "kills": 6,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 6,
+        "severe": 0
+      },
+      "dominantPattern": "Pattern 5 abstraction and infrastructure agency laundering",
+      "findings": [
+        {
+          "lineNumber": 3,
+          "line": "The road north of Hearthglen had quit pretending to be a road.",
+          "subject": "The road north of Hearthglen",
+          "verb": "had quit pretending",
+          "realAgent": "wagon damage, dried mud, and road breakdown visible in the ruts and shoulder",
+          "pattern": "Pattern 4",
+          "severity": "moderate",
+          "reason": "KILL - geography is given self-conscious deception instead of naming the physical damage.",
+          "suggestedFix": "North of Hearthglen, the road had broken down into ruts and shoulder.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 49,
+          "line": "Habit still ran the place, and habit had always been the plague's ally.",
+          "subject": "Habit",
+          "verb": "ran / had always been",
+          "realAgent": "workers, guards, and civilians continuing their routine without understanding the threat",
+          "pattern": "Pattern 5",
+          "severity": "moderate",
+          "reason": "KILL - abstraction is made the governing agent when the people following routine are the concrete cause.",
+          "suggestedFix": "People still moved by routine there, and that made them easy for the plague.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 103,
+          "line": "The room gave one last drag against the staff, then let go.",
+          "subject": "The room",
+          "verb": "gave / let go",
+          "realAgent": "the remaining pull in the contaminated grain resisting Jaina's working",
+          "pattern": "Pattern 5",
+          "severity": "moderate",
+          "reason": "KILL - the location is carrying the resistance instead of the magical pull inside it.",
+          "suggestedFix": "The pull in the grain dragged once more against the staff, then broke.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 143,
+          "line": "The yard outside killed the victory at once.",
+          "subject": "The yard outside",
+          "verb": "killed",
+          "realAgent": "Jaina seeing civilians already carrying and eating bread from the infected network",
+          "pattern": "Pattern 5",
+          "severity": "moderate",
+          "reason": "KILL - scenery is assigned the decisive emotional action instead of the concrete sight in the yard doing that work.",
+          "suggestedFix": "Jaina lost the victory the moment she saw the yard outside.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 217,
+          "line": "All around them, the city kept confessing.",
+          "subject": "the city",
+          "verb": "kept confessing",
+          "realAgent": "visible bread traffic, open kitchens, and civilians carrying proof of how far the contamination had spread",
+          "pattern": "Pattern 5",
+          "severity": "moderate",
+          "reason": "KILL - the city is given human confession instead of naming the accumulating visible evidence.",
+          "suggestedFix": "All around them, more proof kept piling up.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 247,
+          "line": "The city had already answered her.",
+          "subject": "The city",
+          "verb": "had already answered",
+          "realAgent": "the open shutters, scraped plates, bread deliveries, and already-fed households on the ride back",
+          "pattern": "Pattern 5",
+          "severity": "moderate",
+          "reason": "KILL - the abstraction is answering for a chain of concrete signs the prose already has available.",
+          "suggestedFix": "She had her answer already: open shutters, scraped plates, bread on the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "No cap breaches",
+      "cleanReason": "I checked the chapter-wide counts for corner-of-mouth beats, marked uses, tightened/eased, eye/gaze beats, weight metaphors, and performance dialogue tags. The chapter stays within cap on all tracked tics; the matched instances are either single-use, literal, or tactical/character-specific rather than generic excess."
+    }
+  ],
+  "summary": {
+    "totalKills": 9,
+    "totalKeeps": 11,
+    "mildKills": 3,
+    "moderateOrSevereKills": 6,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 9,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A fails because the chapter contains six MODERATE intent-smear kills plus three MILD negation kills; any MODERATE kill fails the pass."
+  }
+}

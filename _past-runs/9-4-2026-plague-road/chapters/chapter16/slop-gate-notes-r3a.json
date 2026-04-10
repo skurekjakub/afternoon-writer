@@ -1,0 +1,142 @@
+{
+  "chapterId": "chapter16",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severityMarkers": [
+        "mild"
+      ],
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "findings": [
+        {
+          "line": "Not alarm. Direction.",
+          "pattern": "2",
+          "deletionTest": "Direction.",
+          "verdict": "KILL",
+          "reason": "Pattern 2 fragment pivot; the line keeps its meaning when the negated half is removed.",
+          "severity": "mild",
+          "suggestedFix": "Direction.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 8,
+      "kills": 4,
+      "keeps": 4,
+      "severityMarkers": [
+        "mild",
+        "mild",
+        "mild",
+        "mild"
+      ],
+      "dominantPattern": "second-sweep-inanimate-subjects",
+      "secondSweep": "Completed the dedicated P5/P6 re-read and captured additional road, city, and body-part agency cases.",
+      "findings": [
+        {
+          "line": "As they closed on the city, the road thickened with traffic.",
+          "subject": "the road",
+          "verb": "thickened",
+          "realAgent": "the carts, wagons, and riders crowding the approach",
+          "pattern": "second-sweep-road-motion",
+          "verdict": "KILL",
+          "reason": "The road is not doing the crowding; the traffic is.",
+          "severity": "mild",
+          "suggestedFix": "As they closed on the city, traffic thickened on the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "the sort of face a lane would forget at once",
+          "subject": "a lane",
+          "verb": "forget",
+          "realAgent": "the people passing through the lane",
+          "pattern": "6",
+          "verdict": "KILL",
+          "reason": "Pattern 6 scenery-memory variant; the lane is not the thing doing the forgetting.",
+          "severity": "mild",
+          "suggestedFix": "the sort of face people forgot at once",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Stratholme still ran on habit.",
+          "subject": "Stratholme",
+          "verb": "ran",
+          "realAgent": "the city's residents continuing their routines",
+          "pattern": "second-sweep-city-habit",
+          "verdict": "KILL",
+          "reason": "The city itself is not performing the routine; the people in it are.",
+          "severity": "mild",
+          "suggestedFix": "Stratholme's people still moved by habit.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The first mouth to give one was choking on her arrow.",
+          "subject": "mouth",
+          "verb": "give",
+          "realAgent": "the next signaler trying to sound a whistle",
+          "pattern": "8",
+          "verdict": "KILL",
+          "reason": "Pattern 8 body-part agency; the mouth steals action from the person trying to signal.",
+          "severity": "mild",
+          "suggestedFix": "The first one to try was choking on her arrow.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "cleanReason": "Counted every relevant tic family in the chapter. One corner-of-mouth beat, one \"marked\" use, one emotional \"tightened,\" and one non-said dialogue tag all stay under their caps, and no other tracked tic family exceeds threshold.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 10,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has five mild sentence-level issues across negation and intent-smear, which exceeds the three-mild maximum for a pass."
+  }
+}

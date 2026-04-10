@@ -2,7 +2,7 @@
 
 An autonomous multi-agent pipeline that transforms beat-plan outlines into polished prose chapters. Up to twelve specialized agents run sequentially, each reading the previous agent's output and producing input for the next. A pure-router orchestrator coordinates dispatch without ever reading prose content.
 
-**Updated:** 2025-07-14
+**Updated:** 2026-04-06
 
 ---
 
@@ -26,7 +26,7 @@ The afternoon pipeline converts user-authored beat outlines into finished fictio
 
 The pipeline processes chapters sequentially — chapter 2 cannot start until chapter 1 is fully complete, including the memory-keeper's continuity update. This guarantees that every chapter has access to the full continuity state from all prior chapters.
 
-All agents run on `gpt-5.4`. All prose uses Limited Third Absolute POV. All characters are women or futas (she/her pronouns exclusively).
+The specialist pipeline agents run on `gpt-5.4`; the orchestrator runs on `claude-sonnet-4.6`. All prose uses Limited Third Absolute POV. All characters are women or futas (she/her pronouns exclusively).
 
 ## Agent Flow
 
@@ -44,10 +44,10 @@ Pipeline execution (per chapter):
    enrichment)         pacing authority)
                                                     │
                                                     ▼
-  Style-Editor ←── Expander ←── Grounder ←── Slop-Gate ←── Slophunter ←── v1.md
-  (voice polish,    (scene          (world-specificity  (adversarial    (AI pattern
-   continuity,       expansion,      grounding,          slop audit,     elimination,
-   7 checks)         if enabled)     if enabled)         revision loop)  11 targeted hunts)
+  Style-Editor ←── Expander ←── Grounding-Gate ←── Grounder ←── Slop-Gate ←── Slophunter ←── v1.md
+  (voice polish,    (scene          (adversarial        (world-specificity  (adversarial    (AI pattern
+   continuity,       expansion,      grounding audit,    grounding, map-    slop audit,     elimination,
+   7 checks)         if enabled)     optional revision)  driven revision)   revision loop)  11 targeted hunts)
        │
        ▼
   Style-Auditor ──→ Final-Slophunter ──→ Memory-Keeper
@@ -73,13 +73,16 @@ The **Outline-Builder** and **Style-Extractor** sit outside this flow — they'r
 **Prose writer.** Reads the verified plan, story overview, priming files (anti-slop + craft), style target, and targeted memory. Writes beat-by-beat, using `continuityStatus` to control description density: "new" gets full sensory treatment, "callback" gets brief anchoring, "evolution" builds on established foundations. Self-audits against the slop hitlist before delivery. Outputs `v1.md`.
 
 ### Slophunter
-**AI pattern eliminator.** Reads `v1.md` and executes 11 targeted hunts: wordcount reduction, hard caps on overused words, all hitlist items, telegram prose, opener tics, filter words, image repetition, which-meant syndrome, essay paragraphs, biography insertions, and temporal beat transitions. Surgical replacement — never adds content. Outputs `v2.md` plus notes JSON with before/after counts. Also runs in revision mode when the slop-gate fails — applies the gate's pre-validated suggested fixes (with latitude for voice/flow), then runs a rewrite self-audit on changed passages to catch violations introduced by the rewrites.
+**AI pattern eliminator.** Reads `v1.md` and executes 11 targeted hunts: wordcount reduction, hard caps on overused words, all hitlist items, telegram prose, opener tics, filter words, image repetition, which-meant syndrome, essay paragraphs, biography insertions, and temporal beat transitions. Surgical replacement — never adds content. Outputs `v2.md` plus notes JSON with before/after counts. Its dialogue-register hunt also kills fake simplification: dialogue that claims to translate specialist reasoning into plain speech but still stays schematic. Also runs in revision mode when the slop-gate fails — applies both pass A and pass B suggested fixes (with latitude for voice/flow), then runs a rewrite self-audit on changed passages to catch violations introduced by the rewrites. The slop hitlist remains enforced here, not as a separate slop-gate pass.
 
 ### Slop-Gate
-**Adversarial slop auditor with fix suggestions.** Reads `v2.md` and audits it against every guide in `resources/*.md`. For each KILL finding, writes a concrete `suggestedFix` (replacement text), cross-checked against all audit guides (not just co-triggered ones) to prevent the replacement from violating other rules. Uses iteration-aware conservatism: later iterations prefer deletion and minimal substitution over creative rewrites. Emits pass or fail. On fail, the orchestrator re-dispatches the slophunter in revision mode — the slophunter applies the gate's pre-validated suggestions (with latitude for voice/flow adjustment) rather than improvising fixes. The gate then re-audits. This loop continues up to `maxIterations` (configurable, default 5). On pass, the clean v2.md proceeds to the grounder. Can be disabled per-story via config.
+**Adversarial slop auditor with fix suggestions.** Reads `v2.md` and audits it in two passes. **Pass A** handles the high-confidence mechanical guides (negation, intent smear, recurring prose tics). **Pass B** handles the contextual guides (GPT-5 prose issues, narrator seep, phantom concreteness, fake simplification). For each KILL finding, writes a concrete `suggestedFix` (replacement text), cross-checked against the current pass guide pack to prevent the replacement from violating other rules inside that pass. The gate's detection surface now splits two nearby failures: phantom concreteness covers lines that sound precise or intellectual without cashing out into named specifics, observable carriers, local evidence, or plain claim, while fake simplification covers dialogue pretending to simplify into street terms while still withholding the actionable target. Uses iteration-aware conservatism: later iterations prefer deletion and minimal substitution over creative rewrites. If either pass fails, the orchestrator re-dispatches the slophunter in revision mode, the slophunter applies both note sets, then both passes re-audit the revised file independently. This loop continues up to `maxIterations` (configurable, default 5). Only when both passes pass does the clean `v2.md` proceed to the grounder. Can be disabled per-story via config.
 
 ### Grounder
-**World-specificity grounding by exemplar.** Reads `v2.md`, the plan, memory files, materials, and a before/after chapter pair that teaches the transformation. Enriches prose with named geography, titled institutions, material texture, world-register dialogue, physical rhythm beats, and POV-filtered technical vocabulary — learned from the exemplar, not from a category taxonomy. Sources all proper nouns from memory, materials, and plan — never invents. Self-audits against anti-slop hitlist after grounding. Wordcount target: 40-70% growth. Can be disabled per-story via config (`agents.grounder.enabled: false`). On failure, orchestrator copies v2.md to v2g.md and proceeds — does not block. Outputs `v2g.md`.
+**World-specificity grounding by exemplar.** Reads `v2.md`, the plan, memory files, materials, and the grounding skill's exemplar pairs. Before editing, it writes `grounding-map.json`, then grounds scene by scene. It still runs a dedicated dialogue-grounding pass and a separate final-third audit, but those rules now live in the grounder prompt rather than in the framework skill. Sources all proper nouns from memory, materials, and plan — never invents. Can be disabled per-story via config (`agents.grounder.enabled: false`). On failure, orchestrator copies `v2.md` to `v2g.md`, skips the grounding-gate, and proceeds — does not block. Outputs `v2g.md`, `grounding-map.json`, and `grounder-notes.json`.
+
+### Grounding-Gate
+**Adversarial grounding verifier.** Reads `v2g.md`, the verified plan, targeted memory, and the dedicated `prose-grounding-audit` skill. It does not trust the grounder's own map or notes. Instead it runs a fresh sweep for white-room paragraphs, contactless dialogue, generic fallback nouns, tail attenuation, over-grounding, rhythm damage, and unsourced specificity. A few local carrier beats do not clear a long conceptual run, and late generic fallback can still fail even when route logic remains legible. On fail, it writes local `suggestedFix` values and the orchestrator re-dispatches the grounder in revision mode. The loop is best-effort: after `agents.groundingGate.maxIterations` (default `3`), the orchestrator promotes the latest grounded revision and continues. Can be enabled per-story via config (`agents.groundingGate.enabled: true`). Outputs `grounding-gate-notes*.json`, `grounding-gate-scratchpad*.md`, and a verdict-bearing status file.
 
 ### Expander
 **Scene expansion editor.** Reads `v2g.md` and the plan's `expansionLevel` per beat. Expands underwritten intimate and emotional scenes using a 6-question test. Three levels: high (moment-by-moment), medium (add reactions/detail), low (1-2 sensory anchors). Can be disabled per-story via config — orchestrator does `cp v2g.md v3.md` and skips dispatch. Outputs `v3.md`.
@@ -104,7 +107,7 @@ The **Outline-Builder** and **Style-Extractor** sit outside this flow — they'r
 
 ## Artifact Versioning
 
-Each chapter produces up to seven draft versions, each improving on the last:
+Each chapter produces seven primary draft versions, each improving on the last, plus optional audit/revision artifacts around the two gates:
 
 | Version | Agent | What happens |
 |---------|-------|-------------|
@@ -117,7 +120,9 @@ Each chapter produces up to seven draft versions, each improving on the last:
 | `v5.md` | Final-Slophunter | Polish-mode slop elimination, register pass |
 | `final.md` | Orchestrator | Copy of v5.md (assembly step via `cp`) |
 
-Each editor also produces a notes JSON logging all changes with before/after counts, so you can trace what happened at each stage.
+The grounding-gate does not create a new canonical prose stage. It audits grounded prose and, if needed, forces numbered grounded revisions (`v2g-rN.md`) until one is promoted back to canonical `v2g.md`.
+
+Each editor also produces notes/audit artifacts logging what changed or what was flagged, so you can trace what happened at each stage.
 
 ## Directory Layout
 
@@ -149,6 +154,9 @@ Each editor also produces a notes JSON logging all changes with before/after cou
 │   ├── v2.md                      # Slophunter output (promoted from v2-rN.md if gate revision loop ran)
 │   ├── v2-r*.md                   # Slophunter revision drafts (absent if gate passes first time)
 │   ├── v2g.md                     # Grounder output (or cp of v2 if disabled/degraded)
+│   ├── v2g-r*.md                  # Grounder revision drafts during grounding-gate loop
+│   ├── grounding-map.json         # Grounder execution scaffold
+│   ├── grounding-map-r*.json      # Revision grounding maps
 │   ├── v3.md                      # Expander output (or cp of v2g)
 │   ├── v4.md                      # Style-editor output
 │   ├── v4b.md                     # Style-auditor output (absent if style-guide.json missing)
@@ -156,12 +164,19 @@ Each editor also produces a notes JSON logging all changes with before/after cou
 │   ├── final.md                   # Assembled (cp of v5.md)
 │   ├── slophunter-notes.json      # Change log
 │   ├── slophunter-revision-r*-notes.json  # Revision change logs (absent if gate passes first time)
-│   ├── slop-gate-notes.json       # KILL findings only (absent if gate disabled)
-│   ├── slop-gate-notes-r*.json    # Re-audit KILL findings per iteration (absent if gate passes first time)
-│   ├── slop-gate-scratchpad.md    # KEEP decisions for human audit (absent if gate disabled)
-│   ├── slop-gate-scratchpad-r*.md # Re-audit KEEPs per iteration (absent if gate passes first time)
+│   ├── slop-gate-notes-a.json     # Pass A KILL findings only (absent if gate disabled)
+│   ├── slop-gate-notes-b.json     # Pass B KILL findings only (absent if gate disabled)
+│   ├── slop-gate-notes-r*?.json   # Re-audit KILL findings per iteration/pass (e.g. r1a, r1b)
+│   ├── slop-gate-scratchpad-a.md  # Pass A KEEP decisions for human audit (absent if gate disabled)
+│   ├── slop-gate-scratchpad-b.md  # Pass B KEEP decisions for human audit (absent if gate disabled)
+│   ├── slop-gate-scratchpad-r*?.md # Re-audit KEEPs per iteration/pass (e.g. r1a, r1b)
+│   ├── grounding-gate-notes.json  # Grounding-gate KILL findings + suggestedFix (absent if gate disabled/skipped)
+│   ├── grounding-gate-notes-r*.json
+│   ├── grounding-gate-scratchpad.md
+│   ├── grounding-gate-scratchpad-r*.md
 │   ├── expander-notes.json        # Change log (absent if expander disabled)
 │   ├── grounder-notes.json        # Change log (absent if grounder disabled/degraded)
+│   ├── grounder-revision-r*-notes.json
 │   ├── style-notes.json           # Change log
 │   ├── style-auditor-notes.json   # Change log (absent if style-guide.json missing)
 │   └── final-slophunter-notes.json # Change log
@@ -183,10 +198,10 @@ outlines/{chapterId}.md ──→ Planner ──→ {chapterId}-initial.json ─
                                                                           │
 {chapterId}.json ←───────────────────────────────────────────────────────┘
        │
-       ├──→ Writer ──→ v1.md ──→ Slophunter ──→ v2.md ──→ [Slop-Gate ↔ revision loop] ──→ Grounder ──→ v2g.md ──→ Expander ──→ v3.md
-       │                                                                                                  │
+       ├──→ Writer ──→ v1.md ──→ Slophunter ──→ v2.md ──→ [Slop-Gate ↔ revision loop] ──→ Grounder ──→ [Grounding-Gate ↔ revision loop] ──→ v2g.md ──→ Expander ──→ v3.md
+       │                                                                                                                            │
        └──→ (requiredMemory field tells Writer + Style-Editor which memory files to read)                 │
-                                                                                                            │
+                                                                                                             │
        Style-Editor ──→ v4.md ──→ [Style-Auditor] ──→ v4b.md ──→ Final-Slophunter ──→ v5.md ──→ final.md ──→ Memory-Keeper
 ```
 
@@ -216,16 +231,22 @@ For each agent dispatch:
 2. Dispatch with `prompt: "chapterId: {chapterId}"`
 3. Wait for completion (synchronous)
 4. Read `status.json` — if completed, proceed; if failed, retry once
-5. Second failure → mark chapter "blocked", move to next
+5. Second failure → usually mark chapter "blocked", move to next
+
+Important exceptions:
+- **Slop-Gate** and **Grounding-Gate** audit failures are not operational failures. They return `status: "completed"` with `verdict: "fail"` and enter their revision loops.
+- **Grounder** second failure degrades gracefully (`cp v2.md → v2g.md`) and skips the grounding-gate.
+- **Style-Auditor** failure caused by missing `style-guide.json` is treated as a skip, not a block.
 
 ### Crash recovery
 If `manifest.json` exists with `"status": "in-progress"`:
 1. Read `currentChapter` and `currentAgent`
-2. Check for active slop-gate loop: if `slopGateLoop` exists in manifest, resume from the loop phase
-3. Standard recovery: check that agent's `status.json`:
+2. Check for active slop-gate loop: if `slopGateLoop` exists in manifest, resume from the loop phase (`awaiting-revision`, `awaiting-reaudit-a`, `awaiting-reaudit-b`, or `awaiting-promote`)
+3. Check for active grounding-gate loop: if `groundingGateLoop` exists in manifest, resume from the loop phase
+4. Standard recovery: check that agent's `status.json`:
    - Shows completed for this chapter → manifest wasn't updated → fix manifest, advance
    - Missing or shows different chapter → re-dispatch the agent
-4. Continue from that point
+5. Continue from that point
 
 Signal source is always `status.json`, never output file existence.
 

@@ -1,0 +1,135 @@
+{
+  "chapterId": "chapter24",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "killRate": 0,
+      "dominantPattern": null,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "Reviewed the chapter's real negation-pivot candidates and found only structural keeps: a binary diagnostic (\"Not random.\"), one spatial correction (\"not the bars\"), and two hard-constraint lines about what Lor'themar can or cannot name or reach in time.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "killRate": 57.14,
+      "dominantPattern": "abstract-or-object agency laundering",
+      "severityMarkers": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterFlags": [
+        "smart-POV analytic narration carries four agency-laundering hits across the trial and aftermath sections"
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": false,
+      "findings": [
+        {
+          "line": "No. It depended on whether anyone in the room wanted truth before it arrived.",
+          "subject": "truth",
+          "verb": "arrived",
+          "realAgent": "the people in the room hearing and crediting Sylvanas's account",
+          "pattern": "P5 abstract object with physical-behavior camouflage",
+          "severity": "mild",
+          "reason": "The sentence makes abstract truth arrive on its own instead of naming the room's human acceptance or refusal.",
+          "suggestedFix": "No. It depended on whether anyone in the room wanted the truth before they heard it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Each true answer tightened the case instead.",
+          "subject": "Each true answer",
+          "verb": "tightened",
+          "realAgent": "Ashcombe using Uther's concessions to strengthen her case",
+          "pattern": "P5 abstract evidence carrying scene work",
+          "severity": "mild",
+          "reason": "The answer is made to do the prosecutorial work instead of naming Ashcombe's use of it.",
+          "suggestedFix": "With each true answer, Ashcombe had more to use.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The field officer in him took the number and left the fear alone.",
+          "subject": "The field officer in him",
+          "verb": "took / left",
+          "realAgent": "Lor'themar processing the timetable and choosing not to speak the fear aloud",
+          "pattern": "P5 role-abstraction with human decisions",
+          "severity": "mild",
+          "reason": "An internal role-label is made to perform Lor'themar's reading and restraint for him.",
+          "suggestedFix": "He took the number and left the fear alone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Lor'themar gave the guard a look that promised future trouble in formal clothing.",
+          "subject": "look",
+          "verb": "promised",
+          "realAgent": "Lor'themar signaling future retaliation through his expression",
+          "pattern": "P3 object promising an outcome",
+          "severity": "mild",
+          "reason": "The promise is laundered onto the look instead of staying with Lor'themar.",
+          "suggestedFix": "Lor'themar gave the guard a look, promising future trouble in formal clothing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "killRate": 0,
+      "dominantPattern": null,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "Counted the capped tic families in this chapter: one corner-of-mouth beat, one emotional mouth-tightening beat plus two physical chain-tightening beats, no overloaded \"marked,\" no gaze-cluster overflow, no weight-metaphor overflow, and no performance-tag overflow.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 10,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 1,
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has four mild intent-smear kills. With more than three mild-only kills and no higher-severity findings, the pass fails under the pass rule."
+  }
+}

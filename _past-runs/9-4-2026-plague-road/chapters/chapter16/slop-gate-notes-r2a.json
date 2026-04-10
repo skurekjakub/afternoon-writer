@@ -1,0 +1,141 @@
+{
+  "chapterId": "chapter16",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 4,
+      "dominantPattern": "Pattern 2 - Fragment pivot",
+      "findings": [
+        {
+          "severity": "mild",
+          "line": "Cold climbed into her palm at once. Not her own clean cold. This one was wet, patient, greedy, sunk through with the same buried drag Hearthglen's stores had carried before the dead rose inside the walls.",
+          "pattern": "2",
+          "deletionTest": "Cold climbed into her palm at once. This one was wet, patient, greedy, sunk through with the same buried drag she had felt in Hearthglen's stores before the dead rose inside the walls.",
+          "reason": "Pattern 2 fragment pivot; the negative fragment is scaffolding and the sensed contamination reads cleanly without it.",
+          "suggestedFix": "Cold climbed into her palm at once, wet and patient and greedy, sunk through with the same buried drag she had felt in Hearthglen's stores before the dead rose inside the walls.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "dominantPattern": "P5/P6 sweep - abstract or inanimate subject carrying action",
+      "findings": [
+        {
+          "severity": "mild",
+          "line": "This store fought filthier.",
+          "pattern": "P5/P6-physical-behavior",
+          "subject": "store",
+          "verb": "fought",
+          "realAgent": "the contamination threaded through this store's remaining stock",
+          "reason": "Fresh-sweep P5/P6 hit; the building is carrying the resistance instead of the contamination inside it.",
+          "suggestedFix": "This store was filthier to break.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "line": "A nest of them, each trying to stay tied to stock already on wheels and in kitchens and on hands.",
+          "pattern": "P5/P6-desire-transfer",
+          "subject": "each pocket of contamination",
+          "verb": "trying",
+          "realAgent": "the surviving contamination links that still ran through moved stock",
+          "reason": "The sentence gives the scattered pockets desire and effort instead of stating the remaining ties directly.",
+          "suggestedFix": "A nest of them, each still tied to stock already on wheels and in kitchens and on hands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "line": "The line had crossed from stock to bodies, from bodies to households,",
+          "pattern": "P5/P6-abstract-physical-behavior",
+          "subject": "line",
+          "verb": "had crossed",
+          "realAgent": "the contamination moving through food, bodies, and homes",
+          "reason": "The threshold abstraction is doing the movement instead of the contamination itself.",
+          "suggestedFix": "The contamination had crossed from stock to bodies, from bodies to households,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "line": "from households to a city that still thought it had time to argue over prices and get children fed before noon.",
+          "pattern": "4",
+          "subject": "city",
+          "verb": "thought",
+          "realAgent": "the people still buying, feeding children, and haggling in the streets",
+          "reason": "Pattern 4 institutional/collective cognition smear; the prose gives the city a mind instead of naming its residents.",
+          "suggestedFix": "from households into streets where people still thought they had time to argue over prices and get children fed before noon.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "line": "The word came clean.",
+          "pattern": "5",
+          "subject": "word",
+          "verb": "came",
+          "realAgent": "Jaina speaking the answer plainly",
+          "reason": "Pattern 5 object-action smear; the answer is being said cleanly, not arriving on its own.",
+          "suggestedFix": "She said it cleanly.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "dominantPattern": null,
+      "cleanReason": "Counted the chapter-level tic set fresh: 1 corner-of-mouth beat, 2 uses of 'marked', 1 tightened beat, 0 eased beats, 0 facial-shifted beats, 0 emotional weight metaphors, and 1 counted performance tag ('muttered'). All remained at or below their caps, and the surviving instances were the more specific uses."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 11,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still carries more than three mild findings: one fragment-negation pivot and five agency-laundering hits remain in the revised draft."
+  }
+}

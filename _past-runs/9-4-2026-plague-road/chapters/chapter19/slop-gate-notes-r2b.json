@@ -1,0 +1,250 @@
+{
+  "chapterId": "chapter19",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 10,
+      "kills": 7,
+      "keeps": 3,
+      "severityMarkers": [
+        "MILD"
+      ],
+      "dominantPattern": "F3",
+      "guideNotes": "F1, F2, F5, and F6 stayed clean on re-read: the fragment runs are tactical inventory from Sylvanas's military POV, dialogue beats stay character-specific, the chapter keeps its conflict open, and the scan paragraphs do not drift into essay structure.",
+      "findings": [
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": "There it was.",
+          "whatItRestates": "Jaina's previous line already states the tradeoff: more proof south costs sea lead north.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": "That landed cleaner.",
+          "whatItRestates": "Vereesa's \"He sounded finished\" already lands the political cost without the interpretive subtitle.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": "For a breath Sylvanas thought Vereesa might slap her.",
+          "word": "For a breath",
+          "deletionTest": "Sylvanas thought Vereesa might slap her.",
+          "verdict": "KILL",
+          "suggestedFix": "Vereesa might slap her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": "For a moment the younger sister sat above them with the camp behind and the northern road at her back, everything she'd ridden here to save already lost.",
+          "word": "For a moment",
+          "deletionTest": "The younger sister sat above them with the camp behind and the northern road at her back, everything she'd ridden here to save already lost.",
+          "verdict": "KILL",
+          "suggestedFix": "The younger sister sat above them with the camp behind and the northern road at her back, everything she'd ridden here to save already lost.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": "After a moment Jaina added, \"Not cleaner. Just louder. Like getting closer to a horn under water.\"",
+          "word": "After a moment",
+          "deletionTest": "Jaina added, \"Not cleaner. Just louder. Like getting closer to a horn under water.\"",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina added, \"Not cleaner. Just louder. Like getting closer to a horn under water.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "Nothing needed to.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "\"Yes.\"",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "At least it was the right road.",
+          "location": "scene-final",
+          "couldEndEarlierAt": "Ahead waited coast, failing relays, borrowed passage, and the prince they had not stopped in time.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks in field assessments, hierarchy, route logic, and hard-edged comparative judgments. She will use terse fragment scans and martial metaphors, but her mind stays practical and evidence-led; she does not usually zoom out into essay claims about categories or leave key face reads in polished abstraction.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severityMarkers": [
+        "MILD"
+      ],
+      "dominantPattern": "A7",
+      "findings": [
+        {
+          "pattern": "A7",
+          "severity": "MILD",
+          "line": "The northern edge of the relay network looked the way neglect always did: not dramatic, only thinner than it ought to have been.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence zooms out from Sylvanas's immediate road read into a general claim about how neglect always looks.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "The northern edge of the relay network was thinner than it ought to have been.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "line": "Only the afterlook of something cut through rather than soothed.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can read that Jaina was hurt, but this phrasing is too polished and too abstract to feel like her in-the-moment face read.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severityMarkers": [
+        "MILD"
+      ],
+      "dominantPattern": "P4",
+      "findings": [
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "line": "That landed cleaner.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The specific visible change in Sylvanas or Vereesa that makes the report hit harder than the line before it.",
+          "verdict": "KILL",
+          "reason": "Unanchored interpretive summary; the line sounds sharp without naming the evidence.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "line": "Only the afterlook of something cut through rather than soothed.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The concrete sign on Jaina's face that tells Sylvanas this was a cut and not a comfort.",
+          "verdict": "KILL",
+          "reason": "Unanchored interpretive summary; the sentence offers prestige abstraction instead of the facial evidence.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "cleanReason": "No exchange in this chapter uses a simplify/plain-speech setup that triggers the guide. The route, threat, and harbor questions are already answered in operational language, so there was no fake simplification candidate to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 9,
+    "mildKills": 11,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 11,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass B still has 11 mild KILLs, which exceeds the 3-mild maximum for a pass."
+  }
+}

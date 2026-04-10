@@ -1,0 +1,255 @@
+{
+  "chapterId": "chapter18",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F3-filter-verb",
+      "findings": [
+        {
+          "pattern": "F3-filter-verb",
+          "failureMode": "F3",
+          "line": "Jaina reached for her own pommel and found herself doing the same before she had finished noticing it.",
+          "word": "noticing",
+          "deletionTest": "Jaina reached for her own pommel and found herself doing the same.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "suggestedFix": "Jaina reached for her own pommel and found herself doing the same.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in tight analytical jumps tied to residue, routes, maps, and bodily evidence. Even at her most reflective, she tracks concrete carriers first and only then compresses into theory. She does not naturally caption scenes in epigraphic fragments or polished authorial flourishes.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A2",
+      "findings": [
+        {
+          "pattern": "A1",
+          "tier": "A",
+          "line": "Could not.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment captions Jaina's spoken refusal from outside instead of staying inside the bodily refusal she has already voiced.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "line": "A sound rose, found nothing in itself worth becoming, and died.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The line turns Jaina's failed response into an aesthetic flourish rather than the rough, bodily near-speech she would register in the moment.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "severity": "mild",
+          "suggestedFix": "She made a sound and let it die.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "tier": "A",
+          "line": "North where the plague pointed.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This is a slogan fragment in a thematic stack, not a thought grounded in what Jaina can presently see or handle.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B3",
+          "tier": "B",
+          "line": "North where the next thing waited, whether it was source or trap or both.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence comments on narrative portent and chapter-level convergence instead of staying with Jaina's immediate road-bound uncertainty.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P4",
+          "line": "Both had found the clean answer and followed it past the point where another person could still slow them.",
+          "failedQuestion": "What specifically had either of them chosen, ignored, or overruled here?",
+          "missingPayload": "The concrete checks, objections, or bodies they pushed past.",
+          "verdict": "KILL",
+          "reason": "Abstract interpretive summary with no local carrier strong enough to cash out the claim.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "line": "The fear was simpler: she could keep following a line too far.",
+          "failedQuestion": "What line, specifically, is she afraid of following?",
+          "missingPayload": "Her habit of pursuing the answer past the bodies and evidence in front of her.",
+          "verdict": "KILL",
+          "reason": "The sentence hinges on a stand-in noun that never cashes out unless the reader supplies the stronger version.",
+          "severity": "mild",
+          "suggestedFix": "The fear was simpler: she could keep chasing the answer after the bodies in front of her should have stopped her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "line": "A farther hand woke it.",
+          "failedQuestion": "What specifically is waking the plague pattern now?",
+          "missingPayload": "A distant broadcaster, source, or signal.",
+          "verdict": "KILL",
+          "reason": "The sentence sounds sharp but dodges the operative mechanism with an empty stand-in.",
+          "severity": "mild",
+          "suggestedFix": "Something farther away was still setting it off.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "line": "The bodies are answering something beyond the stock.",
+          "failedQuestion": "What exactly are the bodies answering?",
+          "missingPayload": "A signal, source, or relay rather than an unspecified 'something.'",
+          "verdict": "KILL",
+          "reason": "The line names the distinction only as prestige abstraction and still requires unpacking.",
+          "severity": "mild",
+          "suggestedFix": "The bodies are answering a signal beyond the stock.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "line": "The far source of too many things.",
+          "failedQuestion": "Source of what, specifically, in this moment?",
+          "missingPayload": "The plague source Jaina is now mapping northward.",
+          "verdict": "KILL",
+          "reason": "The phrase reaches for weight through vagueness instead of naming the actual referent.",
+          "severity": "mild",
+          "suggestedFix": "The far source of the plague.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No exchange sets up a plain-language translation demand. Antonidas asks for status and direction, not for smaller words, street-level phrasing, or a simplified operational restatement.",
+      "findings": [],
+      "brokenExchanges": []
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 6,
+    "mildKills": 10,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B found 10 mild KILLs across 3 guides. With more than 3 mild-only kills, the pass fails."
+  }
+}

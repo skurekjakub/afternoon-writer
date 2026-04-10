@@ -1,0 +1,210 @@
+{
+  "chapterId": "chapter19",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "findings": [
+        {
+          "line": "Not at him. At the councillors who could hear a city count its dead and still answer with orders, vote counts, and exile articles.",
+          "pattern": "2",
+          "deletionTest": "At the councillors who could hear a city count its dead and still answer with orders, vote counts, and exile articles.",
+          "verdict": "KILL",
+          "reason": "Pattern 2 fragment pivot; the anger lands more directly when the prose starts on its real target.",
+          "severity": "mild",
+          "suggestedFix": "The anger was for the councillors who could hear casualty lists from a whole city and still answer with orders, vote counts, and exile articles.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Jaina did not pace. She stood in the open and spoke into the light with the rigid economy of someone delivering news already past discussion.",
+          "pattern": "5",
+          "deletionTest": "She stood in the open and spoke into the light with the rigid economy of someone delivering news already past discussion.",
+          "verdict": "KILL",
+          "reason": "Pattern 5 preamble negation; the second sentence already carries the body-language fact.",
+          "severity": "mild",
+          "suggestedFix": "Jaina stood in the open and spoke into the light with the rigid economy of someone delivering news already past discussion.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "That earned the smallest sound from her. Not laughter. Close enough.",
+          "pattern": "2",
+          "deletionTest": "That earned the smallest sound from her. Close enough.",
+          "verdict": "KILL",
+          "reason": "Pattern 2 fragment pivot; the negated label is scaffolding before the real description.",
+          "severity": "mild",
+          "suggestedFix": "That earned the smallest sound from her, close enough to laughter.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 6,
+      "keeps": 1,
+      "secondSweepCompleted": true,
+      "severityMarkers": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "pass-a-p5p6-abstract-subject-motion",
+      "findings": [
+        {
+          "line": "Bodies had gone that way. The answer had not.",
+          "subject": "answer",
+          "verb": "had not gone",
+          "realAgent": "The evidence points north rather than south.",
+          "pattern": "object-motion",
+          "verdict": "KILL",
+          "reason": "The abstract answer is carrying physical motion instead of the prose naming the actual direction of the evidence.",
+          "severity": "mild",
+          "suggestedFix": "Bodies had gone that way. The answer lay north.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Vereesa's eyes flicked over the camp: notes, mage, horses, the working shape of a mission the Convocation had hoped to catch before it hardened.",
+          "subject": "Convocation",
+          "verb": "had hoped to catch",
+          "realAgent": "The councillors sent Vereesa south to stop the mission before it became irreversible.",
+          "pattern": "institution-hoped",
+          "verdict": "KILL",
+          "reason": "The institution is carrying cognition and intent that belongs to the councillors behind the recall order.",
+          "severity": "mild",
+          "suggestedFix": "Vereesa's eyes flicked over the camp: notes, mage, horses, the working shape of a mission the councillors had sent her south to interrupt before it hardened.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The habit died before it reached her mouth.",
+          "subject": "habit",
+          "verb": "died / reached",
+          "realAgent": "Sylvanas stops herself before she gives the dry answer.",
+          "pattern": "abstract-habit-motion",
+          "verdict": "KILL",
+          "reason": "The abstract habit is acting and moving in place of Sylvanas making a concrete choice not to speak.",
+          "severity": "mild",
+          "suggestedFix": "She stopped the dry answer before she spoke it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"The relay line dies at the harbors,\" she said.",
+          "subject": "relay line",
+          "verb": "dies",
+          "realAgent": "The relay network ends at the harbors because the stations stop there.",
+          "pattern": "infrastructure-dies",
+          "verdict": "KILL",
+          "reason": "Infrastructure is being given a bodily death verb where the prose can name the network's actual endpoint directly.",
+          "severity": "mild",
+          "suggestedFix": "\"The relay line ends at the harbors,\" she said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "One tried to escape under a crate and she caught it against her boot.",
+          "subject": "one page",
+          "verb": "tried to escape",
+          "realAgent": "A loose page slides under the crate and Jaina stops it.",
+          "pattern": "object-escape",
+          "verdict": "KILL",
+          "reason": "The page is being given desire and intention instead of the prose naming the simple physical movement.",
+          "severity": "mild",
+          "suggestedFix": "One slid under a crate and she caught it against her boot.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Once she closed her eyes for three breaths and opened them with the hard look she wore when a line of thought chose the worst possible time to sharpen.",
+          "subject": "line of thought",
+          "verb": "chose",
+          "realAgent": "Jaina reaches an answer at exactly the wrong moment.",
+          "pattern": "object-deciding",
+          "verdict": "KILL",
+          "reason": "The abstract thought-line is making a decision that belongs to Jaina's cognition.",
+          "severity": "mild",
+          "suggestedFix": "Once she closed her eyes for three breaths and opened them with the hard look she wore when she reached an answer at the worst possible time to do it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Counted the chapter's tightened/eased mouth beats, literal marked use, and tactical eye/gaze use. The chapter stayed within every hard cap, and the surviving instances were either physical or scene-functional rather than generic excess."
+    }
+  ],
+  "summary": {
+    "totalKills": 9,
+    "totalKeeps": 9,
+    "mildKills": 9,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 9,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass A still has 9 mild KILLs; pass A only passes with 3 or fewer mild findings and zero moderate/severe findings."
+  }
+}

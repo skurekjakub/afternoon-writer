@@ -1,0 +1,835 @@
+{
+  "chapterId": "chapter10",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 28,
+      "kills": 5,
+      "keeps": 23,
+      "severePagesOrScenes": [],
+      "dominantPattern": "F4 — Narrative Over-Translation",
+      "selfCheck": "Checked all seven failure modes. F1: scanned all paragraph clusters, found rhythm variation adequate after 4 slophunter passes; inventories use Jaina's character-voice fragments. F2: examined 15+ beats, all character-specific. F3: only 1 filter verb survived cleanup. F5: checked all 4 scene arcs; every apparent ease is intentional managed-access or intellectual-bait per chapter plan. F7: checked every paragraph-final and scene-final sentence; all end on action, image, or analytical conclusion, not emotional summary. Total under 10 is justified at iteration 4 after 4 cleanup passes.",
+      "findings": [
+        {
+          "lineNumber": 166,
+          "line": "Jaina looked back once and saw the estate already dimmed to pale roofline and wall.",
+          "pattern": "F3",
+          "word": "saw",
+          "deletionTest": "Jaina looked back once. The estate had already dimmed to pale roofline and wall.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Filter verb 'saw' mediates between the physical action (looking back) and the direct perception. The deletion test produces a stronger two-sentence construction.",
+          "suggestedFix": "Jaina looked back once. The estate had already dimmed to pale roofline and wall.",
+          "crossChecked": []
+        },
+        {
+          "lineNumber": 25,
+          "line": "He blinked once at the name, once at the tone.",
+          "pattern": "F2",
+          "issue": "specific social beat recording status reaction to Antonidas's name",
+          "verdict": "KEEP",
+          "reason": "The beat records a concrete status reaction; the double 'once at' structure is character-specific rhythm, not a generic label."
+        },
+        {
+          "lineNumber": 99,
+          "line": "Her mouth twitched, then stilled.",
+          "pattern": "F2",
+          "issue": "specific interruption of recognition",
+          "verdict": "KEEP",
+          "reason": "Concrete work: recognition breaks across Jandice's face and is immediately controlled. Two-phase beat, not a bare label."
+        },
+        {
+          "lineNumber": 261,
+          "line": "The archivist glanced up again, startled, then dropped his eyes.",
+          "pattern": "F2",
+          "issue": "status reaction tied to archive hierarchy",
+          "verdict": "KEEP",
+          "reason": "Scene-specific, keyed to who holds authority in the room. The startlement and deference are hierarchical, not generic."
+        },
+        {
+          "lineNumber": 549,
+          "line": "Jandice blinked once at the speed of her answer, then the pleased look returned.",
+          "pattern": "F2",
+          "issue": "recalibration beat with scene-specific social meaning",
+          "verdict": "KEEP",
+          "reason": "Jandice recalculating around Jaina's speed; the two-phase structure (surprise into pleasure) reveals her hunger for intellectual engagement."
+        },
+        {
+          "lineNumber": 375,
+          "line": "The sending stone in her satchel grew heavier the moment she considered it.",
+          "pattern": "F3",
+          "word": "considered",
+          "deletionTest": "The sending stone in her satchel grew heavier.",
+          "verdict": "KEEP",
+          "reason": "The act of considering IS the trigger for the magical weight change. The cognition is the causal event, not scaffolding."
+        },
+        {
+          "lineNumber": 353,
+          "line": "only then did Jaina realize she had carried it out of the archive without thinking.",
+          "pattern": "F3",
+          "word": "realize",
+          "deletionTest": "only then did Jaina carry it out of the archive without thinking.",
+          "verdict": "KEEP",
+          "reason": "The delayed realization IS the scene beat; the sentence turns on the fact that she didn't know until now."
+        },
+        {
+          "lineNumber": 411,
+          "line": "I have enough to know the answer is lower.",
+          "pattern": "F3",
+          "word": "know",
+          "deletionTest": "I have enough; the answer is lower.",
+          "verdict": "KEEP",
+          "reason": "Active decision-making under pressure. The knowing drives whether she stays or goes."
+        },
+        {
+          "lineNumber": 419,
+          "line": "The wards in the room were listening, she thought, and did not say it.",
+          "pattern": "F3",
+          "word": "thought",
+          "deletionTest": "The wards in the room were listening, and she did not say it.",
+          "verdict": "KEEP",
+          "reason": "The thought/speech contrast is the dramatic content: she knows the wards listen and deliberately withholds the observation."
+        },
+        {
+          "lineNumber": 229,
+          "line": "They worked in plain sight. Open benches, spread ledgers, assistants bent over their copying.",
+          "pattern": "F4",
+          "verdict": "KILL",
+          "whatItRestates": "Doors stood open on tidy workrooms where assistants copied notes, sorted reagents, checked labeled vials against ledgers.",
+          "reason": "The thesis sentence ('worked in plain sight') interprets the workrooms, then the fragment list restates details from the preceding inventory two sentences earlier, including repeated words ('assistants', 'ledgers', 'copying').",
+          "suggestedFix": "[DELETE — the preceding sentence already shows the workrooms; remove 'They worked in plain sight. Open benches, spread ledgers, assistants bent over their copying.']",
+          "crossChecked": []
+        },
+        {
+          "lineNumber": 301,
+          "line": "Bruise-darkness and chalk cuts marked them as a working mage's hands.",
+          "pattern": "F4",
+          "verdict": "KILL",
+          "whatItRestates": "Bruise-darkness at the base of her fingers. Pale scars at the heel of the palm from chalk cuts and knife slips.",
+          "reason": "The sentence labels evidence the preceding fragments already showed. The reader knows from line 107's earlier inventory that these are practitioner marks. This sentence adds a category label ('working mage's hands') the details already conveyed.",
+          "suggestedFix": "[DELETE — the preceding fragments already show practitioner hands; the interpretive label is redundant]",
+          "crossChecked": ["recurring-prose-tics.md"]
+        },
+        {
+          "lineNumber": 491,
+          "line": "The words landed.",
+          "pattern": "F4",
+          "verdict": "KILL",
+          "whatItRestates": "The physical reaction that follows: 'Jandice went still for half a breath, then looked away too late.'",
+          "reason": "The stillness and the look-away already show the impact of Jaina's words. 'The words landed' pre-interprets the effect before the concrete tell arrives.",
+          "suggestedFix": "[DELETE — the following physical reaction already shows the impact]",
+          "crossChecked": []
+        },
+        {
+          "scene": "lines 1-17",
+          "pattern": "F5",
+          "issue": "opening approach — no dialogue, no conflict resolution",
+          "verdict": "KEEP",
+          "reason": "Jaina rides into an announced approach. The scene escalates exposure rather than resolving anything."
+        },
+        {
+          "scene": "lines 17-147",
+          "pattern": "F5",
+          "issue": "Alexei/Jandice managed access",
+          "verdict": "KEEP",
+          "reason": "Intentional-structure defense: the courtesy is controlled staging and intellectual bait per the chapter plan, not model-softened reconciliation. Jaina gets curated access, not real access."
+        },
+        {
+          "scene": "lines 149-357",
+          "pattern": "F5",
+          "issue": "Scholomance tour with Jandice",
+          "verdict": "KEEP",
+          "reason": "Intentional-structure defense: Jandice's openness is earned by vanity and recruitment pressure. Every smooth moment exposes deeper institutional control."
+        },
+        {
+          "scene": "lines 358-584",
+          "pattern": "F5",
+          "issue": "sending-stone, theory exchange, descent",
+          "verdict": "KEEP",
+          "reason": "The scene ends in institutional failure and a granted trap-door. Jaina descends on someone else's permission. No comfort or talked-out resolution."
+        },
+        {
+          "paragraphLocation": "line 229",
+          "line": "They worked in plain sight. Open benches, spread ledgers, assistants bent over their copying.",
+          "pattern": "F6",
+          "verdict": "KILL",
+          "issue": "claim-evidence restatement: 'They worked in plain sight' is a thesis, followed by evidence that restates the preceding sentence's inventory.",
+          "reason": "The paragraph opens with a full inventory ('Doors stood open on tidy workrooms where assistants copied notes...'), then adds a thesis sentence, then repeats the evidence. Classic claim-evidence-restate structure.",
+          "suggestedFix": "[DELETE — same text as F4 kill above]",
+          "crossChecked": []
+        },
+        {
+          "lineNumber": 308,
+          "line": "Clean instruments and straightened tags were worse than rot would have been.",
+          "pattern": "F7",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "every tray numbered, every instrument cleaned and returned to its place.",
+          "verdict": "KEEP",
+          "reason": "The sentence adds a genuine reframing comparison (institutional order as horror vs. expected chaos). It is not restating the preceding details but recontextualizing them through the rot comparison, adding analytical content the inventory alone does not convey."
+        },
+        {
+          "lineNumber": 584,
+          "line": "She tightened her grip on the ledger and followed Jandice lower.",
+          "pattern": "F7",
+          "location": "chapter-final",
+          "verdict": "KEEP",
+          "reason": "The chapter ends on action — grip and descent — not emotional summary or thematic interpretation."
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 18,
+      "kills": 0,
+      "keeps": 18,
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "dominantPattern": "Literal-magic and literal-physical keeps — ward mechanics are the chapter's subject matter",
+      "selfCheck": "Re-checked every KEEP against the closed keep list. Ward-related sentences survive because the ward system is literally an active signaling/marking mechanism in the chapter's magic system (subject-matter defense). No decorative object-agency lines survived. The two r3 kills (line 229 'told', line 401 'fought') were both fixed by the slophunter. No new intent-smear patterns introduced.",
+      "findings": [
+        {
+          "lineNumber": 39,
+          "line": "Stone held the air close.",
+          "subject": "Stone",
+          "verb": "held",
+          "realAgent": "literal enclosure: masonry retaining warmth",
+          "pattern": "literal-physical",
+          "verdict": "KEEP",
+          "reason": "Literal non-human action: stone physically retains heat inside walls."
+        },
+        {
+          "lineNumber": 43,
+          "line": "The front doors opened before she reached them.",
+          "subject": "front doors",
+          "verb": "opened",
+          "realAgent": "servants opening the doors (implied)",
+          "pattern": "literal-physical",
+          "verdict": "KEEP",
+          "reason": "Standard intransitive construction for doors; the human agency is implicit and the verb is literally what doors do."
+        },
+        {
+          "lineNumber": 45,
+          "line": "Warmth met her without smoke.",
+          "subject": "Warmth",
+          "verb": "met",
+          "realAgent": "enchanted stones radiating heat",
+          "pattern": "literal-physical",
+          "verdict": "KEEP",
+          "reason": "Physical contact between heat and body. The verb describes a sensory event, not intention."
+        },
+        {
+          "lineNumber": 162,
+          "line": "The lake carried a chemical cold, mineral-heavy and stale as water kept too long in deep stone cisterns.",
+          "subject": "lake",
+          "verb": "carried",
+          "realAgent": "literal water temperature and mineral content",
+          "pattern": "literal-physical",
+          "verdict": "KEEP",
+          "reason": "Literal non-human action: the lake physically holds cold mineral water."
+        },
+        {
+          "lineNumber": 162,
+          "line": "The outer ward touched the back of Jaina's teeth before the boat reached it, light but deliberate.",
+          "subject": "outer ward",
+          "verb": "touched",
+          "realAgent": "literal magical boundary contact",
+          "pattern": "literal-magic",
+          "verdict": "KEEP",
+          "reason": "The ward is a literal magical construct that physically contacts Jaina's perception."
+        },
+        {
+          "lineNumber": 166,
+          "line": "Mist dragged low over the surface, swallowing the shore behind them faster than it should have.",
+          "subject": "Mist",
+          "verb": "dragged, swallowing",
+          "realAgent": "literal weather obscuring the shore",
+          "pattern": "literal-physical",
+          "verdict": "KEEP",
+          "reason": "Physical weather action. 'Swallowing' is sensory description of obscuration, not intention."
+        },
+        {
+          "lineNumber": 182,
+          "line": "The pressure shifted, marked her, and passed the message inward through the lattice.",
+          "subject": "pressure",
+          "verb": "marked, passed the message",
+          "realAgent": "ward lattice registering and relaying her crossing",
+          "pattern": "literal-magic",
+          "verdict": "KEEP",
+          "reason": "Subject-matter defense: the scene is about ward architecture with a literal detection/relay function."
+        },
+        {
+          "lineNumber": 309,
+          "line": "Cracks in the masonry and the tightening wards gave her more than Jandice's route did.",
+          "subject": "Cracks and wards",
+          "verb": "gave her more",
+          "realAgent": "observable physical evidence and magical signatures",
+          "pattern": "literal-physical + literal-magic",
+          "verdict": "KEEP",
+          "reason": "The cracks reveal structural data and the wards transmit their presence; these ARE the most concrete agents available."
+        },
+        {
+          "lineNumber": 309,
+          "line": "the pressure grew teeth",
+          "subject": "pressure",
+          "verb": "grew teeth",
+          "realAgent": "increasing ward density becoming physically painful",
+          "pattern": "sensory-metaphor",
+          "verdict": "KEEP",
+          "reason": "Sensory quality description (sharpness/pain), not intention, command, or judgment."
+        },
+        {
+          "lineNumber": 327,
+          "line": "Cold. Dry. Alive with the drag of contained force.",
+          "subject": "stone (implied)",
+          "verb": "Alive with",
+          "realAgent": "ward energy resonating through the masonry",
+          "pattern": "literal-magic",
+          "verdict": "KEEP",
+          "reason": "Subject-matter defense: the stone is literally energized by the ward system."
+        },
+        {
+          "lineNumber": 361,
+          "line": "Wards in the room listened for voices all the same.",
+          "subject": "Wards",
+          "verb": "listened",
+          "realAgent": "literal surveillance enchantments tuned to vibration and voice",
+          "pattern": "literal-magic",
+          "verdict": "KEEP",
+          "reason": "Literal magical detection: the next paragraph inventories the specific ward-threads. The wards ARE literal listening devices."
+        },
+        {
+          "lineNumber": 367,
+          "line": "The same answer kept turning up.",
+          "subject": "answer",
+          "verb": "kept turning up",
+          "realAgent": "repeated entries in the research notes",
+          "pattern": "recurrence-idiom",
+          "verdict": "KEEP",
+          "reason": "Recurrence idiom, not an intention verb. The answer is not commanding, judging, or deciding."
+        },
+        {
+          "lineNumber": 401,
+          "line": "Distance and ward pressure roughened the signal all the way back to Dalaran.",
+          "subject": "Distance and ward pressure",
+          "verb": "roughened",
+          "realAgent": "concrete physical agents degrading a magical signal",
+          "pattern": "literal-physical + literal-magic",
+          "verdict": "KEEP",
+          "reason": "Distance and ward interference are the named concrete agents. 'Roughened' describes physical signal degradation."
+        },
+        {
+          "lineNumber": 417,
+          "line": "its wards have already told the master you are there",
+          "subject": "wards",
+          "verb": "told",
+          "realAgent": "the building's alert lattice signaling upward",
+          "pattern": "literal-magic",
+          "verdict": "KEEP",
+          "reason": "The chapter has established wards as an active signaling system. 'Told' is literal within the magical mechanism."
+        },
+        {
+          "lineNumber": 435,
+          "line": "The blue light shook once. Faded. Returned for half a pulse.",
+          "subject": "blue light",
+          "verb": "shook, faded, returned",
+          "realAgent": "sending-stone light fluctuating",
+          "pattern": "literal-physical",
+          "verdict": "KEEP",
+          "reason": "Literal physical description of a magical light source."
+        },
+        {
+          "lineNumber": 439,
+          "line": "Then the connection tore.",
+          "subject": "connection",
+          "verb": "tore",
+          "realAgent": "the sending spell breaking under interference",
+          "pattern": "literal-magic",
+          "verdict": "KEEP",
+          "reason": "Literal magical event: the sending spell terminates."
+        },
+        {
+          "lineNumber": 479,
+          "line": "A struck string answers the note it knows. A room answers a sung pitch if the walls are built for it.",
+          "subject": "string, room",
+          "verb": "answers",
+          "realAgent": "literal acoustic resonance phenomena",
+          "pattern": "literal-physical",
+          "verdict": "KEEP",
+          "reason": "Dialogue defense + subject-matter defense: Jandice is giving a literal resonance lecture inside the theory discussion."
+        },
+        {
+          "lineNumber": 581,
+          "line": "the panel door eased shut with a soft wood-on-stone click.",
+          "subject": "panel door",
+          "verb": "eased shut",
+          "realAgent": "counterweighted or spring-loaded door mechanism",
+          "pattern": "literal-physical",
+          "verdict": "KEEP",
+          "reason": "Literal physical action: doors close on their own mechanisms."
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 18,
+      "kills": 0,
+      "keeps": 18,
+      "povCharacter": "Jaina Proudmoore",
+      "registerProfile": "Kirin Tor scholar — analytical, institutional, evidence-first, magic-literate. Fragment notation is characteristic. Structural metaphors and diagnostic terminology are native to her education.",
+      "registerConfidence": "HIGH",
+      "dominantPattern": "No dominant — all prior r3 B2 kills were fixed. Remaining register is character-consistent.",
+      "selfCheck": "Tier A mechanical checks: no orphan 'clearly/obviously/evidently', no 'it was as if', no 'there was a sense that', no 'one could almost', no 'seemed to pulse with'. Checked 15 Tier A patterns, zero matches. Tier B register: re-read all 18 candidates against Jaina's established cognitive style. No instance where the narrator's analytical register exceeds what Jaina herself would think. All 6 prior r3 B2 kills (lines 245, 273, 475, 505, 533, 567) confirmed fixed by slophunter.",
+      "findings": [
+        {
+          "lineNumber": 7,
+          "line": "The road from Andorhal carried Jaina Proudmoore north into the Alterac foothills",
+          "tier": "A",
+          "test": "inanimate-subject emotional loading (road carrying)",
+          "verdict": "KEEP",
+          "reason": "Literal physical description. The road is a path she travels. Standard intransitive-equivalent."
+        },
+        {
+          "lineNumber": 107,
+          "line": "The sleeves of her teaching robe were pushed back — habit, not theatre.",
+          "tier": "B",
+          "test": "register check: narrator drawing a character distinction (habit vs theatre)",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense: Jaina is a practitioner who immediately distinguishes functional from performative behavior. This IS her analytical lens."
+        },
+        {
+          "lineNumber": 155,
+          "line": "The infrastructure was older than the institution wearing it.",
+          "tier": "B",
+          "test": "register check: conceptual compression ('institution wearing' infrastructure)",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense: Jaina is a Kirin Tor architect's-eye thinker. She sees buildings as institutional skins over older structures. The metaphor is her native vocabulary."
+        },
+        {
+          "lineNumber": 197,
+          "line": "a survey mage's reflex, not a spell",
+          "tier": "B",
+          "test": "register check: narrator labeling professional category",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense: Jaina would categorize her own magical reflexes professionally. She IS a survey mage by training."
+        },
+        {
+          "lineNumber": 225,
+          "line": "Jaina had expected to see at least some of Scholomance's work hidden behind locked doors and concealment wards. She was wrong.",
+          "tier": "B",
+          "test": "register check: expectation-subversion framing",
+          "verdict": "KEEP",
+          "reason": "Active analytical recalibration. Jaina is updating her operational model — this is how she thinks."
+        },
+        {
+          "lineNumber": 308,
+          "line": "Clean instruments and straightened tags were worse than rot would have been.",
+          "tier": "B",
+          "test": "register check: analytical comparison (institutional order vs expected chaos)",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense: Jaina explicitly compares institutional cleanliness against expected decay. This is her evidence-first horror — order implies competence implies the atrocities are systematic."
+        },
+        {
+          "lineNumber": 310,
+          "line": "She had seen undead raised in barns and cellars — crude work, salvage-grade, nothing that required this level of infrastructure.",
+          "tier": "B",
+          "test": "register check: narrator providing intelligence-briefing comparison",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense: Jaina is literally an intelligence analyst here. She categorizes undead-raising methods by infrastructure tier because she has field experience."
+        },
+        {
+          "lineNumber": 327,
+          "line": "Jaina placed her hand flat against the stone where Jandice had not pointed and read what her palm told her.",
+          "tier": "A",
+          "test": "check for 'told her' as narrator-emotion-loading",
+          "verdict": "KEEP",
+          "reason": "Literal-magic defense: Jaina is literally reading magical signatures through palm contact. 'What her palm told her' is functional magical language."
+        },
+        {
+          "lineNumber": 375,
+          "line": "The sending stone in her satchel grew heavier the moment she considered it.",
+          "tier": "A",
+          "test": "inanimate object emotional loading (stone growing heavier from thought)",
+          "verdict": "KEEP",
+          "reason": "Literal-magic defense: the sending stone has established magical properties. Its weight-shift is a literal magical response to attention."
+        },
+        {
+          "lineNumber": 463,
+          "line": "The word hit Jaina harder than anything Jandice had said in the archive.",
+          "tier": "B",
+          "test": "register check: narrator measuring comparative emotional impact",
+          "verdict": "KEEP",
+          "reason": "Jaina's analytical mind would register the relative impact of information. This is comparison-evaluation, her native mode."
+        },
+        {
+          "lineNumber": 495,
+          "line": "contempt flashed across the old institutional wound",
+          "tier": "B",
+          "test": "register check: conceptual compression ('institutional wound')",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense: Jaina is a Kirin Tor insider. She experiences institutional failures as personal wounds because the institution IS personal to her. 'Institutional wound' is how she would compress the thought."
+        },
+        {
+          "lineNumber": 501,
+          "line": "Jaina measured the question against what she had seen, what she could prove, and what she had only inferred.",
+          "tier": "B",
+          "test": "register check: analytical tricolon (seen/prove/inferred)",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense: three-part evidentiary taxonomy is Jaina's training. She literally was taught to sort knowledge this way at the Kirin Tor."
+        },
+        {
+          "lineNumber": 505,
+          "line": "That is a practitioner's question, not a diplomat's.",
+          "tier": "B",
+          "test": "register check: narrator labeling question categories",
+          "verdict": "KEEP",
+          "reason": "Dialogue defense: Jandice is the speaker. Her categorization is character voice."
+        },
+        {
+          "lineNumber": 539,
+          "line": "The access was too smooth not to be curated, but the data was real — she could feel it in the grain of the samples.",
+          "tier": "B",
+          "test": "register check: intelligence-analysis vocabulary (access, curated, data)",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense: Jaina IS running an intelligence assessment. These are her professional terms."
+        },
+        {
+          "lineNumber": 565,
+          "line": "Jandice turned the conversation forward the way she turned a lecture — folding the conclusion into the next question before the student realized the previous one had ended.",
+          "tier": "B",
+          "test": "register check: extended pedagogical metaphor",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense: Jaina recognizes teaching techniques because she IS a teacher. She sees Jandice doing what she herself does."
+        },
+        {
+          "lineNumber": 309,
+          "line": "the pressure grew teeth",
+          "tier": "A",
+          "test": "inanimate-subject emotional loading (pressure growing teeth)",
+          "verdict": "KEEP",
+          "reason": "Sensory metaphor for physical pain. Not emotion-loading: the ward pressure is literally causing physical discomfort."
+        },
+        {
+          "lineNumber": 419,
+          "line": "The wards in the room were listening, she thought, and did not say it.",
+          "tier": "A",
+          "test": "inanimate subject with human-exclusive verb (listening)",
+          "verdict": "KEEP",
+          "reason": "Literal-magic defense: the wards ARE listening devices. The chapter has established this."
+        },
+        {
+          "lineNumber": 573,
+          "line": "The air changed: denser, mineral, warm in a way that had nothing to do with season.",
+          "tier": "A",
+          "test": "inanimate-subject emotional loading (air changing)",
+          "verdict": "KEEP",
+          "reason": "Literal physical description: air composition changes underground. No emotion attributed."
+        }
+      ]
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 15,
+      "kills": 0,
+      "keeps": 15,
+      "clusterWarnings": [],
+      "repeatNouns": [],
+      "dominantPattern": "Procedural commands and hard constraints — chapter's negations are almost entirely binary diagnostics, capability limits, and commands, not decorative contrast pivots.",
+      "selfCheck": "Self-check 1 (same-page cluster): no page has 3+ negations within 5 sentences. Self-check 2 (decorative 'not X but Y' with deletable first half): checked all candidates — none had a deletable first half. Self-check 3 (negation as emotional hedge): zero instances of 'not unkind', 'not without warmth', 'not entirely unpleasant'. Self-check 4 (Pattern 9 'never' + finality): 2 candidates, both hard constraints. Chapter's negations run 80% command/diagnostic, 20% contrast — consistent with Jaina's procedural/analytical voice.",
+      "findings": [
+        {
+          "lineNumber": 107,
+          "line": "habit, not theatre",
+          "pattern": "Pattern 2 — not X but Y",
+          "verdict": "KEEP",
+          "reason": "Professional diagnostic distinction: Jaina categorizing observed behavior. 'Not theatre' conveys a different meaning than 'habit' alone — it rules out performance."
+        },
+        {
+          "lineNumber": 155,
+          "line": "not designed for it, inherited",
+          "pattern": "Pattern 2 — not X but Y",
+          "verdict": "KEEP",
+          "reason": "Structural distinction: infrastructure age vs institutional age. Both halves carry architectural information."
+        },
+        {
+          "lineNumber": 197,
+          "line": "a survey mage's reflex, not a spell",
+          "pattern": "Pattern 2 — not X but Y",
+          "verdict": "KEEP",
+          "reason": "Professional categorization: Jaina distinguishing between involuntary diagnostic reflex and intentional casting. Both halves carry technical meaning."
+        },
+        {
+          "lineNumber": 232,
+          "line": "No concealment wards. No restricted-access sigils.",
+          "pattern": "Pattern 1 — absence emphasis",
+          "verdict": "KEEP",
+          "reason": "Inventory negation: Jaina's ward-scan reporting what she expected to find and didn't. The absences ARE the diagnostic evidence."
+        },
+        {
+          "lineNumber": 310,
+          "line": "nothing that required this level of infrastructure",
+          "pattern": "Pattern 1 — absence emphasis",
+          "verdict": "KEEP",
+          "reason": "Comparative analysis: the absence is the finding — Scholomance's infrastructure implies a scale of operation Jaina hasn't seen before."
+        },
+        {
+          "lineNumber": 361,
+          "line": "Writing would not have gone unnoticed.",
+          "pattern": "Pattern 7 — double negation",
+          "verdict": "KEEP",
+          "reason": "Hard constraint: the ward surveillance makes note-taking impossible. This is operational intelligence, not decorative contrast."
+        },
+        {
+          "lineNumber": 393,
+          "line": "Not now. Not from inside the building.",
+          "pattern": "Pattern 1 — stacked absence",
+          "verdict": "KEEP",
+          "reason": "Operational constraint: Jaina ruling out sending-stone contact by time and location. Both conditions are relevant to her decision calculus."
+        },
+        {
+          "lineNumber": 405,
+          "line": "There is nothing in the Kirin Tor index under Scholomance.",
+          "pattern": "Pattern 1 — absence emphasis",
+          "verdict": "KEEP",
+          "reason": "Dialogue defense: Modera speaking. The absence IS the intelligence finding — the index should have it."
+        },
+        {
+          "lineNumber": 411,
+          "line": "Do not stay longer than you must.",
+          "pattern": "Pattern 3 — command negation",
+          "verdict": "KEEP",
+          "reason": "Dialogue defense: Modera giving a direct operational order. The negation IS the command structure."
+        },
+        {
+          "lineNumber": 417,
+          "line": "Do not assume that because you are walking freely, you are unobserved.",
+          "pattern": "Pattern 3 — command negation",
+          "verdict": "KEEP",
+          "reason": "Dialogue defense: Modera's operational warning. The negation carries the intelligence content."
+        },
+        {
+          "lineNumber": 419,
+          "line": "did not say it",
+          "pattern": "Pattern 1 — absence emphasis",
+          "verdict": "KEEP",
+          "reason": "Active suppression: Jaina deliberately withholds an observation because the wards are listening. The not-saying IS the action."
+        },
+        {
+          "lineNumber": 453,
+          "line": "It is not a plague in the way you are thinking.",
+          "pattern": "Pattern 2 — not X but Y",
+          "verdict": "KEEP",
+          "reason": "Dialogue defense: Jandice correcting Jaina's framing. The negation IS the technical correction."
+        },
+        {
+          "lineNumber": 469,
+          "line": "The grain does not cause the disease. The grain remembers the disease.",
+          "pattern": "Pattern 2 — not X but Y",
+          "verdict": "KEEP",
+          "reason": "Dialogue defense + subject-matter defense: this is the chapter's central scientific thesis being stated. Both halves carry essential theoretical content."
+        },
+        {
+          "lineNumber": 521,
+          "line": "Not yet. But you could.",
+          "pattern": "Pattern 1 — absence emphasis",
+          "verdict": "KEEP",
+          "reason": "Dialogue defense: Jandice's recruitment pitch. The temporal negation ('not yet') sets up the conditional offer."
+        },
+        {
+          "lineNumber": 539,
+          "line": "The access was too smooth not to be curated",
+          "pattern": "Pattern 7 — double negation",
+          "verdict": "KEEP",
+          "reason": "Active intelligence assessment: Jaina's analytical double-negation is characteristic of spy-think — 'too X not to be Y' is a trained analyst's construction."
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 22,
+      "kills": 9,
+      "keeps": 13,
+      "severePagesOrScenes": ["chapter-wide: 'marked' 7 instances vs cap 2", "chapter-wide: 'tightened' 5 instances vs cap 3 with ratio violation"],
+      "dominantPattern": "Tic 2 — overloaded 'marked' (7 instances, cap 2)",
+      "selfCheck": "Counted all tic-tracked words via grep. corner-of-mouth: 2 instances (cap 1). mouth-shifted: 1 instance (cap 1, OK). marked: 7 instances (cap 2 — 5 excess). tightened: 5 instances (cap 3, but only 1 physical = ratio fail — 3 excess). eased: 3 instances (cap 2, but 1 already killed for tightened co-location — 2 survive within cap).",
+      "findings": [
+        {
+          "lineNumber": 57,
+          "line": "His smile held, but the corners of his mouth tightened.",
+          "pattern": "Tic 1 — corner-of-mouth",
+          "count": "2nd of 2 instances (cap 1)",
+          "otherInstances": "line 341 'The corner of her mouth moved — approval compressed into the smallest possible concession.'",
+          "verdict": "KILL",
+          "reason": "2nd corner-of-mouth instance. Cap is 1 per chapter. Line 341 is a stronger keep (drives a plot-significant concession beat with Jandice). Also co-triggers Tic 3 (tightened).",
+          "suggestedFix": "His smile held, but thinned.",
+          "crossChecked": ["gpt-5-prose-issues.md"]
+        },
+        {
+          "lineNumber": 341,
+          "line": "The corner of her mouth moved — approval compressed into the smallest possible concession.",
+          "pattern": "Tic 1 — corner-of-mouth",
+          "count": "1st of 2 instances (surviving keep)",
+          "verdict": "KEEP",
+          "reason": "Strongest instance: drives a plot-significant beat (Jandice's grudging approval is her first emotional concession)."
+        },
+        {
+          "lineNumber": 180,
+          "line": "Jandice's mouth shifted — not quite displeasure, closer to the expression of a jeweller asked about a stone's flaw by someone who might actually understand the answer.",
+          "pattern": "Tic 4 — mouth-shifted",
+          "count": "1 of 1 (cap 1)",
+          "verdict": "KEEP",
+          "reason": "Solo instance, within cap. Rich character-specific beat."
+        },
+        {
+          "lineNumber": 97,
+          "line": "Ink marked one thumb.",
+          "pattern": "Tic 2 — overloaded 'marked'",
+          "count": "1st of 7 instances (surviving keep #1)",
+          "verdict": "KEEP",
+          "reason": "Physical/literal use: ink on skin. Strongest instance for establishing Jandice's hands-on practitioner identity."
+        },
+        {
+          "lineNumber": 162,
+          "line": "Enough to mark her.",
+          "pattern": "Tic 2 — overloaded 'marked'",
+          "count": "2nd of 7 instances (surviving keep #2)",
+          "verdict": "KEEP",
+          "reason": "First ward-crossing instance. Establishes the ward-marking mechanic that drives the chapter's surveillance theme."
+        },
+        {
+          "lineNumber": 182,
+          "line": "The pressure shifted, marked her, and passed the message inward through the lattice.",
+          "pattern": "Tic 2 — overloaded 'marked'",
+          "count": "3rd of 7 instances (cap 2 exceeded)",
+          "verdict": "KILL",
+          "reason": "Redundant ward-marking after line 162 already established the mechanic. 3rd instance exceeds cap.",
+          "suggestedFix": "The pressure shifted, registered her, and passed the message inward through the lattice.",
+          "crossChecked": ["intent-smear-agency-laundering-guide.md"]
+        },
+        {
+          "lineNumber": 211,
+          "line": "a board still marked from the previous class",
+          "pattern": "Tic 2 — overloaded 'marked'",
+          "count": "4th of 7 instances (cap 2 exceeded)",
+          "verdict": "KILL",
+          "reason": "Physical chalk-marks sense. Even though literal, it is the 4th instance of the same verb and contributes to reader fatigue.",
+          "suggestedFix": "a board still chalked from the previous class",
+          "crossChecked": []
+        },
+        {
+          "lineNumber": 301,
+          "line": "Bruise-darkness and chalk cuts marked them as a working mage's hands.",
+          "pattern": "Tic 2 — overloaded 'marked'",
+          "count": "5th of 7 instances (cap 2 exceeded)",
+          "verdict": "KILL",
+          "reason": "Metaphorical evidence-labeling use. Also co-triggered by F4 (over-translation). Fix is DELETE per F4.",
+          "suggestedFix": "[DELETE — co-triggered by F4; the preceding fragments already show practitioner hands]",
+          "crossChecked": ["gpt-5-prose-issues.md"]
+        },
+        {
+          "lineNumber": 527,
+          "line": "I assumed that when the outer ward marked me, someone would have already decided how deep I was allowed to go.",
+          "pattern": "Tic 2 — overloaded 'marked'",
+          "count": "6th of 7 instances (cap 2 exceeded)",
+          "verdict": "KILL",
+          "reason": "Dialogue, but 6th instance contributes to reader fatigue regardless of speaker. The ward-marking concept was established 400 lines ago.",
+          "suggestedFix": "I assumed that when the outer ward flagged me, someone would have already decided how deep I was allowed to go.",
+          "crossChecked": []
+        },
+        {
+          "lineNumber": 571,
+          "line": "doors marked in the same clean hand she had seen in the archive",
+          "pattern": "Tic 2 — overloaded 'marked'",
+          "count": "7th of 7 instances (cap 2 exceeded)",
+          "verdict": "KILL",
+          "reason": "Physical labeling use. 7th instance. Even literal uses contribute to verb exhaustion at this density.",
+          "suggestedFix": "doors labeled in the same clean hand she had seen in the archive",
+          "crossChecked": []
+        },
+        {
+          "lineNumber": 15,
+          "line": "calculation tightened his mouth before he smoothed it away",
+          "pattern": "Tic 3 — tightened/eased",
+          "count": "1st of 5 'tightened' instances (cap 3, ratio violation: 4 emotional vs 1 physical)",
+          "subcategory": "emotional",
+          "verdict": "KILL",
+          "reason": "Excess emotional 'tightened'. With 5 instances (4 emotional, 1 physical), the physical-ratio requirement (at least half) means max 2 keeps: 1 physical + 1 emotional. This is the weakest emotional use — Alexei's approach-level micro-expression adds less than later emotional beats.",
+          "suggestedFix": "calculation pinched his mouth before he smoothed it away",
+          "crossChecked": []
+        },
+        {
+          "lineNumber": 57,
+          "line": "His smile held, but the corners of his mouth tightened.",
+          "pattern": "Tic 3 — tightened/eased",
+          "count": "2nd of 5 'tightened' instances",
+          "subcategory": "emotional",
+          "verdict": "KILL",
+          "reason": "Same sentence as Tic 1 KILL. Excess 'tightened'. Fix is the same as Tic 1.",
+          "suggestedFix": "His smile held, but thinned.",
+          "crossChecked": ["gpt-5-prose-issues.md"]
+        },
+        {
+          "lineNumber": 329,
+          "line": "Jandice's jaw tightened, then eased.",
+          "pattern": "Tic 3 — tightened/eased",
+          "count": "3rd of 5 'tightened' + 2nd of 3 'eased'",
+          "subcategory": "emotional (double-tic: tightened AND eased in one beat)",
+          "verdict": "KILL",
+          "reason": "Excess emotional 'tightened' (3rd of 4 emotional instances). Also double-tic with 'eased'. Fix must replace both.",
+          "suggestedFix": "Jandice clenched her jaw, then let it go.",
+          "crossChecked": []
+        },
+        {
+          "lineNumber": 541,
+          "line": "Her stomach tightened.",
+          "pattern": "Tic 3 — tightened/eased",
+          "count": "4th of 5 'tightened' instances (surviving keep)",
+          "subcategory": "emotional",
+          "verdict": "KEEP",
+          "reason": "Critical plot beat: Jaina's visceral response to the plague-grain revelation. Strongest emotional 'tightened' instance — drives the chapter's climactic internal reaction."
+        },
+        {
+          "lineNumber": 583,
+          "line": "She tightened her grip on the ledger and followed Jandice lower.",
+          "pattern": "Tic 3 — tightened/eased",
+          "count": "5th of 5 'tightened' instances (surviving keep)",
+          "subcategory": "physical",
+          "verdict": "KEEP",
+          "reason": "Physical use: literal grip strength on an object. Chapter-final action beat. Required for physical-ratio compliance."
+        },
+        {
+          "lineNumber": 135,
+          "line": "Relief eased his shoulders down from where duty had pinned them.",
+          "pattern": "Tic 3 — tightened/eased",
+          "count": "1st of 3 'eased' instances (surviving keep)",
+          "subcategory": "emotional",
+          "verdict": "KEEP",
+          "reason": "Solo surviving emotional 'eased' (line 329 killed). Rich image with the 'duty pinned them' payoff."
+        },
+        {
+          "lineNumber": 581,
+          "line": "the panel door eased shut with a soft wood-on-stone click.",
+          "pattern": "Tic 3 — tightened/eased",
+          "count": "3rd of 3 'eased' instances (surviving keep)",
+          "subcategory": "physical",
+          "verdict": "KEEP",
+          "reason": "Physical/mechanical use: door closing on its mechanism. Provides the physical-ratio balance for 'eased'."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 14,
+    "totalKeeps": 73,
+    "guidesRun": 5,
+    "guidesWithKills": 2,
+    "killsWithFix": 14,
+    "killsUnfixable": 0,
+    "uniqueTextLocations": 12,
+    "verdict": "fail",
+    "verdictReason": "14 KILL verdicts across 2 guides (gpt-5-prose-issues: 5, recurring-prose-tics: 9). Top patterns: Tic 2 overloaded 'marked' (5 kills), Tic 3 tightened/eased (3 kills), F4 over-translation (3 kills). All 14 have suggested fixes (4 deletions, 10 rewrites). Iteration 4 of 5 — significant 'marked' accumulation discovered on deeper tic audit."
+  }
+}

@@ -5,12 +5,14 @@
 The pipeline processes chapters sequentially — chapter 2 cannot start until chapter 1 is fully complete (including memory-keeper update). Within each chapter, up to 12 agents run in strict order:
 
 ```
-Planner → Plan-Verifier → Writer → Slophunter → [Slop-Gate ↔ Slophunter revision] → [Grounder] → [Expander] → Style-Editor → [Style-Auditor] → Final-Slophunter → Memory-Keeper
+Planner → Plan-Verifier → Writer → Slophunter → [Slop-Gate A/B ↔ Slophunter revision] → [Grounder] → [Grounding-Gate ↔ Grounder revision] → [Expander] → Style-Editor → [Style-Auditor] → Final-Slophunter → Memory-Keeper
 ```
 
 The outline-builder and style-extractor are separate — they're user-invocable, not dispatched by the orchestrator. The outline-builder produces the input beat plans. The style-extractor produces `.afternoon/style-guide.json` (run once per story).
 
-The grounder can be disabled per-story via `config.agents.grounder.enabled: false` — the orchestrator does `cp v2.md v2g.md` and skips the grounder dispatch. The grounder also degrades gracefully on failure — the orchestrator copies v2.md to v2g.md and proceeds without blocking.
+The grounder can be disabled per-story via `config.agents.grounder.enabled: false` — the orchestrator does `cp v2.md v2g.md`, skips the grounder, and skips the grounding-gate. The grounder also degrades gracefully on failure — the orchestrator copies `v2.md` to `v2g.md`, skips the grounding-gate, and proceeds without blocking.
+
+The grounding-gate is optional and currently defaults off via `config.agents.groundingGate.enabled: false`. When enabled, it audits `v2g.md` after grounding and before expansion. On audit failure, the orchestrator enters a best-effort loop: grounder revision → grounding-gate re-audit, up to `agents.groundingGate.maxIterations` (default `3`). If the gate still fails after max iterations, the orchestrator promotes the latest grounded revision and continues anyway.
 
 The expander can be disabled per-story via `config.agents.expander.enabled: false` — the orchestrator does `cp v2g.md v3.md` and skips the expander dispatch. Style-editor always reads v3.md regardless.
 
@@ -18,7 +20,7 @@ The style-auditor requires `.afternoon/style-guide.json`. If the file doesn't ex
 
 ## Artifact Versioning
 
-Each chapter produces up to seven draft versions:
+Each chapter produces seven primary draft versions, plus optional revision and audit artifacts:
 
 | Version | Agent | Description |
 |---------|-------|-------------|
@@ -30,6 +32,8 @@ Each chapter produces up to seven draft versions:
 | `v4b.md` | Style-Auditor | Style-guide enforcement pass (absent if style-guide.json missing) |
 | `v5.md` | Final-Slophunter | Register and slop polish pass (20% wordcount reduction) |
 | `final.md` | Orchestrator | Copy of v5.md (assembly step, via `cp`) |
+
+The grounding-gate does not introduce a new canonical prose stage. It audits `v2g.md` and, if needed, forces numbered grounded revisions (`v2g-rN.md`) until one is promoted back to canonical `v2g.md`.
 
 ## Directory Layout
 
@@ -68,19 +72,29 @@ Each chapter produces up to seven draft versions:
 │   ├── v1.md                                # Writer output
 │   ├── v2.md                                # Slophunter output
 │   ├── v2g.md                               # Grounder output (or cp of v2 if disabled/degraded)
+│   ├── v2g-r*.md                            # Grounder revision drafts during grounding-gate loop
+│   ├── grounding-map.json                   # Grounder execution scaffold
+│   ├── grounding-map-r*.json                # Revision grounding maps
 │   ├── v3.md                                # Expander output (or cp of v2g if disabled)
 │   ├── v4.md                                # Style-editor output
 │   ├── v4b.md                               # Style-auditor output (absent if style-guide.json missing)
 │   ├── v5.md                                # Final-slophunter output
 │   ├── slophunter-notes.json                # Change log
-│   ├── slop-gate-notes.json                 # Pipeline artifact: KILL findings + suggestedFix (absent if gate disabled)
-│   ├── slop-gate-notes-r*.json              # Re-audit KILL findings per iteration (absent if gate passes first time)
-│   ├── slop-gate-scratchpad.md              # Human-audit artifact: all KEEP decisions with reasoning (absent if gate disabled)
-│   ├── slop-gate-scratchpad-r*.md           # Re-audit KEEPs per iteration (absent if gate passes first time)
+│   ├── slop-gate-notes-a.json               # Pass A KILL findings + suggestedFix (absent if gate disabled)
+│   ├── slop-gate-notes-b.json               # Pass B KILL findings + suggestedFix (absent if gate disabled)
+│   ├── slop-gate-notes-r*?.json             # Re-audit KILL findings per iteration/pass (e.g. r1a, r1b)
+│   ├── slop-gate-scratchpad-a.md            # Pass A KEEP decisions with reasoning (absent if gate disabled)
+│   ├── slop-gate-scratchpad-b.md            # Pass B KEEP decisions with reasoning (absent if gate disabled)
+│   ├── slop-gate-scratchpad-r*?.md          # Re-audit KEEPs per iteration/pass (e.g. r1a, r1b)
 │   ├── v2-r*.md                             # Slophunter revision drafts (absent if gate passes first time)
 │   ├── slophunter-revision-r*-notes.json    # Revision change logs (absent if gate passes first time)
+│   ├── grounding-gate-notes.json            # Grounding gate KILL findings + suggested fixes (absent if gate disabled/skipped)
+│   ├── grounding-gate-notes-r*.json         # Grounding gate re-audit findings per iteration
+│   ├── grounding-gate-scratchpad.md         # Grounding gate KEEP decisions (human-audit artifact)
+│   ├── grounding-gate-scratchpad-r*.md      # Grounding gate re-audit KEEP decisions
 │   ├── expander-notes.json                  # Change log (absent if expander disabled)
 │   ├── grounder-notes.json                  # Change log (absent if grounder disabled/degraded)
+│   ├── grounder-revision-r*-notes.json      # Revision change logs during grounding-gate loop
 │   ├── style-notes.json                     # Change log
 │   ├── style-auditor-notes.json             # Change log (absent if style-guide.json missing)
 │   ├── final-slophunter-notes.json          # Change log
@@ -101,11 +115,11 @@ outlines/{chapterId}.md ──→ Planner ──→ plans/{chapterId}-initial.js
                                                                               │
 plans/{chapterId}.json ←──────────────────────────────────────────────────────┘
          │
-         ├──→ Writer ──→ v1.md ──→ Slophunter ──→ v2.md ──→ [Slop-Gate ↔ revision loop] ──→ Grounder ──→ v2g.md ──→ Expander ──→ v3.md
-         │                                                                                                  │
+         ├──→ Writer ──→ v1.md ──→ Slophunter ──→ v2.md ──→ [Slop-Gate A/B ↔ revision loop] ──→ Grounder ──→ [Grounding-Gate ↔ revision loop] ──→ v2g.md ──→ Expander ──→ v3.md
+         │                                                                                                                            │
          └──→ (requiredMemory field tells Writer + Style-Editor which memory files to read)                 │
-                                                                                                             │
-         Style-Editor ──→ v4.md ──→ [Style-Auditor] ──→ v4b.md ──→ Final-Slophunter ──→ v5.md ──→ final.md
+                                                                                                              │
+          Style-Editor ──→ v4.md ──→ [Style-Auditor] ──→ v4b.md ──→ Final-Slophunter ──→ v5.md ──→ final.md
                                                                                                         │
          Memory-Keeper ───────────────────────────────────────────────────────────────────────────┘
               │
@@ -141,14 +155,20 @@ For each agent dispatch:
 6. If `"failed"` → retry once with same prompt
 7. If second failure → mark chapter "blocked", move to next chapter
 
+Important exceptions:
+- Slop-gate and grounding-gate audit failures are not operational failures. They return `status: "completed"` with `verdict: "fail"` and enter their respective revision loops.
+- Grounder second failure degrades gracefully (`cp v2.md → v2g.md`) and skips the grounding-gate instead of blocking.
+- Style-auditor `status: "failed"` with missing style guide is treated as a skip, not a block.
+
 ## Crash Recovery
 
 If `manifest.json` exists with `"status": "in-progress"`:
 1. Read `currentChapter` and `currentAgent` from manifest
-2. Check for active slop-gate loop: if `slopGateLoop` exists in manifest, resume from the loop phase (awaiting-revision, awaiting-reaudit, or awaiting-promote)
-3. Standard recovery: Read that agent's `status.json`:
-   - Shows `"completed"` for this chapterId → manifest wasn't updated → update it, proceed to next agent
-   - Missing or shows different chapterId → re-dispatch the current agent
-4. Continue from that point forward
+2. Check for active slop-gate loop: if `slopGateLoop` exists in manifest, resume from the loop phase (awaiting-revision, awaiting-reaudit-a, awaiting-reaudit-b, or awaiting-promote)
+3. Check for active grounding-gate loop: if `groundingGateLoop` exists in manifest, resume from the loop phase (awaiting-revision, awaiting-reaudit, or awaiting-promote)
+4. Standard recovery: Read that agent's `status.json`:
+    - Shows `"completed"` for this chapterId → manifest wasn't updated → update it, proceed to next agent
+    - Missing or shows different chapterId → re-dispatch the current agent
+5. Continue from that point forward
 
 Signal source is ALWAYS `status.json` — never check output file existence.

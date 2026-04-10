@@ -1,0 +1,243 @@
+{
+  "chapterId": "chapter21",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 4,
+      "keeps": 1,
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "line": "The old device on it had burned almost clean away.",
+          "pattern": "F3",
+          "issue": "hedge word",
+          "word": "almost",
+          "deletionTest": "The old device on it had burned clean away.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "That unsettled her more than pursuit would have.",
+          "pattern": "F4",
+          "issue": "restates the threat already conveyed by Arthas watching them without haste",
+          "whatItRestates": "Arthas did not rush the barrier. He watched them.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "No despair in that.",
+          "pattern": "F4",
+          "issue": "restates the emotional content already carried by Jaina's clipped reply",
+          "whatItRestates": "\"Not yet.\"",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Alive enough for handoff.",
+          "pattern": "F4",
+          "issue": "interprets Muradin's condition after the concrete carry details already make the handoff clear",
+          "whatItRestates": "Muradin had groaned once and gone limp again. The rangers carried him through the gate feet first while dwarves shouted for a surgeon, hot water, clean iron, cloth.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "dominantPattern": "B1",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks like a field commander and hunter: she inventories terrain, bodies, spacing, readiness, and exploitable weakness. Her internal shorthand is clipped and tactical, but it stays tied to what she can see, hear, smell, or decide. She would not drift into polished thematic abstraction or essay-distance framing while moving under pressure.",
+      "registerConfidence": "HIGH",
+      "findings": [
+        {
+          "line": "The older thing under the glacier had no interest in whether she understood the message.",
+          "pattern": "B1",
+          "tier": "B",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "Sylvanas can register the ward's pressure and threat, but this sentence abstracts the source into an essayistic 'older thing' with detached motive language she would not use mid-approach.",
+          "confidence": "MODERATE",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "No despair in that.",
+          "pattern": "A5",
+          "tier": "A",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "This labels the scene-state from above instead of staying inside Sylvanas's concrete read of Jaina's voice and movement.",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Sylvanas turned once toward the glacier and found, to her own surprise, only the hard blank where blame should have been.",
+          "pattern": "B1",
+          "tier": "B",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "The phrasing is too polished and abstract for Sylvanas's in-motion thinking; she would think in blame or fault directly, not in a 'hard blank where blame should have been.'",
+          "confidence": "MODERATE",
+          "severity": "mild",
+          "suggestedFix": "Sylvanas turned once toward the glacier and found no blame waiting there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Alive enough for handoff.",
+          "pattern": "A1",
+          "tier": "A",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "It reads like a caption stamped onto the carry rather than an in-body thought from Sylvanas.",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 4,
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "line": "The older thing under the glacier had no interest in whether she understood the message.",
+          "pattern": "P3",
+          "failedQuestion": "What specifically is being named?",
+          "missingPayload": "The line never names the concrete source or visible mechanism behind the warning; it leans on 'older thing' and motive language instead.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Sylvanas turned once toward the glacier and found, to her own surprise, only the hard blank where blame should have been.",
+          "pattern": "P3",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The line substitutes 'hard blank' for the actual read: that she found no fault to pin on Jaina, the formation, or the route.",
+          "severity": "mild",
+          "suggestedFix": "Sylvanas turned once toward the glacier and found no blame waiting there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Jaina's failed strike, the march, even their late clean loss to an enemy built outside the measures they had prepared for left her with only that hard blank.",
+          "pattern": "P2",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The sentence sounds sharply analytical but never names the concrete basis for 'late clean loss' or what 'measures' failed in the cave.",
+          "severity": "mild",
+          "suggestedFix": "Jaina's failed strike, the march, even the loss in the cave put no fault on Jaina.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "The only translation setup was \"Speak dwarf.\" The reply named the sword and tied it directly to the plague's craft with enough usable payload that Muradin could act on it without a second translation pass."
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 9,
+    "mildKills": 11,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 11,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still has 11 mild sentence-level kills across three guides. There are no moderate or severe findings, but the mild count is well above the pass threshold of three."
+  }
+}

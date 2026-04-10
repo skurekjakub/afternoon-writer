@@ -1,0 +1,471 @@
+## Chapter 2: The Mage
+
+"Start talking."
+
+The command hit Jaina cold.
+
+She had heard variations of it since dawn. Explain yourself. Start again. Slower. What were you doing at the stones. None of the men had ever listened past the shape of her answers.
+
+This sounded different.
+
+The ward-circle pressed at her skin, a blue weight that turned every thought of magic into pressure behind her eyes. The room smelled of lamp oil, mountain stone, damp leather, elf-made polish. Jaina lifted her head from the confiscated papers and saw the woman who had finally come to decide whether the morning would keep wasting itself.
+
+Tall for an elf. Fair hair pulled back. Bow at her shoulder, no ornament that was not also a weapon. Ranger-General, then. No one else in the post would have walked in carrying that much silence.
+
+Jaina's throat hurt from repetition. She spent none of what voice remained on courtesy.
+
+"The leylines south of your border are contaminated," she said. "Necromantic taint is moving north through them, and your ward-stones have started carrying the same damage."
+
+The elf did not blink. "How far south."
+
+Not disbelief. Not mockery. A question that assumed the answer might matter.
+
+Jaina leaned forward before she could stop herself. Stiff muscles pulled at her back. "I first picked it up north of Andorhal. Faint then. I thought it was residue from a botched working until I found the same wrongness at the next relay point, and the next after that. It strengthened along the road. By the time I reached the lower pass, your wards were answering it."
+
+"Answering how."
+
+Jaina spread her hands on the table and traced the lines she could still feel in memory. Ink stained two fingers. The burn-healed skin across her right hand tightened when she curled it. "Like a struck string answering a note. The stones are clean in themselves. The corruption is riding the lattice between them."
+
+The Ranger-General's eyes dropped once to Jaina's hand, then back to her face. "You crossed the ward line alone to tell us this."
+
+"I crossed it to confirm it." Irritation sharpened the words. Good. Let them be sharp. "By the time your patrol found me, I already knew the lines were wrong. I needed to see whether the contamination survived contact with the stones."
+
+"And did it."
+
+"Yes."
+
+The answer came too fast. Jaina forced herself to slow. "The lines are carrying death magic. Deliberate death magic. Not decay, not runoff from a battlefield, not some hedge-wizard poisoning a spring. Someone is using the network of the land itself."
+
+"Death magic," the elf said. "You name that quickly."
+
+"Because it is quick to name." Jaina heard the snap in her own voice and fought it down. "Broadly, at least. I was not trained in necromancy. No one worth respecting is. But there are signatures common to the forbidden disciplines, and this one is plain. The field folds inward. The current does not dissipate. It clings."
+
+Too much vocabulary at once. Jaina heard it a heartbeat late and corrected downward before anyone could ask.
+
+"It behaves wrong," she said. "Dead things should stay dead."
+
+"Better."
+
+Heat climbed the back of Jaina's neck. She had been cut off before. She had not expected to be cut so exactly. "If you prefer, I can give you the childish version in even fewer syllables."
+
+The auburn-haired officer inhaled through her nose. One of the wall rangers looked hard at the floor.
+
+The Ranger-General did not glance aside. "If I preferred that, I would have sent for a child."
+
+For one savage instant Jaina liked her.
+
+Armed custody still ringed the room, her staff still sat on the rack, and the ward pressing on her magic still made every second feel stolen. But the irritation had changed. Not dismissal. Correction.
+
+"Fine," Jaina said. "It's necromancy. It's holding together as it moves. The ward lattice is carrying the strain instead of snapping it, which means whoever built this built it to survive older magic. I followed it north until your stones started answering back."
+
+The elf's gaze held her a moment longer, then moved to the satchel on the floor. "Your notes."
+
+"Confiscated."
+
+"Your map."
+
+"Also confiscated."
+
+"Your authority to cross my border."
+
+There it was. The soft place in the argument, struck without wasted motion.
+
+Jaina set her jaw. "I did not have one."
+
+Silence dropped into the room. The wards filled it, steady and indifferent.
+
+"Who sent you?" the Ranger-General asked.
+
+No use dodging. Lesser men had been sniffing for fear all morning.
+
+"No one." Jaina swallowed against a throat gone raw. "I left Dalaran because the pattern was worsening faster than anyone around me was willing to believe. I left Antonidas a note. By the time anyone read it, I meant to be back with proof."
+
+The words sounded worse spoken aloud than they had on the road north. Less urgent. More the sort of youthful arrogance that wore good boots.
+
+The Ranger-General let that sit where it was. "So the Kirin Tor does not know where you are."
+
+"Not precisely."
+
+"Antonidas did not send you."
+
+"No."
+
+"You crossed into Quel'Thalas on your own judgment."
+
+Jaina wanted to say On correct judgment. The need flared and died. It would have been a plea for praise.
+
+"Yes," she said instead.
+
+Something in her chest tightened with the admission. She hated that. She had come because someone had to come. Because every patient explanation north of the pass had ended with caution, committee, one more day. Because wrongness moving through the bones of the world did not care what stamp a request form carried.
+
+The Ranger-General watched her long enough that Jaina became aware of her own road-grimed sleeves.
+
+"Cyndia," she said at last.
+
+"My lady."
+
+"Bring her staff."
+
+Jaina's head came up.
+
+Cyndia crossed to the rack, lifted the staff free, and held it midway instead of giving it outright. Wise. The wards were still up. The crystal at the staff's head tightened at once when it came within reach, familiar and frustrating all at once.
+
+"You said the stones were answering the contamination," the Ranger-General said. "Can you still read it from inside the circle."
+
+"Barely." Jaina kept her eyes on the staff. "Your wards are dampening everything. I can feel enough to know I wasn't mistaken. Not enough to track spread."
+
+"Could you track it if I let you out."
+
+The question struck harder than any accusation had.
+
+Relief came first, hot and humiliating. Dread followed. If the road south proved her wrong, she would deserve every cold look in the room. If it proved her right, then hours had already been lost.
+
+"Yes," she said.
+
+"Could you keep yourself alive on the road while doing it."
+
+Jaina opened her mouth and closed it again.
+
+The truthful answer stood there between them. She could hold a barrier. She could freeze a man where he stood. She could read a current through miles of soil and stone. None of that changed the arithmetic of a hostile road in unfamiliar country.
+
+"Not as well as I could with an escort," she said, each word scraped clean. "I can read the lines. I cannot watch every tree while I do it."
+
+The Ranger-General's mouth shifted by the smallest degree.
+
+"Good," she said. "At least one of us is interested in surviving the road."
+
+"Terms," the elf went on. "You ride under escort. You keep your hands where my rangers can see them unless I tell you otherwise. You do not leave the road, and you do not touch another ward-stone without instruction. Your papers stay with me. Your map stays with me. If you run, I put an arrow through your spine and save us both the trouble of a second conversation."
+
+The words were dry enough to make their own weather.
+
+Jaina lifted her chin. "If I intended to run, I would not have spent the morning begging to be released in the opposite direction."
+
+"That is almost reassuring."
+
+There it was again, humor arriving a heartbeat late and flat enough to cut.
+
+"Fine," Jaina said. "Escort me. Watch my hands. Just stop holding me here while the contamination keeps moving."
+
+The Ranger-General turned her head a fraction. "Cyndia. Drop the circle. Bring up six horses. You ride with us."
+
+"Yes, my lady."
+
+The room changed around the command before Jaina had caught up to it. Rangers peeled away from the walls. Boots sounded on stone. Decision became motion.
+
+The Ranger-General held out a hand.
+
+Cyndia set Jaina's staff into it first.
+
+For one wild second Jaina thought the woman meant to keep even that in her own grip. Then the staff turned, offered crosswise: efficient, nothing more.
+
+Jaina stood too fast. Pins and needles lanced up both legs. She caught the table edge, hated the wobble, took the staff anyway. The crystal flashed cold under her palm. Even muted by the ward circle, the contact drove a clean line through the headache behind her eyes.
+
+"Can you walk," the Ranger-General asked, "or shall I have someone carry the great magical authority of Dalaran out by the elbows."
+
+"I can walk."
+
+"Good. Start there."
+
+Jaina bit down on the answer that wanted out and followed her into the pass before the fatigue could show on her face.
+
+Outside, the mountain air hit hard.
+
+Blue light ran along the ward-stones around the holding yard. Cyndia knelt by the anchor marker near the road, one hand braced to the cut face of the stone while she worked a sequence into the rune groove with the other. Jaina sensed the barrier loosen before she saw it go. The pressure over her magic thinned, thinned again, and then dropped all at once.
+
+The world slammed back in.
+
+Jaina caught herself against the surge. Currents flooded through her in overlapping strands, not clean and blue as they should have been, but streaked with the same deep wrong note she had been chasing for days. The nearest ward-stones still held their own pattern. Beyond them, southward, the contamination dragged at everything like rot under varnish.
+
+"It's worse," she said before anyone asked.
+
+"How much worse," the Ranger-General said.
+
+"Eight hours ago the spread was riding the lines. Now it's biting deeper into them." Jaina turned south, crystal angled toward the road. "If it keeps accelerating at this rate, Millhaven may already be inside the densest knot."
+
+Six horses came up from the stable cut into the rock, Thalassian stock bred for distance and steep footing. They tossed their heads while rangers took reins with the ease of old habit.
+
+Two women Jaina had not seen inside the holding room mounted first. One narrow-faced and pale as ashwood, bow already unstrapped across her knees. The other broader through the shoulder, steady hands on a gray gelding that danced once and then obeyed. Lyriel and Neral, Cyndia said as she passed Jaina the reins of a chestnut mare with too much intelligence in her dark eyes. A fourth ranger mounted last, unnamed and forgettable except for the ease of her seat.
+
+"You ride between me and Cyndia," the Ranger-General said. "If you fall off, do it away from the horses."
+
+"Your bedside manner is remarkable."
+
+"So I've been told."
+
+Jaina mounted with less grace than she wanted and settled the staff across her lap as the pass opened under the last of the ward-light.
+
+Inside the border grid the ward-hum had lived under everything, too constant to call sound, safety pressed into the land. Annoying at first. Suffocating once she was trapped inside it. Now, beyond the last standing stones, its absence left her abruptly exposed.
+
+The full force of the leylines hit her in one white surge.
+
+She sucked air between her teeth and tightened on the reins hard enough that the mare flicked an ear back in protest. Raw current rushed up through the road, through the horse, through the bones of her wrists. Too bright. Too crowded. The necromantic pressure that had felt muted at the pass now stood naked in the open land, a copper-rot taste under the tongue of the world.
+
+"Mage," Cyndia said from her right. "Stay in the saddle."
+
+"I am in the saddle."
+
+The Ranger-General looked back once over her shoulder. "For the moment."
+
+Beyond the pass the road unwound south through harsher country, the clean work of elven stone giving way to rutted Lordaeron earth. Pines thinned. The wind picked up damp soil, old thatch, distant standing water. The escort moved differently here, narrowing by sightline and flank, bows eased free, every head turning on a slower, meaner rhythm.
+
+Useful, and obvious beside the way mages rode when they thought a staff excused them from watching the hedges.
+
+The current beneath the ground tugged harder south and west.
+
+"There," Jaina said, and pulled the mare down.
+
+Before anyone could object she was on the ground, boots thudding into the packed road. She dropped to one knee and set the heel of her hand against the dirt.
+
+The earth was cold, damp a finger's depth down. Pebbles bit her skin. She shut out the creak of tack and wind in the grass and let the crystal open the reading instead of forcing it.
+
+Wrongness answered at once.
+
+Not from the lines alone. From the ground between them. From seep and root and the shallow run of water under the roadside weeds. The taste of it coated the back of her mouth, metallic, sweet in the sickening way spoiled meat could seem sweet if the nose caught it wrong. It moved through the land like stain through linen, gathering where water held and living things drank.
+
+"Well," she said, because for a heartbeat the word was all that fit.
+
+"Report," the Ranger-General said.
+
+Only then did Jaina realize the silence around her had shape. Lyriel covered the left verge, arrow already nocked. Neral had drawn the gray behind Jaina's mare. Cyndia watched the trees on the right.
+
+Jaina looked back to the dirt before embarrassment could settle too far into her ribs.
+
+"It's in the ground," she said. "And in the runoff. The lines are carrying it, yes, but they aren't the whole problem. Water takes it. Root takes it. Anything drinking or feeding here takes some measure of it in."
+
+"Anything," Cyndia repeated. "Game included."
+
+"Yes."
+
+The Ranger-General swung down from the saddle and came the last few steps on foot, landing light and already turned toward the widest stretch of view. "Can you tell how long."
+
+"No. Not exactly." Jaina pushed up to standing, brushing grit from her palm. "The spread is uneven. Some places hold more of it. There are knots where several currents pinch together." She pointed south with the staff. "Millhaven is the first place it knots tight on the route I tracked."
+
+"Because."
+
+Again the question found the weak joint first, but this time Jaina had the answer ready. "Because three local lines cross the river there before they split toward the farms east of the road."
+
+She stopped.
+
+The Ranger-General was already looking at her.
+
+"Go on," the elf said.
+
+Jaina blinked once. "That's the point that matters."
+
+"I know." Dry as dust. "The interesting part is why you assumed I didn't."
+
+The road held still around them. One of the horses stamped.
+
+The misstep came with humiliating clarity. She had heard herself simplifying and had not stopped in time. Three local lines, spoken as if she were addressing a clerk who needed the map drawn in bright chalk.
+
+"You read it," she said.
+
+"Your map." The Ranger-General tapped the satchel at her saddle. "Closely, while you were occupying my holding room. Millhaven is where the pressure gathers first. If the spread has speed, we test there before we waste daylight on every empty ditch between here and the border."
+
+"Right," Jaina said.
+
+Inadequate. She had come into this country ready to fight condescension and had brought her own.
+
+The Ranger-General waited half a beat.
+
+Jaina started over.
+
+"Three local lines pinch together at Millhaven," she said, her natural cadence returning before she could smooth it down. "If this thing was made to ride current, it would thicken there. I still can't tell whether the village is source or casualty, only that the pressure gathers around it. If it has found a way into wells and irrigation channels, it won't stay only a magical problem for long."
+
+The Ranger-General gave one short nod. "Mount."
+
+They moved.
+
+Jaina kept her place between Sylvanas and Cyndia now, the formation no longer an insult but a fact. Wind flattened the grass along the ditches. Crows rose from a field ahead, circled once, and settled again without sound.
+
+The farther south they rode, the more the country looked interrupted rather than abandoned. A gate stood open with its latch hanging loose. A cart leaned at the edge of a lane, one wheel sunk into the mud where someone had left it and never returned. Then the first farmhouse appeared beyond a stand of alder, low-roofed and colorless under the afternoon light.
+
+No smoke.
+
+Jaina's attention caught on that before anything else. Hearths should have been going at this hour even in poor country. The chimney stood black and bare against a clouded sky.
+
+The garden below the house had gone ragged. Cabbage heads split in the rows. Onion tops had fallen over and rotted where they grew. Something larger than rabbits had been through the turnips and left torn leaves drying in the soil.
+
+"Do you often pass empty farms without comment in Quel'Thalas," she asked before she could stop herself.
+
+"No," Sylvanas said.
+
+The next place was worse. A line of washing had been left on the rope until the wind twisted it into itself. A bucket lay on its side beside the well, its spilled water baked dark into the yard. No chickens.
+
+Grain bent in the field behind the house in odd patchwork, green in one square, yellowing too soon in another, a third already collapsed in a flattened ring around some invisible center. Jaina looked at it only a moment and then away. No answer in it yet. Only evidence. The lines beneath the road tugged harder south.
+
+"How far to Millhaven," she asked.
+
+"Less than an hour if nothing delays us," Cyndia said.
+
+"Then trouble will," Sylvanas said.
+
+Another farmhouse. Another dead chimney. A child's hoop half buried in a ditch where it had rolled and been left. Jaina wished, abruptly and fiercely, that Antonidas were here.
+
+Not for rescue. For confirmation. For one of his maddeningly patient looks that meant yes, you are seeing it correctly, now go one step farther. She had left him a note and ridden north believing brilliance could stand in for witness. On the open road, with cold hearths watching from the fields, the choice seemed lonelier than it had at dawn.
+
+Ahead, Sylvanas raised one hand.
+
+The whole line checked at once.
+
+Jaina saw the reason a heartbeat later. The mare scented it before she did, ears pinning, muscles bunching under the saddle. Something moved in the trees to the left of the road. Fast. Too heavy for a hare, too ragged for healthy deer.
+
+Lyriel's bow came up.
+
+"Hold," Sylvanas said quietly.
+
+The brush burst open.
+
+The first deer hit the road in a spray of mud and dead leaves, ribs showing under a hide gone dull and patchy. Its eyes were clouded with a bluish film. Foam flecked its lips. A second crashed after it, one antler broken to a bloody stump, head lolling at an impossible angle.
+
+For one disbelieving instant Jaina thought sick. Then the first animal saw the horses and charged straight at them.
+
+"Left one," Sylvanas snapped.
+
+Lyriel loosed.
+
+The arrow took the deer high in the chest and drove through. It stumbled, recovered with a convulsive jerk, and kept coming. Jaina's mare screamed and sidestepped hard enough to wrench the reins through her fingers.
+
+Three wolves followed from the right.
+
+Gray shapes low and fast through the ditch grass, hitting the flank of the party with the deer still breaking the line. The first slammed for the unnamed ranger's mount. Neral hauled the gray across with brutal timing while Cyndia's bow bent in one smooth, savage line.
+
+An arrow punched into the lead wolf's side.
+
+It spun, snarling, and Jaina was already moving.
+
+Fear burned the hesitation out of her. She drove the butt of the staff into the road and threw frost low and wide, not at the wolves themselves but under them, a skin of ice flashing over churned mud. One beast lost its footing at once and rolled screaming into the ditch. The second leaped the slick and kept coming.
+
+"Down," Sylvanas said.
+
+The order was for Jaina. She obeyed before pride could interfere, ducking along the mare's neck as an arrow hissed past her ear. Lyriel's shot took the second wolf through the open mouth. It hit the road already dead and slid on Jaina's fresh ice until it struck a stone with a soft wet smack.
+
+The third reached the deer instead of the horses. Its jaws closed on the wounded animal's throat. For a heartbeat the two creatures locked together in a blur of blood and fur.
+
+Then the deer tore free with half its neck open and kept moving.
+
+Jaina stared.
+
+The first shot had gone through the chest. A living animal should have folded by now.
+
+This one came on anyway.
+
+Sylvanas had seen it too. "Eyes," she said. "Or skull. Cyndia."
+
+Cyndia was already drawing.
+
+The broken-antlered deer lunged past Jaina's stirrup close enough that she smelled rot under the hot copper reek of blood. Its jaw worked crookedly. It breathed in bubbling snorts. Jaina turned in the saddle and saw the pulse in it.
+
+Not heartbeat. Wronger.
+
+A hot, stuttering push inside the body where life should already have been giving way.
+
+"Move," Sylvanas said, and her horse drove forward past Jaina's knee with terrifying precision.
+
+She loosed at such short range Jaina barely saw the draw. The arrow struck the deer's ruined shoulder and knocked it sideways, opening the line.
+
+Cyndia's second shot went through the eye and deep into the skull.
+
+The animal collapsed at once, hindquarters sliding under it. Antlers scored two furrows into the road. Mud sprayed Jaina's boots. The body twitched once, twice, then lay still.
+
+Silence came back in torn pieces. One horse blowing hard. A wolf kicking in the ditch. Neral swearing while she fought the gray back from panic. Jaina was half out of the saddle, braced on one stirrup and gripping the staff so hard her fingers ached.
+
+Sylvanas looked across the road at each ranger in turn. Counting. Verifying. "Report."
+
+"Lyriel clear."
+
+"Neral clear. Horse nicked, nothing worse."
+
+"Escort clear," the unnamed ranger said, shaken but upright.
+
+"Cyndia clear."
+
+Sylvanas's gaze cut to Jaina last. "Mage."
+
+"Alive," Jaina said.
+
+"Useful."
+
+Then the elf was off her horse and standing over the deer before Jaina could frame a reply.
+
+The wolves mattered less now. One had died in the road. One thrashed once more in the ditch and did not rise. The third dragged itself into the grass on a broken hind leg, leaving a red smear. Lyriel dismounted to finish it without ceremony. Neral soothed the horses in a low stream of Thalassian.
+
+Jaina slid from the saddle on abruptly unreliable legs.
+
+The deer looked worse close up. Flies had already found the wet around the eye wound. The hide along its flank showed lesions under the fur, dark crusted patches where the skin had cracked and tried to heal wrong. Jaina crouched and put her hand to the carcass.
+
+The reading hit her at once.
+
+Heat, yes, but wrong heat, trapped in flesh that had stopped serving life cleanly long before death. The same pressure she had found in the soil and water, only stronger here, answered through the body itself. Necromantic current threaded through the animal not as an afterthought laid on a corpse, but as magic already active before the body had finished dying.
+
+Jaina closed her eyes for a moment. Not to shut it out. To feel the pattern without distraction.
+
+The pulse was still there, faint now, fading under the damage Cyndia's final shot had done. Hot wrong beat in dead matter. A thing trying to go on past the point where going on meant anything natural.
+
+"Well," Sylvanas said above her, "that is unpleasant."
+
+The understatement nearly made Jaina laugh. It came out instead as a rough sound.
+
+She opened her eyes. Sylvanas had not crowded her or spoken over the reading. She was simply waiting, bow in hand, expression cut from the same hard material as before.
+
+She saw that and wished she had not, because it forced honesty.
+
+"It's in the flesh," she said.
+
+Sylvanas's face did not change. "Plainly."
+
+"No. Listen." Jaina wiped her bloody palm on the dead grass and stood. "The contamination isn't merely killing what touches it. It's teaching living flesh to answer it before death finishes. The deer was dying when Lyriel hit it. It should have dropped. Instead whatever was in it kept the broken parts working and drove it forward."
+
+Cyndia had come back within earshot. Lyriel rose from the ditch bank, arrow wiped clean. Neral still held the horses but had turned enough to listen. Jaina kept going, faster now, because the shape of it had locked.
+
+"Ground and water are carrying it. Animals take it in. Once enough of it gets into blood and organs, the body stops dying the way it should. I still don't know what first seeded the land, but this is already working inside living creatures. We are past strange disturbance."
+
+Silence followed. Not blank silence. The kind that meant each of them was already measuring what the answer changed.
+
+Sylvanas broke it first. "How much farther to the village."
+
+"Close," Cyndia said. "Fifteen minutes at this pace."
+
+"Then we keep moving." Sylvanas's eyes held on Jaina one beat longer. "Can you still read the pressure."
+
+Jaina looked down at the blood drying dark in the lines of her hand. At the deer's half-open eye filmed over in death and the worse thing that had almost kept it from being death at all.
+
+"Yes," she said.
+
+"Good. On your horse."
+
+No praise. No reassurance. No false comfort offered for the thing on the road behind them.
+
+Good.
+
+Jaina mounted with the answer still hot in her skin. The party re-formed faster now, every motion tighter. Sylvanas took the lead again without announcement. Jaina fell into place beside her.
+
+The road narrowed between fields gone ragged with neglect. Evening lowered itself over the countryside in a bruised wash of violet and iron. Birds had gone quiet. No farm dogs barked as they passed. No smoke rose anywhere.
+
+Jaina read the pull in the land with each stride of the mare. The currents that had tangled north of the pass now drew into one another with ugly certainty. South, yes. Inward too. Toward a point ahead where the pressure thickened until even without the staff she could have named the direction.
+
+Millhaven.
+
+They topped a low rise and saw the village.
+
+It lay in the fold beyond the road, roofs dark against the failing light, clustered close around a narrow center lane and the black cut of the stream. From this distance it might have been peaceful, a poor settlement settling into evening. Then the details sharpened.
+
+No cooksmoke.
+
+No lamp at any window.
+
+No movement in the yards.
+
+The whole place sat under the sky, breathless too long. The knot of contamination there hit so hard the crystal in Jaina's staff brightened of its own accord, blue light crawling over her hand and the mare's mane.
+
+Beside her, Sylvanas went still in that particular way that meant attention honed to a point.
+
+"That it," she asked.
+
+Jaina could not take her eyes off the village. The road into it looked too narrow for this much silence.
+
+"Yes," she said. Her voice came out lower than she intended. "That's where it gathers."
+
+No one spoke after that.
+
+They rode down toward Millhaven together, six horses and six shadows stretching long before them on the empty road, while the last light drained from the fields and the dead village waited without a single hearth burning.

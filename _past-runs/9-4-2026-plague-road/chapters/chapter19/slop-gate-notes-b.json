@@ -1,0 +1,295 @@
+{
+  "chapterId": "chapter19",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 10,
+      "kills": 7,
+      "keeps": 3,
+      "dominantPattern": "F4",
+      "mildKills": 7,
+      "moderateOrSevereKills": 0,
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": "Vereesa breathed out.",
+          "issue": "generic label",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "The word sat between them without comfort.",
+          "whatItRestates": "\"No.\"",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "She accepted it.",
+          "whatItRestates": "Vereesa watched Jaina another moment, then gave one short nod.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "No expectation of using it again soon.",
+          "whatItRestates": "Jaina looked at it a moment longer, then slid it into her coat pocket instead of her belt. Stone pocketed. Line closed.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "The camp shrank at once.",
+          "whatItRestates": "Vereesa did not look back... Then it was only dust hanging over the road where the family had been.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "line": "Then the country began to change.",
+          "issue": "thesis opening",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "That was enough.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "\"North,\" Sylvanas said.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 9,
+      "kills": 4,
+      "keeps": 5,
+      "dominantPattern": "A2",
+      "mildKills": 4,
+      "moderateOrSevereKills": 0,
+      "registerSummary": "Sylvanas thinks in clipped tactical assessments grounded in bodies, supply, rank, and route logic. She can compress sharply inside an active decision, but she does not step outside the scene to pin epigraphic captions or thematic summaries over it.",
+      "registerConfidence": "HIGH",
+      "findings": [
+        {
+          "pattern": "A1",
+          "tier": "A",
+          "severity": "mild",
+          "line": "There. The real report.",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "The fragment captions Vereesa's disclosure from above instead of staying inside Sylvanas's immediate read of it.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5",
+          "tier": "A",
+          "severity": "mild",
+          "line": "The camp narrowed around the sentence.",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "It declares scene-state instead of naming the concrete reactions Sylvanas can actually read in camp.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "tier": "A",
+          "severity": "mild",
+          "line": "There it was. No repair. Only the work of leaving.",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "The stacked fragments read like a caption pinned over the departure beat, not Sylvanas's embodied observation.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "tier": "A",
+          "severity": "mild",
+          "line": "Parallel cuts. No need to compare whose bled worse.",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "The paired fragments summarize the women's mirrored severances in authorial slogan rhythm rather than Sylvanas's concrete attention.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "P3",
+      "mildKills": 3,
+      "moderateOrSevereKills": 0,
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "The thought of Lor'themar stripped of his dry little cuts, reading contamination lists until his voice wore down to bone, put an old anger under Sylvanas's ribs. Not at him. At the machine that could hear a city count its dead and call the answer procedure.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the concrete chamber response the sentence means: orders, votes, and exile-law machinery",
+          "verdict": "KILL",
+          "reason": "Placeholder language turns the Convocation's response into prestige abstraction instead of naming the mechanism already present in the scene.",
+          "suggestedFix": "The thought of Lor'themar stripped of his dry little cuts, reading contamination lists until his voice wore down to bone, put an old anger under Sylvanas's ribs. Not at him. At the chamber that could hear a city count its dead and answer with orders, vote counts, and exile articles.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "Once her chin lifted, a woman choosing the shape of a sentence before it left her mouth.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "the visible action of Jaina readying herself to speak",
+          "verdict": "KILL",
+          "reason": "The sentence borrows 'shape' to sound incisive instead of naming the plain physical beat already on hand.",
+          "suggestedFix": "Once her chin lifted before she spoke.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "There it was. No repair. Only the work of leaving.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the concrete act left in the scene: Vereesa leaving camp",
+          "verdict": "KILL",
+          "reason": "The stand-in noun 'work' simulates weight while dodging the plain action.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "mildKills": 0,
+      "moderateOrSevereKills": 0,
+      "cleanReason": "Re-read the explanatory exchanges around Jaina's plague model, the harbor relay explanation, and the coast-tracking exchange. None are introduced by a plain-speech or translation setup, so this guide never triggered."
+    }
+  ],
+  "summary": {
+    "totalKills": 14,
+    "totalKeeps": 11,
+    "mildKills": 14,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 14,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B found fourteen mild sentence-level issues. There are no moderate or severe kills, but the run exceeds the three-mild maximum for a pass."
+  }
+}

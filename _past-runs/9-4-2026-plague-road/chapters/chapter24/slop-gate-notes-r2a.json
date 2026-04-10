@@ -1,0 +1,185 @@
+{
+  "chapterId": "chapter24",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 9,
+      "kills": 3,
+      "keeps": 6,
+      "dominantPattern": "mixed-negation-pivots",
+      "severity": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "P1-direct-contrast-pivot",
+          "severity": "mild",
+          "sourceLine": 24,
+          "line": "Palace officer, not soldier.",
+          "deletionTest": "Palace officer.",
+          "reason": "Pattern 1: the contrast scaffolding can be cut and the identifying noun still lands cleanly.",
+          "suggestedFix": "Palace officer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P8-mundane-reveal-chain",
+          "severity": "mild",
+          "sourceLine": 204,
+          "line": "No helm. No hammer. Just a man too broad for the furniture and too tired for pretense.",
+          "deletionTest": "Just a man too broad for the furniture and too tired for pretense.",
+          "reason": "Pattern 8: the double refusal is reveal scaffolding around the real image.",
+          "suggestedFix": "Bareheaded and unarmed, he was just a man too broad for the furniture and too tired for pretense.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P2-fragment-pivot",
+          "severity": "mild",
+          "sourceLine": 378,
+          "line": "Nothing. Not even the right-corner shadow of a smile.",
+          "deletionTest": "Nothing.",
+          "reason": "Pattern 2: the second fragment uses negation as a dramatic afterbeat instead of stating the blank reaction directly.",
+          "suggestedFix": "Nothing. His face stayed blank.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 8,
+      "kills": 3,
+      "keeps": 5,
+      "dominantPattern": "architecture-and-abstractions-carrying-human-pressure",
+      "severity": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "secondSweep": "Completed the dedicated pass-A P5/P6 re-read across the full chapter. No additional pass-A kills survived beyond the findings below.",
+      "findings": [
+        {
+          "pattern": "P5-object-meaning-laundering",
+          "severity": "mild",
+          "sourceLine": 132,
+          "line": "The chains made less noise in chairs and meant the same thing.",
+          "subject": "chains",
+          "verb": "meant",
+          "realAgent": "The restraints and guarded seating still signaled imprisonment.",
+          "reason": "Pattern 5: the sentence launders the institutional meaning of the restraints onto the chains themselves.",
+          "suggestedFix": "The chains made less noise in chairs. They were still restraints.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P7-room-pressure-laundering",
+          "severity": "mild",
+          "sourceLine": 232,
+          "line": "The room pulled tight.",
+          "subject": "room",
+          "verb": "pulled tight",
+          "realAgent": "The people in the chamber tensed around Uther's answer.",
+          "reason": "Pattern 7: the pressure belongs to the crowd's reaction, not to the room itself.",
+          "suggestedFix": "People all through the room went still.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P4-institutional-abstraction-acting",
+          "severity": "mild",
+          "sourceLine": 304,
+          "line": "The politics of the city made martyrs expensive.",
+          "subject": "politics of the city",
+          "verb": "made",
+          "realAgent": "The city's rulers and legal managers treated martyrdom as politically costly.",
+          "reason": "Pattern 4/5 hybrid: an institutional abstraction is doing the human cost calculation instead of the people running the sentence.",
+          "suggestedFix": "The city's rulers found martyrs expensive.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 2,
+      "kills": 1,
+      "keeps": 1,
+      "dominantPattern": "tic-1-corner-of-mouth",
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "tic-1-corner-of-mouth",
+          "severity": "mild",
+          "sourceLine": 378,
+          "line": "Nothing. Not even the right-corner shadow of a smile.",
+          "reason": "This is the second corner-of-mouth near-smile in the chapter, so it exceeds the hard cap of one and is the weaker occurrence to cut.",
+          "occurrence": 2,
+          "hardCap": 1,
+          "suggestedFix": "Nothing. His face stayed blank.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "ticCounts": {
+        "tic1_corner_of_mouth": 2,
+        "tic3_tightened_emotional": 1,
+        "tic3_tightened_physical": 1,
+        "tic4_expression_shifted": 0,
+        "tic5_eye_gaze_beats_killed": 0,
+        "tic6_weight_metaphors": 0,
+        "tic7_non_said_performance_tags": 0
+      }
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 12,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Seven mild pass-A kills remain after revision, which exceeds the pass threshold of three mild findings."
+  }
+}

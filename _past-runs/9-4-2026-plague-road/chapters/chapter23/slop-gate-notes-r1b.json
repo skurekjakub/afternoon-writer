@@ -1,0 +1,271 @@
+{
+  "chapterId": "chapter23",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 9,
+      "kills": 5,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "text": "For one thin second, no one in the corridor needed anything explained.",
+          "word": "For one thin second",
+          "deletionTest": "No one in the corridor needed anything explained.",
+          "issue": "Temporal padding. The beat still lands without the time-marker.",
+          "suggestedFix": "No one in the corridor needed anything explained.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "text": "The chamber changed around that step.",
+          "whatItRestates": "Cold rolled low over the floor, pressure more than mist. The king's blood skinned over black-red and iced. Jaina's teeth hurt. Light from the high window turned hard-edged. The air took on the brittle feel of glass about to break.",
+          "issue": "The sentence abstracts a change the next lines already render concretely.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "MILD",
+          "text": "The choice hung there after that: use him or let him go.",
+          "issue": "Thesis-style opener that summarizes the decision before the paragraph cashes it out in the actual options.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "text": "The authority in it landed hard.",
+          "whatItRestates": "\"No one touches the blade,\" he said.",
+          "issue": "The line translates the force of Uther's command instead of trusting the command and reactions around it.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "text": "Jaina walked into custody with her wrists bound, Sylvanas bleeding beside her, and the whole kingdom above them tilting toward whatever story frightened men would tell first.",
+          "location": "scene-final",
+          "couldEndEarlierAt": "From the actual kitchens somewhere below, where dough would already be rising for the evening meal because kitchen fires stayed lit while rulers decided whom to blame.",
+          "issue": "The chapter already has the image and pressure; this sentence adds interpretive closure on top of them.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in tactical sequence, magical mechanism, and immediate sensory evidence. Under stress she compresses hard, but the compression stays tied to what she can see, feel, cast, or infer from visible behavior. She can be analytical and cold, but she does not normally step out into essay-grade aphorism while the scene is still happening to her body.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "B1",
+      "findings": [
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "tier": "B",
+          "text": "What they saw was worse.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can see the guards check at the tableau, but this comparative judgment reports the moment from outside their bodies rather than from her own immediate read.",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "tier": "B",
+          "text": "He chose the narrow ledge between.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The metaphor captions Uther's compromise from outside instead of staying with Jaina's concrete read of what his order is doing.",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "tier": "B",
+          "text": "Her staff turned suddenly absurd in her hand, a piece of carved wood pretending the world still sorted itself into useful tools and honest outcomes.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence is too polished and thematic for an emptied-out Jaina in the middle of surrender; it sounds authored over her shoulder.",
+          "confidence": "MODERATE",
+          "suggestedFix": "Her staff turned useless in her hand.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A7",
+          "severity": "MILD",
+          "tier": "A",
+          "text": "Men fresh to terror always did.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This zooms out into a generic claim about men instead of remaining with the two guards rushing them.",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P4",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "text": "Recognition.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The fragment names no concrete recognition before the next clause has to supply guesses about name or regret.",
+          "reason": "Placeholder-noun stand-in. The line sounds sharp without cashing out what Arthas actually recognizes.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "text": "Jaina looked for a clean ending and found none.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The line avoids naming the actual missing exit, witness path, or containment option that the next sentences then unpack.",
+          "reason": "Unanchored interpretive summary. It states a conclusion before the prose gives the concrete reasons.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "text": "The facts were plain between them.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The sentence withholds the actual facts—dead king, dead prince, no eyewitness, Sylvanas in the room—that the following lines have to spell out.",
+          "reason": "Unanchored interpretive summary. It gestures at clarity while refusing the concrete content until the next sentence.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No line in chapter23 sets up a plain-speech or translation exchange. The dialogue asks for status, capability, timing, and command decisions, but no speaker requests a simpler restatement that would trigger this guide."
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 10,
+    "mildKills": 12,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 12,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B found 12 mild kills across GPT-5 prose issues, narrator seep, and phantom concreteness. There are no moderate or severe hits, but the mild-count threshold for passing is exceeded."
+  }
+}

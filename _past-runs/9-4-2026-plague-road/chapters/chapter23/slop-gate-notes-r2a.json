@@ -1,0 +1,153 @@
+{
+  "chapterId": "chapter23",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "dominantPattern": "pattern-2 fragment pivot",
+      "severityBreakdown": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "pattern-5-preamble-negation",
+          "severity": "mild",
+          "line": "No grand sigil. No beauty.",
+          "deletionTest": "She rammed blue pressure through the stalled turn, a wedge where the blade expected flow, and the sword cracked like lake ice taking weight.",
+          "reason": "The negated preamble is decorative scaffolding; the action sentence carries the meaning directly.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "severity": "mild",
+          "line": "For one suspended instant the hunger-note changed pitch, not broken, but caught.",
+          "deletionTest": "For one suspended instant the hunger-note changed pitch, caught.",
+          "reason": "The sentence defines the pitch change through negated contrast instead of stating the surviving descriptor directly.",
+          "suggestedFix": "For one suspended instant the hunger-note changed pitch, caught.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-2-fragment-pivot",
+          "severity": "mild",
+          "line": "No ordered ghosts. Only fragments.",
+          "deletionTest": "Only fragments.",
+          "reason": "The negative setup delays the actual noun phrase without adding structural information.",
+          "suggestedFix": "Only fragments.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "dominantPattern": "pattern-8-body-part-agency",
+      "severityBreakdown": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "pattern-8-body-part-agency",
+          "severity": "mild",
+          "line": "fingers still trying to close",
+          "subject": "fingers",
+          "verb": "trying to close",
+          "realAgent": "Terenas's dying hand reflexively curling after the stab",
+          "reason": "The fragment gives the fingers independent intention instead of naming the visible involuntary curl.",
+          "suggestedFix": "fingers still curling closed",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-8-body-part-agency",
+          "severity": "mild",
+          "line": "the violence in his face told her the theory had been right",
+          "subject": "the violence in his face",
+          "verb": "told",
+          "realAgent": "Arthas's visible reaction, which Jaina interprets",
+          "reason": "The sentence launders Jaina's inference through an autonomous facial abstraction.",
+          "suggestedFix": "his face hardened with violence, and she knew the theory had been right",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-6-scenery-memory-knowledge",
+          "severity": "mild",
+          "line": "The chamber rocked back into itself.",
+          "subject": "The chamber",
+          "verb": "rocked back into itself",
+          "realAgent": "Jaina's reorientation as stone, echo, and motion settle after the soul-echo burst",
+          "reason": "The sentence assigns recovery-like behavior to the chamber instead of naming the physical settling Jaina perceives.",
+          "suggestedFix": "Stone and echo settled around her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "severityBreakdown": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [],
+      "cleanReason": "Checked all seven tic families. \"marked\" appears once in a physical-use combat sentence, \"eased\" appears once in a physical action beat, eye/gaze and mouth beats stay below chapter caps, and non-said tags remain under the cap with whisper/shout uses tied to actual volume."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 4,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has 6 mild KILL findings across negation addiction and intent smear; with more than 3 mild-only kills, the pass fails."
+  }
+}

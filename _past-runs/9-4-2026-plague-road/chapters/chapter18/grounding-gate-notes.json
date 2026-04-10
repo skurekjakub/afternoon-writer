@@ -1,0 +1,30 @@
+{
+  "chapterId": "chapter18",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "source-fidelity",
+      "sceneId": 1,
+      "sceneTitle": "The Wall",
+      "findingId": "G12-001",
+      "category": "G12",
+      "severity": "MILD",
+      "lines": "5-7",
+      "excerpt": "\"Twenty-five thousand people. Market bells, cart wheels, Alonsus Chapel bells...\"",
+      "reason": "The exact population figure reads as sourced fact rather than Jaina's rough impression, but this precise count is not supported by the chapter plan, required memory files, or the linked location/plague materials used for source-fidelity checks. The passage only needs scale, not a census number.",
+      "suggestedFix": "Substitute the exact count for a sourced scale phrase, e.g. \"A city this size. Market bells, cart wheels, Alonsus Chapel bells...\" or \"Tens of thousands of people. Market bells, cart wheels...\"",
+      "fixMode": "substitute"
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "mildKills": 1,
+    "moderateKills": 0,
+    "severeKills": 0,
+    "dominantFailures": [
+      "G12"
+    ]
+  }
+}

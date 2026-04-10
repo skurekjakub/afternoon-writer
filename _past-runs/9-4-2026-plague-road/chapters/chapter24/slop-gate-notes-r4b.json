@@ -1,0 +1,269 @@
+{
+  "chapterId": "chapter24",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "dominantPattern": "F2",
+      "severityMarkers": {
+        "mild": 5,
+        "moderateOrSevere": 0
+      },
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": "His pen hesitated.",
+          "location": "interrogation exchange",
+          "issue": "generic label beat / interchangeable",
+          "verdict": "KILL",
+          "suggestedFix": "The nib hovered over the page, ink gathering at the tip.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": "A swallow.",
+          "location": "wall conversation with Jaina",
+          "issue": "generic label beat / interchangeable",
+          "verdict": "KILL",
+          "suggestedFix": "A dry swallow sounded through the stone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": "The floor shifted under her for half a heartbeat.",
+          "location": "cell, after Jaina says \"Not random.\"",
+          "word": "for half a heartbeat",
+          "deletionTest": "The floor shifted under her.",
+          "verdict": "KILL",
+          "suggestedFix": "The floor shifted under her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": "For a moment neither spoke.",
+          "location": "Lor'themar at the cell bars",
+          "word": "For a moment",
+          "deletionTest": "Neither spoke.",
+          "verdict": "KILL",
+          "suggestedFix": "Neither spoke.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "Rescue would come later, if it came at all. Tonight was for witnesses in the hall and mages near the vault.",
+          "location": "scene-final paragraph before Lor'themar exits",
+          "couldEndEarlierAt": "Lor'themar gave the guard a look that promised future trouble in formal clothing. Then he turned back to Sylvanas one last time.",
+          "verdict": "KILL",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 7,
+      "kills": 3,
+      "keeps": 4,
+      "dominantPattern": "B1",
+      "severityMarkers": {
+        "mild": 3,
+        "moderateOrSevere": 0
+      },
+      "findings": [
+        {
+          "pattern": "A1",
+          "severity": "mild",
+          "line": "A trap built by somebody who respected the spring.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can read the prosecution's causal trap, but this fragment captions it in polished metaphor instead of the concrete hinge she is tracking.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "A trap built to snap where the case was weakest.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2",
+          "severity": "mild",
+          "line": "Because the authority he needed had not been given.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence states Antonidas's institutional constraint as settled fact instead of staying with the hesitation and lack of backing Sylvanas can actually observe.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "Because no one behind him stepped forward.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "mild",
+          "line": "When Vereesa finished, she folded the document once with such exact care that the motion itself became violence.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas would clock the hard fold and the paper's damage, not render the gesture in detached thematic language.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "When Vereesa finished, she folded the document once, edges aligned hard enough to crease the paper white.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "P4",
+      "severityMarkers": {
+        "mild": 3,
+        "moderateOrSevere": 0
+      },
+      "findings": [
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": "Nothing in them except the way Jaina spent them.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The breath-thin, raw delivery that makes the two words alarming.",
+          "verdict": "KILL",
+          "reason": "Unanchored interpretive summary; the sentence wants weight from Jaina's delivery without naming the audible evidence.",
+          "suggestedFix": "Two words, dragged raw enough to thin her breath.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": "A trap built by somebody who respected the spring.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The reversed-causation chain Ashcombe built from true facts, timing, and paperwork.",
+          "verdict": "KILL",
+          "reason": "Unanchored interpretive summary; the metaphor sounds sharp without naming the mechanism on the page.",
+          "suggestedFix": "A trap built to snap where the case was weakest.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": "The look was stripped down to calculation and pain.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The visible facial evidence beyond stillness, sweat, and whitened hands.",
+          "verdict": "KILL",
+          "reason": "Unanchored interpretive summary; the sentence names calculation without cashing out the readable carrier.",
+          "suggestedFix": "Pain flattened everything in Jaina's face except the hard set of her eyes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in the chapter sets up a 'plainly / short version / smaller words' translation test, so this pass found no fake-simplification candidates.",
+      "severityMarkers": {
+        "mild": 0,
+        "moderateOrSevere": 0
+      },
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 10,
+    "mildKills": 11,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 10,
+    "killsUnfixable": 1,
+    "verdict": "fail",
+    "verdictReason": "11 mild KILL findings remain across three pass-B guides, which exceeds the pass threshold of 3 mild-only findings."
+  }
+}

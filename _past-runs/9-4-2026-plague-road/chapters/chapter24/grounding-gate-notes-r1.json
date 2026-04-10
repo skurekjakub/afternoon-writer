@@ -1,0 +1,67 @@
+{
+  "chapterId": "chapter24",
+  "iteration": 1,
+  "targetFile": "v2g-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "severity": "kill",
+      "excerpt": "In the silence Sylvanas could picture her anyway: back to the wall, wrists chained, braid half ruined by rough palace hands, one side of her face still bruised where Frostmourne's guard had caught her in the chamber.",
+      "reason": "The prose slips out of cell acoustics into a free-camera reconstruction. That undercuts the confinement pressure the scene has been building through breath, chain, and masonry.",
+      "suggestedFix": "In the silence chain rasped once, then breath came again from higher in the cell, careful and upright against the wall.",
+      "fixMode": "replace-reconstruction-with-audible-carrier"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "A raised bench built for dynastic confidence rather than doubt. It might once have been used for petitions, censures, disputes over land and oath.",
+      "reason": "The room drifts into institutional summary while Sylvanas is still being physically placed under guard. The hall needs present-tense pressure, not speculative courtroom history.",
+      "suggestedFix": "A raised bench loomed over the flagstones with three dark chairs, stacked papers, and enough polished wood to make every word sound official.",
+      "fixMode": "replace-institutional-summary-with-room-fact"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Not brute restraint. Legibility.",
+      "reason": "This lands as a conceptual label instead of a visible condition. After the strong chain detail, the sentence pair briefly turns schematic.",
+      "suggestedFix": "Not dungeon iron but courtroom iron: light enough to walk in, loose enough for every bench in the hall to read prisoner before person.",
+      "fixMode": "swap-abstraction-for-visible-function"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "She had built it out of truths.\n\nA trap built to snap at the one point appearances were already weakest.",
+      "reason": "The prosecution's pressure lifts off page into summary metaphor. The scene needs paper, desk, gallery, and sequence pressure, not authorial compression.",
+      "suggestedFix": "Every true fact Ashcombe laid down left another marked page on Thornton's desk and another head in the gallery turning her way before the next lie bent it.",
+      "fixMode": "re-anchor-summary-to-room"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Then the lid came up farther, and everyone in the room felt the edge of the wrongness inside it.",
+      "reason": "The collective reaction is rendered as generic shared sensation. Frostmourne works better when the response is distributed through specific bodies in the chamber.",
+      "suggestedFix": "Then the lid came up farther. The front bench recoiled first, one priest caught the rail, and breath broke across the room in one ragged pull.",
+      "fixMode": "distribute-collective-reaction"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "The whole room felt the cruelty in it because she did not raise her voice.",
+      "reason": "This tells the emotional effect in one abstract sweep when the cross-examination already has better carriers in benches, pens, and stillness.",
+      "suggestedFix": "No one on the benches moved. Even the clerk's pen paused before it scratched on again.",
+      "fixMode": "replace-told-impact-with-room-beat"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "She held that in place at once. Not hope. Shape. A line that might still touch the outside of this prison.",
+      "reason": "The interior turn goes schematic just when the scene needs a usable external fact. The paragraph should stay with corroboration, not emotional math.",
+      "suggestedFix": "She held one fact in place: elven mages above the vault had felt the same wrongness through the paving.",
+      "fixMode": "trade-abstraction-for-actionable-fact"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Good.\n\nHorrible. Good.",
+      "reason": "The judgment stack is too abstract and self-contained. It flattens Lor'themar's report into pure valuation instead of letting the source fact carry the dread.",
+      "suggestedFix": "Good that the mages had felt it. Horrible that the feeling had already reached the paving outside the lower court.",
+      "fixMode": "attach-judgment-to-source-fact"
+    }
+  ],
+  "summary": {
+    "totalKills": 8
+  }
+}

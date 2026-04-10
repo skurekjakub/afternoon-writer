@@ -1,0 +1,109 @@
+{
+  "chapterId": "chapter21",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "pattern-1-direct-contrast-pivot",
+      "findings": [
+        {
+          "line": "Jaina listened, lips parted, not to the air but to the pressure inside it.",
+          "pattern": "1",
+          "deletionTest": "Jaina listened, lips parted, to the pressure inside it.",
+          "reason": "Pattern 1 direct contrast pivot; the negative half is removable scaffolding and the sentence lands cleaner on the positive perception.",
+          "severity": "mild",
+          "suggestedFix": "Jaina listened, lips parted, to the pressure inside it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "pattern-mixed-collective-and-ambient-agency",
+      "findings": [
+        {
+          "line": "A column had come through here too hard to feed itself properly and too driven to care.",
+          "subject": "A column",
+          "verb": "feed itself properly / care",
+          "realAgent": "The starving soldiers in the column, under command pressure and march pace, are failing to feed themselves and have no energy left for anything beyond movement.",
+          "pattern": "collective-intent",
+          "reason": "The sentence launders human exhaustion and indifference onto the column instead of naming the men and the pressure driving them.",
+          "severity": "mild",
+          "suggestedFix": "A column had come through here too hard to feed itself properly, with men too spent to care.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Fire and breathing held the room for one beat.",
+          "subject": "Fire and breathing",
+          "verb": "held",
+          "realAgent": "No one in the shelter speaks for a beat; only the brazier and the people's breathing occupy the pause.",
+          "pattern": "ambient-agency",
+          "reason": "The sentence gives ambient sound the burden of controlling the room instead of naming the actual pause and its audible contents.",
+          "severity": "mild",
+          "suggestedFix": "For one beat, only fire and breathing filled the room.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "none",
+      "cleanReason": "Count sweep completed across all seven tic families. Tightened/eased stayed at 2/0, non-said performance tags stayed at the cap rather than over it, weight/heaviness metaphor stayed singular, and the chapter never developed an eye/gaze or mouth-corner repetition cluster."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 6,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A passes with 3 mild findings and no moderate or severe kills: one negation pivot and two intent-smear transfers. The recurring-tics sweep was clean.",
+    "conservativeStrategy": true
+  }
+}

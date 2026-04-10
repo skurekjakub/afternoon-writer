@@ -1,0 +1,60 @@
+{
+  "chapterId": "chapter24",
+  "iteration": 2,
+  "targetFile": "v2g-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "severity": "kill",
+      "excerpt": "He kept writing. That was the worst of it. Not belief. Procedure.",
+      "reason": "The moment leaves the clerk's hands, pen, and sanded page for a conceptual label. In a confinement scene built on observed business, that brief abstraction floats above the cell instead of staying inside it.",
+      "suggestedFix": "He kept writing, sand already ready beside his knee, as if the page mattered more than whether the page was true.",
+      "fixMode": "replace-concept-label-with-clerk-action"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "A raised bench loomed over the flagstones with three dark chairs, stacked papers, and enough polished wood to make every word sound official. Today it had been made to hold murder.",
+      "reason": "The first sentence grounds the room well; the second jumps up into thesis. That swap weakens the shove-into-place pressure right when the hall should stay bench, wood, guards, and distance.",
+      "suggestedFix": "A raised bench loomed over the flagstones with three dark chairs, stacked papers, and enough polished wood to make every word sound official. Guards stood at the side aisles, and the center table waited under watch between the accused and the bench.",
+      "fixMode": "swap-thesis-for-room-fact"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Ashcombe was performance. Thornton was consequence.",
+      "reason": "The line reduces two distinct bodies in motion to abstract tags. The scene already has better carriers in Thornton's finger on the page, Ashcombe's pacing, and the gallery's turning heads.",
+      "suggestedFix": "Ashcombe kept the room moving, but Thornton was the one checking each cited page with a finger and leaving it on the record.",
+      "fixMode": "replace-dual-abstraction-with-bench-business"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "\"Call the exhibit,\" he said.\n\nThe whole hall went still.",
+      "reason": "This collective reaction is too generalized for a chapter that otherwise distributes pressure well. The stillness should land through specific room carriers rather than a blanket statement about everyone at once.",
+      "suggestedFix": "\"Call the exhibit,\" he said.\n\nBench wood creaked once, then even the gallery cloth went quiet.",
+      "fixMode": "distribute-collective-reaction"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Not mercy.\n\nInventory.",
+      "reason": "Sylvanas's read of the verdict turns schematic here. The ruling already has chains, commutation language, guards, and Jaina's blank face to carry the brutality without reducing it to a two-word label.",
+      "suggestedFix": "The sentence sounded administrative because that was what they wanted: living prisoners, not dead martyrs.",
+      "fixMode": "trade-label-for-situational-judgment"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Nothing.\n\nNo spark.",
+      "reason": "The reunion beat briefly shifts into emotion bookkeeping instead of staying with the failed joke between two bodies in a corridor. The scene is stronger when the dead air itself does the work.",
+      "suggestedFix": "The old answer almost came by reflex. It died there when his face did not change.",
+      "fixMode": "replace-emotion-label-with-failed-beat"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Elven boots and road dust outside the bars at last. Not enough to open the door. Enough to change the corridor.",
+      "reason": "The beat resolves into summary just when it should show what has actually changed in the wing. After all the corridor texture, the consequence needs one more visible surface.",
+      "suggestedFix": "Elven boots and road dust stood outside the bars at last, and even the human guards farther down the wing had started watching the corridor differently.",
+      "fixMode": "turn-summary-into-corridor-consequence"
+    }
+  ],
+  "summary": {
+    "totalKills": 7
+  }
+}

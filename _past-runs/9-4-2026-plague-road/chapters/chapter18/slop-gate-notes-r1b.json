@@ -1,0 +1,317 @@
+{
+  "chapterId": "chapter18",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 9,
+      "kills": 6,
+      "keeps": 3,
+      "dominantPattern": "F3",
+      "severityMarkers": [
+        "MILD",
+        "MILD",
+        "MILD",
+        "MILD",
+        "MILD",
+        "MILD"
+      ],
+      "findings": [
+        {
+          "pattern": "F3",
+          "failureMode": "Filter/Hedge Drag",
+          "severity": "MILD",
+          "line": "She had not seen them clearly at first from this height.",
+          "word": "seen",
+          "deletionTest": "Only pale. Bare.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "failureMode": "Filter/Hedge Drag",
+          "severity": "MILD",
+          "line": "Jaina watched those things and kept descending.",
+          "word": "watched",
+          "deletionTest": "She kept descending.",
+          "verdict": "KILL",
+          "suggestedFix": "She kept descending.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "failureMode": "Filter/Hedge Drag",
+          "severity": "MILD",
+          "line": "That almost made her laugh.",
+          "word": "almost",
+          "deletionTest": "The sound rose, found nothing in itself worth becoming, and died.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "failureMode": "Narrative Over-Translation",
+          "severity": "MILD",
+          "line": "It suited the word.",
+          "whatItRestates": "Her voice had gone rough with smoke.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "failureMode": "Narrative Over-Translation",
+          "severity": "MILD",
+          "line": "That was what made the turning happen.",
+          "whatItRestates": "The hand stayed where it was.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "failureMode": "Closure Addiction",
+          "severity": "MILD",
+          "line": "For her mind, nothing had become simpler at all.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Away from the fire.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "dominantPattern": "Tier B register mismatch",
+      "severityMarkers": [
+        "MILD",
+        "MILD",
+        "MILD",
+        "MILD"
+      ],
+      "findings": [
+        {
+          "pattern": "B2",
+          "tier": "B",
+          "severity": "MILD",
+          "line": "The movement beneath them did not.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can compare Arthas and Kel'Thuzad, but this abstract slogan compresses the chapter's theme more neatly than her in-body thinking does.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "tier": "A",
+          "severity": "MILD",
+          "line": "Not likeness. Capacity.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment pair lands like a caption pinned over the moment instead of a live thought Jaina is actively using.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "She was not like them. The fear was simpler: that she could keep following a line too far.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "MILD",
+          "line": "Antonidas let the answer stand, which was the closest thing to mercy he could manage.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The mercy gloss is polished authorial interpretation layered over a silence Jaina can observe without narratorial grading.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "Antonidas let the answer stand.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B4",
+          "tier": "B",
+          "severity": "MILD",
+          "line": "Hearing the place named simply turned pressure into geography.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The pressure-to-geography metaphor serves chapter theme more than Jaina's immediate sensory or tactical register.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "Hearing Northrend named fixed the next road on the map.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "dominantPattern": "P3",
+      "severityMarkers": [
+        "MILD",
+        "MILD",
+        "MILD",
+        "MILD"
+      ],
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "The thing itself.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The residue itself - the plague trace in the smoke and bread stink.",
+          "verdict": "KILL",
+          "reason": "Placeholder noun stand-in; the sentence wants weight without naming the residue it means.",
+          "suggestedFix": "The residue itself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "The answer was now in what came after.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The post-burn residue and aftermath behavior that could reveal more than the grain signature did.",
+          "verdict": "KILL",
+          "reason": "Placeholder-noun stand-in; 'the answer' hides the actual evidence Jaina expects to read next.",
+          "suggestedFix": "What came after would show her more than the grain had.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "The deeper thing showed itself only when it no longer mattered for Stratholme.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The deeper pattern or relay behavior hiding beneath the grain signature.",
+          "verdict": "KILL",
+          "reason": "Placeholder noun stand-in; the line withholds the pattern it means and leans on portent instead.",
+          "suggestedFix": "The deeper pattern only showed itself once Stratholme was beyond saving.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P2",
+          "severity": "MILD",
+          "line": "Hearing the place named simply turned pressure into geography.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The named destination - Northrend - as the place where Arthas and Jaina's source model now point.",
+          "verdict": "KILL",
+          "reason": "Tactical-prestige compression; the sentence sounds sharp but avoids naming the operative payload already present in the exchange.",
+          "suggestedFix": "Hearing Northrend named fixed the next road on the map.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "severityMarkers": [],
+      "cleanReason": "No dialogue exchange in the chapter sets up a simplification test with prompts like 'plainly', 'smaller words', 'short version', or equivalent street-level translation demands."
+    }
+  ],
+  "summary": {
+    "totalKills": 14,
+    "totalKeeps": 7,
+    "mildKills": 14,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 14,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B found 14 mild kills; more than 3 mild-only kills fails the pass."
+  }
+}

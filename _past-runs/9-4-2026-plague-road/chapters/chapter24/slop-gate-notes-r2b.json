@@ -1,0 +1,242 @@
+{
+  "chapterId": "chapter24",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 5,
+      "keeps": 1,
+      "severity": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": "He glanced upward.",
+          "issue": "generic label beat",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "That hurt worse to watch than if she had.",
+          "whatItRestates": "Jaina never turned toward him.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "By the time Uther was called, the people in the chamber were ready to believe anything that left blame elsewhere.",
+          "whatItRestates": "The open chest, blackening ward paste, and room-wide fear have already primed the tribunal audience.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "That hurt more than the dust.",
+          "whatItRestates": "Lor'themar's exhausted, unsmiling arrival lands harder than the road dust on him.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "Back into stone boxes under a kingdom that had just named its own saviors regicides.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Past the cold.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "severity": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "B1",
+      "registerSummary": "Sylvanas thinks in clipped tactical assessments, dry contempt, and concrete reads of bodies, exits, pressure, and competence. She can compress hard, but her compression stays operational and bodily rather than authorially thematic.",
+      "registerConfidence": "HIGH",
+      "findings": [
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "mild",
+          "line": "Worse luck for everyone.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The neat omnibus aside belongs to an authorial voice; Sylvanas would think in terms of who this hurts or what it changes, not a polished shrug about everyone.",
+          "confidence": "moderate",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2",
+          "tier": "B",
+          "severity": "mild",
+          "line": "The listeners heard the state, not the sister.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can read Vereesa's body and the hall's reaction, but this sentence compresses the whole room into a polished political thesis instead of staying with observable evidence.",
+          "confidence": "moderate",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5",
+          "tier": "A",
+          "severity": "mild",
+          "line": "Something hard and old in Sylvanas shifted a finger's width.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This is a scene-state declaration about Sylvanas's interior rather than a concrete bodily cue she would register from inside herself.",
+          "confidence": "high",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severity": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "Ashcombe gave him sequence.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The ordered chain of links in Ashcombe's causation case.",
+          "verdict": "KILL",
+          "reason": "The sentence leans on an abstract stand-in instead of naming the concrete thing Ashcombe is giving Thornton.",
+          "suggestedFix": "Ashcombe gave him one link after another.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": "The blade above had taken judgment for permission.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The concrete escalation already on the page: colder air, frost on the blanket, and the blue-based torch after the verdict.",
+          "verdict": "KILL",
+          "reason": "The sentence turns the blade's post-verdict escalation into sloganized abstraction instead of leaving the concrete signs to do the work.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Re-read the chapter's dialogue for explicit simplification setups ('plainly', 'short version', 'smaller words', 'what does that mean here'). None occur. The Jaina and Lor'themar exchanges transmit information directly without a translation frame, so this guide had no valid candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 7,
+    "mildKills": 10,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still carries 10 mild KILL findings after revision; with more than 3 mild-only findings remaining, the pass fails and should return to slophunter revision."
+  }
+}

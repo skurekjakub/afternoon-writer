@@ -1,0 +1,331 @@
+{
+  "chapterId": "chapter25",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 10,
+      "kills": 9,
+      "keeps": 1,
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "severityMarkers": {
+        "mild": 9,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterWarnings": [
+        "Fragment pivots repeat across both scenes.",
+        "Narration and dialogue both use the pivot rhythm."
+      ],
+      "findings": [
+        {
+          "pattern": "pattern-2-fragment-pivot",
+          "severity": "mild",
+          "line": 7,
+          "text": "Not winter cold. Winter stopped at the skin. This kept going.",
+          "deletionTest": "Winter stopped at the skin. This kept going.",
+          "reason": "Pattern 2 fragment pivot; the negative half is dead weight once the positive description arrives.",
+          "suggestedFix": "Winter stopped at the skin. This kept going.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-5-preamble-negation",
+          "severity": "mild",
+          "line": 43,
+          "text": "\"It isn't just throwing hunger in every direction now. It touches, tests, lets go.\"",
+          "deletionTest": "\"It touches, tests, lets go.\"",
+          "reason": "Pattern 5 preamble negation; the first sentence only delays the real claim.",
+          "suggestedFix": "\"It touches, tests, lets go.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-2-fragment-pivot",
+          "severity": "mild",
+          "line": 125,
+          "text": "Silence stretched. Not empty. Listening.",
+          "deletionTest": "Silence stretched. Listening.",
+          "reason": "Pattern 2 fragment pivot; the negated beat is scaffolding before the real state.",
+          "suggestedFix": "Silence stretched while Sylvanas listened.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-8-mundane-reveal-chain",
+          "severity": "mild",
+          "line": 145,
+          "text": "Not laughter. Not a sigh. More like the breath a fighter lets out when a blow lands where it was meant to.",
+          "deletionTest": "More like the breath a fighter lets out when a blow lands where it was meant to.",
+          "reason": "Pattern 8 reveal chain; the description works once the rejected options are removed.",
+          "suggestedFix": "More like the breath a fighter lets out when a blow lands where it was meant to.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-2-fragment-pivot",
+          "severity": "mild",
+          "line": 219,
+          "text": "Not ordinary dark. Palace dark still had traces in it: a seam of light under a door, the pale bleed of old stone, the memory of a corridor beyond. This came in thick.",
+          "deletionTest": "Palace dark still had traces in it: a seam of light under a door, the pale bleed of old stone, the memory of a corridor beyond. This came in thick.",
+          "reason": "Pattern 2 fragment pivot; the sentence survives cleanly without the throat-clearing negation.",
+          "suggestedFix": "Palace dark still had traces in it: a seam of light under a door, the pale bleed of old stone, the memory of a corridor beyond. This came in thick.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-2-fragment-pivot",
+          "severity": "mild",
+          "line": 237,
+          "text": "Not hungry like the blade. Watching.",
+          "deletionTest": "Watching.",
+          "reason": "Pattern 2 fragment pivot; the line improves when it names the actual quality directly.",
+          "suggestedFix": "Watching.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-10-expression-decomposition-cousin",
+          "severity": "mild",
+          "line": 305,
+          "text": "Not a smile. Recognition of a neat hit.",
+          "deletionTest": "Recognition of a neat hit.",
+          "reason": "Pattern 10 refuses the expression before naming the real beat.",
+          "suggestedFix": "Recognition of a neat hit.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-3-source-swap-pivot",
+          "severity": "mild",
+          "line": 361,
+          "text": "Not from tonight alone. From the road.",
+          "deletionTest": "From the road.",
+          "reason": "Pattern 3 source-swap pivot; the source lands cleanly without first refusing the wrong one.",
+          "suggestedFix": "From the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-7-chained-negation",
+          "severity": "mild",
+          "line": 379,
+          "text": "Not coincidence. Not provincial habit. A tell.",
+          "deletionTest": "A tell.",
+          "reason": "Pattern 7 chained negation builds a hallway to the noun instead of naming it directly.",
+          "suggestedFix": "A tell.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 9,
+      "kills": 6,
+      "keeps": 3,
+      "dominantPattern": "architecture-and-abstractions-carrying-volition",
+      "severityMarkers": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterWarnings": [
+        "Jaina's analytical prison scene carries multiple abstraction/architecture smears.",
+        "The targeted P5/P6 sweep found additional room/abstract-subject motion verbs."
+      ],
+      "findings": [
+        {
+          "pattern": "pattern-5-object-deserving",
+          "severity": "mild",
+          "line": 57,
+          "text": "The wall deserved plain speech.",
+          "subject": "wall",
+          "verb": "deserved",
+          "realAgent": "Jaina chooses clarity because stone blunts anything ornate.",
+          "reason": "Pattern 5 gives an object a human standard of deserving instead of naming the communication constraint.",
+          "suggestedFix": "Plain speech carried best through stone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-6-architecture-with-physical-behavior",
+          "severity": "mild",
+          "line": 69,
+          "text": "The palace itself was giving ground to the sword.",
+          "subject": "palace",
+          "verb": "was giving ground",
+          "realAgent": "The sword's cold and pressure are working deeper into the palace stone.",
+          "reason": "The line launders the physical change onto the palace instead of naming the concrete intrusion.",
+          "suggestedFix": "The sword's cold was working deeper into the palace stone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-5-object-earning",
+          "severity": "mild",
+          "line": 137,
+          "text": "Jaina closed her eyes and gave the wall what it had earned.",
+          "subject": "wall",
+          "verb": "had earned",
+          "realAgent": "Jaina decides to say the truth into the stone between them.",
+          "reason": "The wall is given human credit for earning the confession instead of naming Jaina's choice.",
+          "suggestedFix": "Jaina closed her eyes and said it into the stone between them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-9-abstract-truth-acting",
+          "severity": "mild",
+          "line": 143,
+          "text": "The truth landed harder than the verdict had.",
+          "subject": "truth",
+          "verb": "landed",
+          "realAgent": "Jaina feels the spoken admission hit harder than the verdict.",
+          "reason": "The abstraction performs the impact instead of leaving the force on Jaina's perception.",
+          "suggestedFix": "Saying it hit harder than the verdict had.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-6-room-with-physical-behavior",
+          "severity": "mild",
+          "line": 231,
+          "text": "One moment the cell held only Sylvanas and the dark. The next it held another body, and the space between them shortened as if the room itself had given up ground.",
+          "subject": "room",
+          "verb": "had given up ground",
+          "realAgent": "The creature's sheer size and presence shrink the usable space.",
+          "reason": "The room is made to retreat instead of naming the physical pressure the creature creates.",
+          "suggestedFix": "One moment the cell held only Sylvanas and the dark. The next it held another body, and the space between them shortened under its size.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-6-architecture-waiting",
+          "severity": "mild",
+          "line": 259,
+          "text": "\"The sword will take another hand. The roads he opened remain open. The cells you never found are still waiting. One man was useful. He was never the whole design.\"",
+          "subject": "cells",
+          "verb": "are still waiting",
+          "realAgent": "Hidden plague cells remain undiscovered and active.",
+          "reason": "The architecture is given patient agency instead of naming the concrete state of the hidden sites.",
+          "suggestedFix": "\"The sword will take another hand. The roads he opened remain open. You still never found all the cells. One man was useful. He was never the whole design.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 9,
+      "kills": 1,
+      "keeps": 8,
+      "dominantPattern": "tic-1-corner-of-mouth-micro-expression",
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "countsByTic": {
+        "tic1_corner_of_mouth": 2,
+        "tic3_tightened_eased": 2,
+        "tic4_facial_shifted": 1,
+        "tic5_eye_gaze": 2,
+        "tic6_weight_heaviness": 2
+      },
+      "findings": [
+        {
+          "pattern": "tic-1-corner-of-mouth-micro-expression",
+          "severity": "mild",
+          "line": 305,
+          "text": "One corner of its mouth shifted. Not a smile. Recognition of a neat hit.",
+          "countInChapter": 2,
+          "hardCap": 1,
+          "reason": "This is the second corner-of-mouth micro-expression in the chapter, and it is the weaker, more generic use.",
+          "suggestedFix": "Recognition flickered across its face.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 16,
+    "totalKeeps": 12,
+    "mildKills": 16,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 16,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A fails because the chapter still carries 16 mild findings across negation pivots, intent-smear abstractions, and one excess recurring tic; more than 3 mild kills remain."
+  }
+}

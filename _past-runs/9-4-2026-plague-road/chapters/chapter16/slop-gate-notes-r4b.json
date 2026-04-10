@@ -1,0 +1,139 @@
+{
+  "chapterId": "chapter16",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 9,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F6",
+      "findings": [
+        {
+          "pattern": "F6",
+          "severity": "MILD",
+          "line": "Jaina lost the victory the moment she saw the yard outside.",
+          "paragraphLocation": "yard-outside reversal paragraph opening",
+          "issue": "thesis opening",
+          "reason": "The sentence states the paragraph's conclusion before the bread-in-hands evidence arrives, giving the paragraph an essay-style claim-first structure.",
+          "suggestedFix": "Outside, bread was already in children's hands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "MILD",
+          "line": "Stratholme's people still moved by habit.",
+          "paragraphLocation": "service-lanes paragraph opening",
+          "issue": "thesis opening",
+          "reason": "The paragraph opens on a generalized claim, then spends the rest of the paragraph supplying the concrete evidence that should have carried the point first.",
+          "suggestedFix": "People still moved through the service lanes on morning errands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 1,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "B2",
+      "findings": [
+        {
+          "pattern": "B2",
+          "severity": "MILD",
+          "line": "He still needed it spoken plain.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can read Uther's grave attention, but this sentence compresses his inferred demand into a polished internal summary instead of staying with what she can actually see from him.",
+          "confidence": "MODERATE",
+          "suggestedFix": "He waited.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 8,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3/P4",
+      "findings": [
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "line": "The workers nearest the doors did the worst thing possible and froze.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The concrete action is simply that they froze in place; 'worst thing possible' is an abstract ranking laid over the action.",
+          "reason": "The sentence uses interpretive summary instead of naming the visible failure directly.",
+          "suggestedFix": "The workers nearest the doors froze.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "Then Arthas would reach the gate and ask the only question that mattered, and she would answer it late.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The sentence avoids naming the actual question: whether the city could still be saved.",
+          "reason": "The line leans on prestige abstraction ('the only question that mattered') where the scene already knows the specific claim.",
+          "suggestedFix": "Then Arthas would reach the gate and ask if the city could still be saved, and she would answer too late.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 6,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still contains 5 mild kills across GPT-5 prose issues, narrator seep, and phantom concreteness; the pass threshold is 3 or fewer mild-only kills."
+  }
+}

@@ -2,7 +2,7 @@
 
 Configuration schemas, artifact formats, agent protocols, and operational details for the afternoon pipeline.
 
-**Updated:** 2025-07-14
+**Updated:** 2026-04-06
 
 ---
 
@@ -53,10 +53,14 @@ Location: `.afternoon/config.json`
     "styleTarget": "stories/dramione/dramione-1-original.md"
   },
   "agents": {
-    "expander": {
+    "grounder": {
       "enabled": true
     },
-    "grounder": {
+    "groundingGate": {
+      "enabled": false,
+      "maxIterations": 3
+    },
+    "expander": {
       "enabled": true
     },
     "slopGate": {
@@ -80,10 +84,12 @@ Location: `.afternoon/config.json`
 | `priming.antiSlop` | Yes | string[] | Slop detection resources — files and directories |
 | `priming.craft` | Yes | string[] | Craft technique reference files |
 | `priming.styleTarget` | Yes | string | Style target file — register, rhythm, and tag density to match |
+| `agents.grounder.enabled` | No | boolean | `false` skips grounder entirely (`cp v2.md v2g.md`) and skips the grounding-gate. Default `true` |
+| `agents.groundingGate.enabled` | No | boolean | `true` enables grounding-gate after grounder and before expander. Default `false` |
+| `agents.groundingGate.maxIterations` | No | integer | Max grounder revision → re-audit cycles before promote-and-continue. Default `3` |
 | `agents.expander.enabled` | No | boolean | `false` skips expander entirely (`cp v2g.md v3.md`). Default `true` |
 | `agents.slopGate.enabled` | No | boolean | `false` skips slop-gate entirely (v2.md passes unchecked to grounder). Default `true` |
-| `agents.slopGate.maxIterations` | No | integer | Max slophunter revision → re-audit cycles before halt. Default `5` |
-| `agents.grounder.enabled` | No | boolean | `false` skips grounder entirely (`cp v2.md v2g.md`). Default `true` |
+| `agents.slopGate.maxIterations` | No | integer | Max slophunter revision → re-audit cycles before promote-and-continue. Default `5` |
 | `completionMarker` | Yes | string | String the orchestrator prints when done. Start script watches for this |
 
 All paths are relative to the repository root.
@@ -241,9 +247,10 @@ Each editing agent produces a notes JSON alongside its output:
 |-------|-----------|------------|
 | Slophunter | `slophunter-notes.json` | counts (before/after/caps), changes[], flags, flaggedForExpander, wordCount |
 | Expander | `expander-notes.json` | expansions[], skipped[], metrics |
-| Grounder | `grounder-notes.json` | per-scene enrichment log (biggest gap, enrichment applied), wordcount growth |
-| Slop-Gate | `slop-gate-notes.json` (or `slop-gate-notes-r{N}.json` on re-audit) | Pipeline artifact: KILL findings only, per-guide audit sections with `suggestedFix` per KILL (cross-checked against all audit guides), `cleanReason` for zero-kill guides, verdict, `killsWithFix`/`killsUnfixable` counts. Separate `slop-gate-scratchpad.md` contains all KEEP decisions for human audit. |
-| Style-Editor | `style-notes.json` | checks (1-6 results), fixes[], flags |
+| Grounder | `grounder-notes.json` | grounding mode, global risks, per-scene enrichment log, dialogue/final-third audit notes, wordcount growth |
+| Grounding-Gate | `grounding-gate-notes.json` (or `grounding-gate-notes-r{N}.json` on re-audit) | KILL findings only, per-sweep failures with `suggestedFix`, `fixMode`, severity, verdict summary. Separate `grounding-gate-scratchpad.md` contains KEEP decisions and defense reasoning. |
+| Slop-Gate | `slop-gate-notes-a.json` / `slop-gate-notes-b.json` (or `slop-gate-notes-r{N}a.json` / `slop-gate-notes-r{N}b.json` on re-audit) | Pipeline artifact: pass-specific KILL findings only, per-guide audit sections with `suggestedFix` per KILL (cross-checked against the current pass guide pack), `cleanReason` for zero-kill guides, verdict, `killsWithFix`/`killsUnfixable` counts. Separate `slop-gate-scratchpad-a.md` / `slop-gate-scratchpad-b.md` contain KEEP decisions for human audit. |
+| Style-Editor | `style-notes.json` | checks (1-7 results), fixes[], flags |
 
 All notes files follow the same pattern: log what you found, log what you changed, log before/after metrics. Downstream agents may read upstream notes (style-editor reads slophunter-notes and expander-notes for context).
 
@@ -261,7 +268,7 @@ Location: `.afternoon/agents/{agent-name}/status.json`
 
 Status values: `"completed"`, `"failed"`, `"in-progress"`
 
-The slop-gate adds a `verdict` field to its status.json: `"pass"` or `"fail"`. The orchestrator routes on `verdict`, not `status`. A gate that runs successfully but finds violations writes `status: "completed", verdict: "fail"`.
+The slop-gate and grounding-gate add a `verdict` field to status.json: `"pass"` or `"fail"`. The orchestrator routes on `verdict`, not `status`. A gate that runs successfully but finds violations writes `status: "completed", verdict: "fail"`. The slop-gate also reports `pass`, `iteration`, and `totalFindings` so the orchestrator can manage the split slop-gate revision loop; the grounding-gate reports `iteration` and `totalFindings` for its own loop.
 
 The orchestrator reads ONLY this file to determine agent completion. It never checks output file existence.
 
@@ -304,7 +311,10 @@ Location: `.afternoon/manifest.json`
 }
 ```
 
-The orchestrator owns this file exclusively. No other agent reads or writes it. It enables crash recovery — on restart, the orchestrator reads `currentChapter` and `currentAgent` to resume from the point of failure. During the slop-gate revision loop, the manifest also contains a `slopGateLoop` object tracking `iteration`, `phase`, `feedbackPath`, and `targetFile` for precise loop recovery.
+The orchestrator owns this file exclusively. No other agent reads or writes it. It enables crash recovery — on restart, the orchestrator reads `currentChapter` and `currentAgent` to resume from the point of failure. During gate loops, the manifest may also contain:
+- `slopGateLoop` — tracks `iteration`, `phase`, `feedbackPathA`, `feedbackPathB`, `targetFile`, and per-pass kill counts (`iterationKillsA`, `iterationKillsB`) for slophunter revision recovery
+- `groundingGateLoop` — tracks `iteration`, `phase`, feedback path, target file, and per-iteration finding counts for grounder revision recovery
+- warning fields such as `slopGateExhausted`, `grounderDegraded`, or `groundingGateExhausted`
 
 Key fields:
 - `status`: "in-progress", "completed", "completed-with-blocks", or "halted-flagged"
@@ -324,7 +334,13 @@ Default marker: `===AFTERNOON DONE===`
 
 ## Agent Dispatch Protocol
 
-Most agents are dispatched with a single prompt: `"chapterId: {chapterId}"`. The slophunter in revision mode receives additional parameters: `"chapterId: {chapterId}, mode: revision, iteration: {N}, feedbackPath: {path}"`. The slop-gate on re-audit receives: `"chapterId: {chapterId}, iteration: {N}, targetFile: v2-r{N}.md"`.
+Most agents are dispatched with a single prompt: `"chapterId: {chapterId}"`.
+
+Revision/audit variants:
+- Slophunter revision mode: `"chapterId: {chapterId}, mode: revision, iteration: {N}, feedbackPath: {path}"`
+- Slop-gate re-audit: `"chapterId: {chapterId}, iteration: {N}, targetFile: v2-r{N}.md"`
+- Grounder revision mode: `"chapterId: {chapterId}, mode: revision, iteration: {N}, feedbackPath: {path}, targetFile: {priorGroundedFile}"`
+- Grounding-gate re-audit: `"chapterId: {chapterId}, iteration: {N}, targetFile: v2g-r{N}.md"`
 
 Each agent:
 1. Reads config.json to find all file paths
@@ -347,10 +363,10 @@ Before writing or editing, agents read the full anti-slop priming stack:
 - `editor-guide.md` — what to cut first
 
 ### Layer 2: Targeted hunting (slophunter)
-The slophunter executes 10 specific hunts with measurable before/after counts. It produces a notes JSON proving what it found and fixed.
+The slophunter executes 11 specific hunts with measurable before/after counts. It produces a notes JSON proving what it found and fixed. Its dialogue-register hunt now also kills fake simplification: answers that pretend to translate technical or tactical thinking into plain speech but still hide behind category labels, memo language, or generic consequences instead of usable targets and triggers.
 
 ### Layer 2.5: Adversarial verification (slop-gate)
-The slop-gate reads the slophunter's output and audits it against every guide in `resources/*.md`. For each KILL finding, it writes a concrete `suggestedFix` — a replacement that has been cross-checked against all audit guides to avoid introducing new violations. On later iterations when the loop oscillates, the gate switches to conservative fix strategy (prefer deletion, minimal substitution). On fail, the slophunter is re-dispatched in revision mode to apply the gate's pre-validated suggestions (with latitude for voice/flow adjustment), then runs a **rewrite self-audit** on changed passages to catch violations introduced by the rewrites themselves. This converging feedback loop replaces improvised rewrites with targeted, pre-checked fixes.
+The slop-gate reads the slophunter's output and audits it in two passes. Pass A owns the high-confidence mechanical guides; pass B owns the contextual/register guides. For each KILL finding, it writes a concrete `suggestedFix` — a replacement that has been cross-checked against the current pass guide pack to avoid introducing new violations inside that pass. Its detection surface now treats **phantom concreteness** and **fake simplification** as separate pass-B guides: phantom concreteness covers sharp-sounding narration or dialogue that still lacks observable evidence, named mechanism, or plain claim, while fake simplification covers replies that claim to put things in smaller words or street terms but still do not tell another person what door, cart, oven, route, or trigger matters. On later iterations when a given pass oscillates, that pass switches to conservative fix strategy (prefer deletion, minimal substitution). If either pass fails, the slophunter is re-dispatched in revision mode to apply both passes' pre-validated suggestions, then runs a **rewrite self-audit** on changed passages — including the slop hitlist — to catch violations introduced by the rewrites themselves. This converging feedback loop replaces improvised rewrites with targeted, pre-checked fixes. The slop-gate prompt itself is now thin; its full operating procedure lives in `afternoon-slop-gate-workflow`, which loads read-workspace, defense-filter, pass-routed audit, decision, and output phases progressively.
 
 ### Layer 3: Leftover sweep (style-editor)
 The style-editor's check #6 catches any AI patterns the slophunter missed — attribution over-explanation, parallel structure, emotional telling, scene clichés.

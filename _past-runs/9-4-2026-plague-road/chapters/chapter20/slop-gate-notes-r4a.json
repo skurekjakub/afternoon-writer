@@ -1,0 +1,237 @@
+{
+  "chapterId": "chapter20",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 4,
+      "keeps": 1,
+      "killRate": 80,
+      "dominantPattern": "pattern-1-direct-contrast-pivot",
+      "severityMarkers": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": "The crew needed hands, not apology.",
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "deletionTest": "The crew needed hands.",
+          "verdict": "KILL",
+          "reason": "Pattern 1 direct contrast pivot; the sentence survives when the negative half is removed.",
+          "severity": "mild",
+          "suggestedFix": "The crew needed hands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Sylvanas had come to stand beside the rail stanchion, not crowding, not touching. Only present.",
+          "pattern": "pattern-7-triple-chained-negation",
+          "deletionTest": "Sylvanas had come to stand beside the rail stanchion. Only present.",
+          "verdict": "KILL",
+          "reason": "Pattern 7 chained negation plus fragment reveal; the negative half is scaffolding around the real beat.",
+          "severity": "mild",
+          "suggestedFix": "Sylvanas had come to stand beside the rail stanchion and wait there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Then she slid her magic into the same motion, not making a second engine so much as shaving the worst edge off the sea's refusal where it struck.",
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "deletionTest": "Then she slid her magic into the same motion, shaving the worst edge off the sea's refusal where it struck.",
+          "verdict": "KILL",
+          "reason": "Pattern 1 direct contrast pivot; the sentence improves when it starts with the actual action.",
+          "severity": "mild",
+          "suggestedFix": "Then she slid her magic into the same motion, shaving the worst edge off the opposing drag where it struck.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Too late for comfort, not too late to keep after Arthas.",
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "deletionTest": "Still time to keep after Arthas.",
+          "verdict": "KILL",
+          "reason": "Pattern 1 direct contrast pivot; the second half carries the meaning and the refused half is dramatic scaffolding.",
+          "severity": "mild",
+          "suggestedFix": "Too late for comfort. Still time to keep after Arthas.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 9,
+      "kills": 7,
+      "keeps": 2,
+      "killRate": 77.8,
+      "dominantPattern": "pattern-5-objects-wanting-refusing-deciding",
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 2,
+        "severe": 0
+      },
+      "clusterWarnings": [
+        "High-risk analytical POV section: magical-pressure passages repeatedly launder agency onto abstract force nouns.",
+        "Dedicated P5/P6 resweep confirmed repeated abstract-force-to-body and abstract-force-to-environment smears."
+      ],
+      "findings": [
+        {
+          "line": "One line, harder than before, rising out of the horizon and fastening somewhere behind her teeth.",
+          "subject": "line",
+          "verb": "fastening",
+          "realAgent": "Jaina's bodily perception of the northward pull tightening under the resonance.",
+          "verdict": "KILL",
+          "reason": "Pass-A resweep hit: an abstract route signal is being settled into a body part instead of naming the bodily effect.",
+          "severity": "moderate",
+          "suggestedFix": "One line rose out of the horizon, harder than before. An ache set in behind her teeth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "water that rejected it",
+          "subject": "water",
+          "verb": "rejected",
+          "realAgent": "the supernatural resistance in the route and wind",
+          "verdict": "KILL",
+          "reason": "Pattern 5: the sentence gives refusal to the water instead of naming the hostile resistance acting through it.",
+          "severity": "mild",
+          "suggestedFix": "resistant water",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "By midnight the sea had erased even the idea of coast.",
+          "subject": "sea",
+          "verb": "erased",
+          "realAgent": "distance, darkness, and the loss of visible shore markers",
+          "verdict": "KILL",
+          "reason": "Pattern 2: the scene gives the sea judgment-level agency instead of naming the visible conditions that removed the coast.",
+          "severity": "mild",
+          "suggestedFix": "By midnight the coast was gone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Jaina released before the answering pressure could find her fully.",
+          "subject": "pressure",
+          "verb": "find",
+          "realAgent": "the retaliatory backlash running back along her spell line",
+          "verdict": "KILL",
+          "reason": "Pattern 5: the pressure is given targeting behavior instead of the prose naming the backlash hitting her.",
+          "severity": "mild",
+          "suggestedFix": "Jaina released before the answering pressure hit full force.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The wind found her at once.",
+          "subject": "wind",
+          "verb": "found",
+          "realAgent": "the hostile backlash striking her along the opened spell line",
+          "verdict": "KILL",
+          "reason": "Pattern 5: the line gives the wind seeking behavior instead of naming the impact.",
+          "severity": "mild",
+          "suggestedFix": "The wind hit her at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The pressure she had been following no longer lived only in magic. It had entered air and water and light themselves, flattening all three into one harder world.",
+          "subject": "pressure",
+          "verb": "entered",
+          "realAgent": "the source's ambient effect saturating the environment near Northrend",
+          "verdict": "KILL",
+          "reason": "Pattern 5/9 hybrid: the abstract pressure behaves like an invading actor instead of the prose stating how the environment has changed.",
+          "severity": "moderate",
+          "suggestedFix": "The pressure she had been following no longer lived only in magic. Air, water, and light had all flattened into one harder world.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The name did nothing to soften the place.",
+          "subject": "name",
+          "verb": "soften",
+          "realAgent": "nothing in the visible cove changed when Dagny named it",
+          "verdict": "KILL",
+          "reason": "Pattern 5: the sentence gives the name softening power instead of stating that the place stayed as harsh as it looked.",
+          "severity": "mild",
+          "suggestedFix": "The name changed nothing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "killRate": 0,
+      "dominantPattern": null,
+      "cleanReason": "Counted the full tic set. Tightened appeared once in a physical-use slot, eased appeared once in a bodily-recovery slot, eye/gaze beats stayed at three functional instances, and non-'said' performance tags stayed at one actual low-volume beat. No corner-of-mouth, marked, shifted-expression, or weight-metaphor cluster crossed a cap.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 9,
+    "mildKills": 9,
+    "moderateOrSevereKills": 2,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 11,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still contains 11 KILLs, including 2 moderate intent-smear failures in the magical-pressure passages, so the chapter must return to slophunter revision."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "chapterId": "chapter22",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "exactText": "No. The weakness lived in the turn itself, the instant when the blade had to be both things at once.",
+          "pattern": 2,
+          "deletionTest": "The weakness lived in the turn itself, the instant when the blade had to be both things at once.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the negated beat is dead scaffolding and the sentence lands cleanly from the positive claim.",
+          "suggestedFix": "The weakness lived in the turn itself, the instant when the blade had to be both things at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "exactText": "No neat corpse-word for it. None of Kel'Thuzad's pretty dead language.",
+          "pattern": 2,
+          "deletionTest": "[delete both sentences]",
+          "severity": "mild",
+          "reason": "Negation preamble; the actual payload starts with the blade-mechanic lines that follow, so these refusal fragments are decorative scaffolding.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "dominantPattern": "pattern-8-body-part-agency",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": false,
+      "findings": [
+        {
+          "exactText": "The corner of her mouth kicked once.",
+          "subject": "corner of her mouth",
+          "verb": "kicked",
+          "realAgent": "Jaina giving a brief smile/reaction",
+          "pattern": 8,
+          "severity": "mild",
+          "reason": "Pattern 8 body-part agency; the micro-reaction belongs to Jaina, not to an autonomous mouth-corner.",
+          "suggestedFix": "She smiled once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "Checked corner-of-mouth, tightened, looked/looked up, and related gaze beats. Counts stayed within chapter caps or were functional scanning / blocking beats rather than generic emotional repetition."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 7,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Three mild pass-A issues remain: two negation pivots and one body-part agency line. No moderate or severe findings survived the sweep."
+  }
+}

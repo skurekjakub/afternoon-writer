@@ -1,0 +1,163 @@
+{
+  "chapterId": "chapter16",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 5-9: opener stays inside the guide's 7-14 word centerline, then breaks pressure with short fragments ('The lead was measured in ovens now. Shutters opening onto breakfast tables.') instead of flattening into medium-sentence prose.",
+        "Lines 37-39: three one-line sensory beats ('Warm yeast. Woodsmoke. Sweetness underneath.') earn their isolation and satisfy the emphasis rule by arriving after fuller road paragraphs.",
+        "Lines 81-84: Jaina's tactile read of the grain stretches into a longer introspective sentence, then punctures it with two blunt lines ('Here it still held together. / Here it could still be broken.') exactly as the introspection standard requires.",
+        "Lines 167-173: the service-lane survey risks fragment monotony, but the whistle interrupt at line 173 resets cadence before the list can turn metronomic.",
+        "Lines 271-303: the gate confrontation maps power through rhythm well—Arthas gets clipped demands ('Well?' / 'How many districts?' / 'Can the city still be saved?'), while Jaina carries the longer evidence-bearing clauses before snapping down to 'No.'"
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Lines 17-29: Jaina translates mechanism into street-useful language ('service gate,' 'Bakehouses,' 'that block is gone') instead of hiding in abstract magical terminology.",
+        "Lines 77-104: magical vocabulary stays embodied and world-native—'pull,' 'preserving shell,' 'weave,' 'frost'—with no lab-report leakage or modern technical jargon.",
+        "Lines 146-159: the chapter names the real problem in bread, steam, hands, and district distance rather than summarizing with planner or briefing language.",
+        "Lines 221-231: Jaina's counting pass remains concrete—rolls, baskets, kitchens, stomachs—so the conclusion is earned from visible carriers instead of narrator summary.",
+        "Global search check: no banned document-voice offenders from the anti-slop hitlist or style guide survived in narration or dialogue (no vector/source-path jargon, no process-language abstractions, no therapeutic or scientific memo diction)."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "metaphorCompliance",
+      "observations": [
+        "Line 9: 'The lead was measured in ovens now' is a clean pressure image sourced from the chapter's working reality; it sharpens urgency without ornament.",
+        "Line 33: 'an ordinary morning that had not yet learned what it was carrying' is mild personification, but it stays tied to dread escalation rather than decorative flourish.",
+        "Line 96: 'the way a hand reaches into foul water for the bottom' is a single tactile comparison that clarifies method and bodily revulsion in one stroke.",
+        "Line 269: 'the city's oldest oath dragged into armor' uses institutional/court-life imagery appropriate to Uther's moral weight; it does not collide with the chapter's other source domains.",
+        "Whole-chapter density check: figurative language stays sparse at roughly 1.6 fresh images per 1000 words, below the style guide's nominal 2-4 band but consistent with the chapter's tightening horror pressure. No mixed metaphors, stacked similes, or epic-fantasy abstraction clutter found."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "Paragraph-cadence check: the chapter lives overwhelmingly in 1-4 sentence paragraphs, matching the style guide's default visual rhythm.",
+        "Lines 5, 167, 171, 207, 261, and 269 are the densest descriptive/thought paragraphs; each is followed by shorter beats, dialogue, or motion, so the page never stacks dense blocks back to back.",
+        "Line 269 runs about 108 words across 7 sentences—dense but still under the guide's ~120-word ceiling, and it is justified by threat assessment plus entrance staging.",
+        "Scene boundary at line 144 uses a clean break into the bread-in-hands reversal rather than a summary bridge, so the chapter's midpoint turn lands with proper force.",
+        "Line 173 violated the transition convention by leaning on temporal scaffolding ('Then'); revised to an immediate carrier detail ('A whistle cut through the lane.') so the move is driven by event, not by clockword.",
+        "Line 261 also leaned on clock scaffolding ('By the time'); revised to 'At the southern approach, Arthas's column hit first as sound, then sight' so the gate approach enters through sensation and consequence instead of summary timing."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 173,
+          "rule": "sceneTransitionConventions — avoid temporal scaffolding unless clarity requires it",
+          "before": "Then the whistle cut through the lane.",
+          "after": "A whistle cut through the lane."
+        },
+        {
+          "line": 261,
+          "rule": "sceneTransitionConventions — move by consequence rather than clock time",
+          "before": "By the time they reached the southern approach, Arthas's column had become sound before sight.",
+          "after": "At the southern approach, Arthas's column hit first as sound, then sight."
+        }
+      ]
+    },
+    {
+      "dimension": "dialogueAttribution",
+      "observations": [
+        "Overall dialogue-to-narration ratio lands around 17:83. That is far below the style guide's chapter-level 45:55 target, but the distribution tracks scene type: ride/opening roughly 20:80, warehouse-action core roughly 5:95, and the gate confrontation rises to roughly 26:74. I did not force this upward because adding speech would violate the chapter's pressure logic.",
+        "Before fixes, creative spoken tags sat at 4 of 27 attributed lines (about 14.8%), above the guide's under-8% preference. After fixes, that drops to 2 of 27 (about 7.4%), which brings the chapter back under the cap without sanding off acoustically justified pressure.",
+        "Line 11 keeps 'called' on meta-audit review because the riders are mounted and separated by road noise; that tag contributes real sound texture. Lines 13 and 47 did not earn that extra force and were flattened to no-frills attribution.",
+        "Line 191 keeps 'snapped' because the command is an interruption beat under active threat; this is one of the rare places where a stronger tag changes the pressure instead of merely decorating it.",
+        "Lines 154-161, 251-257, and 291-303 rely on short untagged exchanges, but speaker clarity holds because the scene has only two live voices at a time and each exchange is pinned by surrounding action or hierarchy.",
+        "Action-beat placement matches spec more often than not: post-line beats and hinge beats dominate ('\"There.\" She pointed.' at line 41; '\"Maps.\" She held out her hand.' at line 128; 'Sylvanas stepped closer and read her once. \"Worth another?\"' at lines 233-233)."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 13,
+          "rule": "attributionStandards — no-frills tags should dominate routine attribution",
+          "before": "\"And if the grain's already split?\" Cyndia called.",
+          "after": "\"And if the grain's already split?\" Cyndia asked."
+        },
+        {
+          "line": 47,
+          "rule": "attributionStandards — creativeTagPolicy should stay contextual and sparse",
+          "before": "\"Because nobody expects to defend a city from its own bread,\" Jaina muttered.",
+          "after": "\"Because nobody expects to defend a city from its own bread,\" Jaina said."
+        }
+      ]
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Lines 9-19 and 33-39: Jaina's default attention runs to routes, ovens, carriers, and district order—the exposition filter stays locked on mechanism and consequence rather than social ornament.",
+        "Lines 96-104 and 195-207: speculative comfort is very high in the correct Jaina way; magic is narrated as structure, pressure, preserving shell, and failure mode, never as spectacle for its own sake.",
+        "Lines 150-159 and 301-309: emotional register stays intellect-first on the surface and body-first underneath—she keeps working the map, the count, and the answer while stress appears through shaking hands, ash on the tongue, and the taste in her mouth.",
+        "Lines 171-197 and 227-231: Jaina's thought pattern follows observation -> pattern recognition -> conclusion. She does not leap to abstract thesis; she counts pallets, carts, hands, and mouths first.",
+        "Lines 47, 167, and 297-303: humor and honesty stay inside her fingerprint. The one dry line about a city defending itself from bread is brief and bitter; later the wit dies, leaving only blunt truth. Her power posture also tracks spec: under Arthas's pressure she takes a longer explanatory line, then cuts down to the hard answer when evasion becomes waste."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Adverb count check: roughly 14 clear -ly adverbs across about 3,159 words, or about 1.1 per 250-word page—well under the hard cap of 4 per page.",
+        "Passive-voice check: rough scan finds about 2.0% passive constructions, comfortably under the 4% ceiling.",
+        "Show/tell balance clears the floor. Lines 146-148, 221-231, and 301-309 all let bread, hands, ash, and bodily response carry the conclusion instead of replacing scene work with labels.",
+        "Filter-word sweep stayed clean. The chapter does not lean on noticed/saw/heard scaffolding to create POV; most sensation arrives directly through the viewpoint body's contact with the world.",
+        "Paragraph emphasis and compression work with the quality floor instead of against it: single-line beats such as 'Too many.' (line 126), 'Pain now.' (line 211), and 'Uther shut his.' (line 307) earn their emphasis through prior setup rather than melodramatic declaration."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration passes. Lines 17-29, 77-104, and 285-285 deliver the plague mechanism only when Jaina needs to act, decide, or answer; there are no glossary paragraphs or neutral-narrator asides.",
+        "Power-dynamic rendering passes. At lines 271-303 Arthas seizes ground with short questions and declaratives, Jaina is forced into longer proof-bearing lines, and Uther's moral weight enters mostly through stillness and restraint at lines 289 and 307.",
+        "Scene shape holds. The chapter opens task-first in live motion, pivots decisively at the bread-in-hands reversal and whistle reveal (lines 146-191), and resolves with a hard consequence at the gate rather than a soft coda.",
+        "Speculative integration matches the domestication rule. Lines 94-104 and 195-207 treat magic as labor, contamination logic, and tactical failure mode; there is no awe-language or decorative spectacle.",
+        "Subtext and humor both track the guide. Lines 154-161 ('Jaina.' / 'Good.') and 233-241 ('Worth another?' / 'No.') carry relational pressure well below the spoken surface, while humor correctly thins from the early dry bread line at 47 to nothing by the atrocity-adjacent gate answer."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — lines 17-29, 77-104, and 285-303 stay precise, readable, and arcane without slipping into modern scientific or bureaucratic diction.",
+        "sentenceRhythm": "pass — longer analytic lines appear when Jaina is reasoning, then collapse into blunt short answers at lines 126, 237, and 303.",
+        "metaphorDensity": "pass — imagery stays sparse and functional; the chapter does not burden Jaina's lane with ornamental comparisons.",
+        "emotionalRegister": "pass — fear and guilt surface through body strain, urgency, and over-focus on method rather than overt self-naming.",
+        "thoughtPatterns": "pass — Jaina repeatedly moves from observation to pattern to conclusion before speaking, especially at lines 171-231.",
+        "sensorySignature": "pass — bread heat, sour magic, texture in the air, and bodily cost of working the weave dominate the sensory field."
+      },
+      "extraChecks": {
+        "humorType": "pass — one dry, tired line early; humor thins appropriately as horror firms up.",
+        "powerPosture": "pass — under pressure she lengthens into evidence, then refuses false hope with short honest lines.",
+        "speculativeComfort": "pass — magic reads as native craft, pressure, and failure mode.",
+        "expositionFilter": "pass — she notices carriers, stock, routes, kitchens, wards, and consequence before abstract meaning."
+      },
+      "ruleViolations": []
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 1.1,
+    "passiveVoicePercent": 2.0,
+    "dialogueToNarrationRatio": "17:83 overall; ride/opening ~20:80, warehouse action ~5:95, gate confrontation ~26:74",
+    "avgSentenceLength": 8.9,
+    "avgParagraphLength": 21.1,
+    "metaphorsPerThousandWords": 1.6
+  },
+  "totalObservations": 42,
+  "totalFixes": 4,
+  "wordCount": {
+    "before": 3159,
+    "after": 3159
+  }
+}

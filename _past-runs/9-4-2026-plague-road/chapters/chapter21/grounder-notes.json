@@ -1,0 +1,111 @@
+{
+  "chapterId": "chapter21",
+  "iteration": 3,
+  "feedbackPath": ".afternoon/chapters/chapter21/grounding-gate-notes-r2.json",
+  "targetFile": "v2g-r2.md",
+  "globalRisks": [
+    "dialogue-heavy",
+    "threshold-language drift",
+    "final-third metaphor creep"
+  ],
+  "touchedScenes": [
+    "Scene 1 - The Burned Shore",
+    "Scene 2 - The March",
+    "Scene 4 - Frostmourne"
+  ],
+  "sceneAudits": [
+    {
+      "scene": "Scene 1 - The Burned Shore",
+      "biggestGap": "Jaina's inland read still landed in map-room shorthand instead of the visible north-west spoor.",
+      "anchorsAdded": {
+        "place": [
+          "Daggercap Bay",
+          "north-west track"
+        ],
+        "material": [
+          "bread crust",
+          "crumbs",
+          "sled grooves"
+        ],
+        "dialogue": [
+          "Jaina now ties the narrowing pull to the visible track and sled grooves"
+        ],
+        "exit": []
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": false
+    },
+    {
+      "scene": "Scene 2 - The March",
+      "biggestGap": "Sylvanas's warning signal drifted into summarized system language instead of bodily refusal.",
+      "anchorsAdded": {
+        "place": [
+          "Dragonblight flats"
+        ],
+        "material": [
+          "teeth ache",
+          "skin over knuckles"
+        ],
+        "dialogue": [],
+        "exit": []
+      },
+      "dialogueGroundingApplied": false,
+      "finalBeatChecked": false
+    },
+    {
+      "scene": "Scene 4 - Frostmourne",
+      "biggestGap": "The cave sequence had local slips into decorative metaphor and systems-talk that weakened threshold pressure and extraction clarity.",
+      "anchorsAdded": {
+        "place": [
+          "glacier warning runes",
+          "chamber mouth",
+          "Muradin's camp"
+        ],
+        "material": [
+          "scraped frost over the inscription",
+          "sabatons",
+          "gold under drift",
+          "rough white ring"
+        ],
+        "dialogue": [
+          "Jaina's warning now describes the blade catching casts and the cave kicking magic sideways"
+        ],
+        "exit": [
+          "Light's Vengeance left under drift",
+          "return to Muradin's rough white ring"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": [
+      "decorative metaphor on the threshold inscription",
+      "combat-magic systems-talk at first contact",
+      "material drift on the return to camp"
+    ],
+    "fixesApplied": [
+      "Replaced the inscription simile with scraped-frost letters",
+      "Rewrote Jaina's warning to describe the cave kicking a cast sideways",
+      "Replaced floral frost and moralized hammer language with harsher physical spread and glow",
+      "Restored the camp return to the established rough white ring instead of generic palisade wording"
+    ],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [
+      "locations/daggercap-bay",
+      "characters/jaina-proudmoore",
+      "locations/northrend",
+      "relationships/jaina--sylvanas"
+    ],
+    "materials": [
+      "stories/the-plague-road/plans/story-arc.md",
+      "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/jaina-voice.md",
+      ".afternoon/plans/chapter21.json"
+    ],
+    "unsourcedAdditions": []
+  }
+}

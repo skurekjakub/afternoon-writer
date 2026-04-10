@@ -1,0 +1,53 @@
+{
+  "chapterId": "chapter25",
+  "iteration": 1,
+  "targetFile": "v2g-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "excerpt": "Lor'themar was up there somewhere with road dust still on him, trying to force sense into rooms that moved paper faster than doors. Vereesa was with the mages. Evidence was moving from hand to hand in the lower court and the service passages. None of it would move fast enough.",
+      "reason": "The paragraph starts from a good corridor thud, then slips back into institutional recap. The extra reportorial clauses lift the scene out of the cell instead of letting the off-page pressure stay prison-bounded and immediate.",
+      "suggestedFix": "A cart wheel thudded somewhere in the service dark above. Voices rose, blurred, and died in the stone. Lor'themar was up there somewhere with road dust still on him, trying to force sense into rooms that moved paper faster than doors. None of it would move fast enough.",
+      "fixMode": "trim-dossier-recap"
+    },
+    {
+      "excerpt": "The pressure narrowed on her voice, on the shape of what she had just said, on the fact of being known and named inside the palace foundations.",
+      "reason": "This explains the blade's attention in abstract mind-reading language. The beat needs a local bodily or architectural manifestation so the threat stays measurable rather than conceptually summarized.",
+      "suggestedFix": "Cold tightened overhead, no longer broad through the stone but focused. The cot slat under her thigh gave one dry tick. Fine hairs lifted along her forearm. The pulse had leaned toward the place her words had landed.",
+      "fixMode": "replace-psychic-summary"
+    },
+    {
+      "excerpt": "Physical presence, not illusion. Weight on the flagstones. Voice with body behind it. Transit through stone without force or noise. That narrowed the field sharply. What remained she refused to name until naming bought something.",
+      "reason": "Sylvanas's read turns into a checklist of deductions instead of staying inside one continuous tactical impression. The logic is sound, but the sentence-block feels processed rather than embodied.",
+      "suggestedFix": "Weight on the flagstones. A real chest taking air. Wing joints cramped to fit a human cell. Too large for illusion, too solid for any trick she knew. She would name it when the name bought her something.",
+      "fixMode": "compress-tactical-taxonomy"
+    },
+    {
+      "excerpt": "\"Your prince did well enough,\" the visitor said. \"The plague spread. The cult rooted itself. The dead learned their work. The blade came home. All that before he lost his nerve and his life in the same room.\"",
+      "reason": "The villain lands his scale reveal in elegant campaign-summary prose. It is too polished and macro when this scene needs concrete plague infrastructure and workmanlike menace.",
+      "suggestedFix": "\"Your prince did well enough,\" the visitor said. \"Granaries emptied. Bakers fed whole districts. The dead learned their work. The blade came home. All that before he lost his nerve and his life in the same room.\"",
+      "fixMode": "swap-summary-for-infrastructure"
+    },
+    {
+      "excerpt": "\"The sword will take another hand. The roads he opened remain open. You still never found all the cells. One man was useful. He was never the whole design.\"",
+      "reason": "This is still systems-language: roads, cells, design. The threat wants one more concrete carrier or route-surface so the line feels like lived contamination instead of strategic briefing.",
+      "suggestedFix": "\"The sword will take another hand. The ovens he fed are spent, but the roads he opened remain open. You still never found all the cells. One man was useful. He was never the whole design.\"",
+      "fixMode": "roughen-operational-exposition"
+    },
+    {
+      "excerpt": "The faces would change. The body would change. The voice would change. Those were tools. But the farewell had survived five masks and a prison visit. That meant the habit behind it belonged to something older than discipline. Older than this campaign. Older, perhaps, than the world as it stood now.",
+      "reason": "The recognition lands cleanly, then overreaches into grand explanatory age-language. Sylvanas already has the usable tell; the prose should stop closer to habit and pattern instead of swelling into cosmological abstraction.",
+      "suggestedFix": "The faces would change. The voice would change. Those were tools. But the farewell had survived five masks and a prison visit. Habit, then. Something old enough not to hear itself anymore.",
+      "fixMode": "stop-before-cosmic-swelling"
+    },
+    {
+      "excerpt": "She would have to give this to Jaina when the corridor quieted. Not the whole thing at once. Too much, too raw, too easy to lose in the wall-code they used. But the core of it. The phrase. The pattern. The fact that one being had worn five mortal shapes and left the same ancient footprint in speech every time.",
+      "reason": "The handoff hook slips back into briefing prose. The scene needs the rough prison-transfer version of the clue, not a clean operations summary.",
+      "suggestedFix": "She would have to give this to Jaina when the corridor quieted. Not the whole thing at once. Too much, too raw, too easy to lose in the wall-code they used. Just the hook of it. The phrase. Five faces. Same farewell.",
+      "fixMode": "strip-briefing-language"
+    }
+  ],
+  "summary": {
+    "totalKills": 7
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "chapterId": "chapter24",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "dominantPattern": "source-swap pivot",
+      "clusterWarnings": [
+        "Source-swap negation repeats in Sylvanas's inference beats."
+      ],
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "P4 minimizer pivot",
+          "line": "That reached him. Not far, but enough to make him feel it and refuse it.",
+          "deletionTest": "That reached him enough to make him feel it and refuse it.",
+          "reason": "The negative half is scaffolding; the sentence survives once the contrast is removed.",
+          "suggestedFix": "That reached him far enough to make him feel it and refuse it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P2 fragment pivot",
+          "line": "Not imagination now.",
+          "deletionTest": "[delete sentence]",
+          "reason": "The fragment only rejects a possibility before the next sentence supplies the real claim.",
+          "suggestedFix": "Real now.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P2 fragment pivot",
+          "line": "No tremor now. Worse.",
+          "deletionTest": "Worse.",
+          "reason": "The rejected state is dead-weight setup for the actual judgment.",
+          "suggestedFix": "Worse now.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P3 source-swap pivot",
+          "line": "He hesitated. Not from doubt. From knowing exactly what answer was wanted and disliking how near it stood to the truth.",
+          "deletionTest": "He hesitated from knowing exactly what answer was wanted and disliking how near it stood to the truth.",
+          "reason": "The construction rejects one cause before naming the real one, so the first half is expendable scaffold.",
+          "suggestedFix": "He hesitated from knowing exactly which answer they wanted and disliking how near it stood to the truth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P3 source-swap pivot",
+          "line": "Not because he lacked authority. Because the one he needed had not been given.",
+          "deletionTest": "Because the one he needed had not been given.",
+          "reason": "The sentence reaches its real cause only after a negation feint.",
+          "suggestedFix": "Because the authority he needed had not been given.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 12,
+      "kills": 10,
+      "keeps": 2,
+      "dominantPattern": "repeated room/chamber agency laundering",
+      "clusterFlags": [
+        "Tribunal sections repeatedly give the room or chamber human agency.",
+        "Analytical POV compression is laundering judgment onto abstractions."
+      ],
+      "repeatNouns": [
+        "room",
+        "chamber"
+      ],
+      "pattern4Alert": true,
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "P6 scenery or architecture teaching",
+          "line": "Above them, the blade sat in a box and still managed to teach the palace its name.",
+          "subject": "blade",
+          "verb": "teach",
+          "realAgent": "its spreading cold, the guards' reactions, and the visible effects moving through the palace",
+          "reason": "The blade is active, but the sentence still launders observable spread into a pedagogical verb instead of naming the effects.",
+          "suggestedFix": "Above them, the blade sat in a box, and its cold had already worked through the palace.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P5 objects wanting, refusing, or deciding",
+          "line": "It depended on whether the room wanted truth before it arrived.",
+          "subject": "room",
+          "verb": "wanted",
+          "realAgent": "the magistrates, clerk, and guards deciding whether to hear the truth",
+          "reason": "The desire belongs to the people present, not to the room itself.",
+          "suggestedFix": "It depended on whether anyone in the room wanted truth before it arrived.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P1 geography pressed into service",
+          "line": "Even Stratholme served her.",
+          "subject": "Stratholme",
+          "verb": "served",
+          "realAgent": "Ashcombe, who is folding Stratholme into her prosecution chain",
+          "reason": "The city is not doing the argumentative work; Ashcombe is.",
+          "suggestedFix": "Ashcombe turned even Stratholme to her use.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P2 infrastructure asking or finding",
+          "line": "Then the lid came up and the room found the edge of its wrongness.",
+          "subject": "room",
+          "verb": "found",
+          "realAgent": "the people in the chamber feeling the blade's wrongness when the lid opens",
+          "reason": "Perception belongs to the witnesses, not to the room.",
+          "suggestedFix": "Then the lid came up and everyone in the room felt the edge of its wrongness.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P4 institutions or abstractions self-deceiving",
+          "line": "By the time Uther was called, the chamber was ready to believe anything that left blame outside itself.",
+          "subject": "chamber",
+          "verb": "was ready to believe",
+          "realAgent": "the people in the chamber, already primed by fear and prosecution framing",
+          "reason": "Belief belongs to the audience, not to the architecture.",
+          "suggestedFix": "By the time Uther was called, the people in the chamber were ready to believe anything that left blame elsewhere.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P2 infrastructure carrying collective motion",
+          "line": "When he rose to object, the whole room shifted toward him.",
+          "subject": "room",
+          "verb": "shifted",
+          "realAgent": "the people in the hall turning toward Antonidas",
+          "reason": "The physical movement belongs to the watchers, not to the room.",
+          "suggestedFix": "When he rose to object, every head in the chamber turned toward him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P2 infrastructure asking or listening",
+          "line": "The room listened to the state, not the sister.",
+          "subject": "room",
+          "verb": "listened",
+          "realAgent": "the listeners in the hall choosing official authority over Vereesa's familial presence",
+          "reason": "Listening is being laundered onto the room instead of the crowd.",
+          "suggestedFix": "The listeners heard the state, not the sister.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P4 institutions or abstractions self-deceiving",
+          "line": "The stretch a court order might imagine while men wrote letters and filed seals had already burned away.",
+          "subject": "court order",
+          "verb": "might imagine",
+          "realAgent": "men in office imagining they still had time for procedure",
+          "reason": "The cognitive act belongs to officeholders, not to the order itself.",
+          "suggestedFix": "Whatever time men with seals might imagine while they wrote letters and filed orders had already burned away.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P9 nominalized thought given agency",
+          "line": "A plan tried to form under her ribs.",
+          "subject": "plan",
+          "verb": "tried to form",
+          "realAgent": "Sylvanas beginning to piece a plan together",
+          "reason": "The mental act belongs to Sylvanas, not to the plan as an external agent.",
+          "suggestedFix": "She began piecing together a plan under her ribs.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P5 objects wanting, refusing, or deciding",
+          "line": "If there is a room left willing to hear.",
+          "subject": "room",
+          "verb": "willing to hear",
+          "realAgent": "any remaining people still willing to hear testimony",
+          "reason": "Willingness is being assigned to the room instead of to people.",
+          "suggestedFix": "If there is anyone left willing to hear.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 12,
+      "kills": 7,
+      "keeps": 5,
+      "dominantPattern": "eye/gaze repertoire exhaustion",
+      "ticCounts": {
+        "corner-of-mouth micro-expressions": 1,
+        "marked": 0,
+        "tightened": 2,
+        "eased": 0,
+        "facial shifted": 0,
+        "eye/gaze beats": 11,
+        "weight/heaviness metaphors": 1,
+        "non-said performance tags": 0
+      },
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "Tic 5: eye/gaze repertoire exhaustion",
+          "line": "That got his eyes up.",
+          "occurrence": 5,
+          "cap": 4,
+          "reason": "This is a generic reaction beat and one of several eye-led response cues in the chapter.",
+          "suggestedFix": "That pulled his attention up.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "Tic 5: eye/gaze repertoire exhaustion",
+          "line": "Sylvanas looked to Jaina despite herself.",
+          "occurrence": 6,
+          "cap": 4,
+          "reason": "This is a generic connection beat, weaker than the more specific eye/gaze choices later in the chapter.",
+          "suggestedFix": "Sylvanas turned to Jaina despite herself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "Tic 5: eye/gaze repertoire exhaustion",
+          "line": "Jaina finally looked at her.",
+          "occurrence": 7,
+          "cap": 4,
+          "reason": "This is another generic look beat and is weaker than the later, more specific strain markers on Jaina.",
+          "suggestedFix": "Jaina finally turned to her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "Tic 5: eye/gaze repertoire exhaustion",
+          "line": "Thornton's eyes lifted from the papers more than once.",
+          "occurrence": 8,
+          "cap": 4,
+          "reason": "This repeats the same reaction channel in a dialogue-heavy courtroom sequence.",
+          "suggestedFix": "Thornton checked the room over the tops of his papers more than once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "Tic 5: eye/gaze repertoire exhaustion",
+          "line": "Thornton did not look up from the bench.",
+          "occurrence": 9,
+          "cap": 4,
+          "reason": "This is a weak procedural look beat after the chapter has already exceeded the eye/gaze cap.",
+          "suggestedFix": "Thornton stayed bent over the bench.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "Tic 5: eye/gaze repertoire exhaustion",
+          "line": "Sylvanas looked at him.",
+          "occurrence": 10,
+          "cap": 4,
+          "reason": "This is an interchangeable connection beat and one of the weakest eye-led reactions in the Lor'themar exchange.",
+          "suggestedFix": "Sylvanas faced him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "Tic 5: eye/gaze repertoire exhaustion",
+          "line": "Then he looked at Sylvanas one last time.",
+          "occurrence": 11,
+          "cap": 4,
+          "reason": "The chapter has already exhausted its eye/gaze budget by this point, and this farewell beat is the most replaceable instance left.",
+          "suggestedFix": "Then he turned back to Sylvanas one last time.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 22,
+    "totalKeeps": 9,
+    "mildKills": 22,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 22,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass A found 22 mild KILLs across all three guides (5 negation pivots, 10 agency-laundering sentences, and 7 excess eye/gaze tics), which is far above the pass ceiling of 3 mild-only findings."
+  }
+}

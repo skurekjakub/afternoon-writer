@@ -1,0 +1,160 @@
+{
+  "chapterId": "chapter22",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F2",
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "location": "v2-r4.md:111",
+          "line": "She smiled once.",
+          "issue": "generic label beat",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "location": "v2-r4.md:426",
+          "line": "She swallowed.",
+          "issue": "generic label beat",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "B2",
+      "registerSummary": "Jaina's sections think in disciplined analytical fragments tied to bodily strain and magical mechanism. Sylvanas's sections think in hard tactical reads, contempt, spacing, routes, and immediate leverage; she can compress, but the compression still needs an observable carrier.",
+      "registerConfidence": "high",
+      "findings": [
+        {
+          "pattern": "B2",
+          "severity": "mild",
+          "location": "v2-r4.md:384",
+          "line": "Antonidas turned a fraction, hearing the older wound under the new question.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can read strain and priorities, but 'the older wound under the new question' is polished emotional compression with no concrete carrier in her immediate observational lane.",
+          "confidence": "moderate",
+          "suggestedFix": "Antonidas turned a fraction at Jaina's voice.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3/P4",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "location": "v2-r4.md:97",
+          "line": "The difference, if there was one, had better be more than disgust.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The concrete moral or practical distinction Jaina thinks separates her from Kel'Thuzad.",
+          "reason": "The sentence leans on 'difference' to sound weighty without cashing out what concrete line she thinks still exists.",
+          "suggestedFix": "Disgust alone proved nothing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "location": "v2-r4.md:384",
+          "line": "Antonidas turned a fraction, hearing the older wound under the new question.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The exact older hurt or visible sign Sylvanas is supposedly reading in Antonidas's reaction.",
+          "reason": "The line summarizes subtext in prestige abstraction instead of naming an observable carrier or a specific remembered wound.",
+          "suggestedFix": "Antonidas turned a fraction at Jaina's voice.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "none",
+      "cleanReason": "The two simplification setups both cash out locally: Jaina's shipboard 'plainer words' sequence gives a usable ordered spell sequence, and the later 'words a judge could follow' reply adds the same sequence plus the concrete three-to-five-second requirement."
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 11,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still carries 5 mild KILLs across GPT-5 prose issues, narrator seep, and phantom concreteness. With more than 3 mild-only kills, the pass fails even though no moderate or severe findings remain."
+  }
+}

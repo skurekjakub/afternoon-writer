@@ -1,0 +1,53 @@
+{
+  "chapterId": "chapter23",
+  "iteration": 3,
+  "targetFile": "v2g-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "category": "corridor-pressure-abstraction",
+      "excerpt": "\"She brushed the mop bucket with her calf, caught the shelf edge with her sleeve, and kept her eyes on the latch and the nearest torch bracket. If she did that, the pressure stayed in the stone and out of her lungs for one more turn.\"",
+      "reason": "The corridor work is materially solid until the last sentence turns Jaina's management of fear into abstract pressure-language. In a narrow service lane, the prose should stay with throat, breath, and the fixtures she is forcing herself to look at, not summarize the effect as atmosphere.",
+      "suggestedFix": "\"She brushed the mop bucket with her calf, caught the shelf edge with her sleeve, and kept her eyes on the latch and the nearest torch bracket. If she looked at wood and iron, her throat stayed open for one more turn.\"",
+      "fixMode": "replace"
+    },
+    {
+      "category": "signal-abstraction-drift",
+      "excerpt": "\"Not at Arthas. At the turn in the cycle where taking became casting. Ice ran along the fuller in a pale line. For one suspended instant the hunger-note changed pitch, caught.\"",
+      "reason": "The beat still leans on stylized mechanism diction. \"Hunger-note\" and \"changed pitch\" read like workshop shorthand unless the signal is cashed out through Jaina's body or the blade's immediate physical behavior.",
+      "suggestedFix": "\"Not at Arthas. At the turn in the cycle where taking became casting. Ice ran along the fuller in a pale line. The hum behind her teeth snagged for one hard beat.\"",
+      "fixMode": "replace"
+    },
+    {
+      "category": "workshop-mechanism-shorthand",
+      "excerpt": "\"She hit the opening with arcane force before it could close. She rammed blue pressure through the stalled turn, a wedge into the stalled channel, and the sword cracked like lake ice taking weight.\"",
+      "reason": "This sentence cluster is still thinking in planning-document terms: pressure, stalled turn, stalled channel. The throne-room mechanism doc explicitly says the prose version should translate the system into visceral impact, and this remains too diagrammatic for the middle of a live melee.",
+      "suggestedFix": "\"She hit the opening with arcane force before it could close. Colorless light punched through the gap. The fuller split with a hard crack under Arthas's hand.\"",
+      "fixMode": "replace"
+    },
+    {
+      "category": "combat-simile-overreach",
+      "excerpt": "\"A black-red surge tore from the field around the sword and struck the column Sylvanas had just passed. Marble gave under it the way soaked bread gives under teeth.\"",
+      "reason": "The chamber geometry matters here, but the room damage gets filtered through a writerly simile instead of the actual break pattern in stone. That weakens the immediate combat read in a beat where the column's failure should stay brutally physical and legible.",
+      "suggestedFix": "\"A black-red surge tore from the field around the sword and struck the column Sylvanas had just passed. Marble split and sloughed off in fist-sized chunks.\"",
+      "fixMode": "replace"
+    },
+    {
+      "category": "ceremonial-metaphor-spike",
+      "excerpt": "\"Frostmourne tore free of the ice with a cathedral-bell scream.\"",
+      "reason": "The image is vivid but too ornamental for the beat. In a fight already rich with dome acoustics and marble impact, this turns a hard sound into decorative metaphor instead of keeping it in iron, echo, and pain.",
+      "suggestedFix": "\"Frostmourne tore free of the ice with a high iron shriek that bounced off the dome.\"",
+      "fixMode": "replace"
+    },
+    {
+      "category": "soul-echo-metaphor-drift",
+      "excerpt": "\"Tears came by force before she had room for sorrow. Her skull felt split. Her ears rang with voices that were not voices, memory skinned raw of context.\"",
+      "reason": "The first two clauses land cleanly, then the last clause lifts back into writerly abstraction. This is exactly the kind of final-third drift the revision was supposed to eliminate; the soul-echo should stay fragmentary and bodily, not summarized as a poetic condition.",
+      "suggestedFix": "\"Tears came by force before she had room for sorrow. Her skull felt split. Half-heard voices scraped past without resolving into words.\"",
+      "fixMode": "replace"
+    }
+  ],
+  "summary": {
+    "totalKills": 6
+  }
+}

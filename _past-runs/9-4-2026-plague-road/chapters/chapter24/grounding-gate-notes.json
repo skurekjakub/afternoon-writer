@@ -1,0 +1,116 @@
+{
+  "chapterId": "chapter24",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "severity": "kill",
+      "excerpt": "Instead it smelled of frost.\n\nSharper than winter air. Meaner than river ice.",
+      "reason": "The cold register stays comparative and atmospheric instead of attaching itself to a local carrier in the cell. It gives mood before material friction.",
+      "suggestedFix": "Instead it smelled of frost and old mortar gone sharp in the seams, the kind that stung the nose before she touched the floor.",
+      "fixMode": "swap-abstract-for-material"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Above them, in the evidence vault they thought a box could solve, Frostmourne kept breathing into the building.",
+      "reason": "The sentence personifies the sword instead of rendering the containment failure through architecture, temperature, or labor. The effect floats when it should stay infrastructural.",
+      "suggestedFix": "Above them, in the evidence vault they thought a box could solve, cold kept leaking down the stairwell and into the mortar joints.",
+      "fixMode": "replace-metaphor-with-physical-effect"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Millhaven. Andorhal. The grain road. Scholomance. Stratholme. Northrend. Muradin. Frostmourne.",
+      "reason": "The testimony collapses into a bare itinerary list with no carrier beat, so the live interrogation briefly turns into abstract recap.",
+      "suggestedFix": "She counted it to him on her shackled hands as he wrote: Millhaven. Andorhal. The grain road. Scholomance. Stratholme. Northrend. Muradin. Frostmourne.",
+      "fixMode": "add-carrier-beat"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Then, from somewhere above and farther in, a wrong little pulse moved through the palace foundations.",
+      "reason": "\"Wrong little pulse\" is generic fallback language. The sensation needs a harder physical signature if it is going to carry threat.",
+      "suggestedFix": "Then, from somewhere above and farther in, the flagstone gave one dry tick under her palm and the cold hitched with it.",
+      "fixMode": "sharpen-sensation"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "The tribunal hall opened beyond the stair as ceremony first and justice second. High windows. Pale shafts of afternoon light turning dust above the benches to visible columns.",
+      "reason": "The room is summarized institutionally before Sylvanas is physically placed in it. The entrance needs chained-body pressure sooner.",
+      "suggestedFix": "The tribunal hall opened beyond the stair. Afternoon light striped the flagstones, and a guard shoved her between the benches before she had room to turn her wrists.",
+      "fixMode": "frontload-body-in-room"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Months of investigation. Warnings issued beyond proper authority. Unauthorized travel. Contacts with foreign magi. Hidden correspondence. Armed intrusion into the palace interior.",
+      "reason": "Ashcombe's opening stacks charges as report fragments without enough procedural or bodily carrier beats. The prosecution run starts to float.",
+      "suggestedFix": "Ashcombe paced one slow line beside the table, glove leather whispering as she turned each page: months of investigation, warnings beyond proper authority, unauthorized travel, contacts with foreign magi.",
+      "fixMode": "anchor-summary-to-procedure"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Only women already bent toward regicide, Ashcombe suggested, would stand so near repeated royal catastrophes and still be found armed over the bodies at the end.",
+      "reason": "This is the prosecutor's sharpest causal turn, but it lands as clean concept rather than room event. The chamber needs an immediate human recoil or intake of breath here.",
+      "suggestedFix": "When Ashcombe said only women bent toward regicide kept turning up armed over royal bodies, somebody on the front bench pulled breath through his teeth.",
+      "fixMode": "add-room-reaction"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Frostmourne lay in lead and black velvet like a relic arranged for veneration.",
+      "reason": "The simile prettifies the exhibit and slips toward curatorial staging. The blade should stay materially hostile, not ceremonially framed.",
+      "suggestedFix": "Frostmourne lay on black velvet inside the lead box, frost already whitening the nap where the metal rested.",
+      "fixMode": "remove-prettying-simile"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "\"Rooms go cold when it remains in them. Wards begin to rot around the seams. Ordinary instruments misbehave. Unwarded staff become unsettled.\"",
+      "reason": "After three concrete effects, \"unsettled\" drops into bureaucratic vagueness. The testimony needs a bodily consequence, not an administrative label.",
+      "suggestedFix": "\"Rooms go cold when it remains in them. Wards begin to rot around the seams. Ordinary instruments misbehave. Men on watch start missing answers and rubbing their chests as if the cold got inside them.\"",
+      "fixMode": "replace-generic-fallback"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "He gave them Hearthglen. Stratholme. Arthas's deepening refusal of counsel. Northrend. The sword. The return.",
+      "reason": "Uther's testimony slips into itinerary summary instead of staying in witness texture after the chair and rail are already onstage.",
+      "suggestedFix": "He gave them Hearthglen first, then Stratholme, each place set down in the same grave voice while his hands stayed braced on the rail.",
+      "fixMode": "restore-witness-texture"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "With each true answer she laid another stone in the path she wanted Thornton to walk.",
+      "reason": "The metaphor abstracts the cross-examination when the scene should stay with rail, mouth, paper, and silence.",
+      "suggestedFix": "With each true answer she left Thornton one cleaner line on the page and Uther with less room to fight from the chair.",
+      "fixMode": "replace-metaphor-with-procedural-pressure"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "His robes still hung clean because someone had brushed road dust from them in a corridor and failed to change the body inside.",
+      "reason": "The phrasing is clever, but it trades bodily evidence for literary flourish. Antonidas's depletion should read off face, cuff, and stance.",
+      "suggestedFix": "His robes still hung clean, but the skin under his eyes had gone grey and one cuff sat twisted where somebody had dressed him in a hurry.",
+      "fixMode": "trade-cleverness-for-body"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "She read the disavowal in a voice so formal it bled.",
+      "reason": "The wound is told through metaphor instead of throat, breath, or paper handling. The cruelty is already strong enough to show directly.",
+      "suggestedFix": "She read the disavowal in the chamber voice until one word scraped raw and she had to press the vellum flatter to keep her hands steady.",
+      "fixMode": "show-voice-break-physically"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "The word crossed the chamber and the chamber leaned toward it.",
+      "reason": "The verdict impact is framed abstractly when the room already offers stronger carriers in benches, chains, and muffled breath.",
+      "suggestedFix": "The word crossed the chamber and every bench answered it at once—people leaning, chains tightening, one sleeve muffling a single sob.",
+      "fixMode": "convert-abstraction-to-room-motion"
+    },
+    {
+      "severity": "kill",
+      "excerpt": "Pressure from outside the room at last. Not enough. More than nothing.",
+      "reason": "Late-chapter emotional arithmetic arrives as pure abstraction. The close needs one external fact attached to keep the corridor tangible.",
+      "suggestedFix": "Elven boots and road dust outside the bars at last. Not enough to open the door. Enough to change the corridor.",
+      "fixMode": "attach-abstraction-to-physical-fact"
+    }
+  ],
+  "summary": {
+    "totalKills": 15
+  }
+}

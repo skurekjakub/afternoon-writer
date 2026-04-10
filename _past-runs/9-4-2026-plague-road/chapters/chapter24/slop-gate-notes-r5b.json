@@ -1,0 +1,160 @@
+{
+  "chapterId": "chapter24",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "dominantPattern": "F3/F7 tie",
+      "findings": [
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 120,
+          "lineText": "The cell mattered less than the vault above.",
+          "location": "scene 1 / paragraph-final",
+          "couldEndEarlierAt": "Sylvanas opened her eyes.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 230,
+          "lineText": "For one heartbeat Sylvanas thought the blow had landed cleanly.",
+          "word": "For one heartbeat",
+          "deletionTest": "Sylvanas thought the blow had landed cleanly.",
+          "suggestedFix": "Sylvanas thought the blow had landed cleanly.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks in tactical inventory, bodily threat reads, and clipped field judgments. She notices leverage, ranks, timing, sound, temperature, and what bodies reveal under pressure. She does not naturally drift into epigraphic thematic captions about institutions when immediate survival and courtroom leverage are on the line.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "dominantPattern": "A2",
+      "findings": [
+        {
+          "pattern": "A2",
+          "tier": "A",
+          "severity": "MILD",
+          "line": 300,
+          "lineText": "Death would make martyrs.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This reads like a thesis pinned over the verdict rather than Sylvanas's immediate sensory or tactical thought.",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "tier": "A",
+          "severity": "MILD",
+          "line": 300,
+          "lineText": "The city's rulers found martyrs expensive.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence compresses the court's politics into an authored slogan instead of staying inside Sylvanas's on-page read of the room.",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "dominantPattern": "P4",
+      "findings": [
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "line": 144,
+          "lineText": "A trap built to snap where the case was weakest.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The sentence never names the specific weakness in the case that Ashcombe is exploiting.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "line": 244,
+          "lineText": "His voice came from training alone.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The prose does not name the audible feature in Antonidas's voice that proves training rather than exhaustion, anger, or fear.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "I checked for explicit translation setups asking for plainer, shorter, or more usable speech and found none. The closest exchanges were direct clarifications about the vault, the foundations, and the mages' sensing limits, which already named their immediate payload instead of pretending to simplify it."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 11,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still has 6 mild KILLs across GPT-5 prose issues, narrator seep, and phantom concreteness. With more than 3 mild-only kills, the pass fails."
+  }
+}

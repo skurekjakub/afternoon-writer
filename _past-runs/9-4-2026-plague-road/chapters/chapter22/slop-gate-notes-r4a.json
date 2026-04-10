@@ -1,0 +1,94 @@
+{
+  "chapterId": "chapter22",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "dominantPattern": null,
+      "cleanReason": "Reviewed the chapter's only true negation pivots; both survive because one states a hard time constraint and the other preserves plot-critical spatial precision."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 8,
+      "kills": 3,
+      "keeps": 5,
+      "dominantPattern": "physical-behavior-on-inanimate-scene-subject",
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "P6-physical-behavior-on-scene-subject",
+          "text": "The camp fell away.",
+          "subject": "camp",
+          "verb": "fell away",
+          "realAgent": "Jaina's group walked away from the camp.",
+          "reason": "The scene hands motion to the camp instead of naming the people leaving it.",
+          "suggestedFix": "They left the camp behind.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P6-physical-behavior-on-scene-subject",
+          "text": "Then the wind got under her hood, and the bay and the ship came back hard.",
+          "subject": "bay and ship",
+          "verb": "came back",
+          "realAgent": "Jaina's attention snapped back to the bay and the ship.",
+          "reason": "The line gives returning force to scenery instead of to Jaina's own thought.",
+          "suggestedFix": "Then the wind got under her hood, and she thought of the bay and the ship again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P5-abstract-state-given-motion",
+          "text": "Jaina rode two lengths ahead of the rear guard and one behind Sylvanas because nobody had discussed the spacing and the spacing had arrived anyway.",
+          "subject": "spacing",
+          "verb": "had arrived",
+          "realAgent": "The formation had settled into that arrangement through habit.",
+          "reason": "The sentence turns an abstract arrangement into the mover instead of naming the group's settled formation.",
+          "suggestedFix": "Jaina rode two lengths ahead of the rear guard and one behind Sylvanas because nobody had discussed it and the formation had settled that way anyway.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "No tic exceeded its chapter cap. The closest counts stayed within limit: tightened 2/3, eye-gaze beats 4/4 with scene-specific utility, and non-said performance tags 2/3."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 7,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 1,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A found only three mild intent-smear issues and no moderate/severe failures; all three have conservative cross-checked fixes."
+  }
+}

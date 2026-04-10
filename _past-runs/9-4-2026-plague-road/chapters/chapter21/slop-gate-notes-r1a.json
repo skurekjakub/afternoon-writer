@@ -1,0 +1,121 @@
+{
+  "chapterId": "chapter21",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 8,
+      "kills": 2,
+      "keeps": 6,
+      "dominantPattern": "pattern-1-and-pattern-7",
+      "findings": [
+        {
+          "line": "A trail this blunt meant obsession, not command.",
+          "pattern": "1",
+          "deletionTest": "A trail this blunt meant obsession.",
+          "reason": "Pattern 1 direct contrast pivot; the sentence lands on the real conclusion only after rejected scaffolding.",
+          "severity": "mild",
+          "suggestedFix": "A trail this blunt meant obsession.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not for Jaina's failed strike. Not for the march. Not for arriving late and losing cleanly to an enemy built outside the measures they had prepared for.",
+          "pattern": "7",
+          "deletionTest": "Delete the chained negation catalog and keep the surrounding sentence: \"Sylvanas turned once toward the glacier and found, to her own surprise, only the hard blank where blame should have been.\"",
+          "reason": "Pattern 7 chained negation; the emotion is routed through repeated refusals instead of stated directly.",
+          "severity": "mild",
+          "suggestedFix": "Jaina's failed strike, the march, even their late clean loss to an enemy built outside the measures they had prepared for left her with only that hard blank.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 3,
+      "keeps": 4,
+      "dominantPattern": "pattern-5-with-pass-a-p5p6-sweep",
+      "findings": [
+        {
+          "line": "The shore did not need interpretation.",
+          "subject": "shore",
+          "verb": "need",
+          "realAgent": "The stripped camps, ration casks, and other visible evidence already made the situation plain.",
+          "reason": "Pattern 5 object-wanting/refusal logic; the shore is carrying a cognitive burden that belongs to the evidence Sylvanas is reading.",
+          "severity": "mild",
+          "suggestedFix": "The evidence on the shore was plain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Late enough for the numbers to bite.",
+          "subject": "numbers",
+          "verb": "bite",
+          "realAgent": "The arithmetic of delay was about to hurt their chances.",
+          "reason": "Pass A P5/P6 sweep hit: an abstract noun is carrying physical aggression instead of naming the concrete tactical cost.",
+          "severity": "mild",
+          "suggestedFix": "Late enough to hurt the odds.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The palisade was not pretty and had never intended to be.",
+          "subject": "palisade",
+          "verb": "intended",
+          "realAgent": "Its builders chose function over appearance.",
+          "reason": "Pattern 5 object decision-making; the fortification is given intention that belongs to the dwarves who built it.",
+          "severity": "mild",
+          "suggestedFix": "The palisade was plain and purely functional.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 7,
+      "dominantPattern": "none",
+      "cleanReason": "Counted two tightened-as-emotion beats, two non-said performance tags, and several look/gaze/body-focus candidates. The tightened and tag counts stayed under cap, and the look/gaze instances that were actually chargeable were mostly tactical scanning or concrete blocking rather than generic emotional stare-work, so no hard cap was exceeded.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 17,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Five mild KILLs remain across the pass A guide pack, which exceeds the pass threshold of three mild findings."
+  }
+}

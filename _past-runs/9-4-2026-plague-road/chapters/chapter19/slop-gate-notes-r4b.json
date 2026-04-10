@@ -1,0 +1,102 @@
+{
+  "chapterId": "chapter19",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 7,
+      "kills": 1,
+      "keeps": 2,
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "Sylvanas gave her the only mercy left in the scene.",
+          "whatItRestates": "\"That you delivered it.\" supplies the mercy concretely in the next line; the narration pre-translates the move before the dialogue lands.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 1,
+      "keeps": 2,
+      "dominantPattern": "B1",
+      "findings": [
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "mild",
+          "line": "Vereesa's eyes flicked over the camp: notes, mage, horses, the working shape of a mission the councillors had sent her south to interrupt before it hardened.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence leaves Sylvanas's material read of the camp and shifts into a polished bureaucratic summary ('working shape' / 'before it hardened') that sounds authored from outside her body.",
+          "confidence": "moderate",
+          "suggestedFix": "Vereesa's eyes flicked over the camp: notes, mage, horses.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 2,
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "Vereesa's eyes flicked over the camp: notes, mage, horses, the working shape of a mission the councillors had sent her south to interrupt before it hardened.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The sentence never names which visible feature of the camp shows the mission 'taking shape'; it substitutes 'working shape' for a concrete read.",
+          "suggestedFix": "Vereesa's eyes flicked over the camp: notes, mage, horses.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in this chapter sets up a translation request ('plainly', 'smaller words', 'short version', or equivalent), so the guide never triggers."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 6,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Three mild-only findings remain: one over-translation and one shared narrator-seep/phantom-concreteness sentence. No moderate or severe pass-B violations remain."
+  }
+}

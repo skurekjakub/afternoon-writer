@@ -1,0 +1,228 @@
+{
+  "chapterId": "chapter24",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 4,
+      "keeps": 1,
+      "severityCounts": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "pattern-1-direct-contrast-pivot",
+      "findings": [
+        {
+          "line": "\"I do not say it. I watched it.\"",
+          "pattern": "pattern-5-preamble-negation",
+          "deletionTest": "\"I watched it.\"",
+          "verdict": "KILL",
+          "reason": "Pattern 5 preamble negation; the witness claim survives intact once the negating setup is removed.",
+          "severity": "mild",
+          "suggestedFix": "\"I watched it.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Thornton wanted order, not spectacle.",
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "deletionTest": "Thornton wanted order.",
+          "verdict": "KILL",
+          "reason": "Pattern 1 direct contrast pivot; the sentence commits cleanly once the rejected half is removed.",
+          "severity": "mild",
+          "suggestedFix": "Thornton wanted order.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"Contact between a foreign order and the sword at the center of this case would be tampering, not aid.\"",
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "deletionTest": "\"Contact between a foreign order and the sword at the center of this case would be tampering.\"",
+          "verdict": "KILL",
+          "reason": "Pattern 1 direct contrast pivot; the legal accusation lands without the rejected alternative.",
+          "severity": "mild",
+          "suggestedFix": "\"Contact between a foreign order and the sword at the center of this case would be tampering.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Elven, not palace.",
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "deletionTest": "Elven.",
+          "verdict": "KILL",
+          "reason": "Pattern 1 direct contrast pivot; the identification survives once the rejected category is dropped.",
+          "severity": "mild",
+          "suggestedFix": "Elven.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 6,
+      "kills": 6,
+      "keeps": 0,
+      "severityCounts": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "inanimate-subject-physical-or-command-behavior",
+      "repeatNouns": [
+        "room"
+      ],
+      "pattern4Alert": false,
+      "findings": [
+        {
+          "line": "procedure required the motions of fairness after belief was gone",
+          "subject": "procedure",
+          "verb": "required",
+          "realAgent": "the clerk following tribunal intake protocol",
+          "pattern": "abstraction-command-pressure",
+          "verdict": "KILL",
+          "reason": "The abstraction is carrying command pressure that belongs to the clerk and the tribunal's rules.",
+          "severity": "mild",
+          "suggestedFix": "he still had to go through the motions of fairness after belief was gone",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The room went still.",
+          "subject": "room",
+          "verb": "went still",
+          "realAgent": "the people in the chamber falling silent and motionless",
+          "pattern": "room-as-collective-actor",
+          "verdict": "KILL",
+          "reason": "The room is laundering the reaction of the people inside it.",
+          "severity": "mild",
+          "suggestedFix": "Everyone in the room went still.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "the room steeped in it",
+          "subject": "room",
+          "verb": "steeped",
+          "realAgent": "the people in the chamber sitting in the fear Ashcombe is exploiting",
+          "pattern": "room-as-collective-actor",
+          "verdict": "KILL",
+          "reason": "The inanimate room is carrying the fear response that belongs to the humans inside it.",
+          "severity": "mild",
+          "suggestedFix": "everyone in the room felt it",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "the wood complained",
+          "subject": "wood",
+          "verb": "complained",
+          "realAgent": "the rail creaking under Uther's grip",
+          "pattern": "object-with-human-complaint",
+          "verdict": "KILL",
+          "reason": "The sentence gives a human protest verb to the rail instead of naming the sound it makes.",
+          "severity": "mild",
+          "suggestedFix": "the wood creaked",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Blue caught Sylvanas's eye in the gallery.",
+          "subject": "Blue",
+          "verb": "caught",
+          "realAgent": "Sylvanas noticing Antonidas's robes in the gallery",
+          "pattern": "color-as-agent",
+          "verdict": "KILL",
+          "reason": "The sentence hands the noticing beat to a color instead of to Sylvanas.",
+          "severity": "mild",
+          "suggestedFix": "Sylvanas caught a flash of blue in the gallery.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "everything in it leaned toward it",
+          "subject": "everything in it",
+          "verb": "leaned",
+          "realAgent": "the people in the chamber reacting to the verdict word",
+          "pattern": "indefinite-collective-actor",
+          "verdict": "KILL",
+          "reason": "The clause hands the chamber's human reaction to an inexact inanimate collective.",
+          "severity": "mild",
+          "suggestedFix": "everyone in the room leaned toward it",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Counted the capped tics in chapter24: corner-of-mouth beats are at 1/1, \"tightened\" uses are at 2/3 with one physical use, and there is no overloaded \"marked,\" no facial \"shifted\" cluster, no eye/gaze overrun, no weight/heaviness cluster, and no non-\"said\" dialogue-tag overrun. Nothing exceeds a chapter cap, so this guide stays clean."
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 4,
+    "mildKills": 10,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has 10 mild KILL findings across negation addiction and intent smear, which is more than the 3 mild-only findings allowed for a pass."
+  }
+}

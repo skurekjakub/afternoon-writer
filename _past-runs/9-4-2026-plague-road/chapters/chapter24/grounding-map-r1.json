@@ -1,0 +1,228 @@
+{
+  "chapterId": "chapter24",
+  "iteration": 1,
+  "mode": "revision",
+  "globalRisks": [
+    "dialogue-heavy",
+    "tribunal-abstraction",
+    "final-third-tail-risk"
+  ],
+  "segments": {
+    "openingThird": {
+      "risk": "medium",
+      "focus": "Keep the cells and first interrogation bound to masonry, iron, torchlight, and the vault's physical bleed into the dungeon."
+    },
+    "middleThird": {
+      "risk": "high",
+      "focus": "Prevent the tribunal from flattening into legal summary by attaching every prosecution, exhibit, and witness turn to benches, chains, papers, rails, breath, and room reaction."
+    },
+    "finalThird": {
+      "risk": "high",
+      "focus": "Keep the verdict, cell return, and Lor'themar contact anchored in bars, dust, cadence, and vault pressure so the chapter closes on corridor fact instead of abstract consequence."
+    }
+  },
+  "transformationMoves": [
+    "Replace atmospheric or clever phrasing with local carriers such as mortar seams, ward paste, velvet nap, rails, cuffs, and flagstone response.",
+    "Anchor summary runs to procedure or body pressure: page turns, glove leather, pen scratches, rails, chain pulls, benches shifting.",
+    "Convert emotional or institutional abstractions into room events with nearby human reaction.",
+    "Keep dialogue grounded by pairing long runs with objects, posture, masonry, bars, or contact beats that reveal pressure instead of filler motion.",
+    "Use Sylvanas's POV filter for architecture, rank, gait, and threat-read rather than neutral courtroom description."
+  ],
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "The Cells",
+      "riskTags": [
+        "static-room",
+        "dialogue-heavy",
+        "metaphor-drift"
+      ],
+      "biggestGap": "Cold and testimony occasionally slip into atmospheric or list-like phrasing instead of staying attached to mortar, irons, stool, board, and flagstone.",
+      "sourceBank": {
+        "geography": [
+          "Capital City",
+          "Lordaeron's Palace"
+        ],
+        "institutions": [
+          "tribunal",
+          "palace custody"
+        ],
+        "materials": [
+          "mortar seams",
+          "flagstones",
+          "cot bolts",
+          "wool blanket",
+          "torch grates",
+          "writing board",
+          "iron lock"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Dungeon cells beneath the tribunal wing, with the evidence vault above bleeding cold down the stairwell.",
+        "materialAnchor": "Mortar seams, floor chill through palm and bone, clerk's board on his knees, stool legs, lock teeth, chain against stone.",
+        "povAnchor": "Sylvanas inventories space, sound, and official posture because counting is the only discipline left.",
+        "dialogueAnchor": "Questions and wall-talk stay tied to kneeling at the masonry, the clerk's pen, and the prisoner hardware.",
+        "exitAnchor": "The blade's effect returns as a physical tick in the stone and a colder floor, not a generalized sense of menace."
+      },
+      "dialogueRuns": [
+        {
+          "label": "clerk interrogation",
+          "risk": "high"
+        },
+        {
+          "label": "wall exchange with Jaina",
+          "risk": "medium"
+        }
+      ]
+    },
+    {
+      "sceneId": 2,
+      "title": "The Trial",
+      "riskTags": [
+        "dialogue-heavy",
+        "institutional-summary",
+        "exhibit-prettying"
+      ],
+      "biggestGap": "The room, Ashcombe's opening, the exhibit, and Uther's testimony all risk slipping into polished summary unless bench, chain, page, rail, breath, and ward detail stay active.",
+      "sourceBank": {
+        "geography": [
+          "Capital City",
+          "Lordaeron's Palace"
+        ],
+        "institutions": [
+          "tribunal",
+          "palace mages",
+          "the Light"
+        ],
+        "materials": [
+          "light-struck flagstones",
+          "lighter courtroom chains",
+          "oak exhibit table",
+          "lead-lined chest",
+          "silver ward paste",
+          "black velvet",
+          "witness rail"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Ceremonial tribunal chamber built for monarchy and public order, entered under guard from service stairs.",
+        "materialAnchor": "Chain weight, glove leather, paper edges, chest clasps, blackening ward paste, chair arms, witness rail grain.",
+        "povAnchor": "Sylvanas reads who owns consequence in the room, tracking Thornton, Ashcombe, Uther, and the blade as threat surfaces.",
+        "dialogueAnchor": "Every prosecution and witness run must stay pinned to page turns, bench reaction, mage handling, or hands on wood.",
+        "exitAnchor": "The scene leaves not on abstract legal force but on bodies, chains, and the visible effect of the room accepting the frame."
+      },
+      "dialogueRuns": [
+        {
+          "label": "Ashcombe opening frame",
+          "risk": "high"
+        },
+        {
+          "label": "exhibit testimony",
+          "risk": "high"
+        },
+        {
+          "label": "Uther cross-examination",
+          "risk": "high"
+        }
+      ]
+    },
+    {
+      "sceneId": 3,
+      "title": "The Betrayals",
+      "riskTags": [
+        "consecutive-losses",
+        "dialogue-heavy",
+        "abstract-consequence"
+      ],
+      "biggestGap": "Antonidas, Vereesa, and the verdict can blur into institutional idea-work unless each failure lands through visible bodies, cloth, vellum, seating, and room recoil.",
+      "sourceBank": {
+        "geography": [
+          "Capital City",
+          "Silvermoon",
+          "Dalaran"
+        ],
+        "institutions": [
+          "Kirin Tor",
+          "Convocation",
+          "tribunal"
+        ],
+        "materials": [
+          "Dalaran robes",
+          "witness chair",
+          "sealed vellum",
+          "gold wax",
+          "Windrunner crest",
+          "clerks' ledgers",
+          "bench wood"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Same tribunal chamber, now narrowed around the witness chair, gallery rows, and the center table with the blade.",
+        "materialAnchor": "Twisted cuffs, wax seal, robe cloth, witness-box emptiness, ledger scratch, chain tug after verdict.",
+        "povAnchor": "Sylvanas judges betrayal by who stands, who does not, and who can still act after the room shows its teeth.",
+        "dialogueAnchor": "Mentor objection, sister disavowal, and verdict must each arrive with visible carrier beats and immediate room response.",
+        "exitAnchor": "The legal answer lands through tightened chains, stopped counting, and the removal back toward the colder cells."
+      },
+      "dialogueRuns": [
+        {
+          "label": "Antonidas objection",
+          "risk": "medium"
+        },
+        {
+          "label": "Vereesa disavowal",
+          "risk": "high"
+        },
+        {
+          "label": "verdict delivery",
+          "risk": "high"
+        }
+      ]
+    },
+    {
+      "sceneId": 4,
+      "title": "The Aftermath",
+      "riskTags": [
+        "tail-risk",
+        "corridor-dialogue",
+        "abstract-relief"
+      ],
+      "biggestGap": "Post-verdict urgency and Lor'themar's arrival can turn into emotional arithmetic unless bars, wall taps, torch color, road dust, and corridor cadence keep the chapter physical.",
+      "sourceBank": {
+        "geography": [
+          "Capital City",
+          "Lordaeron's Palace",
+          "Silvermoon"
+        ],
+        "institutions": [
+          "Farstriders",
+          "Sunwell-raised mages"
+        ],
+        "materials": [
+          "cell bars",
+          "mortar wall",
+          "torch grate",
+          "road dust",
+          "shackle iron",
+          "lantern light"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Return to the dungeon cells and corridor outside them, with the vault still bleeding through the foundations.",
+        "materialAnchor": "Tap patterns in stone, frost at blanket edge, bars between hands, road dust on Lor'themar, lantern glare at the corner.",
+        "povAnchor": "Sylvanas treats outside reinforcement as corroboration only if it can survive the clock, the bars, and the palace's slower machinery.",
+        "dialogueAnchor": "Wall-talk and corridor conversation stay attached to taps, bars, wrist-grip, and footsteps closing in.",
+        "exitAnchor": "The chapter ends on Lor'themar's dust and the colder corridor above, then returns to the wall between Sylvanas and Jaina."
+      },
+      "dialogueRuns": [
+        {
+          "label": "post-verdict wall exchange",
+          "risk": "medium"
+        },
+        {
+          "label": "Lor'themar at the bars",
+          "risk": "high"
+        }
+      ]
+    }
+  ]
+}

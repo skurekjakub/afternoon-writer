@@ -1,0 +1,419 @@
+{
+  "chapterId": "chapter21",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 15,
+      "kills": 12,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 12,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F2",
+      "submodeChecks": {
+        "F1": {
+          "kills": 0,
+          "cleanReason": "The harbor, march, camp, and cave sections vary sentence length and paragraph rhythm; fragment clusters such as tactical scans read as deliberate POV cataloging, not sustained template repetition."
+        },
+        "F5": {
+          "kills": 0,
+          "cleanReason": "Conflict stays hard: the camp remains suspicious, Muradin pushes back, the cave fight loses cleanly, and the ending preserves pressure instead of resolving it politely."
+        }
+      },
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "lineNumber": 151,
+          "line": "Jaina gave him a tired, brief smile.",
+          "issue": "generic label beat",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "lineNumber": 199,
+          "line": "Muradin frowned.",
+          "issue": "generic label beat",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "lineNumber": 259,
+          "line": "Then Jaina gave a short nod.",
+          "issue": "generic label beat",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "lineNumber": 323,
+          "line": "The soldiers behind him turned their heads together toward the sound, not toward Muradin himself but toward the exchange, as though the blade had tugged a cord through them.",
+          "word": "as though",
+          "deletionTest": "The soldiers behind him turned their heads together toward the sound, not toward Muradin himself but toward the exchange.",
+          "verdict": "KILL",
+          "suggestedFix": "The soldiers behind him turned their heads together toward the sound, not toward Muradin himself but toward the exchange.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "lineNumber": 439,
+          "line": "Jaina gave her a quick, startled look, as though the word itself needed translating.",
+          "word": "as though",
+          "deletionTest": "Jaina gave her a quick, startled look.",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina gave her a quick, startled look.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "lineNumber": 335,
+          "line": "The decisive mismatch.",
+          "whatItRestates": "Arthas survives the lethal shot, pulls the arrow free, and lets it ring on stone.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "lineNumber": 415,
+          "line": "That, more than the fight, closed the chapter of Arthas in Sylvanas's head.",
+          "whatItRestates": "Nothing comes out of the cave after them, and Sylvanas has already seen that the blade, not the prince, is the active threat.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "lineNumber": 3,
+          "line": "Daylight made the harbor honest.",
+          "paragraphLocation": "opening paragraph",
+          "issue": "thesis opening",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "lineNumber": 63,
+          "line": "The land above the harbor had forgotten softness.",
+          "paragraphLocation": "march transition paragraph",
+          "issue": "thesis opening",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "lineNumber": 271,
+          "line": "The cold changed with altitude.",
+          "paragraphLocation": "glacier approach paragraph",
+          "issue": "thesis opening",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "lineNumber": 435,
+          "line": "The recognition went down hard and steadied her.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "She would not have changed the route, the spacing, the timing, or the partner beside her.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "lineNumber": 449,
+          "line": "What came next would not be another version of the same attempt.",
+          "location": "scene-final",
+          "couldEndEarlierAt": "They had lost the match in the cave.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A1",
+      "registerSummary": "Sylvanas thinks like a field commander and hunter: she notices terrain, spacing, discipline, cost, and the body-level signals that matter to survival. She permits clipped tactical fragments and cold inferences, but not caption-like thesis tags or polished thematic lines that step outside immediate evidence.",
+      "registerConfidence": "HIGH",
+      "structuralHabit": "yes - caption fragments cluster at transitions and aftermath beats.",
+      "findings": [
+        {
+          "pattern": "A1",
+          "severity": "mild",
+          "lineNumber": 133,
+          "line": "Hard silence.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can register the silence and the men's reaction, but this fragment lands as a polished caption rather than a practical read from inside her body.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "mild",
+          "lineNumber": 379,
+          "line": "Triumph belonged to the scale of men. This was colder than that.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "In the middle of a lethal retreat, Sylvanas would read what Arthas is doing in threat terms; this polished contrast sounds authored over her shoulder rather than thought under pressure.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A4",
+          "severity": "mild",
+          "lineNumber": 445,
+          "line": "Work, not panic.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The negation-framed caption summarizes Jaina from above instead of staying with the visible gesture Sylvanas is watching.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 7,
+      "kills": 3,
+      "keeps": 4,
+      "severityCounts": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P1",
+      "findings": [
+        {
+          "pattern": "P1",
+          "severity": "mild",
+          "lineNumber": 201,
+          "line": "\"The sword and the plague were made by the same kind of hand. Not the same work. Same craft.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The plain claim that Frostmourne and the plague come from the same maker-family or manufacture.",
+          "verdict": "KILL",
+          "reason": "Sloganized abstraction in dialogue; the line sounds explanatory without stating the concrete relation plainly.",
+          "suggestedFix": "\"The sword was forged by the same craft that made the plague.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "lineNumber": 207,
+          "line": "\"I followed it from the coast because it repeats too cleanly to be natural wrongness.\"",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The explicit link that the blade's pattern turns the same way the plague's pattern does.",
+          "verdict": "KILL",
+          "reason": "Unanchored interpretive summary; the sentence hides the concrete family resemblance inside prestige phrasing.",
+          "suggestedFix": "\"I followed it from the coast because it turns the same way the plague does.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P1",
+          "severity": "mild",
+          "lineNumber": 321,
+          "line": "\"I found the strength to finish what weak men could not.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The actual thing Arthas found - Frostmourne as the blade he believes will finish the campaign.",
+          "verdict": "KILL",
+          "reason": "Sloganized abstraction in dialogue; the line substitutes gravitas for a named claim.",
+          "suggestedFix": "\"I found the blade to finish the campaign.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 1,
+      "keeps": 0,
+      "severityCounts": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "translation-still-shorthand",
+      "findings": [
+        {
+          "pattern": "translation-still-shorthand",
+          "severity": "mild",
+          "lineNumber": 201,
+          "line": "\"The sword and the plague were made by the same kind of hand. Not the same work. Same craft.\"",
+          "setup": "\"Speak dwarf.\"",
+          "failedQuestion": "Why does this still need unpacking?",
+          "missingPayload": "A plain statement of the relation between Frostmourne and the plague instead of metaphorical shorthand about hands and craft.",
+          "verdict": "KILL",
+          "reason": "The reply claims to simplify Jaina's theory, but it still answers in slogan compression rather than plain speech.",
+          "suggestedFix": "\"The sword was forged by the same craft that made the plague.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 19,
+    "totalKeeps": 10,
+    "mildKills": 19,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 4,
+    "killsWithFix": 19,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass B found 19 mild KILLs across all four guides, which exceeds the 3-mild maximum even without any moderate or severe findings."
+  }
+}

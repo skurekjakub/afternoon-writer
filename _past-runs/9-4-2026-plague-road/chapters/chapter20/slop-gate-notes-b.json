@@ -1,0 +1,327 @@
+{
+  "chapterId": "chapter20",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 12,
+      "kills": 9,
+      "keeps": 3,
+      "dominantPattern": "F4",
+      "mildKills": 9,
+      "moderateOrSevereKills": 0,
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": "She kept one hand on the mare's neck for a beat, let the animal's warmth soak into her palm, then straightened.",
+          "word": "for a beat",
+          "deletionTest": "She kept one hand on the mare's neck, let the animal's warmth soak into her palm, then straightened.",
+          "verdict": "KILL",
+          "suggestedFix": "She kept one hand on the mare's neck, let the animal's warmth soak into her palm, then straightened.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "That did more work than the cairn.",
+          "whatItRestates": "The sending-stone knocked once against Jaina's ribs when she rose.",
+          "verdict": "KILL",
+          "suggestedFix": "The knock of the stone against her ribs hit harder than the sight of the cairn.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "Care lived in the line only because Jaina had learned where to find it.",
+          "whatItRestates": "\"Leave it in your coat, then. We're boarding.\"",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "line": "Past the harbor mouth, the sea changed.",
+          "issue": "thesis opening",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": "Dagny's mouth twitched around surprise.",
+          "issue": "generic label / interchangeable beat",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "That mercy hurt worse than the refusal had.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Sylvanas held the bread one heartbeat longer, reading the refusal without asking it to explain itself, then handed the bundle to a ranger. \"Later.\"",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "The words landed cleaner than accusation.",
+          "whatItRestates": "\"And since you keep mistaking damage for usefulness.\"",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "line": "By the second night the sea had entered everything.",
+          "issue": "thesis opening",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "That was all.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Jaina nodded once.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "dominantPattern": "B1",
+      "mildKills": 4,
+      "moderateOrSevereKills": 0,
+      "registerSummary": "Jaina thinks in sensory data, magical pressure, logistics, and tight self-corrections. She can compress into sharp operational thoughts, but she does not usually step back to caption the scene in thematic or epigraphic prose.",
+      "registerConfidence": "HIGH",
+      "findings": [
+        {
+          "pattern": "A1",
+          "tier": "A",
+          "severity": "mild",
+          "line": "Bad ones.",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "The fragment captions the previous sentence from above instead of extending Jaina's concrete read of the weather fight.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2",
+          "tier": "B",
+          "severity": "mild",
+          "line": "Travel stopped meaning motion through landscape. It became labor in place.",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "Mid-deck, Jaina would think in rope, footing, pumps, and spray; this line compresses the experience into a thematic summary outside her immediate register.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "From then on every mile was deck labor.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "mild",
+          "line": "In the pause that followed, truth arrived in a meaner shape than she would have chosen.",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "The sentence sounds authored for thematic neatness; Jaina's in-scene register would not frame the realization through 'truth' and 'shape' abstractions here.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "mild",
+          "line": "He had been here long enough to organize absence.",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "Jaina can infer delay from the wreck, dock work, and old traces, but 'organize absence' is polished authorial compression rather than her bodily, evidence-first read.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "He had been here long enough to cut dock, land stores, and move inland.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "P3",
+      "mildKills": 3,
+      "moderateOrSevereKills": 0,
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "That did more work than the cairn.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the concrete effect of the stone's knock hitting Jaina harder than the visible relay post",
+          "verdict": "KILL",
+          "reason": "The stand-in noun 'work' creates weight without naming the actual emotional hit.",
+          "suggestedFix": "The knock of the stone against her ribs hit harder than the sight of the cairn.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": "The words landed cleaner than accusation.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "the plain social fact that Sylvanas corrected Jaina without heat or softness",
+          "verdict": "KILL",
+          "reason": "The sentence uses prestige abstraction to imply a tonal distinction it never cashes out concretely.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "In the pause that followed, truth arrived in a meaner shape than she would have chosen.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the concrete realization that Sylvanas was right about Jaina mistaking damage for usefulness",
+          "verdict": "KILL",
+          "reason": "Both 'truth' and 'shape' function as placeholder nouns that dodge the actual conclusion.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "mildKills": 0,
+      "moderateOrSevereKills": 0,
+      "cleanReason": "Re-read the Dagny bargaining, the shipboard command exchanges, and the arrival dialogue. None are introduced by a plain-speech or translation setup, so this guide never triggered."
+    }
+  ],
+  "summary": {
+    "totalKills": 16,
+    "totalKeeps": 9,
+    "mildKills": 16,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 16,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B found sixteen mild sentence-level issues. There are no moderate or severe kills, but the run exceeds the three-mild maximum for a pass."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "chapterId": "chapter18",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 1,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": "Cyndia had fallen a little wider to give her space without breaking the line.",
+          "word": "a little",
+          "deletionTest": "Cyndia had fallen wider to give her space without breaking the line.",
+          "issue": "hedge drag",
+          "suggestedFix": "Cyndia had fallen wider to give her space without breaking the line.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Reviewed verdict fragments, scene-state candidates, and Tier B compressions against Jaina's analytical limited-third register; the remaining candidates read as in-character tactical or notebook shorthand, and no residual seep survived after child-guide coverage."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 7,
+      "kills": 2,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "The countermeasure had landed where the thing entered the world.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the plague as the named carrier and entry point",
+          "reason": "Placeholder-noun stand-in; the sentence withholds the named carrier even though the paragraph can name it directly.",
+          "suggestedFix": "The countermeasure had landed where the plague came in.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "Jaina kept waiting for someone to speak the obvious thing.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "north as the unspoken destination and pressure point",
+          "reason": "The line relies on the reader to supply the withheld word instead of naming the operative payload already established in the scene.",
+          "suggestedFix": "Jaina kept waiting for someone to say north.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No translation-setup exchange appears in this chapter: nobody asks for plainer, shorter, or field-level speech, so the guide produced no candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 11,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Three mild sentence-level issues remain (one hedge and two placeholder abstractions), with no moderate or severe pass-B findings."
+  }
+}

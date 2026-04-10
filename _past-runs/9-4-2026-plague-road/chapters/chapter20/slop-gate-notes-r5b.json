@@ -1,0 +1,124 @@
+{
+  "chapterId": "chapter20",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "verdict": "KILL",
+          "line": "Perhaps she had expected the ritual of argument.",
+          "word": "Perhaps",
+          "deletionTest": "She had expected the ritual of argument.",
+          "issue": "Hedge softens a straightforward inference that already reads cleanly without it.",
+          "suggestedFix": "She had expected the ritual of argument.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "verdict": "KILL",
+          "line": "By full dark they knew the ship could still make north only by inches, and every inch had to be paid for.",
+          "word": "knew",
+          "deletionTest": "By full dark the ship could still make north only by inches, and every inch had to be paid for.",
+          "issue": "Filter verb pads a condition the sentence can state directly.",
+          "suggestedFix": "By full dark the ship could still make north only by inches, and every inch had to be paid for.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "verdict": "KILL",
+          "line": "Beyond a hooked point of stone, they saw the bay, and the first proof of lateness was the wreck above the tide line.",
+          "paragraphLocation": "landfall approach paragraph",
+          "issue": "Thesis-opening paragraph move; the sentence announces the paragraph's argument before the image can do the work.",
+          "suggestedFix": "Beyond a hooked point of stone, they saw the bay and the wreck above the tide line.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Checked verdict fragments, world-pressure lines, and harbor-evidence captions against Jaina's educated, fast, pattern-first register. The surviving candidates stayed inside her mage/tactical cognition or immediate sensory inference rather than slipping into detached narrator commentary."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Reviewed the chapter's pressure, answer, usefulness, and proof language. The surviving lines cash out through immediate magical mechanics, bodily collapse, or visible harbor evidence already on the page, so they do not rely on empty prestige abstraction."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in this chapter sets up a plain-speech or translation test, so this guide had no candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 7,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 1,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Three mild-only pass-B issues remain: one hedge, one filter-drag sentence, and one thesis-opening arrival caption. All three have low-difficulty drop-in fixes."
+  }
+}

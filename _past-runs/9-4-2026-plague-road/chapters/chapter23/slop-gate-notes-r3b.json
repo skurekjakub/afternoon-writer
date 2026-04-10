@@ -1,0 +1,211 @@
+{
+  "chapterId": "chapter23",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "mild": 2,
+      "moderate": 0,
+      "severe": 0,
+      "dominantPattern": "F4/F7",
+      "findings": [
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "location": "line 511",
+          "line": "He asked it like a commander because asking it any other way would have broken him.",
+          "whatItRestates": "\"Report,\" he said.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "location": "paragraph ending near line 547",
+          "line": "Because living long enough to speak later, as Uther had told her in the corridor, was the only work left that might still matter.",
+          "couldEndEarlierAt": "Jaina gave the faintest nod.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "mild": 4,
+      "moderate": 0,
+      "severe": 0,
+      "dominantPattern": "B1/B2",
+      "findings": [
+        {
+          "pattern": "A7",
+          "tier": "A",
+          "severity": "MILD",
+          "location": "line 447",
+          "line": "There was no first glance that turned kindly.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This zooms out into a general claim about how the tableau reads instead of staying with Jaina's immediate fear and visible evidence.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "MILD",
+          "location": "line 493",
+          "line": "He took in the king, and whatever in him had remained held together only because action was still possible broke in one silent visible place across his face.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can read shock on Uther's face, but this polished sentence diagnoses his inner structure in a way that sounds authored from outside him.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "He took in the king and went still.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "MILD",
+          "location": "line 511",
+          "line": "He asked it like a commander because asking it any other way would have broken him.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence explains Uther's psychological need in polished retrospective terms instead of staying with the command tone Jaina hears.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2",
+          "tier": "B",
+          "severity": "MILD",
+          "location": "line 547",
+          "line": "Because living long enough to speak later, as Uther had told her in the corridor, was the only work left that might still matter.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "In this exhausted surrender beat, Jaina would think in blunt survival terms rather than this abstract summary about the only work left.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "mild": 2,
+      "moderate": 0,
+      "severe": 0,
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "location": "line 95",
+          "line": "Whatever was happening in the throne room had already started.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The line never names the concrete event Jaina is inferring from the sharpened rhythm in the walls.",
+          "verdict": "KILL",
+          "reason": "Placeholder-event summary with no local cash-out.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "location": "line 487",
+          "line": "look at the room, we killed him, you're standing in the answer.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The fragment never names the actual evidence profile in front of the guards; it leans on 'answer' as a stand-in.",
+          "verdict": "KILL",
+          "reason": "Placeholder noun used where the thought needs the concrete proof in the room.",
+          "suggestedFix": "look at the room, we killed him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "mild": 0,
+      "moderate": 0,
+      "severe": 0,
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "No translation-setup lines or plain-speech prompts appear in the chapter, so there is no exchange for the guide to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 6,
+    "mildKills": 8,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still has 8 mild KILL findings across GPT-5 prose issues, narrator seep, and phantom concreteness; more than 3 mild-only kills fails the pass."
+  }
+}

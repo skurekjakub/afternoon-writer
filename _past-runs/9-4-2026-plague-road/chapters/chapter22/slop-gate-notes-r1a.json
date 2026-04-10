@@ -1,0 +1,203 @@
+{
+  "chapterId": "chapter22",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "dominantPattern": "negation-pivot",
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "1",
+          "line": "The dwarves answered with movement, not talk.",
+          "deletionTest": "The dwarves answered with movement.",
+          "reason": "Pattern 1 direct contrast pivot; the sentence keeps its meaning once the negated half is removed.",
+          "suggestedFix": "The dwarves answered with movement.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "5",
+          "line": "The villagers were not fools.",
+          "deletionTest": "The villagers were cheering the story they'd been given.",
+          "reason": "Pattern 5 preamble negation; the paragraph already supplies the real fact after the negated setup.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 12,
+      "kills": 7,
+      "keeps": 5,
+      "dominantPattern": "pattern-9-nominalized-agency",
+      "clusterFlags": [
+        "Jaina march analysis section (multiple mild kills in an analytical POV lane)",
+        "Capital-approach paragraph (2+ inanimate-subject agency smears in close succession)"
+      ],
+      "repeatNouns": [
+        "thought"
+      ],
+      "pattern4Alert": "no",
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "geography-as-agent",
+          "line": "Dragonblight did the rest.",
+          "subject": "Dragonblight",
+          "verb": "did",
+          "realAgent": "the wind, distance, and dead terrain wearing the formation down",
+          "reason": "The geography is carrying the causal burden instead of the concrete conditions doing the work.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "9",
+          "line": "The thought hit hard enough to make her stumble.",
+          "subject": "thought",
+          "verb": "hit",
+          "realAgent": "Jaina's realization about Kel'Thuzad landing on her hard enough to break her stride",
+          "reason": "Pattern 9 nominalizes a mental act and makes it strike her from outside.",
+          "suggestedFix": "She stumbled.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "9",
+          "line": "The thought came hard enough to stop her in the middle of the file.",
+          "subject": "thought",
+          "verb": "came",
+          "realAgent": "Jaina locking onto the three-school answer hard enough to halt the formation",
+          "reason": "Pattern 9 again packages Jaina's mental action as an external agent.",
+          "suggestedFix": "She stopped in the middle of the file.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "5",
+          "line": "At night the sea stopped being a road and became black motion under blacker sky. Jaina sat on a coil of rope with her back to the mast and forced the answer into plainer words until it could live outside her own head.",
+          "subject": "answer",
+          "verb": "could live",
+          "realAgent": "Jaina translating the framework into words she could actually say aloud",
+          "reason": "Pattern 5 gives the answer its own life instead of naming Jaina's effort to make it speakable.",
+          "suggestedFix": "At night the sea stopped being a road and became black motion under blacker sky. Jaina sat on a coil of rope with her back to the mast and forced the answer into plainer words until she could say it aloud.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "1",
+          "line": "The road south widened, then narrowed again as the capital pulled traffic inward.",
+          "subject": "capital",
+          "verb": "pulled",
+          "realAgent": "the converging roads and thickening traffic near the city",
+          "reason": "The city is given the organizing pull that belongs to the road layout and traffic pattern.",
+          "suggestedFix": "The road south widened, then narrowed again as traffic thickened toward the capital.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "2",
+          "line": "Every mile showed the same offense in a different dress.",
+          "subject": "mile",
+          "verb": "showed",
+          "realAgent": "the repeated wreaths, crests, bells, and village behavior along the road",
+          "reason": "The distance marker is doing the observational work that belongs to the repeated visible evidence.",
+          "suggestedFix": "The same offense kept recurring in different dress.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "abstract-state-settling",
+          "line": "The word settled across the little court harder than any oath.",
+          "subject": "word",
+          "verb": "settled",
+          "realAgent": "the people in the court absorbing Sylvanas's answer and feeling its force",
+          "reason": "The second P5/P6 sweep caught an abstract utterance carrying the physical-impact verb instead of the listeners taking the blow.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "dominantPattern": "none",
+      "cleanReason": "Counted one emotional 'tightened' use, one literal route-mark use of 'mark,' and one plot-functional eye-trigger beat; no tic exceeded its chapter cap, and the look/eye beats stayed logistical or plot-bearing rather than generic gaze choreography."
+    }
+  ],
+  "summary": {
+    "totalKills": 9,
+    "totalKeeps": 11,
+    "mildKills": 9,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 9,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has 9 mild KILLs across negation addiction and intent smear, which exceeds the threshold of 3 mild-only findings."
+  }
+}

@@ -1,0 +1,559 @@
+{
+  "chapterId": "chapter23",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 16,
+      "kills": 13,
+      "keeps": 3,
+      "dominantPattern": "Pattern 2 fragment pivot",
+      "severityMarkers": {
+        "mild": 6,
+        "moderate": 7,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 83,
+          "excerpt": "Not saved. Not fixed. Done.",
+          "pattern": "7",
+          "deletionTest": "Done.",
+          "severity": "mild",
+          "reason": "Pattern 7 chained negation; the positive answer survives without the refused options.",
+          "suggestedFix": "Done.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 233,
+          "excerpt": "Not loud. Not human. The sound came from farther back than his throat.",
+          "pattern": "7",
+          "deletionTest": "The sound came from farther back than his throat.",
+          "severity": "moderate",
+          "reason": "Pattern 7 chained negation; the real payload is the source and quality of the sound.",
+          "suggestedFix": "The sound came from farther back than his throat, low and inhuman.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 255,
+          "excerpt": "Not invulnerable. Just held together by appetite with no mercy in it.",
+          "pattern": "2",
+          "deletionTest": "Just held together by appetite with no mercy in it.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the second sentence carries the actual observation.",
+          "suggestedFix": "Held together by appetite with no mercy in it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 303,
+          "excerpt": "Not broken. Not yet. But the rhythm tore open.",
+          "pattern": "7",
+          "deletionTest": "The rhythm tore open.",
+          "severity": "moderate",
+          "reason": "Pattern 7 chained negation; the sequence can state the surviving condition directly.",
+          "suggestedFix": "The blade stayed whole, but the rhythm tore open.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 329,
+          "excerpt": "Every spell chosen for drag, not glory.",
+          "pattern": "1",
+          "deletionTest": "Every spell chosen for drag.",
+          "severity": "mild",
+          "reason": "Pattern 1 direct contrast pivot; the negative half is ornamental scaffolding.",
+          "suggestedFix": "Every spell chosen for drag.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 401,
+          "excerpt": "No miracle marked it. No banner of light. No choir for murdered kings and ruined sons.",
+          "pattern": "7",
+          "deletionTest": "Arthas simply stopped.",
+          "severity": "moderate",
+          "reason": "Pattern 7 chained negation; the triple refusal delays the actual event.",
+          "suggestedFix": "The kill came without ceremony.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 415,
+          "excerpt": "Not restored. Not forgiven. Only emptied enough by pain and shock that the old lines showed through.",
+          "pattern": "7",
+          "deletionTest": "Only emptied enough by pain and shock that the old lines showed through.",
+          "severity": "moderate",
+          "reason": "Pattern 7 chained negation; the sentence survives on the positive state alone.",
+          "suggestedFix": "Only emptied enough by pain and shock that the old lines showed through.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 515,
+          "excerpt": "Not much. Enough.",
+          "pattern": "2",
+          "deletionTest": "Enough.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the useful information is already in the second beat.",
+          "suggestedFix": "Enough.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 541,
+          "excerpt": "Not witnesses. Not with Terenas dead, Arthas dead by an arrow, and Sylvanas Windrunner standing in the throne room of Lordaeron.",
+          "pattern": "7",
+          "deletionTest": "Witnesses were impossible with Terenas dead, Arthas dead by an arrow, and Sylvanas Windrunner standing in the throne room of Lordaeron.",
+          "severity": "moderate",
+          "reason": "Pattern 7 chained negation; the real claim is the impossibility of witness status.",
+          "suggestedFix": "Witnesses were impossible with Terenas dead, Arthas dead by an arrow, and Sylvanas Windrunner standing in the throne room of Lordaeron.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 555,
+          "excerpt": "Not questioning. Measuring.",
+          "pattern": "2",
+          "deletionTest": "Measuring.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the refused state adds no structural work.",
+          "suggestedFix": "Measuring.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 559,
+          "excerpt": "Not because she trusted the room. Not because surrender tasted noble. Because neither of them had enough left to cut through thirty men and a ring of paladins while a damaged soul-drinking sword twitched at their feet.",
+          "pattern": "7",
+          "deletionTest": "Because neither of them had enough left to cut through thirty men and a ring of paladins while a damaged soul-drinking sword twitched at their feet.",
+          "severity": "moderate",
+          "reason": "Pattern 7 chained negation; the causal sentence already carries the choice.",
+          "suggestedFix": "Because neither of them had enough left to cut through thirty men and a ring of paladins while a damaged soul-drinking sword twitched at their feet. Because living long enough to speak later, as Uther had told her in the corridor, was the only work left that might still matter.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 589,
+          "excerpt": "Not close enough to be comfort. Close enough that no frightened man would decide a bound prisoner needed the back of a spear while moving.",
+          "pattern": "2",
+          "deletionTest": "Close enough that no frightened man would decide a bound prisoner needed the back of a spear while moving.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the positive half contains the actual spatial function.",
+          "suggestedFix": "Close enough that no frightened man would decide a bound prisoner needed the back of a spear while moving.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 607,
+          "excerpt": "Not from the sword this time. From the actual kitchens somewhere below, where dough would already be rising for the evening meal because kingdoms, even broken ones, kept feeding themselves while they decided whom to blame.",
+          "pattern": "3",
+          "deletionTest": "From the actual kitchens somewhere below, where dough would already be rising for the evening meal because kingdoms, even broken ones, kept feeding themselves while they decided whom to blame.",
+          "severity": "moderate",
+          "reason": "Pattern 3 source-swap pivot; the prose can name the real source directly.",
+          "suggestedFix": "From the actual kitchens somewhere below, where dough would already be rising for the evening meal because men still needed feeding while their rulers decided whom to blame.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 15,
+      "kills": 13,
+      "keeps": 2,
+      "dominantPattern": "Pattern 8 body-part agency and abstraction laundering",
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 12,
+        "severe": 1
+      },
+      "findings": [
+        {
+          "line": 45,
+          "excerpt": "palaces kept their dignity in the front rooms and their clutter where the work got done",
+          "subject": "palaces",
+          "verb": "kept",
+          "realAgent": "staff habits, room use, and visible maintenance patterns",
+          "pattern": "architecture-with-social-intent",
+          "severity": "moderate",
+          "reason": "The building is carrying a social choice that belongs to the people maintaining and using it.",
+          "suggestedFix": "front rooms stayed polished while clutter gathered where the work got done",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 53,
+          "excerpt": "His eyes found Jaina, the corridor behind her, then the cold shivering through the stones.",
+          "subject": "eyes",
+          "verb": "found",
+          "realAgent": "Uther assessing Jaina, the corridor, and the magical cold",
+          "pattern": "8",
+          "severity": "moderate",
+          "reason": "Pattern 8 body-part agency; the character is doing the assessment, not his eyes.",
+          "suggestedFix": "Uther took in Jaina, the corridor behind her, then the cold shivering through the stones.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 171,
+          "excerpt": "the body remembering its shape",
+          "subject": "body",
+          "verb": "remembering",
+          "realAgent": "necromantic regeneration forcing the flesh closed",
+          "pattern": "corpse-memory",
+          "severity": "moderate",
+          "reason": "The sentence launders the regeneration mechanic into bodily memory instead of naming the effect.",
+          "suggestedFix": "the flesh pulling itself closed, slow and obscene, reshaping around the wound",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 189,
+          "excerpt": "a sword that believed for half a second it had only one enemy",
+          "subject": "sword",
+          "verb": "believed",
+          "realAgent": "the blade's tracking pressure staying fixed on a single target",
+          "pattern": "5",
+          "severity": "moderate",
+          "reason": "Pattern 5 object cognition; the weapon is given belief instead of a concrete targeting state.",
+          "suggestedFix": "a sword fixed on one enemy for half a second",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 223,
+          "excerpt": "His eyes found her completely then",
+          "subject": "eyes",
+          "verb": "found",
+          "realAgent": "Arthas locking onto Jaina after the frost disruption",
+          "pattern": "8",
+          "severity": "moderate",
+          "reason": "Pattern 8 body-part agency; the sentence dodges the character's volition by giving the action to his eyes.",
+          "suggestedFix": "Then he looked straight at her, and the violence in his face told her the theory had been right.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 325,
+          "excerpt": "a place a storm had chosen to keep",
+          "subject": "storm",
+          "verb": "had chosen to keep",
+          "realAgent": "the chamber's damaged, winter-struck condition",
+          "pattern": "weather-choice",
+          "severity": "moderate",
+          "reason": "The storm is carrying intention instead of the room's visible condition doing the work.",
+          "suggestedFix": "a place gone storm-struck",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 375,
+          "excerpt": "Winter held the room in both hands.",
+          "subject": "Winter",
+          "verb": "held",
+          "realAgent": "the room's deep cold and the surviving frost field",
+          "pattern": "weather-grip",
+          "severity": "moderate",
+          "reason": "The sentence gives season-level intent and physical handling to an abstraction instead of naming the room's state.",
+          "suggestedFix": "The room sat deep in winter cold.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 489,
+          "excerpt": "The chamber gave them a worse shape of it.",
+          "subject": "chamber",
+          "verb": "gave",
+          "realAgent": "the dead king, dead prince, blood, ice, and weapon laid out in view",
+          "pattern": "scene-framing",
+          "severity": "moderate",
+          "reason": "The room is made to deliver an interpretation that actually comes from visible evidence.",
+          "suggestedFix": "What they saw was worse than the violence they had expected.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 495,
+          "excerpt": "Their fear had already chosen its story.",
+          "subject": "fear",
+          "verb": "had already chosen",
+          "realAgent": "the guards deciding on an accusation from the room's surface evidence",
+          "pattern": "5",
+          "severity": "moderate",
+          "reason": "Pattern 5 abstraction deciding; the people in the room are choosing the story, not fear itself.",
+          "suggestedFix": "They had already chosen their story.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 509,
+          "excerpt": "His eyes lifted to Jaina. Then to Sylvanas. Then to Frostmourne.",
+          "subject": "eyes",
+          "verb": "lifted",
+          "realAgent": "Uther checking the women and the blade in order",
+          "pattern": "8",
+          "severity": "moderate",
+          "reason": "Pattern 8 body-part agency; the sentence assigns the assessment path to his eyes instead of to him.",
+          "suggestedFix": "He checked Jaina, then Sylvanas, then Frostmourne.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 541,
+          "excerpt": "the truth stood between them in full armor",
+          "subject": "truth",
+          "verb": "stood",
+          "realAgent": "the visible facts of the room and the political consequences both of them understand",
+          "pattern": "abstraction-standing",
+          "severity": "moderate",
+          "reason": "The sentence launders the visible facts into an armored abstraction instead of stating their pressure directly.",
+          "suggestedFix": "The facts were plain between them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 587,
+          "excerpt": "The look she gave him promised excellent reasons for regret if either of them ever walked free again.",
+          "subject": "look",
+          "verb": "promised",
+          "realAgent": "Sylvanas threatening the guard through her expression",
+          "pattern": "3",
+          "severity": "moderate",
+          "reason": "The threat belongs to Sylvanas, not to the look as an independent promiser.",
+          "suggestedFix": "She looked at him like a woman already saving him for later regret.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 607,
+          "excerpt": "kingdoms, even broken ones, kept feeding themselves while they decided whom to blame",
+          "subject": "kingdoms",
+          "verb": "kept feeding themselves / decided",
+          "realAgent": "kitchen labor continuing while rulers and officials argue blame",
+          "pattern": "4",
+          "severity": "severe",
+          "reason": "Pattern 4 institutional self-direction; the sentence gives a political abstraction self-maintenance and decision-making instead of naming the people involved.",
+          "suggestedFix": "kitchen fires stayed lit while rulers decided whom to blame",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 9,
+      "kills": 5,
+      "keeps": 4,
+      "dominantPattern": "Tic 5 eye/gaze repertoire exhaustion",
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 53,
+          "excerpt": "His eyes found Jaina, the corridor behind her, then the cold shivering through the stones.",
+          "pattern": "tic-5-eye-gaze",
+          "countInChapter": 9,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "This is one of the weaker generic eye-routing beats and falls into the excess beyond the chapter cap.",
+          "suggestedFix": "Uther took in Jaina, the corridor behind her, then the cold shivering through the stones.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 415,
+          "excerpt": "Boyhood at the eyes.",
+          "pattern": "tic-5-eye-gaze",
+          "countInChapter": 9,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "The emotional beat is routed through eyes in a chapter that already exceeds the eye/gaze cap.",
+          "suggestedFix": "Boyhood in his face.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 491,
+          "excerpt": "Their eyes took it one piece at a time.",
+          "pattern": "tic-5-eye-gaze",
+          "countInChapter": 9,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "This late generic perception beat adds to the chapter's eye-routing cluster and is weaker than the tactical keeps.",
+          "suggestedFix": "They took it in one piece at a time.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 503,
+          "excerpt": "Then his gaze found Arthas.",
+          "pattern": "tic-5-eye-gaze",
+          "countInChapter": 9,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "This is a generic gaze-delivery beat and one of the weakest eye/gaze instances over cap.",
+          "suggestedFix": "Then he faced Arthas.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 509,
+          "excerpt": "His eyes lifted to Jaina. Then to Sylvanas. Then to Frostmourne.",
+          "pattern": "tic-5-eye-gaze",
+          "countInChapter": 9,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "The chapter is already over cap, and this triad is a generic scanning beat weaker than the character-specific tactical uses.",
+          "suggestedFix": "He checked Jaina, then Sylvanas, then Frostmourne.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 31,
+    "totalKeeps": 9,
+    "mildKills": 11,
+    "moderateOrSevereKills": 20,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 31,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass A found 20 moderate-or-severe kills across negation and agency laundering, plus recurring eye/gaze excess."
+  }
+}

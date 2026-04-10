@@ -1,0 +1,116 @@
+{
+  "chapterId": "chapter18",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severityMarkers": [
+        "MILD"
+      ],
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "By the time full dark took the road, it no longer needed saying.",
+          "location": "scene-final / paragraph-final",
+          "couldEndEarlierAt": "No one said the word.",
+          "issue": "Closure addiction; the line explains the unspoken north decision after the prior image chain already carries it.",
+          "suggestedFix": "Full dark took the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severityMarkers": [
+        "MILD"
+      ],
+      "dominantPattern": "A2",
+      "findings": [
+        {
+          "pattern": "A2",
+          "severity": "MILD",
+          "line": "North took everything else.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can track the north pull through the dispatch, her notebook model, and the coast wind; \"everything else\" turns that pressure into a caption instead of an in-body thought.",
+          "confidence": "HIGH",
+          "suggestedFix": "North sat in the dispatch tube, in her notebook, in the salt wind ahead.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severityMarkers": [
+        "MILD"
+      ],
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "North took everything else.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The concrete carriers already on the page: the dispatch tube, Jaina's notebook model, Arthas's northbound ships, and the salt wind ahead.",
+          "reason": "Placeholder-noun stand-in; the sentence wants thematic weight without naming what north has actually seized in the scene.",
+          "suggestedFix": "North sat in the dispatch tube, in her notebook, in the salt wind ahead.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "No line in this chapter sets up a plain-speech or street-level translation exchange, so the guide had no candidates to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 7,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass B found three mild issues and no moderate or severe kills; all three have low-difficulty fixes cross-checked against the pass-B guide pack."
+  }
+}

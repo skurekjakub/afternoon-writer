@@ -1,0 +1,336 @@
+{
+  "chapterId": "chapter15",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 12,
+      "kills": 5,
+      "keeps": 7,
+      "severityMarkers": [
+        "MODERATE: F4 over-translation on Arthas assessment",
+        "MODERATE: F7 closure sentence at chapter handoff"
+      ],
+      "dominantPattern": "F6 — Essay Brain",
+      "findings": [
+        {
+          "line": "Uther looked at Jaina then, properly, perhaps for the first time since the tent.",
+          "pattern": "F3",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The hedge word 'perhaps' softens a clean physical read; deleting it keeps the same scene fact with more force.",
+          "suggestedFix": "Uther looked at Jaina then, properly, for the first time since the tent.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Everything about him turned bad news into motion.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The previous sentence already shows Arthas converting information into action by measuring routes, bodies, and officer movement; this sentence translates what the concrete beat already carried.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Up close the town's survival looked worse.",
+          "pattern": "F6",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "This is a thesis-opening sentence for the paragraph; the concrete burns, bites, barrels, and wood stacks already do the work.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The departure rush had begun.",
+          "pattern": "F6",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The sentence announces the paragraph's subject before the stable boys, quartermasters, and relay strips show it directly.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "They rode for the head start while there was still one to ride for.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The chapter could end cleanly on the concrete image of horses, dust, and smoke; this line closes the emotional loop by explaining the urgency.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": [
+        "Repeat abstract-noun agency: pace (2 hits)",
+        "Dedicated P5/P6 sweep found one new pace abstraction in the launch paragraph"
+      ],
+      "dominantPattern": "P5 — objects/abstractions acting",
+      "findings": [
+        {
+          "line": "He led them between the tents at a pace that said he had already chosen what to leave undone for the next five minutes.",
+          "pattern": "P5",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The non-agentive noun 'pace' is made to speak. The real agent is Uther's hurried movement and the triage work he is consciously leaving behind.",
+          "suggestedFix": "He led them between the tents fast enough to show what he had already chosen to leave undone for the next five minutes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Scholomance pressed at the edge of memory and stayed there.",
+          "pattern": "P6",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "A location name is given physical pressure and persistence in Sylvanas's memory. The real agent is the memory of what happened there and her refusal to dwell on it.",
+          "suggestedFix": "The memory of Scholomance stayed at the edge of her mind.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Arthas's pace reached ahead of him.",
+          "pattern": "P5",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The abstract noun 'pace' is doing physical advance work on its own. The real agents are the officers and column already moving under Arthas's urgency.",
+          "suggestedFix": "Mounted officers were already moving before Arthas reached the line.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 4,
+      "severityMarkers": [],
+      "dominantPattern": "B1 — sentence too polished for POV",
+      "findings": [
+        {
+          "line": "He made endurance look like an ordinary task someone had to do well.",
+          "pattern": "B1",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "This sentence reads like polished authorial compression rather than Sylvanas's clipped tactical register; it abstracts Uther into a theme statement after the concrete image already landed.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": [
+        "Pattern 2 fragment pivots repeat in narration"
+      ],
+      "dominantPattern": "Pattern 2 — Fragment pivot",
+      "findings": [
+        {
+          "line": "Not calmer.",
+          "pattern": "Pattern 2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The negative fragment is scaffolding. The paragraph already commits to the stronger positive description in the next sentence.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Dry enough to be almost funny. Not meant that way.",
+          "pattern": "Pattern 2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The line defines Uther's tone through a negated second beat instead of naming the actual quality directly.",
+          "suggestedFix": "Dry and humorless.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not enough to stop for. Too much to ignore.",
+          "pattern": "Pattern 2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The first fragment is a negated setup. The second fragment already carries the needed decision pressure on its own.",
+          "suggestedFix": "Too much to ignore.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 8,
+      "kills": 4,
+      "keeps": 4,
+      "severityMarkers": [
+        "Tic 5 cap is 4 per chapter; 8 eye/gaze beats were examined"
+      ],
+      "dominantPattern": "Tic 5 — Eye/Gaze Repertoire Exhaustion",
+      "findings": [
+        {
+          "line": "His eyes went from Sylvanas to Jaina to Uther and sharpened.",
+          "pattern": "Tic 5",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "This is a generic reaction beat routed through eyes; it is one of the weakest excess eye/gaze instances once the chapter passes the hard cap.",
+          "suggestedFix": "He checked Sylvanas, Jaina, and Uther in one sweep.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "His gaze cut to them.",
+          "pattern": "Tic 5",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Once the chapter exceeds the cap, this generic gaze beat is weaker than the more tactical or relationship-specific eye uses later in the scene.",
+          "suggestedFix": "He looked at them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Jaina turned her head and gave him one clean look.",
+          "pattern": "Tic 5",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "This is a generic confrontation beat carried by a look rather than a more specific action or line-level pressure.",
+          "suggestedFix": "Jaina turned toward him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Uther looked at Jaina then, properly, perhaps for the first time since the tent.",
+          "pattern": "Tic 5",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "After the chapter passes the cap, this relation beat is another weak eye/look construction and also duplicates the hedge problem already present in the same sentence.",
+          "suggestedFix": "Uther turned to Jaina then, properly, for the first time since the tent.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 16,
+    "totalKeeps": 19,
+    "mildKills": 11,
+    "moderateOrSevereKills": 5,
+    "guidesRun": 5,
+    "guidesWithKills": 5,
+    "killsWithFix": 16,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "16 KILL verdicts across 5 guides (5 MODERATE+, 11 MILD). Recurring eye/gaze excess, fragment-negation pivots, and abstracted agency remain in the chapter."
+  }
+}

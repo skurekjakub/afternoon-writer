@@ -1,0 +1,333 @@
+{
+  "chapterId": "chapter21",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "severityMarkers": [
+        "mild-only"
+      ],
+      "dominantPattern": "F4/F6/F7 closure-and-caption scaffolding",
+      "findings": [
+        {
+          "pattern": "F2",
+          "line": "Muradin went still.",
+          "issue": "generic label / interchangeable dialogue beat",
+          "verdict": "KILL",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "line": "Jaina stared at the shapes her hand kept drawing, apparently only just noticing them.",
+          "word": "apparently",
+          "deletionTest": "Jaina stared at the shapes her hand kept drawing, only just noticing them.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "suggestedFix": "Jaina stared at the shapes her hand kept drawing, only just noticing them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "line": "He finally had words that matched his own warning.",
+          "whatItRestates": "Relief crossed his face before he could stop it.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "line": "The camp was a dig turned fort.",
+          "paragraphLocation": "camp-entry paragraph",
+          "issue": "thesis opening",
+          "verdict": "KILL",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "line": "The real enemy had been in his hand, turning Jaina's best magic aside and lending impossible speed to the body that held it.",
+          "location": "paragraph-final / post-retreat reflection",
+          "couldEndEarlierAt": "The creature in the cave had worn the prince's face and voice, but those were scraps now.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 9,
+      "kills": 6,
+      "keeps": 3,
+      "severityMarkers": [
+        "mild-only"
+      ],
+      "dominantPattern": "A1 verdict-tag fragments and collective-overreach claims",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks in tactical reads, physical evidence, and short operational judgments. She can compress an assessment when it drives a decision, but she does not drift into chamber-wide mind-reading or polished thematic captions.",
+      "registerConfidence": "HIGH",
+      "findings": [
+        {
+          "pattern": "A1",
+          "line": "Approval buried under contempt.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This lands as a caption pinned over Dagny's reaction rather than a concrete read Sylvanas is actively acting on.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2",
+          "line": "Men on the wall repeated the name inwardly and found it matched too much.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can read the pause on the wall, but not the guards' inward repetition or shared mental conclusion.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1",
+          "line": "No need to specify.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This reads as a caption after dialogue rather than an active tactical thought with immediate consequence.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A7",
+          "line": "Everyone there knew what it was.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence generalizes across the whole chamber and assigns knowledge Sylvanas cannot access from inside her body.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A7",
+          "line": "No one had breath left for horror.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This assigns the same interior state to the whole chamber instead of staying with Sylvanas's immediate tactical read.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B3",
+          "line": "The real enemy had been in his hand, turning Jaina's best magic aside and lending impossible speed to the body that held it.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This packages the chapter's thematic lesson in polished retrospective terms instead of staying with Sylvanas's immediate retreat-state perception.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "severityMarkers": [
+        "mild-only"
+      ],
+      "dominantPattern": "P3 placeholder abstractions",
+      "findings": [
+        {
+          "pattern": "P4",
+          "line": "Approval buried under contempt.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The approving tell in Dagny's face or body that would cash out the judgment.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Abstract interpretive summary with no visible carrier.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "line": "We're approaching something fixed.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The fixed site or source the line implies.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Placeholder abstraction standing in for the actual target.",
+          "suggestedFix": "We're approaching one source.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "line": "I heard where it cycles.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "What in Frostmourne's field repeats, and what handle that gives the listener.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "The line implies a concrete magical read without naming the usable payload.",
+          "suggestedFix": "I heard the seam in it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "line": "A seam. It repeats there.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "Where the seam sits or what repeated behavior marks it.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "The line sounds sharper than it is and still withholds the actual handle.",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "cleanReason": "Checked the two translation setups in the chapter: \"What does louder mean?\" -> \"Closer\" gives an immediate threshold, and \"Speak dwarf.\" -> \"The sword was forged by the same craft that made the plague.\" delivers the plain payload without needing a second unpacking step.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 15,
+    "totalKeeps": 10,
+    "mildKills": 15,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 14,
+    "killsUnfixable": 1,
+    "verdict": "fail",
+    "verdictReason": "Pass B still has 15 mild KILLs across three guides, which exceeds the <=3 mild-only pass threshold."
+  }
+}

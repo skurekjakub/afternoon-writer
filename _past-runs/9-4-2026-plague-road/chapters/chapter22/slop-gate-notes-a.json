@@ -1,0 +1,473 @@
+{
+  "chapterId": "chapter22",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 12,
+      "kills": 9,
+      "keeps": 3,
+      "dominantPattern": "P2",
+      "severityMarkers": [
+        "mild-only",
+        "fragment-pivot cluster"
+      ],
+      "findings": [
+        {
+          "lineNumber": 33,
+          "line": "The first she had felt that was not stolen from a galley stove or another body standing too close.",
+          "pattern": "P3",
+          "deletionTest": "The first she had felt.",
+          "severity": "mild",
+          "reason": "Pattern 3 source-swap; the sentence defines the heat by rejecting prior sources instead of naming the present one directly.",
+          "suggestedFix": "The first true heat since the galley stove and bodies pressed close.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 81,
+          "line": "Not one thing. A repeating breath.",
+          "pattern": "P2",
+          "deletionTest": "A repeating breath.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the first fragment is dead scaffolding before the real description.",
+          "suggestedFix": "A repeating breath.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 127,
+          "line": "Fire would not break it. Fire changed things from the inside.",
+          "pattern": "P5",
+          "deletionTest": "Fire changed things from the inside.",
+          "severity": "mild",
+          "reason": "Pattern 5 preamble negation; the first sentence stages a false route before the operative claim.",
+          "suggestedFix": "Fire changed things from the inside.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 137,
+          "line": "Not a break point. The turn.",
+          "pattern": "P2",
+          "deletionTest": "The turn.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the negated setup can be cut without losing the usable term.",
+          "suggestedFix": "The turn.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 137,
+          "line": "Not to melt it. To force the binding to answer to something else.",
+          "pattern": "P2",
+          "deletionTest": "To force the binding to answer to something else.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the usable intention is in the second fragment and the negated setup is expendable.",
+          "suggestedFix": "To change the binding from the inside.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 169,
+          "line": "Not an insult. Ship measure.",
+          "pattern": "P2",
+          "deletionTest": "Ship measure.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the line lands cleanly once the negated preface is removed.",
+          "suggestedFix": "Ship measure.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 235,
+          "line": "Short this time. As though the trouble were discipline and not the bakery smell rising off her skin.",
+          "pattern": "P1",
+          "deletionTest": "Short this time. As though the trouble were the bakery smell rising off her skin.",
+          "severity": "mild",
+          "reason": "Pattern 1 direct contrast pivot; the sentence names the real problem only after rejecting a fake one.",
+          "suggestedFix": "Short this time. As though the bakery smell rising off her skin were the trouble.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 344,
+          "line": "He was no longer arriving. He was settled.",
+          "pattern": "P5",
+          "deletionTest": "He was settled.",
+          "severity": "mild",
+          "reason": "Pattern 5 preamble negation; the first clause only backs away from the direct state named in the second.",
+          "suggestedFix": "He had already settled.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 418,
+          "line": "Not this.",
+          "pattern": "P2",
+          "deletionTest": "[delete fragment]",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the sentence supplies only a negated setup and withholds the real noun.",
+          "suggestedFix": "Something smaller.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 20,
+      "kills": 16,
+      "keeps": 4,
+      "dominantPattern": "P5",
+      "severityMarkers": [
+        "mild-only",
+        "pattern-5 object-agency cluster",
+        "pattern-8 body-part repetition",
+        "pattern-4 institutional self-deception present"
+      ],
+      "findings": [
+        {
+          "lineNumber": 25,
+          "line": "Baelgun's eyes went over them once: elf commander, half-spent mage, Cyndia with her bow still in hand, three rangers crusted in cave frost and old blood.",
+          "subject": "Baelgun's eyes",
+          "verb": "went over",
+          "realAgent": "Baelgun",
+          "pattern": "P8",
+          "severity": "mild",
+          "reason": "Pattern 8 body-part agency; Baelgun is the one surveying the formation.",
+          "suggestedFix": "Baelgun looked them over once: elf commander, half-spent mage, Cyndia with her bow still in hand, three rangers crusted in cave frost and old blood.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 63,
+          "line": "Then the wind got under her hood and reminded her what waited farther south.",
+          "subject": "the wind",
+          "verb": "reminded",
+          "realAgent": "the gust plus Jaina's own recollection",
+          "pattern": "weather-reminder smear",
+          "severity": "mild",
+          "reason": "The sentence gives a gust the cognitive work of memory instead of letting Jaina remember.",
+          "suggestedFix": "Then the wind got under her hood, and she remembered what waited farther south.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 83,
+          "line": "The pause where the whole thing changed its mind.",
+          "subject": "the whole thing",
+          "verb": "changed its mind",
+          "realAgent": "the oscillation in Frostmourne's field",
+          "pattern": "P5",
+          "severity": "mild",
+          "reason": "Pattern 5 object agency; the mechanism is treated like it is making a decision.",
+          "suggestedFix": "The pause where the rhythm turned.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 87,
+          "line": "That lie had not survived Northrend.",
+          "subject": "That lie",
+          "verb": "had not survived",
+          "realAgent": "the evidence and pressure of Northrend",
+          "pattern": "abstract-survival smear",
+          "severity": "mild",
+          "reason": "The sentence makes the lie behave like a living thing instead of naming that the experience killed it.",
+          "suggestedFix": "By Northrend, the lie was dead.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 117,
+          "line": "When the pull in Frostmourne's field lined up cleanly with the rhythm of her steps, the answer opened one shade farther.",
+          "subject": "the answer",
+          "verb": "opened",
+          "realAgent": "Jaina's understanding",
+          "pattern": "P5",
+          "severity": "mild",
+          "reason": "Pattern 5 object agency; the answer is made to act instead of Jaina understanding more.",
+          "suggestedFix": "When the pull in Frostmourne's field lined up cleanly with the rhythm of her steps, Jaina understood one shade more.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 169,
+          "line": "Dagny's eyes slid to Sylvanas.",
+          "subject": "Dagny's eyes",
+          "verb": "slid",
+          "realAgent": "Dagny",
+          "pattern": "P8",
+          "severity": "mild",
+          "reason": "Pattern 8 body-part agency; Dagny is the one looking at Sylvanas.",
+          "suggestedFix": "Dagny looked at Sylvanas.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 213,
+          "line": "\"Come fast,\" Antonidas said. \"That is all the city will still allow you.\"",
+          "subject": "the city",
+          "verb": "will still allow",
+          "realAgent": "the palace authorities and the city's political constraints",
+          "pattern": "P5",
+          "severity": "mild",
+          "reason": "Pattern 5 object agency; the city is assigned the permission structure that belongs to people and institutions.",
+          "suggestedFix": "\"Come fast,\" Antonidas said. \"That is all the palace authorities will still permit.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 277,
+          "line": "The sea offered no answer.",
+          "subject": "The sea",
+          "verb": "offered",
+          "realAgent": "Jaina's failed search for clarity during the crossing",
+          "pattern": "P2",
+          "severity": "mild",
+          "reason": "Pattern 2 infrastructure asking/answering; the sea is made to participate in the reasoning instead of Jaina failing to solve it there.",
+          "suggestedFix": "She found no answer in the sea.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 279,
+          "line": "That was the only kindness the crossing gave her.",
+          "subject": "the crossing",
+          "verb": "gave",
+          "realAgent": "the time Jaina got during the crossing",
+          "pattern": "P5",
+          "severity": "mild",
+          "reason": "Pattern 5 object agency; the voyage is made to bestow kindness instead of the passage merely buying time.",
+          "suggestedFix": "That was the only good thing she got from the crossing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 285,
+          "line": "The moment she stopped feeding the sails, the body keeping count under everything else presented its bill.",
+          "subject": "the body keeping count under everything else",
+          "verb": "presented",
+          "realAgent": "Jaina's exhaustion",
+          "pattern": "P5",
+          "severity": "mild",
+          "reason": "Pattern 5 object agency; the body is personified as an accountant collecting payment.",
+          "suggestedFix": "The moment she stopped feeding the sails, the cost under everything else came due.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 303,
+          "line": "Dragonblight had at least possessed the decency to announce itself as murder-country.",
+          "subject": "Dragonblight",
+          "verb": "possessed the decency to announce itself",
+          "realAgent": "the visible terrain and ruin",
+          "pattern": "geography-judgment smear",
+          "severity": "mild",
+          "reason": "The geography is given judgment and self-announcing intent instead of the narration naming what made it legibly deadly.",
+          "suggestedFix": "Dragonblight had at least looked like murder-country from the first mile.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 325,
+          "line": "Silence sat badly in the mouth.",
+          "subject": "Silence",
+          "verb": "sat",
+          "realAgent": "Sylvanas enduring the act of staying silent",
+          "pattern": "P7",
+          "severity": "mild",
+          "reason": "Pattern 7 active absence; silence is made to apply pressure instead of Sylvanas feeling the strain of keeping it.",
+          "suggestedFix": "Keeping silent sat badly in her mouth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 376,
+          "line": "\"The court hears only what confirms the prince's return as triumph.\"",
+          "subject": "The court",
+          "verb": "hears",
+          "realAgent": "the courtiers still committed to the triumph narrative",
+          "pattern": "P4",
+          "severity": "mild",
+          "reason": "Pattern 4 institutional self-deception; the institution is given the selective cognition that belongs to specific people inside it.",
+          "suggestedFix": "\"Only confirming reports reach the courtiers still calling it triumph.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 394,
+          "line": "Antonidas's eyes shifted a fraction, hearing the older wound under the new question.",
+          "subject": "Antonidas's eyes",
+          "verb": "shifted",
+          "realAgent": "Antonidas",
+          "pattern": "P8",
+          "severity": "mild",
+          "reason": "Pattern 8 body-part agency; Antonidas is the one reacting to the question.",
+          "suggestedFix": "Antonidas looked aside a fraction, hearing the older wound under the new question.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 478,
+          "line": "The ordinary machinery of a palace breathing on the far side of murder.",
+          "subject": "The ordinary machinery of a palace",
+          "verb": "breathing",
+          "realAgent": "the kitchens, servants, and ongoing palace work",
+          "pattern": "architecture-breathing smear",
+          "severity": "mild",
+          "reason": "The palace infrastructure is given organic behavior instead of the prose naming the ordinary work continuing around them.",
+          "suggestedFix": "On the far side of murder, kitchens and servants still worked.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 482,
+          "line": "The service passage swallowed them whole.",
+          "subject": "The service passage",
+          "verb": "swallowed",
+          "realAgent": "their movement into the corridor",
+          "pattern": "P6",
+          "severity": "mild",
+          "reason": "Pattern 6 scenery/architecture agency; the corridor is made to act on them instead of them disappearing into it.",
+          "suggestedFix": "They vanished into the service passage.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "severityMarkers": [],
+      "cleanReason": "Counted all seven tic families. There are no corner-of-mouth micro-expression repeats, no marked overload, tightened/eased stays under cap, eye/gaze beats stay within the four-beat ceiling, emotional weight metaphors do not cluster, and performance-tag avoidance of said does not exceed the limit.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 25,
+    "totalKeeps": 7,
+    "mildKills": 25,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 25,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A found 25 mild sentence-level issues: 9 negation-addiction hits and 16 intent-smear hits. recurring-prose-tics.md was clean, but the mild-only count is still well above the pass threshold of 3."
+  }
+}

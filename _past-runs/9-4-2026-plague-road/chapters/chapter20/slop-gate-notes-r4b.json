@@ -1,0 +1,208 @@
+{
+  "chapterId": "chapter20",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 4,
+      "keeps": 4,
+      "severity": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "line": "There was no room on deck for shame.",
+          "pattern": "F6",
+          "severity": "mild",
+          "issue": "thesis opening",
+          "location": "scene 3, paragraph opening the deck-labor pivot",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "From then on every mile was deck labor.",
+          "pattern": "F7",
+          "severity": "mild",
+          "location": "paragraph-final summary after the deck-labor fragment run",
+          "couldEndEarlierAt": "Learn the pump-handle rhythm below when spray found a seam.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "The name did nothing to soften the place.",
+          "pattern": "F4",
+          "severity": "mild",
+          "whatItRestates": "\"Daggercap Bay,\" Dagny said, and spat over the side.",
+          "location": "arrival paragraph after the bay is named",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "That made it worse.",
+          "pattern": "F4",
+          "severity": "mild",
+          "whatItRestates": "No people.",
+          "location": "landfall paragraph before the empty-bay explanation",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 7,
+      "kills": 3,
+      "keeps": 4,
+      "severity": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A-series mixed",
+      "register": {
+        "povCharacter": "Jaina Proudmoore",
+        "registerSummary": "Jaina thinks in practical magical analysis, logistics, and bodily strain. She permits clipped tactical fragments and sharp operational compression, but not detached captioning or abstract mood labels from above the scene.",
+        "registerConfidence": "high"
+      },
+      "findings": [
+        {
+          "line": "There was no room on deck for shame.",
+          "tier": "A",
+          "pattern": "A5",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina would register crew need, rope, and footing pressure, not summarize the moment as an abstract scene-state.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "That made it worse.",
+          "tier": "A",
+          "pattern": "A1",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment captions the empty bay before the prose cashes out the reason, so it reads like an authorial verdict rather than Jaina's immediate evidence-led thought.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "The name did nothing to soften the place.",
+          "tier": "A",
+          "pattern": "A6",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "After the concrete arrival image, this sentence steps outside Jaina's sensory register to gloss the effect for the reader.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P4",
+      "findings": [
+        {
+          "line": "That made it worse.",
+          "pattern": "P4",
+          "severity": "mild",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the concrete reason the empty bay is worse: fresh labor signs with no stragglers, guards, or wounded left behind",
+          "reason": "Unanchored interpretive summary; the line asks the reader to supply the payload that the next sentence finally names.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in the chapter sets up a plain-language or street-level translation request, so the fake-simplification route found no eligible candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 11,
+    "mildKills": 8,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Eight mild pass-B kills remain; more than three mild-only kills requires a fail verdict."
+  }
+}

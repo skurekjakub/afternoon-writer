@@ -1,0 +1,178 @@
+{
+  "chapterId": "chapter19",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "F4",
+      "severity": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "location": "line 125",
+          "line": "The pause told its own story in front of everyone listening.",
+          "whatItRestates": "Sylvanas refusing the vellum in silence already makes the public meaning of the pause clear.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "location": "line 211",
+          "line": "That landed.",
+          "whatItRestates": "Vereesa's eye-flinch already shows the hit.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "location": "line 281",
+          "line": "Stone pocketed. Line closed.",
+          "paragraphRole": "paragraph-final",
+          "couldEndEarlierAt": "Jaina looked at it a moment longer, then slid it into her coat pocket instead of her belt.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks in clipped tactical judgments, social threat reads, and concrete utility. She notices posture, rank, readiness, and route value first; she does not usually step back into thematic summary or essay-distance generalization.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "dominantPattern": "A7",
+      "severity": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "B3",
+          "tier": "B",
+          "severity": "mild",
+          "location": "line 311",
+          "line": "The younger sister sat above them with the camp behind and the northern road at her back, everything she'd ridden here to save already lost.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can read the tableau, but the clause about everything Vereesa rode to save already being lost is a thematic verdict from outside the body, not Sylvanas's usual tactical or sensory register.",
+          "confidence": "MODERATE",
+          "suggestedFix": "The younger sister sat above them with the camp behind and the northern road at her back.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A7",
+          "tier": "A",
+          "severity": "mild",
+          "location": "line 415",
+          "line": "The kind that stripped everything down to function.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence zooms out into a broad category claim instead of staying inside Sylvanas's immediate cold-weather read.",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "dominantPattern": "P3",
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "location": "line 281",
+          "line": "Line closed.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The sending-stone link to Antonidas and Dalaran ending.",
+          "reason": "Placeholder shorthand that sounds crisp but refuses to name the actual severed connection.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "No dialogue exchange in this draft uses a pass-B simplification setup such as asking for the short version, plainer speech, or street-level translation, so the guide had no live candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 7,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still has more than 3 mild KILLs after a fresh sweep, so it fails even without any moderate or severe findings."
+  }
+}

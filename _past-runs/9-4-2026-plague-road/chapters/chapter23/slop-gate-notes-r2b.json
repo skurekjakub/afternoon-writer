@@ -1,0 +1,229 @@
+{
+  "chapterId": "chapter23",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F4/F6/F7 mixed",
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": "The captain stiffened.",
+          "issue": "generic label / interchangeable",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "The kill came without ceremony.",
+          "whatItRestates": "The arrow went through his eye and out the back of the helm. Arthas simply stopped.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "line": "Witnesses were impossible with Terenas dead, Arthas dead by an arrow, and Sylvanas Windrunner standing in the throne room of Lordaeron.",
+          "paragraphLocation": "paragraph beginning \"Uther turned back to her.\"",
+          "issue": "thesis opening",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "From the actual kitchens somewhere below, where dough would already be rising for the evening meal because kitchen fires stayed lit while rulers decided whom to blame.",
+          "location": "scene-final",
+          "couldEndEarlierAt": "The bread-taste came back faintly as they descended.",
+          "verdict": "KILL",
+          "suggestedFix": "From the actual kitchens somewhere below, where dough would already be rising for the evening meal.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina reads rooms like a depleted battle mage: objects, geometry, magical pressure, bodily cost, and tactical sequence first. She can think in clipped analytical fragments under stress, but she does not naturally slip into polished thematic captions or certify another character's interior state from outside.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "B-register mismatch",
+      "findings": [
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "mild",
+          "line": "His face sat in the instant before comprehension, when the world still had time to become anything but this.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can clock shock on Terenas's face, but this sentence turns that read into a polished thematic sentence about the whole world instead of her immediate perception.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "His face was still blank with surprise.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B3",
+          "tier": "B",
+          "severity": "mild",
+          "line": "He knew her. Her name perhaps, or only the shape of regret trying to form in a mouth that no longer belonged to it.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This grants Jaina a precise interior read of Arthas's recognition and regret when the scene rules only allow visible aftermath and soul-shock, not confident access to his inner state.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "For a blink the old lines of his face showed through, twisted by pain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P4",
+      "findings": [
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": "Something father-shaped moved behind his eyes and was gone.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The visible change in Uther's eyes or mouth that makes Jaina read a paternal flicker.",
+          "verdict": "KILL",
+          "reason": "Unanchored interpretive summary; the sentence sounds weighty without naming the observable basis.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "They had already chosen their story.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The concrete late-witness read that the guards are already looking at Jaina and Sylvanas as suspects instead of at Frostmourne.",
+          "verdict": "KILL",
+          "reason": "Placeholder-noun stand-in; \"story\" carries the conclusion without naming the visible evidence.",
+          "suggestedFix": "They were already looking at her and Sylvanas, not the sword.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": "Somewhere in the palace at large, men were finally starting to understand the palace had broken.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The actual shouts, orders, or boot traffic Jaina can hear beyond the chamber.",
+          "verdict": "KILL",
+          "reason": "Unanchored interpretive summary; it names a palace-wide realization instead of the concrete sounds Jaina is receiving.",
+          "suggestedFix": "Somewhere beyond the chamber, men were shouting orders at last.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "No translation-setup exchange (plainly / smaller words / short version / streets) appears in this target file, so the guide found no eligible reply to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 9,
+    "totalKeeps": 7,
+    "mildKills": 9,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 9,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B found 9 mild KILL findings across 3 guides; pass threshold allows at most 3 mild-only kills."
+  }
+}

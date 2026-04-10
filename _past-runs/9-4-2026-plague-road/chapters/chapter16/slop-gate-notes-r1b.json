@@ -1,0 +1,113 @@
+{
+  "chapterId": "chapter16",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "It hurt less than she had feared and more.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "\"No,\" she said.",
+          "issue": "Paragraph-final emotional summary that closes the beat after Jaina's answer instead of leaving it on the spoken line.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in urgent logistical triage, magical mechanism, and concrete street-level consequences. She can compress observations into tactical shorthand, but she does not naturally zoom out into detached civic-analysis phrasing while riding a clock.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "B2",
+      "findings": [
+        {
+          "pattern": "B2",
+          "severity": "MILD",
+          "tier": "B",
+          "line": "Stratholme held together by habit and traffic law.",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "Jaina can clock orderly movement, but 'traffic law' is detached explanatory diction that sits outside her pressured, in-body register here.",
+          "confidence": "MODERATE",
+          "suggestedFix": "Stratholme still ran on habit.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "secondSweep": "Re-read dialogue-heavy exchanges and tactical/inferential paragraphs; only the abstract stand-in below failed the cash-out test once the local carrier check was applied.",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "She staggered back into a lane with too many answers in it.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The lane is visibly full of bread, carts, and household proof that the contamination has already crossed into daily life.",
+          "reason": "Placeholder noun stand-in ('answers') asks the reader to supply the concrete street evidence instead of naming or omitting it.",
+          "suggestedFix": "She staggered back into the lane.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 10,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Three mild residual pass-b issues remain, all locally fixable without adding new content or changing scene logic."
+  }
+}

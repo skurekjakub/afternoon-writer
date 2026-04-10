@@ -1,0 +1,298 @@
+{
+  "chapterId": "chapter25",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "F7",
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "location": "Scene I",
+          "line": "She could hear Sylvanas listening.",
+          "word": "could hear",
+          "deletionTest": "Sylvanas listened. No interruption. No mercy either.",
+          "verdict": "KILL",
+          "reason": "The sentence routes a perception through a filter verb even though the direct read lands cleanly without it.",
+          "suggestedFix": "Sylvanas listened.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "location": "Scene I",
+          "line": "Knowing had not been enough.",
+          "locationType": "paragraph-final",
+          "couldEndEarlierAt": "She had known every part of it.",
+          "verdict": "KILL",
+          "reason": "The paragraph closes on thematic summary instead of staying in the concrete failure already established.",
+          "suggestedFix": "She had still failed with it in her hands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "location": "Scene I",
+          "line": "It had not taken the work.",
+          "locationType": "paragraph-final",
+          "couldEndEarlierAt": "The prison had taken sight, touch, movement, any honest route between them.",
+          "verdict": "KILL",
+          "reason": "The closing sentence resolves the paragraph into theme-speak instead of ending on the material constraint already named.",
+          "suggestedFix": "They could still pass the blade between them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "dominantPattern": "B1",
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "location": "Scene I",
+          "line": "Two men certain they could carry their own brilliance without help.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina is reflective and analytical, but 'carry their own brilliance' reads like polished thematic verdict rather than cell-bound thought.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "Two men sure they could do it alone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "location": "Scene II",
+          "line": "They belonged to a creature for whom doors were a courtesy offered by lesser beings.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas thinks in threat reads and physical constraints; this sentence slides into ornamental authorial grandeur.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "They belonged to something that treated doors like they did not apply to it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5",
+          "severity": "MILD",
+          "location": "Scene II",
+          "line": "The words sat between them.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Abstract scene-state declaration replaces the concrete silence or body-read Sylvanas would actually register.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "Neither of them spoke.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "dominantPattern": "P1",
+      "severityMarkers": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "P1",
+          "severity": "MILD",
+          "location": "Scene I",
+          "line": "\"Devotion,\" Jaina said. \"The kind with an empty place in the middle.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The actual trait that makes this devotion vulnerable to the blade.",
+          "verdict": "KILL",
+          "reason": "Dialogue reaches for ominous abstraction instead of naming the operative trait.",
+          "suggestedFix": "\"Devotion,\" Jaina said. \"The kind that wants someone else to tell it what to do.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "location": "Scene I",
+          "line": "\"Millhaven,\" Jaina went on. \"Andorhal. Scholomance. Northrend. I kept telling myself I was the one carrying the answer. Even after it had stopped being true.\"",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "What Jaina thought she uniquely possessed: the next move or solution.",
+          "verdict": "KILL",
+          "reason": "The stand-in noun 'answer' asks the reader to supply the concrete burden themselves.",
+          "suggestedFix": "\"Millhaven,\" Jaina went on. \"Andorhal. Scholomance. Northrend. I kept telling myself I was the one who knew what came next. Even after that stopped being true.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P1",
+          "severity": "MILD",
+          "location": "Scene II",
+          "line": "\"Yes.\" No heat in the answer. \"A nuisance. Not a ruin.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "What Arthas's death changed in the larger campaign.",
+          "verdict": "KILL",
+          "reason": "The dialogue projects cold certainty while dodging the concrete consequence the speaker means.",
+          "suggestedFix": "\"Yes.\" No heat in the answer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "location": "Scene II",
+          "line": "\"You killed the hand holding the knife. You did not break the arm.\"",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The concrete claim that Arthas was only the wielder and the larger force behind him remains intact.",
+          "verdict": "KILL",
+          "reason": "The metaphor sounds sharp, but the local scene still has to infer the actual claim.",
+          "suggestedFix": "\"You killed the wielder. The power behind him is still here.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 3,
+      "kills": 2,
+      "keeps": 1,
+      "dominantPattern": "translation-failure",
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "translation-failure",
+          "severity": "MILD",
+          "location": "Scene I",
+          "line": "\"Devotion,\" Jaina said. \"The kind with an empty place in the middle.\"",
+          "setup": "\"Which kind does it keep.\"",
+          "failedQuestion": "What can the listener do now?",
+          "missingPayload": "A usable marker of the specific devotion Frostmourne keeps reaching for.",
+          "verdict": "KILL",
+          "reason": "The answer claims to simplify the threat profile but still hides behind ominous shorthand.",
+          "suggestedFix": "\"Devotion,\" Jaina said. \"The kind that wants someone else to tell it what to do.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "translation-failure",
+          "severity": "MILD",
+          "location": "Scene II",
+          "line": "\"How much plague, how much fear, how much order built from death before he broke.\"",
+          "setup": "\"Yield.\"",
+          "failedQuestion": "Why does this still need unpacking?",
+          "missingPayload": "A plain statement of what 'yield' means in this exchange.",
+          "verdict": "KILL",
+          "reason": "The reply presents itself as an unpacking but remains sloganized consequence language.",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 8,
+    "mildKills": 12,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 4,
+    "killsWithFix": 11,
+    "killsUnfixable": 1,
+    "verdict": "fail",
+    "verdictReason": "Pass B still fails: 12 mild kills remain, which exceeds the 3-mild pass threshold."
+  }
+}

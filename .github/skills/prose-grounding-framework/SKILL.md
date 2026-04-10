@@ -7,7 +7,7 @@ description: "World-specificity grounding by paired exemplars. Read the before/a
 
 Grounding means making every sentence feel like it happens in this world, not a generic one. Clean prose that could belong to any setting becomes prose saturated with named geography, titled institutions, specific materials, world-register vocabulary, infrastructure, and physical texture.
 
-This skill teaches grounding by example, not by taxonomy.
+This skill teaches grounding by example. It is the grounder's exemplar skill, not the audit skill.
 
 ## The references
 
@@ -17,6 +17,7 @@ Before touching the target prose:
 
 1. Read all pairs in `references/`.
 2. Study the delta, not just the finished version. The difference between before and after is the job.
+3. Write down 3-5 transformation moves you see in the delta before touching the target prose.
 
 The pairs show grounding operating on every surface at once: nouns, dialogue, internal monologue, action beats, environmental rhythm, institutional vocabulary, and material texture. You read the chapter, you feel where it is floating, and you anchor it the way the references anchor their prose.
 
@@ -28,24 +29,9 @@ Wordcount bloat is not the goal. Do not try to match any specific expansion rati
 - The strongest changes are usually local and embodied: what the POV notices, touches, names, avoids, or takes for granted.
 - Good grounding often comes from substitution plus light extension, not from wholesale paragraph replacement.
 - Dialogue should pick up local register and shared context without turning into explanation.
+- If one character asks another to put something in plain terms, the answer must become usable on the ground: streets, doors, carts, ovens, routes, timings, or other local triggers. Category labels and prettier shorthand are not enough.
+- Do not replace vague prose with sharper-sounding vagueness. If a sentence still cannot be pictured, heard, or physically followed, it is not grounded yet.
 - The scene should feel more physically lived in, not more documented.
-
-## PRESERVE SUBTEXT AND PACING (NEGATIVE CONSTRAINTS)
-
-AI text generation inherently leans toward over-explanation, which destroys narrative tension, subtext, and pacing. While performing the grounding pass, you MUST obey these strict negative constraints:
-
-1. **The Anti-Bloat Rule (Protect Rhythm):** You are strictly forbidden from altering the rhythm or syllable weight of high-tension scenes. If the original text uses a short, staccato sentence or a fragment (e.g., "Host. Altered."), do not expand it into a full sentence or append dependent clauses. Grounding must occur strictly through 1:1 noun/adjective replacement. You can enrich scene settings and descriptions (as filtered through POV).
-
-2. **The Anti-Spoonfeeding Rule (Protect Subtext):** Never explicitly state the subtext of a scene. If a character's physical reaction or observation implies a realization, do NOT add a sentence explaining what they realized or who they are thinking about. Trust the reader to connect the dots. 
-
-3. **The Anti-Wiki Rule (Protect Dialogue):** Do not inject lore terms, faction names, or proper nouns into dialogue if the speaking characters already share that context. Characters in high-stakes situations speak in shorthand. They do not explain their own world to one another.
-
-4. **The "Passive Reality" Rule:** Worldbuilding must exist as a passive physical or operational reality that characters interact with. You may not add narrator exposition to explain the history, significance, or mechanics of a grounded term.
-
-5. **The "Invisible Verb" Rule (Anti-Jargon Overload):**
-Do NOT replace standard functional verbs or nouns (e.g., speak, look, answer, walk, word, result) with domain-specific jargon (e.g., cast, scry, chant, teleport, noun, sum) unless the character is literally performing that specific action. Ground the world through the objects they touch and the titles they use, but allow them to speak, think, and breathe like normal humans. Do not turn every sentence into a metaphor for their profession.
-
-6. The "Contact" Rule (Anti-Exposition): Material and mechanical details must emerge at the exact moment a character interacts with or uses an object, rather than in static, preemptive descriptive blocks. Do not describe the forge-marks on a sword until it is drawn; do not describe the cracked glaze of a cup until it is touched.
 
 ## Principles
 
@@ -53,19 +39,14 @@ Do NOT replace standard functional verbs or nouns (e.g., speak, look, answer, wa
 - **POV filters everything.** A mage thinks in arcane terminology. A soldier notices defensive positions. A ranger notices treelines. The POV character's expertise determines which world details surface.
 - **Source, don't invent.** Every proper noun must come from the memory files, materials, story overview, or plan. If you can't find a specific name for something, leave it as-is. A vague-but-accurate noun is better than a specific-but-wrong one.
 - **Don't over-ground.** Not every noun needs a proper name. Background objects can stay generic. Ground the nouns the scene's engine depends on.
-Here are the newly formulated rules, formatted perfectly to drop directly into the existing `prose-grounding-framework` prompt. 
-- **Sensory Rotation:** Grounding is not purely visual. Rotate through the senses to anchor the prose. Include the weight of an object in the hand, the temperature of the air, the ambient smell of a specific district, or the acoustic signature of a spell.
-- **The Palimpsest (Wear-and-Tear) Rule:** Environments and gear must show their history. Avoid pristine, newly-spawned descriptions. Ground objects and architecture through field repairs, patina, degradation, repurposed structures, or visible wear (e.g., "the grip peeling from too many EVAs" instead of "the worn grip").
-- **Temporal and Ecological Anchoring:** Ground the passage of time and the environment in the specific world. Replace generic clock-time with the setting's specific timekeeping (bells, shifts, liturgical hours, orbit cycles). Replace generic weather with biome-specific flora, fauna, and atmospheric mechanics.
-- **Institutional Friction:** When multi-character scenes involve different factions, ground the societal ecosystem by showing, rather than telling, their differences. Highlight contrasting jurisdictions, varying gear standards, or conflicting protocols when those institutions inevitably collide in the scene.
-- **Action-Driven Dialogue Tags:** Leverage the action beats surrounding dialogue as primary vehicles for material grounding. Instead of isolating worldbuilding in separate descriptive sentences, use the moment a character speaks to have them adjust a specific piece of gear, handle a specific currency, or interact with a named mechanism.
+- **Protect rhythm.** If the source passage is clipped and high-pressure, ground it without flattening its cadence.
+- **Protect subtext.** Ground the scene without explaining what the reader can already infer.
 
 ## Operating pattern
 
 1. Read the reference pairs in `references/` until the transformation is clear.
-2. Read the target prose and mark where it feels generic, floating, or portable-to-any-setting.
-3. Revise through substitution, compression, and selective extension.
-4. Re-read for rhythm, subtext, and dialogue naturalness.
+3. Read the target prose and mark where it feels generic, floating, or portable-to-any-setting.
+4. Revise through substitution, compression, and selective extension.
 5. Stop once the prose feels world-bound. Do not keep decorating it.
 
 ## What this skill does NOT cover

@@ -1,0 +1,123 @@
+{
+  "chapterId": "chapter21",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "dominantPattern": "F4-and-F7",
+      "findings": [
+        {
+          "line": "That told Sylvanas the strain had become serious.",
+          "pattern": "F4",
+          "whatItRestates": "She complained exactly once.",
+          "reason": "The first sentence already shows the strain through a single complaint on the climb; this follow-up translates the signal into an explanatory label.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "They had lost the match in the cave.",
+          "pattern": "F7",
+          "location": "scene-final",
+          "couldEndEarlierAt": "The lines matched every time.",
+          "reason": "The scene already lands on Jaina silently repeating the figure; the final sentence closes the emotional loop with a tidy interpretive summary.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "registerSummary": "Sylvanas reads terrain, discipline, spacing, weakness, and cost with clipped tactical shorthand. Her interior language is cold, practical, and field-bound; she can make sharp inferences, but they stay attached to visible evidence rather than floating as atmospheric captions.",
+      "registerConfidence": "high",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 4,
+      "dominantPattern": "A5",
+      "findings": [
+        {
+          "line": "The number hung over the brazier.",
+          "tier": "A",
+          "pattern": "A5",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This abstracts the silence into a scene-state caption instead of staying with the concrete effect of Arthas's lead on the people in the room.",
+          "confidence": "high",
+          "severity": "mild",
+          "suggestedFix": "Across the brazier, no one answered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 4,
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "line": "Late enough for the numbers to bite.",
+          "pattern": "P3",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The line never names the concrete cost of being late: their shrinking odds of catching Arthas before the cave.",
+          "reason": "The placeholder noun 'numbers' supplies cold tactical flavor without cashing out into the actual margin they are losing.",
+          "severity": "mild",
+          "suggestedFix": "Late enough to hurt their odds.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "dominantPattern": "none",
+      "cleanReason": "The only simplification setup is Muradin's 'Speak dwarf.' Jaina's reply, 'The sword was forged by the same craft that made the plague,' gives him a usable equivalence immediately, so the exchange does not need another unpacking pass.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 13,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Four mild KILLs remain across the pass B guide pack, which exceeds the pass threshold of three mild findings."
+  }
+}

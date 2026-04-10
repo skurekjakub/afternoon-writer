@@ -17,15 +17,16 @@ Orchestrator (pure router) — per chapter, sequentially:
     1. Planner         → validates beats, enriches with research → plans/{chapterId}-initial.json
     2. Plan-Verifier   → continuity annotation, structural evaluation → plans/{chapterId}.json (final)
     3. Writer           → prose from plan, anti-slop primed → chapters/{chapterId}/v1.md
-    4. Slophunter       → 6 targeted AI-pattern hunts → chapters/{chapterId}/v2.md
-    5. [Slop-Gate ↔ Slophunter revision loop] → adversarial audit, revision if fail
-    6. [Grounder]       → world-specificity grounding → chapters/{chapterId}/v2g.md
-    7. [Expander]       → intimate/emotional scene expansion → chapters/{chapterId}/v3.md
-    8. Style-Editor     → 7 quality checks, voice polish → chapters/{chapterId}/v4.md
-    9. [Style-Auditor]  → adversarial style-guide enforcement → chapters/{chapterId}/v4b.md
-   10. Final-Slophunter → polish-mode slophunter → chapters/{chapterId}/v5.md
-   11. Memory-Keeper    → 5-pass continuity catalog → plans/memory/{category}/{entity}.json + .md
-  Assembly: cp v5.md → final.md
+    4. Slophunter       → 11 targeted AI-pattern hunts → chapters/{chapterId}/v2.md
+    5. [Slop-Gate A/B ↔ Slophunter revision loop] → adversarial audit, revision if either pass fails
+    6. [Grounder]       → map-driven grounding → chapters/{chapterId}/v2g.md + grounding-map.json
+    7. [Grounding-Gate ↔ Grounder revision loop] → adversarial grounding audit, revision if fail
+    8. [Expander]       → intimate/emotional scene expansion → chapters/{chapterId}/v3.md
+    9. Style-Editor     → 7 quality checks, voice polish → chapters/{chapterId}/v4.md
+   10. [Style-Auditor]  → adversarial style-guide enforcement → chapters/{chapterId}/v4b.md
+   11. Final-Slophunter → polish-mode slophunter → chapters/{chapterId}/v5.md
+   12. Memory-Keeper    → 5-pass continuity catalog → plans/memory/{category}/{entity}.json + .md
+   Assembly: cp v5.md → final.md
 ```
 
 ## Reference Files

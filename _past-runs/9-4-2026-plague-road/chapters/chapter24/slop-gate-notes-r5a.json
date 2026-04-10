@@ -1,0 +1,135 @@
+{
+  "chapterId": "chapter24",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "killRate": 0,
+      "dominantPattern": null,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "Reviewed the chapter's actual negation pivots and kept six that do structural work: Sylvanas's literal visibility limit, Jaina's binary \"Not random\" threat read, Lor'themar's two capability-boundary lines, one spatial correction (\"not the bars\"), and the explicit \"doors do not open tonight\" constraint.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "killRate": 57.14,
+      "dominantPattern": "abstract-or-institutional agency laundering",
+      "severityMarkers": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterFlags": [
+        "trial and aftermath sections carry four abstract-or-institutional agency smears in Sylvanas's analytic narration"
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": false,
+      "findings": [
+        {
+          "line": "The floor shifted under her.",
+          "subject": "floor",
+          "verb": "shifted",
+          "realAgent": "Sylvanas's destabilized reaction to realizing the pattern is targeted",
+          "pattern": "scenery-active-verb smear",
+          "severity": "mild",
+          "reason": "The line launders Sylvanas's bodily jolt onto the floor instead of naming her reaction.",
+          "suggestedFix": "Her breath caught.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Pain flattened everything in Jaina's face except the hard set of her mouth.",
+          "subject": "Pain",
+          "verb": "flattened",
+          "realAgent": "Jaina holding herself rigid under visible pain",
+          "pattern": "abstract-state body-control smear",
+          "severity": "mild",
+          "reason": "The sentence gives pain control over Jaina's expression instead of locating the strain in Jaina herself.",
+          "suggestedFix": "Jaina's face went flat with pain except for the hard set of her mouth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Antonidas stayed standing one breath too long, then sat because he had found the end of whatever leash Dalaran had put around his throat and discovered it was iron.",
+          "subject": "Dalaran",
+          "verb": "had put",
+          "realAgent": "the political authorities constraining Antonidas's public action",
+          "pattern": "institutional-pressure smear",
+          "severity": "mild",
+          "reason": "The line puts deliberate physical pressure on the institution instead of naming Antonidas's political restraint directly.",
+          "suggestedFix": "Antonidas stayed standing one breath too long, then sat because the leash around his throat was iron.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Whatever time men with seals might imagine while they wrote letters and filed orders had already burned away.",
+          "subject": "time",
+          "verb": "had already burned away",
+          "realAgent": "bureaucratic delay consuming the remaining window",
+          "pattern": "abstract-time combustion smear",
+          "severity": "mild",
+          "reason": "The sentence gives time its own combustion instead of naming the administrative delay that's erasing it.",
+          "suggestedFix": "Whatever time men with seals might imagine while they wrote letters and filed orders was already gone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "killRate": 0,
+      "dominantPattern": null,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "Counted the capped tic families in this chapter: one corner-of-mouth beat, one emotional mouth-tightening beat plus two physical chain-tightening beats under the limit, and no overflow in marked, gaze, weight, or performance-tag usage.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 12,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 1,
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has four mild intent-smear kills. With more than three mild-only kills and no higher-severity findings, the pass fails under the pass rule."
+  }
+}

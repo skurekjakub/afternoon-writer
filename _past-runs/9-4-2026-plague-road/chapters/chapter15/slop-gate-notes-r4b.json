@@ -1,0 +1,227 @@
+{
+  "chapterId": "chapter15",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "dominantPattern": "F2",
+      "findings": [
+        {
+          "pattern": "F3-filter-verb",
+          "severity": "mild",
+          "line": "Sylvanas knew it before the priest beside him did.",
+          "failureMode": "F3",
+          "word": "knew",
+          "deletionTest": "Sylvanas knew it before the priest beside him did. -> delete; 'He was dead. The corpse hung too slack.' carries the beat cleanly.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2-generic-beat",
+          "severity": "mild",
+          "line": "Jaina dipped her head.",
+          "failureMode": "F2",
+          "issue": "generic beat; could belong to any character and adds no character-specific physical work",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2-generic-beat",
+          "severity": "mild",
+          "line": "Falric went still.",
+          "failureMode": "F2",
+          "issue": "generic reaction beat; interchangeable and already implied by the exchange",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2-generic-beat",
+          "severity": "mild",
+          "line": "Jaina went still.",
+          "failureMode": "F2",
+          "issue": "generic reaction beat; the dialogue already carries the tension",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "dominantPattern": "A5",
+      "findings": [
+        {
+          "pattern": "A5",
+          "severity": "mild",
+          "line": "The closer they came to the southern field tents, the cleaner the motion became.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can read efficiency, but 'cleaner the motion' abstracts the visible carrier into a scene-state label from outside the body.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2",
+          "severity": "moderate",
+          "line": "He was already measuring distance, horseflesh, road width, which officers could move without sleep, how many bodies could disappear into a city that size before anyone understood the count.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This crosses into Arthas's internal calculations, which the chapter plan explicitly forbids; Sylvanas can watch him assess the map but not narrate the contents of his head.",
+          "confidence": "moderate",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 10,
+      "kills": 6,
+      "keeps": 4,
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "It is the truth you have time for.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the actionable claim that the Stratholme routes are already live",
+          "reason": "Placeholder noun stand-in; the line sounds hard without naming the actual report.",
+          "suggestedFix": "It means the routes are already live.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "There may still be a narrow answer,",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "the one remaining chance to hit the grain before the city fully turns",
+          "reason": "Placeholder-noun stand-in; 'answer' hides the actual proposed move.",
+          "suggestedFix": "There may still be one shot at the grain,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "I might blunt the next turn.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the next wave of plague spread inside the city",
+          "reason": "Abstract stand-in; 'next turn' asks the reader to supply the concrete consequence.",
+          "suggestedFix": "I might keep the next wave from starting.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "If it succeeds, you arrive at a city with one door still open.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the remaining chance to reach Stratholme before the grain finishes spreading",
+          "reason": "Placeholder image; 'one door' simulates precision without naming the surviving opening.",
+          "suggestedFix": "If it succeeds, you arrive before the grain reaches every quarter.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P2",
+          "severity": "mild",
+          "line": "Ride with her and buy the attempt everything it can be bought.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "time and road-clearance for Jaina's run",
+          "reason": "Tactical-prestige compression; it sounds commanding without naming the concrete asset being bought.",
+          "suggestedFix": "Ride with her and buy the attempt every minute you can.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P1",
+          "severity": "mild",
+          "line": "No hope added to it.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "a plain, unsugared report if Stratholme is already lost",
+          "reason": "Sloganized abstraction in dialogue; the fragment hides the concrete instruction behind gravitas.",
+          "suggestedFix": "Say it plain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 8,
+    "mildKills": 11,
+    "moderateOrSevereKills": 1,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 12,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B found 12 kills in v2-r4.md, including 1 moderate narrator-seep hit and 11 additional mild kills; the chapter remains over the fail threshold."
+  }
+}

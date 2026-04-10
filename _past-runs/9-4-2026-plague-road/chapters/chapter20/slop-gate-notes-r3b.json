@@ -1,0 +1,146 @@
+{
+  "chapterId": "chapter20",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "location": "line 395",
+          "line": "Cyndia almost smiled.",
+          "pattern": "F2",
+          "issue": "generic label",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "Cyndia's mouth twitched.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "line 437",
+          "line": "Jaina nodded once.",
+          "pattern": "F2",
+          "issue": "generic label",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "Jaina tipped her chin once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "line 225",
+          "line": "The near-laugh almost made it out whole.",
+          "pattern": "F3",
+          "word": "almost",
+          "deletionTest": "The near-laugh made it out whole.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "The near-laugh broke into a breath.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "line 395",
+          "line": "Cyndia almost smiled.",
+          "pattern": "F3",
+          "word": "almost",
+          "deletionTest": "Cyndia smiled.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "Cyndia's mouth twitched.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "line 497",
+          "line": "Jaina drew in air so cold it seemed to scour the lungs on the way down.",
+          "pattern": "F3",
+          "word": "seemed",
+          "deletionTest": "Jaina drew in air so cold it scoured the lungs on the way down.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "Jaina drew in air so cold it scoured the lungs on the way down.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "cleanReason": "Reviewed clipped fragment candidates like \"Only present.\" and \"Not from the sea this time.\"; both read as Jaina's in-body practical thought, not narrator captioning."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "cleanReason": "Tested abstract-shorthand candidates such as \"North was no longer direction.\" and \"From then on every mile was deck labor.\"; each cashes out from adjacent visible evidence about the magical headwind and ship labor."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "cleanReason": "No dialogue exchange in this chapter sets up a plain-speech translation pass, so the guide found no candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 6,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md"
+    ],
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Five MILD pass-B kills remain, which exceeds the pass threshold of three or fewer MILD findings."
+  }
+}

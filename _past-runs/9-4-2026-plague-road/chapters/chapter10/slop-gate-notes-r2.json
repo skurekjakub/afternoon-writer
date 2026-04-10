@@ -1,0 +1,617 @@
+{
+  "chapterId": "chapter10",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 29,
+      "kills": 29,
+      "keeps": 0,
+      "severePagesOrScenes": [
+        "lines 39-48",
+        "lines 186-249",
+        "lines 451-551"
+      ],
+      "dominantPattern": "F3 — Filter/Hedge Drag",
+      "findings": [
+        {
+          "pattern": "F1",
+          "location": "lines 39-48",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Subject-first medium sentences keep repeating through the estate-entry paragraph until the rhythm turns template-like.",
+          "examples": [
+            "The mare tossed her head once going under the gate, road-bred and steady even with ward hum under her hooves.",
+            "The air changed inside the walls: less wind, more stone.",
+            "Men moved through the yard with baskets, ledgers, harness, sacks."
+          ]
+        },
+        {
+          "pattern": "F1",
+          "location": "lines 233-249",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The archive description stacks evenly sized declaratives and fragment tags with almost no length swing.",
+          "examples": [
+            "The archive occupied a long chamber paneled in dark wood gone dry with age.",
+            "Cabinets lined one wall.",
+            "Locked cases lined the other."
+          ]
+        },
+        {
+          "pattern": "F1",
+          "location": "lines 553-573",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The descent section repeats scenic sentence-openings and the same description-to-inference cadence for several consecutive paragraphs.",
+          "examples": [
+            "The route down began behind a door disguised as paneling at the end of a service hall Jaina had not been shown earlier.",
+            "Cold dry air moved up from below carrying stone dust, preserving salts, and the faint sweetness of long-kept decay.",
+            "The stair was older than the upper keep."
+          ]
+        },
+        {
+          "pattern": "F2",
+          "line": "His smile stayed in place, though the corners tightened.",
+          "issue": "generic label / interchangeable beat",
+          "verdict": "KILL",
+          "reason": "A stock tightening-smile beat that could belong to any polished noble under pressure."
+        },
+        {
+          "pattern": "F2",
+          "line": "Jandice almost smiled, then checked herself.",
+          "issue": "generic label",
+          "verdict": "KILL",
+          "reason": "This is a generic almost-smile beat with no character-specific physical work."
+        },
+        {
+          "pattern": "F2",
+          "line": "Irritation crossed Jandice's face, then restraint.",
+          "issue": "emotion label restating subtext",
+          "verdict": "KILL",
+          "reason": "The beat names irritation and restraint instead of letting the exchange carry them."
+        },
+        {
+          "pattern": "F2",
+          "line": "\"You stayed with the notes,\" she said, pleased.",
+          "issue": "generic emotional label",
+          "verdict": "KILL",
+          "reason": "The tag labels the emotion directly instead of revealing it through a specific action."
+        },
+        {
+          "pattern": "F2",
+          "line": "That hit. Jandice's face closed, though not all the way.",
+          "issue": "generic reaction beat",
+          "verdict": "KILL",
+          "reason": "A stock face-closed beat that could be swapped into almost any argument scene."
+        },
+        {
+          "pattern": "F2",
+          "line": "For the first time all day uncertainty touched the edge of her poise.",
+          "issue": "emotion label restating subtext",
+          "verdict": "KILL",
+          "reason": "The narration names uncertainty instead of staying with the visible crack in Jandice's behavior."
+        },
+        {
+          "pattern": "F3",
+          "line": "Jandice almost smiled, then checked herself.",
+          "word": "almost",
+          "deletionTest": "Jandice smiled, then checked herself.",
+          "verdict": "KILL",
+          "reason": "The hedge weakens a direct visible beat."
+        },
+        {
+          "pattern": "F3",
+          "line": "Perhaps for someone with questions and enough rank to force answers.",
+          "word": "Perhaps",
+          "deletionTest": "For someone with questions and enough rank to force answers.",
+          "verdict": "KILL",
+          "reason": "The hedge pads an inference the prose is already making confidently."
+        },
+        {
+          "pattern": "F3",
+          "line": "At each threshold the density below increased until the pressure seemed to grow teeth.",
+          "word": "seemed",
+          "deletionTest": "At each threshold the density below increased until the pressure grew teeth.",
+          "verdict": "KILL",
+          "reason": "The hedge softens an image the sentence is otherwise willing to commit to."
+        },
+        {
+          "pattern": "F3",
+          "line": "\"Only to you, perhaps.\"",
+          "word": "perhaps",
+          "deletionTest": "\"Only to you.\"",
+          "verdict": "KILL",
+          "reason": "The hedge blunts the jab without adding real uncertainty."
+        },
+        {
+          "pattern": "F3",
+          "line": "Jaina almost smiled.",
+          "word": "almost",
+          "deletionTest": "Jaina smiled.",
+          "verdict": "KILL",
+          "reason": "Another hedge that weakens the visible reaction."
+        },
+        {
+          "pattern": "F3",
+          "line": "She looked at the door, at the hidden web in the plaster, and almost left the stone where it was.",
+          "word": "almost",
+          "deletionTest": "She looked at the door, at the hidden web in the plaster, and left the stone where it was.",
+          "verdict": "KILL",
+          "reason": "The sentence leans on hedge suspense instead of choosing a direct beat."
+        },
+        {
+          "pattern": "F4",
+          "line": "That did it.",
+          "whatItRestates": "\"Then he will understand why a Kirin Tor mage has come to ask about his grain.\" / \"His eyes changed; the door he had hoped to keep shut had just opened anyway.\"",
+          "verdict": "KILL",
+          "reason": "The sentence subtitles the conversational turn instead of trusting the visible reaction."
+        },
+        {
+          "pattern": "F4",
+          "line": "Alexei and Jandice had been waiting for scrutiny, then.",
+          "whatItRestates": "Jandice's eyes sharpened. Alexei's hands stayed still.",
+          "verdict": "KILL",
+          "reason": "The narration explains the meaning of the physical beats the reader already has."
+        },
+        {
+          "pattern": "F4",
+          "line": "Easy extraction ended there.",
+          "whatItRestates": "The outer ward touched the back of Jaina's teeth before the boat reached it. A notice, not a wall.",
+          "verdict": "KILL",
+          "reason": "The line translates the ward contact into an abstract tactical caption."
+        },
+        {
+          "pattern": "F4",
+          "line": "Order made the room worse.",
+          "whatItRestates": "Every table was scrubbed, every tag tied straight, every instrument back in its place.",
+          "verdict": "KILL",
+          "reason": "The image already carried the horror; the gloss merely explains it."
+        },
+        {
+          "pattern": "F5",
+          "scene": "lines 93-149",
+          "issue": "Inspection pressure collapses into a cooperative guided tour almost immediately after Jaina names necromancy and plague-grain suspicion.",
+          "verdict": "KILL"
+        },
+        {
+          "pattern": "F5",
+          "scene": "lines 451-551",
+          "issue": "The night confrontation turns accusation into mutual admiration and privileged access too quickly for the danger on the table.",
+          "verdict": "KILL"
+        },
+        {
+          "pattern": "F6",
+          "paragraphLocation": "lines 47-48",
+          "issue": "thesis opening / summary close",
+          "verdict": "KILL",
+          "reason": "The paragraph opens by declaring the hall's expensive stillness, supplies evidence, then lands on old-money summary."
+        },
+        {
+          "pattern": "F6",
+          "paragraphLocation": "lines 194-206",
+          "issue": "inventory paragraph variant",
+          "verdict": "KILL",
+          "reason": "The corridor paragraph becomes a list of scrubbed surfaces and tidy details rather than dramatic movement."
+        },
+        {
+          "pattern": "F6",
+          "paragraphLocation": "lines 307-309",
+          "issue": "summary close / claim-evidence-restate",
+          "verdict": "KILL",
+          "reason": "The paragraph inventories cleanliness and then caps it with an interpretive restatement."
+        },
+        {
+          "pattern": "F6",
+          "paragraphLocation": "lines 369-371",
+          "issue": "claim-evidence-restate",
+          "verdict": "KILL",
+          "reason": "It starts with the thesis that the notes point to one answer, offers supporting process detail, and closes on the missing-step question."
+        },
+        {
+          "pattern": "F7",
+          "line": "Easy extraction ended there.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "A notice, not a wall.",
+          "verdict": "KILL"
+        },
+        {
+          "pattern": "F7",
+          "line": "Order made the room worse.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Every table was scrubbed, every tag tied straight, every instrument back in its place.",
+          "verdict": "KILL"
+        },
+        {
+          "pattern": "F7",
+          "line": "He cannot move at plague speed, she thought. Neither can the Council.",
+          "location": "scene-final",
+          "couldEndEarlierAt": "Jaina sat without moving until the muting line under the desk guttered out on its own.",
+          "verdict": "KILL"
+        },
+        {
+          "pattern": "F7",
+          "line": "Someone else had the next move.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "\"He agreed.\"",
+          "verdict": "KILL"
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 12,
+      "kills": 10,
+      "keeps": 2,
+      "clusterWarnings": [
+        "lines 369-481 — repeated body/tissue/answer agency laundering",
+        "room cluster across lines 231, 421, 481"
+      ],
+      "repeatNouns": [
+        "room",
+        "body"
+      ],
+      "pattern4Alert": "no",
+      "findings": [
+        {
+          "line": "Workers, busy and fed and moving with the confidence of a place that expected its own order to hold.",
+          "subject": "place",
+          "verb": "expected",
+          "realAgent": "the estate's owners, overseers, and workers enforcing routine",
+          "verdict": "KILL",
+          "reason": "Pattern 5. A non-agentive place is carrying expectation that belongs to the people maintaining the estate."
+        },
+        {
+          "line": "The keep already knew what had entered.",
+          "subject": "keep",
+          "verb": "knew",
+          "realAgent": "the ward lattice and the people monitoring it",
+          "verdict": "KILL",
+          "reason": "Pattern 6. Architecture is given knowledge that belongs to the surveillance system inside it."
+        },
+        {
+          "line": "They worked in plain sight, which told her more than any hidden room would have.",
+          "subject": "hidden room",
+          "verb": "would have told",
+          "realAgent": "the visible assistants, ledgers, and openly managed workflow",
+          "verdict": "KILL",
+          "reason": "Pattern 2/6 hybrid. The room is made to deliver information that actually comes from observable labor."
+        },
+        {
+          "line": "The theorem there pressed straight against the hole in the farmhouse read—host response, retention through storage, patterned answer in conditioned tissue.",
+          "subject": "theorem",
+          "verb": "pressed",
+          "realAgent": "the accumulating similarities between the ledger and the farmhouse findings",
+          "verdict": "KILL",
+          "reason": "Pattern 2. Evidence is laundered into a theorem physically pressing its claim."
+        },
+        {
+          "line": "Strained masonry and thickening wards told her more than Jandice's route did.",
+          "subject": "strained masonry and thickening wards",
+          "verb": "told",
+          "realAgent": "the visible cracks, ward density, and route omissions Jaina is inferring from",
+          "verdict": "KILL",
+          "reason": "Pattern 2. The sentence makes the architecture speak instead of naming the clues."
+        },
+        {
+          "line": "Page after page pointed to the same answer.",
+          "subject": "page after page",
+          "verb": "pointed",
+          "realAgent": "repeated experimental entries and notational patterns",
+          "verdict": "KILL",
+          "reason": "Pattern 2. The pages are made to force the conclusion instead of the repeated evidence doing it."
+        },
+        {
+          "line": "The body learned the pattern, held it, repeated it.",
+          "subject": "body",
+          "verb": "learned / held / repeated",
+          "realAgent": "deliberate conditioning and the physiological process imposed on tissue",
+          "verdict": "KILL",
+          "reason": "Pattern 5. The sentence launders the training process into a body acting like an intentional student."
+        },
+        {
+          "line": "The private room is listening, she thought, and did not say it.",
+          "subject": "private room",
+          "verb": "is listening",
+          "realAgent": "the hidden ward web and anyone receiving its report",
+          "verdict": "KILL",
+          "reason": "Pattern 7. The room is given active surveillance instead of the wards doing it."
+        },
+        {
+          "line": "Conditioned tissue does not merely retain contamination. It learns toward an answer.",
+          "subject": "It",
+          "verb": "learns",
+          "realAgent": "the conditioning process and resonance model acting on tissue",
+          "verdict": "KILL",
+          "reason": "Pattern 5. The tissue is made to pursue an answer like an agent."
+        },
+        {
+          "line": "So either the waking trigger sits in a separate command lattice, which is crude and would not match the rest of the work, or the body is being taught to amplify a pattern it already half contains.",
+          "subject": "body",
+          "verb": "is being taught",
+          "realAgent": "the researchers and the conditioning method applied to the tissue",
+          "verdict": "KILL",
+          "reason": "Pattern 6. Teaching is transferred from the experimenters to the body as if the body were the learner in a social sense."
+        },
+        {
+          "line": "Jaina stood still for a count of ten and read what the wards were doing.",
+          "subject": "wards",
+          "verb": "were doing",
+          "realAgent": "the magical lattice itself",
+          "verdict": "KEEP",
+          "reason": "Literal non-human action. The wards are a real magical mechanism and the verb describes observable function."
+        },
+        {
+          "line": "If the place is what you think it is, its wards have already told the master you are there.",
+          "subject": "wards",
+          "verb": "have already told",
+          "realAgent": "the magical alert system bound into the estate",
+          "verdict": "KEEP",
+          "reason": "Literal non-human action. The sentence names an actual signaling system rather than a metaphorical architecture."
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in practical magical and tactical terms. She notices wards, labor, tailoring, hands, route geometry, notation, and institutional tells quickly and sharply. She can be cutting and analytical, but her in-scene cognition stays concrete; she would not naturally narrate herself in caption fragments or polished thematic slogans.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 14,
+      "kills": 14,
+      "keeps": 0,
+      "severePages": [
+        "lines 186-249"
+      ],
+      "severeScenes": [
+        "archive walkthrough",
+        "guest chamber pivot"
+      ],
+      "dominantPattern": "A1",
+      "structuralHabit": "yes — fragment captions and polished summary lines keep interrupting Jaina's concrete POV",
+      "findings": [
+        {
+          "line": "Imported work, and old money paying for it.",
+          "tier": "A",
+          "pattern": "A1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This lands as a captioned verdict on the room after the sensory description instead of a live in-body thought.",
+          "verdict": "KILL",
+          "confidence": "HIGH"
+        },
+        {
+          "line": "Hands used to ink, glass, and live reagents.",
+          "tier": "A",
+          "pattern": "A1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment reads like an authorial label pinned to Jandice's description rather than Jaina's ongoing observation.",
+          "verdict": "KILL",
+          "confidence": "HIGH"
+        },
+        {
+          "line": "A notice, not a wall.",
+          "tier": "A",
+          "pattern": "A4",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This is a negation-framed caption that explains the ward contact instead of staying with the sensation.",
+          "verdict": "KILL",
+          "confidence": "HIGH"
+        },
+        {
+          "line": "Easy extraction ended there.",
+          "tier": "B",
+          "pattern": "B2",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The line compresses the ward encounter into a polished tactical slogan rather than Jaina's immediate bodily read.",
+          "verdict": "KILL",
+          "confidence": "MODERATE"
+        },
+        {
+          "line": "Narrow windows above. Broad doors below. No banners.",
+          "tier": "A",
+          "pattern": "A2",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "These stacked fragments read like a fortress caption instead of flowing observation from inside Jaina's body.",
+          "verdict": "KILL",
+          "confidence": "HIGH"
+        },
+        {
+          "line": "Stone floors, scrubbed. Iron brackets polished.",
+          "tier": "A",
+          "pattern": "A1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The clipped judgments caption the hallway instead of remaining full sensory noticing.",
+          "verdict": "KILL",
+          "confidence": "HIGH"
+        },
+        {
+          "line": "The labels were neat. The shelves dusted.",
+          "tier": "A",
+          "pattern": "A1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Both clauses act as verdict tags after the room description rather than embodied perception.",
+          "verdict": "KILL",
+          "confidence": "HIGH"
+        },
+        {
+          "line": "Whoever had written them had taken Kirin Tor rigor somewhere the Council had nailed shut and gone on building with the stolen tools.",
+          "tier": "B",
+          "pattern": "B2",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence is more essay-compressed and rhetorically polished than Jaina's urgent, technical in-scene thinking.",
+          "verdict": "KILL",
+          "confidence": "MODERATE"
+        },
+        {
+          "line": "Still incomplete.",
+          "tier": "A",
+          "pattern": "A1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This is a judgment fragment tacked onto the theorem description instead of integrated thought.",
+          "verdict": "KILL",
+          "confidence": "HIGH"
+        },
+        {
+          "line": "Ink and reagent. Dalaran and something fouler laid over it.",
+          "tier": "A",
+          "pattern": "A2",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The pair compresses the scene into slogan-like thematic fragments rather than immediate cognition.",
+          "verdict": "KILL",
+          "confidence": "HIGH"
+        },
+        {
+          "line": "Real work in those hands, and enough danger in it to pull Jaina farther in.",
+          "tier": "B",
+          "pattern": "B1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence sounds written about Jaina's attraction to danger instead of thought by her in the moment.",
+          "verdict": "KILL",
+          "confidence": "MODERATE"
+        },
+        {
+          "line": "He cannot move at plague speed, she thought. Neither can the Council.",
+          "tier": "B",
+          "pattern": "B2",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The second sentence turns her tension into a clean thematic summary instead of staying with fear, logistics, or action.",
+          "verdict": "KILL",
+          "confidence": "MODERATE"
+        },
+        {
+          "line": "Someone else had the next move.",
+          "tier": "B",
+          "pattern": "B2",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This abstracts the moment into game-board language instead of the immediate threat Jaina is feeling.",
+          "verdict": "KILL",
+          "confidence": "MODERATE"
+        },
+        {
+          "line": "Wood met stone, quiet and final.",
+          "tier": "B",
+          "pattern": "B1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The closing clause is polished scene-caption phrasing rather than Jaina's practical fear register on the stair.",
+          "verdict": "KILL",
+          "confidence": "MODERATE"
+        }
+      ]
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 13,
+      "kills": 9,
+      "keeps": 4,
+      "killRate": "69%",
+      "clusterPages": [
+        "lines 156-194"
+      ],
+      "clusterWarnings": [
+        "Fragment-negation captions recur through the boat crossing, keep reveal, and guest chamber sequence."
+      ],
+      "findings": [
+        {
+          "line": "No boatman waited there.",
+          "pattern": 5,
+          "deletionTest": "[delete sentence; the scene still lands on Jandice stepping into the boat]",
+          "verdict": "KILL",
+          "reason": "Pattern 5. The negated setup exists only to prime the real action that follows."
+        },
+        {
+          "line": "A notice, not a wall.",
+          "pattern": 1,
+          "deletionTest": "A notice.",
+          "verdict": "KILL",
+          "reason": "Pattern 1. The positive noun carries the image; the negated half is scaffolding."
+        },
+        {
+          "line": "No one needed an ambush. The keep already knew what had entered.",
+          "pattern": 5,
+          "deletionTest": "The keep already knew what had entered.",
+          "verdict": "KILL",
+          "reason": "Pattern 5. The negated opener is a preamble before the real claim."
+        },
+        {
+          "line": "No banners.",
+          "pattern": 2,
+          "deletionTest": "[delete fragment; the fortress image already stands]",
+          "verdict": "KILL",
+          "reason": "Pattern 2. A fragment-negation caption for style rather than structural need."
+        },
+        {
+          "line": "No torch smoke.",
+          "pattern": 2,
+          "deletionTest": "[delete fragment; the lamp-lit corridor description still works]",
+          "verdict": "KILL",
+          "reason": "Pattern 2. Another clipped negation caption instead of direct description."
+        },
+        {
+          "line": "a path, not a building",
+          "pattern": 1,
+          "deletionTest": "a path",
+          "verdict": "KILL",
+          "reason": "Pattern 1. The phrase lands on the positive image and does not need the rejected one."
+        },
+        {
+          "line": "Do not mistake the distinction.",
+          "pattern": 0,
+          "deletionTest": "Do not mistake the distinction.",
+          "verdict": "KEEP",
+          "reason": "Procedural command. Step 1 exception."
+        },
+        {
+          "line": "No lock slid.",
+          "pattern": 2,
+          "deletionTest": "[delete fragment; the ward-surveillance sentence remains]",
+          "verdict": "KILL",
+          "reason": "Pattern 2. The clipped absence is a style beat, not necessary information."
+        },
+        {
+          "line": "one meant for privacy between scholars in crowded archive rooms, not for this depth of interference.",
+          "pattern": 0,
+          "deletionTest": "one meant for privacy between scholars in crowded archive rooms",
+          "verdict": "KEEP",
+          "reason": "Hard constraint. The negation states a real capability boundary that affects the plot."
+        },
+        {
+          "line": "Do not trust memory to be kinder tomorrow than it is tonight.",
+          "pattern": 0,
+          "deletionTest": "Do not trust memory to be kinder tomorrow than it is tonight.",
+          "verdict": "KEEP",
+          "reason": "Direct prohibition. Step 1 exception."
+        },
+        {
+          "line": "Conditioned tissue does not merely retain contamination. It learns toward an answer.",
+          "pattern": 5,
+          "deletionTest": "Conditioned tissue learns toward an answer.",
+          "verdict": "KILL",
+          "reason": "Pattern 5. The negated preamble delays the committed claim."
+        },
+        {
+          "line": "Not as the insertion point.",
+          "pattern": 2,
+          "deletionTest": "[delete fragment after \"You're treating death as a threshold of response.\"]",
+          "verdict": "KILL",
+          "reason": "Pattern 2. A fragment pivot used for drama after the real analytical point is already made."
+        },
+        {
+          "line": "permission is not the same as protection.",
+          "pattern": 0,
+          "deletionTest": "permission is protection",
+          "verdict": "KEEP",
+          "reason": "Binary diagnostic. The distinction materially changes how Jaina should read the invitation."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 62,
+    "totalKeeps": 6,
+    "guidesRun": 4,
+    "guidesWithKills": 4,
+    "verdict": "fail",
+    "verdictReason": "62 KILL verdicts across 4 guides (gpt-5-prose-issues: 29, intent-smear: 10, narrator-seep: 14, negation-addiction: 9)."
+  }
+}

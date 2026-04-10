@@ -89,9 +89,12 @@ Final output files:
 │   ├── v1.md          # Writer raw draft
 │   ├── v2.md          # After slophunter
 │   ├── v2g.md         # After grounder
+│   ├── grounding-map.json
+│   ├── grounding-gate-notes.json   # If grounding-gate enabled
 │   ├── v3.md          # After expander
 │   ├── final.md       # Assembled chapter
 │   ├── slophunter-notes.json
+│   ├── grounder-notes.json
 │   └── style-notes.json
 ├── chapter-2/
 │   └── ...
@@ -114,7 +117,8 @@ If you want to add more chapters after a completed run:
 
 ## Environment Notes
 
-- **Model costs:** All agents use gpt-5.4. A typical 5000-word chapter costs roughly 500K-1M tokens total across all agents.
-- **Time:** Expect 15-30 minutes per chapter depending on length and complexity.
+- **Model costs:** The specialist agents use gpt-5.4 and the orchestrator uses claude-sonnet-4.6. A typical 5000-word chapter costs roughly 500K-1M tokens total across the full run.
+- **Time:** Expect 15-30 minutes per chapter in the default flow. Enabling the grounding-gate adds another audit/revision surface and can push long chapters higher.
 - **Disk:** Each chapter produces ~100KB of artifacts (drafts + notes + memory). Minimal disk usage.
 - **Network:** Plan-verifier uses web search for craft knowledge. Writer and planner may use web search for character/location research. Other agents are offline.
+- **Extra artifacts when grounding-gate is enabled:** `grounding-gate-notes*.json`, `grounding-gate-scratchpad*.md`, `v2g-r*.md`, `grounding-map*.json`, and `grounder-revision-r*-notes.json`.

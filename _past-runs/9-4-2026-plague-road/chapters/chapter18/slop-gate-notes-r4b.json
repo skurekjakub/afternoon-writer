@@ -1,0 +1,127 @@
+{
+  "chapterId": "chapter18",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "F3",
+          "text": "Jaina knew that by the way the elf's shoulders changed before any sound reached human ears.",
+          "word": "knew",
+          "deletionTest": "The elf's shoulders changed before any sound reached human ears.",
+          "reason": "The sentence routes a visible cue through a filter verb even though the physical tell already carries the information.",
+          "suggestedFix": "Cyndia heard her first; the elf's shoulders changed before any sound reached human ears.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A1",
+      "findings": [
+        {
+          "severity": "mild",
+          "text": "Recognition.",
+          "tier": "A",
+          "pattern": "A1",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment captions Jaina's realization from outside instead of extending it through her concrete next thought.",
+          "confidence": "high",
+          "reason": "Verdict-tag fragment functioning as a caption rather than an embodied in-POV assessment.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "severity": "mild",
+          "text": "The shape had already been there in the road, in the unfinished logic of the plague.",
+          "pattern": "P3",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The line avoids naming the concrete inference that the road and plague trail were already pointing north.",
+          "reason": "Placeholder nouns like shape and logic create analytical weight without cashing out into the actual directional claim.",
+          "suggestedFix": "She had already begun to read the road as north.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "No exchange in the chapter sets up a plain-speech or smaller-words translation request, so this guide had no eligible candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 8,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass B found 3 mild KILLs and no moderate or severe findings, so the chapter passes with warnings."
+  }
+}

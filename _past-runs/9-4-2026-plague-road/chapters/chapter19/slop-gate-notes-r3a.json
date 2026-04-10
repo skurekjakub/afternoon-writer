@@ -1,0 +1,166 @@
+{
+  "chapterId": "chapter19",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severityMarkers": [
+        "mild-only"
+      ],
+      "dominantPattern": "P2",
+      "findings": [
+        {
+          "pattern": "P2",
+          "severity": "mild",
+          "line": "\"But not the part that matters.\"",
+          "deletionTest": "\"The part that matters.\"",
+          "reason": "Fragment pivot; the negation is scaffolding and the line does not meet binary-diagnostic, spatial-precision, or hard-constraint keep rules.",
+          "suggestedFix": "The part that matters lies north.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P1",
+          "severity": "mild",
+          "line": "\"That isn't the point.\"",
+          "deletionTest": "[delete line; the exchange still lands on Sylvanas's next reply]",
+          "reason": "Direct contrast pivot; the negation performs emphasis rather than binary diagnosis, spatial precision, or a hard constraint.",
+          "suggestedFix": "That misses it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 8,
+      "kills": 4,
+      "keeps": 4,
+      "severityMarkers": [
+        "mild-only",
+        "second-sweep-completed"
+      ],
+      "dominantPattern": "abstraction-or-scenery as agent",
+      "findings": [
+        {
+          "pattern": "road-judgment",
+          "severity": "mild",
+          "line": "Better paper than the road deserved.",
+          "subject": "road",
+          "verb": "deserved",
+          "realAgent": "the urgency and roughness of the dispatch run",
+          "reason": "The sentence launders judgment onto the road instead of naming the dispatch conditions that make the vellum excessive.",
+          "suggestedFix": "Better paper than a road dispatch usually got.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P6",
+          "severity": "mild",
+          "line": "\"Then home had better learn to ride farther.\"",
+          "subject": "home",
+          "verb": "learn",
+          "realAgent": "the people and institutions trying to keep the threat bounded by the old border",
+          "reason": "An abstraction is given cognition and adaptation instead of naming the people who would have to follow the threat farther north.",
+          "suggestedFix": "Then home lies farther north.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "abstraction-as-builder",
+          "severity": "mild",
+          "line": "The road narrowed into the kind of track merchants still used because trade had made it, not because any lord cared to keep it easy.",
+          "subject": "trade",
+          "verb": "had made",
+          "realAgent": "the merchants and cart traffic that wore the track into use",
+          "reason": "The abstraction 'trade' is treated as the builder of the road instead of the repeated human traffic that shaped it.",
+          "suggestedFix": "The road narrowed into the kind of track merchants still used because merchants had worn it in, not because any lord cared to keep it easy.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "scenery-agency",
+          "severity": "mild",
+          "line": "Behind them Stratholme kept its place in the sky as long as the dark allowed.",
+          "subject": "Stratholme",
+          "verb": "kept",
+          "realAgent": "the visible smoke stain lingering above the city",
+          "reason": "The city is carrying the visual persistence instead of the concrete stain of smoke that remains visible in the sky.",
+          "suggestedFix": "Behind them Stratholme's stain stayed in the sky as long as the dark allowed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 9,
+      "kills": 1,
+      "keeps": 8,
+      "severityMarkers": [
+        "mild-only"
+      ],
+      "dominantPattern": "Tic 5",
+      "findings": [
+        {
+          "pattern": "Tic 5",
+          "severity": "mild",
+          "line": "That landed. Vereesa flinched in the eyes only.",
+          "tic": "Eye/Gaze Repertoire Exhaustion",
+          "cap": 4,
+          "observedCount": 5,
+          "reason": "This is the weakest generic eye-routed reaction in a chapter that already spends five eye/gaze beats; it is the cleanest excess instance to cut.",
+          "suggestedFix": "That landed. Vereesa flinched, just once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 15,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has 7 mild KILLs across negation, intent-smear, and recurring-tic checks; mild-only findings exceed the 3-findings pass threshold."
+  }
+}

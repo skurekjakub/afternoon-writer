@@ -1,0 +1,333 @@
+{
+  "chapterId": "chapter20",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 11,
+      "kills": 9,
+      "keeps": 2,
+      "killRate": 81.8,
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "clusterWarnings": [
+        "Narration-level negation pivots recur across departure, crossing, and landfall.",
+        "Multiple fragment pivots cluster around Jaina interior assessment lines."
+      ],
+      "findings": [
+        {
+          "line": "Not a question.",
+          "pattern": "2",
+          "deletionTest": "[delete sentence]",
+          "reason": "Pattern 2 fragment pivot; the scene loses nothing if the sentence is cut.",
+          "severity": "moderate",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "No new orders. Only route, vessel, destination, departure hour.",
+          "pattern": "2",
+          "deletionTest": "Route, vessel, destination, departure hour.",
+          "reason": "Pattern 2 fragment pivot; the positive payload survives without the negated preface.",
+          "severity": "moderate",
+          "suggestedFix": "Route, vessel, destination, departure hour.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "No answer. Only an object now, and still she carried it.",
+          "pattern": "2",
+          "deletionTest": "Only an object now, and still she carried it.",
+          "reason": "Pattern 2 fragment pivot; the first sentence is dead scaffolding before the real point.",
+          "severity": "moderate",
+          "suggestedFix": "Only an object now, and still she carried it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The harbor did not break free in a single wrench. It loosened.",
+          "pattern": "5",
+          "deletionTest": "It loosened.",
+          "reason": "Pattern 5 preamble negation; the real movement lands after disposable contrast setup.",
+          "severity": "moderate",
+          "suggestedFix": "The ship drew away by inches.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "What escaped Jaina was not quite a laugh, but it came close enough to sting.",
+          "pattern": "1",
+          "deletionTest": "What escaped Jaina came close enough to sting.",
+          "reason": "Pattern 1 direct contrast pivot; the sentence reaches its meaning after the negated hedge.",
+          "severity": "moderate",
+          "suggestedFix": "What escaped Jaina came close enough to a laugh to sting.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not on skin. On the line of spell she had run out past prudence.",
+          "pattern": "2",
+          "deletionTest": "On the line of spell she had run out past prudence.",
+          "reason": "Pattern 2 fragment pivot; the second sentence carries the actual information.",
+          "severity": "moderate",
+          "suggestedFix": "On the line of spell she had run out past prudence.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "They were not conquering distance. They were buying it by the hour with rope burns, soaked wool, and the body's increasingly sour cooperation.",
+          "pattern": "5",
+          "deletionTest": "They were buying it by the hour with rope burns, soaked wool, and the body's increasingly sour cooperation.",
+          "reason": "Pattern 5 preamble negation; the second sentence is the committed meaning.",
+          "severity": "moderate",
+          "suggestedFix": "They were buying distance by the hour with rope burns, soaked wool, and increasingly sour effort.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The first proof of lateness was not the dock. It was the wreck above the tide line.",
+          "pattern": "5",
+          "deletionTest": "It was the wreck above the tide line.",
+          "reason": "Pattern 5 preamble negation; the wreck is the real proof and should arrive without rejected bait.",
+          "severity": "moderate",
+          "suggestedFix": "The first proof of lateness was the wreck above the tide line.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not from the sea this time.",
+          "pattern": "3",
+          "deletionTest": "[delete sentence]",
+          "reason": "Pattern 3 source-swap pivot; it rejects one cause without naming the new one directly.",
+          "severity": "moderate",
+          "suggestedFix": "This time the shaking came from inland.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 10,
+      "kills": 9,
+      "keeps": 1,
+      "killRate": 90.0,
+      "dominantPattern": "inanimate-physical-agency",
+      "clusterFlags": [
+        "Crossing section carries repeated inanimate-subject agency on harbor, horizon, answer, and ship.",
+        "Approach section repeats geography-motion smear on bay and road imagery."
+      ],
+      "repeatNouns": [
+        "answer"
+      ],
+      "pattern4Alert": "no",
+      "findings": [
+        {
+          "line": "The harbor did not break free in a single wrench. It loosened.",
+          "subject": "The harbor / It",
+          "verb": "break free / loosened",
+          "realAgent": "The ship and the widening distance from shore",
+          "pattern": "geography-motion",
+          "reason": "The harbor is carrying physical agency that belongs to the vessel pulling away from it.",
+          "severity": "moderate",
+          "suggestedFix": "The ship drew away by inches.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The answer came instantly.",
+          "subject": "The answer",
+          "verb": "came",
+          "realAgent": "The supernatural headwind striking in response to Jaina's probe",
+          "pattern": "5",
+          "reason": "Pattern 5 object acting; the response belongs to the hostile force, not to an abstract answer.",
+          "severity": "moderate",
+          "suggestedFix": "The headwind hit at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "a horizon that refused to hold still",
+          "subject": "horizon",
+          "verb": "refused",
+          "realAgent": "The ship's motion and the sea-state scrambling Jaina's balance",
+          "pattern": "5",
+          "reason": "Pattern 5 object refusing; the horizon is being moved, not deciding anything.",
+          "severity": "moderate",
+          "suggestedFix": "a horizon sliding with the ship",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "as though the ship had taken command of the fluid inside her skull",
+          "subject": "ship",
+          "verb": "had taken command",
+          "realAgent": "The rolling motion provoking seasick disorientation",
+          "pattern": "objects-commanding",
+          "reason": "The ship is handed command language that belongs to the bodily effect of its motion.",
+          "severity": "moderate",
+          "suggestedFix": "as though the ship's motion had the fluid inside her skull sloshing on its own",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Yesterday the answer might have irritated her.",
+          "subject": "answer",
+          "verb": "might have irritated",
+          "realAgent": "Sylvanas's reply and Jaina's reaction to it",
+          "pattern": "5",
+          "reason": "Pattern 5 object acting; the irritation belongs to Jaina reacting to Sylvanas, not to an abstract answer.",
+          "severity": "moderate",
+          "suggestedFix": "Yesterday she might have bristled at it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The neat sentence arrived at once—*I have made a habit of confusing cost with truth*—and Jaina rejected it on sight.",
+          "subject": "The neat sentence",
+          "verb": "arrived",
+          "realAgent": "Jaina thinking of the polished formulation",
+          "pattern": "9",
+          "reason": "Pattern 9 nominalized agency; the thought belongs to Jaina rather than to a sentence acting on its own.",
+          "severity": "moderate",
+          "suggestedFix": "She had the neat sentence at once—*I have made a habit of confusing cost with truth*—and rejected it on sight.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The bay opened around a hooked point of stone",
+          "subject": "bay",
+          "verb": "opened",
+          "realAgent": "The ship's angle of approach revealing the inlet beyond the point",
+          "pattern": "geography-motion",
+          "reason": "The geography is given motion instead of the narration naming what the characters actually come into view of.",
+          "severity": "moderate",
+          "suggestedFix": "Beyond a hooked point of stone, they saw the bay.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Taken together, the wood, the burned hull, the emptied camp edge, and the crust over old boot marks made the timing plain.",
+          "subject": "the wood, the burned hull, the emptied camp edge, and the crust over old boot marks",
+          "verb": "made",
+          "realAgent": "Jaina reading the evidence and concluding how far ahead Arthas is",
+          "pattern": "2",
+          "reason": "The evidence is doing Jaina's inferential work for her instead of the sentence naming that she read it.",
+          "severity": "moderate",
+          "suggestedFix": "Jaina read the timing from the wood, the burned hull, the emptied camp edge, and the crust over old boot marks.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "It resembled a road already opened under snow.",
+          "subject": "road",
+          "verb": "opened",
+          "realAgent": "A trail already cut by the expedition moving inland",
+          "pattern": "geography-motion",
+          "reason": "The comparison gives the road completed action instead of naming the cut trail it resembles.",
+          "severity": "moderate",
+          "suggestedFix": "It resembled tracks already cut under snow.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 2,
+      "killRate": 0.0,
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Counted all seven tic families: corner-of-mouth beats 0, marked 0, emotional tightened/eased under cap, facial shifted 0, eye/gaze overuse stayed below cap once tactical scans and neutral looks were separated, abstract weight/heaviness 0, and non-said dialogue tags 1 legitimate low-volume use."
+    }
+  ],
+  "summary": {
+    "totalKills": 18,
+    "totalKeeps": 5,
+    "mildKills": 0,
+    "moderateOrSevereKills": 18,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 18,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still contains 18 moderate kills across negation addiction and intent smear; the recurring tic guide stayed within cap."
+  }
+}

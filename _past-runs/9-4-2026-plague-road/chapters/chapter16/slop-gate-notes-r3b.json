@@ -1,0 +1,217 @@
+{
+  "chapterId": "chapter16",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 5,
+      "kills": 4,
+      "keeps": 1,
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": "That made them easy for the plague.",
+          "issue": "explanatory restatement",
+          "whatItRestates": "People still moved by routine there.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "The first store mattered. It would save whoever had not yet eaten from that stock.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Bread steam drifted through the lane.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "Dough on a mother's board belonged to people who had done nothing but wake hungry.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Through one kitchen door, a woman floured a board while her younger son stole scraps from the dough and laughed when she slapped his wrist.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "The words hung in the gate between them.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "\"No,\" Jaina said. \"Not cleanly. Not now.\"",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in routes, stockpiles, magical mechanism, and immediate tactical consequence. Under pressure she compresses into operational language tied to roads, stores, mouths, and visible signs. She can be analytical, but she does not naturally drift into detached aphorism or polished thematic metaphor in the middle of a live crisis.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 6,
+      "kills": 5,
+      "keeps": 1,
+      "dominantPattern": "B1",
+      "findings": [
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "line": "The whistle made him real.",
+          "tier": "B",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "Jaina would jump from whistle to handler recognition or threat, not pause for a polished abstract beat about reality.",
+          "confidence": "MODERATE",
+          "suggestedFix": "The whistle gave him away.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "line": "the sort of face a lane would forget at once",
+          "tier": "B",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "The phrase turns a quick visual read into a writerly aside about what a lane would remember.",
+          "confidence": "MODERATE",
+          "suggestedFix": "another warehouse man at a glance",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "line": "one clean motion that made the exhausted horse under her seem young by sheer refusal",
+          "tier": "B",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "Jaina can admire Sylvanas's riding, but this phrasing turns the sight into a polished authorial flourish instead of a body-level read.",
+          "confidence": "MODERATE",
+          "suggestedFix": "one hard motion that made the exhausted horse find another stride",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5",
+          "severity": "MILD",
+          "line": "At her back, the city was impossible to ignore.",
+          "tier": "A",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "The sentence declares scene pressure from above instead of staying with the concrete carriers already available at the gate.",
+          "confidence": "HIGH",
+          "suggestedFix": "At her back, carts rattled deeper in the streets while smoke kept rising over the roofs.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "line": "Whatever he had hoped to hear died in his face and left only blankness.",
+          "tier": "B",
+          "whoIsSayingThis": "a narrator",
+          "povMismatch": "The sentence gives Arthas a polished emotional caption instead of the sharper facial read Jaina would actually catch under pressure.",
+          "confidence": "MODERATE",
+          "suggestedFix": "His mouth flattened. His eyes went blank.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 2,
+      "kills": 2,
+      "keeps": 0,
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "\"Enough to prove the plan.\"",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "That enough contaminated stores are already active to prove one more strike will not scale into a city rescue.",
+          "reason": "Placeholder abstraction standing in for the actual operational claim.",
+          "suggestedFix": "\"Enough that one more won't save it.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "\"Too many mouths.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "That too many people have already eaten contaminated bread for another warehouse hit to matter.",
+          "reason": "The line carries weight through stand-in rhetoric instead of naming the concrete claim.",
+          "suggestedFix": "\"Too many have already eaten.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 2,
+    "mildKills": 11,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 11,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 11 mild kills remain across the pass-b guide pack, which exceeds the 3-mild-kill pass threshold. Manifest trajectory is oscillating (iterationKillsB: 3, 7), so the suggested fixes were kept conservative."
+  }
+}

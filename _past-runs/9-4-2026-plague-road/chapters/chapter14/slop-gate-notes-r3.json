@@ -1,0 +1,401 @@
+{
+  "chapterId": "chapter14",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "fixStrategy": "conservative",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 13,
+      "kills": 8,
+      "keeps": 5,
+      "severePagesOrScenes": [
+        "opening road paragraph",
+        "closing acceleration stretch"
+      ],
+      "dominantPattern": "F4 — Narrative Over-Translation",
+      "findings": [
+        {
+          "line": "Late sun warmed the harvested fields.",
+          "pattern": "F1",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "This opener sits inside a five-sentence subject-verb run in the same paragraph, so the paragraph arrives in a mechanical template instead of a varied road sweep.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The ditches darkened first.",
+          "pattern": "F1",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The closing stretch repeats short subject-past declaratives for five consecutive sentences, flattening the late-chapter acceleration into one beat shape.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Nothing moved for three heartbeats except the horses.",
+          "pattern": "F3",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The temporal padding phrase 'for three heartbeats' adds dead air; the beat lands cleanly without the measured pause.",
+          "suggestedFix": "Nothing moved except the horses.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The word sat between them like a stone.",
+          "pattern": "F4",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The single-word exchange already carries the weight; this sentence translates the silence into an abstract subtitle.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Jaina kept two stacks in her head because one would carry and the other would not.",
+          "pattern": "F6",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The paragraph opens with a thesis claim, then unpacks evidence and closes on summary fragments, producing claim-evidence-restatement essay shape.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The second had teeth.",
+          "pattern": "F7",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "This paragraph-final closer explains the danger of the withheld material instead of stopping on the concrete room details that already imply it.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "That meant he had stopped wasting time on politeness.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Antonidas's single-word 'Need' already shows the stripped-down urgency; this sentence restates the implication.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Each northbound face made haste look smaller and more necessary.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The straggler images already show the shrinking scale of civilian life; this sentence adds an interpretive gloss after the concrete list did the work.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 10,
+      "kills": 6,
+      "keeps": 4,
+      "dominantPattern": "Pattern 5 — Objects wanting, refusing, or deciding",
+      "specialSweep": {
+        "p5p6Candidates": 6,
+        "kills": 4,
+        "keeps": 2,
+        "notes": "Dedicated P5/P6 sweep caught the geography/body-part clusters in 'Caer Darrow had spat them out,' 'Each time it had grown heavier,' 'the lane had swallowed his noise,' and the back-pain sentence. It kept the plague-mechanism lines where body/death/grain language is literal in-world magical theory."
+      },
+      "findings": [
+        {
+          "line": "Caer Darrow had spat them out of a school built over butcher's rooms and set them back among mud, fences, and people still thinking supper would happen if they got home before dark.",
+          "pattern": "P5",
+          "subject": "Caer Darrow",
+          "verb": "had spat / set",
+          "realAgent": "Their exit ride out of the underground school put them back on the working road among farmers and carts.",
+          "verdict": "KILL",
+          "reason": "Pattern 5 during the dedicated sweep: geography is given bodily expulsion and directed placement instead of naming the people and movement doing the work.",
+          "suggestedFix": "They had come out of a school built over butcher's rooms and back into mud, fences, and people still thinking supper would happen if they got home before dark.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The second had teeth.",
+          "pattern": "P5",
+          "subject": "The second",
+          "verb": "had teeth",
+          "realAgent": "Voicing the second mental stack would hurt Jaina and damage the conversation.",
+          "verdict": "KILL",
+          "reason": "Pattern 5: an abstract stack is given threat-bearing anatomy instead of naming the consequence to Jaina.",
+          "suggestedFix": "Speaking the second stack would hurt.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Only hoofbeats answered.",
+          "pattern": "P7",
+          "subject": "hoofbeats",
+          "verb": "answered",
+          "realAgent": "No one responded after Lor'themar's recall message; the only sound left was the horses.",
+          "verdict": "KILL",
+          "reason": "Pattern 7: ambient sound is given conversational agency instead of naming the human silence.",
+          "suggestedFix": "No one answered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Each time it had grown heavier.",
+          "pattern": "P5",
+          "subject": "it",
+          "verb": "had grown heavier",
+          "realAgent": "Keeping the omission in place was getting harder each time Jaina recommitted to it.",
+          "verdict": "KILL",
+          "reason": "Pattern 5 during the dedicated sweep: the abstract omission is given accumulating physical mass.",
+          "suggestedFix": "Each time keeping it back got harder.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Cyndia lowered her bow only when the lane had swallowed his noise.",
+          "pattern": "P5",
+          "subject": "the lane",
+          "verb": "had swallowed",
+          "realAgent": "Distance and the bend cut off the rider's sound.",
+          "verdict": "KILL",
+          "reason": "Pattern 5 during the dedicated sweep: scenery is given consuming agency instead of the physical effect of distance and the turn.",
+          "suggestedFix": "Cyndia lowered her bow only when his noise faded around the bend.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Muscles complained along her back where the sanctum's stillness had sat too long.",
+          "pattern": "P8",
+          "subject": "Muscles / stillness",
+          "verb": "complained / had sat",
+          "realAgent": "Jaina's back hurt from hours of rigid stillness in the sanctum.",
+          "verdict": "KILL",
+          "reason": "Pattern 8 with a P5 cluster: body parts and an abstraction both act independently of Jaina instead of staying anchored in her physical pain.",
+          "suggestedFix": "Pain ran along her back from hours of stillness in the sanctum.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "registerSummary": "Jaina thinks fast, analytically, and concretely around magical structure, pressure, and consequence. She can compress into sharp fragments under stress, but her strongest interiority stays tied to problem-solving, sensory specifics, and immediate tactical use rather than polished scene captions.",
+      "registerConfidence": "HIGH",
+      "dominantPattern": "B2 — Conceptual compression beyond POV register",
+      "structuralHabit": "yes — chapter transitions keep reaching for neat summary lines after strong concrete beats",
+      "findings": [
+        {
+          "line": "Close enough to hear every word. Far enough to show the space.",
+          "pattern": "A2",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The slogan-like fragment pair captions the formation from above instead of staying with the concrete riding geometry Jaina is actually registering.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "Close enough to hear every word. Still half a horse off to the right.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The first stack could be spoken.",
+          "pattern": "B2",
+          "tier": "B",
+          "whoIsSayingThis": "narrator wearing Jaina's voice",
+          "povMismatch": "Jaina can think in analytical shorthand, but this abstract caption reads like an essay summary of her decision rather than a thought she would form in motion.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "She could say the first stack aloud.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "For a while they had nothing but distance.",
+          "pattern": "A5",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence declares the state of the scene from above instead of giving a concrete road sensation or action inside Jaina's body.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "They rode on.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "None of them argued with the order buried in it.",
+          "pattern": "B2",
+          "tier": "B",
+          "whoIsSayingThis": "narrator wearing Jaina's voice",
+          "povMismatch": "This compresses the command dynamic into a polished abstract tag instead of staying with what Jaina sees the others do after Sylvanas cuts the time in half.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "No one argued.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "She could spend what she had learned.",
+          "pattern": "B2",
+          "tier": "B",
+          "whoIsSayingThis": "narrator wearing Jaina's voice",
+          "povMismatch": "The line packages Jaina's tactical resolve into a neat thematic tag after the concrete Stratholme inventory already made the point.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "intent-smear-agency-laundering-guide.md",
+            "narrator-seep-guide.md",
+            "negation-addiction-hunting-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "findings": [],
+      "cleanReason": "Four real negation pivots were examined. 'This isn't a local outbreak' survives as a binary diagnostic between two live threat models; 'That will buy me noise, not votes' survives as a political binary that changes Lor'themar's next move; 'Broadly? Not with what I have in hand' survives as a hard capability limit; and 'He wasn't mad' survives as a threat-classification distinction. Other negatives in the chapter are plain refusals, commands, or dialogue denials rather than contrast scaffolding."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "findings": [],
+      "cleanReason": "All tracked tic counts stayed at or below cap. 'marked' appears once in a literal physical sense; 'tightened' appears three times with two physical uses and one emotional use, exactly at the chapter cap; facial-expression 'shifted' does not occur; eye/road-look beats stay under the eye/gaze cap and remain task-specific; weight/heaviness metaphors land at two, exactly at cap; and non-'said' performance tags do not exceed the dialogue-tag cap."
+    }
+  ],
+  "summary": {
+    "totalKills": 19,
+    "totalKeeps": 24,
+    "guidesRun": 5,
+    "guidesWithKills": 3,
+    "killsWithFix": 19,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "19 KILL verdicts across 3 guides (gpt-5-prose-issues: 8, intent-smear: 6, narrator-seep: 5). Conservative fix mode was used because prior gate totals plateaued; all suggested fixes are deletions or minimal substitutions."
+  }
+}

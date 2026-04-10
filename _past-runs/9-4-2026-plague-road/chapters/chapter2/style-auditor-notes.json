@@ -1,0 +1,178 @@
+{
+  "chapterId": "chapter2",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "v4b.md:3-10 opens with clipped interrogation pressure; the short-answer rhythm suits Jaina's exhaustion and Sylvanas's command style.",
+        "v4b.md:21-45 mixes Jaina's longer reasoning chains with blunt corrections, matching the style guide's introspection-vs-emphasis pattern.",
+        "v4b.md:153-163 now turns faster after the release order; changing 'fully absorbed' to 'caught up to it' removed a process-heavy stumble from the motion beat.",
+        "v4b.md:319-371 keeps peak-action sentences mostly under 9 words, with a few longer reorientation lines so the wolf/deer fight does not go monotone.",
+        "Measured rhythm stayed compliant after edits: average sentence length 9.11 words and roughly 43% of sentences at 6 words or fewer, which fits the guide's baseline snap."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 153,
+          "rule": "sentenceRhythmStandards.default — process-heavy phrasing dulled a fast transition beat",
+          "before": "The room changed around the command before Jaina had fully absorbed it.",
+          "after": "The room changed around the command before Jaina had caught up to it."
+        }
+      ]
+    },
+    {
+      "dimension": "vocabularyAndRegister",
+      "observations": [
+        "v4b.md:17-18 stays concrete and field-usable: contaminated leylines, northward movement, ward-stones taking damage.",
+        "v4b.md:41-45 preserves Jaina's one deliberate over-technical slip, then corrects it in-scene; that beat remains character work rather than contamination.",
+        "v4b.md:211 now reads as Jaina's irritated field judgment instead of comparative narrator summary.",
+        "v4b.md:241 now swaps 'big convergence point' for 'first place it knots tight,' which keeps the information but removes briefing-room diction from speech.",
+        "I checked for planning/document voice flags from the anti-slop list; remaining technical terms are world-native magic vocabulary, not bureaucratic or modern-scientific leakage."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 211,
+          "rule": "vocabularyStandards.avoid — explanatory comparative framing drifted toward document voice",
+          "before": "Useful, and obvious mainly because it contrasted so sharply with the way mages rode when they thought a staff excused them from watching the hedges.",
+          "after": "Useful, and obvious beside the way mages rode when they thought a staff excused them from watching the hedges."
+        },
+        {
+          "line": 241,
+          "rule": "vocabularyStandards.baseline — spoken line sounded too report-like for field dialogue",
+          "before": "Millhaven is the first big convergence point on the route I tracked.",
+          "after": "Millhaven is the first place it knots tight on the route I tracked."
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorCompliance",
+      "observations": [
+        "Image density stayed low: roughly 0.63 marked images per thousand words in this pass, well under the guide's cap.",
+        "v4b.md:27 uses 'Like a struck string answering a note' as a clean magical comparison rooted in craft and sound, not ornament.",
+        "v4b.md:177 uses 'rot under varnish' once to sharpen contamination without stacking a second image on top of it.",
+        "v4b.md:223 uses 'stain through linen' to clarify spread through land and water; the image is concrete and immediately legible.",
+        "I checked for mixed domains, epic-fantasy abstractions, and decorative body metaphors; none required intervention."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphAndStructure",
+      "observations": [
+        "Paragraph cadence stays inside spec: average paragraph length 20.27 words, with no paragraph over the guide's soft maximum.",
+        "v4b.md:171-205 moves cleanly from ward release to road exposure by consequence rather than clock-time scaffolding.",
+        "v4b.md:239-275 preserves the scene's midpoint correction: Jaina misreads Sylvanas, gets checked, then restates in her real register.",
+        "v4b.md:451-473 closes on a compact approach sequence and leaves chapter3 the village-entry beat, matching the handoff contract.",
+        "I checked transitions for banned planner language and summary bridges; the chapter remains causal rather than schematic."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 275,
+          "rule": "sceneTransitionConventions.avoid — editorial self-summary over-explained the correction beat",
+          "before": "There. Cleaner. Truer.",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "dimension": "dialogueRatioAndAttribution",
+      "observations": [
+        "Measured dialogue-to-narration ratio is 23:77. That sits below the chapter-wide 45:55 target, but this chapter's travel dread and action blocks justify a documented exception rather than added dialogue.",
+        "Attribution is compliant: 42 no-frills tags ('said'/'asked') against 3 stronger tags, keeping the scene far inside the style guide's cap on creative tags.",
+        "v4b.md:39-60 handles the interrogation as pressure dialogue with short follow-up narration, which matches competence-collision scene needs.",
+        "v4b.md:317-389 appropriately drops dialogue density during the attack, then restores spoken pressure as soon as bodies have room to speak.",
+        "Action beats mostly land after dialogue or as hinges into the next line; I did not find any mid-line beat clutter severe enough to rewrite."
+      ],
+      "violations": 1,
+      "fixes": []
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "v4b.md:11-31 keeps Jaina's attention on magical pressure, confiscated notes, and whether anyone is finally listening, which matches her perception priorities.",
+        "v4b.md:81-99 shows her thought pattern correctly: observation -> institutional obstacle -> conclusion about delay and consequence.",
+        "v4b.md:259-273 is the chapter's clearest humility check; trimming the narration around it keeps the correction in Jaina's voice instead of an editor's gloss.",
+        "v4b.md:305-307 keeps Antonidas as confirmation and witness, not sentimental rescue, which fits her intellect-first emotional register.",
+        "Sylvanas's spoken voice at v4b.md:133-167, 243-277, and 427-437 remains clipped, dry, and rank-secure; her questions still function as tests or orders."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 267,
+          "rule": "perPOVCalibration.thoughtPatterns — self-rebuke was slightly over-explained",
+          "before": "Inadequate. She had come into this country ready to fight condescension and had brought her own with her.",
+          "after": "Inadequate. She had come into this country ready to fight condescension and had brought her own."
+        },
+        {
+          "line": 423,
+          "rule": "perPOVCalibration.expositionFilter — aftermath reflection leaned abstract after a physical diagnostic beat",
+          "before": "Silence followed. Not blank silence. The kind that meant each of them had already started fitting the answer to her own work.",
+          "after": "Silence followed. Not blank silence. The kind that meant each of them was already measuring what the answer changed."
+        }
+      ]
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Adverbs per page measured 1.55 after edits, comfortably under the hard cap of 4.",
+        "Rough passive-voice rate measured 1.14%, comfortably under the hard cap of 4%.",
+        "Show-vs-tell remains within floor expectations; key conclusions are earned through ward pressure, road evidence, and carcass reading before Jaina states them.",
+        "Filter-word sweep found only light, functional use; none of the chapter's sensory beats were leaning on repeated 'she noticed/she felt' scaffolding.",
+        "No change was needed here because the hard metrics already passed and the line-level edits did not degrade them."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration stays organic: magical explanation arrives because Sylvanas demands usable answers, not through narrator aside.",
+        "Power dynamics track correctly through sentence shape: Sylvanas gets shorter commands and clipped interruptions; Jaina lengthens when defending or explaining.",
+        "Scene shape is compliant across the chapter: hard-friction opening, road-read midpoint correction, infected-animal escalation, and an uneasy forward-pressure resolution at Millhaven.",
+        "Speculative elements are domesticated properly. Wards, leylines, and necromantic contamination read as working realities with tactical consequence, not spectacle.",
+        "Humor stays within policy: the dry beats at v4b.md:135-145 and 407-409 sharpen pressure without deflating horror, and the chapter lets humor thin as the plague evidence worsens."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — exact magical language stays readable and scene-bound; only one intentional early over-technical slip survives.",
+        "sentenceRhythm": "pass — longer reasoning chains puncture into blunt answers and fragments under pressure, consistent with her calibration.",
+        "metaphorDensity": "pass — low and controlled; images stay grounded in craft, pressure, and contamination.",
+        "emotionalRegister": "pass — feeling leaks through humiliation, urgency, and bodily strain rather than open labeling.",
+        "thoughtPatterns": "pass — she repeatedly moves from observation to pattern to hypothesis to correction.",
+        "sensorySignature": "pass — ward pressure, current, wrongness in air and ground, and bodily magical strain dominate her lane.",
+        "humorType": "pass — dry lines arrive as stress relief or irritation, never as quippy performance.",
+        "powerPosture": "pass — when blocked, she speeds up and over-explains; when she regains footing, the syntax clears.",
+        "speculativeComfort": "pass — magic is native craft to her, rendered as structure, pressure, and failure mode rather than awe.",
+        "expositionFilter": "pass — explanation stays tied to immediate consequence, with only minor abstractions tightened in this pass."
+      },
+      "ruleViolations": [
+        "v4b.md:211 had narrator-summary scaffolding around Jaina's read of ranger formation; trimmed.",
+        "v4b.md:241 originally used 'big convergence point' in spoken dialogue; replaced with more field-native phrasing.",
+        "v4b.md:267 over-explained Jaina's self-correction after Sylvanas checks her register; compressed.",
+        "v4b.md:275 editorial self-verdict after the correction beat was removed to keep the moment in-character."
+      ]
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 1.55,
+    "passiveVoicePercent": 1.14,
+    "dialogueToNarrationRatio": "23:77",
+    "avgSentenceLength": 9.11,
+    "avgParagraphLength": 20.27,
+    "metaphorsPerThousandWords": 0.63
+  },
+  "totalObservations": 40,
+  "totalFixes": 6,
+  "wordCount": {
+    "before": 4796,
+    "after": 4784
+  }
+}

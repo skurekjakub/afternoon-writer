@@ -1,0 +1,200 @@
+{
+  "chapterId": "chapter24",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "F7",
+      "severities": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": "For a few precious minutes, Sylvanas could see it for what it was: craft.",
+          "location": "line 208",
+          "pattern": "F3",
+          "issue": "temporal padding",
+          "word": "For a few precious minutes",
+          "deletionTest": "Sylvanas could see it for what it was: craft.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "Uther held the room.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "They were still restraints.",
+          "location": "line 132",
+          "pattern": "F4",
+          "whatItRestates": "The chains made less noise in chairs.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "The iron still bit when they sat.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Tonight was for witnesses in the hall and mages on the blade.",
+          "location": "line 462",
+          "pattern": "F7",
+          "locationType": "paragraph-final",
+          "couldEndEarlierAt": "Rescue would come later, if it came at all.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "Tonight was for witnesses in the hall and mages near the vault.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks like a field commander under constraint: fast inventories, pressure reads, route logic, and hard tactical shorthand. She notices signals in bodies, acoustics, temperature, and procedure. She does not usually step back into essay-grade thematic compression when immediate evidence is in front of her.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "dominantPattern": "A2",
+      "severities": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": "The law was one prison.",
+          "location": "line 120",
+          "tier": "B",
+          "pattern": "B2",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas is reading cell, vault, guards, and timing in concrete tactical terms; 'one prison' compresses the moment into thematic summary rather than an operational thought.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "The dungeon mattered less than the vault above.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Each answer true. Each answer laid down, another stone on a grave.",
+          "location": "line 216",
+          "tier": "A",
+          "pattern": "A2",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The paired fragments turn Uther's testimony into a sloganized caption instead of staying inside Sylvanas's immediate courtroom read.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "Each true answer tightened the case instead.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "dominantPattern": "P3",
+      "severities": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": "For a few precious minutes, Sylvanas could see it for what it was: craft.",
+          "location": "line 208",
+          "pattern": "P3",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The exact courtroom shift or visible sign that makes Uther's testimony read as 'craft' rather than simply momentary traction.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "reason": "P3. 'craft' is a placeholder noun that sounds incisive without naming the concrete change on the page.",
+          "suggestedFix": "Uther held the room.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "carrying each count and justification built from true premises turned rotten by sequence.",
+          "location": "line 298",
+          "pattern": "P4",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "Which count, which reordered fact-pattern, and what visible distortion Thornton is voicing in that moment.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "reason": "P4. The clause summarizes the verdict's falsity in prestige abstraction instead of naming the concrete mechanism already present in the scene.",
+          "suggestedFix": "reading each count in the same level voice while the chains tightened.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "I re-scanned the chapter's dialogue for explicit translation setups such as 'plainly', 'smaller words', 'short version', or 'what does that mean here?'. No exchange asks one speaker to restate specialist thought in plainer or street-level terms, so this guide had no valid candidates on this pass.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 9,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still has 7 mild findings across GPT-5 prose issues, narrator seep, and phantom concreteness. More than 3 mild-only kills fails the pass."
+  }
+}

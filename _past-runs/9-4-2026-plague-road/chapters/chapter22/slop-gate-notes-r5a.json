@@ -1,0 +1,95 @@
+{
+  "chapterId": "chapter22",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Reviewed the chapter's negation pivots and constraint lines. The examined cases were active binary diagnostics or concrete hard-constraint phrasing, not dead-weight contrast scaffolding.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 2,
+      "keeps": 5,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "inanimate-subject compression",
+      "findings": [
+        {
+          "line": "The weakness lived in the turn itself, the instant when the blade had to be both things at once.",
+          "subject": "The weakness",
+          "verb": "lived",
+          "realAgent": "The oscillation point in Frostmourne's turn between consuming and radiating phases",
+          "pattern": "p5-p6-sweep-inanimate-life-verb",
+          "severity": "mild",
+          "reason": "The extra P5/P6 sweep found an inanimate subject carrying a life verb where the sentence could name the weakness's location directly.",
+          "suggestedFix": "The weakness was in the turn itself, the instant when the blade had to be both things at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "That is all the kingdom will permit them to say aloud.",
+          "subject": "the kingdom",
+          "verb": "permit",
+          "realAgent": "The courtiers and palace authorities restricting what Antonidas's magi can say openly",
+          "pattern": "pattern-4-institutional-command-verb",
+          "severity": "mild",
+          "reason": "An institutional abstraction is carrying a command verb that belongs to specific people controlling speech at court.",
+          "suggestedFix": "That is all the courtiers there will let them say aloud.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Counted the chapter's recurring tic patterns: one corner-of-mouth beat, two tightened beats, and no cap-breaking marked, shifted, gaze, weight, or dialogue-tag clusters. No tic exceeded its chapter cap.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 12,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 1,
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A found 2 mild intent-smear kills and no moderate or severe kills. The chapter stays within the pass threshold."
+  }
+}

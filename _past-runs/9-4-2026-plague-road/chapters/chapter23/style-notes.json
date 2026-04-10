@@ -1,0 +1,119 @@
+{
+  "chapterId": "chapter23",
+  "inputWarnings": [
+    "config.json priming.styleTarget is a placeholder string, not a readable path",
+    "story-arc.md points to stories/the-plague-road/prose-sample.md, but that file is missing",
+    "Used story-arc tonal guidance plus .afternoon/style-guide.json as the operative style target"
+  ],
+  "checks": {
+    "voice": {
+      "violations": 2,
+      "fixed": 2,
+      "examples": [
+        "Opening carry tightened so the chapter sounds like an immediate continuation instead of a fresh setup.",
+        "Guard-entry evidence profile grounded back into Jaina's body instead of drifting toward report-summary phrasing."
+      ],
+      "observations": [
+        "The revised opening now lands on the latch and the dark, which matches the lean thriller cadence established in chapter22.",
+        "Sylvanas's corridor dialogue stays clipped, aristocratic, and useful; no line drifts into generic stoic bark.",
+        "Jaina's spell language remains embodied and arcane rather than modern-scientific, especially in the seam-work passages.",
+        "The guard-arrival description was the one place where the prose nearly sounded like a room inventory; it is now re-anchored to Jaina's immediate awareness.",
+        "Uther's speech remains veteran-plain and pressure-driven, which fits both his memory profile and the style guide's dialogue standards."
+      ]
+    },
+    "pointOfView": {
+      "violations": 0,
+      "fixed": 0,
+      "examples": [],
+      "observations": [
+        "The service-corridor opening stays inside smell, cold, and bread-taste; there is no neutral camera hovering above the pair.",
+        "Uther is rendered through visible details only: plate, travel dirt, face lines, jaw work, voice. No interior access slips in.",
+        "Arthas remains unreadable except through movement, remembered body, and the visible wrongness Frostmourne imposes on him.",
+        "The aftermath verdict paragraph reads as Jaina assessing what the guards will see, not as a narrator explaining the legal consequences from outside the scene.",
+        "The soul-echo section works as lived psychic impact rather than lore annotation; the prose stays with what hits Jaina's body and memory."
+      ]
+    },
+    "memory": {
+      "violations": 1,
+      "fixed": 1,
+      "examples": [
+        "Cross-chapter threshold replay trimmed: chapter22 already ended on the service-door entry, so chapter23 now starts after the latch settles."
+      ],
+      "observations": [
+        "Bread-taste is treated as established chapter22 residue, not rediscovered from zero.",
+        "Cyndia's protective role appears through placement and brief commands, matching the chapter22 protective-shell memory profile.",
+        "Uther remains a blocked but still-moving late actor, which matches both prior chapter reporting and his memory file.",
+        "The anti-blade framework enters as known choreography rather than fresh exposition, preserving the seam-work continuity from chapter22.",
+        "Arthas is still prince-shaped but unreachable, which matches the chapter21 and chapter22 relationship state carried into this room."
+      ]
+    },
+    "rhythm": {
+      "violations": 1,
+      "fixed": 1,
+      "examples": [
+        "The threshold paragraph was split to keep the carryover clean and prevent the chapter from opening on one overloaded sentence."
+      ],
+      "observations": [
+        "The sentry-kill run uses short impact sentences on purpose; I checked it and left it alone because the staccato is doing work there.",
+        "The murder beat's fragment chain stays controlled and readable; it sharpens the room rather than flattening it.",
+        "The fight sequence alternates fragments with longer reorientation sentences often enough to keep combat geometry legible.",
+        "The aftermath uses one-line dread beats effectively, especially around the sword's twitch and the first guard reaction.",
+        "The only rhythm adjustment needed was at the chapter threshold, where the opening had started to carry too much weight in one breath."
+      ]
+    },
+    "continuity": {
+      "violations": 2,
+      "fixed": 2,
+      "examples": [
+        "Removed the chapter-opening replay of the service-door breach so chapter23 now truly carries forward from chapter22.",
+        "Softened Uther's defense of the protagonists so he speaks from visible evidence and report, not from impossible eyewitness certainty."
+      ],
+      "crossChapter": "Direct carry from chapter22 preserved; chapter now opens after the latch rather than replaying the same threshold beat.",
+      "observations": [
+        "Service passage -> sentry hall -> Uther crossing -> final door -> throne room remains spatially clear all the way through scene 1 and 2.",
+        "The fight handoff from broken seam to Sylvanas's kill shot is causal and immediate; no beat evaporates between spell success and the arrow.",
+        "The aftermath correctly preserves the imperfect win: Arthas dead, Terenas dead, Frostmourne still active, evidence profile catastrophic.",
+        "Uther arrives late enough to matter morally but not legally, which keeps the plan's handoff rule intact.",
+        "The closing custody descent points cleanly toward chapter24's cells-and-tribunal opening state."
+      ]
+    },
+    "finalPass": {
+      "violations": 1,
+      "fixed": 1,
+      "examples": [
+        "A slightly authorial summary line about the dead inside the kingdom's habits was tightened into a more immediate living-versus-dead contrast."
+      ],
+      "observations": [
+        "I re-checked the service-corridor opening for throat-clearing and kept only the details doing immediate stealth and dread work.",
+        "Attribution around Sylvanas and Uther is already restrained; no extra explanatory tags needed cutting there.",
+        "The guard-arrival evidence list is the chapter's one deliberate verdict-stack; because it is singular, it reads as force rather than pattern fatigue.",
+        "Emotional beats are carried mostly through pain, cold, blood, stance, and failure of breath; the chapter avoids overt naming more often than not.",
+        "The one summary sentence that leaned authorial was corrected; the rest of the prose was already notably clean by final-pass standards."
+      ]
+    },
+    "dialogueRegister": {
+      "violations": 0,
+      "fixed": 0,
+      "examples": [],
+      "observations": [
+        "Jaina's spoken spell logic stays plain enough for the room and never slides into bureaucratic or lab-report jargon.",
+        "Sylvanas's commands remain clean field language with no institutional sludge.",
+        "Uther speaks in blunt veteran prose, not sermon, memo, or tribunal formalism.",
+        "No quoted line uses hitlist offenders such as vector, actionable, optimal, diagnostic network, or ingested.",
+        "The one technical phrase I re-tested was 'containment spell'; in context it reads as living magical craft, not report language, so it stays."
+      ]
+    }
+  },
+  "metaAudit": {
+    "sectionsReread": [
+      "the chapter threshold after chapter22's service-door handoff",
+      "the guard-arrival evidence paragraph",
+      "the Uther-versus-captain exchange in the aftermath"
+    ],
+    "result": "The chapter was already strong. The real risk was not broad slop but a few tiny slips toward reset, summary, and late-witness over-certainty."
+  },
+  "wordCount": {
+    "before": 5155,
+    "after": 5114
+  }
+}

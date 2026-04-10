@@ -1,0 +1,159 @@
+{
+  "chapterId": "chapter21",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severityMarkers": [
+        "mild"
+      ],
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "pattern": "F3",
+          "failureMode": "Filter/Hedge Drag",
+          "line": "Muradin Bronzebeard might have been cut from the camp itself.",
+          "word": "might have",
+          "deletionTest": "Muradin Bronzebeard was cut from the camp itself.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks in tactical, field-ready compression. She notices terrain, spacing, injuries, discipline, and exploitable change first, and her interior shorthand stays tied to visible evidence rather than essayistic maxims.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 3,
+      "kills": 2,
+      "keeps": 1,
+      "severityMarkers": [
+        "mild",
+        "mild"
+      ],
+      "dominantPattern": "mixed",
+      "findings": [
+        {
+          "pattern": "A7",
+          "line": "In Northrend, the cold was absolute.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence zooms out into a place-wide maxim instead of staying with Sylvanas's immediate bodily read of this ground and weather.",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2",
+          "line": "So had the delay between thought and deed.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can read readiness and speed, but this sentence names invisible processing latency from outside the body instead of from a visible carrier in the moment.",
+          "confidence": "MODERATE",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": [
+        "mild",
+        "mild"
+      ],
+      "dominantPattern": "mixed",
+      "findings": [
+        {
+          "pattern": "P2",
+          "line": "So had the delay between thought and deed.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The specific visible readiness, stance change, or motion cue that would let Sylvanas cash out this conclusion on the page.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "reason": "P2 tactical-prestige compression: it sounds incisive but dodges the concrete carrier that would prove the read.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "line": "The threshold had been built for the dead.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The named ward effect or physical sign at the cave mouth beyond a thematic statement about who the place is for.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "reason": "P4 unanchored interpretive summary: the line reaches for gravitas instead of naming the observable mechanism.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Audited the only explicit simplification setup: \"Speak dwarf.\" -> \"The sword was forged by the same craft that made the plague.\" The reply names the object, relation, and threat family cleanly enough that Muradin does not need a second translation pass."
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 6,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Five mild pass-B findings remain across GPT filter drag, narrator seep, and phantom concreteness; more than three mild-only kills still resolves to fail."
+  }
+}

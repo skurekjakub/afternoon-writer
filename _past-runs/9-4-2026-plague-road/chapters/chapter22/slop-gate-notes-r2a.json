@@ -1,0 +1,200 @@
+{
+  "chapterId": "chapter22",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "highestSeverity": "MILD",
+      "severityCounts": {
+        "MILD": 2,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "fragment-pivot / mundane-reveal chain",
+      "findings": [
+        {
+          "location": "v2-r2.md:183",
+          "line": "No title. No endearment. Only her name.",
+          "pattern": "8",
+          "deletionTest": "Only her name.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8 mundane-reveal chain; the negated scaffolding delays the only meaningful payload.",
+          "suggestedFix": "Only her name.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "location": "v2-r2.md:283",
+          "line": "No dramatic collapse. The moment she stopped feeding the sails, the spent strength hit all at once.",
+          "pattern": "2",
+          "deletionTest": "The moment she stopped feeding the sails, the spent strength hit all at once.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 2 fragment pivot; the first fragment is dead-weight staging before the real event.",
+          "suggestedFix": "The moment she stopped feeding the sails, the spent strength hit all at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "highestSeverity": "MILD",
+      "severityCounts": {
+        "MILD": 5,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "pattern 8 body-part agency",
+      "clusterFlags": [
+        "Jaina analytical narration shows 2+ body-part / inanimate-subject hits across lines 5, 83, and 209.",
+        "Sylvanas road section stacks 2 hits across lines 315 and 323."
+      ],
+      "repeatNouns": [
+        "fingers"
+      ],
+      "pattern4Alert": "no",
+      "secondSweepP5P6": {
+        "additionalCandidates": 2,
+        "additionalKills": 2,
+        "notes": "The dedicated inanimate-subject reread added line 209 and line 323."
+      },
+      "findings": [
+        {
+          "location": "v2-r2.md:5",
+          "line": "Now the yard opened in front of her and dwarven hands were coming fast over the trampled snow.",
+          "subject": "dwarven hands",
+          "verb": "were coming",
+          "realAgent": "the dwarves hurrying across the yard",
+          "pattern": "8",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8 body-part agency; the sentence lets hands move in place of the dwarves who are actually arriving.",
+          "suggestedFix": "Now the yard opened in front of her and dwarves were coming fast over the trampled snow.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "location": "v2-r2.md:83",
+          "line": "Her fingers wrote it in the air.",
+          "subject": "Her fingers",
+          "verb": "wrote",
+          "realAgent": "Jaina tracing the pattern in the air",
+          "pattern": "8",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8 body-part agency; replacing the fingers with Jaina preserves the meaning exactly.",
+          "suggestedFix": "She wrote it in the air.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "location": "v2-r2.md:209",
+          "line": "The sea had a way of eating magic even when it was not trying.",
+          "subject": "The sea",
+          "verb": "was not trying / eating",
+          "realAgent": "ambient sea conditions draining the sending-stone's magic",
+          "pattern": "5",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 5 object-wanting/refusing logic via the second-sweep physical-behavior check; the sentence gives the sea intentional resistance instead of naming the drain as mechanics.",
+          "suggestedFix": "The sea drained magic as a matter of course.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "location": "v2-r2.md:315",
+          "line": "The painted prince caught Jaina's eye.",
+          "subject": "The painted prince",
+          "verb": "caught",
+          "realAgent": "Jaina seeing the painted board",
+          "pattern": "8",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8 body-part / object agency; the sign is not acting on her body, she is seeing it.",
+          "suggestedFix": "Jaina saw the painted prince.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "location": "v2-r2.md:323",
+          "line": "Keeping silent sat badly in her mouth.",
+          "subject": "Keeping silent",
+          "verb": "sat badly",
+          "realAgent": "Sylvanas feeling the cost of withholding the warning",
+          "pattern": "7",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 7 absence/state given active bodily pressure; the discomfort belongs to Sylvanas, not to silence as an agent.",
+          "suggestedFix": "Keeping silent left bitterness in her mouth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "highestSeverity": null,
+      "severityCounts": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Hard-cap sweep stayed clean: 0 corner-of-mouth beats, 0 overloaded 'marked' verb uses, 1 emotional 'tightened' use, 0 facial 'shifted' beats, no over-cap emotional eye/gaze cluster, 0 abstract heaviness metaphors, and 1 performance tag ('snapped')."
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 6,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has more than 3 mild-only kills after iteration 2, driven by repeated body-part agency plus two remaining negation pivots."
+  }
+}

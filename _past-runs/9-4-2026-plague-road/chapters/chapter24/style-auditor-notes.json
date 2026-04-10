@@ -1,0 +1,199 @@
+{
+  "chapterId": "chapter24",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 1-19 open with a strong long/short braid: the 35.1% under-six-word sentence rate stays close to the two-fifths snap target, and the one-line beats ('The cold came up through the floor.' / 'Jaina's breathing.' / 'Alive.') earn emphasis through pressure rather than ornament.",
+        "Lines 51-59 vary the deposition cadence correctly: the longer recap sentence at line 51 is punctured by 'Slowed at Stratholme. Slowed again at Northrend.' so the clerk scene does not flatten into summary.",
+        "Lines 95-137 alternate clipped exchange and harder reflective sentences cleanly; 'It's looking.' / 'Real.' / 'The law was only one prison here.' shows the emphasis rule working without italics or explanation.",
+        "Lines 195-203 handle the exhibit reveal with proper horror rhythm: 'Cold rolled out first.' sets the hit, the middle sentence restores room geometry, and 'Not dead. Damaged.' closes with blunt tactical judgment.",
+        "Lines 520-573 keep the Lor'themar aftermath scene varied: the corridor report takes a fuller sentence, then the scene cuts back to 'Yes.' / 'Better.' / 'Go.' so Sylvanas still sounds pressure-tight."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Line 11 now reads 'a box had not solved,' which keeps the Frostmourne containment language concrete and contemptuous instead of abstract.",
+        "Line 173 originally drifted toward passive document-summary phrasing; 'Relay reports turned into preparation' now keeps Ashcombe's reframing active and in-scene instead of bureaucratic.",
+        "Lines 215-229 keep the palace mage in usable spoken language ('gets into people's heads,' 'rooms go cold,' 'rub their chests') rather than slipping into lab or memo diction.",
+        "Line 315 lets Antonidas sound formal without modern jargon: 'judge safely' and 'build a verdict around a weapon' fit an exhausted archmage speaking into court procedure.",
+        "Line 379 no longer says the sentence 'sounded administrative'; 'wanted to pass for procedure' keeps Sylvanas's judgment sharp and lived instead of meta-editorial."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 173,
+          "rule": "vocabularyStandards.baseline — avoid passive document-summary phrasing",
+          "before": "Relay reports were reread as preparation.",
+          "after": "Relay reports turned into preparation."
+        },
+        {
+          "line": 379,
+          "rule": "vocabularyStandards.avoid — cut process/document voice from narration",
+          "before": "The sentence sounded administrative because that was what they wanted: living prisoners, not dead martyrs.",
+          "after": "The sentence wanted to pass for procedure because that was what they wanted: living prisoners, not dead martyrs."
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorCompliance",
+      "observations": [
+        "The chapter's surviving image pool stays inside allowed domains: court procedure, bodily strain, weapon pressure, and cold under stone; I found no mixed-source or stacked metaphor chains.",
+        "Line 55's 'as if the page mattered more than whether the page was true' earns its place because it sharpens the clerk's priorities and stays in the courtroom domain.",
+        "Line 191's 'as if they were carrying a bier' is one of the few chapter-level set-piece images and clarifies status, dread, and room behavior in one stroke.",
+        "Line 219 keeps one spoken 'as if' in witness dialogue; it reads as ordinary testimony rather than ornamental simile and supports the court's fear response.",
+        "The chapter had seven 'as if' constructions on entry, breaking the anti-slop cap; I cut four weak scaffolds and left three load-bearing comparisons, taking the chapter from 7 to 3 without flattening the voice."
+      ],
+      "violations": 4,
+      "fixes": [
+        {
+          "line": 71,
+          "rule": "metaphorPolicy.forbidden / antiSlop simile overload — weak comparison scaffold",
+          "before": "The clerk glanced toward the masonry between the cells as if he might somehow see through it by looking hard enough.",
+          "after": "The clerk glanced toward the masonry between the cells, trying to stare through it."
+        },
+        {
+          "line": 147,
+          "rule": "perPOVCalibration + antiSlop simile overload — keep Jaina's visible strain external and concrete",
+          "before": "She moved too straight, every step placed as if disorder itself might spill her open.",
+          "after": "She moved too straight, every step one breath from spilling her open."
+        },
+        {
+          "line": 193,
+          "rule": "metaphorPolicy.rule — replace decorative comparison with concrete bodily effect",
+          "before": "Another kept swallowing before every breath, as if the air had turned rough inside his throat.",
+          "after": "Another kept swallowing before every breath, throat working against air that scraped on the way in."
+        },
+        {
+          "line": 235,
+          "rule": "metaphorPolicy.forbidden — remove weak interpretive scaffold",
+          "before": "One clerk rubbed his breastbone as if trying to settle a sudden chill inside it.",
+          "after": "One clerk rubbed his breastbone, trying to settle a sudden chill inside it."
+        }
+      ]
+    },
+    {
+      "dimension": "paragraphStructureAndTransitions",
+      "observations": [
+        "Average paragraph length sits at 17.67 words, and the longest paragraph stays under the 120-word / 5-6 sentence ceiling, so the chapter fits the 1-4 sentence cadence spec.",
+        "Lines 1-19 obey the scene-balance rule: after the denser room inventory at lines 3-13, the prose returns immediately to Jaina's breathing and then to the clerk's entrance.",
+        "The trial sequence avoids visual brickwork by alternating one-line hits ('The vault was there.' / 'Only the center was occupied.') with fuller procedural paragraphs.",
+        "Transitions mostly move by consequence, not clock time: statement -> blade clock -> tribunal frame -> exhibit -> verdict -> cell countdown -> Lor'themar arrival all carry pressure forward.",
+        "The two explicit time markers ('Hours later' at line 139 and the kitchen-smell bridge at line 441) are clarity anchors rather than lazy drift; I checked them against the transition spec and left them because the chapter would lose procedural legibility without them."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "dialogueRatioAndAttribution",
+      "observations": [
+        "Quoted-word measurement lands around 14:86 dialogue-to-narration, below the global 45:55 target; I logged this as a scene-type discrepancy rather than a fix because imprisonment/tribunal/aftermath material naturally skews narration-heavy and the no-add-content rule forbids padding dialogue just to hit a number.",
+        "Attribution is clean: 24 no-frills said/asked/replied tags versus 1 creative tag, which keeps the attributed-line mix safely inside the style guide's plain-tag preference.",
+        "Lines 213-229 use the preferred action-hinge pattern: Ashcombe's question, the mage's answer, and Jaina's visible reaction all hand off through posture and room pressure instead of ornate tags.",
+        "The Sylvanas/Jaina wall exchanges at lines 91-129 and 397-437 work with sparse tagging and clean two-speaker clarity; no speaker-tracking failures surfaced.",
+        "Lor'themar's late scene keeps power in the spoken lines without over-tagging: posture, corridor access, and the wrist-grip do the attribution work the guide wants action beats to do."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Lines 3-13 stay fully Sylvanas-filtered: she maps paces, restraints, grate placement, torch quality, and guard behavior before she names emotion.",
+        "Lines 141-147 keep Jaina external-only; the revised stair beat now reads as visible bodily strain rather than narrated interior diagnosis, which matches the limited-third absolute rule.",
+        "Lines 171-178 show Sylvanas watching Thornton instead of Ashcombe once the legal machine is running, which fits her threat/authority-first thought pattern.",
+        "Lines 231-233 let Sylvanas read Jaina through locked hands, sweat, and the wish for a bowstring, not through translated sympathy monologue.",
+        "Lines 451-538 render Lor'themar through road dust, corridor leverage, bruise count, and field shorthand; the reunion sounds like Sylvanas reading a surviving ally, not an auditor narrating feelings."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Adverbs land at 46 total, or roughly 2.3 per 250-word page, which stays under the max 4 per page floor.",
+        "Passive voice measures at 3.74% by sentence-level heuristic, which stays just under the 4% ceiling; I checked the flagged passives and found no high-signal need for further cuts.",
+        "Filter words remain sparse and mostly load-bearing: line 85's 'She saw it land' and line 532's 'he saw her react' both mark tactical reads rather than generic sensory padding.",
+        "The chapter maintains the showing-to-telling floor: even the verdict paragraph at lines 377-381 uses telling only to compress legal procedure before the prose returns to chains, bodies, and cold.",
+        "Hard-limit checks passed after revision: as-if count is now 3, like count is 1, said/asked/replied dominates attribution, and no passive/adverb fix was needed to make the chapter specification-compliant."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration passes: lines 11-13, 215-219, and 470-478 deliver Frostmourne mechanics through live custody pressure, witness testimony, and Lor'themar's arrival rather than detached narrator aside.",
+        "Power dynamics pass cleanly in the tribunal: Ashcombe controls interruption and frame with short declaratives, while Uther and Antonidas are forced into longer, more defensive clauses exactly as the guide prescribes.",
+        "Scene shape also passes: the chapter opens in-medias-res inside the cells, pivots hard when Frostmourne enters the courtroom, then resolves on uneasy operational pressure rather than emotional closure.",
+        "Speculative integration matches the domestication rule. Frostmourne is never treated as decorative wonder; every mention cashes out as cold, breach risk, ward failure, or targeting behavior.",
+        "Subtext density is strong in the Vereesa and Lor'themar scenes: the official topic is procedure and witnesses, while the actual exchange carries abandonment, family fracture, and late-arrival guilt under the surface.",
+        "Action pacing is used sparingly and correctly; fragments cluster only around the sword reveal, the verdict, and Jaina's counting beats, so the chapter does not fake action rhythm where the scene is really legal pressure.",
+        "Humor obeys the horror curve. The chapter permits only dry remnants ('Humans improve once condemned women become someone else's problem') and never lets wit undercut atrocity or prison pressure."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "metaAudit",
+      "observations": [
+        "I re-read lines 188-237 after the simile cuts. The exhibit scene still sounds like Sylvanas observing a room under weapon-pressure, not like an auditor sanding the prose flat.",
+        "I re-read lines 372-381 after the line 379 rewrite. The verdict still lands as institutional violence first; the new wording sharpens POV and does not dilute the procedural ugliness.",
+        "I re-read lines 447-573 after the Lor'themar pass. The late-arrival scene keeps its exhausted dryness, and none of the compliance edits pushed it into sentimental explanation."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Sylvanas Windrunner",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — lines 3-13, 77, 137, 379, and 451-538 stay lean, martial, and court-aware without modern jargon or generic fantasy filler.",
+        "sentenceRhythm": "pass — short declaratives dominate, but the prose widens at lines 171-178 and 468-482 when Sylvanas is stacking institutional consequence before snapping back to blunt judgment.",
+        "metaphorDensity": "pass — low density overall; surviving images come from prison, court, weapon, road, and body-strain domains rather than ornamental lyricism.",
+        "emotionalRegister": "pass — anger, abandonment, and relief arrive as sharpened observation, order, or withheld reaction, not direct naming.",
+        "thoughtPatterns": "pass — threat assessment -> capability judgment -> decision remains intact in the cell inventory, courtroom read, blade timing, and Lor'themar handoff.",
+        "sensorySignature": "pass — she notices cold, gait, chain weight, corridor control, sightlines, bruise count, and the physical spread of danger before social framing.",
+        "humorType": "pass — dry contempt survives in clipped flashes only; no quippy riffing or authorial wink entered the chapter.",
+        "powerPosture": "pass — when Sylvanas can seize ground she does it with short commands and questions; when boxed in, the syntax lengthens only enough to show what she is holding back.",
+        "speculativeComfort": "pass — Frostmourne is always translated into utility, breach risk, and targeting behavior rather than mystical awe.",
+        "expositionFilter": "pass — she never explains military logic to herself; she notices leverage, rank, guard posture, and whether magic changes the tactical board."
+      },
+      "ruleViolations": []
+    },
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — Jaina's spoken lines ('It's looking.' / 'Days.' / 'Elven mages might feel it.' / 'Faster.') stay field-plain and pain-thinned, matching the chapter's external-only requirement.",
+        "sentenceRhythm": "pass — the chapter correctly strips her to short, exact lines under duress instead of giving her leisurely analytical clauses she cannot physically sustain here.",
+        "metaphorDensity": "pass — Jaina's lane remains almost image-free in this chapter, which fits exhaustion and keeps the external read hard and clean.",
+        "emotionalRegister": "pass — fear and overstrain show through locked hands, ragged breath, chain-tapping, and the failed laugh at line 435, not through overt self-labeling.",
+        "thoughtPatterns": "pass — even externally, she still moves from observation to model to warning: the blade is looking, the timetable is shorter, elven mages may corroborate it, the pace is getting faster.",
+        "sensorySignature": "pass — her scenes stay tied to cold, strain, ward pressure, and the bodily cost of hearing the blade through stone.",
+        "humorType": "pass — the one dry line ('That wasn't optimism.') lands as tired honesty rather than banter.",
+        "powerPosture": "pass — when physically outmatched she uses clipped analysis as shield; once reduced to the wall, the analysis still carries the operative fact.",
+        "speculativeComfort": "pass — she continues to treat the blade as structure, pressure, and timing rather than spectacle.",
+        "expositionFilter": "pass — even hurt, she offers only the tactically necessary translation another character can use."
+      },
+      "ruleViolations": []
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 2.3,
+    "passiveVoicePercent": 3.74,
+    "dialogueToNarrationRatio": "14:86 by quoted-word count; logged as scene-type discrepancy, not fixed",
+    "avgSentenceLength": 10.54,
+    "avgParagraphLength": 17.67,
+    "metaphorsPerThousandWords": 2.37
+  },
+  "totalObservations": 45,
+  "totalFixes": 6,
+  "wordCount": {
+    "before": 5078,
+    "after": 5070
+  }
+}

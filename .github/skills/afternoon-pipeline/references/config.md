@@ -29,6 +29,22 @@ The pipeline is configured via `.afternoon/config.json`. All agents read this fi
     ],
     "styleTarget": "stories/dramione/dramione-1-original.md"
   },
+  "agents": {
+    "grounder": {
+      "enabled": true
+    },
+    "groundingGate": {
+      "enabled": false,
+      "maxIterations": 3
+    },
+    "expander": {
+      "enabled": true
+    },
+    "slopGate": {
+      "enabled": true,
+      "maxIterations": 5
+    }
+  },
   "completionMarker": "===AFTERNOON DONE==="
 }
 ```
@@ -104,17 +120,27 @@ The orchestrator checks this field at bootstrap. If the field is missing from co
 ### `agents.grounder.enabled`
 **Type:** boolean (default: `true` if field or section absent)
 **Used by:** Orchestrator (dispatch gating)
-**Purpose:** When `false`, the orchestrator skips the grounder dispatch entirely and copies `v2.md → v2g.md` so the expander's (or style-editor's, if expander also disabled) input contract is satisfied. When `true`, the orchestrator dispatches the grounder between the slop-gate loop and the expander. On grounder failure after retry, the orchestrator degrades gracefully (`cp v2.md v2g.md`) rather than blocking the chapter.
+**Purpose:** When `false`, the orchestrator skips the grounder dispatch entirely, copies `v2.md → v2g.md`, skips the grounding-gate, and continues to the expander (or style-editor if expander is also disabled). When `true`, the orchestrator dispatches the grounder between the slop-gate loop and the grounding-gate/expander section. On grounder failure after retry, the orchestrator degrades gracefully (`cp v2.md v2g.md`) rather than blocking the chapter, and skips the grounding-gate for that chapter.
+
+### `agents.groundingGate.enabled`
+**Type:** boolean (default: `false` if field or section absent)
+**Used by:** Orchestrator (dispatch gating)
+**Purpose:** When `true`, the orchestrator dispatches the grounding-gate after the grounder and before the expander. The gate audits `v2g.md` against the shared grounding evaluation surface, can trigger a grounder revision loop, and only then passes the chapter onward. When `false`, grounded prose goes straight to the expander.
+
+### `agents.groundingGate.maxIterations`
+**Type:** integer (default: `3` if field absent)
+**Used by:** Orchestrator (revision loop termination)
+**Purpose:** Maximum number of grounder revision → grounding-gate re-audit cycles before the orchestrator promotes the latest grounded revision and continues with a warning. The initial grounding-gate policy is best-effort rather than hard-stop.
 
 ### `agents.slopGate.enabled`
 **Type:** boolean (default: `true` if field or section absent)
 **Used by:** Orchestrator (dispatch gating)
-**Purpose:** When `false`, the orchestrator skips the slop-gate dispatch entirely. The slophunter's `v2.md` passes through unchecked to the grounder (or expander if grounder disabled, or style-editor if both disabled). When `true`, the orchestrator dispatches the slop-gate after the slophunter and enters a revision loop if the gate fails.
+**Purpose:** When `false`, the orchestrator skips the slop-gate dispatch entirely. The slophunter's `v2.md` passes through unchecked to the grounder (or expander if grounder disabled, or style-editor if both disabled). When `true`, the orchestrator dispatches the slop-gate after the slophunter as two passes (`a` then `b`) and enters a revision loop if either pass fails.
 
 ### `agents.slopGate.maxIterations`
 **Type:** integer (default: `5` if field absent)
 **Used by:** Orchestrator (revision loop termination)
-**Purpose:** Maximum number of slophunter revision → slop-gate re-audit cycles before the orchestrator halts the pipeline as `"halted-flagged"`. Each iteration dispatches the slophunter in revision mode to fix gate findings, then re-dispatches the gate for re-audit. If the gate still fails after this many iterations, the chapter is considered unfixable and the pipeline stops.
+**Purpose:** Maximum number of slophunter revision → slop-gate A+B re-audit cycles before the orchestrator promotes the latest revision and continues with a warning. Each iteration dispatches the slophunter in revision mode to fix both pass note sets, then re-dispatches slop-gate pass A and pass B independently on the revised file. If either pass still fails after this many iterations, the chapter is treated as best-effort rather than unfixable.
 
 ### `completionMarker`
 **Type:** string

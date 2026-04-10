@@ -1,0 +1,360 @@
+# Chapter 15: The Prince
+
+South of Eastweald, the road showed the damage before Hearthglen came into view.
+
+A child's shoe lay half sunk in the mud where the ruts deepened. Northbound traffic kept grinding past: farm carts riding low, a hay wagon turned into a cradle for three old women, a man carrying one side of his handcart because the wheel had split and he was too tired to mend it. Children sat on sacks and watched riders go the wrong way.
+
+Eastweald still wore its ordinary face badly. Orchard rows climbed the low rises in black-limbed lines. Fruit shriveled where nobody had picked it.
+
+Ahead, ordinary farm traffic was gone from the road.
+
+Jaina rode in the middle, too straight in the saddle. Her gloves had gone pale across the knuckles. Once or twice her head turned a fraction toward the pressure under the ground and in the air. Cyndia held the left as she had all day, bow unstrung for speed but close to hand.
+
+Sylvanas kept her mare half a length forward-right, where she could watch the road, the wagons, the people, and Jaina's profile without seeming to choose.
+
+"They're still fleeing loaded," Jaina said over the wheel-noise. "That means the town held."
+
+"Long enough to fill a cart," Sylvanas said.
+
+From the last rise, Hearthglen came into view whole.
+
+Stone walls. Square towers. The chapel roof above the inner line. Stable sheds against the wall and a smithy chimney still breathing behind the west yard. It should have looked solid. Instead it looked worked over—gate stone black-scored, one western tower patched with fresh timber, smoke lifting from inside the walls and from the pyres outside them.
+
+The gate stood open to a choke of men, stretchers, priests, and farm carts stripped down to body-haulers. Bells were ringing again before the last peel had died.
+
+They were almost through when a woman on foot caught Jaina's stirrup leather.
+
+"My boy went in with the wall detail at dawn," she said. "If you're riding to the prince—"
+
+Her voice broke.
+
+"Which wall?" Jaina asked.
+
+"North. Near the chapel tower."
+
+Sylvanas leaned from the saddle. "Name."
+
+The woman blinked at her. "Tomas. Tomas Bell."
+
+Sylvanas fixed it in memory. "If he's alive, somebody saw him. Clear the way."
+
+The woman let go at once.
+
+They rode through the gate into heat, noise, and the thick working smell of priests and soldiers handling one body at a time.
+
+Holy fire had scored bright ugly lines into the gatehouse stone. The nearest yard had become triage: blankets thrown over mud, a horse trough dragged over as a wash basin, soldiers stripped to shirtsleeves despite the chill, priests on their knees with gold hands over men who had not yet decided whether they would stay men. Bodies lay on doors pulled from hinges. Two boys dragged straw toward the pyres. Farther in, the smithy yard had been turned into stacked wood and burn pits.
+
+The first stretcher passed them with a corporal on it, jaw tied shut with bandage cloth, one arm hanging down and knocking weakly against the boards. He was dead. The corpse hung too slack.
+
+The body jerked before the stretcher reached the fire.
+
+The priest shouted. The bearers dumped their end. The corporal came up fast and ugly, all shoulders and teeth, bandaged jaw working wetly around the gag. One bearer stumbled backward. The other jammed a knee into the corpse's chest and nearly lost his hand for it.
+
+Jaina was already turning in the saddle.
+
+Sylvanas was faster. She hit the mud with the bow half up, loosed, and pinned the corpse through the eye. The priest did the rest in one hard burst of Light that set hair, cloth, and ruined flesh alight together.
+
+By the time the body stopped moving, another cry had gone up beyond the tents. Another stretcher.
+
+"This is what held looks like here?" Sylvanas asked.
+
+Nobody answered.
+
+They left the horses with a stablehand who looked twelve and forty at once and moved deeper into town on foot. Closer to the southern field tents, people stopped jostling and cut straight from task to task.
+
+That was where they found Uther.
+
+He was kneeling between two treatment tents with a wounded soldier propped against his knee. His older hammer stood in the mud beside him within easy reach. Golden light ran from his scarred hands into the man's chest in slow, steady pulses. It was warm enough to feel through smoke and damp. The soldier's breath, which had been catching high and thin, eased under it.
+
+Uther looked up before the healing was finished. His gaze moved over them in order: Cyndia left, Jaina center, Sylvanas forward-right.
+
+Then the soldier under his hands breathed deep for the first time, and Uther let the Light go. He rose in one motion, big as an old campaign scar given shoulders.
+
+"Ranger-General," he said.
+
+"Lord Uther."
+
+He turned to Jaina. "Lady Proudmoore."
+
+"We need the prince."
+
+"You and everyone else." His voice had gravel in it. "Come."
+
+He led them between the tents fast enough that the rest of the triage ground blurred past.
+
+Men with fresh burns lay beside men with old bites. A paladin in Silver Hand colors slept sitting upright against a barrel because there was nowhere else to put him. Priests argued over oil, flame, and whether a family had been given enough time. Every few yards another stack of cut wood stood ready. Beyond the tent rows, the wall walk stayed manned.
+
+"How often?" Sylvanas asked.
+
+Uther answered the question behind it. "Often enough that we stopped using clocks. If a body lies unburned longer than a prayer and a half, someone stays with it."
+
+"And the dead outside?"
+
+"Worse. When the line breaks them fast enough, they stay down. When the line thins, fresh bodies start rising again."
+
+Jaina pushed hair back with the heel of one hand. "Kel'Thuzad is dead."
+
+Uther turned to her. "Yes. So I was told."
+
+"They're still rising."
+
+"I had noticed."
+
+They passed a wagon being unloaded: bandages, lamp oil, sacks of grain someone had the sense to leave untouched until a priest could bless or burn them.
+
+"The town held because the defenders never stopped killing their own dead," Uther said. "Then Arthas arrived and the walls held another hour. Then more of the dead started rising at once. We are still having that argument."
+
+The command tents had gone up in the lee of the south wall. Falric stood outside the central pavilion with two King's Guard men and a map slate under one arm, mud nearly to his knees. He looked worn to the limit.
+
+He checked Sylvanas, Jaina, and Uther in one sweep.
+
+"My lord's in conference," he said.
+
+"He can conference while hearing something useful," Uther said.
+
+Falric stepped aside at once.
+
+Before he opened the flap, Uther looked once at Sylvanas.
+
+"If you have a brake for him," he said quietly, "use it fast."
+
+"Does he still listen?" Sylvanas asked.
+
+Uther's mouth twitched once.
+
+"He hears," he said. "Listening is slower."
+
+Then he opened the flap.
+
+The command pavilion smelled of wet canvas, lamp fat, and men who had been awake too long. Maps weighted with daggers covered a trestle table. Chalk marks crossed road vellum. Relay strips lay stacked beside a horn cup gone untouched.
+
+Arthas stood over the campaign table with one gauntlet planted beside Stratholme.
+
+The plate on his left shoulder had been cracked and buckled, only strapped down to keep riding. Dried blood sat black in the scrollwork along the vambrace. Somebody had wiped his face clean and stopped there. Damp had darkened the seams overhead, but none of it seemed to touch him. The room around him was maps, chalk, knives, relay strips, two tired officers.
+
+He turned to them.
+
+"Ranger-General," he said. Then, after the briefest turn of the head: "Lady Proudmoore."
+
+Jaina's posture tightened by less than an inch.
+
+Arthas looked back to the map. "Report."
+
+Sylvanas stepped to the table.
+
+"The plague road is wider than you were told," she said. "Andorhal was the throat, not the end of it. The grain leaves there, moves on ordinary wagons, and keeps moving until somebody eats it. The dead it makes are bad enough alone and worse when the Cult has live hands nearby to turn them. Hearthglen proves the field can run hot without waiting for a necromancer over every corpse."
+
+Arthas tracked the road from Andorhal to Hearthglen with two fingers, then farther southeast.
+
+"How many days on the Stratholme routes?" he asked.
+
+"Too many already."
+
+"That is not a count."
+
+"It means the routes are already live."
+
+"Go on."
+
+She gave him the rest cleanly: dead villages, grain sellers, cult handling points, the countryside kept orderly enough to move plague and silence witnesses, the road into town, the bodies turning inside the line.
+
+Falric set his slate down at the corner of the table without taking his eyes off the prince.
+
+When Sylvanas finished, Jaina stepped in without waiting to be invited. One finger tracked the chalked road marks while she spoke, from Andorhal through Hearthglen and on toward Stratholme.
+
+"The grain is only the shell," she said. Her voice came out quick and built. "It survives transport, storage, baking. People keep eating it. The body does the rest from there. By the time the symptoms read clearly, death is only the last turn. The wards cities trust are built for force coming in from outside. This reaches the table before it reaches the gate."
+
+Arthas looked up from the map to her face for the first time.
+
+"And Kel'Thuzad?"
+
+"Dead."
+
+"You sound dissatisfied by the fact."
+
+"I am dissatisfied by how little it improved."
+
+"There is more," Jaina said. "He was not building this for Lordaeron alone. There's a chain above him. Northrend. The Lich King. A larger war behind the plague."
+
+One officer swore under his breath.
+
+Arthas tapped Stratholme once with the back of his knuckle.
+
+"Then the larger war can wait its turn," he said. "Stratholme is next."
+
+Uther had taken position near the rear pole with the older hammer in his hand. "That is exactly how a larger war arrives," he said.
+
+Arthas did not turn. "And exactly how smaller men lose cities while naming it."
+
+The officer nearest the flap kept his attention on his boots.
+
+Jaina ignored the exchange. She dragged one of the map knives aside and flattened her hand over the northeastern quarter of the city.
+
+"There may still be one shot at the grain," she said.
+
+Arthas's head came up. Falric leaned in despite himself. Even Uther's grip altered on the hammer haft.
+
+"Speak," Arthas said.
+
+Jaina began cutting the city apart with one finger.
+
+"Granaries if any stock is intact. Bakehouses. Warehouse lanes where flour is stacked before it moves. If I can break enough of the outer shell before it disappears into bodies, I might keep the next wave from starting."
+
+"Break how?" Arthas asked.
+
+"Cold first. Fire if forced."
+
+"You would burn grain in a city already starving," the officer by the flap said before he could stop himself.
+
+Jaina turned toward him.
+
+"I would choose sacks over citizens if the clock still gave me the choice."
+
+Outside the pavilion someone shouted for fresh oil. Inside it, nobody spoke.
+
+Arthas looked down at the map again. The leather at his knuckles rasped once over the vellum. He tracked the roads, the quarter marks, the relay strips, one finger shifting from district to district.
+
+"How much of a head start?" he asked.
+
+Jaina gave the answer flat.
+
+"Hours matter. The city may already be too far in. I don't know until I see the stock."
+
+"You want me to halt for a maybe."
+
+"I want you to let one useful attempt leave this tent before you bury it under boots."
+
+Falric checked Jaina, then Arthas. He had heard men speak to the prince in many tones. Even Falric took a second look.
+
+Uther pushed off the pole and came forward a step. His thumb had gone white against the old leather wrap of the hammer.
+
+"She isn't asking for your halt," he said. "She's asking for a lane."
+
+Arthas turned then, not to Jaina but to him.
+
+"And if her lane fails?"
+
+"Then you lose nothing you were not already willing to spend," Uther said. "If it succeeds, you arrive before the grain reaches every quarter."
+
+Arthas looked at Jaina again. The title he'd chosen for her was still in the room between them like a knife left out on purpose.
+
+"Lady Proudmoore rides ahead," he said at last. "Captain Cyndia with her. Falric, clear the north-east lane and have quartermasters throw them fresh horses from the reserve tack. Route packet, store maps, signal priority on every relay between here and Stratholme."
+
+Falric moved before the sentence had finished.
+
+Arthas turned to Sylvanas.
+
+"Ranger-General, your speed is useful in either column. Ride with me and clear the road ahead of the main body. Ride with her and buy the attempt every minute you can. I do not care which, so long as neither lane slows for want of discipline."
+
+He left the choice to her.
+
+Sylvanas looked at the map, at Jaina's hand still braced over the quarter she had marked, at Uther standing rigid behind the prince.
+
+The memory of Scholomance stayed at the edge of her mind. Jaina was already trying to ruin it.
+
+"If she can still cut the feed points," Sylvanas said, "she'll need something faster than faith behind her."
+
+Jaina met her for one beat, then bent over the table again. No thanks. No relief. Only a harder line to the mouth.
+
+Arthas gave a single curt nod. "Then ride."
+
+He turned away in the same motion and snapped three orders at once. Officers began moving before all three were finished. Uther stayed where he was, watching the officers move.
+
+As Sylvanas turned to leave, Arthas said, "One more thing."
+
+She stopped.
+
+He had not lifted his eyes from the map. "If the city is already gone, I want that answer brought to me cleanly. Say it plain."
+
+"I don't dress failure for company," she said.
+
+"Good," he said.
+They stepped back out into the camp and were swallowed by motion.
+
+Stable boys ran tack from chest to mounting line. Quartermasters shouted over one another. A clerk pinned relay strips under a table knife because the wax would not hold in the damp. Fresh reins lay over an open tack box, leather still stiff where they had not yet been broken by a hand. Mud, trampled straw, and smoke had worked themselves into one camp smell.
+
+Uther came with them as far as the horse line.
+
+"The outer lane is yours," he told the nearest quartermaster. "If the main column blocks it, you move the main column."
+
+The man started to answer, saw who had spoken, and nodded.
+
+Uther turned to Jaina then, properly, for the first time since the tent.
+
+"If the door is there," he said, "take it before he reaches the wall and decides doors are for other people."
+
+Jaina gave him the smallest bow Sylvanas had ever seen pass for gratitude. "I will."
+
+He turned to Sylvanas. "And if the door isn't there."
+
+"We'll know quickly," Sylvanas said.
+
+"Quickly is all the day is giving anyone."
+
+He left them then, broad back already angling toward the triage ground again, hammer at his side and the Light waiting in his hands for the next wounded man.
+
+Cyndia came in from the left carrying the packet case and three relay tabs.
+
+"Horses are ready," she said. Then, lower: "Ranger-General."
+
+Sylvanas turned. Cyndia was looking at one of the quartermaster tables.
+
+An aide stood there helping sort route strips by district and gate mark, in plain campaign wool with dark hair damp at the temples and mud on the hem, easy to miss in the rush.
+
+He pressed a packet flat beneath the knife, said something to the boy beside him, then passed the boy another strip.
+
+When the boy took it, the aide said, clear enough to carry through the shouting:
+
+"May the stars keep your road."
+
+Cyndia's head had already turned before the words ended. Once right. Once right again, harder.
+
+"Fourth time," she said.
+
+Sylvanas looked at the aide's left hand as he reached for another strip. A ring sat there, dark as wet stone, swallowing lamplight instead of catching it.
+
+Then someone slammed a tack chest shut between them, a horse bit at the air, Falric shouted for the lane to clear, and the aide became one more moving body in the crush of necessary work.
+
+"Hold it," Sylvanas said.
+
+"Yes, ma'am."
+
+Jaina was already at the horses.
+
+They had been given the best of the reserve string: hard-chested field mounts with clean legs and disciplined eyes. Foam had dried white at one gelding's bit from an earlier run, but he stood quiet under Cyndia's hand.
+
+Jaina had a foot in the stirrup when Sylvanas reached her. Up close the strain showed harder. Use.
+
+"What do you need from me first?" Sylvanas asked.
+
+Jaina swung up. "Speed."
+
+"After that?"
+
+Jaina gathered the reins, eyes on the lane opening through the camp. "Anything between me and the stock."
+
+Sylvanas mounted.
+
+By the time her mare settled under her, the main column had begun to form beyond the outer tents. Infantry standards lifted through the smoke. Mounted officers were already moving before Arthas reached the line. Dust had started rising behind the first ranks.
+
+Cyndia took the left without asking.
+
+Jaina looked once over her shoulder toward the forming column, once toward the road southeast, then snapped the reins and sent her horse through the lane Uther had forced open for them.
+
+They broke from the camp in a three-rider line and hit the road at speed.
+
+The packet case thumped once against Cyndia's saddle.
+
+The wind tore the first shouted words apart, but Sylvanas caught enough.
+
+"North stores first if they still have them—"
+
+"Service gate if the market's choking—" Cyndia said.
+
+"And if the grain's already broken up," Jaina called back, "we go where the bread's moving."
+
+Behind them the main column gathered itself into thunder. Ahead, the Stratholme road ran between drainage ditches, winter-cut fields, and the long low barns that fed market carts north when the world still obeyed the season.
+
+Jaina leaned lower over the horse's neck and drove for distance. Cyndia matched her on the left. Sylvanas settled on the right, where the road shoulder opened toward orchard lanes and trouble usually showed first.
+
+Three horses stretched into a faster line. Dust rose behind the army. Smoke held low over the south country, flattening the distance between one fed city and the next.

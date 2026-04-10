@@ -1,0 +1,191 @@
+{
+  "chapterId": "chapter19",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "pattern": "F4",
+          "line": "That mattered.",
+          "whatItRestates": "Jaina had come out with papers in both hands before she touched the food beside the fire.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "line": "Enough that Vereesa had to tilt her head back a little.",
+          "word": "a little",
+          "deletionTest": "Enough that Vereesa had to tilt her head back.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "Enough that Vereesa had to tilt her head back.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "line": "Good. Better a clean wound.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Vereesa dipped her chin once, hard, then raised it again. Whatever she'd wanted from that answer, it was not there.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "line": "It was enough.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "That was all Sylvanas could know.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "line": "Jaina after that, a little slower through saddle soreness but with no wasted motion, already falling into the place the formation had made for her long ago and only now chosen aloud.",
+          "word": "a little",
+          "deletionTest": "Jaina after that, slower through saddle soreness but with no wasted motion, already falling into the place the formation had made for her long ago and only now chosen aloud.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina after that, slower through saddle soreness but with no wasted motion, already falling into the place the formation had made for her long ago and only now chosen aloud.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A2",
+      "findings": [
+        {
+          "pattern": "A2",
+          "tier": "A",
+          "line": "Family in the face. Institution in the kit.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The thesis-fragment pair captions Vereesa with abstract labels instead of staying inside Sylvanas's immediate read of the concrete details.",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "line": "The answer had not.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the source or northbound lead the investigation is actually following",
+          "reason": "Placeholder-noun stand-in: the sentence refuses to name the thing that did not go south.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "The source had not.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No translation setup appears in the chapter: nobody asks for plainer, shorter, street-level, or otherwise simplified speech, so the guide found no candidate exchange to audit.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 9,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Seven mild pass-B kills remain across three guides, which exceeds the pass threshold of three mild-only findings."
+  }
+}

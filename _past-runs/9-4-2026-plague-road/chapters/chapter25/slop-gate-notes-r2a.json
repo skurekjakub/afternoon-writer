@@ -1,0 +1,117 @@
+{
+  "chapterId": "chapter25",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 2,
+      "kills": 1,
+      "keeps": 1,
+      "dominantPattern": "pattern-1-direct-contrast-pivot",
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "line": "The pace had shortened within minutes, not hours.",
+          "pattern": "1",
+          "deletionTest": "The pace had shortened within minutes.",
+          "verdict": "KILL",
+          "reason": "Pattern 1 direct contrast pivot; the negative half is removable scaffolding because the sentence still carries the timing change once it starts at 'within minutes.'",
+          "severity": "mild",
+          "suggestedFix": "The pace had shortened within minutes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 3,
+      "kills": 2,
+      "keeps": 1,
+      "dominantPattern": "pattern-5-abstractions-and-routes-carrying-action",
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": false,
+      "findings": [
+        {
+          "line": "So did the danger upstairs.",
+          "pattern": "pattern-5",
+          "subject": "danger",
+          "verb": "carried",
+          "realAgent": "Jaina's plain words through the wall carried the warning about Frostmourne.",
+          "verdict": "KILL",
+          "reason": "Pattern 5: the sentence launders the warning onto an abstraction instead of naming the words or report that are doing the carrying.",
+          "severity": "mild",
+          "suggestedFix": "So did the warning about what waited upstairs.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Every helpful stranger, every contact with just the right piece, every road pointed half a degree in the useful direction—",
+          "pattern": "pattern-1",
+          "subject": "road",
+          "verb": "pointed",
+          "realAgent": "The disguised operative kept steering the investigation through curated contacts, warnings, and route nudges.",
+          "verdict": "KILL",
+          "reason": "Pattern 1: geography is carrying deliberate directional pressure that belongs to the infiltrator's manipulation.",
+          "severity": "mild",
+          "suggestedFix": "Every helpful stranger, every contact with just the right piece, every route had been steered half a degree in the useful direction—",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "dominantPattern": "within-cap-physical-and-weight-beats",
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "Counted the chapter-level tic caps directly: 1 corner-of-mouth beat, 2 weight/heaviness metaphors, 1 tightened, 1 eased, 0 marked uses, 0 facial-expression 'shifted' beats, no overloaded gaze cluster, and no excess non-'said' performance tags. Nothing exceeds the guide caps, so the chapter stays clean on frequency.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 7,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A clears with warnings: three mild sentence-level issues remain (one negation pivot, two intent-smear lines), all with cross-checked drop-in fixes and no moderate/severe kills."
+  }
+}

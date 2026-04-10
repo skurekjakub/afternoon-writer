@@ -1,0 +1,222 @@
+{
+  "chapterId": "chapter22",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "severityMarkers": ["MILD"],
+      "dominantPattern": "F7",
+      "failureModeCounts": {
+        "F1": 0,
+        "F2": 0,
+        "F3": 0,
+        "F4": 1,
+        "F5": 0,
+        "F6": 1,
+        "F7": 3
+      },
+      "findings": [
+        {
+          "location": "v2-r5.md:97",
+          "line": "Disgust alone proved nothing.",
+          "pattern": "F7",
+          "issue": "paragraph-final emotional summary",
+          "severity": "MILD",
+          "couldEndEarlierAt": "So had she.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r5.md:309",
+          "line": "That made Sylvanas angrier.",
+          "pattern": "F4",
+          "issue": "narrative over-translation",
+          "whatItRestates": "Jaina's head turning away from the painted prince and the village celebration already convey the emotional effect.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r5.md:352",
+          "line": "Arthas had been home long enough to become decorations.",
+          "pattern": "F7",
+          "issue": "paragraph-final interpretive closure",
+          "severity": "MILD",
+          "couldEndEarlierAt": "A baker came out her door shaking flour from her apron.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r5.md:402",
+          "line": "Jaina governed every measure now.",
+          "pattern": "F6",
+          "issue": "thesis opening / inventory setup",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r5.md:398",
+          "line": "What mattered was the palace.",
+          "pattern": "F7",
+          "issue": "paragraph-final thematic closure",
+          "severity": "MILD",
+          "couldEndEarlierAt": "Better that way.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": ["MILD"],
+      "dominantPattern": "B-register-mismatch",
+      "registerSummary": {
+        "jaina": "Jaina's lane here is analytical but bodily stressed. She notices magical rhythm, physical pain, and concrete tactical implications; she does not usually narrate polished motive-reading captions.",
+        "sylvanas": "Sylvanas thinks in field language: spacing, timing, cover, road math, and immediate costs. She is hard, compressed, and practical rather than scene-state abstract or theme-metaphorical."
+      },
+      "registerConfidence": "HIGH",
+      "findings": [
+        {
+          "location": "v2-r5.md:281",
+          "line": "Close enough to catch if the fall finished, leaving Jaina the last inch of pride.",
+          "pattern": "B1",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can register Sylvanas's near-catch, but 'the last inch of pride' reads like polished authorial framing and overconfident motive-calibration from outside the body.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "Close enough to catch if she fell.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r5.md:350",
+          "line": "The village went on with its day.",
+          "pattern": "A5",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This abstracts the scene into a state label from above instead of staying with the concrete bells, baker, and square activity Sylvanas actually reads.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r5.md:455",
+          "line": "Somewhere inside the palace, a servant laughed at a joke far away enough to belong to another world.",
+          "pattern": "B4",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The 'another world' metaphor serves chapter theme more than Sylvanas's immediate tactical register, which would read the laugh as distance and irrelevance rather than thematic contrast.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "Somewhere inside the palace, a servant laughed at a joke too far away to matter.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "cleanReason": "Re-checked the main pass-B abstraction candidates: 'Long enough to settle his guard and routines.', 'The outer wards are still the old peacetime lattice.', and Jaina's three-school explanation to Antonidas. Each line cashes out from local relay facts, ward mechanics, or immediately named spell-sequence payload, so none stayed phantom after the false-positive filter."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "cleanReason": "The only translation setup was Antonidas's 'Tell me the plan in words a judge could follow.' Jaina's reply names the sequence, timing window, and distance condition in one pass, so the exchange does not require a second simplification layer."
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 9,
+    "mildKills": 8,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md"
+    ],
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still has 8 mild kills. With zero moderate/severe kills the pass would only clear at 3 or fewer mild findings."
+  }
+}

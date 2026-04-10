@@ -1,0 +1,503 @@
+{
+  "status": "in-progress",
+  "currentChapter": "chapter25",
+  "currentAgent": "memory-keeper",
+  "resumedAt": "2026-04-07T19:15:54Z",
+  "groundingGateExhausted": "chapter19: exhausted 3 iterations, gate still failing (6 findings), promoted v2g-r3.md to v2g.md",
+  "slopGateExhausted": "chapter21: exhausted 5 iterations, pass B still failing (11 mild findings), promoted v2-r5.md to v2.md",
+  "progress": {
+    "chaptersCompleted": 17,
+    "chaptersTotal": 25
+  },
+  "chapters": [
+    "chapter1",
+    "chapter2",
+    "chapter3",
+    "chapter4",
+    "chapter5",
+    "chapter6",
+    "chapter7",
+    "chapter8",
+    "chapter9",
+    "chapter10",
+    "chapter11",
+    "chapter12",
+    "chapter13",
+    "chapter14",
+    "chapter15",
+    "chapter16",
+    "chapter17",
+    "chapter18",
+    "chapter19",
+    "chapter20",
+    "chapter21",
+    "chapter22",
+    "chapter23",
+    "chapter24",
+    "chapter25"
+  ],
+  "blocked": [],
+  "log": [
+    {
+      "timestamp": "2026-04-04T07:42:00Z",
+      "chapter": "chapter1",
+      "agent": "planner",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter1-initial.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T07:48:00Z",
+      "chapter": "chapter1",
+      "agent": "plan-verifier",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T07:54:00Z",
+      "chapter": "chapter1",
+      "agent": "writer",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v1.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T08:03:00Z",
+      "chapter": "chapter1",
+      "agent": "slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v2.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T08:12:00Z",
+      "chapter": "chapter1",
+      "agent": "style-editor",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v4.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T08:22:00Z",
+      "chapter": "chapter1",
+      "agent": "style-auditor",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v4b.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T08:28:00Z",
+      "chapter": "chapter1",
+      "agent": "final-slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v5.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T08:38:00Z",
+      "chapter": "chapter1",
+      "agent": "memory-keeper",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/memory/"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T08:38:01Z",
+      "chapter": "chapter1",
+      "agent": "assembly",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/final.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T08:46:00Z",
+      "chapter": "chapter2",
+      "agent": "planner",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter2-initial.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T08:56:00Z",
+      "chapter": "chapter2",
+      "agent": "plan-verifier",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter2.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T09:05:00Z",
+      "chapter": "chapter2",
+      "agent": "writer",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter2/v1.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T09:16:00Z",
+      "chapter": "chapter2",
+      "agent": "slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter2/v2.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T09:28:00Z",
+      "chapter": "chapter2",
+      "agent": "style-editor",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter2/v4.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T09:35:00Z",
+      "chapter": "chapter2",
+      "agent": "style-auditor",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter2/v4b.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T09:48:00Z",
+      "chapter": "chapter2",
+      "agent": "final-slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter2/v5.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T10:08:43Z",
+      "chapter": "chapter2",
+      "agent": "memory-keeper",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/memory/"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T10:08:44Z",
+      "chapter": "chapter2",
+      "agent": "assembly",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter2/final.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T10:08:43Z",
+      "chapter": "chapter3",
+      "agent": "planner",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter3-initial.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T10:18:00Z",
+      "chapter": "chapter3",
+      "agent": "plan-verifier",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter3.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T10:28:00Z",
+      "chapter": "chapter3",
+      "agent": "writer",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter3/v1.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T10:38:00Z",
+      "chapter": "chapter3",
+      "agent": "slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter3/v2.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T10:50:00Z",
+      "chapter": "chapter3",
+      "agent": "style-editor",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter3/v4.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T11:00:00Z",
+      "chapter": "chapter3",
+      "agent": "style-auditor",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter3/v4b.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T11:10:00Z",
+      "chapter": "chapter3",
+      "agent": "final-slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter3/v5.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T11:22:00Z",
+      "chapter": "chapter3",
+      "agent": "memory-keeper",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/memory/"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T11:22:01Z",
+      "chapter": "chapter3",
+      "agent": "assembly",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter3/final.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T11:30:00Z",
+      "chapter": "chapter4",
+      "agent": "planner",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter4-initial.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T11:40:00Z",
+      "chapter": "chapter4",
+      "agent": "plan-verifier",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter4.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T11:52:00Z",
+      "chapter": "chapter4",
+      "agent": "writer",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter4/v1.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T12:02:00Z",
+      "chapter": "chapter4",
+      "agent": "slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter4/v2.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T12:12:00Z",
+      "chapter": "chapter4",
+      "agent": "style-editor",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter4/v4.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T12:18:00Z",
+      "chapter": "chapter4",
+      "agent": "style-auditor",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter4/v4b.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T12:28:00Z",
+      "chapter": "chapter4",
+      "agent": "final-slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter4/v5.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T12:46:00Z",
+      "chapter": "chapter4",
+      "agent": "memory-keeper",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/memory/"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T12:46:01Z",
+      "chapter": "chapter4",
+      "agent": "assembly",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter4/final.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T13:00:00Z",
+      "chapter": "chapter5",
+      "agent": "planner",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter5-initial.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T13:12:00Z",
+      "chapter": "chapter5",
+      "agent": "plan-verifier",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter5.json"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T13:24:00Z",
+      "chapter": "chapter5",
+      "agent": "writer",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter5/v1.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T13:36:00Z",
+      "chapter": "chapter5",
+      "agent": "slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter5/v2.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T13:48:00Z",
+      "chapter": "chapter5",
+      "agent": "style-editor",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter5/v4.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T13:56:00Z",
+      "chapter": "chapter5",
+      "agent": "style-auditor",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter5/v4b.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T14:04:00Z",
+      "chapter": "chapter5",
+      "agent": "final-slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter5/v5.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T14:14:00Z",
+      "chapter": "chapter5",
+      "agent": "memory-keeper",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/memory/"
+      ]
+    },
+    {
+      "timestamp": "2026-04-04T14:14:01Z",
+      "chapter": "chapter5",
+      "agent": "assembly",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter5/final.md"
+      ]
+    },
+    {
+      "timestamp": "2026-04-07T22:19:51Z",
+      "chapter": "chapter17",
+      "agent": "assembly",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter17/final.md"
+      ]
+    },
+    {
+      "event": "assembled",
+      "chapterId": "chapter18",
+      "artifact": ".afternoon/chapters/chapter18/final.md"
+    }
+  ],
+  "chaptersCompleted": 24,
+  "log_chapter24_assembly": {
+    "timestamp": "2026-04-09T17:52:46Z",
+    "chapter": "chapter24",
+    "agent": "assembly",
+    "status": "completed",
+    "artifacts": [
+      ".afternoon/chapters/chapter24/final.md"
+    ]
+  },
+  "slopGateExhausted_ch24": "chapter24: exhausted 5 iterations, both passes still failing (pass A: 4 mild, pass B: 6 mild), promoted v2-r5.md to v2.md",
+  "groundingGateExhausted_ch24": "chapter24: exhausted 3 iterations, gate still failing (8 findings), promoted v2g-r3.md to v2g.md",
+  "groundingGateExhausted_ch23": "chapter23: exhausted 3 iterations, gate still failing (6 findings), promoted v2g-r3.md to v2g.md",
+  "groundingGateExhausted_ch22": "chapter22: exhausted 3 iterations, gate still failing (6 findings), promoted v2g-r3.md to v2g.md",
+  "slopGateExhausted_ch22": "chapter22: exhausted 5 iterations, pass B still failing (8 mild findings), promoted v2-r5.md to v2.md",
+  "groundingGateExhausted_ch21": "chapter21: exhausted 3 iterations, gate still failing (7 findings), promoted v2g-r3.md to v2g.md",
+  "slopGateExhausted_ch20": "chapter20: exhausted 5 iterations, pass A still failing (5 mild intent-smear), promoted v2-r5.md to v2.md",
+  "log_chapter19_memory_keeper": {
+    "timestamp": "2026-04-08T09:55:24Z",
+    "chapter": "chapter19",
+    "agent": "memory-keeper",
+    "status": "completed"
+  },
+  "log_chapter19_assembly": {
+    "timestamp": "2026-04-08T09:55:24Z",
+    "chapter": "chapter19",
+    "agent": "assembly",
+    "status": "completed",
+    "artifacts": [
+      ".afternoon/chapters/chapter19/final.md"
+    ]
+  },
+  "log_chapter20_assembly": {
+    "timestamp": "2026-05-27T00:00:00Z",
+    "chapter": "chapter20",
+    "agent": "assembly",
+    "status": "completed",
+    "artifacts": [
+      ".afternoon/chapters/chapter20/final.md"
+    ]
+  },
+  "groundingGateExhausted_ch25": "chapter25: exhausted 3 iterations, gate still failing (7 findings), promoted v2g-r3.md to v2g.md"
+}

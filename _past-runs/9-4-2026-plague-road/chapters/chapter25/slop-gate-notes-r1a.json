@@ -1,0 +1,299 @@
+{
+  "chapterId": "chapter25",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 9,
+      "kills": 3,
+      "keeps": 6,
+      "dominantPattern": "fragment pivots and source-swap negations",
+      "severity": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "7",
+          "severity": "mild",
+          "line": "\"I was never going to be enough alone,\" she said. \"Not at the border. Not in Lordaeron. Not in the throne room.\"",
+          "deletionTest": "\"I was never going to be enough alone,\" she said.",
+          "reason": "KILL — pattern 7 chained fragment negation; the place list still works once the line commits directly instead of stair-stepping through three refusals.",
+          "suggestedFix": "\"I was never going to be enough alone at the border, in Lordaeron, or in the throne room,\" she said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "3",
+          "severity": "mild",
+          "line": "\"We stopped him because we were right together. Not because I was right and you were useful.\"",
+          "deletionTest": "\"We stopped him because we were right together.\"",
+          "reason": "KILL — pattern 3 source-swap pivot; the second sentence only rejects a false frame the first sentence has already replaced.",
+          "suggestedFix": "\"We stopped him because we were right together, with both of us doing the work.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "2",
+          "severity": "mild",
+          "line": "But the thing in Sylvanas's chest was not Frostmourne.\n\nKalar'shorel'anor.",
+          "deletionTest": "But the thing in Sylvanas's chest was Kalar'shorel'anor.",
+          "reason": "KILL — pattern 2 fragment reveal; the negated setup is scaffolding for the named answer on the next line.",
+          "suggestedFix": "But the thing in Sylvanas's chest was Kalar'shorel'anor.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 17,
+      "kills": 10,
+      "keeps": 7,
+      "dominantPattern": "body-part agency and abstract nouns carrying causal weight",
+      "clusterFlags": [
+        "Late visitor exchange carries repeated abstract/body-part agency constructions",
+        "Smart-POV sections show multiple agency-laundering hits"
+      ],
+      "repeatNouns": [
+        "eyes"
+      ],
+      "pattern4Alert": false,
+      "severity": {
+        "mild": 10,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "P5/P6 abstract-causation smear",
+          "severity": "mild",
+          "line": "The next step always close enough to excuse the one after it.",
+          "subject": "next step",
+          "verb": "excuse",
+          "realAgent": "Arthas and Kel'Thuzad kept using the next move to justify the move before it.",
+          "reason": "KILL — the step is not the actor doing the excusing; the men are the ones rationalizing their sequence.",
+          "suggestedFix": "They kept using the next step to justify the one before it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "8",
+          "severity": "mild",
+          "line": "The eyes traveled over her face with scholarly patience.",
+          "subject": "eyes",
+          "verb": "traveled",
+          "realAgent": "The creature studied her face with scholarly patience.",
+          "reason": "KILL — pattern 8 body-part agency; the creature, not its eyes, performs the inspection.",
+          "suggestedFix": "It studied her face with scholarly patience.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "8",
+          "severity": "mild",
+          "line": "Its gaze lifted slightly, toward the vault above.",
+          "subject": "gaze",
+          "verb": "lifted",
+          "realAgent": "The creature angled its head toward the vault above.",
+          "reason": "KILL — pattern 8 body-part agency; the creature is the one redirecting attention, not the gaze acting by itself.",
+          "suggestedFix": "Its head angled slightly toward the vault above.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P5/P6 abstract-physical smear",
+          "severity": "mild",
+          "line": "The words sat between them.",
+          "subject": "words",
+          "verb": "sat",
+          "realAgent": "Neither of them spoke while the line landed between them.",
+          "reason": "KILL — the sentence gives inert words physical occupancy instead of naming the silence and human pause that do the work.",
+          "suggestedFix": "Neither of them spoke for a beat.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "5",
+          "severity": "mild",
+          "line": "Jaina had said the same thing through the wall, and hearing it here—hearing it from the mouth of a thing that spoke of Frostmourne as its craft—gave the truth a deeper chill.",
+          "subject": "truth",
+          "verb": "gave",
+          "realAgent": "Hearing the same claim from Frostmourne's maker chilled Jaina more deeply.",
+          "reason": "KILL — pattern 5 object/abstraction agency; the truth is not the active giver of the chill.",
+          "suggestedFix": "Jaina had said the same thing through the wall, and hearing it here—from the mouth of a thing that spoke of Frostmourne as its craft—chilled her more deeply.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "9",
+          "severity": "mild",
+          "line": "Recognition flickered across its face.",
+          "subject": "Recognition",
+          "verb": "flickered",
+          "realAgent": "The creature showed recognition for a beat.",
+          "reason": "KILL — pattern 9 nominalized verb as agent; the recognition does not act independently of the creature showing it.",
+          "suggestedFix": "For a beat, it showed recognition.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "8",
+          "severity": "mild",
+          "line": "The green-gold eyes held hers.",
+          "subject": "eyes",
+          "verb": "held",
+          "realAgent": "The creature kept its attention on her.",
+          "reason": "KILL — pattern 8 body-part agency; the creature is maintaining the lock, not the eyes acting alone.",
+          "suggestedFix": "It kept its attention on her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "9",
+          "severity": "mild",
+          "line": "The better question came at once.",
+          "subject": "question",
+          "verb": "came",
+          "realAgent": "Sylvanas thought of the better question at once.",
+          "reason": "KILL — pattern 9 nominalized thought acting as subject; Sylvanas is the one making the mental move.",
+          "suggestedFix": "Sylvanas thought of the better question at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P5/P6 abstract-state smear",
+          "severity": "mild",
+          "line": "That meant it sat deeper than discipline.",
+          "subject": "it",
+          "verb": "sat",
+          "realAgent": "The farewell belonged to a habit older than discipline.",
+          "reason": "KILL — the phrase is not physically sitting anywhere; the sentence is borrowing bodily placement to avoid naming what the clue implies.",
+          "suggestedFix": "That meant the habit behind it belonged to something older than discipline.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "collective-abstraction listening smear",
+          "severity": "mild",
+          "line": "A network could listen for words.",
+          "subject": "network",
+          "verb": "listen",
+          "realAgent": "Farstriders, quartermasters, runners, and archive mages could listen for the phrase.",
+          "reason": "KILL — the sentence hands a human verb to an abstraction when the very next line can name the people who would do the listening.",
+          "suggestedFix": "Farstriders, quartermasters, runners, and archive mages could listen for words.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 10,
+      "kills": 2,
+      "keeps": 8,
+      "dominantPattern": "eye/gaze repertoire exhaustion",
+      "severity": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "Tic 5",
+          "severity": "mild",
+          "line": "The eyes traveled over her face with scholarly patience.",
+          "reason": "KILL — the chapter runs past the four-beat eye/gaze cap; this is one of the weaker generic ocular beats and it doubles a body-part agency construction.",
+          "suggestedFix": "It studied her face with scholarly patience.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "Tic 5",
+          "severity": "mild",
+          "line": "Its gaze lifted slightly, toward the vault above.",
+          "reason": "KILL — the chapter already has stronger eye-based beats; this one is generic enough to convert cleanly to head movement.",
+          "suggestedFix": "Its head angled slightly toward the vault above.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 15,
+    "totalKeeps": 21,
+    "mildKills": 15,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 15,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has more than three MILD KILL findings after revision, driven by ten agency-laundering lines, three negation pivots, and two excess eye/gaze beats."
+  }
+}

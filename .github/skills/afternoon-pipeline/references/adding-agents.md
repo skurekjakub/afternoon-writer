@@ -123,7 +123,8 @@ Common insertion points:
 |----------|-------|--------|----------|
 | After plan-verifier | plan-verifier | writer | Additional plan processing (e.g., scene library mining) |
 | After slophunter | slophunter/slop-gate | grounder | Additional prose processing (e.g., dialogue enrichment) |
-| After grounder | grounder | expander | Additional world-building passes |
+| After grounder | grounder | grounding-gate | Additional grounding helpers that still modify prose |
+| After grounding-gate | grounding-gate | expander | Additional verification gates or grounded-prose QA |
 | After expander | expander | style-editor | Additional quality gates (e.g., AI detection, beta reader simulation) |
 | After style-editor | style-editor | memory-keeper | Post-editing quality gates |
 | After memory-keeper | memory-keeper | (end) | Post-chapter analysis (e.g., metrics, reports) |

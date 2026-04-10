@@ -1,0 +1,287 @@
+{
+  "chapterId": "chapter19",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 9,
+      "kills": 5,
+      "keeps": 4,
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "findings": [
+        {
+          "line": "Not enough to make it private. Enough that Vereesa had to tilt her head back a little.",
+          "pattern": "2",
+          "deletionTest": "Enough that Vereesa had to tilt her head back a little.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the positive half stands on its own once the negated setup is removed.",
+          "suggestedFix": "Enough that Vereesa had to tilt her head back a little.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not Antonidas's blue line from the road south of Stratholme. Different call.",
+          "pattern": "2",
+          "deletionTest": "Different call.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the negated setup delays the real information.",
+          "suggestedFix": "A different call from Antonidas's blue line on the road south of Stratholme.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The stone darkened. Not gradually. Warm amber to dead crystal in a breath.",
+          "pattern": "2",
+          "deletionTest": "The stone darkened. Warm amber to dead crystal in a breath.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the negated beat is scaffolding for the real visual change.",
+          "suggestedFix": "The stone darkened from warm amber to dead crystal in a breath.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not visible yet. Certain anyway.",
+          "pattern": "2",
+          "deletionTest": "Certain anyway.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the negated setup can be cut without losing the committed meaning.",
+          "suggestedFix": "Certain anyway.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not the city now. Only the stain where it had been.",
+          "pattern": "2",
+          "deletionTest": "Only the stain where it had been.",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the line lands more directly once the negated throat-clearing is removed.",
+          "suggestedFix": "Only the stain where it had been.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 11,
+      "kills": 8,
+      "keeps": 3,
+      "dominantPattern": "pattern-1-5-infrastructure-and-abstraction-agency",
+      "findings": [
+        {
+          "line": "The old border lie kept offering the same smaller job: secure the road out, count the dead, send a cleaner report home, pretend the thing stayed bounded because the map said so.",
+          "pattern": "5",
+          "severity": "mild",
+          "reason": "An abstraction is assigned ongoing intention; the real agent is Sylvanas's own residual border-thinking.",
+          "suggestedFix": "Part of her still reached for the same smaller job: secure the road out, count the dead, send a cleaner report home, pretend borders could still hold it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Sylvanas looked at the seal, at Vereesa's fingers holding steady while the road still lived in her joints.",
+          "pattern": "1",
+          "severity": "mild",
+          "reason": "The road is assigned residual life; the concrete source is the ride's strain still lodged in Vereesa's body.",
+          "suggestedFix": "Sylvanas looked at the seal, at Vereesa's fingers holding steady while yesterday's ride still ached in her joints.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "At the machine that could hear a city count its dead and call the answer procedure.",
+          "pattern": "4",
+          "severity": "mild",
+          "reason": "An institutional abstraction is given perception and judgment that belong to the people enforcing procedure.",
+          "suggestedFix": "At the people who could hear a city count its dead and still call the answer procedure.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The camp narrowed around the sentence.",
+          "pattern": "1",
+          "severity": "mild",
+          "reason": "The camp is carrying pressure and attention that belong to the people inside it.",
+          "suggestedFix": "Everyone in camp went still around the sentence.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "I think this is family speaking with the chamber's hand on its throat.",
+          "pattern": "4",
+          "severity": "mild",
+          "reason": "The institution is personified with a coercive hand instead of naming the people applying that pressure.",
+          "suggestedFix": "I think this is family speaking with councillors' hands on its throat.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Home still pretending geography could save it.",
+          "pattern": "4",
+          "severity": "mild",
+          "reason": "Home is treated as a self-deceiving agent; the real actors are the people relying on distance and borders.",
+          "suggestedFix": "People at home still pretending geography could save them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"And if the truth leaves home behind?\"",
+          "pattern": "5",
+          "severity": "mild",
+          "reason": "The truth is made the actor instead of the people choosing to follow it.",
+          "suggestedFix": "\"And if following the truth leaves home behind?\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "At first the road gave them what it had been giving for days: packed earth, broken ruts, low hedges clawing at boot leather where the path narrowed.",
+          "pattern": "1",
+          "severity": "mild",
+          "reason": "The road is made the giver of experience instead of the terrain being described directly.",
+          "suggestedFix": "At first they rode through the same packed earth, broken ruts, and low hedges clawing at boot leather where the path narrowed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 11,
+      "kills": 5,
+      "keeps": 6,
+      "dominantPattern": "tic-5-eye-gaze-repertoire-exhaustion",
+      "findings": [
+        {
+          "line": "\"No.\" Sylvanas folded the canvas flap over the marked roads herself. \"I'm done pretending certainty is required.\"",
+          "pattern": "tic-2-overloaded-marked",
+          "severity": "mild",
+          "reason": "This is the third marked-instance in the chapter and the weakest one; the physical marking beats elsewhere are stronger keeps.",
+          "suggestedFix": "\"No.\" Sylvanas folded the canvas flap over the annotated roads herself. \"I'm done pretending certainty is required.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"At all of it.\" Now she looked directly at Sylvanas, wide-eyed, furious, too tired to hide either.",
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "reason": "The chapter runs past the eye/gaze cap; this generic confrontation beat is weaker than the character-specific scan and courtesy beats kept earlier.",
+          "suggestedFix": "\"At all of it.\" Now she faced Sylvanas directly, furious and too tired to hide it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Vereesa looked down once, hard, then back up.",
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "reason": "This is a generic emotional eye-line beat and one of the weakest excess gaze instances in the chapter.",
+          "suggestedFix": "Vereesa dipped her chin once, hard, then raised it again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Another held the bridle and looked carefully at nothing.",
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "reason": "This is a generic discomfort beat and falls beyond the chapter cap for eye/gaze routing.",
+          "suggestedFix": "Another held the bridle and fixed on nothing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Jaina met her eyes for one brief level beat. \"Yes.\"",
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "reason": "This is the weakest late-stage connection beat once the chapter has already exhausted its gaze repertoire.",
+          "suggestedFix": "Jaina held still for one brief level beat. \"Yes.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 18,
+    "totalKeeps": 13,
+    "mildKills": 18,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 18,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass A found 18 mild KILLs across all three guides, exceeding the 3-mild maximum for a passing run."
+  }
+}

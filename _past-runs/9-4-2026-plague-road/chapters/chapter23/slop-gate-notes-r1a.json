@@ -1,0 +1,253 @@
+{
+  "chapterId": "chapter23",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 9,
+      "kills": 5,
+      "keeps": 4,
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "clusterWarnings": [
+        "Fragment-pivot negation repeats across narration and dialogue."
+      ],
+      "findings": [
+        {
+          "pattern": "pattern-4-minimizer-pivot",
+          "severity": "mild",
+          "line": "His mouth changed. Not enough to call it a smile.",
+          "deletionTest": "His mouth changed.",
+          "reason": "The second sentence defines the expression by negated threshold instead of naming the visible result directly.",
+          "suggestedFix": "He almost smiled.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-3-source-swap-pivot",
+          "severity": "mild",
+          "line": "It did not leap from her staff. She had no staff. It went from her hands, ugly and direct, dragged straight through the opened seam.",
+          "deletionTest": "She had no staff. It went from her hands, ugly and direct, dragged straight through the opened seam.",
+          "reason": "The opening negation is dead scaffolding because the next two sentences already name the true source cleanly.",
+          "suggestedFix": "She had no staff. It went from her hands, ugly and direct, dragged straight through the opened seam.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "severity": "mild",
+          "line": "Still, but not dead.",
+          "deletionTest": "Still.",
+          "reason": "The sentence uses negation to arrive at the real state instead of naming the state directly.",
+          "suggestedFix": "Still alive.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-2-fragment-pivot",
+          "severity": "mild",
+          "line": "\"Not one I'd trust.\"",
+          "deletionTest": "[delete the negated fragment and answer directly]",
+          "reason": "The dialogue fragment names the rejected set instead of the usable answer.",
+          "suggestedFix": "\"None I'd trust.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-2-fragment-pivot",
+          "severity": "mild",
+          "line": "\"Damaged. Not finished.\"",
+          "deletionTest": "\"Damaged.\"",
+          "reason": "The second fragment lands its meaning through refusal instead of stating the remaining danger directly.",
+          "suggestedFix": "\"Damaged. Still active.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 3,
+      "keeps": 4,
+      "dominantPattern": "pattern-8-body-part-agency",
+      "clusterWarnings": [
+        "Body-part and object-subject agency shows up in both tactical beats and aftermath narration."
+      ],
+      "findings": [
+        {
+          "pattern": "pattern-8-body-part-agency",
+          "severity": "mild",
+          "line": "Sylvanas's gaze flicked toward the nearest service branch and back.",
+          "subject": "Sylvanas's gaze",
+          "verb": "flicked",
+          "realAgent": "Sylvanas checking the nearest service branch",
+          "reason": "The line routes Sylvanas's tactical check through a body-part subject instead of the character performing the action.",
+          "suggestedFix": "Sylvanas checked the nearest service branch, then faced him again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-5-object-agency",
+          "severity": "mild",
+          "line": "No grand sigil. No beauty. She rammed blue pressure through the stalled turn, a wedge where the blade expected flow, and the sword answered with the crack of lake ice taking weight.",
+          "subject": "the sword",
+          "verb": "answered",
+          "realAgent": "the blade's physical crack under the forced pressure in its cycle",
+          "reason": "The sentence gives the sword a conversational verb where the concrete event is a physical crack under magical stress.",
+          "suggestedFix": "No grand sigil. No beauty. She rammed blue pressure through the stalled turn, a wedge where the blade expected flow, and the sword cracked like lake ice taking weight.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "pattern-9-nominalized-agency",
+          "severity": "mild",
+          "line": "He checked Jaina, then Sylvanas, then Frostmourne, and there discipline slammed back into place because the sword was still the largest danger in the room whether anyone else understood it or not.",
+          "subject": "discipline",
+          "verb": "slammed back into place",
+          "realAgent": "Uther reasserting command focus after taking in the room",
+          "reason": "The line lets an abstraction perform the recovery instead of showing Uther re-forming command over himself.",
+          "suggestedFix": "He checked Jaina, then Sylvanas, then Frostmourne, and his face hardened back into command because the sword was still the largest danger in the room whether anyone else understood it or not.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 10,
+      "kills": 6,
+      "keeps": 4,
+      "dominantPattern": "tic-5-eye-gaze-repertoire-exhaustion",
+      "clusterWarnings": [
+        "Dialogue-heavy sections overuse generic looked/back/looked-again beats past the chapter cap."
+      ],
+      "findings": [
+        {
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "line": "Sylvanas looked back once. \"With me.\"",
+          "reason": "This is one of the weakest generic look beats beyond the chapter cap for eye/gaze routing.",
+          "suggestedFix": "Sylvanas turned back once. \"With me.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "line": "Uther looked at Jaina again. \"Can it be done?\"",
+          "reason": "This generic reaction beat is expendable once the stronger tactical and emotional gaze beats consume the chapter cap.",
+          "suggestedFix": "Uther faced Jaina again. \"Can it be done?\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "line": "He looked at Terenas once, as if checking the work, then back to them.",
+          "reason": "The beat is functional but generic, and it is weaker than the more character-specific visual beats kept under the cap.",
+          "suggestedFix": "He checked Terenas once, then turned back to them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "line": "Uther looked at Arthas again, at the arrow buried through helm and skull, then at the cracked sword.",
+          "reason": "This is another over-cap generic look beat in a chapter already saturated with eye-routing.",
+          "suggestedFix": "Uther took in Arthas again, the arrow buried through helm and skull, then the cracked sword.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "line": "Uther looked back at her, and the facts were plain between them.",
+          "reason": "The beat spends another generic look on a chapter that already exceeds the cap; the shared understanding survives without eye-routing.",
+          "suggestedFix": "Uther turned back to her, and the facts were plain between them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "line": "Sylvanas looked at her.",
+          "reason": "This is the weakest pure connection beat among the over-cap look/gaze instances.",
+          "suggestedFix": "Sylvanas measured her across the room.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 14,
+    "totalKeeps": 12,
+    "mildKills": 14,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 14,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has 14 mild KILLs across negation pivots, agency laundering, and over-cap eye/gaze beats; more than 3 mild-only kills fails the pass."
+  }
+}

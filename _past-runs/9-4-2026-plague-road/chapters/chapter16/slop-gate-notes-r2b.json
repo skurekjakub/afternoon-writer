@@ -1,0 +1,173 @@
+{
+  "chapterId": "chapter16",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 3,
+      "keeps": 1,
+      "severityCounts": {
+        "MILD": 3,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "It would not pull a single mouthful back out of the bodies already carrying the city toward its death.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "It would save whoever had not yet eaten from that stock.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": "The line had crossed from stock to bodies, from bodies to households, from households to a city that still thought it had time to argue over prices and get children fed before noon.",
+          "whatItRestates": "The preceding bread-and-household images already show the spread: rolls in the cart, loaves in kitchens, and food already in people's hands.",
+          "verdict": "KILL",
+          "suggestedFix": "Bread was already in hands, houses, and bodies.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "The word came clean.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "\"No,\" she said.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 2,
+      "severityCounts": {
+        "MILD": 2,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "A1",
+      "findings": [
+        {
+          "pattern": "A1",
+          "severity": "MILD",
+          "line": "Only the question.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This is a caption pinned over Arthas's line, not Jaina's in-body perception or decision thought.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "line": "The southern gate was Stratholme's formal face: high arch, worked iron, stone broad enough to flatter a prince riding under it.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "\"Formal face\" and \"flatter a prince\" sound authored from outside the rush of Jaina's arrival; the sentence is more civic flourish than urgent POV intake.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "The southern gate was the formal one: high arch, worked iron, stone broad enough for a prince to ride under it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 3,
+      "severityCounts": {
+        "MILD": 2,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P3/P4",
+      "findings": [
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "line": "The line had crossed from stock to bodies, from bodies to households, from households to a city that still thought it had time to argue over prices and get children fed before noon.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "A direct statement of the visible carrier: bread already moving from carts into kitchens, households, and living bodies.",
+          "verdict": "KILL",
+          "reason": "Abstract threshold language summarizes the realization instead of naming the concrete spread route in plain terms.",
+          "suggestedFix": "Bread was already in hands, houses, and bodies.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "The word came clean.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "What about the spoken answer was clean: no hedge, no softening, no retreat.",
+          "verdict": "KILL",
+          "reason": "The placeholder noun \"word\" and the abstraction \"clean\" create weight without naming any observable feature of the reply.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 6,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B stays over threshold with 7 mild kills across the guide pack, so the pass fails even though all flagged lines are locally fixable."
+  }
+}

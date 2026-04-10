@@ -1,0 +1,315 @@
+{
+  "chapterId": "chapter21",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "Pattern 2 fragment pivots",
+      "findings": [
+        {
+          "line": "Not yet whatever waits at the end of this, but far enough gone.",
+          "pattern": "Pattern 1",
+          "deletionTest": "Far enough gone.",
+          "reason": "KILL - direct contrast pivot; the committed state survives without the negative runway.",
+          "severity": "mild",
+          "suggestedFix": "Already far enough gone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not at the truth itself. At finally having words that matched his own warning.",
+          "pattern": "Pattern 2",
+          "deletionTest": "At finally having words that matched his own warning.",
+          "reason": "KILL - fragment pivot; the real cause lands cleanly without the negated preface.",
+          "severity": "mild",
+          "suggestedFix": "At finally having words that matched his own warning.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 17,
+      "kills": 12,
+      "keeps": 5,
+      "severityMarkers": {
+        "mild": 12,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "scenery and abstractions carrying human judgment or agency",
+      "findings": [
+        {
+          "line": "Daylight made the harbor honest.",
+          "subject": "Daylight",
+          "verb": "made honest",
+          "realAgent": "the morning light exposing the wreckage and damage in visible detail",
+          "pattern": "judgment-loaded scenery",
+          "reason": "KILL - the sentence launders judgment onto daylight instead of naming the visible evidence.",
+          "severity": "mild",
+          "suggestedFix": "In daylight, the harbor lay bare.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The word he needed no name.",
+          "subject": "word",
+          "verb": "needed",
+          "realAgent": "the people on the rise, who already understood that Cyndia meant Arthas",
+          "pattern": "Pattern 5",
+          "reason": "KILL - the noun is given a need that belongs to the people reading it.",
+          "severity": "mild",
+          "suggestedFix": "*He* needed no name.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The land above the harbor had forgotten softness.",
+          "subject": "land",
+          "verb": "had forgotten",
+          "realAgent": "the hard crust, stone, and old ice under the drifts",
+          "pattern": "Pattern 6",
+          "reason": "KILL - scenery is given memory instead of the prose naming the hard ground directly.",
+          "severity": "mild",
+          "suggestedFix": "The land above the harbor had gone hard.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Northrend enforced cold as law.",
+          "subject": "Northrend",
+          "verb": "enforced",
+          "realAgent": "the climate, wind, and terrain that made the cold inescapable",
+          "pattern": "Pattern 1",
+          "reason": "KILL - geography is carrying command authority that belongs to the physical conditions.",
+          "severity": "mild",
+          "suggestedFix": "In Northrend, the cold was absolute.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Dwarven work announced itself even under snow.",
+          "subject": "work",
+          "verb": "announced itself",
+          "realAgent": "the iron-banded trunks and unmistakable dwarven construction choices",
+          "pattern": "object self-announcement",
+          "reason": "KILL - the build is treated as self-presenting instead of being read through visible craft details.",
+          "severity": "mild",
+          "suggestedFix": "Even under snow, the build was plainly dwarven.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Silence met that. Hard silence.",
+          "subject": "Silence",
+          "verb": "met",
+          "realAgent": "the men on the wall who stopped answering after hearing Arthas's name",
+          "pattern": "Pattern 7",
+          "reason": "KILL - absence is given an active verb instead of the scene naming the men's reaction.",
+          "severity": "mild",
+          "suggestedFix": "No one answered at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "relief and suspicion refusing to give ground",
+          "subject": "relief and suspicion",
+          "verb": "refusing",
+          "realAgent": "the guards holding both emotions on their faces at once",
+          "pattern": "Pattern 5",
+          "reason": "KILL - the abstractions are made to resist each other instead of the prose describing the men's expressions.",
+          "severity": "mild",
+          "suggestedFix": "relief and suspicion set hard together on their faces",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Then his eyes went to Sylvanas, the rangers, the order in which they had entered and spread.",
+          "subject": "eyes",
+          "verb": "went",
+          "realAgent": "Muradin assessing Sylvanas, the rangers, and their formation order",
+          "pattern": "Pattern 8",
+          "reason": "KILL - the body part steals agency from the character's tactical assessment.",
+          "severity": "mild",
+          "suggestedFix": "Then he took in Sylvanas, the rangers, and the order in which they had entered and spread.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "His eyes found Jaina first. Then Sylvanas.",
+          "subject": "eyes",
+          "verb": "found",
+          "realAgent": "Arthas choosing his first two points of focus",
+          "pattern": "Pattern 8",
+          "reason": "KILL - the body-part subject replaces the character's own act of looking.",
+          "severity": "mild",
+          "suggestedFix": "He looked to Jaina first, then Sylvanas.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Sylvanas looked back once toward the glacier and found, to her own surprise, that blame still refused to rise.",
+          "subject": "blame",
+          "verb": "refused",
+          "realAgent": "Sylvanas, who cannot find blame in herself after the defeat",
+          "pattern": "Pattern 5",
+          "reason": "KILL - the abstraction is made to decide instead of the POV naming her actual state.",
+          "severity": "mild",
+          "suggestedFix": "Sylvanas looked back once toward the glacier and found, to her own surprise, only the hard blank where blame should have been.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The recognition went down hard and steadied her.",
+          "subject": "recognition",
+          "verb": "went down / steadied",
+          "realAgent": "Sylvanas taking the truth hard and regaining steadiness from it",
+          "pattern": "Pattern 9",
+          "reason": "KILL - the mental act is packaged as an independent force acting on her.",
+          "severity": "mild",
+          "suggestedFix": "She took the truth hard and steadied.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "the word itself needed translating",
+          "subject": "word",
+          "verb": "needed translating",
+          "realAgent": "Jaina, who is still catching up to what Sylvanas has just said",
+          "pattern": "Pattern 5",
+          "reason": "KILL - the noun is given a need that belongs to the listener.",
+          "severity": "mild",
+          "suggestedFix": "she needed the word translated",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 10,
+      "kills": 2,
+      "keeps": 8,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "Tic 5: Eye/Gaze Repertoire Exhaustion",
+      "findings": [
+        {
+          "line": "Jaina lifted her eyes.",
+          "pattern": "Tic 5",
+          "tic": "Eye/Gaze Repertoire Exhaustion",
+          "count": 5,
+          "hardCap": 4,
+          "reason": "KILL - this is one of the weakest generic gaze beats beyond the chapter cap.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Jaina gave her a quick, startled look",
+          "pattern": "Tic 5",
+          "tic": "Eye/Gaze Repertoire Exhaustion",
+          "count": 6,
+          "hardCap": 4,
+          "reason": "KILL - this is another generic reaction-through-looking beat after the chapter has already exhausted the eye repertoire.",
+          "severity": "mild",
+          "suggestedFix": "Jaina blinked, startled.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 16,
+    "totalKeeps": 16,
+    "mildKills": 16,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 16,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass A found 16 mild KILLs across all three guides; pass logic fails any run with more than 3 mild-only KILLs."
+  }
+}

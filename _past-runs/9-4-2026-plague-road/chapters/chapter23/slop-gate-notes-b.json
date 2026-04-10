@@ -1,0 +1,253 @@
+{
+  "chapterId": "chapter23",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 11,
+      "kills": 6,
+      "keeps": 5,
+      "severityMarkers": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "MILD",
+          "text": "Sylvanas took that in.",
+          "issue": "Generic dialogue-adjacent processing beat; the action could belong to anyone in the scene and adds no character-specific physical read.",
+          "suggestedFix": "Sylvanas looked at the blood on Jaina's hand.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "text": "For one impossible instant she had him.",
+          "word": "For one impossible instant",
+          "deletionTest": "She had him.",
+          "issue": "Temporal padding plus rhetorical intensifier; the beat still lands once the scaffolding is removed.",
+          "suggestedFix": "She had him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "text": "He took the blow because she was right.",
+          "whatItRestates": "\"Then you've lost nothing by not arriving to watch it happen.\"",
+          "issue": "The narration translates the force of Sylvanas's line instead of trusting the exchange to carry the hit.",
+          "suggestedFix": "He said nothing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "MILD",
+          "text": "The misery of him was that he never needed truth softened.",
+          "issue": "Thesis-style opening sentence that abstracts Uther's reaction before the concrete response arrives.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "text": "The chamber had become a ruined altar to several incompatible truths.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Another set the hammer-head of his weapon against the marble, ready to strike if the sword twitched again.",
+          "issue": "The paragraph already has the concrete tableau; this sentence adds thematic closure on top of it.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "text": "Palaces hid disaster the moment the doors shut.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "The walls turned to service stone almost at once.",
+          "issue": "Generalized thematic summation after the physical transition already made the point.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks fast, exact, and structurally. She notices magical pattern, pressure, and mechanism before social gloss, and under stress she gets sharper rather than more essayistic. She can make analytical leaps, but in a live fight they stay tied to evidence, spellwork, and immediate tactical consequence.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 7,
+      "kills": 3,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A7",
+      "findings": [
+        {
+          "pattern": "A7",
+          "severity": "MILD",
+          "tier": "A",
+          "text": "Kings liked a white that let distance do half the ruling for them.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence zooms out into a generalized architectural aphorism instead of staying with Jaina's immediate visual read of the chamber.",
+          "confidence": "HIGH",
+          "suggestedFix": "White marble stretched between the service door and the throne.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "tier": "B",
+          "text": "For one thin second the corridor belonged to people who understood it.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The line captions the corridor with polished thematic ownership language instead of Jaina's immediate relief that Uther understands the situation.",
+          "confidence": "MODERATE",
+          "suggestedFix": "For one thin second, no one in the corridor needed anything explained.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A7",
+          "severity": "MILD",
+          "tier": "A",
+          "text": "Palaces hid disaster the moment the doors shut.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This is a broad institutional generalization, not a sensory or tactical thought Jaina would form while being marched into custody.",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P4",
+      "findings": [
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "text": "The room gave them a worse shape of it.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The line withholds the actual tableau that makes the guards misread the scene and substitutes a vague prestige summary.",
+          "reason": "Unanchored interpretive summary; the next sentence already supplies the usable concrete inventory.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "text": "The chamber had become a ruined altar to several incompatible truths.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The sentence swaps the concrete chamber state for placeholder abstractions like \"altar\" and \"truths\" without naming a visible mechanism or claim.",
+          "reason": "Placeholder-noun stand-in; the prose sounds weighty while refusing the concrete carrier already available in the scene.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in chapter23 sets up a plain-speech translation request (\"plainly,\" \"short version,\" \"smaller words,\" or equivalent), so the guide had no candidate simplification replies to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 12,
+    "mildKills": 11,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 11,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B found 11 mild KILLs across GPT-5 prose issues, narrator seep, and phantom concreteness. There are no moderate or severe hits, but the mild-count threshold for passing is exceeded."
+  }
+}

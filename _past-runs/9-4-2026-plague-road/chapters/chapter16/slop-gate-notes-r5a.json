@@ -1,0 +1,107 @@
+{
+  "chapterId": "chapter16",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "killRate": 0,
+      "dominantPattern": null,
+      "cleanReason": "Scanned the chapter's explicit negations and fragmentary answers, including \"She did not need to.\", \"Not enough to matter if she wasted time doing it neatly.\", \"That is not an answer.\", and \"Not cleanly. Not now.\" None formed a prohibited contrast pivot with an affirmative second half, so no line survived as a negation-addiction candidate."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 3,
+      "keeps": 4,
+      "killRate": 42.86,
+      "dominantPattern": "pattern-8-body-part-or-metonym-agency",
+      "secondSweep": "Completed the dedicated P5/P6 re-sweep for inanimate or abstract subjects carrying agency or physical-behavior verbs. That sweep added the \"How many mouths already outran them?\" hit and confirmed literal or subject-matter keeps such as the magical grain answering, the pull in the grain dragging, and the undead body answering the whistle.",
+      "findings": [
+        {
+          "pattern": "P5-object-wanting",
+          "severity": "mild",
+          "line": "Spoil, she thought, and rammed frost through the pattern where it wanted continuity.",
+          "citedText": "the pattern where it wanted continuity",
+          "subject": "pattern",
+          "verb": "wanted",
+          "realAgent": "the weave's stable point, where the preserving structure still holds together most tightly",
+          "reason": "Pattern 5: an inanimate magical pattern is given desire instead of naming the stable point Jaina is targeting.",
+          "suggestedFix": "Spoil, she thought, and rammed frost through the pattern at its tightest point.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P8-body-part-agency",
+          "severity": "mild",
+          "line": "How many mouths already outran them?",
+          "citedText": "How many mouths already outran them?",
+          "subject": "mouths",
+          "verb": "outran",
+          "realAgent": "the people who had already eaten before Jaina could reach the next node",
+          "reason": "Pattern 8: a body-part metonym carries the action instead of naming the people already ahead of her intervention.",
+          "suggestedFix": "How many people had already outrun them?",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P8-body-part-agency",
+          "severity": "mild",
+          "line": "His eyes went blank.",
+          "citedText": "His eyes went blank.",
+          "subject": "eyes",
+          "verb": "went blank",
+          "realAgent": "Arthas, whose expression blanks after Jaina says no",
+          "reason": "Pattern 8: the body part takes the reaction instead of the character.",
+          "suggestedFix": "He went blank.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "killRate": 0,
+      "dominantPattern": null,
+      "cleanReason": "Counted the chapter-local tic inventory and found no cap overages: one non-\"said\" performance tag (\"muttered\"), one tightened beat (\"His jaw tightened once.\"), one \"marked\" use (\"the cathedral bells marked the hour\"), and eye/attention beats that stayed under the chapter cap. With no category over cap, there are no excess instances to kill."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 8,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A found 3 mild intent-smear kills and no moderate or severe kills. Negation addiction stayed clean and the recurring-tic counts did not exceed chapter caps, so the pass clears with warnings only."
+  }
+}

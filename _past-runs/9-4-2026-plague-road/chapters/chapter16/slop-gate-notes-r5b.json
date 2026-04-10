@@ -1,0 +1,164 @@
+{
+  "chapterId": "chapter16",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 9,
+      "kills": 5,
+      "keeps": 4,
+      "dominantPattern": "mixed",
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "lineNumber": 19,
+          "text": "Jaina swallowed and did.",
+          "issue": "generic label / interchangeable dialogue beat",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "lineNumber": 121,
+          "text": "Jaina shut them for one beat.",
+          "word": "for one beat",
+          "deletionTest": "Jaina shut them.",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina shut them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "lineNumber": 117,
+          "text": "That moved him.",
+          "whatItRestates": "The clerk jerking toward the office nook after Sylvanas demands the routes.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "lineNumber": 143,
+          "text": "Outside, bread was already in children's hands.",
+          "paragraphLocation": "Paragraph opening after the scene break",
+          "issue": "thesis-opening paragraph",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "lineNumber": 163,
+          "text": "Grain in sacks was arithmetic.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "That landed harder than the dead store had.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks like an analytical field mage under time pressure. She compresses into logistics, contamination mechanics, and actionable route logic, but her interiority stays anchored to observable evidence and operational consequence rather than omniscient social claims.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 4,
+      "dominantPattern": "A7",
+      "findings": [
+        {
+          "pattern": "A7",
+          "severity": "mild",
+          "lineNumber": 49,
+          "text": "Nobody had been told the day was ending.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can infer routine from what she sees, but she cannot know who has or has not been told anything across the city.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 4,
+      "dominantPattern": "P5",
+      "findings": [
+        {
+          "pattern": "P5",
+          "severity": "mild",
+          "lineNumber": 15,
+          "text": "Then we go where the bread leaves heat.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "A named target such as ovens, bakehouses, or carts taking hot loaves out.",
+          "verdict": "KILL",
+          "reason": "Fake simplification: it sounds plainer than the prior thought but still withholds the usable destination.",
+          "suggestedFix": "Then we hit the bakehouses before the loaves leave the ovens.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 12,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Seven mild pass-B findings remain. With zero moderate/severe kills but more than three mild kills, the pass fails. Manifest history for pass B is oscillating (3, 7, 11, 5), so all suggested fixes are conservative deletions or minimal substitutions."
+  }
+}

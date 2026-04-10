@@ -1,0 +1,301 @@
+{
+  "chapterId": "chapter20",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 12,
+      "kills": 10,
+      "keeps": 2,
+      "dominantPattern": "Pattern 2 - fragment pivot",
+      "severityMarkers": {
+        "mild": 10,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterWarnings": [
+        "3+ negation KILLs recur across the harbor/departure stretch, the mid-crossing stretch, and the landfall stretch.",
+        "Fragment-pivot rhythm leaks across narration and dialogue."
+      ],
+      "findings": [
+        {
+          "pattern": "7",
+          "severity": "mild",
+          "line": "No rescue hidden in it. No second thought from Dalaran or Silvermoon. Just facts.",
+          "deletionTest": "Just facts.",
+          "reason": "Pattern 7 chained negation building to a simple positive statement.",
+          "suggestedFix": "Just facts.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "3",
+          "severity": "mild",
+          "line": "Not because she meant to draw it. The temptation had burned out somewhere between Stratholme and the coast.",
+          "deletionTest": "The temptation had burned out somewhere between Stratholme and the coast.",
+          "reason": "Pattern 3 source-swap pivot refusing the real cause before stating it.",
+          "suggestedFix": "The temptation had burned out somewhere between Stratholme and the coast.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "8",
+          "severity": "mild",
+          "line": "No spell. No last attempt. Just the amber weight of it in her palm, dull as old resin.",
+          "deletionTest": "Just the amber weight of it in her palm, dull as old resin.",
+          "reason": "Pattern 8 mundane reveal chain delaying the actual image.",
+          "suggestedFix": "The amber weight of it lay in her palm, dull as old resin.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "2",
+          "severity": "mild",
+          "line": "Not as gust. As answer.",
+          "deletionTest": "As answer.",
+          "reason": "Pattern 2 fragment pivot withholding the committed image for a fake reveal.",
+          "suggestedFix": "It hit as an answer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "7",
+          "severity": "mild",
+          "line": "No blind reaching. No force for its own sake.",
+          "deletionTest": "[delete both fragments]",
+          "reason": "Pattern 7 chained negation scaffolding before the real action sentence that follows.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "2",
+          "severity": "mild",
+          "line": "Not higher. Meaner.",
+          "deletionTest": "Meaner.",
+          "reason": "Pattern 2 fragment pivot using a negated first beat as dead scaffolding.",
+          "suggestedFix": "Meaner.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "2",
+          "severity": "mild",
+          "line": "\"Not a mage's some.\" \"A real some, then.\"",
+          "deletionTest": "\"A real some, then.\"",
+          "reason": "Pattern 2 dialogue pivot refusing the usable phrasing before naming it.",
+          "suggestedFix": "\"A real some, then.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "2",
+          "severity": "mild",
+          "line": "No gentleness in it. Just a hard drag into the lee of the stern ladder, where a body could go down without being trampled.",
+          "deletionTest": "Just a hard drag into the lee of the stern ladder, where a body could go down without being trampled.",
+          "reason": "Pattern 2 fragment pivot clearing its throat before the concrete action.",
+          "suggestedFix": "Sylvanas dragged her into the lee of the stern ladder, where a body could go down without being trampled.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "7",
+          "severity": "mild",
+          "line": "Not last night. Not recent.",
+          "deletionTest": "Burn pattern old enough to have taken weather.",
+          "reason": "Pattern 7 stacked timing negations restating information the previous sentence already carries.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "5",
+          "severity": "mild",
+          "line": "Arthas had not merely passed through. He had been here long enough to cut dock, land stores, and move inland.",
+          "deletionTest": "He had been here long enough to cut dock, land stores, and move inland.",
+          "reason": "Pattern 5 preamble negation priming a smaller truth before the actual claim.",
+          "suggestedFix": "He had been here long enough to cut dock, land stores, and move inland.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 6,
+      "kills": 6,
+      "keeps": 0,
+      "dominantPattern": "P5/P6 second-sweep agency laundering",
+      "severityMarkers": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterWarnings": [
+        "Dedicated P5/P6 second sweep completed across the whole chapter.",
+        "Harbor/departure and open-water sections each carry multiple agency-laundering hits."
+      ],
+      "findings": [
+        {
+          "pattern": "abstract-history-living",
+          "severity": "mild",
+          "line": "Sea years lived in the way she planted her boots.",
+          "subject": "Sea years",
+          "verb": "lived",
+          "realAgent": "Dagny's practiced stance and boot placement after long work at sea",
+          "reason": "Abstract history is carrying bodily presence instead of the prose naming the visible effect.",
+          "suggestedFix": "She planted her boots with the certainty of long years at sea.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "institution-carrying-facts",
+          "severity": "mild",
+          "line": "The sort institutions could still carry after the power to alter anything had failed.",
+          "subject": "institutions",
+          "verb": "carry",
+          "realAgent": "relay traffic and runners still passing route facts hand to hand",
+          "reason": "The sentence launders human relay mechanics onto an abstraction.",
+          "suggestedFix": "The sort of facts that still passed hand to hand after the power to alter anything had failed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "mechanics-as-dialogue",
+          "severity": "mild",
+          "line": "The whole vessel answered the water in small muscular adjustments her knees resented on principle.",
+          "subject": "vessel",
+          "verb": "answered",
+          "realAgent": "the hull and rigging flexing under the water's motion",
+          "reason": "The prose gives the ship a conversational verb instead of naming its physical response.",
+          "suggestedFix": "The whole vessel flexed with the water in small muscular adjustments her knees resented on principle.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "scenery-giving-back-distance",
+          "severity": "mild",
+          "line": "The net yard gave back a foot of distance, then another.",
+          "subject": "net yard",
+          "verb": "gave back",
+          "realAgent": "the schooner pulling away and opening the gap from shore",
+          "reason": "Second-sweep geography hit: scenery is made to perform the ship's movement.",
+          "suggestedFix": "The distance to the net yard opened by a foot, then another.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "direction-pressing-back",
+          "severity": "mild",
+          "line": "North pressed back anyway.",
+          "subject": "North",
+          "verb": "pressed back",
+          "realAgent": "the supernatural headwind and the source's resistance",
+          "reason": "Second-sweep abstract-direction hit: the prose assigns active resistance to a direction instead of the hostile force in the scene.",
+          "suggestedFix": "The headwind shoved back anyway.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "environment-occupying-senses",
+          "severity": "mild",
+          "line": "The sea had kept it distant all morning by occupying every other sense.",
+          "subject": "sea",
+          "verb": "kept / occupying",
+          "realAgent": "cold, motion, nausea, and deck labor swamping Jaina's attention",
+          "reason": "The environment is made to manage attention instead of the prose naming the concrete sensory overload.",
+          "suggestedFix": "Cold, motion, and deck labor had kept it distant all morning.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "cleanReason": "Counted all seven tic families. The chapter has one non-said performance tag, one physical tightened, one eased, and one generic gaze drop under the relevant caps; no tic category exceeds its chapter limit.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 16,
+    "totalKeeps": 6,
+    "mildKills": 16,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 16,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 16 mild KILLs remain across negation-addiction-hunting-guide.md and intent-smear-agency-laundering-guide.md. recurring-prose-tics.md stayed under cap, but the mild total is well above the pass threshold."
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "chapterId": "chapter21",
+  "title": "Frostmourne",
+  "pov": "Sylvanas Windrunner",
+  "timelinePosition": "Opens the morning after Chapter 20's landfall at Daggercap Bay and closes on the retreat from the Frostmourne cavern toward Muradin's camp.",
+  "openLocation": "Daggercap Bay, Northrend.",
+  "transport": "Harbor movement on foot -> forced march inland through Dragonblight -> approach to Muradin's camp -> cavern assault and fighting retreat.",
+  "activeCastAtOpen": [
+    "Sylvanas",
+    "Jaina",
+    "Cyndia",
+    "three Farstrider rangers",
+    "Dagny briefly",
+    "Muradin later"
+  ],
+  "immediateObjective": "Track Arthas inland fast enough to reach him before whatever is calling him in the glacier finishes the turn.",
+  "constraints": [
+    "Limited Third Absolute — Sylvanas's perception only.",
+    "No interior access to Jaina or Arthas; their state must stay legible through speech, movement, magical effects, and Sylvanas's field reading.",
+    "Keep Northrend material: travel time, cold, terrain, and extraction discipline must stay visible so the cave does not feel teleported in."
+  ],
+  "metaInfo": {
+    "worldbuildingReferences": [
+      {
+        "label": "Lordaeron and Northrend",
+        "path": "stories/the-plague-road/locations/lordaeron-and-northrend.md"
+      },
+      {
+        "label": "Plague Mechanism",
+        "path": "stories/the-plague-road/plans/plague-mechanism.md"
+      }
+    ],
+    "characterReferences": [
+      {
+        "label": "Sylvanas profile",
+        "path": "stories/the-plague-road/characters/sylvanas.md"
+      },
+      {
+        "label": "Sylvanas voice",
+        "path": "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md"
+      },
+      {
+        "label": "Jaina profile",
+        "path": "stories/the-plague-road/characters/jaina.md"
+      },
+      {
+        "label": "Jaina voice",
+        "path": "stories/the-plague-road/characters/voice-sheets/jaina-voice.md"
+      },
+      {
+        "label": "Cyndia profile",
+        "path": "stories/the-plague-road/characters/cyndia.md"
+      },
+      {
+        "label": "Muradin profile",
+        "path": "stories/the-plague-road/characters/muradin.md"
+      },
+      {
+        "label": "Arthas profile",
+        "path": "stories/the-plague-road/characters/arthas.md"
+      }
+    ],
+    "arcReferences": [
+      {
+        "label": "Story arc",
+        "path": "stories/the-plague-road/plans/story-arc.md"
+      },
+      {
+        "label": "Partnership arc",
+        "path": "stories/the-plague-road/plans/partnership-arc.md"
+      },
+      {
+        "label": "Arthas arc",
+        "path": "stories/the-plague-road/plans/arthas-arc.md"
+      },
+      {
+        "label": "Endgame arc",
+        "path": "stories/the-plague-road/plans/endgame-arc.md"
+      },
+      {
+        "label": "Frostmourne lure",
+        "path": "stories/the-plague-road/plans/frostmourne-lure.md"
+      },
+      {
+        "label": "Chapter 20 plan",
+        "path": "stories/the-plague-road/plans/chapters/chapter20.md"
+      },
+      {
+        "label": "Chapter 22 plan",
+        "path": "stories/the-plague-road/plans/chapters/chapter22.md"
+      }
+    ]
+  },
+  "knowledgeLedger": {
+    "povKnowsAtOpen": [
+      "Arthas passed through Daggercap Bay weeks ago and pushed inland with speed and purpose.",
+      "Jaina's Frostmourne sensitivity is already baseline after the crossing and is now sharper and more dangerous, not newly awakened.",
+      "No institution is between them and Northrend now; the pursuit belongs entirely to the formation.",
+      "Arthas's expedition left military traces strong enough to follow.",
+      "The source wanted Arthas to arrive and did not want Sylvanas and Jaina to arrive, which means something specific waits inland for him."
+    ],
+    "povDoesNotKnowAtOpen": [
+      "What object or revelation Arthas is actually chasing.",
+      "Whether any local ally survived long enough to brief them.",
+      "Whether the prince is still a man they can reach before the turn completes.",
+      "What exact seam Jaina will later hear inside the blade's field."
+    ],
+    "mustNotBeImpliedYet": [
+      "No throne-room-ready spell framework yet.",
+      "No assumption that Muradin dies; the chapter ends with him wounded and handed off.",
+      "No suggestion that the cave loss means the partnership failed.",
+      "No clean labeling of the Lich King's whole hierarchy beyond what field evidence supports."
+    ],
+    "castKnowsLeavingChapter": [
+      "Arthas has already claimed Frostmourne and is no longer operating like a prince.",
+      "Muradin can explain the blade, the route, and the curse, but he cannot stop the prince before the cave.",
+      "Jaina's Scholomance education is what lets her identify Frostmourne as the plague's sister-weapon.",
+      "The cave fight proves the partnership at its best and also proves that skill alone is not enough against the blade.",
+      "Muradin falls but is recovered alive enough for handoff.",
+      "Jaina heard a seam in Frostmourne's field, and that thread now matters more than any straight rematch."
+    ]
+  },
+  "arcPosition": {
+    "pov": {
+      "currentStanceAtOpen": "They are late, but lateness does not yet mean irrelevance if the prince can still be reached before the source finishes with him.",
+      "surfaceObjective": "Turn harbor traces into a usable inland line and reach Arthas before the unknown north of the bay hardens around him.",
+      "pressureSource": "Arthas's lead, Jaina's depletion, Northrend terrain, and Sylvanas's private knowledge that she helped set this prince on the path she is now racing to cut.",
+      "misbeliefManifestation": "Some part of Sylvanas still wants superior execution to recover time that raw arithmetic has already lost.",
+      "chapterTest": "Recognize a clean defeat for what it is without turning that defeat into blame against the partner beside her.",
+      "forcedChoice": "Enter the cave despite the too-late evidence, then choose retreat quickly enough to save the formation when the matchup proves unwinnable.",
+      "endStateShift": "Sylvanas stops treating Arthas as the primary target and starts treating the blade as the actual enemy.",
+      "carryForwardResidue": "Chapter 22 opens with Muradin wounded, Jaina carrying a new thread in her head, and the race home fully alive."
+    },
+    "throughPov": [
+      {
+        "character": "Jaina",
+        "visibleFunction": "Tracking instrument, magical striker, and the only person in the formation who can hear what Frostmourne actually is.",
+        "povPressure": "Sylvanas reads the mage through bread-smell, air-writing, tremor, pace, and the exact expressions that mean Jaina has found something she cannot yet explain.",
+        "interactionRule": "No interiority. Jaina's discoveries stay visible only through what she says, how fast she says it, and what her hands start doing when her mind outruns speech."
+      }
+    ],
+    "team": [
+      {
+        "label": "partnership / team",
+        "operatingModeAtOpen": "Fast, disciplined, and already carrying the weight of the voyage.",
+        "operationalChangeThisChapter": "Muradin becomes the outside witness who names their synchronization, then the cave proves the pair's ceiling against Frostmourne.",
+        "doNotOverstateRule": "Let the cave loss itself prove the quality of the pair. Do not narrate admiration ahead of the evidence."
+      }
+    ]
+  },
+  "castAndHandoffRules": {
+    "entries": [
+      {
+        "character": "Muradin",
+        "rule": "Blunt, practical, warm in the dwarf way, and capable of naming what Sylvanas and Jaina will not name about themselves."
+      },
+      {
+        "character": "Cyndia and the rangers",
+        "rule": "Flank security, undead suppression, casualty extraction. Their professionalism keeps the retreat clean."
+      },
+      {
+        "character": "Dagny",
+        "rule": "Brief harbor presence only; she matters as exit strategy, not as inland participant."
+      },
+      {
+        "character": "Arthas",
+        "rule": "Read only through Sylvanas's face-reading, Jaina's magical warnings, and the blade's effects. No interior access."
+      }
+    ],
+    "chapterHandoffTarget": "Chapter 22 opens with Muradin's handoff, the return march, and Jaina starting to turn what she heard in the cave into something usable."
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "The Burned Shore",
+      "sceneFunction": "Let the harbor itself tell the story of Arthas's inland push before any ally speaks.",
+      "castInScene": [
+        "Sylvanas",
+        "Jaina",
+        "Cyndia",
+        "three Farstrider rangers",
+        "Dagny briefly"
+      ],
+      "knowledgeAtSceneStart": [
+        "Arthas came through this harbor weeks ago.",
+        "The source lies inland and the formation cannot afford a false trail."
+      ],
+      "arcPressure": "Keep burned hulls, hasty dockwork, abandoned camp traces, and inland tracks on page so Arthas's lead feels physical.",
+      "enrichment": {
+        "detail": "Use Daggercap Bay as a frozen withdrawal site: charred hull ribs, hurried dock additions, ration caches, and stripped camp traces. Warcraft III names Daggercap Bay as Arthas's landing site, though some later canon shifts the ship-burning to the Forgotten Shore; keep Daggercap as the story's established continuity.",
+        "source": "Warcraft III: The Shores of Northrend; Wowpedia/Warcraft Wiki on Daggercap Bay and Forgotten Shore; internal reference: stories/the-plague-road/locations/lordaeron-and-northrend.md"
+      },
+      "beats": [
+        {
+          "beatId": 1,
+          "beatType": "scene",
+          "scenePhase": "goal",
+          "goal": "Read Daggercap Bay for evidence of Arthas's movement and state of mind.",
+          "conflict": "The harbor confirms not just that Arthas came through, but that he was already treating his own people as expendable fuel.",
+          "outcome": {
+            "type": "yes-but",
+            "summary": "The bay yields a clean route inland, but the wrecks confirm a self-inflicted burn and a command logic already beyond normal campaign arithmetic."
+          },
+          "valueShift": "late arrival -> the lead becomes uglier",
+          "newOnPageInformation": [
+            "The harbor evidence confirms the fleet burn was Arthas's doing, not enemy destruction.",
+            "Daggercap Bay still shows hurried dock use, ration traces, and stripped military staging rather than simple transit.",
+            "The Wolfheart sits apart from the older wreckage because it arrived after the burning, not because the harbor is safe."
+          ],
+          "stillUnknownAfterBeat": [
+            "What exactly Arthas raced inland to reach.",
+            "Whether anyone local survived with useful intelligence."
+          ],
+          "sensoryAnchors": [
+            "charred ship ribs frozen into harbor ice",
+            "burn smell still caught in cold air weeks later",
+            "an intact Wolfheart hull set against wrecks that carried no one home"
+          ],
+          "transitionIntent": "trail-pressure: once the fleet tells its story, the chapter can follow the prince's line inland."
+        },
+        {
+          "beatId": 2,
+          "beatType": "scene",
+          "scenePhase": "disaster",
+          "goal": "Pick up the inland line and decide whether the formation can still make contact before the target hardens beyond reach.",
+          "conflict": "Everything about the track says brutality, speed, and no intent to circle back; the trail itself argues they are already late.",
+          "outcome": {
+            "type": "yes-but",
+            "summary": "The inland line is obvious and usable, but the evidence says Arthas drove his people at the pace of obsession rather than campaign logic."
+          },
+          "valueShift": "the lead becomes uglier -> the chase becomes a race",
+          "newOnPageInformation": [
+            "Arthas's track is too broad and too hard-run to read as a cautious advance.",
+            "Jaina's widened channel aligns with the same inland line the bootprints mark, sharpening an existing sensitivity rather than creating a new one.",
+            "No sign suggests hesitation, fallback, or supply-minded pacing."
+          ],
+          "stillUnknownAfterBeat": [
+            "How far inland the decisive site lies.",
+            "Whether the formation reaches it before the prince claims what he came for."
+          ],
+          "sensoryAnchors": [
+            "frozen bootprints and dragged sled lines in dirty snow",
+            "torn packing straw and broken crate hoops at the edge of camp",
+            "Jaina's expression changing when the magical line and the physical line match"
+          ],
+          "transitionIntent": "environment-pressure: Northrend itself now has to start fighting the formation before any ally arrives."
+        }
+      ],
+      "sceneLevelWarnings": [
+        "Harbor burn evidence is carry-forward from chapter20. Present scene 1 as a closer read of already-established wreckage, not as a fresh reveal."
+      ]
+    },
+    {
+      "sceneId": 2,
+      "title": "The March",
+      "sceneFunction": "Make the land hostile, then deliver the last surviving local intelligence.",
+      "castInScene": [
+        "Sylvanas",
+        "Jaina",
+        "Cyndia",
+        "three Farstrider rangers"
+      ],
+      "knowledgeAtSceneStart": [
+        "The line inland is clear.",
+        "The target is moving fast and the formation is already behind."
+      ],
+      "arcPressure": "Keep terrain, cold, exhaustion, and line-of-march discipline visible so the cave does not feel like a teleport.",
+      "enrichment": {
+        "detail": "Dragonblight should read as an attrition corridor more than a scenic wonder: blown flats, abandoned gear, frozen dead, exposed distances, and almost no shelter. The scale can include dragon-bone landmarks, but the primary travel texture is military exhaustion under dead-zone pressure.",
+        "source": "Warcraft Wiki/Wowpedia on Dragonblight; internal reference: stories/the-plague-road/locations/lordaeron-and-northrend.md"
+      },
+      "beats": [
+        {
+          "beatId": 3,
+          "beatType": "scene",
+          "scenePhase": "goal",
+          "goal": "Cross the glacial interior fast enough to keep the race alive.",
+          "conflict": "Dragonblight turns speed into attrition: cold, open distance, and Jaina's post-crossing condition tax every step.",
+          "outcome": {
+            "type": "yes-but",
+            "summary": "The formation keeps Farstrider pace on bad ground, but every mile deepens the sense that the land itself is aligned against the living."
+          },
+          "valueShift": "race -> hostile theater",
+          "newOnPageInformation": [
+            "Northrend's interior reads as a dead zone shaped for attrition rather than habitation.",
+            "Jaina hears the source more clearly the farther they push inland, worsening a sensitivity that was already baseline.",
+            "Sylvanas can feel the place pressing through ward-sense even without arcane training."
+          ],
+          "stillUnknownAfterBeat": [
+            "Whether the target ahead is still a prince or already something else.",
+            "Whether the cave can be reached before the turn finishes."
+          ],
+          "sensoryAnchors": [
+            "hard snow crust breaking under boots",
+            "grey-white distance with no soft edges",
+            "breath freezing faster than speech can finish"
+          ],
+          "transitionIntent": "ally-lane: after the land strips away comfort, the chapter can offer the one surviving ally ahead."
+        },
+        {
+          "beatId": 4,
+          "beatType": "scene",
+          "scenePhase": "disaster",
+          "goal": "Reach the dwarven camp and test whether it is still staffed by the living.",
+          "conflict": "The camp is built to survive siege conditions and will not trust strangers quickly in a landscape that keeps turning living things into less-than-living things.",
+          "outcome": {
+            "type": "yes-but",
+            "summary": "The formation reaches the camp and gains entry, but the camp's state proves everyone here has already been living under the same warning Sylvanas and Jaina only just arrived to read."
+          },
+          "valueShift": "hostile theater -> survivable local foothold",
+          "newOnPageInformation": [
+            "The camp still holds because dwarven discipline and fortification bought time.",
+            "The survivors already understand they are dealing with cursed territory rather than a normal campaign.",
+            "Arthas passed through recently enough that the intelligence is still hot."
+          ],
+          "stillUnknownAfterBeat": [
+            "How much the surviving dwarves actually know about the object Arthas sought.",
+            "Whether any warning they provide can still beat Arthas to the cave."
+          ],
+          "sensoryAnchors": [
+            "timber palisade rimed white",
+            "smoke from low dwarven cookfires under windbreaks",
+            "men on the wall looking relieved and suspicious in equal measure"
+          ],
+          "transitionIntent": "briefing-pressure: now the chapter can hand the story to Muradin, who knows the blade and sees the pair from outside."
+        }
+      ],
+      "sceneLevelWarnings": [
+        "Keep Jaina's sensitivity framed as worsening under proximity, not appearing for the first time in Dragonblight."
+      ]
+    },
+    {
+      "sceneId": 3,
+      "title": "The Ally",
+      "sceneFunction": "Deliver the Frostmourne intelligence, let Muradin crack the pair open from the outside, and commit the trio to the race.",
+      "castInScene": [
+        "Sylvanas",
+        "Jaina",
+        "Cyndia",
+        "Muradin",
+        "three Farstrider rangers"
+      ],
+      "knowledgeAtSceneStart": [
+        "Arthas passed this camp and headed deeper inland after something worth fortifying against."
+      ],
+      "arcPressure": "Keep Muradin's physical presence, camp heat, and the arithmetic of time visible so the alliance never turns chatty.",
+      "enrichment": {
+        "detail": "Muradin's position should feel like a siege-worn dwarven dig turned field fort: forge smoke, exhausted guards, temporary shelter, and archaeological knowledge pressed into wartime warning work rather than a generic cozy camp.",
+        "source": "Internal references: stories/the-plague-road/characters/muradin.md and stories/the-plague-road/locations/lordaeron-and-northrend.md; canon support from Warcraft references on Muradin's Northrend expedition"
+      },
+      "beats": [
+        {
+          "beatId": 5,
+          "beatType": "scene",
+          "scenePhase": "goal",
+          "goal": "Secure Muradin's cooperation and absorb the last clear read from someone who knew Arthas before the cave.",
+          "conflict": "Muradin's news is useful, but it comes with the outside naming Sylvanas and Jaina have been avoiding and with the time loss the camp cannot erase.",
+          "outcome": {
+            "type": "yes-but",
+            "summary": "Muradin trusts them quickly and gives them the local picture, but he also makes plain that Arthas is already near whatever called him north."
+          },
+          "valueShift": "local foothold -> outside witness to the partnership",
+          "newOnPageInformation": [
+            "Muradin has watched Arthas deteriorate up close and no longer believes ordinary command logic applies.",
+            "He is the first outsider to say plainly that Jaina and Sylvanas move like a machine built from two people.",
+            "The camp cannot save the time already lost; it can only spend its last useful intelligence on them."
+          ],
+          "stillUnknownAfterBeat": [
+            "Whether the named object can still be reached before Arthas touches it.",
+            "Whether Muradin joins as guide, witness, or casualty-in-waiting."
+          ],
+          "sensoryAnchors": [
+            "hot metal-tasting ale in a shelter that still smells of forge and cold wool",
+            "Muradin's beard-rings clicking while he talks",
+            "Sylvanas hearing an outsider word what the pair never would"
+          ],
+          "transitionIntent": "naming-pressure: once Muradin is in the room, the chapter can finally name the weapon."
+        },
+        {
+          "beatId": 6,
+          "beatType": "scene",
+          "scenePhase": "conflict",
+          "goal": "Learn what Frostmourne is and why it matters.",
+          "conflict": "The briefing completes the picture at exactly the moment when the picture may already be too late to change.",
+          "outcome": {
+            "type": "no-and",
+            "summary": "The intelligence is complete enough to matter, and it lands with the knowledge that Arthas left for the blade two days ago."
+          },
+          "valueShift": "outside witness to the partnership -> the blade becomes the real target",
+          "newOnPageInformation": [
+            "Frostmourne is a cursed weapon calling to Arthas from the glacier.",
+            "Jaina recognizes the blade's resonance family as kin to the plague's mechanism.",
+            "Muradin has been warning anyone who would listen for months and only gets usable language for the threat once Jaina gives him one."
+          ],
+          "stillUnknownAfterBeat": [
+            "Whether Arthas has already claimed the blade by the time they arrive.",
+            "What the blade does to a wielder in real time rather than in warning text."
+          ],
+          "sensoryAnchors": [
+            "Jaina's fingers writing invisible notation in cold air",
+            "Muradin's relief at being told not just that the blade is wrong but why",
+            "frost on the shelter wall while the name finally lands"
+          ],
+          "transitionIntent": "last-chance logic: once the weapon is named, the only remaining move is to run for it."
+        },
+        {
+          "beatId": 7,
+          "beatType": "scene",
+          "scenePhase": "disaster",
+          "goal": "Turn the briefing into movement before the last narrow chance disappears.",
+          "conflict": "The arithmetic is terrible: Arthas left two days ago for a three-day march that a lighter force might cover faster.",
+          "outcome": {
+            "type": "yes-but",
+            "summary": "The trio forms and the race begins, but everyone in the room knows the remaining margin is already thin enough to tear."
+          },
+          "valueShift": "the blade becomes the real target -> last-chance pursuit",
+          "newOnPageInformation": [
+            "Muradin joins personally rather than staying behind the walls.",
+            "The formation becomes briefly larger and more capable without becoming safe.",
+            "The road to the cave is now measured in hours and half-days, not in abstract chapters."
+          ],
+          "stillUnknownAfterBeat": [
+            "Whether they are racing a prince or only racing the aftermath of a prince.",
+            "Whether the trio survives first contact with the blade lane."
+          ],
+          "sensoryAnchors": [
+            "Muradin's hammer settling on its harness as he stands",
+            "snow kicked up by a departure that does not pause for a meal or a speech",
+            "Jaina agreeing with too little breath to waste words"
+          ],
+          "transitionIntent": "straight-line urgency: once the trio commits, the chapter can move straight to the glacier and stop pretending the timing is good."
+        }
+      ],
+      "sceneLevelWarnings": [
+        "Beat 5 was labeled 'Scene/Sequel' in the outline. It is normalized here to a scene beat because it uses goal/conflict/outcome scaffolding."
+      ]
+    },
+    {
+      "sceneId": 4,
+      "title": "Frostmourne",
+      "sceneFunction": "Deliver the too-late proof, prove the partnership's ceiling, and let the first real anti-blade thread survive the loss.",
+      "castInScene": [
+        "Sylvanas",
+        "Jaina",
+        "Cyndia",
+        "three Farstrider rangers",
+        "Muradin",
+        "Arthas"
+      ],
+      "knowledgeAtSceneStart": [
+        "Frostmourne exists.",
+        "Arthas ran for it.",
+        "The trio is almost certainly late."
+      ],
+      "arcPressure": "Keep Light's Vengeance, the soldiers in the cave, the anti-magic field, and the extraction discipline concrete so the loss feels tactical rather than decorative.",
+      "enrichment": {
+        "detail": "Frostmourne Cavern canon includes Light's Vengeance abandoned outside, a warning inscription at the dais, and a blade field that changes men near it before full death. Keep the chamber wrong, tactical, and glacial rather than turning it into a generic magic throne room.",
+        "source": "Warcraft Wiki/Wowpedia on Frostmourne Cavern and Light's Vengeance; internal reference: stories/the-plague-road/plans/frostmourne-lure.md"
+      },
+      "beats": [
+        {
+          "beatId": 8,
+          "beatType": "scene",
+          "scenePhase": "goal",
+          "goal": "Reach the cave and judge whether entry still has any chance of changing the outcome.",
+          "conflict": "Everything outside the entrance already says they are too late: tracks in, no tracks out, and Arthas's holy hammer discarded in the snow.",
+          "outcome": {
+            "type": "no-and",
+            "summary": "The formation reaches the cave, and the evidence outside it confirms the prince they chased is already gone in the only way that matters."
+          },
+          "valueShift": "last-chance pursuit -> threshold to a finished turn",
+          "newOnPageInformation": [
+            "Light's Vengeance lies abandoned in the snow outside the cave.",
+            "Even Sylvanas can feel the wrongness radiating out of the entrance.",
+            "Jaina hears the blade without trying, which means the channel is now receiving rather than only searching."
+          ],
+          "stillUnknownAfterBeat": [
+            "Whether anything of Arthas can still be reached inside.",
+            "Whether the cave offers any tactical advantage at all."
+          ],
+          "sensoryAnchors": [
+            "golden hammer glow against blue-white snow",
+            "bootprints going in and never coming back out",
+            "ward-sense telling Sylvanas to leave before she crosses the threshold"
+          ],
+          "transitionIntent": "threshold-pressure: once the evidence says too late, the chapter has to make the formation enter anyway."
+        },
+        {
+          "beatId": 9,
+          "beatType": "scene",
+          "scenePhase": "conflict",
+          "goal": "Confirm what Arthas has become and what Frostmourne does to the men nearest it.",
+          "conflict": "The main chamber shows the target already transformed, surrounded by soldiers who look living at a glance and wrong at a second look.",
+          "outcome": {
+            "type": "no-and",
+            "summary": "The chamber gives them total clarity and zero comfort; Arthas is holding the blade, and his first words confirm there is no misunderstanding left."
+          },
+          "valueShift": "threshold to a finished turn -> confrontation with the transformed target",
+          "newOnPageInformation": [
+            "Arthas's loyal soldiers stand changed by proximity even before death fully takes them.",
+            "Frostmourne's cold is an active power, not just atmosphere.",
+            "Arthas's face is still his and the decision-lag inside it is gone."
+          ],
+          "stillUnknownAfterBeat": [
+            "Whether any attack lane can touch him cleanly.",
+            "Whether the formation can do more than prove the loss."
+          ],
+          "sensoryAnchors": [
+            "sourceless blue-white light under glacial ice",
+            "men in armor standing too still to be ordinary soldiers",
+            "Arthas's voice sounding like his with the warmth removed"
+          ],
+          "transitionIntent": "commitment-pressure: once the room shows them what they are really fighting, the chapter can spend the partnership at full speed."
+        },
+        {
+          "beatId": 10,
+          "beatType": "scene",
+          "scenePhase": "disaster",
+          "goal": "Stop Arthas in the cave before he can leave with the blade.",
+          "conflict": "Frostmourne's field eats Jaina's best magic, Arthas's enhanced physicality overruns mortal training, and the cave itself becomes a weapon when he turns the blade against it.",
+          "outcome": {
+            "type": "no-and",
+            "summary": "The partnership fights at absolute peak and still loses the matchup, and Muradin takes the shard hit that breaks the trio apart."
+          },
+          "valueShift": "confrontation with the transformed target -> clean defeat",
+          "newOnPageInformation": [
+            "Sylvanas's best opening arrow proves ordinary lethal standards no longer apply.",
+            "Jaina can map the field fast enough to know its family resemblance to the plague, but not fast enough to break it here.",
+            "Muradin falls to ice-shard blowback in this story's cave-fight sequence."
+          ],
+          "stillUnknownAfterBeat": [
+            "Whether Muradin is dead or only unconscious.",
+            "Whether the formation can carry anything useful out of a fight it lost."
+          ],
+          "sensoryAnchors": [
+            "first arrow clattering on ice after Arthas pulls it out",
+            "magic breaking against the blade's field before it reaches flesh",
+            "shattered ice flying like thrown knives when Frostmourne strikes stone"
+          ],
+          "transitionIntent": "extraction-pressure: once the cave proves the mismatch, the chapter has to show what a perfect retreat looks like."
+        },
+        {
+          "beatId": 11,
+          "beatType": "sequel",
+          "scenePhase": "decision",
+          "emotion": "Defeat processed at operational speed: no room for grief, only extraction, counting, and the first shape of a different answer.",
+          "dilemma": "Stay and lose everyone in a rematch they cannot win, or retreat cleanly with the wounded and accept that the next attempt has to use something other than skill.",
+          "decision": "Retreat now, save Muradin, and carry the one thin thread Jaina heard in the blade's cycle back out into the wind.",
+          "valueShift": "clean defeat -> resolve built on a new thread",
+          "newOnPageInformation": [
+            "The formation extracts with all seven bodies, one unconscious and none abandoned.",
+            "Sylvanas's post-fight read is brutally clear: she would not change the positioning, the timing, or the partner.",
+            "Jaina starts air-writing immediately on the march out, which means the cave gave her something even while it beat them."
+          ],
+          "stillUnknownAfterBeat": [
+            "Whether Muradin survives the carry south.",
+            "What exactly the seam Jaina heard can become once she has room to think."
+          ],
+          "sensoryAnchors": [
+            "dwarf boots dragging tracks in snow while elves carry him",
+            "Light's Vengeance left glowing behind them because there is no hand free for it",
+            "Jaina's shaking fingers drawing invisible patterns even while she walks"
+          ],
+          "transitionIntent": "chapter-bridge: Chapter 22 opens with Muradin still alive enough to hand off and Jaina still carrying the cave inside her head."
+        }
+      ],
+      "sceneLevelWarnings": [
+        "Potential canon divergence: some Frostmourne sources place Muradin's shard wound at the moment Arthas claims the blade rather than during the later cave fight. Kept as outline continuity for this project."
+      ]
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "warnings": [
+      "Beat 5 was labeled 'Scene/Sequel' in the outline. It was normalized to a scene beat because it uses goal/conflict/outcome scaffolding rather than sequel structure.",
+      "Beats 1-10 run as scene beats before the first sequel at beat 11. The chapter's breakneck pace is intentional, but it still trips the planner's scene-sequel imbalance check.",
+      "Scene outcomes skew heavily yes-but and no-and, with no clean yes beat. Pressure stays high, but tonal range narrows.",
+      "Beats 1-3 and 8-10 all shift negativeward in sequence. Preserve pace, but watch for cumulative monotony when drafting the prose.",
+      "Harbor burn evidence and Jaina's widened sensitivity are carry-forward states from chapter20. They should read as closer interpretation and worsening, not as first discovery.",
+      "Potential canon divergence remains around Muradin's wounding sequence in the cave. The plan keeps the outline's version and flags the discrepancy instead of rewriting it."
+    ],
+    "enrichmentsApplied": 4
+  }
+}

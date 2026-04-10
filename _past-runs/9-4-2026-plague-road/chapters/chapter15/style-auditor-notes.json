@@ -1,0 +1,142 @@
+{
+  "chapterId": "chapter15",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "L3-L13: The opening road read stays centered in 7-14 word sentences with clipped one-line paragraphs; the chapter-wide average lands at 9.4 words per sentence, which matches the default pressure band.",
+        "L21-L23: 'Stone walls. Square towers. The chapel roof above the inner line.' uses earned fragment stacking for arrival impact rather than ornamental chopping.",
+        "L47-L57: The stretcher-turning beat cuts into 3-9 word impact chains, then briefly lengthens to clarify geometry ('The other jammed a knee into the corpse's chest...'), matching the action rule.",
+        "L163-L177: Jaina's briefing alternates short clauses with one longer causal sentence, which keeps analytical content moving at war-tent speed instead of flattening into lecture rhythm.",
+        "L245-L271: Arthas's command cadence stays short and dominant while Uther and Jaina take the longer explanatory clauses, preserving the power-dynamic sentence map."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "L3-L13: Opening diction stays concrete and lived-in—shoe, ruts, carts, sacks, knuckles, pressure—without abstract summary language.",
+        "L95-L105: Uther's field update uses plain operational vocabulary ('killing their own dead,' 'line breaks,' 'fresh bodies start rising again') rather than briefing jargon.",
+        "L159-L165: Sylvanas's report keeps road-and-field language ('grain sellers,' 'hands guiding the wagons,' 'bodies turning inside the line') and avoids document-voice contamination.",
+        "L165-L177: Jaina's mechanism explanation stays technical without drifting into modern lab talk; there are no zero-tolerance hitlist terms such as vector, concentration, propagation, or ingested.",
+        "L267-L269 and L328-L354: Late-scene dialogue keeps everyone in scene-bound speech ('Say it plain,' 'Speed,' 'Anything between me and the stock') instead of planner-language shorthand."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "metaphorPolicy",
+      "observations": [
+        "L7-L13: 'Eastweald still wore its ordinary face badly' gives one controlled image sourced from bodily/social reading, then the prose returns to literal road detail immediately.",
+        "L71-L72: Uther rising 'big as an old campaign scar given shoulders' uses a single martial/body-strain comparison that sharpens presence without stacking imagery.",
+        "L145-L146: 'Andorhal was the throat, not the end of it' turns logistics into a clean bodily choke-point image consistent with tactical POV logic.",
+        "L239-L241: 'The title... was still in the room between them like a knife left out on purpose' matches the chapter's confrontation pressure and keeps the source domain in weapons/status.",
+        "L302-L316: The ring 'swallowing lamplight' is the only notable image in the farewell sting; elsewhere the chapter stays mostly literal, with no mixed domains or ornamental simile drift."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "L21-L23: The Hearthglen reveal uses multiple one-line paragraphs and a six-sentence fragment stack to deliver threat assessment; the break pattern is legible and earned.",
+        "L45-L46: The triage paragraph runs 5 sentences / 84 words, which is dense but still inside the guide's escalation allowance because every clause adds sensory or operational consequence.",
+        "L165-L166: Jaina's first grain briefing had sprawled to 8 sentences in one dialogue paragraph, exceeding the 5-6 sentence ceiling even though it stayed under the word cap.",
+        "L193-L205: The proposal sequence resets into short dialogue paragraphs once the operative ask becomes clear, restoring page snap after the denser explanation block.",
+        "L338-L360: The departure alternates 1-3 sentence paragraphs and ends on a one-line pressure image, so the page shape accelerates instead of settling into uniform bricks."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 165,
+          "rule": "paragraphLengthGuidelines — single 8-sentence Jaina briefing paragraph exceeded the 5-6 sentence ceiling",
+          "before": "\"The grain is only the shell,\" she said. Her voice came out quick and built. \"It survives transport, storage, baking. People keep eating it. The body does the rest from there. By the time it shows plain, death is only the last turn. The wards cities trust are built for force coming in from outside. This reaches the table before it reaches the gate.\"",
+          "after": "\"The grain is only the shell,\" she said. Her voice came out quick and built. \"It survives transport, storage, baking. People keep eating it. The body does the rest from there.\"\n\n\"By the time it shows plain, death is only the last turn. The wards cities trust are built for force coming in from outside. This reaches the table before it reaches the gate.\""
+        }
+      ]
+    },
+    {
+      "dimension": "dialogueAttributionAndRatio",
+      "observations": [
+        "Chapter-wide ratio lands at 27:73 dialogue-to-narration, but the chapter is scene-split correctly: road arrival 8:92, triage 29:71, command pavilion 44:56, departure 15:85.",
+        "The command pavilion scene is the controlling benchmark here; at 44:56 it effectively hits the global 45:55 target for a competence-collision negotiation scene.",
+        "Attribution mix across attributed quote paragraphs is approximately 39 said/asked, 17 action-or-spatial beats, and 1 creative tag, keeping no-frills tags near 68% and creative tags near 2%.",
+        "L73-L81, L111-L125, and L231-L247 show action beats placed after the line or as hinges into the next line, which matches the preferred placement rule.",
+        "Untagged runs at L149-L157, L217-L237, and L328-L354 stay clean because speaker turns are limited and status is already loaded into the surrounding beats."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "L11-L13: Sylvanas keeps the forward-right riding geometry and watches road, wagons, civilians, and Jaina's profile in one tactical sweep; the narration prioritizes threat and positioning over mood-labeling.",
+        "L35-L40: Her exchange with Tomas Bell's mother compresses into command shorthand—'Name.' / 'If he's alive, somebody saw him. Clear the way.'—which fits her field-subordinate register.",
+        "L87-L89 and L121-L125: Her questions to Uther function as orders/tests rather than open inquiry, matching the voice-sheet rule that questions often do command work.",
+        "L251-L257: The Scholomance scar appears as operational recalculation ('Jaina was already trying to ruin it') rather than open emotional naming, which keeps vulnerability exact instead of lyrical.",
+        "L255-L269: Her support for Jaina and her answer to Arthas ('something faster than faith,' 'I don't dress failure for company') carry deadpan edge and aristocratic finish without slipping into villain-theatrics."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Adverb load stays low: 15 -ly candidates across 3,134 words, or about 1.2 per 250-word page, well under the max-adverb floor.",
+        "Manual passive review finds roughly 5 true passive constructions in 333 sentences (about 1.5%), staying comfortably below the 4% ceiling; most heuristic hits were progressives or stative phrases, not real violations.",
+        "Simile load is restrained: 2 'like' constructions and 0 'as if' constructions across the chapter, keeping comparison fog out of the line.",
+        "The chapter remains strongly shown rather than told in the triage and command sections—mud, pyres, map knives, relay strips, gloves, reins, and posture carry the scene instead of summary gloss.",
+        "There are no planner terms, document-voice abstractions, elegant-variation epithets, or hitlist-register intrusions in narration."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelCraft",
+      "observations": [
+        "Exposition integration: L163-L205 keeps plague mechanism exposition tied to immediate decision pressure; Jaina explains only enough to justify the grain-lane attempt.",
+        "Power dynamics: L181-L187 and L223-L247 map dominance correctly—Arthas gets short, clipped refusals and imperatives while Jaina and Uther spend longer clauses arguing for room to act.",
+        "Scene shape: L3-L23 opens on an environmental hook that doubles as threat assessment; L193-L205 provides the midpoint pivot with a new possible intervention; L342-L360 resolves into cliff-edge forward pressure.",
+        "Speculative integration: L67-L71, L165-L166, and L205 treat Light, wards, and magical contamination as workaday tactical realities rather than spectacle, matching the high-domestication rule.",
+        "Subtext density: L173-L187 and L223-L241 keep the official topic on grain and timing while the real fight is over authority, trust, and Arthas/Jaina's old fracture.",
+        "Action pacing: L47-L57 prioritizes tactile and spatial consequence—jaw, knee, hand, bow, eye, fire—with clipped micro-sentences and one reorientation sentence exactly where the geometry needs it.",
+        "Humor register: L59-L60, L101-L105, L123-L125, and L284-L292 use only dry, bitter understatement; the chapter never breaks tension with quippy riffing."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Sylvanas Windrunner",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — L11-L13, L145-L159, and L255-L269 keep diction lean, martial, and status-aware; no soft-focus or modern analytical bleed.",
+        "sentenceRhythm": "pass — narration defaults to clipped assessments, widens briefly for tactical chains, then closes on blunt judgments exactly as the calibration specifies.",
+        "metaphorDensity": "pass — imagery stays sparse and comes from body, war, or weapon logic rather than decorative lyricism.",
+        "emotionalRegister": "pass — feeling appears as pressure, irritation, old hurt, and choice under strain; the chapter never names vulnerability more openly than Sylvanas would.",
+        "thoughtPatterns": "pass — she reads threat, competence, consequence, and cost in sequence from the road opening through the command-tent choice.",
+        "sensorySignature": "pass — line of sight, traffic, readiness, foot traffic, map positions, reins, and road shoulders dominate the sensory field.",
+        "humorType": "pass — dry contempt and razor-flat understatement show up in 'This is what held looks like here?' and 'I don't dress failure for company.'",
+        "powerPosture": "pass — when dominant she tightens into commands; when politically constrained by Arthas she lengthens just enough to show what she is holding back without losing edge.",
+        "speculativeComfort": "pass — she consistently translates plague magic, Light, and wards into battlefield utility, breach potential, and failure mode.",
+        "expositionFilter": "pass — she notices roads, cover, rank, discipline, and whether magic changes field reality; she does not stop to explain military basics to herself."
+      },
+      "ruleViolations": []
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 1.2,
+    "passiveVoicePercent": 1.5,
+    "dialogueToNarrationRatio": "27:73 overall; command pavilion 44:56",
+    "avgSentenceLength": 9.4,
+    "avgParagraphLength": 17.5,
+    "metaphorsPerThousandWords": 1.6
+  },
+  "totalObservations": 42,
+  "totalFixes": 1,
+  "wordCount": {
+    "before": 3134,
+    "after": 3134
+  }
+}

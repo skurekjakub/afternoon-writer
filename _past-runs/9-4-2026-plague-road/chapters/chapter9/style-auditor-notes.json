@@ -1,0 +1,187 @@
+{
+  "chapterId": "chapter9",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 3-13: opening terrain read stays inside the 1-4 sentence cadence rule and keeps Sylvanas in clipped assessment mode.",
+        "Lines 115-133: ambush prose alternates 3-9 word impact hits with longer geometry clarifiers, matching the action rhythm standard.",
+        "Lines 147-159: wound beat uses short pressure sentences and one longer Jaina explanation, so injury does not flatten into monotone clipping.",
+        "Lines 239-245: 'Flat. Certain. Sylvanas disliked it.' earns its fragment emphasis and matches the emphasis rule.",
+        "Line 438 was the one rhythm risk: a dossier-shaped recap paragraph. Recast it into shorter fragment-backed claims so the regroup scene still sounds like Sylvanas under pressure."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 438,
+          "rule": "sentenceRhythmStandards.introspection/emphasisRule - regroup recap had report cadence instead of pressured Sylvanas cadence",
+          "before": "Barov route pressure through Eastweald storehouses and estate approaches, but no proof yet of willing guilt. The farmhouse had given them binding sequences and proof the body was part of the mechanism, but no final step. The compound trap had been built for disciplined scouts and tuned to the spaces between them. Hearthglen chatter was rising from the south-west line, and with it Arthas—the one man outside their institutions likely to move before the rest finished discussing the danger. The repeated farewell again, still too thin to spend.",
+          "after": "Barov marks kept surfacing in Eastweald—storehouses, estate roads, scraps too consistent to ignore and still too thin to spend as accusation. The farmhouse had given them binding sequences and one ugly fact: the body did part of the work before death, but the last turn was still missing. The compound had been built for scouts. The wards knew Farstrider spacing better than some captains did. Hearthglen chatter kept rising on the south-west road, and with it Arthas—the one man outside their walls likely to move before the rest finished discussing the danger. The farewell had surfaced again. Still thin. Still not enough."
+        }
+      ]
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Lines 5-9: narration stays in concrete field nouns—roads, ditches, orchards, wheel-ruts, horse sweat, fungus—without neutral scene-summary language.",
+        "Lines 47-49 and 91-107: Jaina's magical speech stays technical but speakable; she names binding work, carrier work, lock, and flesh answering without drifting into lab jargon.",
+        "Line 71 originally used a vague placeholder ('something hot'); tightened to direct physical residue so the kitchen read stays lived rather than gestured at.",
+        "Line 474 originally sounded like artifact labels ('Route evidence, estate approaches, the partial read'); rewritten into objects Sylvanas would actually hand off in speech.",
+        "Line 538 originally repeated dossier diction ('route evidence'); rewritten to 'estate scraps' so the closing image stays material rather than bureaucratic."
+      ],
+      "violations": 6,
+      "fixes": [
+        {
+          "line": 71,
+          "rule": "vocabularyStandards.baseline - vague placeholder instead of concrete physical residue",
+          "before": "Shelves stripped. Crockery broken on purpose. A side table blackened where something hot had sat too long. Three cloudy bottles: one intact, one shattered under a chair, one stoppered with wax and a smeared seal.",
+          "after": "Shelves stripped. Crockery broken on purpose. A side table blackened where heat had sat too long. Three cloudy bottles: one intact, one shattered under a chair, one stoppered with wax and a smeared seal."
+        },
+        {
+          "line": 121,
+          "rule": "vocabularyStandards.requiredQualities - action beat needed direct live diction, not a vague placeholder",
+          "before": "Cyndia answered with an arrow from the yard. Lyriel shouted something sharp and ugly to the horses.",
+          "after": "Cyndia answered with an arrow from the yard. Lyriel shouted a hard ugly word to the horses."
+        },
+        {
+          "line": 376,
+          "rule": "vocabularyStandards.baseline - dialogue used vague placeholder where the action could be named",
+          "before": "Cyndia's gaze drifted right, then forward. \"When he broke the tree line he said something to the men by the lower ditch. I only caught the end.\"",
+          "after": "Cyndia's gaze drifted right, then forward. \"When he broke the tree line he called to the men by the lower ditch. I only caught the end.\""
+        },
+        {
+          "line": 474,
+          "rule": "vocabularyStandards.avoid - handoff speech drifted toward plan-label shorthand",
+          "before": "\"Route evidence, estate approaches, the partial read,\" Sylvanas said. \"You carry all of it. You do not push Barov beyond what the papers earn. If a door opens because they still think you're only a Kirin Tor problem, use it.\"",
+          "after": "\"The estate marks, the road scraps, what you pulled from the farmhouse,\" Sylvanas said. \"You carry all of it. You do not push Barov beyond what the papers earn. If a door opens because they still think you're only a Kirin Tor problem, use it.\""
+        },
+        {
+          "line": 526,
+          "rule": "vocabularyStandards.baseline - vague gesture phrasing exceeded the chapter's allowed 'something' usage",
+          "before": "Jaina touched two fingers to the edge of her hood in something too small for a salute and too deliberate for accident.",
+          "after": "Jaina touched two fingers to the edge of her hood in a gesture too small for a salute and too deliberate for accident."
+        },
+        {
+          "line": 538,
+          "rule": "vocabularyStandards.avoid - chapter close repeated dossier diction",
+          "before": "Jaina took the Barov line alone with the notes, the route evidence, and the incomplete answer wrapped against the cold.",
+          "after": "Jaina took the Barov line alone with the notes, the estate scraps, and the incomplete answer wrapped against the cold."
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorCompliance",
+      "observations": [
+        "Line 7: 'like a cellar sealed too long' is a fresh environmental image tied to smell, not ornamental comparison.",
+        "Line 73: 'careful as a woman crossing river ice' fits the allowed bodily/hazard source domain and clarifies Jaina's movement.",
+        "Line 131: 'The orchard had grown men' is the chapter's sharpest pressure image and stays inside Sylvanas's threat-read lens.",
+        "Line 342: 'A shape ruined by subtraction' carries Lyriel's absence without melodramatic over-decoration.",
+        "Estimated fresh-image density is about 2.17 per thousand words (roughly 9 fresh images across 4,140 words), which sits inside the 2-4 target band."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "Opening paragraphs at lines 3-23 stay short and modular, which suits Sylvanas's terrain reading and keeps page shape varied.",
+        "Lines 61-71 give one denser environmental paragraph, then immediately return to motion and dialogue, satisfying the scene-balance rule.",
+        "Lines 191-221 bridge farmhouse fallout to the compound through salvaged scraps and route reading, so the chapter moves by consequence rather than clock-only summary.",
+        "Lines 326-336 convert grief into chokepoint drill with short paragraph units; the page never stalls in abstract mourning.",
+        "The regroup block at lines 434-438 was the only summary-bridge risk; after revision it remains a consequence paragraph rather than plan recap."
+      ],
+      "violations": 1,
+      "fixes": []
+    },
+    {
+      "dimension": "dialogueAttribution",
+      "observations": [
+        "Rough attribution count on v4b: 43 plain tags, 6 creative tags, 42 action/spatial beats, 49 clean-context untagged lines.",
+        "Plain tags dominate explicit attributions through 'said'/'asked', which keeps the chapter inside the no-frills attribution rule.",
+        "Creative tags are sparse and contextual: Lyriel spits at line 43, Jaina swears softly at line 77, Cyndia calls at line 167, Lor'themar laughs once at line 428.",
+        "Action and spatial beats carry status cleanly in the farmhouse, compound, and ridge scenes; lines 83-93 and 229-255 are the clearest examples.",
+        "Overall dialogue:narration ratio is 24:76, but scene ratios justify it for chapter type: scene 1 = 15:85, scene 2 = 22:78, scene 3 = 10:90, scene 4 = 37:63."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Sylvanas narration keeps defaulting to threat, ground, cover, rank, and readiness: lines 23-25, 49-51, 227-235, and 304-308 all read that way.",
+        "Sylvanas's humor stays razor-flat rather than quippy: lines 79, 490, and 506 fit her deadpan contempt register.",
+        "Jaina's field speech remains precise but plain enough for live use: lines 67, 91, 107, 159, 203, and 350 stay within her downshifted non-mage register.",
+        "Cyndia's grief is behavioral, not verbalized; lines 320, 344, 376, 398, 458, and 524 preserve the right-flank compulsion specified in memory.",
+        "Line 474 needed the only supporting-voice correction because Sylvanas briefly sounded like she was reading labels off a packet instead of handing objects to Jaina."
+      ],
+      "violations": 1,
+      "fixes": []
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Filtered adverb rate is about 1.15 per 250-word page, well below the max 4 per page.",
+        "Rough passive-voice estimate is about 0.75%, well below the 4% ceiling.",
+        "Show-versus-tell stays comfortably above the 80:20 target because loss, pain, and authority shifts land through movement and behavior rather than labels.",
+        "Paragraph max is about 90 words, below the 120-word ceiling for dense escalatory paragraphs.",
+        "The chapter's 'something' count fell from 5 in v4 to 1 in v4b, bringing vagueness back under the anti-slop ceiling."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration passes: lines 61-67, 89-107, and 203-217 deliver plague mechanism only when Jaina or the scraps make it operationally necessary.",
+        "Power dynamics pass: Sylvanas's clipped orders dominate field scenes, while Jaina's longer clauses appear when she is forcing arcane caution into command space.",
+        "Scene shape passes: each major scene opens on a live objective, pivots in the middle third, and resolves into hard consequence or forced operational decision.",
+        "Speculative integration stays domesticated: wards, residue, frost, and spacing traps read as craft and failure mode, not spectacle.",
+        "Subtext and humor behave correctly in scene 4: the split discussion says logistics on the surface while testing blame, grief, and trust underneath, and the wit stays dry enough not to deflate the loss."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Sylvanas Windrunner",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass - lean martial diction dominates narration; fixed line 474 where handoff speech briefly drifted toward packet-label shorthand.",
+        "sentenceRhythm": "pass - short declaratives dominate, with longer chains only when she is pricing terrain or consequences.",
+        "metaphorDensity": "pass - low density and sourced from terrain, bodily strain, and military threat; no mixed-domain clutter found.",
+        "emotionalRegister": "pass - grief and anger stay contained and surface as sharper decision-making, not named feeling.",
+        "thoughtPatterns": "pass - threat assessment to capability judgment to decision remains the default sequence across all four scenes.",
+        "sensorySignature": "pass - sightlines, spacing, readiness, weather on skin, and exposure dominate her noticing."
+      },
+      "ruleViolations": [
+        "Line 474: speech briefly sounded like artifact labels instead of Sylvanas naming what Jaina would physically carry; corrected in v4b."
+      ]
+    },
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass - plain field register with selective technical terms ('binding work,' 'alarm line,' 'part of the lock') stays readable and in-world.",
+        "sentenceRhythm": "pass - longer reasoning lines appear during ritual reads, then snap short under trap pressure and the split scene.",
+        "metaphorDensity": "pass - very low; Jaina's language stays structural and tactile rather than ornamental.",
+        "emotionalRegister": "pass - fear shows as speed, urgency, and work-focus, especially at lines 47, 159, 237-245, and 510-516.",
+        "thoughtPatterns": "pass - observation to mechanism to objection remains clear whenever she speaks about the plague or the wards.",
+        "sensorySignature": "pass - magical wrongness, heat, frost, residue, and pressure are her dominant inputs throughout the chapter."
+      },
+      "ruleViolations": []
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 1.15,
+    "passiveVoicePercent": 0.75,
+    "dialogueToNarrationRatio": "24:76 overall; scene1 15:85, scene2 22:78, scene3 10:90, scene4 37:63",
+    "avgSentenceLength": 7.75,
+    "avgParagraphLength": 15.28,
+    "metaphorsPerThousandWords": 2.17
+  },
+  "totalObservations": 40,
+  "totalFixes": 7,
+  "wordCount": {
+    "before": 4121,
+    "after": 4140
+  }
+}

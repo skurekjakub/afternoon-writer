@@ -1,0 +1,153 @@
+{
+  "chapterId": "chapter20",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "ll. 3-19: Harbor arrival alternates one-line beats (\"Seastone Harbor stayed hidden\", \"Then: too small.\") with longer descent sentences, which matches the chapter's threshold rhythm and late-book pressure.",
+        "ll. 97-105: The departure section uses short visual beats (\"Slowly.\", \"The cairn held longest.\") followed by a longer carry sentence about sheltered chop, so emphasis lands through cadence rather than italics or explanation.",
+        "ll. 161-163: The storm-work drill uses fragment chains (\"Reef... Release... Brace... Duck...\") but the sequence is buffered by longer orientation sentences before and after, so clipped action does not flatten into monotone.",
+        "l. 221: \"She did it properly after that.\" was a weak abstract bridge and an unearned emphasis beat; it now reads \"She waited for Dagny's hand this time.\" so the cadence stays concrete and earned.",
+        "ll. 459-463: The evidence paragraph at landfall breaks to \"Weeks of that.\" and earns the one-line deduction because it lands after concrete dock evidence rather than replacing it."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 221,
+          "rule": "sentenceRhythmStandards.emphasisRule — stand-alone sentence needed concrete earned emphasis, not abstract summary",
+          "before": "She did it properly after that.",
+          "after": "She waited for Dagny's hand this time."
+        }
+      ]
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "ll. 7-9: Tar, kelp, nets, and mineral bite keep the harbor lexicon physical and scene-bound; no document voice enters the opening.",
+        "ll. 61-65: Dock prep stays in hands, oilcloth, boards, nets, and relay hardware; the chapter avoids planning-language summaries even while compressing logistics.",
+        "ll. 135-151: Jaina's magical read uses ward seam, headwind, bow, and causing-it language instead of modern scientific jargon; expert thought stays world-native.",
+        "l. 337: \"captains' margins\" read slightly too abstract and financial for a wet-deck exchange; revised to \"what a captain can spare\" to keep spoken language lived-in.",
+        "ll. 417-423: Jaina's self-indictment stays plain and personal rather than therapeutic or process-heavy; the diction remains in character despite the reflective beat."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 337,
+          "rule": "vocabularyStandards.avoid — dialogue drifted toward abstract financial phrasing instead of spoken deck language",
+          "before": "Jaina let out one ugly half-laugh. \"Since when do you care about captains' margins?\"",
+          "after": "Jaina let out one ugly half-laugh. \"Since when do you care what a captain can spare?\""
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorPolicy",
+      "observations": [
+        "ll. 127-136: Tooth-ache pressure and old-bread contamination imagery come from body strain and corrupted food, which fits Jaina's sensory and investigative lane.",
+        "l. 301: \"Cold rammed back along it like iron through a sheath\" is one clean comparison from weapon/craft language; it sharpens force without stacking images.",
+        "l. 401: \"the dawn light came off the coast like metal\" gives Northrend a hard tactile register without tipping into spectacle or mixed source domains.",
+        "ll. 259-269: \"white mangled seam\" and the ship lengthening her stride stay inside maritime/body/craft language rather than drifting toward ornamental fantasy abstraction.",
+        "Manual count across the chapter came to roughly 12 figurative turns over 5.13k words (about 2.34 per thousand), which sits inside the guide's 2-4 per thousand target and never stacks metaphors in the same sentence."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "The chapter has 241 body paragraphs averaging 21.27 words, with zero paragraphs over the 120-word ceiling; structural density stays controlled throughout.",
+        "There are 114 one-sentence paragraphs, which fits the late-book thriller brief because most of them land on turns, commands, dread beats, or impact deductions rather than random fragmentation.",
+        "ll. 85-99: The longest orientation run stays under 81 words even at 7-8 sentences, so descriptive buildup remains readable and pressure-conscious.",
+        "ll. 223-233: After a dense ship-labor paragraph, the chapter resets with \"Near dawn the sea worsened.\" / \"Meaner.\" and immediately returns to motion, satisfying the scene-balance rule.",
+        "Transitions consistently move by consequence instead of clock scaffolding: harbor bargaining -> cast-off -> unnatural headwind -> partial recovery -> landfall evidence. No planner-language bridge survived."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "dialogueAttribution",
+      "observations": [
+        "ll. 25-57: The harbor negotiation leans on bare said/asked beats plus physical reactions, which keeps the competence-collision scene legible without decorative tagging.",
+        "ll. 111-151: Stronger tags such as barked or bellowing are concentrated in storm-command conditions where volume and acoustic texture genuinely matter, so they feel earned rather than clever.",
+        "ll. 187-215: The Sylvanas/Jaina rail exchange runs mostly on clean two-speaker clarity, letting untagged lines and short beats do the work.",
+        "ll. 371-393: The below-deck Cyndia scene uses dry action beats and sparse neutral tags, matching the chapter's exhausted register.",
+        "Overall dialogue share measures about 10.5:89.5, which is below the guide's general target but acceptable here because this chapter is primarily travel, dread buildup, and a storm-work set-piece; spoken pressure returns at the harbor, during the storm, below deck, and at dawn rather than vanishing entirely."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "ll. 63-75: Jaina notices relay hardware, route data, the dead stone, and the uselessness of the message before she indulges feeling; the filter stays expert and situational.",
+        "ll. 133-151: Her thought path runs observation -> hypothesis test -> result -> tactical consequence, matching the voice sheet's pattern-recognition chain under pressure.",
+        "ll. 243-266: Magic is narrated as ship motion, drag, timing, and failure mode, which matches Jaina's speculative comfort and keeps the prose lucid rather than awed.",
+        "ll. 395-423: The reflective section stays analysis-first but body-anchored; certainty, obedience, and cost arise from recent physical experience instead of detached essaying.",
+        "l. 335: Sylvanas's intervention inside Jaina POV wanted a sharper imperative; the revised line restores Sylvanas's command posture without breaking Jaina's scene filter."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 335,
+          "rule": "perPOVCalibration.powerPosture / specificRules — Sylvanas dialogue needed a cleaner imperative and less abstract phrasing inside Jaina POV scene",
+          "before": "\"Dagny can carry the ship,\" she said. \"Your work is to stay on your feet until she needs you again.\"",
+          "after": "\"Dagny can carry the ship,\" she said. \"Stay on your feet until she calls again.\""
+        }
+      ]
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Adverbs per page now sit at 1.07 against a maximum of 4, so the chapter clears the hard adverb ceiling comfortably.",
+        "Passive voice measures 1.89%, well below the 4% ceiling; the chapter mostly drives action through active verbs and subject-controlled motion.",
+        "Before the fix pass, the local adverb load was 1.12 per page; removing \"properly\" at l. 221 nudged it down to 1.07 while also improving rhythm.",
+        "The chapter contains 6 raw uses of \"like,\" but 3 are idiomatic dialogue formulas (\"if you like\"); only 3 function as similes, and there are 0 \"as if\" constructions, keeping comparison density within the anti-slop cap.",
+        "Showing-to-telling remains high: deductions about the headwind and Daggercap Bay arrive through rope strain, taste, frost, dock cuts, and boot ruts rather than narrator summary."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration passes: ll. 63-75, 107-145, and 435-445 deliver route logic, magical wrongness, and harbor evidence through live task pressure rather than detached narrator aside.",
+        "Power dynamics pass: Dagny and Sylvanas control the storm scenes with shorter imperatives while Jaina's syntax lengthens when she is explaining, testing, or recovering from overreach.",
+        "Scene shape pass: the chapter opens with a problem already moving (harbor descent), turns at the unnatural headwind, pivots again at Jaina's collapse, and resolves on hard consequence plus forward pressure at Daggercap Bay.",
+        "Speculative integration passes: magic is treated as craft, strain, and contamination logic, not spectacle; awe only brushes the coast reveal when Northrend shifts from map-point to hostile physical reality.",
+        "Subtext, humor, and action pacing all stay within spec: harbor banter and dawn talk carry dry understatement under operational speech, while storm peaks use fragment bursts often enough to tighten time without making the whole chapter read as chopped monotone."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — educated and precise without drifting into modern scientific or bureaucratic diction; magical terms stay world-native and body-anchored.",
+        "sentenceRhythm": "pass — average sentence length is 10.77 words, but longer analytical chains appear where Jaina is reasoning through ship motion, headwind response, and landfall evidence.",
+        "metaphorDensity": "pass — figurative language stays low-to-moderate at roughly 2.34 per thousand words and draws from weather, metal, bodily strain, and craft.",
+        "emotionalRegister": "pass — feeling shows as overwork, nausea, embarrassment, obedience, and exhausted honesty rather than overt emotional labeling.",
+        "thoughtPatterns": "pass — she consistently moves from observation to model to tactical objection to revised conclusion, especially in the headwind and landfall sections.",
+        "sensorySignature": "pass — the chapter is saturated with temperature, pressure, magical wrongness, deck motion, rope strain, taste contamination, and bodily cost."
+      },
+      "ruleViolations": [
+        "l. 221: Jaina's learning beat was briefly summarized in abstract auditor language (\"properly\") instead of the concrete tactical adjustment she would notice; fixed.",
+        "l. 337: Jaina's comeback drifted slightly abstract (\"captains' margins\") instead of staying in spoken deck language; fixed."
+      ]
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 1.07,
+    "passiveVoicePercent": 1.89,
+    "dialogueToNarrationRatio": "10.5:89.5",
+    "avgSentenceLength": 10.77,
+    "avgParagraphLength": 21.27,
+    "metaphorsPerThousandWords": 2.34
+  },
+  "totalObservations": 40,
+  "totalFixes": 3,
+  "wordCount": {
+    "before": 5132,
+    "after": 5130
+  }
+}

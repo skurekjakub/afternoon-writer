@@ -1,0 +1,175 @@
+{
+  "chapterId": "chapter18",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Examined the three actual contrast pivots in the chapter and kept all three: the notebook shorthand \"city scale = answer, not source\" is a binary diagnostic in active model-building, the grain-vs-trigger line states a literal hard constraint in the plague mechanism, and \"Not toward her. Toward the word.\" corrects a concrete physical direction."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 8,
+      "kills": 7,
+      "keeps": 1,
+      "severityMarkers": {
+        "mild": 7,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P8",
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "extra-sweep-city-motion",
+          "text": "A city this large should have pushed sound upward in a constant body.",
+          "subject": "city",
+          "verb": "should have pushed",
+          "realAgent": "Twenty-five thousand people, market bells, cart wheels, chapel bells, dogs, and alley arguments generating continuous city noise.",
+          "reason": "The city is laundering aggregate human and civic noise into an inanimate subject during the pass-A extra sweep.",
+          "suggestedFix": "Twenty-five thousand people, market bells, cart wheels, chapel bells, dogs, and alley arguments should have pushed sound upward in one constant body.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "extra-sweep-object-motion",
+          "text": "Burned now, charred and bitter, but under it the same wrong sweetness that had ridden out of Andorhal in sacks and carts and ordinary kitchens, lying dormant until ovens and hands and hunger did half the work for it.",
+          "subject": "sweetness",
+          "verb": "had ridden out",
+          "realAgent": "Contaminated grain and bread moving through sacks, carts, ovens, and kitchens out of Andorhal.",
+          "reason": "The sentence gives transport and spread to sweetness instead of naming the grain-and-kitchen chain carrying it.",
+          "suggestedFix": "Burned now, charred and bitter, but under it the same wrong sweetness from Andorhal grain, sacks, carts, and ordinary kitchens, lying dormant until ovens and hands and hunger did half the work for it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "extra-sweep-pattern-agency",
+          "text": "The deeper pattern only showed itself once Stratholme was beyond saving.",
+          "subject": "pattern",
+          "verb": "showed itself",
+          "realAgent": "Jaina finally reading the deeper plague pattern once the grain signature had burned down.",
+          "reason": "The line launders Jaina's act of perception onto the pattern itself instead of naming who reads it.",
+          "suggestedFix": "Jaina could read the deeper pattern only after Stratholme was beyond saving.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P8",
+          "text": "Her fingers tightened on the parapet.",
+          "subject": "fingers",
+          "verb": "tightened",
+          "realAgent": "Jaina tightening her grip on the parapet.",
+          "reason": "Pattern 8: the body part is stealing agency from the character.",
+          "suggestedFix": "Jaina tightened her fingers on the parapet.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P8",
+          "text": "Jaina's nails bit stone.",
+          "subject": "nails",
+          "verb": "bit",
+          "realAgent": "Jaina digging her nails into the stone.",
+          "reason": "Pattern 8: the nails are made to act independently when Jaina is the one exerting force.",
+          "suggestedFix": "Jaina dug her nails into the stone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P8",
+          "text": "The hand stayed where it was. Weight.",
+          "subject": "hand",
+          "verb": "stayed",
+          "realAgent": "Sylvanas keeping her hand on Jaina's shoulder.",
+          "reason": "Pattern 8: the body part is carrying the action that belongs to Sylvanas.",
+          "suggestedFix": "Sylvanas kept her hand there. Weight.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P9",
+          "text": "The offer landed with all the weight of home.",
+          "subject": "offer",
+          "verb": "landed",
+          "realAgent": "Jaina feeling Antonidas's offer strike with the force of home.",
+          "reason": "Pattern 9: the nominalized offer is framed as the acting force instead of Jaina receiving it.",
+          "suggestedFix": "She felt the full weight of home in Antonidas's offer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "No tic family exceeded its chapter cap. Tightened appears three times and stays physical in all three uses, no marked or corner-of-mouth tic appears, facial-shift tic stays at zero, the chapter stays under the weight-metaphor and non-said-tag caps, and the look-based beats were treated as functional scene orientation rather than over-cap generic eye/gaze reaction beats."
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 4,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 1,
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A fails because intent-smear found 7 mild KILLs, which exceeds the maximum allowed mild-only finding count for a pass."
+  }
+}

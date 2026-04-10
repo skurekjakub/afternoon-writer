@@ -1,0 +1,364 @@
+{
+  "chapterId": "chapter18",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 10,
+      "kills": 7,
+      "keeps": 3,
+      "dominantPattern": "pattern-2 fragment pivot",
+      "severity": {
+        "mild": 7,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterWarnings": [
+        "Fragment-pivot negation repeats across the wall aftermath and Antonidas exchange."
+      ],
+      "findings": [
+        {
+          "line": "Whatever answer remained no longer lived in sacks and storehouses. It hung in what came after.",
+          "pattern": "pattern-3 source-swap pivot",
+          "deletionTest": "It hung in what came after.",
+          "severity": "mild",
+          "reason": "KILL - the negated source falls away cleanly and the sentence still delivers the real location of the answer.",
+          "suggestedFix": "The answer was now in what came after.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "No neat theorem. Nothing neat remained in it. A drag in the air.",
+          "pattern": "pattern-2 fragment pivot",
+          "deletionTest": "A drag in the air.",
+          "severity": "mild",
+          "reason": "KILL - the negative scaffolding drops away and the concrete surviving image is the drag in the air.",
+          "suggestedFix": "Only a drag in the air remained.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "No gentling in it. No pity either. Direction.",
+          "pattern": "pattern-7 triple/chained negation",
+          "deletionTest": "Direction.",
+          "severity": "mild",
+          "reason": "KILL - the line stacks refusals before the committed noun and the noun survives on its own.",
+          "suggestedFix": "It was only direction.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not comfort. Weight.",
+          "pattern": "pattern-2 fragment pivot",
+          "deletionTest": "Weight.",
+          "severity": "mild",
+          "reason": "KILL - the positive half already carries the beat and the negated half is pure setup.",
+          "suggestedFix": "Weight.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Silence. Not absence. Him thinking in it.",
+          "pattern": "pattern-2 fragment pivot",
+          "deletionTest": "Silence. Him thinking in it.",
+          "severity": "mild",
+          "reason": "KILL - the contrast beat is expendable once the sentence names what the silence actually contains.",
+          "suggestedFix": "Silence, with him thinking in it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not won't. Could not.",
+          "pattern": "pattern-2 fragment pivot",
+          "deletionTest": "Could not.",
+          "severity": "mild",
+          "reason": "KILL - the positive statement survives intact and the refused version is dead lead-in.",
+          "suggestedFix": "Could not.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not surprise. The shape had already been there in the road, in the unfinished logic of the plague.",
+          "pattern": "pattern-2 fragment pivot",
+          "deletionTest": "The shape had already been there in the road, in the unfinished logic of the plague.",
+          "severity": "mild",
+          "reason": "KILL - the opening refusal is only a dramatic cue once the next sentence states the real reaction.",
+          "suggestedFix": "Recognition. The shape had already been there in the road, in the unfinished logic of the plague.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 14,
+      "kills": 12,
+      "keeps": 2,
+      "dominantPattern": "inanimate and abstract subjects carrying human or decisional verbs",
+      "severity": {
+        "mild": 12,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterFlags": [
+        "The wall aftermath stacks multiple city/image/stair agency lines in Jaina's analytical interiority.",
+        "The road section repeats geography and abstraction as active agents."
+      ],
+      "repeatNouns": [
+        "city"
+      ],
+      "pattern4Alert": "no",
+      "findings": [
+        {
+          "line": "Below her, the fires worked district by district.",
+          "pattern": "custom-inanimate-task-agency",
+          "subject": "fires",
+          "verb": "worked",
+          "realAgent": "Separate fire lines and the teams managing the controlled burns.",
+          "severity": "mild",
+          "reason": "KILL - the prose assigns task-like agency to the fires instead of naming the controlled burn pattern and the crews shaping it.",
+          "suggestedFix": "Below her, separate fire lines burned district by district.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Stratholme had changed the air above itself.",
+          "pattern": "custom-location-as-agent",
+          "subject": "Stratholme",
+          "verb": "had changed",
+          "realAgent": "Smoke, ash, and plague residue rising from the city.",
+          "severity": "mild",
+          "reason": "KILL - the city is taking the action that belongs to its smoke and residue.",
+          "suggestedFix": "Smoke, ash, and residue had changed the air above Stratholme.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The sight of them pulled her eye south again, then inward, then backward years in one sick motion.",
+          "pattern": "pattern-8 body-part agency",
+          "subject": "sight",
+          "verb": "pulled",
+          "realAgent": "Jaina looking south and then following the thought back into older memories.",
+          "severity": "mild",
+          "reason": "KILL - the sentence launders Jaina's attention shift through the sight and her eye instead of letting her perform it.",
+          "suggestedFix": "She followed them south again, then inward, then backward years in one sick motion.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The image would not let go.",
+          "pattern": "pattern-5 objects wanting, refusing, or deciding",
+          "subject": "image",
+          "verb": "would not let go",
+          "realAgent": "Jaina staying caught on the image.",
+          "severity": "mild",
+          "reason": "KILL - the image is given grip and refusal instead of naming Jaina's inability to release it.",
+          "suggestedFix": "She kept seeing it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "It slid under every other memory and found the older ones waiting beneath it.",
+          "pattern": "pattern-5 objects wanting, refusing, or deciding",
+          "subject": "It",
+          "verb": "slid / found",
+          "realAgent": "Jaina following the image past newer memories into older ones.",
+          "severity": "mild",
+          "reason": "KILL - the image is doing the memory work that belongs to Jaina's own thought process.",
+          "suggestedFix": "She followed it past every other memory to the older ones beneath it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Her body caught the residue again, that wrong aftertaste beneath smoke, and the thought turned without asking permission.",
+          "pattern": "pattern-9 nominalized mental act as agent",
+          "subject": "thought",
+          "verb": "turned without asking permission",
+          "realAgent": "Jaina's mind shifting back into analysis.",
+          "severity": "mild",
+          "reason": "KILL - the sentence packages Jaina's mental pivot as an autonomous thought acting on her.",
+          "suggestedFix": "Her body caught the residue again, that wrong aftertaste beneath smoke, and she turned back to the thought before she could stop herself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Yet the city had still answered.",
+          "pattern": "pattern-2 infrastructure asking questions",
+          "subject": "city",
+          "verb": "had still answered",
+          "realAgent": "Bodies across the city responding to the deeper activation.",
+          "severity": "mild",
+          "reason": "KILL - the city is made to answer when the actual responders are the infected bodies inside it.",
+          "suggestedFix": "Yet bodies across the city had still answered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The city below offered the argument against that faith in separate fires.",
+          "pattern": "pattern-2 infrastructure asking questions",
+          "subject": "city",
+          "verb": "offered",
+          "realAgent": "The separate fires and what they demonstrated to Jaina.",
+          "severity": "mild",
+          "reason": "KILL - the city is made to argue instead of the visible evidence doing that work.",
+          "suggestedFix": "The separate fires below were the argument against that faith.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The stair waited where it had waited all day, cut into the inner wall, worn shallow at the center by generations of watch-boots and now streaked with soot.",
+          "pattern": "custom-scenery-waiting",
+          "subject": "stair",
+          "verb": "waited",
+          "realAgent": "No agent; the stair simply remained in place.",
+          "severity": "mild",
+          "reason": "KILL - the stair is given patience and expectancy instead of being described as present.",
+          "suggestedFix": "The stair was where it had been all day, cut into the inner wall, worn shallow at the center by generations of watch-boots and now streaked with soot.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The last word sat there and offended her with its thinness.",
+          "pattern": "pattern-5 objects wanting, refusing, or deciding",
+          "subject": "word",
+          "verb": "sat / offended",
+          "realAgent": "Jaina reacting to the thinness of the word on the page.",
+          "severity": "mild",
+          "reason": "KILL - the word is made to act on her instead of its thinness being named as her judgment.",
+          "suggestedFix": "The last word looked thin on the page.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Practicality took the rider from them.",
+          "pattern": "pattern-9 nominalized mental act as agent",
+          "subject": "Practicality",
+          "verb": "took",
+          "realAgent": "Cyndia turning to the relay horse, the rider, and camp work.",
+          "severity": "mild",
+          "reason": "KILL - an abstraction is made to carry the scene movement that belongs to the characters' actions.",
+          "suggestedFix": "Cyndia turned to the camp work, and the rider went with her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "North took everything else.",
+          "pattern": "custom-geography-as-agent",
+          "subject": "North",
+          "verb": "took",
+          "realAgent": "Their attention and the chapter's pressure turning toward Arthas and the source question.",
+          "severity": "mild",
+          "reason": "KILL - geography is made to seize what the characters are mentally handing over to it.",
+          "suggestedFix": "Everything else turned north.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "Counted all seven tic families. No corner-of-mouth or marked instances appeared; tightened stayed in two physical uses below cap; look/eye beats stayed functional rather than clustering into generic gaze play; the chapter used one emotional weight metaphor and no over-cap performance dialogue tags.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 19,
+    "totalKeeps": 5,
+    "mildKills": 19,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 19,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A found nineteen mild kills across negation addiction and intent-smear; mild-only kills above three still fail the pass."
+  }
+}

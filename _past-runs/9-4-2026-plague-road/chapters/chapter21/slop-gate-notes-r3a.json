@@ -1,0 +1,260 @@
+{
+  "chapterId": "chapter21",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "Pattern 2 — fragment pivot",
+      "findings": [
+        {
+          "line": "\"Not the story. Tell it.\"",
+          "pattern": "Pattern 2 — fragment pivot",
+          "deletionTest": "\"Tell it.\"",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the sentence keeps its meaning when the negated scaffold is removed.",
+          "suggestedFix": "\"Tell it.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "No warmth met them inside. Only the absence of killing wind.",
+          "pattern": "Pattern 2 — fragment pivot",
+          "deletionTest": "Only the absence of killing wind.",
+          "severity": "mild",
+          "reason": "The first sentence is negated setup for the real image, so the beat is carrying dead contrast scaffolding.",
+          "suggestedFix": "Inside, the killing wind was gone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The cast was ugly with haste, built to strike, not impress.",
+          "pattern": "Pattern 1 — direct contrast pivot",
+          "deletionTest": "The cast was ugly with haste, built to strike.",
+          "severity": "mild",
+          "reason": "Pattern 1 direct contrast pivot; the sentence improves once the negated half is cut.",
+          "suggestedFix": "The cast was ugly with haste, built to strike.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 9,
+      "kills": 6,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "Pattern 8 — body parts acting independently",
+      "secondSweep": "Completed the required P5/P6 re-read for inanimate or abstract subjects carrying agency; no additional defended candidates beyond the listed keeps.",
+      "clusterFlags": [
+        "March / briefing / cave sections each carry multiple smart-register agency shortcuts.",
+        "Analytical POV compression is the main high-risk zone in this pass."
+      ],
+      "repeatNouns": [
+        "road"
+      ],
+      "pattern4Alert": false,
+      "findings": [
+        {
+          "line": "Her gaze had gone back to the inland trail, to the place where the visible line in the snow matched the one only she could track.",
+          "subject": "gaze",
+          "verb": "had gone back",
+          "realAgent": "Jaina shifting her attention back to the trail",
+          "pattern": "Pattern 8 — body parts acting independently",
+          "severity": "mild",
+          "reason": "The gaze is stealing agency from Jaina; the character is the one re-focusing on the trail.",
+          "suggestedFix": "She had gone back to the inland trail, to the place where the visible line in the snow matched the one only she could track.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "A commander who no longer counted what the road cost the bodies behind him.",
+          "subject": "road",
+          "verb": "cost",
+          "realAgent": "the march pace, cold, and overloaded movement grinding down the men behind him",
+          "pattern": "Pattern 1 — infrastructure carrying human burden",
+          "severity": "mild",
+          "reason": "The sentence launders the toll of the forced march onto the road instead of naming the concrete pressure doing the damage.",
+          "suggestedFix": "A commander who no longer counted what it cost the bodies behind him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Her thumb worked along the seam of the flask, hunting a flaw that was not there.",
+          "subject": "thumb",
+          "verb": "worked / hunting",
+          "realAgent": "Jaina worrying at the flask seam while she thinks",
+          "pattern": "Pattern 8 — body parts acting independently",
+          "severity": "mild",
+          "reason": "The body-part subject is doing the acting and searching that belongs to Jaina.",
+          "suggestedFix": "She worked her thumb along the seam of the flask, hunting a flaw that was not there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Northrend stripped a marching force down to pace, hunger, and the next place to put its feet.",
+          "subject": "Northrend",
+          "verb": "stripped",
+          "realAgent": "the cold, distance, and ground conditions reducing the formation to bare marching priorities",
+          "pattern": "Pattern 1 — geography acting like a commander",
+          "severity": "mild",
+          "reason": "The place name is carrying the attritional action that belongs to concrete terrain and weather.",
+          "suggestedFix": "Cold, distance, and bad ground stripped a marching force down to pace, hunger, and the next place to put its feet.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The pressure in the wards grew until it became instruction.",
+          "subject": "pressure",
+          "verb": "became instruction",
+          "realAgent": "the ward-sense resolving into a specific leave-turn-back warning",
+          "pattern": "abstract state carrying directive force",
+          "severity": "mild",
+          "reason": "An abstract sensation is being asked to issue commands instead of the prose naming the concrete warning it resolves into.",
+          "suggestedFix": "The pressure in the wards grew until it resolved into one instruction: leave.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Muradin's stare snapped to her.",
+          "subject": "stare",
+          "verb": "snapped",
+          "realAgent": "Muradin jerking his attention toward Jaina",
+          "pattern": "Pattern 8 — body parts acting independently",
+          "severity": "mild",
+          "reason": "The stare is taking the turn of attention that belongs to Muradin himself.",
+          "suggestedFix": "Muradin snapped his head toward her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 9,
+      "kills": 3,
+      "keeps": 6,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "Tic 5 — Eye/Gaze Repertoire Exhaustion",
+      "ticCounts": {
+        "tic3-tightened-eased": 3,
+        "tic5-eye-gaze": 6,
+        "tic7-non-said-tags": 2
+      },
+      "findings": [
+        {
+          "line": "Muradin's stare snapped to her.",
+          "pattern": "Tic 5 — Eye/Gaze Repertoire Exhaustion",
+          "chapterCount": 6,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "This is one of the weaker generic reaction beats after the chapter has already exhausted the eye/gaze allowance.",
+          "suggestedFix": "Muradin snapped his head toward her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Jaina looked into the brazier instead of at either of them.",
+          "pattern": "Tic 5 — Eye/Gaze Repertoire Exhaustion",
+          "chapterCount": 6,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "This is a generic discomfort beat that is weaker than the chapter's more character-specific tracking looks.",
+          "suggestedFix": "Jaina studied the brazier.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Jaina blinked, startled. Then her mouth tightened with resolve, and she returned to the invisible work between one step and the next.",
+          "pattern": "Tic 3 — tightened/eased emotional shorthand",
+          "chapterCount": 3,
+          "cap": 3,
+          "severity": "mild",
+          "reason": "The chapter hits the tightened cap with too few physical uses, so the weakest emotional shorthand instance has to go.",
+          "suggestedFix": "Jaina blinked, startled. Then she returned to the invisible work between one step and the next.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 11,
+    "mildKills": 12,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 12,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still carries twelve mild findings across negation scaffolding, agency laundering, and recurring tics, which exceeds the three-mild maximum for a pass."
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "chapterId": "chapter20",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 7,
+      "kills": 3,
+      "keeps": 4,
+      "killRate": 42.86,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "Pattern 2 — Fragment pivot",
+      "clusterWarnings": [
+        "Fragment-pivot negations recur across harbor, crossing, and approach beats."
+      ],
+      "findings": [
+        {
+          "line": "Not enough to fall. Enough to show how close she had come.",
+          "pattern": "Pattern 2 — Fragment pivot",
+          "deletionTest": "Enough to show how close she had come.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "The second fragment carries the meaning on its own, so the negated setup is dead scaffolding.",
+          "suggestedFix": "The stumble showed how close she had come.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not a full spell. A narrow probe, frost-thin, slipped into the wind the way she might test a ward seam with two fingers.",
+          "pattern": "Pattern 2 — Fragment pivot",
+          "deletionTest": "A narrow probe, frost-thin, slipped into the wind the way she might test a ward seam with two fingers.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "The positive clause already states the real action, making the negated fragment removable scaffolding.",
+          "suggestedFix": "A narrow probe, frost-thin, slipped into the wind the way she might test a ward seam with two fingers.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not revelation. Recognition from a distance.",
+          "pattern": "Pattern 2 — Fragment pivot",
+          "deletionTest": "Recognition from a distance.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "The affirmative fragment survives intact, so the negated opener is unnecessary contrast scaffolding.",
+          "suggestedFix": "Recognition from a distance.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "killRate": 50,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "Pattern 5 — Objects or abstractions carrying agency",
+      "clusterFlags": [
+        "Smart analytical interiority in the crossing/approach carries multiple abstraction-as-agent compressions."
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": false,
+      "extraSweep": "Completed the pass-a P5/P6 second sweep for inanimate or abstract subjects carrying cognition or physical-behavior verbs.",
+      "findings": [
+        {
+          "line": "North was no longer direction. North had noticed.",
+          "subject": "North",
+          "verb": "had noticed",
+          "realAgent": "The hostile source ahead reacting to Jaina's probe",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 5: the sentence launders the source's awareness onto an abstract direction.",
+          "suggestedFix": "North was no longer direction. The source had noticed them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Northrend did not rise from the sea. It waited in it.",
+          "subject": "Northrend",
+          "verb": "waited",
+          "realAgent": "Jaina's perception of the coastline as a looming, static landmass",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 5: the coastline is given patient intent instead of being described as the visible landmass ahead.",
+          "suggestedFix": "Northrend stood ahead in the sea.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The wood said it. The burned hull said it. The emptied camp edge and the crust over old boot marks said it.",
+          "subject": "The wood / the burned hull / the emptied camp edge / the crust over old boot marks",
+          "verb": "said",
+          "realAgent": "The accumulated physical evidence Jaina is reading to judge how long Arthas stayed",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 2/6 hybrid: physical evidence is made to speak instead of the sentence naming the conclusion the signs support.",
+          "suggestedFix": "Taken together, the wood, the burned hull, the emptied camp edge, and the crust over old boot marks made the timing plain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 2,
+      "kills": 1,
+      "keeps": 1,
+      "killRate": 50,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "Tic 1 — Corner-of-mouth micro-expressions",
+      "findings": [
+        {
+          "line": "Cyndia's mouth twitched. \"If you like, I can call her someone else's.\"",
+          "pattern": "Tic 1 — Corner-of-mouth micro-expressions",
+          "occurrenceCount": 2,
+          "hardCap": 1,
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "This is the weaker of the chapter's two mouth-twitch beats, so it is the excess instance over the hard cap.",
+          "suggestedFix": "Cyndia almost smiled. \"If you like, I can call her someone else's.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 8,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass A found more than three mild KILLs (7) even though every finding has a clean suggested fix."
+  }
+}

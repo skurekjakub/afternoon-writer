@@ -1,0 +1,237 @@
+{
+  "chapterId": "chapter18",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "killRate": 50,
+      "severityMarkers": [
+        "mild"
+      ],
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "clusterPages": [
+        "opening wall section",
+        "Antonidas road section"
+      ],
+      "clusterWarnings": [
+        "Fragment-pivot negation repeats across narration and interior thought."
+      ],
+      "findings": [
+        {
+          "pattern": "P2-fragment-pivot",
+          "line": "No wild sheet of flame. Separate burns.",
+          "deletionTest": "Separate burns.",
+          "verdict": "KILL",
+          "reason": "Pattern 2: the sentence survives and sharpens when the negative scaffolding is removed.",
+          "severity": "mild",
+          "suggestedFix": "Separate burns.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P2-fragment-pivot",
+          "line": "Not likeness. Capacity.",
+          "deletionTest": "Capacity.",
+          "verdict": "KILL",
+          "reason": "Pattern 2: the negated fragment adds no structural work before the real noun arrives.",
+          "severity": "mild",
+          "suggestedFix": "Capacity.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P3-source-swap-pivot",
+          "line": "Not because she wanted none of it. Because wanting it all at once was so violent it nearly folded her over the saddle.",
+          "deletionTest": "Because wanting it all at once was so violent it nearly folded her over the saddle.",
+          "verdict": "KILL",
+          "reason": "Pattern 3: the line refuses the real cause before naming it, and the positive half stands on its own.",
+          "severity": "mild",
+          "suggestedFix": "Because wanting it all at once was so violent it nearly folded her over the saddle.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 12,
+      "kills": 7,
+      "keeps": 5,
+      "killRate": 58.3,
+      "severityMarkers": [
+        "mild"
+      ],
+      "dominantPattern": "pattern-5-objects-or-abstractions-with-agency",
+      "clusterFlags": [
+        "wall-analysis section has repeated answer/faith abstractions carrying agency",
+        "closing road section has repeated direction/time abstractions carrying action"
+      ],
+      "repeatNouns": [
+        "answer"
+      ],
+      "pattern4Alert": "no",
+      "secondSweep": "Completed the dedicated P5/P6 re-read; it added the closing-road kills on 'North,' 'Evening,' and 'Full dark.'",
+      "findings": [
+        {
+          "pattern": "P5-object-with-intention",
+          "line": "Burned now, charred and bitter, but under it the same wrong sweetness that had ridden out of Andorhal in sacks and carts and ordinary kitchens, patient enough to wait for ovens and hands and hunger to do half the work for it.",
+          "subject": "wrong sweetness",
+          "verb": "wait",
+          "realAgent": "The contaminated grain traveled in sacks, carts, and kitchens, then stayed dormant until baking and hunger activated it.",
+          "verdict": "KILL",
+          "reason": "Pattern 5: the line gives the contamination patient intent instead of naming its dormant mechanism.",
+          "severity": "mild",
+          "suggestedFix": "Burned now, charred and bitter, but under it the same wrong sweetness that had ridden out of Andorhal in sacks and carts and ordinary kitchens, lying dormant until ovens and hands and hunger did half the work for it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P2-evidence-turned-argument",
+          "line": "The separate fires below were the argument against that faith.",
+          "subject": "separate fires",
+          "verb": "were",
+          "realAgent": "The district-by-district fires were concrete evidence that her faith in understanding-as-action had failed here.",
+          "verdict": "KILL",
+          "reason": "Pattern 2: the scene's evidence is laundered into an abstract argument instead of staying observable evidence Jaina reacts to.",
+          "severity": "mild",
+          "suggestedFix": "Below her, the separate fires made it impossible to keep believing that understanding was action in an earlier form.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P5-answer-with-agency",
+          "line": "The answer arriving too late.",
+          "subject": "answer",
+          "verb": "arriving",
+          "realAgent": "Jaina understood the truth too late to matter for Stratholme.",
+          "verdict": "KILL",
+          "reason": "Pattern 5: the answer is treated as an arriving agent instead of Jaina's late understanding.",
+          "severity": "mild",
+          "suggestedFix": "She had understood too late.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P8-body-part-agency",
+          "line": "Her body took the center-left weight it knew from the run into Stratholme.",
+          "subject": "body",
+          "verb": "knew",
+          "realAgent": "Jaina automatically settled into the familiar riding balance from the earlier run.",
+          "verdict": "KILL",
+          "reason": "Pattern 8: the body is given knowledge that belongs to Jaina's practiced movement.",
+          "severity": "mild",
+          "suggestedFix": "She settled into the center-left balance she knew from the run into Stratholme.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P5-abstract-direction-with-agency",
+          "line": "North sat in the dispatch tube, in her notebook, in the salt wind ahead.",
+          "subject": "North",
+          "verb": "sat",
+          "realAgent": "The dispatch, her notes, and the salt wind all pointed toward the northbound next move.",
+          "verdict": "KILL",
+          "reason": "Pattern 5: the directional pressure is turned into an abstract presence instead of concrete carriers pointing north.",
+          "severity": "mild",
+          "suggestedFix": "The dispatch tube, her notebook, and the salt wind ahead all pointed north.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P5-abstract-time-with-agency",
+          "line": "Evening put the road into the body by force.",
+          "subject": "Evening",
+          "verb": "put",
+          "realAgent": "The accumulating miles, sweat, and ache made the ride bodily and unavoidable.",
+          "verdict": "KILL",
+          "reason": "Pattern 5: time is made the acting force instead of the repeated physical strain doing the work.",
+          "severity": "mild",
+          "suggestedFix": "By evening, the road was bodily fact.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "P5-darkness-with-agency",
+          "line": "Full dark took the road.",
+          "subject": "Full dark",
+          "verb": "took",
+          "realAgent": "The road disappeared from sight as darkness closed over it.",
+          "verdict": "KILL",
+          "reason": "Pattern 5: darkness is given active seizure instead of the road simply vanishing from view.",
+          "severity": "mild",
+          "suggestedFix": "The road disappeared into full dark.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "killRate": 0,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "cleanReason": "Counted every tic family. The chapter has two physical 'tightened' uses, one weight/heaviness metaphor, and zero corner-of-mouth, marked, vague expression-shift, overloaded gaze, or non-said performance-tag clusters, so nothing exceeds a hard cap."
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 11,
+    "mildKills": 10,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A found ten mild kills across the negation and intent-smear guides; more than three mild-only kills requires a fail."
+  }
+}

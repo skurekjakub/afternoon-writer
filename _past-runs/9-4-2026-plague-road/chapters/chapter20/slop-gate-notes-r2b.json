@@ -1,0 +1,106 @@
+{
+  "chapterId": "chapter20",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "dominantPattern": "F3/F4",
+      "findings": [
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": "That was the cruelty of it.",
+          "issue": "explanatory restatement",
+          "whatItRestates": "Slowly. The harbor did not break free in a single wrench. It loosened.",
+          "reason": "The sentence glosses the slow visual separation the surrounding lines already carry.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": "A sailor on pump duty changing out with another so quickly she noticed only because the cough was different.",
+          "word": "noticed",
+          "deletionTest": "A sailor on pump duty changed out with another; the cough was different.",
+          "reason": "The filter verb adds awareness scaffolding where the changed cough already gives the direct perception.",
+          "suggestedFix": "A sailor on pump duty changed out with another; the cough was different.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "dominantPattern": "A2",
+      "findings": [
+        {
+          "pattern": "A2",
+          "severity": "MILD",
+          "tier": "A",
+          "line": "Transaction. Necessity. Fit for both of them.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment stack captions the exchange from outside Jaina's immediate shipboard thought instead of sounding like her live cognition.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "reason": "This is slogan-stack compression rather than active in-body assessment.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "dominantPattern": null,
+      "cleanReason": "Borderline tactical-compression lines were rechecked against the local evidence and survived as anchored shorthand or evidence-based inference; no sentence in the pass-B sweep withheld its payload once the adjacent concrete carriers were counted."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in the chapter sets up a plain-speech or translation request, so this guide produced no candidates on the fresh sweep."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 6,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Three MILD kills remain after the pass-B re-audit, with no MODERATE or SEVERE findings."
+  }
+}

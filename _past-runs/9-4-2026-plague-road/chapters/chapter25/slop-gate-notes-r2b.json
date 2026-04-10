@@ -1,0 +1,121 @@
+{
+  "chapterId": "chapter25",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": "So the mage felt it too.",
+          "whatItRestates": "Through the wall on her right, Jaina's breathing caught once.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Re-read both POV lanes for verdict-tag fragments, scene-state declarations, and register-polish mismatches. Residual candidates resolve as Jaina/Sylvanas tactical thought or pattern-lock shorthand, and the one real interpretive restatement was already killed under gpt-5 F4.",
+      "findings": []
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "severityCounts": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "\"We stopped him because we were right together, with both of us doing the work.\"",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The shared mechanism in the throne room: Jaina's sequence and Sylvanas buying the seconds to use it.",
+          "suggestedFix": "\"We stopped him because my sequence meant nothing unless you bought me the seconds to use it.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "\"You followed the pattern well. Better than most.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The specific clues and false leads Mal'Ganis fed them through his disguises.",
+          "suggestedFix": "\"You followed every clue I fed you. Better than most.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Checked the chapter's two plain-speech exchanges. They land on usable selection criteria, timing thresholds, and a trigger ('It hears accuracy'), so no second translation pass is needed.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 13,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass B re-audit passes with warnings: 3 mild residual kills remain, all cross-checked and fixable; no moderate or severe pass-B issues remain."
+  }
+}

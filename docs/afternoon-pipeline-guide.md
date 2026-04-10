@@ -2,7 +2,7 @@
 
 How to set up, configure, run, and troubleshoot the afternoon fiction pipeline.
 
-**Updated:** 2025-07-14
+**Updated:** 2026-04-06
 
 ---
 
@@ -26,14 +26,14 @@ How to set up, configure, run, and troubleshoot the afternoon fiction pipeline.
 
 You give it beat outlines. It gives you polished fiction chapters.
 
-The pipeline runs up to twelve AI agents in sequence. The first two validate and enrich your outline with research and continuity annotations. The third writes a raw first draft. The next agents edit and verify that draft — hunting AI patterns, verifying the slop hunt was thorough, grounding the prose in world-specific detail, expanding intimate scenes, polishing voice, and enforcing your style guide. The last agent catalogues everything that happened so future chapters stay consistent.
+The pipeline runs up to twelve AI agents in sequence. The first two validate and enrich your outline with research and continuity annotations. The third writes a raw first draft. The next agents edit and verify that draft — hunting AI patterns, verifying the slop hunt was thorough, grounding the prose in world-specific detail, optionally auditing that grounding before expansion, polishing voice, and enforcing your style guide. The last agent catalogues everything that happened so future chapters stay consistent.
 
 You don't interact with the pipeline while it runs. You set it up, start it, and come back to finished chapters.
 
 ## Prerequisites
 
 - **Copilot CLI** with agent support (`copilot` command available)
-- **Claude Opus 4.6** access (all agents use this model)
+- Access to the configured models (currently `gpt-5.4` for specialist agents and `claude-sonnet-4.6` for the orchestrator)
 - A story idea with at least one chapter outlined
 
 ## Setting Up a New Story
@@ -238,11 +238,15 @@ For maintainers: the schema source of truth lives in `.github/skills/structured-
 
 **`agents.expander.enabled`** — Set to `false` to skip the scene expansion step. The pipeline copies v2g.md to v3.md and proceeds directly to the style-editor. Use this for stories that don't need intimate scene expansion.
 
-**`agents.grounder.enabled`** — Set to `false` to skip the world-specificity grounding step. The pipeline copies v2.md to v2g.md and proceeds to the expander. Use this for stories that already have highly specific prose from the writer.
+**`agents.grounder.enabled`** — Set to `false` to skip the world-specificity grounding step. The pipeline copies `v2.md` to `v2g.md`, skips the grounding-gate, and proceeds to the expander. Use this for stories that already have highly specific prose from the writer.
+
+**`agents.groundingGate.enabled`** — Set to `true` to add an adversarial grounding audit after the grounder and before the expander. The gate can send the chapter back to the grounder in revision mode when dialogue float, tail attenuation, or over-grounding survives the first pass. Default `false`.
+
+**`agents.groundingGate.maxIterations`** — Maximum number of grounder revision → grounding-gate re-audit cycles before the pipeline promotes the latest grounded revision and continues. Default `3`.
 
 **`agents.slopGate.enabled`** — Set to `false` to skip the slop verification gate. The slophunter's v2.md passes unchecked to the grounder (or expander if grounder is also disabled, or style-editor if both are disabled). Default `true`.
 
-**`agents.slopGate.maxIterations`** — Maximum number of slophunter revision → gate re-audit cycles before the pipeline halts. Default `5`. Increase if your resource guides are strict and the slophunter needs more passes.
+**`agents.slopGate.maxIterations`** — Maximum number of slophunter revision → gate re-audit cycles before the pipeline promotes the latest revision and continues with a warning. Default `5`. Increase if your resource guides are strict and the slophunter needs more passes.
 
 ### Choosing a style target
 
@@ -276,19 +280,20 @@ For each chapter (in filename order):
 3. **Writer** writes the chapter → `v1.md`
 4. **Slophunter** eliminates AI patterns → `v2.md`
 5. **Slop-Gate** audits v2.md against all resource guides, writes suggested fixes per KILL (if enabled) → pass/fail; on fail, slophunter applies gate's suggestions and gate re-audits (up to 5 iterations)
-6. **Grounder** adds world-specific detail — named geography, factions, mechanics, materials, cultural voice (if enabled) → `v2g.md`
-7. **Expander** expands scenes (if enabled) → `v3.md`
-8. **Style-Editor** polishes voice and continuity → `v4.md`
-9. **Style-Auditor** enforces the style guide (if `style-guide.json` exists) → `v4b.md`
-10. **Final-Slophunter** runs a polish-mode slop pass → `v5.md`
-11. Orchestrator copies `v5.md` → `final.md`
-12. **Memory-Keeper** catalogues everything for future chapters
+6. **Grounder** adds world-specific detail, writes `grounding-map.json`, and runs dialogue/tail audits (if enabled) → `v2g.md`
+7. **Grounding-Gate** fresh-sweeps the grounded prose (if enabled) → pass/fail; on fail, grounder runs revision mode and the gate re-audits (up to 3 iterations by default)
+8. **Expander** expands scenes (if enabled) → `v3.md`
+9. **Style-Editor** polishes voice and continuity → `v4.md`
+10. **Style-Auditor** enforces the style guide (if `style-guide.json` exists) → `v4b.md`
+11. **Final-Slophunter** runs a polish-mode slop pass → `v5.md`
+12. Orchestrator copies `v5.md` → `final.md`
+13. **Memory-Keeper** catalogues everything for future chapters
 
 Then the next chapter begins, with access to all memory from prior chapters.
 
 ### Expected time and cost
 
-- **Time:** 15-30 minutes per chapter, depending on length and complexity
+- **Time:** 15-30 minutes per chapter in the default flow. Enabling the grounding-gate adds another audit/revision surface and can push long chapters higher.
 - **Tokens:** ~500K-1M tokens per chapter across all agents
 - **Disk:** ~100KB of artifacts per chapter
 
@@ -343,7 +348,8 @@ tail -50 logs/afternoon/*.log 2>/dev/null
 To see how the prose evolved through the pipeline, read the versions in order:
 - `v1.md` — Raw writer output (longest, most AI-patterned)
 - `v2.md` — After slophunter (shorter, cleaner)
-- `v2g.md` — After grounder (immersive world-enrichment: named geography, material texture, institutional specificity, world-register dialogue)
+- `v2g.md` — After grounder (or after promoted grounder revision if the grounding-gate loop ran)
+- `grounding-map.json` — Grounder's execution scaffold for the canonical `v2g.md`
 - `v3.md` — After expander (longer again if expansion ran)
 - `v4.md` — After style-editor (voice polish)
 - `v4b.md` — After style-auditor (style-guide enforcement; absent if no style-guide.json)
@@ -353,8 +359,9 @@ To see how the prose evolved through the pipeline, read the versions in order:
 
 Each editor's notes JSON shows what they found and fixed:
 - `slophunter-notes.json` — Before/after word counts, hitlist violations found, flagged scenes
-- `slop-gate-notes.json` — KILL findings only with `suggestedFix` per KILL (absent if gate disabled). `slop-gate-scratchpad.md` — all KEEP decisions with reasoning for human post-hoc audit (absent if gate disabled)
-- `grounder-notes.json` — Per-scene enrichment log, wordcount growth (absent if grounder disabled)
+- `slop-gate-notes-a.json` / `slop-gate-notes-b.json` — pass A / pass B KILL findings only with `suggestedFix` per KILL (absent if gate disabled). Pass B includes both phantom-concreteness kills in narration or quoted speech and fake-simplification kills when a supposedly plain-language reply still hides the actionable target. `slop-gate-scratchpad-a.md` / `slop-gate-scratchpad-b.md` store KEEP decisions with reasoning for human post-hoc audit (absent if gate disabled)
+- `grounder-notes.json` — Per-scene enrichment log, mode, final-third audit notes (absent if grounder disabled/degraded)
+- `grounding-gate-notes.json` — Grounding-gate KILL findings only with local `suggestedFix` values (absent if gate disabled/skipped). `grounding-gate-scratchpad.md` stores KEEP defenses.
 - `expander-notes.json` — Which beats were expanded, at what level, what was added
 - `style-notes.json` — Results of 7 quality checks, fixes applied
 - `style-auditor-notes.json` — Per-dimension audit against style-guide.json (absent if no style-guide)
@@ -381,7 +388,11 @@ Set `agents.expander.enabled` to `false` in config.json. The orchestrator will `
 
 ### Disable the grounder
 
-Set `agents.grounder.enabled` to `false` in config.json. The orchestrator will `cp v2.md v2g.md` and skip the grounder dispatch entirely.
+Set `agents.grounder.enabled` to `false` in config.json. The orchestrator will `cp v2.md v2g.md`, skip the grounder dispatch, skip the grounding-gate, and continue to the expander.
+
+### Enable the grounding-gate
+
+Set `agents.groundingGate.enabled` to `true` in config.json. The orchestrator will dispatch the gate after the grounder and before the expander. On fail, it loops grounder revision → gate re-audit up to `agents.groundingGate.maxIterations`, then promotes the latest grounded revision and continues if the gate still finds issues.
 
 ### Change the style target mid-story
 
@@ -424,11 +435,18 @@ A chapter gets blocked after two consecutive agent failures. Check:
 
 To retry: delete the blocking agent's status.json and the chapter's directory, reset the manifest, and run again.
 
-### Slop-gate halted the pipeline
+### Slop-gate exhausted its loop
 
-The gate couldn't get the slophunter's output clean within the max iteration limit. Check:
-1. Read the last `slop-gate-notes-r{N}.json` to see remaining violations
+The gate couldn't get the slophunter's output clean within the max iteration limit, so the orchestrator promoted the latest revision and continued. Check:
+1. Read the last `slop-gate-notes-r{N}a.json` and `slop-gate-notes-r{N}b.json` to see remaining violations
 2. Either fix the prose manually, increase `maxIterations`, or disable the gate temporarily
+
+### Grounding-gate exhausted its loop
+
+The grounding-gate still found grounding problems after the configured number of re-audits, so the orchestrator promoted the latest grounded revision and continued. Check:
+1. Read the last `grounding-gate-notes-r{N}.json` to see what survived
+2. Compare the promoted `v2g.md` with `grounding-map.json` to see whether the misses cluster in dialogue-heavy scenes or the final third
+3. Either manually revise the chapter or raise `agents.groundingGate.maxIterations`
 
 ### Slophunter reporting high violation counts
 

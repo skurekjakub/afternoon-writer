@@ -46,9 +46,9 @@ Runs after the style-editor and style-auditor. The chapter has already been clea
 
 ### Revision mode
 
-Dispatched as: `chapterId: {chapterId}, mode: revision, iteration: {N}, feedbackPath: {path}`
+Dispatched as: `chapterId: {chapterId}, mode: revision, iteration: {N}, feedbackPathA: {path}, feedbackPathB: {path}`
 
-Runs when the slop-gate has audited your v2 output and found remaining violations. The gate's feedback JSON contains KILL findings with **pre-validated suggested fixes** — concrete replacement text that the gate already checked against all audit guides. Your primary job is to apply those suggestions, not to improvise.
+Runs when the slop-gate's pass A and/or pass B have audited your v2 output and found remaining violations. Their feedback JSON files contain KILL findings with **pre-validated suggested fixes** — concrete replacement text that the gate already checked against the guide pack for the pass that raised the finding. Your primary job is to apply those suggestions, not to improvise.
 
 - Input: the latest versioned file. If `iteration` is 1, read `v2.md`. If `iteration` > 1, read `v2-r{iteration-1}.md`.
 - Output: `v2-r{iteration}.md`
@@ -60,21 +60,24 @@ Runs when the slop-gate has audited your v2 output and found remaining violation
 **Revision workflow:**
 
 1. Read the input file (v2.md or v2-r{N-1}.md).
-2. Read the feedback file at `feedbackPath`. This is the slop-gate's notes JSON containing per-guide audit results with KILL findings. Each KILL finding includes a `suggestedFix` field (concrete replacement text or `null` if unfixable) and a `crossChecked` array of all guides the fix was validated against.
-3. For each KILL finding in the feedback:
-   a. **If `suggestedFix` is non-null**: Apply the suggestion. You may adjust for voice and flow — smooth the seams where the replacement meets surrounding text, adjust register to match the POV character — but do NOT rewrite the suggestion's core meaning or structure. The gate wrote that fix specifically to avoid violating other guides. If you substantially change the fix, you risk reintroducing the violation the gate was solving.
+2. Read the feedback files at `feedbackPathA` and `feedbackPathB`. These are the slop-gate's pass A and pass B notes JSON files containing per-guide audit results with KILL findings. Each KILL finding includes a `suggestedFix` field (concrete replacement text or `null` if unfixable) and a `crossChecked` array of the guide pack that fix was validated against.
+3. Merge the KILL findings from both feedback files into one worklist.
+4. For each KILL finding in the combined worklist:
+   a. **If `suggestedFix` is non-null**: Apply the suggestion. You may adjust for voice and flow — smooth the seams where the replacement meets surrounding text, adjust register to match the POV character — but do NOT rewrite the suggestion's core meaning or structure. The gate wrote that fix specifically to avoid violating the guide pack that raised the finding. If you substantially change the fix, you risk reintroducing the violation the gate was solving.
    b. **If `suggestedFix` is `null` AND `fixDifficulty` is `"high"`**: Be extra conservative. These are constructions the gate identified as problems but could not rewrite without a broader paragraph restructure.
-   c. Do not touch passages that were not flagged.
-4. **Rewrite self-audit.** After applying all gate suggestions, re-read the changed passages (not the whole chapter) against the anti-slop resources from `config.json` → `priming.antiSlop`. For each passage you rewrote or adjusted in step 3:
+   c. If one edit resolves findings from both pass A and pass B, log separate change entries so both feedback references remain traceable.
+   d. Do not touch passages that were not flagged by either pass.
+5. **Rewrite self-audit.** After applying all gate suggestions, re-read the changed passages (not the whole chapter) against the anti-slop resources from `config.json` → `priming.antiSlop`. For each passage you rewrote or adjusted in step 4:
    a. Check the rewritten text against the hitlist patterns. Does the new text contain any pattern the hitlist says to eliminate?
    b. Check the rewritten text against the intent-smear, narrator-seep, and negation guides. Does the rewrite introduce anthropomorphism, narrator commentary, or negation tics?
-   c. If the rewrite introduces a new violation, fix it immediately — apply the same surgical replacement approach. This is a micro-hunt on changed passages only, not a full-chapter sweep.
-   d. Document any self-audit fixes in the revision notes JSON with `"source": "self-audit"`.
-5. Write the output file (`v2-r{iteration}.md`) using `create` + sequential `edit` appends.
-6. Write revision notes JSON documenting what you fixed, keyed to the feedback findings.
-7. Write status.json.
+   c. If the rewritten passage includes dialogue that is supposed to simplify or translate an earlier thought ("say it in streets," "smaller words," "plainly," "short version"), verify that it now cashes out into usable targets, routes, objects, timings, or triggers. Do not let a concrete gate fix drift back into fake simplification dressed in softer words.
+   d. If the rewrite introduces a new violation, fix it immediately — apply the same surgical replacement approach. This is a micro-hunt on changed passages only, not a full-chapter sweep.
+   e. Document any self-audit fixes in the revision notes JSON with `"source": "self-audit"`.
+6. Write the output file (`v2-r{iteration}.md`) using `create` + sequential `edit` appends.
+7. Write revision notes JSON documenting what you fixed, keyed to the feedback findings.
+8. Write status.json.
 
-**Critical constraint**: The gate's suggested fixes are pre-validated against ALL audit guides. When you adjust a suggestion for voice/flow, keep the structural change intact — do not revert to the pattern the fix was eliminating.
+**Critical constraint**: The gate's suggested fixes are pre-validated against the guide pack that raised each finding. When you adjust a suggestion for voice/flow, keep the structural change intact — do not revert to the pattern the fix was eliminating.
 
 **Vocabulary diversity constraint**: When rewriting flagged passages, do NOT default to eye/gaze beats ("looked," "eyes," "gaze," "stare," "glance") as your replacement vocabulary. This is the most common revision-mode failure: the slophunter fixes an AI pattern by introducing a "looked at" or "eyes found" beat, which pushes the chapter over the Tic 5 eye/gaze cap (4 per chapter). Prefer action, body position, sound, or environmental detail as replacement anchors. Before writing v2-r{N}.md, mentally count how many eye/gaze beats are already in the chapter — if near cap, use a different sense entirely.
 
@@ -87,14 +90,14 @@ Runs when the slop-gate has audited your v2 output and found remaining violation
   "iteration": 1,
   "changes": [
     {
-      "feedbackRef": "gpt-5-prose-issues.md → F1",
+      "feedbackRef": "B → gpt-5-prose-issues.md → F1",
       "line": 42,
       "before": "The door creaked open slowly.",
       "after": "The door swung wide.",
       "source": "gate-suggestion"
     },
     {
-      "feedbackRef": "intent-smear-agency-laundering-guide.md → P3",
+      "feedbackRef": "A → intent-smear-agency-laundering-guide.md → P3",
       "line": 87,
       "before": "The silence held its own warning.",
       "after": "Nobody spoke. Rika's hand stayed on her sword hilt.",
@@ -102,7 +105,7 @@ Runs when the slop-gate has audited your v2 output and found remaining violation
     }
   ],
   "unfixable": [
-    { "feedbackRef": "narrator-seep-guide.md → Tier-A-3", "reason": "Cannot remove without losing POV transition" }
+    { "feedbackRef": "B → narrator-seep-guide.md → Tier-A-3", "reason": "Cannot remove without losing POV transition" }
   ],
   "wordCount": { "before": 4960, "after": 4945 }
 }
@@ -131,7 +134,7 @@ Runs when the slop-gate has audited your v2 output and found remaining violation
 
 When dispatched, check the prompt for `mode: polish` or `mode: revision`. Set your input file, output file, wordcount target, status path, and notes path accordingly before beginning any passes.
 
-For revision mode: also extract `iteration` and `feedbackPath` from the prompt. These are required — if missing, write status.json with `"status": "failed"` and stop.
+For revision mode: also extract `iteration`, `feedbackPathA`, and `feedbackPathB` from the prompt. These are required — if any are missing, write status.json with `"status": "failed"` and stop.
 
 1. Read `.afternoon/config.json` for project settings
 2. Read the story overview from `config.json` → `storyOverview` — you need to know what story you're cleaning. When you rewrite a sentence, the replacement must serve the story's arc, not just avoid a pattern.
@@ -163,7 +166,7 @@ Progressively write to the output file the result of each pass.
 2. **Research keywords** *(primary mode only — skip in polish mode)* — Extract all character names, location names, and world terms from the chapter. Internet-search each to verify canon accuracy of descriptions, abilities, geography, and cultural details used in the prose. Note any inaccuracies to fix during hunts.
 3. **Wordcount reduction** — Reduce the overall wordcount by the target for your mode (20% primary / 10% polish) through slop elimination.
 4. **Hitlist patterns** — Move sequentially through the hitlist, fixing issues from each section.
-5. **Dialogue register hunt** — Scan every line of quoted speech. Apply the "Dialogue Register Contamination" and "Document Voice vs. Living Voice" sections of the hitlist: find institutional, clinical, bureaucratic, and document-register vocabulary in spoken lines. Ask for each term: *Would this person say this word out loud, to another person, in the middle of a scene?* Replace document voice with the grounded equivalent. Check the voice sheets for each speaking character — plain language ceiling applies even to specialists.
+5. **Dialogue register hunt** — Scan every line of quoted speech. Apply the "Dialogue Register Contamination" and "Document Voice vs. Living Voice" sections of the hitlist: find institutional, clinical, bureaucratic, and document-register vocabulary in spoken lines. Ask for each term: *Would this person say this word out loud, to another person, in the middle of a scene?* Replace document voice with the grounded equivalent. Also kill **fake simplification**: if one character asks for plain terms, streets, smaller words, or the short version, the reply must cash out into usable targets, routes, objects, timings, or triggers. A couple trade nouns or place labels do not count if the line still reads like a memo heading. Check the voice sheets for each speaking character — plain language ceiling applies even to specialists.
 6. Write notes JSON and status.json to the paths for your mode.
 
 ## Replacement Rules

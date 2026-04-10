@@ -1,0 +1,509 @@
+{
+  "chapterId": "chapter24",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 20,
+      "kills": 16,
+      "keeps": 4,
+      "severity": {
+        "mild": 16,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": 62,
+          "excerpt": "The clerk glanced toward the masonry.",
+          "issue": "generic label beat",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": 183,
+          "excerpt": "He wet his lips.",
+          "issue": "generic label beat",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": 70,
+          "excerpt": "One guard made a swallowed sound that might have been a laugh.",
+          "word": "might have been",
+          "deletionTest": "One guard made a swallowed sound that was a laugh.",
+          "suggestedFix": "One guard made a swallowed laugh.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": 86,
+          "excerpt": "For a moment there was only breath.",
+          "word": "For a moment",
+          "deletionTest": "There was only breath.",
+          "suggestedFix": "Only breath.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": 375,
+          "excerpt": "He stopped one pace from the grate as though the iron had struck him.",
+          "word": "as though",
+          "deletionTest": "He stopped one pace from the grate.",
+          "suggestedFix": "He stopped one pace from the grate.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": 483,
+          "excerpt": "On the other side, after a moment, came three light taps.",
+          "word": "after a moment",
+          "deletionTest": "On the other side came three light taps.",
+          "suggestedFix": "On the other side came three light taps.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": 112,
+          "excerpt": "Useless gesture.",
+          "whatItRestates": "Sylvanas leaned her forehead briefly to the wall.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": 141,
+          "excerpt": "That was the first cut.",
+          "whatItRestates": "Ashcombe began without raising her voice.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": 155,
+          "excerpt": "The story landed.",
+          "whatItRestates": "The gallery murmured.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": 217,
+          "excerpt": "She only changed the light.",
+          "whatItRestates": "Ashcombe rose for cross-examination and ruined nothing.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": 293,
+          "excerpt": "That was the first crack that mattered.",
+          "whatItRestates": "Vereesa stepped back and did not leave the hall.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "line": 128,
+          "excerpt": "The tribunal hall had been built to make kings look inevitable.",
+          "paragraphLocation": "lines 128-130",
+          "issue": "thesis opening / claim-evidence paragraph",
+          "suggestedFix": "Pale light fell from the high windows through dust onto the raised bench.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": 120,
+          "excerpt": "The blade above them was another, and hungrier.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "The law was one prison.",
+          "suggestedFix": "Above them, the blade kept testing the wards.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": 311,
+          "excerpt": "Storage dressed in the robes of mercy.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Indefinite imprisonment under royal and ecclesiastical authority pending further determination and stabilization of the enchanted weapon.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": 475,
+          "excerpt": "Enough to make the next hours matter.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Tonight was for corroboration, witness, pressure from outside the wall.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": 485,
+          "excerpt": "Counting still.",
+          "location": "scene-final",
+          "couldEndEarlierAt": "On the other side came three light taps.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "severity": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A1",
+      "findings": [
+        {
+          "pattern": "A7",
+          "severity": "mild",
+          "line": 76,
+          "excerpt": "The steady men were always harder to move.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can read this clerk's resistance, but the sentence zooms out into a category claim about 'steady men' instead of staying on the man in front of her.",
+          "confidence": "HIGH",
+          "suggestedFix": "He felt it and locked himself back down.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1",
+          "severity": "mild",
+          "line": 155,
+          "excerpt": "The story landed.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This is a caption pinned over the gallery reaction rather than a thought Sylvanas would form from inside the room.",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "mild",
+          "line": 217,
+          "excerpt": "She only changed the light.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The metaphor is polished and thematic in a way that reads authored from above rather than like Sylvanas's tactical read of cross-examination.",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1",
+          "severity": "mild",
+          "line": 293,
+          "excerpt": "That was the first crack that mattered.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This is a retrospective caption summarizing the moment's significance instead of letting Vereesa's choice stand on the page.",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5",
+          "severity": "mild",
+          "line": 299,
+          "excerpt": "When Thornton finally raised his head, the room had gone past silence into appetite.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "It declares a scene-state from above instead of giving the concrete body signs Sylvanas would actually read in the chamber.",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "severity": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3/P4",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": 147,
+          "excerpt": "Clean work.",
+          "failedQuestion": "What specifically was clean?",
+          "missingPayload": "The precise prosecutorial move or evidentiary turn Sylvanas is crediting.",
+          "reason": "Placeholder-noun shorthand; the line sounds incisive without naming the actual move.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": 217,
+          "excerpt": "She only changed the light.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The exact factual reframing Ashcombe just performed on Uther's testimony.",
+          "reason": "Interpretive summary with no concrete carrier on the sentence itself.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": 293,
+          "excerpt": "That was the first crack that mattered.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "Vereesa's choice to stay in the hall after reading the disavowal.",
+          "reason": "The sentence points at significance without naming the actual change.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": 439,
+          "excerpt": "\"But the room has changed.\"",
+          "failedQuestion": "What specifically has changed?",
+          "missingPayload": "Outside witnesses, elven mages, and the new political pressure Lor'themar means.",
+          "reason": "The line sounds strategically sharp but still withholds the usable claim.",
+          "suggestedFix": "\"But there are witnesses now.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": 475,
+          "excerpt": "Tonight was for corroboration, witness, pressure from outside the wall.",
+          "failedQuestion": "What can anyone do now?",
+          "missingPayload": "Witnesses in the hall and elven mages testing the blade's effects.",
+          "reason": "The sentence stacks abstract handles instead of naming the operative surfaces that remain.",
+          "suggestedFix": "Tonight was for witnesses in the hall and mages on the blade.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 0,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "I checked the likely follow-up exchanges at lines 64-68, 90-92, 106-108, and 399-401. They are not plainer-speech setups ('Explain' seeks argument order, 'At whom?' seeks a target, 'How much shorter?' seeks a number, and 'Can they testify?' seeks capacity), so the guide never actually triggers."
+    }
+  ],
+  "summary": {
+    "totalKills": 26,
+    "totalKeeps": 10,
+    "mildKills": 26,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 26,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still carries 26 mild KILL findings across three guides. There are no moderate/severe hits, but the run exceeds the 3-mild maximum for a pass."
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "chapterId": "chapter15",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": "They were almost through when a woman on foot caught Jaina's stirrup leather.",
+          "word": "almost",
+          "reason": "The interruption lands cleanly without the hedge; 'almost' pads the beat instead of sharpening it.",
+          "suggestedFix": "They were through when a woman on foot caught Jaina's stirrup leather.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": "He was dead.",
+          "whatItRestates": "The stretcher image already shows a limp corpse: jaw tied shut, arm hanging, body hanging slack.",
+          "reason": "The sentence translates concrete evidence the paragraph already delivered.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Clipped, tactical, and body-first. Sylvanas notices logistics, readiness, threat, and social pressure through visible tells, not through essayistic personification or detached captioning. She can compress to sharp judgments, but they should feel like active field assessment rather than polished narration from above.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "dominantPattern": "B1",
+      "findings": [
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "MILD",
+          "line": "Eastweald still wore its ordinary face badly.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The personified 'ordinary face' phrasing reads like authored captioning rather than Sylvanas's harder field register.",
+          "confidence": "MODERATE",
+          "suggestedFix": "Eastweald still looked ordinary until the plague marks showed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "MILD",
+          "line": "They stepped back out into the camp and were swallowed by motion.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence sounds polished from outside the body instead of like Sylvanas registering the camp's immediate rush.",
+          "confidence": "MODERATE",
+          "suggestedFix": "They stepped back out into the camp's rush.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "dominantPattern": "P1",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "\"Hours matter. The city may already be too far in. I don't know until I see the stock.\"",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "What 'too far in' means on the ground: too much plague grain may already be baked, distributed, or eaten.",
+          "reason": "The line sounds operationally sharp but leaves the actual failure condition unstated.",
+          "suggestedFix": "\"Hours matter. Too much of the stock may already be baked and eaten. I don't know until I see the stock.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P1",
+          "severity": "MILD",
+          "line": "\"If she can still cut the feed points,\" Sylvanas said, \"she'll need something faster than faith behind her.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The concrete support Sylvanas means: riders and speed, not abstract belief.",
+          "reason": "The closer lands on abstract gravitas instead of naming the practical support being offered.",
+          "suggestedFix": "\"If she can still cut the feed points,\" Sylvanas said, \"she'll need riders behind her, not prayers.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 11,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "All six findings are mild, but pass B still fails because the run exceeds the three-mild-findings threshold.",
+    "passStrategy": "default"
+  }
+}

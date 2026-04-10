@@ -1,0 +1,131 @@
+{
+  "chapterId": "chapter23",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "pattern": "F3",
+          "failureMode": "filter-hedge-drag",
+          "severity": "MILD",
+          "line": "Uther understood faster.",
+          "word": "understood",
+          "deletionTest": "He took in Jaina, the corridor behind her, then the cold shivering through the stones.",
+          "reason": "The sentence routes the beat through a cognition verb even though the next sentence already shows his faster read in direct action.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A1",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in tactical sensory reads, magical mechanism, and short self-command fragments. Under stress she inventories space, spell sequence, and threat pressure; she does not usually pause for detached captioning once the practical read is already on the page.",
+      "registerConfidence": "HIGH",
+      "findings": [
+        {
+          "pattern": "A1",
+          "tier": "A",
+          "severity": "MILD",
+          "line": "Dead at last on the steps below the throne.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This lands as a retrospective caption after Uther turns to Arthas; it does not carry new practical information or sound like an active thought Jaina needs in that second.",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1",
+          "tier": "A",
+          "severity": "MILD",
+          "line": "Measuring.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment behaves like a caption stapled onto the previous sentence rather than a fresh observation or decision beat from inside Jaina's body.",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "The abstract-looking shorthand in this draft cashes out through adjacent evidence: magical pressure is already grounded in wrong-way cold and blade broadcast, combat compression is followed by named spell work, and Sylvanas's 'arithmetic' follows an explicit room-reading dilemma rather than substituting for one."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "No dialogue exchange in chapter23 asks for plainer, shorter, or street-level translation, so this guide had no candidate simplification replies to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 7,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass B leaves 3 mild sentence-level issues: one F3 filter-verb sentence and two A1 narrator-caption fragments. No moderate or severe kills remain, so the pass resolves to pass-with-warnings."
+  }
+}

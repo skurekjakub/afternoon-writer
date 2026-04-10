@@ -1,0 +1,157 @@
+{
+  "chapterId": "chapter18",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": [
+        "mild"
+      ],
+      "dominantPattern": "Pattern 2 - fragment pivot",
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "line": "She was not like them. The fear was simpler: she could keep following a line too far.",
+          "pattern": "Pattern 2",
+          "deletionTest": "The fear was simpler: she could keep following a line too far.",
+          "verdict": "KILL",
+          "reason": "Pattern 2 fragment pivot; deleting the negated setup preserves the actual thought and improves directness.",
+          "severity": "mild",
+          "suggestedFix": "The fear was simpler: she could keep following a line too far.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The relay rider shifted in the saddle, not fidgeting, simply trying not to fall out of it.",
+          "pattern": "Pattern 4",
+          "deletionTest": "The relay rider shifted in the saddle, simply trying not to fall out of it.",
+          "verdict": "KILL",
+          "reason": "Pattern 4 minimizer pivot; the negative qualifier is scaffolding before the real description.",
+          "severity": "mild",
+          "suggestedFix": "The relay rider shifted in the saddle, fighting to stay seated.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 8,
+      "kills": 4,
+      "keeps": 4,
+      "severityMarkers": [
+        "mild",
+        "moderate"
+      ],
+      "dominantPattern": "geography-motion laundering",
+      "clusterWarnings": [
+        "Two road-subject kills create a repeat-noun cluster in an analytical POV section."
+      ],
+      "findings": [
+        {
+          "line": "The city fell behind them slowly.",
+          "subject": "The city",
+          "verb": "fell behind",
+          "realAgent": "Jaina, Sylvanas, and Cyndia were the ones riding away from Stratholme.",
+          "pattern": "geography-motion",
+          "verdict": "KILL",
+          "reason": "The city is not moving; the riders are, so the sentence launders motion onto geography.",
+          "severity": "mild",
+          "suggestedFix": "They left the city behind slowly.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Then the road did what roads did.",
+          "subject": "the road",
+          "verb": "did",
+          "realAgent": "The riders and horses settled into steady travel along it.",
+          "pattern": "geography-motion",
+          "verdict": "KILL",
+          "reason": "The line assigns active behavior to the road instead of naming the riders' movement.",
+          "severity": "moderate",
+          "suggestedFix": "Then came hooves on packed earth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Around her, the road kept moving.",
+          "subject": "the road",
+          "verb": "kept moving",
+          "realAgent": "The three riders kept moving while Jaina stayed inside the call.",
+          "pattern": "geography-motion",
+          "verdict": "KILL",
+          "reason": "The repeated road-subject motion turns infrastructure into the actor instead of the riders.",
+          "severity": "moderate",
+          "suggestedFix": "Around her, they kept moving.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The dispatch tube, her notebook, and the salt wind ahead all pointed north.",
+          "subject": "The dispatch tube, her notebook, and the salt wind ahead",
+          "verb": "pointed",
+          "realAgent": "The relay report, Jaina's notes, and the coastward air all gave Jaina concrete evidence of the same direction.",
+          "pattern": "evidence-direction smear",
+          "verdict": "KILL",
+          "reason": "The sentence compresses separate clues into acting objects instead of naming the convergence directly.",
+          "severity": "mild",
+          "suggestedFix": "North was there in the dispatch tube, her notebook, and the salt wind ahead.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "cleanReason": "Checked the chapter-level caps across the seven tic families. Only two physical tightened instances and one specific weight metaphor surfaced as true candidates, all under cap; marked/shifted overload, gaze-cluster fatigue, and dialogue-tag avoidance did not exceed thresholds."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 7,
+    "mildKills": 4,
+    "moderateOrSevereKills": 2,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A found a repeated road-subject agency-laundering cluster (moderate) plus four mild kills across intent-smear and negation, so the pass fails."
+  }
+}

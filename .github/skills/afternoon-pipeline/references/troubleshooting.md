@@ -122,7 +122,7 @@ Key fields:
 **Symptom:** Manifest contains `"slopGateExhausted"` field for a chapter. The pipeline continued with best-effort prose.
 **Cause:** The slop-gate found violations that the slophunter's revision mode couldn't fix within the max iteration limit. The orchestrator promoted the latest revision and continued rather than halting.
 **Post-run action:**
-1. Read the last `slop-gate-notes-r{N}.json` to see what the gate still flagged
+1. Read the last `slop-gate-notes-r{N}a.json` and `slop-gate-notes-r{N}b.json` to see what each pass still flagged
 2. Read the corresponding `v2.md` (promoted from the last revision) to see the current state
 3. Either: manually fix the remaining patterns in the final chapter output
 4. Or: increase `agents.slopGate.maxIterations` in config.json for future runs
@@ -132,7 +132,7 @@ Key fields:
 **Symptom:** Pipeline restarts and re-enters the revision loop from the wrong point.
 **Cause:** Crash during the slop-gate revision loop. The manifest's `slopGateLoop` object tracks loop state for recovery.
 **Fix:**
-1. Check `manifest.json` for the `slopGateLoop` object — it shows the current `iteration` and `phase`
+1. Check `manifest.json` for the `slopGateLoop` object — it shows the current `iteration`, `phase`, and pass-specific feedback paths / kill trajectories
 2. The orchestrator should auto-recover from the correct phase. If it doesn't, manually set the phase and iteration.
 3. If recovery is stuck, delete the `slopGateLoop` object from manifest and set `currentAgent` to "slophunter" to restart from the slophunter dispatch.
 
@@ -142,17 +142,45 @@ When the gate passes after a revision, the orchestrator promotes exactly two fil
 - `v2-r{N}.md` → `v2.md` (so downstream agents always read `v2.md`)
 - `slophunter-revision-r{N}-notes.json` → `slophunter-notes.json`
 
-The versioned files (`v2-r*.md`, `slophunter-revision-r*-notes.json`, `slop-gate-notes-r*.json`) are NOT deleted — they remain as audit history. Only `slop-gate-notes.json` (or the latest `slop-gate-notes-r{N}.json`) reflects the final passing audit.
+The versioned files (`v2-r*.md`, `slophunter-revision-r*-notes.json`, `slop-gate-notes-r*?.json`) are NOT deleted — they remain as audit history. The pass-specific artifacts (`slop-gate-notes-a.json`, `slop-gate-notes-b.json`, or the latest `slop-gate-notes-r{N}a.json` / `slop-gate-notes-r{N}b.json`) reflect the final audits.
 
 ### Grounder failure / degradation
 
 **Symptom:** Grounder status shows `"failed"`. Pipeline continues normally.
 **Cause:** Grounder could not complete (missing memory files, grounding framework error, etc.).
-**What happens:** The orchestrator copies `v2.md → v2g.md` and proceeds to the expander. Downstream agents read `v2g.md` (which is identical to `v2.md` in this case). No chapter blocking occurs.
+**What happens:** The orchestrator copies `v2.md → v2g.md`, skips the grounding-gate, and proceeds to the expander. Downstream agents read `v2g.md` (which is identical to `v2.md` in this case). No chapter blocking occurs.
 **Post-run action:**
 1. Check `agents/grounder/status.json` for the error message
 2. Fix the underlying issue (missing materials, config error, etc.)
-3. To re-run with grounding: delete `v2g.md`, `grounder-notes.json`, and downstream files, reset status files, restart
+3. To re-run with grounding: delete `v2g.md`, `grounding-map.json`, `grounder-notes.json`, any `grounding-gate-*` artifacts, and downstream files, reset status files, restart
+
+### Grounding-gate fails after max iterations
+
+**Symptom:** Manifest contains `"groundingGateExhausted"` for a chapter. The pipeline continued with the latest grounded revision.
+**Cause:** The grounding-gate kept finding float, tail attenuation, over-grounding, or source-fidelity problems after the configured number of grounder revision loops.
+**Post-run action:**
+1. Read the last `grounding-gate-notes-r{N}.json` to see what still failed
+2. Read the promoted `v2g.md` and compare it with the surviving suggestions
+3. Check `grounding-map.json` to see whether the missed area clustered in dialogue runs or the final third
+4. Either manually revise the chapter or increase `agents.groundingGate.maxIterations` in config for future runs
+
+### Grounding-gate crash during revision loop
+
+**Symptom:** Pipeline restarts and re-enters the grounding revision loop from the wrong point.
+**Cause:** Crash during the grounding-gate revision loop. The manifest's `groundingGateLoop` object tracks loop state for recovery.
+**Fix:**
+1. Check `manifest.json` for the `groundingGateLoop` object — it shows the current `iteration` and `phase`
+2. The orchestrator should auto-recover from the correct phase. If it does not, manually set the phase and iteration
+3. If recovery is stuck, delete `groundingGateLoop` from the manifest and set `currentAgent` to `"grounder"` to restart from the grounding pass
+
+### Grounding-gate revision file promotion
+
+When the grounding-gate passes after a revision, the orchestrator promotes exactly three files to canonical paths:
+- `v2g-r{N}.md` → `v2g.md`
+- `grounding-map-r{N}.json` → `grounding-map.json`
+- `grounder-revision-r{N}-notes.json` → `grounder-notes.json`
+
+The versioned files (`v2g-r*.md`, `grounding-map-r*.json`, `grounder-revision-r*-notes.json`, `grounding-gate-notes-r*.json`) are NOT deleted — they remain as audit history.
 
 ### Grounder producing excessive wordcount growth
 
@@ -194,6 +222,7 @@ ls -lt logs/afternoon/ | head -5
 ```bash
 rm -rf .afternoon/manifest.json .afternoon/agents/ .afternoon/chapters/ .afternoon/plans/*.json .afternoon/plans/memory/
 mkdir -p .afternoon/agents/{planner,plan-verifier,writer,slophunter,slop-gate,grounder,expander,style-editor,style-auditor,final-slophunter,memory-keeper}
+mkdir -p .afternoon/agents/grounding-gate
 ```
 
 ### Re-run a single chapter:
@@ -204,6 +233,6 @@ mkdir -p .afternoon/agents/{planner,plan-verifier,writer,slophunter,slop-gate,gr
 
 ### Re-run from a specific agent:
 1. Delete that agent's status.json and all downstream agent status files
-2. Delete downstream output files (e.g., if re-running from slophunter, delete v2.md, v3.md, v4.md, style-notes.json, expander-notes.json)
+2. Delete downstream output files (e.g., if re-running from slophunter, delete `v2.md`, `v2g.md`, `grounding-map.json`, `grounding-gate-notes.json`, `v3.md`, `v4.md`, `style-notes.json`, `expander-notes.json`)
 3. Update manifest: set `currentAgent` to the target agent
 4. Restart the pipeline

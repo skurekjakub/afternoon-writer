@@ -1,0 +1,320 @@
+{
+  "chapterId": "chapter22",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 10,
+      "kills": 8,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 8,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": "Her mouth twitched.",
+          "issue": "generic label / interchangeable beat",
+          "suggestedFix": "The corner of her mouth kicked once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": "Then the wind got under her hood, and she remembered what waited farther south.",
+          "word": "remembered",
+          "deletionTest": "Then the wind got under her hood, and what waited farther south pressed back in.",
+          "suggestedFix": "Then the wind got under her hood, and the bay and the ship came back hard.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": "They left without taking the offered bench. Six strides later the camp warmth fell away so completely it might have been imagined.",
+          "word": "might have",
+          "deletionTest": "They left without taking the offered bench. Six strides later the camp warmth fell away so completely it was imagined.",
+          "suggestedFix": "They left without taking the offered bench. Six strides later the camp warmth was gone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": "Antonidas answered on the third pulse with a silence so intent she knew he had been waiting on the chance of this call for days.",
+          "word": "knew",
+          "deletionTest": "Antonidas answered on the third pulse with a silence so intent he had been waiting on the chance of this call for days.",
+          "suggestedFix": "Antonidas answered on the third pulse, too fast for a man caught unready.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "He understood enough not to waste her time on wonder.",
+          "whatItRestates": "Antonidas moves straight from Jaina's three-part explanation to asking about the cost.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "That settled it for Sylvanas.",
+          "whatItRestates": "The ranger lane shift around Jaina already shows Sylvanas reading the changed protective pattern.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "line": "The same offense kept recurring in different dress.",
+          "paragraphLocation": "road-south paragraph beginning \"The road south widened, then narrowed again as traffic thickened toward the capital.\"",
+          "issue": "thesis opening",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "By landfall she knew who had to buy the seconds.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "She found no answer in the sea. She gave none either.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A1/A5/B1",
+      "registers": [
+        {
+          "pov": "Jaina Proudmoore",
+          "summary": "Jaina thinks through bodily strain, magical rhythm, and problem-solving sequence. Even at her most analytical, she stays close to concrete symptoms, spell logic, and immediate stakes, not essay gloss.",
+          "confidence": "high"
+        },
+        {
+          "pov": "Sylvanas Windrunner",
+          "summary": "Sylvanas reads lanes, spacing, timing, and threat math in clipped tactical shorthand. She compresses toward field decisions, not polished thematic commentary.",
+          "confidence": "high"
+        }
+      ],
+      "findings": [
+        {
+          "pattern": "B1",
+          "severity": "mild",
+          "line": "The sea had a way of eating magic even when it was not trying.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can feel the stone weakening, but this sentence zooms out into a polished world-axiom instead of staying with the thinning light in her hand.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "Out on open water, the amber light thinned faster.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1",
+          "severity": "mild",
+          "line": "I.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The isolated pronoun reads as a caption pinned over the dialogue beat, not as a thought Sylvanas would actually phrase to herself.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5",
+          "severity": "mild",
+          "line": "The little court went still.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "It names the scene-state from above instead of giving the silence and held bodies Sylvanas is actually reading.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "No one in the arch said anything.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "What remained was the pair who had stood close enough to Frostmourne to carry one wrong thing out of that room alive.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The sentence never names the concrete thing they carried south: the seam knowledge about the blade's turn.",
+          "verdict": "KILL",
+          "reason": "Placeholder noun stand-in without local payload.",
+          "suggestedFix": "What remained was the pair who had heard the turn in the blade and lived.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "\"I can build it,\" Jaina said. \"Doing it in a room with the blade in reach is a different question.\"",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The line hides the actual problem: casting at sword range without being interrupted or killed.",
+          "verdict": "KILL",
+          "reason": "Placeholder-noun stand-in where the practical obstacle can be named plainly.",
+          "suggestedFix": "\"I can build it,\" Jaina said. \"Doing it at sword range without dying is a different question.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "Speed could be bought cleanly, and that made the price uglier.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The sentence avoids saying that the extra speed now comes straight out of Jaina because nothing supernatural is fighting the ship.",
+          "verdict": "KILL",
+          "reason": "Placeholder-noun stand-in dressed up as sharp compression.",
+          "suggestedFix": "Nothing fought them on the way south but distance, so every extra knot came out of Jaina.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Both simplification setups land usable payload. The shipboard version gives a sequence Sylvanas can act on, and the palace-margin version adds the operational threshold of three to five seconds at sword range.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 14,
+    "totalKeeps": 9,
+    "mildKills": 14,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 14,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: all findings are mild, but 14 mild kills exceeds the pass threshold of 3."
+  }
+}

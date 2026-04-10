@@ -1,0 +1,219 @@
+{
+  "chapterId": "chapter16",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "killRate": 60.0,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "pattern-2 fragment pivot",
+      "clusterWarnings": [
+        "Fragment-pivot negation recurs across narration from the ride through the gate answer."
+      ],
+      "findings": [
+        {
+          "line": "Sylvanas was not needling her. She was shaving the thought down to what could be used.",
+          "pattern": "5",
+          "deletionTest": "She was shaving the thought down to what could be used.",
+          "reason": "Pattern 5 preamble negation; the second sentence carries the meaning without the negated setup.",
+          "severity": "mild",
+          "suggestedFix": "Sylvanas was shaving the thought down to what could be used.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not panic now. Pain.",
+          "pattern": "2",
+          "deletionTest": "Pain.",
+          "reason": "Pattern 2 fragment pivot; the negated lead-in is scaffolding once the sentence lands on the real condition.",
+          "severity": "mild",
+          "suggestedFix": "Pain now.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "No title. No courtesy. Only that.",
+          "pattern": "7",
+          "deletionTest": "Only that.",
+          "reason": "Chained refusals build a hallway to the real point instead of stating it directly.",
+          "severity": "mild",
+          "suggestedFix": "Only the question.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 8,
+      "kills": 7,
+      "keeps": 1,
+      "killRate": 87.5,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 7,
+        "severe": 0
+      },
+      "dominantPattern": "extra-sweep inanimate-subject agency smear",
+      "clusterFlags": [
+        "Mid-to-late chapter repeatedly hands action verbs to abstractions, scenery, and geography."
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": false,
+      "findings": [
+        {
+          "line": "The answer rose sharp and died before it left her mouth.",
+          "subject": "answer",
+          "verb": "rose / died",
+          "realAgent": "Jaina had a sharp reply ready and stopped herself from saying it.",
+          "reason": "Pattern 5 object-agency smear caught by the pass-A extra sweep; the answer is not the agent.",
+          "severity": "moderate",
+          "suggestedFix": "She had a sharp answer ready and bit it back before it left her mouth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Stratholme's outer farms wore the city's appetite openly: long barns, mill sheds, kitchen plots ragged from harvest traffic, smoke from ovens too small to be anything but household work.",
+          "subject": "Stratholme's outer farms",
+          "verb": "wore",
+          "realAgent": "The visible barns, sheds, traffic-worn plots, and oven smoke show how heavily the city feeds itself.",
+          "reason": "Pass-A extra sweep: scenery carries a display verb instead of the narration naming the visible evidence.",
+          "severity": "moderate",
+          "suggestedFix": "Long barns, mill sheds, kitchen plots ragged from harvest traffic, and smoke from ovens too small to be anything but household work made the city's appetite plain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The lane exploded.",
+          "subject": "lane",
+          "verb": "exploded",
+          "realAgent": "Workers, carts, civilians, and the newly moving dead all break into motion at once.",
+          "reason": "Pass-A extra sweep: infrastructure takes a violent action verb that belongs to the people in it.",
+          "severity": "moderate",
+          "suggestedFix": "Workers shouted, carts jolted, and people broke in every direction.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "All around them, proof kept piling up: warm rolls under cloth, half a loaf on an old man's knee, bread cooling on a board behind an open kitchen door.",
+          "subject": "proof",
+          "verb": "kept piling up",
+          "realAgent": "The visible bread and household scenes keep accumulating around them.",
+          "reason": "Pattern 5 abstraction-as-agent; the scene already has concrete evidence that can do this work directly.",
+          "severity": "moderate",
+          "suggestedFix": "All around them, warm rolls sat under cloth, half a loaf rested on an old man's knee, and bread cooled on a board behind an open kitchen door.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The count kept multiplying faster than her mind could hold it.",
+          "subject": "count",
+          "verb": "kept multiplying",
+          "realAgent": "More loaves, baskets, and carriers keep entering Jaina's view.",
+          "reason": "Pattern 5/9 abstraction acting; the scene already has concrete carriers that can do the work.",
+          "severity": "moderate",
+          "suggestedFix": "More loaves, baskets, and hands kept entering her view faster than she could hold them in her head.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The city sat at her back like weight she could not shrug off.",
+          "subject": "city",
+          "verb": "sat",
+          "realAgent": "The city's immediate physical presence and everything Jaina has just seen keep pressing on her attention.",
+          "reason": "Pass-A extra sweep: geography takes a bodily pose instead of the narration naming the pressure directly.",
+          "severity": "moderate",
+          "suggestedFix": "At her back, the city was impossible to ignore.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Silence spread through the officers around them.",
+          "subject": "Silence",
+          "verb": "spread",
+          "realAgent": "The officers stop talking after Jaina's answer.",
+          "reason": "Pattern 7 absence given active motion; the officers are the agents in the scene.",
+          "severity": "moderate",
+          "suggestedFix": "The officers around them fell silent.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Counted the capped tic families in this chapter and none exceeded threshold: corner-of-mouth 1/1, marked 1/2, tightened 1/3, and performance dialogue tags 1/3."
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 7,
+    "mildKills": 3,
+    "moderateOrSevereKills": 7,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: intent-smear audit produced 7 MODERATE kills, so pass A cannot pass even though recurring prose tics stayed under cap."
+  }
+}

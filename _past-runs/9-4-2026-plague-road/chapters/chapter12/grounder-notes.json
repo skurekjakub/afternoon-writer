@@ -1,0 +1,209 @@
+{
+  "agent": "grounder",
+  "chapter": "chapter12",
+  "input": ".afternoon/chapters/chapter12/final.md",
+  "output": ".afternoon/chapters/chapter12/final-grounded-gpt-negative-v3.md",
+  "outputOverride": true,
+  "mode": "primary",
+  "wordCount": {
+    "before": 3972,
+    "after": 4052,
+    "growth": "2.0%"
+  },
+  "globalRisks": [
+    "static-room",
+    "dialogue-heavy",
+    "theory-combat",
+    "generic-noun-fallback",
+    "final-third-tail-risk"
+  ],
+  "groundingDensity": "light-to-moderate and pressure-protective - the pass deepened sanctum office texture, desk and shelf contact beats, and the final ward descent without swelling the chapter's same-room duel into lore prose",
+  "sceneAudits": [
+    {
+      "scene": "Scene 1 - The Sanctum",
+      "biggestGap": "The opening mechanism lesson risked settling into generic room and table language instead of feeling like a working office beneath Scholomance.",
+      "anchorsAdded": {
+        "place": [
+          "deepest office in Scholomance",
+          "black-iron latch",
+          "iron-banded sanctum door"
+        ],
+        "material": [
+          "dark oak shelves",
+          "brass-railed specimen shelf",
+          "slate board",
+          "oak table",
+          "vellum"
+        ],
+        "dialogue": [
+          "ward-lines under flagstones",
+          "chalk-tray beat",
+          "paperweight and vellum page beat"
+        ],
+        "exit": [
+          "vellum folio for preserved selfhood",
+          "sanctum shift from board to desk"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 2 - The Duel",
+      "biggestGap": "The ethics exchange risked floating free of bodies and surfaces during the longest back-and-forth.",
+      "anchorsAdded": {
+        "place": [
+          "sanctum rather than abstract debate chamber",
+          "Antonidas-marked shelf"
+        ],
+        "material": [
+          "cold oak under Jaina's palms",
+          "chalk-dust crescent on the desk blotter",
+          "oak desk",
+          "dry shelf wood"
+        ],
+        "dialogue": [
+          "lecturer's finger tap on the desk",
+          "shelf-touch beat",
+          "remembered questions arriving not in the sanctum"
+        ],
+        "exit": [
+          "human-check memory pressure",
+          "shelf notation tying the argument back to Antonidas"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 3 - The Mirror",
+      "biggestGap": "Jaina's recognition of the larger frame could have gone airy unless the table, chair, and diagram stayed active under her thinking.",
+      "anchorsAdded": {
+        "place": [
+          "desk-centered reveal kept inside the sanctum"
+        ],
+        "material": [
+          "chair legs on flagstone",
+          "vellum page turn",
+          "ink gone almost black at the upper mark"
+        ],
+        "dialogue": [
+          "table-edge grip",
+          "seated return to the argument",
+          "single-diagram patronage reveal"
+        ],
+        "exit": [
+          "scale reveal kept on one page rather than widening into detached lore"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 4 - The Revelation",
+      "biggestGap": "The world-scale disclosures needed tactile counterweight so the chapter did not lose the office and become pure cosmology.",
+      "anchorsAdded": {
+        "place": [
+          "fungal light across flagstones",
+          "ward lines in the mortar",
+          "desk as the center of the revelation"
+        ],
+        "material": [
+          "dry crackle of vellum",
+          "inked chains",
+          "central mark under Kel'Thuzad's fingertip"
+        ],
+        "dialogue": [
+          "shelf-crossing beat before the question",
+          "folio handling during the recurrence reveal"
+        ],
+        "exit": [
+          "prepared selfhood narrowed back from world scale to one intended death"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 5 - The Silence and the Sound",
+      "biggestGap": "The ending already had pressure, but the approach sequence leaned on generic floor and stair language instead of Scholomance infrastructure.",
+      "anchorsAdded": {
+        "place": [
+          "Darrowmere beyond the wall",
+          "crypt stair",
+          "narrow landing",
+          "crypt spine dogleg",
+          "iron-banded door"
+        ],
+        "material": [
+          "chalk across Dalaran blue",
+          "flagstones taking the pulse",
+          "ward-locks",
+          "rune-cut thresholds",
+          "chair knocked back"
+        ],
+        "dialogue": [
+          "Kel'Thuzad watching Jaina instead of the door",
+          "recognition carried through movement quality rather than explanation"
+        ],
+        "exit": [
+          "misread-ready tableau with chalk-striped hands and calm necromancer",
+          "Sylvanas arrival held on the last ripple"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": [
+      "generic noun fallback in the approach sequence",
+      "ward descent leaning on abstract motion language",
+      "recoil beat underusing sanctum materials"
+    ],
+    "fixesApplied": [
+      "replaced floor and stair language with flagstones, rune-cut thresholds, crypt stair, narrow landing, and the crypt spine dogleg",
+      "tied Jaina's recoil to green light and brass instead of generic room-swim phrasing",
+      "kept Sylvanas recognition on movement quality and tactical cadence rather than emotional explanation"
+    ],
+    "residualConcerns": [
+      "The chapter remains intentionally austere because the plan warned against over-grounding a same-room ethics duel; if the grounding-gate flags anything, the likeliest remaining pressure point is the longest early argument run."
+    ]
+  },
+  "sourceAudit": {
+    "memoryFiles": [
+      "characters/jandice-barov",
+      "threads/plague-animation-mechanism",
+      "characters/kel-thuzad",
+      "characters/jaina-proudmoore",
+      "relationships/jaina--sylvanas",
+      "characters/antonidas",
+      "locations/scholomance"
+    ],
+    "materials": [
+      ".afternoon/plans/chapter12.json",
+      "stories/the-plague-road/plans/story-arc.md",
+      "stories/the-plague-road/characters/voice-sheets/jaina-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/kelthuzad-voice.md",
+      ".afternoon/style-guide.json",
+      "stories/the-plague-road/prose-sample.md",
+      ".afternoon/chapters/chapter10/final.md",
+      ".afternoon/chapters/chapter11/final.md"
+    ],
+    "unsourcedAdditions": []
+  },
+  "constraintsObeyed": {
+    "antiBloat": "Growth stayed minimal. Most additions came from noun substitution, contact beats, and route-specific ward language rather than paragraph expansion.",
+    "antiSpoonfeeding": "Jaina's recognition wound remains in what she can now articulate, recoil from, and fail to deny. The prose does not translate the Sylvanas friction for the reader.",
+    "antiWiki": "No lore blocks were added. Place names and institutions remain attached to live argument, desk work, or approach geometry.",
+    "passiveReality": "Grounding enters through oak, brass, vellum, chalk, flagstone, mortar, ward-locks, and Darrowmere water rather than narrator explanation.",
+    "invisibleVerb": "The pass kept plain verbs and tightened tags by removing the remaining adverb tag."
+  },
+  "auditResults": {
+    "filterVerbs": 0,
+    "negationPairs": 0,
+    "adverbTags": 0,
+    "bannedPhrases": 0,
+    "overGrounding": "none detected - the pass stayed on sanctum materials, ward architecture, and contact beats without bloating the chapter"
+  }
+}

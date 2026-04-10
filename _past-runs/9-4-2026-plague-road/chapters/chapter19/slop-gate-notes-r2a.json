@@ -1,0 +1,237 @@
+{
+  "chapterId": "chapter19",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "dominantPattern": "Pattern 2 - fragment pivot",
+      "findings": [
+        {
+          "line": "\"Not censure. Not review. Desertion. They want it clean.\"",
+          "pattern": "7",
+          "deletionTest": "\"Desertion. They want it clean.\"",
+          "verdict": "KILL",
+          "reason": "Pattern 7 triple/chained negation builds a hallway to the real noun.",
+          "severity": "mild",
+          "suggestedFix": "\"Desertion. They want it clean.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"He isn't winning anymore, Sylvanas. He's only spending.\"",
+          "pattern": "5",
+          "deletionTest": "\"He's only spending.\"",
+          "verdict": "KILL",
+          "reason": "Pattern 5 preamble negation primes a discarded state before the real one arrives.",
+          "severity": "mild",
+          "suggestedFix": "\"He's only spending.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not intruding. Listening anyway.",
+          "pattern": "2",
+          "deletionTest": "Listening anyway.",
+          "verdict": "KILL",
+          "reason": "Pattern 2 fragment pivot uses the negated fragment as dead scaffolding.",
+          "severity": "mild",
+          "suggestedFix": "Listening anyway.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Not vacant. Working.",
+          "pattern": "2",
+          "deletionTest": "Working.",
+          "verdict": "KILL",
+          "reason": "Pattern 2 fragment pivot withholds the actual state until after the negation.",
+          "severity": "mild",
+          "suggestedFix": "Working.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"Not cleaner. Just louder. Like getting closer to a horn under water.\"",
+          "pattern": "2",
+          "deletionTest": "\"Just louder. Like getting closer to a horn under water.\"",
+          "verdict": "KILL",
+          "reason": "Pattern 2 fragment pivot rejects one descriptor before naming the usable one.",
+          "severity": "mild",
+          "suggestedFix": "\"Just louder. Like getting closer to a horn under water.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "dominantPattern": "Pattern 5/8 object and body-part agency",
+      "findings": [
+        {
+          "line": "\"Which roads carried it fastest.\"",
+          "subject": "roads",
+          "verb": "carried",
+          "realAgent": "the shipments and traffic moving the flour along those roads",
+          "pattern": "1",
+          "verdict": "KILL",
+          "reason": "Pattern 1 gives infrastructure the transport action that belongs to the traffic using it.",
+          "severity": "mild",
+          "suggestedFix": "\"Which roads the worst flour reached fastest.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The sentence crossed the camp clean as an arrow.",
+          "subject": "sentence",
+          "verb": "crossed",
+          "realAgent": "Sylvanas's spoken words carrying across the quiet camp",
+          "pattern": "5",
+          "verdict": "KILL",
+          "reason": "Pattern 5 lets an abstract utterance perform the physical action instead of the spoken words.",
+          "severity": "mild",
+          "suggestedFix": "Her words cut across the camp clean as an arrow.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The stone gave her nothing.",
+          "subject": "stone",
+          "verb": "gave",
+          "realAgent": "Sylvanas's limited read of the light and posture around the call",
+          "pattern": "5",
+          "verdict": "KILL",
+          "reason": "Pattern 5 gives an object the act of withholding usable information.",
+          "severity": "mild",
+          "suggestedFix": "She learned nothing from it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "So she watched what the body gave her.",
+          "subject": "body",
+          "verb": "gave",
+          "realAgent": "Jaina's posture and movement cues that Sylvanas can read",
+          "pattern": "5",
+          "verdict": "KILL",
+          "reason": "Pattern 5 launders observable cues into an object dispensing meaning.",
+          "severity": "mild",
+          "suggestedFix": "So she watched the body for clues.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Knees remembering yesterday before today's miles had fully begun.",
+          "subject": "Knees",
+          "verb": "remembering",
+          "realAgent": "Sylvanas feeling yesterday's soreness in her knees",
+          "pattern": "8",
+          "verdict": "KILL",
+          "reason": "Pattern 8 gives body parts memory that belongs to the character's felt soreness.",
+          "severity": "mild",
+          "suggestedFix": "Yesterday still ached in her knees before today's miles had fully begun.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "secondSweepNote": "Dedicated pass-A P5/P6 re-read completed. Re-checked inanimate or abstract subjects for agency verbs across the full chapter; the five KILLs above survived the second sweep, while literal subject-matter and collective-actor cases were kept."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "dominantPattern": "Tic 2 - overloaded marked",
+      "findings": [
+        {
+          "line": "Then farther, where the kingdom's roads thinned toward rough coast and small port marks.",
+          "pattern": "Tic 2",
+          "verdict": "KILL",
+          "reason": "Marked/marks exceeds the chapter cap; this cartographic use is weaker than the physical stain beats.",
+          "severity": "mild",
+          "suggestedFix": "Then farther, where the kingdom's roads thinned toward rough coast and small port symbols.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "\"No.\" Sylvanas folded the canvas flap over the marked roads herself.",
+          "pattern": "Tic 2",
+          "verdict": "KILL",
+          "reason": "Marked exceeds the chapter cap here and this map-reference use is less specific than the retained physical uses.",
+          "severity": "mild",
+          "suggestedFix": "\"No.\" Sylvanas folded the canvas flap over the annotated roads herself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 6,
+    "mildKills": 12,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 12,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has 12 mild KILL findings across all three guides, which exceeds the 3-mild-finding pass threshold."
+  }
+}

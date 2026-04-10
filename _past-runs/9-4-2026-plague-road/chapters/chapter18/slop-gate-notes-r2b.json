@@ -1,0 +1,197 @@
+{
+  "chapterId": "chapter18",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F3-filter-hedge-drag",
+      "findings": [
+        {
+          "pattern": "F3-temporal-padding",
+          "severity": "mild",
+          "line": "Jaina stared at her. Understanding caught up a beat later.",
+          "exactText": "a beat later",
+          "word": "a beat later",
+          "deletionTest": "Jaina stared at her. Understanding caught up.",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina stared at her. Then she understood.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4-over-translation",
+          "severity": "mild",
+          "line": "It was only direction.",
+          "whatItRestates": "The hand on Jaina's shoulder, firm through smoke-stiff cloth and travel grime, already shows the touch as guidance rather than comfort.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3-temporal-padding",
+          "severity": "mild",
+          "line": "For one hideous instant she nearly said yes.",
+          "exactText": "For one hideous instant",
+          "word": "For one hideous instant",
+          "deletionTest": "She nearly said yes.",
+          "verdict": "KILL",
+          "suggestedFix": "She nearly said yes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A1-verdict-tag-fragment",
+      "findings": [
+        {
+          "pattern": "B3-thematic-awareness",
+          "severity": "mild",
+          "line": "What came after would show her more than the grain had.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence steps outside Jaina's immediate evidence to announce the future narrative value of what comes next.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5-scene-state-declaration",
+          "severity": "mild",
+          "line": "Silence, with him thinking in it.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The line abstracts Antonidas's pause into an interpretive scene-state instead of staying with the audible fact of his silence.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "He said nothing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1-verdict-tag-fragment",
+          "severity": "mild",
+          "line": "Enough.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment lands as a caption on Sylvanas's face rather than as a sensory read Jaina needs for action.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P1-sloganized-abstraction-in-dialogue",
+      "findings": [
+        {
+          "pattern": "P1-sloganized-abstraction-in-dialogue",
+          "severity": "mild",
+          "line": "There is a hand farther up the chain. It reaches across distance and wakes what the grain has already taught the body to hold.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "A plain claim that the grain is not the active trigger anymore and that bodies are answering a remote trigger after contaminated stock has already moved on.",
+          "verdict": "KILL",
+          "reason": "The line sounds incisive but hides the usable claim behind hand / chain / wakes abstraction.",
+          "suggestedFix": "The grain carried it in, but it is not what is setting them off now. The bodies are answering something beyond the stock.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "No dialogue exchange in the chapter asks for plainer, shorter, or street-level speech, so the guide had no valid setup/reply candidates to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 7,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still has seven mild kills across three guides, which exceeds the three-mild maximum for a pass."
+  }
+}

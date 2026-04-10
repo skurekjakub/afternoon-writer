@@ -1,0 +1,464 @@
+{
+  "chapterId": "chapter16",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 15,
+      "kills": 10,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 4,
+        "severe": 1
+      },
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "pattern": "F3",
+          "failureMode": "Filter/Hedge Drag",
+          "lineNumber": 61,
+          "line": "Her knees almost folded.",
+          "word": "almost",
+          "deletionTest": "Her knees folded.",
+          "issue": "Hedge softens a direct physical buckling.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "Her knees buckled.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "failureMode": "Filter/Hedge Drag",
+          "lineNumber": 75,
+          "line": "Sacks stood in ranks almost to the loft.",
+          "word": "almost",
+          "deletionTest": "Sacks stood in ranks to the loft.",
+          "issue": "Approximation pads a direct spatial image.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "Sacks stood in ranks under the loft.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "failureMode": "Filter/Hedge Drag",
+          "lineNumber": 201,
+          "line": "Jaina almost laughed.",
+          "word": "almost",
+          "deletionTest": "Jaina laughed.",
+          "issue": "Hedge pads the reaction instead of rendering the failed laugh concretely.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "A raw sound caught in Jaina's throat and never became a laugh.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "failureMode": "Filter/Hedge Drag",
+          "lineNumber": 229,
+          "line": "She could strike a third site and save one street, perhaps two.",
+          "word": "perhaps",
+          "deletionTest": "She could strike a third site and save one street, two.",
+          "issue": "Hedge weakens the tactical count at the moment the paragraph should harden.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "She could strike a third site and save one street. At most two.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "failureMode": "Filter/Hedge Drag",
+          "lineNumber": 313,
+          "line": "Whatever he had hoped to hear died so fast in his face it almost resembled relief.",
+          "word": "almost",
+          "deletionTest": "Whatever he had hoped to hear died so fast in his face it resembled relief.",
+          "issue": "Hedge muddies the facial read instead of choosing a visible effect.",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "suggestedFix": "Whatever he had hoped to hear died in his face and left only blankness.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "failureMode": "Narrative Over-Translation",
+          "lineNumber": 217,
+          "line": "All around them, the city kept confessing.",
+          "whatItRestates": "The bread carts, doorstep loaf, open kitchen door, and cooling bread already show that the city has distributed contaminated food beyond the warehouse.",
+          "issue": "Abstract translation after concrete evidence.",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "failureMode": "Narrative Over-Translation",
+          "lineNumber": 247,
+          "line": "The city had already answered her.",
+          "whatItRestates": "The scraped plates, bread carried to the hospice, and children already eating answer the question without the abstract gloss.",
+          "issue": "Interpretive summary after a concrete list.",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "failureMode": "Essay Brain",
+          "lineNumber": 247,
+          "line": "The ride back through the service roads went faster because Jaina had stopped hunting for one more fix.",
+          "paragraphLocation": "return-to-gate paragraph opening",
+          "issue": "Thesis-opening sentence that states the paragraph's argument before the specific evidence arrives.",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "suggestedFix": "They drove back through the service roads hard.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "failureMode": "Closure Addiction",
+          "lineNumber": 305,
+          "line": "There was nothing left to soften.",
+          "location": "paragraph-final bridge before Jaina answers",
+          "couldEndEarlierAt": "Underneath it sat the real question. Stripped bare. Without him having to say what he already knew he would do. Without making her choose the words for him.",
+          "issue": "Abstract emotional summary closes the beat instead of letting the spoken answer carry it.",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "failureMode": "Closure Addiction",
+          "lineNumber": 317,
+          "line": "Jaina stood with the city at her back and ruined grain on her hands and knew, with a clarity uglier than anything Kel'Thuzad had ever laid before her, that being right had brought them exactly this far and no farther.",
+          "location": "scene-final line",
+          "couldEndEarlierAt": "\"No,\" Jaina said. \"Not cleanly. Not now.\"",
+          "issue": "Scene-final interpretive closure explains the meaning of the answer instead of stopping on the gate exchange.",
+          "verdict": "KILL",
+          "severity": "SEVERE",
+          "suggestedFix": "Jaina stood with the city at her back and ruined grain on her hands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 9,
+      "kills": 6,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 4,
+        "severe": 1
+      },
+      "dominantPattern": "A3/A5",
+      "register": {
+        "povCharacter": "Jaina Proudmoore",
+        "registerSummary": "Jaina thinks like an analytical field mage under extreme time pressure. She notices logistics, magical behavior, routes, and bodies, then compresses that data into practical choices; she does not usually step outside the moment to caption theme or summarize the scene from above.",
+        "registerConfidence": "HIGH"
+      },
+      "findings": [
+        {
+          "pattern": "A3",
+          "lineNumber": 49,
+          "line": "Habit still ran the place, and habit had always been the plague's ally.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence launders agency onto 'habit' and steps into polished thematic summary instead of staying with the visible people, carts, and loaves Jaina is actually reading.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "A3",
+          "lineNumber": 217,
+          "line": "All around them, the city kept confessing.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The city is made into an abstract speaker, replacing Jaina's concrete evidence read with an authored caption.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5",
+          "lineNumber": 269,
+          "line": "The wall, the prince, the city all held on the lip of decision.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This declares the scene's state from above instead of giving Jaina a specific sensory or tactical read at the gate.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "lineNumber": 303,
+          "line": "Underneath it sat the real question. Stripped bare. Without him having to say what he already knew he would do. Without making her choose the words for him.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment stack reads like a caption over the exchange, not like Jaina's in-body processing under immediate pressure.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5",
+          "lineNumber": 305,
+          "line": "There was nothing left to soften.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Abstract scene-state summary instead of a concrete read of Arthas, Uther, or the gate crowd.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "severity": "MILD",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "B3",
+          "lineNumber": 317,
+          "line": "Jaina stood with the city at her back and ruined grain on her hands and knew, with a clarity uglier than anything Kel'Thuzad had ever laid before her, that being right had brought them exactly this far and no farther.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence steps outside the immediate exchange to summarize the chapter's thematic meaning in polished retrospective language.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "severity": "SEVERE",
+          "suggestedFix": "Jaina stood with the city at her back and ruined grain on her hands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 10,
+      "kills": 6,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 4,
+        "severe": 1
+      },
+      "dominantPattern": "P3/P4",
+      "dialogueClusters": [],
+      "narrationClusters": [
+        "gate-arrival run (lines 269-317)"
+      ],
+      "repeatStandIns": [
+        "answer",
+        "question",
+        "habit"
+      ],
+      "findings": [
+        {
+          "pattern": "P3",
+          "lineNumber": 49,
+          "line": "Habit still ran the place, and habit had always been the plague's ally.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The visible carrier is routine carting, ordinary gate sorting, and unpanicked bread traffic; the sentence substitutes 'habit' and 'ally' for those specifics.",
+          "verdict": "KILL",
+          "reason": "Placeholder abstractions pretend to sharpen the observation without naming the actual routine behaviors on the page.",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "lineNumber": 217,
+          "line": "All around them, the city kept confessing.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The next sentences supply the real signs: warm rolls, half a loaf on a knee, an open kitchen door, bread cooling on a board.",
+          "verdict": "KILL",
+          "reason": "Unanchored interpretive summary replaces the concrete evidence already present in the scene.",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "lineNumber": 269,
+          "line": "The wall, the prince, the city all held on the lip of decision.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The local specifics are the halted force, Arthas at the gate, Uther beside him, and soldiers still filing in; 'lip of decision' never names the operative condition.",
+          "verdict": "KILL",
+          "reason": "Prestige phrasing creates pressure without cashing out into the actual tactical state.",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "lineNumber": 291,
+          "line": "He might already have known the shape of the answer.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The prose never names what in Uther's face or posture gives Jaina that read; 'shape of the answer' stands in for a visible reaction.",
+          "verdict": "KILL",
+          "reason": "Placeholder-noun stand-in dodges the concrete basis for the inference.",
+          "severity": "MILD",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "lineNumber": 303,
+          "line": "Underneath it sat the real question. Stripped bare. Without him having to say what he already knew he would do. Without making her choose the words for him.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The concrete unsaid claim is that Arthas is asking for grounds to act on the city, but the line hides behind 'real question' instead of naming it.",
+          "verdict": "KILL",
+          "reason": "The fragment stack sounds weighty while refusing to state the payload plainly.",
+          "severity": "MODERATE",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "lineNumber": 317,
+          "line": "Jaina stood with the city at her back and ruined grain on her hands and knew, with a clarity uglier than anything Kel'Thuzad had ever laid before her, that being right had brought them exactly this far and no farther.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The sentence never names the concrete limit beyond 'this far'; it abstracts the source-plan failure into theme instead of leaving the gate answer to stand.",
+          "verdict": "KILL",
+          "reason": "Placeholder abstraction replaces a concrete end-state with polished thematic closure.",
+          "severity": "SEVERE",
+          "suggestedFix": "Jaina stood with the city at her back and ruined grain on her hands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 22,
+    "totalKeeps": 10,
+    "mildKills": 7,
+    "moderateOrSevereKills": 15,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 12,
+    "killsUnfixable": 10,
+    "verdict": "fail",
+    "verdictReason": "Multiple MODERATE and SEVERE pass-B findings remain across all three guide packs, including scene-final closure addiction, narrator seep captions, and repeated phantom-concreteness abstractions in the gate sequence."
+  }
+}

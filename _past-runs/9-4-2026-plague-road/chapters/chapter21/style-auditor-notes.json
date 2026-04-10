@@ -1,0 +1,239 @@
+{
+  "chapterId": "chapter21",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 3-21: the harbor opener stays inside the guide's 7-14-word center by alternating clipped evidence beats with one longer orienting sentence; the pace reads lean rather than choppy.",
+        "Lines 45-46: 'Old enough to hurt. Fresh enough to read. Men marching overloaded. Men stumbling.' is exactly the Sylvanas pattern the guide asks for—short assessment bursts, then a longer tactical consequence.",
+        "Lines 91-93: the march sequence earns its longer terrain sentences because each one clarifies footing, exposure, or delay cost before snapping back down.",
+        "Lines 280-290: the cave-threshold paragraph is one of the chapter's longest, but it is a sanctioned environmental read; it escalates dread while keeping the geometry legible.",
+        "Line 430 carried one small rhythm drag in the explanatory insert 'to her own surprise'; trimming it kept the retreat beat blunt enough for Sylvanas."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 222,
+          "rule": "sentenceRhythmStandards.emphasisRule — the second Muradin trust observation repeated earlier material and blunted the mid-scene turn",
+          "before": "\"Not what I mean.\" He tapped the table once, then jerked his chin toward Jaina's cup still steaming in both hands and to Sylvanas already standing as if the room had finished its work. Along the walls, the rangers shifted when either woman so much as glanced their way. \"I've watched companies drill for twenty years and seen less trust than the two of ye spend on a turn of the head.\"",
+          "after": "\"Not what I mean.\" He tapped the table once, then jerked his chin toward Jaina's cup still steaming in both hands and to Sylvanas already on her feet for the door. Along the walls, the rangers shifted when either woman so much as glanced their way. \"I've seen pairs miss easier handoffs in drill yards.\""
+        },
+        {
+          "line": 430,
+          "rule": "sentenceRhythmStandards.default — trim explanatory buffer so the retreat verdict lands as a clean judgment",
+          "before": "Sylvanas turned once toward the glacier and found, to her own surprise, only the hard blank where blame should have been.",
+          "after": "Sylvanas turned once toward the glacier and found only the hard blank where blame should have been."
+        }
+      ]
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Line 21: 'Late enough to cost them' keeps the narration in Sylvanas's field-cost language instead of drifting into abstract probability or institutional summary.",
+        "Lines 87-88: Jaina's plague read stays body-first—taste, catch, twist—rather than slipping into modern scientific vocabulary.",
+        "Lines 196-206: the Frostmourne explanation is plain enough to sound spoken under pressure; no banned hitlist terms survived in dialogue.",
+        "Line 222 now uses 'handoffs in drill yards,' which sounds like Muradin's lived military speech instead of a repeated abstract comment about teamwork.",
+        "Across the chapter I found no therapy-speak, no planner language, and no document-voice jargon such as vector, diagnostic, optimal, actionable, or data."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 222,
+          "rule": "vocabularyStandards.requiredQualities — keep outsider commentary rooted in lived military language rather than generalized observation",
+          "before": "\"I've watched companies drill for twenty years and seen less trust than the two of ye spend on a turn of the head.\"",
+          "after": "\"I've seen pairs miss easier handoffs in drill yards.\""
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorCompliance",
+      "observations": [
+        "Line 7: Sylvanas reading the bay 'the way she read a battlefield after the arrows stopped' uses a permitted martial source domain and clarifies the scene in one stroke.",
+        "Line 43: 'Only a man past caring left a trail this blunt' is figurative pressure phrased as judgment, not ornament.",
+        "Line 119: the dwarven camp described as 'ugly as a field repair and solid enough to trust' stays in craft-and-soldiery domains appropriate to Sylvanas.",
+        "Line 280: the glacier seam 'wide enough to swallow a hall' functions as scale-setting rather than decorative spectacle.",
+        "Chapter-wide count after edits: 2 'like' constructions and 2 'as if' constructions; no stacked metaphors, no mixed domains, and no stock epic abstractions were left on page."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "Most paragraphs remain inside the 1-4 sentence target; the page shape stays varied and avoids uniform block cadence.",
+        "The long harbor and threshold paragraphs are justified by environmental read and threat assessment, which the guide explicitly allows.",
+        "After denser descriptive stretches, the prose returns quickly to motion or dialogue: harbor read to commands, march description to water-order, cave threshold to spoken threat.",
+        "Scene transitions move by consequence rather than clock-time summary: harbor evidence -> inland line -> dwarven camp -> blade cave -> retreat.",
+        "I found no planner-language bridge phrases such as 'transition,' 'sequence,' or 'vector,' and only minimal time markers used for clarity ('By noon,' 'By afternoon')."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "dialogueAttribution",
+      "observations": [
+        "Overall dialogue share is 1046 words against 4217 narration words (~20:80), low against the global target but acceptable for a chapter dominated by travel attrition and a long action defeat.",
+        "The Muradin shelter scene briefly spikes dialogue density, which is where the chapter's negotiation-and-briefing work belongs.",
+        "After edits, same-line speech attributions scan as 38 'said' tags, 1 'asked,' 1 'called,' 1 'shouted,' and 1 'barked,' with the rest carried by action beats or clean two-speaker runs.",
+        "The remaining stronger tags are all justified by acoustics or distance: the wall challenge, Sylvanas projecting across the gate, Jaina's cave warning, and one emergency command.",
+        "The chapter now leans harder on action and spatial beats during pressure sequences, which suits the style-guide's requirement that posture and status carry attribution when bodies matter."
+      ],
+      "violations": 6,
+      "fixes": [
+        {
+          "line": 210,
+          "rule": "attributionStandards.creativeTagPolicy — the line did not need a stronger tag to carry tired emphasis",
+          "before": "\"Months,\" he muttered. \"Months I've been telling anyone who'd listen the thing was worse than an old ghost story, and all they gave me back was superstition.\"",
+          "after": "\"Months,\" he said. \"Months I've been telling anyone who'd listen the thing was worse than an old ghost story, and all they gave me back was superstition.\""
+        },
+        {
+          "line": 292,
+          "rule": "attributionStandards.creativeTagPolicy — fear was already clear from context",
+          "before": "\"If we leave now,\" one ranger murmured.",
+          "after": "\"If we leave now,\" one ranger said."
+        },
+        {
+          "line": 334,
+          "rule": "attributionStandards.creativeTagPolicy — command force already came from context and brevity",
+          "before": "\"Left shelf!\" Sylvanas snapped.",
+          "after": "\"Left shelf!\" Sylvanas said."
+        },
+        {
+          "line": 368,
+          "rule": "attributionStandards.creativeTagPolicy — distance was readable from the action beat without an extra stronger tag",
+          "before": "\"Can you break it?\" Sylvanas called.",
+          "after": "\"Can you break it?\" Sylvanas said."
+        },
+        {
+          "line": 386,
+          "rule": "attributionStandards.creativeTagPolicy — the retreat order did not need an intensified tag to stay sharp",
+          "before": "\"Carry!\" she barked.",
+          "after": "\"Carry!\" she said."
+        },
+        {
+          "line": 226,
+          "rule": "attributionStandards.actionBeatPercent — trim unnecessary acoustic coloring around a non-pressure laugh beat",
+          "before": "Muradin barked a laugh that ended flat.",
+          "after": "Muradin gave a laugh that ended flat."
+        }
+      ]
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Lines 5-21: Sylvanas opens on wreckage, routes, supply traces, and campaign logic; she never drifts into scenic awe for its own sake.",
+        "Lines 45-46: her read of Arthas stays in terms of bodies spent, pace forced, and command discipline lost—exactly her threat-assessment lane.",
+        "Lines 57-59: even guilt arrives as road arithmetic and causality, not confessional self-naming.",
+        "Lines 290-291: the cave's wrongness is filtered through bow leather, skin, and ward-pressure, which keeps the speculative language in Sylvanas's sensory frame.",
+        "Jaina's visible beats—bread reaction, air-writing, too-fast cave instructions, post-retreat seam work—stay external and consistent with her intellect-first, body-leaking-through profile."
+      ],
+      "violations": 4,
+      "fixes": [
+        {
+          "line": 99,
+          "rule": "perPOVCalibration.Jaina sensory signature — vary visible physical cues so Jaina's stress does not collapse into the same repeated gesture word",
+          "before": "Her head had snapped north toward a line of low bluffs.",
+          "after": "Her head had turned north toward a line of low bluffs."
+        },
+        {
+          "line": 107,
+          "rule": "perPOVCalibration.Jaina sensory signature — second consecutive 'snapped' beat flattened the visible behavior into repetition",
+          "before": "Her chin had already snapped toward the low bluffs where the boot spoor kinked around a drift and vanished into the lee.",
+          "after": "Her chin had already turned toward the low bluffs where the boot spoor kinked around a drift and vanished into the lee."
+        },
+        {
+          "line": 288,
+          "rule": "perPOVCalibration.Jaina visible-function rule — replace negated summary with a physical stop the POV can actually see",
+          "before": "She was not reaching anymore.",
+          "after": "Her hand had fallen still."
+        },
+        {
+          "line": 430,
+          "rule": "perPOVCalibration.Sylvanas specificRules — keep the no-blame verdict behavioral and exact, not footnoted by explanation",
+          "before": "Sylvanas turned once toward the glacier and found, to her own surprise, only the hard blank where blame should have been.",
+          "after": "Sylvanas turned once toward the glacier and found only the hard blank where blame should have been."
+        }
+      ]
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Adverb scan after edits: 0.67 per 250-word page, well below the 4-per-page ceiling.",
+        "Passive-voice heuristic scan: 1.01% of sentences, well below the 4% ceiling.",
+        "Average sentence length lands at 8.87 words, inside the guide's default center.",
+        "Short-sentence density remains high (roughly 44.7% at six words or fewer), which matches the chapter's pressure profile.",
+        "Show-vs-tell stays strongly concrete; even summary judgments are tied to what Sylvanas sees bodies, ground, frost, weapons, and pace doing."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration: harbor, Frostmourne, and plague linkage all arrive through evidence reads, spoken need, or tactical consequence; no neutral-narrator lore dump appears.",
+        "Power dynamics: Muradin's shelter scene follows the guide's pressure map—Muradin explains while uncertain, Sylvanas cuts to clipped questions, Arthas later dominates with brutally short lines.",
+        "Scene shape: opener starts in active evidence contact, midpoint turns on Muradin naming Frostmourne, resolution lands in hard tactical consequence and forward pressure.",
+        "Speculative integration: wards, runes, Frostmourne's field, and Jaina's sensitivity are treated as practical working threats rather than spectacle.",
+        "Subtext density: the shelter conversation is officially about Arthas and the blade, but Muradin's outsider read keeps testing the pair's trust, lateness, and unsaid reliance underneath.",
+        "Action pacing: the cave fight uses short commands, rapid geometry updates, and one decisive mismatch point rather than repetitive exchange.",
+        "Humor deployment: dry wit appears briefly in harbor and camp beats, then thins out entirely once the cave threshold arrives, which matches the horror-escalation rule.",
+        "Resolution type: the chapter closes on uneasy operational survival plus a new technical thread, exactly the carry-forward shape the guide calls for."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Sylvanas Windrunner",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — lines 5-21, 45-59, 290-291 stay in lean martial diction, cost language, and rank/threat terms rather than abstract summary.",
+        "sentenceRhythm": "pass — clipped declaratives dominate; longer sentences appear only for terrain read, tactical causality, or confrontation setup.",
+        "metaphorDensity": "pass — low density; images come from battlefield, craft, weather, and body-strain domains.",
+        "emotionalRegister": "pass — feeling appears as anger, focus, restraint, and post-fight recalibration rather than open naming.",
+        "thoughtPatterns": "pass — the chapter repeatedly moves from evidence to capability judgment to decision.",
+        "sensorySignature": "pass — movement, cold on skin, sightlines, footfall, readiness, and exposure stay foregrounded.",
+        "humorType": "pass — dry contempt appears early and vanishes under atrocity pressure.",
+        "powerPosture": "pass — short commands and cleaner declaratives dominate once she takes control of movement.",
+        "speculativeComfort": "pass — magic is translated into threat, breach, field, and failure mode rather than awe.",
+        "expositionFilter": "pass — she notices what matters to pursuit, rank, and battlefield consequence, not arcane lecture."
+      },
+      "ruleViolations": [
+        "Line 430 briefly buffered Sylvanas's no-blame verdict with 'to her own surprise'; cut in v4b so the judgment stays exact and behavioral."
+      ]
+    },
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — lines 17-18, 77-88, 196-206, 324 stay educated and exact without drifting into modern-scientific jargon.",
+        "sentenceRhythm": "pass — she runs longer reasoning when needed, then snaps down to short directives under pressure in the cave.",
+        "metaphorDensity": "pass — her language remains low-image and mechanism-oriented rather than ornate.",
+        "emotionalRegister": "pass — fear leaks through speed, bodily strain, handwork, and overfocus, not theatrical naming.",
+        "thoughtPatterns": "pass — she moves from pattern recognition to hypothesis to usable warning in every major beat.",
+        "sensorySignature": "pass — taste, pressure, cold, tremor, magical hitch, and hand-strain remain her visible channels.",
+        "humorType": "pass — only a single breathless bitter laugh survives in the cave, exactly where stress protection would produce it.",
+        "powerPosture": "pass — she is calm and explanatory in briefing mode, then speeds up and multiplies directives once the cave proves her outmatched.",
+        "speculativeComfort": "pass — Frostmourne is native craft logic to her: maker, turn, catch, seam, and side-throw, not wonder spectacle.",
+        "expositionFilter": "pass — when she explains, someone in-scene needs the translation; otherwise she works in compressed expert shorthand."
+      },
+      "ruleViolations": [
+        "Lines 99 and 107 repeated 'snapped' for two consecutive visible Jaina reactions; varied in v4b to keep her body language specific instead of tic-like.",
+        "Line 288 used negated summary ('was not reaching anymore') where Sylvanas should only be able to read a physical stop; replaced with the visible hand beat."
+      ]
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 0.67,
+    "passiveVoicePercent": 1.01,
+    "dialogueToNarrationRatio": "1046:4217 (~20:80 overall; low against the global target but within the action/travel carve-out)",
+    "avgSentenceLength": 8.87,
+    "avgParagraphLength": 23.91,
+    "metaphorsPerThousandWords": 2.3
+  },
+  "totalObservations": 48,
+  "totalFixes": 11,
+  "wordCount": {
+    "before": 5284,
+    "after": 5263
+  }
+}

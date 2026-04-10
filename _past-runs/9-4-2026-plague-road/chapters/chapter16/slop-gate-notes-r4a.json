@@ -1,0 +1,105 @@
+{
+  "chapterId": "chapter16",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "killRate": 25.0,
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "severity": "mild",
+          "line": "No circle room. No clean floor. No quiet. Only sacks, dust, rough planks, and the buried thread Kel'Thuzad had spent so long teaching dead flesh to answer.",
+          "pattern": "2",
+          "deletionTest": "Only sacks, dust, rough planks, and the buried thread Kel'Thuzad had spent so long teaching dead flesh to answer.",
+          "reason": "Pattern 2 fragment pivot; the three negated setup fragments are removable scaffolding before the usable inventory.",
+          "suggestedFix": "Only sacks, dust, rough planks, and the buried thread Kel'Thuzad had spent so long teaching dead flesh to answer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "killRate": 40.0,
+      "dominantPattern": "mixed-pattern-2-and-8",
+      "clusterFlags": [
+        "opening approach (lines 35-47)"
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "Completed the dedicated pass-A P5/P6 re-read over every sentence. No additional KILLs emerged beyond the main pass; the remaining apparent agency cases were defended as literal plague-mechanism behavior.",
+      "findings": [
+        {
+          "severity": "mild",
+          "line": "None of it told her as much as the wind when it shifted.",
+          "pattern": "2",
+          "subject": "None of it",
+          "verb": "told",
+          "realAgent": "the new smell and airflow evidence reaching Jaina when the wind shifted",
+          "reason": "Pattern 2 evidence-personification; the sentence launders Jaina's inference onto an abstract bundle of prior observations instead of the concrete sensory change.",
+          "suggestedFix": "The shift in the wind mattered more than the map in her head.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "line": "The corner of Sylvanas's mouth moved once.",
+          "pattern": "8",
+          "subject": "The corner of Sylvanas's mouth",
+          "verb": "moved",
+          "realAgent": "Sylvanas making a brief physical reaction",
+          "reason": "Pattern 8 body-part agency; the reaction belongs to Sylvanas, not to an independently acting mouth-corner.",
+          "suggestedFix": "\"Good. Saves time.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "killRate": 0.0,
+      "dominantPattern": null,
+      "cleanReason": "No recurring-tic cap was exceeded on this pass. Counted 1 corner-of-mouth beat (cap 1), 1 literal time-marking use of 'marked' (cap 2), 1 'tightened' beat (cap 3), 2 eye/scan beats within character-specific tactical observation (cap 4), and 1 performance dialogue tag ('muttered', cap 3).",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 12,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A found only 3 mild kills and no moderate or severe kills, so the chapter clears the pass-with-warnings threshold."
+  }
+}

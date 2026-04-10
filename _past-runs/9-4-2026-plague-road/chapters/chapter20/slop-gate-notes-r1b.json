@@ -1,0 +1,315 @@
+{
+  "chapterId": "chapter20",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 12,
+      "kills": 8,
+      "keeps": 4,
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "pattern": "F3",
+          "line": "Wet stone, slipping hooves, Cyndia riding ahead with one hand out to judge the width of the path. Then the coast opened below them: six berths of dock, a net yard gone pale with salt, houses crouched under the cliff, and beyond them the North Sea, flat and hard under a sky only slightly darker.",
+          "word": "slightly",
+          "deletionTest": "Wet stone, slipping hooves, Cyndia riding ahead with one hand out to judge the width of the path. Then the coast opened below them: six berths of dock, a net yard gone pale with salt, houses crouched under the cliff, and beyond them the North Sea, flat and hard under a sky only darker.",
+          "severity": "mild",
+          "issue": "hedge softens a direct visual description",
+          "suggestedFix": "Wet stone, slipping hooves, Cyndia riding ahead with one hand out to judge the width of the path. Then the coast opened below them: six berths of dock, a net yard gone pale with salt, houses crouched under the cliff, and beyond them the North Sea, flat and hard under a darker sky.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "line": "The stumble showed how close she had come.",
+          "whatItRestates": "Jaina dismounted and nearly missed the ground.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "line": "That landed harder than the gold.",
+          "whatItRestates": "Dagny's refusal to take the horses and the loss of the road-bound part of the pursuit.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "line": "Work took the next hour whole.",
+          "paragraphLocation": "harbor-loading paragraph",
+          "issue": "thesis opening before an inventory paragraph",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "line": "The knock of the stone against her ribs hit harder than the sight of the cairn.",
+          "whatItRestates": "The stone knocking against her ribs already marks the emotional jolt without extra interpretation.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "line": "The hours became that exchange repeated with small variations cruel enough to keep it from becoming routine.",
+          "paragraphLocation": "mid-crossing labor run",
+          "issue": "thesis opening before an inventory paragraph",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "line": "She was right.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "\"Good. Lee rail. Half a glass. You look ready to disgrace yourself.\"",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "line": "That made it worse.",
+          "whatItRestates": "The empty bay already shows why the absence of people is worse.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 8,
+      "kills": 4,
+      "keeps": 4,
+      "dominantPattern": "A2",
+      "findings": [
+        {
+          "pattern": "A1",
+          "line": "Recognition from a distance.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Reads like a caption pinned over the Northrend reveal instead of Jaina's live sensory intake.",
+          "confidence": "high",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "line": "Simple as an order. Difficult as anything she had done this year.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Two compressed verdict fragments pin a theme over the exchange instead of staying in Jaina's immediate bodily effort.",
+          "confidence": "high",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "line": "No softening. No lie about the distance.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This sloganized caption summarizes the exchange from above instead of staying in Jaina's body and senses.",
+          "confidence": "high",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "line": "Too late for comfort. Not yet too late for purpose.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The paired abstractions summarize the chapter's meaning from outside the POV instead of staying with Jaina's concrete arrival mind.",
+          "confidence": "high",
+          "severity": "mild",
+          "suggestedFix": "Too late for comfort, not too late to keep after Arthas.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P4",
+          "line": "That landed harder than the gold.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The line never names that losing the horses hits Jaina harder than the price.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "reason": "P4 unanchored interpretive summary"
+        },
+        {
+          "pattern": "P3",
+          "line": "Force would fail. Force always made the answer larger.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The line avoids naming the actual backlash: pushing harder makes the unnatural headwind hit back harder.",
+          "severity": "mild",
+          "suggestedFix": "Brute force would only bring the wind back harder.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "reason": "P3 placeholder-noun stand-in"
+        },
+        {
+          "pattern": "P1",
+          "line": "\"The body keeps old lessons longer than the mind does.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The reply never names that Jaina still treats bodily damage as proof and keeps pushing past the limit.",
+          "severity": "mild",
+          "suggestedFix": "\"I can know better and still keep pushing.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "reason": "P1 sloganized abstraction in dialogue"
+        },
+        {
+          "pattern": "P4",
+          "line": "Too late for comfort. Not yet too late for purpose.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The line never cashes out 'purpose' into the actual chase or target waiting inland.",
+          "severity": "mild",
+          "suggestedFix": "Too late for comfort, not too late to keep after Arthas.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "reason": "P4 unanchored interpretive summary"
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange set up a plainer-speech test; the chapter never asks for a short version, smaller words, or a street-level restatement.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 16,
+    "totalKeeps": 11,
+    "mildKills": 16,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 16,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B found 16 mild kills across three guides; there are no moderate/severe kills, but the mild-only total is above the pass threshold of 3."
+  }
+}

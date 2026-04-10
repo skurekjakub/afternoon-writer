@@ -1,0 +1,74 @@
+{
+  "chapterId": "chapter22",
+  "iteration": 2,
+  "targetFile": "v2g-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "category": "threshold abstraction",
+      "excerpt": "Behind the hide flaps, Muradin's world became awl, needle, hot water, and dwarven hands.",
+      "reason": "The handoff is materially strong around it, but \"world became\" lifts the treatment threshold back into a conceptual summary. At the exact cutoff where the prose should stay with flap, tools, and blocked sightline, it abstracts the off-page care instead of letting the camp's working sounds carry it.",
+      "suggestedFix": "Keep the treatment off-page but make it physical: \"Behind the hide flaps, awls clicked, water steamed, and dwarven hands went to work on Muradin.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "projection simile",
+      "excerpt": "Then the Dragonblight wind got under her hood, and she saw the switchback above Daggercap Bay as cleanly as if she were already on it:",
+      "reason": "The exit beat has cold, hood, and destination, then slides into a future-position simile. That thins the retreat threshold by jumping ahead of Jaina's actual footing instead of keeping the route present and immediate.",
+      "suggestedFix": "Drop the future-projection comparison and keep the road concrete: \"Then the Dragonblight wind got under her hood, and the switchback back to Daggercap Bay came into focus ahead: black water below, the Wolfheart at the planks, tar biting through the cold.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "conceptual mechanism phrasing",
+      "excerpt": "He would have gone straight for the turn, for the point where horror became elegant enough to study.",
+      "reason": "The Kel'Thuzad mirror is thematically correct, but this lands in essay-language rather than embodied recognition. \"Horror became elegant enough\" is too conceptually polished for a beat that should stay with hitch, pulse, and the seduction of measurable structure.",
+      "suggestedFix": "Keep the moral recognition but pin it to the field behavior: \"He would have gone straight for the turn, for the instant the hitch steadied enough to start measuring instead of fearing.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "planner-language intrusion",
+      "excerpt": "\"The turn. Frost catches it. Arcane goes through while it's open. Then fire before it closes again. To change the binding from the inside.\"",
+      "reason": "Most of the line is strong and field-plain, then the ending drops into explanatory mechanism-speak. \"Change the binding from the inside\" reads like a plan note rather than exhausted spoken pressure on the march.",
+      "suggestedFix": "Keep the sequence but end in plainer contact-language: \"The turn. Frost catches it. Arcane goes through while it's open. Then fire before it closes again. Burn the join while it's bare.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "retreat adjudication",
+      "excerpt": "Daggercap looked worse in retreat.",
+      "reason": "This was a previous kill and it is still here. The sentence announces an evaluative conclusion instead of making the worsening arrive through wreckage, dock labor, and the changed meaning of the harbor on the way back.",
+      "suggestedFix": "Delete the sentence and let the next concrete harbor paragraph do the work without the abstract verdict.",
+      "fixMode": "local-delete"
+    },
+    {
+      "category": "shipboard process shorthand",
+      "excerpt": "Dagny worked the Wolfheart the way a hard captain worked any strained rig: sail angle, hull line, timing, line discipline.",
+      "reason": "This compresses the crossing into labeled process instead of immediate ship labor. It reads like a competent summary of what Dagny is doing, not like deck reality arriving through barked orders, strained timbers, and visible adjustments.",
+      "suggestedFix": "Replace the summary list with one live handling beat: \"Dagny worked the Wolfheart by the inch, snapping for line, angle, and weight while the schooner shuddered under every extra knot Jaina bought.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "arrival abstraction",
+      "excerpt": "Southshore rose out of morning mist in ordinary pieces: piers, gulls, slant-roofed cottages, nets drying on frames, a road running inland through fields still innocent of what was already living in the palace at Capital City.",
+      "reason": "\"Ordinary pieces\" is generic scene-framing, and \"innocent\" pushes the sentence into top-down thematic judgment. The landfall wants visible calm and route facts, not a narrator-ish gloss on innocence.",
+      "suggestedFix": "Keep the place inventory but remove the abstract gloss: \"Southshore came out of the mist as piers, gulls, slant-roofed cottages, nets drying on frames, and a road inland through fields no one had bothered to fortify.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "institution personification",
+      "excerpt": "Long enough to settle guard shifts and teach the palace to think that was normal.",
+      "reason": "The first half is useful operational time math; the second half turns the institution into an idea rather than showing how the new guard presence has physically naturalized itself. The line should stay with men, routes, and habit, not a thinking palace.",
+      "suggestedFix": "Keep the time read but cash it out in behavior: \"Long enough for guard shifts to settle and for Northrend men to start moving those halls as if they belonged there.\"",
+      "fixMode": "local-replace"
+    },
+    {
+      "category": "tactical note shorthand",
+      "excerpt": "Good. Columns could break a line for half a stride. The dais would trap her instead of cover her. From throne to doors the marble lay open and white, with nowhere in it worth trusting.",
+      "reason": "This remains schematic and list-like. The room facts are right, but the beat still reads like internal planning notes rather than Sylvanas feeling exposure, distance, and lack of cover through her own body.",
+      "suggestedFix": "Fuse the geometry into one embodied read: \"Good. A column might steal her half a stride. The dais would pen her in, not hide her. Between throne and doors the white floor stayed bare enough to die on.\"",
+      "fixMode": "local-replace"
+    }
+  ],
+  "summary": {
+    "totalKills": 9
+  }
+}

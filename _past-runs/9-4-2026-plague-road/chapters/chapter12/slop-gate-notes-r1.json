@@ -1,0 +1,53 @@
+{
+  "chapterId": "chapter12",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 28,
+      "kills": 0,
+      "keeps": 28,
+      "cleanReason": "28 candidates examined across all 7 failure modes. F1: One anaphora cluster (4x 'Thought of' at L595) evaluated — reads as deliberate cognitive cascade within Jaina's analytical character voice, not rhythmic template. F2: All dialogue beats character-specific with concrete physical detail; previous generic-gaze beats ('regarded for a long moment') were fixed by slophunter. F3: 3 hedge instances found ('almost' x2, 'might' x1) — all serve genuine physical uncertainty or hypothetical comparison within character voice. F4: Remaining interpretive sentences add new information (self-awareness about manipulation at L65, thematic contamination metaphor at L583) or function as character interiority, not narrator summary. F5: Zero — cooperative antagonist is intentional per chapter plan (intellectual seduction). F6: Analytical inventory paragraphs (L75, L125, L498) are Jaina's established cognitive pattern, not essay structure. F7: Previous 8 closure kills all addressed; remaining paragraph/scene endings stop on action, image, or unanswered question. No new closure addiction detected."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 22,
+      "kills": 0,
+      "keeps": 22,
+      "cleanReason": "22 candidates examined. Previous 6 kills all confirmed fixed in v2-r1.md ('The sight of it told her' → 'She saw the diagram and knew'; 'the room widened' → removed; 'his calm had to work' → 'His composure slipped'; 'lack filled it' → 'the absence hit her'; 'ground choose the pace' → 'kept their own pace'; 'The building was telling her' → 'She read the descent'). Remaining candidates: 8 POV emotional metaphors describing how emotions/realizations feel (anger hitting, relief hitting, words landing, understanding sweeping), 6 character-voice compressions from Jaina's analytical register (phrase completing, distinction opening, compliment landing like contamination), 4 subject-matter/literal defenses for ward infrastructure responses (floor answering, building registering — wards literally detect in this magical setting), 4 dead metaphors transparent to readers (room gave, composure slipped). P5/P6 dedicated sweep: no roads/geography with motion verbs (single-room chapter), no qualifying metaphor chains across consecutive sentences (L377-378 has different subjects, not same noun with multiple verbs). Pattern 4 (institutional self-deception): zero — KT names specific actors throughout."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 20,
+      "kills": 0,
+      "keeps": 20,
+      "cleanReason": "20 candidates examined. POV register established as HIGH confidence — Jaina is a Kirin Tor-trained scholar whose analytical register naturally overlaps with polished narrator voice. Previous 3 kills all confirmed fixed ('The shambling choir' → 'The rough answerables' using KT's in-scene terminology; 'The mind that followed pattern' → 'Her mind ran toward pattern' personalizing the universal; 'Early enough to see all of it and read it wrong' → 'But Sylvanas would see all of it and read it wrong' naming the character). Tier A scan: all verdict-tag fragments (L139, L169, L285) are active real-time assessments within Jaina's established analytical-reading habit; all thesis-fragment patterns (L127, L498-501) are technical vocabulary recapitulation from the dialogue; no scene-state mood abstractions found (all scene-state sentences name specific physical changes — wards humming, chalk clicking, wards cycling). Tier B scan: no sentences exceed Jaina's cognitive ceiling; emotional state throughout is 'controlled analytical engagement' to 'controlled horror' — never panic, so high abstraction is appropriate; all metaphors drawn from Jaina's experiential domains (academic lectures, plague contamination, arcane binding)."
+    },
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 24,
+      "kills": 0,
+      "keeps": 24,
+      "cleanReason": "24 candidates examined. Previous 5 kills all confirmed fixed ('No shame. No evasion. Only mild surprise' → 'Mild surprise that the point would need saying aloud'; 'The partnership had never been comfort. It had been correction.' → 'The partnership had been correction.'; 'Attention lifting, not alarmed, simply redirected' → 'Attention lifting, redirected'; 'No false starts. No panicked burst of speed' → removed; 'No wasted motion. No magical show' → removed). Remaining 24 candidates: 14 are binary diagnostics in active scholarly argument (poison vs. conditioning, accidental vs. relational rising, validity vs. absolution, formal vs. moral beauty, extinguishment vs. transfer — all central to the chapter's intellectual combat and both options real in-world), 6 are hard constraints on mechanism capabilities (acolytes cannot create from nothing, naming insufficient against scale, understanding and action never identical), 4 are procedural imperatives ('Do not mistake,' 'Do not speak,' 'Do not romanticize,' 'Do not collapse'). The chapter's structure as a scholarly debate naturally produces binary diagnostics — the scholars ARE distinguishing categories as their primary mode of argument."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "cleanReason": "4 instances tracked across all 4 tic categories. Tic 1 (corner-of-mouth): 0 instances, cap 1 — no corner-of-mouth constructions; mouth references (L61 'His mouth changed', L491 'mouth went dry') use different patterns. Tic 2 (overloaded 'marked'): 2 instances (L31 'White dust marked her thumb', L227 'Chalk dust marked one cuff'), both physical, cap 2 — previous 3rd instance ('White dust marked her fingertips') fixed by slophunter to 'White dust clung to her fingertips' at L97. Tic 3 (tightened/eased): 2 'tightened' (L19 fingers on latch, L369 fingers on table edge), both physical grip, cap 3; 0 'eased', cap 2. Tic 4 (expression shifted): 0 instances, cap 1. All counts under hard caps. No slophunter-introduced tics detected."
+    }
+  ],
+  "summary": {
+    "totalKills": 0,
+    "totalKeeps": 98,
+    "guidesRun": 5,
+    "guidesWithKills": 0,
+    "killsWithFix": 0,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "0 KILL verdicts across all 5 guides. All 38 kills from iteration 0 confirmed addressed in v2-r1.md. No new violations introduced by slophunter fixes. Clean pass."
+  }
+}

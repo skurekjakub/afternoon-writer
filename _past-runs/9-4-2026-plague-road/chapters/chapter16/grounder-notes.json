@@ -1,0 +1,133 @@
+{
+  "chapterId": "chapter16",
+  "globalRisks": [
+    "dialogue-heavy",
+    "middle-spillover",
+    "tail-risk"
+  ],
+  "sceneAudits": [
+    {
+      "scene": "Scene 1 - The Ride",
+      "biggestGap": "The opening already had urgency, but the road and gate approach needed tighter Stratholme-specific logistics so the chapter would open inside this city's bread traffic rather than on a generic hard ride.",
+      "anchorsAdded": {
+        "place": [
+          "north road into Stratholme's outer farming belt",
+          "service gate",
+          "warehouse district",
+          "Market Row smoke line"
+        ],
+        "material": [
+          "bit foam",
+          "flour bins",
+          "churned gate mud",
+          "flour in the threshold cracks"
+        ],
+        "dialogue": [
+          "fork-choice beat on horseback",
+          "smoke-line point toward the market side",
+          "service-gate read under live traffic"
+        ],
+        "exit": [
+          "loading doors",
+          "district marks on the sacks",
+          "granary threshold as the worksite"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 2 - The First Stores",
+      "biggestGap": "The local granary win was solid, but the middle needed stronger district texture and route-specific aftermath so success, civilian spillover, and handler escalation would stay distinct.",
+      "anchorsAdded": {
+        "place": [
+          "North Lane warehouse",
+          "service lanes behind market houses",
+          "Festival Lane contracts",
+          "Market Row ovens"
+        ],
+        "material": [
+          "ledger board",
+          "burlap sacks",
+          "loading ramp rail",
+          "tray cloth over warm rolls",
+          "delivery strap on a dead laborer"
+        ],
+        "dialogue": [
+          "route-sheet handoff from the clerk",
+          "Sylvanas reading Jaina before the stop-striking call",
+          "return-ride exchange tied to lane stone and map use"
+        ],
+        "exit": [
+          "warm bread in hands",
+          "Alonsus Chapel bells over the district",
+          "bread carried toward a hospice"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 3 - The Count",
+      "biggestGap": "The gate answer already landed emotionally, but the final third needed stronger main-gate materiality and city-specific institutional weight so the confrontation would not drift into portable command dialogue.",
+      "anchorsAdded": {
+        "place": [
+          "southern main gate",
+          "Stratholme crest above the arch",
+          "Alonsus Chapel bells",
+          "formal gate approach"
+        ],
+        "material": [
+          "sweating flanks and reins",
+          "Light's Vengeance in Arthas's gauntlet",
+          "mud at Arthas's sabatons",
+          "flour and ash on Jaina's mouth and sleeve"
+        ],
+        "dialogue": [
+          "Falric under the arch",
+          "Arthas stepping down through the mud",
+          "Uther's silence fixed beside the gate"
+        ],
+        "exit": [
+          "spoiled grain drying under Jaina's nails"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": [
+      "the return ride could have collapsed into abstract counting without enough city contact",
+      "the gate exchange risked turning into portable command dialogue"
+    ],
+    "fixesApplied": [
+      "kept the retreat tied to shutters, crusts, hospice bread, map handoff, and the sound of the incoming column",
+      "bound the answer scene to crest ironwork, gate stone, chapel bells, Light's Vengeance, mud, and flour-ash residue"
+    ],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [
+      "relationships/jaina--sylvanas",
+      "threads/stratholme-source-plan",
+      "locations/stratholme",
+      "characters/jaina-proudmoore",
+      "threads/living-contamination-vector",
+      "threads/grain-distribution-network",
+      "threads/arthas-hearthglen-thread",
+      "threads/uthers-warning-about-arthas"
+    ],
+    "materials": [
+      ".afternoon/config.json",
+      ".afternoon/plans/chapter16.json",
+      "stories/the-plague-road/plans/story-arc.md",
+      "stories/the-plague-road/characters/voice-sheets/jaina-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md",
+      "stories/the-plague-road/locations/lordaeron-and-northrend.md",
+      ".afternoon/style-guide.json",
+      ".github/skills/prose-grounding-framework/references/*"
+    ],
+    "unsourcedAdditions": []
+  }
+}

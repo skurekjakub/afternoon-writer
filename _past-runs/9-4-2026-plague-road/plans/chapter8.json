@@ -1,0 +1,830 @@
+{
+  "chapterId": "chapter8",
+  "title": "The Hunters Hunted",
+  "pov": "Jaina Proudmoore",
+  "timelinePosition": "The same night as Chapter 7. The carrier-side mechanism is known, the local cell is mapped, and the party moves immediately before Andorhal can scrub itself clean.",
+  "openLocation": "Andorhal at night — safe house, granary district, secondary streets, fallback shelters.",
+  "transport": "On foot through the city under covert movement.",
+  "activeCastAtOpen": [
+    "Jaina",
+    "Sylvanas",
+    "Cyndia",
+    "Lyriel",
+    "Corin",
+    "Captain Havel"
+  ],
+  "immediateObjective": "Capture a live operative, force the Andorhal network to reveal its command layer, and get out before the city closes around them.",
+  "constraints": [
+    "Limited Third Absolute — Jaina's perception only.",
+    "No Kel'Thuzad naming before beat 8.",
+    "No omniscient claim that the entire kingdom is already lost."
+  ],
+  "metaInfo": {
+    "worldbuildingReferences": [
+      {
+        "label": "Lordaeron and Northrend",
+        "path": "stories/the-plague-road/locations/lordaeron-and-northrend.md"
+      },
+      {
+        "label": "Scholomance and Dalaran",
+        "path": "stories/the-plague-road/locations/scholomance-and-dalaran.md"
+      },
+      {
+        "label": "Plague Mechanism",
+        "path": "stories/the-plague-road/plans/plague-mechanism.md"
+      }
+    ],
+    "characterReferences": [
+      {
+        "label": "Jaina profile",
+        "path": "stories/the-plague-road/characters/jaina.md"
+      },
+      {
+        "label": "Jaina voice",
+        "path": "stories/the-plague-road/characters/voice-sheets/jaina-voice.md"
+      },
+      {
+        "label": "Sylvanas profile",
+        "path": "stories/the-plague-road/characters/sylvanas.md"
+      },
+      {
+        "label": "Sylvanas voice",
+        "path": "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md"
+      },
+      {
+        "label": "Antonidas profile",
+        "path": "stories/the-plague-road/characters/antonidas.md"
+      },
+      {
+        "label": "Kel'Thuzad profile",
+        "path": "stories/the-plague-road/characters/kelthuzad.md"
+      },
+      {
+        "label": "Cyndia profile",
+        "path": "stories/the-plague-road/characters/cyndia.md"
+      },
+      {
+        "label": "Supporting cast",
+        "path": "stories/the-plague-road/characters/supporting.md"
+      }
+    ],
+    "arcReferences": [
+      {
+        "label": "Partnership arc",
+        "path": "stories/the-plague-road/plans/partnership-arc.md"
+      },
+      {
+        "label": "Chapter 7 plan",
+        "path": "stories/the-plague-road/plans/chapters/chapter7.md"
+      }
+    ]
+  },
+  "knowledgeLedger": {
+    "povKnowsAtOpen": [
+      "Andorhal's grain is being treated at the hub during packaging.",
+      "The city contains an embedded living network rather than a handful of isolated saboteurs.",
+      "Corin and Havel have both been correct from the ground and ignored from above.",
+      "Sylvanas's logistical read and Jaina's magical read now interlock cleanly enough to support a same-night capture operation.",
+      "Lyriel is alive, and the four-woman field unit is still intact.",
+      "Jaina's sensitivity keeps them ahead of public understanding, but not ahead of shipments already moving through ordinary routes.",
+      "The old seller / newer grain-man clue remains unresolved background, not an active lead.",
+      "She can now isolate the grain-side carrier work, but not the host-side trigger that turns contamination into undead continuity."
+    ],
+    "povDoesNotKnowAtOpen": [
+      "Whether the capture target can survive long enough to talk.",
+      "Whether the city already has a kill-switch protocol for compromised operatives.",
+      "Whether Andorhal is still early enough to stop the wider rollout.",
+      "Who the architect is or where command actually sits."
+    ],
+    "mustNotBeImpliedYet": [
+      "No certainty that contaminated grain is already beyond recall before beat 7.",
+      "No Kel'Thuzad naming before beat 8.",
+      "No claim that the old seller / newer grain-man clue is solved.",
+      "No omniscient statement that the entire kingdom is already lost."
+    ],
+    "castKnowsLeavingChapter": [
+      "The network has a standing remote-kill protocol for compromised operatives.",
+      "Kel'Thuzad is named as the former Kirin Tor architect operating north of Andorhal, but the identification is stitched from field fragments rather than a clean confession.",
+      "Corin and Havel remain local Andorhal allies while the core four-woman field unit moves on.",
+      "The party can detect the plague earlier than most authorities, but is still one step behind the rollout.",
+      "Antonidas has been told the name Kel'Thuzad; any Kirin Tor response now runs on institutional delay rather than field tempo."
+    ]
+  },
+  "arcPosition": {
+    "pov": {
+      "currentStanceAtOpen": "One live operative and one hard interrogation might finally let Jaina get ahead of the disaster instead of chasing it.",
+      "surfaceObjective": "Turn the captured agent into usable command intelligence before the network closes its mouth.",
+      "pressureSource": "The answers exist, but they may only confirm how late they already are, and the city can kill a witness before Jaina finishes learning from her.",
+      "misbeliefManifestation": "Jaina still leans toward one layer deeper as if understanding fast enough can still become prevention.",
+      "chapterTest": "The capture works, the questioning works, and then the witness dies anyway. Knowledge keeps arriving too late to save the immediate piece in front of her.",
+      "forcedChoice": "Treat the new information as victory, or admit that proof can arrive in time to teach and still too late to prevent the loss that taught it.",
+      "endStateShift": "Jaina gets the command layer clearer, but loses the fantasy that clarity alone can let her stay ahead.",
+      "carryForwardResidue": "Chapter 9 opens with Jaina pricing time and risk harder, and with less patience for analysis that has no room to land."
+    },
+    "throughPov": [
+      {
+        "character": "Sylvanas",
+        "visibleFunction": "Ambush planner, interrogator, and the woman who keeps the city survivable while Jaina looks at the mechanism.",
+        "povMisreadAtOpen": "Jaina trusts Sylvanas's field instincts now, but she still thinks her own side of the work is the cleaner road to certainty.",
+        "correctionEarnedHere": "Sylvanas's instincts are not the rough half of the job. They are what keep the proof alive long enough to matter at all, and Jaina feels the cost the moment the city reaches in and kills the witness from a distance.",
+        "interactionRule": "They move fast and talk short. Mutual trust should show through timing, not speeches."
+      }
+    ],
+    "team": [
+      {
+        "label": "partnership",
+        "operatingModeAtOpen": "A partnership that is finally working clean at speed.",
+        "operationalChangeThisChapter": "The cooperation stops feeling arranged and starts feeling automatic. Each woman covers the other's blind side before the request is voiced.",
+        "namingAttitudeRule": "No admiration speeches. The trust should read in tempo, not praise.",
+        "doNotOverstateRule": "This is peak function, not safety. The chapter exists partly to punish the feeling that they finally have the tempo under control."
+      }
+    ]
+  },
+  "castAndHandoffRules": {
+    "entries": [
+      {
+        "character": "Cyndia",
+        "rule": "Still with the field party."
+      },
+      {
+        "character": "Lyriel",
+        "rule": "Still with the field party and alive through this chapter."
+      },
+      {
+        "character": "Corin",
+        "rule": "Local ally inside Andorhal only. He does not join the later Eastweald field sweep."
+      },
+      {
+        "character": "Captain Havel",
+        "rule": "Local ally inside Andorhal only. He provides fallback routes and safe-house logic, not a traveling escort."
+      },
+      {
+        "character": "Kel'Thuzad",
+        "rule": "Not yet named at chapter open."
+      },
+      {
+        "character": "Old seller / newer grain-man clue",
+        "rule": "Keep off the active board."
+      }
+    ],
+    "chapterHandoffTarget": "Chapter 9 opens after the Andorhal breakthrough has widened into an Eastweald field campaign carried by the same four-woman traveling unit."
+  },
+  "chapterCloseHandoff": {
+    "activeCastAtClose": [
+      "Jaina",
+      "Sylvanas",
+      "Cyndia",
+      "Lyriel",
+      "Corin",
+      "Captain Havel"
+    ],
+    "factsLockedForChapter9": [
+      "Lyriel is alive at the end of Chapter 8.",
+      "Andorhal is the distribution center and the treated grain is already moving through northern Lordaeron.",
+      "The network's response speed is standing protocol, not improvisation.",
+      "Kel'Thuzad is named as the architect: former Kirin Tor, expelled by Antonidas, operating somewhere north of Andorhal; the identification was stitched from Corin, Havel, and the captive's broken clue rather than a clean confession.",
+      "Corin and Havel remain local Andorhal allies, but the traveling field team going forward is still the four-woman core unit.",
+      "The party can detect the plague earlier than most authorities, but is still one step behind the rollout.",
+      "Antonidas has been told the name Kel'Thuzad; any Kirin Tor response now runs on institutional delay rather than field tempo."
+    ],
+    "factsNotYetEarned": [
+      "Kel'Thuzad's precise base.",
+      "Full Barov culpability.",
+      "Any solution to the old seller / newer grain-man clue.",
+      "Any suggestion that Andorhal alone can reverse what has already been deployed."
+    ]
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "The Capture",
+      "sceneFunction": "Show the partnership at its cleanest, then punish that confidence by proving the city can kill a witness from a distance.",
+      "castInScene": [
+        "Jaina",
+        "Sylvanas",
+        "Cyndia",
+        "Lyriel",
+        "Corin",
+        "Havel",
+        "captured operative"
+      ],
+      "knowledgeAtSceneStart": [
+        "The carrier-side mechanism is known.",
+        "The local cell is mapped.",
+        "The command layer is still unnamed."
+      ],
+      "arcPressure": "Jaina wants one live mind to turn structure into certainty before the city proves certainty is slower than command discipline.",
+      "enrichment": {
+        "detail": "Andorhal is Lordaeron's breadbasket hub and main agricultural distribution point, so even a night operation should feel surrounded by loading yards, stone granaries, grain dust, yeast, and wagon traffic rather than ruin-gothic emptiness.",
+        "source": "stories/the-plague-road/locations/lordaeron-and-northrend.md; https://warcraft.wiki.gg/wiki/Andorhal"
+      },
+      "beats": [
+        {
+          "beatId": 1,
+          "beatType": "scene",
+          "scenePhase": "goal",
+          "goal": "Take a live operative before the Andorhal network can react.",
+          "conflict": "The target sits inside a city that rewards routine and punishes anything that breaks it, so the capture has to be clean enough that the street keeps moving around it.",
+          "outcome": {
+            "type": "yes-but",
+            "summary": "The team takes the operative alive, but the clean snatch also confirms the professionalism of whatever trained the target."
+          },
+          "valueShift": "ready operation -> live witness in hand",
+          "newOnPageInformation": [
+            "Sylvanas can run a street capture with the same precision she uses in open terrain.",
+            "Jaina can suppress wards and panic-signals fast enough to keep the target from lighting the city up.",
+            "Cyndia and Lyriel hold the perimeter cleanly enough that Corin and Havel never become liabilities."
+          ],
+          "stillUnknownAfterBeat": [
+            "How much the prisoner actually knows.",
+            "Whether the city felt the capture anyway."
+          ],
+          "sensoryAnchors": [
+            "narrow street shadow",
+            "ward-suppression like a hand over a bell",
+            "Lyriel on one flank, Cyndia on the other"
+          ],
+          "transitionIntent": "question-pressure: with the witness alive, the next problem becomes fear and what it can be made to yield",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "threads/andorhal-live-capture",
+            "fields": [
+              "evidence",
+              "povCharacterKnows"
+            ],
+            "chapter": "chapter7"
+          },
+          "verifierNotes": "This is the same-night snatch planned at chapter 7's close; treat the beat as payoff, not as a fresh operational premise."
+        },
+        {
+          "beatId": 2,
+          "beatType": "scene",
+          "scenePhase": "conflict",
+          "goal": "Force the operative to reveal the command structure behind Andorhal.",
+          "conflict": "The prisoner is terrified, but his fear is not aimed downward at the women interrogating him; it is aimed upward at the people who trained him to disappear if caught.",
+          "outcome": {
+            "type": "yes-but",
+            "summary": "The interrogation yields hierarchy and design pressure, but not the one name Jaina and Sylvanas actually need."
+          },
+          "valueShift": "live witness in hand -> command layer hinted but not identified",
+          "newOnPageInformation": [
+            "The operation answers to a single mortal architect rather than a committee of small cells.",
+            "The contamination agent was designed, not stumbled onto.",
+            "The distribution network was built over months with deliberate planning.",
+            "The network uses lower-rank field necromancers who are really command-signal acolytes, trained to force or sharpen obedience in converted peasants and infected rather than master the whole necromantic design.",
+            "The prisoner's fear confirms that the field operatives deploy a mechanism whose full theory sits above their pay grade."
+          ],
+          "stillUnknownAfterBeat": [
+            "The architect's name.",
+            "Whether the prisoner can survive long enough to say it."
+          ],
+          "sensoryAnchors": [
+            "sweat on the prisoner's upper lip",
+            "Sylvanas asking less and getting more",
+            "a name almost spoken and swallowed"
+          ],
+          "transitionIntent": "threat-escalation: the city answers before the prisoner can",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "threads/grain-distribution-network",
+            "fields": [
+              "evidence",
+              "readerKnows",
+              "povCharacterKnows"
+            ],
+            "chapter": "chapter7"
+          },
+          "verifierNotes": "No Kel'Thuzad naming yet. The beat earns hierarchy, design pressure, and doctrine above the local cell, not the architect's identity."
+        },
+        {
+          "beatId": 3,
+          "beatType": "scene",
+          "scenePhase": "disaster",
+          "goal": "Keep the operative alive long enough to extract the missing name.",
+          "conflict": "A precise necromantic strike reaches through the city and kills him mid-sentence without any physical warning Sylvanas can read first.",
+          "outcome": {
+            "type": "no-and",
+            "summary": "The witness dies mid-sentence, and the kill proves the network has mage-level response capability inside the walls."
+          },
+          "valueShift": "command layer hinted but not identified -> exposure",
+          "newOnPageInformation": [
+            "Andorhal contains mages capable of surgical remote silencing.",
+            "The network trains for capture loss and enforces it instantly.",
+            "Jaina feels the strike as a distinct targeted burst rather than ambient contamination."
+          ],
+          "stillUnknownAfterBeat": [
+            "Which mage launched the strike.",
+            "How many response teams are already moving."
+          ],
+          "sensoryAnchors": [
+            "a sentence cut off mid-breath",
+            "necromantic force like a needle, not a wave",
+            "room-state turning from interrogation to compromised site"
+          ],
+          "transitionIntent": "action-pivot: the chapter flips immediately from pursuit to escape",
+          "continuityStatus": "new",
+          "verifierNotes": "First proof of the remote-kill doctrine. Treat the strike as newly discovered enemy capability, not as something the team already expected."
+        }
+      ],
+      "sceneLevelWarnings": []
+    },
+    {
+      "sceneId": 2,
+      "title": "The Hunters Hunted",
+      "sceneFunction": "Flip the investigative rhythm into survival rhythm and prove the partnership now works as an instinct, not a theory.",
+      "castInScene": [
+        "Jaina",
+        "Sylvanas",
+        "Cyndia",
+        "Lyriel",
+        "Corin",
+        "Havel",
+        "Cult enforcers"
+      ],
+      "knowledgeAtSceneStart": [
+        "The city can kill compromised operatives from a distance.",
+        "The network now knows somebody is probing it."
+      ],
+      "arcPressure": "If Jaina still thinks analysis is the cleaner half of the job, the city's response proves survival depends on Sylvanas translating magical warning into movement in real time.",
+      "enrichment": {
+        "detail": "Cult of the Damned cells canonically mix acolytes, alchemists, infiltrators, and necromancers; a layered breach-response with search teams, fallback shelters, and witness silencing fits a disciplined covert network, not mob panic.",
+        "source": "stories/the-plague-road/plans/plague-mechanism.md; https://warcraft.wiki.gg/wiki/Cult_of_the_Damned"
+      },
+      "beats": [
+        {
+          "beatId": 4,
+          "beatType": "scene",
+          "scenePhase": "goal",
+          "goal": "Escape the compromised site before the response teams close.",
+          "conflict": "The investigation had been about reading contamination and infrastructure; now Jaina has to read threat signatures while Sylvanas reads the physical street layer under active pursuit.",
+          "outcome": {
+            "type": "no-and",
+            "summary": "The network is faster and more organized than they hoped, and the shift exposes how fully Jaina and Sylvanas now cover different danger bands."
+          },
+          "valueShift": "exposure -> active pursuit through hostile streets",
+          "newOnPageInformation": [
+            "The Cult has an established city-security protocol, not an improvised panic response.",
+            "Jaina can redirect her magical attention from diagnosis to live threat scanning.",
+            "Andorhal contains enough enforcers to search in coordinated layers.",
+            "Sylvanas takes Jaina's live magical warnings as movement orders rather than advisories that need translation."
+          ],
+          "stillUnknownAfterBeat": [
+            "Which safe house will hold.",
+            "Whether Corin or Havel have already been burned."
+          ],
+          "sensoryAnchors": [
+            "street noise thinning in the wrong direction",
+            "moving necromancy instead of residue",
+            "Sylvanas reading corners and rooflines"
+          ],
+          "transitionIntent": "pressure-carry: escape now depends on both halves of the partnership working at full speed together",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "relationships/jaina--sylvanas",
+            "fields": [
+              "currentState",
+              "powerDynamic",
+              "trajectory"
+            ],
+            "chapter": "chapter7"
+          },
+          "verifierNotes": "The city-turn beat advances the split-labor trust from chapter 7 into combat tempo; do not reset the partnership to explanation mode."
+        },
+        {
+          "beatId": 5,
+          "beatType": "scene",
+          "scenePhase": "conflict",
+          "goal": "Reach Havel's fallback shelter without letting the pursuit collapse the formation.",
+          "conflict": "The enforcers converge by street geometry while Jaina catches magical pressure shifts that only matter if Sylvanas can convert them into movement in time.",
+          "outcome": {
+            "type": "yes-but",
+            "summary": "They escape the trap line, but only because the partnership has become a survival mechanism rather than a professional convenience."
+          },
+          "valueShift": "active pursuit through hostile streets -> survival through synchronized competence",
+          "newOnPageInformation": [
+            "Jaina's warning can buy Sylvanas exactly the physical seconds she needs.",
+            "Cyndia is strong enough to hold the rear while Lyriel keeps the opposite line stable.",
+            "Corin and Havel are useful because the field team is already operating as one machine.",
+            "Jaina realizes the escape works because neither woman is translating herself for the other anymore."
+          ],
+          "stillUnknownAfterBeat": [
+            "Whether the fallback site is already compromised.",
+            "Whether the city response has finished escalating."
+          ],
+          "sensoryAnchors": [
+            "heel-turn into a side street",
+            "Cyndia covering the rear with clean economy",
+            "timing that feels preplanned and isn't"
+          ],
+          "transitionIntent": "reclassification: once they reach cover, the city-wide response has to be understood as doctrine rather than panic",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "relationships/jaina--sylvanas",
+            "fields": [
+              "currentState",
+              "physicalDynamics",
+              "trajectory"
+            ],
+            "chapter": "chapter7"
+          },
+          "verifierNotes": "Cyndia and Lyriel stay the perimeter pair here. Keep their jobs distinct so the four-woman unit still reads as practiced rather than generic."
+        },
+        {
+          "beatId": 6,
+          "beatType": "sequel",
+          "scenePhase": "decision",
+          "emotion": "Hard realization.",
+          "dilemma": "Treat the response as one ugly cover-up, or accept that the city has rehearsed and institutionalized what it just did.",
+          "decision": "Assume a standing security doctrine and work from the premise that Andorhal expected investigators eventually.",
+          "valueShift": "survival through synchronized competence -> military-grade opposition",
+          "newOnPageInformation": [
+            "Havel has fallback sites because the city has felt wrong for long enough to justify them.",
+            "Corin and Havel were never paranoid enough; the system is deeper than that.",
+            "The network planned for breach, containment, and witness removal in advance."
+          ],
+          "stillUnknownAfterBeat": [
+            "Whether the grain rollout is already complete.",
+            "Who sits above the city-level protocol."
+          ],
+          "sensoryAnchors": [
+            "a shelter chosen by someone expecting to lose the first one",
+            "Corin going pale at the speed of the response",
+            "notes shifting from investigation to triage"
+          ],
+          "transitionIntent": "question-pressure: the next pass has to ask what Jaina most wants answered and least wants confirmed",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "threads/lordaeron-command-refusal",
+            "fields": [
+              "evidence",
+              "povCharacterKnows",
+              "notes"
+            ],
+            "chapter": "chapter7"
+          },
+          "verifierNotes": "The realization is that Andorhal rehearsed this. Corin and Havel remain proof that useful individuals exist inside institutions that still move too slowly."
+        }
+      ],
+      "sceneLevelWarnings": []
+    },
+    {
+      "sceneId": 3,
+      "title": "The Revelation",
+      "sceneFunction": "Reveal that the party arrived too late to stop deployment, name Kel'Thuzad, and turn the discovery into an institutional mirror by making Jaina put the name onto Antonidas's line before the hunt widens north.",
+      "castInScene": [
+        "Jaina",
+        "Sylvanas",
+        "Cyndia",
+        "Lyriel",
+        "Corin",
+        "Havel",
+        "Antonidas"
+      ],
+      "knowledgeAtSceneStart": [
+        "The city has full internal security protocol.",
+        "The local cell is only one layer of the problem."
+      ],
+      "arcPressure": "The chapter can give Jaina the name she wants only by proving that understanding arrives after the window to prevent harm has already narrowed.",
+      "enrichment": {
+        "detail": "Kel'Thuzad was a Kirin Tor archmage and Council of Six member expelled by Antonidas, then returned to Lordaeron to found the Cult and weaponize plague distribution through hubs like Andorhal; for Jaina, the name carries institutional mirror pressure as much as tactical value.",
+        "source": "stories/the-plague-road/characters/kelthuzad.md; stories/the-plague-road/characters/antonidas.md; https://warcraft.wiki.gg/wiki/Kel%27Thuzad"
+      },
+      "beats": [
+        {
+          "beatId": 7,
+          "beatType": "scene",
+          "scenePhase": "goal",
+          "goal": "Determine whether Andorhal can still be contained at the city level.",
+          "conflict": "Jaina's contamination map, route notes, and captured fragments keep pointing outward toward bakeries and settlements that have already received treated grain.",
+          "outcome": {
+            "type": "no-and",
+            "summary": "She proves Andorhal is the distribution center rather than the destination, and the proof means the rollout is already underway beyond recall from this room."
+          },
+          "valueShift": "military-grade opposition -> too late to stop the local rollout here",
+          "newOnPageInformation": [
+            "Poisoned grain has already moved out into northern Lordaeron's bakeries and settlements.",
+            "Andorhal is the engine room of deployment, not the final target.",
+            "Jaina's early detection still leaves the party one step behind the actual rollout."
+          ],
+          "stillUnknownAfterBeat": [
+            "Where the architect is operating from now.",
+            "Whether any intact hub remains upstream of Andorhal."
+          ],
+          "sensoryAnchors": [
+            "route lines radiating away from Andorhal",
+            "Jaina going still when the map stops being a city problem",
+            "certainty with no mercy in it"
+          ],
+          "transitionIntent": "identity-pressure: once lateness is confirmed, the chapter needs the one name that explains the level of work behind it",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "threads/grain-distribution-network",
+            "fields": [
+              "evidence",
+              "readerKnows",
+              "povCharacterKnows",
+              "notes"
+            ],
+            "chapter": "chapter7"
+          },
+          "verifierNotes": "This beat escalates the already-established regional web into explicit rollout beyond city containment. Do not restart the carrier explanation from zero."
+        },
+        {
+          "beatId": 8,
+          "beatType": "scene",
+          "scenePhase": "conflict",
+          "goal": "Attach a command identity to the plague network before the trail goes cold again.",
+          "conflict": "No single witness survives to say the name cleanly, so Jaina has to build it from fragments Corin knows, Havel has heard, and the dead operative almost spoke.",
+          "outcome": {
+            "type": "yes-but",
+            "summary": "The name arrives, but it lands as personal and institutional contamination rather than simple progress."
+          },
+          "valueShift": "too late to stop the local rollout here -> named architect, personal mirror",
+          "newOnPageInformation": [
+            "The architect is Kel'Thuzad.",
+            "He was a Kirin Tor mage expelled by Antonidas for necromantic research.",
+            "His operations are somewhere north of Andorhal, not finished at the city line.",
+            "The intellectual quality of the plague finally has a mind attached to it."
+          ],
+          "disclosureProvenance": "Kel'Thuzad's identification is assembled from Corin's local knowledge, Jaina's memory of Antonidas's expelled colleague, Havel's north-of-Andorhal field fragments, and the dead operative's cut-off near-confession; nobody delivers it in one clean speech.",
+          "stillUnknownAfterBeat": [
+            "Kel'Thuzad's exact base.",
+            "Whether anything sits above him in the chain."
+          ],
+          "sensoryAnchors": [
+            "Corin saying the name like a hazard",
+            "Havel's field fragments making the identification stick",
+            "Jaina freezing in a way battle never produces"
+          ],
+          "transitionIntent": "mirror-pressure: the chapter must end on what the name does to Jaina's sense of her own training",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "characters/antonidas",
+            "fields": [
+              "knowledge",
+              "arc"
+            ],
+            "chapter": "chapter7"
+          },
+          "verifierNotes": "Havel can carry local and northbound fragments, but the expelled-Kirin-Tor identification must land through Corin and Jaina's institutional knowledge.",
+          "verifierModification": "Tightened disclosure provenance so Corin and Jaina supply the Kirin Tor side of the identification while Havel contributes the local field fragments."
+        },
+        {
+          "beatId": 9,
+          "beatType": "sequel",
+          "scenePhase": "decision",
+          "emotion": "Physical stillness, almost shock.",
+          "dilemma": "File Kel'Thuzad as one more enemy name, or acknowledge him as a dark reflection of the same institution and methodology that made Jaina.",
+          "decision": "Carry the name forward and reorient the investigation north, while privately accepting that Antonidas's world produced this as surely as it produced her.",
+          "valueShift": "named architect, personal mirror -> the investigation now has a human face and a deeper intellectual threat",
+          "newOnPageInformation": [
+            "Kel'Thuzad was Antonidas's colleague, not an abstract heretic from some distant school.",
+            "Jaina experiences the name as a mirror, not merely a clue.",
+            "The next phase of the investigation points north into the Eastweald and whatever site houses his real work."
+          ],
+          "stillUnknownAfterBeat": [
+            "The exact location of Kel'Thuzad's base.",
+            "How the field team will reach it before another layer closes."
+          ],
+          "sensoryAnchors": [
+            "the room quiet after the name lands",
+            "Jaina's body going still before her thoughts do",
+            "everyone else understanding the pause without its full meaning"
+          ],
+          "transitionIntent": "stone-pressure: the name has to be carried onto Antonidas's line before private shock hardens into delay",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "characters/jaina-proudmoore",
+            "fields": [
+              "beliefs",
+              "knowledge",
+              "arc"
+            ],
+            "chapter": "chapter7"
+          },
+          "verifierNotes": "The mirror beat is about Jaina recognizing kinship of method and danger, not about pausing for full Kirin Tor history."
+        },
+        {
+          "beatId": 10,
+          "beatType": "sequel",
+          "scenePhase": "decision",
+          "emotion": "Recognition sharpened into urgency.",
+          "dilemma": "Keep Kel'Thuzad's name inside the room until the city is fully behind them, or put it on the stone now and force the institutional mirror to hear it before distance blunts the blow.",
+          "decision": "Jaina reports the name to Antonidas in the briefest possible call, gets a silence more frightening than speech, and leaves knowing any Kirin Tor response will trail field time.",
+          "valueShift": "the investigation now has a human face and a deeper intellectual threat -> the name is carried into the institution that trained him",
+          "newOnPageInformation": [
+            "Antonidas recognizes Kel'Thuzad instantly, and the silence on the stone confirms the name is real before any explanation does.",
+            "The plague method now feels explicitly Kirin Tor-shaped to Jaina, not merely brilliant in a familiar way.",
+            "Any wider response will still move slower than the field team can afford to wait."
+          ],
+          "stillUnknownAfterBeat": [
+            "Kel'Thuzad's exact base.",
+            "Whether any formal response can matter before the next field lead goes cold."
+          ],
+          "sensoryAnchors": [
+            "cold stone warm against Jaina's palm",
+            "the silence after the name lasting longer than courtesy allows",
+            "Antonidas's voice coming back stripped of all academic padding"
+          ],
+          "transitionIntent": "chapter-bridge: chapter 9 opens after Corin and Havel stay behind to keep Andorhal usable while the four-woman field unit turns the breakthrough into weeks of Eastweald sweeps aimed north",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "relationships/antonidas--jaina",
+            "fields": [
+              "currentState",
+              "powerDynamic",
+              "trajectory"
+            ],
+            "chapter": "chapter2"
+          },
+          "verifierNotes": "Keep Antonidas's silence load-bearing. The stone beat is confirmation and urgency, not a lecture on Kel'Thuzad's biography.",
+          "verifierModification": "Added a short Antonidas-report afterbeat so chapter 8 fulfills the Kirin Tor thread's Chapter 8 obligation without bloating the closing scene."
+        }
+      ],
+      "sceneLevelWarnings": []
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "warnings": [
+      "Beats 1-5 run as five consecutive scene beats before the first sequel. It's effective for velocity, but honestly, the prose will need to manufacture breath without losing pressure.",
+      "Beats 2-4 darken in the same general direction — partial answer, witness loss, active pursuit — before beat 5 supplies the first relief.",
+      "Scene outcomes stay inside yes-but / no-and territory with no clean yes. That fits the conspiracy squeeze, but the victories must feel texturally distinct or the tension will flatten.",
+      "The outline currently omits the Antonidas sending-stone reaction that the wider Kirin Tor thread expects for Chapter 8. Kept the chapter scaffold intact and flagged the subplot gap instead of inventing a new beat from whole cloth."
+    ],
+    "enrichments": 3
+  },
+  "requiredMemory": [
+    "threads/andorhal-live-capture",
+    "threads/grain-distribution-network",
+    "relationships/jaina--sylvanas",
+    "threads/lordaeron-command-refusal",
+    "characters/antonidas",
+    "characters/jaina-proudmoore",
+    "relationships/antonidas--jaina"
+  ],
+  "chapterBridge": "Direct carry from chapter 7's same-night plan: the safe-house maps, fallback routes, and newly trusted Corin and Havel are still live when the team steps back into Andorhal to run the west-line snatch before the district can scrub itself clean. Arthas's refusal is still hot in Jaina's system, and Sylvanas's new trust in split labor turns the opening from planning into immediate execution with no cooling beat.",
+  "verification": {
+    "craftResearch": [
+      {
+        "topic": "in-medias-res chapter openings",
+        "findings": "Open on the active objective rather than on setup; chapter-open tension survives best when the reader lands inside motion, not briefing.",
+        "source": "Web search synthesis of Jane Friedman and Writing Forward guidance on scene openings and chapter momentum."
+      },
+      {
+        "topic": "scene-sequel pacing for action chapters",
+        "findings": "High-pressure runs need reaction, dilemma, and decision beats after reversals; otherwise tension flattens into one-note acceleration.",
+        "source": "Web search synthesis of Helping Writers Become Authors scene/sequel guidance."
+      },
+      {
+        "topic": "interrogation suspense and micro-tension",
+        "findings": "Interrogation scenes stay sharp when power shifts are visible in fear, body language, and interruption, and when the interruption changes the goal immediately.",
+        "source": "Web search synthesis of conflict and micro-tension craft articles including Inkdrop Lit and Silent Guardian Books."
+      },
+      {
+        "topic": "chapter endings and aftermath beats",
+        "findings": "A closing beat should widen consequence rather than simply stop the scene; aftermath works best when it both absorbs loss and points the next chapter outward.",
+        "source": "Web search synthesis of Jane Friedman, Writing Forward, and related hook-ending craft references."
+      }
+    ],
+    "phaseObservations": {
+      "research": [
+        "Opening-hook guidance confirmed the chapter should begin on the grab itself, not on one more safe-house planning exchange.",
+        "Scene-sequel craft exposed the close as slightly under-breathed; the chapter needed one final reaction beat after the name lands.",
+        "Interrogation-suspense guidance validated beat 2's upward-facing fear as the right pressure source before the witness dies.",
+        "Action-readability advice reinforced the need for explicit causal carries from remote kill to escape rather than decorative transition language.",
+        "Aftermath research supported using Antonidas's silence as a compact capstone so the ending widens consequence instead of merely pausing on shock."
+      ],
+      "structure": [
+        "Beat 1 is a strong in-medias-res opening: objective live, city active, no recap drag.",
+        "Beats 2 through 5 form a clean escalation chain from interrogation to witness loss to pursuit to synchronized escape.",
+        "The midchapter turn lands hard at beats 3 and 4, where information-seeking flips into survival logic.",
+        "Scene 3 originally ended one beat too early on interior mirror alone; a brief institutional afterbeat makes the close feel earned and load-bearing.",
+        "With the added beat 10, the chapter's scene-sequel ratio improves from 7/2 to 7/3, which better suits a breathless action chapter that still needs one final breath."
+      ],
+      "characters": [
+        "Jaina's POV stays anchored in magical pressure, lateness, and institutional mirror logic all the way through the fallback scene.",
+        "Sylvanas drives capture, interrogation pressure, route discipline, and escape; she never dissolves into passive admiration from Jaina's lane.",
+        "Corin and Havel remain functionally distinct: paper-and-ward access versus district-and-shift intelligence.",
+        "Cyndia and Lyriel still read as the perimeter pair rather than generic backup, especially in beats 1 and 5.",
+        "Jaina's carry-forward correction toward pricing time harder was under-earned until the Antonidas beat forced her out of private shock and back into action logic."
+      ],
+      "continuity": [
+        "Chapter 7 already locked the same-night capture, so beat 1 had to cash that out rather than present it as a fresh brainstorm.",
+        "Andorhal's busy, commercial surface is established memory state; the night operation must stay grain-dust alive, not pivot into ruin-gothic.",
+        "Beat 7 sharpens an existing regional-network thread into explicit rollout beyond city containment; it is escalation, not first discovery.",
+        "Corin and Havel remain local-only allies and must not bleed into chapter 9's traveling field cast.",
+        "Beat 8's initial provenance overreached by letting Havel carry Kirin Tor history he should not own; the identification now splits properly across Havel, Corin, Jaina, and the dead operative."
+      ],
+      "transitions": [
+        "Beat 1's question-pressure lands directly in the interrogation with no slack.",
+        "Beat 2's threat-escalation lands cleanly in the remote witness kill.",
+        "Beat 3's action-pivot successfully flips the chapter from pursuit to escape without a fake pause.",
+        "Beat 6's question-pressure lands in the rollout audit rather than another chase beat, which gives the chapter needed recalibration.",
+        "Beat 9 needed a new stone-pressure carry; beat 10 now hands the chapter forward into the weeks-later Eastweald widening that chapter 9 opens on."
+      ],
+      "reshaping": [
+        "Added beat 10 as a compact sequel so chapter 8 fulfills the Kirin Tor thread's required Kel'Thuzad report beat.",
+        "Reframed beat 8's disclosure provenance so local fragments and institutional recognition come from the right characters.",
+        "Retyped beat 9's transition from direct chapter handoff to Antonidas-pressure, then moved the chapter handoff to beat 10.",
+        "Wrote an explicit top-level chapterBridge from chapter 7's safe-house plan into chapter 8's immediate operation.",
+        "Updated chapter-close locks and requiredMemory so downstream agents inherit Antonidas's notification, Corin/Havel's local-only status, and the right continuity reading list."
+      ]
+    },
+    "evaluation": {
+      "pacing": {
+        "score": "strong",
+        "notes": "The chapter climbs from live capture through interrogation and remote kill into a hard escape, then resets just enough to turn rollout, naming, and institutional shock into a layered close. The added Antonidas afterbeat gives the chapter the breath it was missing without cooling the pressure."
+      },
+      "structure": {
+        "score": "needs-work",
+        "notes": "The initial draft was strong but incomplete at the close: it omitted the Chapter 8 Kirin Tor beat and left the final end-state slightly under-earned. Adding a short on-stone sequel and tightening beat 8's provenance repairs the chapter without changing its core plot."
+      },
+      "character": {
+        "score": "strong",
+        "notes": "Jaina remains the perceptual center while Sylvanas still drives the physical lane. Corin and Havel stay distinct, and the chapter keeps the partnership in timing and trust rather than admiration speeches."
+      },
+      "transitions": {
+        "score": "strong",
+        "notes": "All 10 beat-level transitionIntent chains were verified after reshaping. One new carry was added at the close so the Antonidas beat bridges the chapter into the weeks-later Eastweald campaign cleanly.",
+        "intents_verified": 10,
+        "intents_added": 1,
+        "intentional_breaks": 0
+      },
+      "continuity": {
+        "score": "strong",
+        "notes": "1 beat is new and 9 are evolutions. Fixed 1 provenance contradiction and 3 anti-reintroduction risks around Andorhal's established state, the partnership baseline, and the already-regional grain web.",
+        "new": 1,
+        "callbacks": 0,
+        "evolutions": 9,
+        "contradictions_fixed": 1,
+        "anti_reintroductions_fixed": 3
+      }
+    },
+    "modifications": [
+      {
+        "type": "addition",
+        "description": "Added beat 10 so Jaina reports Kel'Thuzad's name to Antonidas on the stone, fulfilling the Kirin Tor thread and giving the chapter a final aftermath beat before the Eastweald widening.",
+        "beatsBefore": [
+          8,
+          9
+        ],
+        "beatsAfter": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "type": "provenance-correction",
+        "description": "Tightened beat 8 so Corin and Jaina carry the Kirin Tor recognition while Havel contributes local and northbound field fragments, keeping the reveal character-earned.",
+        "beatsBefore": [
+          8
+        ],
+        "beatsAfter": [
+          8
+        ]
+      },
+      {
+        "type": "transition-rethread",
+        "description": "Rewrote beat 9's transition to carry into Antonidas-pressure, moved the chapter handoff to beat 10, and added an explicit chapterBridge from chapter 7 into chapter 8's opening operation.",
+        "beatsBefore": [
+          9
+        ],
+        "beatsAfter": [
+          9,
+          10
+        ]
+      },
+      {
+        "type": "annotation",
+        "description": "Annotated all 10 beats with continuityStatus, attached memoryRef on every evolution beat, and rebuilt requiredMemory for downstream writers and editors.",
+        "beatsBefore": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "beatsAfter": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "verdict": "approved-with-modifications"
+  }
+}

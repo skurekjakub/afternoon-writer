@@ -1,0 +1,53 @@
+{
+  "chapterId": "chapter23",
+  "iteration": 2,
+  "targetFile": "v2g-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "category": "atmospheric-metaphor-drift",
+      "excerpt": "\"Cold rolled low over the floor, pressure more than mist. The king's blood skinned over black-red and iced. Jaina's teeth hurt. Light from the high window turned hard-edged. The air took on the brittle feel of glass about to break.\"",
+      "reason": "The sentence cluster starts grounded, then slips into atmospheric metaphor and abstract pressure language. In the room's first live combat turn, the prose should stay with what the cold does to breath, skin, blood, and footing rather than summarizing the chamber's mood.",
+      "suggestedFix": "Cold rolled low over the floor. The king's blood skinned over black-red and iced. Jaina's teeth hurt. Her next breath went in sharp enough to sting. Light from the high window cut white across the seal.",
+      "fixMode": "replace"
+    },
+    {
+      "category": "mechanism-summary",
+      "excerpt": "\"Arthas flinched. Then he turned on her fully, his face hardening with violence, and she knew the theory had been right.\"",
+      "reason": "The beat names theory instead of cashing out the result in live room terms. It briefly sounds like a planning note surviving into the fight rather than Jaina reading a concrete reaction off the caught pitch and Arthas's body turn.",
+      "suggestedFix": "Arthas flinched. Then he turned on her fully, fast and violent, as the caught note dragged his attention off Sylvanas and onto the blade.",
+      "fixMode": "replace"
+    },
+    {
+      "category": "workshop-abstraction",
+      "excerpt": "\"But practice-chamber timing and throne-room timing were different beasts.\"",
+      "reason": "This is explanatory shorthand, not scene pressure. The line floats above the fight instead of staying with the immediate difference this room imposes: cracked marble, collapsing columns, Sylvanas bleeding for each second, and no spare breath to stabilize the cast.",
+      "suggestedFix": "In practice she had found the turn with room to breathe. Here each beat came while marble cracked and Sylvanas bled for it.",
+      "fixMode": "replace"
+    },
+    {
+      "category": "sequence-summary-drift",
+      "excerpt": "\"The seam kept flashing at the turn of the sword's hunger. Every time it did, her body tried to commit to the full sequence, and every time the next demand of survival broke the thought apart again. She needed one held instant.\"",
+      "reason": "The passage explains the casting problem in process language instead of grounding it in the exact interruption pattern on the page. At this intensity, \"full sequence\" and \"one held instant\" read like mechanism notes unless tied back to cuts, footing, and the second she actually needs.",
+      "suggestedFix": "The seam kept flashing at the turn of the sword's hunger. Each flash dragged her hands toward frost, arcane, fire. Then the next cut, the next slip of footing, tore the order apart again. She needed one breath with his back turned.",
+      "fixMode": "replace"
+    },
+    {
+      "category": "unsourced-soul-echo-vignette",
+      "excerpt": "\"She caught one last image before it tore apart: a little blond boy in a window alcove, wooden sword across his knees, waiting for a father who was late again.\"",
+      "reason": "The soul-echo is strongest when it stays fragmentary and room-pressure immediate. This last image tips into a neat explanatory vignette that is not earned by the cited memory surface and risks sentimentalizing the hit instead of preserving its violent, partial nature.",
+      "suggestedFix": "Delete the final image sentence and let the earlier fragment list carry the soul-echo's force.",
+      "fixMode": "delete"
+    },
+    {
+      "category": "anthropomorphic-blade-summary",
+      "excerpt": "\"The sword was still singing. Quieter. Wounded. Furious in a new way.\"",
+      "reason": "The first three fragments work, but \"Furious in a new way\" turns the post-cast blade state into abstract attitude. The crack, note-change, light leak, and hilt twitch already exist; the sentence should stay on those physical manifestations instead of naming emotion.",
+      "suggestedFix": "The sword was still singing. Quieter. Wounded. The note kept snagging on the crack near the seam.",
+      "fixMode": "replace"
+    }
+  ],
+  "summary": {
+    "totalKills": 6
+  }
+}

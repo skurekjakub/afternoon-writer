@@ -1,0 +1,142 @@
+{
+  "chapterId": "chapter21",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 2,
+      "kills": 1,
+      "keeps": 1,
+      "dominantPattern": "F7",
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "She took the truth hard and steadied.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "She would not have changed the route, the spacing, the timing, or the partner beside her.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "dominantPattern": "B1",
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks in field reads, tactical compression, and sensory threat assessment. She notices spacing, pace, exhaustion, weaknesses, and tells herself hard, usable conclusions rather than polished thematic phrasing.",
+      "registerConfidence": "high",
+      "findings": [
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "mild",
+          "line": "Dagny's mouth tightened in the place where approval and contempt met.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can read Dagny's expression, but 'the place where approval and contempt met' sounds like polished authorial synthesis, not Sylvanas's clipped field-read shorthand.",
+          "confidence": "moderate",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "dominantPattern": "P3",
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "That threshold had been crossed when Arthas pulled a killing shaft out of his own chest.",
+          "failedQuestion": "What threshold?",
+          "missingPayload": "The sentence never names the concrete change in the formation's reaction; it hides behind 'threshold' instead of staying with the visible fact already on the page.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "She took the truth hard and steadied.",
+          "failedQuestion": "What truth?",
+          "missingPayload": "The sentence points at an abstract 'truth' instead of naming a concrete physical reaction to the realization already stated in the previous sentence.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "dominantPattern": "none",
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "Checked the only translation setup in the chapter ('Speak dwarf.'). Jaina's reply names the sword and gives Muradin a usable equivalence to the plague mechanism, so the exchange does not require a second simplification pass.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 7,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Four mild kills remain across GPT-5 prose issues, narrator seep, and phantom concreteness; pass B fails because mild-only kills exceed the threshold of three."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "chapterId": "chapter18",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 1,
+      "keeps": 5,
+      "killRate": 17,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "dominantPattern": "hard-constraint and spatial-precision keeps with one double-negation capability kill",
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "double-negation capability",
+          "lineNumber": 183,
+          "line": "\"Tired. Nothing I can't sit through.\"",
+          "deletionTest": "\"Tired. I can sit through it.\"",
+          "reason": "KILL — the line routes Jaina's actual claim through a negated capability first, and the direct affirmative survives cleanly.",
+          "suggestedFix": "\"Tired. I can sit through it.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "killRate": 40,
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "dominantPattern": "mechanism-language keeps with two abstraction-driven agency smears",
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "abstract-pressure-doing-work",
+          "lineNumber": 17,
+          "line": "Burned now, charred and bitter, but under it the same wrong sweetness from Andorhal grain, sacks, carts, and ordinary kitchens, lying dormant until ovens and hands and hunger did half the work for it.",
+          "subject": "hunger",
+          "verb": "did half the work",
+          "realAgent": "the hungry households, bakers, and eaters who kept moving contaminated grain through ordinary kitchens",
+          "reason": "KILL — the sentence launders spread mechanics onto an abstraction instead of naming the people and routine use that carried the grain farther.",
+          "suggestedFix": "Burned now, charred and bitter, but under it the same wrong sweetness from Andorhal grain, sacks, carts, and ordinary kitchens, lying dormant until ovens and hungry households carried it farther.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "inanimate-motion-reach",
+          "lineNumber": 359,
+          "line": "The motion reached Jaina as surely as touch.",
+          "subject": "motion",
+          "verb": "reached",
+          "realAgent": "Jaina registering Sylvanas's head turn as a bodily signal",
+          "reason": "KILL — the sentence gives the motion its own agency instead of letting Jaina do the feeling.",
+          "suggestedFix": "Jaina felt it as surely as touch.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "dominantPattern": "below-cap physical tightened uses",
+      "cleanReason": "Counted all seven tic categories. The chapter only shows two physical 'tightened' uses and one specific weight metaphor, all under cap; there is no corner-of-mouth reuse, marked overload, facial-shift repetition, eye/gaze exhaustion, or dialogue-tag avoidance excess."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 11,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A found three mild sentence-level KILLs and no moderate or severe findings."
+  }
+}

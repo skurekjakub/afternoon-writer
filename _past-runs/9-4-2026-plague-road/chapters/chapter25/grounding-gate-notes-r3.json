@@ -1,0 +1,53 @@
+{
+  "chapterId": "chapter25",
+  "iteration": 3,
+  "targetFile": "v2g-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "excerpt": "Jaina shut her eyes. She gave the read. Sylvanas cut straight to what a rider or guard could use.",
+      "reason": "The beat steps out of stone, breath, and chain into debrief language. \"Gave the read\" and \"could use\" summarize the exchange from above instead of letting the prison-bound dialogue carry the meaning.",
+      "suggestedFix": "Jaina shut her eyes and kept her hand flat on the wall. \"Devotion,\" she said before Sylvanas could ask again. \"The kind that wants someone else to tell it what to do.\"",
+      "fixMode": "replace-briefing-summary"
+    },
+    {
+      "excerpt": "\"The sequence was mine. The seconds were yours. If you hadn't bought them, all my knowing would have died in my head.\"",
+      "reason": "The confession lands in mechanism labels instead of bodily memory. \"Sequence\" and \"seconds\" sound like an after-action breakdown, not a woman in irons naming what the throne room cost.",
+      "suggestedFix": "\"I had the spell. You had the space to make it land. If you hadn't bought it with your own body, all my knowing would have died in my head.\"",
+      "fixMode": "debrief-to-physical"
+    },
+    {
+      "excerpt": "Sylvanas was still turning Jaina's report through her head when the second cold entered the cell.",
+      "reason": "\"Turning\" and especially \"report\" push the scene into briefing syntax right at the POV handoff. The opening should stay inside wall-taps, chain, and carried bodily tension, not abstract mental processing.",
+      "suggestedFix": "Sylvanas still had Jaina's last taps in her bones when the second cold entered the cell.",
+      "fixMode": "replace-process-opening"
+    },
+    {
+      "excerpt": "Through the wall on her right, Jaina's breathing caught once.\n\nSo the mage felt it too.",
+      "reason": "The second sentence explains what the breath-catch already proved. That extra gloss weakens the threshold beat by translating it into summary instead of trusting the physical signal.",
+      "suggestedFix": "Through the wall on her right, Jaina's breathing caught once.",
+      "fixMode": "delete-redundant-explanation"
+    },
+    {
+      "excerpt": "Amused, perhaps, though not kindly.",
+      "reason": "This is speculative attitude-labeling right after the prose has done the better work with eyes, size, and voice. The moment wants a visible facial shift or none at all, not an airy maybe-read.",
+      "suggestedFix": "One corner of its mouth moved, not enough to count as kindness.",
+      "fixMode": "replace-speculative-read"
+    },
+    {
+      "excerpt": "\"It knows what devotion tastes like now,\" it said. \"Your prince taught it that much.\"\n\nJaina had said the same thing through the wall, and hearing it here, from the mouth of a thing that spoke of Frostmourne as craft, chilled Sylvanas more deeply than the dark had.",
+      "reason": "This stacks two abstract moves in a row: poetic villain diction and then interpretive summary about how the visitor talks about the blade. The scene needs that recognition to stay in voice, stone, and body reaction rather than drifting into conceptual phrasing.",
+      "suggestedFix": "\"It has had guards and priests under it long enough to sort obedience from panic,\" it said. Frostmourne thudded overhead again. Jaina had said the same thing through the wall, but hearing it under that patient voice tightened every muscle along Sylvanas's spine.",
+      "fixMode": "physicalize-villain-claim"
+    },
+    {
+      "excerpt": "The faces would change. The voice would change. Those were tools. But the farewell had survived five masks and a prison visit. Habit, then. Something old enough not to hear itself anymore.",
+      "reason": "The deduction resolves in dossier language just before the handoff beat. \"Those were tools\" and the final abstraction flatten the prison-sized intelligence gain into analyst prose instead of keeping it tied to the phrase as heard and remembered.",
+      "suggestedFix": "Faces could change. Voices could change. The farewell had not. It kept coming back with the same old turn to it, careless as breath.",
+      "fixMode": "compress-analytic-summary"
+    }
+  ],
+  "summary": {
+    "totalKills": 7
+  }
+}

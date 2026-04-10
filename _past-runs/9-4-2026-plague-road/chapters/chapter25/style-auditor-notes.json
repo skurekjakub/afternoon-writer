@@ -1,0 +1,179 @@
+{
+  "chapterId": "chapter25",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 5-17 pair a longer sensory setup with the blunt counters 'Fourteen.' and 'Fourteen again,' so emphasis comes from cadence rather than typography.",
+        "Lines 25-33 keep the pulse-report paragraph under the paragraph-length ceiling while using the isolated 'That was new.' as an earned short beat rather than a tic.",
+        "Lines 91-137 alternate snapped admissions ('I was wrong.') with longer causal chains, which matches the guide's introspection rule of expansion followed by a blunt landing.",
+        "Lines 141-171 compress the tactical exchange into one- and two-clause volleys, then let the longer sentence at lines 165-169 reorient the reader when the blade reacts early.",
+        "Lines 319-335 use micro-sentences ('Older.' 'Ancient Kaldorei.') around one fuller departure sentence, preventing the horror passage from flattening into uniform chop."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Lines 37-56 keep Jaina's prison report in plain field speech—'It's sorting,' 'Days. Fewer than we had.'—instead of slipping into mage-briefing diction.",
+        "Line 101 originally used the abstract noun 'abstraction,' which read more like editorial vocabulary than lived prison thought; it was revised to 'so the cell stayed real.'",
+        "Line 117 originally used 'The sequence was mine,' which sounded slightly technical in a wall-confession; it was revised to 'The answer was mine.'",
+        "Lines 233-269 let the visitor sound old and formal without modern bureaucratic leakage; 'granaries,' 'bakers,' 'cellars,' and 'roads' stay material and historical.",
+        "Line 307 originally said 'useful to the shape of events,' a placeholder abstraction; it was revised to 'useful to the work already in motion.'"
+      ],
+      "violations": 3,
+      "fixes": [
+        {
+          "line": 101,
+          "rule": "vocabularyStandards.avoid — process language that sounds like planning notes instead of lived narration",
+          "before": "Jaina tucked one knee up on the cot and kept her hand on the wall so she would not drift into abstraction.",
+          "after": "Jaina tucked one knee up on the cot and kept her hand on the wall so the cell stayed real."
+        },
+        {
+          "line": 117,
+          "rule": "vocabularyStandards.baseline — keep confession language humane and spoken rather than technical",
+          "before": "\"Yes.\" Jaina tapped two fingers against the wall. Once. \"By Northrend there was no one left in reach of him. The throne room only worked because you were there. The sequence was mine. The seconds were yours. If you hadn't bought them, all my knowing would have died in my head.\"",
+          "after": "\"Yes.\" Jaina tapped two fingers against the wall. Once. \"By Northrend there was no one left in reach of him. The throne room only worked because you were there. The answer was mine. The seconds were yours. If you hadn't bought them, all my knowing would have died in my head.\""
+        },
+        {
+          "line": 307,
+          "rule": "vocabularyStandards.avoid — placeholder abstraction in dialogue",
+          "before": "\"Close?\" the visitor echoed. \"I let you remain alive while you were still useful to the shape of events. There is a difference.\"",
+          "after": "\"Close?\" the visitor echoed. \"I let you remain alive while you were still useful to the work already in motion. There is a difference.\""
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorCompliance",
+      "observations": [
+        "Line 15's 'like hostile rhythm' gives the blade one clean bodily-pressure image and stays inside Jaina's immediate sensory frame.",
+        "Line 27's 'old ash on her tongue' turns the blade's contact into taste rather than decorative simile, keeping the image concrete.",
+        "Line 135 compares Sylvanas's off-page reaction to a fighter's breath after a landed blow, which fits the style guide's martial source domain.",
+        "Lines 203-215 make the darkness and the visitor's size oppressive without stacking mixed metaphors in the same sentence.",
+        "The chapter lands roughly 9 fresh figurative turns across 3266 words, or about 2.8 per thousand words, which sits inside the 2-4 target band."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "The chapter opens in medias res on a live problem at lines 5-17 instead of backing into prison recap, matching the preferred opening gambit.",
+        "Most paragraphs stay at 1-4 sentences; the measurement pass found no paragraph over about 120 words.",
+        "The heavier exchange paragraphs at lines 55-61, 107-117, and 231-243 run high on sentence count but stay lean in word count, so they read as pressured volley rather than dense brick.",
+        "The scene break at line 183 carries pressure directly from the blade countdown into the second cold entering Sylvanas's cell, which avoids a zero-reset transition.",
+        "The close at lines 375-387 resolves into a transferable hook—phrase, five faces, next message through the wall—rather than a summary bridge."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "dialogueRatioAttribution",
+      "observations": [
+        "Dialogue-to-narration measured 21.8:78.2. That is slightly below the 25:75 dread-floor, but the confinement/horror form is carrying pressure cleanly, and adding more spoken lines would have diluted the prison compression; logged as an ear-over-number exception.",
+        "The chapter has 61 quoted lines. Rough count: 22 said/asked attributions, 14 action-or-context attributions, 22 clean untagged lines, and 3 stronger contextual tags.",
+        "Said/asked remains the majority of explicit tags, which keeps the attribution profile close to the guide's no-frills preference.",
+        "Lines 37-55 and 141-171 use untagged two-speaker runs that remain clear because the wall, questions, and answer length make speaker ownership obvious.",
+        "Lines 225-307 balance said-tags with surrounding action beats so the visitor's longer speech never needs creative-tag inflation."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Jaina lines 37-56 translate magical danger into soldier-usable terms, matching her later-Sylvanas register rather than her Antonidas register.",
+        "Jaina lines 97-133 move observation to pattern-recognition to revised conclusion, which fits her stated thought chain.",
+        "Jaina lines 139-179 return immediately from confession to mechanism, delivery, and timing, preserving her exposition filter under pressure.",
+        "Sylvanas lines 187-205 inventory threshold, chain radius, light loss, and room geometry before she names emotion, which matches her threat-first sensory signature.",
+        "Sylvanas lines 339-381 treat the impossible phrase as a counterintelligence tell she can pass outward, not as lyrical wonder, which fits her 'more exact under vulnerability' rule."
+      ],
+      "violations": 0,
+      "fixes": []
+    },
+    {
+      "dimension": "qualityFloor",
+      "observations": [
+        "Adverb load is 7 total across 3266 words, or 0.54 per 250-word page—well below the max of 4 adverbs per page.",
+        "Passive-voice candidates total 5 across 406 sentences, or about 1.23%, under the 4% ceiling.",
+        "Showing dominates at lines 7-17, 187-215, and 335-381; direct telling mostly appears as earned conclusions such as line 343 'She knew that farewell.'",
+        "Line 289 originally used the vague placeholder 'Something like recognition crossed its face,' which weakened the scene's specificity and counted against the quality floor's anti-vagueness standard.",
+        "After revision, the chapter keeps only two 'something' constructions (lines 205 and 371), both attached to genuine uncertainty rather than filler emphasis."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 289,
+          "rule": "proseQualityFloor / anti-slop precision — vague placeholder construction weakens showing",
+          "before": "Something like recognition crossed its face.",
+          "after": "One corner of its mouth moved."
+        }
+      ]
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration stays organic: lines 233-285 reveal scale through granaries, ovens, roads, and cells inside a confrontation rather than a narrator aside.",
+        "Power dynamics track the guide in Scene I: Sylvanas's shorter questions keep status pressure on Jaina's longer explanatory turns until Jaina wins ground by naming the truth outright at lines 131-137.",
+        "Scene I follows the requested shape—active opening problem, midpoint emotional turn at line 91, then a hard practical resolution into wall-passed reporting at lines 139-179.",
+        "Scene II domesticates the speculative element correctly: Frostmourne and the visitor are treated as working threats, crafted tools, and operational problems, not awe-spectacle.",
+        "Subtext and humor stay within spec: line 93's 'Only now?' and line 123's cleaner-wording complaint carry dry pressure without breaking the prison dread into quipping.",
+        "Action pacing is mostly latent rather than physical, but the spike at lines 159-173 uses fragments, tactile detail, and time dilation exactly where the advantage shifts."
+      ],
+      "violations": 0,
+      "fixes": []
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — Lines 37-56 and 141-171 keep her diction precise but field-usable; line 117 was corrected from 'sequence' to 'answer' to keep the wall-confession spoken.",
+        "sentenceRhythm": "pass — Lines 91-133 alternate built reasoning clauses with blunt admissions, which matches her 'built, not rambled' rhythm.",
+        "metaphorDensity": "pass — Her lane keeps images sparse and pressure-bound, with bodily and magical wrongness favored over ornate comparison.",
+        "emotionalRegister": "pass — Feeling appears through shame, urgency, and physical pressure rather than direct labels, especially at lines 97-117 and 131-175.",
+        "thoughtPatterns": "pass — She moves from read to hypothesis to revision to usable conclusion throughout Scene I.",
+        "sensorySignature": "pass — Pulse, cold through stone, numb fingers, and the blade's hostile rhythm dominate her lane.",
+        "humorType": "pass — The one line at 123 lands as dry self-awareness under strain, not a bid for charm.",
+        "powerPosture": "pass — She starts on the explanatory back foot, then regains authority by naming the truth and turning it into instructions.",
+        "speculativeComfort": "pass — Frostmourne is narrated as field, pulse, trace, and reaction window, never as spectacle.",
+        "expositionFilter": "pass — She explains only what Sylvanas can use through the wall and stops short of lecture mode."
+      },
+      "ruleViolations": [
+        "Line 101 originally leaned into document-voice abstraction; revised to a concrete prison-grounding phrase.",
+        "Line 117 originally used a slightly technical noun ('sequence') in a vulnerable spoken confession; revised to 'answer'."
+      ]
+    },
+    {
+      "character": "Sylvanas Windrunner",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — Her lane stays lean, martial, and exact, with useful nouns like door, chain, bars, vault, phrase, and faces.",
+        "sentenceRhythm": "pass — Short declaratives dominate, but the cadence widens when she lays out recognition or tactical judgment.",
+        "metaphorDensity": "pass — Images stay sparse and sourced from weapons, hunting, and threat assessment.",
+        "emotionalRegister": "pass — Emotion surfaces as pressure, stillness, and sharpened attention rather than naming.",
+        "thoughtPatterns": "pass — She consistently moves from threat read to capability judgment to decision, especially at lines 187-205 and 367-381.",
+        "sensorySignature": "pass — Threshold light, door geometry, chain radius, breath, smell, and tactical weight lead her perception.",
+        "humorType": "pass — Her two dry needles ('Only now?' and 'I want the sentence that costs you.') fit the deadpan-contest pattern.",
+        "powerPosture": "pass — Even in irons she speaks in clipped judgments and testing questions, yielding no rhetorical ground.",
+        "speculativeComfort": "pass — She treats the visitor and Frostmourne as breach problems and operational threats, not mystical marvels.",
+        "expositionFilter": "pass — She names only the details that matter to danger, recognition, or what can be passed outward."
+      },
+      "ruleViolations": []
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 0.54,
+    "passiveVoicePercent": 1.23,
+    "dialogueToNarrationRatio": "21.8:78.2",
+    "avgSentenceLength": 8.04,
+    "avgParagraphLength": 17.19,
+    "metaphorsPerThousandWords": 2.8
+  },
+  "totalObservations": 41,
+  "totalFixes": 4,
+  "wordCount": {
+    "before": 3267,
+    "after": 3266
+  }
+}

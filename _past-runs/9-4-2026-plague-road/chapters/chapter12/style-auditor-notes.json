@@ -1,0 +1,312 @@
+{
+  "chapterId": "chapter12",
+  "dimensions": [
+    {
+      "dimension": "sentenceRhythm",
+      "observations": [
+        "Lines 3-10 open with earned snap: three fragment beats before the longer room sentence, which matches the guide's pressure-first default.",
+        "Lines 39-75 keep the mechanism lecture in 3-14 word units with blunt punctures at 47, 55, 57, and 63; the page never goes flat for more than a few beats.",
+        "Lines 183-193 carry one of the chapter's longer reasoning chains, but Jaina's blank beat at 185-189 keeps introspection from turning essay-like.",
+        "Lines 241-243 had the chapter's weakest monotone run; splitting Kel'Thuzad's mirror claim into two paragraphs restored turn-pressure and gave Jaina room to recoil.",
+        "Lines 607-635 now alternate pulse fragments, ward beats, and one fuller identification sentence, which fits the action/intellect rhythm rule for a threat arriving through defended space."
+      ],
+      "violations": 4,
+      "fixes": [
+        {
+          "line": 53,
+          "rule": "sentenceRhythmStandards.default — remove adverbial softening so the mechanism beat lands cleanly",
+          "before": "The chalk rasped softly.",
+          "after": "Chalk rasped on slate."
+        },
+        {
+          "line": 237,
+          "rule": "sentenceRhythmStandards.emphasisRule — strip editorial adverb and let the short aftermath sentence carry impact",
+          "before": "He said it so easily that her anger stumbled.",
+          "after": "He said it without strain, and her anger stumbled."
+        },
+        {
+          "line": 241,
+          "rule": "sentenceRhythmStandards.introspection — break the long mirror argument so the cadence turns instead of droning",
+          "before": "\"Only this.\" He touched the desk once with two fingers, like a lecturer marking the true line of a problem. \"We were both made by the same institution. We were both taught to follow pattern where it led. We both found that the world outside our study chambers moved too slowly for the work at hand. You call your trespass duty because the object of your conviction flatters your ethics. I call mine scholarship because it flatters my honesty. The underlying habit is the same.\"",
+          "after": "\"Only this.\" He touched the desk once with two fingers, the way a lecturer marked the true line of a problem. \"We were both made by the same institution. We were both taught to follow pattern where it led. We both found that the world outside our study chambers moved too slowly for the work at hand.\"\n\n\"You call your trespass duty because the object of your conviction flatters your ethics. I call mine scholarship because it flatters my honesty. The underlying habit is the same.\""
+        },
+        {
+          "line": 607,
+          "rule": "sentenceRhythmStandards.action — trade a drifting descriptive clause for pulse-by-pulse threat beats",
+          "before": "The floor answered first, before the boards or shelves. A pulse. Then another, farther out, taking the sanctum's old protections in sequence as something moved through the upper levels with relentless exactness. No fumbling at the ward locks. No blundering magical pressure. Each threshold answered, shivered, passed the disturbance downward.",
+          "after": "The floor answered first, before the boards or shelves. A pulse. Then another, farther out. The sanctum's old protections took the descent in order. No fumbling at the ward locks. No blundering magical pressure. Each threshold answered and handed the disturbance downward."
+        }
+      ]
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "Lines 31-45 keep Jaina in readable mage diction: field reads, grain, host, preserving work, and final relation all sound world-native rather than modern-scientific.",
+        "Lines 115-123 originally leaned a shade report-like in Kel'Thuzad's village/selfhood distinction; the revised line now speaks in live seminar language rather than memo language.",
+        "Lines 191-197 stay occult-academic without drifting into laboratory jargon; 'art itself was nonsense' lands cleaner than 'magical incoherence.'",
+        "Lines 247-249 now avoid bureaucratic 'procedure' language and return Kel'Thuzad's accusation to orders, which fits both setting and his lecturer-tyrant voice.",
+        "Lines 595-607 keep Jaina's institutional contempt in-scene; 'orderly speech' preserves the thought without the dead bureaucratic cast of 'procedure.'"
+      ],
+      "violations": 5,
+      "fixes": [
+        {
+          "line": 117,
+          "rule": "vocabularyStandards.baseline — cut report-voice phrasing from spoken dialogue",
+          "before": "\"Your village dead preserve function,\" he said.",
+          "after": "\"Your village dead keep their function,\" he said."
+        },
+        {
+          "line": 193,
+          "rule": "vocabularyStandards.avoid — replace abstract academic phrasing with spoken occult argument",
+          "before": "\"No. My answer is that the ban names the true cost more honestly than the scholars who still invoke it as if it proved magical incoherence.\"",
+          "after": "\"No. My answer is that the ban names the true cost more honestly than the scholars who still invoke it as proof the art itself was nonsense.\""
+        },
+        {
+          "line": 249,
+          "rule": "vocabularyStandards.avoid — remove bureaucratic register from mirror accusation",
+          "before": "\"No?\" His voice stayed mild. \"You left a note and rode north alone because you trusted your reading over procedure. Admirable. So did I, once.\"",
+          "after": "\"No?\" His voice stayed mild. \"You left a note and rode north alone because you trusted your reading over orders. Admirable. So did I, once.\""
+        },
+        {
+          "line": 431,
+          "rule": "vocabularyStandards.avoid — replace modern institutional noun with world-native equivalent",
+          "before": "The line between patronage and ownership would interest only bureaucrats.",
+          "after": "The line between patronage and ownership would interest only record-keepers."
+        },
+        {
+          "line": 595,
+          "rule": "vocabularyStandards.avoid — remove document-voice noun from interior narration",
+          "before": "Thought of the Council compressing horror into procedure.",
+          "after": "Thought of the Council compressing horror into orderly speech."
+        }
+      ]
+    },
+    {
+      "dimension": "metaphorPolicy",
+      "observations": [
+        "The chapter now carries only two literal 'like' comparisons in prose, one of them the retained line 47 'He used the words like furniture,' which is fresh, concise, and sourced from lived room-experience.",
+        "The opening room-description at lines 3-10 uses physical detail and light instead of stacked figurative language; no ornamental similes cluster there.",
+        "Lines 363-379 previously pushed toward lyrical summary at the Lich King reveal; the revised version now grounds the turn in Jaina's reordered deductions rather than a decorative image.",
+        "Lines 577-579 no longer use an as-if construction to over-explain why the copied pages disgust her; the disgust now lands off concrete placement and recoil.",
+        "Across the necromancy/selfhood argument, comparisons stay low-density and single-source; there are no mixed metaphors or epic-fantasy abstractions."
+      ],
+      "violations": 3,
+      "fixes": [
+        {
+          "line": 379,
+          "rule": "metaphorPolicy.rule — remove lyrical image that softened tactical shock",
+          "before": "Her body changed before the room did. The new name threw light backward through the whole conversation. Patron. Northrend. Voice in the dark.",
+          "after": "Her body changed before the room did. The new name reordered the whole conversation. Patron. Northrend. Voice in the dark."
+        },
+        {
+          "line": 577,
+          "rule": "metaphorPolicy.forbidden — cut explanatory as-if comparison and keep the physical placement",
+          "before": "Her own copied pages from the farmhouse lay there too, where he had set them beside his work as if the hand that made them belonged naturally in the same stack.",
+          "after": "Her own copied pages from the farmhouse lay there too, where he had set them beside his work, her hand in the same stack as his."
+        },
+        {
+          "line": 241,
+          "rule": "metaphorPolicy.density — trim one comparison marker while preserving source-domain fit",
+          "before": "\"Only this.\" He touched the desk once with two fingers, like a lecturer marking the true line of a problem.",
+          "after": "\"Only this.\" He touched the desk once with two fingers, the way a lecturer marked the true line of a problem."
+        }
+      ]
+    },
+    {
+      "dimension": "paragraphStructure",
+      "observations": [
+        "The chapter sits at 322 paragraphs over 4,965 words, so the baseline cadence is aggressively short and well within the 1-4 sentence target.",
+        "Dense thought paragraphs generally end with a concrete beat in the next paragraph: see lines 75-81 into 83-89, and 171-177 into 179-183.",
+        "The clearest structure breach was the mirror-argument block at lines 241-243; splitting it restored scene balance without adding content.",
+        "Scene transitions move by consequence rather than clock-time throughout: board to desk at 109, scale to patronage at 349-365, and fallout to incoming approach at 595-607.",
+        "The close returns to motion and physical stakes immediately after the densest internal fallout paragraph, satisfying the post-density balance rule."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 241,
+          "rule": "paragraphLengthGuidelines.maximumWithoutBreak — break the mirror speech before it turns visually brick-like",
+          "before": "\"Only this.\" He touched the desk once with two fingers, like a lecturer marking the true line of a problem. \"We were both made by the same institution. We were both taught to follow pattern where it led. We both found that the world outside our study chambers moved too slowly for the work at hand. You call your trespass duty because the object of your conviction flatters your ethics. I call mine scholarship because it flatters my honesty. The underlying habit is the same.\"",
+          "after": "\"Only this.\" He touched the desk once with two fingers, the way a lecturer marked the true line of a problem. \"We were both made by the same institution. We were both taught to follow pattern where it led. We both found that the world outside our study chambers moved too slowly for the work at hand.\"\n\n\"You call your trespass duty because the object of your conviction flatters your ethics. I call mine scholarship because it flatters my honesty. The underlying habit is the same.\""
+        }
+      ]
+    },
+    {
+      "dimension": "dialogueAttribution",
+      "observations": [
+        "The chapter uses no creative-tag bloat; attribution is dominated by plain said/asked equivalents, which matches the 60-70% no-frills target.",
+        "The two-speaker seminar format supports long clean untagged runs at lines 147-167, 201-225, and 551-567 without clarity loss.",
+        "Where status matters, action beats sit after or between lines rather than before them: 109, 195, 349, and 465 all follow the guide's preferred placement.",
+        "Two adverb-led tags were doing too much coaching: line 169 and line 283. Both now rely on context and surrounding body beats instead.",
+        "Kel'Thuzad's late-room exchange keeps his calm in the words and sequence of turns; the prose no longer labels volume changes the scene already shows."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 169,
+          "rule": "attributionStandards.creativeTagPolicy — remove tonal coaching from narration after dialogue",
+          "before": "He said it gently. That was the obscenity.",
+          "after": "He said it in the same calm he used for everything. That was the obscenity."
+        },
+        {
+          "line": 283,
+          "rule": "attributionStandards.creativeTagPolicy — plain tag is enough when the surrounding scene already carries volume and pressure",
+          "before": "\"There,\" he said softly. \"Now you are asking the useful question.\"",
+          "after": "\"There,\" he said. \"Now you are asking the useful question.\""
+        }
+      ]
+    },
+    {
+      "dimension": "expositionIntegration",
+      "observations": [
+        "Lines 39-85 deliver the plague mechanism through live board-work and Jaina's step-by-step follow-through, which keeps exposition inside pressure and problem-solving.",
+        "Lines 179-197 tie Dalaran's ban to persons, consent, and civic trust rather than drifting into detached necromancy lore.",
+        "Lines 363-379 now let the patronage reveal land in sequence — euphemism first, named source second — which preserves Jaina's expert filtering.",
+        "Lines 421-435 fold scale exposition straight into operational consequence: who built what, what can still be stopped, and what cannot wait for cosmology.",
+        "No fact gets explained in narration and then immediately restated in dialogue; the chapter mostly trusts one delivery vector per beat."
+      ],
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 365,
+          "rule": "expositionPolicy.povExpertiseFiltering — let Jaina notice the euphemism before she processes the larger frame",
+          "before": "The word he chose lodged as hard as the content.",
+          "after": "The word hit first. Patronage."
+        },
+        {
+          "line": 379,
+          "rule": "expositionPolicy.allowedDeliveryMethods — replace narrator-style summary with Jaina's reordered inference",
+          "before": "Her body changed before the room did. The new name threw light backward through the whole conversation. Patron. Northrend. Voice in the dark.",
+          "after": "Her body changed before the room did. The new name reordered the whole conversation. Patron. Northrend. Voice in the dark."
+        }
+      ]
+    },
+    {
+      "dimension": "powerDynamicsAndSubtext",
+      "observations": [
+        "Kel'Thuzad keeps dominance through clean imperatives and clipped corrections at lines 29, 35, 51, 113, and 447; the sentence-length mapping matches the guide.",
+        "Jaina's speech lengthens when she is forced into ethics-defense and shortens to blunt refusals at 245, 271, 283, 515, and 551, which tracks her back-foot rhythm.",
+        "The confrontation runs as feint, answer, pressure, and turn through the whole middle third; almost every exchange tests status beneath the official subject of method.",
+        "Lines 551-567 carry strong confrontation subtext: the explicit topic is intellect and method, the real wound is whether partnership is the only thing keeping Jaina from his shape.",
+        "No interruption reads as noise; every cut-off, reframe, or one-word answer serves status, ethical refusal, or teacher-pupil pressure."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 237,
+          "rule": "powerDynamicRules.sentenceLengthMapping — remove softening so Kel'Thuzad's control lands cleaner",
+          "before": "He said it so easily that her anger stumbled.",
+          "after": "He said it without strain, and her anger stumbled."
+        }
+      ]
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "Jaina's noticing pattern stays intact: lines 41-45, 67-79, 391-399, and 605-631 all begin from mechanism, ward behavior, or consequence rather than abstract emotion.",
+        "Her fear comes body-first and work-shaped — cold at 243, dry mouth at 491, unreliable knees at 635 — not through theatrical panic labels.",
+        "The chapter preserves her reasoning cadence of claim -> qualifier -> consequence, especially at 33-45, 79-95, 391-399, and 421-435.",
+        "The one planner-language leak in her interiority was line 569's 'lie'; changing it to 'story' keeps the realization in lived self-judgment instead of arc-document vocabulary.",
+        "The close reads Sylvanas through Jaina's learned lens rather than switching POV: wards, descent pattern, and tactical pressure tell her who is coming before the name lands."
+      ],
+      "violations": 4,
+      "fixes": [
+        {
+          "line": 379,
+          "rule": "perPOVCalibration.Jaina.thoughtPatterns — keep the patronage reveal as active model-revision, not narrator gloss",
+          "before": "The new name threw light backward through the whole conversation.",
+          "after": "The new name reordered the whole conversation."
+        },
+        {
+          "line": 485,
+          "rule": "perPOVCalibration.Jaina.emotionalRegister — trim a filter so the body response lands harder",
+          "before": "\"Enough,\" she repeated, hearing how thin the word sounded against the certainty in his voice.",
+          "after": "\"Enough,\" she repeated. Thin against the certainty in his voice."
+        },
+        {
+          "line": 569,
+          "rule": "perPOVCalibration.Jaina.specificRules — remove planning vocabulary from interior narration",
+          "before": "And if mercy came from elsewhere, then the lie she had been living on since Dalaran cracked a little wider.",
+          "after": "And if mercy came from elsewhere, then the story she had been telling herself since Dalaran cracked a little wider."
+        },
+        {
+          "line": 595,
+          "rule": "perPOVCalibration.Jaina.expositionFilter — keep institutional frustration in her lived language",
+          "before": "Thought of the Council compressing horror into procedure.",
+          "after": "Thought of the Council compressing horror into orderly speech."
+        }
+      ]
+    },
+    {
+      "dimension": "qualityFloorAndSceneLevel",
+      "observations": [
+        "Adverbs per page land at 2.42, comfortably under the 4/page floor even after counting all -ly forms conservatively.",
+        "Passive voice measures 0.78%, safely under the 4% ceiling; most force in the chapter arrives through active verbs and direct speaker action.",
+        "Dialogue-to-narration sits at roughly 42.8:57.2, slightly narration-heavy against the global 45:55 target but acceptable for a dread-and-revelation chapter built around live explanation.",
+        "Speculative integration stays domesticated throughout: wards, plague design, recurrence, and preservation read as working craft and threat, not spectacle.",
+        "Humor is present only as dry refusal or bitter proportion-talk around lines 381-389; it never undercuts the atrocity material and thins correctly as the chapter closes."
+      ],
+      "violations": 4,
+      "fixes": [
+        {
+          "line": 439,
+          "rule": "sceneLevel.humorPolicy and narratorWitLevel — keep Kel'Thuzad's calm from sounding authorially cute",
+          "before": "He said it almost kindly. The worst part was that it might even be sound advice.",
+          "after": "He said it with the same calm he used for everything. The worst part was that it might even be sound advice."
+        },
+        {
+          "line": 625,
+          "rule": "sceneLevel.actionPacingStandards — remove planner vocabulary from the incoming-approach read",
+          "before": "Another pulse. Closer now. The wards she had half-felt on the way down answered in layered sequence to a body driving through them with tactical precision. A pause at one choke point. Assessment. Then movement again, cleaner than before.",
+          "after": "Another pulse. Closer now. The wards she had half-felt on the way down answered one after another to a body driving through them without waste. A pause at one choke point. Choice made. Then movement again, cleaner than before."
+        },
+        {
+          "line": 627,
+          "rule": "sceneLevel.powerDynamicRules — simplify the reaction read and let the danger sit in the narrowed gaze",
+          "before": "Kel'Thuzad's eyes narrowed in sharpened curiosity. \"You know the approach.\"",
+          "after": "Kel'Thuzad's eyes narrowed. \"You know the approach.\""
+        },
+        {
+          "line": 631,
+          "rule": "sceneLevel.speculativeIntegrationPolicy — show recognition through ward-reading rather than meta-explanation",
+          "before": "She knew it by the shape pressure took when it crossed a defended space and priced every angle on the way through. She read the descent for what it was and knew what kind of mind had entered.",
+          "after": "She knew that shape. Pressure crossing defended space without waste, every angle priced on the way through. She knew what kind of mind had entered."
+        }
+      ]
+    }
+  ],
+  "perPOVAudit": [
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — lines 33-45, 117-123, 379-399, and 595-607 stay educated, arcane, and readable without slipping into modern-scientific jargon; five abstract/document-voice slips were tightened.",
+        "sentenceRhythm": "pass — short verdicts and fragments puncture longer reasoning chains throughout; the main monotone block at 241-243 was split to restore built pressure.",
+        "metaphorDensity": "pass — estimated comparison density is about 1.21 markers per thousand words after cuts, with only one strong fresh simile intentionally left in place ('words like furniture').",
+        "emotionalRegister": "pass — fear and revulsion arrive as cold, dry mouth, unreliable knees, recoil, and pressure rather than open naming.",
+        "thoughtPatterns": "pass — observation -> pattern recognition -> hypothesis -> revision drives every major turn, especially the patronage/Lich King reveal and the Sylvanas-approach read.",
+        "sensorySignature": "pass — ward pressure, cold air, chalk, desk grain, fungi-light, body strain, and magical wrongness remain the dominant channels."
+      },
+      "ruleViolations": [
+        "Line 193: Kel'Thuzad's counterargument drifted too theoretical for the scene's spoken register; revised to keep Jaina's mirror audible rather than abstract.",
+        "Lines 241-243: the mirror argument originally ran as one block and flattened Jaina's live recoil; split into two paragraphs.",
+        "Line 365: narrator-style framing of 'patronage' sat half a step outside Jaina's live inference; grounded in first-hit recognition.",
+        "Line 569: planner-language leak ('lie') cut in favor of lived self-description ('story').",
+        "Lines 625-631: arrival beat carried planning vocabulary rather than Jaina's ward-read; rewritten into concrete defended-space recognition."
+      ]
+    }
+  ],
+  "metrics": {
+    "adverbsPerPage": 2.42,
+    "passiveVoicePercent": 0.78,
+    "dialogueToNarrationRatio": "42.8:57.2",
+    "avgSentenceLength": 7.76,
+    "avgParagraphLength": 15.42,
+    "metaphorsPerThousandWords": 1.21
+  },
+  "totalObservations": 45,
+  "totalFixes": 22,
+  "wordCount": {
+    "before": 4999,
+    "after": 4965
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "chapterId": "chapter22",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 14,
+      "kills": 8,
+      "keeps": 3,
+      "dominantPattern": "F4/F7",
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "line": "That almost pulled a laugh out of her.",
+          "word": "almost",
+          "deletionTest": "That pulled a laugh out of her.",
+          "issue": "hedge weakens a partial physical reaction that should cash out directly",
+          "suggestedFix": "Her mouth twitched.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "That was enough.",
+          "whatItRestates": "She looked up once as they came down the switchback.",
+          "issue": "interpretive subtitle after a concrete beat already shows Dagny has read the situation",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "That was enough.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "She looked up once as they came down the switchback.",
+          "issue": "closes the beat instead of trusting the look and the shouted orders to land",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "That was the only good thing she got from the crossing.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "By landfall the answer existed.",
+          "issue": "summarizes the crossing's emotional ledger instead of stopping on the concrete development",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "That was almost worse.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Jaina did.",
+          "issue": "names and grades the emotional effect after the action has already landed",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "line": "The southbound run had none of the northbound malice.",
+          "paragraphLocation": "sea-crossing transition paragraph",
+          "issue": "thesis-opening claim that the following concrete headwind detail already conveys",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "line": "The villagers were not fools.",
+          "paragraphLocation": "first village paragraph",
+          "issue": "thesis-opening claim that the next sentence already demonstrates through their cheerful obedience to the lie",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "That landed.",
+          "whatItRestates": "\"He believes you. It no longer matters whether he believes you.\"",
+          "issue": "translates the blow after the dialogue and Jaina's jaw already carry it",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 9,
+      "kills": 2,
+      "keeps": 3,
+      "dominantPattern": "A1/A2",
+      "registerSummary": {
+        "jaina": "Jaina's close-third register here is analytical under bodily strain: she hears magical rhythm, inventories physical cost, and compresses discoveries into working notation. She can think in disciplined magical shorthand, but not in polished captions that sit above the moment.",
+        "sylvanas": "Sylvanas's register is cold, tactical, and caustic. She reads spacing, discipline, and public failure fast, but her thoughts stay practical and field-oriented rather than epigraphic."
+      },
+      "findings": [
+        {
+          "pattern": "A1",
+          "tier": "A",
+          "severity": "mild",
+          "line": "There it was.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The line functions as a caption over Jaina's narrowing realization instead of naming the thing she is actually tracking.",
+          "verdict": "KILL",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "tier": "A",
+          "severity": "mild",
+          "line": "The beauty of the trap first. The neat turn inside it.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "These slogan fragments sit over Jaina's Kel'Thuzad comparison like a caption instead of staying inside her immediate horrified recognition.",
+          "verdict": "KILL",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 8,
+      "kills": 2,
+      "keeps": 2,
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "The blade is tied to the same work as the plague.",
+          "failedQuestion": "What specifically is 'the same work'?",
+          "missingPayload": "the plague mechanism or magic the blade shares",
+          "reason": "Placeholder noun stand-in makes the warning sound precise without naming the operative mechanism.",
+          "verdict": "KILL",
+          "suggestedFix": "The blade is built on the same plague magic.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "By landfall the answer existed.",
+          "failedQuestion": "What answer, exactly?",
+          "missingPayload": "the concrete conclusion that someone must buy Jaina three to five seconds at sword range",
+          "reason": "The sentence substitutes a prestige noun for the actual conclusion the chapter has just reached.",
+          "verdict": "KILL",
+          "suggestedFix": "By landfall she knew who had to buy the seconds.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "dominantPattern": null,
+      "cleanReason": "Checked the only explicit translation setup — Antonidas's request for 'words a judge could follow' and Jaina's reply. The reply names the spell sequence, the trigger window, and the required distance, so it carries usable payload without needing a second translation pass.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 9,
+    "mildKills": 12,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 12,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B still has 12 mild KILLs across GPT-5 prose issues, narrator seep, and phantom concreteness, which exceeds the 3-mild maximum for a pass."
+  }
+}
