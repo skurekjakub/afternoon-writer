@@ -141,8 +141,70 @@ def split_sentences(text: str, paragraph_index: int = 0, char_offset: int = 0) -
     return sentences
 
 
+_SENT_END_RE = re.compile(r'[.!?]["\u201D\u2019]*\s*$')
+
+
+def _unwrap_hard_wrapped(text: str) -> str:
+    """Join hard-wrapped lines into paragraphs separated by blank lines.
+
+    Detects hard-wrapped prose (zero blank lines, many lines starting
+    lowercase) and joins continuation lines with spaces. A paragraph
+    break is inserted when the previous line ends with sentence-ending
+    punctuation and the next line starts with an uppercase letter or
+    opening quote.
+    """
+    lines = text.split('\n')
+    if not lines:
+        return text
+
+    result_paragraphs: list[str] = []
+    current: list[str] = []
+
+    for i, raw_line in enumerate(lines):
+        line = raw_line.rstrip()
+        if not line:
+            # Blank line — flush current paragraph
+            if current:
+                result_paragraphs.append(' '.join(current))
+                current = []
+            continue
+
+        # Skip headings
+        stripped = line.lstrip()
+        if stripped.startswith('#'):
+            if current:
+                result_paragraphs.append(' '.join(current))
+                current = []
+            result_paragraphs.append(stripped)
+            continue
+
+        if not current:
+            current.append(line)
+            continue
+
+        # Decide: paragraph break or continuation?
+        prev = current[-1]
+        prev_ends_sentence = bool(_SENT_END_RE.search(prev))
+        next_starts_upper = bool(
+            stripped and (stripped[0].isupper() or stripped[0] in '"\u201C\u2018')
+        )
+
+        if prev_ends_sentence and next_starts_upper:
+            # Paragraph break
+            result_paragraphs.append(' '.join(current))
+            current = [line]
+        else:
+            # Continuation — join with space
+            current.append(line)
+
+    if current:
+        result_paragraphs.append(' '.join(current))
+
+    return '\n\n'.join(result_paragraphs)
+
+
 def split_paragraphs(text: str) -> list[Paragraph]:
-    """Split text into paragraphs. Tries double newlines first, falls back to single."""
+    """Split text into paragraphs, handling both blank-line-separated and hard-wrapped formats."""
     # Strip markdown frontmatter if present
     content = text
     if content.startswith('---'):
@@ -150,13 +212,14 @@ def split_paragraphs(text: str) -> list[Paragraph]:
         if end != -1:
             content = content[end + 3:].lstrip('\n')
 
+    # Detect hard-wrapped prose: no blank lines but many lines starting lowercase
+    blank_count = sum(1 for l in content.split('\n') if not l.strip())
+    line_count = content.count('\n')
+    if blank_count < line_count * 0.05 and line_count > 50:
+        content = _unwrap_hard_wrapped(content)
+
     # Split on one or more blank lines
     raw_parts = re.split(r'\n\s*\n', content)
-
-    # Fallback: if we got only 1 part and it has many sentences,
-    # the text probably uses single newlines. Split on single newlines.
-    if len([p for p in raw_parts if p.strip()]) <= 1 and content.count('\n') > 10:
-        raw_parts = content.split('\n')
 
     paragraphs: list[Paragraph] = []
     offset = 0

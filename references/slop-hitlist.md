@@ -170,11 +170,15 @@ Comma-separated descriptors piled onto one noun — "her eyes — blue, steady, 
 
 "Fighter" as Tifa synonym — never use "the fighter" as an identifying noun. She is Tifa, or she is described by what she's doing. The word reduces a character to a class label from a game menu.
 
-## Participial Phrase Attachment (max 3 per chapter)
+## Participial Phrase Clustering
 
-The comma-plus-ing construction: "She crossed the room, pulling her coat tighter." "He leaned back, studying the ceiling." "Tifa reached for the glass, her fingers trembling." Research shows AI uses these at 2–5x human rates. The construction implies simultaneity when the actions are usually sequential, and it becomes a rhythmic tic — every sentence ending on a dangling present participle. One or two per scene is natural; more than that and the prose develops a lilting, rocking cadence where every action trails a participial tail.
+The comma-plus-ing construction: "She crossed the room, pulling her coat tighter." "He leaned back, studying the ceiling." "Tifa reached for the glass, her fingers trembling."
 
-**Fix:** Make the actions sequential with separate sentences or coordinating conjunctions. "She crossed the room and pulled her coat tighter." Or restructure: "Her fingers trembled on the glass."
+Participial phrases are **necessary connective tissue** — human prose runs them at 10–14% of sentences. The problem is not the construction itself but clustering: three or more participial sentences within a single paragraph or five consecutive sentences, or the same `, Ving` tail shape repeated on back-to-back sentences. That clustering creates the lilting, rocking cadence that signals AI generation.
+
+**What to fix:** Clusters of 3+ participial sentences in a tight window (one paragraph or five consecutive sentences). Redistribute them — move one earlier, convert one to a compound sentence, restructure one as a leading participial ("Pulling her coat tighter, she crossed the room"). The goal is even distribution, not elimination.
+
+**What NOT to fix:** Isolated participial phrases spread across a scene. A chapter running 8–18% participial phrases with no clusters is healthy texture. Do not strip participial phrases to reduce their total count — that produces telegram prose, which is a worse deficiency than mild participial overuse.
 
 ## Elegant Variation (zero uses)
 

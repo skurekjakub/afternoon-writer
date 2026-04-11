@@ -42,7 +42,7 @@ Sentence lengths cluster too narrowly across a sustained stretch of prose. Parag
 
 3. **Measure paragraph internal rhythm.** Read three consecutive paragraphs. If they follow the same beat pattern (e.g., setting detail → character action → interior thought → summary), KILL all three.
 
-4. **Check for comma-plus-`ing` tail repetition.** If three or more sentences in a stretch end with `, [verb]ing [object]` constructions → KILL each one.
+4. **Check for comma-plus-`ing` tail repetition.** If three or more sentences *within a single paragraph or five consecutive sentences* end with `, [verb]ing [object]` constructions → KILL the cluster by redistributing: convert one to a compound sentence, move one to a sentence-initial position ("Pulling her coat tighter, she crossed the room"), or restructure as a separate clause. Do NOT strip all participial phrases — isolated uses are healthy connective tissue (human prose runs 10–14% participial sentences). Only kill when the same tail shape repeats in a tight cluster.
 
 ### What is NOT F1
 
