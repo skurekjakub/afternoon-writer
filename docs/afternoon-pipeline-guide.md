@@ -19,6 +19,7 @@ How to set up, configure, run, and troubleshoot the afternoon fiction pipeline.
 9. [Reading the Output](#reading-the-output)
 10. [Common Workflows](#common-workflows)
 11. [Troubleshooting](#troubleshooting)
+12. [Deterministic Analysis Tools](#deterministic-analysis-tools)
 
 ---
 
@@ -64,7 +65,18 @@ Create a directory with one file per major character, describing their vocabular
 
 Create `.afternoon/config.json`. See [Configuring the Pipeline](#configuring-the-pipeline) for the full schema.
 
-### Step 7: Run
+### Step 7: Extract the style guide
+
+Run the style-extractor agent against your style target. This produces `.afternoon/style-guide.json` — the single source of truth for all rhythm and texture metric targets. The style-auditor, style-editor, writer, slophunter, and slop-gate all read their targets from this file.
+
+```bash
+# Invoke the style-extractor agent (Copilot CLI)
+# It reads config.priming.proseSamples, runs rhythm_scorer, and produces style-guide.json
+```
+
+Run once per story or when your style target changes. The pipeline works without a style-guide (the style-auditor skips), but metric-driven texture enforcement requires it.
+
+### Step 8: Run
 
 ```bash
 ./afternoon-start.sh
@@ -468,3 +480,52 @@ The manifest shows `"status": "in-progress"` but the agent it's trying to resume
 4. Run again — crash recovery will re-dispatch that agent
 
 For comprehensive troubleshooting, see the [troubleshooting reference](../.github/skills/afternoon-pipeline/references/troubleshooting.md).
+
+## Deterministic Analysis Tools
+
+Three Python tools in `tools/` provide deterministic prose measurement. They run as standalone scripts — no pipeline integration required. All use stdlib only.
+
+### rhythm_scorer
+
+Measures 14 metrics across rhythm and structural texture.
+
+```bash
+# JSON output (for agent consumption)
+python3 tools/rhythm_scorer/score.py --json chapter.md
+
+# Human-readable summary
+python3 tools/rhythm_scorer/score.py --summary chapter.md
+
+# Side-by-side comparison against style-guide targets
+python3 tools/rhythm_scorer/score.py --compare --target-json .afternoon/style-guide.json chapter.md
+
+# JSON output with style-guide baselines for texture verdict
+python3 tools/rhythm_scorer/score.py --json --baselines .afternoon/style-guide.json chapter.md
+```
+
+The `--baselines` flag loads `textureMetrics` from style-guide.json so the texture verdict uses calibrated ranges instead of hardcoded defaults.
+
+### skeleton_strip
+
+Extracts syntactic skeleton and concreteness signals.
+
+```bash
+python3 tools/skeleton_strip/strip.py --json chapter.md
+```
+
+### slop_checker
+
+Pattern-based AI prose detection.
+
+```bash
+python3 tools/slop_checker/check.py --json chapter.md
+```
+
+### How agents use the tools
+
+The tools are consumed at two points in the pipeline:
+
+1. **Style-extractor** — runs rhythm_scorer on the style source to populate `rhythmMetrics` and `textureMetrics` in style-guide.json
+2. **Slop-gate Phase 1b** — runs rhythm_scorer and slop_checker on each chapter draft before the guide-sweep audit
+
+All other agents read targets from style-guide.json rather than running the tools directly.

@@ -1,6 +1,35 @@
 #!/usr/bin/env bash
 set -uo pipefail
 
+# =============================================================================
+# afternoon-start-gemini.sh — afternoon pipeline on Gemini 2.5 Pro via BYOK
+#
+# Prerequisites:
+#   export GEMINI_API_KEY=<your-google-ai-studio-key>
+#   Get a free key at: https://aistudio.google.com/app/apikey
+#
+# Usage:
+#   GEMINI_API_KEY=<key> ./afternoon-start-gemini.sh
+#   or:
+#   export GEMINI_API_KEY=<key>
+#   ./afternoon-start-gemini.sh
+# =============================================================================
+
+# --- Gemini BYOK ---
+if [[ -z "${GEMINI_API_KEY:-}" ]]; then
+  echo "ERROR: GEMINI_API_KEY is not set." >&2
+  echo "  Get a free key at: https://aistudio.google.com/app/apikey" >&2
+  echo "  Then run: GEMINI_API_KEY=<key> ./afternoon-start-gemini.sh" >&2
+  exit 1
+fi
+
+export COPILOT_PROVIDER_TYPE=openai
+export COPILOT_PROVIDER_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
+export COPILOT_PROVIDER_API_KEY="${GEMINI_API_KEY}"
+export COPILOT_MODEL=gemini-3.1-pro-preview
+
+echo "[$(date)] Model: Gemini 3.1 Pro Preview via BYOK (Google AI Studio)"
+
 # --- Env vars for long autonomous runs ---
 export COPILOT_TASK_WAIT_TIMEOUT_SECONDS=360000
 export CONFIGURE_COPILOT_AGENT=false
@@ -48,8 +77,8 @@ mkdir -p logs/afternoon
 while true; do
   TIMESTAMP=$(date +%s)
   LOG_DIR="./logs/afternoon"
-  LOG_FILE="${LOG_DIR}/copilot_${TIMESTAMP}.log"
-  SHARE_FILE="${LOG_DIR}/share_${TIMESTAMP}.md"
+  LOG_FILE="${LOG_DIR}/copilot_gemini_${TIMESTAMP}.log"
+  SHARE_FILE="${LOG_DIR}/share_gemini_${TIMESTAMP}.md"
 
   echo "[$(date)] Starting copilot run (log: ${LOG_FILE})"
 

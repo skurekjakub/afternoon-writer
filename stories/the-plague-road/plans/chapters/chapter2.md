@@ -1,334 +1,181 @@
 # Chapter 2: The Mage
 
 **POV:** Jaina Proudmoore (limited third, absolute)
-**Timeline position:** Opens on the exact beat where Chapter 1 ends.
-**Open location:** Farstrider border post at Thalassian Pass.
-**Transport:** On foot inside the ward circle at open; southbound on Thalassian horses once Sylvanas lets her out.
-**Active cast at open:** Jaina, Sylvanas, Cyndia, Lyriel, Neral, one unnamed escort ranger.
-**Immediate objective:** Jaina must get Sylvanas to act on the contamination before more time is lost.
+**When:** Opens on the exact beat where Chapter 1 ends.
+**Where:** Farstrider border post at Thalassian Pass.
+**Travel:** On foot inside the ward circle at open; southbound on Thalassian horses once Sylvanas lets her out.
+**Characters:** Jaina, Sylvanas, Cyndia, Lyriel, Neral, one unnamed escort ranger.
+**Goal:** Jaina must get Sylvanas to act on the contamination before more time is lost.
 
-## Meta info
+## References
 
-- **Worldbuilding references:** [Silvermoon & Quel'Thalas](stories/the-plague-road/locations/silvermoon-and-quelthalas.md), [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
-- **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
+- **Worldbuilding:** [Silvermoon & Quel'Thalas](stories/the-plague-road/locations/silvermoon-and-quelthalas.md), [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-process.md)
+- **Characters referenced:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
 
 **What Jaina knows at open**
-- The leylines south of the border are contaminated by something necromantic
-- She can identify the signature as broadly death-aligned / necromantic, even if the banned discipline itself sits outside her formal training
-- The contamination is spreading
-- She crossed into Quel'Thalas while tracking it
-- The Kirin Tor did not authorize this trip and Antonidas does not know where she is in real time
+- The leylines south of the border are contaminated by something necromantic.
+- She can identify the signature as broadly death-aligned, even if the banned discipline itself sits outside her formal training.
+- The contamination is spreading.
+- She crossed into Quel'Thalas while tracking the corruption.
+- The Kirin Tor did not authorize this trip, and Antonidas does not know exactly where she is.
 
-**What Jaina does NOT know at open**
-- Whether Sylvanas will listen
-- Whether Sylvanas already knows who she is
-- Whether the elves will release her or keep her as a prisoner and a problem
-- What the contamination is doing on the physical ground beyond the leylines
-- The exact magical step that turns living contamination into post-death behavior
+**What Jaina doesn't know yet**
+- Whether Sylvanas will listen to her.
+- Whether Sylvanas already knows who she is.
+- Whether the elves will release her or keep her as a prisoner.
+- What the contamination is actually doing to the physical ground beyond the leylines.
+- The exact magical process that turns living contamination into post-death behavior.
 
-**Must not be implied yet**
-- No grain answer yet
-- No organized undead column
-- No trust between Jaina and Sylvanas
+**What NOT to do**
+- Do not confirm grain as the carrier.
+- Do not introduce an organized undead column.
+- Do not build immediate trust between Jaina and Sylvanas.
 
-**What the cast knows leaving the chapter**
-- Sylvanas is convinced enough to release Jaina and ride south herself
-- The contamination is physical, lethal, and big enough to swallow the whole region, not just a strange magical disturbance
-- Cyndia, Lyriel, Neral, and one unnamed escort ranger are now part of the riding party heading toward Millhaven
+**What they learn by the end**
+- Sylvanas is convinced enough to release Jaina and ride south with her to investigate.
+- The contamination is physical, lethal, and large enough to threaten the entire region, not just a strange magical disturbance.
+- Sylvanas, Jaina, Cyndia, Lyriel, Neral, and one unnamed escort ranger form the riding party heading toward Millhaven.
 
 ---
 
-## Arc position
+## Character Arcs
 
 ### Jaina
-- **Current stance at open:** If Jaina can explain the contamination clearly enough, any sensible person should act. Sylvanas looks like one more hard soldier standing between the truth and the road south.
-- **Surface objective:** Get out of the ward circle and get moving before the contamination outruns her again.
-- **Pressure source:** The only way south runs through Sylvanas, who has the room, the horses, the escort, and every reason to treat Jaina like a liar or a fool.
-- **Misbelief manifestation:** Jaina keeps talking smaller than she really thinks, as if a soldier needs the softened version, and keeps expecting being correct to carry the whole argument.
-- **Chapter test:** Sylvanas understands more than Jaina gives her credit for, then proves on the road and in the fight that field judgment is a kind of intelligence Jaina has been discounting.
-- **Forced choice:** Keep treating Sylvanas like an obstacle she has to drag toward the truth, or start treating her as the other half of a problem Jaina cannot solve alone.
-- **End-state shift:** Jaina still hates the custody and still does not trust Sylvanas, but she stops reading her as a blunt instrument. By the end of the ride, the Ranger-General's read matters to her whether she likes it or not.
-- **Carry-forward residue:** Chapter 3 opens with Jaina more willing to speak in her full register and more aware that surviving this road depends on skills she does not have.
+- At the start, Jaina believes that if she can just explain the magic clearly enough, any sensible person will act. She initially views Sylvanas as just another stubborn soldier standing in her way.
+- She wants to get out of the ward circle before the contamination spreads further. 
+- Because she assumes soldiers need simplified explanations, she talks smaller than she really thinks, expecting the sheer truth of her argument to be enough.
+- However, Sylvanas understands the map and the threat much faster than Jaina expects. Jaina is forced to realize that Sylvanas’s practical field judgment is a type of intelligence she has been completely discounting.
+- By the end of the chapter, Jaina still hates being under guard and doesn't trust Sylvanas, but she stops treating the Ranger-General like a blunt instrument. She realizes she needs Sylvanas's skills to survive the road.
 
 ### Sylvanas through Jaina's POV
-- **Visible function:** The woman with the room, the horses, the escort, and the power to decide whether this becomes action or another dead end.
-- **POV misread at open:** A cold military obstructionist - dangerous, precise, and fundamentally uninterested in the investigation except as a custody problem.
-- **Correction earned here:** Sylvanas listens fast, reads the confiscated map, spots the weak points in Jaina's story without missing the strong ones, and handles a real fight with fast, practical control Jaina has never had to think about.
-- **Interaction rule:** Jaina starts out too careful and too translated-down. After the register correction she slips back into her real mage language - still tense, still annoyed, but no longer talking to Sylvanas like she is slow.
+- Jaina initially sees Sylvanas as a cold military obstructionist—dangerous, precise, and completely uninterested in Jaina's investigation except as a custody problem.
+- This assumption breaks when Sylvanas listens quickly, reads the confiscated map with sharp combat insight, drills into the weak points of Jaina's story, and handles a chaotic fight on the road with effortless control.
+- Jaina starts out speaking carefully and translating her magic down for a layman. Once Sylvanas corrects her, Jaina drops the act and returns to her natural, highly educated register—still tense, but no longer talking down.
 
-### Partnership / team
-- **Operating mode at open:** Prisoner and custodian. At best, release on a leash.
-- **Operational change this chapter:** The custody arrangement turns into a working investigation ride, and Jaina's read plus Sylvanas's field judgment start functioning together instead of at cross purposes.
-- **Naming/attitude rule:** Jaina can think Sylvanas's name easily enough; the distance shows up in tone instead. She starts formal, irritated, and a little superior. The superiority takes a hit before the chapter ends.
-- **Do-not-overstate rule:** No trust, no easy camaraderie, no sudden friendship. This chapter only opens the first real crack in Jaina's read of Sylvanas.
+### Partnership
+- They start strictly as prisoner and custodian. If Jaina gets out, it will be on a leash.
+- As the chapter progresses, the custody arrangement turns into a working investigation. Jaina’s magical read and Sylvanas’s field judgment start functioning together instead of clashing.
+- There is no trust and no easy camaraderie yet. Jaina can think Sylvanas's name easily enough, but her tone remains formal, irritated, and slightly superior until that superiority gets knocked down during the ride.
 
 ---
 
-## Cast and handoff rules
+## Cast and next chapter
 
 - **Sylvanas Windrunner:** Leads the investigation south once she decides to test Jaina's claim.
-- **Ranger Cyndia:** Border-post officer who transitions into active escort lead. The border post is left to her deputy once she rides out.
-- **Ranger Lyriel:** Right-flank escort. Best shot in the mounted detail.
-- **Ranger Neral:** Third named escort. Strongest rider in the group if someone has to be sent north later.
-- **Unnamed fourth ranger:** Fourth saddle only; do not build later continuity around her.
+- **Ranger Cyndia:** Border-post officer who transitions into the active escort lead.
+- **Ranger Lyriel:** Right-flank escort. The best shot in the mounted detail.
+- **Ranger Neral:** Third named escort. The strongest rider in the group.
+- **Unnamed fourth ranger:** A background presence to fill out the escort detail; do not build continuity around her.
 
-**Chapter handoff target:** Chapter 3 opens with the same party approaching Millhaven. All three named escort elves are still present at Chapter 2 close.
+**Next chapter starts:** Chapter 3 opens with this exact same party approaching Millhaven. All three named escort elves and the unnamed ranger are present.
 
 ---
 
 ## Scene 1: The Interrogation
 
-**Scene function:** Move Jaina from prisoner to escorted guide, and let her be wrong about Sylvanas in public.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, Neral, escort detail
-**Knowledge at scene start:** Jaina knows the contamination case; Sylvanas knows only the border breach and Jaina's identity
-**Arc pressure:** Jaina has to convince the one person with the power to move, and her habit of explaining downward starts hurting her case.
+**What happens:** Move Jaina from prisoner to escorted guide, and let her be wrong about Sylvanas's intelligence.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, Neral, escort detail.
+**Where we start:** Jaina knows the contamination is real; Sylvanas only knows she has a border breach and a high-profile trespasser.
 
-### Beat 1 — Scene: "Start talking"
-- **Goal:** Make Sylvanas listen before more time is lost
-- **Conflict:** Sylvanas's authority turns two words into a deadline, not an invitation
-- **Outcome:** **yes-but** — Jaina finally gets a real listener, but Sylvanas is judging her as hard as she is listening
-- **Value shift:** frustrated containment -> dangerous opening
-- **New on-page information:**
-  - Sylvanas's attention feels different from the officers Jaina already failed to move
-  - Jaina opens with the contamination, not apology or diplomacy
-- **Still unknown after beat:**
-  - Whether Sylvanas will believe her
-- **Sensory anchors:**
-  - Ward pressure on Jaina's magic
-  - Sylvanas's shadow across the circle
-  - Roughness in Jaina's voice after hours of repetition
-- **Transition intent:** Jaina pushes the warning as far as it will go before Sylvanas decides what to do with her
+### Beat 1
+- Sylvanas commands Jaina to speak. Her authority turns the opening into a hard deadline, not an invitation. Jaina finally has a real listener, but Sylvanas is judging her every word.
+- Jaina realizes Sylvanas's attention feels much sharper than the officers she previously failed to convince. She drops diplomacy and opens directly with the contamination threat. She still doesn't know if Sylvanas will believe her.
+- The heavy pressure of the wards on Jaina's magic; Sylvanas's shadow cutting across the containment circle; the exhausted roughness in Jaina's voice after hours of repeating herself.
+- Jaina pushes the warning as hard as she can, waiting for Sylvanas to make a decision.
 
-### Beat 2 — Scene: Jaina's case
-- **Goal:** Explain the leyline corruption clearly enough to justify action
-- **Conflict:** Jaina has to turn a hard magical reading into words a soldier can use, and she makes the mistake of talking smaller than she really thinks
-- **Outcome:** **yes-but** — Sylvanas hears her out, but Jaina is still a problem that may happen to be useful
-- **Value shift:** dangerous opening -> someone is finally listening
-- **New on-page information:**
-  - The contamination reads necromantic, not standard arcane corruption
-  - Jaina knows the broad forbidden signature well enough to name the school even though she has never been trained in its applied practice
-  - Jaina followed that death-tainted wrongness north until the Thalassian ward-stones began carrying the same damage, and she crossed the border trying to confirm the read
-  - Her map and tools were confiscated at the Pass
-- **Still unknown after beat:**
-  - Whether Jaina is exaggerating the danger
-  - Whether the contamination is local or regional
-- **Dialogue guidance:** Jaina should start plain: the lines are wrong, the current is fouled, the ward-stones are carrying the same damage, something death-touched is spreading through it. Let one piece of formal mage thinking slip through, but keep it tied to what her hands, eyes, and tools have actually found.
-- **Sensory anchors:**
-  - Jaina's hands tracing invisible leyline lines
-  - Frost burns on her knuckles
-  - Cyndia hearing the same explanation land differently this time
-- **Transition intent:** Sylvanas goes straight for the weakest part of the story: why Jaina came alone
+### Beat 2
+- Jaina tries to explain the corrupted leylines but makes the mistake of summarizing her magic so a soldier can understand it. Sylvanas hears her out, treating her as a problem that might just be useful.
+- Jaina explains that the magic is broadly necromantic. She tracked the death-tainted current until the Thalassian ward-stones started carrying the same damage, crossing the border only to confirm her readings. Her map and tools are currently confiscated. She still doesn't know if Sylvanas thinks it's a regional threat or an exaggeration.
+- Jaina's hands tracing invisible lines in the air; frost burns lingering on her knuckles; Cyndia standing nearby, hearing the same story but noting how it lands differently with her commander.
+- Sylvanas ignores the magical theory and drills straight into the weakest practical part of Jaina's story: why she is out here alone.
 
-### Beat 3 — Scene: The pushback
-- **Goal:** Survive the hard questions without losing the case
-- **Conflict:** Sylvanas drills the exact weak point: no credentials, no delegation, no Kirin Tor backing, no real authority except Jaina's own certainty
-- **Outcome:** **no-and** — Jaina admits she came alone because nobody believed her, which makes her argument more vulnerable at the same moment it becomes more honest
-- **Value shift:** someone is finally listening -> exposed
-- **New on-page information:**
-  - The Kirin Tor did not send Jaina
-  - Antonidas does not know where she is except for a note she left behind
-  - Being brilliant has also left Jaina very alone in this
-- **Still unknown after beat:**
-  - Whether Sylvanas sees isolation as proof of obsession or proof of urgency
-- **Sensory anchors:**
-  - Silence after "I left a note"
-  - Ward-stone hum filling the gap
-  - Jaina trying not to sound embarrassed by the truth
-- **Transition intent:** Sylvanas's decision point arrives
+### Beat 3
+- Sylvanas points out the glaring holes: no credentials, no Kirin Tor backing, no delegation. Jaina is forced to admit she came alone because no one in Dalaran believed her, making her look both vulnerable and honest.
+- Jaina confesses that the Kirin Tor didn't send her and Antonidas only has a note she left behind. Being brilliant has left her completely isolated. She doesn't know if Sylvanas sees this isolation as proof of obsession or proof of a real emergency.
+- Absolute silence after Jaina admits she left a note; the low hum of the ward-stones filling the gap; Jaina fighting to keep the embarrassment out of her voice.
+- Sylvanas reaches her decision point.
 
-### Beat 4 — Sequel: "Show me"
-- **Emotion:** Exposed relief mixed with dread
-- **Dilemma:** Jaina cannot make Sylvanas believe the theory by argument alone
-- **Decision:** She will prove it on the road
-- **Value shift:** exposed -> reprieve
-- **New on-page information:**
-  - Once Sylvanas sees a test worth taking, she moves fast
-  - Jaina's best chance is no longer persuasion but demonstration
-- **Still unknown after beat:**
-  - Whether the road will prove Jaina right or make her look mad
-- **Sensory anchors:**
-  - Sylvanas's hand at the ward edge
-  - The almost-audible click of her decision locking in
-- **Transition intent:** Conditional release follows immediately
+### Beat 4
+- Knowing argument isn't enough, Jaina realizes she has to prove the contamination on the road. Sylvanas, having found a test worth taking, moves immediately.
+- Sylvanas decides to act. Jaina's only chance now is demonstration, rather than persuasion. She still doesn't know if the road will prove her right or make her look insane.
+- Sylvanas's hand resting on the edge of the ward; the almost audible click of a commander locking into a decision.
+- Sylvanas offers conditional release.
 
-### Beat 5 — Scene: The terms
-- **Goal:** Get out of the circle and move south
-- **Conflict:** Sylvanas gives terms: escort, watched hands, no freedom to disappear off the road; Jaina accepts because every lost minute matters more than pride
-- **Outcome:** **yes-but** — Jaina gets movement, but only under armed custody
-- **Value shift:** reprieve -> constrained forward motion
-- **New on-page information:**
-  - Jaina says out loud what she cannot do: she can read the lines, but she cannot keep herself alive on the road alone
-  - Sylvanas hears usefulness in the admission
-- **Still unknown after beat:**
-  - How the escort thinks of her: guide, prisoner, or both
-- **Sensory anchors:**
-  - Barrier dropping when Cyndia pulls the anchor stone
-  - Raw leyline noise flooding back into Jaina's senses
-  - Stiff legs after hours on stone
-- **Transition intent:** Jaina's regained magical access immediately sharpens the urgency
+### Beat 5
+- Sylvanas sets the terms: an armed escort, watched hands, and no wandering off the road. Jaina accepts immediately because every lost minute matters far more than her pride.
+- Jaina admits her own limits out loud: she can read the magic, but she cannot keep herself alive on the road alone. Sylvanas hears the practical truth in that admission. Jaina still doesn't know if the escort views her as a guide or a prisoner.
+- The sudden drop of the magical barrier when Cyndia pulls the anchor stone; the overwhelming rush of raw leyline noise flooding back into Jaina's senses; Jaina's legs stiff from standing on stone for hours.
+- With her magic returned, Jaina feels the urgency of the contamination spike immediately.
 
-### Beat 6 — Scene: Preparation and departure
-- **Goal:** Re-check the readings with her returned staff and get moving
-- **Conflict:** The contamination is worse than it was eight hours earlier
-- **Outcome:** **no-and** — release comes too late to feel like relief because the clock has visibly accelerated
-- **Value shift:** constrained forward motion -> the clock is running
-- **New on-page information:**
-  - Cyndia rides south with the party
-  - Lyriel and Neral are named as part of Sylvanas's mounted detail
-  - Neral is the strongest relay rider in the group if a dispatch must go north later
-- **Still unknown after beat:**
-  - What waits at Millhaven
-- **Sensory anchors:**
-  - Staff resonance snapping back through Jaina's grip
-  - Horses being brought up
-  - Escort formation settling around Sylvanas without discussion
-- **Transition intent:** They leave the Pass immediately and cross into Lordaeron
+### Beat 6
+- Jaina gets her staff back and checks the readings. The corruption is significantly worse than it was eight hours ago. 
+- Cyndia, Lyriel, and Neral are assigned to the mounted detail riding south. Neral is noted as the strongest relay rider in case a dispatch needs to go back. They still don't know what they will find when they reach Millhaven.
+- The familiar resonance of her staff snapping back into Jaina's grip; horses being brought up to the post; the escort formation seamlessly settling around Sylvanas without needing vocal orders.
+- The party leaves the Pass immediately and crosses the border into Lordaeron.
 
 ---
 
 ## Scene 2: The Road to Millhaven
 
-**Scene function:** Take the warning off the page and put it on the road.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, Neral, one unnamed escort ranger
-**Knowledge at scene start:** The contamination is urgent, but how it is getting into the world is still unknown
-**Arc pressure:** The road keeps proving that Jaina can read the wrongness but not the field around it, while Sylvanas understands more of both than Jaina wanted to admit.
+**What happens:** Take the warning off the page and show how it affects the physical road.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, Neral, one unnamed escort ranger.
+**Where we start:** The contamination is urgent, but its physical entry point into the world is unknown.
 
-### Beat 7 — Scene: Crossing the border
-- **Goal:** Follow the contamination south
-- **Conflict:** Once outside the ward network, the corrupted leyline signal slams into Jaina at full strength
-- **Outcome:** **yes-but** — Jaina has the strongest reading yet, but the severity is almost physically painful
-- **Value shift:** the clock is running -> heading into something larger
-- **New on-page information:**
-  - The elven wards were dampening what Jaina felt
-  - The escort moves differently once they leave home ground
-- **Still unknown after beat:**
-  - Whether the contamination source is a place, an object, or an ongoing act
-- **Sensory anchors:**
-  - Ward-hum cutting off behind them
-  - Raw leyline pressure like sudden over-bright light
-  - Horses tightening under the riders outside the wards
-- **Transition intent:** Jaina tests the physical world directly
+### Beat 7
+- As soon as they leave the dampening elven ward network, the corrupted leyline signal slams into Jaina at agonizing full strength.
+- Jaina realizes the elven wards were actively hiding how bad it was. She notes that the escort rangers move differently—more tense and alert—once they leave home ground. She still doesn't know if the source is a place, an object, or an ongoing event.
+- The protective hum of the wards cleanly cutting off behind them; the raw pressure of the leylines hitting Jaina like a sudden, blinding light; the horses tightening up under their riders as they leave the border.
+- Jaina decides to test the physical environment directly.
 
-### Beat 8 — Scene: The soil is wrong
-- **Goal:** Confirm whether the land itself is contaminated
-- **Conflict:** Jaina kneels in the road and puts her hand to the dirt while the others watch the trees, which shows how little she thinks about being an easy target
-- **Outcome:** **yes-but** — she proves the wrongness is in the ground and water, but not what put it there
-- **Value shift:** heading into something larger -> this has a physical footprint
-- **New on-page information:**
-  - The corruption is in the ground, not just in the lines
-  - Whatever is moving through the land is taking hold inside living systems rather than remaining a surface taint
-  - Sylvanas and the rangers cover her because Jaina would have stayed kneeling until something bit her
-- **Still unknown after beat:**
-  - Why some places are worse than others
-- **Sensory anchors:**
-  - Packed earth under Jaina's palm
-  - Wrong metallic-copper taste in the magic
-  - Lyriel and Neral covering opposite angles while Cyndia watches the tree line
-- **Transition intent:** Jaina tries to brief Sylvanas and makes the wrong assumption about her audience
+### Beat 8
+- Jaina dismounts and presses her bare hand to the dirt in the middle of the road. She is completely absorbed in the magic, ignoring the physical danger of being an open target while the rangers watch the tree line.
+- She proves the wrongness has seeped into the ground and water, not just the leylines. Whatever is spreading is taking root inside living systems. Sylvanas and the rangers explicitly cover her because she would have stayed kneeling until something bit her. She still doesn't know why some places feel worse than others.
+- The packed earth under Jaina's palm; a wrong, metallic-copper taste bleeding into her magical senses; Lyriel and Neral covering opposite angles while Cyndia watches the deep woods.
+- Jaina remounts, tries to brief Sylvanas on her findings, and makes a completely wrong assumption about her audience.
 
-### Beat 9 — Scene: The register correction
-- **Goal:** Explain the leyline theory on the move
-- **Conflict:** Jaina slips into the careful, thinned-down explanation she uses when she expects to be misunderstood. Sylvanas cuts across it by showing she read the confiscated map and followed the route just fine
-- **Outcome:** **no-and** — Jaina's explanation lands, but her internal model of Sylvanas breaks in the process
-- **Value shift:** this has a physical footprint -> I was wrong about her
-- **New on-page information:**
-  - Sylvanas read Jaina's map closely enough to understand where the trouble gathers
-  - Millhaven is the first place where all the lines pinch together
-  - Jaina's first instinct was to undersell the explanation, and she realizes it too late
-- **Still unknown after beat:**
-  - Whether the village is source, casualty, or both
-- **Dialogue guidance:** Let the shift happen in the middle of the ride. After Sylvanas corrects her, Jaina should stop talking down and start talking like herself—longer sentences, sharper magical language, more certainty about what she does and does not know.
-- **Sensory anchors:**
-  - Jaina's hands stopping in mid-gesture
-  - Sylvanas's utterly unembarrassed correction
-  - Horse tack and road rhythm continuing around the awkward pause
-- **Transition intent:** The world itself takes over the conversation as they near the village
+### Beat 9
+- Jaina slips back into her careful, thinned-down explanation. Sylvanas cuts her off, proving she not only read Jaina's confiscated map but perfectly understood the route and where the trouble gathers.
+- Sylvanas points out that Millhaven is the exact place where all the tainted lines pinch together. Jaina realizes her instinct to undersell the magic was insulting, and her entire internal model of Sylvanas breaks on the spot. They still don't know if Millhaven is the source or just a victim.
+- Jaina's hands stopping in mid-gesture as she is interrupted; Sylvanas's utterly unembarrassed, matter-of-fact correction; the creak of horse tack and the rhythm of hooves continuing right through the awkward pause.
+- Jaina drops the simplified language, and the physical world begins to confirm their fears as they near the village.
 
-### Beat 10 — Scene: The approach
-- **Goal:** Reach Millhaven before dark
-- **Conflict:** The land grows visibly wrong even before they see the village clearly
-- **Outcome:** **no-and** — they are on the right path, and the evidence is already worse than Jaina hoped
-- **Value shift:** I was wrong about her -> this is real in a way I was not ready for
-- **New on-page information:**
-  - Empty farms and cold chimneys tell them they are riding into the worst patch yet
-  - Whatever is happening is reaching kitchens and hearths, not just wards and stones
-- **Still unknown after beat:**
-  - What happened to the people of Millhaven
-- **Sensory anchors:**
-  - Cold chimneys
-  - Rotting crops
-  - Staff crystal reacting without Jaina's command
-- **Transition intent:** The road horror becomes kinetic before they enter the village
+### Beat 10
+- Before they even have a clear sightline to Millhaven, the land itself begins to look visibly wrong.
+- Empty farms, cold chimneys, and rotting crops tell them they are riding straight into the worst patch yet. The magic is affecting kitchens and hearths, not just stones. They still don't know what happened to the people.
+- Cold chimneys against the sky; the smell of sudden rot in the fields; the crystal on Jaina's staff vibrating in reaction without her command.
+- The mounting horror turns violent before they even reach the village outline.
 
 ---
 
 ## Scene 3: The Wildlife Attack
 
-**Scene function:** Make the plague physical and ugly, and force Jaina to watch Sylvanas fight in real time.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, Neral, escort
-**Knowledge at scene start:** The land is contaminated, but the full biological effect is not yet visible
-**Arc pressure:** Theory turns into bodies and teeth. Jaina has to watch Sylvanas command a real fight, and Sylvanas has to make room for Jaina's magic instead of just hauling a prisoner along.
+**What happens:** Make the plague physical and violent, forcing Jaina to watch Sylvanas command a real fight.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, Neral, escort.
+**Where we start:** The land is contaminated, but the biological effect hasn't shown its teeth yet.
 
-### Beat 11 — Scene: The deer and the wolves
-- **Goal:** Reach Millhaven intact
-- **Conflict:** Two sick deer burst out of the trees wild-eyed and half-ruined, and wolves hit the horses from the side before the first shock has passed
-- **Outcome:** **no-and** — the rangers drop the deer, but the wolves force Jaina to cast on instinct and one deer keeps moving after it should be dead
-- **Value shift:** this is real in a way I was not ready for -> the contamination has teeth
-- **New on-page information:**
-  - Jaina can cast fast when fear burns the hesitation out of her
-  - Sylvanas sees the whole mess at once—where the horses are, where the wolves are, who has a clear shot—and moves people with almost no words
-  - The contamination can push living bodies past natural death
-  - Cyndia is the decisive finishing shot under pressure
-  - Lyriel is first to loose on the moving target
-  - Neral is steady enough under panic to keep the horses controlled
-- **Still unknown after beat:**
-  - Whether this is one cursed stretch of road or the rule for the whole region
-- **Sensory anchors:**
-  - Filmed deer eyes
-  - Wolves hitting from the flank too fast for comfort
-  - Antlers scoring dirt
-  - Cyndia's second arrow through the skull
-- **Transition intent:** Jaina must diagnose the carcass and accept that theory is no longer enough
+### Beat 11
+- Two sick, wild-eyed, half-ruined deer burst from the trees, immediately followed by wolves hitting the horses from the flank. The sudden chaos forces Jaina to cast on pure survival instinct, while one of the deer keeps moving long after it should have dropped dead.
+- Jaina realizes she can cast instantly when fear burns away her hesitation. She watches Sylvanas process the entire chaotic battlefield at once and direct her rangers with minimal words. Cyndia lands the finishing shot safely, Lyriel reacts first, and Neral keeps the panicked horses under control. The contamination is pushing living bodies past the point of natural death. They still don't know if this is just a cursed patch of woods or the new reality for the region.
+- The filmed, milky eyes of the attacking deer; wolves crashing in from the side too fast for comfort; deer antlers scoring the dirt; the solid thud of Cyndia's second arrow driving through a skull.
+- With the immediate threat dead, Jaina must examine the carcasses and fully accept that theory has become physical horror.
 
-### Beat 12 — Sequel: Diagnostic over the carcass
-- **Emotion:** Shock turning hard and practical
-- **Dilemma:** Write this off as one cursed stretch of road, or admit the whole countryside may be sick
-- **Decision:** Keep moving toward Millhaven because the source answers are still ahead
-- **Value shift:** the contamination has teeth -> forward into the epicenter
-- **New on-page information:**
-  - The necromantic agent is in tissue, blood, and organs
-  - The contamination is entering living creatures through the environment
-  - The deer's violence began before clean death, which means the necromancy is already active in living flesh rather than being laid on afterward
-  - Sylvanas waits for Jaina's answer before deciding how bad the road has become, and Jaina notices it
-- **Still unknown after beat:**
-  - What first carried it into living bodies
-- **Sensory anchors:**
-  - Hot wrong pulse in dead flesh
-  - Jaina's hand on the carcass
-  - Horses sidestepping the smell
-- **Transition intent:** The party remounts and rides directly into Chapter 3
+### Beat 12
+- Jaina pushes through her shock and runs an examination of the ruined deer. She has to decide if this is an isolated incident or proof that the entire countryside is infected.
+- The necromantic agent is physically embedded in the tissue, blood, and organs. The violently sick deer proves the necromancy is active in living flesh before death, not just raising corpses after the fact. Sylvanas actively waits for Jaina's magical assessment before deciding their next move, and Jaina notices the shift in respect. They still don't know how the sickness originally entered the animals.
+- The hot, wrong pulse felt inside dead flesh; Jaina's bare hand examining the carcass; the horses nervously sidestepping the smell of the corrupted blood.
+- They remount and press forward toward the source.
 
-### Beat 13 — Scene: Millhaven ahead
-- **Goal:** Close on forward motion
-- **Conflict:** The village now reads like a place already emptied by what just hit the deer
-- **Outcome:** **no-and** — they have reached the village they were aiming for, and it looks dead from a distance
-- **Value shift:** forward into the epicenter -> Millhaven is wrong before they enter it
-- **New on-page information:**
-  - Millhaven's hearths are cold
-  - The village is where the wrongness knots tightest
-- **Still unknown after beat:**
-  - Whether anyone is still alive inside
-- **Sensory anchors:**
-  - Smoke absence
-  - Village outline in fading light
-  - The road narrowing into silence
-- **Transition intent:** Chapter 3 opens on the same mounted party approaching the village proper
+### Beat 13
+- They close the final distance to Millhaven. From the road, the village already looks as dead and emptied out as the animals they just fought.
+- Millhaven’s hearths are completely cold. The village is the exact spot where the magical wrongness knots tightest. They still don't know if a single person is left alive inside.
+- The glaring absence of woodsmoke; the dark outline of the village silhouetted in the fading light; the road narrowing down into absolute silence.
+- The chapter ends here, handing off to Chapter 3 with the party approaching the dead settlement.
 
 ---
 
-## Chapter close / handoff
+## Chapter end
 
-**Active cast at close**
+**Characters at the end**
 - Jaina
 - Sylvanas
 - Cyndia
@@ -336,13 +183,13 @@
 - Neral
 - one unnamed escort ranger
 
-**Facts locked for Chapter 3**
-- The same mounted group reaches Millhaven
-- Cyndia, Lyriel, Neral, and one unnamed escort ranger are all already part of the riding party
-- The contamination is physical, lethal, and big enough to swallow the whole region
-- How it first got into living bodies is still unknown
+**What we learn for Chapter 3**
+- The full mounted group arrives at Millhaven together.
+- Cyndia, Lyriel, Neral, and the unnamed escort ranger are established as the active riding party alongside Sylvanas and Jaina.
+- The contamination is proven to be physical, lethal, and capable of swallowing the entire region.
+- The physical entry method for the sickness is still unknown.
 
-**Facts not yet earned**
-- Grain as the weapon
-- Organized cult infrastructure
-- Anything warmer than grim working alignment between Jaina and Sylvanas
+**What we still don't know**
+- That grain is the weapon.
+- Any proof of an organized cult network.
+- Anything warmer than a grim working alignment between Jaina and Sylvanas.

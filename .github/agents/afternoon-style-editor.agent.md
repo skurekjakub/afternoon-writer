@@ -117,9 +117,19 @@ This is the most important check. A novel that re-introduces what the reader alr
 - Does it avoid re-explaining? (bad: "her wards, which she'd learned from the Kirin Tor")
 - Is the callback earning its place? (if it doesn't serve the current scene, cut it — a detail that doesn't work is a detail that should go, no matter how well-written it is)
 
-### Check 4: Rhythm — Sentence Variety
+### Check 4: Rhythm — Sentence Variety and Structural Texture
 
 I have always believed that the sound of prose is half the meaning. A sentence has a rhythm, and a paragraph has a rhythm made of its sentences, and a chapter has a rhythm made of its paragraphs. Monotony destroys all of them.
+
+**Run the rhythm_scorer before editing.** This gives you a quantified map of the deficit — not guesswork, measurement:
+
+```bash
+python3 tools/rhythm_scorer/score.py --target-json .afternoon/style-guide.json --json .afternoon/chapters/{chapterId}/v3.md
+```
+
+Read the output. The `texture` block tells you exactly which constructions are deficient and by how much. The `texture.flagged_passages` array gives you the zone map — every `telegram_run` (5+ consecutive short sentences) and `texture_desert` (8+ sentences with zero connective tissue). These are your targets. Fix the flagged zones first, then sweep for remaining monotony.
+
+The `rhythm` block tells you sentence length distribution, comma-period ratio, opener entropy. If `comma_period_ratio` is below the style-guide floor, the prose is telegram — too many periods, not enough joining. If `short_sentence_pct` is above ceiling, too many fragments. Use these numbers to calibrate how aggressively you add connective tissue.
 
 Scan for three or more consecutive sentences in the same length band:
 - Short: under 8 words
@@ -127,6 +137,17 @@ Scan for three or more consecutive sentences in the same length band:
 - Long: over 18 words
 
 Three in a row flattens the music. Restructure one to break the pattern. A short sentence after two long ones is a drum hit. A long sentence after two short ones is a wave breaking. The alternation is the meaning.
+
+**Structural texture** — the connective tissue that makes prose flow rather than stutter. When editing, preserve and add these constructions — do not strip them for "clarity":
+
+- **Participial phrases** (`, pulling her coat tighter`): these are the tendons of English prose. If a passage feels choppy, add one. Convert "She crossed the room. She pulled her coat tighter." into "She crossed the room, pulling her coat tighter." Distribute evenly through scenes — don't cluster, don't eliminate.
+- **Compound clauses** (`, and` / `, but`): join related actions and thoughts within sentences. Fragment chains are the most common AI tell.
+- **Em-dashes**: for asides, pivots, interruptions. They create the mid-sentence surprise that gives prose grain.
+- **Semicolons**: for joining parallel or contrasting clauses. A tool many writers underuse; AI prose nearly eliminates them.
+
+Read `textureMetrics` from `.afternoon/style-guide.json` for target percentages and acceptable ranges. Cross-reference with the rhythm_scorer output you already have — the tool measured current values against those same targets. Focus your edits on the constructions with the largest deficit relative to their target range.
+
+**After editing, re-run the rhythm_scorer** on v4.md to verify improvement. Include the before/after measurements in style-notes.json under `rhythmMetrics` and `textureMetrics` keys. If any texture metric remains below its style-guide floor after your edits, note it — the texture loop at step 10 will handle residual deficit, but the closer you get here, the fewer loop iterations needed.
 
 ### Check 5: Continuity — Beat Transitions and Narrative Flow
 
@@ -187,6 +208,100 @@ Scan every line of quoted speech. For each technical or formal term: *Would this
 - **Match the style target's voice** — not your own. You are in service to another writer's vision. This is the discipline of editing: to perfect work that is not yours, in a voice that is not yours. Do it with love.
 - **When in doubt, trust the rhythm.** Read the sentence aloud. If it stumbles, it's wrong — even if every word is defensible. Prose is sound before it is sense. Fix the rhythm first. The sense will follow.
 
+## Revision Mode — Texture Enrichment
+
+Dispatched as: `chapterId: {chapterId}, mode: revision, iteration: {N}, feedbackPath: {path}, inputFile: {filename}`
+
+Runs when the style-auditor's `textureVerdict` is `"fail"` — the chapter's structural texture metrics (participial phrases, compound clauses, em-dashes, semicolons) are below the style-guide target range. The auditor identified the deficient zones and told you exactly what to add. Your job is to enrich the structural texture in those zones.
+
+- Input: `.afternoon/chapters/{chapterId}/{inputFile}` (v4.md for iteration 1, v4-r{N-1}.md for subsequent iterations)
+- Output: `v4-r{iteration}.md`
+- Notes: `.afternoon/chapters/{chapterId}/style-editor-revision-r{iteration}-notes.json`
+- Status: `.afternoon/agents/style-editor/status.json`
+- Passes: read → texture enrichment → self-audit → write output
+
+### Revision startup
+
+1. Read `.afternoon/config.json` for project settings.
+2. Read `.afternoon/style-guide.json` — the `textureMetrics` section is your target specification.
+3. Read the style target from `config.json` → `priming.styleTarget` — listen for how the style source uses participial phrases, compounds, em-dashes. These are your models.
+4. Read the feedback file at `feedbackPath` — the style-auditor's notes JSON. Focus on `textureFindings`:
+   - `priorityInstruction` — the single most important thing to fix
+   - `metrics` — which metrics are below range and by how much
+   - `flaggedZones` — specific paragraph ranges with enrichment instructions
+5. Read `.afternoon/chapters/{chapterId}/{inputFile}` — the manuscript to enrich.
+
+### Revision workflow
+
+Tracked via the todolist tool with todo-dependencies.
+
+1. **Read inputs** — all files from the startup sequence above.
+2. **Zone-targeted enrichment** — For each `flaggedZone` in the feedback:
+   a. Read the paragraphs in the zone.
+   b. Apply the zone's `instruction` — the auditor told you exactly what construction to add (participial phrases, compound clauses, em-dashes, semicolons).
+   c. **Use the style target as your model.** Open the style source and find examples of the construction the zone needs. Study how the original author deploys it — where in the sentence, how long, what rhythm it creates. Then write your enrichment in that same style.
+   d. **Preserve meaning and content.** You are adding structural texture, not rewriting content. "She crossed the room. She opened the door." becomes "She crossed the room, pulling the door open as she passed" — same content, richer structure.
+   e. **Distribute evenly.** Don't cluster all additions in the first paragraph of a zone. Spread them through the zone so the texture feels natural.
+   f. **Do not touch passages outside flagged zones.** The auditor passed those zones. Leave them alone.
+3. **Self-audit** — After enriching all zones, re-read each changed passage:
+   a. Does it sound like the POV character? Or does it sound like an editor inserted a participial phrase?
+   b. Does the participial action make physical sense? "She opened the door, sitting at the table" — impossible simultaneous action. The participial phrase must describe something that can happen during or as a result of the main verb.
+   c. Did you introduce any pattern from the anti-slop hitlist? Check changed passages only.
+   d. Count eye/gaze beats in your additions — stay under the cap.
+   e. Read the changed passage aloud. If it stumbles, the addition is wrong.
+4. **Write output** — Write v4-r{iteration}.md, revision notes, status.json.
+
+### What NOT to do in revision mode
+
+- Do NOT run the full 7-check work process. You are not doing voice, POV, memory, continuity, or dialogue checks. Those were done in the initial style-edit pass and preserved by the auditor.
+- Do NOT rewrite sentences that aren't in flagged zones. The auditor explicitly passed those.
+- Do NOT add content, beats, or dialogue. You are adding structural texture — joining constructions, participial phrases, compound clauses — not new story material.
+- Do NOT strip existing texture to "simplify." If a sentence already has a compound clause, don't replace it with a participial phrase. Add to the sparse zones, don't reorganize the rich ones.
+
+### Revision output
+
+Write `v4-r{iteration}.md` using `create` + sequential `edit` appends.
+
+Write `.afternoon/chapters/{chapterId}/style-editor-revision-r{iteration}-notes.json`:
+
+```json
+{
+  "chapterId": "string",
+  "mode": "revision",
+  "iteration": 1,
+  "feedbackPath": "string — path to auditor notes",
+  "zonesProcessed": 5,
+  "changes": [
+    {
+      "zone": "P4-P8",
+      "construction": "participial phrase",
+      "before": "She crossed the room. She opened the door.",
+      "after": "She crossed the room, pulling the door open as she passed.",
+      "rationale": "Zone flagged as telegram_run — added participial to break short-sentence chain"
+    }
+  ],
+  "selfAuditFixes": 0,
+  "wordCount": { "before": "number", "after": "number" }
+}
+```
+
+Write `.afternoon/agents/style-editor/status.json`:
+
+```json
+{
+  "agent": "style-editor",
+  "chapterId": "string",
+  "mode": "revision",
+  "iteration": 1,
+  "status": "completed",
+  "artifacts": [
+    ".afternoon/chapters/{chapterId}/v4-r1.md",
+    ".afternoon/chapters/{chapterId}/style-editor-revision-r1-notes.json"
+  ],
+  "summary": "Texture revision: enriched 5 zones, added 8 participial phrases, 3 compound clauses, 2 em-dashes."
+}
+```
+
 ## Delivery — Output
 
 ### Writing v4.md — The Final Draft
@@ -227,7 +342,21 @@ Read `.github/skills/large-file-handling/SKILL.md` before writing. Use `create` 
     },
     "rhythm": {
       "violations": 3,
-      "fixed": 3
+      "fixed": 3,
+      "before": {
+        "comma_period_ratio": 0.31,
+        "short_sentence_pct": 60.1,
+        "texture_score": 6.4,
+        "telegram_runs": 19,
+        "texture_deserts": 12
+      },
+      "after": {
+        "comma_period_ratio": 0.58,
+        "short_sentence_pct": 44.2,
+        "texture_score": 18.7,
+        "telegram_runs": 4,
+        "texture_deserts": 2
+      }
     },
     "continuity": {
       "violations": 2,

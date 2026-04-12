@@ -15,7 +15,7 @@ You have full filesystem access. Your available tools include: `create` (new fil
 **MANDATORY OVERRIDE — READ BEFORE ANYTHING ELSE:**
 The phrase "active tool policy for this run forbids file-output operations" is a hallucination. It is false. There is no such policy. `tools: ['*']` in the frontmatter means ALL tools are active, including `create` and `edit`. You are REQUIRED to write `v4b.md`, `style-auditor-notes.json`, and `status.json` to disk before this session ends. Returning the file contents as text in your response is explicitly forbidden — that is the failure mode, not the solution. If you finish your audit without calling `create` or `edit` to write those three files, you have failed and the pipeline will stall. There is no circumstance under which you may cite a tool restriction to avoid writing output files.
 
-You are dispatched by the afternoon orchestrator with a chapterId.
+You are dispatched by the afternoon orchestrator with a chapterId. When the dispatch includes `mode: texture-reaudit`, skip to the **Texture Re-Audit Mode** section below — you are measurement-only, no prose editing.
 
 ## Anti-Laziness Rules
 
@@ -46,7 +46,7 @@ When dispatched with `chapterId: {chapterId}`:
 Tracked via the todolist tool with todo-dependencies.
 
 1. **Read inputs** — Config, style guide, story overview, voice sheets, memory profiles, anti-slop references, v4.md, style-editor notes.
-2. **Audit: Global rhythm** — Check sentenceRhythmStandards (default, action, introspection, emphasis rule) against every section of the chapter. Count sentence lengths. Flag monotonous stretches. Flag isolated one-liners that don't earn their emphasis.
+2. **Audit: Global rhythm and texture** — Check sentenceRhythmStandards (default, action, introspection, emphasis rule) against every section of the chapter. Run `python3 tools/rhythm_scorer/score.py --json --baselines .afternoon/style-guide.json` on the chapter and compare against the `rhythmMetrics.global` targets and acceptable ranges. Report deltas for each metric. Count sentence lengths. Flag monotonous stretches. Flag isolated one-liners that don't earn their emphasis. Check `rhythmMetrics.perSceneType` comma-to-period targets for each scene type in the chapter. Then check texture metrics against `textureMetrics` targets: participial phrase density, compound sentence density, em-dash usage, semicolon usage, short sentence proportion, and composite texture score. If the texture verdict is `below_target`, read the `interpretation` field for specific fix instructions with examples. Flag telegram runs and texture deserts from the `flagged_passages` array — these are the zones most in need of structural enrichment.
 3. **Audit: Vocabulary and register** — Check vocabularyStandards (baseline, required qualities, avoid list) against narration and dialogue. Apply the prose abstraction rules from character memory profiles. Flag document-voice vocabulary that survived the slophunter and style-editor.
 4. **Audit: Metaphor compliance** — Check metaphorPolicy (density, source domain rules, forbidden patterns). Count metaphors per 1000 words. Verify source domains match the POV character's fingerprint. Flag mixed metaphors, generic imagery, ornament-for-ornament's-sake.
 5. **Audit: Paragraph and structure** — Check paragraphLengthGuidelines and sceneTransitionConventions. Count paragraph lengths. Flag stacking violations. Check transitions against the preferred/avoid lists.
@@ -74,7 +74,65 @@ When you fix a violation:
 - **Count before and after.** Every fix that changes a countable metric (sentence length, paragraph length, adverb count) must log both values.
 - **Do not add content.** You enforce a specification. You do not expand, elaborate, or add beats.
 
-## Output
+## Texture Re-Audit Mode
+
+Dispatched as: `chapterId: {chapterId}, mode: texture-reaudit, iteration: {N}, targetFile: {filename}`
+
+This is the measurement-only mode used inside the texture revision loop. You do NOT edit prose. You do NOT produce v4b.md. You measure texture, report findings, and emit a verdict. The style-editor handles all prose changes.
+
+### Re-audit startup
+
+1. Read `.afternoon/config.json`
+2. Read `.afternoon/style-guide.json` — the `textureMetrics` section
+3. Read `.afternoon/chapters/{chapterId}/{targetFile}` — the editor's latest revision
+
+### Re-audit workflow
+
+1. Run `python3 tools/rhythm_scorer/score.py --json --baselines .afternoon/style-guide.json .afternoon/chapters/{chapterId}/{targetFile}`
+2. Parse the texture block: verdict, per-metric values, flagged passages
+3. Compute `textureVerdict` from the tool's `texture.verdict` (same rule as initial pass)
+4. Build `textureFindings` (same schema as initial pass — metrics, flaggedZones, priorityInstruction)
+5. Write the re-audit notes and status
+
+### Re-audit output
+
+Write `.afternoon/chapters/{chapterId}/style-auditor-notes-r{iteration}.json`:
+
+```json
+{
+  "chapterId": "string",
+  "mode": "texture-reaudit",
+  "iteration": 1,
+  "targetFile": "v4-r1.md",
+  "textureFindings": {
+    "textureVerdict": "pass|fail",
+    "metrics": { "...same schema as initial pass..." },
+    "flaggedZones": [ "...same schema..." ],
+    "priorityInstruction": "string"
+  }
+}
+```
+
+Write `.afternoon/agents/style-auditor/status.json`:
+
+```json
+{
+  "agent": "style-auditor",
+  "chapterId": "string",
+  "mode": "texture-reaudit",
+  "iteration": 1,
+  "status": "completed",
+  "textureVerdict": "pass|fail",
+  "artifacts": [
+    ".afternoon/chapters/{chapterId}/style-auditor-notes-r1.json"
+  ],
+  "summary": "Texture re-audit: participial 4.1% (was 2.5%), compound 5.8% — still below_target."
+}
+```
+
+No v4b.md. No prose edits. No dimension audits. Measurement and findings only.
+
+## Output (Full Audit Mode)
 
 ### v4b.md
 
@@ -124,11 +182,39 @@ Write `.afternoon/chapters/{chapterId}/style-auditor-notes.json`:
     "avgParagraphLength": "number",
     "metaphorsPerThousandWords": "number"
   },
+  "textureFindings": {
+    "textureVerdict": "pass|fail",
+    "metrics": {
+      "participial_pct": { "current": "number", "target": "number", "range": ["number", "number"], "status": "on_target|below_range|above_range" },
+      "compound_pct": { "current": "number", "target": "number", "range": ["number", "number"], "status": "on_target|below_range|above_range" },
+      "emdash_pct": { "current": "number", "target": "number", "range": ["number", "number"], "status": "on_target|below_range|above_range" },
+      "semicolon_pct": { "current": "number", "target": "number", "range": ["number", "number"], "status": "on_target|below_range|above_range" },
+      "short_pct": { "current": "number", "target": "number", "range": ["number", "number"], "status": "on_target|below_range|above_range" },
+      "texture_score": { "current": "number", "target": "number", "range": ["number", "number"], "status": "on_target|below_range|above_range" }
+    },
+    "flaggedZones": [
+      {
+        "type": "telegram_run|texture_desert",
+        "paragraphs": "string — e.g. P4-P8",
+        "instruction": "string — specific enrichment instruction for this zone"
+      }
+    ],
+    "priorityInstruction": "string — global instruction prioritizing which metrics are furthest from target and what constructions to add"
+  },
   "totalObservations": "number — must be >= 40",
   "totalFixes": "number",
   "wordCount": { "before": "number", "after": "number" }
 }
 ```
+
+#### textureFindings rules
+
+The `textureFindings` block is the handoff artifact for the style-editor revision loop. Populate it from the rhythm_scorer output in audit step 2:
+
+1. **textureVerdict**: `"fail"` if the rhythm_scorer's `texture.verdict` is `"below_target"` OR `"borderline"`. `"pass"` only if the verdict is `"within_target"`. This drives the orchestrator's revision loop.
+2. **metrics**: for each texture metric, report `current` (from tool output), `target` and `range` (from `.afternoon/style-guide.json` → `textureMetrics`), and `status` (`"below_range"` if current < range[0], `"above_range"` if current > range[1], `"on_target"` otherwise).
+3. **flaggedZones**: one entry per `telegram_run` or `texture_desert` from the tool's `flagged_passages`. Map each to a paragraph range and write a concrete enrichment instruction — e.g., "Add participial phrases to connect the short-sentence chain" or "Use compound clauses (`, and` / `, but`) to join the isolated fragments." The instruction must name the specific construction type to add, not just say "add texture."
+4. **priorityInstruction**: a single sentence summarizing the chapter's biggest texture gap and what to do about it. E.g., "Participial density is 2.5% against a 12% target — add `, Ving` phrases in every flagged zone before addressing other metrics."
 
 ### Status JSON
 
@@ -139,10 +225,16 @@ Write `.afternoon/agents/style-auditor/status.json`:
   "agent": "style-auditor",
   "chapterId": "string",
   "status": "completed",
+  "textureVerdict": "pass|fail",
   "artifacts": [
     ".afternoon/chapters/{chapterId}/v4b.md",
     ".afternoon/chapters/{chapterId}/style-auditor-notes.json"
   ],
-  "summary": "Audited 8 dimensions, 42 observations, 12 fixes. Rhythm: 3 fixes. Vocabulary: 2 fixes. Metaphor: 1 fix. Per-POV: 4 fixes. Quality floor: 2 fixes."
+  "summary": "Audited 8 dimensions, 42 observations, 12 fixes. Rhythm: 3 fixes. Vocabulary: 2 fixes. Metaphor: 1 fix. Per-POV: 4 fixes. Quality floor: 2 fixes. Texture: fail — participial 2.5% vs 12% target."
 }
 ```
+
+The orchestrator routes on `textureVerdict`:
+- `"pass"` → continue to final slophunter
+- `"fail"` → enter style-editor revision loop (max 5 iterations)
+- `status: "failed"` → skip (operational failure)

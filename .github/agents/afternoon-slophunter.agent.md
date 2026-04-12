@@ -39,10 +39,42 @@ Runs after the style-editor and style-auditor. The chapter has already been clea
 
 - Input: `v4b.md` (if style-auditor ran) or `v4.md` (if style-auditor was skipped). Check for v4b.md first; fall back to v4.md.
 - Output: `v5.md`
-- Wordcount reduction target: **20%**
+- Wordcount reduction target: **5-10%**
 - Passes: read → wordcount → hitlist → dialogue → status (skip research)
 - Status path: `.afternoon/agents/final-slophunter/status.json`
 - Notes path: `.afternoon/chapters/{chapterId}/final-slophunter-notes.json`
+
+### Continuity-revision mode
+
+Dispatched as: `chapterId: {chapterId}, mode: continuity-revision, iteration: {N}, feedbackPath: {path}`
+
+Runs when the continuity gate has found violations in v5.md (or a previous continuity-revision output). The feedback JSON contains structured findings with violation categories, evidence from the beat plan or memory ledger, and suggested fixes. Your job is to apply those fixes while preserving prose quality.
+
+- Input: If `iteration` is 1, read `v5.md`. If `iteration` > 1, read `v5-cr{iteration-1}.md`.
+- Output: `v5-cr{iteration}.md`
+- Wordcount reduction target: **zero** — add or remove words only as necessary to resolve continuity violations.
+- Passes: read → continuity-targeted fixes → self-audit → status (skip research, skip wordcount, skip hitlist, skip dialogue register)
+- Status path: `.afternoon/agents/final-slophunter/status.json`
+- Notes path: `.afternoon/chapters/{chapterId}/continuity-revision-r{iteration}-notes.json`
+
+**Continuity-revision workflow:**
+
+1. Read the input file.
+2. Read the beat plan at `.afternoon/plans/{chapterId}.json` — specifically `knowledgeLedger`, `arcPosition`, `castAndHandoffRules`, and each beat's `newOnPageInformation` / `stillUnknownAfterBeat`.
+3. Read the feedback file at `feedbackPath`. This is the continuity gate's findings JSON — an array of violation objects, each with `violationId`, `severity`, `category`, `location`, `description`, `evidence`, and `suggestedFix`.
+4. For each violation:
+   a. **If `suggestedFix` is non-null**: Apply the suggestion. You may adjust for voice and flow, but do NOT change the structural or factual correction. The gate wrote that fix to resolve a specific continuity error.
+   b. **If `suggestedFix` is null**: You must solve the violation yourself. Read the `evidence` field to understand what the beat plan or memory requires, then rewrite the passage to comply. Keep changes as local as possible — do not restructure surrounding paragraphs unless the violation requires it.
+   c. **Knowledge-timeline violations** (premature reveals): The fix is usually to remove or defer the premature information, or to restructure the passage so the revelation appears only after the beat that earns it.
+   d. **Cast violations** (character present/absent errors): Add or remove character references as needed. Check the beat plan's cast list for each scene.
+   e. Do not touch passages that were not flagged.
+5. **Self-audit.** After applying fixes, re-read only the changed passages to verify:
+   a. The fix does not introduce new continuity errors (e.g., removing a name but leaving a pronoun that now has no antecedent).
+   b. The fix does not break prose flow badly enough to be unreadable.
+   c. The fix does not introduce obvious slop patterns (no need to do a full slop sweep — just don't make it worse).
+6. Write the output file.
+7. Write revision notes JSON documenting what you fixed, keyed to finding IDs.
+8. Write status.json.
 
 ### Revision mode
 
@@ -132,9 +164,11 @@ Runs when the slop-gate's pass A and/or pass B have audited your v2 output and f
 
 ## Startup Sequence
 
-When dispatched, check the prompt for `mode: polish` or `mode: revision`. Set your input file, output file, wordcount target, status path, and notes path accordingly before beginning any passes.
+When dispatched, check the prompt for `mode: polish`, `mode: revision`, or `mode: continuity-revision`. Set your input file, output file, wordcount target, status path, and notes path accordingly before beginning any passes.
 
 For revision mode: also extract `iteration`, `feedbackPathA`, and `feedbackPathB` from the prompt. These are required — if any are missing, write status.json with `"status": "failed"` and stop.
+
+For continuity-revision mode: also extract `iteration` and `feedbackPath` from the prompt. These are required — if any are missing, write status.json with `"status": "failed"` and stop. In this mode, skip steps 3 and 4 below (anti-slop weapons and style target are not needed). Instead, read the beat plan at `.afternoon/plans/{chapterId}.json` for structural truth.
 
 1. Read `.afternoon/config.json` for project settings
 2. Read the story overview from `config.json` → `storyOverview` — you need to know what story you're cleaning. When you rewrite a sentence, the replacement must serve the story's arc, not just avoid a pattern.
@@ -179,6 +213,7 @@ When you replace a violation:
 - **Never add content.** You remove AI patterns and replace with better prose. You don't add scenes, beats, or new observations.
 - **Alter character voice** — if Zelda is curious and cataloging, she stays curious and cataloging.
 - **Over-smooth** — fragments, comma splices, rough edges are intentional friction. If it reads like a craft choice, leave it. If it reads like a tic, fix it.
+- **Preserve structural texture.** Participial phrases (`, Ving`), compound clauses (`, and/but`), em-dashes, and semicolons are desirable connective tissue — `.afternoon/style-guide.json` `textureMetrics` specifies the target density for each. Do NOT strip these as part of slop elimination. Only fix them when they cluster (3+ in one paragraph) or when the construction is genuinely simultaneity-impossible. A replacement that converts a compound sentence into two fragments is making the prose worse, not better.
 
 ## Output
 

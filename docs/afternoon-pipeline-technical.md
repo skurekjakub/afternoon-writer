@@ -353,7 +353,10 @@ Agents are stateless between dispatches. They carry no memory from one chapter t
 
 ## Anti-Slop System
 
-The slop detection system has three layers:
+The slop detection system has five layers:
+
+### Layer 0: Deterministic measurement (tools)
+Before any LLM-based audit, `tools/rhythm_scorer` and `tools/slop_checker` run on the chapter draft to produce structured JSON signals. The rhythm scorer reports 14 metrics (rhythm + texture) and flags telegram runs and texture deserts. The slop checker reports per-category violation counts and cap breaches. These deterministic measurements are consumed by the slop-gate (Phase 1b) and style-auditor, and their targets are calibrated in `.afternoon/style-guide.json`.
 
 ### Layer 1: Priming (all prose-touching agents)
 Before writing or editing, agents read the full anti-slop priming stack:
@@ -370,6 +373,9 @@ The slop-gate reads the slophunter's output and audits it in two passes. Pass A 
 
 ### Layer 3: Leftover sweep (style-editor)
 The style-editor's check #6 catches any AI patterns the slophunter missed — attribution over-explanation, parallel structure, emotional telling, scene clichés.
+
+### Layer 3.5: Texture enforcement (style-auditor ↔ style-editor loop)
+The style-auditor runs rhythm_scorer on v4.md and compares structural texture metrics against `.afternoon/style-guide.json` targets. If texture is below target (participial phrases, compound clauses, em-dashes, semicolons), it emits `textureVerdict: "fail"` with a `textureFindings` block identifying specific deficient zones and enrichment instructions. The orchestrator dispatches the style-editor in revision mode to add structural texture in the flagged zones only, then re-dispatches the auditor in `texture-reaudit` mode — measurement-only, no prose edits, matching the slop-gate pattern (gate reads, editor writes). This converges over up to 5 iterations, closing the gap between measured texture density and the human-calibrated target range.
 
 ### Hard caps
 Certain words have per-chapter maximums (defined in slop-hitlist.md): "as if" (1), "pressed" (2), "nodded" (3), "sighed" (2), "smiled" (3), "glanced" (3), "something" (3). The slophunter enforces these and reports before/after counts.

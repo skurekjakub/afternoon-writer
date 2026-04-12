@@ -1,328 +1,200 @@
 # Chapter 11: The Fuse
 
 **POV:** Sylvanas Windrunner (limited third, absolute)
-**Timeline position:** Runs parallel to Chapter 12. While Jaina is already inside Scholomance after Chapter 10's descent, Sylvanas and Cyndia ride south from the Chapter 9 split to brief Arthas, then turn north again when Jaina's trail goes dark.
-**Open location:** Eastweald road south toward Hearthglen and Arthas's field camp.
-**Transport:** Mounted travel on Thalassian horses south through the Eastweald to Arthas's camp, then hard north again toward Caer Darrow.
-**Active cast at open:** Sylvanas, Cyndia.
-**Immediate objective:** Deliver the plague intelligence to Arthas and bring military power to bear before the Cult rolls farther ahead.
+**When:** Runs parallel to Chapter 12. While Jaina is already inside Scholomance after Chapter 10's descent, Sylvanas and Cyndia ride south from the Chapter 9 split to brief Arthas, then turn north again when Jaina's trail goes dark.
+**Where:** Eastweald road south toward Hearthglen and Arthas's field camp.
+**Travel:** Mounted travel on Thalassian horses south through the Eastweald to Arthas's camp, then hard north again toward Caer Darrow.
+**Characters:** Sylvanas, Cyndia.
+**Goal:** Deliver the proof of the plague to Arthas and bring military power to bear before the Cult rolls farther ahead.
 
-## Meta info
+## References
 
-- **Worldbuilding references:** [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
-- **Character references:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Arthas profile](stories/the-plague-road/characters/arthas.md), [Uther profile](stories/the-plague-road/characters/uther.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
-- **Structure references:** [Story arc](stories/the-plague-road/plans/story-arc.md), [Partnership arc](stories/the-plague-road/plans/partnership-arc.md)
+- **Worldbuilding:** [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
+- **Characters referenced:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Arthas profile](stories/the-plague-road/characters/arthas.md), [Uther profile](stories/the-plague-road/characters/uther.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
+- **Structure:** [Story arc](stories/the-plague-road/plans/story-arc.md), [Partnership arc](stories/the-plague-road/plans/partnership-arc.md)
 
-## Knowledge ledger
+## What we know
 
 **What Sylvanas knows at open**
-- Chapter 9 split the investigation cleanly: Jaina took the Barov / Scholomance thread while Sylvanas and Cyndia took the Arthas / Hearthglen thread
-- The contaminated grain network is organized, regional, and embedded in ordinary supply infrastructure
-- Barov holdings sit at the center of the surviving paperwork, but ownership is not yet proof of guilt
-- Lyriel is dead, the formation is reduced, and the team is now undermanned for both field combat and arcane assessment
-- Their field work is catching the plague earlier than institutions can catch it, but still one step behind the rollout because every identified shipment has already landed
-- Cyndia's Chapter 9 breadcrumb points to Arthas at Hearthglen, and the same formal farewell now sits in Sylvanas's file beside the old seller without yet becoming proof
-- Without Jaina present, Sylvanas can brief vector, spread, and logistics but not the deeper host-conditioning theory
+- Chapter 9 split the hunt: Jaina took the Barov trail while Sylvanas and Cyndia took the track heading toward Arthas.
+- The poisoned grain supply is organized, regional, and hidden inside the kingdom's trade routes.
+- Barov properties sit at the center of the trade ledgers, but ownership is not yet proof of guilt.
+- Lyriel is dead, the formation is reduced, and the team is now undermanned for both combat and arcane tracking.
+- Their scouting is catching the plague earlier than institutions can catch it, but still chasing poison that has already spread.
+- Cyndia's Chapter 9 trail points to Arthas at Hearthglen, and the same formal farewell now sits in Sylvanas's memory beside the old seller without yet becoming proof.
+- Without Jaina present, Sylvanas can brief the spread and movement of goods but not the deepest dark magic.
 
-**What Sylvanas does NOT know at open**
-- How Arthas will react once the warning lands
-- Whether Hearthglen is already lost
-- Jaina's exact status on the Barov / Scholomance line
-- Whether the Barovs are complicit or merely penetrated
-- Whether the old seller / repeated farewell pattern matters
+**What Sylvanas doesn't know yet**
+- How Arthas will react once the warning lands.
+- Whether Hearthglen is already lost.
+- Jaina's exact status on the Barov / Scholomance line.
+- Whether the Barovs are complicit or merely infiltrated.
+- Whether the old seller / repeated farewell pattern matters.
 
-**Must not be implied yet**
-- No explicit Mal'Ganis identification
-- No claim that Arthas understands the mechanism just because he understands the threat
-- No suggestion that Jaina's thread is happening later; it is already running in parallel
-- No resolution of the old seller / repeated farewell clue
+**What NOT to do:**
+- No explicit Mal'Ganis identification.
+- No claim that Arthas understands the deeper magic just because he understands the threat.
+- No suggestion that Jaina's descent is happening later; it is strictly running in parallel.
+- No resolution of the old seller / repeated farewell clue.
 
-**What the cast knows leaving the chapter**
-- Arthas is mobilized toward Hearthglen with conviction stronger than nuance
-- Uther has named the flaw in Arthas even though nothing changes here
-- Recall pressure and evidence-erasure are actively collapsing support behind the field investigation
-- Sylvanas and Cyndia turn north toward Caer Darrow while Jaina's interior thread continues in parallel
+**What they learn by the end**
+- Arthas is set marching toward Hearthglen with conviction stronger than nuance.
+- Uther has named the dangerous flaw in Arthas even though nothing changes here.
+- Recall pressure and evidence-erasure are actively collapsing political support behind the hunt.
+- Sylvanas and Cyndia turn hard north toward Caer Darrow while Jaina's descent continues in parallel.
 
 ---
 
-## Arc position
+## Character Arcs
 
 ### Sylvanas
-- **Current stance at open:** If Sylvanas can aim the right humans at the plague fast enough, this can still be treated as a border crisis carried south by necessity.
-- **Surface objective:** Point institutional force at the plague before the Cult rolls farther ahead than two rangers can track.
-- **Pressure source:** The formation is cut down, Jaina is gone, and every human power center Sylvanas could use is attached to people she does not trust to read the threat correctly.
-- **Misbelief manifestation:** Sylvanas still half hopes speed, command instinct, and the right military handoff can cover the missing arcane read.
-- **Chapter test:** She has to brief Arthas, judge Uther, and decide whether using them helps more than it hurts when the wrong solution can still arrive with banners and authority.
-- **Forced choice:** Keep pretending this is somebody else's war to wake up, or cross the line fully and steer human power anyway, even knowing it may move wrong.
-- **End-state shift:** By chapter close the border fiction is dead. Sylvanas is acting inside Lordaeron's collapse, not merely reporting on it.
-- **Carry-forward residue:** Chapter 13 inherits a Sylvanas who is already deep in the wrong country, short one partner, and moving on choices she would rather not have had to make.
+- Sylvanas goes into the chapter believing that if she can just aim the right human army at the plague fast enough, this disaster can still be treated like a simple border crisis.
+- Her team is cut down and Jaina is gone. Sylvanas is forced to go to human strongholds filled with commanders she doesn't actually trust to read the threat correctly.
+- She makes the mistake of hoping that speed, combat instinct, and a clean handing the war to humans can successfully cover for Jaina's missing magical expertise.
+- She has to brief Arthas, judge Uther, and decide whether harnessing this human hosts helps more than it hurts, knowing full well that they might swing the sword in the wrong direction.
+- She is forced to cross the line—she stops pretending this is just somebody else's war to wake up, and actively steers Lordaeron's military power, even knowing the blind spots in its leaders.
+- By chapter close, the comfortable fiction of a simple border defense is dead. Sylvanas is acting deep inside Lordaeron's collapse. Chapter 13 will inherit a Sylvanas who is deep in the wrong country, short her most vital partner, and moving on grim choices she never wanted to make.
 
-### Jaina through Sylvanas's absence
-- **Visible function:** Missing arcane sweep and the voice that would tell Sylvanas when the obvious route is magical bait. Sylvanas feels the hole in the work before she lets herself feel it anywhere else.
-- **POV misread at open:** Sylvanas knows Jaina matters, but she still half imagines raw judgment and speed can manage around the missing magical read.
-- **Correction earned here:** Without Jaina, Sylvanas keeps seeing where the wrong solution becomes attractive. The absence teaches her what Jaina had been preventing.
-- **Interaction rule:** Keep Jaina off-page and simultaneous. She appears as missing capability and unanswered risk, not as a convenient source of new information.
+### Jaina through Sylvanas's POV
+- Sylvanas profoundly misses Jaina's magical sweep and her ability to tell Sylvanas when an obvious physical path is actually a magical trap. Sylvanas feels the massive, dangerous hole in their strengths before she admits the emotional loss.
+- Sylvanas initially still half-imagines her raw judgment and speed can manage without the magic read.
+- However, without Jaina, Sylvanas repeatedly catches herself looking at solutions that are violently wrong. The agonizing absence teaches Sylvanas exactly how much danger Jaina had been silently preventing.
+- Jaina remains entirely off-page and simultaneous. She appears strictly as a lost strength and unanswered risk, not as a convenient source of new information.
 
-### Partnership / team
-- **Operating mode at open:** Split threads, both understrength.
-- **Operational change this chapter:** The absence exposes the weak side of each woman's skill set instead of proving either can replace the other.
-- **Naming/attitude rule:** Jaina's absence and Lyriel's ghost should live in formation changes, route choices, and caution, not speeches.
-- **Do-not-overstate rule:** Do not flatten this into missing-a-friend language. The point is that every route decision is worse without the mage who priced magical terrain.
+### Partnership
+- The two trails are split, leaving both terribly understrength.
+- The brutal separation exposes the weak side of each woman's specific skill set, utterly destroying the idea that either can simply replace the other.
+- Jaina’s absence and Lyriel’s ghost live heavily in Sylvanas’s changed formation tactics, her deeply cautious route choices, and her grim silences, rather than in emotional speeches.
 
 ---
 
-## Cast and handoff rules
+## Cast and next chapter
 
-- **Jaina:** Off-page inside the Barov / Scholomance thread. Do not imply her scenes are later in time than this chapter.
-- **Cyndia:** With Sylvanas throughout; the right flank still carries Lyriel's ghost.
-- **Arthas Menethil:** Human command node Sylvanas chooses to activate.
-- **Uther the Lightbringer:** Secondary command read whose warning matters later even if it changes nothing here.
-- **Captain Falric:** Gatekeeper into Arthas's camp.
-- **Lor'themar:** Off-page institutional pressure through relays and dispatches.
+- **Jaina:** Off-page inside the Barov trail. 
+- **Cyndia:** With Sylvanas throughout; she now permanently covers the right flank to carry Lyriel's ghost.
+- **Arthas Menethil:** The human army commander Sylvanas chooses to activate.
+- **Uther the Lightbringer:** Secondary commander whose grim warning about Arthas matters later, even if it changes nothing right now.
+- **Captain Falric:** The stubborn gatekeeper guarding Arthas's camp.
+- **Lor'themar:** Off-page political pressure reaching Sylvanas through dispatches and messengers.
 
-**Chapter handoff target:** Chapter 12 continues the simultaneous Scholomance interior thread. Chapter 13 opens once Sylvanas reaches Caer Darrow after the northbound redirect made here.
+**Next chapter starts:** Chapter 12 continues the simultaneous Scholomance interior. Chapter 13 opens once Sylvanas reaches Caer Darrow after the frantic northbound redirect made here.
 
 ---
 
 ## Scene 1: The Road Alone
 
-**Scene function:** Show the reduced formation as live deficit, then prove the territory is already being administered by the plague.
-**Cast in scene:** Sylvanas, Cyndia
-**Knowledge at scene start:** Jaina is on the Barov line alone; the southbound thread must deliver institutional force fast enough to matter.
+**What happens:** The reduced formation is a dangerous deficit, and the surrounding territory is already quietly rotting.
+**Characters:** Sylvanas, Cyndia.
+**Where we start:** Jaina is alone on the Barov line; the southbound ride must deliver military force fast enough to actually matter.
 
-### Beat 1 — Sequel: Without her
-- **Emotion:** The absence is operational first. Sylvanas feels Jaina and Lyriel both in the places they are not.
-- **Dilemma:** Slow down for the missing capabilities, or keep speed and accept that neither ranger can read the magical terrain the way Jaina would.
-- **Decision:** Keep speed and compensate with caution at every place a mage would have priced automatically.
-- **Value shift:** confident motion -> explicit deficit
-- **New on-page information:**
-  - Cyndia checks right twice where Lyriel used to live in the formation
-  - Sylvanas now pauses at magical chokepoints she would once have crossed without a thought
-  - The wound from Chapter 9 is healing, not healed, and Jaina's bandage is still doing its work
-- **Still unknown after beat:**
-  - Whether speed can outrun what the remaining two-woman formation can no longer read
-- **Sensory anchors:**
-  - Creak of bow against Sylvanas's back
-  - Hoofbeats too few for the formation this road should carry
-  - Cold air pulling at the healing wound when she twists to check the line
-- **Transition intent:** The landscape itself answers what kind of territory they are moving through now.
+### Beat 1
+- The absence of Jaina and Lyriel is a massive practical problem before it is an emotional one. Sylvanas has to decide whether to slow down to compensate for her lost strength, or keep her speed and accept that she cannot read the magical terrain the way Jaina would.
+- She chooses speed but compensates with grueling caution at every place a mage would have cleared automatically. Cyndia compulsively checks the right flank twice, entirely absorbing the space where Lyriel used to ride. Sylvanas forces herself to pause at magical chokepoints she once would have confidently crossed without a thought. The wound from Chapter 9 is only healing, not healed, and Jaina's bandage is still doing its work. They don't know if mere speed can safely outrun what the two-woman formation can no longer see.
+- The leather creak of a bow pulling against Sylvanas's back; hoofbeats sounding far too sparse for the tight formation this road should carry; cold air pulling sharply at the healing wound whenever she twists to check the line.
+- The eerie landscape itself quickly answers what kind of terrible territory they are moving through now.
 
-### Beat 2 — Scene: The dead ground
-- **Goal:** Move south through contested territory toward Arthas's reported position.
-- **Conflict:** The Eastweald shows plague occupation without open battle: silent villages, ruined harvests, watchers who do not need to engage.
-- **Outcome:** **yes-but** — Sylvanas and Cyndia keep moving, but the country they ride through is already lost in ways cavalry cannot see
-- **Value shift:** explicit deficit -> occupied plague country
-- **New on-page information:**
-  - Whole settlements are being administered by aftermath rather than openly fought over
-  - Cult watchers observe and withdraw because the land is already working for them
-  - The smell of treated grain is now part of the road itself
-- **Still unknown after beat:**
-  - How far south the contamination has already spread
-  - Whether Hearthglen and Arthas's camp are already consuming compromised stores
-- **Sensory anchors:**
-  - Grain left rotting on the stalk
-  - Dog at a gate too listless to bark
-  - Sweet-chemical smell rolling off closed granaries
-- **Transition intent:** The scale of the country forces Sylvanas to think in institutional rather than ranger-sized responses.
+### Beat 2
+- They ride hard south through contested territory toward Arthas's reported position. The Eastweald shows all the terrible signs of cult occupation without open battle: silent villages, ruined harvests, and hidden watchers who feel so secure they do not even need to engage.
+- Sylvanas and Cyndia keep moving, but the country they ride through is already utterly lost in ways normal cavalry can never see. Whole settlements are being casually administered by the aftermath rather than openly fought over. Cult watchers simply observe and withdraw because the land is already quietly working for them. The sickening smell of treated grain is now a permanent part of the road itself. They don't know how far south the sickness has already spread, or whether Hearthglen and Arthas's camp are already consuming compromised stores.
+- Sickly grain left rotting directly on the stalk; a farm dog lying at a gate, far too listless and sick to even bark; the cloying, sweet-chemical smell rolling heavily off supposedly secure granaries.
+- The staggering scale of the corrupted country completely forces Sylvanas to abandon her ranger-sized thinking and prepare for a massive, army-sized response.
 
-### Beat 3 — Sequel: The calculation
-- **Emotion:** Grief compressed into mathematics.
-- **Dilemma:** Keep the threat on ranger scale, or admit the operation now requires a prince and an army.
-- **Decision:** Go to Arthas. Two scouts cannot dismantle a kingdom-wide plague infrastructure.
-- **Value shift:** occupied plague country -> institutional escalation chosen
-- **New on-page information:**
-  - Lyriel's death has become part of Sylvanas's argument for scale
-  - The split from Chapter 9 is already bending the border-defense Lie even if Sylvanas does not say so aloud
-  - Cyndia's Hearthglen breadcrumb is now the operational target, not background oddity
-- **Still unknown after beat:**
-  - Whether Arthas becomes tool or obstacle once he hears the truth
-- **Sensory anchors:**
-  - Evening road flattening under hard pace
-  - Cyndia riding tighter than a full formation would allow
-  - The feeling of making a clean decision for ugly reasons
-- **Transition intent:** The road delivers them to the prince's camp and the visible war Lordaeron understands.
+### Beat 3
+- Sylvanas forces her grief down into grim iron resolve. She has to finally admit that two elite scouts cannot dismantle a cult spanning the kingdom. The dark magic spreading across the land now absolutely requires a prince and an army.
+- She commits to bringing Arthas into the war. Lyriel's death becomes the bitter core of Sylvanas's argument for massive scale. The brutal split from Chapter 9 is already proving that sticking to their strict border-defense mandate is a lie, even if Sylvanas refuses to say it out loud. Cyndia's Hearthglen trail becomes their desperate target. Sylvanas still does not know whether Arthas will become a useful weapon or a stubborn obstacle once he hears the truth.
+- The darkening evening road flattening under their incredibly hard pace; Cyndia riding much tighter to Sylvanas than a full formation would ever allow; the grim, heavy feeling of making a clean, necessary decision for incredibly ugly reasons.
+- The road finally delivers them to the massive sprawl of the prince's camp, placing them directly in the visible, traditional war Lordaeron currently understands.
 
 ---
 
 ## Scene 2: The Prince's Camp
 
-**Scene function:** Put Sylvanas's careful field intelligence in front of a military machine built for the wrong kind of enemy.
-**Cast in scene:** Sylvanas, Cyndia, Arthas, Captain Falric, Lordaeron troops, Silver Hand presence
-**Knowledge at scene start:** The plague picture is clear enough to brief; the human command structure has not yet absorbed it.
+**What happens:** Sylvanas puts her careful ranging reports in front of a massive army built entirely for the wrong kind of enemy.
+**Characters:** Sylvanas, Cyndia, Arthas, Captain Falric, Lordaeron troops, Silver Hand presence.
+**Where we start:** The plague picture is finally clear enough to lay before the prince, but the human leadership is entirely unprepared to absorb it.
 
-### Beat 4 — Scene: The army
-- **Goal:** Assess Arthas's camp and confirm that real institutional power is present.
-- **Conflict:** Everything about the camp is configured for visible war — cavalry lanes, outward defenses, field-forge tempo — while the plague works through bread, not charges.
-- **Outcome:** **yes-but** — Sylvanas finds the force she came for, but it is aimed at the wrong shape of threat
-- **Value shift:** institutional escalation chosen -> visible-war machine
-- **New on-page information:**
-  - Arthas commands a substantial, disciplined field force with serious reach
-  - The camp's medical tents are already treating sickness the Light does not easily answer
-  - Sylvanas can see both the military usefulness of the camp and its blindness to the enemy in the grain
-  - Sylvanas can feel where Jaina would have read the camp's sickness pattern faster and with more precision than anyone here
-- **Still unknown after beat:**
-  - Whether anyone here can be redirected before the plague outruns the briefing
-- **Sensory anchors:**
-  - Hammering at the field forge
-  - Mud, banners, and cavalry smell layered over healer's incense
-  - Low uncertainty running through a camp that knows something is wrong but not what
-- **Transition intent:** Sylvanas now has to pass through protocol without losing urgency.
+### Beat 4
+- Sylvanas assesses Arthas's massive camp to confirm that real, the might of Lordaeron is present. But everything about the camp is perfectly configured for visible, traditional war—cavalry lanes, outward defenses, field-forge tempo—while the plague silently works through bread and water, not cavalry charges.
+- She finds the blunt force she came for, but sees immediately that it is aimed blindly at the wrong shape of threat. Arthas commands a substantial, highly disciplined field force with serious reach. However, the camp's healers' tents are already treating a strange sickness that the holy Light does not easily answer. Sylvanas sees both the immense military usefulness of the camp and its terrifying blindness. She acutely feels Jaina's absence, knowing Jaina would have read the camp's sickness pattern far faster and with vastly more precision than any human healer here. She doesn't know if anyone here can be redirected before the plague outruns her briefing.
+- The rhythmic, deafening hammering at the busy field forge; thick mud, snapping banners, and heavy cavalry smell layered nauseatingly over the healers' burning incense; a low, creeping uncertainty running through an entire camp that clearly knows something is wrong but has no idea what.
+- Sylvanas now has to impatiently force her way through stiff human ceremony without losing her vital urgency.
 
-### Beat 5 — Scene: The gatekeeper
-- **Goal:** Secure an audience with Prince Arthas quickly enough for the warning to matter.
-- **Conflict:** Diplomatic protocol and human command structure stand between urgency and the prince.
-- **Outcome:** **yes-but** — access is granted, but only after Sylvanas endures the kind of chain-of-command friction she hates
-- **Value shift:** visible-war machine -> audience secured
-- **New on-page information:**
-  - Falric is efficient, loyal, and defined by service to Arthas
-  - The camp's rumor-line already knows the healers are failing against something strange
-  - Even at speed, this army still processes information through rank, permission, and optics
-- **Still unknown after beat:**
-  - Whether Arthas will hear the warning as a command brief or as another unwelcome theory
-- **Sensory anchors:**
-  - Falric's holy plate ringing differently from common steel
-  - Healers' tents visible beyond the checkpoint
-  - Sylvanas containing open impatience because the audience matters more than the insult
-- **Transition intent:** The formal barrier falls and the warning finally reaches the right tent.
+### Beat 5
+- She must quickly secure an audience with Prince Arthas before the warning becomes useless. Exhausting court ceremony and stiff human army ranks stand stubbornly between her urgency and the prince's tent.
+- She is eventually granted access, but only after enduring the exact kind of blind rigid ranks of human armies she absolutely despises. Captain Falric acts as the unyielding gatekeeper—efficient, intensely loyal, and defined entirely by his service to Arthas. Even through the resistance, Sylvanas notices the camp's nervous rumor-line already knows the holy healers are completely failing against the sickness. Sylvanas still doesn't know if Arthas will actually hear her warning as a serious command brief or brush it off as just another wild elf tale.
+- Falric's heavy, holy plate armor physically ringing differently from common steel; the crowded, desperate healers' tents visible just beyond the checkpoint; Sylvanas aggressively containing her open impatience because securing the audience matters far more than the petty insult of waiting.
+- The formal barrier finally frustratingly falls, placing Sylvanas directly inside the right tent.
 
-### Beat 6 — Scene: The meeting
-- **Goal:** Present the plague intelligence in a form Arthas can act on.
-- **Conflict:** Sylvanas has the strategic picture, but not Jaina's full arcane mechanism; she must brief through personal history and incomplete explanatory depth.
-- **Outcome:** **yes-but** — Arthas listens seriously this time, but he receives the what and where more cleanly than the how
-- **Value shift:** audience secured -> attention engaged
-- **New on-page information:**
-  - The grain network overlays the same map Arthas has been using for visible war
-  - Sylvanas withholds Kel'Thuzad, Jaina's location, and the deepest mechanism because those belong to the other thread or remain incomplete
-  - Without Jaina, Sylvanas can describe what the plague does and where it moves, but not the full body-side answer
-  - Arthas responds to Sylvanas when she speaks in command language rather than warning language
-- **Still unknown after beat:**
-  - Whether Arthas's reaction will be proportional to the threat instead of merely decisive
-- **Sensory anchors:**
-  - Campaign map filling with blue plague marks over red war marks
-  - Canvas-walled tent suddenly too small for the scale of the intelligence
-  - Arthas's attention sharpening the moment the data stops sounding theoretical
-- **Transition intent:** Arthas's conversion happens before Sylvanas has even fully finished the brief.
+### Beat 6
+- Sylvanas presents her hard-won proof of the plague rapidly, shaping it into a form Arthas can actually act on. She has the brutal full terrifying picture, but totally lacks Jaina's deep magical explanation; she must brief entirely through sheer command presence and terrifying field facts without the deepest magical truth.
+- Arthas listens incredibly seriously this time. The spread of the cursed grain perfectly overlays the exact same map he has been uselessly using for his visible war. Sylvanas deliberately withholds Kel'Thuzad's name, Jaina's solitary location, and the deepest bodily magic because she doesn't fully have those answers without Jaina present. Arthas violently responds to Sylvanas the moment she stops speaking in vague warnings and starts speaking his native language of enemy camps and supply lines. She doesn't know if his reaction will be matched to the danger, or if he will just impulsively strike.
+- The grand campaign map rapidly filling with chilling blue plague marks directly over the standard red war marks; the massive canvas-walled tent suddenly feeling impossibly small for the sheer scale of the threat; Arthas's sharp attention locking in the exact moment Sylvanas's mapping stops sounding like a wild elf tale and becomes a tangible enemy.
+- Arthas's total conversion to her cause happens before she has even fully finished the brief.
 
 ---
 
 ## Scene 3: The Conversion
 
-**Scene function:** Turn a correct briefing into a dangerous mobilization and plant the warning Uther sees too late.
-**Cast in scene:** Sylvanas, Arthas, Uther, Cyndia in the background, Lordaeron command staff
-**Knowledge at scene start:** Arthas has the correct target at last, but not the full mechanism or pacing wisdom behind it.
+**What happens:** A stark warning becomes a highly dangerous march, planting a grim warning Uther sees far too late.
+**Characters:** Sylvanas, Arthas, Uther, Cyndia, Lordaeron command staff.
+**Where we start:** Arthas has the correct target at last, but completely lacks the magical understanding or pacing wisdom behind it.
 
-### Beat 7 — Scene: The speed of certainty
-- **Goal:** Finish the briefing and activate institutional power against the Cult.
-- **Conflict:** Arthas does not need steering once the pattern clicks; he turns certainty into motion faster than the intelligence can finish unfolding.
-- **Outcome:** **yes-but** — Sylvanas gets the army moving, but it moves at Arthas's tempo rather than the plague's logic
-- **Value shift:** attention engaged -> power mobilized at dangerous speed
-- **New on-page information:**
-  - Hearthglen's scattered reports instantly slot into place for Arthas once grain becomes the frame
-  - Arthas is the kind of commander who decides before the full analytical foundation is built
-  - Sylvanas recognizes the danger of a man who understands threat faster than nuance
-- **Still unknown after beat:**
-  - What civilian cost Arthas's speed will create once he meets a plague he cannot simply charge
-- **Sensory anchors:**
-  - Arthas's hand claiming the map instead of studying it
-  - Orders beginning before the discussion has technically ended
-  - The command tent changing temperature when certainty turns into mobilization
-- **Transition intent:** Uther reads the shift in the camp immediately and becomes the only person willing to name the prince's flaw.
+### Beat 7
+- Arthas does not need any steering once the pattern clicks in his mind. He aggressively turns his new certainty into massive military motion far faster than Sylvanas's warning can even finish unfolding.
+- Sylvanas successfully gets the great army moving, but it immediately begins moving at Arthas's furious, impatient tempo rather than respecting the plague's quiet logic. Hearthglen's scattered, confusing reports instantly slot perfectly into place for Arthas once tainted grain becomes the frame. Arthas proves he is the kind of commander who violently decides his path before the full full truth of the threat is built. Sylvanas instantly recognizes the deep danger of a prince who understands a threat far faster than he understands nuance. She doesn't know what terrible cost in innocent lives his blinding speed will create once he hits a sickness he cannot simply charge with a hammer.
+- Arthas's heavy, gauntleted hand violently claiming the map instead of studying it; loud, decisive orders beginning before The war council conversation has even technically ended; the entire command tent radically changing temperature when his certainty turns into unstoppable march.
+- Uther reads the dangerous shift in the camp immediately, becoming the only person willing to name the prince's fatal flaw aloud.
 
-### Beat 8 — Sequel: The Lightbringer
-- **Emotion:** Professional respect complicated by dread.
-- **Dilemma:** Trust the necessary hammer because it exists, or weigh Uther's warning even though it changes nothing operationally right now.
-- **Decision:** Let mobilization stand and file Uther's assessment for the future.
-- **Value shift:** power mobilized at dangerous speed -> named flaw in the prince
-- **New on-page information:**
-  - Uther sees Arthas as someone who cannot retreat from a battle he thinks he must win
-  - The mentor has already recognized the catastrophe vector even if he cannot stop it
-  - Sylvanas understands the warning well enough to be chilled by it and still not countermand it
-- **Still unknown after beat:**
-  - Whether anyone in Lordaeron can still moderate Arthas once he has chosen a target
-- **Sensory anchors:**
-  - Two veteran commanders speaking outside canvas instead of inside ceremony
-  - Uther's eyes carrying foreknowledge rather than panic
-  - Camp motion rising behind them while the warning lands and goes nowhere
-- **Transition intent:** The prince's column rides before doubt can accumulate around him.
+### Beat 8
+- Sylvanas is caught between deep professional respect and a creeping dread. She must decide whether to just trust the massive, necessary hammer because it is finally swinging, or deeply weigh Uther's warning even though it changes nothing right now.
+- She lets the furious march stand, but quietly files Uther's grim assessment for the future. Uther privately approaches Sylvanas, clearly seeing Arthas as a man who cannot ever back down from a battle he thinks he must win. The old mentor has already recognized the incoming catastrophe perfectly, even if he cannot physically stop his prince. Sylvanas understands the old paladin's warning well enough to be profoundly chilled by it, yet she cannot countermand the army she just successfully launched. She genuinely doesn't know if anyone left in Lordaeron can still moderate Arthas once he has locked onto a target.
+- Two hardened veteran commanders speaking quietly but intensely outside the canvas instead of inside formal ceremony; Uther's tired eyes carrying a heavy, terrible foreknowledge rather than simple panic; the massive, deafening camp motion rising rapidly behind them while the old man's warning lands perfectly and goes absolutely nowhere.
+- The prince's massive column rides furiously.
 
-### Beat 9 — Scene: The fuse
-- **Goal:** Observe the consequence of the strategic play and confirm the army is actually moving.
-- **Conflict:** Success feels wrong because the plague is not an enemy that yields to cavalry tempo.
-- **Outcome:** **yes-but** — Sylvanas gets exactly the mobilization she wanted, and immediately feels the shape of the mistake she may have launched
-- **Value shift:** named flaw in the prince -> fuse lit
-- **New on-page information:**
-  - Arthas can turn a camp inside out within the hour once conviction lands
-  - The army now rides toward Hearthglen under the prince's unbroken certainty
-  - Sylvanas feels, without yet proving, that she has handed catastrophe a prince-shaped spear
-- **Still unknown after beat:**
-  - Where this fuse ends once it leaves Hearthglen
-- **Sensory anchors:**
-  - Dust from six hundred horses hanging in autumn light
-  - Struck tents and rolling wagons replacing the earlier camp sprawl
-  - The road swallowing Arthas faster than thought can catch him
-- **Transition intent:** The strategic play is complete, which frees the chapter for institutional backlash and the more urgent personal thread.
+### Beat 9
+- Sylvanas observes the awesome consequence of her desperate gamble, confirming the vast army is actually moving. But the blinding success feels wrong, because the plague is not an enemy that yields to cavalry charges.
+- She gets exactly the massive march she demanded, and immediately feels the terrifying shape of the mistake she may have just unleashed. Arthas turns the massive camp completely inside out within the hour once his conviction lands. The army now rides violently toward Hearthglen under the prince's unbroken, terrifying certainty. Sylvanas deeply feels, without yet being able to prove it, that she has just handed catastrophe a perfect, prince-shaped spear. She doesn't know where this violently lit fuse will end once it hits Hearthglen.
+- Massive, choking clouds of dust from six hundred warhorses hanging thickly in the autumn light; struck tents and heavily rolling supply wagons completely replacing the earlier, static camp sprawl; the dark road violently swallowing Arthas faster than rational thought can possibly catch him.
+- The gamble is complete, freeing Sylvanas to face political backlash and the more urgent personal threat.
 
 ---
 
-## Scene 4: The Redirect
+## Scene 4: The Call North
 
-**Scene function:** Tighten the political vise, then make Jaina's silence the new highest-priority emergency.
-**Cast in scene:** Sylvanas, Cyndia, Farstrider relay network through dispatches
-**Knowledge at scene start:** Arthas is in motion and the broader response has been handed to human command.
+**What happens:** The political vise tightens completely, making Jaina's terrifying silence the most dire concern.
+**Characters:** Sylvanas, Cyndia, Farstrider messengers.
+**Where we start:** Arthas is in full, violent motion, and the broader response to the plague has been successfully handed off to human armies.
 
-### Beat 10 — Sequel: The grinding
-- **Emotion:** Encirclement.
-- **Dilemma:** Keep operating as though field evidence can still defend itself, or admit that institutions are collapsing the operation from behind.
-- **Decision:** Treat Arthas as the launched instrument and keep the field until a more urgent pull overrides everything else.
-- **Value shift:** fuse lit -> political vise tightening
-- **New on-page information:**
-  - Verification teams back home are finding cleaned sites and vanishing evidence
-  - Lor'themar is losing ground against recall pressure
-  - Bureaucracy is becoming a second front instead of a support structure
-- **Still unknown after beat:**
-  - How long until recall pressure becomes operational fact rather than threat
-- **Sensory anchors:**
-  - Lor'themar's handwriting telling a story all by itself
-  - Dispatch parchment still warm from relay hands
-  - The feeling of being attacked by process rather than blades
-- **Transition intent:** Jaina's line stops being theoretical risk and becomes the urgent thread demanding immediate movement.
+### Beat 10
+- Sylvanas feels total political encirclement closing in. She has to decide whether to stubbornly keep acting as though the truth of the plague will speak for itself, or admit that her own Silvermoon's politics are actively sabotaging their mission from behind.
+- She treats Arthas as the loosed weapon and decides to hold the field until a more urgent pull overrides everything else. Farstrider scouts back home are finding completely scrubbed sites and vanishing evidence. Lor'themar is desperately losing ground against massive recall pressure from Silvermoon. The suffocating royal court is rapidly becoming a second active front instead of a support structure. Sylvanas doesn't know how long it will be until the recall pressure becomes a non-negotiable physical limit rather than just a fierce threat.
+- Lor'themar's tight, angry handwriting telling a story of political failure all by itself; dispatch parchment still physically warm from the desperate messenger hands that carried it; the crushing, helpless feeling of being fiercely attacked by process and paper rather than blades.
+- Jaina's silent line abruptly stops being a distant worry and violently becomes the urgent path demanding immediate, total movement.
 
-### Beat 11 — Scene: The pull
-- **Goal:** React to intelligence that Jaina entered Caer Darrow and has not returned.
-- **Conflict:** The Arthas thread is strategically live, but the partner thread has become a confirmed exposure inside the enemy's core.
-- **Outcome:** **yes-but** — Sylvanas hands the broad response off to Arthas and pivots north at once, but she rides toward a problem she cannot yet read
-- **Value shift:** political vise tightening -> northbound recovery mission
-- **New on-page information:**
-  - Farstrider relays confirm Jaina entered the Barov estate, crossed to Caer Darrow, and did not come out
-  - Sylvanas reprioritizes instantly, proving that the partnership now outranks the prince-thread in field urgency
-  - Chapter 11 and Chapter 12 are explicitly parallel rather than consecutive
-- **Still unknown after beat:**
-  - What Jaina has found inside
-  - Whether she is compromised, trapped, or simply too deep to leave
-- **Sensory anchors:**
-  - Bow back in Sylvanas's hand the moment the direction changes
-  - Horses turning north while Arthas's dust still hangs to the south
-  - Cyndia reading the order before Sylvanas has to say it twice
-- **Transition intent:** Chapter 12 remains inside the room Jaina entered; Chapter 13 opens when Sylvanas reaches that room.
+### Beat 11
+- Sylvanas receives terrifying urgent word that Jaina entered Caer Darrow and has not returned. The Arthas march is an open war, but the missing partner has just become a confirmed, horrific danger deep inside the enemy's heart.
+- She instantly hands the fate of the kingdom entirely off to Arthas and aggressively pivots her horses hard north at once. Farstrider messengers confirm firmly that Jaina entered the Barov estate alone, crossed the dark water to Caer Darrow, and did not come back out. Sylvanas changes her focus instantly, proving without words that the partnership now vastly outranks the prince's massive army in pure field urgency. She rides furiously toward a massive problem she cannot yet read. She doesn't know what horrifying thing Jaina has found inside, or whether she is compromised, captured, or simply physically trapped too deep to leave.
+- The familiar weight of the bow back firmly in Sylvanas's hand the exact moment the direction violently changes; Thalassian warhorses turning hard north while Arthas's massive dust cloud still hangs thickly to the south; Cyndia perfectly reading the desperate order in her commander's posture before Sylvanas has to say it twice.
+- Chapter 12 remains deep inside the room Jaina entered; Chapter 13 opens when Sylvanas reaches that room.
 
 ---
 
-## Chapter close / handoff
+## Chapter end
 
-**Active cast at close**
+**Characters at the end**
 - Sylvanas
 - Cyndia
 
-**Facts locked for Chapter 12 / Chapter 13**
-- Sylvanas and Cyndia are moving north toward Caer Darrow
-- Arthas has been mobilized toward Hearthglen with full conviction and inadequate nuance
-- Uther's warning about Arthas is now planted in the file
-- Recall pressure and evidence-erasure are active political threats behind the field operation
-- The old seller / repeated farewell pattern remains unresolved and still lacks proof
-- Chapter 12 is simultaneous interior time; Chapter 13 is the arrival created by this redirect
+**What we learn for Chapter 12 / Chapter 13**
+- Sylvanas and Cyndia are moving furiously north toward Caer Darrow to find Jaina.
+- Arthas has been marched toward Hearthglen with terrifying conviction and incredibly blind fury.
+- Uther's grim, entirely correct warning about Arthas's flaws is now firmly planted in the reader's mind.
+- Desperate recall pressure and active evidence-erasure are terrible political threats slowly destroying the ranging mission from behind.
+- The old seller / repeated farewell pattern remains quietly unresolved and still totally lacks proof.
+- Chapter 12 takes place in simultaneous time; Chapter 13 is the arrival created by this redirect.
 
-**Facts not yet earned**
-- Explicit Mal'Ganis identification
-- Hearthglen and Stratholme outcomes on page
-- Jaina's actual state inside Scholomance
-- Any repair of the split partnership
+**What we still don't know**
+- Any explicit Mal'Ganis identification.
+- Hearthglen and Stratholme outcomes on the page.
+- Jaina's actual, physical state currently inside Scholomance.
+- Any emotional repair of the aggressively split pack.

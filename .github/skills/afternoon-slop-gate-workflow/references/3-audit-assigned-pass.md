@@ -21,6 +21,16 @@ Use these audit-wide rules for every guide in the selected pass:
 2. **One pattern per finding.** If one sentence violates two guides, record two findings.
 3. **The suggested fix must target the cited text.** When you later write suggestions, replace the exact cited sentence or fragment, not the surrounding paragraph.
 
+## Tool-signal audit pass
+
+Before the per-guide loop, cross-reference the slop checker matches against the current pass's guide mapping (from Phase 1b). For every slop checker match that maps to a guide in this pass:
+
+1. **Check whether the match line appears in your KILL or KEEP list.** If the line is already a KILL from the guide's own detection, add `"toolSignal": "<pattern_name>"` to the finding. Done.
+2. **If the line was not surfaced by the guide's detection**, add it as a new candidate. The tool found a syntactic pattern the guide sweep missed. Evaluate it using the guide's KILL/KEEP logic — the tool catches shapes, not intent, so legitimate uses exist (especially for `narrator_verdict` patterns where human prose uses the same constructions for concrete descriptions).
+3. **If you KEEP a tool-flagged line**, explain why the pattern is legitimate in context. Concrete physical descriptions ("too large for the doorway"), purpose clauses ("long enough for everyone to escape"), and in-character assessments are valid KEEP reasons. Abstract narrator editorializing ("late enough to be decoration", "too controlled for panic") is the target.
+
+This ensures every deterministic tool hit is audited. No tool signal goes unaddressed.
+
 ## Per-guide audit loop
 
 Create one ordered todo per guide in the selected pass:

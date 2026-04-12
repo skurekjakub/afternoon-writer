@@ -1,5 +1,5 @@
 ---
-name: cli-debug-log-analysis
+name: copilot-cli-debug-log-analysis
 description: "Parse and analyze Ralph CLI debug logs (cli-debug.log) to extract subagent spans, tool call sequences, token consumption, context compaction events, and error patterns. Use this skill whenever you need to manually parse a cli-debug.log file — for example when the subagent-mapper's pre-extracted data is insufficient or missing, when debugging a specific subagent's behavior in detail, or when investigating infrastructure issues visible only in raw logs. Trigger on phrases like 'parse the debug log', 'extract subagent spans', 'analyze tool calls from the log', 'what happened in the cli-debug log', or 'dig into the raw log'."
 ---
 

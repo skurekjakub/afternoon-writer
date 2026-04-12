@@ -135,7 +135,8 @@ If you catch yourself writing a passage that sounds more clinical or analytical 
 Your expanded chapter is not done until you have:
 
 1. Re-read the entire v3.md for AI patterns — telegram prose, "The [N] [V]ed" stacking, voice contamination
-2. Checked that verbs aren't monotonous and overused (for example "pressed" ≤6, "found" as contact ≤1, "slow" ≤4, "felt the" / "could feel" ≤2)
+2. Checked that your additions use connective tissue — participial phrases (`, Ving`), compound clauses (`, and/but`), em-dashes, semicolons. Read `textureMetrics` from `.afternoon/style-guide.json` for target densities. If your expansion is all short declarative sentences, it will read as telegram prose against the surrounding text.
+3. Checked that verbs aren't monotonous and overused (for example "pressed" ≤6, "found" as contact ≤1, "slow" ≤4, "felt the" / "could feel" ≤2)
 3. Checked for repeated multi-word images between your additions and the original prose
 4. Verified sentence opener variety — no three consecutive same-pattern openers, especially at expansion boundaries
 5. Confirmed every sentence passes the Limited Third test: "Who is saying this?"

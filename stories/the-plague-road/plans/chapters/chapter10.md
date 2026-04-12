@@ -1,335 +1,198 @@
 # Chapter 10: The Estate
 
 **POV:** Jaina Proudmoore (limited third, absolute)
-**Timeline position:** Directly follows the Chapter 9 split. Jaina has taken the Barov / Scholomance thread alone while Sylvanas and Cyndia ride south toward Arthas. This chapter ends with Jaina descending; Chapter 12 resumes this thread after a deliberate gap rather than immediate scene-continuation.
-**Open location:** Eastweald road into the Barov estate, with the deeper source signature pulling beyond the house toward Darrowmere Lake and Caer Darrow.
-**Transport:** Riding a Thalassian horse through the Eastweald, then on foot through the estate, then by rowboat across Darrowmere Lake.
-**Active cast at open:** Jaina alone.
-**Immediate objective:** Follow the Barov grain trail into the institution behind the plague and obtain the missing animation-trigger mechanism before institutional delay turns the lead cold.
+**When:** Directly follows the Chapter 9 split. Jaina has taken the Barov / Scholomance thread alone while Sylvanas and Cyndia ride south toward Arthas. This chapter ends with Jaina descending; Chapter 12 resumes this thread after a deliberate gap rather than immediate scene-continuation.
+**Where:** Eastweald road into the Barov estate, with the deeper source signature pulling beyond the house toward Darrowmere Lake and Caer Darrow.
+**Travel:** Riding a Thalassian horse through the Eastweald, then on foot through the estate, then by rowboat across Darrowmere Lake.
+**Characters:** Jaina alone.
+**Goal:** Follow the Barov grain trail into the School of Necromancy behind the plague and find the missing spell that raises the dead before the lead turns cold.
 
-## Meta info
+## References
 
-- **Worldbuilding references:** [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
-- **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Jandice profile](stories/the-plague-road/characters/jandice.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
-- **Structure references:** [Story arc](stories/the-plague-road/plans/story-arc.md), [Partnership arc](stories/the-plague-road/plans/partnership-arc.md)
+- **Worldbuilding:** [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
+- **Characters referenced:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Jandice profile](stories/the-plague-road/characters/jandice.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
+- **Structure:** [Story arc](stories/the-plague-road/plans/story-arc.md), [Partnership arc](stories/the-plague-road/plans/partnership-arc.md)
 
-## Knowledge ledger
+## What we know
 
 **What Jaina knows at open**
-- Chapter 9 split the investigation cleanly: she took the Barov / Scholomance thread while Sylvanas and Cyndia rode south toward Arthas
-- Field work from Chapters 5-9 traced contaminated grain contracts back through Barov infrastructure in the Eastweald
-- Her six minutes of ritual data from the Cult outpost gave her binding sequences but not the animation trigger; the missing mechanism is the reason she came here alone
-- The Chapter 9 read proved the plague is completed through the host body, but not how the dead answer afterward
-- Her sensitivity is letting the party identify plague infrastructure earlier than anyone else would, but they are still one step behind the rollout because every shipment they identify has already landed
-- Cyndia's approach intelligence plus Jaina's own route work say the Barov surface and the deeper arcane source do not fully match
-- The old seller on the north road and the survivor girl's newer grain-man memory remain filed grain-side anomalies, not solved leads
+- Chapter 9 split the hunt: she took the Barov / Scholomance thread while Sylvanas and Cyndia rode south toward Arthas.
+- Field work from Chapters 5-9 traced cursed grain contracts back through Barov paperwork and properties in the Eastweald.
+- Her six minutes reading the spell residue at the Cult of the Damned forward camp gave her binding constraints but not the final awakening curse; this missing piece of magic is the reason she came here alone.
+- The Chapter 9 read proved the plague claims the physical body, but not how the dead are forced to answer afterward.
+- Her magical sensitivity is letting them identify plague sites earlier than anyone else would, but they are still chasing poison that has already spread.
+- Cyndia's scouting warnings plus Jaina's own route work say the Barov surface and the deeper arcane source do not fully match.
+- The old seller on the north road and the survivor girl's newer grain-man memory remain filed grain-side anomalies, not solved leads.
 
-**What Jaina does NOT know at open**
-- Whether the Barovs are architects, collaborators, or respectable fronts for someone deeper
-- Whether Scholomance is a live production site or only a research/archive node
-- Whether Kel'Thuzad is present
-- Whether institutional help can reach her before the plague timeline outruns it
-- Whether the old seller matters at all
+**What Jaina doesn't know yet**
+- Whether the Barovs are the masterminds, willing hosts, or respectable fronts for a darker master.
+- Whether Scholomance is an active Cult of the Damned stronghold or only a hidden archive.
+- Whether Kel'Thuzad is present.
+- Whether Kirin Tor reinforcements can reach her before the spread of the poison outruns them.
+- Whether the old seller matters at all.
 
-**Must not be implied yet**
-- No explicit Mal'Ganis identification
-- No certainty that the Barovs knowingly designed the plague
-- No resolution of the old seller / grain-man clue
-- No rescue assumption; Sylvanas and Cyndia are on the parallel Arthas thread, not on a same-day escort line
+**What NOT to do**
+- Do not imply any Mal'Ganis identification.
+- Do not confirm that the Barovs knowingly designed the plague.
+- Do not resolve the old seller / grain-man clue.
+- Do not assume Sylvanas and Cyndia will mount a rescue; they are on the parallel Arthas thread, not on a same-day escort line.
 
-**What the cast knows leaving the chapter**
-- The Barov estate and Scholomance are confirmed as live plague-support infrastructure
-- Jandice's vanity is the access vector into the deeper levels
-- Antonidas and the Kirin Tor cannot move at the speed this crisis requires
-- Jaina descends alone carrying the research log and the unresolved mechanism question
+**What they learn by the end**
+- The Barov estate and Scholomance are confirmed as an active Cult of the Damned stronghold.
+- Jandice's vanity as a necromancer is the entry point into the deeper, sealed vaults.
+- Antonidas and the Kirin Tor cannot magically or politically move at the speed this crisis requires.
+- Jaina descends alone, carrying a stolen grimoire of the Damned and the unresolved question of how the dead are awakened.
 
 ---
 
-## Arc position
+## Character Arcs
 
 ### Jaina
-- **Current stance at open:** If Jaina sees clearly enough and moves fast enough, she can carry this lead alone.
-- **Surface objective:** Reach the missing mechanism before the Barov trail gets buried by politics, delay, or a cleaned site.
-- **Pressure source:** She is walking into a live institution without Sylvanas, without Cyndia, and without the tactical voice that usually prices the room before Jaina starts following the theory.
-- **Misbelief manifestation:** Jaina leans harder on rank, analysis, and institutional identity because those are the tools she still has in hand.
-- **Chapter test:** The Barov path only opens if Jaina uses authority and intellect inside rooms she is not actually safe enough to read alone.
-- **Forced choice:** Pretend she can replace missing fieldcraft with speed and brilliance, or accept that direct, exposed entry is safer than trying to imitate a ranger she is not.
-- **End-state shift:** Jaina gets farther in, but the chapter makes plain that competence is not the same thing as safe solo judgment.
-- **Carry-forward residue:** Chapter 12 opens with Jaina deeper inside the answer and more exposed than she would have let herself admit two chapters ago.
+- Jaina arrives at the Barov estate believing that if she sees the magic clearly enough and moves fast enough, she can carry this massive lead alone.
+- She needs to find the missing necromancy before the Barov trail gets buried by politics, institutional delay, or a scrubbed site.
+- But she is walking directly into a dark, entrenched academy without Sylvanas or Cyndia. She lacks the grounded, practical voice that usually spots the physical danger in a room before Jaina gets swept up in tracing the spell-work.
+- Because she lacks fieldcraft, Jaina leans much harder onto her rank, scholarly confidence, and institutional Kirin Tor identity. Those are the only tools she still holds in her own hands.
+- She leans on speed and brilliance. But as she gets farther in, she realizes academic confidence cannot replace true survival. Chapter 12 will open with her much deeper inside the dark magic and far more terribly exposed than she would have let herself admit a few chapters ago.
 
 ### Sylvanas through Jaina's absence
-- **Visible function:** Missing the woman who would ask how long this takes, check the exits, and make Jaina price the room before she chases the theory.
-- **POV misread at open:** Jaina knows Sylvanas matters, but she is still not fully pricing how much of her own safety has been coming from Sylvanas's judgment.
-- **Correction earned here:** Every escalation inside Barov ground proves that being smart and being safe are not the same thing.
-- **Interaction rule:** Keep Sylvanas off-page. She should appear as missing questions, missing habits, and missing friction, not as nostalgic commentary.
+- Sylvanas is profoundly, physically missing. Jaina keenly feels the lack of the woman who would ask how long this takes, who would relentlessly check the exits, and who would force Jaina to measure what taking the next step actually costs.
+- Stepping into the Barov estate alone makes Jaina realize just how much of her physical safety was safely guaranteed by Sylvanas's ranger instincts.
+- Every step into Barov territory proves that recognizing dangerous magic and surviving it are two entirely different skillsets.
+- Sylvanas remains off-page. She appears strictly as missing questions, missing physical habits, and a missing safety net, not as nostalgic commentary.
 
-### Partnership / team
-- **Operating mode at open:** Split by necessity, both threads understrength.
-- **Operational change this chapter:** The partnership is proven by removal. Every escalation now lands without the missing half there to check it.
-- **Naming/attitude rule:** Let the absence hit the work first and the feeling second.
-- **Do-not-overstate rule:** No pining. The point is exposed judgment.
+### Partnership
+- The partnership is currently split by sheer necessity, leaving both threads dangerously understrength.
+- Every new piece of terrifying discovery or magical threat lands poorly without the missing half there to cross-check it.
+- The absence hits Jaina's ability to work safely first, and registers as an emotional loss second.
 
 ---
 
-## Cast and handoff rules
+## Cast and next chapter
 
-- **Sylvanas:** Off-page on the southbound Arthas thread with Cyndia. Do not imply same-scene support.
-- **Cyndia:** Off-page with Sylvanas; her earlier estate intelligence feeds Jaina's approach, but she is not physically present.
-- **Jandice Barov:** Scholarly gatekeeper and vanity vector into Scholomance.
-- **Lord Alexei Barov:** Political surface for the estate and grain operations.
-- **Kel'Thuzad:** Off-page pressure until the final descent; his presence is felt before it is seen.
-- **Cult staff / researchers / servants:** Live institutional background, not shambling dungeon dressing.
+- **Sylvanas & Cyndia:** Off-page on the southbound Arthas thread. Cyndia's earlier scouting notes feeds Jaina's physical approach, but she is emphatically not present.
+- **Jandice Barov:** Dark mage, gatekeeper, and key into Scholomance.
+- **Lord Alexei Barov:** The polished, political surface for the estate and the grain shipments.
+- **Kel'Thuzad:** Off-page pressure until the final descent; his terrifying presence is felt in the wards long before he is visibly seen.
+- **Cult staff / researchers:** Living acolytes and mages studying the dark arts, not shambling dungeon dressing.
 
-**Chapter handoff target:** Chapter 11 runs in parallel on Sylvanas and Cyndia's Arthas track. Chapter 12 returns to Jaina after a deliberate gap, already inside Kel'Thuzad's inner sanctum.
+**Next chapter starts:** Chapter 11 runs strictly in parallel on Sylvanas and Cyndia's Arthas track. Chapter 12 returns directly to Jaina after a deliberate gap, dropping back in when she is already inside Kel'Thuzad's inner sanctum.
 
 ---
 
 ## Scene 1: The Absence
 
-**Scene function:** Show how bad the split is in practice, then upgrade the Barov trail from paperwork suspicion to site-scale alarm.
-**Cast in scene:** Jaina
-**Knowledge at scene start:** The Barov name sits at the center of the grain contracts; Jaina has incomplete ritual data and no escort.
+**What happens:** Jaina sees the true danger of the split, finding the Barov trail is more than paper—it's a massive, screaming magical threat.
+**Cast:** Jaina.
+**Where we start:** The Barov name sits at the center of the grain ledgers. Jaina has fractured spell-fragments and absolutely no escort.
 
-### Beat 1 — Sequel: Without her
-- **Emotion:** The absence is operational before it is personal. Jaina keeps checking right-flank sight lines she would not have checked before Sylvanas.
-- **Dilemma:** Arrive openly under Kirin Tor authority, or attempt fieldcraft she does not actually possess and lose time she already cannot afford.
-- **Decision:** Use institutional identity and direct approach. Better to force the house to react than to pretend she can stalk it like a ranger.
-- **Value shift:** alone and exposed -> purposeful but announced
-- **New on-page information:**
-  - Jaina now thinks in terms of timing and cost, but has nobody to answer the question of how long
-  - The split has already altered her habits even before she names the reason
-  - Open approach will tell whoever controls the estate exactly who is coming
-  - Jaina misses Sylvanas most as the person who would price exits, exposure, and the room's real danger before the room closes
-- **Still unknown after beat:**
-  - Whether open authority buys access or only gives the enemy time to stage-manage
-- **Sensory anchors:**
-  - Thalassian horse sweating under cold Eastweald air
-  - Wagon ruts cut deep into a road maintained by old money
-  - Orchards productive enough to look prosperous until the wrongness catches in the leaves
-- **Transition intent:** The estate comes into view and forces the abstract Barov clue into physical reality.
+### Beat 1
+- Jaina makes her solitary approach toward the estate. The absence of Sylvanas is a practical survival problem before it is a personal one; Jaina finds herself awkwardly checking the tree lines and shadows—things she never had to think about when riding with Sylvanas.
+- She has to decide whether to attempt stealth she doesn't possess, and lose time she cannot afford, or arrive openly under full Kirin Tor authority. She chooses the direct, formal approach. It's better to force the house to react to her rank as an Archmage's apprentice than to pretend she can stalk the grounds like a seasoned ranger. 
+- A Thalassian horse sweating heavily under the cold Eastweald air; deep, old wagon ruts cut into a road clearly maintained by immense wealth; sweeping orchards that look wonderfully productive until the slight, sickly rot catches her eye in the leaves.
+- The grand estate comes directly into view, turning an abstract paper trail into a massive physical reality.
 
-### Beat 2 — Scene: The estate
-- **Goal:** Assess the Barov estate and identify the source of concentrated necromantic contamination.
-- **Conflict:** The estate is beautiful, functioning, and visibly prosperous; the arcane pressure says something beneath or beyond it is a facility.
-- **Outcome:** **no-and** — Jaina confirms she has reached the right place, and the scale is worse than she expected
-- **Value shift:** purposeful but announced -> professional alarm
-- **New on-page information:**
-  - The Barov lands are still operating as a live agricultural hub with regular wagon traffic
-  - The strongest signature radiates past the house toward Darrowmere and Caer Darrow, not from the manor surface alone
-  - The ward architecture reads like infrastructure built over time, not an improvised plague depot
-- **Still unknown after beat:**
-  - Who controls the deepest work
-  - How much the household surface knows about the depths it sits above
-- **Sensory anchors:**
-  - Barov crest over the gate
-  - Workers moving like employees, not prisoners
-  - Tingle in Jaina's hands like standing beside an active ward vault
-- **Transition intent:** Jaina tests the polished surface with Kirin Tor authority and sees how the house answers pressure.
+### Beat 2
+- She assesses the estate's magical aura to pinpoint the source of the necromancy. The estate is beautiful, functioning, and visibly prosperous, but the arcane pressure screams that a monumental dark working lies beneath or beyond it.
+- She confirms she has reached the right place, and the scale of the magic is terrifyingly worse than she expected. The Barov lands operate as a live farming estate with regular, heavy wagon traffic. The strongest magical signature radiates powerfully past the main house toward Darrowmere Lake and Caer Darrow, not from the manor itself. The warding spells feel like a deep, ancient fortress built deliberately over years, not some improvised plague hub. She still doesn't know who commands the deepest magic or how much the mundane household actually knows.
+- The heavy, ornate Barov crest looming over the gate; workers moving with the brisk purpose of paid servants, not cultists or prisoners; a sharp tingle in Jaina's hands, exactly like standing right beside a heavily warded Violet Citadel vault.
+-
 
 ---
 
 ## Scene 2: The Barovs
 
-**Scene function:** Let the Barovs turn suspicion into managed access and install Jandice as both guide and trap.
-**Cast in scene:** Jaina, Lord Alexei Barov, Jandice Barov, servants
-**Knowledge at scene start:** The estate is a mask for something deeper; Jaina needs entry without losing the initiative entirely.
+**What happens:** The Barovs gracefully turn Jaina's suspicion into managed access, introducing Jandice as both Jaina's guide and a magical trap.
+**Cast:** Jaina, Lord Alexei Barov, Jandice Barov, servants.
+**Where we start:** The estate is a brilliant mask for something darker. Jaina needs entry without losing her initiative.
 
-### Beat 3 — Scene: The lord of the estate
-- **Goal:** Gain access to the estate's grain operations and the scholarly activity at Caer Darrow.
-- **Conflict:** Alexei Barov is courteous, unsurprised, and politically prepared; he never gives Jaina the confusion or panic an honest household should show.
-- **Outcome:** **yes-but** — Jaina gets access, but only on a curated route the Barovs control
-- **Value shift:** professional alarm -> suspicious certainty
-- **New on-page information:**
-  - Alexei expected the possibility of scrutiny and has a polished victim-script ready
-  - He frames Barov grain losses as proof the family should welcome investigation
-  - Jandice, not an overseer or steward, is the person chosen to handle Jaina
-- **Still unknown after beat:**
-  - How much Alexei knows about the lower levels specifically
-  - Whether curated access can be leveraged into real access
-- **Sensory anchors:**
-  - Excellent tea in a room too controlled to feel rural
-  - Unlit hearth with enchanted warmth instead of flame
-  - Alexei's still hands resting on the chair arms as if he has already survived this conversation
-- **Transition intent:** Jandice enters and turns a political problem into an intellectual one.
+### Beat 3
+- Jaina confronts Lord Alexei Barov to gain access to the estate's grain shipments and whatever arcane activity is echoing from Caer Darrow. Alexei is courteous, unsurprised, and politically bulletproof.
+- He never gives Jaina the confusion or panic that an honest, surprised noble should show. He grants her access, but only on a highly curated route that the Barovs clearly control. He anticipated the scrutiny from Dalaran and has a polished script ready, masterfully framing Barov ruined crops as proof his family are victims who welcome Kirin Tor aid. He introduces Jandice—not a steward, but a fellow mage—to personally handle Jaina. Jaina still doesn't know if curated access can be successfully leveraged into real access.
+- Excellent, perfectly steeped tea served in a room too tightly controlled to feel truly rural; an unlit stone hearth projecting enchanted, smokeless warmth instead of a natural fire; Alexei's perfectly still hands resting on his chair arms, acting exactly like a man completely unbothered by an inquisitor.
+- Jandice formally enters the room, instantly turning Jaina's political problem into a distinctly magical one.
 
-### Beat 4 — Scene: Jandice
-- **Goal:** Assess the guide the Barovs have assigned and find the weakness in her control of the tour.
-- **Conflict:** Jandice is a genuine intellectual peer, not decorative nobility; curiosity and threat become the same thing the moment she starts citing Jaina's work.
-- **Outcome:** **yes-but** — Jaina identifies pride as leverage, but the guide is far more capable than expected
-- **Value shift:** suspicious certainty -> wary engagement
-- **New on-page information:**
-  - Jandice has Kirin Tor-adjacent training and the hand-marks of a real laboratory practitioner
-  - She knows Jaina's published work closely enough to engage it at full register
-  - Alexei visibly relaxes once Jandice takes charge, confirming where the real competence sits
-- **Still unknown after beat:**
-  - Whether Jandice's need for validation outruns her discipline
-  - How much freedom she actually has under the authority she calls the master
-- **Sensory anchors:**
-  - Reagent scarring on Jandice's hands
-  - Scholarly robes cut like Dalaran dress in Barov colors
-  - Jandice's gaze measuring Jaina the way Jaina measures her back
-- **Transition intent:** Jandice leads Jaina to the lake crossing, where access becomes physical commitment.
+### Beat 4
+- Jaina assesses her new guide. She realizes immediately that Jandice is a genuine spellweaver and a peer in the craft, not just decorative nobility.
+- Jandice has orthodox arcane training, with the unmistakable, caustic reagent burns of an active practitioner of the dark arts. She knows Jaina's published magical texts closely enough to speak to her as an equal. Alexei visibly relaxes once Jandice takes over the conversation, confirming exactly where the real power in the room sits. Jaina discovers that Jandice’s deep pride in her craft is a lever she can pull, but the woman is still far more dangerous than she hoped. Jandice's friendly curiosity turns lethal when she starts casually discussing Dalaran spell theory.
+- Faint but unmistakable reagent burns on Jandice's fine hands; rich robes cut exactly like Dalaran dress but dyed firmly in Barov colors; Jandice's sharp gaze measuring Jaina's power exactly the way Jaina is sizing her up.
+- Jandice effortlessly leads Jaina to the lake crossing, where polite conversation suddenly turns into a terrifying physical commitment.
 
-### Beat 5 — Sequel: The crossing
-- **Emotion:** Professional caution sharpened by the knowledge that this is the last easy exit.
-- **Dilemma:** Report out now and leave with incomplete data, or cross the lake because the precise answer she needs is obviously ahead.
-- **Decision:** Board the boat and accept the curated route.
-- **Value shift:** wary engagement -> threshold crossed
-- **New on-page information:**
-  - Darrowmere's outer ward line doubles as a monitoring boundary
-  - Easy extraction ends the moment Jaina leaves the shore
-  - Jandice rows like someone who has made this crossing hundreds of times
-- **Still unknown after beat:**
-  - Whether Jaina will be treated as guest, peer, or contained witness on the island
-- **Sensory anchors:**
-  - Green-black water that absorbs light instead of reflecting it
-  - Mist closing behind the boat
-  - Brief shimmer when the boat passes the outer ward
-- **Transition intent:** The island fortress resolves into Scholomance's public face.
+### Beat 5
+- Arriving at the dark water, Jaina feels her caution sharpen. The stark knowledge hits her that stepping into the boat removes her last easy physical exit.
+- She has to decide whether to report back to Dalaran now and leave safely with incomplete fragments, or cross the lake because the exact spell she has been hunting is obviously waiting right across the water. She boards the boat and accepts the curated route. Darrowmere's outer ward line doubles seamlessly as an aggressive scrying boundary. Easy physical escape ends the absolute second Jaina leaves the shore.
+- Green-black lake water that ominously swallows the light instead of reflecting it; heavy, unnatural mist closing in solidly behind the small boat; a brief, skin-prickling electrical shimmer that tastes like copper when the boat passes right through the invisible outer ward.
+- The island fortress resolves out of the mist, shifting from a dark rumor into Scholomance's imposing stone face.
 
 ---
 
 ## Scene 3: Scholomance
 
-**Scene function:** Show Scholomance as a real institution and let the mirror start before Kel'Thuzad ever appears.
-**Cast in scene:** Jaina, Jandice, researchers, staff, students
-**Knowledge at scene start:** Caer Darrow is live, warded, and intentionally presented; Jandice may be pried open through vanity.
+**What happens:** Scholomance reveals itself as an intensely real, dedicated School of Necromancy, letting the agonizing realization sink into Jaina before Kel'Thuzad ever visibly appears.
+**Cast:** Jaina, Jandice, acolytes, necromancers, students.
+**Where we start:** Caer Darrow is awake, heavily warded, and intentionally presented to look orderly. Jandice might be pried open through her fierce pride as a necromancer.
 
-### Beat 6 — Scene: The academy
-- **Goal:** Map the scope and methodology of the institution Jandice is willing to show.
-- **Conflict:** The tour is curated, but even the safe face of Scholomance is rigorous enough to prove the operation is far beyond rumor or rogue experimentation.
-- **Outcome:** **yes-but** — Jaina confirms real scale, but every answer makes the institution larger and more disciplined than feared
-- **Value shift:** threshold crossed -> academy facade hiding a real engine
-- **New on-page information:**
-  - Scholomance functions as a live academic institution rather than a dead ruin or isolated lair
-  - Dalaran ward protocols have been modified rather than discarded, meaning the work grows out of orthodox training
-  - Staff choreography shows the visit was anticipated from the moment Jaina crossed the outer ward
-- **Still unknown after beat:**
-  - Where the deepest production levels are
-  - Whether the master is observing directly or only through the building
-- **Sensory anchors:**
-  - Lecture hall with necromantic diagrams on a schoolroom board
-  - Preserved hand left on an instructor's desk as casually as a pointer
-  - Researchers moving with the concentration of any serious academy
-- **Transition intent:** The research wing puts Jaina directly in front of the thought-pattern she cannot dismiss.
+### Beat 6
+- Jaina attempts to map the scope of the dark magic Jandice presents. The upper halls of Scholomance prove the cult is vastly organized.
+- Every answer makes the fortress feel larger, strictly disciplined, and far worse than she feared. Scholomance functions as a wealthy, organized School of Necromancy rather than a ruined dungeon. Orthodox abjuration spells from the Violet Citadel have been cleverly inverted into something profane, proving this necromancy natively grows out of forbidden Kirin Tor teachings. The acolytes' choreography shows Jaina's visit was heavily anticipated. Jaina still doesn't know where the deepest summoning vaults actually are, or if the master is observing her directly through the walls.
+- A pristine lecture hall showing immensely complex necromantic runes drawn cleanly on a blackboard; a perfectly preserved severed hand left resting on an instructor's desk as casually as a wooden pointer; robed students marching through the halls with the exact focused concentration of any serious Dalaran academy.
+- The tour of the upper library puts Jaina directly in front of a magical thought-pattern she recognizes instantly.
 
-### Beat 7 — Sequel: The handwriting
-- **Emotion:** Recognition sharpened into horror.
-- **Dilemma:** Use the research logs to fill the Chapter 9 gap, or step back from a mind that thinks like hers.
-- **Decision:** Read. The intelligence value is too high, and the ease of comprehension is part of the warning.
-- **Value shift:** academy facade hiding a real engine -> mirror absorbed
-- **New on-page information:**
-  - Antonidas's notation system governs Kel'Thuzad's logs in details Jaina uses herself
-  - The missing animation-trigger architecture is present in the notes
-  - The logs imply preservation comes in degrees rather than one flat undead state
-  - Jandice wanted the Kirin Tor prodigy to see the quality of the work, not merely its existence
-- **Still unknown after beat:**
-  - Whether reading these files earns deeper access or simply marks Jaina as recruitable
-- **Sensory anchors:**
-  - Cracked leather log warm from recent use
-  - Familiar margin symbol striking harder than any title page
-  - Dalaran-like ink-and-reagent smell in a room that should feel alien and does not
-- **Transition intent:** Now that Jaina recognizes the thought-pattern, she reads the lower wards more aggressively and notices what the tour omits.
+### Beat 7
+- Jandice presents heavily detailed spellbooks. Jaina’s recognition sharpens into genuine horror. She has to decide whether to read the dark texts and fill her massive knowledge gap, or back away from a mind that so obviously weaves spells exactly like hers.
+- The knowledge is too vital to ignore, and the crushing ease of comprehension warns her of the danger. Archmage Antonidas's own magical ciphers are used to structure Kel'Thuzad's grimoires. The forbidden incantations of the Plague of Undeath are casually laid out right here in the margin notes. The books show that rotting flesh is preserved through dark, layered enchantments rather than one simple curse. Jandice explicitly wanted the Kirin Tor prodigy to see the sheer, towering mastery of the dark arts, not merely its existence. Jaina doesn't know if reading these dark files earns her deeper access or simply marks her to the cult as a recruitable mind.
+- A cracked leather grimoire physically warm from very recent use; the fiercely familiar seal of the Council of Six scratched out and drawn over, striking Jaina harder than any ominous title page; the potent, nostalgic smell of Kirin Tor ink and rare Dalaran reagents filling a room that should smell like a graveyard, but devastatingly does not.
+- Now that Jaina deeply recognizes the hand of a former Archmage, she stops playing polite guest. She tests the lower wards far more aggressively and starts hunting whatever magic the tour is deliberately omitting.
 
-### Beat 8 — Scene: The wards beneath
-- **Goal:** Locate the true production levels and identify the authority chain below Jandice.
-- **Conflict:** Ward density outstrips the visible rooms, and Jandice's first controlled crack reveals that someone below outranks her completely.
-- **Outcome:** **yes-but** — Jaina maps the depths and confirms a hidden core, but reaching it will mean surrendering initiative
-- **Value shift:** mirror absorbed -> hidden master confirmed
-- **New on-page information:**
-  - Lower levels hold active containment, enhancement, and production infrastructure
-  - Jandice's authority stops above private research areas she will not name directly
-  - Jaina's arcane signature has almost certainly been tracked since she crossed the lake
-- **Still unknown after beat:**
-  - Whether outside support can still be summoned in time
-  - Whether going lower is entry or entrapment
-- **Sensory anchors:**
-  - Stone floor humming like a struck tuning fork
-  - Teeth-ache pressure from ward density below
-  - The title "the master" used like an ordinary departmental rank
-- **Transition intent:** Jaina now has to test the institution behind her against the urgency of the one below.
+### Beat 8
+- Jaina pushes her senses to locate the true summoning halls and identify the dark authority waiting below Jandice's level. The ward density massively outstrips the visible rooms above.
+- Jandice's first slip reveals that a darker master below outranks her completely. Jaina successfully maps the depths and confirms a massive hidden core of magic, but reaching it will require surrendering all her remaining escape routes. The lower levels hold active summoning halls, containment vaults, and dark spell-forges. Jandice's authority stops abruptly above crypts she will not name directly. Jaina knows her living arcane signature has almost certainly been tasted by something ancient since she first crossed the lake.
+- The stone floor physically humming with trapped magic like a struck tuning fork; a dull teeth-ache pressure resulting from the sheer, crushing weight of dark wards expanding below; Jandice using the casual, terrifying title "the master" exactly like an ordinary Dalaran academic rank.
+- Jaina now has to fiercely test the Kirin Tor's slow caution against the massive, screaming urgency of the dark magic buried below her.
 
 ---
 
 ## Scene 4: The Decision
 
-**Scene function:** Force institutional failure, then let Jandice's vanity open the final door into the controlled descent.
-**Cast in scene:** Jaina, Jandice, Antonidas via sending stone
-**Knowledge at scene start:** Scholomance is real, the lower levels are active, and someone below is already aware of Jaina.
+**What happens:** The Kirin Tor's slow methods fail completely, and Jandice's pride as an arcane master opens the final door into the deeply warded crypts.
+**Cast:** Jaina, Jandice, Antonidas (via sending stone).
+**Where we start:** Scholomance is overwhelmingly real, the deep vaults are terrifyingly active, and a fallen archmage below is explicitly already aware of Jaina.
 
-### Beat 9 — Sequel: The sending stone
-- **Emotion:** Isolation sharpened into frustration.
-- **Dilemma:** Obey Antonidas and extract with partial proof, or keep pressing while the missing field impressions from Chapter 9 are still fresh enough to matter.
-- **Decision:** Tell Antonidas only that she will document everything and leave safely. She does not disclose that she intends to go deeper.
-- **Value shift:** hidden master confirmed -> institution fails again
-- **New on-page information:**
-  - The Kirin Tor cannot move at plague speed without political clearance it will not get in time
-  - Jaina's sensory memory from the Cult outpost is degrading even though the written notes are not
-  - The "private" room Jandice leaves her in is listening through passive wards
-- **Still unknown after beat:**
-  - Whether the sending-stone call was intercepted
-  - Whether Antonidas would have forbidden the descent if she had told the whole truth
-- **Sensory anchors:**
-  - Waterlogged distortion in Antonidas's voice
-  - Weak blue sending-stone glow fighting heavy ward pressure
-  - Window over Darrowmere making the outside feel impossibly far away
-- **Transition intent:** With institutional backing denied, Jaina turns fully to the one lever still available: Jandice's need to be understood.
+### Beat 9
+- Jaina reaches Antonidas using her sending stone. Her isolation sharply crystalizes into frustration. She must choose whether to obey Antonidas and simply flee with the forbidden remnants she found, or keep pressing deeper while her sense of the magic is still sharp enough to matter.
+- She tells Antonidas only that she will meticulously copy the wards and leave safely; she deliberately lies by omission, not telling him she intends to walk into the crypts. The Kirin Tor refuses to move against a noble house without a noble writ it will never get in time. Jaina's memory of the corrupted grain magic is already fading, even though her stolen notes are perfect. The supposedly "private" room Jandice left her in is actively listening through passive scrying wards. She doesn't know if the spell-call was intercepted or if Antonidas would have aggressively forbidden the descent if she had told him the full, terrifying truth.
+- Terrible, waterlogged static hiding in Antonidas's voice; the weak, flickering blue glow of the sending stone furiously fighting against the heavy, oppressive dark magic of the room; a small window looking out over Darrowmere making the living world feel impossibly far away.
+- With real Dalaran backing totally denied, Jaina turns fully to the only lever she still has: Jandice's desperate, arrogant need to show off her fallen archmagey.
 
-### Beat 10 — Scene: The incomplete data
-- **Goal:** Engage Jandice on the theoretical gap in the plague mechanism and win a path to the deeper levels.
-- **Conflict:** Jaina must play interested colleague rather than investigator, feeding Jandice's pride without losing sight of what that role costs.
-- **Outcome:** **yes-but** — Jandice opens the theoretical door, but only because Jaina is willing to stand in the mirror with her
-- **Value shift:** institution fails again -> the Lie provides an opening
-- **New on-page information:**
-  - Jandice finds the animation-trigger problem elegant and almost overexplains it
-  - "Resonance" surfaces as the key concept that completes the Chapter 9 gap
-  - Resonance is what turns conditioned tissue into answering tissue, not simple external command
-  - Kel'Thuzad is already aware of Jaina and willing to consider letting her lower
-- **Still unknown after beat:**
-  - What Kel'Thuzad wants from the meeting he is permitting
-  - Whether Jandice understands how much ground she is giving away
-- **Sensory anchors:**
-  - Jandice's hands sketching theory faster than her mouth can contain it
-  - Pleasure in her expression when she reaches the interesting part
-  - The word resonance landing harder than any accusation could
-- **Transition intent:** Jandice leaves to consult the master, and the answer that comes back is controlled access rather than refusal.
+### Beat 10
+- Jaina asks Jandice about the missing piece in the dark spellwork, hoping to win a path down to the deeper vaults. She flawlessly plays the role of an interested fellow mage rather than an hunter, feeding Jandice's pride without losing sight of the horror of the magic.
+- Jandice talks far too freely about her craft, thrilled to have a living equal to speak with. She finds the magic of the Plague of Undeath beautiful, excitedly overexplaining how her own illusion magic meshes with the necromancy. A dark "resonance" surfaces as the key that completes the missing Chapter 9 spell constraint. The body isn't just controlled from the outside like a puppet; the foul mixture of grain and magic anchors the victim's soul-echo to their rotting flesh, ensuring the dead answer their master willingly. Jandice reveals that Kel'Thuzad—former member of the Council of Six and the mastermind of the Cult—already knows Jaina has breached the island and is actively willing to let her descend. Jaina has no idea what the fallen Archmage wants from this meeting, or if Jandice realizes how much of the Cult's foundation she has just casually given away.
+- Jandice's hands tracing necromantic runes in the air; the proud, haughty gleam in her eyes when she explains the cruelest parts of the magic; the grim realization of how the dead are bound landing on Jaina much harder than any drawn weapon.
+- Jandice leaves briefly to consult the master. She returns with an offer to descend the stairs.
 
-### Beat 11 — Scene: The descent
-- **Goal:** Reach the lower levels where the complete mechanism lives.
-- **Conflict:** Access is granted instead of seized, proving Jaina is already walking a path someone else wants her to walk.
-- **Outcome:** **yes-but** — Jaina reaches the lower route, but only because Kel'Thuzad allows it
-- **Value shift:** the Lie provides an opening -> committed descent
-- **New on-page information:**
-  - The lower staircase is older crypt architecture repurposed for live research traffic
-  - Wards thicken and the luminescent fungi answer Jaina's magical presence as she passes
-  - Jaina is still carrying the research log without realizing she never put it down
-- **Still unknown after beat:**
-  - How long the descent and the meeting below will last
-  - Whether she can leave with the data if the conversation goes wrong
-- **Sensory anchors:**
-  - Old stone worn smooth by centuries of feet
-  - Cold, dry air carrying preservative compounds
-  - Door closing behind her without locking and still feeling like a trap
-- **Transition intent:** Chapter 11 covers the parallel Arthas thread elsewhere; Chapter 12 resumes below after a deliberate gap with the conversation already in progress.
+### Beat 11
+- Jaina prepares to finally reach the deep crypts where the most profane necromancy are forged. The access is granted instead of fought for, proving immediately that Jaina is now walking willingly into the jaws of a trap.
+- She steps onto the lower stairs entirely because Kel'Thuzad allows it. The descent is ancient stone wrapped in heavy, suffocating layers of death magic. Wards thicken radically, and luminescent, sickly fungi beautifully pulse in answer to Jaina's living magical presence as she carefully passes them. she realizes with a cold shock that she is still clutching the stolen grimoire of the Damned, having never put it down. She doesn't know how long the descent and the impending meeting will last, or if she will ever be allowed to leave with her life if the conversation goes horribly wrong.
+- Intensely old stone worn completely smooth by centuries of shuffling feet; cold, horribly dry air carrying the sharp tang of embalming spices; a heavy wooden door clicking smoothly closed behind her without visibly locking, yet still feeling exactly like a sealed tomb.
+- Next chapter starts: Chapter 11 covers the parallel Arthas thread elsewhere; Chapter 12 resumes with Jaina deep below.
 
 ---
 
-## Chapter close / handoff
+## Chapter end
 
-**Active cast at close**
+**Characters at the end**
 - Jaina
 - Jandice Barov
 
-**Facts locked for Chapter 11 / Chapter 12**
-- Jaina is inside Scholomance alone and below the curated tour route
-- The Barov estate and Scholomance are confirmed as live plague-support infrastructure
-- Jandice's vanity is the access vector into the deeper levels
-- Antonidas and the Kirin Tor cannot move at the speed this crisis requires
-- Jaina descends carrying the research log and the unresolved Chapter 9 mechanism question
-- The old seller / newer grain-man clue remains weak and unresolved; this thread does not answer it
+**What we learn for Chapter 11 / Chapter 12**
+- Jaina is far inside Scholomance, entirely alone and walking down into the master's true crypts.
+- The Barov estate and Scholomance are solidly confirmed as a massive, active School of Necromancy.
+- Jandice's desperate vanity as an arcane master was the key Jaina used to penetrate the deepest wards.
+- Antonidas and the Kirin Tor's slow caution entirely failed to move at the speed this dark magic requires.
+- Jaina descends carrying a stolen grimoire of the Damned and the terrible answer of how the dead are bound to service.
+- The old seller / newer grain-man clue remains weak and completely unresolved; this thread emphatically does not answer it.
 
-**Facts not yet earned**
-- Full Barov culpability
-- Kel'Thuzad's direct disclosures about the Lich King and the Burning Legion
-- Sylvanas's arrival or any rescue / recovery beat
-- Any repair of the split partnership
+**What we still don't know**
+- Full, fully proven Barov guilt.
+- Kel'Thuzad's direct, horrifying disclosures about the Lich King and the Burning Legion.
+- Any sign of Sylvanas's arrival or a convenient rescue.
+- Any repair whatsoever of the shattered pack.

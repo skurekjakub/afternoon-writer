@@ -4,7 +4,148 @@ New entries are appended at the top.
 
 ---
 
-## 2026-04-09 — Slop checker v3: per-category file split + slopsquid integration
+## Add continuity-gate agent (step 11b)
+
+**Problem:** After 11 editing agents process a chapter (slophunter, grounder, expander, style-editor, style-auditor, final slophunter), none of them are taught to respect story continuity. The accumulated edits across 20+ revision rounds routinely introduce continuity violations: characters knowing information before it's been revealed on the page, premature diagnoses that pre-empt later scene functions, names used before they're earned, and repeated scene descriptions. These violations are invisible to prose-quality gates.
+
+**Root cause:** No agent in the pipeline audits prose against the beat plan's knowledge ledger, the memory files, or previous chapters. All existing gates (slop-gate, grounding-gate, style-auditor) are prose-quality focused.
+
+**Changes:**
+
+- `.github/agents/afternoon-continuity-gate.agent.md` — New adversarial continuity verification agent. Reads the beat plan (`knowledgeLedger`, `arcPosition`, `castAndHandoffRules`, per-beat `newOnPageInformation` / `stillUnknownAfterBeat`), memory ledger, and previous chapters. Builds a knowledge timeline, audits the prose against it, and writes structured findings JSON. A single hard violation is automatic fail. Explicitly prohibited from reading any prose-quality materials (slop hitlist, AI quirks, style guides, prose samples).
+
+- `.github/agents/afternoon-slophunter.agent.md` — Added `continuity-revision` dispatch mode. When the continuity gate fails, the orchestrator re-dispatches the final slophunter with the gate's findings JSON. The slophunter reads the beat plan for structural truth, applies the gate's suggested fixes, and outputs `v5-cr{N}.md`. Skips anti-slop weapons and style target loading in this mode.
+
+- `.github/agents/afternoon-orchestrator.agent.md` — Inserted step 11b (Continuity Gate Loop) between step 11 (Final Slophunter) and step 12 (Memory-Keeper). On fail, enters a revision loop: slophunter applies fixes → gate re-audits → up to 3 iterations. Added `continuityGateLoop` manifest state for crash recovery.
+
+- `docs/afternoon-pipeline-architecture.md` — Updated pipeline flow diagram, agent roles section, file table, directory listing, and data flow diagram to include the continuity gate and its revision artifacts (`v5-cr*.md`, `continuity-findings.json`, `continuity-revision-r*-notes.json`).
+
+---
+
+## Fix texture loop skip + extension loading in script mode
+
+**Problem (texture loop):** The style-auditor's `textureVerdict` rule only mapped `"below_target"` from the rhythm_scorer tool to `"fail"`. The tool returns `"borderline"` when 1–2 metrics are below range (e.g., `participial_pct` at 6.8% vs 9% floor, `texture_score` at 20.8 vs 22 floor). The auditor mapped `"borderline"` to `"pass"`, causing the orchestrator to correctly skip the texture revision loop — meaning style-auditor findings with 9 flagged zones and critical texture deficits were never routed back to the style-editor.
+
+**Root cause:** The rhythm_scorer's `texture_verdict()` function uses a 3-tier system: `"within_target"` (0 out-of-range), `"borderline"` (1–2 out-of-range), `"below_target"` (3+ out-of-range). The style-auditor only caught the worst tier.
+
+**Problem (extensions in script):** The sync-enforcer extension loads in interactive copilot mode but not when invoked via `afternoon-start.sh` with `-p "begin"` (non-interactive single-prompt mode). The `COPILOT_CLI_ENABLED_FEATURE_FLAGS=EXTENSIONS` env var sets the feature flag, but the extension discovery/launch lifecycle doesn't execute in `-p` mode.
+
+**Changes:**
+
+- `afternoon-style-auditor.agent.md` — `textureVerdict` rule now maps both `"below_target"` AND `"borderline"` to `"fail"`. Only `"within_target"` produces `"pass"`. This ensures any metric below its acceptable range triggers the texture revision loop.
+
+- `afternoon-start.sh` — Added `--plugin-dir ".github/extensions/sync-enforcer"` to the copilot invocation. The `--plugin-dir` flag explicitly loads plugin directories in all modes including non-interactive `-p`, bypassing the extension auto-discovery that only works in interactive sessions.
+
+---
+
+## Style-editor rhythm_scorer integration + narrator-verdict detection + tool-signal enforcement
+
+**Problem (style-editor):** The style-editor's Check 4 (Rhythm/Texture) relied entirely on manual reading to detect choppy prose and texture deficits. It read style-guide.json targets but had no quantified measurement of the actual prose. With deficits as extreme as 6.4% texture score vs 22% floor, manual detection works qualitatively but lacks zone-level targeting. The texture loop at step 10 handled zone targeting, but was left to close the entire gap rather than residual deficit.
+
+**Problem (narrator-verdict):** The slop-gate's LLM missed "late enough to be decoration" — a textbook A1 verdict-tag fragment — despite catching the syntactically identical "tired enough for truth." LLM audit alone has inconsistent recall for syntactic patterns.
+
+**Problem (tool-signal enforcement):** No mechanism to force the gate to evaluate every tool-flagged line or cite when a kill originated from a tool signal.
+
+**Changes:**
+
+- `afternoon-style-editor.agent.md` — Check 4 now runs `rhythm_scorer --target-json --json` on v3.md BEFORE editing to get quantified texture map (telegram_runs, texture_deserts, per-metric deficits). Re-runs on v4.md AFTER editing. Reports before/after measurements in style-notes.json under `rhythm.before`/`rhythm.after` keys.
+
+- `tools/slop_checker/patterns/narrator_verdict.py` — NEW. Three regex patterns: `verdict_enough_to_be` (`, X enough to be Y`), `verdict_enough_for` (`X enough for Y`), `verdict_too_x_for` (`too X for Y`). Pronoun/determiner exclusion. Combined cap 1 per chapter (matches human rate of ≤1 per chapter-length text). Human false positive rate: ~1/18K words. AI detection rate: ~1/560 words.
+
+- `afternoon-slop-gate-workflow/references/1b-run-analytic-tools.md` — Added `narrator_verdict` → narrator-seep guide (pass B) mapping. Tool-flagged lines are "audit candidates" requiring evaluation, not presumed kills. ~90% expected kill rate on AI prose. Mandatory `toolSignal` citation in findings.
+
+- `afternoon-slop-gate-workflow/references/3-audit-assigned-pass.md` — Added "Tool-signal audit pass" section before per-guide loop. Gate must cross-reference all slop_checker matches. Concrete physical descriptions, purpose clauses, and in-character assessments are valid KEEP reasons. Abstract narrator editorializing is the target.
+
+- `afternoon-slop-gate-workflow/references/5-write-artifacts.md` — Added `toolSignal` field to findings schema. Added `rhythmMetrics`, `textureMetrics`, `analyticHints` as required summary sub-blocks.
+
+- `afternoon-pipeline/references/agents.md` — Style-editor Check 4 description updated to reflect rhythm_scorer pre/post measurement.
+
+---
+
+## Style-auditor ↔ style-editor texture revision loop
+
+**Problem:** The style-auditor ran rhythm_scorer and identified texture deficits (participial density, compound clauses, em-dashes, semicolons below style-guide targets), but there was no revision loop — it fixed what it could inline and moved on. No agent emitted structured texture enrichment instructions, and no agent was dispatched to apply targeted structural fixes. The pipeline had a measurement→diagnosis path but no diagnosis→treatment→re-measurement convergence loop for texture.
+
+**Root cause:** The style-auditor ↔ final-slophunter handoff was one-way with no revision feedback. Unlike the slop-gate ↔ slophunter loop (slop patterns) and grounding-gate ↔ grounder loop (world-specificity), structural texture had no convergence mechanism.
+
+**Solution:** Added a texture revision loop matching the slop-gate pattern — the auditor measures, the editor fixes:
+1. Style-auditor (full mode) emits `textureVerdict: "pass"|"fail"` in status.json based on rhythm_scorer's `texture.verdict`, and `textureFindings` in notes with per-metric status, flagged zones, and enrichment instructions
+2. Style-editor gains a revision mode focused on texture enrichment — reads auditor's `textureFindings`, adds structural constructions in flagged zones only, accepts `inputFile` parameter (v4.md for iteration 1, v4-r{N-1}.md for subsequent)
+3. Style-auditor gains a `texture-reaudit` mode — measurement-only, no prose edits, no v4b.md. Runs rhythm_scorer, computes verdict, writes findings. Same separation as slop-gate (gate reads, slophunter writes)
+4. Orchestrator enters a texture loop (max 5 iterations) on `textureVerdict: "fail"`: promotes v4b.md → v4.md once, then alternates editor-revision → auditor-texture-reaudit
+5. On pass or exhaustion, promotes latest v4-rN.md → v4b.md for final-slophunter
+
+**Per-file changes:**
+- `.github/agents/afternoon-style-auditor.agent.md` — Added `textureFindings` block and `textureVerdict` to output schemas. Added `texture-reaudit` dispatch mode (measurement-only: runs rhythm_scorer, writes notes + status, no v4b.md, no dimension audits).
+- `.github/agents/afternoon-style-editor.agent.md` — Added "Revision Mode — Texture Enrichment" section with `inputFile` parameter, zone-targeted enrichment workflow, self-audit, and revision output schemas.
+- `.github/agents/afternoon-orchestrator.agent.md` — Step 10 is the "Style-Auditor ↔ Style-Editor Texture Loop" with one-time v4b.md→v4.md promote, editor-revision → auditor-texture-reaudit alternation, and v4-rN.md→v4b.md final promote. Crash recovery tracks `textureLoop` manifest state.
+- `.github/skills/afternoon-slop-gate-workflow/references/5-write-artifacts.md` — Added `rhythmMetrics`, `textureMetrics`, and `analyticHints.slopChecker` as required summary sub-blocks.
+- `.github/skills/afternoon-pipeline/references/agents.md` — Updated dispatch order, key constraints, style-editor revision mode, and style-auditor with both full-audit and texture-reaudit modes.
+- `docs/afternoon-pipeline-architecture.md` — Updated descriptions, data flow diagram, directory listing.
+- `docs/afternoon-pipeline-technical.md` — Added Layer 3.5 (Texture enforcement) to Anti-Slop System.
+- `docs/afternoon-pipeline-changelog.md` — This entry.
+
+---
+
+## Deterministic analysis tools, style-guide.json contract, and hardcoded-value purge
+
+**Problem:** Pipeline prose had ~28% of human structural texture density (participial phrases, compound clauses, em-dashes, semicolons). No deterministic tooling existed to measure this. Agent prompts hardcoded percentage thresholds that drifted from actual measurements and couldn't be recalibrated without editing every agent file. No style-guide.json existed — the extractor's schema was documented but never produced.
+
+**Root cause:** The pipeline relied entirely on LLM judgment for structural prose quality. LLMs can't reliably count sentence constructions or detect telegram prose vs human texture. Hardcoded thresholds in 6+ agent files meant any calibration change required a multi-file edit pass, and values inevitably went stale.
+
+**Changes:**
+
+| File | Change |
+|---|---|
+| `tools/rhythm_scorer/` (8 modules) | Refactored 820-line monolith into `constants.py`, `models.py`, `rhythm.py`, `texture.py`, `analyze.py`, `formatters.py`, `__init__.py`, and thin CLI wrapper `score.py`. Computes 14 metrics: comma:period ratio, sentence stats (mean, CV, short%, long%), opener entropy, paragraph stats, MATTR, and 6 texture metrics (participial, compound, emdash, semicolon, short sentence, composite score). Three output modes: `--json`, `--summary`, `--compare`. Accepts `--baselines` and `--target-json` to load style-guide.json for comparison. |
+| `tools/skeleton_strip/splitter.py` | Added `_unwrap_hard_wrapped()` safety net for hard-wrapped plaintext files (triggers at <5% blank lines). Does not affect properly-formatted files. |
+| `.afternoon/style-guide.json` | First production of the style guide from the style-extractor. Contains `rhythmMetrics.global` (8 metrics, snake_case, `{measured, target, range}` structure), `textureMetrics` (6 metrics, snake_case, `{human, target, range}` structure), `perSceneType` comma:period ratios, `contrastivePairs`, `proseExcerptAnchors`, `diagnosticChecklist`, `perPOVCalibration`, and `globalStyle`. |
+| `.github/agents/afternoon-style-extractor.agent.md` | Rewrote work process step 2 with side-by-side code block showing tool output → style-guide transformation. Updated extraction dimensions and JSON schema to snake_case. |
+| `.github/agents/afternoon-writer.agent.md` | Removed all hardcoded texture percentages. References `textureMetrics` from style-guide.json. Fixed stale `shortSentencePct` → `short_pct`. |
+| `.github/agents/afternoon-style-editor.agent.md` | Removed hardcoded thresholds. References style-guide.json for all texture targets. |
+| `.github/agents/afternoon-slophunter.agent.md` | Removed hardcoded texture ranges. References style-guide.json. |
+| `.github/agents/afternoon-expander.agent.md` | Added style-guide.json reference for texture density targets. |
+| `.github/skills/afternoon-slop-gate-workflow/references/1b-run-analytic-tools.md` | Removed all hardcoded baselines (14.2%, 10.5%, etc.). All metric descriptions now reference style-guide.json sections. |
+| `docs/afternoon-pipeline-architecture.md` | Added Deterministic Analysis Tools section. Updated Style-Extractor description. |
+| `docs/afternoon-pipeline-guide.md` | Added Style-Extractor Workflow section. Added Deterministic Analysis Tools section. |
+| `docs/afternoon-pipeline-changelog.md` | This entry. |
+
+**Key design decisions:**
+- `rhythmMetrics` uses `measured` (the style source's value). `textureMetrics` uses `human` (same data, different label — texture is the structural-complexity domain where "human" vs "pipeline" is the framing).
+- Agent prompts contain ZERO hardcoded metric values. All targets sourced from style-guide.json.
+- Style-guide schema uses snake_case throughout, matching the tool's native output keys for texture (direct mapping) and flattened keys for rhythm (`sentence.mean_length` → `sentence_length_mean`).
+- The `report_from_json_targets()` function in `analyze.py` loads style-guide.json with `target → measured → human → fallback` priority, since it's loading comparison targets (what the story should hit).
+
+**Calibrated measurements (travel.md, 384K words):**
+
+| Metric | Value |
+|---|---|
+| participial_pct | 11.0% |
+| compound_pct | 8.5% |
+| emdash_pct | 3.5% |
+| semicolon_pct | 1.4% |
+| short_pct | 52.1% |
+| texture_score | 24.4 |
+| comma_period_ratio | 0.66 |
+| sentence_length_mean | 9.6 |
+
+---
+
+## Style-guide schema update: new sections + toneCurveOverrides removal
+
+**Problem:** The style-guide.json schema was expanded with five new sections (rhythmMetrics, contrastivePairs, proseExcerptAnchors, diagnosticChecklist, toneCurveOverrides) during initial extraction. The user deemed toneCurveOverrides too granular and requested removal. Downstream docs and agent specs needed sync.
+
+**Changes:**
+
+| File | Change |
+|---|---|
+| `.afternoon/style-guide.json` | Removed `toneCurveOverrides` key. Fixed DC-12 diagnostic to reference `humorPolicy.deploymentRule` instead. 10 top-level keys remain. |
+| `.github/agents/afternoon-style-extractor.agent.md` | Removed tone-curve work-process step, extraction dimension section, and template entry. Renumbered steps 8-10. Updated diagnostic checklist coverage list. |
+| `.github/agents/afternoon-style-auditor.agent.md` | Removed tone-curve range identification from read-inputs step. Added rhythmMetrics comparison to global-rhythm audit step. |
+| `.github/skills/afternoon-pipeline/references/agents.md` | Updated Style-Extractor output schema description to include new sections. |
+| `docs/afternoon-pipeline-architecture.md` | Updated Style-Extractor description to mention rhythm scorer, contrastive pairs, and prose excerpts. |
+
+---
 
 **Problem:** The monolithic `check.py` had grown to 1485 lines with all 135 patterns inline. Adding new categories required editing a single huge file. The slopsquid statistical AI-overuse dataset (sam-paech/slop-score) had been downloaded but not integrated.
 

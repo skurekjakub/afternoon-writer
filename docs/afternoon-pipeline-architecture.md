@@ -11,12 +11,13 @@ An autonomous multi-agent pipeline that transforms beat-plan outlines into polis
 1. [Pipeline Overview](#pipeline-overview)
 2. [Agent Flow](#agent-flow)
 3. [Agent Roles](#agent-roles)
-4. [Artifact Versioning](#artifact-versioning)
-5. [Directory Layout](#directory-layout)
-6. [Data Flow](#data-flow)
-7. [Orchestrator Design](#orchestrator-design)
-8. [Memory System](#memory-system)
-9. [Design Decisions](#design-decisions)
+4. [Deterministic Analysis Tools](#deterministic-analysis-tools)
+5. [Artifact Versioning](#artifact-versioning)
+6. [Directory Layout](#directory-layout)
+7. [Data Flow](#data-flow)
+8. [Orchestrator Design](#orchestrator-design)
+9. [Memory System](#memory-system)
+10. [Design Decisions](#design-decisions)
 
 ---
 
@@ -50,10 +51,10 @@ Pipeline execution (per chapter):
    7 checks)         if enabled)     optional revision)  driven revision)   revision loop)  11 targeted hunts)
        │
        ▼
-  Style-Auditor ──→ Final-Slophunter ──→ Memory-Keeper
-  (style-guide       (polish-mode          (catalogues what happened,
-   enforcement,       slop elimination,     updates per-entity ledgers
-   if guide exists)   register pass)        for future chapters)
+  Style-Auditor ──→ Final-Slophunter ──→ Continuity-Gate ──→ Memory-Keeper
+  (style-guide       (polish-mode          (adversarial           (catalogues what happened,
+   enforcement,       slop elimination,     continuity audit,      updates per-entity ledgers
+   if guide exists)   register pass)        revision loop)         for future chapters)
 ```
 
 The **Outline-Builder** and **Style-Extractor** sit outside this flow — they're user-invocable, not orchestrator-dispatched. The outline-builder helps the user create beat plans and now writes the normalized structured chapter beatplan schema used for planner-facing refinement work. The style-extractor analyzes prose samples and produces `style-guide.json`.
@@ -90,11 +91,16 @@ The **Outline-Builder** and **Style-Extractor** sit outside this flow — they'r
 ### Style-Editor
 **Voice and continuity polish.** Reads `v3.md`, story overview, style target, style-guide.json (if available), voice sheets, prior chapter, memory files. Seven quality checks: voice consistency, Limited Third compliance, continuity/anti-reintroduction, sentence variety, beat transitions, slophunter leftovers, and dialogue register. Does not add content or cut beats — only polishes. Outputs `v4.md`.
 
-### Style-Auditor
-**Adversarial style-guide enforcement.** Reads `v4.md` against `.afternoon/style-guide.json` and verifies every specification field: sentence rhythm, vocabulary register, metaphor density, paragraph structure, dialogue ratio, per-POV voice fingerprints, and quality floor metrics. Produces `v4b.md`. Requires `style-guide.json` — skipped if absent (orchestrator proceeds to final slophunter with v4.md).
+**Revision mode (texture enrichment):** Dispatched when the style-auditor's `textureVerdict` is `"fail"`. Reads the auditor's `textureFindings` (flagged zones + enrichment instructions) and adds structural texture — participial phrases, compound clauses, em-dashes, semicolons — in the flagged zones only. Does not re-run the full 7-check process. Outputs `v4-r{N}.md`.
+
+### Style-Auditor ↔ Style-Editor Texture Loop
+**Adversarial style-guide enforcement + texture convergence.** Initial pass reads `v4.md` against `.afternoon/style-guide.json`, verifies every specification field (sentence rhythm, vocabulary register, metaphor density, paragraph structure, dialogue ratio, per-POV voice fingerprints, quality floor metrics, and structural texture via rhythm_scorer), and produces `v4b.md`. Emits `textureVerdict: "pass"|"fail"` in status.json — if `"fail"`, the orchestrator enters a texture revision loop (max 5 iterations). In the loop, the auditor is measurement-only (no prose edits) — same pattern as the slop-gate. The style-editor applies structural texture enrichment; the auditor re-measures and reports. On pass or exhaustion, latest editor revision promotes to `v4b.md`. Requires `style-guide.json` — skipped if absent.
 
 ### Final-Slophunter
 **Polish-mode slop elimination.** Runs the slophunter in polish mode on `v4b.md` (or `v4.md` if style-auditor was skipped). Register and document-voice pass. 20% wordcount reduction target. Outputs `v5.md`.
+
+### Continuity Gate ↔ Final-Slophunter Continuity Loop
+**Adversarial continuity verification.** Reads `v5.md` against the beat plan's knowledge ledger, memory files, previous chapters, and cast/handoff rules. Builds a knowledge timeline tracking what the POV character knows at each point, then audits the prose for premature reveals, cast errors, arc violations, and physical continuity breaks. A single hard violation is an automatic fail. Writes findings JSON with structured evidence and suggested fixes. On fail, the orchestrator re-dispatches the final slophunter in continuity-revision mode; the slophunter applies the fixes and the gate re-audits. Loop runs up to 3 iterations. Does NOT read prose-quality materials — only story structure documents.
 
 ### Memory-Keeper
 **Continuity librarian.** Reads `v5.md` and the verified plan. Updates per-entity JSON+MD files across five categories: characters, locations, relationships, threads, world. Handles merge logic for entities that appeared in prior chapters. Does NOT read the story overview — it catalogues what was written, not what was planned.
@@ -103,7 +109,32 @@ The **Outline-Builder** and **Style-Extractor** sit outside this flow — they'r
 **Interactive planning assistant.** Not part of the automated pipeline. Reads anti-slop rules, craft references, story overview, materials, and existing memory. Enters an elicitation loop with the user (up to 5 rounds) to build a detailed beat plan with scene/sequel typing, value shifts, sensory anchors, and transition fields. Outputs to `.afternoon/outlines/`.
 
 ### Style-Extractor (user-invocable)
-**Style-guide extraction.** Not part of the automated pipeline. Reads prose samples from `config.priming.proseSamples`, story overview, voice sheets, and character memory profiles. Extracts abstract patterns (sentence rhythm, vocabulary register, metaphor density, emotional expression, dialogue style, narrative distance, paragraph structure, descriptive approach) and produces `.afternoon/style-guide.json` — a structured specification that the style-auditor, style-editor, and slophunter enforce. Run once per story or when samples change.
+**Style-guide extraction.** Not part of the automated pipeline. Reads prose samples from `config.priming.proseSamples`, story overview, voice sheets, and character memory profiles. Runs `tools/rhythm_scorer/score.py --json` on the style source to measure 14 metrics (rhythm + texture), then transforms tool output into the style-guide schema. Extracts abstract patterns (sentence rhythm, vocabulary register, metaphor density, emotional expression, dialogue style, narrative distance, paragraph structure, descriptive approach), builds contrastive pairs (bad→good AI failure corrections), anchors prose excerpts, and produces `.afternoon/style-guide.json`. The style guide's `rhythmMetrics` and `textureMetrics` sections provide the single source of truth for all downstream metric targets — no agent hardcodes threshold values. Run once per story or when samples change.
+
+## Deterministic Analysis Tools
+
+Three Python tools in `tools/` provide deterministic prose analysis that complements LLM judgment. All use stdlib only — no heavy NLP dependencies.
+
+### rhythm_scorer
+
+Measures 14 metrics across rhythm and structural texture. Outputs JSON, human-readable summary, or side-by-side comparison.
+
+**Rhythm metrics:** comma:period ratio, sentence mean/CV/short%/long%, opener entropy, one-sentence paragraph %, MATTR.
+**Texture metrics:** participial phrase %, compound clause %, em-dash %, semicolon %, short sentence %, composite texture score, verdict (within_target / borderline / below_target), interpretation (agent-actionable fix instructions), flagged passages (telegram runs, texture deserts).
+
+Modes: `--json`, `--summary`, `--compare`. Accepts `--baselines <style-guide.json>` to load `textureMetrics` for verdict calibration, and `--target-json <style-guide.json>` for comparison mode.
+
+**Consumed by:** Style-extractor (measures the style source), Slop-gate Phase 1b (measures each chapter draft), Style-auditor (measures chapter against targets).
+
+### skeleton_strip
+
+Extracts syntactic skeleton and concreteness signals from prose. Uses Brysbaert concreteness norms + 12 regex patterns. Identifies abstract runs, vague verbs, and sensory-deficit zones.
+
+### slop_checker
+
+Pattern-based AI prose detection. 137 patterns across 24 categories plus slopsquid statistical AI-overuse n-grams (122 bigrams + 416 trigrams, zero tolerance). Reports per-category violation counts, cap breaches, and pattern instances with context.
+
+**Consumed by:** Slop-gate Phase 1b (pre-audit signal), human review.
 
 ## Artifact Versioning
 
@@ -131,6 +162,7 @@ Each editor also produces notes/audit artifacts logging what changed or what was
 ├── config.json                    # Project settings (user-authored)
 ├── overview.md                    # Story overview — arc, themes, destination (mandatory)
 ├── manifest.json                  # Orchestrator state + crash recovery
+├── style-guide.json               # Extracted style specification (style-extractor output)
 │
 ├── outlines/                      # User-authored beat plans (input)
 │   ├── chapter-1.md
@@ -159,8 +191,10 @@ Each editor also produces notes/audit artifacts logging what changed or what was
 │   ├── grounding-map-r*.json      # Revision grounding maps
 │   ├── v3.md                      # Expander output (or cp of v2g)
 │   ├── v4.md                      # Style-editor output
+│   ├── v4-r*.md                   # Style-editor texture revision drafts during auditor loop
 │   ├── v4b.md                     # Style-auditor output (absent if style-guide.json missing)
 │   ├── v5.md                      # Final-slophunter output
+│   ├── v5-cr*.md                  # Continuity-revision drafts (absent if continuity gate passes first time)
 │   ├── final.md                   # Assembled (cp of v5.md)
 │   ├── slophunter-notes.json      # Change log
 │   ├── slophunter-revision-r*-notes.json  # Revision change logs (absent if gate passes first time)
@@ -178,8 +212,12 @@ Each editor also produces notes/audit artifacts logging what changed or what was
 │   ├── grounder-notes.json        # Change log (absent if grounder disabled/degraded)
 │   ├── grounder-revision-r*-notes.json
 │   ├── style-notes.json           # Change log
-│   ├── style-auditor-notes.json   # Change log (absent if style-guide.json missing)
+│   ├── style-editor-revision-r*-notes.json  # Texture revision change logs (absent if auditor passes first time)
+│   ├── style-auditor-notes.json   # Change log + textureFindings (absent if style-guide.json missing)
+│   ├── style-auditor-notes-r*.json # Re-audit notes per texture loop iteration
 │   └── final-slophunter-notes.json # Change log
+│   ├── continuity-findings.json   # Continuity gate findings (absent if gate passes first time)
+│   ├── continuity-revision-r*-notes.json  # Continuity revision change logs
 │
 └── agents/{agent-name}/
     └── status.json                # Per-agent completion status
@@ -190,6 +228,8 @@ Each editor also produces notes/audit artifacts logging what changed or what was
 ### Forward flow (each agent feeds the next)
 
 The story overview feeds into all content-producing agents (planner, plan-verifier, writer, slophunter, style-editor) and the outline-builder. It provides story-arc context — where this chapter fits in the whole narrative.
+
+`style-guide.json` feeds metric targets to the writer (texture awareness), slop-gate (Phase 1b tool baselines), style-editor (texture targets), style-auditor (all specifications), slophunter (texture protection), and expander (texture self-audit).
 
 ```
 overview.md ──→ (read by Planner, Plan-Verifier, Writer, Slophunter, Style-Editor, Outline-Builder)
@@ -202,7 +242,11 @@ outlines/{chapterId}.md ──→ Planner ──→ {chapterId}-initial.json ─
        │                                                                                                                            │
        └──→ (requiredMemory field tells Writer + Style-Editor which memory files to read)                 │
                                                                                                              │
-       Style-Editor ──→ v4.md ──→ [Style-Auditor] ──→ v4b.md ──→ Final-Slophunter ──→ v5.md ──→ final.md ──→ Memory-Keeper
+       Style-Editor ──→ v4.md ──→ Style-Auditor ──→ v4b.md ──→ Final-Slophunter ──→ v5.md ──→ [Continuity-Gate ↔ revision loop] ──→ final.md ──→ Memory-Keeper
+                                      ↑         │
+                                      │  texture │ (if textureVerdict: "fail")
+                                      │  loop    ↓
+                                      └── Style-Editor (revision) ←── auditor-notes.json
 ```
 
 ### Backward flow (memory system)

@@ -23,9 +23,13 @@ Required top-level fields:
 Rules:
 
 - every KILL finding includes `suggestedFix`, `fixDifficulty`, and `crossChecked` covering the current pass guide pack
+- every KILL finding that was detected or corroborated by the slop checker includes `"toolSignal": "<pattern_name>"` citing the slop_checker pattern that flagged it. This lets the slophunter and human reviewers see which kills had deterministic tool backing
 - guides with zero KILLs include `cleanReason`
 - guide findings keep the guide-specific fields required by that guide
-- the summary block includes `killsWithFix` and `killsUnfixable`
+- the summary block includes `killsWithFix`, `killsUnfixable`, and these analytic sub-blocks from Phase 1b:
+  - `rhythmMetrics` — key rhythm metrics + deltas from style-guide targets (comma_period_ratio, sentence_length_cv, one_sentence_paragraph_pct). Note any metrics outside their `range` as "structural rhythm concerns"
+  - `textureMetrics` — the full texture verdict, verdict_reasons, interpretation, and flagged passage counts (telegram_run count, texture_desert count). If verdict is "below_target", note "structural texture deficit"
+  - `analyticHints.slopChecker` — violation summary (total_violations, over-cap categories)
 - pass-with-warnings still includes the remaining MILD findings in the notes JSON for downstream editors
 
 ## Scratchpad markdown

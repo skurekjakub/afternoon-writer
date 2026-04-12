@@ -15,7 +15,7 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 
 **Bootstrap gate:** Reads `storyOverview` field from config.json. If missing, empty, or file doesn't exist → prints fatal error and exits. No chapters processed without a story overview.
 
-**Dispatch order:** planner → plan-verifier → writer → slophunter → slop-gate A/B [↔ slophunter revision loop] → grounder → grounding-gate [↔ grounder revision loop] → expander → style-editor → style-auditor → final-slophunter → memory-keeper
+**Dispatch order:** planner → plan-verifier → writer → slophunter → slop-gate A/B [↔ slophunter revision loop] → grounder → grounding-gate [↔ grounder revision loop] → expander → style-editor ↔ style-auditor [texture revision loop] → final-slophunter → memory-keeper
 
 **Dispatch mode:** All dispatches are synchronous. Never background mode. Never poll. Never sleep. Dispatch → wait for return → read status.json → route.
 
@@ -31,6 +31,7 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 - Grounding-gate revision loop: on fail verdict, alternates grounder-revision → gate-reaudit up to maxIterations. On pass or loop exhaustion, promotes `v2g-rN.md → v2g.md`, `grounding-map-rN.json → grounding-map.json`, and `grounder-revision-rN-notes.json → grounder-notes.json`, then continues to Expander
 - Expander kill switch: if `config.agents.expander.enabled` is false, does `cp v2g.md v3.md` and skips expander dispatch
 - Slop-gate revision loop: on fail verdict, alternates slophunter-revision → gate-reaudit up to maxIterations. On pass, promotes v2-rN.md → v2.md and revision notes → slophunter-notes.json. On exhaustion, promotes latest revision and continues — does NOT halt.
+- Style-auditor texture loop: on `textureVerdict: "fail"`, promotes v4b.md → v4.md (preserving spec fixes), then alternates style-editor-revision → style-auditor-texture-reaudit up to 5 iterations. The auditor re-audit is measurement-only (no prose edits, no v4b.md) — same pattern as slop-gate. The style-editor revision mode enriches structural texture in flagged zones. On pass or exhaustion, promotes latest v4-rN.md → v4b.md.
 - Style-auditor skip: if `.afternoon/style-guide.json` doesn't exist, style-auditor reports `"status": "failed"` — orchestrator treats as skip (proceed to final slophunter), not block
 
 ---
@@ -341,7 +342,7 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 
 ## Style-Editor (`afternoon-style-editor`)
 
-**File:** `.github/agents/afternoon-style-editor.agent.md` (183 lines)
+**File:** `.github/agents/afternoon-style-editor.agent.md`
 
 **Reads:**
 - config.json, story overview from config → `storyOverview`, style target, voice sheets
@@ -364,7 +365,7 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 1. Voice consistency (punctuation, dialogue tags, rhythm, paragraph shape vs. style target)
 2. Limited Third compliance (omniscient leaks, emotional labeling, subtext translation)
 3. Continuity + anti-reintroduction (names, descriptions, geography, timeline, established facts — flag passages re-stating established info as fresh)
-4. Sentence variety (3+ consecutive same-length)
+4. Sentence variety + structural texture (**runs rhythm_scorer on v3.md** before editing to get quantified texture map; re-runs on v4.md after to measure improvement; reports before/after in style-notes.json)
 5. Beat transitions + narrative continuity (causal not temporal, location/emotional/topic continuity between beats, cross-chapter opening coherence for ch2+)
 6. Slophunter leftovers (attribution over-explanation, parallel structure, emotional telling, scene clichés)
 7. Dialogue register (institutional/clinical/bureaucratic vocabulary in speech — plain-language ceiling per voice sheet)
@@ -373,11 +374,24 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 
 **Anti-laziness enforcement:** Minimum 35 specific observations across all 7 checks (5 per check). Meta-audit required if all checks pass cleanly. Reads style-guide.json alongside style target when available.
 
+### Revision mode (texture enrichment)
+
+Dispatched as: `chapterId: X, mode: revision, iteration: N, feedbackPath: <auditor-notes-path>, inputFile: <filename>`
+
+Runs when the style-auditor's `textureVerdict` is `"fail"`. Reads the auditor's `textureFindings` block and enriches structural texture in flagged zones only. Does NOT re-run the full 7-check process.
+
+**Reads:** config.json, style-guide.json (textureMetrics), style target, auditor notes (feedbackPath), the input file (v4.md for iteration 1, v4-r{N-1}.md for subsequent)
+**Writes:** v4-r{N}.md, style-editor-revision-r{N}-notes.json, agents/style-editor/status.json
+
+**Enrichment targets:** participial phrases (`, Ving`), compound clauses (`, and/but`), em-dashes, semicolons — guided by the `flaggedZones` instructions in the auditor notes. Preserves content and meaning; adds structural texture only.
+
 ---
 
 ## Style-Auditor (`afternoon-style-auditor`)
 
 **File:** `.github/agents/afternoon-style-auditor.agent.md`
+
+### Full audit mode (initial pass)
 
 **Reads:**
 - config.json, story overview, voice sheets, character memory profiles
@@ -388,13 +402,13 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 
 **Writes:**
 - chapters/{chapterId}/v4b.md
-- chapters/{chapterId}/style-auditor-notes.json
-- agents/style-auditor/status.json
+- chapters/{chapterId}/style-auditor-notes.json (includes `textureFindings` block)
+- agents/style-auditor/status.json (includes `textureVerdict: "pass"|"fail"`)
 
-**Todos:** Read inputs → Audit rhythm → Audit vocabulary → Audit metaphor → Audit paragraph/structure → Audit dialogue ratio → Audit per-POV voice → Audit quality floor → Fix pass → Meta-audit → Write output
+**Todos:** Read inputs → Audit rhythm → Audit vocabulary → Audit metaphor → Audit paragraph/structure → Audit dialogue ratio → Audit per-POV voice → Audit quality floor → Audit scene-level → Fix pass → Meta-audit → Write output
 
 **8 audit dimensions (all against style-guide.json):**
-1. Global rhythm (sentenceRhythmStandards — default, action, introspection, emphasis)
+1. Global rhythm and texture (sentenceRhythmStandards + textureMetrics — runs rhythm_scorer with --baselines, reports deltas, flags telegram runs and texture deserts)
 2. Vocabulary and register (vocabularyStandards — baseline, required qualities, avoid list)
 3. Metaphor compliance (metaphorPolicy — density, source domains, forbidden patterns)
 4. Paragraph and structure (paragraphLengthGuidelines, sceneTransitionConventions)
@@ -403,7 +417,20 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 7. Quality floor (proseQualityFloor — adverbs, passive voice, show-tell ratio)
 8. Scene-level dimensions (exposition integration, power dynamics, scene shape, speculative integration, subtext density, action pacing, humor register)
 
+**Texture verdict:** If `texture.verdict == "below_target"` from rhythm_scorer → `textureVerdict: "fail"` in status.json. The `textureFindings` block in the notes includes per-metric current/target/range, flagged zones with enrichment instructions, and a priority instruction. This drives the texture revision loop.
+
 **Anti-laziness enforcement:** Minimum 40 specific observations across all dimensions. Every style-guide field checked and documented. Meta-audit required on clean results.
+
+### Texture re-audit mode (loop iterations)
+
+Dispatched as: `chapterId: X, mode: texture-reaudit, iteration: N, targetFile: v4-rN.md`
+
+Measurement-only — no prose edits, no v4b.md, no full dimension audit. Same pattern as slop-gate (gate measures, editor fixes).
+
+**Reads:** config.json, style-guide.json (textureMetrics), the target file (editor's latest revision)
+**Writes:** style-auditor-notes-r{N}.json (textureFindings only), agents/style-auditor/status.json (textureVerdict)
+
+Runs rhythm_scorer, parses texture block, computes verdict, builds textureFindings with updated flaggedZones and priorityInstruction.
 
 **Key constraint:** If `.afternoon/style-guide.json` does not exist, writes status.json with `"status": "failed"` and stops. The orchestrator treats this as a skip.
 
@@ -428,7 +455,7 @@ Each agent has a file at `.github/agents/afternoon-{name}.agent.md`. This refere
 
 **Extraction dimensions:** sentenceRhythm, vocabularyRegister, metaphorDensity, emotionalExpression, dialogueStyle, narrativeDistance, paragraphStructure, descriptiveApproach, expositionIntegration, humorAndWitRegister, powerDynamicRendering, sceneArchitecture, speculativeElementIntegration, dialogueSubtextDensity, actionChoreographyStyle, attributionPatterns
 
-**Output schema:** globalStyle (register, cadence, ratio, tense, vocabulary standards, rhythm standards, metaphor policy, paragraph guidelines, transition conventions, exposition policy, humor policy, power dynamic rules, scene shape standards, speculative integration policy, subtext density targets, action pacing standards, attribution standards) + perPOVCalibration (voice fingerprint incl. humor/power/speculative/exposition, specific rules, example sentences, exposition filter) + proseQualityFloor (adverbs, passive voice, show-tell)
+**Output schema:** globalStyle (register, cadence, ratio, tense, vocabulary standards, rhythm standards, metaphor policy, paragraph guidelines, transition conventions, exposition policy, humor policy, power dynamic rules, scene shape standards, speculative integration policy, subtext density targets, action pacing standards, attribution standards) + perPOVCalibration (voice fingerprint incl. humor/power/speculative/exposition, specific rules, example sentences, exposition filter) + proseQualityFloor (adverbs, passive voice, show-tell) + rhythmMetrics (global measured/target/range for 8 metrics, per-scene-type comma:period targets) + textureMetrics (human/target/range for 6 structural complexity metrics: participial_pct, compound_pct, emdash_pct, semicolon_pct, short_pct, texture_score) + contrastivePairs (bad→good pairs covering common AI prose failures) + proseExcerptAnchors (excerpts from the sample with annotations) + diagnosticChecklist (yes/no paragraph-level audit questions)
 
 **Key constraint:** Every field must be actionable — "moderate" is not actionable, "2-4 metaphors per 1000 words sourced from the POV character's professional domain" is actionable.
 

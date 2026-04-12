@@ -1,283 +1,174 @@
 # Chapter 1: The Border
 
 **POV:** Sylvanas Windrunner (limited third, absolute)
-**Timeline position:** Story start. No prior chapter.
-**Open location:** Southeastern Eversong Woods, on Farstrider patrol near the Amani frontier.
-**Transport:** Thalassian horses for Sylvanas, Lor'themar, and the mounted patrol.
-**Active cast at open:** Sylvanas, Lor'themar, unnamed Farstrider patrol.
-**Immediate objective:** Finish the troll sweep, dodge the Convocation budget session, and stay outdoors one more day.
+**When:** Story start. No prior chapter.
+**Where:** Southeastern Eversong Woods, on Farstrider patrol near the Amani frontier.
+**Travel:** Thalassian horses for Sylvanas, Lor'themar, and the mounted patrol.
+**Characters:** Sylvanas, Lor'themar, unnamed Farstrider patrol.
+**Goal:** Finish the troll sweep, dodge the Convocation budget session, and stay outdoors one more day.
 
-## Meta info
+## References
 
-- **Worldbuilding references:** [Silvermoon & Quel'Thalas](stories/the-plague-road/locations/silvermoon-and-quelthalas.md), [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md)
-- **Character references:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Lor'themar profile](stories/the-plague-road/characters/lorthemar.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md)
+- **Worldbuilding:** [Silvermoon & Quel'Thalas](stories/the-plague-road/locations/silvermoon-and-quelthalas.md), [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md)
+- **Characters referenced:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Lor'themar profile](stories/the-plague-road/characters/lorthemar.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md)
 
 **What Sylvanas knows at open**
-- Routine Amani troll pressure on the southeastern frontier
-- The ward network is stable as far as the formal reports say
-- The Farstriders maintain dossiers on powerful human mages near the border
-- Jaina Proudmoore appears in those reports as a human mage worth watching
+- Routine Amani troll pressure exists on the southeastern frontier.
+- The ward network is stable as far as the formal reports say.
+- The Farstriders maintain dossiers on powerful human mages near the border.
+- Jaina Proudmoore appears in those reports as a human mage worth watching.
 
-**What Sylvanas does NOT know at open**
-- Anything about the plague
-- Anything about leyline corruption
-- That a human mage has crossed the ward boundary
-- Why Jaina is in Quel'Thalas
+**What Sylvanas doesn't know yet**
+- Anything about the plague.
+- Anything about leyline corruption.
+- That a human mage has already crossed the ward boundary.
+- Why Jaina is currently in Quel'Thalas.
 
-**Must not be implied yet**
-- No trust between Sylvanas and Jaina
-- No proof yet that this is anything more than a human trespass
-- No dialogue from Jaina before the final line
+**What NOT to do**
+- Do not build trust between Sylvanas and Jaina.
+- Do not prove that this is anything more than a human trespass yet.
+- Do not give Jaina any dialogue before the final line.
 
-**What the cast knows leaving the chapter**
-- Jaina is in Farstrider custody and must make her case directly to Sylvanas
-- Sylvanas knows the prisoner is Jaina Proudmoore, not a random trespasser
-- The border breach has turned from patrol annoyance into a serious interrogation
+**What they learn by the end**
+- Jaina is in Farstrider custody and must make her case directly to Sylvanas.
+- Sylvanas knows the prisoner is Jaina Proudmoore, not a random trespasser.
+- The border breach has escalated from a patrol annoyance into a serious interrogation.
 
 ---
 
-## Arc position
+## Character Arcs
 
 ### Sylvanas
-- **Current stance at open:** Anything south of the wards stays somebody else's trouble until it touches Sylvanas's stones, roads, or riders.
-- **Surface objective:** Finish the troll work, stay on horseback, and find one more excuse to miss the Convocation.
-- **Pressure source:** Cyndia's runner finds her with word that a human mage crossed the wards and will not stop talking about something wrong in the leylines.
-- **Misbelief manifestation:** Sylvanas hears human mage and thinks politics, spying, paperwork. If the trouble started in Lordaeron, she expects Lordaeron to keep it there.
-- **Chapter test:** The first warning that matters comes from the exact kind of outsider she is built to distrust, and it lands inside her own border instead of safely beyond it.
-- **Forced choice:** Leave the prisoner to protocol and let other people sort the mess out, or ride south and put her own eyes on it.
-- **End-state shift:** By chapter close this is no longer a spoiled patrol day. It is Sylvanas's problem, and the mage is standing in her holding space.
-- **Carry-forward residue:** Chapter 2 opens with Sylvanas angry, alert.
+- At the start, Sylvanas believes anything south of the wards is somebody else's problem until it actively touches her stones, roads, or riders.
+- She wants to finish the troll work, stay on her horse, and find an excuse to avoid the Convocation budget session.
+- When word arrives that a human mage crossed the wards talking about broken leylines, her first instinct is to assume it's just Kirin Tor politics, spying, and paperwork.
+- She has to decide whether to leave the prisoner to standard protocol while others handle the mess, or ride south and put her own eyes on the problem.
+- By the end of the chapter, this is no longer a spoiled patrol day. The problem belongs to her, and the mage is standing in her own holding space. Chapter 2 will open with her angry and fully alert.
 
 ### Jaina through Sylvanas's POV
-- **Visible function:** The captured human mage who ruins an easy day before she even opens her mouth.
-- **POV misread at open:** A Kirin Tor intrusion, a spy, or some polished court sorceress who expects the border to bend for her.
-- **Correction earned here:** Before Jaina even speaks, the worn boots, ink stains, frost-bitten knuckles, and raw-edged posture say fieldwork, exhaustion, and frustration instead of court polish.
-- **Interaction rule:** Inside Sylvanas's head, Jaina stays the mage, the human, or the prisoner. No warmth. No name-softening.
-- **Do not reveal yet:** the full contamination case, her isolation from the Kirin Tor, or her desperation.
+- Before Sylvanas even sees her, Jaina is just the captured human mage who ruined an easy day.
+- Sylvanas expects a Kirin Tor intrusion—a spy or some polished court sorceress who expects the border to bend for her.
+- When Sylvanas finally sees her, the reality doesn't match the expectation. Jaina's worn boots, ink stains, frost-bitten knuckles, and raw-edged posture scream fieldwork, exhaustion, and frustration, not court polish.
+- Inside Sylvanas's head, Jaina remains "the mage," "the human," or "the prisoner." There is no warmth and no softening of her name.
+- Jaina's full contamination case, her isolation from the Kirin Tor, and her desperation are deliberately held back for the next chapter.
 
-### Partnership / team
-- **Operating mode at open:** No partnership. One woman in custody, one woman deciding how hard the door stays shut.
-- **Operational change this chapter:** Jaina stops being paperwork trouble and becomes the one person Sylvanas has to hear before she can decide what kind of threat this is.
-- **Naming rule:** Sylvanas does not give Jaina the dignity of her name in her internal framing yet.
-- **Do-not-overstate rule:** No thaw, no rapport, no early respect. The chapter ends on the first hard face-to-face look.
+### Partnership
+- There is no partnership. One woman is in custody, and the other is deciding how hard the door stays shut.
+- Jaina transitions from being a paperwork headache to the one person Sylvanas has to hear out before she can gauge the actual threat.
+- There is no thaw, no rapport, and no early respect. The chapter ends on their first hard face-to-face look. Sylvanas does not give Jaina the dignity of her name in her internal framing yet.
 
 ---
 
-## Cast and handoff rules
+## Cast and next chapter
 
 - **Lor'themar Theron:** Present in Scenes 1-2. Exits north in Scene 2 to brief the Convocation.
 - **Mounted patrol:** Present in Scenes 1-2. Leaves north with Lor'themar once the report lands.
-- **Ranger Cyndia:** Enters in Scene 3 as border-post officer. Remains active into Chapter 2.
+- **Ranger Cyndia:** Enters in Scene 3 as the border-post officer. Remains active into Chapter 2.
 - **Farstrider runner:** Scene 2 only. Delivers the inciting report, then turns back south with Sylvanas to Cyndia's post.
-- **Jaina Proudmoore:** Seen in Scene 3. She does not speak on-page until the chapter-ending line prompts Chapter 2.
+- **Jaina Proudmoore:** Seen in Scene 3, but does not speak on-page until the chapter-ending line that prompts Chapter 2.
 
-**Chapter handoff target:** Chapter 2 opens at Cyndia's post on the interrogation beat. Lor'themar and the mounted patrol are already northbound; Sylvanas, Jaina, and Cyndia inherit the scene.
+**Next chapter starts:** Chapter 2 opens at Cyndia's post exactly on the interrogation beat. Lor'themar and the mounted patrol are northbound; Sylvanas, Jaina, and Cyndia inherit the scene.
 
 ---
 
 ## Scene 1: The Hunt
 
-**Scene function:** Show Sylvanas where she is happiest, and the easy rhythm she only has with Lor'themar.
-**Cast in scene:** Sylvanas, Lor'themar, mounted patrol, Amani raiders
-**Knowledge at scene start:** Ordinary frontier work; nothing stranger than trolls
+**What happens:** Show Sylvanas where she is happiest, establishing the easy rhythm she only has with Lor'themar.
+**Cast:** Sylvanas, Lor'themar, mounted patrol, Amani raiders.
+**Where we start:** Ordinary frontier work; nothing stranger than trolls.
 
-### Beat 1 — Scene: The last arrow
-- **Goal:** Finish the sweep by killing the last troll raider
-- **Conflict:** The final Amani axethrower breaks from cover with an attack already committed
-- **Outcome:** **yes** — Sylvanas kills him cleanly
-- **Value shift:** tension -> satisfaction
-- **New on-page information:**
-  - Sylvanas is at ease only on a live patrol
-  - She sees footing, range, and openings before anyone else does
-- **Still unknown after beat:**
-  - Any larger threat than routine troll violence
-- **Sensory anchors:**
-  - Wet impact of the arrow through troll flesh
-  - Crushed fern, troll-blood tang, Eversong sweetness
-  - Silence returning to birdsong
-- **Transition intent:** The clean kill leaves room for banter and reminds us how badly Sylvanas wants to stay out here, away from politics
+### Beat 1
+- Sylvanas finishes the sweep by killing the last Amani axethrower as he breaks from cover with a committed attack. She drops him cleanly, easing the tension into professional satisfaction.
+- She sees the footing, the range, and the openings before anyone else does. This establishes that Sylvanas is only truly at ease on a live patrol, far from politics. They still have no idea there is any threat larger than routine troll violence.
+- The wet impact of the arrow punching through troll flesh; crushed ferns and the tang of troll-blood mixing with Eversong sweetness; the sudden silence of the forest returning to ordinary birdsong.
+- The clean kill leaves room for banter and highlights how badly Sylvanas wants to stay out here.
 
-### Beat 2 — Sequel: After-action with Lor'themar
-- **Emotion:** Professional satisfaction
-- **Dilemma:** Ride back for the Convocation budget session or steal one more stretch of road before duty catches up
-- **Decision:** Stretch the patrol south under the excuse of checking the ward-stones
-- **Value shift:** satisfaction -> playful defiance
-- **New on-page information:**
-  - Lor'themar knows exactly when Sylvanas is lying to herself
-  - The Convocation is a standing pressure on Sylvanas's time and temperament
-- **Still unknown after beat:**
-  - Whether the ward-stones actually need checking
-- **Sensory anchors:**
-  - Steel cleaned on fern frond
-  - Cooling forest air after combat
-  - Horses settling under familiar riders
-- **Transition intent:** Let the road stay easy for another minute
+### Beat 2
+- Sylvanas and Lor'themar share the professional satisfaction of the sweep. Sylvanas has to decide whether to ride back for the Convocation budget session or steal one more stretch of road before duty catches up.
+- She decides to stretch the patrol south under the excuse of checking the ward-stones. Lor'themar knows exactly when she is lying to herself. The Convocation sits as a constant, looming pressure on Sylvanas's time and temperament. They still don't know if the ward-stones actually need checking.
+- Steel being wiped clean on a fern frond; the cooling forest air settling after combat; horses relaxing under familiar riders.
+- They let the road stay easy for another minute, playfully defying the political clock.
 
-### Beat 3 — Scene: Rapport on the trail
-- **Goal:** Ride south in temporary peace
-- **Conflict:** Lor'themar keeps pushing the political reality Sylvanas wants to ignore
-- **Outcome:** **yes-but** — Sylvanas gets the ride she wants, but the Convocation remains waiting at the edge of the day
-- **Value shift:** playful defiance -> ease
-- **New on-page information:**
-  - Lor'themar is the one who absorbs court irritation so Sylvanas can stay where she likes best
-  - This is Sylvanas's emotional baseline before the story disrupts it
-  - Cyndia would know exactly which southbound road to search if Sylvanas stole one more patrol before a Convocation day
-- **Still unknown after beat:**
-  - Any immediate threat south of them
-- **Sensory anchors:**
-  - Amber canopy light over the track
-  - Ward-hum under the horses' stride
-  - Shared pace on the forest road
-- **Transition intent:** Ease is broken by an urgent mounted approach from the south
+### Beat 3
+- They ride south in temporary peace, though Lor'themar gently pushes the political reality Sylvanas wants to ignore.
+- Lor'themar absorbs her court irritation so she can stay where she likes best. This establishes Sylvanas's emotional baseline before the story disrupts it. Lor'themar jokes that Cyndia would know exactly which southbound road to search if Sylvanas stole one more patrol before a Convocation day. They still don't anticipate any immediate threat south of them.
+- Amber canopy light filtering over the track; the deep ward-hum vibrating under the horses' strides; the shared, comfortable pace on the forest road.
+- The familiar ease is abruptly broken by an urgent mounted approach from the south.
 
 ---
 
 ## Scene 2: The Messenger
 
-**Scene function:** Bring in the bad report and split Sylvanas from Lor'themar.
-**Cast in scene:** Sylvanas, Lor'themar, Farstrider runner, patrol
-**Knowledge at scene start:** Still just a border day, as far as anyone knows
-**Arc pressure:** The problem Sylvanas wanted to leave south of the wards has already reached her road.
+**What happens:** Bring in the bad report and split Sylvanas from Lor'themar.
+**Cast:** Sylvanas, Lor'themar, Farstrider runner, patrol.
+**Where we start:** Still just a routine border day, as far as anyone knows.
 
-### Beat 4 — Scene: The report from the border
-- **Goal:** Continue south on patrol
-- **Conflict:** A Farstrider runner comes in hard from Cyndia's post, sent north on the south patrol road because Cyndia knew exactly where Sylvanas would be if she stole one more patrol before the Convocation, and he brings bad news: a human mage crossed the first ward ring before dawn and was caught studying the ward-stones
-- **Outcome:** **no-and** — Sylvanas loses the rest of her ordinary day, and the trouble immediately smells like Kirin Tor business and politics
-- **Value shift:** ease -> sharp irritation
-- **New on-page information:**
-  - There is a detained human mage inside the ward network
-  - She has no presented credentials
-  - She is claiming something is wrong in the leylines
-- **Still unknown after beat:**
-  - The mage's identity
-  - Whether she acts for the Kirin Tor, for herself, or for someone else
-  - Whether the warning is real
-- **Sensory anchors:**
-  - Lathered runner's horse
-  - Foam at the bit
-  - Runner speaking in clipped patrol shorthand
-- **Dialogue guidance:** Let Lor'themar make one dry remark that this was not blind luck: Cyndia sent the runner up the south patrol road because she knew Sylvanas would still be out here dodging the Convocation.
-- **Transition intent:** Someone has to handle the politics, and someone has to ride south
+### Beat 4
+- A Farstrider runner comes in hard from Cyndia's post. He rode north on the south patrol road because, as Lor'themar joked, Cyndia knew exactly where Sylvanas would be hiding from the Convocation. 
+- The runner brings bad news: a human mage crossed the first ward ring before dawn and was caught studying the ward-stones without any credentials, claiming something is wrong in the leylines. Sylvanas loses the rest of her ordinary day, immediately irritated by what smells like Kirin Tor politics. They still don't know the mage's identity, who she works for, or if the warning is real.
+- The lathered coat of the runner's horse; foam flying at the bit; the runner delivering the news in clipped, exhausted patrol shorthand.
+- Someone has to handle the politics, and someone has to handle the border. Sylvanas prepares to ride south.
 
-### Beat 5 — Sequel: The split
-- **Emotion:** Irritation redirected into command focus
-- **Dilemma:** Someone must contain the political fallout while someone with real authority evaluates the prisoner
-- **Decision:** Lor'themar rides north to the Convocation; Sylvanas rides south to the Pass
-- **Value shift:** irritation -> grim purpose
-- **New on-page information:**
-  - Lor'themar goes where councils talk; Sylvanas goes where trouble is still alive
-  - Both understand the stakes of an unauthorized human mage inside the ward system
-  - Lor'themar takes the patrol north, while the runner wheels back south with Sylvanas
-- **Still unknown after beat:**
-  - Whether this is a diplomatic mess, a spy problem, or something worse
-- **Sensory anchors:**
-  - Two horses separating at the fork
-  - Forest road north versus the harder southern track
-  - The riderless gap after Lor'themar peels away
-- **Transition intent:** Sylvanas rides south without the one person who usually takes the edge off
+### Beat 5
+- Sylvanas redirects her irritation into command focus. Lor'themar must go north to contain the political fallout at the Convocation, while Sylvanas needs to evaluate the prisoner personally.
+- Lor'themar goes where councils talk; Sylvanas goes where trouble is still alive. Both understand the severe stakes of an unauthorized human mage inside the ward system. Lor'themar turns the patrol north, while the runner wheels his horse back south alongside Sylvanas. They still don't know if this is a diplomatic mess, a spy problem, or something worse.
+- Two horses separating at the fork in the path; the softer forest road north contrasting with the harder southern track; the sudden riderless gap after Lor'themar peels away.
+- Sylvanas rides south without the one person who usually takes the edge off her temper.
 
-### Beat 6 — Scene: The ride to the Pass
-- **Goal:** Reach the border post fast enough to control the situation personally
-- **Conflict:** On the ride down, Sylvanas turns the possibilities over the way a soldier does: rogue mage, Kirin Tor spying, someone tampering with the wards
-- **Outcome:** **yes-but** — she arrives angrier and more certain it matters, but the talk of wrong leylines still does not fit any box she trusts
-- **Value shift:** grim purpose -> hard focus
-- **New on-page information:**
-  - Sylvanas knows Jaina's name before she sees her face
-  - The border transition is both physical and mental for Sylvanas
-- **Still unknown after beat:**
-  - Whether the mage is in over her head or deliberately hostile
-- **Sensory anchors:**
-  - Eversong warmth thinning into the colder Pass
-  - Ward-stones pulsing closer together
-  - Loose gravel and mountain wind
-- **Transition intent:** The road carries her straight into Cyndia's account
+### Beat 6
+- Riding hard for the Pass, Sylvanas turns the possibilities over in her head: a rogue mage, Kirin Tor spying, or someone actively tampering with the wards.
+- She arrives at the border post angrier and more certain this matters, though the talk of "wrong leylines" still doesn't fit any box she trusts. The border transition is a physical and mental shift for her. She still doesn't know she is riding to meet Jaina Proudmoore, or whether the intruder is in over her head or deliberately hostile.
+- The warmth of Eversong thinning out into the colder, sharper air of the Pass; the ward-stones pulsing closer together along the perimeter; the sound of loose gravel and biting mountain wind.
+- The hard ride carries her straight into Cyndia's official account of the arrest.
 
 ---
 
 ## Scene 3: The Prisoner
 
-**Scene function:** Turn a border arrest into a real problem and end on the hook.
-**Cast in scene:** Sylvanas, Cyndia, border rangers, Jaina
-**Knowledge at scene start:** Human mage detained; no identity confirmation yet; leyline claim still untrusted
-**Arc pressure:** Seeing Jaina up close keeps this from staying a report on paper. Now it is a woman, a name, and a problem inside Sylvanas's own border post.
+**What happens:** Turn a frustrating border arrest into a massive problem, ending on the hook for Chapter 2.
+**Cast:** Sylvanas, Cyndia, border rangers, Jaina.
+**Where we start:** A human mage is detained, her identity is unconfirmed, and her leyline claims are untrusted.
 
-### Beat 7 — Scene: Cyndia's briefing
-- **Goal:** Establish exactly what happened at the border
-- **Conflict:** Cyndia confirms the mage crossed before dawn, reached the second ring, and argued for continued analysis instead of attempting escape
-- **Outcome:** **yes-but** — Cyndia gives Sylvanas clean facts, but the facts make the prisoner stranger, not clearer
-- **Value shift:** hard focus -> narrowing assessment
-- **New on-page information:**
-  - The mage was not sneaking carefully; she was intent on her work
-  - The ward-stones reacted like something had gone wrong in them, not like someone blasted her way through
-  - Cyndia has confiscated staff and materials pending senior authority
-- **Still unknown after beat:**
-  - Whether the mage is arrogant, panicked, or both
-  - Whether the leyline warning is genuine
-- **Sensory anchors:**
-  - Border camp built into stone
-  - Bright ward-stones on the road
-  - Rangers holding the posture of extended alert
-- **Transition intent:** The report sends Sylvanas straight to the holding space
+### Beat 7
+- Cyndia briefs Sylvanas on the arrest. She confirms the mage crossed before dawn, reached the second ring, and instead of trying to escape when caught, argued for continued analysis of the stones.
+- Cyndia delivers clean facts, but those facts make the prisoner stranger. The mage wasn’t sneaking; she was totally intent on her work. The ward-stones reacted as if something had gone wrong inside them, not like someone had blasted through. The mage's staff and materials are confiscated pending senior authority. They still don't know if the mage is arrogant, panicked, or both, or if the leyline warning is genuine.
+- The heavy stone architecture of the border camp; the bright, humming ward-stones lining the road; the rangers holding the stiff posture of an extended alert.
+- The strange report sends Sylvanas straight to the holding space to see for herself.
 
-### Beat 8 — Scene: First sight and identification
-- **Goal:** Assess the prisoner and confirm identity
-- **Conflict:** What Sylvanas expected does not match what she sees: practical travel gear, worn boots, calloused hands, frost-burned knuckles, and the posture of someone furious at not being heard
-- **Outcome:** **no-and** — the woman in the holding space is not what Sylvanas expected, and at the same moment Cyndia names her: Jaina Proudmoore, Antonidas's apprentice, inside the ward grid
-- **Value shift:** narrowing assessment -> cold fury
-- **New on-page information:**
-  - The prisoner is Jaina Proudmoore
-  - She does not read as a pampered court mage
-  - This is no longer a minor trespass case
-- **Still unknown after beat:**
-  - Why Jaina crossed the border alone
-  - Whether Antonidas knows where she is
-  - Whether the contamination claim is real
-- **Sensory anchors:**
-  - Cold ward-light on Jaina's face
-  - Ink stains and frost burns on her hands
-  - Confiscated staff against the weapons rack
-- **Transition intent:** Identity escalates the scene from detention to interrogation
+### Beat 8
+- Sylvanas walks in to assess the prisoner, but what she expected completely clashes with what she sees.
+- Instead of a pampered court diplomat, Sylvanas sees practical travel gear, worn boots, calloused hands, and frost-burned knuckles. The prisoner holds the furious posture of someone tired of not being heard. Cyndia finally names her: Jaina Proudmoore, Antonidas's apprentice, caught inside their grid. It is no longer a minor trespass case. They still don't know why Jaina crossed the border alone or if Antonidas knows she's there.
+- Cold, unforgiving ward-light falling across Jaina's face; sharp ink stains and frost burns on her bare hands; her confiscated staff leaning against the outpost weapons rack.
+- The sudden identity reveal escalates the scene from a simple detention to a high-stakes interrogation.
 
-### Beat 9 — Sequel: Interrogation decision
-- **Emotion:** Cold fury held tight
-- **Dilemma:** Releasing Jaina is impossible, but holding her without hearing her out feels just as dangerous
-- **Decision:** Interrogate immediately
-- **Value shift:** cold fury -> controlled intensity
-- **New on-page information:**
-  - Sylvanas now treats Jaina as a real security problem
-  - The conversation itself becomes the chapter hook
-- **Still unknown after beat:**
-  - The truth of Jaina's warning
-  - The plague
-  - Any reason for trust
-- **Sensory anchors:**
-  - Rangers clearing a path without being told
-  - Blue ward-light climbing Sylvanas's boots as she steps closer
-  - Absolute stillness before the first exchange
-- **Transition intent:** Chapter ends on Sylvanas's opening line; Chapter 2 begins from Jaina's POV at the exact same moment
+### Beat 9
+- Sylvanas holds her cold fury tight. Releasing Jaina is impossible, but holding her without hearing her out feels just as dangerous now. She decides to interrogate her immediately.
+- Sylvanas treats Jaina as a very real, very present security problem. The standoff locks in, and the conversation itself becomes the entire hook for the next chapter. Sylvanas still doesn't know the truth of the warning, anything about the plague, or if she has any reason to trust this human.
+- The rangers quietly clearing a path without being told; blue ward-light climbing the leather of Sylvanas's boots as she steps closer; the absolute, heavy stillness in the room before the first exchange.
+- The chapter ends on Sylvanas's opening demand: "Start talking." Chapter 2 will begin from Jaina's POV at that exact moment.
 
 ---
 
-## Chapter close / handoff
+## Chapter end
 
-**Active cast at close**
+**Characters at the end**
 - Sylvanas
 - Jaina
 - Cyndia
 - border rangers
 
 **Departures already locked**
-- Lor'themar is northbound toward Silvermoon and will not appear physically in Chapter 2
-- The mounted patrol goes north with Lor'themar and is gone before Sylvanas reaches the outpost
-- The runner returns to border-post duty after bringing Sylvanas in and does not remain active in Chapter 2
+- **Lor'themar:** Northbound toward Silvermoon. Will not appear physically in Chapter 2.
+- **Mounted patrol:** Gone north with Lor'themar before Sylvanas reaches the outpost.
+- **Farstrider runner:** Returned to normal border-post duty. Will not appear in Chapter 2.
 
-**Facts locked for Chapter 2**
-- Jaina has been detained for hours before Sylvanas arrives
-- Sylvanas knows Jaina's identity before the conversation starts
-- Jaina has not yet explained the contamination on-page
-- The line "Start talking" belongs to the chapter boundary and must not be replayed from outside Jaina's POV in Chapter 2
+**What we learn for Chapter 2**
+- Jaina has been detained for hours before Sylvanas arrives.
+- Sylvanas knows Jaina's identity before their conversation starts.
+- Jaina has not yet explained the contamination on-page.
+- The final line, "Start talking," belongs to this chapter's boundary and must not be replayed from outside Jaina's POV in Chapter 2.
 
-**Facts not yet earned**
-- Proof that Jaina is right
-- Any partnership language
-- Any assumption that the danger has already become something everyone can see and name
+**What we still don't know**
+- Any proof that Jaina's warnings are right.
+- Any partnership language or trust between the two women.
+- Any assumption that the magical danger has become a visible, physical threat yet.

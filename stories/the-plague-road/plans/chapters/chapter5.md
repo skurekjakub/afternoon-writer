@@ -1,270 +1,166 @@
 # Chapter 5: The Grain Road
 
 **POV:** Sylvanas Windrunner (limited third, absolute)
-**Timeline position:** Opens immediately after the Chapter 4 decision to leave the sick village and pursue the source southwest.
-**Open location:** Lordaeron's trade-road network between village depots and the roads feeding Andorhal.
-**Transport:** Mounted travel on Thalassian horses between depots, inns, and granary stops.
-**Active cast at open:** Sylvanas, Jaina, Cyndia, Lyriel.
-**Immediate objective:** Trace the contaminated grain backward through records, depots, and delivery routes until the supply chain narrows to a source hub.
+**When:** Opens immediately after leaving the sick village in Chapter 4, riding southwest toward the source.
+**Where:** Lordaeron trade roads, moving between village supply depots and the roads leading into Andorhal.
+**Travel:** On Thalassian horses, traveling long miles between depots.
+**Characters:** Sylvanas, Jaina, Cyndia, Lyriel.
+**Goal:** Work backward along the grain trail—checking ledgers, depots, and cart routes—until they find the center holding it all together.
 
-## Meta info
+## References
 
-- **Worldbuilding references:** [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
-- **Character references:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
+- **Worldbuilding:** [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-process.md)
+- **Characters referenced:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
 
 **What Sylvanas knows at open**
-- Grain is what carries it
-- Organized hands are seeding the grain roads and watching what happens
-- The village-level watcher died by poison before he could be questioned
-- The strongest route logic points southwest toward Andorhal
-- Millhaven remains the first fully claimed village; most other settlements are still only in confused early-stage sickness
-- Jaina's sensitivity is putting them ahead of public understanding, but not ahead of the rollout itself; they are still following grain that has already landed
-- Jaina believes exposure depth and repeated ingestion matter, not merely presence versus absence
-- Millhaven left two weak grain-side anomalies worth filing for later: the old seller on the north road and the survivor girl's memory of a newer grain man
+- Grain carries the sickness.
+- Someone organized is moving the wagons and silencing loose ends, like the poisoned village watcher.
+- The trail points southwest to Andorhal.
+- Most settlements are only showing early sickness; Millhaven fell the hardest.
+- Jaina can read the contamination before people notice they are sick, tracking the deep exposure it takes to kill a town.
+- The old seller on the north road and the survivor girl’s memory of the "newer grain man" still bother Sylvanas, filed away for later.
 
-**What Sylvanas does NOT know at open**
-- Who owns or controls the roads and storehouses they are tracing
-- Whether the Barovs are architects, collaborators, or unwitting hosts
-- Whether the old grain seller from Chapter 3 belongs in the same picture
+**What Sylvanas doesn't know yet**
+- Who truly runs these trade routes.
+- Whether the Barovs built the plague, helped hide it, or are completely clueless.
+- That the old grain seller from Chapter 3 is directly involved.
 
-**Must not be implied yet**
-- No certainty about Barov complicity before the paperwork says so
-- No explicit identification of Mal'Ganis
-- No trust language stronger than grim working reliance
+**What NOT to do**
+- Do not confirm Barov guilt yet—only that their name is on the paperwork.
+- Keep Mal'Ganis out of sight and unnamed.
+- Keep Sylvanas and Jaina professional; they rely on each other now, but they aren't suddenly close friends.
 
-**What the cast knows leaving the chapter**
-- The southern feeder road toward Andorhal is the chosen route
-- The Barov name now sits in the grain paperwork, but not yet as proven guilt
-- Arthas's active military theater lies near the road they have to ride
-- The old seller is worth remembering, but still not identified
+**What they learn by the end**
+- The southern road to Andorhal is the only way forward.
+- The Barov name runs through all the grain records.
+- Prince Arthas is fighting an active war right along their chosen route.
+- The memory of the old grain seller is sharper now, even though they still don't know who he is.
 
 ---
 
-## Arc position
+## Character Arcs
 
 ### Sylvanas
-- **Current stance at open:** Sylvanas is still telling herself this is a southern extension of border work, even with every mile proving otherwise.
-- **Surface objective:** Turn scattered sickness sites and grain records into a usable road map that points toward the source.
-- **Pressure source:** The farther south they ride, the less this looks like something she can bracket as Lordaeron's mess, and the road keeps rewarding Jaina's pattern read.
-- **Misbelief manifestation:** Sylvanas still treats Jaina's work like extra help riding under her command, even when the mage is the one keeping the route coherent.
-- **Chapter test:** The paper trail keeps changing shape fast enough that Sylvanas has to trust Jaina's live revisions instead of waiting for field confirmation of everything.
-- **Forced choice:** Keep treating Jaina as support she brings along, or start moving as if the mage's read sets direction as much as her own.
-- **End-state shift:** By chapter close Sylvanas is no longer merely bringing Jaina along. She is riding with her on purpose.
-- **Carry-forward residue:** Chapter 6 opens with Sylvanas consulting Jaina as part of the method, not as an afterthought.
+- Sylvanas starts the ride trying to treat this like standard border patrol, but every mile proves the conspiracy is bigger and more malicious than a simple poisoning trick.
+- She wants to map the plague using Farstrider logic—depots, wagon ruts, ledgers—but quickly realizes she needs Jaina’s magical read of the grain to make sense of the route.
+- Instead of treating Jaina like a drafted scout, she has to accept the mage is leading the hunt just as much as she is.
+- By the time they reach the chapter end, Sylvanas isn't just bringing Jaina along; she is actively relying on her judgment to pick the road ahead.
 
 ### Jaina through Sylvanas's POV
-- **Visible function:** The woman who can keep the pattern straight while it changes under them.
-- **POV misread at open:** Useful, but still inclined to see the map cleaner than the world ever is.
-- **Correction earned here:** Jaina adjusts fast, drops bad assumptions without vanity, and keeps the road legible in motion. That discipline makes Sylvanas trust the read more than the mage's rank or theory.
-- **Interaction rule:** This is where Sylvanas can think Jaina's name without it feeling like a special event. Do not make it tender. Just natural.
+- Jaina starts out looking like an idealist who expects the real world to map cleanly to her theories.
+- However, Jaina keeps adjusting her readings instantly without pride, tying her magic straight into the wagon ledgers to keep them moving.
+- Sylvanas respects that discipline more than any title. Jaina's competence forces Sylvanas to stop thinking of her as "the mage" and start just thinking "Jaina."
+- Keep the respect grounded in the work. Sylvanas notices exactly how capable Jaina is, but she doesn't get warm about it.
 
-### Partnership / team
-- **Operating mode at open:** Functional cooperation with sharp edges.
-- **Operational change this chapter:** They stop working in turns and start working in rhythm. One woman finds the route, the other keeps it moving.
-- **Naming/attitude rule:** Sylvanas's internal register loosens a notch. Respect is easier than saying so.
-- **Do-not-overstate rule:** Reliance is beginning. Trust is still conditional and tactical.
+### Partnership
+- They start out working side by side but in separate lanes, still sharp with each other.
+- The miles force them into a rhythm. Jaina finds the invisible trail; Sylvanas tracks the physical paper and movement.
+- They drop the remaining friction. They don't trust each other with their lives yet, but they trust each other with the work.
 
 ---
 
-## Cast and handoff rules
+## Cast and next chapter
 
-- **Cyndia:** Still with the riding party.
-- **Lyriel:** Still with the riding party.
-- **Neral:** Already gone north with the warning relay and the survivor girl; do not imply her presence in this block.
+- **Cyndia & Lyriel:** Riding point and perimeter, but keeping quiet while the leads work.
+- **Neral:** Gone north. Do not bring her up.
 
-**Chapter handoff target:** Chapter 6 opens on the same four-person riding party taking the southern feeder road that will bring them near Strahnbrad before the final push on Andorhal.
+**Next chapter starts:** Chapter 6 opens with all four women on the southern road, headed for the military camp near Strahnbrad before pushing to Andorhal.
 
 ---
 
 ## Scene 1: The Paper Trail
 
-**Scene function:** Turn one dead village and a string of ordinary-looking sickness sites into a road map, and reveal how big the thing really is.
-**Cast in scene:** Sylvanas, Jaina, Cyndia, Lyriel, depot clerks, innkeepers, merchants
-**Knowledge at scene start:** Grain is carrying it; southwest is where the road keeps pulling them
+**What happens:** Piece together the scattered sickness into a regional map, realizing they aren't chasing a single poisoned well—they are chasing a corrupted supply chain.
+**Cast:** Sylvanas, Jaina, Cyndia, Lyriel, depot clerks, innkeepers, merchants.
+**Where we start:** They know grain is the carrier and are riding southwest following the route logic.
 
-### Beat 1 — Scene: Manifests instead of magic
-- **Goal:** Track contaminated deliveries using records rather than contamination alone
-- **Conflict:** The truth is buried in ordinary paperwork — invoices, loading tallies, inn ledgers, delivery marks
-- **Outcome:** **yes-but** — the route begins to resolve, but only by proving the problem is much bigger than one or two villages
-- **Value shift:** known carrier -> the road is bigger than they thought
-- **New on-page information:**
-  - Millhaven and multiple mildly sick settlements share the same supply pattern
-  - Most sites still read as ordinary illness to the people living in them
-  - Severity tracks how long a place depends on the shipped grain, not just whether contamination is present at all
-  - Sylvanas reads wagon routes the way she reads troop movement
-  - Jaina's contamination notes become more useful when tied to route records
-  - Jaina changes her read as fast as the numbers change, which Sylvanas recognizes as discipline rather than fussiness
-- **Still unknown after beat:**
-  - Who controls the route at origin
-- **Sensory anchors:**
-  - Dusty account books
-  - Grain tallies and wagon marks
-  - Horses tied outside while the party works inside paper-heavy rooms
-- **Transition intent:** The record trail leads them to a depot where the evidence should be thicker
+### Beat 1
+- They stop relying on magic alone and start digging through mundane depot invoices, inn ledgers, and wagon manifests. The evidence only locks together when Sylvanas overlays her tracking logic on Jaina's contamination readings.
+- Millhaven’s supply lines match dozens of other towns. Most places don't even know they’re sick yet, but Jaina can see that the longer a town eats this specific grain, the worse the rot sets in. Sylvanas notes how quickly Jaina works without complaining.
+- Dusty, ink-smudged account books; the repetitive scrawl of grain tallies; horses tethered outside hot, paper-stuffed rooms while the women work.
+- The ledgers point them toward a larger regional depot that should have all the answers.
 
-### Beat 2 — Scene: Scale revelation
-- **Goal:** Determine whether this is local sabotage or something using the whole grain road
-- **Conflict:** Every additional ledger points outward to more villages, more roads, more deliveries
-- **Outcome:** **no-and** — the scale is confirmed as regional, and that means they are not chasing a village trick but something big enough to lean on the kingdom's grain roads
-- **Value shift:** the road is bigger than they thought -> somebody has turned food into a regional weapon
-- **New on-page information:**
-  - The same grain road touches dozens of settlements
-  - This is not one bad chain but a kingdom-wide food road
-- **Still unknown after beat:**
-  - Who sits at the center
-- **Sensory anchors:**
-  - Repeating place names
-  - Jaina's map and Sylvanas's route marks overlaying each other
-  - The sick feeling of a pattern getting cleaner as the stakes get worse
-- **Transition intent:** The next depot should confirm the route, unless the enemy is already reacting to them
+### Beat 2
+- Every new ledger makes the map worse. What should have been a clean path backward splits into an overwhelming web of deliveries.
+- This regional trade network touches dozens of settlements. It’s not local sabotage; someone is using Lordaeron’s entire trade engine as a weapon. The center is still hidden.
+- Reciting identical town names off different pages; Jaina's map and Sylvanas's route notes stacking over each other into a mess; the sinking dread as the sheer size of the plague comes into focus.
+- They pack up and push for the next depot, hoping the conspiracy hasn't noticed them yet.
 
-### Beat 3 — Sequel: The route has become a hunt
-- **Emotion:** Focus tightening into pursuit
-- **Dilemma:** Keep treating the trail as static evidence, or assume the conspiracy is already moving to erase it
-- **Decision:** Assume an active opponent and press harder
-- **Value shift:** somebody has turned food into a regional weapon -> live enemy
-- **New on-page information:**
-  - Sylvanas no longer treats the investigation as passive archaeology
-  - The party begins expecting resistance ahead
-  - Their lead is real but narrow: they are seeing the network early, never early enough to get in front of a shipment
-- **Still unknown after beat:**
-  - How close the enemy is staying to them in real time
-- **Sensory anchors:**
-  - Evening road
-  - Tired horses
-  - Cyndia and Lyriel watching the perimeter while the leads work
-- **Transition intent:** The next depot tests whether the enemy is ahead of them
+### Beat 3
+- Riding late into the evening, Sylvanas realizes they aren't just doing historical research. If the map is this clean and organized, the people who drew it are actively tending it—and likely cleaning the trail ahead of them.
+- Sylvanas treats this like a live hunt now. They have a narrow lead, but they are still arriving after the grain has already moved. They don't know if they are being watched.
+- Shadows lengthening on the evening road; tired, damp horses pressing on; Cyndia and Lyriel watching the dark tree line while Sylvanas and Jaina talk movement of goods.
+- The upcoming depot will prove if they are actually racing someone.
 
 ---
 
 ## Scene 2: The Cleaned Depot
 
-**Scene function:** Prove the enemy is reacting and narrow the road to a noble-house line.
-**Cast in scene:** Sylvanas, Jaina, Cyndia, Lyriel, depot staff, dead overseer
-**Knowledge at scene start:** They are now hunting a live network, not just following dead evidence
+**What happens:** Find the next depot deliberately wiped clean, shifting the hunt from following records to chasing active killers.
+**Cast:** Sylvanas, Jaina, Cyndia, Lyriel, depot staff, dead overseer.
+**Where we start:** They are actively hunting the network instead of just mapping it.
 
-### Beat 4 — Scene: Too late again
-- **Goal:** Seize the next depot's records before they disappear
-- **Conflict:** The depot has already been cleaned: records stripped, grain moved, evidence erased
-- **Outcome:** **no-and** — they arrive at the right place and discover they were anticipated
-- **Value shift:** live adversary -> the enemy is erasing the trail
-- **New on-page information:**
-  - Someone is clearing sites ahead of the investigation
-  - The conspiracy has enough awareness to react to their movement
-- **Still unknown after beat:**
-  - How they are being tracked
-- **Sensory anchors:**
-  - Empty shelves where ledgers should be
-  - Fresh absence rather than old ruin
-  - Warehouse quiet that feels recently manufactured
-- **Transition intent:** If the paperwork is gone, the body may still speak
+### Beat 4
+- They hit the targeted depot exactly right, but the books are stripped, the grain is gone, and the shelves are strangely tidy. Someone beat them to it.
+- The conspiracy is watching the road. Someone is actively erasing evidence just ahead of their investigation, though the party has no idea how they were tracked.
+- Blank wooden shelves where heavy ledgers belong; a chillingly clean warehouse instead of a ruined one; the manufactured, hollow quiet of a room swept of secrets.
+- Since the paperwork is gone, they look for whoever was supposed to guard it.
 
-### Beat 5 — Scene: The overseer
-- **Goal:** Learn what happened to the man who should have held the books
-- **Conflict:** The overseer looks naturally dead until Jaina reads the same precise necromantic touch used elsewhere
-- **Outcome:** **no-and** — they gain confirmation of targeted silencing, and lose the only local witness who might have named names
-- **Value shift:** the enemy is erasing the trail -> the enemy kills to preserve the trail
-- **New on-page information:**
-  - This was not random death
-  - The conspiracy can deploy precise, limited magical violence as well as mass poisoning
-- **Still unknown after beat:**
-  - The exact structure linking depots to the source hub
-- **Sensory anchors:**
-  - Body in an office that should have been occupied
-  - Wrong residue beneath an apparently clean death
-  - Jaina reading magic where Sylvanas reads staging
-- **Transition intent:** They now search for surviving scraps, partial ledgers, and route marks
+### Beat 5
+- Sylvanas finds the depot overseer slumped at his desk. It looks like a simple heart failure, until Jaina leans in and catches the same sharp, cold necromantic signature they keep finding on dead witnesses.
+- The enemy uses precise magical assassinations to protect the shipping lanes. The one man who could have named the cart drivers is dead, and the chain is broken again.
+- A heavy body folded naturally over a desk; a faint, frigid residue hovering over the corpse; Jaina pulling magical traces off a crime scene Sylvanas would have marked as natural causes.
+- They tear the rest of the office apart looking for missed scraps of paper.
 
-### Beat 6 — Scene: The Barov name
-- **Goal:** Recover enough of the route map to identify the upstream owner or network
-- **Conflict:** Only fragments remain, and Sylvanas has to reconstruct the route from pieces instead of whole books
-- **Outcome:** **yes-but** — the surviving fragments point to Barov grain operations, but ownership does not yet equal guilt
-- **Value shift:** the enemy kills to preserve the trail -> the road narrows to Barov grain
-- **New on-page information:**
-  - Barov holdings sit inside the same road-and-storehouse web
-  - Andorhal is the place where that road web pinches together
-- **Still unknown after beat:**
-  - Whether the Barovs are complicit or penetrated
-- **Sensory anchors:**
-  - Torn route sheet
-  - House seal surviving in wax
-  - Sylvanas reconstructing from scraps rather than complete records
-- **Transition intent:** The party now has a route name, a hub, and a reason to choose its next road carefully
+### Beat 6
+- Sylvanas spends hours salvaging torn delivery slips and broken wax seals from the floorboards. It's frustrating work, leaving them with guesses instead of solid proof.
+- The torn scraps carry the Barov family crest. All the routes pinch together at Andorhal. They have a name and a destination, but they still don't know if the Barovs are masterminds or just victims whose grain was stolen.
+- A torn edge of parchment; crisp red wax pressed with a noble house seal; Sylvanas piecing trash together on a table while the dead man sits in the corner.
+- They have a destination and take the night to plan the final ride.
 
 ---
 
 ## Scene 3: Night Analysis and the South Road
 
-**Scene function:** Let the name change happen quietly and choose the road into Chapter 6.
-**Cast in scene:** Sylvanas, Jaina, Cyndia, Lyriel
-**Knowledge at scene start:** Barov infrastructure points toward Andorhal; the enemy is erasing evidence ahead of them
+**What happens:** Lock in the route to Andorhal, acknowledge Jaina’s value, and bring the Chapter 3 old seller back into focus.
+**Cast:** Sylvanas, Jaina, Cyndia, Lyriel.
+**Where we start:** They have the Barov name and know the enemy is erasing the road ahead.
 
-### Beat 7 — Scene: The name shift
-- **Goal:** Reconcile Jaina's contamination model with the route fragments
-- **Conflict:** At this point the work is too mixed together for Sylvanas to keep thinking of Jaina only as "the mage"
-- **Outcome:** **yes-but** — the analysis advances, and Sylvanas's internal naming changes without her acknowledging it
-- **Value shift:** the route narrows to Barov roads -> reliance made plain
-- **New on-page information:**
-  - Sylvanas now thinks "Jaina" naturally
-  - Jaina stops trimming her explanations once she sees Sylvanas can follow them
-  - Jaina can now sketch the carrier, the depth of exposure, and the way sickness worsens, even if the last step still escapes her
-- **Still unknown after beat:**
-  - The degree of Barov knowledge or guilt
-- **Sensory anchors:**
-  - Candlelight over ledgers and contamination map
-  - Quiet room with Cyndia and Lyriel taking perimeter turns outside
-  - The name landing internally without fanfare
-- **Transition intent:** With their working rhythm established, the old trader detail resurfaces with more bite
+### Beat 7
+- During a midnight stop, Sylvanas and Jaina finally merge the physical route with the map of the sickness's magical traces. They work so cleanly together that Sylvanas drops her mental distance, letting herself rely on Jaina directly.
+- Sylvanas stops thinking "the mage" and just thinks "Jaina." Jaina gives straight, hard answers without over-explaining. Together, they map out exactly how the sickness takes hold and deepens, though they still don't understand how it turns people into undead. The Barov involvement remains a massive question mark.
+- A single candle burning down over scattered ledgers; Cyndia and Lyriel pacing the perimeter outside; the quiet, unspoken click of two professionals finally trusting each other's work.
+- As the path locks into place, an old memory finally snaps into focus for Sylvanas.
 
-### Beat 8 — Sequel: The old wagon catches
-- **Emotion:** Uneasy retroactive attention
-- **Dilemma:** File the old grain seller as one more road contact, or give that memory more weight now that grain is confirmed as the thing carrying it
-- **Decision:** File it harder, but do not divert the route yet
-- **Value shift:** reliance made plain -> unresolved suspicion
-- **New on-page information:**
-  - The empty grain wagon from Chapter 3 matters more than it did then
-  - Sylvanas's memory is beginning to revisit previously unremarkable details
-- **Still unknown after beat:**
-  - Whether the trader belongs to the conspiracy or merely moved through its roads
-- **Sensory anchors:**
-  - Grain dust memory in old wagon slats
-  - Helpful voice recalled without a face that holds
-  - Annoyance at not having acted on something she could not yet have known to act on
-- **Transition intent:** They now choose the actual road into Chapter 6
+### Beat 8
+- Seeing how methodical the poisoning operation is, Sylvanas suddenly remembers the eerie old grain seller from the Millhaven road in Chapter 3. Without proof, it’s just a gut feeling, but it gnaws at her.
+- The encounter with the empty grain wagon wasn't a coincidence. It burns in Sylvanas's memory now, though they still have no idea who he really was.
+- The remembered smell of grain dust on old wagon slats; the echo of a polite, hollow voice; the frustration of missing a clue when it was standing right in front of her.
+- They pack the maps and mount up, choosing their approach into Andorhal.
 
-### Beat 9 — Scene: The southern feeder road
-- **Goal:** Select the fastest usable route into Andorhal's network without riding blind into the worst contamination corridor
-- **Conflict:** The cleanest surviving paperwork and troop traffic point to the southern feeder road that joins the Andorhal approach near Strahnbrad, not the most direct plague-saturated line
-- **Outcome:** **yes-but** — they now have a practical route, but that route intersects Prince Arthas's current campaign zone
-- **Value shift:** unresolved suspicion -> the road to Andorhal now runs through human war-country
-- **New on-page information:**
-  - The Chapter 6 Strahnbrad encounter is a consequence of the chosen route, not a random detour
-  - The party is following an active road used by both grain traffic and responding human forces
-- **Still unknown after beat:**
-  - Whether Arthas will help or hinder
-- **Sensory anchors:**
-  - Road map weighted by knife and candle stub
-  - Horse lines being checked for a dawn departure
-  - The route physically angling toward both Strahnbrad and Andorhal
-- **Transition intent:** Chapter 6 opens on this road with the same four-person party
+### Beat 9
+- They dodge the main highway—which is drowning in plague—and lock onto a southern supply road that approaches Andorhal from the side. The problem is that it cuts straight past Strahnbrad, bringing them directly into Prince Arthas's warzone.
+- To reach the city, they have to ride through human military traffic. The upcoming collision with Arthas is unavoidable. They still don't know if he will listen to them or order them off his battlefield.
+- A knife pinning the map down at Strahnbrad; pulling cinches tight in the cold pre-dawn air; the horses turning south onto a road full of distant army dust.
+- The chapter hands off with the four women riding right into the chaos of Arthas’s camp in Chapter 6.
 
 ---
 
-## Chapter close / handoff
+## Chapter end
 
-**Active cast at close**
+**Characters at the end**
 - Sylvanas
 - Jaina
 - Cyndia
 - Lyriel
 
-**Facts locked for Chapter 6**
-- The party is riding the southern feeder road toward Andorhal
-- That road takes them near Strahnbrad and Arthas's active military theater
-- The Barov name is now attached to the grain network, but complicity is not yet proven
-- The old seller is retrospectively worth remembering, but still not identified
+**What we learn for Chapter 6**
+- The party is on the southern supply road toward Andorhal.
+- The road brings them right into Arthas's military camp near Strahnbrad.
+- The Barov name is all over the trade network, but they don't know if the family is guilty.
+- The memory of the old grain seller is sharp and suspicious now.
 
-**Facts not yet earned**
-- Full Barov culpability
-- Explicit trust language between the leads
-- Recognition of the trader as the same threat agent who keeps appearing
+**What we still don't know**
+- Absolute proof that the Barovs are complicit.
+- Open, emotional declarations of trust between Sylvanas and Jaina (keep it professional).
+- Any confirmation that the trader is actually the same monster spreading the sickness.
