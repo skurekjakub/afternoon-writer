@@ -1,0 +1,161 @@
+{
+  "chapterId": "chapter2",
+  "globalRisks": [
+    "dialogue-heavy",
+    "ward-room-static",
+    "road-sequence-drift",
+    "final-third-tail-risk"
+  ],
+  "segments": {
+    "openingThird": {
+      "risk": "medium"
+    },
+    "middleThird": {
+      "risk": "medium"
+    },
+    "finalThird": {
+      "risk": "high"
+    }
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "The Interrogation",
+      "riskTags": [
+        "static-room",
+        "dialogue-heavy",
+        "threshold-infrastructure"
+      ],
+      "biggestGap": "The ward room and release beats need more sovereign border texture and more physical support under the interrogation exchange.",
+      "sourceBank": {
+        "geography": [
+          "Thalassian Pass",
+          "Quel'Thalas",
+          "Dalaran",
+          "Millhaven"
+        ],
+        "institutions": [
+          "Farstriders",
+          "Kirin Tor",
+          "Thalassian border post"
+        ],
+        "materials": [
+          "ward-stones",
+          "anchor stone",
+          "warm stone",
+          "satchel",
+          "map",
+          "staff",
+          "quiet tack"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Warded holding circle and yard inside the Thalassian Pass border system.",
+        "materialAnchor": "Warm stone, ward-blue light, anchor stone, confiscated satchel and map, light horse tack waiting outside.",
+        "povAnchor": "Jaina reads pressure through teeth, jaw, and ward lattice behavior, and keeps translating herself down for soldiers until Sylvanas proves she can keep up.",
+        "dialogueAnchor": "Cyndia at the door, Sylvanas at the ward edge, the map against the wall, the staff withheld, the barrier drop waiting under every exchange.",
+        "exitAnchor": "Barrier gone, raw leyline noise flooding back, horses already being assembled for the south road."
+      },
+      "dialogueRuns": [
+        {
+          "label": "cell interrogation",
+          "risk": "high"
+        },
+        {
+          "label": "conditional release terms",
+          "risk": "medium"
+        }
+      ]
+    },
+    {
+      "sceneId": 2,
+      "title": "The Road to Millhaven",
+      "riskTags": [
+        "travel-sequence",
+        "mid-ride-theory",
+        "environmental-escalation"
+      ],
+      "biggestGap": "The ride needs stronger route texture and more recurring contact between Jaina's theory talk, the escort formation, and the sick countryside.",
+      "sourceBank": {
+        "geography": [
+          "Thalassian Pass",
+          "Millhaven",
+          "Lordaeron",
+          "Quel'Thalas"
+        ],
+        "institutions": [
+          "Farstriders"
+        ],
+        "materials": [
+          "staff crystal",
+          "packed road",
+          "ward-stones",
+          "pine",
+          "birch",
+          "trough",
+          "cold chimneys",
+          "mill road",
+          "quiet buckles"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "South road out of Thalassian Pass through thinning wards, tree-line change, and farm country toward Millhaven.",
+        "materialAnchor": "Staff crystal, reins, quiet buckles, packed dirt, trough water, crop heads, shuttered farm doors.",
+        "povAnchor": "Jaina tracks pulses, gaps, and system spread before she reads social texture, and she keeps learning the field through what Sylvanas and the rangers are already doing.",
+        "dialogueAnchor": "Mid-ride explanation pinned to tack rhythm, reins checks, widening escort spacing, and Sylvanas's map-based correction.",
+        "exitAnchor": "Millhaven appearing by the river with a still wheel, cold chimneys, and no light for the road."
+      },
+      "dialogueRuns": [
+        {
+          "label": "mid-ride leyline briefing",
+          "risk": "high"
+        }
+      ]
+    },
+    {
+      "sceneId": 3,
+      "title": "The Wildlife Attack",
+      "riskTags": [
+        "combat",
+        "diagnostic-sequel",
+        "final-third"
+      ],
+      "biggestGap": "The attack already lands, but the carcass diagnosis and Millhaven approach need stronger tactile and environmental carry-through so the chapter closes on place, not abstraction.",
+      "sourceBank": {
+        "geography": [
+          "Millhaven"
+        ],
+        "institutions": [
+          "Farstriders"
+        ],
+        "materials": [
+          "antlers",
+          "arrows",
+          "ice on packed dirt",
+          "carcass heat",
+          "sweet-rot smell",
+          "horse breath",
+          "mill wheel",
+          "river hush"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Road verge and treeline outside Millhaven at dusk, then the village approach by the river bend.",
+        "materialAnchor": "Arrow shafts, blood on dirt, frozen road, carcass hide and pulse, leather reins, still mill wheel.",
+        "povAnchor": "Jaina's diagnostic contact with living flesh under necromantic pressure; she can read the mechanism's effects but not yet its carrier.",
+        "dialogueAnchor": "Sylvanas's clipped field orders, Lyriel and Cyndia's shots, Neral steadying the horses, and Jaina's answer given with one hand still on the carcass.",
+        "exitAnchor": "The party riding into Millhaven's hush with the river sounding thin and wrong under shut houses."
+      },
+      "dialogueRuns": [
+        {
+          "label": "combat commands",
+          "risk": "medium"
+        },
+        {
+          "label": "carcass diagnosis",
+          "risk": "medium"
+        }
+      ]
+    }
+  ]
+}

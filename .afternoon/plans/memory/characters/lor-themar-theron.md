@@ -1,9 +1,13 @@
 # Lor'themar Theron
 
-Lor'themar returns in chapter 14 as a voice under pressure. There is no room left for the dry ease of chapter 1 or even the road-worn bodily presence of chapter 9. What survives is the hard practical core of him: title first, truth second, politics stripped to arithmetic. The Convocation is no longer merely impatient. It is afraid.
+## Overview
+Lor'themar is chapter 1's measure of how much easier Sylvanas's life becomes when one trusted person is present to absorb the political noise. He rides beside her in complete shorthand: old-command humor, quick corrections, and the kind of ease that only exists between people who have worked together long enough to predict each other's evasions.
 
-His most revealing line is the request for a reason he can spend. That is the whole chapter in miniature. Lor'themar is still functioning as Sylvanas's political shield, but now he is doing it in a setting where persuasion has degraded into cost accounting. He does not ask her to obey. He asks for something he can survive carrying back into Silvermoon.
+## Function in the chapter
+He is the one who keeps reminding Sylvanas that the Convocation still exists and still intends to use her time. When the messenger arrives, Lor'themar instantly sees the second battlefield inside the first. A human mage inside the ward network is not only a border problem; it is a council problem, a jurisdiction problem, and a diplomatic problem. He does not panic. He sorts the labor. Sylvanas goes south. He goes north.
 
-Sylvanas gives him noise instead of votes, and Lor'themar accepts it because there is nothing cleaner left. That acceptance defines him here. He is not sentimental, not naive about the politics, and not under any illusion that the chambers can really match the road. He stays on the line anyway.
+## Voice and bearing
+His voice is dry and controlled, but unlike Sylvanas he is always hearing the chamber behind the road. He jokes because the alternative is admitting how much time he spends translating obvious danger into language politicians might actually move for. Even in chapter 1, before the larger tragedy starts grinding him down, he already reads as someone who counts votes the way a ranger counts angles.
 
-Chapter 14 therefore shifts Lor'themar from reliable counterpart into active rearguard. He is still buying road for Sylvanas — just with weaker currency, thinner patience, and a crisis large enough to scare even the people who kept trying to proceduralize it away.
+## Chapter-1 state
+By the end of the chapter he has peeled away from the road that suits him best and taken the necessary burden instead: convincing Silvermoon not to misname the threat. He leaves as the man who keeps institutions from wasting the little time Sylvanas is trying to buy.

@@ -1,0 +1,289 @@
+{
+  "chapterId": "chapter4",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F1/F6 structural compression",
+      "findings": [
+        {
+          "pattern": "F1",
+          "severity": "mild",
+          "line": "Bread from the communal pot. Bread at home. Heavy bread-eaters sicker than the rest. The shepherd nearly spared. The child scarcely touched.",
+          "lineNumber": 121,
+          "issue": "Rhythmic sameness",
+          "examples": [
+            "Bread from the communal pot.",
+            "Bread at home.",
+            "Heavy bread-eaters sicker than the rest."
+          ],
+          "textureFlaggedZones": [
+            "telegram_run sentences 118-126",
+            "texture_desert sentences 82-131"
+          ],
+          "suggestedFix": "Bread from the communal pot and bread at home; the heavy bread-eaters were sicker than the rest, while the shepherd was nearly spared and the child scarcely touched.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": "Sylvanas went still.",
+          "lineNumber": 153,
+          "issue": "Dialogue-beat genericism",
+          "verdictLogic": "Generic reaction beat that could belong to any character and adds no character-specific physical work.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "line": "Someone had made it to do that.",
+          "lineNumber": 181,
+          "issue": "Narrative over-translation",
+          "whatItRestates": "This was the thing itself, dense and deliberate, worked through the kernels so evenly it would survive milling, baking, and the oven's heat before it ever reached a stomach.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "line": "Bread from the communal pot. Bread at home. Heavy bread-eaters sicker than the rest. The shepherd nearly spared. The child scarcely touched.",
+          "lineNumber": 121,
+          "issue": "Inventory paragraph variant",
+          "paragraphLocation": "infirmary deduction run",
+          "suggestedFix": "Bread from the communal pot and bread at home; the heavy bread-eaters were sicker than the rest, while the shepherd was nearly spared and the child scarcely touched.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "She knew too well what the other half of that promise might be worth.",
+          "lineNumber": 269,
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "\"We'll keep you alive.\"",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "registerSummary": "Jaina thinks like a field mage: evidence first, hypotheses second, emotional language brief and clinical. She notices magical patterning, bodily symptoms, and practical logistics; she does not usually caption reactions in polished, abstract narrator shorthand.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A5",
+      "findings": [
+        {
+          "pattern": "A5",
+          "severity": "mild",
+          "line": "The name struck home.",
+          "lineNumber": 37,
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina would clock the captain's physical tell or pause, not caption his reaction with an abstract scene-state sentence.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "repeatStandIns": [
+        "half"
+      ],
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "She was already waiting for Jaina's half of it.",
+          "lineNumber": 143,
+          "failedQuestion": "What specifically?",
+          "missingPayload": "Jaina's read that bread grain is the carrier and that her patient-side evidence matches Sylvanas's supplier read.",
+          "reason": "Placeholder-noun stand-in: the sentence leans on 'half of it' instead of naming the concrete diagnostic payload.",
+          "suggestedFix": "She was already waiting for Jaina's read on the grain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "line": "She knew too well what the other half of that promise might be worth.",
+          "lineNumber": 269,
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The concrete failure mode of the promise before they can get answers out of Davan.",
+          "reason": "Repeated stand-in abstraction: 'the other half of that promise' hides the operational consequence instead of naming it.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "I re-read the chapter for translation setups ('plainly', 'short version', 'smaller words', 'what does that mean here') and found no exchange that claims to simplify specialist speech, so this pass had no live fake-simplification target."
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 9,
+    "mildKills": 8,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Eight mild pass-B kills remain across GPT-5 prose issues, narrator seep, and phantom concreteness. The chapter also carries structural rhythm concerns and a below-target texture profile, so pass B still fails this iteration.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "observed": 0.384,
+        "target": 0.72,
+        "delta": -0.336,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "observed": 0.778,
+        "target": 0.7,
+        "delta": 0.078,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "observed": 46.3,
+        "target": 19.0,
+        "delta": 27.3,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.5% below floor 5.0% (human: 11.0%)",
+        "compound_pct 2.2% below floor 4.0% (human: 8.5%)",
+        "texture_score 6.7% below floor 10.0% (human: 24.4%)",
+        "short_pct 70.2% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.5% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 2.2% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 70.2% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassages": {
+        "telegram_run": 16,
+        "texture_desert": 9
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 14,
+        "totalViolations": 1,
+        "overCapCategories": [
+          {
+            "category": "paragraph_structure",
+            "patterns": [
+              "opener_consecutive_repeat"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "chapterId": "chapter5",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 10,
+      "kills": 8,
+      "keeps": 2,
+      "dominantPattern": "F2",
+      "severity": {
+        "mild": 7,
+        "moderate": 1,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "F1",
+          "failureMode": "Rhythmic sameness",
+          "lineStart": 101,
+          "lineEnd": 105,
+          "text": "The books were too clean. Clean. Tallies balanced. Supplier marks she had not seen before. The attached storehouse smelled of ordinary grain. Somebody had been ahead of them. She walked it once. Missing margin notes. No erasures. No blotched ink where figures had been changed in haste. Nothing careless.",
+          "issue": "Sustained short-fragment inventory turns tactical scanning into template-flat telegram prose.",
+          "severity": "moderate",
+          "structuralCorroboration": "Overlaps rhythm-scorer telegram/texture-deficit zone.",
+          "suggestedFix": "The books were too clean—balanced tallies, unfamiliar supplier marks, an attached storehouse that smelled of ordinary grain. She walked it once and found no margin notes, no erasures, no blotched ink where figures had been changed in haste.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "failureMode": "Dialogue-beat genericism",
+          "line": 51,
+          "text": "Jaina did not argue.",
+          "issue": "Generic reaction beat; it could belong to any speaker and adds no character-specific physical work.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "failureMode": "Dialogue-beat genericism",
+          "line": 109,
+          "text": "Lyriel, near the door, did not move.",
+          "issue": "Generic guard beat; it labels stillness without giving a character-specific action or read.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "failureMode": "Dialogue-beat genericism",
+          "line": 341,
+          "text": "Jaina had been watching her without crowding the silence.",
+          "issue": "Beat labels tact and subtext instead of revealing either through concrete action.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "failureMode": "Narrative over-translation",
+          "line": 103,
+          "text": "Clean.",
+          "whatItRestates": "The books were too clean.",
+          "issue": "One-word caption restates the prior sentence instead of trusting it.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "failureMode": "Narrative over-translation",
+          "line": 131,
+          "text": "She stopped because there was nothing else in this room worth the next hour.",
+          "whatItRestates": "The room has yielded all it can, and Sylvanas immediately chooses the south road.",
+          "issue": "The sentence explains a decision the surrounding physical detail and the next line already carry.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "failureMode": "Closure addiction",
+          "line": 291,
+          "text": "Nearly worth it now.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "And somewhere out in that basin, near the Alterac foothills, Arthas had troops in the field. She remembered the reports only in pieces: winter campaign, southern bandits, Strahnbrad mentioned once and not worth her time then.",
+          "issue": "The fragment closes the thought with a polished wink instead of leaving the recalled report to land on its own.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "failureMode": "Closure addiction",
+          "line": 347,
+          "text": "Millbrook Spur had cut the choices down to one.",
+          "location": "paragraph-final / scene-final setup",
+          "couldEndEarlierAt": "Outside, in the dark beyond the waystation wall, the road south already existed.",
+          "issue": "The sentence explains the scene's implication after the image has already delivered it.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks in clipped tactical assessments, threat geometry, and evidentiary discipline. She notices spacing, routes, timing, and competence; she does not naturally pause for polished social captions or abstract thematic phrasing.",
+      "registerConfidence": "high",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "B-register-mismatch",
+      "severity": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "A6",
+          "tier": "A",
+          "line": 57,
+          "text": "Without naming it, they had settled into marching order.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas already has the spacing in view; 'without naming it' is a retrospective social caption, not her in-body route read.",
+          "confidence": "high",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2",
+          "tier": "B",
+          "line": 325,
+          "text": "Some calculation in it too.",
+          "whoIsSayingThis": "narrator leaning over Sylvanas",
+          "povMismatch": "Sylvanas would think in what the trader knew or showed, not the abstract noun 'calculation' floated without evidence.",
+          "confidence": "moderate",
+          "severity": "mild",
+          "suggestedFix": "He had known more than he should have.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "line": 341,
+          "text": "Jaina had been watching her without crowding the silence.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "'Without crowding the silence' is polished social-temperature prose, not Sylvanas's clipped field register.",
+          "confidence": "moderate",
+          "severity": "mild",
+          "suggestedFix": "Jaina waited.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "dominantPattern": "P4",
+      "severity": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "P2",
+          "line": 219,
+          "text": "Fast cleaners always missed a seam.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The specific overlooked object or procedural gap in this office.",
+          "reason": "Tactical-prestige compression gestures at a clue without naming the clue itself.",
+          "severity": "mild",
+          "suggestedFix": "Fast cleaners always missed one thing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "line": 325,
+          "text": "Some calculation in it too.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "What exact word, look, or route detail in the old seller memory showed deliberate knowledge.",
+          "reason": "Abstract interpretive summary substitutes for the specific evidence Sylvanas is recalling.",
+          "severity": "mild",
+          "suggestedFix": "He had known more than he should have.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "No exchange in the chapter sets up a translate-this-plainly move ('plainly', 'smaller words', 'say it in streets', or equivalent), so the guide stayed clean on a fresh sweep.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 13,
+    "totalKeeps": 9,
+    "mildKills": 12,
+    "moderateOrSevereKills": 1,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 13,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: one MODERATE rhythmic-sameness kill plus twelve MILD pass-B kills remain; the chapter also shows a below-target texture profile with repeated telegram/texture-desert zones.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.38,
+        "target": 0.72,
+        "delta": -0.34,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside-range"
+      },
+      "sentence_length_cv": {
+        "value": 0.788,
+        "target": 0.7,
+        "delta": 0.088,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "within-range"
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 47.5,
+        "target": 19.0,
+        "delta": 28.5,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside-range"
+      },
+      "note": "Structural rhythm concerns: comma_period_ratio and one_sentence_paragraph_pct sit outside the style-guide range."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.1% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.7% below floor 4.0% (human: 8.5%)",
+        "texture_score 8.9% below floor 10.0% (human: 24.4%)",
+        "short_pct 63.2% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 3.7% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 63.2% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassages": {
+        "telegram_run": 17,
+        "texture_desert": 6
+      },
+      "note": "Structural texture deficit."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 13,
+        "totalViolations": 0,
+        "overCapCategories": [],
+        "passMappedHits": []
+      }
+    }
+  }
+}

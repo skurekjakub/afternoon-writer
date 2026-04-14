@@ -1,0 +1,250 @@
+{
+  "chapterId": "chapter3",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "dominantPattern": "mixed",
+      "findings": [
+        {
+          "line": 99,
+          "text": "It meant she had already spent her screams on the days before.",
+          "pattern": "F4",
+          "severity": "mild",
+          "issue": "Narrative over-translation",
+          "whatItRestates": "She made no sound at all. That was worse than screaming.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 239,
+          "text": "His gaze kept moving down the lane as if the right angle might produce the missing people.",
+          "pattern": "F3",
+          "severity": "mild",
+          "issue": "Filter/hedge drag",
+          "word": "as if",
+          "deletionTest": "His gaze kept moving down the lane, hunting for the missing people.",
+          "suggestedFix": "His gaze kept moving down the lane, hunting for the missing people.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 281,
+          "text": "The dead had gone north. The living still had to go south.",
+          "pattern": "F7",
+          "severity": "moderate",
+          "issue": "Closure addiction",
+          "location": "paragraph-final / scene-final",
+          "couldEndEarlierAt": "Somewhere ahead, people in another market still took the cough in their streets for ordinary sickness and the grain on their tables for safe food.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "dominantPattern": "A7",
+      "findings": [
+        {
+          "line": 149,
+          "text": "No comfort in it, only confirmation.",
+          "pattern": "A1",
+          "tier": "A",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The verdict fragment captions the exchanged look from outside Sylvanas's body instead of staying with the operational read she takes from it.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 253,
+          "text": "He said it the way locals said useful things on bad roads—without drama, in pieces, leaving the listener to know which part mattered.",
+          "pattern": "A7",
+          "tier": "A",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence generalizes about 'locals' from essay distance instead of staying with Sylvanas's immediate evaluation of this specific trader.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "dominantPattern": "P2",
+      "findings": [
+        {
+          "line": 61,
+          "text": "That was a different answer from the one Jaina had been giving on the road—the full thought, not the soldier-sized version she had been breaking apart for an officer she did not yet trust to want the whole thing.",
+          "pattern": "P3",
+          "severity": "mild",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The specific shorter road-version of Jaina's warning that the sentence compresses into 'soldier-sized version.'",
+          "suggestedFix": "That was more than Jaina had been giving her on the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 187,
+          "text": "Sixty bodies moving in a column toward Quel'Thalas meant intent, and intent meant a hand on the line somewhere out in the dark.",
+          "pattern": "P2",
+          "severity": "moderate",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "A concrete controlling sign beyond the northbound column itself; the sentence leaps from formation to an unseen guiding hand.",
+          "suggestedFix": "Sixty bodies moving in a column toward Quel'Thalas was warning enough.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "cleanReason": "No translation-setup exchange appears in the chapter: nobody asks for plainer speech, smaller words, or a street-level version before a reply."
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 6,
+    "mildKills": 5,
+    "moderateOrSevereKills": 2,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: two moderate pass-B kills remain (chapter-close closure addiction and an unsupported controller inference), plus five mild sentence-level pass-B issues.",
+    "rhythmMetrics": {
+      "commaPeriodRatio": {
+        "value": 0.483,
+        "target": 0.72,
+        "delta": -0.237,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentenceLengthCv": {
+        "value": 0.792,
+        "target": 0.7,
+        "delta": 0.092,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "oneSentenceParagraphPct": {
+        "value": 34.8,
+        "target": 19.0,
+        "delta": 15.8,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "comma_period_ratio below calibrated floor",
+        "one_sentence_paragraph_pct above calibrated ceiling"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 3.2% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.2% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 3.2% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.2% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 12,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 20,
+        "totalViolations": 2,
+        "overCapCategories": [
+          {
+            "category": "narrator_verdict",
+            "patterns": [
+              "verdict_enough_for"
+            ]
+          },
+          {
+            "category": "slopsquid",
+            "patterns": [
+              "slopsquid_bigram"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

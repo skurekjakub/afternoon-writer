@@ -1,0 +1,55 @@
+{
+  "chapterId": "chapter2",
+  "mode": "texture-reaudit",
+  "iteration": 1,
+  "targetFile": "v4-r1.md",
+  "textureFindings": {
+    "textureVerdict": "fail",
+    "metrics": {
+      "participial_pct": {
+        "current": 8.4,
+        "target": 12.0,
+        "range": [9.0, 15.0],
+        "status": "below_range"
+      },
+      "compound_pct": {
+        "current": 11.3,
+        "target": 10.0,
+        "range": [7.0, 13.0],
+        "status": "on_target"
+      },
+      "emdash_pct": {
+        "current": 3.6,
+        "target": 4.0,
+        "range": [2.5, 5.5],
+        "status": "on_target"
+      },
+      "semicolon_pct": {
+        "current": 1.8,
+        "target": 1.8,
+        "range": [1.0, 2.5],
+        "status": "on_target"
+      },
+      "short_pct": {
+        "current": 41.2,
+        "target": 48.0,
+        "range": [40.0, 55.0],
+        "status": "on_target"
+      },
+      "texture_score": {
+        "current": 25.1,
+        "target": 27.0,
+        "range": [22.0, 32.0],
+        "status": "on_target"
+      }
+    },
+    "flaggedZones": [
+      {
+        "type": "telegram_run",
+        "paragraphs": "P30-P34",
+        "instruction": "Add participial connective phrases in this clipped interrogation run—attach motion or reaction with ', Ving' constructions so the exchange stops firing as isolated short beats."
+      }
+    ],
+    "priorityInstruction": "Participial density is 8.4% against a 12.0% target—add ', Ving' connective phrases in P30-P34 before adjusting any other texture metric."
+  }
+}

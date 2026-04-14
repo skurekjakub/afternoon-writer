@@ -45,8 +45,8 @@ TOOL OUTPUT (abbreviated):                    STYLE GUIDE:
     "emdash_pct": 3.5,                           "compound_pct": { "human": 8.5, "target": ..., "range": [...] },
     "semicolon_pct": 1.4,                        "emdash_pct": { "human": 3.5, "target": ..., "range": [...] },
     "short_pct": 52.1,                           "semicolon_pct": { "human": 1.4, "target": ..., "range": [...] },
-    "texture_score": 24.4                        "short_pct": { "human": 52.1, "target": ..., "range": [...] },
-  }                                              "texture_score": { "human": 24.4, "target": ..., "range": [...] }
+    "texture_score": 100.0                       "short_pct": { "human": 52.1, "target": ..., "range": [...] },
+  }                                              "texture_score": { "human": 100.0, "target": 100.0, "range": [90.0, 100.0], "note": "balanced 0-100 scale" }
 }                                              }
 ```
 
@@ -328,9 +328,10 @@ Write `.afternoon/style-guide.json`:
       "range": ["number — floor", "number — ceiling"]
     },
     "texture_score": {
-      "human": "number — measured composite from style source",
-      "target": "number",
-      "range": ["number — floor", "number — ceiling"]
+      "human": "number — balanced 0-100 score from scorer (100 = all dimensions on target)",
+      "target": 100.0,
+      "range": [90.0, 100.0],
+      "note": "balanced 0-100 scale; do not change target/range — scorer computes this from per-metric targets"
     }
   },
   "contrastivePairs": [

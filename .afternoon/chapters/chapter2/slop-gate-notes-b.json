@@ -1,0 +1,246 @@
+{
+  "chapterId": "chapter2",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 1,
+        "severe": 0
+      },
+      "dominantPattern": "F4/F7",
+      "findings": [
+        {
+          "line": 99,
+          "text": "That landed cleanly.",
+          "pattern": "F4",
+          "issue": "Narrative over-translation",
+          "whatItRestates": "\"I need your escort.\" / \"Cyndia,\" Sylvanas called toward the yard.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 255,
+          "text": "Being right was still not going to be enough.",
+          "pattern": "F7",
+          "issue": "Closure addiction",
+          "location": "scene-final",
+          "couldEndEarlierAt": "The part of her that had always trusted being right to carry the day kept reaching for that certainty and finding nothing solid under it.",
+          "severity": "moderate",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in analytical, field-pragmatic chains: observation first, inference second, with dry self-awareness when she catches herself making a mistake. She can be abstract about magical mechanism, but her interiority still cashes out through immediate evidence, not caption-like verdicts pinned over the moment.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 1,
+        "severe": 0
+      },
+      "dominantPattern": "A6/A2",
+      "findings": [
+        {
+          "line": 99,
+          "text": "That landed cleanly.",
+          "pattern": "A6",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence captions the exchange from outside instead of staying inside Jaina's immediate read of what Sylvanas does next.",
+          "confidence": "HIGH",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 223,
+          "text": "That was the worst part. Not raised dead.",
+          "pattern": "A2",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment pair lands as sloganized summary rather than Jaina's on-the-fly diagnostic thought.",
+          "confidence": "HIGH",
+          "severity": "moderate",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3/P4",
+      "findings": [
+        {
+          "line": 65,
+          "text": "Something in Sylvanas's stance settled into decision.",
+          "pattern": "P4",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The visible change in Sylvanas's body or posture that tells Jaina a decision has been made.",
+          "reason": "Unanchored interpretive summary; the sentence names a conclusion without the body-language evidence that would cash it out.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "toolSignal": "something_vague",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 145,
+          "text": "It was carrying the thing itself.",
+          "pattern": "P3",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The named referent: the contamination itself, not a placeholder noun.",
+          "reason": "Placeholder-noun stand-in; the line wants force from 'thing' while dodging the concrete referent already available in the paragraph.",
+          "severity": "mild",
+          "verdict": "KILL",
+          "suggestedFix": "It was carrying the contamination itself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "No exchange in chapter2 sets up a translation move ('plainly', 'smaller words', 'short version', 'say it in streets'). The dialogue stays in direct tactical or diagnostic register, so this guide had no candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 6,
+    "mildKills": 4,
+    "moderateOrSevereKills": 2,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 6 pass-B kills total, including 2 moderate kills (scene-final closure and thesis-fragment narrator seep). Remaining mild kills are fixable but exceed the pass threshold, and analytics show a structural texture deficit.",
+    "strategy": "default",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.42,
+        "target": 0.72,
+        "delta": -0.3,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.765,
+        "target": 0.7,
+        "delta": 0.065,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 40.8,
+        "target": 19.0,
+        "delta": 21.8,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "note": "Structural rhythm concerns: comma/period ratio is well below target and one-sentence paragraphs are far above target."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdictReasons": [
+        "participial_pct 2.1% below floor 5.0% (human: 11.0%)",
+        "emdash_pct 0.9% below floor 1.0% (human: 3.5%)",
+        "texture_score 9.2% below floor 10.0% (human: 24.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | EM-DASHES: 0.9% (floor: 1.0%, human: 3.5%). Use for mid-sentence pivots and asides: 'The door—the same one she'd slammed that morning—stood open.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 13,
+        "texture_desert": 6
+      },
+      "note": "Structural texture deficit."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 29,
+        "totalViolations": 1,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "pattern": "punct_colon_narration",
+            "count": 9,
+            "cap": 2
+          }
+        ]
+      }
+    }
+  }
+}

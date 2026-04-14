@@ -1,321 +1,182 @@
 # Chapter 14: The Revelation
 
 **POV:** Jaina Proudmoore (limited third, absolute)
-**Timeline position:** Directly follows Chapter 13. Opens on the road south after the Caer Darrow escape and closes with the party still moving toward Hearthglen and Arthas after both women refuse their institutions.
-**Open location:** Eastweald road south of the Barov shore, late afternoon sliding toward dusk.
-**Transport:** Back on horseback after the lake crossing; southbound road ride with relay and sending-stone pauses.
-**Active cast at open:** Jaina, Sylvanas, Cyndia.
-**Immediate objective:** Deliver the Scholomance intelligence, decide what not to say about the room that produced it, and get south before the Arthas thread outruns them.
+**When:** Directly follows Chapter 13. Opens on the south road after the Caer Darrow escape and closes with the party still moving toward Hearthglen and Arthas after both women refuse their institutions.
+**Where:** Eastweald road south of the Barov shore, late afternoon sliding toward dusk.
+**Travel:** Back on horseback after the lake crossing, with southbound riding broken by relay and sending-stone pauses.
+**Characters:** Jaina, Sylvanas, Cyndia, Antonidas by stone, Lor'themar by relay.
+**Goal:** Brief Sylvanas on what Scholomance really taught her, decide what stays unsaid, and keep moving south before Arthas outruns them.
 
-## Meta info
+## References
 
 - **Worldbuilding references:** [Lordaeron and Northrend](stories/the-plague-road/locations/lordaeron-and-northrend.md), [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
 - **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Antonidas profile](stories/the-plague-road/characters/antonidas.md), [Lor'themar profile](stories/the-plague-road/characters/lorthemar.md), [Arthas profile](stories/the-plague-road/characters/arthas.md), [Uther profile](stories/the-plague-road/characters/uther.md)
-- **Arc references:** [Story arc](stories/the-plague-road/plans/story-arc.md), [Partnership arc](stories/the-plague-road/plans/partnership-arc.md), [Chapter 13 plan](stories/the-plague-road/plans/chapters/chapter13.md), [Chapter 15 plan](stories/the-plague-road/plans/chapters/chapter15.md)
 
-## Knowledge ledger
+**Jaina's starting position:**
+- Kel'Thuzad is dead, but the full plague model is now sitting in Jaina's head.
+- Sylvanas saw the room, not the argument that happened inside it.
+- Sylvanas now checks where she used to trust, and the change is visible in the riding line.
+- Cyndia carries the Farstrider relay, and Lyriel's absence is still visible on the empty flank.
+- Hearthglen is already in crisis, and Arthas is moving too fast for private repair.
+- Jaina has usable intelligence to report and a more dangerous part she does not intend to share.
 
-**What Jaina knows at open**
-- Kel'Thuzad gave her the full resonance model, the animation trigger, the Lich King chain, the Burning Legion threat behind it, and the warning that his death is only a transition
-- Sylvanas saw the sanctum's externals, not the argument that happened inside Jaina before Sylvanas opened the door
-- Sylvanas has already filed a harder read of Jaina and is now checking where she used to trust
-- Cyndia has the Farstrider relay line, and Lyriel's absence is still visible in the three-rider formation
-- Hearthglen is already in crisis and Arthas is moving fast enough that the road south cannot wait for emotional cleanup
+**Still in the dark about:**
+- Whether Sylvanas will ever ask what really happened in the sanctum.
+- How much uglier Sylvanas's route to the sanctum was than the one Jandice gave Jaina.
+- Whether Antonidas or the Convocation can be made to move at field speed.
+- Whether Arthas can still be reached before urgency hardens into something worse.
+- Whether Kel'Thuzad's return can be stopped rather than merely expected.
 
-**What Jaina does NOT know at open**
-- Whether Sylvanas will ever ask what really happened in the sanctum
-- How much uglier Sylvanas's route to the sanctum was than the guided path Jandice gave Jaina
-- Whether Antonidas or the Convocation can be made to move at the speed this threat requires
-- Whether Arthas can still be reached before urgency hardens into something worse
-- Whether Kel'Thuzad's return can be prevented rather than merely anticipated
+**Hold back:**
+- No clean repair of the sanctum crack.
+- No explicit Mal'Ganis identification.
+- No field-ready resonance weapon.
+- No Jandice payoff.
+- No confession yet about how far the argument in Scholomance reached Jaina.
 
-**Must not be implied yet**
-- No clean repair of the sanctum crack
-- No explicit Mal'Ganis identification
-- No field-ready resonance weapon
-- No Jandice payoff
-
-**What the cast knows leaving the chapter**
-- Sylvanas now has the full strategic picture: Lich King, Burning Legion, resonance mechanism, ward failure, and Kel'Thuzad's expected lich return
-- Jaina shared the intelligence product but still withheld the room, the method, and the moment of recognition
-- Jaina now knows Sylvanas came through the hidden work rooms and saw the peasant stock, failed remnants, and body-part experiments her own route never touched
-- Both the Convocation and Antonidas have effectively been refused in favor of the mission
-- Hearthglen and Arthas are now the immediate southbound priority, and the damaged three-rider formation is still moving
+**End of chapter state:**
+- Sylvanas now has the full strategic picture: Lich King, Burning Legion, resonance mechanism, ward failure, and Kel'Thuzad's expected return.
+- Jaina shares the usable intelligence but not the room, the method, or the part of the exchange that almost drew her in.
+- Jaina learns Sylvanas came through work rooms full of peasant stock, failed remnants, and stripped body parts that Jandice never showed her.
+- Both women refuse their institutions by staying on the road.
+- Hearthglen and Arthas remain the urgent southbound target, and the damaged formation still holds.
 
 ---
 
-## Arc position
+## Character Arcs
 
 ### Jaina
-- **Current stance at open:** If she gives Sylvanas clean, useful intelligence and keeps the room out of it, the mission can keep moving.
-- **Surface objective:** Deliver what Scholomance taught her without reopening the wound Scholomance left behind.
-- **Pressure source:** Sylvanas's half-step, the way Sylvanas now listens for gaps, and two institutions about to demand control of what Jaina now knows.
-- **Misbelief manifestation:** Jaina keeps treating correct data as sufficient payment. If the briefing is right, the process can stay buried.
-- **Chapter test:** The road asks whether Jaina can choose honest partnership over clean analysis once the analysis becomes personally compromising.
-- **Forced choice:** Explain the room and risk breaking the formation in the field, or give only the usable intelligence and carry the rest alone.
-- **End-state shift:** Jaina chooses the partial truth on purpose, not by accident.
-- **Carry-forward residue:** Chapter 15 opens with the intelligence shared, the omission intact, and the partnership still functioning with trust that now comes with a check attached.
+- She opens believing she can keep the mission moving if she gives Sylvanas clean facts and keeps the room buried.
+- She keeps treating correct information as enough payment.
+- Sylvanas keeps forcing bodies and cost back into Jaina's neat account.
+- By the end, Jaina chooses omission on purpose and keeps riding with it.
 
 ### Sylvanas through Jaina's POV
-- **Visible function:** Commander, listener, and a woman measuring the source even while she needs it.
-- **POV misread at open:** Jaina reads the half-step as oversight and distrust. She cannot yet price what continued commitment is still hiding inside that same posture.
-- **Correction earned here:** Sylvanas keeps listening, keeps moving with Jaina, and keeps treating the information as too important to ignore even while reclassifying the source.
-- **Interaction rule:** Keep Sylvanas short, controlled, and mostly external. Her listening is the pressure.
+- She listens like a commander checking a weak seam.
+- Jaina reads the half-step as distrust and oversight.
+- Sylvanas still takes the information seriously and keeps moving with her.
+- Her restraint is the pressure.
 
-### Partnership / team
-- **Operating mode at open:** Damaged but functional three-rider formation, still moving south under time pressure.
-- **Change this chapter:** The pair shifts from collaborative back-and-forth into formal briefing and hard listening, then chooses to keep going anyway.
-- **Naming/attitude rule:** No melodrama. Let the damage show through spacing, pauses, and what each woman does not ask.
-- **Do-not-overstate rule:** This chapter is persistence, not healing.
+### Partnership
+- The team still functions, but now the partnership sounds like briefing instead of collaboration.
+- This chapter does not heal anything. It shows them choosing the mission over private repair.
+- The damage stays in pauses, gaps, and formation.
 
 ---
 
 ## Cast and handoff rules
 
-- **Sylvanas:** Listens hard, files every gap, refuses the Convocation by continuing south, and does not offer repair language here.
+- **Sylvanas:** Listens hard, files every gap, ignores the Convocation recall, and does not offer repair language here.
 - **Cyndia:** Holds the left position, carries the relay stone, notices the silence, and does not try to mediate it.
-- **Antonidas:** Mentor voice only. Concerned, tired, and institutionally too slow, not cruel.
-- **Lor'themar / Convocation:** Voice only through the Farstrider relay. Keep the politics brief and sharp.
+- **Antonidas:** Mentor voice only. Concerned, tired, and too slow, not cruel.
+- **Lor'themar / Convocation:** Voice only through the Farstrider relay. Keep the politics brief.
 - **Arthas and Uther:** Off-page destination pressure only. Do not bring them on stage before Chapter 15.
-- **Jandice:** Off-page loose thread. Do not spend this chapter on her.
-- **Old seller / repeated-farewell file:** Absent. Do not drag that clue into the road south.
+- **Jandice:** Off-page loose end. Do not spend this chapter on her.
+- **Old seller / repeated-farewell clue:** Absent. Keep it off the south road.
 
-**Chapter handoff target:** Chapter 15 opens with the party reaching Hearthglen and Arthas's war camp with the full picture shared, the institutions refused, and the crack still active inside the formation.
+**Next chapter starts:** Chapter 15 opens with the party reaching Hearthglen and Arthas's war camp with the full picture shared, the omission intact, and the crack still active inside the line.
 
 ---
 
 ## Scene 1: The Road
 
-**Scene function:** Show the crack from inside Jaina's saddle, then force her to decide that the briefing will cover the intelligence product and not the room that produced it.
-**Cast in scene:** Jaina, Sylvanas, Cyndia
-**Knowledge at scene start:** Kel'Thuzad is dead, the intelligence is in Jaina's head, and the road south cannot wait.
-**Arc pressure:** Jaina can sort the facts cleanly. She cannot sort what the room means without admitting why it reached her.
+**The action:** Jaina sorts what she can say, reads the changed line, and decides what she will not tell Sylvanas.
+**Cast:** Jaina, Sylvanas, Cyndia.
+**Starting point:** Kel'Thuzad is dead, the knowledge is in Jaina's head, and the road south cannot wait.
 
-### Beat 1 - Sequel: The Sorting
-- **Emotion:** Jaina keeps the Scholomance intelligence in one mental stack and the room itself in another, because mixing them will break her control before she ever starts speaking.
-- **Dilemma:** Stay inside the sanctum memory, or cut it down into reportable facts that can survive the road.
-- **Decision:** Compartmentalize. Carry the intelligence in one stack, the room in another, and speak only from the first.
-- **Value shift:** raw aftermath -> analytic control
-- **New on-page information:**
-  - Jaina is already dividing Scholomance into what can be reported and what cannot
-  - The world outside Caer Darrow feels too ordinary after hours underground
-  - Jaina notices the changed formation before anyone says a word
-- **Still unknown after beat:**
-  - Whether compartmentalizing will hold once Sylvanas starts listening
-- **Sensory anchors:**
-  - Reins damp in Jaina's hand from the return ride off the lake
-  - Late light lying warm over fields she knows are not clean
-  - Memory of chalk pressure still alive in her fingers
-- **Transition intent:** Once Jaina has the briefing stacked in her head, she can finally look at the formation that has to carry it.
+### Beat 1
+- Jaina splits Scholomance into two piles: what can be reported and what belongs to the room itself. She knows the second pile is the more dangerous one.
+- Jaina is already separating usable facts from private damage, the world outside Caer Darrow feels too ordinary after hours underground, and the changed line between the riders is obvious at once.
+- They do not know whether that compartment will hold once Sylvanas starts listening.
+- Ground the road: reins still damp from the lake crossing, late light over fields that are not clean, the memory of chalk pressure lingering in Jaina's fingers.
+- Once the facts are stacked, Jaina can finally look at the line carrying them.
 
-### Beat 2 - Scene: The Half-Step
-- **Goal:** Ride in formation and read what changed after the sanctum.
-- **Conflict:** Sylvanas rides forward-right by half a horse length, close enough to hear everything, not close enough to count as level. Cyndia keeps checking the empty right flank out of habit. Nobody speaks.
-- **Outcome:** **no-and** - Jaina confirms the crack has become part of the road formation, and there is no clean field way to address it here.
-- **Value shift:** analytic control -> damage made physical
-- **New on-page information:**
-  - Sylvanas has shifted from easy working trust to quiet verification
-  - Cyndia notices the silence and leaves it alone
-  - The old riding rhythm between Jaina and Sylvanas is gone for now
-- **Still unknown after beat:**
-  - Whether Sylvanas will ask directly about the sanctum
-  - Whether the formation can carry a full briefing without cracking wider
-- **Sensory anchors:**
-  - Three horses holding one line but not one rhythm
-  - Cyndia's automatic glance toward the missing right flank
-  - Sylvanas's mount staying just ahead without any visible effort
-- **Transition intent:** Reading the formation forces Jaina to decide what kind of briefing this will be.
+### Beat 2
+- The line itself tells Jaina what changed. Sylvanas rides forward-right by half a horse length, close enough to hear everything and not close enough to count as level. Cyndia keeps checking the empty right flank out of habit. No one speaks.
+- Trust has shifted into quiet verification, Cyndia notices the silence and leaves it alone, and the old riding rhythm between Jaina and Sylvanas is gone for now.
+- They do not know whether Sylvanas will ask directly about the sanctum or whether the line can carry a full briefing without cracking wider.
+- Ground the formation: three horses holding one road without holding one rhythm, Cyndia's automatic glance toward the missing flank, Sylvanas's mount staying just ahead without effort.
+- Jaina realizes what kind of conversation this has to be.
 
-### Beat 3 - Sequel: What to Report
-- **Emotion:** Jaina feels the weight of the full truth and the sharper usefulness of the partial one.
-- **Dilemma:** Report the intelligence and the room together, or report only the parts Sylvanas can act on immediately.
-- **Decision:** Give Sylvanas the intelligence product and keep the room to herself unless Sylvanas asks directly.
-- **Value shift:** damage made physical -> omission chosen
-- **New on-page information:**
-  - Jaina knows the omission is useful and dishonest at the same time
-  - She frames the choice as road necessity, even while knowing cowardice is mixed into it
-  - The gap between what happened and what will be said is now deliberate
-- **Still unknown after beat:**
-  - Whether Sylvanas will let the clean version stand
-- **Sensory anchors:**
-  - Jaina's hand closing on her pack strap where the missing chalk should be
-  - Saddle leather creaking in the long silence
-  - Hooves thudding south on packed Eastweald dirt
-- **Transition intent:** Once the decision is made, the briefing can begin.
+### Beat 3
+- Jaina decides she will give Sylvanas only what can be used on the road and keep the room to herself unless Sylvanas forces it open.
+- The omission is useful and dishonest at the same time, Jaina frames it as road necessity even while she knows fear is mixed into it, and the gap between what happened and what she will say is now deliberate.
+- They do not know whether Sylvanas will let the cleaner version stand.
+- Ground the silence: saddle leather creaking between hoofbeats, Jaina's hand closing on her pack strap, hard Eastweald dirt striking back under the horses.
+- The decision makes the briefing possible.
 
 ---
 
 ## Scene 2: The Briefing
 
-**Scene function:** Deliver the Scholomance intelligence cleanly, then let Sylvanas force the missing human cost back into Jaina's clean account.
-**Cast in scene:** Jaina, Sylvanas, Cyndia
-**Knowledge at scene start:** Jaina has chosen to report the product, not the process.
+**The action:** Jaina gives Sylvanas the full threat picture, and Sylvanas keeps dragging the human cost back into it.
+**Cast:** Jaina, Sylvanas, Cyndia.
+**Starting point:** Jaina has chosen to report the product, not the room that produced it.
 
-### Beat 4 - Scene: The Scope
-- **Goal:** Deliver the strategic picture - the Lich King, the Burning Legion, and the real scale of the plague.
-- **Conflict:** Jaina has to brief like a professional while knowing Sylvanas is now listening as both commander and evaluator of the source.
-- **Outcome:** **yes-but** - Sylvanas gets the full strategic picture, but the partnership slips into briefing mode instead of equal back-and-forth.
-- **Value shift:** omission chosen -> threat scale shared
-- **New on-page information:**
-  - The plague is part of a larger campaign directed by the Lich King from Northrend
-  - The Burning Legion sits above that chain instead of the plague being a purely local Lordaeron disaster
-  - Lordaeron is being treated as a conversion project and staging ground, not just a target
-- **Still unknown after beat:**
-  - What either woman can do with that scale before the next city falls
-  - How much of Sylvanas's silence is trust in the facts and how much is scrutiny of the source
-- **Sensory anchors:**
-  - A brief arcane map hanging over Jaina's gloved hand
-  - Horse breath smoking in cooling air
-  - Sylvanas watching the map instead of Jaina's face
-- **Transition intent:** Once the scale is clear, Jaina has to explain why the defenses they have been trusting are the wrong defenses.
-- **Disclosure provenance:** The threat-chain details come from Kel'Thuzad's direct explanation in Chapter 12 plus Jaina's own cross-checking. Jaina reports the content without describing the tone or circumstances of the exchange.
+### Beat 4
+- Jaina starts with scale. The plague is part of a larger war directed by the Lich King from Northrend, and the Burning Legion stands above that chain.
+- Lordaeron is being prepared rather than merely attacked, the plague is one arm of a larger campaign, and Sylvanas gets the full strategic picture even while the talk slips into briefing instead of partnership.
+- They do not know what either woman can do with that scale before the next city falls or how much of Sylvanas's silence is trust in the facts and how much is scrutiny of the source.
+- Ground the explanation: a quick arcane map over Jaina's gloved hand, horse breath smoking in the cooling air, Sylvanas watching the map instead of Jaina's face.
+- Once the scale is clear, Jaina has to explain how the plague actually moves.
 
-### Beat 5 - Scene: The Resonance Model
-- **Goal:** Explain the plague's real mechanism and the countermeasure logic that follows from it.
-- **Conflict:** Jaina starts giving the clean Scholomance answer - resonance, ward mismatch, disruption window - and Sylvanas finally cuts across with what sat beside that answer on her route down: half-converted peasants in holding rooms, full bodies being stripped for parts, hands and jaws still moving in trays. Jaina tries to keep the explanation in theorem language and Sylvanas keeps putting bodies back into it.
-- **Outcome:** **yes-but** - Sylvanas gets the mechanism, but Jaina is forced to admit her own route through Scholomance was curated and sanitized.
-- **Value shift:** threat scale shared -> mechanism delivered at human cost
-- **New on-page information:**
-  - The plague works by resonance through living tissue, not by brute magical impact
-  - Force-blocking ward architecture can miss or only partly blunt that kind of attack
-  - Sylvanas came through rooms full of peasant stock and failed work that Jandice never showed Jaina
-  - Reanimated body parts were being tested separately from whole corpses
-  - The right answer is disruption during the buildup window, but Jaina does not yet have a deployable method
-- **Still unknown after beat:**
-  - How to apply the countermeasure at city or kingdom scale
-  - Whether Jaina can defend the theory without sounding closer to Kel'Thuzad than she wants to
-- **Sensory anchors:**
-  - Jaina's small arcane sketch stuttering when Sylvanas cuts across
-  - Horse ears twitching at the sharpness in Sylvanas's voice
-  - Reins biting deeper into Jaina's palm when "hands" and "peasants" land out loud
-- **Transition intent:** Once the cost is back in the room between them, Jaina has to say the part about Kel'Thuzad not staying dead.
-- **Disclosure provenance:** The mechanism still comes from Kel'Thuzad's explanation and Jaina's synthesis, but Sylvanas's interruption adds the off-route rooms Jaina herself never saw.
+### Beat 5
+- Jaina explains resonance through living tissue, the ward mismatch, and the small window where disruption might work. Sylvanas cuts across with what she saw on the way down: peasants in holding rooms, failed bodies, hands and jaws still moving in trays. Jaina is forced to admit her own route was curated.
+- The plague works through living tissue rather than blunt magical force, force-blocking wards can miss or only partly blunt it, Jandice hid the ugliest work from Jaina, and Jaina still has no field-ready method to stop it at scale.
+- They do not know how to apply the countermeasure across a city or a kingdom or whether Jaina can explain the theory without sounding too much like the man who taught it to her.
+- Ground the interruption: Jaina's arcane sketch faltering when Sylvanas cuts in, horse ears twitching at the sharpness in Sylvanas's voice, reins biting deeper into Jaina's palm when the bodies are named aloud.
+- The theory is tied back to flesh whether Jaina likes it or not.
 
-### Beat 6 - Scene: The Lich Return
-- **Goal:** Tell Sylvanas that Kel'Thuzad expected to survive his own death as a lich.
-- **Conflict:** This is the part Jaina should have delivered sooner, and after Sylvanas names what the institution was doing to peasants and stock, the pause before she says it lands even harder.
-- **Outcome:** **yes-but** - Sylvanas recalibrates Kel'Thuzad's death in real time, but the delay becomes another filed gap in Jaina's reporting.
-- **Value shift:** defenses re-priced -> death destabilized
-- **New on-page information:**
-  - Kel'Thuzad considered bodily death a transition rather than an ending
-  - Crude undead continuity and high-fidelity preserved selfhood are different products of the same broader system
-  - The same institution treating peasants as stock reserved a higher tier of preservation for its chosen master
-  - Kel'Thuzad's dying calm now reads as expectation, not courage
-- **Still unknown after beat:**
-  - How a lich transition can be interrupted
-  - Whether Sylvanas will ever speak aloud about the reporting gap she just noticed
-- **Sensory anchors:**
-  - A fractional pause long enough for tack leather to creak
-  - Sylvanas's hand flexing once on the bow grip
-  - Cyndia cutting her eyes across and then forward again
-- **Transition intent:** With the briefing technically complete, the weight shifts to the thing Jaina still has not said.
-- **Disclosure provenance:** Kel'Thuzad's expected lich return is direct self-report from the sanctum, not outside inference.
-
-### Beat 7 - Sequel: What She Doesn't Say
-- **Emotion:** Relief at having delivered the usable parts collides with the heavier weight of the parts she kept.
-- **Dilemma:** Correct Sylvanas's room-read now, or let the clean useful version stand.
-- **Decision:** Say nothing. Let the useful version hold and keep riding.
-- **Value shift:** death destabilized -> omission calcified
-- **New on-page information:**
-  - Jaina knows Sylvanas's read is built on real external evidence, not fantasy
-  - Jaina's first instinct was to answer horror with theory, and she knows Sylvanas heard that instinct clearly
-  - The part Jaina cannot explain cleanly is recognition, not coercion
-  - Silence now protects the mission and injures the partnership at the same time
-- **Still unknown after beat:**
-  - Whether this silence will remain workable once Arthas enters the field
-- **Sensory anchors:**
-  - Road dust lifting behind the horses
-  - Jaina keeping her eyes on the road instead of Sylvanas
-  - Pack strap under her fingers where chalk should be
-- **Transition intent:** Outside messages hit before either woman can test how long the silence can last.
+### Beat 6
+- Jaina finally says the part she should have said sooner: Kel'Thuzad expected to survive his own death as a lich. The delay lands badly.
+- Bodily death is not the end state Kel'Thuzad planned for, crude undead and preserved selfhood are different products of the same system, and Kel'Thuzad's calm in the sanctum now reads as expectation rather than courage.
+- They do not know how to stop a lich transition or whether Sylvanas will ever speak aloud about the pause before Jaina said this.
+- Ground the pause: tack leather creaking in the silence, Sylvanas's hand flexing once on the bow grip, Cyndia cutting her eyes across and then forward again.
+- The briefing is complete, but the worst omission is still there.
 
 ---
 
-## Scene 3: The Vise
+## Scene 3: The Calls
 
-**Scene function:** Force both women to choose the mission over their institutions, then shove the chapter hard toward Hearthglen and Arthas.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lor'themar by relay, Antonidas by sending stone
-**Knowledge at scene start:** The strategic briefing is done and the omission is still in place.
+**The action:** The road forces both women to refuse their own institutions before they can deal with each other.
+**Cast:** Jaina, Sylvanas, Cyndia, Lor'themar by relay, Antonidas by sending stone.
+**Starting point:** The usable truth is now on the road, and the missing truth is still in Jaina's throat.
 
-### Beat 8 - Scene: The Recall
-- **Goal:** Receive and process the next Farstrider relay from the north.
-- **Conflict:** The message is not field intelligence but institutional pressure: the Convocation is formally ordering Sylvanas home while the worst threat on the road is still south.
-- **Outcome:** **yes-but** - the recall lands, but Sylvanas refuses it by not answering and not slowing down.
-- **Value shift:** omission calcified -> institutional pressure shared
-- **New on-page information:**
-  - The Convocation has escalated from disapproval to formal recall
-  - Lor'themar is delivering the order under visible political strain
-  - Cyndia witnesses Sylvanas's refusal as silence and continued motion rather than speech
-- **Still unknown after beat:**
-  - What the long political cost of ignoring the order will be
-- **Sensory anchors:**
-  - Pale green relay crystal warming in Cyndia's hand
-  - Lor'themar's voice clipped flat through the stone
-  - Sylvanas not checking her horse when the message ends
-- **Transition intent:** Once Sylvanas has refused her own institution, Jaina has no excuse to avoid hearing from hers.
+### Beat 7
+- The next Farstrider relay is not field news. It is a formal recall. Lor'themar delivers the Convocation's order, and Sylvanas refuses it by not answering and not slowing down.
+- The Convocation has escalated from disapproval to direct recall, Lor'themar is carrying the order under strain, and Cyndia watches Sylvanas refuse with silence and continued motion.
+- They do not know what the long political cost of ignoring the order will be.
+- Ground the relay: pale green crystal warming in Cyndia's hand, Lor'themar's clipped voice through the stone, Sylvanas never checking her horse when the message ends.
+- Once Sylvanas has refused Silvermoon, Jaina cannot dodge Dalaran forever.
 
-### Beat 9 - Scene: Antonidas
-- **Goal:** Report to Antonidas and decide whether Jaina will return to Dalaran.
-- **Conflict:** Antonidas is tired, worried, and far away. Jaina can give him the strategic danger, but not the whole mechanism, and not the room.
-- **Outcome:** **yes-but** - Antonidas gets the warning he needs, but Jaina still withholds key context and refuses his request to come home.
-- **Value shift:** institutional pressure shared -> dual defiance
-- **New on-page information:**
-  - Antonidas now knows the Lich King chain and the Burning Legion threat behind it
-  - Jaina still does not give him the full resonance formalization or the truth of the sanctum exchange
-  - "Come home" confirms Dalaran is still thinking in terms of safety and recall instead of field speed
-- **Still unknown after beat:**
-  - What Dalaran can do with the partial theory Jaina has given them
-  - Whether Antonidas will move faster now that he knows what Kel'Thuzad became part of
-- **Sensory anchors:**
-  - Violet sending stone dimming and brightening against Jaina's glove
-  - Antonidas's voice sounding thin with distance
-  - Jaina's thumb pressing the engraved edge after the call ends
-- **Transition intent:** With both institutions refused, only fresh field traffic matters now.
+### Beat 8
+- Jaina calls Antonidas. She gives him the strategic danger, but not the full mechanism and not the truth of the room. When he tells her to come home, she refuses.
+- Antonidas now knows about the Lich King chain and the Burning Legion threat, Jaina still withholds the full resonance formalization and the sanctum exchange, and Dalaran is still thinking in terms of recall and safety when the field no longer allows either.
+- They do not know what Antonidas can do with the partial warning or whether he will move faster now that he knows what Kel'Thuzad became part of.
+- Ground the call: violet light pulsing against Jaina's glove, Antonidas's voice sounding thin with distance, Jaina's thumb pressing the stone's engraved edge after the call ends.
+- Jaina refuses her institution too, and the road is all that remains.
 
-### Beat 10 - Scene: Hearthglen Intelligence
-- **Goal:** Absorb the next southbound relay and set the immediate road objective.
-- **Conflict:** While they were underground and then briefing, the plague kept moving. Hearthglen has already taken the hit, and Arthas is not holding position.
-- **Outcome:** **yes-but** - the direction is now clear, but they are already late and heading toward a prince moving faster than his understanding.
-- **Value shift:** dual defiance -> southbound urgency
-- **New on-page information:**
-  - Hearthglen barely held against a major plague activation
-  - Uther is on the field and the Silver Hand is already committed
-  - Arthas is moving toward Stratholme instead of consolidating where he is
-  - The party is no longer following a cold trail; they are chasing a live fuse
-- **Still unknown after beat:**
-  - Whether they can reach Arthas before urgency turns into atrocity
-  - How many other grain-fed sites are already too far gone
-- **Sensory anchors:**
-  - New relay cadence coming fast enough that Cyndia barely has time to pocket the stone
-  - A dark smear of smoke or fire low on the southern horizon
-  - Horses pressed into a faster road pace without discussion
-- **Transition intent:** The chapter has no room left for debate. It closes on movement.
+### Beat 9
+- The next relay from the south leaves no room for debate. Hearthglen barely held. Uther is on the field. Arthas is already moving toward Stratholme. They press the horses harder and keep going.
+- The party is no longer following a cold trail, they are chasing a live fuse, and every private question now loses to the road ahead.
+- They do not know whether they can reach Arthas before urgency turns into something worse or how many other grain-fed sites are already too far gone.
+- Ground the push: relay cadence coming too fast for comfort, a dark smear of smoke low on the southern horizon, horses driven into a faster pace without discussion.
+- The chapter leaves no room for repair. It closes on movement.
 
 ---
 
 ## Scene 4: South
 
-**Scene function:** Close the Scholomance arc on motion rather than repair and lock the damaged formation into the Arthas approach.
-**Cast in scene:** Jaina, Sylvanas, Cyndia
-**Knowledge at scene start:** The full picture is shared, the institutions have been refused, and the southbound threat has overtaken every private question.
+**The action:** The damaged line keeps carrying them, and Jaina finally understands what being right alone can turn into.
+**Cast:** Jaina, Sylvanas, Cyndia.
+**Starting point:** The full picture is shared, the institutions are refused, and the southbound threat has outrun every private question.
 
-### Beat 11 - Sequel: The Formation Carries
-- **Emotion:** There is no relief, only the blunt steadiness of people who know the next crisis is already closer than the last one.
-- **Dilemma:** Stop and try to speak the crack aloud, or keep the damaged formation intact and ride south under necessity.
-- **Decision:** Keep the formation, keep the silence, and move.
-- **Value shift:** southbound urgency -> damaged persistence
-- **New on-page information:**
-  - Jaina understands that being right alone is the road that leads toward Kel'Thuzad, not away from him
-  - Sylvanas's friction is still necessary to Jaina even after it starts hurting
-  - The three-rider formation still works as the shape that gets them where they need to go even though trust now comes with a check attached
-- **Still unknown after beat:**
-  - What Arthas will look like when they catch him
-  - Whether the next arc hardens the crack or starts closing it
-- **Sensory anchors:**
-  - Dusk settling over the Eastweald road
-  - Three horses carrying one line south
-  - Fire or smoke staining the horizon ahead
-- **Transition intent:** Chapter 15 opens with arrival at Hearthglen and Arthas's war camp.
+### Beat 10
+- They keep the line and keep the silence. Jaina understands that being right alone is the road that led Kel'Thuzad where he went, not a shield against becoming like him. Sylvanas's friction still hurts, and it is still necessary.
+- No repair happens here, the three-rider line still works as the shape that gets them where they need to go, and Jaina now knows that understanding without resistance is its own danger.
+- They do not know what Arthas will look like when they catch him or whether the next chapter hardens the crack or starts closing it.
+- Ground the ride: dusk settling over the Eastweald road, three horses carrying one southbound line, smoke staining the horizon ahead.
+- Chapter 15 opens with arrival at Hearthglen and Arthas's war camp.
 
 ---
 
@@ -326,16 +187,17 @@
 - Sylvanas
 - Cyndia
 
-**Facts locked for Chapter 15**
-- Sylvanas now knows the Lich King chain, Burning Legion threat behind it, resonance mechanism, ward-defense failure, and Kel'Thuzad's expected lich return
-- Jaina still has not disclosed the room, the method of acquisition, or the moment of recognition inside Scholomance
-- The Convocation recall was ignored and Antonidas's request to come home was refused
-- The road formation remains Cyndia left, Jaina center, Sylvanas forward-right by half-step
-- Hearthglen has already been hit, Uther is present on the road ahead, and Arthas is moving toward Stratholme
-- Jandice remains an off-stage loose thread
+**What carries into Chapter 15:**
+- Sylvanas now knows the Lich King chain, the Burning Legion threat behind it, the resonance mechanism, the ward-defense failure, and Kel'Thuzad's expected return.
+- Jaina still has not disclosed the room, the method of acquisition, or the part of the exchange that reached her.
+- Jaina now knows Sylvanas came through work rooms full of peasant stock, failed remnants, and stripped body parts that Jandice never showed her.
+- The Convocation recall was ignored and Antonidas's request to come home was refused.
+- The road line remains Cyndia left, Jaina center, Sylvanas forward-right by half a step.
+- Hearthglen has already been hit, Uther is on the field ahead, and Arthas is moving toward Stratholme.
+- Jandice remains an off-stage loose end.
 
-**Facts not yet earned**
-- Any clean repair conversation between Jaina and Sylvanas
-- Any practical field-ready resonance weapon
-- Any explicit Mal'Ganis identification
-- Any payoff on Jandice or the old seller / repeated-farewell file
+**Do not add yet:**
+- Any clean repair conversation between Jaina and Sylvanas.
+- Any practical field-ready resonance weapon.
+- Any explicit Mal'Ganis identification.
+- Any payoff on Jandice or the old seller / repeated-farewell clue.

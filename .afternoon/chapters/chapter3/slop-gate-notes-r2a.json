@@ -1,0 +1,266 @@
+{
+  "chapterId": "chapter3",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "dominantPattern": "direct and fragment pivots",
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterWarnings": [
+        "Negation pivots recur across narration and dialogue in separate scenes."
+      ],
+      "findings": [
+        {
+          "line": 61,
+          "text": "not the soldier-sized version",
+          "pattern": "P1-direct-contrast-pivot",
+          "deletionTest": "the full thought",
+          "severity": "mild",
+          "reason": "KILL - the positive half already carries the meaning, so the negated contrast is scaffolding.",
+          "suggestedFix": "the whole thought",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 151,
+          "text": "Not the one who came every season. A different one.",
+          "pattern": "P2-fragment-pivot",
+          "deletionTest": "A different one.",
+          "severity": "mild",
+          "reason": "KILL - fragment-pivot reveal; the second sentence survives cleanly without the negated setup.",
+          "suggestedFix": "A different one from the man who came every season.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 213,
+          "text": "that's her being lazy, not me being lost.",
+          "pattern": "P1-direct-contrast-pivot",
+          "deletionTest": "that's her being lazy.",
+          "severity": "mild",
+          "reason": "KILL - the joke lands without the negated self-exoneration, so the second half is dead-weight contrast.",
+          "suggestedFix": "that's her being lazy, and I'm still on the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "dominantPattern": "evidence and abstract states carrying human judgment",
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterWarnings": [
+        "Investigation prose repeatedly lets evidence or abstract states do the interpreting instead of naming the visible source."
+      ],
+      "findings": [
+        {
+          "line": 23,
+          "text": "mold that said days rather than hours",
+          "pattern": "evidence-speaking",
+          "subject": "mold",
+          "verb": "said",
+          "realAgent": "the thickness and spread of the visible mold on the loaf",
+          "severity": "mild",
+          "reason": "KILL - non-agentive evidence is made to speak instead of naming the visible sign directly.",
+          "suggestedFix": "mold thick enough for days of abandonment",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 55,
+          "text": "it read as discipline",
+          "pattern": "interpretation-laundering",
+          "subject": "it",
+          "verb": "read",
+          "realAgent": "Jaina's visible restraint and refusal of the easy conclusion",
+          "severity": "mild",
+          "reason": "KILL - the sentence launders Sylvanas's interpretation onto an abstract placeholder instead of naming Jaina's behavior.",
+          "suggestedFix": "Jaina's restraint looked like discipline",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 71,
+          "text": "a body remembering how legs worked by force of habit",
+          "pattern": "P8-body-agency",
+          "subject": "body",
+          "verb": "remembering",
+          "realAgent": "the legs moving in a degraded habitual pattern",
+          "severity": "mild",
+          "reason": "KILL - the body is given memory that belongs to a named physical behavior in the gait.",
+          "suggestedFix": "legs moving by force of habit",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 231,
+          "text": "Surprise settled into his face by degrees",
+          "pattern": "abstract-state-settling",
+          "subject": "Surprise",
+          "verb": "settled",
+          "realAgent": "the trader's expression changing slowly as he takes in the empty village",
+          "severity": "mild",
+          "reason": "KILL - the extra P5/P6 sweep caught an abstract state being made to move into a body part instead of describing the visible change.",
+          "suggestedFix": "He looked past Sylvanas at the dark houses and the empty well until surprise showed on his face by degrees",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 243,
+          "text": "His attention settled on her bow, her armor, her ears.",
+          "pattern": "abstract-state-settling",
+          "subject": "attention",
+          "verb": "settled",
+          "realAgent": "the trader visually taking in Sylvanas's gear and features",
+          "severity": "mild",
+          "reason": "KILL - an abstract state is made to physically settle when the prose can name the man's actual glance.",
+          "suggestedFix": "He took in her bow, her armor, her ears.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 10,
+      "kills": 0,
+      "keeps": 10,
+      "dominantPattern": "none",
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "All deterministic recurring-tic tool hits stayed at or below their chapter caps and remained functional in context: punctuation hits stayed within cap, participial attachments remained sparse, the single nodded beat was serviceable, and the lone simile did not create a chapter-level tic. Eye/gaze and weight/heaviness sweeps also stayed below kill thresholds."
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 14,
+    "mildKills": 8,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 8 mild pass-A kills remain across negation addiction and intent smear, which exceeds the 3-mild-kill pass threshold. Recurring prose tics were clean, but structural rhythm concerns remain.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.483,
+        "target": 0.72,
+        "delta": -0.237,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.792,
+        "target": 0.7,
+        "delta": 0.092,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 34.8,
+        "target": 19.0,
+        "delta": 15.8,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "concerns": [
+        "structural rhythm concerns: comma_period_ratio below calibrated range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 3.2% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.2% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 3.2% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.2% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassages": {
+        "telegram_run": 12,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 20,
+        "total_violations": 2,
+        "overCapCategories": [
+          {
+            "category": "narrator_verdict",
+            "patterns": [
+              "verdict_enough_for"
+            ]
+          },
+          {
+            "category": "slopsquid",
+            "patterns": [
+              "slopsquid_bigram"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

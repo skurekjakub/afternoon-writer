@@ -1,0 +1,315 @@
+{
+  "chapterId": "chapter5",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "dominantPattern": "F2-dialogue-beat-genericism",
+      "findings": [
+        {
+          "location": "v2-r1.md:25",
+          "line": "Jaina paused, then nodded once.",
+          "pattern": "F2-dialogue-beat-genericism",
+          "severity": "mild",
+          "issue": "Generic beat on the guide's always-kill list; the action could belong to anyone and adds no character-specific work.",
+          "suggestedFix": "Jaina checked the list again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r1.md:101",
+          "line": "They had not been inside ten minutes before Sylvanas knew somebody had been ahead of them.",
+          "pattern": "F6-essay-brain",
+          "severity": "mild",
+          "issue": "The paragraph opens with the conclusion instead of the concrete tells, turning the sequence into claim-then-evidence.",
+          "suggestedFix": null,
+          "fixDifficulty": "high",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r1.md:139",
+          "line": "The next morning the enemy showed its hand.",
+          "pattern": "F6-essay-brain",
+          "severity": "mild",
+          "issue": "This is a thesis-opening claim that pre-translates the scene before the sensory evidence arrives.",
+          "suggestedFix": "Millbrook Spur sat dead quiet when they rode in.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r1.md:205",
+          "line": "Jaina kept her voice low.",
+          "pattern": "F2-dialogue-beat-genericism",
+          "severity": "mild",
+          "issue": "The beat is generic speaker-labeling and can be deleted without losing scene logic; the tool-backed 'voice low' bigram is a known AI tell.",
+          "toolSignal": "slopsquid_bigram",
+          "suggestedFix": "Jaina said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r1.md:341",
+          "line": "The miss sat badly because of its size.",
+          "pattern": "F7-closure-addiction",
+          "severity": "mild",
+          "issue": "The paragraph already lands on the concrete miss; this sentence closes the thought with abstract emotional summary.",
+          "suggestedFix": "She had let him pass.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks in clipped tactical reads: routes, cover, exits, competence, threat, and practical consequence. She does not naturally narrate in thematic chess metaphors or abstract emotional summaries; when a judgment matters, she usually cashes it out in terrain, timing, or action.",
+      "registerConfidence": "high",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "dominantPattern": "B1-sentence-too-polished-for-pov",
+      "findings": [
+        {
+          "location": "v2-r1.md:139",
+          "line": "The next morning the enemy showed its hand.",
+          "pattern": "B1-sentence-too-polished-for-pov",
+          "tier": "B",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas would register the dead yard and missing traffic, not cast the moment as a polished chess metaphor from outside the body.",
+          "confidence": "moderate",
+          "suggestedFix": "Millbrook Spur sat dead quiet when they rode in.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r1.md:183",
+          "line": "Something for a quick search. Something meant to be found clean.",
+          "pattern": "A2-thesis-fragment-pair",
+          "tier": "A",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment pair reads like a caption pinned over the office rather than Sylvanas's direct field read.",
+          "confidence": "high",
+          "suggestedFix": "Decoy books, left where a fast search would stop.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r1.md:341",
+          "line": "The miss sat badly because of its size.",
+          "pattern": "B2-conceptual-compression-beyond-pov-register",
+          "tier": "B",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas would think in the concrete tactical consequence of letting the wagoner ride south, not in abstract nouns like miss and size.",
+          "confidence": "moderate",
+          "suggestedFix": "He had ridden south, and she had let him pass.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "dominantPattern": "P3-placeholder-noun-stand-ins",
+      "findings": [
+        {
+          "location": "v2-r1.md:139",
+          "line": "The next morning the enemy showed its hand.",
+          "pattern": "P4-unanchored-interpretive-summary",
+          "severity": "mild",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The silent yard, dead chimney, absent carts, and stripped office that actually reveal the reaction.",
+          "reason": "The sentence asks the reader to credit an interpretive summary before the local evidence has been named.",
+          "suggestedFix": "Millbrook Spur sat dead quiet when they rode in.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r1.md:183",
+          "line": "Something for a quick search. Something meant to be found clean.",
+          "pattern": "P3-placeholder-noun-stand-ins",
+          "severity": "mild",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "Decoy ledgers and display invoices planted to satisfy a fast inspection.",
+          "reason": "Both sentences rely on placeholder nouns and purpose-language instead of naming the concrete decoy.",
+          "suggestedFix": "Decoy books, left where a fast search would stop.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "location": "v2-r1.md:341",
+          "line": "The miss sat badly because of its size.",
+          "pattern": "P3-placeholder-noun-stand-ins",
+          "severity": "mild",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The concrete consequence of letting the grain seller ride south unidentified once the road network comes into focus.",
+          "reason": "The line sounds weighty but hides behind stand-ins instead of naming the actual tactical problem.",
+          "suggestedFix": "He had ridden south, and she had let him pass.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in this chapter sets up a translation pass with cues like 'plainly', 'smaller words', 'short version', or 'what does that mean here?', so the guide found no candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 6,
+    "mildKills": 11,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 10,
+    "killsUnfixable": 1,
+    "verdict": "fail",
+    "verdictReason": "11 mild pass-B kills exceed the 3-mild cap. The failures cluster around generic beats, narrator-forward abstract framing, and phantom-concrete summaries. Analytic hints also show structural rhythm concerns and a structural texture deficit.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "observed": 0.372,
+        "target": 0.72,
+        "delta": -0.348,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "withinRange": false
+      },
+      "sentence_length_cv": {
+        "observed": 0.787,
+        "target": 0.7,
+        "delta": 0.087,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "withinRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "observed": 48.3,
+        "target": 19.0,
+        "delta": 29.3,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "withinRange": false
+      },
+      "notes": [
+        "structural rhythm concerns"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdictReasons": [
+        "participial_pct 1.8% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.6% below floor 4.0% (human: 8.5%)",
+        "texture_score 8.5% below floor 10.0% (human: 24.4%)",
+        "short_pct 63.7% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.8% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 3.6% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 63.7% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassageCounts": {
+        "telegram_run": 18,
+        "texture_desert": 7
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 16,
+        "totalViolations": 1,
+        "overCapCategories": [
+          {
+            "category": "slopsquid",
+            "patterns": [
+              "slopsquid_bigram"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

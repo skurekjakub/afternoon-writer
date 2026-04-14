@@ -1,0 +1,260 @@
+{
+  "chapterId": "chapter5",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 7,
+      "kills": 2,
+      "keeps": 5,
+      "killRate": 28.6,
+      "dominantPattern": "fragment/minimizer pivots",
+      "severityCounts": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterPages": [],
+      "clusterWarnings": [
+        "Scene 1 repeats negation pivots in the travel-analysis stretch."
+      ],
+      "findings": [
+        {
+          "severity": "mild",
+          "line": "Not close enough to join the talk, close enough to matter.",
+          "pattern": "P4 minimizer pivot",
+          "deletionTest": "Close enough to matter.",
+          "reason": "Pattern 4 minimizer pivot; the negative half is scaffolding and the sentence lands cleanly without it.",
+          "suggestedFix": "Close enough to matter.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "line": "Not building a new chain. Slipping bad grain into the one already there and letting the wagons do the rest.",
+          "pattern": "P2 fragment pivot",
+          "deletionTest": "Slipping bad grain into the one already there and letting the wagons do the rest.",
+          "reason": "Pattern 2 fragment pivot; the second sentence already carries the payload and the negated setup only delays it.",
+          "suggestedFix": "Slipping bad grain into the one already there and letting the wagons do the rest.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "killRate": 57.1,
+      "dominantPattern": "non-agentive nouns carrying human or pressure verbs",
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 4,
+        "severe": 0
+      },
+      "clusterFlags": [
+        "The chapter repeatedly launders pressure through silence, stillness, the King's Road, and local knowledge."
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "findings": [
+        {
+          "severity": "moderate",
+          "line": "Sylvanas showed him her commission and let the silence do the rest until he stepped aside.",
+          "subject": "silence",
+          "verb": "do",
+          "realAgent": "Sylvanas's commission, the pause after it, and the yard master's visible recalculation",
+          "pattern": "P7 silence given active verb",
+          "reason": "Pattern 7; the silence is not acting, the yard master is reacting to the commission and the pressure of the pause.",
+          "suggestedFix": "Sylvanas showed him her commission and waited until he stepped aside.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "line": "Heavy man, grey in his beard, dead long enough for the stillness to have settled all the way through him.",
+          "subject": "stillness",
+          "verb": "settled",
+          "realAgent": "the corpse's total immobility after several days dead",
+          "pattern": "P7 abstract absence given active verb",
+          "reason": "The pass-A extra sweep catches an abstract state being made to travel through the body instead of naming the visible condition directly.",
+          "suggestedFix": "Heavy man, grey in his beard, dead long enough to be still all the way through.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "line": "The King's Road sees too much traffic.",
+          "subject": "King's Road",
+          "verb": "sees",
+          "realAgent": "the patrols, wagons, and clerks using that road",
+          "pattern": "P1 infrastructure with human perception",
+          "reason": "The road is being given a human perception verb instead of naming the people and movement on it.",
+          "suggestedFix": "Too much traffic uses the King's Road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "line": "One man with an empty grain wagon and the sort of local knowledge that let him pass for harmless.",
+          "subject": "local knowledge",
+          "verb": "let",
+          "realAgent": "the people who would hear him talk routes and shortages and decide he looked harmless",
+          "pattern": "P5 abstraction granting permission",
+          "reason": "Pattern 5; the abstraction is doing the social work that belongs to actual observers on the road.",
+          "suggestedFix": "One man with an empty grain wagon and enough local knowledge to pass for harmless.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 9,
+      "kills": 1,
+      "keeps": 8,
+      "killRate": 11.1,
+      "dominantPattern": "overloaded 'marked'",
+      "severityCounts": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "ticCounts": {
+        "marked": 3,
+        "eyeGazeBeats": 3,
+        "nonSaidDialogueTags": 1
+      },
+      "findings": [
+        {
+          "severity": "mild",
+          "line": "She had only marked the road they were already riding toward.",
+          "pattern": "Tic 2: overloaded 'marked'",
+          "reason": "This is the weakest of three 'marked' uses in the chapter and the least physically specific, so it is the excess instance over the hard cap of two.",
+          "suggestedFix": "She had only chosen the road they were already riding toward.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 16,
+    "mildKills": 3,
+    "moderateOrSevereKills": 4,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: four moderate intent-smear kills remain, plus two mild negation pivots and one mild recurring-tic excess. Rhythm telemetry is well below target and texture remains in structural-deficit territory.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.372,
+        "target": 0.72,
+        "delta": -0.348,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.787,
+        "target": 0.7,
+        "delta": 0.087,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 48.3,
+        "target": 19.0,
+        "delta": 29.3,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below calibrated range",
+        "structural rhythm concerns: one_sentence_paragraph_pct far above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdictReasons": [
+        "participial_pct 1.8% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.6% below floor 4.0% (human: 8.5%)",
+        "texture_score 8.5% below floor 10.0% (human: 24.4%)",
+        "short_pct 63.7% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.8% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 3.6% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 63.7% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassageCounts": {
+        "telegram_run": 19,
+        "texture_desert": 7
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 16,
+        "totalViolations": 1,
+        "overCapCategories": [
+          {
+            "category": "slopsquid",
+            "patterns": [
+              "slopsquid_bigram"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

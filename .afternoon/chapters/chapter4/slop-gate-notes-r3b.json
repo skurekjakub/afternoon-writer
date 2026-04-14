@@ -1,0 +1,327 @@
+{
+  "chapterId": "chapter4",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 10,
+      "kills": 6,
+      "keeps": 4,
+      "severityCounts": {
+        "mild": 5,
+        "moderate": 1,
+        "severe": 0
+      },
+      "dominantPattern": "F3",
+      "findings": [
+        {
+          "pattern": "F1",
+          "severity": "moderate",
+          "citedText": "Water would have struck harder and stranger, day to day. This was steadier. Repeated meals. Repeated doses. Bread.",
+          "issue": "telegram-cluster inside a texture-desert inferential run",
+          "rationale": "The deduction breaks into five clipped beats in a row, reinforcing the chapter's already severe short-sentence monotony instead of varying cadence.",
+          "suggestedFix": "Water would have struck harder and stranger, day to day, but this was steadier: repeated meals, repeated doses, bread.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "citedText": "Instead she heard coughing somewhere behind the row of houses.",
+          "word": "heard",
+          "deletionTest": "Instead, coughing carried from behind the row of houses.",
+          "rationale": "The sentence routes the sound through a filter verb when the sound itself can land directly.",
+          "suggestedFix": "Instead, coughing carried from behind the row of houses.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "citedText": "He stared at the sacks as if they had become a different species of object in front of him.",
+          "word": "as if",
+          "deletionTest": "He stared at the sacks.",
+          "rationale": "The hedge/simile pads a reaction the next line already makes clear.",
+          "suggestedFix": "He stared at the sacks.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "citedText": "Jaina understood only half of that and hated the half she understood.",
+          "whatItRestates": "\"If I get caught.\" / \"He said to be fast.\"",
+          "rationale": "The sentence translates the implication the dialogue already delivered.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "citedText": "It all looked normal.",
+          "issue": "summary close after a concrete inventory paragraph",
+          "rationale": "The sentence restates the preceding market details as a tidy thesis instead of trusting the image run.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "citedText": "It all looked normal.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Stalls stood open on three sides of the square, a woman crossing between them with a basket on her arm while a boy dragged one muddy boot behind him and a man argued with a carter over a crate.",
+          "rationale": "The paragraph lands harder on the concrete village business than on the abstract summary.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severityCounts": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "B1",
+      "findings": [
+        {
+          "pattern": "B1",
+          "severity": "mild",
+          "tier": "B",
+          "citedText": "He heard the trap in that at once.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can read the captain's defensiveness, but this sentence states his private recognition as fact instead of keeping the beat in her evidence.",
+          "confidence": "moderate",
+          "suggestedFix": "His answer came too fast. \"Fever. Bad run of it. We've had it before.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "mild",
+          "tier": "B",
+          "citedText": "He had heard some softened version of it; she let him sit with the fact that hers would be worse.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence states the captain's prior knowledge level from outside Jaina's sensorium instead of limiting the beat to what his face and silence show her.",
+          "confidence": "moderate",
+          "suggestedFix": "The captain's mouth tightened, and she let the silence do the rest.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityCounts": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "citedText": "Her read is worth the next few hours of this village.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "what Jaina can identify or prevent in concrete terms before the village worsens",
+          "rationale": "The line leans on abstract stakes rhetoric instead of naming the usable claim.",
+          "suggestedFix": "She can tell you what is poisoning them before nightfall.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "citedText": "It gets deeper.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "where the sickness travels after the first fever stage",
+          "rationale": "The phrase sounds diagnostic without naming the bodily progression it claims.",
+          "suggestedFix": "It gets into the gut and keeps moving.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "citedText": "A watcher, not the hand that built this.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "what, specifically, Davan did not do in the grain-tainting operation",
+          "rationale": "The sentence hides behind stand-ins ('hand,' 'this') instead of naming the concrete role distinction.",
+          "suggestedFix": "A watcher, not the one who tainted the grain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Audited the dialogue for translation setups ('plainly', 'smaller words', 'short version', street-level restatement prompts) and found none. The chapter does not stage a simplification exchange for this guide to kill."
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 9,
+    "mildKills": 10,
+    "moderateOrSevereKills": 1,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 11,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: one moderate rhythmic-sameness kill plus ten mild pass-B kills. The chapter still carries a structural texture deficit, two narrator-seep mindreads, and three abstraction-heavy dialogue lines.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "observed": 0.398,
+        "target": 0.72,
+        "delta": -0.322,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "withinRange": false
+      },
+      "sentence_length_cv": {
+        "observed": 0.783,
+        "target": 0.7,
+        "delta": 0.083,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "withinRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "observed": 46.2,
+        "target": 19.0,
+        "delta": 27.2,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "withinRange": false
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.6% below floor 5.0% (human: 11.0%)",
+        "compound_pct 2.3% below floor 4.0% (human: 8.5%)",
+        "texture_score 7.1% below floor 10.0% (human: 24.4%)",
+        "short_pct 69.6% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.6% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 2.3% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 69.6% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassageCounts": {
+        "telegram_run": 15,
+        "texture_desert": 8
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 14,
+        "totalViolations": 1,
+        "overCapCategories": [
+          {
+            "category": "paragraph_structure",
+            "patterns": [
+              "opener_consecutive_repeat"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

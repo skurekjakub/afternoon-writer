@@ -1,0 +1,170 @@
+{
+  "chapterId": "chapter4",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "dominantPattern": "binary diagnostic keep",
+      "cleanReason": "The only live candidate was \"A watcher, not the one who tainted the grain,\" and it survives as a binary diagnostic that changes how the prisoner is handled in-scene."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "dominantPattern": "evidence-self-assembly compression",
+      "severityBreakdown": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "evidence-self-assembly",
+          "severity": "mild",
+          "line": "Jaina had expected satisfaction when the pieces met.",
+          "subject": "the pieces",
+          "verb": "met",
+          "realAgent": "Jaina fitting the evidence together",
+          "reason": "The sentence gives the clues the work of synthesis instead of naming Jaina as the one making the connection.",
+          "suggestedFix": "Jaina had expected satisfaction when she finally fit the evidence together.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 8,
+      "kills": 2,
+      "keeps": 6,
+      "dominantPattern": "structural punctuation / paragraph tics",
+      "severityBreakdown": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "punct_colon_narration",
+          "severity": "mild",
+          "toolSignal": "punct_colon_narration",
+          "line": "Water would have struck harder and stranger, day to day, but this was steadier: repeated meals, repeated doses, bread.",
+          "reason": "This is the weakest of the three narration-colon hits and the one that most reads like stylized scaffolding rather than necessary list structure.",
+          "suggestedFix": "Water would have struck harder and stranger, day to day, but this was steadier—repeated meals, repeated doses, bread.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "pattern": "opener_consecutive_repeat",
+          "severity": "mild",
+          "toolSignal": "opener_consecutive_repeat",
+          "line": "He was trained for this.",
+          "reason": "This standalone paragraph is the expendable leg of the three-paragraph He/He/He run and repeats information Sylvanas lands more effectively two beats later.",
+          "suggestedFix": "Trained for this.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 10,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: three mild-only issues remain (one intent-smear compression and two recurring structure tics), with no moderate or severe kills. Rhythm and texture analytics still show a structural texture deficit and over-fragmented paragraphing for downstream cleanup.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.421,
+        "target": 0.72,
+        "delta": -0.299,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "value": 0.775,
+        "target": 0.7,
+        "delta": 0.075,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 46.5,
+        "target": 19.0,
+        "delta": 27.5,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below calibrated floor",
+        "structural rhythm concerns: one_sentence_paragraph_pct far above calibrated ceiling"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.9% below floor 5.0% (human: 11.0%)",
+        "compound_pct 2.9% below floor 4.0% (human: 8.5%)",
+        "texture_score 7.8% below floor 10.0% (human: 24.4%)",
+        "short_pct 69.3% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.9% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions. COMPOUND CLAUSES: 2.9% (floor: 4.0%, human: 8.5%). Join related ideas with conjunctions. SHORT SENTENCES: 69.3% (ceiling: 62.0%, human: 52.2%). Too choppy; combine adjacent short sentences.",
+      "flaggedPassageCounts": {
+        "telegram_run": 14,
+        "texture_desert": 8
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 13,
+        "totalViolations": 2,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "combined_count": 4
+          },
+          {
+            "category": "paragraph_structure",
+            "combined_count": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@ Audit only these four guides in this run.
 
 ## Pass-specific emphasis
 
-- `phantom-concreteness-guide.md` stays focused on abstract specificity failures in narration or dialogue that sound sharp without naming the evidence, mechanism, or claim.
+- `phantom-concreteness-guide.md` stays focused on abstract specificity failures in narration or dialogue that sound sharp without naming the evidence, mechanism, claim, or concrete task payload. That includes planner shorthand and tactical note-speak (`She had the street shape.` `Jaina still needed the mage side.`) when a line summarizes a split task from above instead of naming the actual street, door, watch gap, route, or proof problem.
 - `fake-simplification-guide.md` is a separate pass-B guide. Use it when one line claims to restate something in plainer or more usable speech. Audit the exchange, not just the prettiest sentence inside it.
 - Do not collapse the two guides into one judgment. A line can fail one and pass the other.
 

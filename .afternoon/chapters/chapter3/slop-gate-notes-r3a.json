@@ -1,0 +1,142 @@
+{
+  "chapterId": "chapter3",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 3,
+      "kills": 2,
+      "keeps": 1,
+      "dominantPattern": "negation-pivot",
+      "findings": [
+        {
+          "line": 19,
+          "text": "Useful did not mean careful.",
+          "pattern": "preamble-negation",
+          "deletionTest": "careful.",
+          "severity": "mild",
+          "reason": "The line defines Jaina's field value by first naming what it is not; the negation is scaffolding rather than a necessary binary with immediate scene consequences.",
+          "suggestedFix": "Useful and careful were separate facts.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 201,
+          "text": "No signet. Just the flat oval of a field mark, enough to tell the next post this had come off the road instead of out of an office.",
+          "pattern": "fragment-pivot",
+          "deletionTest": "Just the flat oval of a field mark, enough to tell the next post this had come off the road instead of out of an office.",
+          "severity": "mild",
+          "reason": "The negative lead-in is disposable setup; the sentence keeps its meaning once it starts on the actual mark.",
+          "suggestedFix": "The flat oval of a field mark was enough to tell the next post this had come off the road instead of out of an office.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 6,
+      "kills": 1,
+      "keeps": 5,
+      "dominantPattern": "nominalized-event-agency",
+      "secondSweepCompleted": true,
+      "findings": [
+        {
+          "line": 31,
+          "text": "Whatever had emptied Millhaven had taken the people but not all their animals, which meant the leaving had dragged long enough for some creatures to scatter and ended fast enough that others had stayed to starve.",
+          "pattern": "pattern-9-nominalized-event-agency",
+          "subject": "the leaving",
+          "verb": "had dragged",
+          "realAgent": "the village's slow depopulation and the elapsed time before the remaining animals were abandoned",
+          "severity": "mild",
+          "reason": "The sentence launders duration onto an abstract event noun instead of naming the concrete timeline implied by the animals' different fates.",
+          "suggestedFix": "Whatever had emptied Millhaven had taken the people and left some of their animals behind. Some creatures had scattered before it finished; others had stayed to starve.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "dominantPattern": null,
+      "cleanReason": "Counted all seven listed tics and audited the mapped tool hits (filler_nodded, participial_trailing, punct_colon_narration, punct_semicolon). The explicit chapter tics stayed within cap, and the punctuation/filler/participial hits were concrete field-notation beats rather than generic fallback mannerisms."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 14,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A found three mild line-level issues and no moderate/severe kills, so the chapter stays under the fail threshold for this pass.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.474,
+        "target": 0.72,
+        "delta": -0.246,
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "actual": 0.786,
+        "target": 0.7,
+        "delta": 0.086,
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 34.6,
+        "target": 19.0,
+        "delta": 15.6,
+        "inRange": false
+      },
+      "structuralConcerns": [
+        "comma_period_ratio below calibrated range",
+        "one_sentence_paragraph_pct above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 3.0% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.2% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 3.0% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.2% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 11,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 17,
+        "totalViolations": 4,
+        "overCapCategories": [
+          "narrator_verdict",
+          "punctuation_tics",
+          "slopsquid"
+        ]
+      }
+    }
+  }
+}

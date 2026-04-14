@@ -1,0 +1,185 @@
+{
+  "chapterId": "chapter2",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "cleanReason": "Reviewed the imperative negations (\"Do not leave the road without my word.\", \"Do not cast without warning.\", and \"Not until we're on the road,\") plus the two mechanism/limitation lines (\"What I cannot do is keep myself alive on a road that may already be sick.\" and \"The necromancy was in the blood and meat, not sitting on the hide like a curse and not waiting for death to start its work.\"). All five do procedural or diagnostic work instead of building a contrast pivot."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "dominantPattern": "pattern-8-body-part-agency",
+      "findings": [
+        {
+          "text": "The hum lived behind her eyes and in her jaw, too deep to ignore.",
+          "pattern": "physical-behavior-on-sensation",
+          "subject": "The hum",
+          "verb": "lived",
+          "realAgent": "the ward vibration working through Jaina's skull and jaw",
+          "severity": "mild",
+          "reason": "The sentence gives a physical sensation a biological verb instead of naming the bodily effect directly.",
+          "suggestedFix": "It vibrated behind her eyes and in her jaw, too deep to ignore.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "They listened, took notes, and asked the sort of questions that ended in drawers.",
+          "pattern": "abstract-outcome-laundering",
+          "subject": "questions",
+          "verb": "ended",
+          "realAgent": "the officers filing her warning away in reports and drawers",
+          "severity": "moderate",
+          "reason": "The bureaucratic burying is laundered onto the questions instead of the officers who would shelve the warning.",
+          "suggestedFix": "They listened, took notes, and asked the sort of questions officers filed away in drawers.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "Stiff legs told on her.",
+          "pattern": "pattern-8-body-part-agency",
+          "subject": "legs",
+          "verb": "told on",
+          "realAgent": "Jaina's hurried stand and the visible hitch from stiffness",
+          "severity": "moderate",
+          "reason": "Pattern 8: the body part is carrying the revealing action that belongs to Jaina's movement.",
+          "suggestedFix": "She stood too fast, and the hitch in her legs showed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "\"Because the contamination does not care who signed off on it.\"",
+          "pattern": "pattern-5-object-wanting-refusing-deciding",
+          "subject": "the contamination",
+          "verb": "care",
+          "realAgent": "the spread continuing regardless of anyone's approval",
+          "severity": "moderate",
+          "reason": "Pattern 5: the line gives the contamination human indifference instead of naming the concrete fact that approval changes nothing.",
+          "suggestedFix": "\"Because the contamination keeps spreading regardless of permission.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "Fear made the choice before thought could.",
+          "pattern": "agency-transfer-on-emotion",
+          "subject": "Fear",
+          "verb": "made",
+          "realAgent": "Jaina casting reflexively under pressure",
+          "severity": "moderate",
+          "reason": "The sentence transfers Jaina's reflexive action onto fear itself, which is exactly the guide's banned agency move for internal states.",
+          "suggestedFix": "She cast before she had time to think.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 11,
+      "kills": 0,
+      "keeps": 11,
+      "cleanReason": "Audited every pass-A tool signal routed here: simile_overload (5 hits), participial_attachment (3 hits), punctuation_tics (2 hits), and filter_words (1 hit). None exceeded their chapter caps, and the chapter also stayed below the guide's native caps for eye/gaze beats, dialogue-tag avoidance, mouth-corner micro-expressions, tightened/eased shorthand, shifted-expression beats, marked overuse, and weight/heaviness metaphors."
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 18,
+    "mildKills": 1,
+    "moderateOrSevereKills": 4,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A fails because 5 intent-smear kills remain (4 moderate, 1 mild). The prose also still shows structural rhythm concerns: comma_period_ratio is below target range and one_sentence_paragraph_pct is far above target range; texture is borderline because participial and semicolon usage are both low.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.458,
+        "target": 0.72,
+        "delta": -0.262,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.758,
+        "target": 0.7,
+        "delta": 0.058,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 43.4,
+        "target": 19.0,
+        "delta": 24.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 2.3% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.3% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassages": {
+        "telegram_run": 14,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 18,
+        "totalViolations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

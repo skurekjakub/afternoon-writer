@@ -1,0 +1,159 @@
+{
+  "chapterId": "chapter4",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "dominantPattern": "binary diagnostic contrast",
+      "cleanReason": "The only true negation pivot was \"A watcher, not the hand that built this.\" It stays because Sylvanas is making a live binary diagnostic between a disposable watcher and the architect behind the grain network, which changes how the prisoner is evaluated.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 2,
+      "kills": 2,
+      "keeps": 0,
+      "dominantPattern": "P8 body-part agency",
+      "clusterFlags": [
+        "opening village / militia-captain section (2 P8 kills inside the early texture-desert zone)"
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": false,
+      "findings": [
+        {
+          "lineText": "The child was maybe seven, pink-cheeked in the wrong way, her mother's hand fixed on her shoulder to keep her steady.",
+          "pattern": "P8 body-part agency",
+          "subject": "hand",
+          "verb": "fixed ... to keep",
+          "realAgent": "the mother bracing the child upright",
+          "severity": "mild",
+          "reason": "A body part is carrying the mother's stabilizing action; the mother is the actor, not her hand.",
+          "suggestedFix": "The child was maybe seven, pink-cheeked in the wrong way, her mother holding her upright by the shoulder.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "textureFlags": [
+            "texture_desert 3-46"
+          ]
+        },
+        {
+          "lineText": "The captain's mouth tightened.",
+          "pattern": "P8 body-part agency",
+          "subject": "mouth",
+          "verb": "tightened",
+          "realAgent": "the captain reacting to Millhaven's reality",
+          "severity": "mild",
+          "reason": "The body-part subject launders the captain's reaction into his mouth instead of naming him as the actor.",
+          "suggestedFix": "The captain set his mouth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "textureFlags": [
+            "texture_desert 3-46",
+            "telegram_run 32-41"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 10,
+      "kills": 0,
+      "keeps": 10,
+      "dominantPattern": "under-cap tool-signaled punctuation and texture-supporting constructions",
+      "cleanReason": "All recurring-tic counts stayed below their hard caps. The tool-signaled semicolons, colons, participials, single glance/watch beat, one concrete simile, and the quoted three-paragraph 'He...' sequence all read as purposeful local choices rather than chapter-level repetition; tightened/eased, eye/gaze, weight, and non-said-tag patterns also remained under cap or were literal/exempt.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 11,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 1,
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A clears with 2 mild intent-smear kills and no negation or recurring-tic kills. Both remaining issues are body-part agency in the opening village section; structural rhythm concerns and a below-target texture profile still remain for downstream cleanup.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.398,
+        "target": 0.72,
+        "delta": -0.322,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "withinRange": false
+      },
+      "sentence_length_cv": {
+        "actual": 0.783,
+        "target": 0.7,
+        "delta": 0.083,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "withinRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 46.2,
+        "target": 19.0,
+        "delta": 27.2,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "withinRange": false
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below calibrated range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.6% below floor 5.0% (human: 11.0%)",
+        "compound_pct 2.3% below floor 4.0% (human: 8.5%)",
+        "texture_score 7.1% below floor 10.0% (human: 24.4%)",
+        "short_pct 69.6% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.6% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 2.3% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 69.6% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassageCounts": {
+        "telegram_run": 16,
+        "texture_desert": 8
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 14,
+        "totalViolations": 1,
+        "overCapCategories": [
+          {
+            "category": "paragraph_structure",
+            "patterns": [
+              "opener_consecutive_repeat"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

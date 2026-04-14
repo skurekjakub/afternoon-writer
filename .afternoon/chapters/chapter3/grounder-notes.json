@@ -1,0 +1,129 @@
+{
+  "chapterId": "chapter3",
+  "globalRisks": [
+    "dialogue-heavy",
+    "static-room",
+    "tail-risk"
+  ],
+  "sceneAudits": [
+    {
+      "scene": "Scene 1 - Millhaven",
+      "biggestGap": "The village sweep had strong dread but still leaned on generic search language in the house and granary passes.",
+      "anchorsAdded": {
+        "place": [
+          "mill lane",
+          "river bend",
+          "river-stone granary",
+          "garden plots",
+          "road cut"
+        ],
+        "material": [
+          "strap hinges",
+          "bread board",
+          "barley spill",
+          "packed-earth floor",
+          "snapped mud crust"
+        ],
+        "dialogue": [
+          "Cyndia reporting with soot on her bracer",
+          "Jaina kneeling in split grain while Sylvanas clears the room",
+          "Cyndia crouched in the cabbage-bed spoor"
+        ],
+        "exit": [
+          "north-running track geometry",
+          "warning held until the spoor was trustworthy"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 2 - The Survivor and the Proof",
+      "biggestGap": "The witness sequence risked floating into testimony without enough cellar and road-contact texture around it.",
+      "anchorsAdded": {
+        "place": [
+          "trapdoor cellar",
+          "stone steps",
+          "north road cut"
+        ],
+        "material": [
+          "flour sacks",
+          "water barrel",
+          "blanket scrap",
+          "waterskin leather",
+          "cloth spoor markers"
+        ],
+        "dialogue": [
+          "Neral crouching empty-handed in the cellar",
+          "Jaina's dimmed staff against damp mortar",
+          "Miri clutching cloak and waterskin through her testimony"
+        ],
+        "exit": [
+          "Jaina separating tainted sign from ordinary road damage",
+          "north-northeast movement physically confirmed before dispatch"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 3 - The Grain Seller on the Road",
+      "biggestGap": "The aftermath sequence risked thinning into logistics instead of staying tied to gear, wagon texture, and reduced-party pressure.",
+      "anchorsAdded": {
+        "place": [
+          "miller's house dispatch point",
+          "well curb",
+          "north bend",
+          "south road flattening into farmland"
+        ],
+        "material": [
+          "steel nib",
+          "wax seal",
+          "dispatch tube",
+          "saddle ring",
+          "wagon slats",
+          "grain dust"
+        ],
+        "dialogue": [
+          "Neral speaking with a hand on the mare's girth",
+          "trader exchange tied to reins, wagon, and the empty lane",
+          "Jaina remounting with mud and grain dust still on her"
+        ],
+        "exit": [
+          "reduced escort counted in horses and saddlebags",
+          "southbound road re-anchored in fallow fields and hedgerows"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": [
+      "dispatch-and-trader aftermath could have gone abstract",
+      "source draft carried unsourced escort naming"
+    ],
+    "fixesApplied": [
+      "kept the tail bound to dispatch gear, horseflesh, wagon texture, and the shrinking party",
+      "removed unsourced escort naming and kept the rider unnamed per plan"
+    ],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [
+      "locations/millhaven",
+      "threads/millhaven-emptied",
+      "characters/jaina-proudmoore",
+      "characters/sylvanas-windrunner",
+      "relationships/jaina-proudmoore--sylvanas-windrunner",
+      "characters/neral"
+    ],
+    "materials": [
+      "stories/the-plague-road/plans/story-arc.md",
+      "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/jaina-voice.md",
+      ".afternoon/style-guide.json"
+    ],
+    "unsourcedAdditions": []
+  }
+}

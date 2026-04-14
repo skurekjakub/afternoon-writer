@@ -1,0 +1,209 @@
+{
+  "chapterId": "chapter2",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "The glass was gone.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "The contamination pressed at her sternum, copper and turned earth in her throat, wrongness humming under the packed dirt hard enough to make her hands want to shake. She had been reading it through glass.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "paragraphLocation": "road-reading paragraph after \"Stop,\"",
+          "line": "The corruption had crossed from line to land.",
+          "issue": "thesis opening",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "line": "It was taking hold.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "It was in the dirt, in the water feeding the fields, in whatever roots still dared drink here.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "line": "She looked up.",
+          "issue": "generic label / interchangeable beat",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "cleanReason": "Re-read the late-road compression lines and fragment beats against Jaina's chapter plan register. The remaining candidates stay inside Jaina's analytic, field-practical POV: they are active reassessments or evidence-based tactical shorthand, not narrator captions.",
+      "findings": []
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P4",
+      "findings": [
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": "the emptied stillness of places where people had stopped coming out long before sunset",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "A visible carrier showing exactly how Jaina knows the farms were abandoned before sunset rather than simply shut and smokeless at dusk.",
+          "suggestedFix": "Farm after farm sat with its doors shut and no smoke rising.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "line": "stillness where evening life should have been",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The visible village activity the phrase is gesturing at; the line names an absence in mood terms instead of giving a concrete, on-page sign.",
+          "suggestedFix": "no movement at all",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "cleanReason": "No exchange in this draft contains an explicit simplification setup (plainly, smaller words, short version, street-level translation), so pass-B fake-simplification had no auditable candidate.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 7,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 2,
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Six mild pass-B kills remain after revision, so the draft still fails the <=3 mild-kill threshold. The remaining issues are mostly decorative closers and abstracted summary phrases, with structural rhythm concerns still present in the analytic hints.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.458,
+        "target": 0.72,
+        "delta": -0.262,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside_range"
+      },
+      "sentence_length_cv": {
+        "value": 0.758,
+        "target": 0.7,
+        "delta": 0.058,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "within_range"
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 43.4,
+        "target": 19.0,
+        "delta": 24.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside_range"
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below target range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above target range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 2.3% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.3% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 14,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 18,
+        "totalViolations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

@@ -7,7 +7,7 @@ After resolving the workspace in Phase 1, run the deterministic analysis tools b
 From the repository root, run both tools on the target prose file:
 
 ```
-python3 tools/rhythm_scorer/score.py --json .afternoon/chapters/{chapterId}/{targetFile}
+python3 tools/rhythm_scorer/score.py --json --baselines .afternoon/style-guide.json .afternoon/chapters/{chapterId}/{targetFile}
 python3 tools/slop_checker/check.py --json .afternoon/chapters/{chapterId}/{targetFile}
 ```
 
@@ -37,8 +37,8 @@ Parse these fields:
 - `texture.emdash_pct` — % of sentences with em-dashes. Compare against `textureMetrics.emdash_pct`.
 - `texture.semicolon_pct` — % of sentences with semicolons. Compare against `textureMetrics.semicolon_pct`.
 - `texture.short_pct` — % of sentences <= 8 words. Compare against `textureMetrics.short_pct`. High values = telegram prose.
-- `texture.texture_score` — combined % of sentences with ANY joining construction. Compare against `textureMetrics.texture_score`.
-- `texture.verdict` — "within_target", "borderline", or "below_target"
+- `texture.texture_score` — balanced 0–100 score (100 = all dimensions on target). ≥90 passes. Compare against `textureMetrics.texture_score`.
+- `texture.verdict` — "within_target" or "below_target"
 - `texture.verdict_reasons` — array of specific gaps with baselines
 - `texture.interpretation` — **AGENT-ACTIONABLE**: specific instructions on what constructions to add and how. Read this field — it tells you exactly what the prose is missing and gives example fixes.
 - `texture.flagged_passages` — array of problem zones:
@@ -49,7 +49,7 @@ Parse these fields:
 ### How to interpret the texture verdict
 
 - **within_target**: Texture metrics fall within calibrated human ranges. No structural concerns.
-- **borderline**: 1-2 metrics outside range. Note in the summary but do not flag as a structural problem.
+- **below_target**: 1+ metrics outside range. Flag as a structural texture deficit.
 - **below_target**: 3+ metrics outside range. This is a structural problem. The prose is too flat/choppy. Note this prominently in the final verdict — downstream agents (slophunter, style-editor) need to know.
 
 ### Texture flagged passages
@@ -82,13 +82,14 @@ Tool signals are presumed-guilty evidence. They demand gate attention and carry 
 1. **Pattern-to-guide mapping (slop checker):**
    - `filter_words`, `filler_actions` -> recurring-tics guide (pass A)
    - `said_bookisms`, `adverb_on_tag` -> recurring-tics guide (pass A)
-   - `abstract_locomotion`, `inanimate_agency` -> phantom-concreteness guide (pass B)
+  - `abstract_locomotion`, `inanimate_agency` -> intent-smear guide (pass A)
    - `verbose_phrases`, `expression_decomposition` -> narrator-seep guide (pass B)
    - `academic_register`, `dialogue_register` -> narrator-seep guide (pass B)
    - `ai_vocabulary`, `clinical_anatomy` -> gpt-5 prose issues guide (pass B)
    - `negation_addiction` -> negation-addiction guide (pass A)
    - `breath_tells`, `body_cliches` -> recurring-tics guide (pass A)
    - `hedging`, `vague_pointers` -> phantom-concreteness guide (pass B)
+  - `ambient_inversion` -> narrator-seep guide (pass B)
    - `simile_overload` -> recurring-tics guide (pass A)
    - `participial_attachment` -> recurring-tics guide (pass A)
    - `temporal_padding` -> recurring-tics guide (pass A)

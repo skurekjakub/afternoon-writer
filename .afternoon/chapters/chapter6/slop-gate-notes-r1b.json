@@ -1,0 +1,335 @@
+{
+  "chapterId": "chapter6",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 9,
+      "kills": 6,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 1,
+        "severe": 0
+      },
+      "dominantPattern": "F3-filter-hedge-drag",
+      "findings": [
+        {
+          "pattern": "F1-rhythmic-sameness",
+          "severity": "moderate",
+          "line": "It looked alive. That was the first shock. Alive in the ordinary way. Gates open. Traffic in and out.",
+          "issue": "telegram cluster / rhythmic sameness",
+          "examples": [
+            "It looked alive.",
+            "That was the first shock.",
+            "Alive in the ordinary way."
+          ],
+          "analyticCorroboration": {
+            "textureFlag": "telegram_run",
+            "startSentence": 413,
+            "endSentence": 420
+          },
+          "verdict": "KILL",
+          "suggestedFix": "It looked alive: gates open, traffic moving, wagons unloading and leaving empty for more.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3-filter-drag",
+          "severity": "mild",
+          "line": "She watched the road bend through a stand of bare ash.",
+          "word": "watched",
+          "deletionTest": "The road bent through a stand of bare ash.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3-filter-drag",
+          "severity": "mild",
+          "line": "She could already tell the difference between what the ward held out and what it merely thinned.",
+          "word": "could already tell",
+          "deletionTest": "The ward held some of it out and only thinned the rest.",
+          "verdict": "KILL",
+          "suggestedFix": "The ward held some of it out and only thinned the rest.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4-narrative-over-translation",
+          "severity": "mild",
+          "line": "That mattered.",
+          "whatItRestates": "He listened.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4-narrative-over-translation",
+          "severity": "mild",
+          "line": "It was a refusal built on reasons solid enough to stand up under inspection.",
+          "whatItRestates": "\"I have two riders left to spare... I'll see they reach the right hands.\"",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7-closure-addiction",
+          "severity": "mild",
+          "line": "Seeing it corrected the last argument she'd been having with herself.",
+          "location": "paragraph-final setup",
+          "couldEndEarlierAt": "The grain was still moving. The city still breathed.",
+          "verdict": "KILL",
+          "suggestedFix": "She stopped arguing with herself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 3,
+      "keeps": 1,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "mixed-a1-a7-b2",
+      "findings": [
+        {
+          "pattern": "A7-generalizing-construction",
+          "severity": "mild",
+          "line": "Princes buried in visible war did not turn for threats they could not yet strike.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina is thinking about Arthas in this moment, but the sentence zooms out into a category claim about princes in general.",
+          "verdict": "KILL",
+          "confidence": "high",
+          "suggestedFix": "Arthas would not turn for a threat he could not yet strike.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1-verdict-tag-fragment",
+          "severity": "mild",
+          "line": "A real army, rooted in the ground.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The preceding camp details already show permanence; this fragment lands as an authorial caption rather than Jaina's next practical thought.",
+          "verdict": "KILL",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2-conceptual-compression-beyond-register",
+          "severity": "mild",
+          "line": "Jaina could feel the shape of her read waiting there, cold and complete.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can read Sylvanas's conclusion, but 'the shape of her read' compresses that judgment into detached writerly shorthand instead of Jaina's concrete inference.",
+          "verdict": "KILL",
+          "confidence": "moderate",
+          "suggestedFix": "Jaina knew Sylvanas had already judged Arthas's answer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3-placeholder-noun-stand-ins",
+      "findings": [
+        {
+          "pattern": "P3-placeholder-noun-stand-ins",
+          "severity": "mild",
+          "line": "Someone high in the work understood trade as well as necromancy.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The line never cashes out what evidence proves command-level involvement beyond the already concrete depot, watcher, and body-removal details.",
+          "verdict": "KILL",
+          "reason": "P3: 'the work' is a stand-in noun where the sentence needs the concrete planning evidence already on the page.",
+          "suggestedFix": "Whoever planned eleven depots and road watchers knew trade as well as necromancy.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3-placeholder-noun-stand-ins",
+          "severity": "mild",
+          "line": "Jaina could feel the shape of her read waiting there, cold and complete.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "Sylvanas's actual judgment of Arthas's refusal is withheld behind 'the shape of her read.'",
+          "verdict": "KILL",
+          "reason": "P3: the sentence leans on a prestige abstraction instead of naming the judgment Jaina is reading from Sylvanas.",
+          "suggestedFix": "Jaina knew Sylvanas had already judged Arthas's answer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No exchange in this chapter is framed as 'plainly', 'smaller words', 'short version', or another explicit simplification setup; the Arthas briefing and Sylvanas follow-up are explanations, not failed translation passes.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 8,
+    "mildKills": 10,
+    "moderateOrSevereKills": 1,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 11,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: one MODERATE rhythmic-sameness cluster remains, alongside ten additional MILD pass-B kills across GPT-5 prose, narrator seep, and phantom concreteness.",
+    "rhythmMetrics": {
+      "commaPeriodRatio": {
+        "value": 0.366,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": -0.354,
+        "outsideRange": true
+      },
+      "sentenceLengthCv": {
+        "value": 0.803,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.103,
+        "outsideRange": true
+      },
+      "oneSentenceParagraphPct": {
+        "value": 42.5,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 23.5,
+        "outsideRange": true
+      },
+      "concerns": [
+        "structural rhythm concerns: comma_period_ratio below target range",
+        "structural rhythm concerns: sentence_length_cv above target range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above target range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 1.8% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.8% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassages": {
+        "telegramRunCount": 20,
+        "textureDesertCount": 9
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 23,
+        "totalViolations": 1,
+        "overCapCategories": [
+          "narrator_verdict"
+        ],
+        "passBMappedPatterns": [
+          {
+            "category": "narrator_verdict",
+            "patterns": [
+              "verdict_too_x_for"
+            ],
+            "matches": 1,
+            "overCap": true
+          }
+        ]
+      }
+    }
+  }
+}

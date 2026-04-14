@@ -1,0 +1,87 @@
+{
+  "chapterId": "chapter7",
+  "iteration": 3,
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "emotional-life",
+      "severity": "high",
+      "location": "Scene 3 synthesis, lines 333-339",
+      "passage": "\"I found the lot numbers. Fourteen contaminated shipments in the last three months...\" / \"Fourteen. Sylvanas let the number settle into the count she already carried...\" / \"Two halves of a mechanism that neither of them could have seen alone.\"",
+      "problem": "Scene 3 is the chapter's biggest turn, but Sylvanas takes the revelation almost entirely as thought and synthesis. Scene 1 has the stomach-turn at \"Months,\" and Scene 2 has the cold recognition on the roof; Scene 3 never gets an equally involuntary bodily hit when the scale becomes undeniable or when Jaina's half of the work proves indispensable.",
+      "fix": "Add a physical, involuntary beat right after Corin's count or right before Sylvanas folds her findings into Jaina's: breath catching, fingers finding the bowstring, a pulse jump, a jaw-lock she has to master. Make the value shift land in the body before she resumes command."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "medium",
+      "location": "Scene 1 desk briefing, lines 99-105",
+      "passage": "\"The contamination is coming from inside the packaging chain. The new suppliers bring clean grain in. What leaves the granary is not clean. The work happens here, in Andorhal, between intake and dispatch.\" / \"The variance in contamination levels downstream makes sense if the treatment isn't uniform...\" / \"It's inconsistency in the application.\"",
+      "problem": "This stretch drifts into spoken report language. Havel especially starts sounding like a logistics memo instead of a militia captain who knows streets and loading yards, and Jaina/Corin briefly flatten toward the same abstract supply-chain diction.",
+      "fix": "Keep Jaina technically sharp, but break one layer of abstraction into concrete spoken terms. Recast Havel into yard-floor language: what comes in clean, what leaves foul, who is handling the sacks, what he has actually watched men do. The point should sound said, not filed."
+    },
+    {
+      "check": "limited-third",
+      "severity": "medium",
+      "location": "Scene 1 concession beat, line 153",
+      "passage": "\"Tonight,\" he said. It was not agreement. It was concession, and both of them knew it.",
+      "problem": "\"Both of them knew it\" states Havel's interior certainty as fact. Sylvanas can judge the tone, the timing, the hand coming off the truncheon, the shape of the concession; she cannot authoritatively report his internal recognition.",
+      "fix": "Keep the concession, but ground it in what Sylvanas can see or infer: his mouth flattening around the word, the pause before he gives it, the truncheon hand dropping, or a phrasing like \"It sounded like concession\" or \"looked like one.\""
+    },
+    {
+      "check": "rhythm-and-texture",
+      "severity": "low",
+      "location": "Scene 3 raid-order sequence, lines 405-413",
+      "passage": "\"Cyndia. South approach, rooftop position. You saw the loading dock. Nobody leaves through it.\" / \"Lyriel. North lane, ground level. Cover the service door...\" / \"Jaina and I go through the door.\"",
+      "problem": "The chapter now passes texture overall, but the scorer still flags this command block as a telegram run. The prose gets a little schematic here, and the under-target em-dash rate shows up as fewer mid-sentence pivots than the anchor wants.",
+      "fix": "Keep the orders crisp, but give one or two of these paragraphs more connective tissue: a clause that carries the command through Sylvanas's tactical read, a mid-sentence pivot, or a brief interruption beat. The end of the scene should still feel like prose under pressure, not mission notes."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 96.3,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {
+        "actual": 11.1,
+        "target": 12.0,
+        "score": 100.0
+      },
+      "compound": {
+        "actual": 9.6,
+        "target": 10.0,
+        "score": 100.0
+      },
+      "emdash": {
+        "actual": 2.2,
+        "target": 4.0,
+        "score": 85.3
+      },
+      "semicolon": {
+        "actual": 1.5,
+        "target": 1.8,
+        "score": 100.0
+      }
+    },
+    "interpretation": "Texture now passes cleanly. Participials, compounds, and semicolons are on target; the only dimension still pulling down the score is em-dash usage, and the scorer's flagged passages cluster where briefing or order-giving collapses into stacked short declaratives.",
+    "flaggedPassages": [
+      "texture_desert s74-s85: desk exchange beginning \"Worse than any of the villages. Not worse than the last mile of the road.\"",
+      "texture_desert s115-s124: Havel introduction stretch beginning \"She let him look. He would see what she intended him to see...\"",
+      "texture_desert s153-s171: Corin/Havel briefing block beginning \"The third I sent by courier two weeks ago. No answer.\"",
+      "telegram_run s154-s161: briefing exchange beginning \"No answer.\" Havel shifted his weight against the window frame.",
+      "telegram_run s162-s171: worker-pattern exchange beginning \"They work the loading docks, the packaging sheds...\"",
+      "texture_desert s204-s213: pattern-mapping exchange beginning \"I've been trying to map the movement pattern for weeks...\"",
+      "texture_desert s215-s229: Havel-control read beginning \"She heard the pull in his voice...\"",
+      "texture_desert s241-s251: overnight-shift proposal beginning \"I know which workers are on the overnight shift tonight...\"",
+      "texture_desert s269-s279: room exit block beginning \"Sylvanas stood. The chair scraped against the plank floor.\"",
+      "telegram_run s272-s279: transition beginning \"Two hours,\" she said.",
+      "texture_desert s294-s304: district walk beginning \"That was either useful or the problem.\"",
+      "texture_desert s306-s324: granary-district read beginning \"Most were padlocked, heavy iron...\"",
+      "texture_desert s493-s512: mechanism briefing beginning \"This is not crude. This is not hedge-work.\"",
+      "texture_desert s583-s602: pre-raid trust/door timing block beginning \"He did not hesitate. 'Six...'\"",
+      "telegram_run s618-s626: raid-order sequence beginning \"Cyndia. South approach, rooftop position.\"",
+      "texture_desert s618-s634: raid-order sequence beginning \"Cyndia. South approach, rooftop position.\""
+    ]
+  },
+  "summary": "This is a major improvement over the previous pass: texture is back in range at 96.3, the investigation reads clearly, and the chapter's beats are all dramatized on the page. It still fails on craft because Scene 3's biggest revelation lands more intellectually than bodily, one close-third sentence overclaims Havel's interior state, and part of the early briefing still sounds filed rather than spoken."
+}

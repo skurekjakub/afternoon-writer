@@ -1,0 +1,78 @@
+{
+  "chapterId": "chapter7",
+  "iteration": 1,
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "voice-and-register",
+      "severity": "medium",
+      "location": "Scene 1 briefing and Scene 3 map argument",
+      "passage": "It was not stupidity. It was the reflex of a competent man who had been working alone for too long and could not imagine the problem being solved by anyone who did not work the way he did. ... It might be caution. A city man protecting his own from something bigger than his truncheon could handle.",
+      "problem": "These Havel-analysis lines slide out of Sylvanas's clipped field register into essayistic narrator explanation. Instead of feeling like Sylvanas reading a man in real time, they feel like the prose stepping back to diagnose him from above.",
+      "fix": "Keep the pressure in Sylvanas's observable reads: the hand on the map, the repeated lane, the way he keeps pulling the operation back through his ground. Let her draw one sharp inference from those actions, then stop before the prose turns into a full psychological summary."
+    },
+    {
+      "check": "limited-third",
+      "severity": "high",
+      "location": "Scene 1 reactions to Corin and Havel",
+      "passage": "If she was reading him right, that was not hope on his face but the raw look of a man who had finally been heard after weeks of shouting into silence. ... He straightened, and something in his posture unlocked, not warmth but the plain relief of being given a task that used what he had instead of dismissing it.",
+      "problem": "The narration still over-certifies other people's inner states. Sylvanas can read posture, speed, jaw, and silence; she cannot know as fact that Corin feels 'finally heard after weeks of shouting into silence' or that Havel's exact emotion is relief at being used instead of dismissed.",
+      "fix": "Back these down to visible evidence plus Sylvanas's inference. Show the jaw loosening, the shoulders dropping, the quicker movement to the door, then phrase the rest as what it looked like to her rather than objective truth."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "medium",
+      "location": "Scene 3, mechanism reveal",
+      "passage": "\"It is designed,\" Jaina said. ... \"Someone with high-arcanum training built a weapon that uses the grain trade as its delivery system and the human body as its finishing furnace, and they built it well enough to hide it inside a working city's ordinary commerce.\"",
+      "problem": "Jaina's speech is mostly strong here, but 'delivery system' lands with modern institutional diction and makes the climax sound more like a briefing memo than a live spoken warning. The sentence is persuasive on the page, but the spoken register momentarily stops sounding like a person in the room.",
+      "fix": "Keep the conclusion, but swap the modern systems-language for sharper field speech Jaina would say aloud under pressure. She can name the design, the grain trade, and what the body does with it without using phrasing that sounds bureaucratic or twenty-first-century."
+    },
+    {
+      "check": "rhythm-and-texture",
+      "severity": "high",
+      "location": "Across the chapter; especially the street exchange, Corin/Havel briefing, and Scene 3 synthesis",
+      "passage": "\"How bad?\" ... \"Worse than any of the villages. Not worse than the last mile of the road.\" ... \"Can you hold it?\" ... \"I'm holding it.\" / \"Then new suppliers appeared. Not many. Three, maybe four... Their documentation was clean. Too clean.\"",
+      "problem": "Texture score is 82.4, below the 90 pass line. Compound texture is healthy, but participials are far under target (6.0% vs 12.0%, score 55.2) and em-dashes are also under target (1.9% vs 4.0%, score 81.5), so the prose keeps falling into short stacked declaratives without enough connective tissue or pivot rhythm. The scorer flagged repeated telegram runs and texture deserts in exactly the exposition-heavy stretches where the chapter most needs syntactic variety.",
+      "fix": "In the flagged runs, combine some adjacent short sentences with participial linkage, subordinate movement, or occasional mid-sentence pivots so the exposition flows instead of clicking forward one brick at a time. Do not inflate everything; keep the punchy short lines, but earn them by preceding them with longer carrying sentences and a few more well-placed em-dash turns."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 82.4,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {
+        "actual": 6.0,
+        "target": 12.0,
+        "score": 55.2
+      },
+      "compound": {
+        "actual": 11.1,
+        "target": 10.0,
+        "score": 97.6
+      },
+      "emdash": {
+        "actual": 1.9,
+        "target": 4.0,
+        "score": 81.5
+      },
+      "semicolon": {
+        "actual": 0.6,
+        "target": 1.8,
+        "score": 95.4
+      }
+    },
+    "interpretation": "Compound texture is close to target, but the prose is still too light on participial connective tissue and a little too light on em-dash pivots, which produces long deserts of short declaratives in briefing and synthesis passages. Semicolons are under target too, but they are only a minor drag compared with the participial deficit.",
+    "flaggedPassages": [
+      "texture_desert s51-s63: city-entry description around \"A dog trotted across the intersection ahead of them...\" / \"Sylvanas took in the district...\"",
+      "telegram_run s70-s78: \"How bad?\" / \"Worse than any of the villages.\"",
+      "texture_desert s131-s170: Corin and Havel exposition beginning around \"Their documentation was clean. Too clean.\"",
+      "telegram_run s223-s230: \"How long?\" / \"A week. Maybe less if the schedule holds.\"",
+      "telegram_run s453-s460: treatment-site recognition beginning \"Her stomach turned, cold and slow.\"",
+      "telegram_run s499-s506: Scene 3 opening exchange beginning \"The granary district,\" she said. \"Start.\"",
+      "texture_desert s513-s536: Jaina mechanism synthesis and room reaction"
+    ]
+  },
+  "summary": "The chapter's structure is strong: the gate entry, split investigation, dead-drop tail, mechanism reveal, and same-night raid decision are all dramatized on the page and track the plan cleanly. But it still fails on craft because some Havel/Corin reaction reads overstep limited third, Jaina's climax line slips into modern systems-language, and the texture profile remains below target in the exposition-heavy stretches."
+}

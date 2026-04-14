@@ -38,8 +38,9 @@ class RhythmReport:
     emdash_pct: float = 0.0         # % sentences with em-dash
     semicolon_pct: float = 0.0      # % sentences with semicolon
     texture_short_pct: float = 0.0  # % sentences <=8 words (texture threshold)
-    texture_score: float = 0.0      # combined joining-construction %
+    texture_score: float = 0.0      # balanced 0-100 score (100 = all dimensions on target)
     texture_verdict: str = ""       # within_target / borderline / below_target
     texture_verdict_reasons: list[str] = field(default_factory=list)
     texture_flagged: list[dict] = field(default_factory=list)
     texture_baselines: dict = field(default_factory=dict)
+    texture_dimension_scores: dict = field(default_factory=dict)

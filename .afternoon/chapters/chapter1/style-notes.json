@@ -1,185 +1,189 @@
 {
   "chapterId": "chapter1",
-  "loreResearch": {
-    "verified": [
-      "Sylvanas as living Ranger-General is canon-correct for a pre-Scourge setting.",
-      "Lor'themar as Sylvanas's Farstrider second-in-command is canon-correct.",
-      "Jaina as Antonidas's apprentice is canon-correct.",
-      "Eversong / Quel'Thalas southern-border framing with Amani pressure is lore-plausible.",
-      "Horse-based Farstrider patrol travel remains the safest canon-grounded image for this era."
-    ],
-    "sources": [
-      "web_search: Warcraft canon roles query",
-      "web_search: Quel'Thalas border geography query",
-      "stories/the-plague-road/locations/silvermoon-and-quelthalas.md",
-      "stories/the-plague-road/locations/thalassian-horses.md"
-    ]
-  },
+  "researchVerification": [
+    "Confirmed Sylvanas as Ranger-General and Farstrider commander in the pre-Third-War window; the chapter's command posture is canon-aligned.",
+    "Confirmed Jaina as Antonidas's apprentice in the correct young-mage age band; the practical field presentation stays consistent with that profile.",
+    "Confirmed Quel'Thalas/Eversong as warded, season-held territory; the ward-hum, runestones, and border feel are grounded.",
+    "Confirmed Lor'themar as Sylvanas's Farstrider subordinate; the dry shorthand and political handoff fit the lore."
+  ],
   "checks": {
     "voice": {
-      "violations": 4,
-      "fixed": 4,
-      "passagesExamined": [
-        "lines 3-31: opening kill and patrol banter against the prose sample's dry competence tone",
-        "lines 55-69: road-ease paragraphing and Sylvanas interior shorthand",
-        "lines 135-153: southbound ride and register shift into border pressure",
-        "lines 165-195: Cyndia briefing cadence versus Sylvanas's command-minded narration",
-        "lines 241-257: identity reveal and chapter-closing hook"
-      ],
+      "violations": 6,
+      "fixed": 6,
       "examples": [
-        "Line 135: cut the double-negation opening so the Pass arrival lands in a cleaner, harder cadence.",
-        "Line 167: 'Cyndia chose the word carefully and hated it as she said it' -> 'Cyndia gave the word a fraction too much weight' to keep the narration in observable evidence.",
-        "Lines 243-251: replaced the more generic dramatic staircase with Sylvanas's political / threat-assessment register.",
-        "Line 243: 'For a moment...' -> 'For a beat...' to keep the reveal inside Sylvanas's harder timing."
+        "Lines 27-31: folded the patrol cleanup and remount into a single breathing unit so the prose sounds less chopped than the style target allows.",
+        "Line 65: rebuilt the road paragraph so Sylvanas's environmental scan lands as one tactical notice-pattern instead of a pile of detached fragments.",
+        "Line 83: recast the runestone excuse with an em-dash to match the target's pivot rhythm.",
+        "Lines 97-99: merged the runner description into one sentence so the entrance reads as urgent field prose, not note-card listing.",
+        "Lines 367-391: reshaped the holding-room description into denser close-third observation, preserving Sylvanas's clipped mind without breaking the sentence music."
       ],
       "observations": [
-        "The opening already sounded like the target: clipped, dry, and field-first rather than ornamental.",
-        "Lor'themar banter matched the style target's competence-collision humor and needed preservation, not embellishment.",
-        "The Pass transition had one extra layer of negation-softening that blurred the otherwise sharp voice.",
-        "Scene 3 was strongest when Sylvanas judged, interrupted, or reclassified; it weakened when the prose explained for her.",
-        "The identity beat needed harder political language rather than abstract emotional staging; that was the main voice correction."
+        "Opening kill sequence already matched the target's hard, close-third combat pressure; I left the first exchange largely intact.",
+        "Lor'themar/Sylvanas banter carried the expected dry procedural wit and did not need tonal correction.",
+        "The chapter's main drift was paragraph shape: too many isolated fragment paragraphs for a style source that still wants connective tissue.",
+        "Punctuation was mostly consistent with the style target; the main missing tool was the em-dash pivot, not a formatting mismatch.",
+        "Narrative register stayed in Sylvanas's field vocabulary throughout; the fixes were about cadence, not diction replacement."
       ]
     },
     "pointOfView": {
-      "violations": 3,
-      "fixed": 3,
-      "passagesExamined": [
-        "lines 165-171: what Sylvanas can infer from Cyndia's diction",
-        "lines 185-191: what Cyndia can actually know about the ward reaction",
-        "lines 227-237: what Sylvanas can conclude from Jaina's posture and gear",
-        "lines 241-251: identity reveal through Sylvanas-only knowledge",
-        "lines 253-257: closing approach to the interrogation line"
-      ],
-      "examples": [
-        "Line 167: removed the statement of Cyndia's interior dislike and left only what Sylvanas could hear in the weighting of the word.",
-        "Line 235: 'trying to drag them back by looking alone' -> 'her stare fixed on the confiscated notes' to avoid narrating Jaina's private intent as fact.",
-        "Lines 249-251: dropped the emotion-label chain and let tiredness, posture, and political judgment carry the beat."
-      ],
+      "violations": 0,
+      "fixed": 0,
+      "examples": [],
       "observations": [
-        "Most of the chapter was already clean limited third: Sylvanas notices range, footing, rank, and utility before sentiment.",
-        "The small POV leaks lived in highly compressed inferential phrases, not in any broad omniscient intrusion.",
-        "Cyndia's report remained strongest when filtered through Sylvanas's approval or irritation, not through narrator certification.",
-        "Jaina's first look works when Sylvanas reads hands, boots, and posture; it weakens when the prose asserts motives outright.",
-        "The chapter boundary now ends on action and pressure, not on authorial emotion labeling."
+        "Tested the opening hunt paragraphs: all threat reads stay inside Sylvanas's footing/range/tactical filter.",
+        "Checked Lor'themar banter passages for narrator seep; the prose reports only what Sylvanas hears, sees, and infers.",
+        "Checked the runner report and border ride for impossible knowledge; the chapter never claims certainty about the mage before evidence arrives.",
+        "Checked Cyndia's briefing for emotional labeling of others; the narration stays with visible behavior, rank judgment, and Sylvanas's inferences.",
+        "Checked the Jaina reveal carefully: 'braced for disbelief' and 'furious enough to hide it' remain Sylvanas's read of posture and affect, not a head-hop into Jaina."
       ]
     },
     "memory": {
       "violations": 0,
       "fixed": 0,
-      "passagesExamined": [
-        "plan constraints and knowledge ledger in .afternoon/plans/chapter1.json",
-        "requiredMemory field: empty, appropriate for chapter 1 cold start",
-        "lines 81-101: unknown identity preserved before the papers confirm Jaina",
-        "lines 241-257: Jaina named only after Cyndia confirms the papers",
-        "line 257: Jaina still has no on-page speech before the chapter boundary"
-      ],
+      "examples": [],
       "notes": [
-        "Chapter 1 has no prior afternoon memory state, so no callback / evolution enforcement was needed.",
-        "No prior chapter exists, so cross-chapter opening continuity is N/A.",
-        "The chapter still obeys the plan's ban on early trust or partnership framing.",
-        "The chapter still obeys the plan's ban on on-page Jaina dialogue before the boundary line.",
-        "requiredMemory remains correctly empty."
+        "Chapter 1 has no prior-chapter continuity burden and no requiredMemory files; all first-introduction detail is permitted.",
+        "Sylvanas, Lor'themar, Cyndia, and Jaina naming remains consistent with plan and character sheets."
       ],
       "observations": [
-        "The identity reveal stays in beat 8, which matches the verified plan and prevents downstream drift.",
-        "Sylvanas continues to frame Jaina as the prisoner / the mage until the name becomes operationally unavoidable.",
-        "No world detail in the chapter reads like a re-introduction because this is the story's first chapter.",
-        "The outpost facts, border geography, and custody setup remain aligned with the plan's handoff to chapter 2.",
-        "Nothing in the edit pass accidentally softened the 'threat, not partner' baseline."
+        "Verified chapter-start status against the plan: no prior chapter, so no callback obligations or bridge residue required.",
+        "Jaina's first visual read uses plan-approved first-introduction detail rather than accidental reintroduction.",
+        "Lor'themar exits north exactly as the handoff rules require, with the patrol leaving with him.",
+        "Cyndia remains active at the outpost as required for the chapter-2 handoff.",
+        "Border geography, ward behavior, and Thalassian horse handling all remain consistent with the project location notes."
       ]
     },
     "rhythm": {
-      "violations": 2,
-      "fixed": 2,
-      "passagesExamined": [
-        "lines 3-11: opening strike and aftermath fragments",
-        "lines 55-69: longer ride paragraph against surrounding short beats",
-        "lines 135-153: Pass-arrival cadence and ride-thinking fragments",
-        "lines 241-251: identity section's fragment staircase",
-        "lines 253-257: final approach to the closing line"
-      ],
+      "violations": 14,
+      "fixed": 14,
       "examples": [
-        "Line 135: tightened the sentence opening so the cadence stops wobbling before the Pass image lands.",
-        "Lines 243-251: collapsed a stack of short, withholding reveal fragments into firmer tactical beats."
+        "Lines 27-31: removed a fragment pile by joining cleanup, sweep, and remount into one longer cadence.",
+        "Line 65: converted a string of detached sensory fragments into a colon-led tactical list.",
+        "Line 83: fused four short pulses into one sentence with a hinge and em-dash.",
+        "Lines 188-191: merged 'They went hard' into the ride paragraph so movement carries through without a dead stop.",
+        "Lines 391-405: consolidated the holding-room reveal into fewer, more various sentences while keeping Sylvanas's clipped pressure."
       ],
       "observations": [
-        "The chapter's baseline rhythm is healthy: long road-scan sentences punctured by blunt fragments.",
-        "The opening action uses short beats well because each one changes the tactical picture.",
-        "The biggest rhythmic weakness sat in the identity reveal, where too many fragment beats felt arranged rather than earned.",
-        "Scene 3 now breathes better because the reveal paragraph alternates political judgment with visual detail instead of stacking labels.",
-        "I did not flatten the chapter's fragment use elsewhere; Sylvanas earns blunt fragments when she is sorting threat."
-      ]
+        "Before editing, the chapter was heavily telegrammed: short declaratives stacked faster than the style guide's floor allows.",
+        "The biggest deficit was connective tissue, especially participial phrasing and compound movement inside descriptive runs.",
+        "Dialogue scenes still run short by design, but narration now carries more of the clause-linked texture the target expects.",
+        "Em-dash and semicolon usage rose into range; participial density remains the weakest metric and will likely be the next audit target.",
+        "The revised prose sounds less like isolated note beats and more like a sustained reading voice."
+      ],
+      "before": {
+        "comma_period_ratio": 0.296,
+        "sentence_length_mean": 7.2,
+        "short_sentence_pct": 59.2,
+        "long_sentence_pct": 6.0,
+        "texture_score": 6.0,
+        "telegram_runs": 22,
+        "texture_deserts": 12
+      },
+      "after": {
+        "comma_period_ratio": 0.433,
+        "sentence_length_mean": 8.4,
+        "short_sentence_pct": 54.8,
+        "long_sentence_pct": 10.2,
+        "texture_score": 10.2,
+        "telegram_runs": 13,
+        "texture_deserts": 9
+      }
     },
     "continuity": {
       "violations": 1,
       "fixed": 1,
-      "crossChapter": "N/A — chapter 1",
-      "passagesExamined": [
-        "lines 67-83: ease broken by the runner's intrusion",
-        "lines 109-139: Lor'themar north / Sylvanas south split and ride continuation",
-        "lines 165-195: outpost briefing feeding directly into the holding shed",
-        "lines 227-257: prisoner assessment into interrogation hook",
-        "plan transitionIntent chain for beats 3 -> 4, 5 -> 6, 7 -> 8, and 8 -> 9"
-      ],
       "examples": [
-        "Lines 243-257: reworked the identity turn so it escalates operationally into interrogation instead of pausing in generic dramatic suspension."
+        "Lines 233-237: tied 'At the border, she went exact' directly to the human intrusion so the outpost arrival carries the same pressure instead of resetting."
       ],
+      "crossChapter": "N/A — chapter 1",
       "observations": [
-        "The chapter already moved causally rather than temporally; no 'later that evening' scaffolding survived.",
-        "Lor'themar's departure and Sylvanas's southbound ride remain one continuous handoff, not a reset.",
-        "Cyndia's report still sends Sylvanas straight to the holding space, preserving the plan's proximity-pressure intent.",
-        "The revised identity section now serves beat 8 -> 9 cleanly: reveal becomes classification, classification becomes interrogation.",
-        "The closing line remains the correct chapter-boundary hinge into Jaina's POV."
+        "Beat chain from patrol ease to runner interruption already followed the plan's hard-interruption intent cleanly.",
+        "Lor'themar's departure and Sylvanas's southbound isolation remain causally linked on the page.",
+        "The ride to the outpost now carries anger into hard focus without a needless emotional reset.",
+        "Cyndia's report leads straight into the holding room, preserving the containment-pressure the plan asked for.",
+        "Chapter close still lands on Sylvanas's interrogation demand without replaying or softening the hook."
       ]
     },
     "finalPass": {
-      "violations": 3,
-      "fixed": 3,
-      "passagesExamined": [
-        "lines 135-153: negation scaffolding and document-voice residue on the ride south",
-        "lines 165-191: briefing-mode over-explanation in Cyndia's report",
-        "lines 205-225: holding-room setup for leftover explanatory drag",
-        "lines 229-237: Jaina first-look paragraph for descriptor / interpretation balance",
-        "lines 243-251: reveal-block for slophunter leftovers the first pass missed"
-      ],
+      "violations": 1,
+      "fixed": 1,
       "examples": [
-        "Line 135: cut the 'Not winter-cold, not yet' scaffolding and opened directly on the felt change.",
-        "Line 167: removed explanatory mind-reading around Cyndia's word choice.",
-        "Line 235: cut the interpretive tail off Jaina's stare and left the physical evidence in place."
+        "Lines 317-325: tightened the satchel inventory so it reads as live scrutiny instead of a stacked evidence list."
       ],
       "observations": [
-        "Most of slophunter's work held; this was a light-cleanup pass, not a rescue operation.",
-        "The surviving leftovers were mostly interpretive tails and negation scaffolds, not gross document-voice failures.",
-        "I checked the scene openings for cliché and found none that needed surgery; the chapter starts in motion and keeps earning its entries.",
-        "I checked for biography reinsertion around Jaina's reveal and protected the concrete evidence while trimming only the extra interpretation.",
-        "The prose now trusts the reader a little more in the places where the prior draft still leaned on explanatory phrasing."
+        "Re-read scene openings: the chapter already opens in committed action and does not throat-clear with weather or waking.",
+        "Checked attribution over-explanation around Lor'themar and Cyndia; tags stay lean and the dialogue carries its own pressure.",
+        "Checked for biography insertion around Jaina's reveal; the chapter gives only first-sight evidence and one necessary identity anchor.",
+        "Checked repeated structural frames ('No X. No Y. No Z.'); some remain in dialogue where urgency justifies them, but narration was trimmed where the stack weakened flow.",
+        "Meta-audited the runner scene, the satchel inspection, and the holding-room reveal as the chapter's weakest stretches; all three now read cleaner, though texture remains lean."
       ]
     },
     "dialogueRegister": {
       "violations": 0,
       "fixed": 0,
-      "passagesExamined": [
-        "lines 15-25: Lor'themar / Sylvanas patrol banter",
-        "lines 75-121: runner report and command split",
-        "lines 161-195: Cyndia's outpost briefing",
-        "lines 207-217: custody and satchel orders",
-        "line 257: chapter-boundary interrogation opener"
-      ],
-      "notes": [
-        "No spoken line still read like a memo, lab report, or bureaucratic briefing after slophunter's earlier cleanup."
-      ],
+      "examples": [],
       "observations": [
-        "Lor'themar's lines stay dry and court-aware without tipping into report language.",
-        "The runner speaks in field shorthand; the clipped delivery sounds lived, not administrative.",
-        "Cyndia's wording stays plain-command practical even when describing arcane anomalies.",
-        "Sylvanas's speech remains command pressure: short questions, hard directives, no softening.",
-        "The final 'Start talking' lands exactly where it should: spoken threat, not stylized theatre."
+        "Checked every Jaina-adjacent report line for bureaucratic or clinical spill; 'rot,' 'lines,' and 'ward-stones' stay plain enough for speech.",
+        "Lor'themar's political dialogue stays dry and aristocratic without tipping into memo language.",
+        "Cyndia's briefing uses ranger shorthand and concrete observations rather than institutional jargon.",
+        "Sylvanas's questions remain pressure-tests, not exposition devices, which keeps her spoken register true to the voice sheet.",
+        "No spoken line drifted into banned terms like 'vector,' 'actionable,' 'optimal,' or other report-voice contaminants."
       ]
     }
   },
-  "wordCount": {
-    "before": 2629,
-    "after": 2557
+  "rhythmMetrics": {
+    "before": {
+      "comma_period_ratio": 0.296,
+      "sentence_length_mean": 7.2,
+      "sentence_length_cv": 0.877,
+      "short_sentence_pct": 59.2,
+      "long_sentence_pct": 6.0,
+      "opener_entropy": 6.65,
+      "one_sentence_paragraph_pct": 57.8,
+      "mattr": 0.856
+    },
+    "after": {
+      "comma_period_ratio": 0.433,
+      "sentence_length_mean": 8.4,
+      "sentence_length_cv": 0.955,
+      "short_sentence_pct": 54.8,
+      "long_sentence_pct": 10.2,
+      "opener_entropy": 6.44,
+      "one_sentence_paragraph_pct": 59.8,
+      "mattr": 0.855
+    }
   },
-  "observationCount": 35
+  "textureMetrics": {
+    "before": {
+      "participial_pct": 1.2,
+      "compound_pct": 3.8,
+      "emdash_pct": 0.5,
+      "semicolon_pct": 0.5,
+      "short_pct": 69.5,
+      "texture_score": 6.0,
+      "verdict": "below_target"
+    },
+    "after": {
+      "participial_pct": 1.1,
+      "compound_pct": 6.6,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 1.4,
+      "short_pct": 65.4,
+      "texture_score": 10.2,
+      "verdict": "borderline"
+    },
+    "note": "Structural texture improved materially, but participial density remains below the style-guide floor and short-sentence density remains high enough that a texture revision loop would be justified if the style-auditor demands it."
+  },
+  "metaAudit": {
+    "recheckedSections": [
+      "Runner arrival and report",
+      "Satchel inspection at the ward-stone",
+      "Holding-room reveal and chapter hook"
+    ],
+    "conclusion": "Chapter is now cleaner and more continuous in the mouth. The remaining weakness is texture, not voice or continuity."
+  },
+  "wordCount": {
+    "before": 3008,
+    "after": 3033
+  }
 }

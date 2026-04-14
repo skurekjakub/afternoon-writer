@@ -1,0 +1,167 @@
+{
+  "chapterId": "chapter5",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 1
+      },
+      "dominantPattern": "F1",
+      "findings": [
+        {
+          "pattern": "F1",
+          "severity": "severe",
+          "text": "Most of it was nothing—wagon loads, dates, shorthand. Near the bottom three entries crowded together in a different hand. Smaller script. Cramped. And beside them the mark she had been chasing since the first depot. Wheel inside wheel. Beside it sat a name. A property. Two words.",
+          "issue": "Sustained fragment stack inside a texture-desert zone turns Sylvanas's scan into telegram prose rather than sharp tactical compression.",
+          "textureFlaggedZone": [
+            "telegram_run",
+            "texture_desert"
+          ],
+          "suggestedFix": "Most of it was nothing—wagon loads, dates, shorthand—but near the bottom three entries crowded together in a different hand, smaller and cramped, beside the mark she had been chasing since the first depot: wheel inside wheel. Under it sat a property name, two words.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "text": "Outside, in the dark beyond the waystation wall, only the south road remained.",
+          "location": "scene-final paragraph",
+          "couldEndEarlierAt": "\"I had no intention of stopping,\" Jaina said, dry as old paper.",
+          "issue": "The line converts a concrete night image into thematic closure about the chosen route.",
+          "suggestedFix": "Outside the waystation wall, the south road faded into the dark.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Checked likely seep candidates ('Worse.', 'Interrupted.', 'Barov.', and the depot/road tactical fragments) against Sylvanas's clipped field register. They read as in-body assessments or note-taking rather than narrator commentary. The one sentence that drifted into thematic closure was already captured under GPT-5 F7 and not re-killed here."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Audited the chapter's higher-level tactical shorthand ('This was arranged,' 'We're reading a road after the wagons passed,' 'Origin,' 'It's a road to follow.'). Each one cashes out from local evidence already on the page, so the chapter's compression is mostly anchored rather than fake-specific."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in this chapter sets up a plain-speech translation request ('plainly', 'smaller words', 'short version', street-level recast), so this pass surfaced no fake-simplification candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 8,
+    "mildKills": 1,
+    "moderateOrSevereKills": 1,
+    "guidesRun": 4,
+    "guidesWithKills": 1,
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail on one SEVERE GPT-5 rhythmic-sameness hit in a texture-desert cluster, plus one additional mild scene-closing closure line. Texture metrics also show a structural texture deficit across the chapter.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.396,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "deltaFromTarget": -0.324,
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.781,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "deltaFromTarget": 0.081,
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 47.4,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "deltaFromTarget": 28.4,
+        "outsideRange": true
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.2% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.8% below floor 4.0% (human: 8.5%)",
+        "texture_score 9.5% below floor 10.0% (human: 24.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.2% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 3.8% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining.",
+      "flaggedPassageCounts": {
+        "telegram_run": 16,
+        "texture_desert": 5
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 12,
+        "total_violations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "chapterId": "chapter4",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 2,
+      "kills": 1,
+      "keeps": 1,
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "findings": [
+        {
+          "text": "Not a cure. A pause.",
+          "pattern": "pattern-2-fragment-pivot",
+          "deletionTest": "A pause.",
+          "severity": "mild",
+          "reason": "The positive half carries the meaning cleanly once the preceding sentence has already established slowing wards; the negated setup is removable scaffolding.",
+          "suggestedFix": "A pause.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "metonymic-collective-physical-behavior",
+      "findings": [
+        {
+          "text": "Outside, the village kept coughing in the cold morning while bread smoke rose over the roofs unchanged.",
+          "pattern": "metonymic-collective-physical-behavior",
+          "subject": "the village",
+          "verb": "kept coughing",
+          "realAgent": "the sick villagers inside the houses",
+          "severity": "mild",
+          "reason": "The place is carrying the villagers' physical behavior instead of naming the people producing the sound.",
+          "suggestedFix": "Outside, villagers kept coughing in the cold morning while bread smoke rose over the roofs unchanged.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 10,
+      "kills": 1,
+      "keeps": 9,
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "paragraph-structure-opener-repeat",
+      "findings": [
+        {
+          "text": "The bakery was just visible through the corner of the window.",
+          "pattern": "paragraph-structure-opener-repeat",
+          "tic": "paragraph_structure",
+          "toolSignal": "opener_consecutive_repeat",
+          "hardCap": 0,
+          "severity": "mild",
+          "reason": "This is the weakest sentence inside a three-paragraph narration run starting with \"The,\" and it lands inside a texture-desert zone the rhythm scorer also flagged.",
+          "suggestedFix": "Through the corner of the window, the bakery was just visible.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 12,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A clears with warnings: 3 mild kills only (one negation pivot, one metonymic agency smear, one opener-repeat tic). Structural rhythm concerns remain, and the chapter still shows a structural texture deficit.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.384,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": -0.336,
+        "withinRange": false
+      },
+      "sentence_length_cv": {
+        "value": 0.778,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.078,
+        "withinRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 46.3,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 27.3,
+        "withinRange": false
+      },
+      "structuralConcerns": [
+        "comma_period_ratio outside range",
+        "one_sentence_paragraph_pct outside range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.5% below floor 5.0% (human: 11.0%)",
+        "compound_pct 2.2% below floor 4.0% (human: 8.5%)",
+        "texture_score 6.7% below floor 10.0% (human: 24.4%)",
+        "short_pct 70.2% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.5% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 2.2% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 70.2% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassages": {
+        "telegram_run": 17,
+        "texture_desert": 9
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 14,
+        "total_violations": 1,
+        "overCapCategories": [
+          "paragraph_structure"
+        ],
+        "overCapPatterns": [
+          {
+            "category": "paragraph_structure",
+            "name": "opener_consecutive_repeat",
+            "count": 2,
+            "cap": 0
+          }
+        ]
+      }
+    }
+  }
+}

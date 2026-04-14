@@ -1,9 +1,7 @@
 # Andorhal
 
-## Core read
+Chapter 7 turns Andorhal from distant objective into lived machine. The city is not ruined. It is processing. Guards check seals, clerks stamp manifests, bakers argue over weight, and wagon lines keep rolling while the plague rides the same channels as flour and bread.
 
-Chapter 9 does not stage its main action inside Andorhal, but it changes what the city means. Andorhal is now the breach behind the hunt — the place whose exposed logic has widened into weeks of Eastweald sweeps, mapping work, and cult-site pursuit.
+That normalcy is still the defining fact, but now it has layers. There is an inspection bureaucracy that has ignored warning after warning. There is a granary district where contamination is laid on during packaging. There are local allies inside the city who have been seeing pieces of the truth separately and failing to move it upward.
 
-## Carry-forward use
-
-Writers should now remember Andorhal less as a destination and more as a rear staging wound. The sites north of it repeat the same family of work, which means the city was a throat opening into a larger landscape, not the edge of the problem.
+Write Andorhal as a functioning system first. The dread comes from competence, routine, and hidden corruption occupying the same civic space.

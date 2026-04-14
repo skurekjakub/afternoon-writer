@@ -1,0 +1,119 @@
+{
+  "chapterId": "chapter3",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "dominantPattern": "procedural-negation / binary-diagnostic keeps",
+      "cleanReason": "Audited the true negation-pivot candidates. All surviving hits were either direct instructions/prohibitions or concrete binary diagnostics with operational stakes."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 11,
+      "kills": 4,
+      "keeps": 7,
+      "dominantPattern": "abstraction/body-part agency laundering",
+      "findings": [
+        {
+          "line": "Lyriel had slung her bow to report, which she only did when the threat had stepped back.",
+          "pattern": "abstract-threat-motion",
+          "subject": "the threat",
+          "verb": "had stepped back",
+          "realAgent": "the immediate danger level in the houses had dropped enough for Lyriel to risk slinging her bow",
+          "severity": "moderate",
+          "suggestedFix": "Lyriel had slung her bow to report, a thing she saved for moments when the houses stayed quiet long enough to risk it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Lyriel found it on the second pass through the houses, after the ground search had given them all it was going to give and the work had shifted from spoor to living bodies.",
+          "pattern": "search-gives-decides",
+          "subject": "the ground search",
+          "verb": "had given / was going to give",
+          "realAgent": "the party had taken all the useful spoor they could from the ground and moved on to searching for survivors",
+          "severity": "moderate",
+          "suggestedFix": "Lyriel found it on the second pass through the houses, after they had taken all they could from the ground search and the work had shifted from spoor to living bodies.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "Her stare went north, to the dark gap between the garden walls.",
+          "pattern": "P8 body-part agency",
+          "subject": "Her stare",
+          "verb": "went",
+          "realAgent": "Miri looked north toward the gap between the walls",
+          "severity": "moderate",
+          "suggestedFix": "She stared north, at the dark gap between the garden walls.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": "The flat oval of a field mark was enough to tell the next post this had come off the road instead of out of an office.",
+          "pattern": "sign-tells",
+          "subject": "The flat oval of a field mark",
+          "verb": "tell",
+          "realAgent": "the ranger at the next post would read the field mark and infer the dispatch was written on the road",
+          "severity": "moderate",
+          "suggestedFix": "The next post would read the flat oval field mark and know this had come off the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 9,
+      "kills": 1,
+      "keeps": 8,
+      "dominantPattern": "punct_colon_narration",
+      "findings": [
+        {
+          "line": "Sylvanas knew that from the same place she knew kill ranges and approach lines: long practice at reading what made living things hold still and what made them bolt.",
+          "pattern": "punct_colon_narration",
+          "severity": "mild",
+          "suggestedFix": "Sylvanas knew that from long practice at reading what made living things hold still and what made them bolt.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 19,
+    "mildKills": 1,
+    "moderateOrSevereKills": 4,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A fails on 4 moderate intent-smear/agency-laundering kills, plus 1 mild recurring punctuation-tic kill. Negation sweep was clean."
+  }
+}

@@ -110,7 +110,7 @@ Each category has a lightweight index for discovery. The index contains enough m
 }
 ```
 
-Consumers (plan-verifier, writer, style-editor) read the index to find what exists, then load individual profiles by slug.
+Consumers (plan-verifier, writer, craft-auditor, craft-reviser) read the index to find what exists, then load individual profiles by slug.
 
 ## Pass 1: Characters
 

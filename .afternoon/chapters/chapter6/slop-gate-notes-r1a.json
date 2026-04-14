@@ -1,0 +1,337 @@
+{
+  "chapterId": "chapter6",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 10,
+      "kills": 3,
+      "keeps": 7,
+      "dominantPattern": "fragment-pivot",
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "P4-minimizer-pivot",
+          "line": 67,
+          "text": "She had spent two years near that court, near Arthas, near rooms where people yielded before he entered. Near, not within.",
+          "deletionTest": "She had spent two years near that court, near Arthas, near rooms where people yielded before he entered.",
+          "reason": "Pattern 4/2 hybrid; the second sentence adds contrastive scaffolding rather than a new concrete fact.",
+          "suggestedFix": "She had spent two years near that court, near Arthas, near rooms where people yielded before he entered, always close to the edge of them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P2-fragment-pivot",
+          "line": 93,
+          "text": "Jaina felt the argument she had built for Arthas change weight as she crossed the camp. Not weaker. Harder to place in a hand already holding all this.",
+          "deletionTest": "Jaina felt the argument she had built for Arthas change weight as she crossed the camp. Harder to place in a hand already holding all this.",
+          "reason": "Pattern 2 fragment pivot; the negated middle beat can be cut without losing the meaning.",
+          "textureFlaggedZones": [
+            "texture_desert"
+          ],
+          "suggestedFix": "Jaina felt the argument she had built for Arthas change weight as she crossed the camp, harder to place in a hand already holding all this.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "pattern": "P2-fragment-pivot",
+          "line": 247,
+          "text": "Not alarm. Not immediate danger. Recognition waiting for a second look.",
+          "deletionTest": "Recognition waiting for a second look.",
+          "reason": "Pattern 2 fragment pivot; both negated setup beats are dispensable and the surviving clause also drifts into abstraction.",
+          "textureFlaggedZones": [
+            "telegram_run",
+            "texture_desert"
+          ],
+          "suggestedFix": "Sylvanas recognized the phrase a beat late.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 12,
+      "kills": 9,
+      "keeps": 3,
+      "dominantPattern": "infrastructure-and-abstraction-agency",
+      "findings": [
+        {
+          "severity": "moderate",
+          "pattern": "P5-object-agency",
+          "line": 85,
+          "text": "Jaina sat straighter and let the blue of her coat speak first.",
+          "subject": "the blue of her coat",
+          "verb": "speak",
+          "realAgent": "Jaina's visible Dalaran colors signaling rank and affiliation to the scouts",
+          "reason": "Pattern 5; the sentence launders social signaling onto the coat instead of the people reading it.",
+          "suggestedFix": "Jaina sat straighter so the blue of her coat was the first thing they saw.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "pattern": "P1-infrastructure-motion-as-agency",
+          "line": 105,
+          "text": "\"The road kept going.\"",
+          "subject": "the road",
+          "verb": "kept going",
+          "realAgent": "their continued southbound ride and the route extending beyond what Arthas expected",
+          "reason": "Pass-A extra sweep catch; geography is carrying the beat instead of the riders and distance doing it.",
+          "suggestedFix": "\"We kept riding south longer than I expected.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "pattern": "P5-object-agency",
+          "line": 211,
+          "text": "They rode out before the camp could swallow them into one more conversation that would do no good.",
+          "subject": "the camp",
+          "verb": "swallow",
+          "realAgent": "the soldiers, clerks, and officers who might have stopped them to keep talking",
+          "reason": "Pattern 5; the people in the camp are the real source of the delay, not the camp itself.",
+          "suggestedFix": "They rode out before anyone in the camp pulled them into one more conversation that would do no good.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "pattern": "P9-nominalized-agency",
+          "line": 247,
+          "text": "Recognition waiting for a second look.",
+          "subject": "Recognition",
+          "verb": "waiting",
+          "realAgent": "Sylvanas taking a second mental pass over the repeated farewell",
+          "reason": "Pattern 9; the mental act is packaged as an external agent instead of belonging to Sylvanas.",
+          "textureFlaggedZones": [
+            "telegram_run",
+            "texture_desert"
+          ],
+          "suggestedFix": "Sylvanas recognized the phrase a beat late.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "pattern": "P9-nominalized-agency",
+          "line": 281,
+          "text": "That thread of unease that did not belong to one sudden fright but to a long decision gathering in the body.",
+          "subject": "a long decision",
+          "verb": "gathering",
+          "realAgent": "the horses' accumulating physical resistance as the contamination pressure builds",
+          "reason": "Pattern 9; an abstract decision is made to gather in place of concrete bodily accumulation.",
+          "suggestedFix": "That thread of unease came from slow strain building through the body.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "pattern": "P6-scenery-confession",
+          "line": 313,
+          "text": "Nothing in the skyline confessed what it was carrying.",
+          "subject": "the skyline",
+          "verb": "confessed",
+          "realAgent": "the absence of visible alarms, smoke, bells, or panicked crowds",
+          "reason": "Pattern 6; scenery is made to confess instead of the sentence naming the observable signs that stay absent.",
+          "textureFlaggedZones": [
+            "telegram_run",
+            "texture_desert"
+          ],
+          "suggestedFix": "From here, the skyline looked ordinary.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "pattern": "P2-infrastructure-answering",
+          "line": 319,
+          "text": "The worst part was how cleanly the road and the city answered each other.",
+          "subject": "the road and the city",
+          "verb": "answered",
+          "realAgent": "the traced route evidence and the visible logistics of Andorhal fitting together",
+          "reason": "Pattern 2; the prose hides the evidence match inside an exchange between two inanimate nouns.",
+          "suggestedFix": "The worst part was how cleanly road and city matched.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "pattern": "P2-evidence-leading",
+          "line": 327,
+          "text": "The evidence she'd gathered all day had led here.",
+          "subject": "the evidence",
+          "verb": "had led",
+          "realAgent": "Jaina following the route proof and city signs to Andorhal",
+          "reason": "Pattern 2; repeated clues are treated as the walker instead of Jaina doing the following.",
+          "suggestedFix": "She had followed the evidence here all day.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "pattern": "P5-city-breathing",
+          "line": 327,
+          "text": "The city still breathed.",
+          "subject": "The city",
+          "verb": "breathed",
+          "realAgent": "the workers, wagons, smoke, and open traffic keeping Andorhal operational",
+          "reason": "Pattern 5; the sentence gives bodily action to the city instead of naming the ordinary labor that makes it seem alive.",
+          "suggestedFix": "The city was still working.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 9,
+      "kills": 1,
+      "keeps": 8,
+      "dominantPattern": "overloaded-marked",
+      "findings": [
+        {
+          "severity": "mild",
+          "pattern": "tic-2-overloaded-marked",
+          "line": 125,
+          "text": "Then he picked up the page on the marked depots and read each place name instead of skimming for the total.",
+          "reason": "Third 'marked' instance in the chapter; this is the weakest mental-reference use after two stronger literal uses.",
+          "occurrenceCount": 3,
+          "cap": 2,
+          "suggestedFix": "Then he picked up the page on the depots and read each place name instead of skimming for the total.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 13,
+    "totalKeeps": 18,
+    "mildKills": 4,
+    "moderateOrSevereKills": 9,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 13,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: the pass contains nine MODERATE intent-smear kills across the Strahnbrad and Andorhal stretches, plus four additional mild kills from negation scaffolding and one recurring-tic excess.",
+    "rhythmMetrics": {
+      "commaPeriodRatio": {
+        "value": 0.366,
+        "target": 0.72,
+        "delta": -0.354,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentenceLengthCv": {
+        "value": 0.803,
+        "target": 0.7,
+        "delta": 0.103,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": true
+      },
+      "oneSentenceParagraphPct": {
+        "value": 42.5,
+        "target": 19.0,
+        "delta": 23.5,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "notes": [
+        "structural rhythm concerns: comma-period ratio is far below target",
+        "structural rhythm concerns: sentence-length variance is slightly above the calibrated ceiling",
+        "structural rhythm concerns: one-sentence paragraphs are far above target"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 1.8% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.8% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassageCounts": {
+        "telegramRun": 19,
+        "textureDesert": 9
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalViolations": 1,
+        "overCapCategories": [
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_too_x_for",
+            "line": 293
+          }
+        ]
+      }
+    }
+  }
+}

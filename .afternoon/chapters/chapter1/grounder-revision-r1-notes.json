@@ -1,0 +1,75 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 1,
+  "feedbackPath": ".afternoon/chapters/chapter1/grounding-gate-notes.json",
+  "targetFile": "v2g.md",
+  "touchedScenes": [
+    "Scene 3 - The Prisoner"
+  ],
+  "globalRisks": [
+    "source-fidelity",
+    "dialogue-heavy",
+    "tail-risk"
+  ],
+  "sceneAudits": [
+    {
+      "scene": "Scene 3 - The Prisoner",
+      "biggestGap": "Unsourced proper nouns inside Cyndia's debrief created unnecessary continuity surface in an otherwise well-grounded border-post scene.",
+      "anchorsAdded": {
+        "place": [
+          "stone outpost",
+          "ward-stone",
+          "Farstrider holding room"
+        ],
+        "material": [
+          "chalk",
+          "frost glaze",
+          "focus crystals",
+          "weathered satchel",
+          "iron-bound door"
+        ],
+        "dialogue": [
+          "Cyndia debrief tied to the marked ground",
+          "staff-out-of-reach beat",
+          "door-guard containment beat"
+        ],
+        "exit": [
+          "ward-light at the threshold",
+          "confiscated staff outside the cell",
+          "Jaina's split knuckles under the ward glow"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true,
+      "revisionFixesApplied": [
+        "Replaced unsourced ranger names with sourced generic references.",
+        "Removed unsupported 'Kul Tiras blood' specificity from Sylvanas's recognition beat.",
+        "Cleaned adjacent debrief lines so the touched passage no longer depends on unsupported named extras."
+      ]
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": [
+      "source-fidelity drift inside the outpost debrief"
+    ],
+    "fixesApplied": [
+      "Kept the final third grounded in confiscated gear, ward-light, and holding-room thresholds while stripping unsupported proper nouns.",
+      "Rechecked the closing interrogation hook to ensure it still lands in a physical Farstrider space rather than abstract appraisal."
+    ],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [],
+    "materials": [
+      "stories/the-plague-road/plans/story-arc.md",
+      "stories/the-plague-road/locations/silvermoon-and-quelthalas.md",
+      "stories/the-plague-road/locations/thalassian-horses.md",
+      "stories/the-plague-road/characters/jaina.md",
+      "stories/the-plague-road/characters/cyndia.md",
+      "stories/the-plague-road/characters/lorthemar.md",
+      "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/jaina-voice.md"
+    ],
+    "unsourcedAdditions": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "chapterId": "chapter7",
+  "iteration": 2,
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "limited-third",
+      "severity": "high",
+      "location": "Scene 1 gate approach and Scene 1/3 reaction reads",
+      "passage": "“Her shoulders had changed since the last mile of the ride, drawn tighter, jaw set harder — and Sylvanas could see the effort she was spending to hold whatever she held against the city's pressure.” ... “He straightened, something in his posture unlocking — not warmth, but the loosening of a man who had expected to be dismissed and had not been.” ... “his face carrying the look of a man who had just been handed confirmation of something he had suspected for months and wished he'd been wrong about.”",
+      "problem": "The narration still states other characters' inner states with too much certainty. Sylvanas can read shortened stride, a jaw set hard, a faster move to the door, a man staring at proof he hates, but she cannot know as fact what Jaina is 'holding,' that Havel specifically expected dismissal, or that Corin actively wished to be wrong.",
+      "fix": "Keep the reads on the body and the behavior, then let Sylvanas infer more lightly. Show the tightened stride, the posture shift, the fixed stare at the papers, and phrase the rest as what it looks like to her rather than objective truth."
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "medium",
+      "location": "Scene 2 treatment-site surveillance and Scene 3 synthesis",
+      "passage": "“They handled the sacks the way surgeons handled the sick...” / “Jaina did not look at her notes. She had already built the picture and was delivering it fast and exact, the courtesy stripped to its studs.”",
+      "problem": "These lines drift out of Sylvanas's field register into a more external, writerly diction. 'Surgeons' and especially 'stripped to its studs' do not feel like the way this POV naturally analogizes pressure; they read more like an observing narrator than Sylvanas's own mental language.",
+      "fix": "Swap the comparisons for imagery grounded in Sylvanas's domain: rangecraft, military handling, pursuit, or practical fieldwork. The point is strong already; it just needs to arrive in vocabulary this POV would actually think in."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "medium",
+      "location": "Scene 3 map argument",
+      "passage": "“Captain. I am not accusing you of anything. But I am not running this operation through your geometry.”",
+      "problem": "The line's force is good, but 'through your geometry' sounds abstract and modern, more like a briefing memo than speech Sylvanas would use aloud. Her dialogue elsewhere works because it stays on ground, routes, doors, and control; this phrasing briefly leaves that lane.",
+      "fix": "Keep the refusal, but recast it in Sylvanas's physical tactical vocabulary. She should reject his routes, lanes, doors, or ground, not his 'geometry.'"
+    },
+    {
+      "check": "rhythm-and-texture",
+      "severity": "high",
+      "location": "Across the chapter; especially the granary-yard read, the Scene 3 opening exchange, and the final raid-order sequence",
+      "passage": "“One man standing at the passage mouth with his arms folded... He was not watching the yard. He was watching the lane behind her, the approach, not the work. A sentry watched approaches. A labourer watched his hands.” / “The granary district,” she said. “Start.” Jaina did not look at her notes.",
+      "problem": "Texture score is 78.5, well below the 90 pass line. Participials are under target (9.1% vs 12.0%, score 73.4) and compound sentences are under target (7.5% vs 10.0%, score 77.1), while em-dashes overshoot badly (7.9% vs 4.0%, score 66.0). The result is a chapter that still drops into stacked declaratives and then leans on em-dashes to create pressure instead of letting sentence structure carry it.",
+      "fix": "Revise the flagged runs by joining adjacent tactical beats with more participial and compound movement, especially in briefing and synthesis passages. At the same time, cut back a noticeable share of the em-dashes in Scene 3 and let commas, full stops, and clause variation do more of the rhythm work."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 78.5,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {
+        "actual": 9.1,
+        "target": 12.0,
+        "score": 73.4
+      },
+      "compound": {
+        "actual": 7.5,
+        "target": 10.0,
+        "score": 77.1
+      },
+      "emdash": {
+        "actual": 7.9,
+        "target": 4.0,
+        "score": 66.0
+      },
+      "semicolon": {
+        "actual": 0.7,
+        "target": 1.8,
+        "score": 97.6
+      }
+    },
+    "interpretation": "Participials and compounds are both under target, so exposition-heavy stretches still flatten into stacked declaratives, while em-dashes are now doing too much of the pacing work. Semicolons are a minor drag, but the real problem is the mix of under-connected sentence flow and overused dash pivots.",
+    "flaggedPassages": [
+      "texture_desert s55-s64: market-entry description beginning “The main street ran straight from the gate...”",
+      "texture_desert s103-s112: Havel/Corin introduction beginning “Captain Havel. She had the name...”",
+      "telegram_run s132-s140: briefing exchange beginning “Their documentation was clean. Too clean.”",
+      "telegram_run s329-s336: granary-yard read beginning “One man standing at the passage mouth...”",
+      "telegram_run s486-s493: Scene 3 opening exchange beginning “The granary district,” she said. “Start.”",
+      "texture_desert s500-s522: Jaina mechanism synthesis beginning “The poison is layered...”",
+      "telegram_run s626-s638: raid-order sequence beginning “Cyndia. South approach...”"
+    ]
+  },
+  "summary": "Structurally, the chapter works: the split investigation, treatment-site discovery, mechanism synthesis, and same-night decision are all dramatized on the page, and the cast voices remain distinct. It still fails on craft because several reaction reads over-certify other people's inner states, a few lines slip into modern or external diction, and the rhythm scorer remains well below target at 78.5."
+}

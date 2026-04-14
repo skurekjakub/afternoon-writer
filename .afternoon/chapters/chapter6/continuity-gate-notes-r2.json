@@ -1,0 +1,34 @@
+{
+  "chapterId": "chapter6",
+  "iteration": 2,
+  "targetFile": "v5-cr2.md",
+  "verdict": "PASS",
+  "severityBreakdown": {
+    "hard": 0,
+    "soft": 0
+  },
+  "previousViolations": [
+    {
+      "violationId": "V1",
+      "status": "resolved",
+      "evidence": "The repeated farewell remains exact: \"Safe roads. What's left of them.\" appears in chapter6/v5-cr2.md:237-255, matching chapter3/final.md:243-247."
+    },
+    {
+      "violationId": "V2",
+      "status": "resolved",
+      "evidence": "Jaina's mount remains a mare in chapter6/v5-cr2.md:45, 165, 191, 205, consistent with chapter2/final.md:133."
+    },
+    {
+      "violationId": "V3",
+      "status": "resolved",
+      "evidence": "The Arthas read remains predictive rather than certain: Sylvanas thinks Arthas would not turn for a threat he cannot yet strike at chapter6/v5-cr2.md:53."
+    },
+    {
+      "violationId": "V4",
+      "status": "resolved",
+      "evidence": "The revised opening no longer makes Jaina the driver of the Arthas stop. Sylvanas now says, \"We need someone above the road captains before Andorhal\" at chapter6/v5-cr2.md:47, and Jaina's concession is explicitly road-forced: \"the road had simply left them one man with rank enough to move riders and freeze ledgers\" at chapter6/v5-cr2.md:53. That now reads consistently with chapter5/final.md:311-313: \"If Arthas is there, we do not stop.\" / \"I had no intention of stopping.\""
+    }
+  ],
+  "newFindings": [],
+  "summary": "Reaudit passes. The V4 cross-chapter break is fixed by shifting the command-escalation push to Sylvanas and reframing Jaina's acceptance as a road-forced concession instead of a pre-existing reversal of her chapter5 decision. Fresh audit found no new knowledge, beat-sequence, cast, arc, physical, or cross-chapter continuity violations in v5-cr2.md."
+}

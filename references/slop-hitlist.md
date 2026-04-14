@@ -204,6 +204,30 @@ AI avoids repeating a character's name by cycling through synonyms: "the woman,"
 
 **Fix:** Anchor atmosphere in what the POV character's body does in that space. "She couldn't hear anything but her own pulse" instead of "The silence pressed." "The dark was thick enough to feel on her skin" instead of "The darkness breathed."
 
+## Actor Demotion / Receiver-As-Actor (zero uses)
+
+"The plan sharpened under the quill with every line." "The answer came cleaner on the page." "Her eyes found the door." "His hands knew the way." AI gives the verb to the nearest noun that can carry it, even when a person is doing the work. The sentence sounds active while hiding the real actor.
+
+**The test:** If you can restore a person, animal, vehicle, or deliberate force to the subject position without changing meaning, the original sentence was wrong. The plan did not sharpen. Jaina sharpened it. The eyes did not find the door. She did.
+
+**Fix:** Put the actor back in the subject slot. Treat body-part subjects the same way unless involuntary reflex is the point.
+
+## Ambient Inversion / Staged Atmosphere (0 per chapter)
+
+"From deeper in the district came the bark of a dog." "Across the yard rolled oven heat." "Over the roofs drifted the smell of yeast." This is not passive voice, but AI uses it like stage fog: the sentence arranges ambience instead of naming the thing making it. Human prose can use inversion sparingly. AI defaults to it as a fake-literary camera move.
+
+**Fix:** Name the source directly unless the POV genuinely perceives the sound, smell, or light before she can identify where it comes from. "A dog barked deeper in the district. A late cart knocked into a rut." Most of the time the actor is available. Use it.
+
+## Planner Shorthand / Outline Residue (zero uses)
+
+"She had the street shape." "Jaina still needed the mage side." "Enough to work with." AI leaks planning-note prose into narration: split-task summaries, tactical placeholders, and beat-card compression that sound useful on an outline and dead on the page.
+
+These lines pretend to be sharp because they compress a whole situation into a tiny status note. But they dodge the only thing that matters: what specific street, door, watch gap, proof problem, route, or unresolved task the POV is actually holding.
+
+**The test:** Could this line sit unchanged in a beat plan, margin note, ops board, or after-action summary? If yes, it is not prose yet.
+
+**Fix:** Cash it out into the concrete payload already present in the scene. Name the covered passage, the rear lane, the off-ledger door, the thing the mage still has to prove. If the sentence will not cash out into visible or knowable specifics, cut it.
+
 ## Uniform Paragraph Cadence
 
 Every paragraph clusters at 3–5 sentences, producing identical visual bricks on the page. No one-sentence paragraphs for impact. No nine-sentence immersive passages. AI's statistical averaging produces metronomic paragraph lengths that kill the pacing variation prose needs. Human writers vary paragraph length the way musicians vary dynamics — a one-line paragraph after a dense block hits harder than any word in it.

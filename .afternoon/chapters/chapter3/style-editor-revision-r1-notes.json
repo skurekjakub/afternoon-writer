@@ -1,0 +1,93 @@
+{
+  "chapterId": "chapter3",
+  "mode": "revision",
+  "iteration": 1,
+  "feedbackPath": ".afternoon/chapters/chapter3/style-auditor-notes.json",
+  "inputFile": ".afternoon/chapters/chapter3/v4.md",
+  "outputFile": ".afternoon/chapters/chapter3/v4-r1.md",
+  "zonesProcessed": 9,
+  "priorityInstruction": "Participial density is 5.5% against a 12.0% target and the texture score is 17.2 against a 27.0 target — add ', Ving' connective tissue in the flagged cellar and trader zones before worrying about any other metric.",
+  "metricsBefore": {
+    "participial_pct": 5.5,
+    "compound_pct": 8.0,
+    "emdash_pct": 3.2,
+    "semicolon_pct": 0.5,
+    "texture_score": 17.2
+  },
+  "metricsAfter": {
+    "participial_pct": 6.8,
+    "compound_pct": 9.4,
+    "emdash_pct": 3.4,
+    "semicolon_pct": 0.8,
+    "texture_score": 20.4
+  },
+  "changes": [
+    {
+      "zone": "P48-P56",
+      "construction": "participial and compound links",
+      "before": "She went down with bow in hand and an arrow nocked. Cellars in dead villages did not earn the benefit of doubt.",
+      "after": "She went down with bow in hand and an arrow nocked, because cellars in dead villages did not earn the benefit of doubt.",
+      "rationale": "Joined action to judgment so the cellar entry reads as one tactical motion instead of two clipped beats."
+    },
+    {
+      "zone": "P48-P56",
+      "construction": "participial connector",
+      "before": "Neral came down with her bow slung and her hands empty. She crouched at the foot of the steps and waited until the girl's breathing came down from a raw rasp before she spoke.",
+      "after": "Neral came down with her bow slung and her hands empty, crouching at the foot of the steps and waiting until the girl's breathing came down from a raw rasp before she spoke.",
+      "rationale": "Added connective tissue in the cellar handling beat without changing the order of action."
+    },
+    {
+      "zone": "P66-P76",
+      "construction": "participial link",
+      "before": "Sweetness first. That was what Miri remembered earliest—a sweetness on people's breath that turned up in the bread and the water and the morning porridge.",
+      "after": "Sweetness came first—the thing Miri remembered earliest, turning up on people's breath and in the bread and the water and the morning porridge.",
+      "rationale": "Smoothed the witness-summary opening while keeping Miri's broken recollection intact."
+    },
+    {
+      "zone": "P70-P72",
+      "construction": "dependent clause",
+      "before": "No one in the room moved.",
+      "after": "No one in the room moved when she said it.",
+      "rationale": "Embedded the reaction inside the testimony so the emotional read lands in motion rather than as an isolated stub."
+    },
+    {
+      "zone": "P73-P76",
+      "construction": "compound witness-confirmation beat",
+      "before": "\"North,\" Sylvanas said.\n\n\"The north road.\" Miri swallowed water and coughed, then clutched the skin back to her chest. \"Not to the river. Not to the fields. North.\"",
+      "after": "\"North,\" Sylvanas said, and Miri swallowed water, coughing before she clutched the skin back to her chest. \"The north road. Not to the river. Not to the fields. North.\"",
+      "rationale": "Kept Sylvanas clipped while joining the confirmation to Miri's physical reaction."
+    },
+    {
+      "zone": "P110-P128",
+      "construction": "earned semicolon",
+      "before": "That much rang true. A local grain man would know the baker by name, remember who haggled, know which settlements bought seed and which bought bread flour because they had already run through their own.",
+      "after": "That much rang true; a local grain man would know the baker by name, remember who haggled, know which settlements bought seed and which bought bread flour because they had already run through their own.",
+      "rationale": "Bound two closely related tactical judgments into one line, as requested by the auditor."
+    },
+    {
+      "zone": "P119-P124",
+      "construction": "connective clause",
+      "before": "\"Plague,\" Sylvanas said. She let the word stand between them. \"You trade grain on this road?\"",
+      "after": "\"Plague,\" Sylvanas said, letting the word stand between them before she asked, \"You trade grain on this road?\"",
+      "rationale": "Blended the trader's surprise beat into the question instead of clicking from fragment to fragment."
+    },
+    {
+      "zone": "P131-P138",
+      "construction": "joined narration",
+      "before": "She watched the wagon long enough for a second look and no more, then turned south.\n\nThe horses were saddled and waiting.",
+      "after": "She watched the wagon long enough for a second look and no more, then turned south, where the horses were saddled and waiting.",
+      "rationale": "Replaced an isolated exit sentence with a joined clause so the southbound recommitment flows into the final road picture."
+    }
+  ],
+  "selfAudit": {
+    "voice": "Edits stay in Sylvanas's clipped tactical register; no added line shifts into explanatory narration or out-of-character ornament.",
+    "physicalLogic": "Every added participial phrase describes simultaneous or immediately linked action; no impossible overlapping motion was introduced.",
+    "antiSlop": "Changed passages were checked against the hitlist and editor guide; no therapy-speak, creative dialogue tags, or hedge-heavy replacement patterns were introduced.",
+    "rhythmCheck": "Post-edit rhythm scorer on v4-r1.md returned texture_score 20.4, participial_pct 6.8, compound_pct 9.4, and semicolon_pct 0.8."
+  },
+  "selfAuditFixes": 0,
+  "wordCount": {
+    "before": 4406,
+    "after": 4395
+  }
+}

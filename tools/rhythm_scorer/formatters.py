@@ -9,8 +9,8 @@ from .texture import texture_interpretation
 def format_json(report: RhythmReport, filepath: str) -> str:
     """Format report as JSON with rhythm + texture blocks.
 
-    The texture block includes an 'interpretation' field with specific,
-    actionable instructions for agents on what to fix and how.
+    The texture block includes per-dimension scores (0–100 each)
+    and an 'interpretation' field with actionable fix instructions.
     """
     tex_metrics = {
         "participial_pct": report.participial_pct,
@@ -24,6 +24,7 @@ def format_json(report: RhythmReport, filepath: str) -> str:
     interpretation = texture_interpretation(
         tex_metrics, report.texture_baselines,
         report.texture_verdict, report.texture_verdict_reasons,
+        dimension_scores=report.texture_dimension_scores,
     )
 
     return json.dumps({
@@ -60,6 +61,7 @@ def format_json(report: RhythmReport, filepath: str) -> str:
             "semicolon_pct": report.semicolon_pct,
             "short_pct": report.texture_short_pct,
             "texture_score": report.texture_score,
+            "dimension_scores": report.texture_dimension_scores,
             "verdict": report.texture_verdict,
             "verdict_reasons": report.texture_verdict_reasons,
             "interpretation": interpretation,
@@ -97,15 +99,24 @@ def format_summary(report: RhythmReport, filepath: str) -> str:
         f"VOCABULARY:",
         f"  MATTR={report.mattr:.3f}  unique={report.unique_words}/{report.total_words}",
         f"",
-        f"--- TEXTURE ---",
+        f"--- TEXTURE (0-100 balanced) ---",
         f"  participial: {report.participial_pct:.1f}%"
         f"  compound: {report.compound_pct:.1f}%"
         f"  emdash: {report.emdash_pct:.1f}%"
         f"  semicolon: {report.semicolon_pct:.1f}%",
         f"  short(<=8w): {report.texture_short_pct:.1f}%"
-        f"  texture_score: {report.texture_score:.1f}",
+        f"  texture_score: {report.texture_score:.1f}/100",
         f"  verdict: {report.texture_verdict}",
     ]
+
+    if report.texture_dimension_scores:
+        lines.append("  DIMENSIONS:")
+        for name, detail in report.texture_dimension_scores.items():
+            marker = "\u2713" if detail["score"] >= 90 else "\u2717"
+            lines.append(
+                f"    {marker} {name}: {detail['actual']:.1f}% "
+                f"(target {detail['target']}%) → score {detail['score']:.0f}/100"
+            )
 
     if report.texture_verdict_reasons:
         lines.append("  GAPS: " + "; ".join(report.texture_verdict_reasons))
@@ -183,8 +194,8 @@ def format_comparison(
         f"{'Short (<=8w)':<30} {draft.texture_short_pct:>7.1f}%"
         f" {target.texture_short_pct:>7.1f}%"
         f" {delta(draft.texture_short_pct, target.texture_short_pct):>8}",
-        f"{'Texture score':<30} {draft.texture_score:>7.1f}%"
-        f" {target.texture_score:>7.1f}%"
+        f"{'Texture score (0-100)':<30} {draft.texture_score:>7.1f}"
+        f" {target.texture_score:>7.1f}"
         f" {delta(draft.texture_score, target.texture_score):>8}",
     ]
     return "\n".join(lines)

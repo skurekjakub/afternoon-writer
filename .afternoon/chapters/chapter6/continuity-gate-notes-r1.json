@@ -1,0 +1,39 @@
+{
+  "chapterId": "chapter6",
+  "iteration": 1,
+  "targetFile": "v5-cr1.md",
+  "verdict": "FAIL",
+  "severityBreakdown": {
+    "hard": 1,
+    "soft": 0
+  },
+  "previousViolations": [
+    {
+      "violationId": "V1",
+      "status": "resolved",
+      "evidence": "The revised farewell now matches the chapter3 wording: \"Safe roads. What's left of them.\" in chapter6/v5-cr1.md:239-255, consistent with chapter3/final.md:243-247."
+    },
+    {
+      "violationId": "V2",
+      "status": "resolved",
+      "evidence": "Jaina's mount is now consistently a mare at chapter6/v5-cr1.md:45, 165, 191, 205, matching chapter2/final.md:133."
+    },
+    {
+      "violationId": "V3",
+      "status": "resolved",
+      "evidence": "The premature certainty is recast as belief: \"She believed Arthas would not turn...\" at chapter6/v5-cr1.md:53, which keeps the outcome unearned until the Strahnbrad scene."
+    }
+  ],
+  "newFindings": [
+    {
+      "violationId": "V4",
+      "severity": "hard",
+      "category": "cross-chapter",
+      "location": "chapter6/v5-cr1.md:47-53",
+      "description": "Jaina's intent at chapter6 open no longer matches chapter5's closing decision about Arthas.",
+      "evidence": "Chapter5/final.md:311-313 says they will not stop for Arthas. Chapter6/v5-cr1.md:47-53 shows Jaina already trying to reach authority through him before any forced interception. The direct-carry chapterBridge in the plan does not supply an intervening turn that earns this reversal.",
+      "suggestedFix": "Bridge the decision change explicitly, or make the Arthas meeting accidental/forced rather than a pre-existing objective."
+    }
+  ],
+  "summary": "Reaudit result: the three original findings are fixed in v5-cr1.md, but the chapter still fails continuity on one new hard issue. Chapter5 closes with a settled decision not to stop for Arthas, while chapter6 opens with Jaina already pursuing command intervention through him without an on-page pivot. No additional new soft violations were found on this pass."
+}

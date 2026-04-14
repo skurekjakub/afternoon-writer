@@ -1,0 +1,122 @@
+{
+  "chapterId": "chapter2",
+  "globalRisks": [
+    "dialogue-heavy",
+    "ward-room-static",
+    "road-sequence-drift",
+    "final-third-tail-risk"
+  ],
+  "sceneAudits": [
+    {
+      "scene": "Scene 1 - The Interrogation",
+      "biggestGap": "The interrogation risked reading as voices in a cell without enough border-system weight under it.",
+      "anchorsAdded": {
+        "place": [
+          "Thalassian Pass holding circle",
+          "border yard",
+          "tack lean-to"
+        ],
+        "material": [
+          "warm white stone",
+          "ward-blue runes",
+          "anchor stone",
+          "confiscated satchel and map"
+        ],
+        "dialogue": [
+          "Cyndia at the door",
+          "map-against-wall beat",
+          "barrier-drop beat"
+        ],
+        "exit": [
+          "raw leyline pressure returning",
+          "horses already being brought up"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 2 - The Road to Millhaven",
+      "biggestGap": "The travel sequence needed more route texture and more contact between Jaina's theory, the escort formation, and the land under them.",
+      "anchorsAdded": {
+        "place": [
+          "ward-stone road south of the pass",
+          "pine-to-birch transition",
+          "farm country approaching Millhaven"
+        ],
+        "material": [
+          "staff crystal",
+          "quiet buckles",
+          "packed road",
+          "ditch water",
+          "trough scum"
+        ],
+        "dialogue": [
+          "mid-ride briefing tied to reins and spacing shifts",
+          "Sylvanas map-correction beat"
+        ],
+        "exit": [
+          "still mill wheel",
+          "cold chimneys",
+          "wrong village hush"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 3 - The Wildlife Attack",
+      "biggestGap": "The fight landed, but the carcass diagnosis and Millhaven hook needed stronger tactile carry-through so the close stayed world-bound.",
+      "anchorsAdded": {
+        "place": [
+          "ditch verge outside Millhaven",
+          "river-bend village approach"
+        ],
+        "material": [
+          "frozen hoof-rutted road",
+          "arrow shafts",
+          "warm carcass hide",
+          "sweet-rot smell",
+          "mill pilings"
+        ],
+        "dialogue": [
+          "combat orders over horse panic",
+          "diagnosis delivered with Jaina's hand still on the carcass"
+        ],
+        "exit": [
+          "escort spacing tightening around Jaina",
+          "thin river sound under the village hush"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": [
+      "Tail risk after the wildlife fight: the Millhaven approach could have dropped into generic dread."
+    ],
+    "fixesApplied": [
+      "Carried the doe's smell and the escort's tightened spacing into the final ride.",
+      "Pinned the village reveal to the river bend, mill wheel, shut houses, and road-silence specifics."
+    ],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [],
+    "materials": [
+      "stories/the-plague-road/plans/story-arc.md",
+      "stories/the-plague-road/characters/voice-sheets/jaina-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md",
+      ".afternoon/style-guide.json",
+      "stories/the-plague-road/locations/silvermoon-and-quelthalas.md",
+      "stories/the-plague-road/locations/thalassian-horses.md",
+      "stories/the-plague-road/plans/plague-mechanism.md",
+      "stories/the-plague-road/characters/jaina.md",
+      "stories/the-plague-road/characters/sylvanas.md",
+      "stories/the-plague-road/characters/cyndia.md",
+      "stories/the-plague-road/characters/supporting.md"
+    ],
+    "unsourcedAdditions": []
+  }
+}

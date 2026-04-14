@@ -1,232 +1,613 @@
 {
   "storyId": "plague-road",
   "extractedFrom": [
-    "stories/the-plague-road/prose-sample.md"
+    "style-samples/travel.md"
   ],
   "globalStyle": {
-    "proseRegister": "literary-readable, dry, controlled, tactically concrete, with wit that sharpens under pressure and thins out as horror takes over",
-    "narrativeDistance": "Close limited third absolute. Every sentence must belong to what the POV character notices, infers, remembers, or thinks; no neutral narrator, no omniscient explanation, no subtext translation that outpaces the POV.",
-    "paragraphCadence": "Most paragraphs should run 1-4 sentences. Use one-line paragraphs for turn, punchline, dread beat, or impact. Allow 5-6 sentence paragraphs only when the POV is actively reading terrain, stacking consequences, or following a thought chain that the next beat immediately pressures.",
-    "dialogueToNarrationRatio": "Target 45:55 overall. Run 55:45 to 65:35 in competence-collision scenes, interrogations, and negotiations; 25:75 to 35:65 in travel, dread buildup, and aftermath; action set-pieces can dip lower, but spoken pressure should return the moment bodies have space to talk.",
-    "tense": "past",
+    "proseRegister": "Dry limited-third that reads like a sharp procedural in chapters 1-8, strips the warmth by chapter 14, and lands as lean thriller pressure by chapter 17. Register is conversational-literary: no purple, no ornament, but never flat. Sanderson readability with Elmore Leonard economy. Dialogue-forward. Humor dies at Stratholme.",
+    "narrativeDistance": "Close third, camera behind the eyes. Thought access is full but unannounced: no italicized internal monologue, no thought-tags. Narration IS the character thinking. Pull back only for travel transitions and post-scene bridging. In dialogue-heavy scenes, stay so close the narration carries the POV character's cadence.",
+    "paragraphCadence": "3-4 sentences baseline. Long paragraphs (5-7 sentences) for briefing sequences, tactical analysis, and worldbuilding-through-perception. Single-sentence paragraphs for landing a beat or cutting a scene. Never more than 2 consecutive single-sentence paragraphs. Dialogue exchanges run short (1-2 sentence paragraphs per turn), with narration paragraphs between exchanges running 2-4 sentences.",
+    "dialogueToNarrationRatio": "60:40 dialogue-to-narration in procedural chapters (1-8). 50:50 in conspiracy chapters (9-14). 40:60 narration-heavy in thriller chapters (15-25) where internal pressure and physical stakes dominate. Road-travel scenes may flip to 30:70 narration during solo riding.",
+    "tense": "Past tense throughout. No present-tense interiority breaks.",
     "vocabularyStandards": {
-      "baseline": "Concrete, high-clarity diction with world-native terminology and a slight literary edge. Prefer words that feel lived-in, physical, and scene-bound over abstract summary language.",
+      "baseline": "Military-precise and field-practical. Sylvanas's narration uses ranger and tactical vocabulary; Jaina's uses arcane-academic vocabulary filtered through fieldwork pragmatism. Both avoid ornament. Warcraft-specific terms (Scourge, blight, Sunwell, phylactery) are treated as common nouns, never capitalized-for-awe.",
       "requiredQualities": [
-        "precise physical nouns and verbs",
-        "setting-native military, political, and magical vocabulary",
-        "class and status language that reveals hierarchy without stopping to explain it",
-        "POV-filtered word choice that reflects profession and temperament",
-        "plain syntax even when the thought itself is sophisticated"
+        "Concrete and specific: name the grain, the wound type, the formation",
+        "Profession-filtered: each POV notices through their expertise",
+        "Era-appropriate: no modern slang, no therapy-speak, no corporate language",
+        "Direct: prefer Anglo-Saxon roots over Latinate when both exist (gut not viscera, bones not skeletal structure)"
       ],
       "avoid": [
-        "modern slang",
-        "therapy-speak or pop-psych labels",
-        "science-lab jargon such as algorithm, data-set, vector, biochemical, or empirical proof",
-        "generic fantasy filler such as ancient power, primal energy, or darkness itself",
-        "process language that sounds like planning notes instead of lived narration"
+        "Therapy-speak: processing, boundaries, toxic, triggering, closure, healing journey",
+        "Corporate: leverage, optimize, navigate, facilitate, actionable",
+        "Modern colloquial: okay (use very well or fine), stuff, things, basically, literally",
+        "Romance-novel euphemism: manhood, womanhood, center, core, essence, ministrations",
+        "AI-default verbs: noticed, observed, registered, catalogued, assessed, processed, realized, became aware",
+        "Abstract emotional nouns: a wave of, a surge of, a flicker of, a stab of"
       ]
     },
     "sentenceRhythmStandards": {
-      "default": "Center the prose in 7-14 word sentences. Let roughly two-fifths of sentences land at 6 words or fewer so the page keeps snap and pressure.",
-      "action": "Cut to 3-9 words for impact chains, then lengthen briefly only to clarify geometry, injury, or tactical consequence. Do not let clipped action become monotone; vary the strike with one longer sentence when the reader needs reorientation.",
-      "introspection": "Expand to 15-24 words when the POV is mapping causality, shame, or realization, then puncture the run with a blunt fragment or a sentence under 6 words.",
-      "emphasisRule": "Put emphasis on a stand-alone fragment, a sentence under 5 words, or a sentence that arrives after a deliberately longer setup. Let cadence carry importance instead of italics or explanatory narration."
+      "default": "Mixed cadence averaging 10-12 words per sentence. 2-3 commas per period typical. Subordinate clauses and participial phrases provide connective tissue. Never three consecutive sentences in the same length band (all short or all long).",
+      "action": "Shorter baseline (7-9 words mean). More fragments permitted. Verb-forward construction. Sensory channel priority: tactile > auditory > visual. One long sentence per action paragraph maximum, used to expand a critical half-second.",
+      "introspection": "Longer baseline (12-16 words mean). More compound-complex sentences. Semicolons permitted for paired thoughts. The prose slows down through clause density, not through padding words like finally or after a moment.",
+      "emphasisRule": "Short sentence after long. Period after clause-heavy buildup. The one-word or two-word sentence earns its weight only if the preceding 2-3 sentences were substantially longer. Use sparingly: max 3 per scene."
     },
     "metaphorPolicy": {
-      "density": "Keep figurative language at roughly 2-4 fresh images per 1000 words. Most paragraphs should carry none; pressure points may take one clean comparison.",
-      "rule": "Source comparisons from weather, hunting, soldiery, craftwork, court life, bodies under strain, and whatever the POV character works with daily. The image should clarify force, status, or dread in one stroke.",
+      "density": "1-3 metaphors per 1000 words. Source domains must come from the POV character's professional world: Sylvanas draws from rangecraft, forestry, predator behavior, military logistics. Jaina draws from arcane theory, laboratory work, academic hierarchy, tidal patterns.",
+      "rule": "One metaphor per paragraph maximum. Never stack two metaphors in consecutive sentences. Extended metaphors (more than one sentence) are reserved for scene-turning moments, maximum once per chapter. Metaphors must be concrete and visualizable, never abstract-on-abstract.",
       "forbidden": [
-        "stacked metaphors in the same sentence",
-        "mixed source domains",
-        "ornamental similes that do not sharpen the scene",
-        "self-consciously poetic body-part metaphors",
-        "stock epic-fantasy abstractions such as fate's hand or destiny's call"
+        "Wall/armor/mask metaphors for emotional defense (max 1 per entire story)",
+        "Weight/burden metaphors for responsibility",
+        "Storm metaphors for emotional turmoil (too on-the-nose in a Warcraft setting)",
+        "Light/dark metaphors for good/evil",
+        "Drowning metaphors for overwhelm",
+        "Shattered/broken metaphors for emotional damage",
+        "Any metaphor the POV character would not plausibly generate from their experience"
       ]
     },
     "paragraphLengthGuidelines": {
-      "typical": "1-4 sentences; dialogue exchanges may break every 1-2 sentences.",
-      "maximumWithoutBreak": "5-6 sentences or about 120 words, and only when the paragraph is actively escalating thought, threat assessment, or environmental read.",
-      "sceneBalance": "After any dense descriptive or reflective paragraph, return to dialogue, motion, or a concrete sensory beat within the next paragraph."
+      "typical": "3-4 sentences (40-60 words). This is the workhorse paragraph for narration, description, and reflection.",
+      "maximumWithoutBreak": "7 sentences or 100 words. Beyond this, find a natural break point. Exception: a single briefing paragraph delivering tactical information may run to 8 sentences if the content is dense and the rhythm varied.",
+      "sceneBalance": "In a typical 3000-word scene: 25-30% dialogue paragraphs (1-2 sentences), 50-60% narration paragraphs (3-5 sentences), 10-15% single-sentence beat paragraphs. The ratio shifts toward narration in high-pressure scenes and toward dialogue in procedural/investigation scenes."
     },
     "sceneTransitionConventions": {
       "preferredMethods": [
-        "carry forward through a fresh objective or threat",
-        "pivot on a spoken line that changes what the next beat means",
-        "bridge with a tactile or environmental detail the POV cannot ignore",
-        "move by consequence rather than clock time"
+        "Causal thread: end on a decision or discovery, open next on its consequence",
+        "Sensory bridge: close on one sense, open the next scene on a different sense in the new location",
+        "Question hook: close with an unanswered question, open next scene where the answer might live",
+        "Hard cut: scene break (###) with no bridging, used when temporal or geographic gap is large. Open the new scene in medias res."
       ],
       "avoid": [
-        "then, after a moment, later, or similar temporal scaffolding unless clarity absolutely requires it",
-        "summary bridges that only restate the previous beat",
-        "planner language such as transition, sequence, geometry, lane, or vector",
-        "hard resets that force the reader to re-orient from zero"
+        "Temporal bridges: Later that evening, The next morning, Hours passed",
+        "Summary bridges: The ride to X was uneventful",
+        "Emotional labeling bridges: She felt better as they rode on",
+        "Mirror transitions: ending and opening with the same image or phrase"
       ]
     },
     "expositionPolicy": {
-      "organicToExplicitRatio": "80:20 organic-to-explicit",
+      "organicToExplicitRatio": "80:20 organic-to-explicit. Worldbuilding enters through what the character perceives, needs, or reacts to. Explicit exposition is permitted only when a character is actively briefing another character who needs the information for tactical reasons.",
       "allowedDeliveryMethods": [
-        "POV observation under pressure",
-        "dialogue where another character actually needs the information",
-        "interior reasoning tied to a decision, fear, or revelation",
-        "brief memory or learned reference when the POV would naturally retrieve it"
+        "Character observation filtered through expertise (Sylvanas reads terrain, Jaina reads wards)",
+        "Dialogue where one character genuinely needs information the other has",
+        "Internal thought when the POV character is actively problem-solving and needs to recall a fact",
+        "Physical interaction with the world (touching blight, tasting water, reading a ward signature)"
       ],
       "forbiddenMethods": [
-        "narrator aside that breaks limited third",
-        "glossary-style explanation",
-        "worldbuilding paragraphs detached from present stakes",
-        "explaining the same fact in narration and then again in dialogue"
+        "As-you-know-Bob dialogue between characters who share knowledge",
+        "Narrator aside breaking POV to explain setting",
+        "Glossary-style definitions embedded in narration",
+        "Characters thinking in textbook paragraphs about things they already know",
+        "Footnote-style parenthetical world details"
       ],
-      "povExpertiseFiltering": "Let expertise decide what is named, what is translated, and what is left unspoken. Experts do not define basics to themselves; they notice consequence and failure mode. Non-experts notice effect first and only reach for terminology they plausibly know."
+      "povExpertiseFiltering": "Sylvanas takes military logistics, ranger fieldcraft, and elven politics as given. She explains nothing about patrol formations or arrow types. Jaina takes arcane theory and Dalaran academic culture as given. She explains nothing about ward mechanics to herself. Both treat the Scourge plague as a known ongoing crisis, not a revelation. New information enters only when a character encounters something genuinely novel to them."
     },
     "humorPolicy": {
-      "narratorWitLevel": "Narration may carry dry wit and cutting evaluation independently of dialogue, but the joke must feel like the POV character's reflex, not an authorial wink.",
+      "narratorWitLevel": "High in chapters 1-8. Narration carries dry wit independently of dialogue, filtered through the POV character's sensibility. Sylvanas's narration is deadpan and territorial. Jaina's narration is self-deprecating and precise. By chapter 14, wit becomes sparse and bitter. By chapter 17 (Stratholme), humor dies entirely. Chapters 17-25 permit zero levity in narration.",
       "permittedTypes": [
-        "deadpan understatement",
-        "wry self-correction",
-        "bitter or tired sarcasm",
-        "needle-fine competence banter",
-        "a single absurd comparison when stress spikes"
+        "Deadpan observation (Sylvanas): flat delivery of absurd or horrifying facts",
+        "Dry self-deprecation (Jaina): undercutting her own authority or expertise",
+        "Bitter sarcasm (both, under pressure): aimed at the situation, not at each other after chapter 8",
+        "Professional gallows humor (both): the kind soldiers and field researchers use to stay functional"
       ],
       "forbiddenTypes": [
-        "quippy riffing that keeps trying to be funny",
-        "meta commentary",
-        "anachronistic pop-culture reference",
-        "broad comic relief that deflates danger",
-        "cute self-aware flirting during atrocity or horror beats"
+        "Quippy Marvel-style banter during danger",
+        "Anachronistic pop-culture references",
+        "Fourth-wall breaking or meta-commentary",
+        "Slapstick or physical comedy",
+        "Puns (neither character would)",
+        "Cutesy narrator observations"
       ],
-      "deploymentRule": "Humor is permitted in tension, interrogation, travel, and competence scenes. As the plague horror deepens, humor should thin into dryness and then vanish entirely at atrocity beats unless a character uses it as failed self-protection."
+      "deploymentRule": "Humor is a function of psychological safety. When the characters feel competent and the threat is manageable, humor flows. As stakes escalate and control slips, humor contracts to bitter observations, then disappears. A character cracking a joke in a scene where the previous scene ended with death reads as tone-deaf unless the joke is specifically a coping mechanism and the narration treats it as such."
     },
     "powerDynamicRules": {
-      "sentenceLengthMapping": "Dominant characters get shorter sentences, cleaner imperatives, and fewer qualifiers. Characters on the back foot spill into longer explanations, questions, or self-justifications until the balance changes.",
-      "interruptionPolicy": "Interrupt for status, not noise. Let the character with institutional, tactical, or physical control cut off longer clauses; show reversal when the other speaker starts ending exchanges in clipped declaratives.",
-      "bodyLanguageAlignment": "Dominant beats use movement verbs and spatial control: step in, angle, take, hold, block, turn. Subordinate beats skew toward perception, hesitation, adjustment, or endurance until the power shifts.",
-      "confrontationRhythm": "Build confrontations as feint, answer, pressure, turn. Each line should either seize ground, refuse ground, or expose where the real wound is."
+      "sentenceLengthMapping": "The dominant character in a scene gets shorter, more declarative sentences. The subordinate character gets longer sentences with more qualifiers and subclauses. When status reverses mid-scene, the sentence lengths swap. In Sylvanas/Jaina scenes, early chapters give Sylvanas the short declaratives (she commands); as the partnership equalizes, sentence lengths converge.",
+      "interruptionPolicy": "Interruption is rendered with em-dash at the cut point. The interrupted character's sentence is never completed in narration. The reader must infer what was about to be said. Only characters with higher situational authority interrupt; peers cut each other off equally. Narration never interrupts dialogue to editorialize.",
+      "bodyLanguageAlignment": "The dominant character gets active physical verbs (stepped, turned, gripped). The subordinate character gets reactive physical verbs (flinched, shifted, looked away). Neutral status uses neutral verbs (stood, sat, waited). Physical positioning maps to power: the character who moves toward holds power; the one who retreats concedes it.",
+      "confrontationRhythm": "Build through 3-5 exchanges of increasing compression (shorter lines, less narration between). The turn comes in a single beat: one action, one line of dialogue, or one silence. Then the rhythm decompresses as the new power arrangement settles. Total confrontation: 400-800 words."
     },
     "sceneShapeStandards": {
       "openingGambitTypes": [
-        "in-medias-res dialogue with immediate friction",
-        "POV entering a problem already in motion",
-        "environmental hook that doubles as threat assessment",
-        "task-first opening where the action reveals the relationship"
+        "In medias res: open mid-action or mid-conversation, orient the reader through context clues within the first 3 paragraphs",
+        "Sensory anchor: open on a specific physical detail that establishes location and mood before any character acts",
+        "Dialogue hook: open on a line of dialogue that carries immediate tension or information"
       ],
-      "escalationPattern": "Escalate through competence friction, new information, and narrowing options rather than pure volume. Each third of the scene should make the next choice harder or more expensive.",
-      "midpointTurnExpectation": "Expect a pivot by the middle third: a reveal, reversal, misread exposed, or tactical complication that changes the scene's governing question.",
+      "escalationPattern": "Linear build with one feint. Scenes escalate through complication, not repetition. Each beat raises the stakes or changes the terms. One false resolution or misdirection per scene (the characters think they have it figured out, then a new factor enters). Never the same complication twice in one scene.",
+      "midpointTurnExpectation": "Every scene longer than 1500 words must have a midpoint turn where the value at stake shifts direction. A scene about trust develops a crack. A scene about investigation turns up a wrong answer. A scene about reconciliation hits a new grievance. The turn should be organic, not manufactured.",
       "resolutionTypes": [
-        "hard consequence",
-        "uneasy operational decision",
-        "emotional aftertaste carried into motion",
-        "cliff-edge forward pressure"
+        "Hard cut: scene ends on a decision or revelation, no aftermath shown",
+        "Emotional landing: 1-2 sentences of physical settling (she let out a breath, the horse shifted under her) before the scene break",
+        "Cliffhanger: scene ends mid-action or mid-sentence, used sparingly (max 2 per arc)"
       ],
-      "typicalSceneLength": "Roughly 1200-2500 words with 6-12 internal beats; shorter for transit or aftermath, longer only when a major confrontation or set-piece earns it."
+      "typicalSceneLength": "2000-4000 words per scene, 3-6 scenes per chapter. Road scenes and dialogue-heavy investigation scenes run shorter (1500-2500). Climactic scenes may run 4000-5000. Total chapter length: 6000-12000 words."
     },
     "speculativeIntegrationPolicy": {
-      "domesticationLevel": "High domestication. Magic, wards, undead signs, and other fantastical elements should read as working realities to the POV characters, not as decorative spectacle.",
-      "expositionThreshold": "Name and use fantastical elements immediately. Explain only the tactical consequence, failure mode, or unusual exception the current scene depends on.",
-      "aweCalibration": "Reserve awe for catastrophic scale shifts, taboo transgressions, or first contact with something that breaks the POV character's model of the world. Routine magic should read as labor, threat, craft, or contamination."
+      "domesticationLevel": "High. Magic is infrastructure, not spectacle. Sylvanas treats wards, enchantments, and plague-animation as facts of military logistics. Jaina treats arcane theory as professional tooling, the way a chemist treats reagents. The Scourge plague is an epidemiological crisis, not a supernatural horror. Undead are a military problem before they are a moral one.",
+      "expositionThreshold": "Zero exposition for common Warcraft elements (mana, wards, Scourge, blight). Brief functional exposition (1-2 sentences) only when a character encounters a novel variation or application of known magic. Extended exposition (3+ sentences) only during active briefing scenes where one character is teaching another a specific technical detail they need for the next tactical decision.",
+      "aweCalibration": "Awe is reserved for scale, not for magic itself. The size of the plague. The speed of Arthas's march. The scope of Kel'Thuzad's network. Magic itself never provokes wonder from either POV character; they are both professionals who use it daily. What provokes something closer to dread is the efficiency and intelligence behind the plague's design."
     },
     "subtextDensityTargets": {
-      "confrontation": "At least 70:30 subtext-to-surface. Most lines should pursue the official topic while testing trust, status, or motive underneath.",
-      "intimacy": "At least 80:20 subtext-to-surface. Let what matters most arrive through omission, deflection, and physical responsiveness rather than direct naming.",
-      "negotiation": "At least 65:35 subtext-to-surface. Keep stated terms cleaner than actual leverage.",
-      "casual": "At least 40:60 subtext-to-surface. Even relaxed exchanges should carry some private agenda, withheld concern, or relational temperature.",
+      "confrontation": "High (70-80% of exchanges carry dual meaning). Sylvanas and Jaina argue about tactics when they mean trust. Argue about the mission when they mean each other. Signal through what they refuse to say, what questions they don't ask.",
+      "intimacy": "Very high (80-90%). Physical intimacy is never narrated as pure sensation. Every touch carries subtext about power, vulnerability, permission, and the state of the partnership. What a character does with their hands during sex tells you what they can't say with words.",
+      "negotiation": "Medium-high (60-70%). Professional exchanges carry undertones of the personal relationship. A tactical briefing between Sylvanas and Jaina is also a status negotiation about who leads. An interrogation of a suspect is also the interrogator revealing what they fear.",
+      "casual": "Low-medium (30-40%). Camp scenes, travel banter, and downtime carry lighter subtext: comfort levels, unspoken affection, the way people who are becoming close occupy shared space differently. Not every line needs to mean two things, but the narration should notice the physical details that carry emotional weight.",
       "signalingPreferences": [
-        "reaction beats that contradict the spoken line",
-        "a pointed omission where the reader can feel the missing word",
-        "internal interpretation that stops one step short of full translation",
-        "small physical adjustments that show who heard the real meaning"
+        "Action beats between dialogue lines (what the character does while speaking)",
+        "Selective attention in narration (what the POV character notices about the other person)",
+        "Silence and non-answers (the question that goes unanswered is the one that matters)",
+        "Physical distance changes (who moves closer, who pulls back, when)",
+        "Never through narrator editorial (do not have the narration explain the subtext)"
       ]
     },
     "actionPacingStandards": {
-      "verbDensityTarget": "Aim for 2-3 strong action verbs per sentence in close combat or panic beats versus 1-2 in baseline narration.",
-      "fragmentFrequency": "Use fragments or micro-sentences in roughly 1 of every 4-6 sentences during peak action; outside action, keep fragments rare and emphatic.",
-      "timeDilationRules": "Expand the instant that changes advantage, inflicts harm, or forces choice. Compress travel, repositioning, and aftermath cleanup unless a new threat emerges there.",
-      "sensoryChannelPriority": "tactile pressure and pain and balance > visual read > sound > smell"
+      "verbDensityTarget": "2.5-3.5 active verbs per sentence in action sequences vs. 1.5-2.0 in baseline narration. Action verbs should be specific and physical: not moved but lunged, ducked, rolled. One precise verb beats two generic ones.",
+      "fragmentFrequency": "Fragments permitted in action at 1 per 5-8 sentences. Used for impact moments (the arrow hit, the ward broke, blood). Never more than 2 consecutive fragments. Fragments in non-action prose: max 1 per page, reserved for emphasis.",
+      "timeDilationRules": "Expand the critical half-second into 2-4 sentences: what the body does, what the character perceives, what decision fires. Compress the routine ten minutes into a single sentence or a paragraph break. The ratio of text-time to story-time should spike 20:1 at crisis points and drop to 1:100 during travel.",
+      "sensoryChannelPriority": "Tactile first (what the body feels), auditory second (what the character hears), visual third (what they see). Smell for horror and intimacy. Taste almost never. This inverts the default AI priority (visual > everything else) and grounds the reader in the body."
     },
     "attributionStandards": {
-      "saidTagPercent": "60-70% of attributed lines should use said, asked, or another no-frills equivalent",
-      "actionBeatPercent": "20-25% should lean on action beats or spatial beats when posture and status matter",
-      "untaggedPercent": "10-15% is fine in clean two-speaker runs where clarity holds",
-      "creativeTagPolicy": "Contextual and sparse. Use stronger tags only when volume, strain, or acoustic texture changes the scene; keep them under 8% of attributed lines.",
-      "actionBeatPlacement": "Mostly after the line or as the hinge into the next line. Use pre-line beats to load status or intention; use mid-line beats only when interruption or physical pressure matters."
+      "saidTagPercent": "40-50% of attributed lines use said/asked. Said is invisible; let it carry the load.",
+      "actionBeatPercent": "35-45% use action beats instead of tags. The beat should do double duty: identify the speaker AND advance the scene (physical action, environmental interaction, object manipulation).",
+      "untaggedPercent": "10-20% have no attribution at all. Used in rapid two-person exchanges where speaker identity is clear from context and alternation. Never more than 4 consecutive untagged lines.",
+      "creativeTagPolicy": "Rarely. Max 2-3 creative tags per chapter, reserved for cases where the verb genuinely communicates something said cannot: whispered (volume matters tactically), shouted (distance matters), called (direction matters). Never: breathed, murmured, intoned, purred, growled, hissed (unless literally hissing). Absolutely never with adverbs.",
+      "actionBeatPlacement": "Mixed, favoring before-speech or mid-speech. Before-speech: action, then dialogue in same paragraph. Mid-speech: first line, beat, second line. After-speech: only when the action is a reaction to what was just said. Avoid formulaic patterns; vary placement across a scene."
     }
   },
   "perPOVCalibration": [
     {
       "characterName": "Sylvanas Windrunner",
       "voiceFingerprint": {
-        "vocabularyLevel": "Lean, high-precision martial diction with aristocratic bite; concrete nouns, exact status terms, and field-tested verbs.",
-        "sentenceRhythm": "Short declaratives dominate. She thinks in clipped assessments, then occasionally opens into a longer tactical chain before closing it with a blunt judgment.",
-        "metaphorDensity": "Low. When metaphor appears, it comes from hunting, weather, fortification, or the body as a weapon.",
-        "emotionalRegister": "Contained and unsentimental. Emotion appears as pressure, irritation, contempt, duty, or a shift in focus, not as open naming.",
-        "thoughtPatterns": "Threat assessment to capability judgment to decision. She categorizes people by utility, discipline, danger, and the cost of trusting them.",
-        "sensorySignature": "Movement, silence, sightlines, footfall, distance, weather on skin, and the feel of readiness or exposure.",
-        "humorType": "Deadpan contempt and razor-flat understatement, usually used to test, dismiss, or needle rather than to charm.",
-        "powerPosture": "When dominant, her prose tightens into commands and observations that leave no room for appeal. When politically constrained or briefly outmatched, the syntax lengthens just enough to show what she is holding back.",
-        "speculativeComfort": "Moderate. She treats magic as a battlefield variable and respects it when it proves useful, but her narration keeps translating it into threat, utility, and breach potential."
+        "vocabularyLevel": "Military-precise, clipped. Ranger vocabulary: sight lines, wind direction, terrain, formation. Elven formality surfaces in stress (drops contractions, sentences become shorter and more imperative). Default sentence length: 8-12 words. Avoids abstract nouns.",
+        "sentenceRhythm": "Short-to-medium baseline. Subject-verb-object default. Compound sentences joined by 'and' or 'but', rarely by subordinate clauses. Participial openers only for simultaneous physical action (drawing the bow, she scanned the ridge). Semicolons almost never. Em-dashes for clipped self-correction.",
+        "metaphorDensity": "Very low: 0-1 per 1000 words. When present, metaphors come from predator behavior, forestry, or siege mechanics. Never abstract. Never pretty.",
+        "emotionalRegister": "Compressed. Emotion shows through what Sylvanas does, not what she feels. Anger: clipped commands, fingers tightening on reins. Affection: tactical proximity, offering food or water without comment. Fear: heightened sensory scanning, hands moving to weapons. The narration never names her emotions; it renders their physical signatures.",
+        "thoughtPatterns": "Tactical. Sylvanas thinks in threat assessment: who is where, what they can do, what she would do in their position. Her internal monologue is a running tactical brief. When emotional content intrudes, it manifests as interrupted tactical thought (she caught herself thinking about—the ward perimeter needed checking).",
+        "sensorySignature": "Auditory and spatial. She hears things before she sees them. She tracks distances and positions. She notes wind, sound direction, and movement before color, texture, or beauty. Smell: only for tactical reads (smoke, blight, blood).",
+        "humorType": "Deadpan territorial. Humor is delivered flat, without signaling. The reader recognizes it as humor; Sylvanas may or may not intend it as such. Often involves proprietary commentary on competence (hers or others' lacking). Gallows humor under pressure. Zero self-deprecation—she does not find herself funny.",
+        "powerPosture": "Default dominant. Prose renders Sylvanas through active verbs, short declaratives, and physical initiative (she moves toward, she speaks first, she occupies space). When status is threatened, sentences compress further and action increases. She never retreats by speaking more—she retreats by going silent.",
+        "speculativeComfort": "Complete domestication. Wards, enchantments, Scourge animation mechanics are military facts. Sylvanas interacts with magic the way a modern officer interacts with radio equipment—useful, occasionally faulty, never wondrous. She notices magical phenomena only when they deviate from expected parameters."
       },
       "specificRules": [
-        "Default to one clean observation per sentence before layering interpretation.",
-        "Name people by role or function when Sylvanas has not granted intimacy yet; let name shifts mark relational movement.",
-        "Let contempt surface through selection of detail, not through explanatory monologue.",
-        "Keep her interiority tactical even when the subject is emotional; she notices what changed in behavior before she names what it means.",
-        "When she is wrong, show the correction as a behavioral adjustment, not a speech of apology.",
-        "Use short, high-pressure dialogue. Her questions often function as orders or tests.",
-        "If a description does not help her judge threat, competence, rank, or terrain, cut it.",
-        "During vulnerability, do not make her lyrical; make her more exact.",
-        "Use Thalassian only as a pressure tell, intimacy marker, or deliberate wall, never as decorative flavor.",
-        "When Jaina surprises her, mark recalibration rather than amazement."
+        "Maximum sentence length in Sylvanas POV: 25 words. Break longer thoughts into two sentences.",
+        "No filter verbs. Never: she noticed, she observed, she realized. The thing perceived goes directly into narration.",
+        "Contractions in baseline speech and thought. Drop contractions only under formal pressure or when issuing commands to subordinates.",
+        "Interior thought and narration merge completely. No thought-tags, no italicized thought. The narration IS Sylvanas assessing.",
+        "Action beats replace emotion names. Where another character might think 'she was afraid,' Sylvanas narration says 'her hand found the bowstring.'",
+        "Dialogue tags: said or nothing. Sylvanas never asks—she states or commands. When she does ask, render it as declarative with a question mark.",
+        "Humor is never signposted. No smirking, no dry tone described. The humor lives in the content of what she says or thinks, and the reader catches it or does not.",
+        "Physical positioning in every scene: where Sylvanas stands or sits relative to others is tactical information that must be rendered.",
+        "Elven sensory range: Sylvanas hears conversations from farther than humans expect. She sees in lower light. This is never explained, only demonstrated through what she perceives.",
+        "Zero abstract emotional vocabulary. No: a sense of, a feeling of, something like. Concrete physical correlate or nothing."
       ],
       "exampleSentences": [
-        "The mage did not fidget under the stare, which was either courage or a failure of instinct, and Sylvanas had not yet decided which annoyed her more.",
-        "The corridor bent left, narrowed, and offered no cover worth trusting; she marked the kill angles before she bothered with the door.",
-        "Jaina spoke like someone laying proof on a table, each point placed where it could not be ignored, and Sylvanas found herself listening before she chose to.",
-        "The order from Silvermoon was written in courteous language, which only made the leash show more clearly."
+        "The blight started forty yards past the last clean furrow, a dark tideline in the soil that smelled like turned earth and copper.",
+        "She counted the sentries without stopping her horse. Two on the gate, one on the roof, and a gap on the eastern wall wide enough to ride through.",
+        "\"The ward failed at the granary.\" She said it the way you report a bridge out. Fact, not feeling.",
+        "Jaina was still talking. Sylvanas let her. The mage thought better out loud, and the road was long enough to allow it."
       ],
-      "expositionFilter": "Sylvanas naturally notices approach routes, cover, exhaustion, discipline, rank signals, border implications, and whether a magical phenomenon changes battlefield reality. She does not explain basic military logic to herself, and she only dwells on arcane theory when its consequences affect action or trust."
+      "expositionFilter": "Sylvanas takes for granted: elven military structure, ranger fieldcraft, Quel'Thalas politics and geography, basic ward mechanics, Horde/Alliance power dynamics, patrol formations. She explains nothing about arrow types, riding technique, or forest navigation. She notices and explains: unusual plague behavior, unfamiliar human customs, Jaina-specific magic she has not seen before, political developments she was not briefed on."
     },
     {
       "characterName": "Jaina Proudmoore",
       "voiceFingerprint": {
-        "vocabularyLevel": "Precise and educated but still readable; she can move from plain field language into more specialized magical terminology when the audience or thought warrants it.",
-        "sentenceRhythm": "Longer than Sylvanas by default, with subordinate clauses that map reasoning in real time. Under pressure she snaps down to short sentences and clean pivots.",
-        "metaphorDensity": "Low-to-moderate. Her images come from scholarship, weather, architecture, current, pressure, and controlled failure, but the phrasing stays grounded rather than ornate.",
-        "emotionalRegister": "Intellect-first on the surface, body-first underneath. She reaches for analysis to control feeling, then the feeling leaks through physical strain or a brutally honest line.",
-        "thoughtPatterns": "Observation to pattern recognition to hypothesis to objection to revised conclusion. She is always testing the model, even when scared.",
-        "sensorySignature": "Magical wrongness, texture in the air, temperature shifts, light, resonance, ward pressure, and the bodily cost of pushing too hard.",
-        "humorType": "Unexpected dark wit and dry, honest needling, usually arriving when she is tired enough to stop cushioning the truth.",
-        "powerPosture": "When dominant, she speaks with calm precision and refuses false premises rather than raising her voice. When outmatched, her prose speeds up, questions multiply, and analysis becomes a shield until someone forces her back into the present.",
-        "speculativeComfort": "Very high. Magic is native craft to her; she narrates it as structure, pressure, and failure mode, not as spectacle."
+        "vocabularyLevel": "Academic-precise but field-adapted. Arcane vocabulary used functionally: ward, resonance, binding, thaumic signature. She thinks in hypotheses and evidence hierarchies. Default sentence length: 10-16 words. Permits subordinate clauses and conditional constructions (if X then Y, which means Z).",
+        "sentenceRhythm": "Medium-to-long baseline. More syntactic variety than Sylvanas: compound-complex sentences, parenthetical asides in em-dashes, occasional semicolons for paired observations. Rhythm compresses under pressure (sentences shorten toward Sylvanas-range when Jaina is frightened or acting fast).",
+        "metaphorDensity": "Low-moderate: 1-2 per 1000 words. Source domains: laboratory work, tidal patterns, academic hierarchy, library architecture, weather systems. Her metaphors tend toward process (the plague spreading like dye through water) rather than static images.",
+        "emotionalRegister": "Present but controlled. Jaina's narration permits named emotions when she is actively analyzing her own state (she was frightened, and the fear was useful—it meant she was paying attention). The naming is clinical, not lyrical. She treats her emotions as data, which is both her strength and her defense mechanism.",
+        "thoughtPatterns": "Hypothesis-driven. Jaina's internal monologue runs as structured reasoning: observation, inference, question, test. When stressed, the structure collapses into fragments of competing hypotheses. She argues with herself. She revises mid-thought. Her narration carries the rhythm of someone thinking fast and not always keeping up.",
+        "sensorySignature": "Visual and arcane. Jaina sees patterns, structures, and systems. She notices ward-signatures and magical residue before she notices furniture. Physical sensation registers when it interrupts her thinking (cold, pain, hunger—all as intrusions on concentration). She notices beauty obliquely, usually in passing, usually too late to enjoy it.",
+        "humorType": "Dry self-deprecation and academic wit. She undercuts her own authority ('I should probably stop explaining the thing you already know'). She finds absurdity in bureaucratic or academic dysfunction. Under stress, humor becomes bitter and self-directed. She is funnier than she thinks she is, and the narration reflects this gap.",
+        "powerPosture": "Default analytical. Prose renders Jaina through observation verbs and conditional reasoning. She gathers information before acting. When she takes decisive action, the prose shift is marked: sentences shorten, conditionals disappear, verbs become physical. Her power moments land harder because the baseline is more measured.",
+        "speculativeComfort": "Professional. Magic is her job. She interacts with arcane phenomena the way a chemist handles reagents: respect for danger, zero wonder at the mechanism. She finds the plague intellectually fascinating and is slightly ashamed of that fascination. Novel magical phenomena get brief technical assessment, not awe."
       },
       "specificRules": [
-        "Let her think through cause and mechanism, but anchor every chain of reasoning to the immediate problem.",
-        "Adjust magical vocabulary by audience: plain terms for non-mages, more technical terms only when she is thinking privately or addressing someone trained.",
-        "Never give her modern scientific jargon; even her most technical language must feel arcane, historical, and embodied.",
-        "Use honesty as her sharpest dialogue weapon. She says the thing others are circling when evasion becomes inefficient.",
-        "When fear spikes, show it as urgency, over-analysis, cold, or the need to keep working rather than as theatrical panic.",
-        "Let compassion surface in the questions she asks and the risks she takes, not in soft-focus narration.",
-        "Her humor should surprise rather than perform; one dry line lands harder than a run of quips.",
-        "If she is explaining, make sure someone in the scene actually needs the explanation or she is solving the problem in her head.",
-        "In moments of breakthrough, keep the prose lucid. Clarity is her version of intensity."
+        "Permit longer sentences (up to 30 words) for hypothesis chains and analytical passages. Jaina thinks in complex syntax.",
+        "Filter verbs permitted ONLY as deliberate analytical framing: 'she noticed the ward signature had shifted' is acceptable because Jaina would actually be performing the act of noticing as a professional skill. Still prefer the direct version when possible.",
+        "Internal monologue may include self-argument: one thought contradicting the previous, rendered as revision (The ward was intact. No—the ward looked intact. There was a difference).",
+        "Semicolons permitted at 1-2 per page for paired analytical observations.",
+        "Dialogue is precise and complete. Jaina finishes her sentences. She does not trail off unless deliberately withholding. When she interrupts herself, it is mid-thought correction, not emotional overwhelm.",
+        "Academic vocabulary is used functionally, never for display. If a simpler word exists and the POV character would use it in the field, use the simpler word.",
+        "Emotional self-analysis is permitted but must be brief and clinical: 'she was afraid (that was useful, fear meant she was paying attention).' Never more than one sentence of emotional naming per page.",
+        "Physical description of Jaina's own body focuses on practical states: tired, cold, hungry, sore. Her awareness of her own body increases during intimate scenes and decreases during analytical work.",
+        "When Jaina is working magic, render it through physical sensation (heat in her palms, the pull in her chest, the taste of ozone) not through visual spectacle.",
+        "Jaina notices Sylvanas's competence before she notices her appearance. This reverses in intimate scenes."
       ],
       "exampleSentences": [
-        "The ward had not failed so much as been worried open, the way frost split stone one patient seam at a time.",
-        "If the pattern held, the grain road was not random contamination but distribution, and distribution meant intent, and intent meant someone could still be caught in the act.",
-        "She wanted three more minutes with the residue and knew, with equal precision, that three more minutes might get someone killed.",
-        "Sylvanas did not interrupt the explanation, which was somehow more unsettling than skepticism would have been."
+        "The ward should have held another six hours. She checked the anchor points twice before accepting that it had not failed—it had been opened from inside.",
+        "Sylvanas was already moving, which meant she had heard something Jaina had not. The elf's hearing was, as always, inconveniently better than her own.",
+        "\"The grain is the vector.\" She said it before she was sure, which was unlike her, but the evidence pointed one direction and the road did not allow for a second hypothesis.",
+        "She thought about apologizing. She thought about it for the length of a breath, and then the moment passed, and the silence between them was just silence again."
       ],
-      "expositionFilter": "Jaina notices magical residue, pattern, contamination logic, historical precedent, and the difference between what is provable and what is merely obvious to her. She explains process when another character needs usable translation; otherwise she thinks in compressed expert shorthand and moves straight to consequence."
+      "expositionFilter": "Jaina takes for granted: arcane theory, ward mechanics, Dalaran politics, magical forensics, scholarly method. She explains nothing about how mana works or how to read a ward to herself. She notices and explains: unfamiliar plague behavior (as novel pathology), military logistics she does not understand (asks Sylvanas), elven cultural norms she encounters for the first time, field conditions that differ from laboratory conditions."
     }
   ],
   "proseQualityFloor": {
-    "maxAdverbsPerPage": 4,
-    "maxPassiveVoicePercent": 4,
-    "showTellRatioTarget": "At least 80:20 showing-to-telling. Use direct telling only for compressed bridge material, an earned POV conclusion, or an established fact the scene does not need to restage."
+    "maxAdverbsPerPage": 2,
+    "maxPassiveVoicePercent": 8,
+    "showTellRatioTarget": "85:15 show-to-tell. Telling is permitted for: time compression in transitions, factual backstory a character actively recalls, and brief emotional naming in Jaina POV only (see per-POV rules). Everything else is shown through action, dialogue, sensory detail, and physical response."
+  },
+  "rhythmMetrics": {
+    "purpose": "Numeric measurements from rhythm_scorer on the style source (Sanderson Way of Kings opening), with calibrated targets for The Plague Road. Targets differ from measured because PR is tighter, more dialogue-forward, and darker than Sanderson epic fantasy.",
+    "source": "style-samples/travel.md (Brandon Sanderson, The Way of Kings, Prelude through Chapter 6)",
+    "global": {
+      "comma_period_ratio": {
+        "measured": 0.663,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ]
+      },
+      "sentence_length_mean": {
+        "measured": 9.6,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ]
+      },
+      "sentence_length_cv": {
+        "measured": 0.664,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ]
+      },
+      "short_sentence_pct": {
+        "measured": 38.9,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ]
+      },
+      "long_sentence_pct": {
+        "measured": 8.2,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ]
+      },
+      "opener_entropy": {
+        "measured": 7.65,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ]
+      },
+      "one_sentence_paragraph_pct": {
+        "measured": 21.6,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ]
+      },
+      "mattr": {
+        "measured": 0.827,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ]
+      }
+    },
+    "perSceneType": {
+      "purpose": "Per-scene-type comma:period variance, measured from representative passages in the style source and calibrated for PR.",
+      "action": {
+        "measured": 0.64,
+        "range": [
+          0.5,
+          0.75
+        ]
+      },
+      "dialogue": {
+        "measured": 0.62,
+        "range": [
+          0.5,
+          0.75
+        ]
+      },
+      "worldbuilding": {
+        "measured": 0.82,
+        "range": [
+          0.7,
+          0.95
+        ]
+      },
+      "character_dialogue": {
+        "measured": 0.68,
+        "range": [
+          0.55,
+          0.8
+        ]
+      },
+      "introspection": {
+        "measured": 0.65,
+        "range": [
+          0.6,
+          0.85
+        ]
+      },
+      "combat": {
+        "measured": 0.97,
+        "range": [
+          0.55,
+          0.8
+        ]
+      }
+    }
+  },
+  "textureMetrics": {
+    "purpose": "Structural complexity measurements from rhythm_scorer. The target values are calibrated higher than Sanderson because PR needs more connective tissue (anti-telegram) and tighter syntactic variety.",
+    "source": "style-samples/travel.md",
+    "participial_pct": {
+      "human": 11.0,
+      "target": 12.0,
+      "range": [
+        12.0,
+        15.0
+      ]
+    },
+    "compound_pct": {
+      "human": 8.5,
+      "target": 10.0,
+      "range": [
+        7.0,
+        13.0
+      ]
+    },
+    "emdash_pct": {
+      "human": 3.5,
+      "target": 4.0,
+      "range": [
+        2.5,
+        5.5
+      ]
+    },
+    "semicolon_pct": {
+      "human": 1.4,
+      "target": 1.8,
+      "range": [
+        1.0,
+        2.5
+      ]
+    },
+    "short_pct": {
+      "human": 52.1,
+      "target": 48.0,
+      "range": [
+        40.0,
+        55.0
+      ]
+    },
+    "texture_score": {
+      "human": 100.0,
+      "target": 100.0,
+      "range": [
+        90.0,
+        100.0
+      ],
+      "note": "Balanced 0-100 scale. 100 = all dimensions on target. Scorer uses log-decay penalty for deviation from per-metric targets."
+    }
+  },
+  "contrastivePairs": [
+    {
+      "pattern": "Filter verb",
+      "bad": "Sylvanas noticed the tracks cutting across the road, the hoofprints too deep for unburdened horses. She observed that the mud had been churned recently.",
+      "good": "Tracks cut across the road, hoofprints too deep for unburdened horses. The mud was fresh—hours, not days.",
+      "principle": "Filter verbs (noticed, observed) insert a pane of glass between reader and experience. The POV is already established; the reader knows who is seeing. Delete the perceiving and render the perceived directly."
+    },
+    {
+      "pattern": "Emotional labeling",
+      "bad": "Jaina felt a surge of guilt as she looked at the bodies. The weight of her failure pressed down on her, and she experienced a deep sense of responsibility for what had happened.",
+      "good": "She made herself count them. Fourteen. The youngest looked about the age of her students in Dalaran, and she stopped counting after that.",
+      "principle": "Named emotions (guilt, failure, responsibility) tell the reader what to feel. Physical action and specific concrete detail let the reader arrive at the emotion themselves. The stopped counting does more work than three sentences of emotional labeling."
+    },
+    {
+      "pattern": "Telegram prose",
+      "bad": "The ward was broken. She knelt. The stones were cold. The binding had failed. She could see it. The anchor points were dark. She stood. She needed to move.",
+      "good": "The ward was broken, its anchor points gone dark against the stone, and when she knelt to check the binding she already knew what she would find. The stones were cold under her palms. Whatever had held here had not failed—it had been pulled apart from the inside, systematically, the way you dismantle a lock when you have the key.",
+      "principle": "Telegram prose (short declarative fragments stacked without connective tissue) is the single most common AI tell. Real prose connects: subordinate clauses, participial phrases, appositives, and the occasional comma splice carry the reader's eye forward. Target 1.5-2.5 commas per period."
+    },
+    {
+      "pattern": "Stacked descriptors",
+      "bad": "Sylvanas's sharp, alert, predatory gaze swept the treeline—careful, methodical, and thorough in its assessment of the dark, dense, impenetrable forest ahead.",
+      "good": "Sylvanas watched the treeline the way she watched everything: like something might come out of it.",
+      "principle": "Comma-separated adjective clusters dilute impact. One precise detail hits harder than three adequate ones. 'Like something might come out of it' does more character work than sharp, alert, predatory. Inside em-dashes and after colons: same rule. One descriptor, not three."
+    },
+    {
+      "pattern": "Therapy-speak narration",
+      "bad": "Jaina recognized that she was using her analytical focus as a coping mechanism, processing her trauma through the familiar lens of scholarship. She needed to set boundaries with herself and allow space for the grief she'd been avoiding.",
+      "good": "She kept her hands busy with the ward analysis because the alternative was sitting still, and sitting still meant thinking about the granary, and she was not going to think about the granary. Not yet. The ward could wait; the granary could not be un-seen.",
+      "principle": "Modern therapy language (coping mechanism, processing, boundaries, space for grief) does not belong in a medieval-fantasy character's internal monologue. Show the avoidance behavior concretely. Let the reader name the psychology; the character just acts."
+    },
+    {
+      "pattern": "Process language",
+      "bad": "Sylvanas catalogued the information Jaina had provided, filing each data point in her tactical assessment. She processed the implications of the ward failure and began formulating a revised approach to their route.",
+      "good": "Ward down at the granary. That meant the eastern road was out, which left the ridge trail or three days through open farmland with no cover. She liked neither, but the ridge gave them trees.",
+      "principle": "Process verbs (catalogued, filed, processed, formulated) narrate the act of thinking instead of the thought itself. Show the tactical reasoning directly: the conclusion, the options, the decision. The reader sees Sylvanas thinking without being told she is thinking."
+    },
+    {
+      "pattern": "Purple prose",
+      "bad": "The dying light of the sun painted the blighted fields in hues of amber and crimson, a breathtaking tapestry of destruction that bore silent witness to the inexorable march of the Scourge's dominion across the once-verdant landscape.",
+      "good": "The blight ran east as far as she could see, black soil where the wheat should have been heading. The last clean field was maybe a mile back. After that, nothing grew.",
+      "principle": "Purple prose stacks metaphors, adjectives, and personification until the image collapses under its own weight. The corrected version uses concrete measurement (east as far as she could see, a mile back) and specific agricultural detail (wheat heading) to render devastation through understatement. The absence does the work."
+    },
+    {
+      "pattern": "POV violation",
+      "bad": "Jaina smiled, though inside she felt anything but happy. Sylvanas, watching from across the fire, felt a pang of concern at the forced expression, recognizing the mask for what it was.",
+      "good": "Jaina smiled. It was the same smile she'd been using since the granary—mouth only, and not quite reaching the right shape. Sylvanas had seen better lies from first-year scouts.",
+      "principle": "The original head-hops from Jaina's interior to Sylvanas's. In limited third, we see only through one character's perception. From Sylvanas's POV, she cannot know Jaina feels 'anything but happy'—she can only see the smile and assess it through her own experience. The correction stays in Sylvanas's POV: she sees, she compares, she judges."
+    },
+    {
+      "pattern": "Hedge words",
+      "bad": "There was something almost like a smile on Sylvanas's face, though it seemed to carry a hint of something that might have been sadness, or perhaps just exhaustion.",
+      "good": "Sylvanas's mouth twitched. It could have been a smile. It could have been a warning.",
+      "principle": "Hedge words (something, almost, seemed, perhaps, might have been, a hint of) soften every image they touch. They signal the writer's unwillingness to commit. Pick the image and commit. 'Could have been a smile. Could have been a warning' is ambiguous on purpose—the ambiguity is the point, not a hedge."
+    },
+    {
+      "pattern": "Temporal padding",
+      "bad": "After a moment, Sylvanas spoke. Eventually, Jaina looked up. Finally, the silence between them broke. A beat passed before either moved.",
+      "good": "Sylvanas pulled her waterskin from the saddle and drank, long and slow, before she said anything. By the time she capped it, Jaina had stopped pretending to read the map.",
+      "principle": "Temporal padding (after a moment, eventually, finally, a beat passed) creates dead air where the writer wants a pause. Real pauses live in physical action: the time it takes to drink, to cap a waterskin, to stop pretending. The action creates the pause and does character work simultaneously."
+    }
+  ],
+  "proseExcerptAnchors": {
+    "purpose": "Verbatim paragraphs from the style source (Sanderson, Way of Kings). These function as in-context style exemplars—actual token-level patterns that condition downstream agents more powerfully than rules alone. Read before generating prose.",
+    "excerpts": [
+      {
+        "sceneType": "action",
+        "source": "style-samples/travel.md, lines 163-183 (Szeth drawing Stormlight, beginning the assassination)",
+        "text": "Szeth breathed in deeply, drawing forth the Stormlight. It streamed into him, siphoned from the twin sapphire lamps on the walls, sucked in as if by his deep inhalation. The Stormlight raged inside of him, and the hallway suddenly grew darker, falling into shade like a hilltop cut off from the sun by a transient cloud.\n\nSzeth could feel the Light’s warmth, its fury, like a tempest that had been injected directly into his veins. The power of it was invigorating but dangerous. It pushed him to act. To move. To strike.\n\nHolding his breath, he clung to the Stormlight. He could still feel it leaking out. Stormlight could be held for only a short time, a few minutes at most. It leaked away, the human body too porous a container. He had heard that the Voidbringers could hold it in perfectly. But, then, did they even exist? His punishment declared that they didn’t. His honor demanded that they did.\n\nAfire with holy energy, Szeth turned to the guards. They could see that he was leaking Stormlight, wisps of it curling from his skin like luminescent smoke. The lead guard squinted, frowning. Szeth was sure the man had never seen anything like it before. As far as he knew, Szeth had killed every stonewalker who had ever seen what he could do.\n\n“What…what are you?” The guard’s voice had lost its certainty. “Spirit or man?”\n\n“What am I?” Szeth whispered, a bit of Light leaking from his lips as he looked past the man down the long hallway. “I’m…sorry.”\n\nSzeth blinked, Lashing himself to that distant point down the hallway. Stormlight raged from him in a flash, chilling his skin, and the ground immediately stopped pulling him downward. Instead, he was pulled toward that distant point—it was as if, to him, that direction had suddenly become down.\n\nThis was a Basic Lashing, first of his three kinds of Lashings. It gave him the ability to manipulate whatever force, spren, or god it was that held men to the ground. With this Lashing, he could bind people or objects to different surfaces or in different directions.\n\nFrom Szeth’s perspective, the hallway was now a deep shaft down which he was falling, and the two guards stood on one of the sides. They were shocked when Szeth’s feet hit them, one for each face, throwing them over. Szeth shifted his view and Lashed himself to the floor. Light leaked from him. The floor of the hallway again became down, and he landed between the two guards, clothes crackling and dropping flakes of frost. He rose, beginning the process of summoning his Shardblade.\n\nOne of the guards fumbled for his spear. Szeth reached down, touching the soldier’s shoulder while looking up. He focused on a point above him while willing the Light out of his body and into the guard, Lashing the poor man to the ceiling.\n\nThe guard yelped in shock as up became down for him. Light trailing from his form, he crashed into the ceiling and dropped his spear. It was not Lashed directly, and clattered back down to the floor near Szeth.",
+        "demonstrates": [
+          "Sensory grounding in action: Stormlight rendered through physical sensation (warmth, fury, tempest injected into veins) not visual spectacle",
+          "Mixed sentence length: short declaratives ('Szeth didn\\'t move.') between longer descriptive sentences",
+          "Worldbuilding embedded in action: spren behavior, Lashing mechanics explained through what Szeth does, not through narrator aside",
+          "Power shift rendered through physical positioning and sentence compression",
+          "Dialogue as characterization: the guard's uncertainty shows in his question, not in a narrator label"
+        ]
+      },
+      {
+        "sceneType": "character-through-action",
+        "source": "style-samples/travel.md, lines 1255-1261 (Kaladin tears up the map)",
+        "text": "“Let me see the map,” Kaladin said. Tvlakv hesitated, then held it up for Kaladin.\n\nKaladin reached through the bars and snatched the paper. Then, without reading it, Kaladin ripped it in two. In seconds he’d shredded it into a hundred pieces in front of Tvlakv’s horrified eyes.\n\nTvlakv called for the mercenaries, but by the time they arrived, Kaladin had a double handful of confetti to toss out at them. “Happy Middlefest, you bastards,” Kaladin said as the flakes of paper fluttered around them. He turned and walked to the other side of the cage and sat down, facing them.\n\nTvlakv stood, speechless. Then, red faced, he pointed at Kaladin and hissed something at the mercenaries. Bluth took a step toward the cage, but then thought better of it. He glanced at Tvlakv, then shrugged and walked away. Tvlakv turned to Tag, but the other mercenary just shook his head, saying something soft.",
+        "demonstrates": [
+          "Character revealed through physical action, not through internal explanation of motivation",
+          "The action IS the dialogue: tearing the map says more than any speech could",
+          "Humor through unexpected action ('Happy Middlefest, you bastards')—the joke is in the behavior, not in witty narration",
+          "Short, punchy paragraph structure for impact moments",
+          "Said-tag simplicity: 'Kaladin said' for the punchline, no embellishment needed"
+        ]
+      },
+      {
+        "sceneType": "worldbuilding",
+        "source": "style-samples/travel.md, lines 1363-1371 (landscape after highstorm)",
+        "text": "Bluth ignored him. Perhaps we’re nearing our destination, Kaladin thought as he scanned the landscape.\n\nOver the last few days, the hills had given way to uneven rock formations—places where weathering winds had left behind crumbling cliffs and jagged shapes. Grass grew up the rocky sides that saw the most sun, and other plants were plentiful in the shade. The time right after a highstorm was when the land was most alive. Rockbud polyps split and sent out their vines. Other kinds of vine crept from crevices, licking up water. Leaves unfolded from shrubs and trees. Cremlings of all kinds slithered through puddles, enjoying the banquet. Insects buzzed into the air; larger crustaceans—crabs and leggers—left their hiding places. The very rocks seemed to come to life.\n\nKaladin noted a half-dozen windspren flitting overhead, their translucent forms chasing after—or perhaps cruising along with—the highstorm’s last gusts. Tiny lights rose around the plants. Lifespren. They looked like motes of glowing green dust or swarms of tiny translucent insects.\n\nA legger—its hairlike spines lifted to the air to give warning of changes in the wind—climbed along the side of the cart, its long body lined with dozens of pairs of legs. That was familiar enough, but he’d never seen a legger with such a deep purple carapace. Where was Tvlakv taking the caravan? Those uncultivated hillsides were perfect for farming. You could spread stumpweight sap on them—mixed with lavis seeds—during seasons of weaker storms following the Weeping. In four months, you’d have polyps larger than a man’s head growing all along the hill, ready to break open for the grain inside.\n\nThe chulls lumbered about, feasting on rockbuds, slugs, and smaller crustaceans that had appeared after the storm. Tag and Bluth quietly hitched the beasts to their harnesses as a grumpy-looking Tvlakv crawled out of his waterproof refuge. The slavemaster pulled on a cap and deep black cloak against the rain. He rarely came out until the storm had passed completely; he was very eager to get to their destination. Were they that close to the coast? That was one of the only places where they’d find cities in the Unclaimed Hills.",
+        "demonstrates": [
+          "Worldbuilding through character perception: Kaladin sees the post-storm ecology because he's scanning the landscape, not because the narrator wants to info-dump",
+          "Speculative elements treated as mundane: rockbuds, cremlings, lifespren are just facts of this world, not marvels",
+          "Concrete sensory detail: specific species behavior (needles pulling into stalks, polyps splitting, vines licking up water)",
+          "Long paragraph structure for descriptive passages: 6+ sentences building a single sustained image",
+          "POV expertise filtering: Kaladin notices farming potential (stumpweight sap, lavis seeds) because he's a rural darkeyes—this is character, not exposition"
+        ]
+      },
+      {
+        "sceneType": "dialogue-power-dynamic",
+        "source": "style-samples/travel.md, lines 1506-1518 (Shallan and Jasnah's interview)",
+        "text": "Shallan covered a grimace.\n\n“No tantrum,” Jasnah noted. “That is a good sign.”\n\n“Tantrum, Brightness? From a lighteyed woman?”\n\n“You’d be surprised,” Jasnah said dryly. “But attitude alone will not earn your place. Tell me, how extensive is your education?”\n\n“Extensive in some areas,” Shallan said. Then she hesitantly added, “Extensively lacking in others.”\n\n“Very well,” Jasnah said. Ahead, the king seemed to be in a hurry, but he was old enough that even an urgent walk was still slow. “Then we shall do an evaluation. Answer truthfully and do not exaggerate, as I will soon discover your lies. Feign no false modesty, either. I haven’t the patience for a simperer.”\n\n“Yes, Brightness.”",
+        "demonstrates": [
+          "Power dynamic through dialogue rhythm: Jasnah speaks in declaratives, Shallan in questions and qualifiers",
+          "Status rendered through who controls the topic: Jasnah steers, Shallan responds",
+          "Minimal attribution: several lines untagged because the two-person exchange is clear",
+          "Character voice distinction: Jasnah's sentences are precise and cutting; Shallan's are earnest and slightly breathless",
+          "Subtext: the interview is about competence on the surface but about worthiness underneath"
+        ]
+      },
+      {
+        "sceneType": "introspection-through-dialogue",
+        "source": "style-samples/travel.md, lines 1329-1336 (Kaladin on liking Tvlakv)",
+        "text": "“I almost find myself liking him,” Kaladin said, pounding his head back against the cage.\n\n“But…after what he did…”\n\nKaladin shrugged. “I didn’t say Tvlakv isn’t a bastard. He’s just a likable bastard.” He hesitated, then grimaced. “Those are the worst kind. When you kill them, you end up feeling guilty for it.”\n\nThe wagon leaked during highstorms. That wasn’t surprising; Kaladin suspected that Tvlakv had been driven to slaving by ill fortune. He would rather be trading other goods, but something—lack of funds, a need to leave his previous environs with haste—had forced him to pick up this least reputable of careers.",
+        "demonstrates": [
+          "Internal complexity rendered through dialogue, not through introspective narration",
+          "Character contradiction made explicit and funny: 'He's just a likable bastard'—moral ambiguity in a single line",
+          "Physical beat as emotional punctuation: 'pounding his head back against the cage'",
+          "The windspren's confusion mirrors the reader's, creating gentle irony",
+          "Short paragraph structure for conversational rhythm—each speaker gets their own paragraph"
+        ]
+      }
+    ]
+  },
+  "diagnosticChecklist": {
+    "purpose": "Quick-audit yes/no questions for any paragraph of prose. Each question targets a specific failure mode. Run these after writing and before considering a passage complete. A paragraph that fails 2+ questions needs revision.",
+    "questions": [
+      {
+        "id": "DC-01",
+        "question": "Can I identify the POV character from this paragraph alone? Does every perception, thought, and inference belong to them?",
+        "failureMode": "POV violation. Rewrite so all observations are filtered through the POV character's senses and knowledge. Remove any information the POV character could not see, hear, or reason."
+      },
+      {
+        "id": "DC-02",
+        "question": "Are there any filter verbs (noticed, observed, realized, became aware, registered, felt, found herself)?",
+        "failureMode": "Delete the filter verb and render the perceived thing directly. 'She noticed the crack' becomes 'The crack ran floor to ceiling.'"
+      },
+      {
+        "id": "DC-03",
+        "question": "Are dialogue lines attributed with said/asked, action beats, or left untagged? Are there any creative tags (murmured, breathed, intoned) or adverb-laden tags (said softly)?",
+        "failureMode": "Replace creative tags with said or an action beat. Delete adverbs from tags. If the dialogue reads soft, the reader hears it; the adverb is redundant."
+      },
+      {
+        "id": "DC-04",
+        "question": "Are there hedge words (seemed, almost, slightly, somewhat, a bit, rather, quite, perhaps, might have)?",
+        "failureMode": "Commit to the image. 'She almost smiled' becomes either 'She smiled' or 'She didn't smile.' If ambiguity is the point, make the ambiguity concrete: 'Her mouth moved. It could have been a smile.'"
+      },
+      {
+        "id": "DC-05",
+        "question": "Does the paragraph name an emotion directly (felt a surge of anger, experienced guilt, was overwhelmed by sadness)?",
+        "failureMode": "Replace the named emotion with its objective correlative: the physical action, sensory detail, or behavioral change that carries the emotion. The mug set down too hard. The voice gone flat. The hand that finds the bowstring."
+      },
+      {
+        "id": "DC-06",
+        "question": "Are three or more consecutive sentences the same length (all short or all long)?",
+        "failureMode": "Vary sentence length deliberately. Follow a long sentence with a short one. Follow two short sentences with a compound sentence that connects them. The rhythm should undulate, not flatline."
+      },
+      {
+        "id": "DC-07",
+        "question": "Are there stacked descriptors (comma-separated adjective clusters on a single noun, or three+ descriptors inside em-dashes)?",
+        "failureMode": "Pick one descriptor—the strongest one. Delete the rest. If you need more detail, spread descriptors across separate sentences and make each do different work."
+      },
+      {
+        "id": "DC-08",
+        "question": "Does the POV character know something they could not have seen, heard, or reasoned? Does narration reveal another character's internal state?",
+        "failureMode": "Remove the omniscient information. Replace with what the POV character can actually perceive: visible behavior, audible tone, inferred motive framed as inference ('She looked like she hadn't slept')."
+      },
+      {
+        "id": "DC-09",
+        "question": "Are there temporal padding words (after a moment, eventually, finally, a beat passed, presently)?",
+        "failureMode": "Replace the temporal word with a physical action that creates the pause. 'After a moment, she spoke' becomes 'She pulled the stopper from the waterskin and drank before she said anything.'"
+      },
+      {
+        "id": "DC-10",
+        "question": "Read the dialogue aloud. Does it sound like a person talking, or like written prose delivered through a character's mouth?",
+        "failureMode": "Rewrite until it sounds like speech. Real people use contractions, interrupt themselves, trail off, change direction mid-sentence. They don't deliver thesis statements. If the dialogue could work as narration without the quote marks, it's too polished."
+      },
+      {
+        "id": "DC-11",
+        "question": "Does any word appear more than twice on this page (excluding articles, prepositions, and character names)?",
+        "failureMode": "Vary word choice. AI favorites to watch for: seemed, felt, something, simply, clearly, gaze, carefully, slowly. Replace with more specific alternatives or restructure the sentence."
+      },
+      {
+        "id": "DC-12",
+        "question": "If the POV character is Sylvanas, does the paragraph contain any abstract emotional vocabulary (a sense of, a feeling of, she felt)? If Jaina, does emotional naming exceed one brief clinical sentence?",
+        "failureMode": "For Sylvanas: delete all emotional abstraction. Render through physical action and tactical thought only. For Jaina: reduce to one sentence maximum, phrased clinically ('she was afraid; that was useful')."
+      },
+      {
+        "id": "DC-13",
+        "question": "Does the paragraph contain any banned AI patterns from the slop hitlist: ministrations, couldn't help but, elicited, claimed her lips, the evidence of, something shifted, a silence that, walls/armor/mask metaphor (beyond the 1-per-story cap)?",
+        "failureMode": "Delete and rewrite from scratch. These patterns are AI fingerprints. The replacement should not resemble the original construction at all."
+      },
+      {
+        "id": "DC-14",
+        "question": "Is the comma-to-period ratio for this paragraph below 0.5 (telegram prose) or above 1.2 (run-on tendency)?",
+        "failureMode": "Below 0.5: add connective tissue. Join some sentences with subordinate clauses, participial phrases, or conjunctions. Above 1.2: break some compound sentences into two. Find the natural period points."
+      },
+      {
+        "id": "DC-15",
+        "question": "Does this paragraph's humor (if any) match the tone curve? Is there levity in a chapter where humor should be dead (17+)? Is a procedural scene (1-8) missing the dry wit the register expects?",
+        "failureMode": "Calibrate humor to the tone curve. Chapters 1-8: deadpan and dry permitted. 9-14: bitter and sparse. 15-16: gallows only. 17+: zero levity in narration. If humor appears where it shouldn't, delete it. If it's missing where it should be, add a character-appropriate observation."
+      }
+    ]
   },
   "upstreamRefs": [
+    "style-samples/travel.md",
     ".afternoon/config.json",
-    "stories/the-plague-road/prose-sample.md",
     "stories/the-plague-road/plans/story-arc.md",
-    "stories/the-plague-road/characters/jaina.md",
-    "stories/the-plague-road/characters/sylvanas.md"
+    "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md",
+    "stories/the-plague-road/characters/voice-sheets/jaina-voice.md",
+    "stories/the-plague-road/characters/voice-sheets/kelthuzad-voice.md",
+    ".afternoon/plans/memory/characters/jaina-proudmoore.md",
+    ".afternoon/plans/memory/characters/sylvanas-windrunner.md"
   ]
 }

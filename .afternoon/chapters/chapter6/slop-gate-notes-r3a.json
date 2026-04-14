@@ -1,0 +1,374 @@
+{
+  "chapterId": "chapter6",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 1,
+      "keeps": 5,
+      "severities": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "fragment-pivot",
+      "findings": [
+        {
+          "line": 29,
+          "text": "\"Not cleanly.\"",
+          "pattern": "2",
+          "deletionTest": "\"I can see the first three steps.\"",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the next sentence already carries the real limitation without the negation scaffold.",
+          "suggestedFix": "\"I can give you the first three steps.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 19,
+      "kills": 9,
+      "keeps": 10,
+      "severities": {
+        "mild": 5,
+        "moderate": 4,
+        "severe": 0
+      },
+      "dominantPattern": "institutional-and-abstract-agency",
+      "findings": [
+        {
+          "line": 45,
+          "text": "Bread made the cruelty intimate.",
+          "subject": "Bread",
+          "verb": "made",
+          "realAgent": "The plague reaches people because everyone eats bread at the table.",
+          "pattern": "object-causation-shortcut",
+          "severity": "mild",
+          "reason": "The sentence launders the delivery mechanism onto bread instead of naming the human habit and route that make the cruelty intimate.",
+          "suggestedFix": "The cruelty reached people through bread.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 91,
+          "text": "Orders moving fast enough that nobody repeated them.",
+          "subject": "Orders",
+          "verb": "moving",
+          "realAgent": "Runners and officers are relaying commands fast enough that no one needs to repeat an order.",
+          "pattern": "command-abstraction-motion",
+          "severity": "mild",
+          "reason": "The action belongs to the people carrying and relaying commands, not to the orders themselves.",
+          "suggestedFix": "Runners and officers were moving fast enough that nobody repeated an order.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 125,
+          "text": "It only made the refusal gathering in the room feel more exact.",
+          "subject": "the refusal",
+          "verb": "gathering",
+          "realAgent": "Arthas's reactions and reading pattern make his coming refusal clearer to Jaina.",
+          "pattern": "nominalized-refusal-agency",
+          "severity": "mild",
+          "reason": "The sentence turns Arthas's imminent refusal into a self-gathering abstraction instead of naming the person tightening into that decision.",
+          "suggestedFix": "It only made Arthas's refusal feel more exact.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 177,
+          "text": "Command does that in the field.",
+          "subject": "Command",
+          "verb": "does",
+          "realAgent": "Field commanders sort one threat to the healers and another to the soldiers.",
+          "pattern": "institutional-shorthand-agency",
+          "severity": "moderate",
+          "reason": "The line hands human triage behavior to an abstraction and blurs the actual decision-makers.",
+          "suggestedFix": "Commanders do that in the field.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 183,
+          "text": "Jaina had gone in believing a clean argument, laid out cleanly, would force the room to yield.",
+          "subject": "the room",
+          "verb": "yield",
+          "realAgent": "Arthas is the one Jaina hoped would yield to the argument.",
+          "pattern": "room-as-agent",
+          "severity": "moderate",
+          "reason": "The sentence gives surrender to the room instead of naming the person whose refusal actually matters.",
+          "suggestedFix": "Jaina had gone in believing a clean argument, laid out cleanly, would force Arthas to yield.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 295,
+          "text": "It rode the breath.",
+          "subject": "It",
+          "verb": "rode",
+          "realAgent": "The taint is coming in with each breath Jaina draws near the city.",
+          "pattern": "contamination-riding-breath",
+          "severity": "mild",
+          "reason": "The line gives the corruption a decorative locomotion verb instead of naming the concrete carrier.",
+          "suggestedFix": "It came in with every breath.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 307,
+          "text": "The towers were full and feeding the road.",
+          "subject": "The towers",
+          "verb": "feeding",
+          "realAgent": "Full granary towers and active wagon traffic are still sending grain out onto the road.",
+          "pattern": "infrastructure-feeding-road",
+          "severity": "mild",
+          "reason": "The sentence launders the grain movement onto the towers instead of naming the active wagon-and-loading flow.",
+          "suggestedFix": "The towers were full, and wagons were still pulling grain out toward the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 313,
+          "text": "A pressure that had soaked into the place so thoroughly it moved with the ordinary labor of it: flour in sacks, ledgers, bakers, carts, clerks, all of it doing the day's work over a center that should have sent every bell in Lordaeron ringing.",
+          "subject": "A pressure",
+          "verb": "moved",
+          "realAgent": "The city's ordinary labor—flour sacks, ledgers, bakers, carts, and clerks—is carrying contamination through the workday.",
+          "pattern": "abstraction-moving-with-labor",
+          "severity": "moderate",
+          "reason": "The line names the concrete carriers and still lets an abstraction do the moving, which is exactly the laundering this guide hunts.",
+          "suggestedFix": "The pressure had soaked so deeply into the place that flour in sacks, ledgers, bakers, carts, and clerks all carried it through the day's work.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 325,
+          "text": "A camp would wait for orders.",
+          "subject": "A camp",
+          "verb": "wait",
+          "realAgent": "Soldiers in camp would wait for orders to reach them.",
+          "pattern": "camp-as-bureaucratic-proxy",
+          "severity": "moderate",
+          "reason": "The sentence compresses a human chain of obedience into an abstract camp noun and drops the people actually waiting.",
+          "suggestedFix": "Soldiers in camp would wait for orders.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 17,
+      "kills": 5,
+      "keeps": 12,
+      "severities": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "tic-2-overloaded-marked",
+      "findings": [
+        {
+          "line": 5,
+          "text": "The wheel-inside-wheel mark on eleven depots.",
+          "pattern": "tic-2-overloaded-marked",
+          "countInChapter": 7,
+          "cap": 2,
+          "severity": "mild",
+          "reason": "This is one of the excess 'mark/marked' uses beyond the chapter cap, and stronger physical instances survive elsewhere.",
+          "suggestedFix": "The wheel-inside-wheel sigil on eleven depots.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 23,
+          "text": "She knew every mark on it.",
+          "pattern": "tic-2-overloaded-marked",
+          "countInChapter": 7,
+          "cap": 2,
+          "severity": "mild",
+          "reason": "This is a generic mental-use instance of 'mark' and is weaker than the chapter's literal sign references.",
+          "suggestedFix": "She knew every notation on it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 115,
+          "text": "The marked depots, the cleaned shelves, the blank books, the dead man at Millbrook Spur without a wound, the Barov name appearing too often to ignore and still not often enough to prove.",
+          "pattern": "tic-2-overloaded-marked",
+          "countInChapter": 7,
+          "cap": 2,
+          "severity": "mild",
+          "reason": "The adjective is functional but expendable, and the chapter has already spent its cap on stronger physical sign uses.",
+          "suggestedFix": "The tagged depots, the cleaned shelves, the blank books, the dead man at Millbrook Spur without a wound, the Barov name appearing too often to ignore and still not often enough to prove.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 271,
+          "text": "Two men on two roads using the same farewell was enough to mark it.",
+          "pattern": "tic-2-overloaded-marked",
+          "countInChapter": 7,
+          "cap": 2,
+          "severity": "mild",
+          "reason": "This is the weakest mental-note instance and becomes obvious repetition after the earlier physical mark language.",
+          "suggestedFix": "Two men on two roads using the same farewell was enough to flag it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 315,
+          "text": "Every depot they had traced, every mark copied from a ledger, every village that had sickened without understanding why—all of it pointed here, and here was a functioning node in plain sight.",
+          "pattern": "tic-2-overloaded-marked",
+          "countInChapter": 7,
+          "cap": 2,
+          "severity": "mild",
+          "reason": "This late-chapter reuse pushes the 'mark' family well past cap and is weaker than the earlier literal sign references kept.",
+          "suggestedFix": "Every depot they had traced, every symbol copied from a ledger, every village that had sickened without understanding why—all of it pointed here, and here was a functioning node in plain sight.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 15,
+    "totalKeeps": 27,
+    "mildKills": 11,
+    "moderateOrSevereKills": 4,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": 3,
+    "killsWithFix": 15,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 4 moderate intent-smear kills remain in command/room/pressure/camp abstractions, plus 11 mild kills from one negation pivot and an overloaded 'mark' tic cluster.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.409,
+        "target": 0.72,
+        "delta": -0.311,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "actual": 0.799,
+        "target": 0.7,
+        "delta": 0.099,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 42.4,
+        "target": 19.0,
+        "delta": 23.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "concerns": [
+        "comma_period_ratio below calibrated range",
+        "one_sentence_paragraph_pct above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 2.1% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "telegramRunCount": 17,
+      "textureDesertCount": 8
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 22,
+        "totalViolations": 1,
+        "overCapCategories": [
+          "narrator_verdict"
+        ],
+        "reviewedPassASignals": [
+          "punctuation_tics",
+          "participial_attachment",
+          "simile_overload"
+        ]
+      }
+    }
+  }
+}

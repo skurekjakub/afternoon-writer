@@ -1,0 +1,265 @@
+{
+  "chapterId": "chapter2",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "dominantPattern": "F6-inventory-paragraph",
+      "failureModeCounts": {
+        "F1": 0,
+        "F2": 0,
+        "F3": 2,
+        "F4": 1,
+        "F5": 0,
+        "F6": 2,
+        "F7": 0
+      },
+      "findings": [
+        {
+          "text": "She heard herself doing it again—careful, pared down, built for someone she assumed needed the simpler version.",
+          "pattern": "F3-filter-drag",
+          "severity": "mild",
+          "word": "heard",
+          "deletionTest": "She was doing it again—careful, pared down, built for someone she assumed needed the simpler version.",
+          "issue": "The self-monitoring lands without the cognition scaffold.",
+          "suggestedFix": "She was doing it again—careful, pared down, built for someone she assumed needed the simpler version.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "text": "The mare accepted this with patient contempt, shifted once under her, then settled as if she had carried worse riders in worse weather.",
+          "pattern": "F3-hedge-drag",
+          "severity": "mild",
+          "word": "as if",
+          "deletionTest": "The mare accepted this with patient contempt, shifted once under her, then settled.",
+          "issue": "The hedge turns a clean comic read into soft approximation.",
+          "suggestedFix": "The mare accepted this with patient contempt, shifted once under her, then settled.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "text": "The escort formed around Sylvanas without discussion. Cyndia on the left. Lyriel on the right with a longbow already strung. Neral at the rear, broad-shouldered and steady, the sort who looked built to keep order when the road broke.",
+          "pattern": "F6-inventory-paragraph",
+          "severity": "moderate",
+          "issue": "The paragraph turns formation placement into bullet-point prose instead of flowing through Jaina's moving perception.",
+          "suggestedFix": "The escort closed around Sylvanas without a word—Cyndia left, Lyriel right with her longbow already strung, Neral steady at the rear—and dropped into formation when Sylvanas spoke.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "text": "\"Yes,\" Jaina said, and now her voice came out in its natural cadence, quicker and cleaner.",
+          "pattern": "F4-over-translation",
+          "severity": "mild",
+          "whatItRestates": "The sharper mage-register line that follows already shows the shift in how Jaina is speaking.",
+          "issue": "The attribution explains the register correction instead of trusting the next line to carry it.",
+          "suggestedFix": "\"Yes,\" Jaina said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "text": "The formation had pulled tight now. Cyndia close enough that stirrups nearly brushed. Lyriel ahead with bow in hand. Neral near enough behind that Jaina could hear her horse breathe.",
+          "pattern": "F6-inventory-paragraph",
+          "severity": "moderate",
+          "issue": "This is another list-paragraph cluster: placement fragments in sequence instead of one shaped perception.",
+          "suggestedFix": "The formation tightened until Cyndia's stirrup nearly brushed hers, with Lyriel ahead and Neral close enough behind that Jaina could hear her horse breathe.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "B1-sentence-too-polished-for-pov",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in fast, exact magical diagnostics and practical hypothesis chains. She will downshift for soldiers, but her mind still runs through evidence, pressure, and structure; she does not naturally drift into budget metaphors or polished thematic captions.",
+      "registerConfidence": "HIGH",
+      "findings": [
+        {
+          "text": "Whatever silver had paid for this border, it had not stretched far enough south.",
+          "pattern": "B1-sentence-too-polished-for-pov",
+          "severity": "moderate",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The line swaps Jaina's magical/infrastructural read for an external budget metaphor that sounds authored from outside her body.",
+          "confidence": "moderate",
+          "suggestedFix": "The ward-stones had thinned too fast; south of the pass, the gaps were already opening.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "text": "Neral at the rear, broad-shouldered and steady, the sort who looked built to keep order when the road broke.",
+          "pattern": "B1-sentence-too-polished-for-pov",
+          "severity": "moderate",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The closing gloss reads like an author's character capsule, not Jaina's immediate sightline on a rider settling into escort position.",
+          "confidence": "moderate",
+          "suggestedFix": "Neral held the rear, broad-shouldered and steady, reins loose in practiced hands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "text": "Jaina could feel the rangers listening to the dark on all sides of her, each one holding her own piece of the road.",
+          "pattern": "B1-sentence-too-polished-for-pov",
+          "severity": "moderate",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence turns a formation read into a polished caption; Jaina would register spacing and angles, not 'holding her own piece of the road.'",
+          "confidence": "moderate",
+          "suggestedFix": "Jaina heard it in the spread of hoofbeats around her: Cyndia close, Lyriel ahead, Neral behind, each ranger covering a different angle of the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "dominantPattern": "P2-tactical-prestige-compression",
+      "findings": [
+        {
+          "text": "Jaina could feel the rangers listening to the dark on all sides of her, each one holding her own piece of the road.",
+          "pattern": "P2-tactical-prestige-compression",
+          "severity": "moderate",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The exact spacing or watch angles that make the escort feel divided into sectors.",
+          "reason": "The line sounds tactically sharp without naming the concrete carrier until the reader imagines one.",
+          "suggestedFix": "Jaina heard it in the spread of hoofbeats around her: Cyndia close, Lyriel ahead, Neral behind, each ranger covering a different angle of the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "Reviewed the two translation-adjacent turns (Jaina's self-noted downshift at line 33 and the fuller mage cadence at line 165). Neither is an explicit plain-speech setup/reply exchange, and the dialogue still names usable payload rather than fake street-level shorthand."
+    }
+  ],
+  "summary": {
+    "totalKills": 9,
+    "totalKeeps": 8,
+    "mildKills": 3,
+    "moderateOrSevereKills": 6,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 9,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass B still has six moderate kills across GPT-5 prose habits, narrator seep, and phantom concreteness, plus three additional mild line edits. The loop is improving, but the prose still drifts into inventory-list structure and polished abstraction.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.466,
+        "target": 0.72,
+        "delta": -0.254,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside-range"
+      },
+      "sentence_length_cv": {
+        "actual": 0.749,
+        "target": 0.7,
+        "delta": 0.049,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "within-range"
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 43.0,
+        "target": 19.0,
+        "delta": 24.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside-range"
+      },
+      "structuralConcerns": [
+        "comma_period_ratio below calibrated floor",
+        "one_sentence_paragraph_pct far above calibrated ceiling"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 13,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 19,
+        "totalViolations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

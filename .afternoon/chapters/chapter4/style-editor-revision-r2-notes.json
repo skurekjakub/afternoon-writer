@@ -1,0 +1,82 @@
+{
+  "chapterId": "chapter4",
+  "mode": "revision",
+  "iteration": 2,
+  "feedbackPath": ".afternoon/chapters/chapter4/style-auditor-notes-r1.json",
+  "zonesProcessed": 11,
+  "changes": [
+    {
+      "zone": "P17-P20",
+      "construction": "compound clause",
+      "before": "\"This spreads faster. It goes for the gut and keeps going.\"",
+      "after": "\"This spreads faster, goes for the gut, and keeps going.\"",
+      "rationale": "Broke the clipped captain exchange with a single carried sentence that still sounds like Sylvanas."
+    },
+    {
+      "zone": "P47-P51",
+      "construction": "participial linkage",
+      "before": "The contamination answered at once, flaring through the crystal before she had settled her second breath. She had seen its trace in corpses, in spoiling grain, in the well at Millhaven.",
+      "after": "The contamination answered at once, flaring through the crystal before she had settled her second breath, and what she had seen as trace in corpses, in spoiling grain, and in the well at Millhaven was here alive.",
+      "rationale": "Joined Jaina's reading to the prior evidence so the deduction carries forward instead of landing as separate short hits."
+    },
+    {
+      "zone": "P85-P91",
+      "construction": "compound joins",
+      "before": "\"Pleasant. Forgettable. Prices just below the usual rate. Two deliveries so far.\"",
+      "after": "\"Pleasant, forgettable, prices just below the usual rate, and two deliveries so far.\"",
+      "rationale": "Collapsed the supplier-summary burst into a single carried line, then matched it with a denser medical summary from Jaina."
+    },
+    {
+      "zone": "P120-P134",
+      "construction": "participial bridges and action-linked dialogue",
+      "before": "\"What's your name?\" / \"For what?\" / \"Who gave you the grain?\"",
+      "after": "Jaina's questions now ride on action beats and carry through Davan's physical fear responses instead of landing as isolated short drops.",
+      "rationale": "The interrogation needed more sentence-sharing between fear, aim, and inquiry while keeping the pressure compressed."
+    },
+    {
+      "zone": "P135-P139",
+      "construction": "emdash and connective phrasing",
+      "before": "Same better-price story. Same road face built to slide past memory. \"Horse. Height. A mark.\"",
+      "after": "Same better-price story, same road face built to slide past memory—the thing had hands inside the road, and they wore whatever shape would get through a village gate. \"Horse, height, a mark—anything that stays put.\"",
+      "rationale": "Replaced the fragment chain with connective tissue without softening the interrogation's urgency."
+    },
+    {
+      "zone": "P166-P172",
+      "construction": "clause-heavy confirmation",
+      "before": "\"Yes.\" / \"That was what he meant.\" / \"Yes.\"",
+      "after": "\"Yes,\" Jaina said, hearing the line again now that it was too late. \"That was what he meant.\"",
+      "rationale": "Connected the post-poison realization to Jaina's understanding instead of stacking bare confirmations."
+    },
+    {
+      "zone": "P180-P185",
+      "construction": "compound handoff",
+      "before": "\"Then leave the method.\" / \"It's careful work.\" / \"Not beyond a trained garrison mage.\"",
+      "after": "\"It's careful work,\" Jaina said, and Sylvanas answered before the objection could do any more work.",
+      "rationale": "Braided the medical timetable and departure decision into a single argumentative carry so the Andorhal pivot lands as escalation."
+    }
+  ],
+  "selfAuditFixes": 4,
+  "wordCount": {
+    "before": 4601,
+    "after": 4703
+  },
+  "metrics": {
+    "before": {
+      "participial_pct": 7.3,
+      "compound_pct": 8.0,
+      "emdash_pct": 3.0,
+      "semicolon_pct": 2.0,
+      "short_pct": 52.4,
+      "texture_score": 20.3
+    },
+    "after": {
+      "participial_pct": 8.0,
+      "compound_pct": 11.0,
+      "emdash_pct": 4.0,
+      "semicolon_pct": 2.4,
+      "short_pct": 48.1,
+      "texture_score": 25.4,
+      "verdict": "within_target"
+    }
+  }
+}

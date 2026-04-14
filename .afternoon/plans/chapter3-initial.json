@@ -15,10 +15,9 @@
   ],
   "immediateObjective": "Read Millhaven, find out what happened to its people, and decide whether the danger is really moving toward Quel'Thalas.",
   "constraints": [
-    "Limited Third Absolute — Sylvanas perception only.",
-    "No grain confirmation or organized Cult proof in this chapter.",
-    "No thaw, trust, or easy rapport between Sylvanas and Jaina.",
-    "The old grain seller must read as useful local intelligence, not an exposed threat."
+    "Limited third, absolute — Sylvanas only.",
+    "No thaw or trust-language overstatement yet — Jaina becomes necessary read, not emotional comfort.",
+    "No grain confirmation, organized cult proof, or recognition of the old trader as anything but a local source."
   ],
   "metaInfo": {
     "worldbuildingReferences": [
@@ -119,24 +118,24 @@
   "castAndHandoffRules": {
     "entries": [
       {
-        "character": "Cyndia",
+        "character": "Ranger Cyndia",
         "rule": "Remains with the party and is the ranger Sylvanas trusts most on the ground."
       },
       {
-        "character": "Lyriel",
+        "character": "Ranger Lyriel",
         "rule": "Stays with the party into Chapter 4."
       },
       {
-        "character": "Neral",
-        "rule": "Present at chapter open. She stays through the cellar rescue and the follow-up tracking pass; once the girl's testimony and the ground read together show the risen dead are likely mustering toward Quel'Thalas, she is sent north with the warning dispatch and exits the traveling party this chapter."
+        "character": "Ranger Neral",
+        "rule": "Present at chapter open. She stays through the cellar rescue and the follow-up tracking pass, then rides north with the survivor and warning dispatch once the dead's direction is confirmed."
       },
       {
         "character": "Unnamed escort ranger",
-        "rule": "Present at chapter open as the spare fourth rider from Chapter 2. She leaves north with Neral and the survivor so the southbound group reduces cleanly to the four named leads."
+        "rule": "Present at chapter open as the spare fourth rider from Chapter 2. Leaves north with Neral and the survivor so the southbound group reduces cleanly to the four named leads."
       },
       {
         "character": "Survivor girl",
-        "rule": "Found in a cellar this chapter. She does not travel with Sylvanas and Jaina afterward; Neral escorts her north on horseback once the warning dispatch leaves."
+        "rule": "Found in a cellar this chapter. She does not continue south with Sylvanas and Jaina; Neral escorts her north on horseback once the dispatch leaves."
       },
       {
         "character": "Old grain seller",
@@ -162,11 +161,17 @@
         "The contamination is real and physical.",
         "How it got here is still unclear."
       ],
-      "arcPressure": "Sylvanas can still treat Jaina's magic as consultative until Millhaven gives them a disaster spoor alone cannot solve.",
-      "enrichment": {
-        "detail": "Northern Lordaeron border villages should read as rough timber-and-thatch settlements on muddy agricultural roads, with Millhaven's intact crossroads normalcy making the silence worse rather than picturesque. Harvest-time livestock smell and household routine are the baseline the dead quiet erases.",
-        "source": "stories/the-plague-road/locations/lordaeron-and-northrend.md; Warcraft Wiki: Lordaeron (kingdom)"
-      },
+      "arcPressure": "The first empty village forces Sylvanas to admit this is no longer a border anomaly she can classify from a saddle. If the dead are missing, the threat is already mobile.",
+      "enrichment": [
+        {
+          "detail": "Border-country villages south of Quel'Thalas should feel rougher and more agricultural than Eversong: muddy lanes, livestock trace, woodsmoke residue, autumn-harvest wear, and river-working buildings instead of polished elven quiet.",
+          "source": "Warcraft Wiki: Lordaeron; local ref: stories/the-plague-road/locations/lordaeron-and-northrend.md"
+        },
+        {
+          "detail": "Millhaven's first impression should stay environmental before forensic: river bend, still mill wheel, squat granary, cold chimneys, and no answering dog or lantern.",
+          "source": "local ref: .afternoon/plans/memory/locations/millhaven.md"
+        }
+      ],
       "beats": [
         {
           "beatId": 1,
@@ -190,18 +195,18 @@
           "sensoryAnchors": [
             "cold stove",
             "swinging door",
-            "missing livestock noise",
-            "dust on untouched surfaces",
-            "horses shying from silence"
+            "no livestock noise",
+            "dust on places that should have been touched today",
+            "horses reacting to the silence"
           ],
-          "transitionIntent": "Sylvanas orders a real sweep instead of leaving the whole village to Jaina's magic."
+          "transitionIntent": "sweep-pressure: Sylvanas orders a real physical search instead of leaving the whole village to Jaina's magic."
         },
         {
           "beatId": 2,
           "beatType": "scene",
           "scenePhase": "conflict",
           "goal": "Read the village for timeline and population fate.",
-          "conflict": "Every building says left in the middle of living while offering no bodies and no obvious kill site.",
+          "conflict": "Every building says 'left in the middle of living' while offering no bodies and no obvious kill site.",
           "outcome": {
             "type": "no-and",
             "summary": "The sweep produces evidence of staggered collapse but no explanation for the vanished population."
@@ -215,11 +220,11 @@
             "Whether the missing population fled, was taken, or rose."
           ],
           "sensoryAnchors": [
-            "stale food",
-            "abandoned toy",
-            "cat moving alone"
+            "food gone stale on tables",
+            "child's toy left where it fell",
+            "cat as the only casual living presence"
           ],
-          "transitionIntent": "Jaina tests the contamination inside the most saturated structures."
+          "transitionIntent": "verification-pressure: Jaina tests the contamination inside the most saturated structures."
         },
         {
           "beatId": 3,
@@ -240,12 +245,11 @@
             "Whether it came through grain, water, soil, or some slower layering."
           ],
           "sensoryAnchors": [
-            "grain dust",
-            "closed-space heat",
-            "invisible wrongness",
-            "Jaina kneeling in the granary"
+            "Jaina kneeling in grain while Sylvanas clears the room behind her",
+            "normal-looking stores with invisible wrongness",
+            "stale dust and closed-space heat"
           ],
-          "transitionIntent": "Sylvanas takes the search outside and puts her hands on the ground herself."
+          "transitionIntent": "ground-proof: Sylvanas takes the search outside and puts her hands on the ground herself."
         },
         {
           "beatId": 4,
@@ -269,17 +273,14 @@
             "Where the rest of the villagers are."
           ],
           "sensoryAnchors": [
-            "churned dirt",
-            "broken crust",
-            "muddied spoor",
-            "Cyndia counting under her breath"
+            "broken dirt where too many feet dragged through the same lane",
+            "Sylvanas crouched over muddied sign she refuses to overcall",
+            "Cyndia frustrated by counts without a trustworthy line"
           ],
-          "transitionIntent": "The ground is not enough; the chapter now needs a living witness or cleaner evidence."
+          "transitionIntent": "witness-pressure: the ground is not enough; the chapter now needs a living witness or cleaner evidence."
         }
       ],
-      "sceneLevelWarnings": [
-        "Scene 1 runs four straight scene beats, all darkening the chapter before any sequel relief arrives. The pressure is usable, but the opening stays intentionally heavy."
-      ]
+      "sceneLevelWarnings": []
     },
     {
       "sceneId": 2,
@@ -298,11 +299,17 @@
         "Many bodies are missing.",
         "The ground alone has not yet proved where the dead went."
       ],
-      "arcPressure": "The witness only becomes actionable once Sylvanas lets testimony, magic, and ranger ground-read build one picture together.",
-      "enrichment": {
-        "detail": "Canonical plague spread in Lordaeron runs through tainted food supplies, with victims dying within days and rising feral soon after. Keep the girl's testimony on sickness, death, and night movement rather than letting anyone solve the delivery mechanism on-page yet.",
-        "source": "Warcraft Wiki: Plague of Undeath; stories/the-plague-road/plans/plague-mechanism.md"
-      },
+      "arcPressure": "A living witness can turn disgust into proof, but only if Sylvanas lets Jaina's read and a terrified child's fragments count together instead of trusting only what the ground says cleanly.",
+      "enrichment": [
+        {
+          "detail": "Canon plague spread in Lordaeron through infected food supplies; early civilian experience would surface as sickness moving house to house, deaths within days, and the dead rising soon after, so the girl's remembered sweetness and staggered collapse are good witness texture without proving grain yet.",
+          "source": "Warcraft Wiki: Plague of Undeath"
+        },
+        {
+          "detail": "Lordaeron's ordinary life should still feel recently present in the houses and cellar spaces: the horror is not ruin but interruption, which keeps the survivor rescue from reading generically post-apocalyptic.",
+          "source": "Warcraft Wiki: Lordaeron; local ref: stories/the-plague-road/locations/lordaeron-and-northrend.md"
+        }
+      ],
       "beats": [
         {
           "beatId": 5,
@@ -314,7 +321,7 @@
             "type": "yes-but",
             "summary": "They get a witness, but the testimony is fragmentary and emotionally broken."
           },
-          "valueShift": "too much danger, not enough proof -> living testimony at last",
+          "valueShift": "mobilization risk without proof -> living testimony at last",
           "newOnPageInformation": [
             "At least one living person survived inside the village.",
             "Neral is the first ranger the girl does not recoil from, which makes her the natural escort if the child has to be moved.",
@@ -327,11 +334,11 @@
           ],
           "sensoryAnchors": [
             "cellar damp",
-            "hoarse whisper",
-            "blanket stink",
-            "Jaina in the dark"
+            "child's whisper gone hoarse",
+            "Jaina lowering herself into the dark while Sylvanas controls the space above",
+            "Neral crouching to the girl's height instead of looming over her"
           ],
-          "transitionIntent": "The girl can talk, but only in broken pieces; the party must extract what is useful without pretending she is reliable."
+          "transitionIntent": "extraction-pressure: the girl can talk, but only in broken pieces, so the party must pull signal from trauma without pretending she is reliable."
         },
         {
           "beatId": 6,
@@ -356,12 +363,11 @@
             "Whether the grain clue matters or is incidental."
           ],
           "sensoryAnchors": [
-            "blanket scrap",
-            "tremor in remembered details",
-            "quiet ranger cadence",
-            "dry mouth"
+            "girl's fingers locked around a blanket scrap",
+            "Jaina hearing the tremor in every remembered detail",
+            "Neral keeping the girl steady with quiet, practical questions instead of orders"
           ],
-          "transitionIntent": "The testimony points north, but Sylvanas still needs the ground to agree before she spends riders on warning."
+          "transitionIntent": "corroboration-pressure: the testimony points north, but Sylvanas still needs the ground to agree before she spends riders on warning."
         },
         {
           "beatId": 7,
@@ -385,12 +391,11 @@
             "Whether the warning will arrive in time to matter."
           ],
           "sensoryAnchors": [
-            "parallel grooves",
-            "north-road cut",
-            "fingertips in dirt",
-            "count turning to alarm"
+            "parallel grooves finally clean enough to trust at the north road cut",
+            "Sylvanas reading the ground with her fingertips and committing to the call",
+            "Cyndia's count turning from doubt into alarm"
           ],
-          "transitionIntent": "The proof is finally good enough to justify a warning north, and the survivor now has to leave with it."
+          "transitionIntent": "dispatch-pressure: the proof is finally good enough to justify a warning north, and the survivor now has to leave with it."
         }
       ],
       "sceneLevelWarnings": []
@@ -414,11 +419,21 @@
         "Neral is the obvious dispatch rider.",
         "\"New grain man\" exists only as one witness fragment."
       ],
-      "arcPressure": "Sylvanas has to split her strength—warn home now and keep pushing south—while the first hidden hand on the road passes as ordinary help.",
-      "enrichment": {
-        "detail": "Mal'Ganis canonically oversees plague operations in Lordaeron and later passes as mundane mortal authority, so the trader works best as helpful, road-wise, and instantly forgettable rather than sinister. The farewell can snag on Sylvanas's ear without turning the encounter into an exposed reveal.",
-        "source": "Warcraft Wiki: Mal'Ganis; stories/the-plague-road/characters/malganis.md"
-      },
+      "arcPressure": "Sylvanas has to weaken her escort to get warning north while deciding how much weight to give Jaina's read, a frightened child's clue, and a stranger's road knowledge without losing control of the investigation.",
+      "enrichment": [
+        {
+          "detail": "Farstriders are the 'eyes and blades' of Quel'Thalas and are built to meet danger before it reaches the gates, which supports a clean split here: warning north, smaller investigation unit south.",
+          "source": "Warcraft Wiki: Farstriders"
+        },
+        {
+          "detail": "The Lordaeron plague moved through ordinary grain distribution out of Andorhal, so an empty wagon with grain dust in the slats is canon-consistent road texture even while the chapter keeps grain only as an unresolved clue.",
+          "source": "Warcraft Wiki: Plague of Undeath; local ref: stories/the-plague-road/locations/lordaeron-and-northrend.md"
+        },
+        {
+          "detail": "Mal'Ganis canonically commands plague operations in Lordaeron and later successfully uses an unremarkable mortal guise; if the old trader is his first mask here, keep him practical, forgettable, and locally convincing rather than ominous on the nose.",
+          "source": "Warcraft Wiki: Mal'Ganis"
+        }
+      ],
       "beats": [
         {
           "beatId": 8,
@@ -438,12 +453,11 @@
             "Whether the warning will arrive in time to matter."
           ],
           "sensoryAnchors": [
-            "sealed dispatch tube",
-            "saddle leather",
-            "child clinging to Neral",
-            "unicorn talk"
+            "written message sealed in haste",
+            "dispatch tube strapped at Neral's saddle",
+            "Neral calming the girl with matter-of-fact talk about safe stables, sweet feed, and the horned white 'unicorn' mounts children in Quel'Thalas grow up dreaming about"
           ],
-          "transitionIntent": "The decision is made; one last road contact can still sharpen the picture before the party splits directions."
+          "transitionIntent": "road-contact: the decision is made; one last local exchange can still sharpen the picture before the party splits directions."
         },
         {
           "beatId": 9,
@@ -465,12 +479,12 @@
             "That the trader is linked to the contamination itself."
           ],
           "sensoryAnchors": [
-            "grain dust in wagon slats",
-            "empty cart",
-            "forgettable face",
-            "horse sidestep"
+            "grain dust in the slats of the empty wagon",
+            "surprise breaking through his otherwise forgettable face",
+            "girl settling in front of Neral's saddle while the horse sidesteps"
           ],
-          "transitionIntent": "The exchange sharpens the road picture just before the party splits north and south."
+          "transitionIntent": "split-pressure: the exchange sharpens the road picture just before the party commits to opposite directions.",
+          "plantedThread": "The old trader's road-farewell cadence and grain-wagon texture should feel specific enough to recur later without reading suspicious now."
         },
         {
           "beatId": 10,
@@ -492,11 +506,11 @@
             "Whether the trader matters at all beyond this practical handoff."
           ],
           "sensoryAnchors": [
-            "brief glance back",
-            "wheels starting north again",
-            "girl against Neral's saddle"
+            "Sylvanas's brief glance back",
+            "wagon wheels starting north again after that startled pause",
+            "girl silent against Neral's saddle as the horse steps out"
           ],
-          "transitionIntent": "With Neral escorting the girl north, the road south narrows to Sylvanas, Jaina, Cyndia, and Lyriel."
+          "transitionIntent": "reduced-party: with Neral escorting the girl north, the road south narrows to Sylvanas, Jaina, Cyndia, and Lyriel."
         },
         {
           "beatId": 11,
@@ -505,7 +519,7 @@
           "emotion": "Forward pressure held in check.",
           "dilemma": "Turn back after warning the border, or keep following the stronger readings and the live-settlement trail.",
           "decision": "Keep moving south toward the next still-living village.",
-          "valueShift": "parting complete, attention pulled south again -> committed pursuit",
+          "valueShift": "parting complete, eyes south again -> committed pursuit",
           "newOnPageInformation": [
             "Only Sylvanas, Jaina, Cyndia, and Lyriel are riding south now.",
             "They are committing to a multi-day push deeper into Lordaeron."
@@ -515,11 +529,11 @@
             "The organization behind the plague."
           ],
           "sensoryAnchors": [
-            "broader farmland",
+            "road opening into broader farmland",
             "stronger readings ahead",
-            "one fewer escort horse"
+            "one fewer escort horse in the party after Neral's dispatch"
           ],
-          "transitionIntent": "Chapter 4 opens two days later at the next village, still alive and still misunderstanding what is happening to it."
+          "transitionIntent": "chapter-hook: Chapter 4 opens two days later at the next village, still alive and still misunderstanding what is happening to it."
         }
       ],
       "sceneLevelWarnings": []
@@ -534,8 +548,8 @@
     ],
     "departuresLocked": [
       "Neral is sent north with the warning dispatch and the survivor girl.",
-      "The unnamed escort ranger leaves north with Neral and the survivor girl.",
-      "The survivor girl exits the investigation party under Neral's escort."
+      "The unnamed escort ranger goes north with Neral and the survivor girl.",
+      "The survivor girl is headed north under Neral's escort on horseback."
     ],
     "factsLockedForChapter4": [
       "Millhaven is dead, and the survivor girl's testimony plus the follow-up tracking pass confirmed its dead marched toward Quel'Thalas.",
@@ -543,7 +557,7 @@
       "There was one survivor girl in a cellar.",
       "Neral escorted that girl north with the warning dispatch on horseback.",
       "The party riding into Chapter 4 is only Sylvanas, Jaina, Cyndia, and Lyriel.",
-      "They have heard new grain seller once, but do not yet know grain is what carries it."
+      "They have heard 'new grain seller' once, but do not yet know grain is what carries it."
     ],
     "factsNotYetEarned": [
       "Grain confirmation.",
@@ -551,19 +565,51 @@
       "Recognition of the trader as anything but a helpful local."
     ]
   },
+  "researchSources": [
+    {
+      "label": "Warcraft Wiki — Lordaeron",
+      "url": "https://warcraft.wiki.gg/wiki/Lordaeron",
+      "usedFor": [
+        "border-country texture",
+        "Lordaeron geography",
+        "civilian-life baseline"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Plague of Undeath",
+      "url": "https://warcraft.wiki.gg/wiki/Plague_of_Undeath",
+      "usedFor": [
+        "infected grain distribution context",
+        "civilian symptom timeline",
+        "reanimation cadence"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Farstriders",
+      "url": "https://warcraft.wiki.gg/wiki/Farstriders",
+      "usedFor": [
+        "Farstrider mission framing",
+        "dispatch logic",
+        "ranger field culture"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Mal'Ganis",
+      "url": "https://warcraft.wiki.gg/wiki/Mal%27Ganis",
+      "usedFor": [
+        "Lordaeron plague command role",
+        "disguise plausibility",
+        "old trader mask calibration"
+      ]
+    }
+  ],
   "validation": {
     "passed": true,
-    "normalizations": [
-      "Normalized beatType and scenePhase from the markdown beat headings.",
-      "Added scene-level arcPressure where the stance test or forced choice is clearly active.",
-      "Compressed several sensoryAnchors from sentence-like phrasing into reusable keyword clusters.",
-      "Retargeted beat 5 valueShift to inherit beat 4's actual end-state instead of an older draft label."
-    ],
     "warnings": [
-      "Scene 1 beats 1-4 are all scene beats, and the chapter does not reach its first sequel until beat 8. The opening escalation is strong, but the chapter stays scene-heavy for a long stretch.",
-      "Beats 1-4 all shift darker in the same direction, and beats 6-8 do it again after the witness turn. The attrition suits the material, but it makes the chapter's pressure unusually relentless.",
-      "The current outline supersedes an older investigation-arc summary that still describes a survivor family outside the contamination radius. Kept the cellar-survivor / Neral-dispatch version as operative outline authority for this run."
+      "Beats 1-7 run seven consecutive scene beats before the sequel at beat 8. Keep the village-read and cellar sections sharply differentiated so escalation does not flatten.",
+      "Beats 1-4 all darken the chapter in the same downward direction as Millhaven goes from silence to saturation to missing dead. Vary the prose texture so each reveal does different work.",
+      "Scene outcomes skew entirely toward yes-but / no-and. The pressure is strong, but the chapter will need careful modulation so every gain does not feel blunted in the same way."
     ],
-    "enrichments": 3
+    "enrichments": 7
   }
 }

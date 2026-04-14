@@ -1,0 +1,204 @@
+{
+  "chapterId": "chapter1",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "severity": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F3-filter-hedge-drag",
+      "findings": [
+        {
+          "id": "finding-1",
+          "pattern": "F3-filter-hedge-drag",
+          "severity": "mild",
+          "line": 233,
+          "text": "She knew this stretch: where rain slicked the ground, where riders had to go single file, where scouts liked to wait when the south grew restless.",
+          "issue": "The filter verb 'knew' pads a direct tactical read that can be rendered without cognition scaffolding.",
+          "deletionTest": "This stretch: where rain slicked the ground, where riders had to go single file, where scouts liked to wait when the south grew restless.",
+          "analyticContext": "Overlaps the rhythm scorer's stacked telegram-run / texture-desert zone in the southbound ride section.",
+          "suggestedFix": "Rain slicked the ground here, riders had to go single file, and scouts liked to wait when the south grew restless.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "finding-2",
+          "pattern": "F4-narrative-over-translation",
+          "severity": "mild",
+          "line": 337,
+          "text": "This was becoming inconveniently human.",
+          "issue": "The sentence translates the concrete evidence already supplied by boots, ink, and frost-burned hands instead of trusting those details to carry the turn.",
+          "whatItRestates": "Boots. Ink. Frost burns.",
+          "analyticContext": "Falls inside a rhythm-scorer texture-desert passage, so deletion also reduces decorative scaffolding in a structurally flat zone.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Residual seep candidates read as Sylvanas's clipped tactical register rather than narrator commentary, and the strongest abstract-caption lines were already handled by the child pass-B guides."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P4-unanchored-interpretive-summary",
+      "findings": [
+        {
+          "id": "finding-1",
+          "pattern": "P4-unanchored-interpretive-summary",
+          "severity": "mild",
+          "line": 401,
+          "text": "Wrong in every way that mattered.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The sentence never names the concrete mismatch Sylvanas is reading: field-worn researcher instead of the polished court mage she expected.",
+          "issue": "The line asks the reader to feel the reversal without cashing the reversal out into named specifics.",
+          "analyticContext": "Sits inside overlapping telegram-run / texture-desert flags in the holding-room reveal.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in this chapter sets up a plain-speech translation request, so the guide had no simplification chain to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 6,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 mild pass-B issues remain and none rise to moderate/severe, but the chapter still shows structural rhythm concerns and a below-target texture profile.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.292,
+        "target": 0.72,
+        "delta": -0.428,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside_range"
+      },
+      "sentence_length_cv": {
+        "value": 0.89,
+        "target": 0.7,
+        "delta": 0.19,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "outside_range"
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 58.7,
+        "target": 19.0,
+        "delta": 39.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside_range"
+      },
+      "notes": [
+        "Structural rhythm concerns: comma/period ratio is far below target, sentence-length variance overshoots the calibrated band, and one-sentence paragraphs are dramatically over target."
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 1.5% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.4% below floor 4.0% (human: 8.5%)",
+        "emdash_pct 0.2% below floor 1.0% (human: 3.5%)",
+        "semicolon_pct 0.2% below floor 0.3% (human: 1.4%)",
+        "texture_score 5.3% below floor 10.0% (human: 24.4%)",
+        "short_pct 70.1% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.5% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 3.4% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | EM-DASHES: 0.2% (floor: 1.0%, human: 3.5%). Use for mid-sentence pivots and asides: 'The door—the same one she'd slammed that morning—stood open.' | SEMICOLONS: 0.2% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.' | SHORT SENTENCES: 70.1% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassageCounts": {
+        "telegram_run": 22,
+        "texture_desert": 12
+      },
+      "note": "Structural texture deficit."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 18,
+        "total_violations": 1,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "pattern": "punct_colon_narration",
+            "count": 7,
+            "cap": 2
+          }
+        ]
+      }
+    }
+  }
+}

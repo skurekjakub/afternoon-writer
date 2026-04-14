@@ -132,6 +132,19 @@ The prose summarizes a person, motive, or realization in abstract language inste
 
 If the support is absent or thinner than the summary -> **KILL**.
 
+### Pattern P5 - Planner shorthand / tactical note-speak
+
+Narration compresses a whole tactical state into the kind of shorthand you would write on a beat card, ops board, or margin note.
+
+- `She had the street shape.`
+- `Jaina still needed the mage side.`
+- `Enough to work with.`
+- `He had the room now. She still had the talking part.`
+
+**Test:** Does the line name the actual street, door, route, watch gap, proof problem, or unresolved task, or does it summarize them from above in a tiny status note?
+
+If the line would fit unchanged in an outline or planning memo -> **KILL**.
+
 ## Cluster rules
 
 Apply these after individual classification:
@@ -150,7 +163,7 @@ For every candidate, output exactly this:
 
 ```
 LINE: [exact text]
-PATTERN: P1 | P2 | P3 | P4
+PATTERN: P1 | P2 | P3 | P4 | P5
 FAILED QUESTION: [What specifically? | By what sign? | What does this cash out to?]
 MISSING PAYLOAD: [the concrete thing, mechanism, or evidence the line avoids naming]
 VERDICT: KILL | KEEP
@@ -196,6 +209,7 @@ Study these before you begin.
 | `She knew that shape. Pressure crossing warded stone without waste, every angle priced on the way through.` | KILL | P2. Tactical diction with no visible carrier. |
 | `She understood the shape of his conviction then.` | KILL | P3. Placeholder noun standing in for an actual read of his words or body. |
 | `Not frenzy. Not cruelty exactly. Something cleaner than either, and worse.` | KILL | P4. Abstract interpretive summary with no observable basis. |
+| `She had the street shape. Jaina still needed the mage side.` | KILL | P5. Tactical note-speak. It summarizes a whole split task without cashing out into the actual streets or proof problem. |
 | `He tapped the open diagram once. Villages. Grain routes. Bodies that still answered after death. "The plain ones," he said. "Method. Cost. Result."` | KEEP | Anchored shorthand. The abstraction cashes out through local evidence already on the page. |
 | `Three locks answered in sequence. No stumble at the first. One clipped pause at the dogleg below the landing. Whoever was coming knew the stair.` | KEEP | Evidence-based inference. The route behavior is already shown. |
 

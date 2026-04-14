@@ -1,0 +1,142 @@
+{
+  "chapterId": "chapter6",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "dominantPattern": "diagnostic negation",
+      "cleanReason": "Reviewed the elimination fragments at line 5, the symptom-contrast diagnoses at lines 13 and 217, and the ward-limit fragment at line 219. All four candidates carried concrete diagnostic work in Jaina's analytical POV or stated a hard operational limit, so none reduced to dead-weight contrast scaffolding.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 6,
+      "kills": 1,
+      "keeps": 5,
+      "dominantPattern": "pattern-6-scenery-cognition",
+      "findings": [
+        {
+          "line": 123,
+          "text": "He had never needed the room to mistake confidence for thought.",
+          "subject": "the room",
+          "verb": "mistake",
+          "realAgent": "the people around Arthas, or Jaina's own prior read of the people around him",
+          "pattern": "pattern-6-scenery-cognition",
+          "verdict": "KILL",
+          "reason": "The sentence gives a room a cognitive act that belongs to human observers, laundering judgment onto architecture.",
+          "severity": "mild",
+          "suggestedFix": "He had never needed anyone in the room to mistake confidence for thought.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 15,
+      "kills": 0,
+      "keeps": 15,
+      "dominantPattern": "under-cap tool signals",
+      "cleanReason": "Counted the chapter's marked/tightened-eased/shifted/eye-use beats and audited every pass-A slop-checker signal mapped to recurring tics. No guide-defined tic exceeded its chapter cap, and the tool-only semicolon, colon, participial, and simile hits stayed functionally varied rather than forming a chapter-level habit.",
+      "ticCounts": {
+        "corner_of_mouth_micro_expressions": 0,
+        "marked": 1,
+        "tightened": 2,
+        "eased": 1,
+        "facial_shifted": 1,
+        "eye_gaze_beats": 1,
+        "weight_heaviness_metaphors": 1,
+        "non_said_dialogue_tags": 0
+      },
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 24,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A passes with warnings: 1 mild kill (room-judgment agency laundering at line 123), zero moderate/severe kills, and no recurring-tic overages. Structural rhythm concerns remain: comma_period_ratio 0.42 is below the 0.60-0.85 range, and one_sentence_paragraph_pct 42.7 is above the 15.0-24.0 range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.42,
+        "target": 0.72,
+        "delta": -0.3,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside_range"
+      },
+      "sentence_length_cv": {
+        "value": 0.782,
+        "target": 0.7,
+        "delta": 0.082,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "within_range"
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 42.7,
+        "target": 19.0,
+        "delta": 23.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside_range"
+      },
+      "structuralConcerns": [
+        "comma_period_ratio below range",
+        "one_sentence_paragraph_pct above range"
+      ]
+    },
+    "textureMetrics": {
+      "participial_pct": 2.4,
+      "compound_pct": 7.1,
+      "emdash_pct": 3.3,
+      "semicolon_pct": 0.9,
+      "short_pct": 57.6,
+      "texture_score": 13.6,
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassageCounts": {
+        "telegram_run": 17,
+        "texture_desert": 8
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 21,
+        "total_violations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

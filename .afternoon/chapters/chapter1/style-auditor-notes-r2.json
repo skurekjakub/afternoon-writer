@@ -1,0 +1,55 @@
+{
+  "chapterId": "chapter1",
+  "mode": "texture-reaudit",
+  "iteration": 2,
+  "targetFile": "v4-r2.md",
+  "textureFindings": {
+    "textureVerdict": "fail",
+    "metrics": {
+      "participial_pct": {
+        "current": 6.5,
+        "target": 12.0,
+        "range": [9.0, 15.0],
+        "status": "below_range"
+      },
+      "compound_pct": {
+        "current": 15.0,
+        "target": 10.0,
+        "range": [7.0, 13.0],
+        "status": "above_range"
+      },
+      "emdash_pct": {
+        "current": 4.1,
+        "target": 4.0,
+        "range": [2.5, 5.5],
+        "status": "on_target"
+      },
+      "semicolon_pct": {
+        "current": 2.7,
+        "target": 1.8,
+        "range": [1.0, 2.5],
+        "status": "above_range"
+      },
+      "short_pct": {
+        "current": 53.9,
+        "target": 48.0,
+        "range": [40.0, 55.0],
+        "status": "on_target"
+      },
+      "texture_score": {
+        "current": 28.3,
+        "target": 27.0,
+        "range": [22.0, 32.0],
+        "status": "on_target"
+      }
+    },
+    "flaggedZones": [
+      {
+        "type": "telegram_run",
+        "paragraphs": "P144-P150",
+        "instruction": "Add participial connective phrases (', Ving') through the Cyndia-report exchange to join the short-sentence chain, then trim one or two coordinating-clause joins so the zone gains connective tissue without pushing compound density higher."
+      }
+    ],
+    "priorityInstruction": "Participial density is 6.5% against a 12.0% target—add ', Ving' connective phrases in every flagged zone first, then trim excess compound and semicolon-heavy constructions that are now above ceiling."
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "chapterId": "chapter4",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 1,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 269,
+          "text": "She did not look at Sylvanas. She knew too well what the other half of that promise might be worth.",
+          "pattern": "5",
+          "severity": "mild",
+          "deletionTest": "She knew too well what the other half of that promise might be worth.",
+          "reason": "Pattern 5 preamble negation; the second sentence carries the meaning without the negative setup.",
+          "suggestedFix": "She knew too well what the other half of that promise might be worth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 303,
+          "text": "Not a spell. Poison.",
+          "pattern": "2",
+          "severity": "moderate",
+          "deletionTest": "Poison.",
+          "reason": "Pattern 2 fragment pivot; the negative half is dead scaffolding and the affirmative noun does all the work.",
+          "suggestedFix": "Poison.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 6,
+      "kills": 6,
+      "keeps": 0,
+      "dominantPattern": "pattern-8-body-part-agency",
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 1,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 23,
+          "text": "He took in elven ears, Farstrider armor, then swords, and his mouth flattened.",
+          "pattern": "P8-body-part-agency",
+          "severity": "mild",
+          "subject": "mouth",
+          "verb": "flattened",
+          "realAgent": "the captain reacting to what he sees",
+          "reason": "Pattern 8; the captain is reacting, not his mouth acting on its own.",
+          "suggestedFix": "He took in elven ears, Farstrider armor, then swords. His expression hardened.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 33,
+          "text": "His jaw set.",
+          "pattern": "P8-body-part-agency",
+          "severity": "mild",
+          "subject": "jaw",
+          "verb": "set",
+          "realAgent": "the captain bracing himself before he answers",
+          "reason": "Pattern 8; replacing the body part with the character preserves the meaning.",
+          "suggestedFix": "He set his jaw.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 137,
+          "text": "The girl's shoulders eased by a fraction.",
+          "pattern": "P8-body-part-agency",
+          "severity": "mild",
+          "subject": "shoulders",
+          "verb": "eased",
+          "realAgent": "the girl relaxing slightly after Jaina's ward takes hold",
+          "reason": "Pattern 8; the child relaxes, not her shoulders acting independently.",
+          "suggestedFix": "The girl relaxed by a fraction.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 197,
+          "text": "The room went very still.",
+          "pattern": "P7-scene-state-agency",
+          "severity": "mild",
+          "subject": "room",
+          "verb": "went still",
+          "realAgent": "everyone in the granary freezing after the accusation lands",
+          "reason": "The inanimate room is carrying the human freeze response instead of the people inside it.",
+          "suggestedFix": "Everyone in the granary went still.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 249,
+          "text": "Millhaven clicked into place: same brown coat, same good prices, same pleasant face.",
+          "pattern": "P9-nominalized-recognition",
+          "severity": "moderate",
+          "subject": "Millhaven",
+          "verb": "clicked into place",
+          "realAgent": "Jaina recognizing the supplier pattern",
+          "reason": "The recognition belongs to Jaina, not to Millhaven as an acting subject.",
+          "suggestedFix": "Same brown coat, same good prices, same pleasant face.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 263,
+          "text": "His throat worked.",
+          "pattern": "P8-body-part-agency",
+          "severity": "mild",
+          "subject": "throat",
+          "verb": "worked",
+          "realAgent": "Davan swallowing around his fear",
+          "reason": "Pattern 8; the boy is swallowing, not his throat performing the action independently.",
+          "suggestedFix": "He swallowed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 18,
+      "kills": 8,
+      "keeps": 10,
+      "dominantPattern": "tic-5-eye-gaze-repertoire-exhaustion",
+      "severityMarkers": {
+        "mild": 8,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 15,
+          "text": "\"If the captain lets us near his sick.\" Sylvanas had already found him: thickset, worn leather half-coat, planted by the well with the look of a man counting trouble.",
+          "pattern": "colon-narration-overuse",
+          "severity": "mild",
+          "toolSignal": "punct_colon_narration",
+          "observedCount": 5,
+          "cap": 2,
+          "reason": "This is one of the weaker colon pivots in a chapter already over cap; the colon is decorative rather than necessary.",
+          "suggestedFix": "\"If the captain lets us near his sick.\" Sylvanas had already found him, thickset in a worn leather half-coat, planted by the well with the look of a man counting trouble.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 45,
+          "text": "He looked at Jaina for the first time.",
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "reason": "A generic look beat in a chapter already over the eye/gaze cap.",
+          "suggestedFix": "Only then did he turn to Jaina.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 47,
+          "text": "Jaina met his gaze and kept still.",
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "reason": "Another generic gaze beat; the stillness is the stronger action and can stand alone.",
+          "suggestedFix": "Jaina kept still.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 125,
+          "text": "She looked toward the bakery through the corner of the window.",
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "reason": "A generic look beat that can be replaced by direct placement of the bakery in view.",
+          "suggestedFix": "The bakery was just visible through the corner of the window.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 143,
+          "text": "She was already looking to Jaina for the rest of it.",
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "reason": "A generic looking-to beat in a chapter already saturated with eye/gaze handoffs.",
+          "suggestedFix": "She was already waiting for Jaina's half of it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 249,
+          "text": "Millhaven clicked into place: same brown coat, same good prices, same pleasant face.",
+          "pattern": "colon-narration-overuse",
+          "severity": "mild",
+          "toolSignal": "punct_colon_narration",
+          "observedCount": 5,
+          "cap": 2,
+          "reason": "This is a weak colon pivot and part of an over-cap chapter pattern.",
+          "suggestedFix": "Same brown coat, same good prices, same pleasant face.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 273,
+          "text": "They locked him in the narrow storage closet beside the infirmary, the one with the small high window. Lyriel took the bench outside the door. Cyndia checked the window from the yard and came back with a raised finger: covered.",
+          "pattern": "colon-narration-overuse",
+          "severity": "mild",
+          "toolSignal": "punct_colon_narration",
+          "observedCount": 5,
+          "cap": 2,
+          "reason": "Another expendable colon pivot in a chapter already well over the tool cap.",
+          "suggestedFix": "They locked him in the narrow storage closet beside the infirmary, the one with the small high window. Lyriel took the bench outside the door. Cyndia checked the window from the yard and came back with a raised finger. Covered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 327,
+          "text": "She looked down the hall toward the granary.",
+          "pattern": "tic-5-eye-gaze-repertoire-exhaustion",
+          "severity": "mild",
+          "reason": "A generic look beat that becomes excess once the stronger sight lines in the chapter are preserved.",
+          "suggestedFix": "She turned down the hall toward the granary.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 16,
+    "totalKeeps": 12,
+    "mildKills": 14,
+    "moderateOrSevereKills": 2,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 16,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: two moderate KILLs remain (the negation fragment pivot at line 303 and the recognition-laundering sentence at line 249), and the chapter is still over cap on recurring mechanical tics.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.372,
+        "target": 0.72,
+        "delta": -0.348,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.784,
+        "target": 0.7,
+        "delta": 0.084,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 45.7,
+        "target": 19.0,
+        "delta": 26.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio is below the calibrated range",
+        "structural rhythm concerns: one_sentence_paragraph_pct is above the calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdictReasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)",
+        "compound_pct 2.4% below floor 4.0% (human: 8.5%)",
+        "texture_score 6.8% below floor 10.0% (human: 24.4%)",
+        "short_pct 70.9% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 2.4% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 70.9% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassages": {
+        "telegram_run": 18,
+        "texture_desert": 9
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalViolations": 2,
+        "overCapCategories": [
+          "punctuation_tics",
+          "paragraph_structure"
+        ]
+      }
+    }
+  }
+}

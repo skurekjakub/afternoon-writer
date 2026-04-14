@@ -1,0 +1,161 @@
+{
+  "chapterId": "chapter3",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "findings": [],
+      "cleanReason": "Reviewed six live negation candidates. All six were either procedural prohibitions/instructions or concrete binary diagnostics that changed action in scene, so no negation-addiction KILLs remained."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "inanimate-subject agency laundering",
+      "secondSweep": "Completed the dedicated pass-A P5/P6 re-read for inanimate subjects carrying agency or physical-behavior verbs. That sweep surfaced the blanket-scrap, account/ground, and next-post lines.",
+      "findings": [
+        {
+          "line": 135,
+          "text": "\"They died.\" The blanket scrap tightened in Miri's fist. \"And then they got up.\"",
+          "pattern": "pattern-5 object-acting",
+          "subject": "blanket scrap",
+          "verb": "tightened",
+          "realAgent": "Miri clenching her fist on the cloth",
+          "severity": "mild",
+          "reason": "The cloth steals Miri's reaction; her grip is the real action on the page.",
+          "suggestedFix": "\"They died.\" Miri's fist tightened on the blanket scrap. \"And then they got up.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 145,
+          "text": "Miri's account and the churned ground pointed the same way.",
+          "pattern": "pattern-2 evidence-pointing",
+          "subject": "Miri's account and the churned ground",
+          "verb": "pointed",
+          "realAgent": "The girl's testimony and the physical spoor both indicating north",
+          "severity": "mild",
+          "reason": "The sentence launders the inference onto evidence objects instead of naming that the testimony matched the spoor.",
+          "suggestedFix": "Miri's account matched the churned spoor.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 197,
+          "text": "The next post would read the flat oval field mark and know this had come off the road.",
+          "pattern": "pattern-4 institutional-knowledge shorthand",
+          "subject": "the next post",
+          "verb": "read / know",
+          "realAgent": "The relay staff at the next post",
+          "severity": "mild",
+          "reason": "The post is standing in for unseen people doing the reading and recognition.",
+          "suggestedFix": "At the next post, they would read the flat oval field mark and know this had come off the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "findings": [],
+      "cleanReason": "Counted the chapter-level tic families and audited every pass-A tool signal mapped to recurring-tics (three colon lines, two semicolons, two participial attachments, one nod). No tracked tic exceeded its cap, and every tool-flagged line was an isolated functional use rather than a chapter-level repetition problem."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 17,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A found three isolated mild intent-smear kills and no moderate or severe kills, so the pass clears with warnings.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.472,
+        "target": 0.72,
+        "delta": -0.248,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside_range"
+      },
+      "sentence_length_cv": {
+        "value": 0.76,
+        "target": 0.7,
+        "delta": 0.06,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "within_range"
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 33.8,
+        "target": 19.0,
+        "delta": 14.8,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside_range"
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio is below range",
+        "structural rhythm concerns: one_sentence_paragraph_pct is above range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 3.1% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 3.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassages": {
+        "telegram_run": 12,
+        "texture_desert": 7
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 17,
+        "total_violations": 2,
+        "over_cap_categories": [
+          "narrator_verdict",
+          "slopsquid"
+        ]
+      }
+    }
+  }
+}

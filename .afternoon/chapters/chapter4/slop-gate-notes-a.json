@@ -1,0 +1,446 @@
+{
+  "chapterId": "chapter4",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 10,
+      "kills": 8,
+      "keeps": 2,
+      "dominantPattern": "2-fragment-pivot",
+      "severityMarkers": {
+        "mild": 8,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 11,
+          "text": "Not strong enough to stop the market. Strong enough.",
+          "pattern": "2-fragment-pivot",
+          "deletionTest": "Strong enough.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the positive half survives intact without the negation scaffolding.",
+          "suggestedFix": "Strong enough.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 43,
+          "text": "Not at once. Quietly.",
+          "pattern": "2-fragment-pivot",
+          "deletionTest": "Quietly.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the contrast only delays the committed word.",
+          "suggestedFix": "Quietly.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 109,
+          "text": "Not a cure. A pause.",
+          "pattern": "2-fragment-pivot",
+          "deletionTest": "A pause.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the real meaning is in the affirmative second sentence.",
+          "textureFlaggedZones": [
+            "telegram_run",
+            "texture_desert"
+          ],
+          "suggestedFix": "A pause.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 123,
+          "text": "Not water. Water would have struck harder and stranger, day to day.",
+          "pattern": "2-fragment-pivot",
+          "deletionTest": "Water would have struck harder and stranger, day to day.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the diagnostic survives once the negated opener is cut.",
+          "textureFlaggedZones": [
+            "telegram_run",
+            "texture_desert"
+          ],
+          "suggestedFix": "Water would have struck harder and stranger, day to day.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 171,
+          "text": "Not stubborn now. Shaken.",
+          "pattern": "2-fragment-pivot",
+          "deletionTest": "Shaken.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the negated descriptor is disposable throat-clearing.",
+          "suggestedFix": "Shaken.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 179,
+          "text": "Not the thinned trace she had read in living bodies. This was the thing itself, dense and deliberate, worked through the kernels so evenly it would survive milling, baking, and the oven's heat before it ever reached a stomach.",
+          "pattern": "2-fragment-pivot",
+          "deletionTest": "This was the thing itself, dense and deliberate, worked through the kernels so evenly it would survive milling, baking, and the oven's heat before it ever reached a stomach.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 2 fragment pivot; the affirmative sentence already carries the full escalation.",
+          "suggestedFix": "This was the thing itself, dense and deliberate, worked through the kernels so evenly it would survive milling, baking, and the oven's heat before it ever reached a stomach.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 301,
+          "text": "This was not the grain's slow rot. This was faster, cleaner, racing through his blood with a lead she could not claw back.",
+          "pattern": "5-preamble-negation",
+          "deletionTest": "This was faster, cleaner, racing through his blood with a lead she could not claw back.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 5 preamble negation; the diagnosis lands more directly without the rejected comparison.",
+          "textureFlaggedZones": [
+            "telegram_run",
+            "texture_desert"
+          ],
+          "suggestedFix": "This was faster, cleaner, racing through his blood with a lead she could not claw back.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 339,
+          "text": "It was not difficult work, only careful work.",
+          "pattern": "4-minimizer-pivot",
+          "deletionTest": "It was careful work.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 4 minimizer pivot; the sentence can state the real constraint directly.",
+          "suggestedFix": "It was careful work.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "clusterWarnings": [
+        "Fragment pivots recur across both narration and dialogue.",
+        "The infirmary and granary sequences both reuse Not X. Y. compression."
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 12,
+      "kills": 8,
+      "keeps": 4,
+      "dominantPattern": "8-body-part-agency",
+      "severityMarkers": {
+        "mild": 8,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 23,
+          "text": "His gaze went from elven ears to Farstrider armor to swords, and his mouth flattened.",
+          "pattern": "8-body-part-agency",
+          "subject": "gaze",
+          "verb": "went",
+          "realAgent": "The captain looked from the elves' ears to their armor and weapons.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 8; replacing the body-part subject with the man preserves the meaning.",
+          "suggestedFix": "He looked from elven ears to Farstrider armor to swords, and his mouth flattened.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 115,
+          "text": "hands already starting to point behind him before he seemed to realize he meant to.",
+          "pattern": "8-body-part-agency",
+          "subject": "hands",
+          "verb": "starting to point",
+          "realAgent": "The granary man was already pointing behind himself before he consciously registered it.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 8; the man's hands are stealing action that belongs to the man himself.",
+          "textureFlaggedZones": [
+            "telegram_run",
+            "texture_desert"
+          ],
+          "suggestedFix": "already pointing behind him before he seemed to realize he meant to.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 157,
+          "text": "the weight of the next door waiting to open",
+          "pattern": "5-objects-wanting-refusing-deciding",
+          "subject": "door",
+          "verb": "waiting to open",
+          "realAgent": "Jaina is anticipating the next room and the next stage of the investigation.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 5; the burden belongs to Jaina's anticipation, not to a door with implied intent.",
+          "textureFlaggedZones": [
+            "telegram_run",
+            "texture_desert"
+          ],
+          "suggestedFix": "the weight of the next door ahead",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 225,
+          "text": "His eyes jumped from the oil-dark wall to the arrow to the sacks.",
+          "pattern": "8-body-part-agency",
+          "subject": "eyes",
+          "verb": "jumped",
+          "realAgent": "Davan looked from the wall to the arrow to the sacks.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 8; the character, not his eyes, is doing the scanning.",
+          "suggestedFix": "He looked from the oil-dark wall to the arrow to the sacks.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 287,
+          "text": "anger finally pointed somewhere useful",
+          "pattern": "5-objects-wanting-refusing-deciding",
+          "subject": "anger",
+          "verb": "pointed",
+          "realAgent": "The captain now had a concrete target for his anger.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 5; the abstract noun is doing directional work that belongs to the man.",
+          "suggestedFix": "angry now at the right thing",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 311,
+          "text": "Her gaze went over the mouth, the throat, the hands.",
+          "pattern": "8-body-part-agency",
+          "subject": "gaze",
+          "verb": "went over",
+          "realAgent": "Sylvanas examined the mouth, throat, and hands.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 8; the body-part subject launders Sylvanas's deliberate scan.",
+          "suggestedFix": "She looked over the mouth, the throat, the hands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 331,
+          "text": "the place the road feeds",
+          "pattern": "1-infrastructure-with-orders",
+          "subject": "road",
+          "verb": "feeds",
+          "realAgent": "The grain traffic and carts moving along the road supply the destination.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 1; infrastructure is carrying logistical intention that belongs to the supply flow.",
+          "suggestedFix": "its distribution point",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 351,
+          "text": "the next answer was already moving",
+          "pattern": "5-objects-wanting-refusing-deciding",
+          "subject": "answer",
+          "verb": "was moving",
+          "realAgent": "The next shipment or link in the grain chain was already in motion.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 5; the abstract noun is substituting for the concrete supply-chain element actually moving.",
+          "suggestedFix": "the next shipment was already moving",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "clusterFlags": [
+        "Multiple body-part subjects in high-pressure analysis beats.",
+        "Late-chapter logistics language keeps handing agency to abstractions and infrastructure."
+      ],
+      "repeatNouns": [
+        "gaze"
+      ],
+      "pattern4Alert": "no"
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 13,
+      "kills": 0,
+      "keeps": 13,
+      "dominantPattern": "tool-signal-recurring-review",
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "No listed recurring tic exceeded its chapter hard cap. Tightened/eased stayed at 3 total uses with at least half physical, eye/gaze beats were kept to functional or character-specific uses, weight metaphor usage stayed below cap, and the lone non-said tag was a tactically relevant whisper. Tool-signaled colon, filler-action, filter-word, participial, simile, and paragraph-structure lines were all audited and kept here because they either fall outside the guide's capped tic list or remain within cap while the chapter's real structural problem is the separate rhythm/texture deficit."
+    }
+  ],
+  "summary": {
+    "totalKills": 16,
+    "totalKeeps": 19,
+    "mildKills": 16,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 16,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 16 mild KILLs across the pass A guide pack exceeds the 3-mild maximum. The chapter also carries a severe structural texture deficit, but the fail is already decided by the sentence-level findings.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "observed": 0.349,
+        "target": 0.72,
+        "delta": -0.371,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "withinRange": false
+      },
+      "sentence_length_cv": {
+        "observed": 0.762,
+        "target": 0.7,
+        "delta": 0.062,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "withinRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "observed": 44.9,
+        "target": 19.0,
+        "delta": 25.9,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "withinRange": false
+      },
+      "concerns": [
+        "structural rhythm concerns: comma_period_ratio below calibrated range",
+        "structural rhythm concerns: one_sentence_paragraph_pct far above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdictReasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)",
+        "compound_pct 2.1% below floor 4.0% (human: 8.5%)",
+        "texture_score 6.3% below floor 10.0% (human: 24.4%)",
+        "short_pct 71.1% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 2.1% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 71.1% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassageCounts": {
+        "telegram_run": 21,
+        "texture_desert": 9
+      },
+      "concerns": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 20,
+        "totalViolations": 2,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "patterns": [
+              "punct_colon_narration"
+            ]
+          },
+          {
+            "category": "paragraph_structure",
+            "patterns": [
+              "opener_consecutive_repeat"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

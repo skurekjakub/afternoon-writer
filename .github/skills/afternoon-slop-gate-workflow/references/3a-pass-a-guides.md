@@ -15,6 +15,8 @@ After the normal detection pass on `intent-smear-agency-laundering-guide.md`, pe
 Common misses that this second sweep must catch:
 
 - roads or geography with motion or fire verbs: "carried," "lit," "went hotter," "turned"
+- plans, maps, answers, rooms, or cities receiving revision or cognition verbs while the real actor is buried in an instrument phrase (`under the quill`, `on the page`, `in her hands`)
+- body-part subjects carrying ordinary volition: "her eyes found," "his hands knew," "her feet carried"
 - abstract states settling into body parts: "defeat settling into his mouth," "certainty lodged behind her ribs"
 - metaphor chains across consecutive sentences where the same inanimate subject keeps receiving different human verbs
 

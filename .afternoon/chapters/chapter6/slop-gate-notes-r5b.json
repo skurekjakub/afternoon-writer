@@ -1,0 +1,179 @@
+{
+  "chapterId": "chapter6",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "mildKills": 1,
+      "moderateOrSevereKills": 0,
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": "Instead the years between them had only made the refusal sound courteous.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "A moment in which he would take the shape of her thinking before the whole explanation had to be unpacked.",
+          "issue": "Paragraph-final emotional-summary closure. The paragraph already lands Jaina's hurt through the preceding fragments; this sentence explains the sting instead of stopping on it.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 2,
+      "kills": 1,
+      "keeps": 1,
+      "mildKills": 1,
+      "moderateOrSevereKills": 0,
+      "dominantPattern": "B1",
+      "registerSummary": "Jaina's POV here is analytical, field-practical, and evidence-led. She naturally inventories plague mechanics, logistics, and magical pressure in clipped fragments, but those thoughts stay tied to visible evidence or a live decision. She can be sharp and intellectually compressed; she should not suddenly cap a paragraph with detached thematic polish.",
+      "registerConfidence": "HIGH",
+      "findings": [
+        {
+          "line": "Instead the years between them had only made the refusal sound courteous.",
+          "tier": "B",
+          "pattern": "B1",
+          "severity": "MILD",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence lands as an authored thematic cap on the exchange rather than the clipped, evidence-tethered thought Jaina would think in motion.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "mildKills": 1,
+      "moderateOrSevereKills": 0,
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "line": "A moment in which he would take the shape of her thinking before the whole explanation had to be unpacked.",
+          "pattern": "P3",
+          "severity": "MILD",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "Arthas immediately understanding and accepting her case before she had to spell out the full argument.",
+          "verdict": "KILL",
+          "reason": "The sentence hides behind the stand-in abstraction 'the shape of her thinking' instead of naming the concrete hope.",
+          "suggestedFix": "A moment in which he would understand before she had to lay out the whole case.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "mildKills": 0,
+      "moderateOrSevereKills": 0,
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "No dialogue exchange set up a plain-speech / smaller-words / short-version translation test. The narratorial line 'She gave him the short version.' is not a simplify-me reply chain, and the reply itself already carries concrete payload."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 6,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 mild sentence-level issues remain (one closure-addiction closer, one narrator-seep cap on the same sentence, and one phantom-concrete shorthand line). No moderate or severe pass-B kills remain.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "measured": 0.428,
+        "target": 0.72,
+        "delta": -0.292,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "measured": 0.778,
+        "target": 0.7,
+        "delta": 0.078,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "measured": 42.9,
+        "target": 19.0,
+        "delta": 23.9,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below calibrated floor",
+        "structural rhythm concerns: one_sentence_paragraph_pct above calibrated ceiling"
+      ]
+    },
+    "textureMetrics": {
+      "participial_pct": 2.4,
+      "compound_pct": 7.2,
+      "emdash_pct": 3.3,
+      "semicolon_pct": 1.2,
+      "short_pct": 57.0,
+      "texture_score": 14.1,
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassageCounts": {
+        "telegram_run": 15,
+        "texture_desert": 7
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 21,
+        "totalViolations": 0,
+        "overCapCategories": [],
+        "passBMappedSignals": []
+      }
+    }
+  }
+}

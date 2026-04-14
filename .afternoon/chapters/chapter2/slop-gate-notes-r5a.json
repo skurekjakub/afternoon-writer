@@ -1,0 +1,148 @@
+{
+  "chapterId": "chapter2",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "dominantPattern": "procedural-negation / hard-constraint",
+      "cleanReason": "Audited the chapter's real negation candidates at lines 49, 93, 95, 109, and 219. Every surviving use was either a direct order, a sequencing limit, or a concrete diagnostic constraint that materially changes what the characters can do next.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 4,
+      "dominantPattern": "P5-abstract-state-physical-behavior",
+      "findings": [
+        {
+          "pattern": "P5-abstract-state-physical-behavior",
+          "severity": "MILD",
+          "line": 223,
+          "text": "Her attention flicked from Jaina to the trees to the road ahead.",
+          "subject": "attention",
+          "verb": "flicked",
+          "realAgent": "Sylvanas reallocates her focus across Jaina, the tree line, and the road ahead.",
+          "reason": "Abstract attention is carrying the physical motion instead of Sylvanas; the sentence launders the character's scan onto an abstraction.",
+          "suggestedFix": "Sylvanas kept the arrow nocked and scanned Jaina, the trees, and the road ahead.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "dominantPattern": "tool-signaled low-frequency tics",
+      "cleanReason": "Audited the chapter's pass-A tool signals for punctuation, simile, participial, and filter-word recurrence. None exceeded the guide's hard caps or accumulated into a chapter-level tic cluster, so the guide stays clean.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 15,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: one isolated MILD intent-smear finding, no moderate/severe kills, and no pass-A repetition cluster. Structural rhythm concerns remain because the comma-period ratio is below range and one-sentence paragraphs are far above range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.484,
+        "target": 0.72,
+        "delta": -0.236,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "actual": 0.765,
+        "target": 0.7,
+        "delta": 0.065,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 44.6,
+        "target": 19.0,
+        "delta": 25.6,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "notes": [
+        "structural rhythm concerns"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "telegram_run_count": 13,
+      "texture_desert_count": 5
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 19,
+        "totalViolations": 0,
+        "overCapCategories": [],
+        "passMappedPatterns": [
+          {
+            "name": "punct_semicolon",
+            "count": 2
+          },
+          {
+            "name": "punct_colon_narration",
+            "count": 2
+          },
+          {
+            "name": "simile_like",
+            "count": 4
+          },
+          {
+            "name": "participial_trailing",
+            "count": 3
+          },
+          {
+            "name": "filter_watched",
+            "count": 1
+          },
+          {
+            "name": "filter_filed",
+            "count": 1
+          }
+        ]
+      }
+    }
+  }
+}

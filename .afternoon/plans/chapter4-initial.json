@@ -2,8 +2,8 @@
   "chapterId": "chapter4",
   "title": "The Sick Village",
   "pov": "Jaina Proudmoore",
-  "timelinePosition": "Two days after Chapter 3. The party has ridden south through ordinary-looking country marked by scattered sickness and stronger readings, not open collapse.",
-  "openLocation": "A still-functioning village south of Millhaven where sickness is spreading but has not yet been named for what it is.",
+  "timelinePosition": "Two days after Chapter 3.",
+  "openLocation": "A still-functioning village south of Millhaven.",
   "transport": "Southbound on Thalassian horses; on foot inside the village.",
   "activeCastAtOpen": [
     "Jaina",
@@ -13,9 +13,9 @@
   ],
   "immediateObjective": "Assess an ordinary-looking outbreak site before it quietly becomes another Millhaven.",
   "constraints": [
-    "Limited Third Absolute — Jaina perception only.",
-    "No explicit organization naming before the chapter itself earns only local conspiracy evidence.",
-    "No thaw, trust, or softness between Jaina and Sylvanas; superiority weakens, irritation stays."
+    "Limited third, absolute — Jaina only.",
+    "No grain confirmation before Jaina earns it from patient patterning; no cult proof before the granary scene.",
+    "No trust or softness overstatement — irritation stays even as Jaina stops treating Sylvanas as escort muscle."
   ],
   "metaInfo": {
     "worldbuildingReferences": [
@@ -68,7 +68,7 @@
     ],
     "povDoesNotKnowAtOpen": [
       "How it first gets into people.",
-      "Whether the old grain seller matters.",
+      "Whether the old seller matters.",
       "Whether this village can still be saved.",
       "Whether someone is steering the outbreak or it is spreading on its own.",
       "The exact point where sickness becomes the dead getting back up."
@@ -135,20 +135,8 @@
         "rule": "Not in this chapter. She has already departed north under Neral's escort."
       },
       {
-        "character": "Militia captain",
-        "rule": "Local one-chapter authority figure for this outbreak site."
-      },
-      {
-        "character": "Village medic",
-        "rule": "Local one-chapter witness to the sickness pattern; does not travel forward."
-      },
-      {
-        "character": "Granary keeper",
-        "rule": "Local one-chapter logistics witness; useful only for this village's supply history."
-      },
-      {
-        "character": "Village watcher / initiate",
-        "rule": "Local one-chapter operative tied to the grain stores; dies before he can be turned into a continuing witness."
+        "character": "Militia captain / village medic / granary keeper / cult initiate",
+        "rule": "Local one-chapter villagers for this outbreak site only."
       }
     ],
     "chapterHandoffTarget": "Chapter 5 opens with the same smaller riding party following the grain road southwest."
@@ -169,11 +157,17 @@
       "knowledgeAtSceneStart": [
         "The contamination is real; how it gets into people is still unknown."
       ],
-      "arcPressure": "Jaina keeps reaching for a purely magical answer while Sylvanas is already reading the human bottlenecks that make the outbreak legible.",
-      "enrichment": {
-        "detail": "Lordaeron village texture should stay practical rather than gothic: timber-and-stone buildings, bakehouse smoke, wet road mud, rough market noise, and ordinary grain traffic. That normal bread-and-market baseline makes the buried sickness feel embedded in daily life instead of already post-apocalyptic.",
-        "source": "stories/the-plague-road/locations/lordaeron-and-northrend.md; Warcraft Wiki: Andorhal; Wowpedia: Andorhal"
-      },
+      "arcPressure": "Jaina can feel the wrongness first, but Sylvanas reads the human resistance faster; if they do not fuse those methods, the village will keep naming a weaponized outbreak as ordinary sickness.",
+      "enrichment": [
+        {
+          "detail": "Human border villages in Lordaeron should still feel fed and working on the surface: wet roads, grain economy, livestock, woodsmoke, and autumn labor. The horror here is ordinary routine persisting right up to collapse, not post-apocalyptic ruin.",
+          "source": "local ref: stories/the-plague-road/locations/lordaeron-and-northrend.md"
+        },
+        {
+          "detail": "Canon plague victims typically die within about three days and rise shortly after, so this chapter's 'ordinary sickness' stage should still feel deceptively plausible while coughs, sweetened breath, and mounting weakness are already inside the village.",
+          "source": "Warcraft Wiki: Plague of Undeath"
+        }
+      ],
       "beats": [
         {
           "beatId": 1,
@@ -183,9 +177,9 @@
           "conflict": "This settlement is still functioning, and that makes the danger harder to read because the locals see sickness, not plague.",
           "outcome": {
             "type": "yes-but",
-            "summary": "The party reaches a living site, but Jaina immediately understands the wrongness is already inside ordinary life."
+            "summary": "The party reaches a living site, but Jaina immediately feels the wrongness already threaded through ordinary routine."
           },
-          "valueShift": "investigative focus -> ordinary life with buried wrongness",
+          "valueShift": "investigative focus -> ordinary village with buried wrongness",
           "newOnPageInformation": [
             "The same contamination can be observed before open collapse.",
             "Most villagers still think they are dealing with an ugly run of sickness, not a spreading weapon."
@@ -196,11 +190,11 @@
           ],
           "sensoryAnchors": [
             "bread smoke",
-            "market noise threaded with coughs",
-            "flushed child on her feet",
+            "market noise cut with coughs",
+            "flushed child kept on her feet",
             "sick-sweetness under ordinary village smells"
           ],
-          "transitionIntent": "The militia captain blocks easy access and forces Sylvanas to negotiate a workable role."
+          "transitionIntent": "access-pressure: the militia captain blocks easy access and forces Sylvanas to negotiate a workable role."
         },
         {
           "beatId": 2,
@@ -210,9 +204,9 @@
           "conflict": "The militia captain has no reason to trust armed elves in what still looks, to him, like a bad local sickness run.",
           "outcome": {
             "type": "yes-but",
-            "summary": "Sylvanas gets access by confirming Millhaven's fate and forcing him to take the possibility seriously, but local trust is thin and disbelief still slows everyone."
+            "summary": "Sylvanas gets them inside by making Millhaven impossible to dismiss, but local trust stays thin and disbelief still slows everyone."
           },
-          "valueShift": "ordinary life with buried wrongness -> access under pressure",
+          "valueShift": "ordinary village with buried wrongness -> access under pressure",
           "newOnPageInformation": [
             "Sylvanas can read exhausted authority and bargain with it instead of bulldozing it.",
             "Jaina sees diplomacy where she expected force.",
@@ -222,11 +216,11 @@
             "Whether what they learn here will generalize beyond this village."
           ],
           "sensoryAnchors": [
-            "work-rough hands",
-            "Sylvanas lowering her voice",
-            "Millhaven's fate landing in the room"
+            "work-rough hands on the militia captain",
+            "Sylvanas lowering her voice instead of raising it",
+            "the weight of 'no one left' landing on the man"
           ],
-          "transitionIntent": "Jaina is sent to the infirmary while Sylvanas works the village through its doors, stores, and frightened people."
+          "transitionIntent": "split-tasking: Jaina is sent to the infirmary while Sylvanas works the village through its doors, stores, and frightened people."
         },
         {
           "beatId": 3,
@@ -236,9 +230,9 @@
           "conflict": "Jaina is looking at the same necromantic pattern she saw as residue in Millhaven, but now alive and spreading through tissue in real time.",
           "outcome": {
             "type": "yes-but",
-            "summary": "She can describe the stages, but not yet how it first gets in."
+            "summary": "She can describe the stages in living bodies, but not yet how the contamination first gets in."
           },
-          "valueShift": "access under pressure -> something is getting into them somehow",
+          "valueShift": "access under pressure -> whatever is doing this is getting into them somehow",
           "newOnPageInformation": [
             "Early cases cluster contamination in the gut.",
             "Only a handful of cases are sick enough to show the pattern spreading out from the gut, which means the body is taking it in and carrying it further.",
@@ -250,14 +244,12 @@
           "sensoryAnchors": [
             "sweetness on infected breath",
             "Jaina's magic on living tissue",
-            "borrowed cots in a room never meant to be an infirmary"
+            "borrowed cots in a room that was never meant to be an infirmary"
           ],
-          "transitionIntent": "Jaina doubles down on pattern recognition while Sylvanas gathers the village's change history."
+          "transitionIntent": "pattern-pressure: Jaina doubles down on patient correlation while Sylvanas gathers the village's change history."
         }
       ],
-      "sceneLevelWarnings": [
-        "Scene 1 rolls straight into Scene 2 without sequel relief; the chapter does not reach its first sequel until beat 7."
-      ]
+      "sceneLevelWarnings": []
     },
     {
       "sceneId": 2,
@@ -273,14 +265,23 @@
         "village civilians"
       ],
       "knowledgeAtSceneStart": [
-        "The contamination is getting into people somehow.",
-        "The village's routines may hold the answer."
+        "The contamination is getting into people somehow; the village's routines may hold the answer."
       ],
-      "arcPressure": "The answer only becomes usable once Jaina stops treating diet, routine, and supply as lesser evidence than magic.",
-      "enrichment": {
-        "detail": "The plague mechanism here should stay gut-first and exposure-weighted: repeated ingestion produces worse cases, and Jaina is sharp enough to see that the body is participating in the mechanism without solving the full theorem. Antonidas-trained Jaina can make that fast, authoritative read without being allowed the Chapter 12 completion early.",
-        "source": "stories/the-plague-road/plans/plague-mechanism.md; Warcraft Wiki: Jaina (Warcraft III); Wowhead: Lore of Jaina Proudmoore"
-      },
+      "arcPressure": "Jaina can isolate the magical carrier only if she lets Sylvanas's read of timing, labor, and supply stop feeling like secondary evidence.",
+      "enrichment": [
+        {
+          "detail": "Andorhal was Lordaeron's main agricultural distribution point and the plague spread through infected grain shipped from there to surrounding towns, which supports a village pattern of bread-heavy households worsening first while the source still sits farther down the road.",
+          "source": "Warcraft Wiki: Plague of Undeath; Warcraft Wiki: Andorhal"
+        },
+        {
+          "detail": "Andorhal should be understood less as a skyline than as loading yards, granaries, manifests, wagons, clerks, and grain dust everywhere — useful forward texture once the supply-chain answer clicks.",
+          "source": "local ref: stories/the-plague-road/locations/lordaeron-and-northrend.md; Warcraft Wiki: Andorhal"
+        },
+        {
+          "detail": "Jaina is canonically Antonidas's apprentice and one of the mages sent to investigate the plague, so her fast necromantic pattern-recognition and medical triage here should read as earned expertise rather than lucky guessing.",
+          "source": "Warcraft Wiki: Jaina Proudmoore"
+        }
+      ],
       "beats": [
         {
           "beatId": 4,
@@ -292,7 +293,7 @@
             "type": "yes-but",
             "summary": "She proves partial intervention is possible, but only as delay, not cure."
           },
-          "valueShift": "something is getting into them somehow -> I can buy time, not victory",
+          "valueShift": "whatever is doing this is getting into them somehow -> I can buy time, not victory",
           "newOnPageInformation": [
             "Stabilization wards can slow progression in some cases.",
             "Most patients are still early enough to help if the entry route is found quickly."
@@ -301,12 +302,11 @@
             "What the patients are all taking in that created the pattern."
           ],
           "sensoryAnchors": [
-            "blue stabilization light",
-            "amber-wrong contamination",
-            "hands going still",
-            "child watching from the corner"
+            "blue stabilization light over amber-wrong contamination",
+            "farmer's wife's hands going still",
+            "child watching Jaina work from the corner"
           ],
-          "transitionIntent": "Jaina now cross-references patient condition against diet and routine."
+          "transitionIntent": "correlation-pressure: Jaina now cross-references patient condition against diet and routine."
         },
         {
           "beatId": 5,
@@ -329,11 +329,11 @@
             "Where the tainted grain first joins the local stores."
           ],
           "sensoryAnchors": [
-            "bakery in view",
+            "bakery in view from the infirmary door",
             "grain dust on wood and clothes",
             "Jaina gripping the frame when the pattern locks"
           ],
-          "transitionIntent": "Jaina now knows what is making people sick, but not who put it there."
+          "transitionIntent": "supplier-pressure: Jaina now knows what is making people sick, but not who put it there."
         },
         {
           "beatId": 6,
@@ -343,12 +343,12 @@
           "conflict": "The witnesses only remember routines, prices, deliveries, and practical changes — not magical theory.",
           "outcome": {
             "type": "yes-but",
-            "summary": "Sylvanas finds the same supplier-and-timeline pattern as Millhaven, but still cannot prove why it matters."
+            "summary": "Sylvanas finds the same supplier-and-timeline pattern as Millhaven, but they still cannot prove why it matters."
           },
           "valueShift": "the grain is the weapon -> same supplier, same timeline",
           "newOnPageInformation": [
-            "New grain supplier three months back.",
-            "The same 'pleasant, forgettable, better prices' description appears again.",
+            "A new grain supplier appeared three months back.",
+            "The same 'pleasant, forgettable, better prices' description surfaces again.",
             "Sylvanas has the people-and-road pattern, but not yet why it matters.",
             "Jaina can see from the window that Sylvanas is building a usable model of the village out of prices, deliveries, and fear."
           ],
@@ -356,11 +356,11 @@
             "Whether this supplier is cause or coincidence."
           ],
           "sensoryAnchors": [
-            "grain-dusted hands",
-            "few questions getting specific answers",
-            "Jaina watching through the window"
+            "grain-dusted hands of the keeper",
+            "Sylvanas asking very few questions and getting very specific answers",
+            "Jaina watching through the window while still half in medical triage"
           ],
-          "transitionIntent": "The two partial pictures have to be laid beside each other."
+          "transitionIntent": "synthesis-pressure: the two partial pictures have to be laid beside each other."
         },
         {
           "beatId": 7,
@@ -377,14 +377,14 @@
             "Jaina catches herself waiting for Sylvanas's half before trusting her own answer, which is new enough to be disorienting."
           ],
           "stillUnknownAfterBeat": [
-            "Whether they are dealing with a lone saboteur or something larger."
+            "Whether they are dealing with a lone saboteur or an organization."
           ],
           "sensoryAnchors": [
             "grain dust on Sylvanas's gloves",
             "residual ward-light on Jaina's hands",
-            "silence before both realize they reached the same picture"
+            "silence before both realize they reached the same picture from different directions"
           ],
-          "transitionIntent": "They go to the granary at once."
+          "transitionIntent": "granary-rush: they go to the granary at once."
         }
       ],
       "sceneLevelWarnings": []
@@ -398,30 +398,35 @@
         "Sylvanas",
         "Cyndia",
         "Lyriel",
-        "village watcher",
+        "cult initiate",
         "militia captain"
       ],
       "knowledgeAtSceneStart": [
-        "Grain is carrying the plague.",
-        "The road and storehouses are spreading it."
+        "Grain is carrying the plague; the road and storehouses are spreading it."
       ],
-      "arcPressure": "Once the grain answer lands, Jaina has to accept that logistics, evidence handling, and field timing are part of the mechanism rather than afterthoughts.",
-      "enrichment": {
-        "detail": "Andorhal is Lordaeron's breadbasket and distribution hub: warehouse-scale granaries, loading yards, grain dust, and outbound wagon traffic feeding whole regions. This village granary should feel like one spoke in that larger supply web, which sharpens why the next move is southwest toward the hub rather than staying local forever.",
-        "source": "stories/the-plague-road/locations/lordaeron-and-northrend.md; Warcraft Wiki: Andorhal; Wowpedia: Andorhal"
-      },
+      "arcPressure": "Once the answers fuse, the granary has to prove the plague is a deliberate network with disposable people in it; otherwise Jaina can still pretend it is only a mechanism waiting to be solved.",
+      "enrichment": [
+        {
+          "detail": "Mal'Ganis commanded both the Scourge and the Cult of the Damned in Lordaeron while the plague network moved through infected grain and supervised handlers, which supports a low-level watcher as a frightened expendable cog rather than a mastermind.",
+          "source": "Warcraft Wiki: Mal'Ganis; Warcraft Wiki: Plague of Undeath"
+        },
+        {
+          "detail": "Andorhal fed northern Lordaeron through King's Road grain shipments, so 'follow the supply chain southwest' should feel like a concrete logistical trail of ledgers, wagons, granaries, and storehouses rather than a vague hunch.",
+          "source": "Warcraft Wiki: Andorhal; local ref: stories/the-plague-road/locations/lordaeron-and-northrend.md"
+        }
+      ],
       "beats": [
         {
           "beatId": 8,
           "beatType": "scene",
           "scenePhase": "goal",
           "goal": "Secure the grain stores and see how the grain is being doctored.",
-          "conflict": "A young watcher inside the granary reaches for a lamp to destroy the evidence.",
+          "conflict": "A young initiate is inside actively monitoring the grain and reaches for a lamp to destroy the evidence.",
           "outcome": {
             "type": "no-and",
-            "summary": "Sylvanas stops the fire and Jaina contains the broken agent, but the presence of a live watcher proves deliberate conspiracy."
+            "summary": "Sylvanas stops the fire and Jaina contains the broken agent, but his presence proves deliberate conspiracy."
           },
-          "valueShift": "someone is moving tainted grain on purpose -> someone is guarding the operation",
+          "valueShift": "tainted grain is being moved on purpose -> someone is guarding the operation",
           "newOnPageInformation": [
             "The contamination exists in concentrated liquid form before mixing.",
             "A live operative is stationed at village level to monitor the weapon."
@@ -432,10 +437,10 @@
           ],
           "sensoryAnchors": [
             "clay vessel shattering",
-            "sweet wrong smell",
+            "sweet wrong smell of concentrated agent",
             "Sylvanas's arrow pinning instead of killing"
           ],
-          "transitionIntent": "Capture and interrogation become the next urgent priority."
+          "transitionIntent": "capture-pressure: interrogation becomes the next urgent priority."
         },
         {
           "beatId": 9,
@@ -445,23 +450,23 @@
           "conflict": "The initiate is terrified, not disciplined-looking, and that makes him easy to underestimate while Jaina is forced to triage evidence fast.",
           "outcome": {
             "type": "yes-but",
-            "summary": "They physically hold him, and Jaina proves the liquid is skilled work rather than hedge poison, but they do not yet get usable words out of him."
+            "summary": "They hold him physically, and Jaina proves the liquid is skilled work, but they do not get usable words out of him."
           },
           "valueShift": "someone is guarding the operation -> this is bigger than one frightened boy",
           "newOnPageInformation": [
             "The alchemical design is far beyond hedge work.",
-            "The treatment sits on necromantic work Jaina knows only from warnings and half-whispered lessons about things Dalaran does not teach openly.",
+            "The treatment sits on necromantic work Jaina knows only from warnings and half-whispered lessons about the things Dalaran does not teach openly.",
             "The initiate is a cog, not a mastermind."
           ],
           "stillUnknownAfterBeat": [
             "Names, hierarchy, target scope."
           ],
           "sensoryAnchors": [
-            "torchlight on a terrified face",
+            "torchlight on the prisoner's terrified face",
             "barrier over the broken agent",
-            "Cyndia and Lyriel moving the prisoner under armed control"
+            "Lyriel and Cyndia moving the prisoner under armed control"
           ],
-          "transitionIntent": "The interrogation possibility collapses before it can be used."
+          "transitionIntent": "holding-cell pressure: the interrogation possibility collapses before it can be used."
         },
         {
           "beatId": 10,
@@ -476,18 +481,18 @@
           "valueShift": "this is bigger than one frightened boy -> the village is tied to something larger and colder",
           "newOnPageInformation": [
             "He was given a way to die before he could talk.",
-            "The operation has enough structure to treat village watchers as disposable hands."
+            "The plague operation has enough structure to treat village watchers as disposable hands."
           ],
           "stillUnknownAfterBeat": [
-            "Exact name of the organization.",
-            "Full source node."
+            "The exact name of the organization.",
+            "The full source node."
           ],
           "sensoryAnchors": [
             "warm body on the cell floor",
-            "bare trace of foam",
-            "quiet horror in the room"
+            "bare trace of foam at the mouth",
+            "quiet horror in the room after they realize how quickly they lost him"
           ],
-          "transitionIntent": "The only viable next move is to follow the supply chain southwest."
+          "transitionIntent": "supply-chain pressure: the only viable next move is to follow the supply chain southwest."
         },
         {
           "beatId": 11,
@@ -505,11 +510,11 @@
             "Who sits behind the network."
           ],
           "sensoryAnchors": [
-            "night coughing through ordinary houses",
-            "fading light from Jaina's hands",
-            "imagined grain wagons already moving southwest"
+            "night coughing through otherwise ordinary houses",
+            "fading light from Jaina's hands after stabilization work",
+            "grain wagons imagined already moving somewhere southwest"
           ],
-          "transitionIntent": "Chapter 5 opens on the smaller riding party following records, storehouses, and wagon routes toward Andorhal."
+          "transitionIntent": "chapter-hook: Chapter 5 opens on the smaller riding party following records, storehouses, and wagon routes toward Andorhal."
         }
       ],
       "sceneLevelWarnings": []
@@ -522,7 +527,10 @@
       "Cyndia",
       "Lyriel"
     ],
-    "departuresLocked": [],
+    "departuresLocked": [
+      "The core riding party remains Jaina, Sylvanas, Cyndia, and Lyriel.",
+      "Militia captain, village medic, granary keeper, and the dead cult initiate are local to this outbreak site only."
+    ],
     "factsLockedForChapter5": [
       "Grain is confirmed as what carries the plague into people.",
       "The road and storehouse network is how it spreads.",
@@ -537,19 +545,51 @@
       "Any collapse of the partnership into open trust."
     ]
   },
+  "researchSources": [
+    {
+      "label": "Warcraft Wiki — Plague of Undeath",
+      "url": "https://warcraft.wiki.gg/wiki/Plague_of_Undeath",
+      "usedFor": [
+        "infected grain distribution context",
+        "early civilian symptom timeline",
+        "cult-operated village spread"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Andorhal",
+      "url": "https://warcraft.wiki.gg/wiki/Andorhal",
+      "usedFor": [
+        "agricultural distribution hub context",
+        "grain-route logic toward the southwest",
+        "storehouse and manifest texture"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Mal'Ganis",
+      "url": "https://warcraft.wiki.gg/wiki/Mal%27Ganis",
+      "usedFor": [
+        "Lordaeron plague command role",
+        "cult network framing",
+        "watcher-as-cog calibration"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Jaina Proudmoore",
+      "url": "https://warcraft.wiki.gg/wiki/Jaina_Proudmoore",
+      "usedFor": [
+        "Antonidas apprenticeship",
+        "plague-investigator context",
+        "field-mage competence calibration"
+      ]
+    }
+  ],
   "validation": {
     "passed": true,
-    "normalizations": [
-      "Normalized beatType and scenePhase from the markdown beat headings.",
-      "Converted meta-info references, knowledge ledger, arc position, and cast/handoff notes into preserved JSON scaffold form.",
-      "Added scene-level arcPressure where the chapter's stance test is visibly active.",
-      "Kept the active outline title as operative authority; older arc docs still carry the stale title 'The Dying Village'."
-    ],
     "warnings": [
-      "Beats 1-6 run six consecutive scene beats before the first sequel at beat 7. The accumulating procedural pressure works, but the chapter stays scene-heavy for a long stretch.",
-      "Scene outcomes skew heavily toward yes-but (beats 1-4, 6, and 9), with only one clean yes and two no-and turns. The chapter still lands, but the tension texture is narrower than it could be.",
-      "Cross-doc drift: story-arc.md and investigation-arc.md still call Chapter 4 'The Dying Village' while the active outline is 'The Sick Village'. Kept the outline title as operative authority for this run."
+      "Beats 1-6 run six consecutive scene beats before the sequel at beat 7. Keep the infirmary and witness-pattern work sharply differentiated so the investigation keeps climbing instead of blending together.",
+      "Beats 8-10 stack three darkening scene beats in a row inside the granary sequence, with two no-and outcomes bracketing a yes-but. Modulate the pressure so each step changes the kind of danger, not just the amount.",
+      "Scene-beat outcomes lean heavily yes-but overall (six of the nine scene beats). The chapter has strong pressure, but the gains need different emotional weights so every discovery does not feel blunted in the same way."
     ],
-    "enrichments": 3
+    "enrichments": 7
   }
 }

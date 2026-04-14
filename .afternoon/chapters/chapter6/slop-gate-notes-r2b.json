@@ -1,0 +1,324 @@
+{
+  "chapterId": "chapter6",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "dominantPattern": "F1-rhythmic-sameness",
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 1,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": "No smoke from a fire gone wrong. No bell in alarm. No knot of people massed in panic. Just labor. Just commerce. Just the basin's ordinary grain traffic under winter light.",
+          "pattern": "F1-rhythmic-sameness",
+          "failureMode": "F1",
+          "issue": "Repeated short-negative and fragment stack inside a texture-desert zone makes the Andorhal reveal read as telegram prose rather than controlled escalation.",
+          "severity": "moderate",
+          "textureZone": "telegram_run 408-415 / texture_desert 405-420",
+          "suggestedFix": "No smoke from a fire gone wrong, no bell in alarm, no knot of people massed in panic—only the basin's ordinary grain traffic under winter light.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "He had always managed that, looking as though he had come from somewhere more orderly than the place where he stood.",
+          "pattern": "F3-hedge-drag",
+          "failureMode": "F3",
+          "word": "as though",
+          "deletionTest": "He had always managed that, looking like he belonged somewhere more orderly than the place where he stood.",
+          "severity": "mild",
+          "suggestedFix": "He had always managed that, looking like he belonged somewhere more orderly than the place where he stood.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Jaina knew Sylvanas had already judged Arthas's answer.",
+          "pattern": "F4-over-translation",
+          "failureMode": "F4",
+          "whatItRestates": "Sylvanas's silence immediately after Arthas's refusal.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "A city like this could look normal while death rode in on every cart.",
+          "pattern": "F7-closure-addiction",
+          "failureMode": "F7",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "The city was still working.",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 5,
+      "kills": 4,
+      "keeps": 1,
+      "dominantPattern": "A1-verdict-tag-fragment",
+      "severityMarkers": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "register": {
+        "povCharacter": "Jaina Proudmoore",
+        "registerSummary": "Jaina thinks in hypothesis chains, field evidence, and brief analytical compression. She can use technical shorthand and clipped self-corrections, but her close-third narration still needs to stay tied to what she sees, infers, or decides in the moment rather than authorial captions.",
+        "confidence": "high"
+      },
+      "findings": [
+        {
+          "line": "Worse, in a way.",
+          "pattern": "A1-verdict-tag-fragment",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This is a polished caption pinned on the pause, not an active in-scene thought that changes what Jaina does.",
+          "confidence": "high",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Plenty of men with rank listened only long enough to shape their refusal.",
+          "pattern": "A7-generalizing-construction",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence zooms out from Arthas's concrete behavior to an essay-distance claim about a class of men.",
+          "confidence": "high",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Just the wall.",
+          "pattern": "A1-verdict-tag-fragment",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment captions Arthas's refusal instead of staying with the concrete line and Jaina's immediate read of it.",
+          "confidence": "high",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Obedience under protest.",
+          "pattern": "A1-verdict-tag-fragment",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The horse behavior is already visible in the previous sentence; this fragment turns it into a tidy caption.",
+          "confidence": "high",
+          "severity": "mild",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "dominantPattern": "P3-placeholder-noun-stand-in",
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": "She kept the shape of the work in mind and let the headache ride with her.",
+          "pattern": "P3-placeholder-noun-stand-in",
+          "failedQuestion": "What specifically is the 'shape' and what exactly is the 'work'?",
+          "missingPayload": "The grain-body-death model and the organized plague network she has just reasoned through.",
+          "reason": "Uses prestige stand-ins instead of naming the concrete model already available in-scene.",
+          "severity": "mild",
+          "suggestedFix": "She kept grain, body, death, and the network behind them in mind and let the headache ride with her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "The shape of the failure had not changed nearly as much as she had hoped.",
+          "pattern": "P3-placeholder-noun-stand-in",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "Arthas heard her out, prioritized the visible war, and refused the warning anyway.",
+          "reason": "The sentence leans on 'shape' and 'failure' instead of naming the concrete repetition Jaina is recognizing.",
+          "severity": "mild",
+          "suggestedFix": "He had listened, weighed it against the raiders, and refused anyway.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "What they were reading now was accumulation.",
+          "pattern": "P4-unanchored-interpretive-summary",
+          "failedQuestion": "By what sign, and accumulation of what?",
+          "missingPayload": "The corruption pressure building mile by mile until even the horses react to it.",
+          "reason": "The inference hides behind an abstract summary instead of naming the concrete pressure increase the animals are reacting to.",
+          "severity": "mild",
+          "suggestedFix": "What they were reading now was the pressure building mile by mile.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "cleanReason": "Audited the chapter for explicit translation setups ('plainly', 'short version', 'smaller words', 'say it in streets', and equivalent prompts). None appeared, so no fake-simplification exchange was available to classify."
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 5,
+    "mildKills": 10,
+    "moderateOrSevereKills": 1,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 11,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 11 pass-B kills total, including 1 MODERATE rhythmic-sameness cluster in the Andorhal reveal, plus recurring narrator-seep captions and phantom-concreteness stand-ins that still need surgical cleanup.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.382,
+        "target": 0.72,
+        "delta": -0.338,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "withinRange": false
+      },
+      "sentence_length_cv": {
+        "actual": 0.802,
+        "target": 0.7,
+        "delta": 0.102,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "withinRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 42.4,
+        "target": 19.0,
+        "delta": 23.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "withinRange": false
+      },
+      "note": "Structural rhythm concerns: chapter runs far below target connective density and far above target one-sentence-paragraph use."
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 1.8% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.8% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassageCounts": {
+        "telegram_run": 17,
+        "texture_desert": 9
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 23,
+        "total_violations": 2,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "patterns": [
+              "punct_colon_narration"
+            ]
+          },
+          {
+            "category": "narrator_verdict",
+            "patterns": [
+              "verdict_too_x_for"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

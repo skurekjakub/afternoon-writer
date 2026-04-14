@@ -1,0 +1,208 @@
+{
+  "chapterId": "chapter1",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "dominantPattern": "Pattern 4 (minimizer pivot and implicit negation variants)",
+      "findings": [
+        {
+          "id": "neg-1",
+          "line": 65,
+          "text": "They rode on at the pace they had fallen into years ago, neither setting it, both keeping it.",
+          "pattern": "P4-variant",
+          "severity": "MILD",
+          "deletionTest": "\"They rode on at the pace they had fallen into years ago, both keeping it.\" — survives, partnership shown by 'both keeping it' alone.",
+          "verdict": "KILL",
+          "reason": "Negative half 'neither setting it' is scaffolding. Positive 'both keeping it' carries the meaning.",
+          "suggestedFix": "They rode on at the pace they had fallen into years ago, both keeping it.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "neg-2",
+          "line": 141,
+          "text": "A word for spoiled grain and bad wells, not ward-stones.",
+          "pattern": "P4",
+          "severity": "MILD",
+          "deletionTest": "\"A word for spoiled grain and bad wells.\" — survives, reader already knows the ward-stone context from the scene.",
+          "verdict": "KILL",
+          "reason": "The domain definition (spoiled grain, bad wells) communicates the mismatch without the explicit 'not ward-stones'.",
+          "suggestedFix": "A word for spoiled grain and bad wells.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "neg-3",
+          "line": 321,
+          "text": "No ornamental nonsense. No diplomatic letters tucked between the pages in case manners failed.",
+          "pattern": "P8-variant",
+          "severity": "MILD",
+          "deletionTest": "Preceding positives (notes, charcoal rubbings, sketches) already establish the satchel's character. 'Fieldwork, then.' lands the conclusion without these.",
+          "verdict": "KILL",
+          "reason": "Redundant negative inventory after the positive inventory already establishes fieldwork.",
+          "suggestedFix": null,
+          "fixNote": "Delete both sentences. The paragraph reads: '...each crossed with lines she did not need to understand to distrust.\\n\\nFieldwork, then.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "neg-4",
+          "line": 393,
+          "text": "The prisoner stood too fast for indifference, too controlled for panic.",
+          "pattern": "P4-doubled",
+          "severity": "MODERATE",
+          "deletionTest": "\"The prisoner stood.\" — loses descriptive content, but the double negation eliminates two states without naming the actual one.",
+          "verdict": "KILL",
+          "reason": "Double implicit negation. Eliminates indifference and panic without committing to what the stance actually is. MODERATE: doubled pattern with no positive landing.",
+          "suggestedFix": "The prisoner stood fast, braced and still.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 4,
+      "dominantPattern": "P4/P5 (abstraction with disguise)",
+      "findings": [
+        {
+          "id": "is-1",
+          "line": 85,
+          "text": "An excuse dressed as diligence.",
+          "pattern": "P4-P5",
+          "subject": "excuse",
+          "verb": "dressed as",
+          "realAgent": "Sylvanas, who is framing her preference to stay outdoors as a duty to check the ward-stones.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Abstraction given disguise/deception verb. Real agent is Sylvanas choosing the excuse.",
+          "suggestedFix": null,
+          "fixNote": "Delete the sentence. Paragraph reads: 'There. One more stretch south. One more hour without a ceiling over her head.' — the self-deception is clear from context.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "dominantPattern": "punct_colon_narration frequency (6 uses, cap 2)",
+      "cleanTics": "Tics 1-7 all at or under cap. Tic 1 at cap (1/1). Tics 3,4,6,7 at 0. Tic 2 at 1/2. Tic 5 at 3/4.",
+      "findings": [
+        {
+          "id": "tic-1",
+          "line": 65,
+          "text": "Around them: gold leaves that never quite turned, dark water somewhere off the road, the ward-stones' low note under everything.",
+          "pattern": "punct_colon_narration",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Over cap (6 uses, cap 2). Weakest use — generic catalog introducer.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Around them, gold leaves that never quite turned, dark water somewhere off the road, the ward-stones' low note under everything.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "tic-2",
+          "line": 31,
+          "text": "This was the part of the world that made sense: bow across her back, road under hoof, a border that could be ridden and held by living hands instead of argued over by people who mistook maps for authority.",
+          "pattern": "punct_colon_narration",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Over cap. Second-weakest use — inventory list.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "This was the part of the world that made sense. Bow across her back, road under hoof, a border that could be ridden and held by living hands instead of argued over by people who mistook maps for authority.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "tic-3",
+          "line": 15,
+          "text": "Silence returned in pieces: a horse blowing hard, tack settling, a bird starting up again above the amber canopy.",
+          "pattern": "punct_colon_narration",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Over cap. Third-weakest — component list.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Silence returned in pieces—a horse blowing hard, tack settling, a bird starting up again above the amber canopy.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "tic-4",
+          "line": 5,
+          "text": "Sylvanas hit the ground before her mare finished shying, bow in hand, world cut to the things that mattered: wet leaves, footing, one broad troll charging with another axe already up because the first had missed and buried itself in a tree behind her.",
+          "pattern": "punct_colon_narration",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Over cap. Fourth excess — perceptual list. Strongest of the killed uses but still over cap.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Sylvanas hit the ground before her mare finished shying, bow in hand, world cut to the things that mattered—wet leaves, footing, one broad troll charging with another axe already up because the first had missed and buried itself in a tree behind her.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 9,
+    "totalKeeps": 8,
+    "mildKills": 8,
+    "moderateOrSevereKills": 1,
+    "guidesRun": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "guidesWithKills": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "killsWithFix": 9,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "1 MODERATE kill (neg-4: double implicit negation at line 393) requires fail. Additionally 8 MILD kills across all three guides.",
+    "fixStrategy": "conservative — iterationKillsA trajectory [8] -> 9 (non-decreasing). Deletion preferred over rewrite. All 9 fixes use deletion or minimal substitution.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"measured": 0.304, "target": 0.72, "range": [0.6, 0.85], "delta": -0.416, "inRange": false},
+      "sentence_length_mean": {"measured": 7.1, "target": 11.0, "range": [9.0, 13.0], "delta": -3.9, "inRange": false},
+      "sentence_length_cv": {"measured": 0.894, "target": 0.7, "range": [0.6, 0.8], "delta": 0.194, "inRange": false},
+      "short_sentence_pct": {"measured": 60.1, "target": 35.0, "range": [28.0, 42.0], "delta": 25.1, "inRange": false},
+      "long_sentence_pct": {"measured": 5.4, "target": 10.0, "range": [7.0, 14.0], "delta": -4.6, "inRange": false},
+      "opener_entropy": {"measured": 6.64, "target": 7.7, "range": [7.2, 8.2], "delta": -1.06, "inRange": false},
+      "one_sentence_paragraph_pct": {"measured": 58.9, "target": 19.0, "range": [15.0, 24.0], "delta": 39.9, "inRange": false},
+      "mattr": {"measured": 0.858, "target": 0.83, "range": [0.8, 0.87], "delta": 0.028, "inRange": true},
+      "structuralRhythmConcerns": "7 of 8 rhythm metrics outside range. Prose is severely choppy: sentence_length_mean 7.1 (floor 9.0), short_sentence_pct 60.1% (ceiling 42.0%), one_sentence_paragraph_pct 58.9% (ceiling 24.0%), comma_period_ratio 0.304 (floor 0.6). The prose has extremely low syntactic complexity and massive single-sentence paragraph overuse."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdictReasons": [
+        "participial_pct 1.5% below floor 9.0% (style-guide target: 12.0%)",
+        "compound_pct 3.9% below floor 7.0% (style-guide target: 10.0%)",
+        "emdash_pct 0.5% below floor 2.5% (style-guide target: 4.0%)",
+        "semicolon_pct 0.5% below floor 1.0% (style-guide target: 1.8%)",
+        "short_pct 69.9% above ceiling 55.0% (style-guide target: 48.0%)",
+        "texture_score 6.4% below floor 22.0% (style-guide target: 27.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.5% (floor: 9.0%, target: 12.0%). Add ', Ving' phrases to connect actions. | COMPOUND CLAUSES: 3.9% (floor: 7.0%, target: 10.0%). Join related ideas with ', and/but/yet'. | EM-DASHES: 0.5% (floor: 2.5%, target: 4.0%). Use for mid-sentence pivots. | SHORT SENTENCES: 69.9% (ceiling: 55.0%, target: 48.0%). Too choppy — combine adjacent short sentences.",
+      "structuralTextureDeficit": "All 6 texture metrics outside style-guide range. Texture score 6.4% vs floor 22.0% — massive deficit. Downstream agents must add joining constructions.",
+      "flaggedPassages": {
+        "telegramRunCount": 19,
+        "textureDesertCount": 12
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalViolations": 4,
+        "overCapCategories": [
+          {"category": "narrator_verdict", "count": 3, "cap": 1, "note": "Pass B — not audited this pass"},
+          {"category": "punct_colon_narration", "count": 6, "cap": 2, "note": "4 excess killed in recurring-tics audit"}
+        ]
+      }
+    }
+  }
+}

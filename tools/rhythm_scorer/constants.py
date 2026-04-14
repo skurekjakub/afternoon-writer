@@ -26,8 +26,8 @@ SEMICOLON_RE = re.compile(r';')
 
 SHORT_THRESHOLD = 8       # texture short-sentence threshold (words)
 TELEGRAM_WINDOW = 8       # sliding window for telegram-run detection
-TELEGRAM_SHORT_PCT = 0.75 # short-sentence ratio to flag window
-DESERT_MIN_SENTENCES = 15 # min zero-texture consecutive sentences to flag
+TELEGRAM_SHORT_PCT = 0.65 # short-sentence ratio to flag window
+DESERT_MIN_SENTENCES = 10 # min zero-texture consecutive sentences to flag
 
 # ---------------------------------------------------------------------------
 # Calibrated texture baselines -- Sanderson Way of Kings (384K words)
@@ -39,10 +39,10 @@ DESERT_MIN_SENTENCES = 15 # min zero-texture consecutive sentences to flag
 # ---------------------------------------------------------------------------
 
 DEFAULT_TEXTURE_BASELINES = {
-    "participial_pct": {"human": 11.0, "target": 8.0, "range": [5.0, 15.0]},
-    "compound_pct": {"human": 8.5, "target": 6.0, "range": [4.0, 12.0]},
-    "emdash_pct": {"human": 3.5, "target": 2.5, "range": [1.0, 5.0]},
+    "participial_pct": {"human": 11.0, "target": 12.0, "range": [10.0, 14.0]},
+    "compound_pct": {"human": 8.5, "target": 7.5, "range": [7.5, 10.0]},
+    "emdash_pct": {"human": 3.5, "target": 3.5, "range": [3.0, 4.0]},
     "semicolon_pct": {"human": 1.4, "target": 0.8, "range": [0.3, 2.5]},
-    "short_pct": {"human": 52.2, "target": 52.0, "range": [38.0, 62.0]},
-    "texture_score": {"human": 24.4, "target": 17.0, "range": [10.0, 30.0]},
+    "short_pct": {"human": 52.2, "target": 52.0, "range": [45.0, 62.0]},
+    "texture_score": {"human": 100.0, "target": 100.0, "range": [90.0, 100.0]},
 }

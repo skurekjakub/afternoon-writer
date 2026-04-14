@@ -13,6 +13,7 @@ This is the pipeline artifact consumed by slophunter revision mode. It contains 
 Required top-level fields:
 
 - `chapterId`
+- `stage`
 - `pass`
 - `iteration`
 - `targetFile`

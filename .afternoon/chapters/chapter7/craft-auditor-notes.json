@@ -1,0 +1,96 @@
+{
+  "chapterId": "chapter7",
+  "iteration": 0,
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "emotional-life",
+      "severity": "high",
+      "location": "Scene 1, lines 39-49",
+      "passage": "Jaina walked a half step behind her now, head slightly turned, and Sylvanas could feel the effort radiating off her like heat from a banked fire. The woman's hands were loose at her sides, but her fingers moved—small flexions, the kind that came from holding a ward under strain and having nothing else to do with the tension. ... \"I'm holding it.\" A pause. \"The whole district is saturated. It's not a pocket—it's layered into the grain storage itself, floor to rafter. Whoever is doing this has been at it for months.\" Sylvanas filed that beside what she already knew and kept walking.",
+      "problem": "The opening scene gives Jaina visible strain, but Sylvanas never gets an involuntary interior beat of her own in response. The scene stays purely procedural at the exact moment when the city-scale threat should hit her body, so the chapter's first emotional landing is delayed until much later.",
+      "fix": "Right after Jaina says the district is saturated, add one unbidden physical reaction from Sylvanas before she resumes tactical thought: a stomach drop, breath hitch, old road image surfacing, hand tightening on the bowstring, or another bodily jolt tied to Millhaven and the poisoned grain trail. Keep it brief and involuntary, then let her lock back into assessment."
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "medium",
+      "location": "Scene 2 and scene exits, lines 183, 305, 431-443",
+      "passage": "The three of them walked back toward the inspection office as the last of the light left the granary towers and the first lamplighters appeared on the main street, their long poles working the dusk like fishing lines cast into a darkening river.",
+      "problem": "Several image-lines read like an external stylist composing a moody close rather than Sylvanas filtering the city through ranger logic. Nearby lines such as \"the city closed around them like a jaw\" and the final body/breathing metaphor push the narration toward lyrical authorial prose instead of the clipped, tactical Sylvanas register the voice sheet and rhythm anchor call for.",
+      "fix": "Trim the decorative exit lines and replace them with concrete pressure reads: visibility dropping, patrol routes tightening, lane noise changing, distance to door, who has sight on what. If you keep a metaphor, make it come from Sylvanas's field vocabulary and use it once, not as a repeated scene-closing flourish."
+    },
+    {
+      "check": "limited-third",
+      "severity": "high",
+      "location": "Scene 1 and Scene 3 reaction reads, lines 161 and 399",
+      "passage": "The relief on his face was not hope—it was the raw, exhausted recognition of someone who had finally been heard after shouting into silence for weeks.",
+      "problem": "The narration states other characters' internal states as fact instead of keeping them inside Sylvanas's observation and inference. The same issue recurs in \"the gesture was the only thing that gave away the fact that what she was agreeing to do frightened her at all.\" Sylvanas can read people well, but she still cannot know recognition-versus-hope or certify Jaina's fear as objective fact.",
+      "fix": "Back off one step. Keep the visible evidence on the page, then phrase Sylvanas's read as inference: what Corin's face does, how fast he moves, what in Jaina's gesture makes Sylvanas suspect fear. Let the judgment belong to Sylvanas instead of the narrator."
+    },
+    {
+      "check": "limited-third",
+      "severity": "medium",
+      "location": "Scene 1 / Scene 2 / Scene 3 body beats, lines 93, 245, 411",
+      "passage": "Sylvanas's fingers found the bowstring at her hip without thinking—an old habit, the touch that meant she was weighing something.",
+      "problem": "The draft repeatedly gives agency to body parts or autonomous reactions: \"Sylvanas's fingers found the bowstring,\" \"Her pulse settled,\" \"Lyriel's hand moved to the short blade at her hip.\" That becomes a prose tic and weakens the close-third effect by making bodies act instead of people.",
+      "fix": "Let the actor own the action unless the involuntary body response is the point. Example direction: Sylvanas touched the string, Sylvanas steadied, Lyriel checked the blade. Save pulse/hand/finger autonomy for rare moments where the body moving first is the actual dramatic beat."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "high",
+      "location": "Scene 3, lines 323-331",
+      "passage": "\"The grain is being treated during packaging. Not in the field, not in transit—here. Inside the granary complex, by people with enough training to apply a necromantic carrier layer to loose grain without contaminating themselves.\" ... \"The necromantic signature activates after repeated ingestion. It needs the living body. The warmth, the blood, the metabolic cycle—the host finishes the work that the grain begins.\"",
+      "problem": "This reads like a written briefing delivered aloud. Terms such as \"carrier layer,\" \"biological transit,\" and especially \"metabolic cycle\" sound modern-clinical and too report-like for spoken fantasy dialogue, even from Jaina. The scene needs urgency and precision, not a lecture voice.",
+      "fix": "Keep one hard magical term, then translate the rest into fast field speech. Jaina should sound like someone explaining a live threat to allies in a room, not dictating a paper: what they do to the grain, what the body does with it, why that means they strike tonight."
+    },
+    {
+      "check": "rhythm-and-texture",
+      "severity": "high",
+      "location": "Across the chapter; especially flagged runs in Scene 1, Scene 2, and Scene 3",
+      "passage": "\"The treatment shift runs between the fourth and sixth bell. They will be inside the building, handling the grain, masks on, hands occupied. That is the one window where they cannot run and cannot fight without abandoning the weapon they are building.\"",
+      "problem": "Texture score fails hard at 65.8/100. The biggest drag is em-dash overuse (16.6% actual vs 4.0% target, score 36.7) combined with very low participial texture (4.6% actual vs 12.0% target, score 50.0). The scorer also flagged telegram runs and texture deserts in the city-entry briefings, Havel/Corin exposition, the recognition beat at the treatment site, and the trust-boundary scene.",
+      "fix": "Strip out a large share of the em-dashes and redistribute the rhythm with commas, occasional semicolons, and sentence breaks. In the flagged deserts, add connective tissue with participial phrases and subordinate movement so exposition flows instead of stacking. In the telegram runs, stop chaining short declaratives back to back; let one longer sentence carry the setup before the short punch lands."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 65.8,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {
+        "actual": 4.6,
+        "target": 12.0,
+        "score": 50.0
+      },
+      "compound": {
+        "actual": 11.5,
+        "target": 10.0,
+        "score": 89.9
+      },
+      "emdash": {
+        "actual": 16.6,
+        "target": 4.0,
+        "score": 36.7
+      },
+      "semicolon": {
+        "actual": 0.1,
+        "target": 1.8,
+        "score": 86.7
+      }
+    },
+    "interpretation": "Participials are far below target, so connective tissue is too thin in long briefing passages. Compound rate is close enough, but em-dash usage is wildly high and keeps replacing more varied sentence architecture. Semicolons are scarce but only a minor drag compared with the dash overload and lack of participial linkage.",
+    "flaggedPassages": [
+      "texture_desert s50-s63: \"Bakers' smoke rose from a dozen chimneys...\" / \"Sylvanas took in the district...\"",
+      "telegram_run s70-s77: \"How bad?\" / \"Worse than any of the villages.\"",
+      "texture_desert s108-s117: \"She let him look...\" / \"The inspection cover will hold for two days...\"",
+      "texture_desert s134-s143: \"These new ones never miss...\"",
+      "texture_desert s198-s207: \"I've been trying to map the movement pattern for weeks...\"",
+      "telegram_run s217-s224: \"How long?\" / \"A week. Maybe less if the schedule holds.\"",
+      "texture_desert s304-s313: \"Someone had been spending money on security...\"",
+      "telegram_run s442-s449: \"Not nausea. Recognition. This was the weapon stripped of distance.\"",
+      "texture_desert s600-s610: \"The measure of a man...\" / \"You are with us.\""
+    ]
+  },
+  "summary": "Beat coverage is strong: the gate entry, split investigation, dead-drop discovery, mechanism reveal, and same-night raid decision all land on page. But the draft still fails craft because the opening scene needs a clearer involuntary emotional beat from Sylvanas, dialogue drifts into briefing-language, POV discipline loosens in reaction reads, and the texture profile is far off target due to heavy em-dash overuse."
+}

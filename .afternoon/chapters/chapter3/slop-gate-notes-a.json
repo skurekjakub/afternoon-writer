@@ -1,0 +1,414 @@
+{
+  "chapterId": "chapter3",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "severity": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "negation pivots and preamble negation",
+      "clusterWarnings": [
+        "Pivot-style negation repeats across dialogue and narration in the village-read, cellar, dispatch, and trader stretches."
+      ],
+      "findings": [
+        {
+          "line": 35,
+          "text": "Life interrupted, not packed up.",
+          "pattern": "1-direct-contrast-pivot",
+          "severity": "mild",
+          "deletionTest": "Life interrupted.",
+          "reason": "The affirmative half carries the useful read; the negated half is scaffolding.",
+          "suggestedFix": "Life interrupted.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 59,
+          "text": "This wasn't one source doing one clean thing. The whole village was feeding it at once.",
+          "pattern": "5-preamble-negation",
+          "severity": "mild",
+          "deletionTest": "The whole village was feeding it at once.",
+          "reason": "The second sentence already states the contamination model directly, so the negated setup is disposable.",
+          "suggestedFix": "This was the whole village feeding it at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 127,
+          "text": "Not many—a dead village with its people marching north did not leave room for many—but enough for the shaking in her hands to ease and for her breath to stop skittering after every shadow.",
+          "pattern": "2-fragment-pivot",
+          "severity": "mild",
+          "deletionTest": "Enough for the shaking in her hands to ease and for her breath to stop skittering after every shadow.",
+          "reason": "The opening refusal only stages the quantity; the committed clause works without it.",
+          "suggestedFix": "Enough for the shaking in her hands to ease and for her breath to stop skittering after every shadow.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 211,
+          "text": "It was not sentiment.",
+          "pattern": "5-preamble-negation",
+          "severity": "mild",
+          "deletionTest": "Neral was the strongest relay rider in the unit, and the girl had already gone still under her voice.",
+          "reason": "The explanatory sentence already lands the point; the negated preface is dead weight.",
+          "suggestedFix": "It was calculation.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 251,
+          "text": "Not the quick pause of somebody arranging a lie. The slower work of sorting impressions that had not seemed important until this one.",
+          "pattern": "2-fragment-pivot",
+          "severity": "mild",
+          "deletionTest": "The slower work of sorting impressions that had not seemed important until this one.",
+          "reason": "The lie-rejection beat only delays the actual read of the pause.",
+          "suggestedFix": "The pause had the slower drag of sorting impressions that once seemed unimportant.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 11,
+      "kills": 9,
+      "keeps": 2,
+      "severity": {
+        "mild": 6,
+        "moderate": 3,
+        "severe": 0
+      },
+      "dominantPattern": "ground/road abstractions carrying cognition or intent",
+      "clusterWarnings": [
+        "The ground is repeatedly made to tell, say, and try, which turns spoor reading into abstraction.",
+        "Road nouns take multiple human or engulfing verbs across the road-cut and dispatch exit sections."
+      ],
+      "repeatNouns": [
+        "ground",
+        "road"
+      ],
+      "pattern4Alert": "yes",
+      "findings": [
+        {
+          "line": 45,
+          "text": "Everything waited for a market day that had never come.",
+          "pattern": "5-objects-wanting-or-refusing",
+          "severity": "mild",
+          "subject": "Everything",
+          "verb": "waited",
+          "realAgent": "Untouched sacks and stores sitting where villagers and traders left them.",
+          "reason": "The objects are not waiting; the prose is anthropomorphizing abandoned inventory instead of naming its stillness.",
+          "suggestedFix": "Everything sat where traders had left it for a market day that never came.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 53,
+          "text": "What remained was faster, harder-edged, and it trusted Sylvanas to keep up.",
+          "pattern": "5-objects-wanting-or-refusing",
+          "severity": "moderate",
+          "subject": "it (the remaining version of Jaina's voice)",
+          "verb": "trusted",
+          "realAgent": "Jaina, choosing to speak at full speed because she judges Sylvanas able to follow.",
+          "reason": "Trust belongs to Jaina, not to an abstract remainder of her voice.",
+          "suggestedFix": "What remained was faster, harder-edged, and Jaina gave it to Sylvanas at full speed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 53,
+          "text": "After that the whole village helped spread it.",
+          "pattern": "pass-a-extra-collective-agency",
+          "severity": "mild",
+          "subject": "the whole village",
+          "verb": "helped spread",
+          "realAgent": "People, handled stores, water, and livestock routines moving contamination through Millhaven.",
+          "reason": "The sentence launders the spread onto the village instead of naming the concrete carriers inside it.",
+          "suggestedFix": "After that, people spread it through the whole village.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 67,
+          "text": "The ground behind the village told the part Jaina's magic could not.",
+          "pattern": "2-infrastructure-asking-or-answering",
+          "severity": "mild",
+          "subject": "The ground behind the village",
+          "verb": "told",
+          "realAgent": "The churned mud, broken crust, and prints Sylvanas reads by hand.",
+          "reason": "The evidence can be named directly; making the ground 'tell' launders the read.",
+          "suggestedFix": "Behind the village, Sylvanas got the rest from churned mud and broken prints.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 73,
+          "text": "The overlap buried the number, but the ground said dozens.",
+          "pattern": "2-infrastructure-asking-or-answering",
+          "severity": "mild",
+          "subject": "the ground",
+          "verb": "said",
+          "realAgent": "The churned prints and drag marks still supporting a rough count.",
+          "reason": "The count comes from spoor, not from the ground speaking.",
+          "suggestedFix": "The overlap buried the number, but Sylvanas could still read dozens in the churned prints.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 81,
+          "text": "The ground was already trying to lose them under cooling air and broken crust.",
+          "pattern": "pass-a-extra-inanimate-intent",
+          "severity": "moderate",
+          "subject": "The ground",
+          "verb": "was already trying to lose",
+          "realAgent": "Cooling air and broken crust actively erasing the track.",
+          "reason": "The sentence gives the ground intent when the concrete mechanism is weather and failing spoor.",
+          "suggestedFix": "Cooling air and broken crust were already stripping the track away.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 159,
+          "text": "The road had buried what mattered under everything else it had carried that season.",
+          "pattern": "pass-a-extra-inanimate-physical-behavior",
+          "severity": "mild",
+          "subject": "The road",
+          "verb": "had buried",
+          "realAgent": "Wagon ruts, rain damage, scavenger sign, and ordinary traffic obscuring the spoor.",
+          "reason": "Specific wear and traffic are available, so the road should not be turned into the actor.",
+          "suggestedFix": "Wagon ruts, rain damage, and scavenger sign had buried what mattered under a season's traffic.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 223,
+          "text": "In two minutes the road had swallowed all three.",
+          "pattern": "pass-a-extra-inanimate-physical-behavior",
+          "severity": "mild",
+          "subject": "the road",
+          "verb": "had swallowed",
+          "realAgent": "The bend and the falling dark hiding the riders from view.",
+          "reason": "Distance and terrain do the concealing work; the road is a smeared actor here.",
+          "suggestedFix": "In two minutes the bend and the falling dark hid all three.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 281,
+          "text": "Somewhere ahead, another market still thought the cough in its streets was ordinary and the grain on its tables was safe.",
+          "pattern": "4-institutions-or-abstractions-lying-or-self-deceiving",
+          "severity": "moderate",
+          "subject": "another market",
+          "verb": "thought",
+          "realAgent": "The people in the next settlement still misreading the sickness and the grain.",
+          "reason": "A market cannot think; the sentence launders civic misread into an abstraction.",
+          "suggestedFix": "Somewhere ahead, people in another market still took the cough in their streets for ordinary sickness and the grain on their tables for safe food.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 15,
+      "kills": 3,
+      "keeps": 12,
+      "severity": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "over-cap punct_colon_narration",
+      "toolBackedPatterns": [
+        "punct_colon_narration",
+        "filler_nodded",
+        "filler_shrugged",
+        "filter_watched",
+        "simile_as_if",
+        "participial_trailing"
+      ],
+      "findings": [
+        {
+          "line": 133,
+          "text": "Sweetness first. That was what Miri remembered earliest: a sweetness on people's breath that turned up in the bread and the water and the morning porridge.",
+          "pattern": "punctuation-colon-narration",
+          "severity": "mild",
+          "reason": "This is one of the weakest colon hinges after the chapter has already gone over cap; the clause can land without the formula.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Sweetness first. That was what Miri remembered earliest—a sweetness on people's breath that turned up in the bread and the water and the morning porridge.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 153,
+          "text": "Sylvanas took it for what it was: a loose thread, nothing more yet.",
+          "pattern": "punctuation-colon-narration",
+          "severity": "mild",
+          "reason": "The sentence is generic summary prose, so it is the right excess colon to cut first.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Sylvanas took it for a loose thread, nothing more yet.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 255,
+          "text": "He said it the way locals said useful things on bad roads: without drama, in pieces, leaving the listener to know which part mattered.",
+          "pattern": "punctuation-colon-narration",
+          "severity": "mild",
+          "reason": "This abstract explanatory colon is weaker than the chapter's concrete list colons and becomes an over-cap excess instance.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "He said it the way locals said useful things on bad roads—without drama, in pieces, leaving the listener to know which part mattered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 17,
+    "totalKeeps": 17,
+    "mildKills": 14,
+    "moderateOrSevereKills": 3,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 17,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass A found 17 kills, including 3 MODERATE intent-smear findings. Negation pivots and over-cap colon narration are also repeating, and the chapter's rhythm sits below target for connective tissue.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.461,
+        "target": 0.72,
+        "delta": -0.259,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "withinRange": false
+      },
+      "sentence_length_cv": {
+        "value": 0.798,
+        "target": 0.7,
+        "delta": 0.098,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "withinRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 32.4,
+        "target": 19.0,
+        "delta": 13.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "withinRange": false
+      },
+      "structuralRhythmConcerns": [
+        "comma_period_ratio below calibrated floor",
+        "one_sentence_paragraph_pct above calibrated ceiling"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 3.1% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 3.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 15,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 26,
+        "totalViolations": 2,
+        "overCapCategories": [
+          "punctuation_tics",
+          "narrator_verdict"
+        ]
+      }
+    }
+  }
+}

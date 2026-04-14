@@ -1,5 +1,7 @@
 """Texture analysis helper functions."""
 
+import math
+
 from .constants import (
     COMPOUND_RE,
     DESERT_MIN_SENTENCES,
@@ -132,104 +134,194 @@ def find_texture_deserts(
     return flagged
 
 
+# ---------------------------------------------------------------------------
+# Balanced texture scoring (0–100 normalized scale)
+# ---------------------------------------------------------------------------
+
+DECAY_K = 25    # log-decay steepness: 10pp off target → dimension score ~42
+TOLERANCE = 1.0  # ±1 percentage-point dead zone around each target
+
+
+def dimension_score(actual: float, target: float) -> float:
+    """Score how close a single metric is to its target (0–100).
+
+    Returns 100 when within ±TOLERANCE of target.
+    Symmetric log-decay penalty for both undershoot and overshoot:
+        penalty = DECAY_K × ln(1 + excess_beyond_tolerance)
+    """
+    delta = abs(actual - target)
+    if delta <= TOLERANCE:
+        return 100.0
+    excess = delta - TOLERANCE
+    penalty = DECAY_K * math.log1p(excess)
+    return max(0.0, 100.0 - penalty)
+
+
+def balanced_texture_score(
+    metrics: dict, baselines: dict,
+) -> tuple[float, dict]:
+    """Compute normalized 0–100 texture score from four dimensions.
+
+    Each dimension (participial, compound, emdash, semicolon) is scored
+    independently via dimension_score() and weighted equally (25% each).
+    100 = all dimensions exactly on target. Both over and under penalized.
+
+    Returns:
+        (overall_score, dimension_details)
+        dimension_details maps name → {actual, target, score}
+    """
+    dimensions = {
+        "participial": "participial_pct",
+        "compound": "compound_pct",
+        "emdash": "emdash_pct",
+        "semicolon": "semicolon_pct",
+    }
+
+    details = {}
+    total = 0.0
+    for name, key in dimensions.items():
+        actual = metrics.get(key, 0.0)
+        bl = baselines.get(key, {})
+        target = float(bl.get("target", bl.get("human", 0.0)))
+        score = dimension_score(actual, target)
+        details[name] = {
+            "actual": round(actual, 1),
+            "target": target,
+            "score": round(score, 1),
+        }
+        total += score
+
+    overall = round(total / len(dimensions), 1)
+    return overall, details
+
+
+# ---------------------------------------------------------------------------
+# Verdict and interpretation
+# ---------------------------------------------------------------------------
+
 def texture_verdict(
     metrics: dict, baselines: dict,
+    dimension_scores: dict | None = None,
 ) -> tuple[str, list[str]]:
-    """Determine texture verdict and list specific gaps."""
+    """Determine texture verdict from balanced 0–100 score.
+
+    Passes when overall texture_score >= 90 and short_pct is in range.
+    Per-dimension reasons are always included for the reviser's benefit.
+    """
     reasons = []
 
-    for key in ("participial_pct", "compound_pct", "emdash_pct", "semicolon_pct", "texture_score"):
-        if key in baselines:
-            val = metrics[key]
-            lo, hi = baselines[key]["range"]
-            human = baselines[key]["human"]
-            if val < lo:
+    if dimension_scores:
+        for name, detail in dimension_scores.items():
+            if detail["score"] < 90:
+                direction = "below" if detail["actual"] < detail["target"] else "above"
                 reasons.append(
-                    f"{key} {val:.1f}% below floor {lo}% (human: {human}%)"
-                )
-            elif val > hi:
-                reasons.append(
-                    f"{key} {val:.1f}% above ceiling {hi}% (human: {human}%)"
+                    f"{name}: {detail['actual']:.1f}% {direction} target "
+                    f"{detail['target']}% (score {detail['score']:.0f}/100)"
                 )
 
+    short_violation = False
     if "short_pct" in baselines:
-        val = metrics["short_pct"]
-        lo, hi = baselines["short_pct"]["range"]
-        human = baselines["short_pct"]["human"]
+        val = metrics.get("short_pct", 0.0)
+        bl = baselines["short_pct"]
+        lo, hi = bl["range"]
+        human = bl["human"]
         if val > hi:
             reasons.append(
-                f"short_pct {val:.1f}% above ceiling {hi}% -- telegram prose (human: {human}%)"
+                f"short_pct {val:.1f}% above ceiling {hi}% (human: {human}%)"
             )
+            short_violation = True
         elif val < lo:
             reasons.append(
-                f"short_pct {val:.1f}% below floor {lo}% -- over-connected (human: {human}%)"
+                f"short_pct {val:.1f}% below floor {lo}% (human: {human}%)"
             )
+            short_violation = True
 
-    if not reasons:
+    score = metrics.get("texture_score", 0.0)
+    if score >= 90.0 and not short_violation:
         return "within_target", reasons
-    elif len(reasons) >= 3:
-        return "below_target", reasons
-    else:
-        return "borderline", reasons
+    return "below_target", reasons
 
 
 def texture_interpretation(
     metrics: dict, baselines: dict, verdict: str, reasons: list[str],
+    dimension_scores: dict | None = None,
 ) -> str:
-    """Build agent-readable interpretation with concrete fix instructions.
+    """Build agent-readable fix instructions with per-dimension guidance.
 
-    This tells the consuming agent WHAT is wrong and HOW to fix it,
-    with example constructions for each gap.
+    Handles both UNDER-target (add constructions) and OVER-target
+    (reduce/replace constructions) for each dimension.
     """
-    if verdict == "within_target":
+    if verdict == "within_target" and not reasons:
         return "Texture within target range. No structural changes needed."
 
     parts = []
 
-    bl = baselines.get("participial_pct", {})
-    if bl and metrics["participial_pct"] < bl.get("range", [0])[0]:
-        parts.append(
-            f"PARTICIPIAL PHRASES: {metrics['participial_pct']:.1f}% "
-            f"(floor: {bl['range'][0]}%, human: {bl['human']}%). "
-            f"Add ', Ving' phrases to connect actions: "
-            f"', turning back to the fire' / ', gripping the railing with both hands'. "
-            f"These create connective tissue between actions."
-        )
+    if dimension_scores:
+        for name, detail in dimension_scores.items():
+            if detail["score"] >= 90:
+                continue
+            actual, target = detail["actual"], detail["target"]
+            score_str = f"(score {detail['score']:.0f}/100)"
 
-    bl = baselines.get("compound_pct", {})
-    if bl and metrics["compound_pct"] < bl.get("range", [0])[0]:
-        parts.append(
-            f"COMPOUND CLAUSES: {metrics['compound_pct']:.1f}% "
-            f"(floor: {bl['range'][0]}%, human: {bl['human']}%). "
-            f"Join related ideas: ', and' / ', but' / ', yet'. "
-            f"Adjacent short sentences often want combining."
-        )
+            if actual < target:
+                instructions = {
+                    "participial": (
+                        "Add ', Ving' phrases: ', turning back to the fire' / "
+                        "', gripping the railing'. Connective tissue between actions."
+                    ),
+                    "compound": (
+                        "Join related clauses: ', and' / ', but' / ', yet'. "
+                        "Adjacent short sentences often want combining."
+                    ),
+                    "emdash": (
+                        "Use for mid-sentence pivots: "
+                        "'The door\u2014the same one she'd slammed\u2014stood open.'"
+                    ),
+                    "semicolon": (
+                        "Join related clauses: "
+                        "'She didn't answer; the question wasn't for her.'"
+                    ),
+                }
+            else:
+                instructions = {
+                    "participial": (
+                        "Too many ', Ving' phrases. Convert some to independent "
+                        "clauses or action beats."
+                    ),
+                    "compound": (
+                        "Too many ', and/but/yet' joins. Break some into "
+                        "separate sentences for punch."
+                    ),
+                    "emdash": (
+                        "Too many em-dashes. Replace some with commas, "
+                        "parenthetical clauses, or sentence breaks."
+                    ),
+                    "semicolon": (
+                        "Too many semicolons. Convert some to periods "
+                        "or coordinating conjunctions."
+                    ),
+                }
 
-    bl = baselines.get("emdash_pct", {})
-    if bl and metrics["emdash_pct"] < bl.get("range", [0])[0]:
-        parts.append(
-            f"EM-DASHES: {metrics['emdash_pct']:.1f}% "
-            f"(floor: {bl['range'][0]}%, human: {bl['human']}%). "
-            f"Use for mid-sentence pivots and asides: "
-            f"'The door\u2014the same one she'd slammed that morning\u2014stood open.'"
-        )
+            parts.append(
+                f"{name.upper()}: {actual:.1f}% \u2192 target {target}% {score_str}. "
+                f"{instructions.get(name, '')}"
+            )
 
-    bl = baselines.get("semicolon_pct", {})
-    if bl and metrics["semicolon_pct"] < bl.get("range", [0])[0]:
-        parts.append(
-            f"SEMICOLONS: {metrics['semicolon_pct']:.1f}% "
-            f"(floor: {bl['range'][0]}%, human: {bl['human']}%). "
-            f"Join related clauses: "
-            f"'She didn't answer; the question wasn't meant for her.'"
-        )
-
+    # Short-sentence guidance (range-based, not dimension-scored)
     bl = baselines.get("short_pct", {})
-    if bl and metrics["short_pct"] > bl.get("range", [0, 100])[1]:
-        parts.append(
-            f"SHORT SENTENCES: {metrics['short_pct']:.1f}% "
-            f"(ceiling: {bl['range'][1]}%, human: {bl['human']}%). "
-            f"Too choppy. Combine adjacent short sentences using the constructions above."
-        )
+    if bl:
+        val = metrics.get("short_pct", 0.0)
+        lo, hi = bl.get("range", [0, 100])
+        if val > hi:
+            parts.append(
+                f"SHORT SENTENCES: {val:.1f}% (ceiling: {hi}%). "
+                f"Too choppy. Combine adjacent shorts using constructions above."
+            )
+        elif val < lo:
+            parts.append(
+                f"SHORT SENTENCES: {val:.1f}% (floor: {lo}%). "
+                f"Too dense. Break some long sentences for rhythm variety."
+            )
 
     if not parts:
         return f"Borderline texture. Minor gaps: {'; '.join(reasons)}"

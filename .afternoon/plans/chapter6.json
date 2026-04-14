@@ -13,9 +13,12 @@
   ],
   "immediateObjective": "Confirm the scale of the grain conspiracy and force someone in Lordaeron's command structure to take the warning seriously.",
   "constraints": [
-    "Limited Third Absolute — Jaina's perception only",
-    "Do not identify the recurring trader clue beyond repetition and suspicion",
-    "Arthas's dismissal must read as visible-war priority and hierarchy, not simple personal cruelty"
+    "Limited third, absolute — Jaina only.",
+    "Jaina can isolate ingestion, repeated exposure, and body participation, but not yet the final step that turns sickness into undeath.",
+    "No explicit Mal'Ganis identification or recognition.",
+    "No certainty that the Barovs themselves designed the plague.",
+    "Arthas's dismissal must read as visible-war priority and certainty under rank pressure, not as simple personal cruelty.",
+    "Do not overstate warmth between Jaina and Sylvanas; alignment is real, ease is not."
   ],
   "metaInfo": {
     "worldbuildingReferences": [
@@ -57,29 +60,29 @@
   },
   "knowledgeLedger": {
     "povKnowsAtOpen": [
-      "Grain is what carries it",
-      "The network is organized, monitored, and disciplined",
-      "Barov infrastructure appears in the route fragments",
-      "The party's chosen road intersects the military zone near Strahnbrad before reaching Andorhal",
-      "Her sensitivity has put them ahead of what most of Lordaeron understands, but they are still chasing a deployment already in motion rather than preventing it",
-      "The old seller from Millhaven is still sitting in memory as an unresolved grain-side oddity",
-      "She can see this was built on purpose and tied to necromancy, but she still cannot explain exactly how sickness becomes undeath"
+      "Grain is what carries it.",
+      "The network is organized, monitored, and disciplined.",
+      "Barov infrastructure appears in the route fragments.",
+      "The party's chosen road intersects the military zone near Strahnbrad before reaching Andorhal.",
+      "Her sensitivity has put them ahead of what most of Lordaeron understands, but they are still chasing a deployment already in motion rather than preventing it.",
+      "The old seller from Millhaven is still sitting in memory as an unresolved grain-side oddity.",
+      "She can see this was built on purpose and tied to necromancy, but she still cannot explain exactly how sickness becomes undeath."
     ],
     "povDoesNotKnowAtOpen": [
-      "Whether Arthas will listen",
-      "Whether the Barovs are fully complicit",
-      "Whether the old seller matters",
-      "What Andorhal looks like from inside the contamination radius"
+      "Whether Arthas will listen.",
+      "Whether the Barovs are fully complicit.",
+      "Whether the old seller matters.",
+      "What Andorhal looks like from inside the contamination radius."
     ],
     "mustNotBeImpliedYet": [
-      "No explicit Mal'Ganis identification",
-      "No certainty that the Barovs themselves designed the plague",
-      "No suggestion that Arthas dismisses Jaina out of personal cruelty alone; his visible-war priority matters"
+      "No explicit Mal'Ganis identification.",
+      "No certainty that the Barovs themselves designed the plague.",
+      "No suggestion that Arthas dismisses Jaina out of personal cruelty alone; his visible-war priority matters."
     ],
     "castKnowsLeavingChapter": [
-      "Arthas heard the warning and still chose the visible war first",
-      "The repeated farewell has sharpened the old seller file for Sylvanas without resolving it",
-      "The party reaches a still-working Andorhal at the heart of the plague roads"
+      "Arthas heard the warning and still chose the visible war first.",
+      "The repeated farewell has sharpened the old seller file for Sylvanas without resolving it.",
+      "The party reaches a still-working Andorhal at the heart of the plague roads."
     ]
   },
   "arcPosition": {
@@ -95,7 +98,7 @@
     },
     "throughPov": [
       {
-        "character": "Sylvanas",
+        "character": "Sylvanas Windrunner",
         "visibleFunction": "The woman who reads people, rank, and refusal faster than Jaina does.",
         "povMisreadAtOpen": "Jaina no longer underrates Sylvanas's mind, but she still half hopes clear evidence can outrun Sylvanas's cynicism.",
         "correctionEarnedHere": "Sylvanas is not being cynical. She is reading command blindness in real time, and she sees the refusal before Jaina stops arguing with it.",
@@ -129,25 +132,6 @@
     ],
     "chapterHandoffTarget": "Chapter 7 opens at Andorhal with the same four riders carrying Arthas's dismissal, the repeated farewell clue, and the road that brought them there."
   },
-  "chapterCloseHandoff": {
-    "activeCastAtClose": [
-      "Jaina",
-      "Sylvanas",
-      "Cyndia",
-      "Lyriel"
-    ],
-    "factsLockedForChapter7": [
-      "Arthas has heard the warning and not acted on it in the needed way",
-      "The repeated farewell is now a remembered pattern for Sylvanas",
-      "The party reaches Andorhal via the road chosen in Chapter 5",
-      "The city still looks alive and busy even though the plague roads all run through it"
-    ],
-    "factsNotYetEarned": [
-      "Barov certainty",
-      "Mal'Ganis recognition",
-      "Any claim that human authorities are now fully useless everywhere rather than specifically failing here"
-    ]
-  },
   "scenes": [
     {
       "sceneId": 1,
@@ -160,90 +144,93 @@
         "Lyriel"
       ],
       "knowledgeAtSceneStart": [
-        "Grain road",
-        "organized network",
-        "Barov connection",
-        "chosen road"
+        "Grain road.",
+        "Organized network.",
+        "Barov connection.",
+        "Chosen road."
       ],
-      "enrichment": {
-        "detail": "The plague mechanism's grain layer is only the outer shell; repeated ingestion conditions the body and explains why Jaina can now see elegant, deliberate design without yet solving the final undeath lock. That lets her reaction here read as professional recognition plus horror, not sudden omniscience.",
-        "source": "stories/the-plague-road/plans/plague-mechanism.md; Warcraft Wiki: Jaina (Warcraft III)"
-      },
+      "arcPressure": "Jaina finally has a workable field model, but the cleaner the answer becomes the more she risks mistaking clarity for leverage just before she rides into a command structure that prizes visible war over invisible threat.",
+      "enrichment": [
+        {
+          "detail": "Field-plague logic at this stage should stay on repeated ingestion, body participation, and death as the completing lock; Jaina is advanced, but she still does not own the final mechanism yet.",
+          "source": "stories/the-plague-road/plans/plague-mechanism.md"
+        },
+        {
+          "detail": "Thalassian horses are endurance-bred, disciplined road mounts that tolerate arcane background hum and sudden terrain shifts. That supports a moving analytical scene rather than forcing a stop for the entire realization.",
+          "source": "stories/the-plague-road/locations/thalassian-horses.md"
+        }
+      ],
       "beats": [
         {
           "beatId": 1,
           "beatType": "scene",
           "scenePhase": "goal",
-          "goal": "Reconcile the evidence into one stable explanation before they hit the city",
-          "conflict": "Jaina has to admit the ugly elegance of it: alchemy, necromancy, road traffic, and ordinary bread all folded together",
+          "goal": "Reconcile the evidence into one stable explanation before they hit the city.",
+          "conflict": "Jaina has to admit the ugly elegance of it: alchemy, necromancy, road traffic, and ordinary bread all folded together.",
           "outcome": {
             "type": "yes-but",
             "summary": "The field model coheres, but the clarity makes the enemy feel more capable, not less."
           },
           "valueShift": "chosen road -> the pattern finally stands plain",
           "newOnPageInformation": [
-            "The pattern is too clean for accident or lone-wizard sabotage",
-            "The living body is part of the design, not just the thing being poisoned",
-            "A trained magical mind sits somewhere behind the work"
+            "The pattern is too clean for accident or lone-wizard sabotage.",
+            "The living body is part of the design, not just the thing being poisoned.",
+            "A trained magical mind sits somewhere behind the work."
           ],
           "stillUnknownAfterBeat": [
-            "Which exact mind",
-            "How many layers of organization sit between village watchers and command"
+            "Which exact mind.",
+            "How many layers of organization sit between village watchers and command."
           ],
           "sensoryAnchors": [
-            "map on the saddle",
-            "headache behind the eyes",
-            "road mist",
-            "horse sweat",
-            "damp leather",
-            "south-feeder road beginning to thicken with troop churn before Strahnbrad"
+            "Jaina reading the map while riding",
+            "headache building from stronger ambient corruption",
+            "horses moving through damp road mist while the theory settles"
           ],
-          "transitionIntent": "analysis-pressure: once the model coheres, Jaina has to sit with what it says about the mind behind it",
+          "transitionIntent": "emotional-carryover: Once Jaina locks the field model, revulsion at the craft behind it rises and carries them into the next beat.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "threads/grain-distribution-network",
+            "file": "characters/jaina-proudmoore",
             "fields": [
-              "readerKnows",
-              "povCharacterKnows",
-              "notes"
+              "beliefs",
+              "knowledge",
+              "abilitiesDemonstrated"
             ],
             "chapter": "chapter5"
           },
-          "verifierNotes": "Build from the already-established grain-road theorem; do not present ingestion or regional scale as a fresh discovery.",
-          "verifierModification": "Added early war-road pressure to the opening sensory line so chapter 5's route-choice payoff stays active before the Strahnbrad scene lands."
+          "verifierNotes": "Jaina is consolidating established evidence here, not discovering the carrier or the living-body stage for the first time."
         },
         {
           "beatId": 2,
           "beatType": "sequel",
           "scenePhase": "emotion",
-          "emotion": "Intellectual disgust",
-          "dilemma": "Jaina can either deny the brilliance in the work or admit that the work is monstrously well-made",
-          "decision": "Admit the quality privately and keep moving",
+          "emotion": "Intellectual disgust.",
+          "dilemma": "Jaina can either deny the brilliance in the work or admit that the work is monstrously well-made.",
+          "decision": "Admit the quality privately and keep moving.",
           "valueShift": "the pattern finally stands plain -> the enemy is brilliant, and that is worse",
           "newOnPageInformation": [
-            "Jaina recognizes methodology she would admire in any non-genocidal context",
-            "The work is pressing against banned Kirin Tor questions about what a body can be taught to keep through death",
-            "Her revulsion is sharpened by professional recognition"
+            "Jaina recognizes methodology she would admire in any non-genocidal context.",
+            "The work is pressing against banned Kirin Tor questions about what a body can be taught to keep through death.",
+            "Her revulsion is sharpened by professional recognition."
           ],
           "stillUnknownAfterBeat": [
-            "Whether this mirror points to someone she already knows"
+            "Whether this mirror points to someone she already knows."
           ],
           "sensoryAnchors": [
-            "buzzing temples",
-            "tight reins",
-            "cold understanding",
-            "mist-wet air"
+            "buzzing in her temples from the strengthening corruption",
+            "tightness in her grip on the reins",
+            "the sick feeling of understanding too much"
           ],
-          "transitionIntent": "world-collision: the road then delivers them into Lordaeron's visible war, which competes with the invisible one",
+          "transitionIntent": "action-continuation: The analysis does not stop the ride; the road carries that private horror straight into Strahnbrad's visible war.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "world/magic",
+            "file": "characters/jaina-proudmoore",
             "fields": [
-              "facts"
+              "beliefs",
+              "arc",
+              "abilitiesDemonstrated"
             ],
-            "chapter": "chapter4"
-          },
-          "verifierNotes": "Jaina's professional recognition is an escalation of her existing necromantic read, not sudden omniscience."
+            "chapter": "chapter5"
+          }
         }
       ],
       "sceneLevelWarnings": []
@@ -262,129 +249,144 @@
         "Silver Hand presence"
       ],
       "knowledgeAtSceneStart": [
-        "The plague picture is now clear to the protagonists",
-        "Lordaeron command has not yet absorbed it"
+        "The plague picture is now clear to the protagonists.",
+        "Lordaeron command has not yet absorbed it."
       ],
-      "arcPressure": "Jaina thinks clarity should win. Strahnbrad forces her to watch rank, urgency, and old personal history beat evidence in real time.",
-      "enrichment": {
-        "detail": "Strahnbrad sits in the northeastern Hillsbrad foothills near Alterac, and Warcraft III frames it as the site of Blackrock-orc raids, captive villagers, and civilian defense pressure. Arthas therefore arrives as the golden prince already inside a mud-and-banners war frame, primed to prioritize the threat he can see and swing at.",
-        "source": "Warcraft Wiki: Strahnbrad; Warcraft Wiki: The Defense of Strahnbrad (WC3 Human); stories/the-plague-road/characters/arthas.md"
-      },
+      "arcPressure": "This scene forces Jaina to test her belief that a clean explanation and old personal credibility can still move command, while Sylvanas reads the refusal as soon as rank and battlefield tempo enter the room.",
+      "enrichment": [
+        {
+          "detail": "Strahnbrad is a village in the northeastern Hillsbrad / Alterac foothill corridor, east of Alterac and west of Chillwind Point. That supports muddy camp traffic, farmland approach roads, and a military choke-point feeling rather than an urban setting.",
+          "source": "Warcraft Wiki: Strahnbrad — https://warcraft.wiki.gg/wiki/Strahnbrad"
+        },
+        {
+          "detail": "Warcraft III places Arthas at the defense of Strahnbrad against Blackrock raiders with Silver Hand context around him. His role here should read as front-line, charismatic, and wholly committed to the visible emergency he can strike at directly.",
+          "source": "Warcraft Wiki: The Defense of Strahnbrad (WC3 Human) — https://warcraft.wiki.gg/wiki/The_Defense_of_Strahnbrad_(WC3_Human)"
+        }
+      ],
       "beats": [
         {
           "beatId": 3,
           "beatType": "scene",
           "scenePhase": "goal",
-          "goal": "Reach a Lordaeron authority figure who can act on the warning",
-          "conflict": "Strahnbrad is fully committed to the Blackrock-orc emergency, which is immediate, visible, and politically legible in ways the plague is not",
+          "goal": "Reach a Lordaeron authority figure who can act on the warning.",
+          "conflict": "Strahnbrad is fully committed to the Blackrock-orc emergency, which is immediate, visible, and politically legible in ways the plague is not.",
           "outcome": {
             "type": "yes-but",
             "summary": "They find Arthas exactly where the chosen road said they would, but he is already embedded in another crisis frame."
           },
           "valueShift": "the enemy is brilliant, and that is worse -> the warning has to compete with visible war",
           "newOnPageInformation": [
-            "The Chapter 5 route choice paid off geographically",
-            "Arthas is here because Lordaeron is spending force on the threat it can already see"
+            "The Chapter 5 route choice paid off geographically.",
+            "Arthas is here because Lordaeron is spending force on the threat it can already see."
           ],
           "stillUnknownAfterBeat": [
-            "Whether personal history will help or hinder Jaina's warning"
+            "Whether personal history will help or hinder Jaina's warning."
           ],
           "sensoryAnchors": [
-            "mud",
-            "camp noise",
-            "banners in wet air",
-            "horses among infantry",
-            "hammer-bright command space"
+            "infantry, banners, mud, command noise",
+            "military camp pressure very different from Farstrider quiet",
+            "Jaina recognizing the scale before she sees Arthas"
           ],
-          "transitionIntent": "audience-pull: Jaina gets her chance to speak, but not on terms she controls",
-          "continuityStatus": "evolution",
-          "memoryRef": {
-            "file": "world/military",
-            "fields": [
-              "facts"
-            ],
-            "chapter": "chapter5"
-          },
-          "verifierNotes": "Strahnbrad is new on-page, but the collision with Arthas's theater is a payoff from the chapter 5 route choice, not a random detour."
+          "transitionIntent": "dialogue-hook: Jaina gets the audience she wanted, but only inside battlefield tempo and rank pressure that already work against her.",
+          "continuityStatus": "new",
+          "verifierNotes": "Arthas is first on-page here. Introduce him as a present military reality, not as if the reader already owes him emotional weight beyond the road and Jaina's immediate reaction."
         },
         {
           "beatId": 4,
           "beatType": "scene",
           "scenePhase": "conflict",
-          "goal": "Make Arthas act on the grain warning",
-          "conflict": "Arthas is courteous, focused, and looking at the wrong fire: he is handling the war in front of him and hears the plague as a secondary problem",
+          "goal": "Make Arthas act on the grain warning.",
+          "conflict": "Arthas is courteous, focused, and looking at the wrong fire: he is handling the war in front of him and hears the plague as a secondary problem.",
           "outcome": {
             "type": "no-and",
             "summary": "Jaina delivers correct intelligence, and Arthas still dismisses it in practice."
           },
           "valueShift": "the warning has to compete with visible war -> being right changes nothing",
           "newOnPageInformation": [
-            "Arthas hears the warning and chooses the visible threat first",
-            "The personal history sharpens the wound but is not the sole reason for dismissal",
-            "Jaina can feel Sylvanas reading Arthas's priorities and blind spots faster than the briefing itself is landing"
+            "Arthas hears the warning and chooses the visible threat first.",
+            "The personal history sharpens the wound but is not the sole reason for dismissal.",
+            "Jaina can feel Sylvanas reading Arthas's priorities and blind spots faster than the briefing itself is landing."
           ],
           "stillUnknownAfterBeat": [
-            "How much damage this delay will cause downstream"
+            "How much damage this delay will cause downstream."
           ],
           "sensoryAnchors": [
-            "polished plate in camp churn",
-            "map held like evidence",
-            "courtesy as a wall",
-            "Light-touched metal"
+            "Arthas polished and certain inside camp chaos",
+            "Jaina holding out map and testimony like evidence in the wrong court",
+            "courtesy used as a wall"
           ],
-          "transitionIntent": "emotional-fallout: once Arthas leaves, Jaina has to absorb both the personal wound and the operational failure",
-          "continuityStatus": "new",
-          "verifierNotes": "Arthas is first on-page here. Keep the old wound as new context inside Jaina, and keep the refusal institutional rather than petty."
+          "transitionIntent": "emotional-carryover: Arthas leaves Jaina holding both the strategic failure and the personal sting, which the next beat must absorb rather than skip.",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "threads/convocation-delay",
+            "fields": [
+              "readerKnows",
+              "povCharacterKnows",
+              "notes"
+            ],
+            "chapter": "chapter3"
+          },
+          "verifierNotes": "Their past is newly foregrounded story information here. Treat the sting as first explicit context, not as a callback the reader has already witnessed."
         },
         {
           "beatId": 5,
           "beatType": "sequel",
-          "scenePhase": "emotion",
-          "emotion": "Controlled bitterness",
-          "dilemma": "Read Arthas's dismissal as private failure, public failure, or both",
-          "decision": "Treat it as both and keep moving",
+          "scenePhase": "dilemma",
+          "emotion": "Controlled bitterness.",
+          "dilemma": "Read Arthas's dismissal as private failure, public failure, or both.",
+          "decision": "Treat it as both and keep moving.",
           "valueShift": "being right changes nothing -> contempt sharpened into clarity",
           "newOnPageInformation": [
-            "Jaina understands that being right about Arthas years ago and being right about the plague now produce the same useless result when the listener will not change"
+            "Jaina understands that being right about Arthas years ago and being right about the plague now produce the same useless result when the listener will not change."
           ],
           "stillUnknownAfterBeat": [
-            "Whether any human authority will act before disaster goes public"
+            "Whether any human authority will act before disaster goes public."
           ],
           "sensoryAnchors": [
-            "afterimage of courtesy",
-            "swallowed anger",
-            "troop movement continuing",
-            "hoofbeats under orders"
+            "lingering afterimage of his courtesy",
+            "sour taste of swallowed anger",
+            "hooves and troop movement continuing while the moment closes"
           ],
-          "transitionIntent": "alignment-pull: Sylvanas now answers the refusal as a commander problem, not a romantic one",
-          "continuityStatus": "new",
-          "verifierNotes": "This is the first explicit tie between Arthas and Jaina's older wound; do not frame it as recap the reader already has."
+          "transitionIntent": "emotional-carryover: Jaina's bitterness narrows into a practical truth Sylvanas can answer, turning private hurt into the next operational read.",
+          "continuityStatus": "evolution",
+          "memoryRef": {
+            "file": "characters/jaina-proudmoore",
+            "fields": [
+              "formerBeliefs",
+              "beliefs",
+              "arc"
+            ],
+            "chapter": "chapter2"
+          }
         },
         {
           "beatId": 6,
-          "beatType": "sequel",
-          "scenePhase": "decision",
-          "valueShift": "contempt sharpened into clarity -> shared outward contempt",
+          "beatType": "scene",
+          "scenePhase": "disaster",
+          "goal": "Re-establish the investigative mission after the failed briefing.",
+          "conflict": "Jaina's anger and Sylvanas's read of Arthas have to settle into one usable next move.",
+          "outcome": {
+            "type": "yes",
+            "summary": "They align cleanly on the next move and leave Strahnbrad treating official refusal as a wall to bypass, not a debate to keep having."
+          },
+          "valueShift": "contempt sharpened into clarity -> shared outward resolve",
           "newOnPageInformation": [
-            "Sylvanas instantly reads the exchange without needing the whole history",
-            "Jaina and Sylvanas can now align against the same blind spot in another person",
-            "Jaina chooses to treat Sylvanas's faster read as tactical correction and turn the quartet toward proof instead of sanction"
+            "Sylvanas instantly reads the exchange without needing the whole history.",
+            "Jaina and Sylvanas can now align against the same blind spot in another person.",
+            "Jaina realizes she is already leaning on Sylvanas to tell her what this failure means in practice, not just how it feels."
           ],
           "stillUnknownAfterBeat": [
-            "Whether Andorhal will give them proof strong enough to force action later"
+            "Whether Andorhal will give them proof strong enough to force action later."
           ],
           "sensoryAnchors": [
             "Arthas gone but still shaping the air after him",
             "Sylvanas's short diagnosis cutting cleaner than comfort would",
-            "horses turning back toward the road under Jaina's decision to keep moving"
+            "horses turning back toward the road"
           ],
-          "transitionIntent": "self-directed-pursuit: Jaina accepts the refusal as final and turns the quartet back onto the road, making Andorhal the next proof target",
-          "emotion": "Hard clarity",
-          "dilemma": "Keep trying to win sanction from Arthas, or accept the refusal and make Andorhal the proof target that has to speak for itself.",
-          "decision": "Accept the refusal, let Sylvanas's faster read stand, and turn the quartet back toward Andorhal without waiting for permission.",
+          "transitionIntent": "action-continuation: With the argument settled between them, they turn the horses and carry that shared resolve into the Andorhal road.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "relationships/jaina--sylvanas",
+            "file": "relationships/jaina-proudmoore--sylvanas-windrunner",
             "fields": [
               "currentState",
               "powerDynamic",
@@ -392,8 +394,7 @@
             ],
             "chapter": "chapter5"
           },
-          "verifierNotes": "Keep the alignment hard and tactical. Jaina is taking a strategic correction, not reaching for comfort.",
-          "verifierModification": "Retyped this beat from a scene/disaster into a decision sequel so Jaina owns the pivot after Arthas's refusal instead of being passively corrected."
+          "verifierModification": "Adjusted beat 6 from yes-but to yes so Scene 2 earns one cleaner local recovery after Arthas's refusal; the chapter needed a firmer reset before the Andorhal approach."
         }
       ],
       "sceneLevelWarnings": []
@@ -407,252 +408,290 @@
         "Sylvanas",
         "Cyndia",
         "Lyriel",
-        "helpful trader",
+        "second helpful trader figure",
         "Andorhal approach traffic"
       ],
       "knowledgeAtSceneStart": [
-        "Arthas will not solve this for them",
-        "Only the city remains"
+        "Arthas will not solve this for them.",
+        "Only the city remains."
       ],
-      "enrichment": {
-        "detail": "Andorhal is Lordaeron's breadbasket and main agricultural distribution point in the Eastweald, with active granaries, wagon traffic, and outwardly normal commerce. The right first look is therefore a working grain city whose surface competence makes the hidden contamination feel worse.",
-        "source": "stories/the-plague-road/locations/lordaeron-and-northrend.md; Warcraft Wiki: Andorhal"
-      },
+      "arcPressure": "With official help refused, the road itself has to become proof; the repeated farewell sharpens a hidden threat line while Andorhal's ordinary activity forces Jaina to accept that the deadliest stage of the plague can still wear a working city's face.",
+      "enrichment": [
+        {
+          "detail": "Andorhal was one of the largest cities in northern Lordaeron and the region's main agricultural distribution point. That makes active granaries, loaded approach roads, and an outwardly practical, prosperous city the correct pre-fall frame.",
+          "source": "Warcraft Wiki: Andorhal — https://warcraft.wiki.gg/wiki/Andorhal"
+        },
+        {
+          "detail": "Story location notes ground Andorhal in grain dust, warm dry sweetness, manifests, clerks, loading yards, wagons, and practical low walls. The city should feel logistical first; the horror is that the ordinary labor is real.",
+          "source": "stories/the-plague-road/locations/lordaeron-and-northrend.md"
+        }
+      ],
       "beats": [
         {
           "beatId": 7,
           "beatType": "scene",
           "scenePhase": "goal",
-          "goal": "Gather final directional intelligence on the city approach",
-          "conflict": "Another helpful grain-side local gives them exactly the information they need and parts with the same odd farewell",
+          "goal": "Gather final directional intelligence on the city approach.",
+          "conflict": "Another helpful grain-side local gives them exactly the information they need and parts with the same odd farewell.",
           "outcome": {
             "type": "yes-but",
             "summary": "The direction is useful, and the repeated phrase now snags harder on Sylvanas's memory without becoming actionable proof."
           },
           "valueShift": "shared outward contempt -> filed suspicion with pattern",
           "newOnPageInformation": [
-            "The farewell is now a repetition, not a one-off oddity",
-            "Sylvanas has a real memory hook, even if not an answer"
+            "The farewell is now a repetition, not a one-off oddity.",
+            "Sylvanas has a real memory hook, even if not an answer."
           ],
           "stillUnknownAfterBeat": [
-            "Why the same phrase is recurring",
-            "Whether the repeated speaker matters"
+            "Why the same phrase is recurring.",
+            "That the two encounters are the same being."
           ],
           "sensoryAnchors": [
-            "roadside helpfulness",
-            "grain-route language",
-            "phrase landing twice",
-            "nothing magical on the man"
+            "familiar-seeming helpfulness",
+            "phrase landing twice in memory",
+            "Jaina still reading nothing magical from the man"
           ],
-          "transitionIntent": "physical-pressure: once the exchange ends, the road itself starts announcing the city's proximity",
+          "transitionIntent": "sensory-carry: The repeated farewell stays in the air as the road narrows and the contamination begins pressing on Jaina's body.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "threads/new-grain-seller",
+            "file": "relationships/old-grain-seller--sylvanas-windrunner",
             "fields": [
-              "evidence",
-              "povCharacterKnows",
-              "notes"
+              "currentState",
+              "history",
+              "powerDynamic"
             ],
             "chapter": "chapter5"
           },
-          "verifierNotes": "Sharpen the recurring breadcrumb into a pattern, but do not imply the identity is solved or that the repeated speaker is proven to be the same man."
+          "verifierNotes": "This is the old-seller pattern sharpening, not a recognition scene. Do not identify the trader or imply the women have proof yet."
         },
         {
           "beatId": 8,
           "beatType": "sequel",
-          "scenePhase": "emotion",
-          "emotion": "Strained dread",
-          "dilemma": "Push through the pain of the corruption field now that the source is almost visible, or stop and recover",
-          "decision": "Push through",
+          "scenePhase": "decision",
+          "emotion": "Strained dread.",
+          "dilemma": "Push through the pain of the corruption field now that the source is almost visible, or stop and recover.",
+          "decision": "Push through.",
           "valueShift": "filed suspicion with pattern -> the city is close enough to hurt",
           "newOnPageInformation": [
-            "Jaina's body is now reacting to proximity, not just reading it"
+            "Jaina's body is now reacting to proximity, not just reading it."
           ],
           "stillUnknownAfterBeat": [
-            "Whether Andorhal is already too late to save"
+            "Whether Andorhal is already too late to save."
           ],
           "sensoryAnchors": [
-            "pressure behind the eyes",
-            "buzzing pain",
-            "horses uneasy",
-            "corruption thickening with every mile"
+            "headache, buzzing, pressure behind the eyes",
+            "corruption thickening with every mile",
+            "horses uneasy before the city is even visible"
           ],
-          "transitionIntent": "arrival-hook: the chapter closes only once the city itself is in sight",
+          "transitionIntent": "action-continuation: They push through the pain until the city itself breaks the horizon and answers the question of what Andorhal looks like now.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "characters/jaina-proudmoore",
+            "file": "world/magic",
             "fields": [
-              "physicalDetails",
-              "bodyLanguagePatterns",
-              "knowledge"
+              "facts"
             ],
-            "chapter": "chapter3"
+            "chapter": "chapter2"
           },
-          "verifierNotes": "Jaina's bodily backlash is established; intensify it rather than treating magical pain as a brand-new symptom."
+          "verifierNotes": "Jaina's physical pain is an escalation of the already-established contamination field response outside the wards, not a brand-new magical symptom."
         },
         {
           "beatId": 9,
           "beatType": "scene",
           "scenePhase": "disaster",
-          "goal": "Reach visual confirmation of the tightest active grain hub they have narrowed down so far",
-          "conflict": "The city is still busy and working, which makes the contamination feel embedded at distribution scale rather than isolated to ruined villages.",
+          "goal": "Reach visual confirmation of the source city.",
+          "conflict": "The city is still busy and working, which makes the hidden contamination feel even more lethal.",
           "outcome": {
             "type": "no-and",
-            "summary": "They have reached the tightest active knot in the network so far, and it is still operating as though nothing is wrong."
+            "summary": "They have arrived at the right place, and the place is still operating as though nothing is wrong."
           },
-          "valueShift": "the city is close enough to hurt -> the network's busiest visible hub is alive and unaware of its own danger",
+          "valueShift": "the city is close enough to hurt -> the source is alive and unaware of its own death",
           "newOnPageInformation": [
             "Andorhal is not a ruin; it is a working grain city carrying the plague in plain sight."
           ],
           "stillUnknownAfterBeat": [
-            "Who inside the city is running the thing",
-            "Whether Andorhal is the ultimate origin or only the largest visible knot they can currently reach"
+            "Who inside the city is running the thing."
           ],
           "sensoryAnchors": [
-            "working skyline",
-            "granaries on the horizon",
-            "wagon traffic",
-            "wrongness under commerce"
+            "working city silhouette",
+            "granaries active on the horizon",
+            "wrongness underneath ordinary commerce"
           ],
-          "transitionIntent": "chapter-handoff: Chapter 7 opens inside the Andorhal investigation with official refusal still hot and the city's surface normalcy now on-page",
+          "transitionIntent": "planted-question: Chapter 7 opens inside Andorhal with Arthas's refusal, the repeated-farewell pattern, and the city's false normalcy all demanding explanation.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "locations/andorhal",
+            "file": "threads/andorhal-source-node",
             "fields": [
-              "sensoryProfile",
-              "establishedFacts",
-              "eventsHere"
+              "readerKnows",
+              "povCharacterKnows",
+              "notes"
             ],
             "chapter": "chapter5"
           },
-          "verifierNotes": "Andorhal is already an established target. The new beat is the first direct sight of a functioning grain city, not a fresh place-name reveal.",
-          "verifierModification": "Reduced Andorhal from a claimed source city to the tightest active hub yet, preserving chapter 5's rule that it is the next knot in the network, not final proof of ultimate origin."
+          "verifierNotes": "Andorhal has been the source-node target since chapter4. The surprise here is not that the city matters, but that it is still visibly alive while the road feeding it is wrong."
         }
       ],
       "sceneLevelWarnings": []
     }
   ],
+  "chapterClose": {
+    "activeCastAtClose": [
+      "Jaina",
+      "Sylvanas",
+      "Cyndia",
+      "Lyriel"
+    ],
+    "departuresLocked": [
+      "The core riding party remains Jaina, Sylvanas, Cyndia, and Lyriel.",
+      "Arthas, Lordaeron troops, Silver Hand presence, the helpful trader figure, and Andorhal approach traffic are local to this chapter's approach and must not be implied to join the city-entry unit."
+    ],
+    "factsLockedForChapter7": [
+      "Arthas has heard the warning and not acted on it in the needed way.",
+      "The repeated farewell is now a remembered pattern for Sylvanas.",
+      "The party reaches Andorhal via the road chosen in Chapter 5.",
+      "The city still looks alive and busy even though the plague roads all run through it."
+    ],
+    "factsNotYetEarned": [
+      "Barov certainty.",
+      "Mal'Ganis recognition.",
+      "Any claim that human authorities are now fully useless everywhere rather than specifically failing here."
+    ]
+  },
+  "researchSources": [
+    {
+      "label": "Warcraft Wiki — Andorhal",
+      "url": "https://warcraft.wiki.gg/wiki/Andorhal",
+      "usedFor": [
+        "Andorhal as agricultural distribution hub",
+        "city-scale logistics texture",
+        "working-city framing on arrival"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Strahnbrad",
+      "url": "https://warcraft.wiki.gg/wiki/Strahnbrad",
+      "usedFor": [
+        "Strahnbrad geography",
+        "Alterac / Hillsbrad approach logic",
+        "camp-road setting"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — The Defense of Strahnbrad (WC3 Human)",
+      "url": "https://warcraft.wiki.gg/wiki/The_Defense_of_Strahnbrad_(WC3_Human)",
+      "usedFor": [
+        "Blackrock raid context",
+        "Arthas's front-line military presence",
+        "Silver Hand campaign frame"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Arthas Menethil",
+      "url": "https://warcraft.wiki.gg/wiki/Arthas_Menethil",
+      "usedFor": [
+        "Arthas and Jaina prior relationship calibration",
+        "princely certainty and paladin role",
+        "character grounding for the dismissal scene"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Jaina Proudmoore",
+      "url": "https://warcraft.wiki.gg/wiki/Jaina_Proudmoore",
+      "usedFor": [
+        "Antonidas apprenticeship",
+        "pre-Stratholme relationship expectations",
+        "field-mage authority calibration"
+      ]
+    }
+  ],
   "validation": {
     "passed": true,
-    "normalizations": [
-      "Expanded markdown beat labels into explicit beatType and scenePhase fields for all 9 beats.",
-      "Preserved the chapter-close handoff as structured locks for Chapter 7 instead of flattening it into summary text.",
-      "Trimmed the Scene 3 trader cast label to a reader-facing role so the recurring clue stays suggestive rather than explicitly identified."
-    ],
     "warnings": [
-      "Beats 1-5 darken in the same general direction before beat 6 converts rejection into alignment, so the chapter's front half runs on deliberate downward pressure.",
-      "Scene outcomes skew narrow: 4 yes-but and 2 no-and, with no clean yes. The fit is acceptable for a refusal chapter, but there is little uncomplicated relief."
+      "The source outline needed normalization of headings and machine-readable beat fields; Scene 3's shorthand beats were expanded into the full beat contract rather than left as action-summary bullets.",
+      "Beats 2-4 darken in one uninterrupted direction: elegant horror, visible-war collision, then dismissal. Keep the prose functions distinct so the run sharpens instead of flattening into one note of bad news.",
+      "Scene outcomes skew toward yes-but, with only two no-and reversals and no clean yes. Preserve local traction through competence, pace, and texture so the chapter feels pressured rather than merely blunted.",
+      "Beat 7's repeated-farewell clue will feel contrived if the trader reads too marked or sinister on first pass. Keep him practical and forgettable except for the phrase itself."
     ],
-    "enrichments": 3
+    "enrichments": 6
   },
-  "chapterBridge": "Direct carry from chapter 5's feeder-road commitment: the same four riders spend the opening miles on the chosen south road, carrying the Barov clue, the unresolved grain-seller breadcrumb, and the expectation that Strahnbrad's war traffic is now part of the route rather than a detour.",
+  "chapterBridge": "Direct carry from chapter5's dawn departure: the same four riders are already on the southwest feeder road chosen at the waystation, with Barov pressure unresolved, the old grain-seller memory newly sharpened, and Strahnbrad's war-country looming as the price of reaching Andorhal by the survivable line.",
   "requiredMemory": [
-    "threads/grain-distribution-network",
-    "world/magic",
-    "world/military",
-    "relationships/jaina--sylvanas",
-    "threads/new-grain-seller",
     "characters/jaina-proudmoore",
-    "locations/andorhal"
+    "threads/convocation-delay",
+    "relationships/jaina-proudmoore--sylvanas-windrunner",
+    "relationships/old-grain-seller--sylvanas-windrunner",
+    "world/magic",
+    "threads/andorhal-source-node"
   ],
   "verification": {
     "craftResearch": [
       {
-        "topic": "mid-book investigation escalation",
-        "findings": "Anchor clue synthesis to action or decision, filter revelations through POV, and let every answer widen the threat instead of closing it.",
-        "source": "Web search synthesis of Quill & Steel, Writers Digest, and Jane Friedman craft guidance"
+        "topic": "evidence escalation",
+        "findings": "Investigative chapters stay tense when each scene changes the kind of proof instead of repeating the same clue shape. This chapter works best when model-building, command refusal, repeated-pattern recognition, and city revelation all do distinct jobs.",
+        "source": "Web craft survey: Investigative Journalism Manual, Story Planner, Writers Republic"
       },
       {
-        "topic": "authority-refusal scenes",
-        "findings": "Make the refusal fair by giving the authority a legible competing priority; let the scene pivot the protagonist into a new course instead of ending in static frustration.",
-        "source": "Web search synthesis of StudioBinder, Helping Writers Become Authors, Jerry Jenkins, and Jane Friedman"
+        "topic": "authority-refusal drama",
+        "findings": "A warning scene lands harder when the authority has a believable competing priority rather than cartoon malice. Arthas's visible-war focus therefore had to remain legible while still costing the investigation everything it needed from him.",
+        "source": "Web craft survey: Reedsy, Inkdrop Lit, Helping Writers Become Authors"
       },
       {
-        "topic": "ominous city approaches",
-        "findings": "Introduce the city through surface order plus subtle dissonance, and let sensory detail register danger before the chapter explains it.",
-        "source": "Web search synthesis of scene-tension and pacing craft articles"
+        "topic": "setback into agency",
+        "findings": "After a failed attempt, the chapter needs a reaction-and-decision beat that converts hurt into the next action. Beat 5 and the strengthened Beat 6 were judged by whether they turn dismissal into movement instead of sulking in it.",
+        "source": "Web craft survey: Helping Writers Become Authors, Story Planner"
+      },
+      {
+        "topic": "travel-scene function",
+        "findings": "Travel stays alive when each leg carries a mini-goal, a fresh pressure, or a changed relationship dynamic. The Strahnbrad leg, the trader exchange, and the corruption-heavy approach each need a distinct scene function rather than generic road time.",
+        "source": "Web craft survey: Cambridge Companion to Creative Writing, Well-Storied"
+      },
+      {
+        "topic": "chapter-ending hooks",
+        "findings": "A strong chapter ending lands on an image or question that promises the next scene instead of summarizing what just happened. Andorhal's working skyline therefore has to function as an ominous reveal, not a recap beat.",
+        "source": "Web craft survey: Well-Storied, Writer's Life"
       }
     ],
     "evaluation": {
       "pacing": {
         "score": "strong",
-        "notes": "The chapter rises from analytical unease to the Arthas refusal spike, breathes in beat 6, then lands on the Andorhal hook. The front half stays deliberately downward in mood, but the sequel beats keep it from flattening."
+        "notes": "The chapter rises from analytical dread (beats 1-2) to institutional collision (beats 3-4), takes a needed decision pocket (beat 5), gets one cleaner recovery at beat 6, then climbs back into omen and city-horizon pressure (beats 7-9). The only pacing risk is the cerebral opening, but the moving-road frame keeps it from becoming static summary."
       },
       "structure": {
         "score": "strong",
-        "notes": "The mid-chapter turn lands at Arthas's refusal. Beat 6 was retyped into a decision sequel so Jaina, not the room, owns the pivot from seeking sanction to seeking proof. Beat 9 was cut back from source certainty to the largest visible knot yet, keeping chapter 7 room to discover more."
+        "notes": "The midpoint turn lands at beat 4 with Arthas's refusal, the sequel beats are correctly placed at 5 and 8, and the close plants a strong next-chapter question. Beat 6 was upgraded to a clean yes so Scene 2 does not read as four consecutive forms of blunting."
       },
       "character": {
         "score": "strong",
-        "notes": "Jaina stays in absolute POV and retains agency in every sequence. Sylvanas functions as the faster room-reader without stealing the chapter turn, and the partnership shift stays tactical rather than soft."
+        "notes": "Jaina drives the chapter through analysis, warning, interpretation, and endurance; Sylvanas serves a distinct practical-reader function instead of duplicating her; Arthas is a specific ideological obstacle rather than generic obstruction; and Cyndia/Lyriel remain continuity-preserving tactical edges without stealing focus."
       },
       "transitions": {
         "score": "strong",
-        "notes": "All 9 beat-level transitionIntent chains were verified. No transition gaps required new intents, but beat 6's handoff was strengthened so the chapter exits refusal and re-enters pursuit under Jaina's decision. Chapter bridge now carries chapter 5's route payoff directly into the opening road pressure.",
+        "notes": "All 9 beat-level transitionIntent chains were verified. All 9 were normalized to explicit carry types so emotional, dialogue, sensory, action, and planted-question handoffs are visible at a glance. No missing intents remained, no intentional hard cuts needed justification, and the chapterBridge now locks chapter5's dawn departure to chapter6's on-road opening.",
         "intents_verified": 9,
         "intents_added": 0,
         "intentional_breaks": 0
       },
       "continuity": {
         "score": "strong",
-        "notes": "2 beats are new and 7 are evolutions. Fixed 1 continuity overclaim by reframing Andorhal as the tightest active hub rather than proven source, and corrected 3 anti-reintroduction risks around the grain theorem, the recurring farewell, and Andorhal's prior establishment.",
-        "new": 2,
+        "notes": "1 beat is new and 8 are evolutions. No contradictions were found in the memory indexes or loaded entity files. Anti-reintroduction guards were applied to Jaina's plague model, the institutional-delay line, the Arthas-history sting, the repeated trader clue, Jaina's field-pain escalation, and Andorhal's source-node status.",
+        "new": 1,
         "callbacks": 0,
-        "evolutions": 7,
-        "contradictions_fixed": 1,
-        "anti_reintroductions_fixed": 3
+        "evolutions": 8,
+        "contradictions_fixed": 0,
+        "anti_reintroductions_fixed": 6
       }
     },
     "modifications": [
       {
-        "type": "opening-pressure",
-        "description": "Added early war-road pressure to beat 1 so chapter 5's south-feeder-road payoff stays active before Strahnbrad proper appears.",
-        "beatsBefore": [
-          1
-        ],
-        "beatsAfter": [
-          1
+        "type": "outcome-adjustment",
+        "description": "Changed beat 6 from yes-but to yes so the chapter gets one firmer local recovery after Arthas's dismissal. That prevents Scene 2 from flattening into uninterrupted refusal and sharpens the outward-alignment turn between Jaina and Sylvanas.",
+        "beatsAffected": [
+          6
         ]
       },
       {
-        "type": "retype",
-        "description": "Retyped beat 6 from a scene/disaster into a decision sequel so Jaina chooses the pivot from failed sanction to Andorhal-as-proof.",
-        "beatsBefore": [
-          5,
-          6,
-          7
-        ],
-        "beatsAfter": [
-          5,
-          6,
-          7
-        ]
-      },
-      {
-        "type": "continuity-correction",
-        "description": "Reduced beat 9 from source certainty to the tightest active hub yet, preserving prior memory that Andorhal was the next knot in the network, not final proof of origin.",
-        "beatsBefore": [
-          9
-        ],
-        "beatsAfter": [
-          9
-        ]
-      },
-      {
-        "type": "annotation",
-        "description": "Annotated all 9 beats with continuityStatus, added memoryRef on every evolution beat, built requiredMemory, and attached continuity-only verifier notes where anti-reintroduction risk was highest.",
-        "beatsBefore": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9
-        ],
-        "beatsAfter": [
+        "type": "transition-normalization",
+        "description": "Rewrote all 9 transitionIntent entries into explicit carry types so every beat clearly hands the next beat or scene a usable thread.",
+        "beatsAffected": [
           1,
           2,
           3,
@@ -663,6 +702,10 @@
           8,
           9
         ]
+      },
+      {
+        "type": "chapter-bridge",
+        "description": "Added a direct-carry chapterBridge that ties chapter5's dawn departure and route choice to chapter6's analytical road opening without a reset of party, pressure, or objective."
       }
     ],
     "verdict": "approved-with-modifications"

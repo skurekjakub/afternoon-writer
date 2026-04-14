@@ -1,0 +1,135 @@
+{
+  "chapterId": "chapter3",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severity": "none",
+      "dominantPattern": "none",
+      "cleanReason": "Reviewed the tool-flagged slopsquid_bigram line, hedge-bearing dialogue, and the closing travel-bridge paragraph. The surviving candidates are concrete staging, honest uncertainty in dialogue, or an allowed travel transition rather than generic beats, essay-brain, or closure addiction.",
+      "findings": []
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severity": "none",
+      "dominantPattern": "none",
+      "cleanReason": "Checked trigger phrases, compressed verdict-like thoughts, and bridge pullbacks against Sylvanas's tactical register. The surviving lines read as in-body field assessment or sanctioned post-scene bridge, not narrator commentary.",
+      "findings": []
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severity": "none",
+      "dominantPattern": "none",
+      "cleanReason": "Reviewed the remaining tactical-compression lines against adjacent evidence. Each candidate cashes out through named ground sign, magical trace, or logistics detail already on the page, so none remained phantom.",
+      "findings": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severity": "none",
+      "dominantPattern": "none",
+      "cleanReason": "No dialogue exchange in this chapter sets up a plain-speech or street-level translation request, so this guide had no live candidates.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 0,
+    "totalKeeps": 9,
+    "mildKills": 0,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [],
+    "killsWithFix": 0,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "No pass-B sentence-level kills survived the false-positive filter. The two deterministic pass-B tool hits resolved to legitimate concrete/POV-anchored lines, though the chapter still shows structural rhythm concerns for downstream style work.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.472,
+        "target": 0.72,
+        "delta": -0.248,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside_range"
+      },
+      "sentence_length_cv": {
+        "value": 0.76,
+        "target": 0.7,
+        "delta": 0.06,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "within_range"
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 33.8,
+        "target": 19.0,
+        "delta": 14.8,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside_range"
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below calibrated range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 3.1% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 3.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassages": {
+        "telegram_run": 12,
+        "texture_desert": 7
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 17,
+        "totalViolations": 2,
+        "overCapCategories": [
+          "narrator_verdict",
+          "slopsquid"
+        ],
+        "mappedPassHits": [
+          {
+            "pattern": "verdict_enough_for",
+            "guide": "narrator-seep-guide.md",
+            "line": 21
+          },
+          {
+            "pattern": "slopsquid_bigram",
+            "guide": "gpt-5-prose-issues.md",
+            "line": 21
+          }
+        ]
+      }
+    }
+  }
+}

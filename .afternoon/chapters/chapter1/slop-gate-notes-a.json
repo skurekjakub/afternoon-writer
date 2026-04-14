@@ -1,0 +1,306 @@
+{
+  "chapterId": "chapter1",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 11,
+      "kills": 7,
+      "keeps": 4,
+      "dominantPattern": "pattern-2-fragment-pivot",
+      "findings": [
+        {
+          "text": "She wasn't pushing north. She was kneeling at the nearest stone with frost worked through a chalk circle and notes all over the ground.",
+          "pattern": "pattern-5-preamble-negation",
+          "deletionTest": "She was kneeling at the nearest stone with frost worked through a chalk circle and notes all over the ground.",
+          "severity": "moderate",
+          "reason": "Preamble negation delays the committed image instead of stating the concrete action directly.",
+          "suggestedFix": "She had stopped at the nearest stone, kneeling with frost worked through a chalk circle and notes all over the ground.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "Not invasion. Not asylum. Rot.",
+          "pattern": "pattern-8-mundane-reveal-chain",
+          "deletionTest": "Rot.",
+          "severity": "severe",
+          "reason": "The fragment chain rejects two labels before naming the real word, which is pure negation scaffolding.",
+          "suggestedFix": "Rot.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "That the ward wasn't under attack. That it was carrying damage from farther south and nobody was listening.",
+          "pattern": "pattern-5-preamble-negation",
+          "deletionTest": "That it was carrying damage from farther south and nobody was listening.",
+          "severity": "moderate",
+          "reason": "The first sentence primes a discarded condition before the real claim arrives.",
+          "suggestedFix": "That it was carrying damage from farther south and nobody was listening.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "Angry. Not frightened, unless it was buried deep enough not to show.",
+          "pattern": "pattern-4-minimizer-pivot",
+          "deletionTest": "Angry.",
+          "severity": "mild",
+          "reason": "The line swats away one descriptor before settling on the real emotional read.",
+          "suggestedFix": "Angry, with any fear buried too deep to show.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "Not all. Some on the road. Some before she crossed.",
+          "pattern": "pattern-2-fragment-pivot",
+          "deletionTest": "Some on the road. Some before she crossed.",
+          "severity": "mild",
+          "reason": "The opening negation is disposable scaffolding because the positive count survives cleanly without it.",
+          "suggestedFix": "Some on the road. Some before she crossed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "She wasn't trying to run. She was furious we wouldn't let her keep working.",
+          "pattern": "pattern-5-preamble-negation",
+          "deletionTest": "She was furious we wouldn't let her keep working.",
+          "severity": "moderate",
+          "reason": "The negative setup only delays the real point, which is her fury at being interrupted.",
+          "suggestedFix": "She was furious we wouldn't let her keep working.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "No jewels. No velvet. No polished escort from the Kirin Tor. Just a hard-used young mage in a border cell, hands chewed raw by her own work, all of her bent toward the ward-stone instead of this room.",
+          "pattern": "pattern-8-mundane-reveal-chain",
+          "deletionTest": "Just a hard-used young mage in a border cell, hands chewed raw by her own work, all of her bent toward the ward-stone instead of this room.",
+          "severity": "severe",
+          "reason": "The chain of refusals exists only to stage the real image that already lands on its own.",
+          "suggestedFix": "Just a hard-used young mage in a border cell, hands chewed raw by her own work, all of her bent toward the ward-stone instead of this room.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 13,
+      "kills": 9,
+      "keeps": 4,
+      "dominantPattern": "pattern-5-objects-wanting-refusing-deciding",
+      "findings": [
+        {
+          "text": "She swung back into the saddle. This was the part of the world that made sense: bow across her back, road under hoof, a border that could be ridden and held by living hands instead of argued over by people who thought maps obeyed them.",
+          "pattern": "pattern-5-objects-wanting-refusing-deciding",
+          "subject": "maps",
+          "verb": "obeyed",
+          "realAgent": "the officials reading and arguing over the border on paper",
+          "severity": "moderate",
+          "reason": "The clause launders human compliance onto maps instead of naming the people mistaking the documents for authority.",
+          "suggestedFix": "She swung back into the saddle. This was the part of the world that made sense: bow across her back, road under hoof, a border that could be ridden and held by living hands instead of argued over by people who mistook maps for authority.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "A budget session could wait until it learned to hunt.",
+          "pattern": "pattern-5-objects-wanting-refusing-deciding",
+          "subject": "A budget session",
+          "verb": "learned",
+          "realAgent": "the Convocation members delaying field work with paperwork",
+          "severity": "severe",
+          "reason": "The sentence gives a council session human learning and predatory intent instead of keeping the dismissal on the people running it.",
+          "suggestedFix": "A budget session could wait until after the patrol.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "On everything south of the city, unless the weather has learned respect.",
+          "pattern": "pattern-5-objects-wanting-refusing-deciding",
+          "subject": "the weather",
+          "verb": "has learned",
+          "realAgent": "the actual rough conditions south of the city",
+          "severity": "mild",
+          "reason": "The line gives weather a human lesson instead of naming the worsening conditions directly.",
+          "suggestedFix": "On everything south of the city, unless the weather has worsened there too.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "The pleasant day died where it sat.",
+          "pattern": "pattern-p5-p6-inanimate-physical-behavior",
+          "subject": "The pleasant day",
+          "verb": "died / sat",
+          "realAgent": "the runner\u2019s report ending the patrol ease",
+          "severity": "moderate",
+          "reason": "The sentence turns the day into an actor instead of naming the report that ended it.",
+          "suggestedFix": "The pleasant day ended there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "The space beside her opened at once.",
+          "pattern": "pattern-7-silence-or-absence-given-active-verbs",
+          "subject": "The space beside her",
+          "verb": "opened",
+          "realAgent": "Lor'themar's departure and Sylvanas's immediate awareness of it",
+          "severity": "mild",
+          "reason": "Absence is made to act on its own instead of being felt by the POV character.",
+          "suggestedFix": "She felt Lor'themar's absence at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "The ward hum thickened until it sat in Sylvanas's teeth.",
+          "pattern": "pattern-p5-p6-inanimate-physical-behavior",
+          "subject": "The ward hum",
+          "verb": "sat",
+          "realAgent": "the vibration she could physically feel in her teeth",
+          "severity": "mild",
+          "reason": "The hum is given body-like placement instead of the sensation being attached to Sylvanas directly.",
+          "suggestedFix": "The ward hum thickened until it buzzed in Sylvanas's teeth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "That lodged.",
+          "pattern": "pattern-p5-p6-abstract-state-settling",
+          "subject": "That",
+          "verb": "lodged",
+          "realAgent": "Sylvanas taking hold of the detail about Jaina\u2019s hands",
+          "severity": "moderate",
+          "reason": "The abstract fact is treated as if it can settle itself rather than being registered by Sylvanas.",
+          "suggestedFix": "She held onto that.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "It only made her stranger than expected, and strange problems liked to become personal if you left them alone.",
+          "pattern": "pattern-5-objects-wanting-refusing-deciding",
+          "subject": "strange problems",
+          "verb": "liked",
+          "realAgent": "people letting unresolved threats escalate until they hit them personally",
+          "severity": "severe",
+          "reason": "The sentence gives problems preference and intent instead of stating the escalation plainly.",
+          "suggestedFix": "It only made her stranger than expected, and strange problems became personal if you left them alone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "Blue eyes fixed on Sylvanas at once.",
+          "pattern": "pattern-8-body-parts-acting-independently",
+          "subject": "Blue eyes",
+          "verb": "fixed",
+          "realAgent": "the prisoner looking straight at Sylvanas",
+          "severity": "moderate",
+          "reason": "The body-part subject steals volition from the prisoner even though the character is the real actor.",
+          "suggestedFix": "The prisoner fixed blue eyes on Sylvanas at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "dominantPattern": "tic-2-overloaded-marked",
+      "findings": [
+        {
+          "text": "Sylvanas marked it because she marked what guarded her lands.",
+          "pattern": "tic-2-overloaded-marked",
+          "tic": "Overloaded marked",
+          "cap": 2,
+          "chapterCount": 4,
+          "severity": "mild",
+          "reason": "This sentence carries the weakest mental uses of marked, and cutting them brings the chapter back toward the hard cap while preserving the stronger physical uses.",
+          "suggestedFix": "Sylvanas noted it because she tracked what guarded her lands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 17,
+    "totalKeeps": 10,
+    "mildKills": 7,
+    "moderateOrSevereKills": 10,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 17,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A fails: multiple moderate/severe negation and intent-smear hits remain, including clustered fragment pivots and repeated agency laundering in narration and dialogue."
+  }
+}

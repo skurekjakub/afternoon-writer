@@ -1,0 +1,218 @@
+{
+  "chapterId": "chapter1",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "findings": [],
+      "cleanReason": "F1: Fragment clusters serve deliberate tactical cataloging (environmental scans, security assessments, prisoner evaluation). No sustained multi-paragraph rhythmic sameness detected despite high short-sentence density (60.1%). F2: All dialogue beats use character-specific physical action; no generic-label-only beats. F3: Prose is direct and unfiltered. Two hedges ('might mean' L122, 'maybe' L155) serve genuine analytical uncertainty. No filter verbs, no temporal padding. F4: Prose trusts its images; no emotional restatements after strong beats. F5: Scene 1 ease is intentional baseline per chapter plan. No scene resolves smoothly. Chapter ends on interrogation hook. F6: No thesis-opening paragraphs. Analytical passages are character reasoning. F7: Paragraphs end on action/observation/dialogue. Chapter ends on pure dialogue. No interpretive closure."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 14,
+      "kills": 1,
+      "keeps": 13,
+      "dominantPattern": "A5",
+      "findings": [
+        {
+          "line": 103,
+          "text": "The pleasant day ended there.",
+          "tier": "A",
+          "pattern": "A5",
+          "whoIsSayingThis": "Narrator. The sentence declares a mood/state transition abstractly rather than through concrete observation.",
+          "povMismatch": "Sylvanas's register elsewhere is immediate tactical perception at psychic distance 4-5. This sentence reads at distance 2-3, narrating a structural turning point rather than perceiving it. The runner's report already conveyed the disruption.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The runner's report already conveys the disruption. Lor'themar's immediate question ('Inside the ward line?') provides the transition.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ],
+      "toolSignalAudit": [
+        {
+          "toolSignal": "verdict_enough_to_be",
+          "line": 9,
+          "text": "late enough to be decoration",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense. Military contempt for slow subordinates — active tactical assessment of ranger performance by the Ranger-General, not narrator caption."
+        },
+        {
+          "toolSignal": "verdict_too_x_for",
+          "line": 393,
+          "text": "too fast for indifference",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense. Sylvanas reading prisoner body language — active diagnostic assessment within her established register of compressed fragment evaluation."
+        },
+        {
+          "toolSignal": "verdict_too_x_for",
+          "line": 393,
+          "text": "too controlled for panic",
+          "verdict": "KEEP",
+          "reason": "Character-voice defense. Same body-language reading. Paired 'too X for Y' structure matches her fragment-catalog voice established throughout the chapter."
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 9,
+      "kills": 1,
+      "keeps": 8,
+      "dominantPattern": "P2",
+      "findings": [
+        {
+          "line": 235,
+          "text": "At the border, she went exact.",
+          "pattern": "P2",
+          "failedQuestion": "What specifically does 'going exact' look like? What visible behavior, procedure, or action constitutes this?",
+          "missingPayload": "The concrete behavior (checking each stone, counting distances, altering pace, scanning procedure) that 'went exact' compresses away. No visible carrier on the page.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The preceding 'Human farms and roads crowded the border in their usual untidiness.' flows directly into 'And now a human mage had put hands on her stones.' No concrete fact is lost.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "findings": [],
+      "cleanReason": "One potential setup found: L127 'Choose.' -> L129 'Measuring, ma'am.' The reply gives a usable operational distinction (measuring vs. breaching changes the tactical picture entirely). No other simplification setups in the chapter. No 'say it in streets' / 'smaller words' / 'plainly' requests."
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 22,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "2 MILD kills only (1 A5 scene-state declaration, 1 P2 tactical-prestige compression). Zero MODERATE or SEVERE kills. Both fixes are deletions — no risk of introducing new violations. The chapter is clean on GPT-5 prose failure modes, fake simplification, and the bulk of narrator seep and phantom concreteness patterns. Significant structural texture deficit (6.4% vs 10% floor) is a downstream concern for the style-editor, not a slop-gate issue.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.304,
+        "target": 0.72,
+        "range": [0.6, 0.85],
+        "delta": -0.416,
+        "outsideRange": true
+      },
+      "sentence_length_mean": {
+        "value": 7.1,
+        "target": 11.0,
+        "range": [9.0, 13.0],
+        "delta": -3.9,
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.894,
+        "target": 0.7,
+        "range": [0.6, 0.8],
+        "delta": 0.194,
+        "outsideRange": true
+      },
+      "short_sentence_pct": {
+        "value": 60.1,
+        "target": 35.0,
+        "range": [28.0, 42.0],
+        "delta": 25.1,
+        "outsideRange": true
+      },
+      "long_sentence_pct": {
+        "value": 5.4,
+        "target": 10.0,
+        "range": [7.0, 14.0],
+        "delta": -4.6,
+        "outsideRange": true
+      },
+      "opener_entropy": {
+        "value": 6.64,
+        "target": 7.7,
+        "range": [7.2, 8.2],
+        "delta": -1.06,
+        "outsideRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 58.9,
+        "target": 19.0,
+        "range": [15.0, 24.0],
+        "delta": 39.9,
+        "outsideRange": true
+      },
+      "mattr": {
+        "value": 0.858,
+        "target": 0.83,
+        "range": [0.8, 0.87],
+        "delta": 0.028,
+        "outsideRange": false
+      },
+      "structuralRhythmConcerns": "7 of 8 rhythm metrics outside target range. Sentences are far too short (mean 7.1 vs target 11.0), short-sentence density is nearly double target (60.1% vs 35.0%), and one-sentence paragraphs are triple target (58.9% vs 19.0%). Comma-period ratio is less than half target (0.304 vs 0.72), indicating very low syntactic complexity. This is a significant structural issue for the style-editor."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdictReasons": [
+        "participial_pct 1.5% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.9% below floor 4.0% (human: 8.5%)",
+        "emdash_pct 0.5% below floor 1.0% (human: 3.5%)",
+        "texture_score 6.4% below floor 10.0% (human: 24.4%)",
+        "short_pct 69.9% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.5% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions. COMPOUND CLAUSES: 3.9% (floor: 4.0%, human: 8.5%). Join related ideas with ', and/but/yet'. EM-DASHES: 0.5% (floor: 1.0%, human: 3.5%). Use for mid-sentence pivots. SHORT SENTENCES: 69.9% (ceiling: 62.0%, human: 52.2%). Too choppy — combine adjacent short sentences.",
+      "flaggedPassageCounts": {
+        "telegram_run": 21,
+        "texture_desert": 13
+      },
+      "structuralTextureDeficit": "Texture score 6.4% is well below the 10% floor and far below the 22-32% style-guide range. All four construction types (participial, compound, em-dash, semicolon) are below floor. Downstream agents (style-editor) must add joining constructions throughout."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 20,
+        "totalViolations": 4,
+        "overCapCategories": [
+          {
+            "category": "narrator_verdict",
+            "combinedCount": 3,
+            "combinedCap": 1,
+            "patterns": ["verdict_too_x_for (2)", "verdict_enough_to_be (1)"],
+            "gateVerdict": "All 3 audited and KEPT on character-voice defense"
+          },
+          {
+            "category": "punctuation_tics",
+            "pattern": "punct_colon_narration",
+            "count": 6,
+            "cap": 2,
+            "note": "Maps to pass A (recurring-tics guide). Not audited in pass B."
+          }
+        ]
+      }
+    }
+  }
+}

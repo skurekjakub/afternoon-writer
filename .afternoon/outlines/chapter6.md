@@ -1,67 +1,61 @@
 # Chapter 6: The Pattern
 
 **POV:** Jaina Proudmoore (limited third, absolute)
-**Timeline position:** Directly follows Chapter 5's route choice. The party is already on the southern feeder road that runs near Strahnbrad before the final Andorhal approach.
-**Open location:** Southern feeder road into Andorhal's network; Strahnbrad military zone ahead.
-**Transport:** Mounted travel on Thalassian horses.
-**Active cast at open:** Jaina, Sylvanas, Cyndia, Lyriel.
-**Immediate objective:** Confirm the scale of the grain conspiracy and force someone in Lordaeron's command structure to take the warning seriously.
+**When:** Directly after Chapter 5's route choice, with the party already on the southern feeder road near Strahnbrad before the last approach to Andorhal.
+**Where:** Southern feeder road into Andorhal's network, with the Strahnbrad military zone ahead.
+**Travel:** Mounted on Thalassian horses.
+**Characters:** Jaina, Sylvanas, Cyndia, Lyriel.
+**Goal:** Confirm how large the grain-plague plot really is and force someone in Lordaeron's command to take the warning seriously.
 
-## Meta info
+## References
 
 - **Worldbuilding references:** [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
 - **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
 
-**What Jaina knows at open**
-- Grain is what carries it
-- The network is organized, monitored, and disciplined
-- Barov infrastructure appears in the route fragments
-- The party's chosen road intersects the military zone near Strahnbrad before reaching Andorhal
-- Her sensitivity has put them ahead of what most of Lordaeron understands, but they are still chasing a deployment already in motion rather than preventing it
-- The old seller from Millhaven is still sitting in memory as an unresolved grain-side oddity
-- She can see this was built on purpose and tied to necromancy, but she still cannot explain exactly how sickness becomes undeath
+**Jaina's starting position:**
+- Grain is carrying the poison.
+- The cult is organized, watched, and disciplined.
+- Barov property and paperwork keep turning up in the trail of rot.
+- Their chosen road runs through the military zone near Strahnbrad before Andorhal.
+- Her sensitivity has put them ahead of most of Lordaeron, but they are still chasing poison that has already spread.
+- The old seller from Millhaven is still sitting in her mind as an unresolved road clue.
+- She can see necromancy in the design, but she still cannot explain how sickness becomes undeath.
 
-**What Jaina does NOT know at open**
-- Whether Arthas will listen
-- Whether the Barovs are fully complicit
-- Whether the old seller matters
-- What Andorhal looks like from inside the contamination radius
+**Still in the dark about:**
+- Whether Arthas will listen.
+- Whether the Barovs are fully complicit.
+- Whether the old seller matters.
+- What Andorhal looks like from inside the city.
 
-**Must not be implied yet**
-- No explicit Mal'Ganis identification
-- No certainty that the Barovs themselves designed the plague
-- No suggestion that Arthas dismisses Jaina out of personal cruelty alone; his visible-war priority matters
+**Hold back:**
+- No Mal'Ganis naming.
+- No certainty that the Barovs designed the plague.
+- No claim that Arthas ignores her out of personal cruelty alone. The orc war matters.
 
-**What the cast knows leaving the chapter**
-- Arthas heard the warning and still chose the visible war first
-- The repeated farewell has sharpened the old seller file for Sylvanas without resolving it
-- The party reaches a still-working Andorhal at the heart of the plague roads
+**End of chapter state:**
+- Arthas heard the warning and still chose the visible war first.
+- The repeated farewell sharpens the old seller clue for Sylvanas without solving it.
+- Andorhal is a working city at the heart of the plagued roads.
 
 ---
 
-## Arc position
+## Character Arcs
 
 ### Jaina
-- **Current stance at open:** If Jaina can lay the case out cleanly enough, a prince standing on his own soil will have to act.
-- **Surface objective:** Make Arthas understand the plague before Andorhal locks itself beyond saving.
-- **Pressure source:** The warning is arriving inside rank, pride, local denial, and a prince who wants a cleaner answer than the road has given them.
-- **Misbelief manifestation:** Jaina keeps thinking clarity should win on its own, even when the room keeps showing her that people are choosing hierarchy over evidence.
-- **Chapter test:** Arthas hears the case and still treats it like something he can out-command or out-delay.
-- **Forced choice:** Keep pushing the clean explanation she wants to believe should work, or accept Sylvanas's harder read of the room and start planning past official refusal.
-- **End-state shift:** Jaina leaves not just furious but corrected. Being right did nothing by itself.
-- **Carry-forward residue:** Chapter 7 opens with Jaina quicker to believe the city, not the argument, will tell the truth first.
+- She opens convinced clear evidence will make Arthas act before Andorhal locks down.
+- She keeps pushing facts as if proof and rank should matter more than the visible war in front of him.
+- Arthas hears her out and still turns to the orcs, forcing her to accept Sylvanas was right about the army.
+- By the end, Jaina stops looking to Lordaeron's command for rescue and turns toward Andorhal itself.
 
 ### Sylvanas through Jaina's POV
-- **Visible function:** The woman who reads people, rank, and refusal faster than Jaina does.
-- **POV misread at open:** Jaina no longer underrates Sylvanas's mind, but she still half hopes clear evidence can outrun Sylvanas's cynicism.
-- **Correction earned here:** Sylvanas is not being cynical. She is reading command blindness in real time, and she sees the refusal before Jaina stops arguing with it.
-- **Interaction rule:** Jaina can be openly sharp with Sylvanas now, but the sharpness should sound like friction between peers, not condescension.
+- Sylvanas reads the soldiers, the hierarchy, and the coming refusal faster than Jaina does.
+- Jaina keeps hoping proof will prove Sylvanas too cynical, then watches Sylvanas call the prince's blindness before the conversation is over.
+- Their argument no longer feels like mage versus soldier. It feels like two women reading the same failure from different angles.
 
-### Partnership / team
-- **Operating mode at open:** Working partners under strain, still leaning on proof more than politics.
-- **Operational change this chapter:** Their contempt finally points outward at the same problem. By the end, they are acting against refusal, not arguing about whether refusal exists.
-- **Naming/attitude rule:** Jaina's respect is real enough now that disagreement should not flatten back into soldier-versus-mage condescension.
-- **Do-not-overstate rule:** They are not easy with each other. They are simply more aligned than the people with titles around them.
+### Partnership
+- They are still strained, but they are finally working the same problem.
+- The fight over whether Lordaeron will listen ends here, and their anger turns outward.
+- They are not gentle with each other yet, but the old prejudice has less room to hide.
 
 ---
 
@@ -69,180 +63,96 @@
 
 - **Cyndia:** Still with the riding party.
 - **Lyriel:** Still with the riding party.
-- **Neral:** Not with the party; she remains on the northbound warning line after escorting the survivor girl out.
+- **Neral:** Not with the party. She remains on the northbound warning line after escorting the survivor girl out.
 
-**Chapter handoff target:** Chapter 7 opens at Andorhal with the same four riders carrying Arthas's dismissal, the repeated farewell clue, and the road that brought them there.
-
----
-
-## Scene 1: Conspiracy Crystallizes
-
-**Scene function:** Make the plague read as deliberate war, not just a string of bad villages.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel
-**Knowledge at scene start:** Grain road, organized network, Barov connection, chosen road
-
-### Beat 1 — Scene: A workable field model
-- **Goal:** Reconcile the evidence into one stable explanation before they hit the city
-- **Conflict:** Jaina has to admit the ugly elegance of it: alchemy, necromancy, road traffic, and ordinary bread all folded together
-- **Outcome:** **yes-but** — the field model coheres, but the clarity makes the enemy feel more capable, not less
-- **Value shift:** chosen road -> the pattern finally stands plain
-- **New on-page information:**
-  - The pattern is too clean for accident or lone-wizard sabotage
-  - The living body is part of the design, not just the thing being poisoned
-  - A trained magical mind sits somewhere behind the work
-- **Still unknown after beat:**
-  - Which exact mind
-  - How many layers of organization sit between village watchers and command
-- **Sensory anchors:**
-  - Jaina reading the map while riding
-  - Headache building from stronger ambient corruption
-  - Horses moving through damp road mist while the theory settles
-- **Transition intent:** Once the field model coheres, Jaina's private discomfort with its quality surfaces
-
-### Beat 2 — Sequel: The elegant horror
-- **Emotion:** Intellectual disgust
-- **Dilemma:** Jaina can either deny the brilliance in the work or admit that the work is monstrously well-made
-- **Decision:** Admit the quality privately and keep moving
-- **Value shift:** the pattern finally stands plain -> the enemy is brilliant, and that is worse
-- **New on-page information:**
-  - Jaina recognizes methodology she would admire in any non-genocidal context
-  - The work is pressing against banned Kirin Tor questions about what a body can be taught to keep through death
-  - Her revulsion is sharpened by professional recognition
-- **Still unknown after beat:**
-  - Whether this mirror points to someone she already knows
-- **Sensory anchors:**
-  - Buzzing in her temples from the strengthening corruption
-  - Tightness in her grip on the reins
-  - The sick feeling of understanding too much
-- **Transition intent:** The road then delivers them into Lordaeron's visible war, which competes with the invisible one
+**Next chapter starts:** Chapter 7 opens at Andorhal with the same four riders arriving to hunt the poison's source.
 
 ---
 
-## Scene 2: Strahnbrad — The Prince
+## Scene 1: The Pattern on the Road
 
-**Scene function:** Take a true warning to a prince who has no room for it.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, Arthas, Lordaeron troops, Silver Hand presence
-**Knowledge at scene start:** The plague picture is now clear to the protagonists; Lordaeron command has not yet absorbed it
+**The action:** Jaina finally sees the plague as deliberate craft instead of a string of unlucky villages.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel.
+**Starting point:** They are on the grain road with the cult trail, the Barov clue, and the chosen approach toward Strahnbrad.
 
-### Beat 3 — Scene: The camp
-- **Goal:** Reach a Lordaeron authority figure who can act on the warning
-- **Conflict:** Strahnbrad is fully committed to the Blackrock-orc emergency, which is immediate, visible, and politically legible in ways the plague is not
-- **Outcome:** **yes-but** — they find Arthas exactly where the chosen road said they would, but he is already embedded in another crisis frame
-- **Value shift:** the enemy is brilliant, and that is worse -> the warning has to compete with visible war
-- **New on-page information:**
-  - The Chapter 5 route choice paid off geographically
-  - Arthas is here because Lordaeron is spending force on the threat it can already see
-- **Still unknown after beat:**
-  - Whether personal history will help or hinder Jaina's warning
-- **Sensory anchors:**
-  - Infantry, banners, mud, command noise
-  - Military camp pressure very different from Farstrider quiet
-  - Jaina recognizing the scale before she sees Arthas
-- **Transition intent:** Jaina gets her audience, but not on favorable terms
+### Beat 1
+- The scattered signs click into one design before they reach Strahnbrad. Jaina stops treating the plague as bad harvest luck spread wide and sees a built weapon: grain routes, dark alchemy, necromancy, and the living body all working together.
+- The plague is too tuned to be an accident or one wizard's stunt. Whoever built it had serious formal training, and the body is part of the mechanism instead of just the victim.
+- They do not know the mastermind's name or how high the cult ladder goes.
+- Ground the recognition: Jaina mapping the road from the saddle, pain climbing behind her eyes, horses cutting through damp road mist.
+- The enemy stops looking chaotic and starts looking expert.
 
-### Beat 4 — Scene: The briefing he does not take
-- **Goal:** Make Arthas act on the grain warning
-- **Conflict:** Arthas is courteous, focused, and looking at the wrong fire: he is handling the war in front of him and hears the plague as a secondary problem
-- **Outcome:** **no-and** — Jaina delivers correct intelligence, and Arthas still dismisses it in practice
-- **Value shift:** the warning has to compete with visible war -> being right changes nothing
-- **New on-page information:**
-  - Arthas hears the warning and chooses the visible threat first
-  - The personal history sharpens the wound but is not the sole reason for dismissal
-  - Jaina can feel Sylvanas reading Arthas's priorities and blind spots faster than the briefing itself is landing
-- **Still unknown after beat:**
-  - How much damage this delay will cause downstream
-- **Sensory anchors:**
-  - Arthas polished and certain inside camp chaos
-  - Jaina holding out map/testimony like evidence in the wrong court
-  - Courtesy used as a wall
-- **Transition intent:** Once Arthas leaves, Jaina has to swallow both the personal wound and the broader failure at once
-
-### Beat 5 — Sequel: Old wound, same lesson
-- **Emotion:** Controlled bitterness
-- **Dilemma:** Read Arthas's dismissal as private failure, public failure, or both
-- **Decision:** Treat it as both and keep moving
-- **Value shift:** being right changes nothing -> contempt sharpened into clarity
-- **New on-page information:**
-  - Jaina understands that being right about Arthas years ago and being right about the plague now produce the same useless result when the listener will not change
-- **Still unknown after beat:**
-  - Whether any human authority will act before disaster goes public
-- **Sensory anchors:**
-  - Lingering afterimage of his courtesy
-  - Sour taste of swallowed anger
-  - Hooves and troop movement continuing while the moment closes
-- **Transition intent:** Sylvanas now responds to Arthas as a commander problem, not a romantic one
-
-### Beat 6 — Scene: Shared target
-- **Goal:** Re-establish the investigative mission after the failed briefing
-- **Conflict:** Jaina's anger and Sylvanas's read of Arthas have to settle into one usable next move
-- **Outcome:** **yes-but** — they get themselves pointed the same way again, but Lordaeron's command now sits in their path like another wall
-- **Value shift:** contempt sharpened into clarity -> shared outward contempt
-- **New on-page information:**
-  - Sylvanas instantly reads the exchange without needing the whole history
-  - Jaina and Sylvanas can now align against the same blind spot in another person
-  - Jaina realizes she is already leaning on Sylvanas to tell her what this failure means in practice, not just how it feels
-- **Still unknown after beat:**
-  - Whether Andorhal will give them proof strong enough to force action later
-- **Sensory anchors:**
-  - Arthas gone but still shaping the air after him
-  - Sylvanas's short diagnosis cutting cleaner than comfort would
-  - Horses turning back toward the road
-- **Transition intent:** They leave Strahnbrad and push into the deeper contamination corridor toward Andorhal
+### Beat 2
+- Jaina has to admit how good the work is. The recognition disgusts her, but she cannot miss it: someone built this with the kind of craft she would admire anywhere else.
+- The plague brushes up against forbidden Kirin Tor theory about keeping bodies useful after death. Part of Jaina's revulsion comes from recognizing real mastery.
+- They do not know whether the work belongs to someone she once studied with.
+- Ground the reaction: pressure buzzing harder in her temples, white knuckles on the reins, nausea from understanding too much.
+- They ride straight from invisible evidence into the visible war at Strahnbrad.
 
 ---
 
-## Scene 3: The Approach to Andorhal
+## Scene 2: Strahnbrad
 
-**Scene function:** Carry the Arthas failure forward, reintroduce the old seller pattern as a repeat clue, and put the city on the horizon.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, second helpful trader figure (same hidden threat agent), Andorhal approach traffic
-**Knowledge at scene start:** Arthas will not solve this for them; only the city remains
+**The action:** Jaina gives Arthas the truth and watches him choose the wrong war.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, Arthas, Lordaeron troops, Silver Hand presence.
+**Starting point:** The party understands the plague's design. Lordaeron's command does not.
 
-### Beat 7 — Scene: The repeated farewell
-- **Goal:** Gather final directional intelligence on the city approach
-- **Conflict:** Another helpful grain-side local gives them exactly the information they need and parts with the same odd farewell
-- **Outcome:** **yes-but** — the direction is useful, and the repeated phrase now snags harder on Sylvanas's memory without becoming actionable proof
-- **Value shift:** shared outward contempt -> filed suspicion with pattern
-- **New on-page information:**
-  - The farewell is now a repetition, not a one-off oddity
-  - Sylvanas has a real memory hook, even if not an answer
-- **Still unknown after beat:**
-  - Why the same phrase is recurring
-  - That the two encounters are the same being
-- **Sensory anchors:**
-  - Familiar-seeming helpfulness
-  - Phrase landing twice in memory
-  - Jaina still reading nothing magical from the man
-- **Transition intent:** The road closes around them and the contamination becomes physically oppressive
+### Beat 3
+- They ride into a camp built around the Blackrock raids: mud, shouting officers, banners, and the kind of danger armies like because they can point at it. Their route leads them straight to Arthas, and Jaina can see before he speaks that the army is facing the wrong way.
+- Lordaeron is pouring its strength into the threat it can already see, which is exactly what Sylvanas warned her it would do. Jaina still hopes her history with Arthas can force a harder look.
+- They do not know whether Jaina's history with Arthas will help or hurt.
+- Ground the camp: mud, officers shouting across banners, military press that feels nothing like Farstrider scouting.
+- Jaina gets the audience she needed under the worst possible conditions.
 
-### Beat 8 — Sequel: The city in the leylines
-- **Emotion:** Strained dread
-- **Dilemma:** Push through the pain of the corruption field now that the source is almost visible, or stop and recover
-- **Decision:** Push through
-- **Value shift:** filed suspicion with pattern -> the city is close enough to hurt
-- **New on-page information:**
-  - Jaina's body is now reacting to proximity, not just reading it
-- **Still unknown after beat:**
-  - Whether Andorhal is already too late to save
-- **Sensory anchors:**
-  - Headache, buzzing, pressure behind the eyes
-  - Corruption thickening with every mile
-  - Horses uneasy before the city is even visible
-- **Transition intent:** The chapter closes only once the city itself is in sight
+### Beat 4
+- Jaina gives Arthas the warning cleanly. He hears every word, stays perfectly courteous, and still chooses the orc skirmish over the poisoned grain.
+- Arthas listens but ranks the visible war above the plague. The dismissal hurts because of their history and because Sylvanas reads his blind spots before Jaina can finish the case.
+- They do not know how many people will die because he waits.
+- Ground the refusal: Arthas polished and certain in armor, maps and notes turning weightless in Jaina's hands, good manners used like a shield.
+- He walks away, and the warning lands nowhere.
 
-### Beat 9 — Scene: Andorhal on the horizon
-- **Goal:** Reach visual confirmation of the source city
-- **Conflict:** The city is still busy and working, which makes the hidden contamination feel even more lethal
-- **Outcome:** **no-and** — they have arrived at the right place, and the place is still operating as though nothing is wrong
-- **Value shift:** the city is close enough to hurt -> the source is alive and unaware of its own death
-- **New on-page information:**
-  - Andorhal is not a ruin; it is a working grain city carrying the plague in plain sight
-- **Still unknown after beat:**
-  - Who inside the city is running the thing
-- **Sensory anchors:**
-  - Working city silhouette
-  - Granaries active on the horizon
-  - Wrongness underneath ordinary commerce
-- **Transition intent:** Chapter 7 opens inside the Andorhal investigation with all accumulated clues active
+### Beat 5
+- In the space he leaves behind, Jaina has to decide what the failure means. She lands on the worst answer: he ignored her because of their history and because he is the kind of commander who trusts the loud simple war in front of him.
+- Being right about Arthas years ago and being right about the plague now produces the same empty result. No human authority has yet proved it will act in time.
+- They do not know whether anyone in Lordaeron will believe them before whole cities start dying.
+- Ground the aftermath: sour metal at the back of her mouth, the place where he stood already filling with other officers, the camp rushing on as if nothing happened.
+- Jaina stops waiting for permission.
+
+### Beat 6
+- Sylvanas names the military failure cleanly, and Jaina does not waste time fighting her on it. The two of them turn their anger outward and go back to the road.
+- Sylvanas can read Arthas as a military obstacle without needing Jaina's history lesson, and Jaina finally accepts that read without argument. Their fight over whether Lordaeron will listen ends here.
+- They do not know whether Andorhal will give them proof loud enough to force action.
+- Ground the shift: Arthas's absence making the space between them cleaner, Sylvanas cutting to the point, horses wheeling back toward the road.
+- The city ahead becomes their only real lead.
+
+---
+
+## Scene 3: The Road to Andorhal
+
+**The action:** The old seller clue resurfaces on the road, and Andorhal finally appears.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, second helpful trader, Andorhal approach traffic.
+**Starting point:** Arthas has failed them, and the city is their only remaining lead.
+
+### Beat 7
+- They ask a grain trader for the last directions into Andorhal. He is helpful, ordinary, and forgettable until he sends them off with the same farewell from Millhaven: May the stars keep your road.
+- The phrase is not a local quirk. Sylvanas marks it at once as a pattern, while Jaina gets no magical read from the man at all.
+- They do not know why the phrase keeps returning or that it is the same being in another face.
+- Ground the encounter: practiced helpfulness, the chill of hearing the words a second time, traffic closing around them as they ride on.
+- The old seller clue becomes too specific to dismiss.
+
+### Beat 8
+- The closer they get to Andorhal, the less Jaina can keep the plague at arm's length. The city's magical rot stops being theory and starts hurting her body.
+- The corruption is heavy enough to force a physical reaction, and the horses feel it before the buildings show. Jaina keeps riding anyway.
+- They do not know whether Andorhal is already dead behind its walls.
+- Ground the approach: pressure behind Jaina's eyes, thick sluggish air, horses going skittish on the narrowing road.
+- They keep riding until the city breaks the horizon.
+
+### Beat 9
+- Andorhal appears at last, and the sight is worse than a ruin. It is working. Granaries move, traffic flows, and the whole place looks alive while the poisoned roads converge on it.
+- The city is still trading and functioning, which means the plague is running through a living hub instead of a dead one. Whoever manages the spread is still inside.
+- They do not know who inside the walls is directing it.
+- Ground the reveal: the city's broad working silhouette, active granaries against the skyline, ordinary commercial noise with something rotten underneath.
+- Chapter 7 opens with the ride into the city.
 
 ---
 
@@ -254,13 +164,13 @@
 - Cyndia
 - Lyriel
 
-**Facts locked for Chapter 7**
-- Arthas has heard the warning and not acted on it in the needed way
-- The repeated farewell is now a remembered pattern for Sylvanas
-- The party reaches Andorhal via the road chosen in Chapter 5
-- The city still looks alive and busy even though the plague roads all run through it
+**What carries into Chapter 7:**
+- Arthas heard the warning and did not act on it the way they needed.
+- The repeated farewell is now a remembered pattern for Sylvanas.
+- The party reaches Andorhal by the road chosen in Chapter 5.
+- The city still looks alive and busy even though the plague roads run through it.
 
-**Facts not yet earned**
-- Barov certainty
-- Mal'Ganis recognition
-- Any claim that human authorities are now fully useless everywhere rather than specifically failing here
+**Do not add yet:**
+- Full Barov guilt.
+- Mal'Ganis recognition.
+- Any claim that all human authority is useless everywhere rather than failing here.

@@ -1,0 +1,273 @@
+{
+  "chapterId": "chapter5",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 5,
+      "keeps": 1,
+      "mildKills": 5,
+      "dominantPattern": "preamble-negation / fragment-pivot",
+      "findings": [
+        {
+          "line": 59,
+          "text": "\"It isn't one bad chain,\" Jaina said.",
+          "pattern": "P2 fragment pivot",
+          "severity": "mild",
+          "deletionTest": "\"This is different.\"",
+          "reason": "Fragment pivot; the surrounding explanation already carries the concrete payload and the negated setup is scaffolding.",
+          "suggestedFix": "\"It's spread wider than that,\" Jaina said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 127,
+          "text": "\"We're not ahead of this,\" Sylvanas said. \"We're reading a road after the wagons passed.\"",
+          "pattern": "P5 preamble negation",
+          "severity": "mild",
+          "deletionTest": "\"We're reading a road after the wagons passed.\"",
+          "reason": "Preamble negation; the second sentence states the real condition and survives cleanly without the negated lead-in.",
+          "suggestedFix": "\"We're reading a road after the wagons passed,\" Sylvanas said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 143,
+          "text": "It wasn't. No carts. No smoke. No voices.",
+          "pattern": "P5 preamble negation",
+          "severity": "mild",
+          "deletionTest": "No carts. No smoke. No voices.",
+          "reason": "Preamble negation; the sensory inventory lands harder once the negated throat-clearing is removed.",
+          "suggestedFix": "No carts. No smoke. No voices.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 245,
+          "text": "Still not proof.",
+          "pattern": "P2 fragment pivot",
+          "severity": "mild",
+          "deletionTest": "One house name in Lordaeron could mean rent rolls, storehouses, tenant land, old claims hanging on from a dead grandfather's bargain.",
+          "reason": "Fragment pivot; the following sentence already states the uncertainty, so the negated fragment is redundant scaffolding.",
+          "suggestedFix": "A lead.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 255,
+          "text": "\"That isn't proof.\"",
+          "pattern": "P2 fragment pivot",
+          "severity": "mild",
+          "deletionTest": "\"It's a road to follow.\"",
+          "reason": "Fragment pivot; the next line supplies the operative conclusion, so the negated sentence is another refusal before commitment.",
+          "suggestedFix": "\"It's a lead.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 8,
+      "kills": 5,
+      "keeps": 3,
+      "mildKills": 5,
+      "dominantPattern": "abstract / infrastructure agency laundering",
+      "findings": [
+        {
+          "line": 65,
+          "text": "Three at once was an answer already in motion.",
+          "pattern": "P5 object-agency",
+          "severity": "mild",
+          "subject": "answer",
+          "verb": "was already in motion",
+          "realAgent": "three coordinated strikes revealing an attack already underway",
+          "reason": "The sentence launders coordinated enemy action onto an abstract answer instead of naming the attack mechanics.",
+          "suggestedFix": "Three at once meant the attack was already underway.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 137,
+          "text": "Millbrook Spur sat dead quiet when they rode in.",
+          "pattern": "scenery-posture",
+          "severity": "mild",
+          "subject": "Millbrook Spur",
+          "verb": "sat",
+          "realAgent": "the empty yard, dead chimney, and lack of voices",
+          "reason": "The place name is carrying bodily posture instead of the concrete signs that make the depot feel emptied out.",
+          "suggestedFix": "Millbrook Spur was dead quiet when they rode in.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 239,
+          "text": "One word that struck somewhere older in memory.",
+          "pattern": "memory-smear",
+          "severity": "mild",
+          "subject": "word",
+          "verb": "struck",
+          "realAgent": "Sylvanas recognizing an older association",
+          "reason": "The sentence gives the word the mental action instead of naming Sylvanas's recollection directly.",
+          "suggestedFix": "One word she remembered from somewhere older.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 319,
+          "text": "Sylvanas kept her finger on the map and let another thought rise behind the first.",
+          "pattern": "P9 nominalized agency",
+          "severity": "mild",
+          "subject": "thought",
+          "verb": "rise",
+          "realAgent": "Sylvanas turning deliberately to the old seller memory",
+          "reason": "The sentence externalizes Sylvanas's thinking into a rising thought instead of keeping the mental action with her.",
+          "suggestedFix": "Sylvanas kept her finger on the map and thought of the old grain seller next.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 347,
+          "text": "Millbrook Spur had cut the choices down to one.",
+          "pattern": "P1 infrastructure pressure",
+          "severity": "mild",
+          "subject": "Millbrook Spur",
+          "verb": "had cut",
+          "realAgent": "the cleaned-depot evidence and the Barov route logic",
+          "reason": "The location is made to do the narrowing instead of the evidence Sylvanas has just assembled.",
+          "suggestedFix": "There was only one road left.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "cleanReason": "No recurring tic breached its chapter cap. Tool-signaled lines (filter_noticed, participial_trailing, simile_like, punctuation_tics) stayed isolated rather than forming a chapter-level repetition pattern, and the lone eye beat is character-specific perimeter scanning rather than repertoire exhaustion.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 9,
+    "mildKills": 10,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A found 10 mild KILLs across negation-addiction and intent-smear; that exceeds the pass threshold of 3 or fewer mild-only kills. Rhythm and texture analytics also show structural flatness downstream editors should address.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.38,
+        "target": 0.72,
+        "delta": -0.34,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.788,
+        "target": 0.7,
+        "delta": 0.088,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 47.5,
+        "target": 19.0,
+        "delta": 28.5,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "notes": [
+        "structural rhythm concerns"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.1% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.7% below floor 4.0% (human: 8.5%)",
+        "texture_score 8.9% below floor 10.0% (human: 24.4%)",
+        "short_pct 63.2% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.1% (floor: 5.0%, human: 11.0%). Add \", Ving\" phrases to connect actions. COMPOUND CLAUSES: 3.7% (floor: 4.0%, human: 8.5%). Join related ideas with \", and\" / \", but\" / \", yet\". SHORT SENTENCES: 63.2% (ceiling: 62.0%, human: 52.2%). Too choppy; combine adjacent short sentences using the constructions above.",
+      "telegramRunCount": 17,
+      "textureDesertCount": 6,
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 13,
+        "totalViolations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

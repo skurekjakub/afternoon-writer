@@ -1,0 +1,420 @@
+{
+  "chapterId": "chapter6",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 7,
+      "kills": 6,
+      "keeps": 1,
+      "severityMarkers": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F2-dialogue-beat-genericism",
+      "findings": [
+        {
+          "line": "Good enough to keep riding.",
+          "pattern": "F7-closure-addiction",
+          "severity": "mild",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Death closes the lock, she thought.",
+          "issue": "The paragraph already lands on Jaina's lock image; this sentence closes the thought for the reader.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Jaina could hear the rest of her meaning clearly enough.",
+          "pattern": "F3-filter-drag",
+          "severity": "mild",
+          "word": "could hear",
+          "deletionTest": "The rest of her meaning was clear enough.",
+          "suggestedFix": "The rest of her meaning was clear enough.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "It only made the refusal gathering in the room feel more exact.",
+          "pattern": "F4-narrative-over-translation",
+          "severity": "mild",
+          "whatItRestates": "Arthas reading every place name and lingering over the route map already shows the refusal hardening.",
+          "textureZone": "texture_desert 150-177",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "He looked up.",
+          "pattern": "F2-dialogue-beat-genericism",
+          "severity": "mild",
+          "issue": "generic label beat",
+          "suggestedFix": "His eyes came off the map.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "He went back to his horse.",
+          "pattern": "F2-dialogue-beat-genericism",
+          "severity": "mild",
+          "issue": "generic label beat",
+          "suggestedFix": "He caught the lead horse's cheekpiece and busied himself there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "That was the proof Arthas had refused.",
+          "pattern": "F4-narrative-over-translation",
+          "severity": "mild",
+          "whatItRestates": "The active towers, wagons, and working city already show the refused proof.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks like a field mage running hypotheses under pressure: she inventories evidence, plague mechanics, rank dynamics, and magical sensation in clipped analytical shorthand. She can use fragments and abstractions when they cash out into immediate evidence, but she does not step outside the scene to caption themes or directly narrate Sylvanas's inner cognition.",
+      "registerConfidence": "high",
+      "totalCandidates": 9,
+      "kills": 7,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 2,
+        "severe": 0
+      },
+      "dominantPattern": "B1-too-polished-for-pov",
+      "findings": [
+        {
+          "line": "The present failure was simple enough.",
+          "pattern": "B2-conceptual-compression",
+          "tier": "B",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina names the concrete problem in the next sentence; this abstract caption steps outside her live thinking to summarize it first.",
+          "confidence": "moderate",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Instead the years between them had served only to make the refusal courteous.",
+          "pattern": "B1-too-polished-for-pov",
+          "tier": "B",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence sounds authored from above the breakup history rather than like Jaina's immediate, bitter read in the saddle.",
+          "confidence": "moderate",
+          "suggestedFix": "Instead the years between them had only made the refusal sound courteous.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Sylvanas recognized the phrase a beat late.",
+          "pattern": "B1-too-polished-for-pov",
+          "tier": "B",
+          "severity": "moderate",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can see Sylvanas go still, but she cannot directly state the recognition inside Sylvanas's head.",
+          "confidence": "moderate",
+          "suggestedFix": "Sylvanas went still a beat late.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Sylvanas trusted some part of hers.",
+          "pattern": "B1-too-polished-for-pov",
+          "tier": "B",
+          "severity": "moderate",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This is direct mind-reading of Sylvanas's confidence state rather than Jaina's observable inference.",
+          "confidence": "moderate",
+          "suggestedFix": "Sylvanas rode with the stillness of someone not ready to dismiss it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "What they were reading now was the pressure building mile by mile.",
+          "pattern": "A5-scene-state-declaration",
+          "tier": "A",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The horses' raised heads and working ears are concrete; this sentence abstracts them into a mood-state label from above.",
+          "confidence": "high",
+          "textureZone": "texture_desert 366-389",
+          "suggestedFix": "Their heads stayed high and their ears kept working as the miles fell away.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "It mounted by grains, too gradual for any single adjustment to master.",
+          "pattern": "A1-verdict-tag",
+          "tier": "A",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence lands as a polished caption on the pressure instead of staying in Jaina's concrete bodily read of the ward failing to keep up.",
+          "confidence": "high",
+          "toolSignal": "verdict_too_x_for",
+          "textureZone": "texture_desert 366-389",
+          "suggestedFix": "It built by grains. Every time she tightened the ward, the ache found a way around it again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "That was the proof Arthas had refused.",
+          "pattern": "A1-verdict-tag",
+          "tier": "A",
+          "severity": "mild",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence captions the city reveal instead of letting Jaina's concrete sight of towers and wagons carry the point.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3-placeholder-noun-stand-ins",
+      "findings": [
+        {
+          "line": "\"He's applying the right logic to the wrong fire.\"",
+          "pattern": "P1-sloganized-abstraction",
+          "severity": "mild",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "That Arthas is treating the raider attack as the only war that matters and sorting the plague warning as somebody else's problem.",
+          "reason": "Abstract slogan rhythm substitutes for the concrete misread.",
+          "suggestedFix": "\"He's treating the raiders as the war and the plague as somebody else's problem.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "\"He does not take the thing seriously yet.\"",
+          "pattern": "P3-placeholder-noun-stand-ins",
+          "severity": "mild",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The plague carried in grain and the warning Jaina just delivered.",
+          "reason": "The line leans on 'thing' instead of naming the operative subject.",
+          "suggestedFix": "\"He takes you seriously. He does not take the plague seriously yet.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "Just the broad shove of a center that had been feeding itself outward for weeks.",
+          "pattern": "P2-tactical-prestige-compression",
+          "severity": "mild",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "A single source ahead pushing taint out through the road network.",
+          "reason": "Prestige diction simulates precision without naming the source behavior.",
+          "suggestedFix": "Only the pull of one source somewhere ahead, feeding taint out through every road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": "That was the proof Arthas had refused.",
+          "pattern": "P3-placeholder-noun-stand-ins",
+          "severity": "mild",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The visible fact of active towers, loading wagons, and grain still moving through Andorhal.",
+          "reason": "The stand-in noun 'proof' asks the reader to infer a stronger concrete line than the prose actually says.",
+          "suggestedFix": "This was what she had tried to give him: towers full, wagons loading, grain still moving.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No exchange in this chapter sets up a plain-speech or street-level translation request, so the guide's trigger condition never fires."
+    }
+  ],
+  "summary": {
+    "totalKills": 17,
+    "totalKeeps": 5,
+    "mildKills": 15,
+    "moderateOrSevereKills": 2,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 17,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 2 MODERATE narrator-seep head-hop kills and 15 additional MILD pass-B kills. The chapter still leaks outside Jaina's POV, leans on placeholder shorthand in key exchanges, and carries structural rhythm concerns.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.409,
+        "target": 0.72,
+        "delta": -0.311,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.799,
+        "target": 0.7,
+        "delta": 0.099,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 42.4,
+        "target": 19.0,
+        "delta": 23.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above range"
+      ]
+    },
+    "textureMetrics": {
+      "participial_pct": 2.1,
+      "compound_pct": 6.5,
+      "emdash_pct": 3.3,
+      "semicolon_pct": 0.9,
+      "short_pct": 58.7,
+      "texture_score": 12.8,
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 2.1% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassages": {
+        "telegram_run": 17,
+        "texture_desert": 8
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 22,
+        "total_violations": 1,
+        "overCapCategories": [
+          {
+            "category": "narrator_verdict",
+            "patterns": [
+              "verdict_too_x_for"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

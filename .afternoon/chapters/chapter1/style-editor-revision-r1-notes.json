@@ -1,0 +1,63 @@
+{
+  "chapterId": "chapter1",
+  "mode": "revision",
+  "iteration": 1,
+  "feedbackPath": ".afternoon/chapters/chapter1/style-auditor-notes.json",
+  "zonesProcessed": 6,
+  "changes": [
+    {
+      "zone": "P17-P31",
+      "construction": "compound clauses and action-led attribution",
+      "before": "\"You outrank nothing in that chamber. That is why they built it.\" / \"Competent. Close relation.\"",
+      "after": "\"You outrank nothing in that chamber,\" Lor'themar said, sunlight catching the links at his throat as he glanced over. \"That is why they built it.\" / \"Competent,\" he said. \"Close relation.\"",
+      "rationale": "Zone flagged as telegram_run; joined adjacent banter beats to keep the exchange clipped without the page falling into one-line monotony."
+    },
+    {
+      "zone": "P49-P73",
+      "construction": "compound joins and em-dash pivots",
+      "before": "\"Message from Cyndia's post. Human mage crossed the first ward ring before dawn. Reached the second. Caught at the stones.\"",
+      "after": "\"Message from Cyndia's post. Human mage crossed the first ward ring before dawn, reached the second, and got caught at the stones.\"",
+      "rationale": "Zone flagged as texture_desert; folded the runner's clipped report into fewer sentence units so urgency stayed while connective tissue increased."
+    },
+    {
+      "zone": "P91-P114",
+      "construction": "participial phrases and ride-linked compounds",
+      "before": "\"Cyndia and the watch felt a drag in the hum at the outer stones. She took two rangers and found the prisoner...\"",
+      "after": "\"Cyndia and the watch felt a drag in the hum at the outer stones, and she took two rangers to the second marker, finding the prisoner...\"",
+      "rationale": "Zone flagged as texture_desert; carried motion and briefing in the same breath so the ride south reads as one sustained pressure line."
+    },
+    {
+      "zone": "P125-P138",
+      "construction": "compound evidence chains",
+      "before": "\"Chalk still dusted the base. Frost glazed one side thin and bright.\"",
+      "after": "\"Chalk still dusted the base, frost glazing one side thin and bright; heel marks scored the dirt nearby...\"",
+      "rationale": "Zone flagged as texture_desert; bound evidence, reaction, and inference into the same syntactic unit so the ward inspection stopped stuttering."
+    },
+    {
+      "zone": "P154-P177",
+      "construction": "inventory-linked participials",
+      "before": "\"A guard brought it over, weathered leather tied with ordinary cord. Sylvanas opened it herself.\"",
+      "after": "\"A guard brought it over, weathered leather tied with ordinary cord, and Sylvanas opened it herself, peeling back the flap with her thumb.\"",
+      "rationale": "Zone flagged as texture_desert; connected object handling to Sylvanas's judgment so the satchel sequence kept moving instead of breaking into hard stops."
+    },
+    {
+      "zone": "P189-P200",
+      "construction": "connective sweep and threshold motion",
+      "before": "\"At the door the guards straightened. Blue light climbed Sylvanas's boots and sharpened the iron bands; inside, one person was breathing too tightly to pass for calm.\"",
+      "after": "\"At the door the guards straightened, blue light climbing Sylvanas's boots and sharpening the iron bands while inside one person breathed too tightly to pass for calm.\"",
+      "rationale": "Zone flagged as telegram_run; turned the holding-room reveal into a single controlled sweep before the interrogation line lands."
+    }
+  ],
+  "selfAuditFixes": 1,
+  "selfAuditNotes": [
+    "Re-read all changed zones against Sylvanas and Jaina voice sheets; no edit shifted dialogue into modern or explanatory register.",
+    "Adjusted one threshold sentence in P189-P200 during self-audit to remove an awkward pause after 'while' without changing the zone's meaning.",
+    "All added participial phrases describe physically plausible simultaneous action.",
+    "No new eye/gaze-beat repetition introduced in changed zones.",
+    "Residual deficit remains in participial density: rhythm scorer moved participial_pct from 1.1 to 3.8, compound_pct from 6.6 to 11.7, emdash_pct from 1.1 to 2.8, semicolon_pct from 1.4 to 1.9, short_pct from 66.2 to 59.3, and texture_score from 10.2 to 20.2."
+  ],
+  "wordCount": {
+    "before": 3020,
+    "after": 3099
+  }
+}

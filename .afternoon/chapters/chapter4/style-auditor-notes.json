@@ -4,111 +4,138 @@
     {
       "dimension": "sentenceRhythm",
       "observations": [
-        "Lines 3-13: the opening alternates longer travel sentences with blunt one-line beats ('Jaina caught it too.' / 'Alive, then. Worse for that.'), which matches the dread-build baseline.",
-        "Lines 15-39: the Jaina-Sylvanas exchange keeps power pressure in short finished lines; Sylvanas owns the clipped side, Jaina snaps back cleanly.",
-        "Lines 87-113: the infirmary entry uses one longer sensory paragraph, then cuts down into short medic dialogue before the magical scan; monotony never sets in.",
-        "Lines 201-219: the bread-realization sequence earns its short beats by letting a longer reasoning run collapse into 'Bread.' / 'Grain.'",
-        "Lines 541-563: the close lengthens for aftertaste, then lands on two blunt road-forward sentences, which fits the chapter-hand-off rule."
+        "Lines 3-17 open in the right close-third procedural register, but the chapter starts spending single-sentence paragraphs immediately (lines 5, 15, 19), helping drive one-sentence paragraphs to 44.2% against a 15-24% range.",
+        "Lines 35-53 / P18-P21 are a confirmed rhythm failure: the scorer flags both a telegram run and a texture desert there, with 90.9% short sentences inside the core run.",
+        "Lines 83-105 / P43-P46 let Jaina think in built clauses, but the room still falls into clipped question-answer resets quickly enough for the scorer to flag the infirmary entrance as another desert.",
+        "Lines 145-163 are the strongest Jaina-rhythm block in the chapter: the deduction moves by hypothesis, revision, and consequence instead of sentence-stub stacking.",
+        "Lines 327-395 / P165-P188 compress well for shock after Davan dies, but the closet-to-Andorhal sequence is still the last major texture desert and keeps the global texture score at 15.3, below the 22.0 floor."
       ],
-      "violations": 0,
-      "fixes": []
+      "violations": 5,
+      "fixes": [
+        {
+          "line": 177,
+          "rule": "sentenceRhythmStandards.default - adjacent short fragments wanted connective tissue",
+          "before": "Dates marched down the page in the captain's wife's blunt hand, then a different ink for purchases. Wheat. Rye. Communal allotment. Bakehouse issue.",
+          "after": "Dates marched down the page in the captain's wife's blunt hand, then a different ink for purchases: wheat, rye, communal allotment, bakehouse issue."
+        },
+        {
+          "line": 199,
+          "rule": "textureMetrics - replace weak reset with connective motion",
+          "before": "They went in with the keeper ahead of them, Cyndia and Lyriel peeling off from their corners of the square to take the doorways as neatly as if this had been arranged from the moment Jaina stepped out of the infirmary.",
+          "after": "They went in with the keeper ahead of them, Cyndia and Lyriel peeling off from their corners of the square to take the doorways with the neat timing of people who had been reading the room since Jaina stepped out of the infirmary."
+        }
+      ]
     },
     {
       "dimension": "vocabularyRegister",
       "observations": [
-        "Lines 3-11: diction stays concrete and lived-in—weather, sheds, linens, bread smoke, wet earth—rather than opening in abstract plague summary.",
-        "Lines 65-73: Jaina translates the threat in plain field language for the captain; no lab or memo vocabulary survives in her speech.",
-        "Lines 113-147: Jaina's magic-read uses pattern, throat, belly, knot, and spread—expert but still embodied and scene-bound.",
-        "Lines 263-265: 'treated stock' and 'liquid form' stay within Jaina's arcane-expert filter without slipping into modern clinical jargon.",
-        "Line 203 carried a mild abstract-motion phrasing ('stillness went through her'); revised in v4b to a body-grounded reaction."
+        "Lines 7-17 stay concrete and specific: bread smoke, wet mud, horse dung, and the well's iron reek all arrive before abstraction.",
+        "Lines 39-41 keep profession-filtered language intact; Sylvanas reads spread, speed, and bodily consequence instead of narratorial summary.",
+        "Lines 83-91 give Brek plain field-practical symptom language - sweating, loose bowels, boiled mint, watered broth - with no clinical memo voice.",
+        "Lines 205-217 keep Jaina's technical read functional rather than showy: milling, kneading, baking, shell, and layer all cash out in usable field terms.",
+        "Lines 391-395 close on sequence, pressure, hand placement, and cold, which keeps Jaina's prose concrete even while she writes instructions."
       ],
-      "violations": 1,
-      "fixes": [
-        {
-          "line": 203,
-          "rule": "Document voice / abstract-noun locomotion",
-          "before": "When the pattern locked, stillness went through her from shoulder to wrist.",
-          "after": "When the pattern locked, her arm went still all the way to the wrist."
-        }
-      ]
+      "violations": 0,
+      "fixes": []
     },
     {
       "dimension": "metaphorCompliance",
       "observations": [
-        "Lines 3-7: 'disaster could hide inside good weather' is a clean dread image sourced from immediate circumstance, not ornament.",
-        "Line 131: 'The contamination sat in her like a banked coal' is the chapter's clearest comparison and suits Jaina's controlled, pressure-based image field.",
-        "Lines 247-249: 'the whole village seem to tilt truer beneath her boots' sharpens breakthrough without stacking a second image on top of it.",
-        "Line 549: Sylvanas's 'sharpening the blade' stays inside martial source domain and fits her observed dialogue fingerprint.",
-        "Line 215 used an unnecessary 'as if' construction for the medic's reaction; trimmed in v4b to keep the chapter under the soft-comparison cap."
+        "Line 31's authority comparison - 'the way some men wore winter gloves' - is concrete, visualizable, and tied to bodily use rather than abstract mood.",
+        "Lines 167-168 compare Jaina's new certainty to a ward line with the mud scraped off the stone; that source domain belongs to her and stays procedural.",
+        "Lines 209-210 use the grain's outer shell 'singing loudest' and a deeper layer 'waiting for the body to finish the work' as process metaphors rooted in arcane diagnosis.",
+        "No forbidden wall, armor, storm, drowning, shattered, or light-dark morality metaphors appeared in the chapter.",
+        "Metaphor density stays low - roughly four figurative turns across 4.5k words, about 0.9 per thousand - which is under the 1-3 target band but still consistent with the chapter's procedural austerity."
       ],
-      "violations": 1,
-      "fixes": [
-        {
-          "line": 215,
-          "rule": "Metaphor policy / soft comparison cap",
-          "before": "The medic stared at the loaf as if he expected it to answer.",
-          "after": "The medic stared at the loaf, waiting for it to answer."
-        }
-      ]
+      "violations": 0,
+      "fixes": []
     },
     {
       "dimension": "paragraphStructure",
       "observations": [
-        "The chapter averages 17.22 words per paragraph across 282 paragraphs, which stays well inside the 1-4 sentence cadence target.",
-        "No paragraph exceeds the style guide's 120-word soft ceiling; the longest investigative runs are split before they turn bricklike.",
-        "Lines 87-90: a denser infirmary paragraph is immediately followed by the medic confrontation, satisfying the 'dense block -> motion/dialogue' return rule.",
-        "Lines 221-239: the revelation in the square breaks across short paragraphs so convergence reads as pressure, not exposition dump.",
-        "Lines 497-517: containment orders are broken into short command-and-response paragraphs, matching the scene's operational tempo."
+        "The chapter averages 2.12 sentences per paragraph, well under the 3-4 sentence workhorse paragraph the style guide calls the baseline.",
+        "One-sentence paragraphs land at 44.2%, far above the 15-24% range; the chapter's page shape is visibly choppier than the guide's target.",
+        "Scene breaks at lines 77, 165, and 295 use clean hard cuts with causal carry-forward, not temporal bridge filler.",
+        "The transition from lines 149-163 into 167-185 is strong: Jaina's bread hypothesis opens directly onto the ledger and granary consequences.",
+        "The transition from lines 367-395 also stays causal - Davan's death points to Andorhal, then immediately to ward instructions and departure timing."
       ],
-      "violations": 0,
-      "fixes": []
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 313,
+          "rule": "sceneTransitionConventions.avoid - temporal padding",
+          "before": "His mouth hardened. The lie was gone from him at last, leaving the narrower misery of a man who finally knew what kind of fight he had been losing.",
+          "after": "His mouth hardened. The lie was gone from him at last, leaving the narrower misery of a man who knew what kind of fight he had been losing."
+        }
+      ]
     },
     {
       "dimension": "dialogueRatioAttribution",
       "observations": [
-        "Overall dialogue-to-narration sits at 28.3:71.7; numerically low for competence-collision, but the chapter also spends long stretches in dread diagnosis and aftermath, so no additive repair was justified.",
-        "Quoted dialogue totals about 1374 words against 3482 narration words; spoken pressure still returns every time a conclusion needs to move another person.",
-        "Plain said/asked tags dominate the attributed lines that need tags, while stronger tags stay sparse ('called,' 'shot back,' 'snapped,' 'whispered').",
-        "Lines 31-79, 91-109, and 483-517 all use clean two-speaker runs where untagged lines remain legible because the exchange order is unmistakable.",
-        "Action-beat placement mostly falls after the line or as the hinge into the next line, especially in the captain and granary exchanges, which matches spec."
+        "Dialogue-to-narration lands at roughly 23:77 by word count, far below the chapter-1-8 procedural target of 60:40.",
+        "The captain exchange at lines 33-73 uses mostly invisible said-tags and action beats; speaker tracking stays clean without creative-tag clutter.",
+        "Brek's infirmary dialogue at lines 85-103 sounds like a tired local healer, not a clinician or exposition device.",
+        "The Davan interrogation at lines 247-291 stays intelligible despite multiple short turns; the prose never loses the speaker even when tags drop out.",
+        "Creative tags are absent, and action-beat attribution is strongest in the granary and closet scenes where motion matters tactically."
       ],
-      "violations": 0,
-      "fixes": []
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 179,
+          "rule": "attributionStandards + dialogue register ceiling - spoken line drifted clinical",
+          "before": "\"People eating the village bread are carrying the worst concentrations,\" Jaina said.",
+          "after": "\"People eating the village bread are carrying the worst of it,\" Jaina said."
+        }
+      ]
     },
     {
       "dimension": "perPOVVoice",
       "observations": [
-        "Lines 3-13: Jaina opens by reading anomaly through weather, smell, horse behavior, and wrongness; the page belongs to her senses, not a neutral narrator.",
-        "Lines 113-147: her thought path stays observation -> pattern -> hypothesis, with magical perception translated into tactical consequence for civilians.",
-        "Lines 201-219: the breakthrough arrives as lucidity, not frenzy; that matches the style guide's 'clarity is her intensity' rule.",
-        "Lines 233-247: Jaina's irritation at Sylvanas's parallel answer stays dry and honest instead of softening into admiration or flirtation.",
-        "Lines 541-555: the close shows her beginning to read logistics and road choice as part of the answer, which fits the chapter's planned correction in method."
+        "Lines 97-105, 145-163, and 205-217 fit Jaina's claim-qualifier-consequence habit; she keeps turning observation into a testable read.",
+        "Lines 127-133 render magic through heat, ache, and resistance instead of spectacle, matching her physicalized working-magic rule.",
+        "Lines 139-153 and 171-185 show Jaina noticing Sylvanas's competence and method before any ornamental description.",
+        "Lines 217, 307-317, and 383-389 show the expected power-posture shift: once the evidence firms up, her conditionals collapse into instructions.",
+        "The chapter's humor stays in Jaina's narrow lane - dry, self-checking, and unsignposted - rather than turning into banter."
       ],
-      "violations": 0,
-      "fixes": []
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 97,
+          "rule": "perPOVCalibration.Jaina - academic-discipline contamination in embodied narration",
+          "before": "The stain lay densest in the stomach and upper gut, dark amber against the blue geometry of healthy flesh, already pushing outward in the worst places as if the body had begun carrying the thing deeper by the simple act of staying alive.",
+          "after": "The stain lay densest in the stomach and upper gut, dark amber against the blue lattice of healthy flesh, already pushing outward in the worst places as if the body had begun carrying the thing deeper by the simple act of staying alive."
+        }
+      ]
     },
     {
       "dimension": "qualityFloor",
       "observations": [
-        "Word count is 4856; at a 250-word page estimate, the chapter runs 19.42 pages.",
-        "Adverb count is 35 after excluding false positives like 'belly' and 'only', for 1.8 adverbs per page against a max of 4.",
-        "Approximate passive voice is 10 of 449 sentences, or 2.23%, safely below the 4% ceiling.",
-        "Average sentence length is 10.82 words, squarely inside the 7-14 word default rhythm band.",
-        "Showing remains dominant: physical cues, dialogue pressure, and action beats carry the chapter; explicit summary is reserved for earned conclusions and route hand-off."
+        "Refined adverb density is 1.16 per 250-word page, under the style floor of 2 per page.",
+        "Naive passive-voice detection lands at 2.17%, comfortably under the 8% ceiling.",
+        "The chapter now sits at three 'as if' constructions, which meets the slop-hitlist cap after one local cut.",
+        "Show-to-tell stays strong in the Davan death block (lines 331-359): failure is rendered through throat, foam, ward-casting, and cold light instead of named grief.",
+        "No creative dialogue tags with adverbs appear anywhere in the chapter, and no repeated breath-tell pattern takes over the emotional beats."
       ],
-      "violations": 0,
-      "fixes": []
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 135,
+          "rule": "proseQualityFloor + simile cap - reduce 'as if' count to chapter limit",
+          "before": "By the end, one farmer's wife had gone slack under the blankets in the heavy sleep fever had denied her for days. Brek looked at that as if he could not decide whether to thank Jaina or mistrust the miracle.",
+          "after": "By the end, one farmer's wife had gone slack under the blankets in the heavy sleep fever had denied her for days. Brek looked at that and did not know whether to thank Jaina or mistrust the miracle."
+        }
+      ]
     },
     {
       "dimension": "sceneLevelDimensions",
       "observations": [
-        "Exposition integration: lines 87-149 deliver plague mechanics through Jaina's patient scan and questioning, not narrator aside, keeping the organic/explained balance close to spec.",
-        "Power dynamics: lines 41-79 and 391-419 map status through interruption, shorter dominant sentences, and spatial control; Sylvanas repeatedly ends exchanges while others lengthen defensively.",
-        "Scene shape: the chapter opens with a problem already in motion, pivots at the grain realization and again at the live watcher, then resolves in an uneasy operational decision toward Andorhal.",
-        "Speculative integration: lines 133-143 and 305-319 treat wards, residue, and necromantic craft as labor and failure mode, not spectacle; domestication level is high as required.",
-        "Subtext / action / humor: the captain scenes carry mistrust beneath the surface topic, the granary beat tightens verb density and fragments appropriately, and humor thins into dry understatement rather than deflating horror."
+        "Exposition integration passes: lines 95-105, 145-153, and 205-217 explain the plague only while Jaina is actively testing bodies, bread, or grain.",
+        "Power dynamics render cleanly in the captain scene and Davan interrogation; Sylvanas owns the shortest declaratives, while the human respondents sprawl or qualify under pressure.",
+        "The chapter shape is solid: sensory-anchor opening, midpoint turn on grain certainty, second turn on Davan's suicide, and hard mission-routing ending toward Andorhal.",
+        "Speculative integration stays domesticated throughout; wards, contamination, and magical forensics behave like field tools, not wonder beats.",
+        "Subtext is thinner than the guide's medium-high negotiation target in the captain scene; the exchange mostly rides surface function instead of double meaning, and I flagged but did not force new subtext into the prose."
       ],
-      "violations": 0,
+      "violations": 1,
       "fixes": []
     }
   ],
@@ -116,31 +143,211 @@
     {
       "character": "Jaina Proudmoore",
       "fingerprintChecks": {
-        "vocabularyLevel": "pass — precise but readable; lines 65-73, 113-147, and 263-265 keep her expert without modern-scientific leakage.",
-        "sentenceRhythm": "pass — longer reasoning chains break cleanly into snapped short lines at 139, 209, 219, and 249.",
-        "metaphorDensity": "pass — low and controlled; fresh images stay sparse and pressure-based, with one soft comparison trimmed at line 215.",
-        "emotionalRegister": "pass — intellect-first surface, bodily leakage underneath; fatigue, throat dryness, stillness, and strain carry feeling instead of overt labeling.",
-        "thoughtPatterns": "pass — observation -> pattern recognition -> hypothesis -> correction holds across the infirmary, bread, and granary sequences.",
-        "sensorySignature": "pass — wrongness in breath, grain sweetness, light behavior, ward pressure, and bodily cost all recur in Jaina-native channels."
+        "vocabularyLevel": "pass - Lines 95-105, 145-163, and 205-217 keep her in field-adapted arcane diction: wards, shadow, shell, layer, hold, and answer rather than memo language.",
+        "sentenceRhythm": "mixed - Her strongest passages match the longer analytical baseline, but the chapter-level short-sentence pressure repeatedly pulls her closer to clipped exchange cadence than the guide prefers.",
+        "metaphorDensity": "pass - Her few figurative moves come from wards, structure, and magical process, not generic emotional imagery.",
+        "emotionalRegister": "pass - Emotion shows as speed, certainty, overwork, and failed control; she names almost nothing directly.",
+        "thoughtPatterns": "pass - Observation leads to inference, then test, then revision all through the infirmary and granary sequences.",
+        "sensorySignature": "pass - She privileges magical pattern and structure first, then physical interruption: chill, ache, warmth, breath, dust, and the taste of wrongness.",
+        "humorType": "pass - The wit is dry and self-checking, never quippy, and disappears once Davan dies.",
+        "powerPosture": "pass - She begins analytical, then turns sharply directive once proof arrives, especially at lines 217 and 317.",
+        "speculativeComfort": "pass - Magic is professional tooling throughout; the prose treats contamination and wards as mechanisms to read and manage.",
+        "expositionFilter": "pass - She explains only what she is actively testing or what another character needs in the moment."
       },
       "ruleViolations": [
-        "Line 203 briefly abstracted a bodily reaction into document-style motion; corrected in v4b.",
-        "Line 215 used a soft 'as if' comparison where a direct reaction read cleaner; corrected in v4b."
+        "Line 97 originally used 'geometry' for living flesh, which read more like academic-discipline narration than embodied Jaina POV; revised to 'lattice'."
       ]
     }
   ],
   "metrics": {
-    "adverbsPerPage": 1.8,
-    "passiveVoicePercent": 2.23,
-    "dialogueToNarrationRatio": "28.3:71.7",
-    "avgSentenceLength": 10.82,
-    "avgParagraphLength": 17.22,
-    "metaphorsPerThousandWords": 2.27
+    "adverbsPerPage": 1.16,
+    "passiveVoicePercent": 2.17,
+    "dialogueToNarrationRatio": "23:77",
+    "avgSentenceLength": 10.8,
+    "avgParagraphLength": 2.12,
+    "metaphorsPerThousandWords": 0.9
+  },
+  "textureFindings": {
+    "textureVerdict": "fail",
+    "metrics": {
+      "participial_pct": {
+        "current": 5.3,
+        "target": 12.0,
+        "range": [
+          9.0,
+          15.0
+        ],
+        "status": "below_range"
+      },
+      "compound_pct": {
+        "current": 6.2,
+        "target": 10.0,
+        "range": [
+          7.0,
+          13.0
+        ],
+        "status": "below_range"
+      },
+      "emdash_pct": {
+        "current": 2.2,
+        "target": 4.0,
+        "range": [
+          2.5,
+          5.5
+        ],
+        "status": "below_range"
+      },
+      "semicolon_pct": {
+        "current": 1.7,
+        "target": 1.8,
+        "range": [
+          1.0,
+          2.5
+        ],
+        "status": "on_target"
+      },
+      "short_pct": {
+        "current": 56.5,
+        "target": 48.0,
+        "range": [
+          40.0,
+          55.0
+        ],
+        "status": "above_range"
+      },
+      "texture_score": {
+        "current": 15.3,
+        "target": 27.0,
+        "range": [
+          22.0,
+          32.0
+        ],
+        "status": "below_range"
+      }
+    },
+    "flaggedZones": [
+      {
+        "type": "telegram_run",
+        "paragraphs": "P18-P20",
+        "instruction": "Join one captain-response beat with a compound clause and keep Sylvanas's clipped dialogue intact."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P18-P21",
+        "instruction": "Add 1-2 participial bridges in the surrounding narration so Sylvanas's pressure and the captain's hesitation occupy the same sentence."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P35-P38",
+        "instruction": "Fold the storehouse-account explanation into one compound sentence and add a brief participial tail on the chin-jerk beat."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P43-P44",
+        "instruction": "Combine the symptom-list setup with one compound sentence before the clipped symptom fragments."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P43-P46",
+        "instruction": "Use participial bridges around Jaina's exam and Brek's questioning so the room moves as one procedure."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P48-P51",
+        "instruction": "Link Jaina's diagnosis to her first question with a single compound clause or em-dash."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P53-P65",
+        "instruction": "Thread the bed-to-bed checks with participial phrases and one em-dash aside instead of repeated stand-alone sentences."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P86-P88",
+        "instruction": "Fuse Jaina's ledger read to Sylvanas's supplier summary with one compound sentence."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P86-P92",
+        "instruction": "Add participial tissue through the ledger and granary handoff, then use an em-dash for Jaina's realization pivot."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P94-P99",
+        "instruction": "Combine the discovery lines around 'Someone put it there' with one follow-on clause in narration."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P106-P115",
+        "instruction": "Enrich the sack-reading sequence with participial narration and one compound clause before the alcove interruption."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P108-P113",
+        "instruction": "Join Jaina's ward warning to Aldous's reaction with a single compound sentence."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P123-P127",
+        "instruction": "Use a brief participial beat while Jaina repositions on Davan, keeping the interrogation questions short."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P123-P137",
+        "instruction": "Across the interrogation block, add connective clauses and one em-dash pivot in narration between the question-answer bursts."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P128-P132",
+        "instruction": "Fold Davan's glance and first answer into one sentence using a participial opener or tail."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P133-P137",
+        "instruction": "Join the road-man description to Jaina's next question with a compound clause."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P137-P138",
+        "instruction": "Expand the 'Horse. Height. A mark.' cluster with one connective clause if the editor can do it without blunting Jaina's urgency."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P137-P144",
+        "instruction": "Use one participial bridge and one em-dash aside through the ring and greater-good exchange."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P139-P144",
+        "instruction": "Carry Sylvanas's warning into Jaina's deduction with a compound sentence rather than another hard reset."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P165-P169",
+        "instruction": "Link the death assessment to Jaina's failed wards with one longer analytical sentence."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P165-P179",
+        "instruction": "Across the closet aftermath, add participial and compound structures to the medical failure, Sylvanas's read, and the Andorhal pivot."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P171-P177",
+        "instruction": "Join the capsule explanation and Jaina's confirmation with a brief action beat or em-dash aside."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P185-P188",
+        "instruction": "Blend the ward-duration explanation into the departure decision with one compound sentence."
+      }
+    ],
+    "priorityInstruction": "Participial density is 5.3% against a 12.0% target, and short-sentence load is still above ceiling at 56.5%; add ', Ving' bridges and a smaller number of compound joins in the flagged captain, infirmary, granary, and Davan-interrogation zones before chasing minor em-dash gains."
   },
   "totalObservations": 40,
-  "totalFixes": 2,
+  "totalFixes": 6,
   "wordCount": {
-    "before": 4856,
-    "after": 4856
+    "before": 4534,
+    "after": 4534
   }
 }

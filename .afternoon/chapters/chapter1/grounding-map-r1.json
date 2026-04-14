@@ -1,0 +1,168 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 1,
+  "mode": "revision",
+  "feedbackPath": ".afternoon/chapters/chapter1/grounding-gate-notes.json",
+  "targetFile": "v2g.md",
+  "globalRisks": [
+    "source-fidelity",
+    "dialogue-heavy",
+    "tail-risk"
+  ],
+  "segments": {
+    "openingThird": {
+      "risk": "low"
+    },
+    "middleThird": {
+      "risk": "low"
+    },
+    "finalThird": {
+      "risk": "medium"
+    }
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "The Hunt",
+      "riskTags": [
+        "already-grounded",
+        "baseline-scene"
+      ],
+      "biggestGap": "No revision changes needed; protect existing Quel'Thalas road texture and cadence.",
+      "sourceBank": {
+        "geography": [
+          "Eversong Woods",
+          "Quel'Thalas",
+          "Silvermoon"
+        ],
+        "institutions": [
+          "Farstriders",
+          "Convocation"
+        ],
+        "materials": [
+          "fern",
+          "quiet leather tack",
+          "runestone",
+          "ward hum"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Curated Farstrider road under Eversong canopy and ward coverage.",
+        "materialAnchor": "Fern, tack, runestone bass note, road mud.",
+        "povAnchor": "Sylvanas reads footing, patrol spacing, and border maintenance instinctively.",
+        "dialogueAnchor": "Banter stays attached to horses, reins, and the ward-road they are riding.",
+        "exitAnchor": "The runner's approach breaks the patrol rhythm on Sylvanas's road."
+      },
+      "dialogueRuns": [
+        {
+          "label": "patrol banter with Lor'themar",
+          "risk": "low"
+        }
+      ]
+    },
+    {
+      "sceneId": 2,
+      "title": "The Messenger",
+      "riskTags": [
+        "already-grounded",
+        "threshold-scene"
+      ],
+      "biggestGap": "No revision changes needed; preserve the living-border feel and moving-horse report texture.",
+      "sourceBank": {
+        "geography": [
+          "southern track",
+          "Thalassian Pass"
+        ],
+        "institutions": [
+          "Farstriders",
+          "Kirin Tor",
+          "Convocation"
+        ],
+        "materials": [
+          "lathered grey",
+          "chalk circle",
+          "frost-cracked ground",
+          "gravel",
+          "standing stones"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "South road tightening toward the pass and ward rings.",
+        "materialAnchor": "Foam at the bit, loose gravel, chalk under stone, border wind.",
+        "povAnchor": "Sylvanas sorts the problem as a border-security failure before politics.",
+        "dialogueAnchor": "Runner report and split with Lor'themar stay tied to reins, motion, and the fork in the road.",
+        "exitAnchor": "Arrival pressure lands at the outpost already lit by monoliths and held by rangers."
+      },
+      "dialogueRuns": [
+        {
+          "label": "runner report",
+          "risk": "low"
+        },
+        {
+          "label": "southbound debrief in the saddle",
+          "risk": "low"
+        }
+      ]
+    },
+    {
+      "sceneId": 3,
+      "title": "The Prisoner",
+      "riskTags": [
+        "source-fidelity",
+        "final-third",
+        "holding-room"
+      ],
+      "biggestGap": "Unsourced proper nouns in the debrief create avoidable continuity surface inside an otherwise well-grounded outpost scene.",
+      "sourceBank": {
+        "geography": [
+          "Thalassian Pass",
+          "southern outpost",
+          "Quel'Thalas border"
+        ],
+        "institutions": [
+          "Farstriders",
+          "Antonidas",
+          "Kirin Tor"
+        ],
+        "materials": [
+          "stone outpost",
+          "ward monoliths",
+          "iron-bound door",
+          "pale staff",
+          "focus crystals",
+          "weathered satchel",
+          "chalk dust",
+          "frost glaze"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Stone-built Farstrider outpost with ward-lit threshold and secured holding room.",
+        "materialAnchor": "Chalk, frost, confiscated staff, focus crystals, satchel, iron bands, split knuckles.",
+        "povAnchor": "Sylvanas judges threat, rank, and competence before motive; Jaina still reads as a security breach first.",
+        "dialogueAnchor": "Cyndia's report and the cell approach stay tied to evidence on the ground and the confiscated gear.",
+        "exitAnchor": "Ward-light, iron, and Jaina's damaged hands keep the interrogation hook world-bound."
+      },
+      "dialogueRuns": [
+        {
+          "label": "Cyndia debrief at the stone",
+          "risk": "medium"
+        },
+        {
+          "label": "cell threshold and opening demand",
+          "risk": "low"
+        }
+      ],
+      "revisionFocus": [
+        "Replace unsourced ranger names with sourced generics.",
+        "Remove unsupported biographical specificity from Sylvanas's recognition beat.",
+        "Re-audit adjacent debrief lines for any remaining unsourced proper nouns."
+      ]
+    }
+  ],
+  "transformationMoves": [
+    "Replace generic or portable labels with world-bound infrastructure and institution nouns only when sourced.",
+    "Keep dialogue tethered to nearby objects, posture, and working environment rather than adding free-floating lore.",
+    "Prefer substitution and compression over expansion in already-grounded passages.",
+    "Let POV-specific appraisal carry world detail instead of explanatory narration."
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "chapterId": "chapter1",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 3,
+      "kills": 2,
+      "keeps": 1,
+      "dominantPattern": "P5-preamble-negation",
+      "findings": [
+        {
+          "line": 235,
+          "text": "The border never made her sentimental. It made her exact.",
+          "pattern": "P5-preamble-negation",
+          "deletionTest": "It made her exact.",
+          "severity": "moderate",
+          "reason": "Pattern 5 preamble negation; the negative half is removable scaffolding, and the sentence's real payload arrives in the second clause.",
+          "suggestedFix": "At the border, she went exact.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 301,
+          "text": "If it was Jaina Proudmoore, that still did not make her honest. It only made her stranger than expected, and strange problems became personal if you left them alone.",
+          "pattern": "P5-preamble-negation",
+          "deletionTest": "If it was Jaina Proudmoore, that only made her stranger than expected, and strange problems became personal if you left them alone.",
+          "severity": "mild",
+          "reason": "Pattern 5 preamble negation; the sentence defines the revelation by first rejecting honesty, then lands on the actual conclusion.",
+          "suggestedFix": "If it was Jaina Proudmoore, trust still had to be earned; the name only made her stranger than expected, and strange problems became personal if you left them alone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 9,
+      "kills": 6,
+      "keeps": 3,
+      "dominantPattern": "P8-body-part-personification",
+      "findings": [
+        {
+          "line": 109,
+          "text": "Sylvanas's fingers found the bowstring.",
+          "pattern": "P8-body-part-personification",
+          "subject": "Sylvanas's fingers",
+          "verb": "found",
+          "realAgent": "Sylvanas reached for the bowstring as a readiness reflex.",
+          "severity": "mild",
+          "reason": "Pattern 8; the body part steals agency from the character, and replacing it with Sylvanas as subject preserves the exact action.",
+          "suggestedFix": "Sylvanas caught the bowstring.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 65,
+          "text": "Eversong held around them in her usual way:",
+          "pattern": "P6-scenery-remembering-knowing-teaching",
+          "subject": "Eversong",
+          "verb": "held",
+          "realAgent": "The leaves, water, and ward-note physically enclosed the road around them.",
+          "severity": "mild",
+          "reason": "The sentence gives the landscape the job of physically holding the riders instead of naming the concrete surroundings doing that work.",
+          "suggestedFix": "Around them:",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 233,
+          "text": "where scouts liked to wait when the south grew restless.",
+          "pattern": "P1-infrastructure-with-orders",
+          "subject": "the south",
+          "verb": "grew restless",
+          "realAgent": "Raiders, smugglers, or other border movement beyond the line made that stretch active.",
+          "severity": "mild",
+          "reason": "The geography is given agitation that belongs to the people moving through it.",
+          "suggestedFix": "where scouts liked to wait when raiders or smugglers stirred beyond the line.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 233,
+          "text": "Knew too where the human lands started leaning against hers with all their usual untidiness.",
+          "pattern": "P1-infrastructure-with-orders",
+          "subject": "the human lands",
+          "verb": "started leaning",
+          "realAgent": "Human farms, roads, and settlement spread crowded the border in visible ways.",
+          "severity": "mild",
+          "reason": "The sentence launders encroachment onto the land itself instead of naming the concrete settlement pattern pressing at the border.",
+          "suggestedFix": "Knew too where human farms and roads crowded the line in their usual untidiness.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 235,
+          "text": "The border never made her sentimental. It made her exact.",
+          "pattern": "P5-objects-wanting-refusing-deciding",
+          "subject": "The border",
+          "verb": "made",
+          "realAgent": "Frontier conditions and Sylvanas's trained response stripped her down to precision.",
+          "severity": "moderate",
+          "reason": "The border is treated like an active shaper of her mental state instead of the prose naming the concrete conditions and reaction.",
+          "suggestedFix": "At the border, she went exact.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 287,
+          "text": "The name did not need help landing.",
+          "pattern": "P5-objects-wanting-refusing-deciding",
+          "subject": "The name",
+          "verb": "need",
+          "realAgent": "Sylvanas recognized the name immediately from the dossiers she already knew.",
+          "severity": "mild",
+          "reason": "An abstraction is assigned a human requirement instead of the prose naming Sylvanas's recognition directly.",
+          "suggestedFix": "Sylvanas knew the name at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "All seven tic families were counted. The chapter stays under cap for marked, eye/gaze beats, and non-said tags, with no qualifying corner-of-mouth, tightened/eased, shifted-expression, or weight/heaviness overuse. The slop-checker colon over-cap is noted in analytic hints, but this guide does not define punctuation-tic kills."
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 4,
+    "mildKills": 6,
+    "moderateOrSevereKills": 2,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: pass A still has 2 moderate kills and 6 mild kills after revision. Analytics also show a structural texture deficit that keeps the chapter in telegram-prose territory.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.292,
+        "target": 0.72,
+        "delta": -0.428,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.89,
+        "target": 0.7,
+        "delta": 0.19,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 58.7,
+        "target": 19.0,
+        "delta": 39.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "notes": [
+        "structural rhythm concerns"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 1.5% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.4% below floor 4.0% (human: 8.5%)",
+        "emdash_pct 0.2% below floor 1.0% (human: 3.5%)",
+        "semicolon_pct 0.2% below floor 0.3% (human: 1.4%)",
+        "texture_score 5.3% below floor 10.0% (human: 24.4%)",
+        "short_pct 70.1% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.5% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 3.4% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | EM-DASHES: 0.2% (floor: 1.0%, human: 3.5%). Use for mid-sentence pivots and asides: 'The door—the same one she'd slammed that morning—stood open.' | SEMICOLONS: 0.2% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.' | SHORT SENTENCES: 70.1% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassageCounts": {
+        "telegram_run": 22,
+        "texture_desert": 12
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 18,
+        "totalViolations": 1,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "patterns": [
+              "punct_colon_narration"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

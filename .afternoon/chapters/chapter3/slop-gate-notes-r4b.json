@@ -1,0 +1,240 @@
+{
+  "chapterId": "chapter3",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "severityCounts": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "pattern": "F4",
+          "failureMode": "narrative-over-translation",
+          "severity": "MILD",
+          "text": "That was worse than screaming.",
+          "location": {
+            "line": 95
+          },
+          "whatItRestates": "She made no sound at all.",
+          "reason": "The sentence translates the concrete silence into an abstract verdict the reader already has.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityCounts": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A1/A7 mixed",
+      "registerSummary": {
+        "povCharacter": "Sylvanas Windrunner",
+        "summary": "Sylvanas thinks in tactical reads, field consequences, and concrete evidence. She inventories sound, tracks, spacing, and command implications fast, but she does not naturally drift into lyrical captioning or scenic essay language. Her interior shorthand works when it sharpens a decision; it breaks when it sounds like a polished narrator glossing the moment from outside.",
+        "confidence": "HIGH"
+      },
+      "findings": [
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "MILD",
+          "text": "The river slipped past the mill pilings with a thin secretive sound, water moving through a place that had stopped being worth passing through.",
+          "location": {
+            "line": 7
+          },
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The trailing clause turns a physical sound into a polished thematic gloss that reads authored about Sylvanas rather than thought by her during a sweep.",
+          "confidence": "MODERATE",
+          "reason": "Tier B seep: sentence too polished for the POV register in the moment.",
+          "suggestedFix": "The river slipped past the mill pilings with a thin secretive sound.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1",
+          "tier": "A",
+          "severity": "MILD",
+          "text": "Same conclusion.",
+          "location": {
+            "line": 145
+          },
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment lands as a caption pinned on Jaina's nod rather than an active Sylvanas thought that changes the next action.",
+          "confidence": "HIGH",
+          "reason": "Verdict-tag fragment appended after the beat and readable without local tactical payload.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A7",
+          "tier": "A",
+          "severity": "MILD",
+          "text": "Beyond the cut, the land had flattened into dark fields and hedge lines, the kind of country where sixty walking dead could move for miles at night and leave nothing for anyone but a ranger to read in the morning.",
+          "location": {
+            "line": 165
+          },
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence zooms out into a category claim about country in general instead of staying with the specific terrain Sylvanas is reading.",
+          "confidence": "HIGH",
+          "reason": "Generalizing construction ('the kind of country where') shifts to essay-distance narrator commentary.",
+          "suggestedFix": "Beyond the cut, the land had flattened into dark fields and hedge lines.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ],
+      "severePages": [],
+      "severeScenes": [],
+      "structuralHabit": false
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Reviewed the chapter's tactical-compression candidates and kept them because they cash out to local evidence or an immediate field consequence already on the page. 'The kind of wrongness a field commander could price from a distance' is anchored by cold chimneys and silence, and 'North covered too much country for a bad dispatch' cashes out to the already-established spoor ambiguity and the cost of sending riders on bad direction.",
+      "findings": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No exchange in this chapter explicitly frames a reply as a plain-language translation ('plainly', 'smaller words', 'what does that mean here'). The nearest technical question/answer beats already name usable payload like water, the well, the river trough, and the north-northeast line past the second field wall, so this guide found no triggered candidates.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 6,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 2,
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Four mild pass-B kills remain; all are cleanly fixable trims, but the mild-only count still exceeds the pass threshold of three.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.475,
+        "target": 0.72,
+        "delta": -0.245,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "withinRange": false
+      },
+      "sentence_length_cv": {
+        "value": 0.779,
+        "target": 0.7,
+        "delta": 0.079,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "withinRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 33.8,
+        "target": 19.0,
+        "delta": 14.8,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "withinRange": false
+      },
+      "structuralConcerns": [
+        "comma_period_ratio below calibrated floor",
+        "one_sentence_paragraph_pct above calibrated ceiling"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 3.1% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 3.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassageCounts": {
+        "telegram_run": 13,
+        "texture_desert": 7
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 18,
+        "totalViolations": 3,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "pattern": "punct_colon_narration",
+            "count": 4,
+            "cap": 3
+          },
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_enough_for",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "category": "slopsquid",
+            "pattern": "slopsquid_bigram",
+            "count": 1,
+            "cap": 0
+          }
+        ]
+      }
+    }
+  }
+}

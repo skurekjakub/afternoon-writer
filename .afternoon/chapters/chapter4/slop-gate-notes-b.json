@@ -1,0 +1,378 @@
+{
+  "chapterId": "chapter4",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 9,
+      "kills": 6,
+      "keeps": 3,
+      "dominantPattern": "F4",
+      "failureModeCounts": {
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 2,
+        "F5": 0,
+        "F6": 0,
+        "F7": 1
+      },
+      "severity": {
+        "mild": 3,
+        "moderate": 2,
+        "severe": 1
+      },
+      "findings": [
+        {
+          "pattern": "F1",
+          "severity": "severe",
+          "location": "opening square observation",
+          "text": "Stalls stood open on three sides of the square. A woman crossed between them with a basket on her arm. A boy dragged one muddy boot behind him. A man argued with a carter over a crate.",
+          "issue": "Four consecutive short declaratives inside a texture-desert / telegram-run zone flatten the paragraph into template rhythm.",
+          "suggestedFix": "Stalls stood open on three sides of the square, a woman crossing between them with a basket on her arm while a boy dragged one muddy boot behind him and a man argued with a carter over a crate.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "text": "He hesitated, then nodded once.",
+          "issue": "Generic dialogue beat; the sentence is only hesitation + nod and could belong to anyone in the scene.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "text": "Jaina fed a thin stabilizing ward through it and watched the stain stop where it was.",
+          "word": "watched",
+          "deletionTest": "Jaina fed a thin stabilizing ward through it, and the stain stopped where it was.",
+          "suggestedFix": "Jaina fed a thin stabilizing ward through it, and the stain stopped where it was.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "moderate",
+          "text": "She wasn't driving him. She was making room and letting him talk himself into the answer.",
+          "whatItRestates": "The preceding concrete beat already shows Sylvanas asking little, waiting, and the granary man pointing behind him on his own.",
+          "suggestedFix": "She let the silence sit until he filled it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "text": "That answered enough by itself.",
+          "whatItRestates": "Davan's line already tells the reader he was stationed to stop anyone who dug into the grain.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "moderate",
+          "text": "Somewhere down the road, beyond storehouses and loading yards she could not yet see, the next answer was already moving.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Outside, the village kept coughing in the cold morning while bread smoke rose over the roofs as if nothing had changed.",
+          "suggestedFix": "Somewhere down the road, beyond storehouses and loading yards she could not yet see, more grain was already moving.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in hypothesis chains, visual and magical patterning, and brief field-pragmatic inference. She can compress into analytical fragments when working, but her interiority should stay concrete, procedural, and tied to evidence rather than polished captions.",
+      "registerConfidence": "high",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "dominantPattern": "A1/A2 caption fragments",
+      "severity": {
+        "mild": 0,
+        "moderate": 4,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "A1",
+          "severity": "moderate",
+          "text": "Village man before militia captain.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This reads like an authored caption pinned over Jaina's observation, not a concrete field inference she needs for the next action.",
+          "confidence": "high",
+          "suggestedFix": "The half-coat couldn't hide the rough hands and crooked knuckle.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2",
+          "severity": "moderate",
+          "text": "He was buying time.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can infer delay from his behavior, but this sentence jumps straight to a clean label instead of staying with the visible stall.",
+          "confidence": "moderate",
+          "suggestedFix": "He folded his hands and said nothing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2",
+          "severity": "moderate",
+          "text": "Not stubborn now. Shaken.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment pair turns Aldous into a sloganized caption instead of keeping Jaina in his visible change.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "moderate",
+          "text": "She had the look of someone already moving three steps past a discovery.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence is too polished and abstract for Jaina's in-scene read; it sounds written about Sylvanas rather than thought from Jaina's body.",
+          "confidence": "moderate",
+          "suggestedFix": "Pale dust streaked her gloves, and she was already looking to Jaina for the rest of it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 4,
+      "keeps": 1,
+      "dominantPattern": "P3/P4",
+      "dialogueClusters": [],
+      "narrationClusters": [
+        "square / granary inference chain",
+        "chapter-close pursuit hook"
+      ],
+      "repeatStandIns": [
+        "answer"
+      ],
+      "severity": {
+        "mild": 1,
+        "moderate": 3,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "P4",
+          "severity": "mild",
+          "text": "The man did the rest, hands already starting to point behind him before he seemed to realize he meant to.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The sentence never names the physical tell that shows when he catches himself.",
+          "reason": "KILL - interpretive summary hides behind a hedge instead of cashing out into the visible correction.",
+          "toolSignal": "hedge_seemed_to",
+          "suggestedFix": "The man did the rest, hands already starting to point behind him before he caught himself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "moderate",
+          "text": "She had the look of someone already moving three steps past a discovery.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The prose never names the visible tell in Sylvanas's face, posture, or attention that supports the read.",
+          "reason": "KILL - prestige phrasing simulates a sharp read without giving the evidence.",
+          "suggestedFix": "Pale dust streaked her gloves, and she was already looking to Jaina for the rest of it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "moderate",
+          "text": "Jaina felt the old scrap from Millhaven sharpen into something harder.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The actual tightening clue is the repeated brown-coated, pleasant grain seller pattern.",
+          "reason": "KILL - placeholder nouns carry the sentence while the concrete inference stays offstage.",
+          "suggestedFix": "Jaina felt the Millhaven clue tighten: same brown coat, same good prices, same pleasant face.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "moderate",
+          "text": "Somewhere down the road, beyond storehouses and loading yards she could not yet see, the next answer was already moving.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The concrete carrier is more grain moving through the road-and-storehouse network.",
+          "reason": "KILL - the line leans on 'answer' instead of naming the moving thing.",
+          "suggestedFix": "Somewhere down the road, beyond storehouses and loading yards she could not yet see, more grain was already moving.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "brokenExchanges": [],
+      "cleanReason": "Fresh sweep found no translation setups ('plainly', 'short version', 'smaller words', etc.), so pass B had no fake-simplification exchange to audit in this chapter."
+    }
+  ],
+  "summary": {
+    "totalKills": 14,
+    "totalKeeps": 6,
+    "mildKills": 4,
+    "moderateOrSevereKills": 10,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 14,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B fails on one severe rhythmic-sameness kill plus repeated moderate narrator-seep and phantom-concreteness kills; the chapter also carries a structural texture deficit with dense telegram-run clustering.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.349,
+        "target": 0.72,
+        "delta": -0.371,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "structural rhythm concerns"
+      },
+      "sentence_length_cv": {
+        "value": 0.762,
+        "target": 0.7,
+        "delta": 0.062,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "within range"
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 44.9,
+        "target": 19.0,
+        "delta": 25.9,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "structural rhythm concerns"
+      }
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "verdict_reasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)",
+        "compound_pct 2.1% below floor 4.0% (human: 8.5%)",
+        "texture_score 6.3% below floor 10.0% (human: 24.4%)",
+        "short_pct 71.1% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions. COMPOUND CLAUSES: 2.1% (floor: 4.0%, human: 8.5%). Join related ideas with coordinating conjunctions. SHORT SENTENCES: 71.1% (ceiling: 62.0%, human: 52.2%). Combine adjacent short sentences so the prose stops reading as chopped telemetry.",
+      "flaggedPassageCounts": {
+        "telegram_run": 21,
+        "texture_desert": 9
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 20,
+        "total_violations": 2,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "patterns": [
+              "punct_colon_narration"
+            ]
+          },
+          {
+            "category": "paragraph_structure",
+            "patterns": [
+              "opener_consecutive_repeat"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

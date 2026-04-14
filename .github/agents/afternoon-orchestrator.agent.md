@@ -1,7 +1,7 @@
 ---
-description: "Autonomous orchestrator for the afternoon fiction pipeline. Dispatches planner → plan-verifier → writer → slophunter ↔ slop-gate → grounder ↔ grounding-gate → expander → style-editor ↔ style-auditor → final-slophunter → memory-keeper per chapter. Pure router — never reads prose content."
+description: "Autonomous orchestrator for the afternoon fiction pipeline. Dispatches planner → plan-verifier → writer-coordinator → slophunter ↔ slop-gate → grounder ↔ grounding-gate → final-slophunter → memory-keeper per chapter. Pure router — never reads prose content."
 model: claude-sonnet-4.6
-agents: ['afternoon-planner', 'afternoon-plan-verifier', 'afternoon-writer', 'afternoon-slophunter', 'afternoon-slop-gate', 'afternoon-grounder', 'afternoon-grounding-gate', 'afternoon-expander', 'afternoon-style-editor', 'afternoon-style-auditor', 'afternoon-memory-keeper']
+agents: ['afternoon-planner', 'afternoon-plan-verifier', 'afternoon-writer-coordinator', 'afternoon-writer', 'afternoon-slophunter', 'afternoon-slop-gate', 'afternoon-grounder', 'afternoon-grounding-gate', 'afternoon-memory-keeper']
 ---
 
 # Afternoon Orchestrator
@@ -64,12 +64,14 @@ Dispatch afternoon-plan-verifier:
 prompt: "chapterId: CHAPTER"
 ```
 
-### 3. Writer
+### 3. Writer Coordinator
 
-Dispatch afternoon-writer:
+Dispatch afternoon-writer-coordinator:
 ```
 prompt: "chapterId: CHAPTER"
 ```
+
+The coordinator dispatches the writer once per scene. You do not dispatch the writer directly.
 
 ### 4. Slophunter
 
@@ -102,7 +104,7 @@ Read `.afternoon/agents/slop-gate/status.json` after each dispatch. Check the `p
 
 #### Revision loop
 
-Read max iterations from config.json field agents.slopGate.maxIterations (default 5).
+Read max iterations from config.json field agents.slopGate.maxIterations (default 10).
 
 The revision loop alternates between one slophunter revision dispatch and two slop-gate re-audits (pass A, then pass B). Repeat until both passes pass or you run out of iterations.
 
@@ -170,7 +172,7 @@ Read grounder status.json:
 - "completed" → go to step 7 (Grounding-Gate).
 - "failed" → five times. If sixth failure → do NOT block the chapter. Instead, degrade gracefully:
   `cp .afternoon/chapters/CHAPTER/v2.md .afternoon/chapters/CHAPTER/v2g.md`
-  Log warning "grounderDegraded" in manifest. Skip the grounding-gate and go to step 8 (Expander).
+  Log warning "grounderDegraded" in manifest. Skip the grounding-gate and go to step 8 (Copy to v3).
 
 ### 7. Grounding-Gate
 
@@ -181,7 +183,7 @@ prompt: "chapterId: CHAPTER"
 
 Read grounding-gate status.json. Check the verdict field:
 
-- verdict "pass" → go to step 8 (Expander)
+- verdict "pass" → go to step 8 (Copy to v3)
 - verdict "fail" → enter the revision loop below
 - status "failed" (agent crashed, not a verdict) → retry five times. sixth failure → mark chapter blocked, skip to next chapter
 
@@ -220,7 +222,7 @@ The revision loop alternates between two dispatches: the grounder fixes the gate
 5. Check gate verdict:
     - "pass" → promote the passing revision to canonical:
       `cp v2g-r{N}.md v2g.md`, `cp grounding-map-r{N}.json grounding-map.json`, and `cp grounder-revision-r{N}-notes.json grounder-notes.json`
-      Clear `groundingGateLoop` from manifest. Go to step 8 (Expander).
+      Clear `groundingGateLoop` from manifest. Go to step 8 (Copy to v3).
    - "fail" → increment iteration, loop again.
    - status "failed" → retry gate five times at minimum. sixth failure → mark chapter blocked, exit loop.
 
@@ -228,159 +230,31 @@ The revision loop alternates between two dispatches: the grounder fixes the gate
 - Promote the latest revision anyway: `cp` the last `v2g-r{N}.md` to `v2g.md`, `grounding-map-r{N}.json` to `grounding-map.json`, and `grounder-revision-r{N}-notes.json` to `grounder-notes.json`
 - Clear `groundingGateLoop` from manifest
 - Log warning in manifest: set `groundingGateExhausted` to a message noting the chapter and iteration count
-- Go to step 8 (Expander). The chapter is NOT blocked.
+- Go to step 8 (Copy to v3). The chapter is NOT blocked.
 
-### 8. Expander
+### 8. Copy to v3
 
-Read config.json field agents.expander.enabled. Default is true.
+The expander is disabled. Copy the grounded prose forward:
 
-**If disabled:** copy v2g.md to v3.md in the chapter directory and go to step 9:
 ```
 cp .afternoon/chapters/CHAPTER/v2g.md .afternoon/chapters/CHAPTER/v3.md
 ```
 
-**If enabled:** dispatch afternoon-expander:
-```
-prompt: "chapterId: CHAPTER"
-```
-
-### 9. Style-Editor
-
-Dispatch afternoon-style-editor:
-```
-prompt: "chapterId: CHAPTER"
-```
-
-### 10. Style-Auditor ↔ Style-Editor Texture Loop
-
-Check if .afternoon/style-guide.json exists. If it does not exist, skip this step and go to step 11.
-
-If it exists, dispatch afternoon-style-auditor:
-```
-prompt: "chapterId: CHAPTER"
-```
-
-If the style-auditor status is "failed", treat it as a skip — go to step 11. Do not block.
-
-Read `.afternoon/agents/style-auditor/status.json`. Check the `textureVerdict` field:
-
-- `textureVerdict: "pass"` → go to step 11 (Final Slophunter). Done with style-auditor.
-- `textureVerdict: "fail"` → enter the texture revision loop below.
-
-#### Texture revision loop
-
-Max 5 iterations. The auditor measures, the editor fixes — same pattern as the slop-gate ↔ slophunter loop. The auditor never edits prose during the loop.
-
-**Before the loop starts:**
-```
-cp .afternoon/chapters/CHAPTER/v4b.md .afternoon/chapters/CHAPTER/v4.md
-```
-This preserves the auditor's spec-enforcement fixes as the base for texture enrichment.
-
-**File naming convention** — all paths relative to .afternoon/chapters/CHAPTER/:
-
-| Iteration | Editor reads input | Editor reads feedback from | Editor writes | Auditor re-audits (read-only) | Auditor writes |
-|---|---|---|---|---|---|
-| 1 | v4.md | style-auditor-notes.json | v4-r1.md | v4-r1.md | style-auditor-notes-r1.json |
-| 2 | v4-r1.md | style-auditor-notes-r1.json | v4-r2.md | v4-r2.md | style-auditor-notes-r2.json |
-| 3 | v4-r2.md | style-auditor-notes-r2.json | v4-r3.md | v4-r3.md | style-auditor-notes-r3.json |
-
-Pattern: iteration N reads the previous revision (or v4.md for N=1) and the previous auditor notes. The auditor re-audit is measurement-only — no v4b.md produced.
-
-**For each iteration (1, 2, 3, ... up to 5):**
-
-1. Update manifest: set `textureLoop.iteration` to the current number, `textureLoop.phase` to `"awaiting-revision"`, and store:
-   - `feedbackPath` (the auditor notes file from the table above)
-   - `inputFile` (v4.md for iteration 1, v4-r{N-1}.md for N>1)
-   - `outputFile` (`v4-rN.md` for this iteration)
-
-2. Dispatch afternoon-style-editor in revision mode:
-   ```
-   prompt: "chapterId: CHAPTER, mode: revision, iteration: N, feedbackPath: .afternoon/chapters/CHAPTER/[feedback file], inputFile: [input file from table]"
-   ```
-   Read style-editor status. If failed, retry once. Second failure → exit loop, promote latest available file to v4b.md.
-
-3. Update manifest: set `textureLoop.phase` to `"awaiting-reaudit"`.
-
-4. Dispatch afternoon-style-auditor in texture-reaudit mode (measurement-only, no prose edits):
-   ```
-   prompt: "chapterId: CHAPTER, mode: texture-reaudit, iteration: N, targetFile: v4-rN.md"
-   ```
-   Read auditor status. If status is `"failed"`, exit loop — promote latest v4-rN.md to v4b.md.
-
-5. Check `textureVerdict`:
-   - `"pass"` → promote and exit:
-     ```
-     cp .afternoon/chapters/CHAPTER/v4-rN.md .afternoon/chapters/CHAPTER/v4b.md
-     ```
-     Clear textureLoop from manifest. Go to step 11.
-   - `"fail"` → increment iteration, loop again.
-
-**If all 5 iterations exhausted** and texture still fails:
-- Promote the latest revision:
-  ```
-  cp .afternoon/chapters/CHAPTER/v4-rN.md .afternoon/chapters/CHAPTER/v4b.md
-  ```
-- Clear textureLoop from manifest.
-- Log warning in manifest: set `textureLoopExhausted` to a message noting the chapter, final texture_score, and iteration count.
-- Go to step 11 (Final Slophunter). The chapter is NOT blocked.
-
-### 11. Final Slophunter
+### 9. Final Slophunter
 
 Dispatch afternoon-slophunter in polish mode:
 ```
 prompt: "chapterId: CHAPTER, mode: polish"
 ```
 
-### 11b. Continuity Gate Loop
-
-Dispatch afternoon-continuity-gate:
-```
-prompt: "chapterId: CHAPTER"
-```
-
-Read `.afternoon/agents/continuity-gate/status.json`.
-
-**If status is "pass":** proceed to step 12.
-
-**If status is "fail":** enter the continuity revision loop.
-
-#### Continuity revision loop
-
-The continuity gate found violations. The final slophunter must fix them.
-
-1. **Record loop state** in manifest under `continuityGateLoop`:
-   ```json
-   {
-     "iteration": 1,
-     "phase": "awaiting-revision",
-     "findingsPath": ".afternoon/chapters/CHAPTER/continuity-findings.json"
-   }
-   ```
-
-2. **Dispatch afternoon-slophunter** in continuity-revision mode:
-   ```
-   prompt: "chapterId: CHAPTER, mode: continuity-revision, iteration: N, feedbackPath: .afternoon/chapters/CHAPTER/continuity-findings.json"
-   ```
-   The slophunter reads the findings JSON and applies the suggested fixes to v5.md (or v5-crN.md for iteration > 1), producing `v5-cr{N}.md`.
-
-3. **Re-dispatch the continuity gate** to verify the fixes:
-   ```
-   prompt: "chapterId: CHAPTER, iteration: N, targetFile: v5-cr{N}.md"
-   ```
-
-4. Read the new status.json.
-   - **If "pass":** copy the corrected file to v5.md (`cp .afternoon/chapters/CHAPTER/v5-cr{N}.md .afternoon/chapters/CHAPTER/v5.md`), remove `continuityGateLoop` from manifest, proceed to step 12.
-   - **If "fail" and iteration < 10:** increment iteration, go to step 1 of this loop. otherwise pass and finish the chapter.
-
-### 12. Memory-Keeper
+### 10. Memory-Keeper
 
 Dispatch afternoon-memory-keeper:
 ```
 prompt: "chapterId: CHAPTER"
 ```
 
-### After all 12 steps — Chapter Assembly
+### After all steps — Chapter Assembly
 
 Copy v5.md to final.md in the chapter directory. Do not read the file — just cp:
 ```
@@ -440,28 +314,16 @@ Read currentChapter and currentAgent from the manifest.
 - Read groundingGateLoop.phase:
   - "awaiting-revision" → re-dispatch the grounder in revision mode using the iteration, feedbackPath, and targetFile from the loop state.
   - "awaiting-reaudit" → re-dispatch the grounding-gate using the iteration and targetFile from the loop state.
-   - "awaiting-promote" → do the file promotion using the loop's iteration (copy `v2g-r{iteration}.md` to `v2g.md`, `grounding-map-r{iteration}.json` to `grounding-map.json`, and `grounder-revision-r{iteration}-notes.json` to `grounder-notes.json`), clear groundingGateLoop, go to step 8 (Expander).
+   - "awaiting-promote" → do the file promotion using the loop's iteration (copy `v2g-r{iteration}.md` to `v2g.md`, `grounding-map-r{iteration}.json` to `grounding-map.json`, and `grounder-revision-r{iteration}-notes.json` to `grounder-notes.json`), clear groundingGateLoop, go to step 8 (Copy to v3).
 
-**If textureLoop exists in the manifest**, you crashed mid-texture-loop:
-- Read textureLoop.phase:
-  - "awaiting-revision" → re-dispatch style-editor in revision mode using the iteration, feedbackPath, and inputFile from the loop state.
-  - "awaiting-reaudit" → re-dispatch style-auditor in texture-reaudit mode using the iteration and outputFile (as targetFile) from the loop state.
-  - "completed" → cp v4-r{iteration}.md v4b.md, clear textureLoop, go to step 11 (Final Slophunter).
-
-**If continuityGateLoop exists in the manifest**, you crashed mid-continuity-gate loop:
-- Read continuityGateLoop.phase:
-  - "awaiting-revision" → re-dispatch the slophunter in continuity-revision mode using the iteration and findingsPath from the loop state.
-  - "awaiting-reaudit" → re-dispatch the continuity-gate using the iteration and `targetFile: v5-cr{iteration}.md` from the loop state.
-  - "awaiting-promote" → copy `v5-cr{iteration}.md` to `v5.md`, clear continuityGateLoop, go to step 12 (Memory-Keeper).
-
-**If neither slopGateLoop nor groundingGateLoop nor textureLoop nor continuityGateLoop exists**, read the currentAgent's status.json:
+**If neither slopGateLoop nor groundingGateLoop exists**, read the currentAgent's status.json:
 - Shows "completed" for this chapter → agent finished but manifest was not updated. Update manifest, go to the next agent in the sequence.
-- Shows "failed" → if currentAgent is "grounder", degrade gracefully (cp v2.md to v2g.md), skip the grounding-gate, and go to Expander. For all other agents, re-dispatch once, then mark blocked on second failure.
+- Shows "failed" → if currentAgent is "grounder", degrade gracefully (cp v2.md to v2g.md, then cp v2g.md to v3.md), skip the grounding-gate, and go to step 9 (Final Slophunter). For all other agents, re-dispatch once, then mark blocked on second failure.
 - Missing or shows a different chapter → re-dispatch the current agent.
 
 Continue from that point through the rest of the sequence.
 
-Do NOT check for the existence of output files (v1.md, v2.md, v2g.md, etc.) — use only status.json as your signal.
+Do NOT check for the existence of output files (v0.md, v0c.md, v1.md, v2.md, v2g.md, etc.) — use only status.json as your signal.
 
 ## Completion
 
@@ -473,7 +335,6 @@ When all chapters are assembled:
 
 ## Rules
 
-- **NEVER** any files
 - **NEVER** read any json files
 - **NEVER** edit or write any file except manifest.json — you only manage your own state. Exception: `cp` commands for file promotion, grounder degradation, expander bypass, and chapter assembly.
 - **ONLY** read: config.json, manifest.json, status.json files

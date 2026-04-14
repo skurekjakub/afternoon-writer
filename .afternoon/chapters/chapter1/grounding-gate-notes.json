@@ -1,0 +1,43 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "source-fidelity",
+      "sceneId": 3,
+      "sceneTitle": "The Prisoner",
+      "findingId": "G12-001",
+      "category": "G12",
+      "severity": "MILD",
+      "lines": "261-262",
+      "excerpt": "\"First disturbance at fourth bell. Not a breach signal. The tone dragged low and doubled back on itself. Lyren, Fela, and I found the prisoner here.\"",
+      "reason": "The passage introduces two named rangers who are not present in the approved plan, memory, or supporting materials. They function only as report texture, so the extra proper nouns create avoidable continuity surface without adding necessary embodiment.",
+      "suggestedFix": "\"First disturbance at fourth bell. Not a breach signal. The tone dragged low and doubled back on itself. Two rangers and I found the prisoner here.\" She pointed to the frost-webbed chalk. \"Working some kind of reading spell. Not at the ward itself. At what it was carrying.\"",
+      "fixMode": "substitute"
+    },
+    {
+      "sweep": "source-fidelity",
+      "sceneId": 3,
+      "sceneTitle": "The Prisoner",
+      "findingId": "G12-002",
+      "category": "G12",
+      "severity": "MILD",
+      "lines": "287-287",
+      "excerpt": "Antonidas's apprentice. Kul Tiras blood.",
+      "reason": "\"Antonidas's apprentice\" is plan-supported, but \"Kul Tiras blood\" adds a new biographical specificity not grounded in the chapter plan or the local support files read for this pass. The beat does not need that extra noun phrase to carry Sylvanas's recognition.",
+      "suggestedFix": "Antonidas's apprentice. Too much talent for her age and enough nerve to make it everyone's business.",
+      "fixMode": "delete"
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "mildKills": 2,
+    "moderateKills": 0,
+    "severeKills": 0,
+    "dominantFailures": [
+      "G12"
+    ]
+  }
+}

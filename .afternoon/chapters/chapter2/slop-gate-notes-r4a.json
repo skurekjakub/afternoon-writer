@@ -1,0 +1,205 @@
+{
+  "chapterId": "chapter2",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "dominantPattern": null,
+      "cleanReason": "Checked the only live negation-shape candidates that could plausibly read as pivots. The surviving lines are either procedural commands or hard capability/mechanism limits, so no sentence depended on negation scaffolding for its meaning.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 6,
+      "kills": 5,
+      "keeps": 1,
+      "dominantPattern": "pattern-8-body-part-agency",
+      "findings": [
+        {
+          "text": "Whatever silver had paid for this border, it had not stretched far enough south.",
+          "pattern": "inanimate-funding-agent",
+          "subject": "silver",
+          "verb": "had paid / had not stretched",
+          "realAgent": "the people or state authority that funded and limited the ward line",
+          "severity": "mild",
+          "reason": "An inanimate resource is doing the paying and failing instead of the actual funders or the border network.",
+          "suggestedFix": "For what it had cost, the border ended too far north.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "notes": [
+            "Appears inside a texture-desert zone flagged by rhythm_scorer."
+          ]
+        },
+        {
+          "text": "make her hands want to shake",
+          "pattern": "pattern-8-body-part-agency",
+          "subject": "hands",
+          "verb": "want",
+          "realAgent": "Jaina, reacting physically to the contamination pressure",
+          "severity": "mild",
+          "reason": "The phrase gives Jaina's hands independent desire instead of stating her own involuntary reaction.",
+          "suggestedFix": "make her shake",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "notes": [
+            "Appears inside the same road-reading texture-desert cluster."
+          ]
+        },
+        {
+          "text": "Jaina's hands stopped halfway through the explanation she had been about to give.",
+          "pattern": "pattern-8-body-part-agency",
+          "subject": "hands",
+          "verb": "stopped",
+          "realAgent": "Jaina, cutting herself off mid-gesture when Sylvanas outpaces her explanation",
+          "severity": "mild",
+          "reason": "The body-part subject steals the interruption from Jaina herself.",
+          "suggestedFix": "Jaina cut herself off halfway through the explanation she had been about to give.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "notes": [
+            "Sits in the same analytical-P0V cluster the guide marks as high risk."
+          ]
+        },
+        {
+          "text": "the whole road narrowing to wolves, hooves, and the taste of copper in her mouth",
+          "pattern": "panic-tunnel-road",
+          "subject": "road",
+          "verb": "narrowing",
+          "realAgent": "Jaina's perception collapsing under panic",
+          "severity": "mild",
+          "reason": "The road is made to perform Jaina's tunnel vision instead of the narration naming her perception directly.",
+          "suggestedFix": "wolves, hooves, and the taste of copper in her mouth crowding out everything else",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "The formation had pulled tight now.",
+          "pattern": "abstract-arrangement-agency",
+          "subject": "formation",
+          "verb": "had pulled tight",
+          "realAgent": "the escort riders closing ranks around Jaina",
+          "severity": "mild",
+          "reason": "An abstract arrangement is assigned the riders' physical action.",
+          "suggestedFix": "The riders had pulled in tight now.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 12,
+      "kills": 0,
+      "keeps": 12,
+      "dominantPattern": null,
+      "cleanReason": "Audited every pass-A slop-checker line mapped to recurring tics plus the guide's chapter caps. No tic exceeded its chapter limit: filter-word signals stayed sparse, the five similes reached but did not exceed the chapter cap, participial attachments stayed well under cap, punctuation-tic colons stopped at cap, and the chapter did not overrun any listed tic family once tactical looks and literal physical uses were filtered out.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 17,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass A still has 5 mild intent-smear kills in v2-r4.md, including a clustered road-reading section where agency keeps slipping onto silver, hands, and scene geometry. More than 3 mild-only kills means the pass fails.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.466,
+        "target": 0.72,
+        "delta": -0.254,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outOfRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.749,
+        "target": 0.7,
+        "delta": 0.049,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outOfRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 43.0,
+        "target": 19.0,
+        "delta": 24.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outOfRange": true
+      },
+      "concerns": [
+        "comma_period_ratio below calibrated range",
+        "one_sentence_paragraph_pct above calibrated range",
+        "structural rhythm concerns"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 13,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 19,
+        "totalViolations": 0,
+        "overCapCategories": [],
+        "reviewedCategories": [
+          "filter_words",
+          "simile_overload",
+          "participial_attachment",
+          "punctuation_tics"
+        ]
+      }
+    }
+  }
+}

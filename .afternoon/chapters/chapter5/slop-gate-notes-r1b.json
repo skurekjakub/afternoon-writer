@@ -1,0 +1,323 @@
+{
+  "chapterId": "chapter5",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "dominantPattern": "F3-filter-hedge-drag",
+      "severityCounts": {
+        "mild": 4,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "F3-filter-hedge-drag",
+          "failureMode": "F3",
+          "severity": "mild",
+          "text": "At the far window the mage made a small noise that could have meant agreement.",
+          "word": "could have",
+          "deletionTest": "At the far window the mage made a small noise.",
+          "verdict": "KILL",
+          "suggestedFix": "At the far window the mage made a small noise.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2-dialogue-beat-genericism",
+          "failureMode": "F2",
+          "severity": "mild",
+          "text": "Jaina went still for a beat, then nodded once.",
+          "issue": "generic label beat",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4-narrative-over-translation",
+          "failureMode": "F4",
+          "severity": "mild",
+          "text": "That changed the hunt.",
+          "whatItRestates": "The preceding dialogue already changes the frame from one bad chain to a distributed network moving through existing grain roads.",
+          "verdict": "KILL",
+          "textureFlags": [
+            "telegram_run",
+            "texture_desert"
+          ],
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7-closure-addiction",
+          "failureMode": "F7",
+          "severity": "mild",
+          "text": "South waited.",
+          "location": "scene-final",
+          "couldEndEarlierAt": "The room went dark.",
+          "verdict": "KILL",
+          "textureFlags": [
+            "telegram_run"
+          ],
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 2,
+      "keeps": 2,
+      "dominantPattern": "A2-thesis-fragment-pairs",
+      "severityCounts": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "A2-thesis-fragment-pairs",
+          "tier": "A",
+          "severity": "mild",
+          "text": "Big enough for its own factor's office. Big enough for merchant bunks. Big enough to matter.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The slogan stack captions the location's significance from above instead of letting Sylvanas register the depot's scale in her own tactical terms.",
+          "verdict": "KILL",
+          "confidence": "high",
+          "toolSignal": "verdict_enough_for",
+          "textureFlags": [
+            "telegram_run"
+          ],
+          "suggestedFix": "Millbrook Spur had its own factor's office and merchant bunks.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1-sentence-too-polished-for-pov",
+          "tier": "B",
+          "severity": "mild",
+          "text": "The map was only catching up to it.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas can decide on the road; she does not stop to coin an authored flourish about a map catching up to destiny.",
+          "verdict": "KILL",
+          "confidence": "moderate",
+          "suggestedFix": "She had only marked the road they were already riding toward.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "dominantPattern": "P3-placeholder-noun-stand-ins",
+      "severityCounts": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "pattern": "P3-placeholder-noun-stand-ins",
+          "severity": "mild",
+          "text": "The numbers made the shape plain.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "That the repeated supplier mark and repeat orders align with the sickest towns on the same grain routes.",
+          "verdict": "KILL",
+          "reason": "Placeholder noun 'shape' stands in for the actual route pattern the numbers reveal.",
+          "suggestedFix": "The numbers showed the same mark feeding the sickest towns.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P1-sloganized-abstraction",
+          "severity": "mild",
+          "text": "Big enough to matter.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The actual operational significance of the depot's scale once the office and bunks are already named.",
+          "verdict": "KILL",
+          "reason": "The fragment leans on slogan rhythm and the stand-in noun 'matter' instead of naming the consequence.",
+          "toolSignal": "verdict_enough_for",
+          "textureFlags": [
+            "telegram_run"
+          ],
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3-placeholder-noun-stand-ins",
+          "severity": "mild",
+          "text": "\"It's direction.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "That the Barov name is a route lead they can follow without treating it as proof.",
+          "verdict": "KILL",
+          "reason": "Direction is a placeholder noun; the line sounds sharp without naming the operative use of the clue.",
+          "suggestedFix": "\"It's a road to follow.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [],
+      "cleanReason": "No exchange in the chapter sets up a plain-speech or smaller-words translation pass, so this guide had no valid audit candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 9,
+    "totalKeeps": 6,
+    "mildKills": 9,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 9,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Nine mild sentence-level kills remain across GPT-5 prose issues, narrator seep, and phantom concreteness; pass B fails on count and also carries a structural texture deficit.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.353,
+        "target": 0.72,
+        "delta": -0.367,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.783,
+        "target": 0.7,
+        "delta": 0.083,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 46.4,
+        "target": 19.0,
+        "delta": 27.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "notes": [
+        "structural rhythm concerns"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 1.7% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.2% below floor 4.0% (human: 8.5%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)",
+        "texture_score 6.7% below floor 10.0% (human: 24.4%)",
+        "short_pct 64.3% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.7% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 3.2% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.' | SHORT SENTENCES: 64.3% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassageCounts": {
+        "telegram_run": 21,
+        "texture_desert": 8
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalViolations": 3,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "pattern": "punct_colon_narration",
+            "count": 8,
+            "cap": 3
+          },
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_enough_for",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "category": "slopsquid",
+            "pattern": "slopsquid_bigram",
+            "count": 1,
+            "cap": 0
+          }
+        ]
+      }
+    }
+  }
+}

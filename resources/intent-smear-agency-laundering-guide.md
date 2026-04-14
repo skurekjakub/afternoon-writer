@@ -40,7 +40,7 @@ Extract the grammatical subject. Extract the verb or verb phrase.
 
 Ask: **Is the subject a non-agentive noun carrying a verb of human intention?**
 
-Verbs of human intention include: ordered, asked, promised, lied, argued, wanted, refused, remembered, forgot, insisted, demanded, warned, taught, convinced, pretended, confessed, decided, knew, believed, hoped (when attributed to infrastructure, geography, institutions, or abstractions rather than people).
+Verbs of human intention include: ordered, asked, promised, lied, argued, wanted, refused, remembered, forgot, insisted, demanded, warned, taught, convinced, pretended, confessed, decided, knew, believed, hoped, worried (when attributed to infrastructure, geography, institutions, or abstractions rather than people).
 
 If the subject is a person, a named character, or a pronoun referring to a person → **not a candidate**. Stop here.
 
@@ -200,6 +200,21 @@ This pattern is subtle because the noun sounds abstract and literary rather than
 
 **Exception:** If the external-force framing is the point — the character is overwhelmed and genuinely experiencing a mental event as something happening TO them, not BY them, and the loss of control matters to the scene — the construction can be doing real work. This is rare and should never appear more than once per chapter.
 
+### Pattern 10 — Receiver nouns or instruments doing the human work
+
+Plans, maps, answers, pages, rooms, cities, streets, and other receiver nouns are given the verb while the real actor is demoted into an instrument phrase or omitted.
+
+- `The plan sharpened under the quill with every line.`
+- `The answer came cleaner on the page.`
+- `The room caught up with her.`
+- `The city still thought of itself as healthy.`
+
+**Who is actually doing the work?** The person writing, revising, noticing, or failing to notice. If the real agent is a clerk, scout, mage, dog, cart, or guard, name it.
+
+**The test:** Put the concrete actor back in subject position. If the sentence keeps the same meaning, the original laundered agency or demoted the actor. **KILL.**
+
+This is the document-voice sibling of intent smear: the prose wants compression, so it gives the verb to the plan, room, or city instead of the person causing the change.
+
 ---
 
 ## Cluster rules
@@ -223,6 +238,7 @@ This pattern hides by:
 - Burying the intent verb in a subordinate clause: `the depot, which had already decided the answer...`
 - Splitting subject and intent verb across two sentences: `The road stretched ahead. It had been asking the same question for miles.`
 - Using passive voice to obscure the smear: `Orders were carried by the road itself.`
+- Demoting the real actor into an instrument phrase: `under the quill`, `on the page`, `in her hands`, while the receiving noun gets the verb
 - Framing the smear as the POV character's perception: `To her, the road had orders on it.` — this is still intent smear; adding "to her" does not fix it
 - Dressing it as insight in a smart character's internal monologue
 - Combining it with negation addiction: `That isn't sleep. That's cavalry lying to itself.` — flag for both guides
@@ -241,7 +257,7 @@ SUBJECT: [the noun carrying intent]
 VERB: [the human-intention verb]
 REAL AGENT: [who/what is actually doing this — concrete answer]
 VERDICT: KILL | KEEP
-REASON: [one sentence — if KILL, state which pattern (1-9); if KEEP, state which of the three keep conditions (collective actor / POV emotional metaphor / literal non-human action) is met]
+REASON: [one sentence — if KILL, state which pattern (1-10); if KEEP, state which of the three keep conditions (collective actor / POV emotional metaphor / literal non-human action) is met]
 ```
 
 After all individual evaluations, output:
@@ -304,6 +320,7 @@ Study these before you begin. These are ground truth.
 | `His hands knew the way.` | KILL | Pattern 8. Hands don't know. He navigated by touch. |
 | `The realization hit her.` | KILL | Pattern 9. Nominalized verb as agent. She realized. |
 | `A decision formed between them.` | KILL | Pattern 9. They decided. The decision didn't form itself. |
+| `The plan sharpened under the quill with every line.` | KILL | Pattern 10. Receiver noun doing the human work. She sharpened the plan. |
 | `The camp moved on without her.` | KEEP | Collective actor. The camp is people. They are established in scene. They physically moved. |
 | `Hope carried a bruise under it.` | KEEP | POV emotional metaphor. No agency transfer. Describes how hope feels to the character. |
 | `The river carried the debris south.` | KEEP | Literal. The river actually does this. Physics, not metaphor. |

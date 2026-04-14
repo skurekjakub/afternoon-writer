@@ -1,0 +1,591 @@
+{
+  "chapterId": "chapter6",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 13,
+      "kills": 9,
+      "keeps": 4,
+      "dominantPattern": "fragment-pivot / chained-negation",
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 6,
+        "severe": 3
+      },
+      "findings": [
+        {
+          "line": 23,
+          "text": "That is not luck. Someone spent years on it.",
+          "pattern": "P2-fragment-pivot",
+          "deletionTest": "Someone spent years on it.",
+          "severity": "moderate",
+          "reason": "The second sentence carries the full meaning; the negative setup is dead scaffolding.",
+          "suggestedFix": "Someone spent years on it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 91,
+          "text": "This was not a camp waiting for trouble. It was already in it.",
+          "pattern": "P5-preamble-negation",
+          "deletionTest": "It was already in it.",
+          "severity": "moderate",
+          "reason": "The negated preamble only delays the real claim that the camp is already inside the fighting.",
+          "suggestedFix": "The fighting had already reached it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 151,
+          "text": "Not contempt. Not blindness. Not the past walking in to do its old work. Worse: a refusal built on reasons solid enough to stand up under inspection.",
+          "pattern": "P7-triple-negation",
+          "deletionTest": "Worse: a refusal built on reasons solid enough to stand up under inspection.",
+          "severity": "severe",
+          "reason": "Three rejected labels form a hallway to the actual noun phrase.",
+          "suggestedFix": "It was a refusal built on reasons solid enough to stand up under inspection.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 195,
+          "text": "Not sentiment—never that, not now—but speed.",
+          "pattern": "P7-triple-negation",
+          "deletionTest": "speed",
+          "severity": "severe",
+          "reason": "The sentence rejects two labels before landing on the one that matters.",
+          "suggestedFix": "She had wanted speed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 301,
+          "text": "Not panic. Obedience under protest.",
+          "pattern": "P2-fragment-pivot",
+          "deletionTest": "Obedience under protest.",
+          "severity": "moderate",
+          "reason": "The positive fragment already says what the horses are doing.",
+          "suggestedFix": "Obedience under protest.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 309,
+          "text": "Andorhal stood across the winter fields, not ruined, not smoking, not dead. Walls. Rooflines. Four granary towers lifting above the rest. Bakehouse smoke. Wagons moving at the gate. The distant hush of a city at work.",
+          "pattern": "P8-mundane-reveal-chain",
+          "deletionTest": "Walls. Rooflines. Four granary towers lifting above the rest. Bakehouse smoke. Wagons moving at the gate. The distant hush of a city at work.",
+          "severity": "severe",
+          "reason": "The sentence rejects three expected states before naming the visible city.",
+          "suggestedFix": "Andorhal stood across the winter fields alive with walls, rooflines, four granary towers, bakehouse smoke, wagons at the gate, and the distant hush of work.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 319,
+          "text": "Not as a single sharp wound in the wards. Broader than that.",
+          "pattern": "P2-fragment-pivot",
+          "deletionTest": "Broader than that.",
+          "severity": "moderate",
+          "reason": "The negative setup only tees up the broader description.",
+          "suggestedFix": "It pressed across the wards in a broad sheet.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 321,
+          "text": "and here was not a ruin or a battlefield but a functioning node, the heart of the thing still beating in plain sight.",
+          "pattern": "P1-direct-contrast",
+          "deletionTest": "and here was a functioning node, the heart of the thing still beating in plain sight.",
+          "severity": "moderate",
+          "reason": "The positive clause survives without the negated alternatives.",
+          "suggestedFix": "and here was a functioning node in plain sight.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 331,
+          "text": "Being right did nothing by itself. Not with princes. Not with camps. Not with cities that could look this normal while death rode in on every cart.",
+          "pattern": "P2-fragment-chain",
+          "deletionTest": "Being right did nothing by itself.",
+          "severity": "moderate",
+          "reason": "The repeated negated fragments are emphatic scaffolding around one claim.",
+          "suggestedFix": "Being right did nothing by itself against princes, camps, or cities that could look this normal while death rode in on every cart.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 12,
+      "kills": 9,
+      "keeps": 3,
+      "dominantPattern": "road / infrastructure agency laundering",
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 6,
+        "severe": 3
+      },
+      "findings": [
+        {
+          "line": 5,
+          "text": "roads that already carried half the basin's harvest.",
+          "pattern": "P1-infrastructure-with-orders",
+          "subject": "roads",
+          "verb": "carried",
+          "realAgent": "wagon traffic and loaded grain trains on those routes",
+          "severity": "moderate",
+          "reason": "The harvest is being moved by traffic, not by the road itself.",
+          "suggestedFix": "roads already thick with half the basin's harvest traffic.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 7,
+          "text": "the road had finally shown her enough.",
+          "pattern": "P2-infrastructure-asking-answering",
+          "subject": "road",
+          "verb": "shown",
+          "realAgent": "the repeated clues she had gathered on the road",
+          "severity": "moderate",
+          "reason": "Evidence on the road forces the conclusion; the road is laundering that work.",
+          "suggestedFix": "she had finally seen enough on the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 13,
+          "text": "The roads drew tighter with every mile",
+          "pattern": "P1-infrastructure-physical-behavior",
+          "subject": "roads",
+          "verb": "drew tighter",
+          "realAgent": "the feeder routes converging toward the basin center",
+          "severity": "moderate",
+          "reason": "The line gives the roads active behavior instead of naming the convergence.",
+          "suggestedFix": "The roads converged with every mile.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 67,
+          "text": "rooms where certainty walked in before he did.",
+          "pattern": "P5-abstraction-physical-behavior",
+          "subject": "certainty",
+          "verb": "walked in",
+          "realAgent": "Arthas's visible command manner and the room's response to it",
+          "severity": "moderate",
+          "reason": "The sentence hands Arthas's social effect to an abstraction.",
+          "suggestedFix": "rooms where people yielded before he entered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 89,
+          "text": "The camp had gone up fast and meant to stay.",
+          "pattern": "P4-institutional-intent",
+          "subject": "camp",
+          "verb": "meant to stay",
+          "realAgent": "the officers and quartermasters who built the camp for sustained use",
+          "severity": "severe",
+          "reason": "The sentence launders human planning and command intent into the camp itself.",
+          "suggestedFix": "The camp had gone up fast, built for a stay.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 279,
+          "text": "The thing went into the file with the old seller and stayed there.",
+          "pattern": "P5-objects-deciding",
+          "subject": "thing",
+          "verb": "went into / stayed",
+          "realAgent": "Jaina filing the clue with the old seller in her own thinking",
+          "severity": "moderate",
+          "reason": "The clue is not filing itself; Jaina is doing the mental sorting.",
+          "suggestedFix": "Jaina filed it with the old seller and kept it there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 315,
+          "text": "Just the basin doing what it had always done with grain.",
+          "pattern": "P1-infrastructure-collective-evasion",
+          "subject": "basin",
+          "verb": "doing",
+          "realAgent": "the mills, wagons, clerks, bakers, and yard crews moving grain through the city",
+          "severity": "moderate",
+          "reason": "The region is standing in for the people and systems visibly doing the work.",
+          "suggestedFix": "Just the basin's ordinary grain traffic under winter light.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 329,
+          "text": "the road had been carrying toward her all day.",
+          "pattern": "P1-infrastructure-carrying-judgment",
+          "subject": "road",
+          "verb": "had been carrying",
+          "realAgent": "the evidence she had gathered across the day's ride",
+          "severity": "severe",
+          "reason": "The road is made to bear the chapter's evidentiary force instead of the clues on it.",
+          "suggestedFix": "the evidence she'd gathered all day had led here.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 331,
+          "text": "The sight corrected the last argument she had been having with herself.",
+          "pattern": "P9-nominalized-verb-as-agent",
+          "subject": "sight",
+          "verb": "corrected",
+          "realAgent": "Jaina, seeing the city and revising her own argument",
+          "severity": "severe",
+          "reason": "The mental correction belongs to Jaina, not to the sight as an external actor.",
+          "suggestedFix": "Seeing it corrected the last argument she had been having with herself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 20,
+      "kills": 9,
+      "keeps": 11,
+      "dominantPattern": "colon-narration over cap",
+      "severityMarkers": {
+        "mild": 9,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 13,
+          "text": "The headache had started within a mile of the waystation: not the sharp flare of overuse, but the slow press she had come to trust as contamination riding the land itself.",
+          "pattern": "punct-colon-narration",
+          "tic": "punctuation_tics",
+          "count": 12,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "This chapter is eight colons over the tool cap, so weaker narration-colon instances have to go first.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "The headache had started within a mile of the waystation, not the sharp flare of overuse but the slow press she had come to trust as contamination riding the land itself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 55,
+          "text": "Jaina could hear the rest of her meaning clearly enough: princes buried in visible war did not turn for threats they could not yet strike.",
+          "pattern": "punct-colon-narration",
+          "tic": "punctuation_tics",
+          "count": 12,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "Narration-colon use is far over cap, and this one can turn into a cleaner sentence break.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Jaina could hear the rest of her meaning clearly enough. Princes buried in visible war did not turn for threats they could not yet strike.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 63,
+          "text": "By late morning the feeder road had bent north enough to show the Strahnbrad approaches: churned mud, deep wagon ruts, banners above a scatter of tents, and the iron clang of a camp already past setup and deep into use.",
+          "pattern": "punct-colon-narration",
+          "tic": "punctuation_tics",
+          "count": 12,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "The colon is doing list work the chapter is already overusing.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "By late morning the feeder road had bent north enough to show the Strahnbrad approaches—churned mud, deep wagon ruts, banners above a scatter of tents, and the iron clang of a camp already past setup and deep into use.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 67,
+          "text": "The sight hit in two directions at once: familiar, and not hers.",
+          "pattern": "punct-colon-narration",
+          "tic": "punctuation_tics",
+          "count": 12,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "The colon is a weak cadence tic here, not necessary structure.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "The sight hit in two directions at once, familiar and not hers.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 101,
+          "text": "He had also always filled a room in the same particular way: certainty first, charm second, the sense that he had already chosen the line of advance and everyone else would do better if they stepped quickly into it.",
+          "pattern": "punct-colon-narration",
+          "tic": "punctuation_tics",
+          "count": 12,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "Another narration-colon in an already over-cap chapter.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "He had also always filled a room in the same particular way, certainty first, charm second, with the sense that he had already chosen the line of advance and everyone else would do better if they stepped quickly into it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 151,
+          "text": "Worse: a refusal built on reasons solid enough to stand up under inspection.",
+          "pattern": "punct-colon-narration",
+          "tic": "punctuation_tics",
+          "count": 12,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "This is one of the chapter's excess narration-colon pivots.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Worse, it was a refusal built on reasons solid enough to stand up under inspection.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 165,
+          "text": "Around her the camp kept moving: crates, hammer blows, a pair of clerks arguing over a wagon count.",
+          "pattern": "punct-colon-narration",
+          "tic": "punctuation_tics",
+          "count": 12,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "The chapter's colon habit is over cap, and this list survives cleanly without one.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Around her the camp kept moving with crates, hammer blows, and a pair of clerks arguing over a wagon count.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 217,
+          "text": "The road improved with the traffic: broader, harder packed, ruts set deep by loaded wagons.",
+          "pattern": "punct-colon-narration",
+          "tic": "punctuation_tics",
+          "count": 12,
+          "cap": 4,
+          "severity": "mild",
+          "reason": "Another expendable colon in an overused chapter pattern.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "The road improved with the traffic, broader and harder packed, with ruts set deep by loaded wagons.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 333,
+          "text": "The records first. The ledgers. The towers. The men who signed for the grain.",
+          "pattern": "paragraph-opener-repeat",
+          "tic": "paragraph_structure",
+          "count": 1,
+          "cap": 0,
+          "severity": "mild",
+          "reason": "The tool caught a three-paragraph The-opener run; this opener is the weakest point in the cluster.",
+          "toolSignal": "opener_consecutive_repeat",
+          "suggestedFix": "Records first. Ledgers. Towers. Men who signed for the grain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 27,
+    "totalKeeps": 18,
+    "mildKills": 9,
+    "moderateOrSevereKills": 18,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 27,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 27 KILLs total, including 18 moderate/severe hits across negation addiction and repeated agency laundering, plus 9 mild recurring-tic kills from over-cap narration colons and paragraph structure.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.352,
+        "target": 0.72,
+        "delta": -0.368,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "value": 0.831,
+        "target": 0.7,
+        "delta": 0.131,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 41.1,
+        "target": 19.0,
+        "delta": 22.1,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "note": "Structural rhythm concerns: comma-period ratio, sentence-length CV, and one-sentence paragraph rate all sit outside the style-guide range."
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 1.7% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.7% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassageCounts": {
+        "telegram_run": 22,
+        "texture_desert": 9
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 32,
+        "total_violations": 3,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "patterns": [
+              "punct_colon_narration"
+            ]
+          },
+          {
+            "category": "narrator_verdict",
+            "patterns": [
+              "verdict_too_x_for"
+            ]
+          },
+          {
+            "category": "paragraph_structure",
+            "patterns": [
+              "opener_consecutive_repeat"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

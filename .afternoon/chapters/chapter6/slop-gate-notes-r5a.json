@@ -1,0 +1,135 @@
+{
+  "chapterId": "chapter6",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 9,
+      "kills": 0,
+      "keeps": 9,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "diagnostic-negation",
+      "cleanReason": "Reviewed every pass-A negation candidate, including the opening exclusion chain, Jaina's contamination diagnostics, and the later fragment pivots. All nine survivors either did concrete diagnostic work, stated hard capability limits, or read as Jaina-specific analytical shorthand protected by the false-positive filter rather than empty not-X scaffolding.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 8,
+      "kills": 1,
+      "keeps": 7,
+      "severityCounts": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P7-absence-active-verb",
+      "secondSweep": "Completed the required second P5/P6 sweep across the full chapter. No extra kills surfaced beyond the pause-held construction; the other apparent agency phrases were either literal plague-mechanism language, collective-actor compression with people legible, or concrete non-human physical action.",
+      "findings": [
+        {
+          "line": 81,
+          "text": "The pause after that held Sylvanas in her usual patient stillness, the one she wore when she thought an argument was finished.",
+          "pattern": "P7-absence-active-verb",
+          "subject": "pause",
+          "verb": "held",
+          "realAgent": "Sylvanas choosing to remain in her usual patient stillness while the argument stalls.",
+          "severity": "mild",
+          "suggestedFix": "After that, Sylvanas stayed in her usual patient stillness, the one she wore when she thought an argument was finished.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 18,
+      "kills": 0,
+      "keeps": 18,
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "T3-tightened-eased and tool-signalled punctuation",
+      "cleanReason": "Counted all capped tics and audited every slop-checker signal routed to pass A. Tightened/eased stayed within cap, the single facial shifted use stayed within cap, and every punctuation / participial / simile tool hit remained concrete, scene-functional, and below tic thresholds rather than repetitive authorial habit.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 34,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "One mild intent-smear kill and no moderate/severe kills. Pass A stays green; rhythm/texture signals remain informational rather than pass-fail triggers.",
+    "trajectoryStrategy": "default",
+    "trajectoryNote": "manifest.json did not expose slopGateLoop.iterationKillsA, so no oscillation trigger was available.",
+    "rhythmMetrics": {
+      "commaPeriodRatio": {
+        "value": 0.428,
+        "target": 0.72,
+        "delta": -0.292,
+        "withinRange": false
+      },
+      "sentenceLengthCv": {
+        "value": 0.778,
+        "target": 0.7,
+        "delta": 0.078,
+        "withinRange": true
+      },
+      "oneSentenceParagraphPct": {
+        "value": 42.9,
+        "target": 19.0,
+        "delta": 23.9,
+        "withinRange": false
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below calibrated range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassages": {
+        "telegramRun": 15,
+        "textureDesert": 7
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 21,
+        "totalViolations": 0,
+        "overCapCategories": [],
+        "passMappedSignals": {
+          "punctuation_tics": 9,
+          "participial_attachment": 2,
+          "simile_overload": 2
+        }
+      }
+    }
+  }
+}

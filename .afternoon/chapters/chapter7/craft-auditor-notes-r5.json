@@ -1,0 +1,85 @@
+{
+  "chapterId": "chapter7",
+  "iteration": 5,
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "limited-third-compliance",
+      "severity": "medium",
+      "location": "Scene 1, inspection office briefing",
+      "passage": "“Not the stillness of fatigue or the stillness of concentration but the sharp, locked quiet that meant a pattern had just clicked into place.”",
+      "problem": "This resolves Jaina's inner cognition instead of staying strictly on Sylvanas's visible read. Sylvanas can see Jaina go still and infer that something changed, but “meant a pattern had just clicked into place” states the mental event as fact.",
+      "fix": "Keep the stillness, ledger, and gaze details, but phrase the conclusion as Sylvanas's read of outward behavior rather than a certified internal event. Let the body tell the story: stopped hand, fixed stare, held breath, then Jaina speaking."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "medium",
+      "location": "Scene 3, table briefing",
+      "passage": "“The poison is layered. An outer shell that mimics natural grain oil, surviving milling, surviving baking, surviving anything a kitchen does to flour... Whoever designed this understood high-arcanum binding and adapted it to food, to a supply chain, to the ordinary commerce of a working kingdom.”",
+      "problem": "Jaina's speech drifts from sharp field explanation into written-briefing diction. Phrases like “ordinary commerce of a working kingdom” read more like polished narration than live speech under time pressure in a mixed room.",
+      "fix": "Keep the technical content, but break it into more spoken units with action beats or interruptions. Let Jaina name the plain-language danger first, then layer in the arcane precision, so the line sounds like fast thinking aloud instead of a report being read."
+    },
+    {
+      "check": "emotional-life",
+      "severity": "medium",
+      "location": "Scene 3, synthesis beat",
+      "passage": "“She had walked the routes. Jaina had read the poison. Apart, each half was a warning. Together, they were a map.”",
+      "problem": "The partnership turn is intelligible, but it lands mainly as abstract summary. The plan wants Sylvanas's stance shift toward Jaina to hit through a concrete on-page moment, and here the realization is true without feeling fully embodied.",
+      "fix": "Give the shift one physical anchor in the room: an involuntary bodily reaction, a gesture of unqualified operational trust, or one specific thing Jaina says that makes Sylvanas's recalibration irreversible. Keep it dry; just make it concrete."
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "low",
+      "location": "Scene 1 and Scene 3 briefing clusters",
+      "passage": "“I sent three reports to Dalaran. Summary, evidence, lot-number cross-reference... The third I sent by courier two weeks ago. No answer.” / “Two hours,” she said. “Then we meet back here and plan the lane.”",
+      "problem": "The overall texture score is excellent, but the rhythm scorer still flags local texture deserts and telegram runs in the report-heavy office sections. Those pockets stack short declaratives and single-sentence beats long enough to flatten the otherwise strong procedural cadence.",
+      "fix": "Do not broaden the whole chapter. Just in the flagged briefing pockets, combine a few adjacent short sentences into clause-rich sentences or action-beat sentences so the exposition carries forward pressure instead of arriving in separate taps."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 100.0,
+    "target": 100.0,
+    "passingThreshold": 90.0,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {
+        "actual": 11.3,
+        "target": 12.0,
+        "score": 100.0
+      },
+      "compound": {
+        "actual": 9.8,
+        "target": 10.0,
+        "score": 100.0
+      },
+      "emdash": {
+        "actual": 3.9,
+        "target": 4.0,
+        "score": 100.0
+      },
+      "semicolon": {
+        "actual": 1.5,
+        "target": 1.8,
+        "score": 100.0
+      }
+    },
+    "interpretation": "Texture within target range. No structural changes needed.",
+    "flaggedPassages": [
+      "texture_desert sentences 74-85: “Worse than any of the villages. Not worse than the last mile of the road.” / “Can you hold it?”",
+      "texture_desert sentences 115-124: Havel cover-hold exchange beginning “She let him look. He would see what she intended him to see...”",
+      "texture_desert sentences 153-171: Corin/Havel office exchange beginning “The third I sent by courier two weeks ago. No answer.”",
+      "telegram_run sentences 154-161: “No answer.” / “While he was writing reports, I was watching the granary district...”",
+      "telegram_run sentences 162-171: worker-pattern explanation beginning “They work the loading docks, the packaging sheds...”",
+      "texture_desert sentences 218-232: Havel control-reading passage beginning “She heard the pull in his voice...”",
+      "texture_desert sentences 244-254: overnight-shift capture setup beginning “I know which workers are on the overnight shift tonight...”",
+      "texture_desert sentences 271-281: transition out of the office beginning “Sylvanas stood. The chair scraped against the plank floor...”",
+      "telegram_run sentences 274-281: “Two hours,” she said. “Then we meet back here and plan the lane.”",
+      "texture_desert sentences 296-306: granary-walk setup beginning “That was either useful or the problem...”",
+      "texture_desert sentences 308-326: supplier/security walk beginning “Most were padlocked, heavy iron...”",
+      "texture_desert sentences 495-513: Jaina mechanism briefing beginning “This is not crude. This is not hedge-work...”",
+      "texture_desert sentences 596-608: trust-boundary beat beginning “You are with us...”",
+      "texture_desert sentences 631-640: raid assignment block beginning “Cover the service door after Corin opens it...”"
+    ]
+  },
+  "summary": "This is a strong, readable chapter with real pressure, clean scene architecture, and solid involuntary interior beats in every scene. The fail is not structural collapse; it is a polish fail driven by a few POV-overtranslated lines, one briefing stretch where Jaina's speech turns too report-like, and a partnership turn that needs a more concrete on-page landing."
+}

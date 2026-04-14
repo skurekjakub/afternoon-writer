@@ -1,0 +1,344 @@
+{
+  "chapterId": "chapter2",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 5,
+      "keeps": 1,
+      "dominantPattern": "diagnostic negation pivots in Jaina's explanatory prose",
+      "findings": [
+        {
+          "lineNumber": 31,
+          "lineText": "\"It isn't surface damage. It's moving through the existing channels under the ward lattice, faster near settled roads.\"",
+          "pattern": "P2-fragment-pivot",
+          "deletionTest": "\"It's moving through the existing channels under the ward lattice, faster near settled roads.\"",
+          "severity": "mild",
+          "reason": "KILL - the opening negation is scaffolding before the real diagnosis.",
+          "suggestedFix": "\"The damage is in the existing channels under the ward lattice, moving fastest near settled roads.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 49,
+          "lineText": "\"The Kirin Tor did not send me. Nobody sent me. I came because this keeps spreading while people ask for permission slips.\"",
+          "pattern": "P3-source-swap",
+          "deletionTest": "\"I came because this keeps spreading while people ask for permission slips.\"",
+          "severity": "mild",
+          "reason": "KILL - the authorization negations delay the committed claim and can be stated positively.",
+          "suggestedFix": "\"I came without Kirin Tor sanction because this keeps spreading while people ask for permission slips.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 157,
+          "lineText": "\"It's in the ground,\" she said. \"Soil and water both. This isn't only running through the leylines anymore. The land's carrying it.\"",
+          "pattern": "P1-direct-contrast",
+          "deletionTest": "\"The land's carrying it.\"",
+          "severity": "mild",
+          "reason": "KILL - the negative setup is expendable once the diagnosis is stated directly.",
+          "suggestedFix": "\"It's in the ground,\" she said. \"Soil and water both. It's in soil and water now as well as the leylines.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 177,
+          "lineText": "The corruption was not hovering over the land. It was feeding on it.",
+          "pattern": "P5-preamble-negation",
+          "deletionTest": "It was feeding on it.",
+          "severity": "mild",
+          "reason": "KILL - the first sentence only rejects a weaker image before the real statement arrives.",
+          "suggestedFix": "The corruption had gotten into the land itself, working through crop and soil.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 223,
+          "lineText": "That was the worst part. Not raised dead. Living flesh taught to keep going after sense and mercy had both run out.",
+          "pattern": "P2-fragment-pivot",
+          "deletionTest": "Living flesh taught to keep going after sense and mercy had both run out.",
+          "severity": "mild",
+          "reason": "KILL - the fragment negation is a fake reveal before the substantive clause.",
+          "suggestedFix": "That was the worst part: necromancy keeping living flesh going after sense and mercy had both run out.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 11,
+      "kills": 10,
+      "keeps": 1,
+      "dominantPattern": "roads, land, silence, and objects carrying human or abstract agency",
+      "findings": [
+        {
+          "lineNumber": 17,
+          "lineText": "Cyndia had fallen half a step behind in the way subordinates do when rank lives in the entrance and needs no announcement.",
+          "pattern": "P5-objects-wanting-refusing-deciding",
+          "severity": "moderate",
+          "reason": "KILL - rank is an abstraction, and Cyndia's deference plus Sylvanas's presence are the real agents making the authority obvious.",
+          "suggestedFix": "Cyndia had fallen half a step behind in the way subordinates do when authority is obvious and nobody needs to name it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 19,
+          "lineText": "Sylvanas Windrunner let the silence tighten until the wards were the loudest thing in the cell.",
+          "pattern": "P7-silence-or-absence-given-active-verbs",
+          "severity": "moderate",
+          "reason": "KILL - the pressure comes from Sylvanas withholding speech while the ward-hum fills the room, not from silence acting on its own.",
+          "suggestedFix": "Sylvanas Windrunner waited until the wards were the loudest thing in the cell.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 41,
+          "lineText": "The room drew tight around that question.",
+          "pattern": "room-pressure",
+          "severity": "moderate",
+          "reason": "KILL - the tension belongs to the people in the cell reacting to the question, not to the room itself.",
+          "suggestedFix": "Everyone in the cell went still around that question.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 123,
+          "lineText": "Orders moved once; the shape answered.",
+          "pattern": "P1-infrastructure-with-orders",
+          "severity": "severe",
+          "reason": "KILL - the formation reflex belongs to the escort answering a command, not to orders and shape acting as independent agents.",
+          "suggestedFix": "Sylvanas spoke once, and the escort dropped into shape.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_semicolon"
+        },
+        {
+          "lineNumber": 145,
+          "lineText": "If it had reached this far up, then the land was no longer carrying a warning. It was carrying the thing itself.",
+          "pattern": "abstract-carrier",
+          "severity": "moderate",
+          "reason": "KILL - the observable fact is contamination in soil and water, while the land-as-carrier phrasing launders that concrete mechanism into abstraction.",
+          "suggestedFix": "If it had reached this far up, then soil and water already held the thing itself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 157,
+          "lineText": "\"It's in the ground,\" she said. \"Soil and water both. This isn't only running through the leylines anymore. The land's carrying it.\"",
+          "pattern": "abstract-carrier",
+          "severity": "moderate",
+          "reason": "KILL - the real mechanism is contamination present in soil and water, not the land behaving like an agentive carrier.",
+          "suggestedFix": "\"It's in the ground,\" she said. \"Soil and water both. It's in soil and water now as well as the leylines.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 175,
+          "lineText": "The staff crystal had begun to answer the land on its own, pulsing faint at the edges of her sight.",
+          "pattern": "P5-objects-wanting-refusing-deciding",
+          "severity": "moderate",
+          "reason": "KILL - the crystal is reacting to contamination, not answering the land like a conversational agent.",
+          "suggestedFix": "The staff crystal had begun pulsing on its own at the edges of her sight.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 177,
+          "lineText": "The corruption was not hovering over the land. It was feeding on it.",
+          "pattern": "abstraction-feeding",
+          "severity": "moderate",
+          "reason": "KILL - the scene has concrete evidence in rotted crops and wet ground, so the abstraction does not need a predatory verb to imply harm.",
+          "suggestedFix": "The corruption had gotten into the land itself, working through crop and soil.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 179,
+          "lineText": "Millhaven sat ahead under the dying light with the patience of a trap.",
+          "pattern": "place-patience",
+          "severity": "moderate",
+          "reason": "KILL - the menace is produced by the empty, cold village details already on the page, not by the village owning human patience.",
+          "suggestedFix": "Millhaven lay ahead under the dying light, still as a trap.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 223,
+          "lineText": "Living flesh taught to keep going after sense and mercy had both run out.",
+          "pattern": "body-taught",
+          "severity": "moderate",
+          "reason": "KILL - the driver is the necromantic contamination, not flesh teaching itself a lesson.",
+          "suggestedFix": "Necromancy kept living flesh going after sense and mercy had both run out.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "lineNumber": 251,
+          "lineText": "No lantern answered the road.",
+          "pattern": "P2-infrastructure-asking-questions",
+          "severity": "moderate",
+          "reason": "KILL - the observable fact is that no one in the village lit a lantern for the riders, not that a lantern was engaged in reply.",
+          "suggestedFix": "No lantern lit for the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "dominantPattern": "tactical eye-line beats kept below cap",
+      "cleanReason": "Recounted the chapter's eye/gaze beats, literal marked use, and the pass-A slop-checker lines routed here. Eye/gaze repertoire peaked at three tactical beats, the only marked use was physical (blue-marked crossings), and no capped recurring tic exceeded its chapter limit. Tool-signaled colon, simile, participial, and filter-word lines were rechecked and did not constitute capped tics under this guide."
+    }
+  ],
+  "summary": {
+    "totalKills": 15,
+    "totalKeeps": 6,
+    "mildKills": 5,
+    "moderateOrSevereKills": 10,
+    "guidesRun": 3,
+    "guidesWithKills": 2,
+    "killsWithFix": 15,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: the pass has ten moderate-or-severe intent-smear kills plus five mild negation kills. Repeated land/road/object agency in the road-investigation sections and stacked negation pivots in Jaina's diagnostic prose exceed pass-A tolerance.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.42,
+        "target": 0.72,
+        "delta": -0.3,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside_range"
+      },
+      "sentence_length_cv": {
+        "actual": 0.765,
+        "target": 0.7,
+        "delta": 0.065,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "within_range"
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 40.8,
+        "target": 19.0,
+        "delta": 21.8,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside_range"
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below target range",
+        "structural rhythm concerns: one_sentence_paragraph_pct far above target range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.1% below floor 5.0% (human: 11.0%)",
+        "emdash_pct 0.9% below floor 1.0% (human: 3.5%)",
+        "texture_score 9.2% below floor 10.0% (human: 24.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | EM-DASHES: 0.9% (floor: 1.0%, human: 3.5%). Use for mid-sentence pivots and asides: 'The door—the same one she'd slammed that morning—stood open.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 13,
+        "texture_desert": 6
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 29,
+        "total_violations": 1,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "combined_count": 10,
+            "patterns": [
+              "punct_colon_narration"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

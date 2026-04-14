@@ -1,0 +1,284 @@
+{
+  "chapterId": "chapter2",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 10,
+      "kills": 7,
+      "keeps": 3,
+      "dominantPattern": "F3",
+      "severityMarkers": {
+        "mild": 7,
+        "moderateOrSevere": 0
+      },
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "location": {
+            "line": 83
+          },
+          "line": "Jaina watched her eyes track the route without hesitation.",
+          "word": "watched",
+          "deletionTest": "Her eyes tracked the route without hesitation.",
+          "verdict": "KILL",
+          "suggestedFix": "Her eyes tracked the route without hesitation.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "location": {
+            "line": 137
+          },
+          "line": "The horses felt it too.",
+          "whatItRestates": "Ears flicked. The grey mare tossed her head once and went taut under Jaina's knees.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "location": {
+            "line": 173
+          },
+          "line": "Rot had reached the crops.",
+          "issue": "thesis opening",
+          "verdict": "KILL",
+          "suggestedFix": "Soft heads of grain bent too low at the road's edge.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "location": {
+            "line": 173
+          },
+          "line": "Jaina could see it from the road now: soft heads of grain bending too low, leaves gone dark at the edges, damp ground under rows that should have been dry.",
+          "word": "could see",
+          "deletionTest": "Soft heads of grain bent too low, leaves gone dark at the edges, damp ground under rows that should have been dry.",
+          "verdict": "KILL",
+          "suggestedFix": "Soft heads of grain bent too low, leaves gone dark at the edges, damp ground under rows that should have been dry.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "location": {
+            "line": 173
+          },
+          "line": "The corruption had gotten into the land itself, working through the crops and the soil.",
+          "issue": "summary close",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "location": {
+            "line": 219
+          },
+          "line": "The worst part was the magic in living flesh, keeping it going after sense and mercy had both run out.",
+          "whatItRestates": "These animals had taken it in while alive—from water, grass, air, whatever this land was feeding them—and the magic had pushed their bodies past the point where they should have stopped.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "location": {
+            "line": 249
+          },
+          "line": "She had been right about the spread. Right about the signature. Right enough to cross a border alone and ride into this.",
+          "locationType": "paragraph-final / scene-final",
+          "couldEndEarlierAt": "Jaina gripped the staff as the village came up at them.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks in field-adapted technical inference: ward behavior, route logic, contamination signatures, and hypothesis revision. She can be analytical and dry, but her thoughts stay tied to immediate evidence, mage procedure, and the practical problem in front of her rather than detached captions about what a beat means.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "dominantPattern": "A6",
+      "severityMarkers": {
+        "mild": 1,
+        "moderateOrSevere": 0
+      },
+      "findings": [
+        {
+          "pattern": "A6",
+          "severity": "mild",
+          "location": {
+            "line": 83
+          },
+          "line": "This was no courtesy glance.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence captions Sylvanas's map-reading with an external interpretive label instead of staying in Jaina's observed evidence.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "dominantPattern": null,
+      "severityMarkers": {
+        "mild": 0,
+        "moderateOrSevere": 0
+      },
+      "findings": [],
+      "cleanReason": "Reviewed the suspicious tactical-compression lines around the escort repositioning, Millhaven inference, and map-reading exchange. Each line cashes out through adjacent route behavior, named locations, or visible physical repositioning already on the page, so none remained unanchored."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "severityMarkers": {
+        "mild": 0,
+        "moderateOrSevere": 0
+      },
+      "findings": [],
+      "cleanReason": "No exchange in this pass explicitly sets up a plain-speech or smaller-words translation test. Clarification beats are present, but none claim to restate specialist language in a simplified operational register, so this guide produced no live candidates."
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 10,
+    "mildKills": 8,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md"
+    ],
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B fails because 8 mild KILLs remain across GPT-5 prose failures and narrator seep, which exceeds the pass threshold of 3 mild-only findings. Structural rhythm concerns also remain: comma/period ratio is far below target and one-sentence paragraphs are far above target.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.444,
+        "target": 0.72,
+        "delta": -0.276,
+        "withinRange": false
+      },
+      "sentence_length_cv": {
+        "value": 0.762,
+        "target": 0.7,
+        "delta": 0.062,
+        "withinRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 41.0,
+        "target": 19.0,
+        "delta": 22.0,
+        "withinRange": false
+      },
+      "structuralConcerns": [
+        "comma_period_ratio below calibrated range",
+        "one_sentence_paragraph_pct above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 2.9% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.9% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassages": {
+        "telegram_run": 14,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_violations": 1,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "patterns": [
+              "punct_colon_narration"
+            ]
+          }
+        ],
+        "passRelevantSignals": []
+      }
+    }
+  }
+}

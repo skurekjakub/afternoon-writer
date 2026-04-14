@@ -1,276 +1,168 @@
 # Chapter 8: The Hunters Hunted
 
 **POV:** Jaina Proudmoore (limited third, absolute)
-**Timeline position:** The same night as Chapter 7. The carrier-side mechanism is known, the local cell is mapped, and the party moves immediately before Andorhal can scrub itself clean.
-**Open location:** Andorhal at night — safe house, granary district, secondary streets, fallback shelters.
-**Transport:** On foot through the city under covert movement.
-**Active cast at open:** Jaina, Sylvanas, Cyndia, Lyriel, Corin, Captain Havel.
-**Immediate objective:** Capture a live operative, force the Andorhal network to reveal its command layer, and get out before the city closes around them.
+**When:** The same night as Chapter 7, with the party moving at once before Andorhal can clean up the breach.
+**Where:** Andorhal at night: safe house, granary district, back streets, and temporary shelters.
+**Travel:** On foot through the city under cover and stealth.
+**Characters:** Jaina, Sylvanas, Cyndia, Lyriel, Corin, Captain Havel.
+**Goal:** Take a living cultist, force the Andorhal cell to reveal who is above it, and get out before the city closes around them.
 
-## Meta info
+## References
 
 - **Worldbuilding references:** [Lordaeron and Northrend](stories/the-plague-road/locations/lordaeron-and-northrend.md), [Scholomance and Dalaran](stories/the-plague-road/locations/scholomance-and-dalaran.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
 - **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Antonidas profile](stories/the-plague-road/characters/antonidas.md), [Kel'Thuzad profile](stories/the-plague-road/characters/kelthuzad.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
-- **Arc references:** [Partnership arc](stories/the-plague-road/plans/partnership-arc.md), [Chapter 7 plan](stories/the-plague-road/plans/chapters/chapter7.md)
 
-**What Jaina knows at open**
-- Andorhal's grain is being treated at the hub during packaging
-- The city contains an embedded living network rather than a handful of isolated saboteurs
-- Corin and Havel have both been correct from the ground and ignored from above
-- Sylvanas's logistical read and Jaina's magical read now interlock cleanly enough to support a same-night capture operation
-- Lyriel is alive, and the four-woman field unit is still intact
-- Jaina's sensitivity keeps them ahead of public understanding, but not ahead of shipments already moving through ordinary routes
-- The old seller / newer grain-man clue remains unresolved background, not an active lead
-- She can now isolate the grain-side carrier work, but not the host-side trigger that turns contamination into undead continuity
+**Jaina's starting position:**
+- Andorhal's grain is being treated at the hub before shipment.
+- The city holds a living cult network, not a few isolated saboteurs.
+- Corin has been useful inside the records.
+- Havel keeps trying to push the work back into militia routes and shelters he controls.
+- Sylvanas's street read and Jaina's magical read now work well enough to support a same-night ambush.
+- Lyriel is alive, and the four-woman scouting party is still intact.
+- Jaina's sensitivity keeps them ahead of most of the crown's awareness, but not ahead of grain already moving through ordinary roads.
+- The old seller and newer grain-man clue is still unresolved background, not an active lead.
+- Jaina can isolate the poisoned grain magic, but she still cannot stop the final curse that turns sickness into undeath.
 
-**What Jaina does NOT know at open**
-- Whether the capture target can survive long enough to talk
-- Whether the city already has a kill-switch protocol for compromised operatives
-- Whether Andorhal is still early enough to stop the wider rollout
-- Who the architect is or where command actually sits
+**Still in the dark about:**
+- Whether a captured zealot can stay alive long enough to talk.
+- Whether the local cult can kill compromised members from a distance.
+- Whether they are still early enough to slow the spread.
+- Who commands the operation or where that command sits.
 
-**Must not be implied yet**
-- No certainty that contaminated grain is already beyond recall before Beat 7
-- No Kel'Thuzad naming before Beat 8
-- No claim that the old seller / newer grain-man clue is solved
-- No omniscient statement that the entire kingdom is already lost
+**Hold back:**
+- Do not confirm before Beat 7 that the grain is already beyond recall.
+- Do not name Kel'Thuzad before Beat 8.
+- Do not solve the old seller or newer grain-man clue.
+- Do not claim the whole kingdom is already lost.
 
-**What the cast knows leaving the chapter**
-- The network has a standing remote-kill protocol for compromised operatives
-- Kel'Thuzad is named as the former Kirin Tor architect operating north of Andorhal, but the identification is stitched from field fragments rather than a clean confession
-- Corin and Havel remain local Andorhal allies while the core four-woman field unit moves on
-- The party can detect the plague earlier than most authorities, but is still one step behind the rollout
+**End of chapter state:**
+- The network can kill captured zealots with a death-curse.
+- Havel was on cult coin and dies when he tries to close the trap on them.
+- Corin stays inside the trust boundary.
+- Kel'Thuzad is identified as the mind behind the plague north of Andorhal.
+- The party can detect the plague earlier than most authorities, but they are still behind the spread.
 
 ---
 
-## Arc position
+## Character Arcs
 
 ### Jaina
-- **Current stance at open:** One live operative and one hard interrogation might finally let Jaina get ahead of the disaster instead of chasing it.
-- **Surface objective:** Turn the captured agent into usable command intelligence before the network closes its mouth.
-- **Pressure source:** The answers exist, but they may only confirm how late they already are, and the city can kill a witness before Jaina finishes learning from her.
-- **Misbelief manifestation:** Jaina still leans toward one layer deeper as if understanding fast enough can still become prevention.
-- **Chapter test:** The capture works, the questioning works, and then the witness dies anyway. Knowledge keeps arriving too late to save the immediate piece in front of her.
-- **Forced choice:** Treat the new information as victory, or admit that proof can arrive in time to teach and still too late to prevent the loss that taught it.
-- **End-state shift:** Jaina gets the command layer clearer, but loses the fantasy that clarity alone can let her stay ahead.
-- **Carry-forward residue:** Chapter 9 opens with Jaina pricing time and risk harder, and with less patience for analysis that has no room to land.
+- She opens believing one live prisoner can give them the answer they need.
+- The capture works, but the witness dies before she can save him.
+- She learns that proof can still arrive too late to protect the person carrying it.
+- By the end, she has a name, but she loses the belief that clarity alone will keep them ahead.
 
 ### Sylvanas through Jaina's POV
-- **Visible function:** Ambush planner, interrogator, and the woman who keeps the city survivable while Jaina looks at the mechanism.
-- **POV misread at open:** Jaina trusts Sylvanas's field instincts now, but she still thinks her own side of the work is the cleaner road to certainty.
-- **Correction earned here:** Sylvanas's instincts are not the rough half of the job. They are what keep the proof alive long enough to matter at all, and Jaina feels the cost the moment the city reaches in and kills the witness from a distance.
-- **Interaction rule:** They move fast and talk short. This chapter should show mutual trust through timing, not speeches.
+- Sylvanas runs the ambush, the streets, and the escape with clean practical judgment.
+- Jaina trusts her field instincts now, even while she still treats magic as the cleaner road to certainty.
+- The death-curse shows how much the work depends on Sylvanas keeping danger physical and immediate.
+- Their coordination is fast enough to look effortless.
 
-### Partnership / team
-- **Operating mode at open:** A partnership that is finally working clean at speed.
-- **Operational change this chapter:** The cooperation stops feeling arranged and starts feeling automatic. Each woman covers the other's blind side before the request is voiced.
-- **Naming/attitude rule:** No admiration speeches. The trust should read in tempo, not praise.
-- **Do-not-overstate rule:** This is peak function, not safety. The chapter exists partly to punish the feeling that they finally have the tempo under control.
+### Partnership
+- Their partnership is finally working at full speed.
+- Each woman covers the other's blind side before being asked.
+- They do not need speeches to show trust.
+- The cult answers that trust with a trap they barely survive.
 
 ---
 
 ## Cast and handoff rules
 
-- **Cyndia:** Still with the field party.
-- **Lyriel:** Still with the field party and alive through this chapter.
-- **Corin:** Local ally inside Andorhal only. He does not join the later Eastweald field sweep.
-- **Captain Havel:** Local ally inside Andorhal only. He provides fallback routes and safe-house logic, not a traveling escort.
+- **Cyndia:** Still with the hunting party.
+- **Lyriel:** Still with the hunting party and alive at close.
+- **Corin:** A real ally inside Andorhal. He stays local once the party moves on.
+- **Captain Havel:** Posing as an ally at open. Exposed as a cult-paid contact and killed in the escape.
 - **Kel'Thuzad:** Not yet named at chapter open.
 - **Old seller / newer grain-man clue:** Keep off the active board.
 
-**Chapter handoff target:** Chapter 9 opens after the Andorhal breakthrough has widened into an Eastweald field campaign carried by the same four-woman traveling unit.
+**Next chapter starts:** Chapter 9 opens with the same four-woman scouting party hunting north into the Eastweald.
 
 ---
 
 ## Scene 1: The Capture
 
-**Scene function:** Show the partnership at its cleanest, then punish that confidence by proving the city can kill a witness from a distance.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, Corin, Havel, captured operative
-**Knowledge at scene start:** The carrier-side mechanism is known; the local cell is mapped; the command layer is still unnamed
+**The action:** The party takes a living cultist, gets real structure out of him, and loses him to a death-curse before he can give them the name they need.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, Corin, Havel, captured cultist.
+**Starting point:** Minutes after the decision. The target is marked, the route is chosen, and the leadership is still unnamed.
 
-### Beat 1 — Scene: The ambush works
-- **Goal:** Take a live operative before the Andorhal network can react
-- **Conflict:** The target sits inside a city that rewards routine and punishes anything that breaks it, so the capture has to be clean enough that the street keeps moving around it
-- **Outcome:** **yes-but** — the operative is taken alive, but the professionalism of the capture also confirms the professionalism of whatever trained her quarry
-- **Value shift:** ready operation -> live witness in hand
-- **New on-page information:**
-  - Sylvanas can run a street capture with the same precision she uses in open terrain
-  - Jaina can suppress wards and panic-signals fast enough to keep the target from lighting the city up
-  - Cyndia and Lyriel hold the perimeter cleanly enough that Corin and Havel never become liabilities
-- **Still unknown after beat:**
-  - How much the prisoner actually knows
-  - Whether the city felt the capture anyway
-- **Sensory anchors:**
-  - Narrow street shadow instead of battlefield open ground
-  - Arcane suppression landing like a hand over a bell
-  - Lyriel steady on one flank while Cyndia seals the other
-- **Transition intent:** With the witness alive, the next problem becomes fear and what it can be made to yield
+### Beat 1
+- They need a living cultist before the cell realizes it has been breached. Havel wants slow militia procedure and routes he says he can secure, but Jaina and Sylvanas know waiting will lose the target.
+- The capture has to happen tonight, and Jaina and Sylvanas can now run a strike together without wasting movement on friction. Havel keeps steering them toward shelters and corridors he controls.
+- They do not know whether the prisoner knows anything useful or whether the capture has already been noticed.
+- Ground the ambush: narrow night streets, wards smothered before they flare, Lyriel and Cyndia sealing the exits, Sylvanas taking the man alive on the move instead of at a door.
+- They take the zealot breathing.
 
-### Beat 2 — Scene: Fear of the chain above him
-- **Goal:** Force the operative to reveal the command structure behind Andorhal
-- **Conflict:** The prisoner is terrified, but his fear is not aimed downward at the women interrogating him; it is aimed upward at the people who trained him to disappear if caught
-- **Outcome:** **yes-but** — the interrogation yields structure and scale, but not the one name Jaina and Sylvanas actually need
-- **Value shift:** live witness in hand -> command layer hinted but not identified
-- **New on-page information:**
-  - The operation answers to a single mortal architect rather than a committee of small cells
-  - The contamination agent was designed, not stumbled onto
-  - The distribution network was built over months with deliberate planning
-  - The network uses lower-rank field "necromancers" who are really command-signal acolytes, trained to force or sharpen obedience in converted peasants and infected rather than master the whole necromantic design
-  - The prisoner's fear confirms that the field operatives deploy a mechanism whose full theory sits above their pay grade
-- **Still unknown after beat:**
-  - The architect's name
-  - Whether the prisoner can survive long enough to say it
-- **Sensory anchors:**
-  - Sweat on the prisoner's upper lip before he ever speaks
-  - Sylvanas asking less than Jaina expects and getting more because of it
-  - The wordless moment when the prisoner almost says a name and cannot
-- **Transition intent:** The city answers before the prisoner can
+### Beat 2
+- The interrogation gives them structure but not the name they need. The man fears his masters more than his captors, and Havel keeps trying to drag the questioning back to shelters, names, and procedure.
+- The operation answers upward to one mortal mastermind, poisoned grain was planned over months, and lower-rank cultists handle the infected without understanding the full ritual.
+- They do not know the master's name or whether the prisoner can live long enough to say it.
+- Ground the questioning: sweat on the prisoner's lip, Sylvanas getting more with silence than threats, Jaina hearing the name almost arrive and knowing the shape of it matters.
+- Something hits before the confession lands.
 
-### Beat 3 — Scene: The witness dies anyway
-- **Goal:** Keep the operative alive long enough to extract the missing name
-- **Conflict:** A precise necromantic strike reaches through the city and kills him mid-sentence without any physical warning Sylvanas can read first
-- **Outcome:** **no-and** — the witness is lost, and the kill proves the network has mage-level response capability inside the walls
-- **Value shift:** command layer hinted but not identified -> exposure, because the city now knows the hunters are real
-- **New on-page information:**
-  - Andorhal contains mages capable of surgical remote silencing
-  - The network trains for capture loss and enforces it instantly
-  - Jaina feels the strike as a distinct targeted burst rather than ambient contamination
-- **Still unknown after beat:**
-  - Which mage launched the strike
-  - How many response teams are already moving
-- **Sensory anchors:**
-  - A sentence cut off in the middle instead of finished
-  - Necromantic force hitting like a needle rather than a wave
-  - The room changing from interrogation chamber to compromised site in one breath
-- **Transition intent:** The chapter pivots immediately from pursuit to escape
+### Beat 3
+- A necromantic death-curse kills the prisoner mid-sentence. Jaina feels the spell too late to stop it, and the speed of the response makes the room smaller and more dangerous all at once.
+- The network can kill compromised zealots from a distance, and capable cult mages are working inside the city. Havel looks worse after the curse, not better.
+- They do not know which mage cast it or how many enforcers are already moving.
+- Ground the break: a sentence cut in half, a cold needle of magic through the room, control vanishing in one breath.
+- The hunters become the hunted.
 
 ---
 
 ## Scene 2: The Hunters Hunted
 
-**Scene function:** Flip the investigative rhythm into survival rhythm and prove the partnership now works as an instinct, not a theory.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, Corin, Havel, Cult enforcers
-**Knowledge at scene start:** The city can kill compromised operatives from a distance and now knows somebody is probing it
+**The action:** The capture turns into an escape, Havel finally breaks open as betrayal, and the group survives only because Jaina and Sylvanas are working together at speed.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, Corin, Havel, cult enforcers.
+**Starting point:** The cult can kill captured zealots from a distance and now knows exactly where the investigators are.
 
-### Beat 4 — Scene: The city turns around
-- **Goal:** Escape the compromised site before the response teams close
-- **Conflict:** The investigation had been about reading contamination and infrastructure; now Jaina has to read threat signatures while Sylvanas reads the physical street layer under active pursuit
-- **Outcome:** **no-and** — the network is clearly faster and more organized than they hoped, but the shift also exposes how fully Jaina and Sylvanas now cover different danger bands
-- **Value shift:** exposure -> active pursuit through hostile streets
-- **New on-page information:**
-  - The Cult has an established city-security protocol, not an improvised panic response
-  - Jaina can redirect her magical attention from diagnosis to live threat scanning
-  - Andorhal contains enough enforcers to search in coordinated layers
-  - Sylvanas takes Jaina's live magical warnings as movement orders rather than advisories that need translation
-- **Still unknown after beat:**
-  - Which safe house will hold
-  - Whether Corin or Havel have already been burned
-- **Sensory anchors:**
-  - Street noise thinning in the wrong direction as teams reposition
-  - Jaina feeling moving necromancy instead of residue
-  - Sylvanas reading corners and rooflines while the city tightens
-- **Transition intent:** Escape now depends on both halves of the partnership working at full speed together
+### Beat 4
+- They have to leave the safe house before cult enforcers close around it. Jaina reads magical pressure while Sylvanas reads the streets, and Havel keeps pushing the same known routes and shelters.
+- The cult has a prepared city defense, not a panicked response. Jaina and Sylvanas are now covering different danger bands in real time, and Havel's advice lines up too neatly with the closing net.
+- They do not know which fallback house is safe or how wide the search ring already is.
+- Ground the flight: street noise thinning in the wrong places, pressure moving through nearby blocks, Sylvanas reading corners and rooflines at speed.
+- They stop treating Havel as merely difficult.
 
-### Beat 5 — Scene: Reflexive synchronization
-- **Goal:** Reach Havel's fallback shelter without letting the pursuit collapse the formation
-- **Conflict:** The enforcers converge by street geometry while Jaina catches magical pressure shifts that only matter if Sylvanas can convert them into movement in time
-- **Outcome:** **yes-but** — they escape the trap line, but only because the partnership has become a survival mechanism rather than a professional convenience
-- **Value shift:** active pursuit through hostile streets -> survival through synchronized competence
-- **New on-page information:**
-  - Jaina's warning can buy Sylvanas exactly the physical seconds she needs
-  - Cyndia is strong enough to hold the rear while Lyriel keeps the opposite line stable
-  - Corin and Havel are useful because the field team is already operating as one machine
-  - Jaina realizes the escape works because neither woman is translating herself for the other anymore
-- **Still unknown after beat:**
-  - Whether the fallback site is already compromised
-  - Whether the city response has finished escalating
-- **Sensory anchors:**
-  - Heel-turn into a side street a heartbeat before steel arrives
-  - Cyndia covering the rear with clean economy
-  - Jaina and Sylvanas moving as though the warning had been planned minutes earlier instead of felt in the instant
-- **Transition intent:** Once they reach cover, the city-wide response has to be reclassified from danger to doctrine
+### Beat 5
+- Jaina catches pressure shifts just before steel arrives and feeds them to Sylvanas, who turns the warnings into movement. Havel breaks for the route he has been selling them all night, and Sylvanas kills him before he can close the trap.
+- Their partnership is now a survival tool, not just cooperation. Cyndia and Lyriel hold the flanks cleanly, and Corin stays with them when Havel breaks.
+- They do not know whether any cover remains once Havel is exposed or how much of the city net he fed the cult.
+- Ground the break: hard turns into side alleys, rear-guard discipline, one arrow settling the question of Havel.
+- They escape the first closure with Corin and without Havel.
 
-### Beat 6 — Sequel: Fallback protocol
-- **Emotion:** Hard realization
-- **Dilemma:** Treat the response as one ugly cover-up, or accept that the city has rehearsed and institutionalized what it just did
-- **Decision:** Assume a standing security doctrine and work from the premise that Andorhal expected investigators eventually
-- **Value shift:** survival through synchronized competence -> military-grade opposition
-- **New on-page information:**
-  - Havel has fallback sites because the city has felt wrong for long enough to justify them
-  - Corin and Havel were never paranoid enough; the system is deeper than that
-  - The network planned for breach, containment, and witness removal in advance
-- **Still unknown after beat:**
-  - Whether the grain rollout is already complete
-  - Who sits above the city-level protocol
-- **Sensory anchors:**
-  - Havel's secondary shelter feeling chosen by a man who expects to lose the first one
-  - Corin going pale at the speed of the response
-  - Jaina's notes changing from investigative model to emergency triage
-- **Transition intent:** The next pass has to ask the question Jaina most wants the answer to and least wants confirmed
+### Beat 6
+- In Corin's hideout, the last pieces fit. Havel's debts vanished when the supplier routes changed, reports died whenever they touched the wrong granaries, and cult enforcers moved first toward every shelter he named.
+- Havel was on cult coin, and the network planned for breach, containment, and witness silencing months ago. Andorhal's local cell is only one layer of a larger structure.
+- They do not know whether the spread can still be slowed or who sits above the city's dark masters.
+- Ground the aftermath: a hideout that feels temporary, Corin going pale as he says it aloud, Jaina shifting from investigation notes to emergency notes.
+- Jaina turns from the local cell to the source behind it.
 
 ---
 
-## Scene 3: The Revelation
+## Scene 3: The Name
 
-**Scene function:** Reveal that the party arrived too late to stop deployment, then turn the investigation personal by naming Kel'Thuzad.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, Corin, Havel
-**Knowledge at scene start:** The city has full internal security protocol and the local cell is only one layer of the problem
+**The action:** Jaina confirms the plague is already moving beyond Andorhal and finally identifies the mind behind it.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, Corin.
+**Starting point:** The local cult cell has shown its internal defenses, proving the group in Andorhal is only one layer of a larger problem.
 
-### Beat 7 — Scene: Already shipped
-- **Goal:** Determine whether Andorhal can still be contained at the city level
-- **Conflict:** Jaina's contamination map, route notes, and captured fragments keep pointing outward toward bakeries and settlements that have already received treated grain
-- **Outcome:** **no-and** — she proves Andorhal is the distribution center rather than the destination, and the proof means the rollout is already underway beyond recall from this room
-- **Value shift:** military-grade opposition -> too late to stop the local rollout here
-- **New on-page information:**
-  - Poisoned grain has already moved out into northern Lordaeron's bakeries and settlements
-  - Andorhal is the engine room of deployment, not the final target
-  - Jaina's early detection still leaves the party one step behind the actual rollout
-- **Still unknown after beat:**
-  - Where the architect is operating from now
-  - Whether any intact hub remains upstream of Andorhal
-- **Sensory anchors:**
-  - Route lines radiating away from Andorhal instead of converging inward
-  - Jaina going still when the map stops being a city problem
-  - The sick intellectual certainty of data that refuses to be merciful
-- **Transition intent:** Once lateness is confirmed, the chapter needs the one name that explains the level of work behind it
+### Beat 7
+- Jaina lays her contamination map against route notes and the prisoner's last broken words. The lines point outward. Andorhal is not the whole problem; it is the hub feeding the roads.
+- Treated grain has already moved beyond the city, and Jaina's early detection still leaves them behind the spread. The next answer has to come from the mind that built it.
+- They do not know where the mastermind is operating from or whether any upstream hub can still be cut off.
+- Ground the realization: route lines fanning away from Andorhal, Jaina going still over the map, the sick certainty of being late.
+- They need a name, not just proof of scale.
 
-### Beat 8 — Scene: Kel'Thuzad surfaces
-- **Goal:** Attach a command identity to the plague network before the trail goes cold again
-- **Conflict:** No single witness survives to say the name cleanly, so Jaina has to build it from fragments Corin knows, Havel has heard, and the dead operative almost spoke
-- **Outcome:** **yes-but** — the name arrives, but it lands as personal and institutional contamination rather than simple progress
-- **Value shift:** too late to stop the local rollout here -> named architect, personal mirror
-- **New on-page information:**
-  - The architect is Kel'Thuzad
-  - He was a Kirin Tor mage expelled by Antonidas for necromantic research
-  - His operations are somewhere north of Andorhal, not finished at the city line
-  - The intellectual quality of the plague finally has a mind attached to it
-- **Disclosure provenance:** Kel'Thuzad's identification is assembled from Corin's local knowledge, Havel's intelligence fragments, and the dead operative's cut-off near-confession; nobody delivers it in one clean speech.
-- **Still unknown after beat:**
-  - Kel'Thuzad's exact base
-  - Whether anything sits above him in the chain
-- **Sensory anchors:**
-  - Corin saying the name like something dangerous to hold in his mouth
-  - Havel giving the human-intelligence fragments that make the identification stick
-  - Jaina freezing in a way battle never produces in her
-- **Transition intent:** The chapter must end not on explanation but on what the name does to Jaina's sense of her own training
+### Beat 8
+- The name comes together from fragments: Corin's local knowledge, the prisoner's cut-off confession, and what Havel's betrayal says about the level of planning. The answer is Kel'Thuzad.
+- Kel'Thuzad was a Kirin Tor mage expelled by Antonidas for necromantic work, which means the plague finally has a human architect Jaina can place. His operation lies somewhere north of Andorhal.
+- They do not know his exact base.
+- Ground the naming: Corin saying the name like it burns, Havel's betrayal hardening theory into certainty, Jaina going still for a reason deeper than fear.
+- The hunt becomes personal for Jaina.
 
-### Beat 9 — Sequel: He also thought he was right
-- **Emotion:** Physical stillness, almost shock
-- **Dilemma:** File Kel'Thuzad as one more enemy name, or acknowledge him as a dark reflection of the same institution and methodology that made Jaina
-- **Decision:** Carry the name forward and reorient the investigation north, while privately accepting that Antonidas's world produced this as surely as it produced her
-- **Value shift:** named architect, personal mirror -> the investigation now has a human face and a deeper intellectual threat
-- **New on-page information:**
-  - Kel'Thuzad was Antonidas's colleague, not an abstract heretic from some distant school
-  - Jaina experiences the name as a mirror, not merely a clue
-  - The next phase of the investigation points north into the Eastweald and whatever site houses his real work
-- **Still unknown after beat:**
-  - The exact location of Kel'Thuzad's base
-  - How the field team will reach it before another layer closes
-- **Sensory anchors:**
-  - The room quiet except for the after-sound of the name
-  - Jaina's body going still before her thoughts do
-  - Everyone else understanding the pause without yet understanding all of it
-- **Transition intent:** Chapter 9 opens after the Andorhal data has been turned into an Eastweald field campaign aimed toward the northbound command zone
+### Beat 9
+- Jaina has to face what the name means. Kel'Thuzad is not some distant heretic. He came out of the same arcane world that trained her.
+- The investigation now has a familiar human center, and the trail points north into the Eastweald. Chapter 9 begins as a hunt for the real seat of the work.
+- They do not know Kel'Thuzad's exact base or how they will reach it before the next layer closes.
+- Ground the close: silence in the hideout, everyone feeling the weight of Jaina's pause before they know the history inside it.
+- Chapter 9 opens on the northbound hunt.
 
 ---
 
@@ -282,18 +174,17 @@
 - Cyndia
 - Lyriel
 - Corin
-- Captain Havel
 
-**Facts locked for Chapter 9**
-- Lyriel is alive at the end of Chapter 8
-- Andorhal is the distribution center and the treated grain is already moving through northern Lordaeron
-- The network's response speed is standing protocol, not improvisation
-- Kel'Thuzad is named as the architect: former Kirin Tor, expelled by Antonidas, operating somewhere north of Andorhal; the identification was stitched from Corin, Havel, and the captive's broken clue rather than a clean confession
-- Corin and Havel remain local Andorhal allies, but the traveling field team going forward is still the four-woman core unit
-- The party can detect the plague earlier than most authorities, but is still one step behind the rollout
+**What carries into Chapter 9:**
+- The cult can kill captured zealots with a death-curse.
+- Havel was a cult-paid city contact, and Sylvanas kills him when he turns the trap.
+- Corin remains a trusted ally inside Andorhal.
+- Andorhal is a working hub, and treated grain has already moved into northern Lordaeron.
+- Kel'Thuzad is identified as the former Kirin Tor mastermind operating north of Andorhal.
+- The same four-woman scouting party carries the hunt forward.
 
-**Facts not yet earned**
-- Kel'Thuzad's precise base
-- Full Barov culpability
-- Any solution to the old seller / newer grain-man clue
-- Any suggestion that Andorhal alone can reverse what has already been deployed
+**Do not add yet:**
+- Kel'Thuzad's exact base.
+- Full Barov guilt.
+- An answer to the old seller and newer grain-man clue.
+- Any claim that shutting down Andorhal alone can undo the spread.

@@ -1,0 +1,243 @@
+{
+  "chapterId": "chapter5",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 7,
+      "kills": 2,
+      "keeps": 5,
+      "killRate": 28.6,
+      "dominantPattern": "fragment pivots and negated reassessment beats",
+      "severityCounts": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "clusterPages": [],
+      "clusterWarnings": [
+        "Scene 3's retrospective memory beat stacks back-to-back negated reassessment fragments."
+      ],
+      "findings": [
+        {
+          "severity": "mild",
+          "line": "The room was empty. Not stripped, not wholly.",
+          "pattern": "P2 fragment pivot",
+          "deletionTest": "The room was empty.",
+          "reason": "The affirmative sentence and the inventory that follows already carry the information; the negated fragment is scaffolding.",
+          "suggestedFix": "The room was empty.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "mild",
+          "line": "Not honest surprise. Or not only that.",
+          "pattern": "P7 chained negation",
+          "deletionTest": "Honest surprise. Only that.",
+          "reason": "The pair defines Sylvanas's reassessment by rejecting labels instead of stating the revised read directly.",
+          "suggestedFix": "Some calculation in it too.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "killRate": 57.1,
+      "dominantPattern": "roads and abstractions carrying movement or logistical agency",
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 4,
+        "severe": 0
+      },
+      "clusterFlags": [
+        "Scene 1 route-analysis stretch (lines 35-73) carries three separate road/route smears."
+      ],
+      "repeatNouns": [
+        "road",
+        "roads"
+      ],
+      "pattern4Alert": "no",
+      "findings": [
+        {
+          "severity": "moderate",
+          "line": "The numbers showed the same mark feeding the sickest towns, and the same trouble kept moving south on wagon routes, farther than any one village could see.",
+          "subject": "trouble",
+          "verb": "kept moving",
+          "realAgent": "contaminated grain shipments traveling south on the wagon routes",
+          "pattern": "P5 abstraction given physical behavior",
+          "reason": "The sentence makes an abstraction travel on the routes instead of naming the contaminated grain doing the movement.",
+          "suggestedFix": "The numbers showed the same mark feeding the sickest towns, and the same contaminated grain kept moving south on wagon routes, farther than any one village could see.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "line": "South and west instead, into the heavy grain roads that fed the kingdom's interior, the ones laid in her grandmother's day to drag harvest out of the Andorhal basin.",
+          "subject": "roads",
+          "verb": "fed",
+          "realAgent": "grain carts and grain traffic moving inward along those roads",
+          "pattern": "P1 infrastructure with provisioning verb",
+          "reason": "The prose gives the roads the work of provisioning the interior instead of naming the traffic using them.",
+          "suggestedFix": "South and west instead, into the heavy grain roads used to drag harvest out of the Andorhal basin and deeper into the kingdom's interior.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "line": "Four days more and they would be deep in the basin, where every road thickened.",
+          "subject": "road",
+          "verb": "thickened",
+          "realAgent": "the road network growing denser in the basin",
+          "pattern": "P1 infrastructure with physical-behavior verb",
+          "reason": "The sentence makes the road itself change substance instead of naming the denser network Sylvanas is tracking.",
+          "suggestedFix": "Four days more and they would be deep in the basin, where the roads lay closer together.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "severity": "moderate",
+          "line": "South of Millbrook Spur the King's Road thickened into the main grain road, the one that fed straight into Andorhal and then branched to half the kingdom.",
+          "subject": "King's Road / grain road",
+          "verb": "thickened / fed",
+          "realAgent": "the widening route and the grain traffic running into Andorhal before splitting outward",
+          "pattern": "P1 repeated infrastructure smear",
+          "reason": "The road is again given the logistics work that belongs to its traffic pattern, and this repeats the chapter's road-agency habit.",
+          "suggestedFix": "South of Millbrook Spur the King's Road widened into the main grain road, the one that ran straight into Andorhal before branching toward half the kingdom.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "killRate": 0.0,
+      "dominantPattern": "all checked tic families stayed at or below cap",
+      "severityCounts": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "ticCounts": {
+        "marked": 2,
+        "eyeGazeBeats": 1,
+        "weightHeavyMetaphors": 0,
+        "creativeTags": 0
+      },
+      "cleanReason": "Reviewed every listed tic family plus the pass-A tool-signaled lines. 'Marked' appears exactly twice and both uses are physical; eye/gaze appears once as a tactical scan; the heavy/weight hits are literal descriptors rather than gravity metaphors; no corner-of-mouth, tightened/eased, expression-shift, or creative-tag overages appear.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 16,
+    "mildKills": 2,
+    "moderateOrSevereKills": 4,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: four moderate intent-smear kills remain, plus two mild negation pivots. Analytic hints also show structural rhythm concerns and a below-target texture profile.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.379,
+        "target": 0.72,
+        "delta": -0.341,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.791,
+        "target": 0.7,
+        "delta": 0.091,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 48.0,
+        "target": 19.0,
+        "delta": 29.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "notes": [
+        "structural rhythm concerns: comma_period_ratio below calibrated range",
+        "structural rhythm concerns: one_sentence_paragraph_pct far above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdictReasons": [
+        "participial_pct 2.1% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.7% below floor 4.0% (human: 8.5%)",
+        "texture_score 8.9% below floor 10.0% (human: 24.4%)",
+        "short_pct 63.4% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 3.7% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 63.4% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassageCounts": {
+        "telegram_run": 17,
+        "texture_desert": 7
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 13,
+        "totalViolations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

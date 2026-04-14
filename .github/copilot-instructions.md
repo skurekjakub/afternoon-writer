@@ -20,6 +20,14 @@ When adding a new config field, agent, or pipeline feature: update the relevant 
 
 **Changelogs:** The afternoon pipeline maintains `docs/afternoon-pipeline-changelog.md`. When making structural changes to the afternoon pipeline (new agents, behavior changes, config fields, convergence fixes), append an entry at the top of this file describing the problem, root cause, and per-file changes. New entries go at the top.
 
+## Afternoon Prose Guardrails
+
+Across the afternoon pipeline, keep these invariants aligned in prompts, guides, tools, and docs:
+
+- The real actor owns the verb. Do not let plans, rooms, cities, streets, answers, or body parts do human work when a concrete actor exists.
+- Beat cards are not sentences. Do not let planner shorthand, split-task summaries, or tactical note-speak survive into prose when the concrete street, door, route, proof problem, or watch gap can be named.
+- Scene break markers follow `transitionIntent` / `chapterBridge`. Do not insert or preserve `---` between continuous beats, same-room planning, same walk, or uninterrupted dialogue.
+
 ## Web Search Fallback
 
 If no dedicated `web_search` tool is available, use `web_fetch` with DuckDuckGo Lite for search queries: `https://lite.duckduckgo.com/lite/?q=your+search+terms`. This returns plain HTML that parses cleanly. Do NOT attempt Google Search URLs — they return JavaScript-heavy pages that cannot be parsed.

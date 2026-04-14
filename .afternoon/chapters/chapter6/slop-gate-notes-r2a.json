@@ -1,0 +1,205 @@
+{
+  "chapterId": "chapter6",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "dominantPattern": "diagnostic contrast pivots",
+      "findings": [
+        {
+          "line": 7,
+          "text": "The grain did not finish the work. It prepared the body for it.",
+          "pattern": "pattern-5-preamble-negation",
+          "deletionTest": "It prepared the body for it.",
+          "severity": "mild",
+          "reason": "The affirmative second sentence already carries the mechanism; the negated first half is removable scaffolding.",
+          "suggestedFix": "The grain prepared the body for it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 123,
+          "text": "He turned the route diagram once and followed the lines the way commanders followed roads, not as marks on parchment but as movement, distance, supply.",
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "deletionTest": "He turned the route diagram once and followed the lines the way commanders followed roads, in terms of movement, distance, and supply.",
+          "severity": "mild",
+          "reason": "The comparison lands cleanly without the negated half; the pivot delays an image the sentence can state directly.",
+          "suggestedFix": "He turned the route diagram once and followed the lines the way commanders followed roads, in terms of movement, distance, and supply.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 2,
+      "keeps": 5,
+      "dominantPattern": "scene-state agency laundering",
+      "findings": [
+        {
+          "line": 109,
+          "text": "\"Your Highness.\" Sylvanas stood two steps back and to the right, already arranged for the room before the room finished arranging itself around her.",
+          "pattern": "pattern-6-scenery-architecture-agency",
+          "subject": "the room",
+          "verb": "finished arranging itself",
+          "realAgent": "court protocol and the people around Arthas taking their places",
+          "severity": "moderate",
+          "reason": "The room is given self-organizing agency that belongs to protocol and the people physically positioning themselves in it.",
+          "suggestedFix": "\"Your Highness.\" Sylvanas stood two steps back and to the right, already where protocol would put her before the others had fully settled.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 297,
+          "text": "Cyndia's gelding gave two side-tilting steps that argued hard for turning back.",
+          "pattern": "physical-evidence-arguing",
+          "subject": "two side-tilting steps",
+          "verb": "argued",
+          "realAgent": "the gelding's sidling movement making its reluctance visible",
+          "severity": "moderate",
+          "reason": "The steps are made to argue instead of the prose naming the horse's visible attempt to turn away.",
+          "suggestedFix": "Cyndia's gelding gave two side-tilting steps toward the shoulder, trying hard to turn back.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 19,
+      "kills": 1,
+      "keeps": 18,
+      "dominantPattern": "punct_colon_narration",
+      "findings": [
+        {
+          "line": 307,
+          "text": "It looked alive: gates open, traffic moving, wagons unloading and leaving empty for more.",
+          "pattern": "punct_colon_narration",
+          "severity": "mild",
+          "reason": "This is the fifth narration colon in the chapter and the weakest over-cap instance; the generic predicate can be dropped and the inventory can be stated directly.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Gates stood open, traffic moved, wagons unloaded and left empty for more.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 27,
+    "mildKills": 3,
+    "moderateOrSevereKills": 2,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": 3,
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 2 moderate intent-smear kills remain (the room arranging itself; the steps arguing for retreat) plus 3 mild mechanical kills. Rhythm also stays structurally flat in several audited zones.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.382,
+        "target": 0.72,
+        "delta": -0.338,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "value": 0.802,
+        "target": 0.7,
+        "delta": 0.102,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 42.4,
+        "target": 19.0,
+        "delta": 23.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "notes": [
+        "structural rhythm concerns: comma/period ratio is well below target",
+        "structural rhythm concerns: sentence-length variance is slightly above the allowed ceiling",
+        "structural rhythm concerns: one-sentence paragraph rate is far above target"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 1.8% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.8% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassages": {
+        "telegram_run": 18,
+        "texture_desert": 9
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 23,
+        "totalViolations": 2,
+        "overCap": [
+          {
+            "category": "punctuation_tics",
+            "pattern": "punct_colon_narration",
+            "count": 5,
+            "cap": 4
+          },
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0
+          }
+        ],
+        "passScopedSignals": {
+          "punct_colon_narration": 5,
+          "punct_semicolon": 4,
+          "simile_overload": 3,
+          "participial_attachment": 2
+        }
+      }
+    }
+  }
+}

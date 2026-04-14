@@ -1,295 +1,177 @@
 # Chapter 4: The Sick Village
 
 **POV:** Jaina Proudmoore (limited third, absolute)
-**Timeline position:** Two days after Chapter 3. The party has ridden south through ordinary-looking country marked by scattered sickness and stronger readings, not open collapse.
-**Open location:** A still-functioning village south of Millhaven where sickness is spreading but has not yet been named for what it is.
-**Transport:** Southbound on Thalassian horses; on foot inside the village.
-**Active cast at open:** Jaina, Sylvanas, Cyndia, Lyriel.
-**Immediate objective:** Assess an ordinary-looking outbreak site before it quietly becomes another Millhaven.
+**When:** Two days after Chapter 3, after a southbound ride through country that still looks normal even with the sickness already in it.
+**Where:** A working village south of Millhaven where people are falling ill but have not named the outbreak for what it is.
+**Travel:** Southbound on Thalassian horses, then on foot inside the village.
+**Characters:** Jaina, Sylvanas, Cyndia, Lyriel.
+**Goal:** Learn how the sickness gets into people quickly enough to keep this village from becoming another Millhaven.
 
-## Meta info
+## References
 
 - **Worldbuilding references:** [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
 - **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
 
-**What Jaina knows at open**
-- The survivor girl's testimony plus the follow-up tracking pass confirmed Millhaven's dead marched north toward Quel'Thalas
-- Millhaven appears to be the first village on this road fully claimed; the country beyond still looks ordinary enough to hide milder outbreaks
-- Her sensitivity lets the party notice trouble earlier than anyone else would, but not early enough to save a village once the grain is already moving
-- The contamination is physical, pervasive, and lethal
-- The magical signature is necromantic in the broad Kirin Tor sense, even if the banned applied theory behind it sits outside her education
-- One survivor girl was found in Millhaven and sent north under Neral's escort on horseback
-- Neral has already departed north and is no longer with the riding party
-- The old seller and the girl's testimony together produced one weak clue about a newer grain seller, but nothing conclusive
+**Jaina's starting position:**
+- Millhaven's dead marched north toward Quel'Thalas.
+- Millhaven looks like the first village on this road that was fully lost.
+- Other places can still look ordinary even when the sickness is already rooted in them.
+- Her magical sensitivity lets the party feel trouble earlier than most people would, but not early enough to save a village once the contamination is planted.
+- The plague is physical, pervasive, lethal, and necromantic in broad Kirin Tor terms, even if the exact banned method sits outside her training.
+- Neral already rode north with the survivor girl and the warning.
+- The old seller on the road and the girl's newer grain man are still only weak clues.
 
-**What Jaina does NOT know at open**
-- How it first gets into people
-- Whether the old grain seller matters
-- Whether this village can still be saved
-- Whether someone is steering the outbreak or it is spreading on its own
-- The exact point where sickness becomes the dead getting back up
+**Still in the dark about:**
+- How the sickness first gets into the body.
+- Whether this village can still be saved.
+- Whether someone is steering the outbreak or it is spreading on its own.
+- The exact point where sickness becomes undeath.
+- Whether the old seller from the road actually matters.
 
-**Must not be implied yet**
-- No grain confirmation before Jaina earns it from patient patterning
-- No cult proof before the granary scene
-- No retroactive certainty about the old seller
-- No suggestion that Jaina is ignorant of necromancy in the broad sense; her gap is in banned practice, not in knowing the subject exists
+**Hold back:**
+- No grain connection before Jaina earns it from the patient pattern.
+- No proof of a cult before the granary scene.
+- No solved old seller mystery.
+- No suggestion that Jaina knows nothing about necromancy. Her gap is in banned practice, not the field itself.
 
-**What the cast knows leaving the chapter**
-- Grain is confirmed as what carries the plague into people, and the road and storehouses are how it spreads
-- A live village watcher existed inside the sickness pattern and died by poison before he could be questioned
-- Andorhal is now the next route objective
-- The old seller / newer grain-man anomalies remain weak scraps in the file rather than proof
+**End of chapter state:**
+- Grain carries the plague into people.
+- Roads and storehouses are how the plague spreads.
+- A live watcher was inside the village and died by poison before he could be questioned.
+- Andorhal is the next destination on the route.
+- The old seller and the newer grain man are still unresolved scraps of information.
 
 ---
 
-## Arc position
+## Character Arcs
 
 ### Jaina
-- **Current stance at open:** If Jaina can name how the sickness is getting into people quickly enough, she can still keep this village from becoming another Millhaven.
-- **Surface objective:** Find the entry path before the living village tips over into the same silence and bodies.
-- **Pressure source:** The contamination is buried inside ordinary routines, and Sylvanas keeps seeing the human tells Jaina keeps treating as background.
-- **Misbelief manifestation:** Jaina keeps reaching for the magical answer first and treating Sylvanas's people-read as supporting evidence instead of part of the core method.
-- **Chapter test:** Every lead that looks purely arcane opens back into food, labor, timing, and village habit.
-- **Forced choice:** Keep driving toward a neat magical answer, or let Sylvanas's read of fear, routine, and supply reshape where Jaina looks.
-- **End-state shift:** Jaina leaves with more evidence and less control. She still wants the clean mechanism, but she stops pretending Sylvanas is just escort muscle.
-- **Carry-forward residue:** Chapter 5 opens with Jaina quicker to bring Sylvanas the messy human details instead of filing them as background noise.
+- She opens believing that if she can find the entry route fast enough, she can stop this village from becoming another Millhaven.
+- She keeps reaching for a clean magical answer and underrates Sylvanas's read of people, habits, and supply.
+- By the end, Jaina has the answer, but it comes through food, labor, timing, and Sylvanas's practical eye as much as through spellwork.
+- She stops treating Sylvanas like escort muscle and starts bringing the human side of the problem straight to her.
 
 ### Sylvanas through Jaina's POV
-- **Visible function:** The woman who can read fear, routine, and supply faster than Jaina can.
-- **POV misread at open:** A sharp soldier, but still someone working below the level of the real answer.
-- **Correction earned here:** Sylvanas keeps landing on the pressure points Jaina misses, which forces Jaina to admit this is not lesser intelligence, just a different cut through the same problem.
-- **Interaction rule:** Jaina can use Sylvanas's name in her head easily now, but the tone stays tense. By chapter close she should sound less like she is lecturing downward.
+- Jaina starts out reading Sylvanas as sharp, useful, and secondary to the real magical problem.
+- Sylvanas keeps seeing the pressure points Jaina misses: fear, routine, authority, and supply.
+- By the end, Jaina is thinking of her as Sylvanas, not just the ranger, and she stops talking down to her.
 
-### Partnership / team
-- **Operating mode at open:** Two specialists sharing a road because neither can finish the job alone.
-- **Operational change this chapter:** The village proves their work only holds when Jaina reads the arcane layer and Sylvanas reads the human one at the same time.
-- **Naming/attitude rule:** Irritation stays. Superiority weakens.
-- **Do-not-overstate rule:** This is not trust or softness. It is the first time Jaina admits the other half of the method.
+### Partnership
+- They enter the village as two specialists on the same road, but not the same method.
+- The investigation proves neither approach works alone.
+- They leave still tense, but now they are solving one problem together instead of arguing over whose kind of knowledge counts.
 
 ---
 
 ## Cast and handoff rules
 
-- **Cyndia:** Still present with the riding party.
-- **Lyriel:** Still present with the riding party.
-- **Neral:** Not in this chapter. She has already departed north with the warning relay and the survivor girl.
-- **Survivor girl:** Not in this chapter. She has already departed north under Neral's escort.
-- **Militia captain / village medic / granary keeper / cult initiate:** Local one-chapter villagers for this outbreak site only.
+- **Cyndia:** Still with the riding party.
+- **Lyriel:** Still with the riding party.
+- **Neral:** Not with the party. She already left north with the survivor girl.
+- **Local village cast:** The militia captain, medic, granary keeper, and cult initiate belong to this outbreak site only.
 
-**Chapter handoff target:** Chapter 5 opens with the same smaller riding party following the grain road southwest.
-
----
-
-## Scene 1: The Village That Is Not Dead Yet
-
-**Scene function:** Show the plague while the village still thinks it is ordinary sickness, and split the work between Jaina's sickroom read and Sylvanas's people read.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, militia captain, villagers
-**Knowledge at scene start:** The contamination is real; how it gets into people is still unknown
-
-### Beat 1 — Scene: Arrival into ordinary life with something wrong
-- **Goal:** Enter and assess the village
-- **Conflict:** This settlement is still functioning, and that makes the danger harder to read because the locals see sickness, not plague
-- **Outcome:** **yes-but** — the party reaches a living site, but Jaina immediately understands the wrongness is already inside ordinary life
-- **Value shift:** investigative focus -> ordinary village with buried wrongness
-- **New on-page information:**
-  - The same contamination can be observed before open collapse
-  - Most villagers still think they are dealing with an ugly run of sickness, not a spreading weapon
-- **Still unknown after beat:**
-  - How the sickness is getting in
-  - Whether intervention can do more than delay death
-- **Sensory anchors:**
-  - Bread smoke and market noise with coughs threaded through them
-  - Flushed child kept on her feet because no one yet knows she should be in bed
-  - Sick-sweetness hiding under ordinary village smells
-- **Transition intent:** The militia captain blocks easy access and forces Sylvanas to negotiate a workable role
-
-### Beat 2 — Scene: Sylvanas gets them inside
-- **Goal:** Secure access without provoking a jurisdiction fight
-- **Conflict:** The militia captain has no reason to trust armed elves in what still looks, to him, like a bad local sickness run
-- **Outcome:** **yes-but** — Sylvanas gets access by confirming Millhaven's fate and forcing him to take the possibility seriously, but local trust is thin and disbelief still slows everyone
-- **Value shift:** ordinary village with buried wrongness -> access under pressure
-- **New on-page information:**
-  - Sylvanas can read exhausted authority and bargain with it instead of bulldozing it
-  - Jaina sees diplomacy where she expected force
-  - Jaina realizes Sylvanas is solving the room instead of dominating it, which is not what she expected from a soldier
-- **Still unknown after beat:**
-  - Whether what they learn here will generalize beyond this village
-- **Sensory anchors:**
-  - Work-rough hands on the militia captain
-  - Sylvanas lowering her voice instead of raising it
-  - Weight of "no one left" landing on the man
-- **Transition intent:** Jaina is sent to the infirmary while Sylvanas works the village through its doors, stores, and frightened people
-
-### Beat 3 — Scene: The infirmary
-- **Goal:** Map the contamination in living bodies
-- **Conflict:** Jaina is looking at the same necromantic pattern she saw as residue in Millhaven, but now alive and spreading through tissue in real time
-- **Outcome:** **yes-but** — she can describe the stages, but not yet how it first gets in
-- **Value shift:** access under pressure -> whatever is doing this is getting into them somehow
-- **New on-page information:**
-  - Early cases cluster contamination in the gut
-  - Only a handful of cases are sick enough to show the pattern spreading out from the gut, which means the body is taking it in and carrying it further
-  - The village medic has been treating it as fever because he has no better word for it
-- **Still unknown after beat:**
-  - Whether the entry route is food, water, contact, or layered exposure
-- **Sensory anchors:**
-  - Sweetness on infected breath
-  - Jaina's magic on living tissue
-  - Borrowed cots in a room that was never meant to be an infirmary
-- **Transition intent:** Jaina doubles down on pattern recognition while Sylvanas gathers the village's change history
+**Next chapter starts:** Chapter 5 opens with the same four riders following the grain road southwest.
 
 ---
 
-## Scene 2: Complementary Minds
+## Scene 1: The Village Before Collapse
 
-**Scene function:** Let each woman solve half the trouble until the halves finally meet.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, medic, granary keeper, village civilians
-**Knowledge at scene start:** The contamination is getting into people somehow; the village's routines may hold the answer
+**The action:** They enter a village that still looks functional, and Jaina has to prove the plague is already inside it.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, militia captain, villagers, medic.
+**Starting point:** The contamination is real, but no one knows how it is getting into people.
 
-### Beat 4 — Scene: Stabilization and limits
-- **Goal:** Slow the contamination where possible
-- **Conflict:** Jaina can help some patients temporarily, but she cannot treat the underlying intake while the village keeps eating from the same stores
-- **Outcome:** **yes-but** — she proves partial intervention is possible, but only as delay, not cure
-- **Value shift:** whatever is doing this is getting into them somehow -> I can buy time, not victory
-- **New on-page information:**
-  - Stabilization wards can slow progression in some cases
-  - Most patients are still early enough to help if the entry route is found quickly
-- **Still unknown after beat:**
-  - What the patients are all taking in that created the pattern
-- **Sensory anchors:**
-  - Blue stabilization light over amber-wrong contamination
-  - Farmer's wife's hands going still
-  - Child watching Jaina work from the corner
-- **Transition intent:** Jaina now cross-references patient condition against diet and routine
+### Beat 1
+- They ride into a village that is still alive and working, which makes the danger harder to pin down. Jaina feels the necromantic wrongness under market noise, bread smoke, and people trying to act normal.
+- The plague is already here even though ordinary life is still running. Jaina knows this place is earlier in the same pattern Millhaven finished.
+- They don't know how the sickness gets in or whether stepping in now can still change the outcome.
+- Ground the arrival: bread smoke over the lane, coughing buried under village noise, a flushed child kept on her feet because no one knows better.
+- A militia captain stops them before they can move freely.
 
-### Beat 5 — Scene: Ingestion
-- **Goal:** Isolate the entry route
-- **Conflict:** Jaina has to sort the real clue from a pile of ordinary food and habit
-- **Outcome:** **yes** — she proves the contamination enters through ingestion and that heavy bread-eaters are the worst cases
-- **Value shift:** I can buy time, not victory -> the grain is the weapon
-- **New on-page information:**
-  - Gut concentration is the real clue
-  - Bread consumption correlates with severity
-  - Home-grown oats / separate provisions correlate with lighter cases
-  - Repeated meals matter; this is cumulative settling in the body, not one bad swallow
-- **Still unknown after beat:**
-  - Where the tainted grain first joins the local stores
-- **Sensory anchors:**
-  - Bakery in view from the infirmary door
-  - Grain dust on wood and clothes
-  - Jaina gripping the frame when the pattern locks
-- **Transition intent:** Jaina now knows what is making people sick, but not who put it there
+### Beat 2
+- The captain has no reason to trust armed outsiders in the middle of an outbreak. Sylvanas gets them through by making Millhaven concrete enough to scare him without sparking panic.
+- Jaina watches Sylvanas solve a human problem she could not have solved with magic. The captain gives them room because Sylvanas knows exactly how hard to press.
+- They don't know if this village is following Millhaven's full pattern or whether the captain can keep order if panic starts.
+- Ground the exchange: work-rough hands on a spear shaft, Sylvanas lowering her voice instead of raising it, the words no one left in Millhaven landing hard.
+- Once the captain yields, Jaina heads to the sick while Sylvanas starts reading the village.
 
-### Beat 6 — Scene: Sylvanas's village thread
-- **Goal:** Determine what changed in the village before the outbreak
-- **Conflict:** The witnesses only remember routines, prices, deliveries, and practical changes — not magical theory
-- **Outcome:** **yes-but** — Sylvanas finds the same supplier/timeline pattern as Millhaven, but still cannot prove why it matters
-- **Value shift:** the grain is the weapon -> same supplier, same timeline
-- **New on-page information:**
-  - New grain supplier three months back
-  - Same "pleasant, forgettable, better prices" description as earlier
-  - Sylvanas has the people-and-road pattern, but not yet why it matters
-  - Jaina can see from the window that Sylvanas is building a usable model of the village out of prices, deliveries, and fear
-- **Still unknown after beat:**
-  - Whether this supplier is cause or coincidence
-- **Sensory anchors:**
-  - Grain-dusted hands of the keeper
-  - Sylvanas asking very few questions and getting very specific answers
-  - Jaina watching through the window while still half in medical triage
-- **Transition intent:** The two partial pictures have to be laid beside each other
+### Beat 3
+- In the infirmary, Jaina studies living cases and finds the same necromantic pattern she saw at Millhaven, only this time it is still moving through warm bodies.
+- The earliest cases cluster in the gut, and the worse ones spread outward from the stomach. The medic has been treating fever because he has no frame for anything worse.
+- They don't know whether the entry route is food, water, or contact.
+- Ground the triage: sick-sweet breath, borrowed cots packed too close together, Jaina's spell light moving under living tissue instead of over corpses.
+- Jaina narrows the problem to something people are taking in.
 
-### Beat 7 — Sequel: The intelligence exchange
-- **Emotion:** Reluctant recognition
-- **Dilemma:** Both women now have partial explanations that fail alone
-- **Decision:** Share immediately and act on the combined picture
-- **Value shift:** same supplier, same timeline -> tainted grain is being moved on purpose
-- **New on-page information:**
-  - Jaina's answer and Sylvanas's answer fit exactly
-  - The granary is now a crime-scene target, not just a contaminated structure
-  - They are reading the deployment earlier than the villages themselves, but still after each delivery has already landed
-  - Jaina catches herself waiting for Sylvanas's half before trusting her own answer, which is new enough to be disorienting
-- **Still unknown after beat:**
-  - Whether they are dealing with a lone saboteur or an organization
-- **Sensory anchors:**
-  - Grain dust on Sylvanas's gloves
-  - Residual ward-light on Jaina's hands
-  - Silence before both realize they reached the same picture from different directions
-- **Transition intent:** They go to the granary at once
+---
+
+## Scene 2: The Answer Comes Together
+
+**The action:** Jaina and Sylvanas solve different halves of the outbreak until the grain route becomes clear.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, medic, granary keeper, villagers.
+**Starting point:** Jaina sees the contamination inside living bodies, and Sylvanas is reading the village habits around it.
+
+### Beat 4
+- Jaina throws stabilization wards over the worst cases, but the magic only buys time. She cannot help people fast enough if the village keeps swallowing the source.
+- Partial magical relief is possible, and most patients are still early enough to matter. That makes the missing entry route more urgent, not less.
+- They don't know what the patients are all eating or how one source is reaching so many houses at once.
+- Ground the treatment: blue ward-light over amber wrongness, a farmer's wife finally going still, a child watching from the corner while Jaina works.
+- She starts comparing symptoms to diet and routine instead of reaching for a cleaner magical answer.
+
+### Beat 5
+- The patient pattern finally clicks. The worst cases are the people eating the most bread, while those on separate oats or their own provisions are less sick.
+- The contamination enters through ingestion, and repeated meals matter more than one bad swallow. Jaina earns the grain answer from the bodies before anyone names it.
+- They don't know who is poisoning the grain or where the tainted stock enters local storage.
+- Ground the realization: the bakery visible from the infirmary door, grain dust on wood and sleeves, Jaina gripping the frame when the answer lands.
+- She has the body-side truth, but not yet the road-side source.
+
+### Beat 6
+- While Jaina works the bodies, Sylvanas works the village memory. She asks about prices, deliveries, and routine until the small changes start lining up.
+- A new grain supplier appeared three months ago, and the description matches the same pleasant, forgettable type from before. Sylvanas finds the people-and-road half of the pattern that Jaina could not have pulled out of spellwork.
+- They do not know whether this is the same man from the road or how far the pattern reaches beyond this village.
+- Ground the legwork: grain-dusted hands, short practical questions, Jaina catching sight of Sylvanas through glass while still in triage.
+- Their two answers are ready to be joined.
+
+### Beat 7
+- They compare findings and the pieces lock at once. Jaina has the body-side answer, Sylvanas has the road-side answer, and together they point straight at the granary.
+- Tainted grain is moving through trade on purpose, and the granary is now a crime scene instead of just storage. Jaina stops treating Sylvanas's read as background and waits for it as part of the answer.
+- They don't know whether this is one saboteur or a larger network.
+- Ground the join: grain dust on Sylvanas's gloves, ward-light fading from Jaina's hands, the silence after both realize the same thing.
+- They move on the granary at once.
 
 ---
 
 ## Scene 3: The Granary
 
-**Scene function:** Turn the sickness case into a hunt.
-**Cast in scene:** Jaina, Sylvanas, Cyndia, Lyriel, cult initiate, militia captain
-**Knowledge at scene start:** Grain is carrying the plague; the road and storehouses are spreading it
+**The action:** The village investigation turns into an active hunt inside the grain stores.
+**Cast:** Jaina, Sylvanas, Cyndia, Lyriel, cult initiate, militia captain.
+**Starting point:** Grain is the carrier, and the granary is where they can prove it.
 
-### Beat 8 — Scene: The watcher in the granary
-- **Goal:** Secure the grain stores and see how the grain is being doctored
-- **Conflict:** A young initiate is inside actively monitoring the grain and reaches for a lamp to destroy the evidence
-- **Outcome:** **no-and** — Sylvanas stops the fire and Jaina contains the broken agent, but the presence of a watcher proves deliberate conspiracy
-- **Value shift:** someone is moving tainted grain on purpose -> someone is guarding the operation
-- **New on-page information:**
-  - The contamination exists in concentrated liquid form before mixing
-  - A live operative is stationed at village level to monitor the weapon
-- **Still unknown after beat:**
-  - Chain of command
-  - Organizational scale
-- **Sensory anchors:**
-  - Clay vessel shattering
-  - Sweet wrong smell of concentrated agent
-  - Sylvanas's arrow pinning instead of killing
-- **Transition intent:** Capture and interrogation become the next urgent priority
+### Beat 8
+- They enter the grain stores and catch a young initiate watching the operation. The moment he realizes he is caught, he goes for a lamp to burn the evidence.
+- Sylvanas stops the fire, Jaina restrains the watcher, and the granary becomes proof of organization instead of accident. The poison exists as a concentrated liquid before it is mixed into flour.
+- They don't know who commands him or how large the operation is.
+- Ground the seizure: a clay vessel breaking on floorboards, the wrong sweet smell of the concentrate, Sylvanas's arrow pinning a sleeve instead of a throat.
+- For one moment, they have both a living witness and a fresh crime scene.
 
-### Beat 9 — Scene: Capture and fast analysis
-- **Goal:** Secure the prisoner and understand what the vessel means
-- **Conflict:** The initiate is terrified, not disciplined-looking, and that makes him easy to underestimate while Jaina is forced to triage evidence fast
-- **Outcome:** **yes-but** — they physically hold him, and Jaina proves the liquid is skilled work, not something a hedge-meddler threw together, but they do not yet get usable words out of him
-- **Value shift:** someone is guarding the operation -> this is bigger than one frightened boy
-- **New on-page information:**
-  - The alchemical design is far beyond hedge work
-  - The treatment sits on necromantic work Jaina knows only from warnings and half-whispered lessons about the things Dalaran does not teach openly
-  - The initiate is a cog, not a mastermind
-- **Still unknown after beat:**
-  - Names, hierarchy, target scope
-- **Sensory anchors:**
-  - Torchlight on the prisoner's terrified face
-  - Barrier over the broken agent
-  - Lyriel and Cyndia moving the prisoner under armed control
-- **Transition intent:** The interrogation possibility collapses before it can be used
+### Beat 9
+- The initiate is frightened and almost useless, but the spilled concentrate matters more than his panic. Jaina contains it fast enough to study what it is.
+- The liquid is master-level alchemical work built on necromantic theory Jaina only knows from warnings. The prisoner is too low-level to explain much, but the plague is clearly made, not improvised.
+- They don't know the name behind the work or where the center of the network is.
+- Ground the containment: torchlight shaking on the prisoner's face, a barrier thrown over the spill, Cyndia and Lyriel hauling him upright.
+- They move him to a cell because the route matters more than his fear.
 
-### Beat 10 — Scene: The kill-switch
-- **Goal:** Interrogate the initiate before the trail goes cold
-- **Conflict:** By the time they reach the holding cell, the initiate has already killed himself with poison he was carrying for exactly this moment
-- **Outcome:** **no-and** — the witness is dead, and his death proves somebody trained him for capture
-- **Value shift:** this is bigger than one frightened boy -> the village is tied to something larger and colder
-- **New on-page information:**
-  - He was given a way to die before he could talk
-  - The plague operation has enough structure to treat village watchers as disposable hands
-- **Still unknown after beat:**
-  - Exact name of the organization
-  - Full source node
-- **Sensory anchors:**
-  - Warm body on the cell floor
-  - Bare trace of foam at the mouth
-  - Quiet horror in the room after they realize how quickly they lost him
-- **Transition intent:** The only viable next move is to follow the supply chain southwest
+### Beat 10
+- The interrogation dies before it starts. By the time they lock him in, he has already swallowed poison meant for capture.
+- The watcher was trained to die silent, and the people behind the plague are organized enough to waste village-level agents. They lose their only direct witness and keep only the route.
+- They don't know the group's name or the network's center point.
+- Ground the failure: a warm body on cold stone, a trace of foam at the mouth, the room going still when they realize they were beaten again.
+- With the witness gone, they are left with the road.
 
-### Beat 11 — Sequel: Andorhal
-- **Emotion:** Exhausted resolve
-- **Dilemma:** Stay and keep helping a village that still thinks it has a fever problem, or leave partial relief behind and go after the source before more places become Millhaven
-- **Decision:** Follow the grain network toward Andorhal
-- **Value shift:** the conspiracy is organized at scale -> the trail has a destination
-- **New on-page information:**
-  - The source is no longer just an idea; it has a road and a name: Andorhal
-  - Jaina and Sylvanas are now solving the same problem from opposite ends, and the picture only clears when they set their answers together
-- **Still unknown after beat:**
-  - Who sits behind the network
-- **Sensory anchors:**
-  - Night coughing through otherwise ordinary houses
-  - Fading light from Jaina's hands after stabilization work
-  - Grain wagons imagined already moving somewhere southwest
-- **Transition intent:** Chapter 5 opens on the smaller riding party following records, storehouses, and wagon routes toward Andorhal
+### Beat 11
+- With the village only partly helped and the route finally visible, Jaina and Sylvanas have to choose between staying here and riding after the source before more towns fall. They choose the grain road southwest.
+- Andorhal becomes a real destination instead of a guess, and the two of them are now working the same puzzle from different sides. The village can be stabilized, but not saved by waiting.
+- They don't know who sits at the center of the network or whether they can get ahead of the spread.
+- Ground the departure: night coughing through ordinary houses, the hum fading from Jaina's tired hands, the thought of wagons already moving farther south.
+- Chapter 5 opens with the ride after the grain road.
 
 ---
 
@@ -301,15 +183,15 @@
 - Cyndia
 - Lyriel
 
-**Facts locked for Chapter 5**
-- Grain is confirmed as what carries the plague into people
-- The road and storehouse network is how it spreads
-- A live village watcher existed and died by poison before he could be questioned
-- The next target is the route southwest toward Andorhal
-- Millhaven remains the first fully claimed village in the pattern; most other settlements are still only in confused early-stage sickness
-- Millhaven left two weak grain-side anomalies in the file: the old seller on the north road and the survivor girl's memory of a newer grain man
+**What carries into Chapter 5:**
+- Grain is confirmed as the plague carrier.
+- Roads and storehouses are how the plague spreads.
+- A live watcher existed inside the village and died by poison rather than talk.
+- The party's next move is to follow the route southwest toward Andorhal.
+- Millhaven remains the first village fully claimed in the pattern, while other settlements are still in earlier stages.
+- The old seller and the survivor's newer grain man remain weak but persistent clues.
 
-**Facts not yet earned**
-- The Barov family connection as certainty
-- Recognition of the old grain seller
-- Any collapse of the partnership into open trust
+**Do not add yet:**
+- Any Barov connection.
+- Concrete recognition of the old grain seller's identity.
+- Open emotional trust between Jaina and Sylvanas.

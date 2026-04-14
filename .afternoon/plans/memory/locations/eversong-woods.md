@@ -1,9 +1,10 @@
 # Eversong Woods
 
-## Chapter 1 state
+## Overview
+In chapter 1, Eversong Woods is not generic fantasy forest. It is controlled homeland. The trees are golden, the routes are known, and even the silence means something. Sylvanas reads the place the way another person might read a room.
 
-Chapter 1 fixes Eversong as homeland rather than backdrop. The woods are golden, managed, and old enough that their beauty feels structural to the people riding through them. This is not a place Sylvanas discovers; it is a place she knows down to tree spacing, horse footing, and which hollows younger rangers forget to check.
+## How it feels on the page
+The main texture is ordered wildness: amber canopy, fern beds, leaf mold, old stones, and the faint magical ozone that lives around the ward network. Hoofbeats and leather belong here. So does birdsong — which is why Sylvanas notices the gaps in it. Eversong is beautiful, but the beauty is secondary to function. This is defended ground.
 
-The chapter's sensory work matters here. Eversong smells of fern and clean green growth until troll blood cuts across it. It sounds like birdsong, quiet tack, and the physical hum of wards so familiar the riders barely treat it as separate from the road. Even the horses are acclimated to it. That ambient certainty is part of what the chapter later breaks.
-
-As a continuity anchor, Eversong Woods is the baseline of safety, skill, and belonging. It is where Sylvanas is most herself. The more the story drifts away from that feeling, the more important this first chapter memory becomes.
+## Chapter-1 use
+The chapter opens here because this is where Sylvanas is most herself. The clean troll kill, the easy pace beside Lor'themar, and the familiar ward-hum all make the later interruption sharper. Eversong in this chapter is the baseline of competence before the story introduces a wrongness that does not fit the usual border script.

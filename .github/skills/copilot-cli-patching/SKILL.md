@@ -117,6 +117,38 @@ The hook is the strongest mitigation because it runs at the API context level be
 
 ---
 
+## TUI-mode extension loading (trusted flag override)
+
+The Copilot CLI embedded server has two code paths for loading `.github/extensions/`:
+
+1. **Server (RPC) path** — used by VS Code / IDE. Sessions go through `session.create` RPC, which checks `enableConfigDiscovery && EXTENSIONS` flag → calls `setupExtensionsForSession()` → extensions load. **Works out of the box.**
+
+2. **TUI (in-process) path** — used by `copilot` command in terminal (e.g., `afternoon-start.sh`). The session is registered via `registerSession(session, {trusted: false})`. The `startExtensions()` call is gated behind `trusted === true`, but `trusted` is **hardcoded to `false`** and never changed. Extensions never load.
+
+**Patch #12** in `patch-copilot-king.py` fixes this by replacing `registerSession(l,{trusted:!1})` with `registerSession(l,{trusted:!0})`. After patching, extensions load in terminal pipeline runs.
+
+### Key locations in app.js
+
+| What | Search pattern | Notes |
+|---|---|---|
+| Legacy TUI call site | `registerSession(l,{trusted:!1})` | **The one we patch** |
+| React renderer call site | `registerSession(qe,{trusted:hh===1})` | `hh` starts at 0, never changed. Not patched — the legacy path runs first and sets `extensionsLoaded=true`, so the React path falls into the session-change branch which reloads extensions automatically. |
+| Extension discovery | `HXs=".github/extensions"` | `discoverAll()` checks gitRoot + this path |
+| Feature flag | `EXTENSIONS` in feature flags object | Must be enabled via `--experimental` or `COPILOT_CLI_ENABLED_FEATURE_FLAGS=EXTENSIONS` |
+
+### Requirements for TUI extensions
+
+All three must be true:
+1. `EXTENSIONS` feature flag enabled (via `--experimental` or env var)
+2. Patch #12 applied (`trusted:!0`)
+3. Extension directory exists at `.github/extensions/{name}/extension.mjs`
+
+### After `copilot update`
+
+New versions start unpatched. The trusted flag reverts to `false`. Re-run `patch-copilot-king.py` — it auto-discovers the new version and applies all replacements including #12.
+
+---
+
 ## Reference files
 
 - `references/patch-anatomy.md` — Full anatomy of the replacement pair list, patch marker, path discovery, and the JS string escaping rules.

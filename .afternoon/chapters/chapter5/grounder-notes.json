@@ -1,0 +1,121 @@
+{
+  "chapterId": "chapter5",
+  "globalRisks": [
+    "procedural-opening",
+    "dialogue-heavy",
+    "tail-risk"
+  ],
+  "sceneAudits": [
+    {
+      "scene": "Scene 1 - The Paper Trail",
+      "biggestGap": "The original investigation floated above the kingdom's grain system and needed more depot texture, road infrastructure, and rider-contact.",
+      "anchorsAdded": {
+        "place": [
+          "King's Road split south of Millhaven",
+          "Fenwick Crossing counting room",
+          "Thornfield and Crossbar feeder depots"
+        ],
+        "material": [
+          "candle-smoked ledger shelves",
+          "cracked wax board",
+          "grain dust on sleeves and saddle maps",
+          "quiet Thalassian tack"
+        ],
+        "dialogue": [
+          "route arguments over manifests and charcoal marks",
+          "road-analysis on horseback with maps snapping in the wind"
+        ],
+        "exit": [
+          "shadowed north road versus light still holding south"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 2 - The Cleaned Depot",
+      "biggestGap": "The cleaned-depot reversal needed stronger physical evidence of recent erasure so the office and corpse read as engineered quiet, not generic emptiness.",
+      "anchorsAdded": {
+        "place": [
+          "Millbrook Spur freight yard",
+          "factor's office and merchant bunks",
+          "rear office behind the false front"
+        ],
+        "material": [
+          "iced water barrel and ladle",
+          "blank calfskin ledgers",
+          "handcart rope in the mud",
+          "chalk tablet",
+          "torn route strip with broken Barov wax"
+        ],
+        "dialogue": [
+          "corpse assessment tied to crystal work and floorboards",
+          "deduction beats tied to windows, shelves, and slate"
+        ],
+        "exit": [
+          "Barov entering as route pressure through surviving scraps"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 3 - Night Analysis and the South Road",
+      "biggestGap": "The closing analysis risked turning abstract; it needed waystation texture, map contact, and a world-bound memory of the trader to keep the chapter's tail alive.",
+      "anchorsAdded": {
+        "place": [
+          "stone waystation east of Millbrook Spur",
+          "southwest feeder road toward Strahnbrad and Andorhal",
+          "Alterac foothills approach"
+        ],
+        "material": [
+          "rope bunks",
+          "knife pinning the map",
+          "candle stub in draft",
+          "blanketed horses under the lean-to",
+          "grain dust silvering wagon slats in memory"
+        ],
+        "dialogue": [
+          "route debate tied to palms on papers and shifting scraps",
+          "naming shift to Jaina grounded in working rhythm at the table"
+        ],
+        "exit": [
+          "the feeder road continuing south after the light goes out"
+        ]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": [
+      "tail abstraction risk in the route-analysis scene",
+      "memory beat risked floating without enough trader texture"
+    ],
+    "fixesApplied": [
+      "kept the route debate pinned to the map, candle, watch rhythm, and horse noise",
+      "restored the old seller through wagon slats, coat, broken nose, and road-market knowledge",
+      "ended on the physical southbound feeder road rather than abstract resolve"
+    ],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [
+      "characters/jaina-proudmoore",
+      "threads/grain-plague-network",
+      "threads/andorhal-source-node",
+      "relationships/jaina-proudmoore--sylvanas-windrunner",
+      "characters/old-grain-seller"
+    ],
+    "materials": [
+      "stories/the-plague-road/plans/story-arc.md",
+      "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/jaina-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/kelthuzad-voice.md",
+      "stories/the-plague-road/locations/thalassian-horses.md",
+      "stories/the-plague-road/plans/plague-mechanism.md",
+      ".afternoon/style-guide.json"
+    ],
+    "unsourcedAdditions": []
+  }
+}

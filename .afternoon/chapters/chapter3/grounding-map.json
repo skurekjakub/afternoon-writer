@@ -1,0 +1,166 @@
+{
+  "chapterId": "chapter3",
+  "globalRisks": [
+    "dialogue-heavy",
+    "static-room",
+    "tail-risk"
+  ],
+  "segments": {
+    "openingThird": {
+      "risk": "medium"
+    },
+    "middleThird": {
+      "risk": "medium"
+    },
+    "finalThird": {
+      "risk": "high"
+    }
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "Millhaven",
+      "riskTags": [
+        "static-room",
+        "generic-rural-nouns",
+        "forensic-escalation"
+      ],
+      "biggestGap": "The village texture is strong, but several beats still rely on generic house-search language instead of Lordaeron-specific infrastructure and Sylvanas-specific field read.",
+      "sourceBank": {
+        "geography": [
+          "Millhaven",
+          "Northern Lordaeron",
+          "Thalassian Pass",
+          "Quel'Thalas"
+        ],
+        "institutions": [
+          "Farstriders",
+          "Kirin Tor"
+        ],
+        "materials": [
+          "river-stone foundations",
+          "timber-framed granary",
+          "mill wheel",
+          "packed dirt",
+          "grain sacks",
+          "hearth ash",
+          "garden wall"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Bind the sweep to Millhaven's river bend, mill lane, granary, garden plots, and road cut instead of generic village emptiness.",
+        "materialAnchor": "Keep hands on latch iron, flour sacks, packed mud, snapped crust, scummed trough water, and stove plates.",
+        "povAnchor": "Sylvanas reads silence, lines of approach, spoor geometry, and whether Jaina's magic changes the field picture.",
+        "dialogueAnchor": "Any exchange in the houses or granary needs a nearby threshold, horse, sack, or bit of ground doing tactical work.",
+        "exitAnchor": "The missing dead must end world-bound in churned mud and north-running tracks, not abstract dread."
+      },
+      "dialogueRuns": [
+        {
+          "label": "house-sweep reports",
+          "risk": "medium"
+        },
+        {
+          "label": "granary diagnosis",
+          "risk": "high"
+        }
+      ]
+    },
+    {
+      "sceneId": 2,
+      "title": "The Survivor and the Proof",
+      "riskTags": [
+        "cellar-stillness",
+        "dialogue-heavy",
+        "witness-fragment-handling"
+      ],
+      "biggestGap": "The rescue and testimony work, but the dialogue needs more environmental embodiment so the cellar and road cut stay active while the child speaks.",
+      "sourceBank": {
+        "geography": [
+          "Millhaven",
+          "north road"
+        ],
+        "institutions": [
+          "Farstriders",
+          "Kirin Tor"
+        ],
+        "materials": [
+          "stone cellar",
+          "trapdoor",
+          "flour sacks",
+          "water barrel",
+          "blanket scrap",
+          "cloth markers",
+          "mud verge"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Keep the rescue pinned to the cellar mouth, cramped stone steps, then the marked road cut north of the village.",
+        "materialAnchor": "Use damp stone, cloak wool, waterskin leather, blanket cloth, mud crust, and road markers to stop the testimony from floating.",
+        "povAnchor": "Sylvanas stays in command radius, reading what steadies Miri, what Jaina can prove, and when witness plus spoor become actionable.",
+        "dialogueAnchor": "Break the testimony with Miri's grip, Neral's crouch, Jaina's lowered staff, and Sylvanas's ground read.",
+        "exitAnchor": "Scene ends with north-northeast physically proven in the road cut and converted into a dispatch decision."
+      },
+      "dialogueRuns": [
+        {
+          "label": "cellar extraction",
+          "risk": "medium"
+        },
+        {
+          "label": "Miri testimony",
+          "risk": "high"
+        },
+        {
+          "label": "road-cut corroboration",
+          "risk": "medium"
+        }
+      ]
+    },
+    {
+      "sceneId": 3,
+      "title": "The Grain Seller on the Road",
+      "riskTags": [
+        "tail-risk",
+        "dispatch-aftermath",
+        "stranger-dialogue"
+      ],
+      "biggestGap": "The chapter's last movement risks flattening into logistics unless the dispatch, trader exchange, and southbound departure stay physically tied to road gear, horseflesh, wagon texture, and the reduced escort.",
+      "sourceBank": {
+        "geography": [
+          "Millhaven",
+          "Corin's Crossing",
+          "Quel'Thalas",
+          "Andorhal"
+        ],
+        "institutions": [
+          "Farstriders"
+        ],
+        "materials": [
+          "bread board",
+          "field dispatch tube",
+          "saddle ring",
+          "wagon slats",
+          "grain dust",
+          "hedgerows",
+          "fallow fields"
+        ]
+      },
+      "sceneContract": {
+        "placeAnchor": "Keep the action on the village well, the north bend, the wagon lane, and the road south flattening into farmland.",
+        "materialAnchor": "Use wax, steel nib, dispatch tube, saddle leather, wagon chaff, and grain dust to carry the sequence.",
+        "povAnchor": "Sylvanas measures the cost of losing riders, the usefulness of strangers, and the tactical value of Jaina's read without warming emotionally.",
+        "dialogueAnchor": "Every road exchange needs a horse, saddle, wagon, or piece of gear bearing pressure.",
+        "exitAnchor": "The final beat must leave the reduced four-rider party physically aimed south through Lordaeron, with Millhaven and its granary still behind them."
+      },
+      "dialogueRuns": [
+        {
+          "label": "dispatch handoff",
+          "risk": "medium"
+        },
+        {
+          "label": "trader questioning",
+          "risk": "high"
+        }
+      ]
+    }
+  ]
+}

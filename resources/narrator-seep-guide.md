@@ -170,6 +170,19 @@ Shapes:
 
 **Keep condition:** The generalization is an active, in-character tactical conclusion the POV character is drawing from accumulated experience to make a decision in this scene. A spy thinking "border guards always check the left pocket first" while preparing a concealment is operational thought. A spy thinking "there was something about border towns that changed people" is narrator essay. The former drives action; the latter decorates theme.
 
+### A8 — Atmospheric inversion / staged ambience
+
+The sentence arranges sound, smell, heat, or light as if a camera were composing the shot instead of a person perceiving it in real time.
+
+Shapes:
+- `From deeper in the district came the bark of a dog.`
+- `Across the yard rolled oven heat.`
+- `Over the roofs drifted the smell of yeast.`
+
+**Detection test:** Does the sentence front-load a prepositional atmosphere frame and delay a simple, concrete source the POV could name directly? If yes → **KILL A8**.
+
+**Keep condition:** The POV truly perceives only the sound, smell, or light before identifying the source, and that delay matters to the moment. If the character already knows it is a dog, cart, oven, bell, or rider, name it.
+
 ---
 
 ## Tier B — Register mismatch
@@ -259,7 +272,7 @@ For each killed sentence:
 ```
 LINE: [exact text]
 TIER: A | B
-PATTERN: [A1-A6 or B1-B4]
+PATTERN: [A1-A8 or B1-B4]
 WHO IS SAYING THIS: [the POV character or a narrator — must answer explicitly]
 POV MISMATCH: [one sentence explaining why this sentence does not match the established register — required for Tier B; optional but encouraged for Tier A]
 VERDICT: KILL

@@ -1,0 +1,154 @@
+{
+  "chapterId": "chapter5",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "binary-diagnostic-keeps",
+      "cleanReason": "Checked the two real negation-pivot candidates in lines 305 and 309; both are active route-diagnostic distinctions that change the party's next move, so they survive under the guide's binary-diagnostic keep rule.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severity": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P8-body-part-agency",
+      "findings": [
+        {
+          "text": "...before Sylvanas laid the Millhaven manifest on the desk and his mouth closed.",
+          "line": 3,
+          "pattern": "P8-body-part-agency",
+          "subject": "his mouth",
+          "verb": "closed",
+          "realAgent": "The clerk stopped talking when Sylvanas produced the manifest.",
+          "severity": "mild",
+          "reason": "Pattern 8: the body part is stealing agency from the clerk; the person, not the mouth, is performing the action.",
+          "suggestedFix": "...before Sylvanas laid the Millhaven manifest on the desk and he stopped talking.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "text": "Unless the sowing has shifted somewhere else.",
+          "line": 265,
+          "pattern": "P5-abstract-operation-motion",
+          "subject": "the sowing",
+          "verb": "has shifted",
+          "realAgent": "The people contaminating the grain may have moved the operation to a different route.",
+          "severity": "mild",
+          "reason": "The abstract operation is carrying the movement instead of the people running it, so the sentence launders agency onto the process.",
+          "suggestedFix": "Unless they shifted the sowing somewhere else.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 10,
+      "kills": 0,
+      "keeps": 10,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "tool-signal-keeps-under-cap",
+      "cleanReason": "Reviewed all pass-A tool signals plus the guide's own tic families: 2 physical 'marked' uses, 1 tactical eye beat, 1 participial attachment, 1 simile, 3 colon narrations, 1 semicolon join, and 1 non-POV filter-word hit. None exceed the guide caps or read as the weakest generic excess instance, so no recurring-tic KILLs remain.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 15,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 1,
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A passes with warnings: 2 mild intent-smear findings remain, but no moderate or severe kills and no other guide in the pass pack produced KILLs. Structural rhythm concerns and a below-target texture score remain downstream style signals, not pass-A fail conditions.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.396,
+        "target": 0.72,
+        "delta": -0.324,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.781,
+        "target": 0.7,
+        "delta": 0.081,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 47.4,
+        "target": 19.0,
+        "delta": 28.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "structuralRhythmConcerns": [
+        "comma_period_ratio below calibrated range",
+        "one_sentence_paragraph_pct far above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdictReasons": [
+        "participial_pct 2.2% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.8% below floor 4.0% (human: 8.5%)",
+        "texture_score 9.5% below floor 10.0% (human: 24.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.2% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 3.8% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining.",
+      "flaggedPassages": {
+        "telegramRunCount": 17,
+        "textureDesertCount": 5
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 12,
+        "totalViolations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

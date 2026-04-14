@@ -13,7 +13,6 @@ Do **not** load all 17 quirk files by reflex. Pick the profile that matches the 
 
 | If you are... | Load first | Primary concern |
 |---|---|---|
-| Raw writer | `slop-hitlist.md`, sentence-level 01-07, paragraph-level 08-11 | Prevention: avoid defaulting into AI diction and paragraph shape while drafting |
 | Slop editor / cleanup pass | `slop-hitlist.md`, sentence-level 01-07, then skim paragraph-level 08-11 | Surgical line cleanup and local rhythm repair |
 | Expander | paragraph-level 08-11 first, then scene-level 12-17 near transitions, then sentence-level 01-07 as a back-check | Adding length without adding new quirks |
 | Style editor | `slop-hitlist.md` plus all sentence, paragraph, and scene files | Full-spectrum quality control |

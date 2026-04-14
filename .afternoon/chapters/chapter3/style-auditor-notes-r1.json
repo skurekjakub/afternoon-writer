@@ -1,0 +1,50 @@
+{
+  "chapterId": "chapter3",
+  "mode": "texture-reaudit",
+  "iteration": 1,
+  "targetFile": "v4-r1.md",
+  "textureFindings": {
+    "textureVerdict": "fail",
+    "metrics": {
+      "participial_pct": { "current": 6.8, "target": 12.0, "range": [9.0, 15.0], "status": "below_range" },
+      "compound_pct": { "current": 9.4, "target": 10.0, "range": [7.0, 13.0], "status": "on_target" },
+      "emdash_pct": { "current": 3.4, "target": 4.0, "range": [2.5, 5.5], "status": "on_target" },
+      "semicolon_pct": { "current": 0.8, "target": 1.8, "range": [1.0, 2.5], "status": "below_range" },
+      "short_pct": { "current": 44.8, "target": 48.0, "range": [40.0, 55.0], "status": "on_target" },
+      "texture_score": { "current": 20.4, "target": 27.0, "range": [22.0, 32.0], "status": "below_range" }
+    },
+    "flaggedZones": [
+      {
+        "type": "texture_desert",
+        "paragraphs": "P65-P71",
+        "instruction": "Add participial connectors and a few compound joins through Miri's account of the outbreak so the recap chains less as isolated beats."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P71-P71",
+        "instruction": "In the trapdoor recollection, join the short statements with clause-level connective tissue—especially ', Ving' phrases or one semicolon—to break the stacked short-line run."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P108-P118",
+        "instruction": "Enrich the wagon-arrival sequence with participial phrases tied to movement and reaction, so the reveal unfolds in linked motion rather than stop-start beats."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P111-P117",
+        "instruction": "Combine the trader's first visual read and spoken reaction using compound clauses or a semicolon; reduce the chain of bare declaratives."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P124-P129",
+        "instruction": "During the grain-seller exchange, add connective syntax between question, answer, and inference—prefer compound sentences over isolated short turns."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P125-P129",
+        "instruction": "The follow-up questioning run needs fewer standalone short sentences; merge adjacent beats with conjunctions and at least one semicolon where the logic is paired."
+      }
+    ],
+    "priorityInstruction": "Participial density is the biggest miss at 6.8% against a 12.0% target, so add ', Ving' connective phrases in every flagged zone first; then raise semicolon usage slightly in analytical dialogue to lift the texture score above floor."
+  }
+}

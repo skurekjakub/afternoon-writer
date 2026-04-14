@@ -8,6 +8,7 @@ Resolve the dispatch before you make any guide judgments. This phase sets the au
    - `pass` (required) - must be `a` or `b`
    - `iteration` (optional, default `0`)
    - `targetFile` (optional, default `v2.md`)
+   - `stage` (optional, default `standard`) - `standard` for the early slop-gate, `post-texture` for the late gate before final-slophunter
 3. If `pass` is missing or not `a` / `b`, write `.afternoon/agents/slop-gate/status.json` with:
    - `"status": "failed"`
    - `"verdict": null`
@@ -26,10 +27,14 @@ Resolve the dispatch before you make any guide judgments. This phase sets the au
    - `slophunter-revision-r*-notes.json`
 6. Determine output paths:
    - Notes JSON:
-     - iteration `0`, pass `a`: `.afternoon/chapters/{chapterId}/slop-gate-notes-a.json`
-     - iteration `0`, pass `b`: `.afternoon/chapters/{chapterId}/slop-gate-notes-b.json`
-     - iteration `N>0`, pass `a`: `.afternoon/chapters/{chapterId}/slop-gate-notes-r{N}a.json`
-     - iteration `N>0`, pass `b`: `.afternoon/chapters/{chapterId}/slop-gate-notes-r{N}b.json`
+       - stage `standard`, iteration `0`, pass `a`: `.afternoon/chapters/{chapterId}/slop-gate-notes-a.json`
+       - stage `standard`, iteration `0`, pass `b`: `.afternoon/chapters/{chapterId}/slop-gate-notes-b.json`
+       - stage `standard`, iteration `N>0`, pass `a`: `.afternoon/chapters/{chapterId}/slop-gate-notes-r{N}a.json`
+       - stage `standard`, iteration `N>0`, pass `b`: `.afternoon/chapters/{chapterId}/slop-gate-notes-r{N}b.json`
+       - stage `post-texture`, iteration `0`, pass `a`: `.afternoon/chapters/{chapterId}/post-texture-slop-gate-notes-a.json`
+       - stage `post-texture`, iteration `0`, pass `b`: `.afternoon/chapters/{chapterId}/post-texture-slop-gate-notes-b.json`
+       - stage `post-texture`, iteration `N>0`, pass `a`: `.afternoon/chapters/{chapterId}/post-texture-slop-gate-notes-r{N}a.json`
+       - stage `post-texture`, iteration `N>0`, pass `b`: `.afternoon/chapters/{chapterId}/post-texture-slop-gate-notes-r{N}b.json`
    - same for scratchpad naming
 7. Read `.afternoon/chapters/{chapterId}/{targetFile}` into context. This is the only prose input for the run.
 8. Track the work as ordered phases with dependencies:
@@ -43,6 +48,7 @@ Resolve the dispatch before you make any guide judgments. This phase sets the au
 
 You should have:
 - `chapterId`, `pass`, `iteration`, and `targetFile` resolved
+- `stage` resolved
 - the current pass locked
 - output paths resolved
 - the target prose loaded

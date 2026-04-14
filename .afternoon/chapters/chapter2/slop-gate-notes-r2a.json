@@ -1,0 +1,332 @@
+{
+  "chapterId": "chapter2",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 5,
+      "kills": 4,
+      "keeps": 1,
+      "dominantPattern": "P5-preamble-negation",
+      "findings": [
+        {
+          "line": 83,
+          "text": "This was no courtesy glance.",
+          "pattern": "P5-preamble-negation",
+          "severity": "mild",
+          "suggestedFix": "Sylvanas was following the logic, weighing roads, villages, and crossings in the same sweep.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 149,
+          "text": "It was not just passing through. It was taking hold.",
+          "pattern": "P5-preamble-negation",
+          "severity": "mild",
+          "suggestedFix": "It was taking hold.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 213,
+          "text": "The smell coming off the carcasses was not ordinary blood. It carried that same sweet-rot the wind had been dragging down the road.",
+          "pattern": "P5-preamble-negation",
+          "severity": "mild",
+          "suggestedFix": "It carried that same sweet-rot the wind had been dragging down the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 223,
+          "text": "They didn't die first and rise after. It got into them while they were alive and kept driving them when their bodies should have failed.",
+          "pattern": "P3-source-swap-pivot",
+          "severity": "mild",
+          "suggestedFix": "It got into them while they were alive and kept driving them when their bodies should have failed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 7,
+      "kills": 6,
+      "keeps": 1,
+      "dominantPattern": "P8-body-part-agency",
+      "findings": [
+        {
+          "line": 13,
+          "text": "The ward-light climbed the threshold.",
+          "pattern": "extra-sweep-inanimate-motion",
+          "severity": "mild",
+          "suggestedFix": "Ward-light spread across the threshold.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 15,
+          "text": "Her eyes swept the room once.",
+          "pattern": "P8-body-part-agency",
+          "severity": "mild",
+          "suggestedFix": "She swept the room once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 31,
+          "text": "Jaina's hands wanted to map the pattern in the air.",
+          "pattern": "P8-body-part-agency",
+          "severity": "mild",
+          "suggestedFix": "Jaina wanted to map the pattern in the air.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 137,
+          "text": "Cyndia's eyes went to the tree line.",
+          "pattern": "P8-body-part-agency",
+          "severity": "mild",
+          "suggestedFix": "Cyndia looked to the tree line.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 165,
+          "text": "Millhaven is where it bunches hard enough to show its hand.",
+          "pattern": "P5-object-agency",
+          "severity": "mild",
+          "suggestedFix": "Millhaven is where it bunches hard enough to become visible.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 247,
+          "text": "Millhaven gathered out of the dusk by a river bend: low buildings, a still mill wheel, cold chimneys, no light anywhere.",
+          "pattern": "extra-sweep-inanimate-motion",
+          "severity": "mild",
+          "suggestedFix": "Millhaven appeared out of the dusk by a river bend with low buildings, a still mill wheel, cold chimneys, and no light anywhere.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 20,
+      "kills": 7,
+      "keeps": 13,
+      "dominantPattern": "punct_colon_narration",
+      "findings": [
+        {
+          "line": 9,
+          "text": "She had made the same warning three times: once for a border lieutenant, once for a senior scout, once for the dark-braided ranger who had taken her satchel with careful hands and enough sense to know what the instruments were.",
+          "pattern": "punct_colon_narration",
+          "toolSignal": "punct_colon_narration",
+          "severity": "mild",
+          "suggestedFix": "She had made the same warning three times. Once for a border lieutenant, once for a senior scout, once for the dark-braided ranger who had taken her satchel with careful hands and enough sense to know what the instruments were.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 15,
+          "text": "Farstrider armor worn the way a second skin is worn: no settling tug, no show of rank, no wasted motion.",
+          "pattern": "punct_colon_narration",
+          "toolSignal": "punct_colon_narration",
+          "severity": "mild",
+          "suggestedFix": "Farstrider armor worn the way a second skin is worn, with no settling tug, no show of rank, and no wasted motion.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 33,
+          "text": "She heard herself doing it again: careful, pared down, built for someone she assumed needed the simpler version.",
+          "pattern": "punct_colon_narration",
+          "toolSignal": "punct_colon_narration",
+          "severity": "mild",
+          "suggestedFix": "She heard herself doing it again\u2014careful, pared down, built for someone she assumed needed the simpler version.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 117,
+          "text": "The read hit harder than the last one: deeper, uglier, faster.",
+          "pattern": "punct_colon_narration",
+          "toolSignal": "punct_colon_narration",
+          "severity": "mild",
+          "suggestedFix": "The read hit harder than the last one, deeper and uglier and faster.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 173,
+          "text": "Jaina could see it from the road now: soft heads of grain bending too low, leaves gone dark at the edges, damp ground under rows that should have been dry.",
+          "pattern": "punct_colon_narration",
+          "toolSignal": "punct_colon_narration",
+          "severity": "mild",
+          "suggestedFix": "Jaina could see it from the road now, soft heads of grain bending too low, leaves gone dark at the edges, damp ground under rows that should have been dry.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 175,
+          "text": "Then the village showed through the last of the trees: cold hearths, no smoke, stillness where evening life should have been.",
+          "pattern": "punct_colon_narration",
+          "toolSignal": "punct_colon_narration",
+          "severity": "mild",
+          "suggestedFix": "Then the village showed through the last of the trees, cold hearths, no smoke, stillness where evening life should have been.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 247,
+          "text": "Millhaven gathered out of the dusk by a river bend: low buildings, a still mill wheel, cold chimneys, no light anywhere.",
+          "pattern": "punct_colon_narration",
+          "toolSignal": "punct_colon_narration",
+          "severity": "mild",
+          "suggestedFix": "Millhaven appeared out of the dusk by a river bend with low buildings, a still mill wheel, cold chimneys, and no light anywhere.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 17,
+    "totalKeeps": 15,
+    "mildKills": 17,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 17,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "17 mild pass-A kills remain. Dominant issues are punctuation_colon_narration overuse, body-part/inanimate agency, and negation pivots. Rhythm concerns: comma_period_ratio 0.444 below range and one_sentence_paragraph_pct 41.0 above range. Texture verdict is borderline with low participial and semicolon rates.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.444,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": -0.276
+      },
+      "sentence_length_cv": {
+        "actual": 0.762,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.062
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 41.0,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 22.0
+      },
+      "notes": [
+        "structural rhythm concerns"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 2.9% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.9% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions. | SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). Join related clauses with occasional semicolons.",
+      "telegramRunCount": 13,
+      "textureDesertCount": 6
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 27,
+        "total_violations": 1,
+        "over_cap_categories": [
+          {
+            "category": "punctuation_tics",
+            "pattern": "punct_colon_narration",
+            "count": 9,
+            "cap": 2
+          }
+        ]
+      }
+    }
+  }
+}

@@ -319,6 +319,15 @@ REPLACEMENTS = [
         "* When delegating to revision sub-agents, pass the full prose and every active reference file.\n"
         "* Stay in the current working directory; do not wander outside the story workspace.",
     ),
+
+    # ── 12. Enable extensions in TUI mode ─────────────────────────────────────
+    # The embedded server's registerSession() hardcodes trusted:false, which
+    # prevents startExtensions() from ever firing.  Flip it to true so that
+    # .github/extensions/ (e.g. the sleep tool) load in terminal pipeline runs.
+    (
+        "registerSession(l,{trusted:!1})",
+        "registerSession(l,{trusted:!0})",
+    ),
 ]
 
 
@@ -344,7 +353,8 @@ def patch_file(path, dry_run=False):
 
     applied = 0
     skipped = 0
-    for old, new in REPLACEMENTS:
+    skipped_labels = []
+    for idx, (old, new) in enumerate(REPLACEMENTS, 1):
         # old may be a string or a list of alternative strings (version fallbacks)
         old_candidates = [old] if isinstance(old, str) else old
         matched = False
@@ -356,9 +366,15 @@ def patch_file(path, dry_run=False):
                 break
         if not matched:
             skipped += 1
+            # Show a preview of the target string for diagnosis
+            preview = old_candidates[0][:60].replace('\n', '\\n')
+            skipped_labels.append(f"#{idx} ({preview}...)")
 
     if dry_run:
         print(f"  DRY   {path}: {applied} replacements would apply, {skipped} not found")
+        if skipped_labels:
+            for label in skipped_labels:
+                print(f"        SKIP  {label}")
         return False
 
     # Back up before writing
@@ -378,6 +394,9 @@ def patch_file(path, dry_run=False):
         return False
 
     print(f"  PATCH {path}: {applied} applied, {skipped} skipped")
+    if skipped_labels:
+        for label in skipped_labels:
+            print(f"        SKIP  {label}")
     return True
 
 

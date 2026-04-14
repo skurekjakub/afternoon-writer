@@ -1,8 +1,8 @@
 # Corin
 
-## Chapter 8 state
-Chapter 8 proves Corin useful in a different key than chapter 7. Before, he was the junior mage who had kept the right papers alive. Here he becomes the man who can hold cover during the operation, add the crucial academic fragment when the room needs a name, and then stay behind to protect the evidence after the hunters move on.
+## Chapter 7 state
+Corin is the kind of junior mage a healthy institution should have rewarded months ago: sleepless, ink-stained, overprepared, and quietly excellent. He has been turning Andorhal's grain movement into a case by hand while committees asked for cleaner samples and prettier paperwork.
 
-The city also corrects him brutally. He and Havel suspected depth. The remote witness silencing and the speed of the closing net prove they still had not imagined enough of it. That fright does not collapse him back into uselessness. It simply matures his role. He becomes the local custodian of continuity inside Andorhal: the one who knows why the records must be split, why a single cache is a future corpse, and why staying behind can matter more than riding toward the next revelation.
+What makes him useful is not glamour. It is persistence. He knows the receipt points, the fake origins, the repeating sack mark, and the exact way the taint keeps surviving downstream. When Jaina arrives, the relief he tries to hide tells you everything about how alone he has been.
 
-Corin closes the chapter still visibly afraid, but no longer defined by rank panic. He is trusted now, and the trust comes with heavier work.
+Write him as intelligent, worn down, and meticulous rather than timid. He is frightened because he knows how bad the city is, not because he is weak.

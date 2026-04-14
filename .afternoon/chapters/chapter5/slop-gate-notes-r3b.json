@@ -1,0 +1,166 @@
+{
+  "chapterId": "chapter5",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "dominantPattern": "F3/F7",
+      "findings": [
+        {
+          "pattern": "F3",
+          "severity": "mild",
+          "text": "Through the office glass she could see a stack of invoices on the sill.",
+          "issue": "Filter verb scaffolding weakens a direct visual read.",
+          "deletionTest": "Through the office glass, a stack of invoices sat on the sill.",
+          "suggestedFix": "Through the office glass, a stack of invoices sat on the sill.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "text": "She kept it.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "She had let him pass.",
+          "issue": "Closure sentence names the carry-over of the regret after the concrete beat already landed.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 4,
+      "kills": 1,
+      "keeps": 3,
+      "dominantPattern": "B1",
+      "registerSummary": "Sylvanas thinks in clipped tactical assessments, route logic, and field evidence. Her inner language is practical, suspicious, and concrete; she compresses toward command shorthand, not authorial thematic summary.",
+      "registerConfidence": "high",
+      "findings": [
+        {
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "mild",
+          "text": "She had only chosen the road they were already riding toward.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence steps back from Sylvanas's active map read and recasts the decision as polished inevitability rather than immediate tactical thought.",
+          "confidence": "moderate",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "dominantPattern": "P2/P3",
+      "cleanReason": "Audited the main abstraction-prone tactical and dialogue lines ('This was arranged,' 'Then the cover is paper,' 'We're reading a road after the wagons passed,' 'It's a road to follow'). Each cashes out from adjacent concrete evidence already on the page, so no sentence-level phantom-concreteness KILL survives."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "No translation setup appears in the chapter: no 'plainly,' 'smaller words,' 'short version,' or equivalent exchange asking one speaker to simplify specialist speech for another."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 11,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: three mild sentence-level pass-B issues remain (one filter-verb scaffold and two summary/closure sentences). No moderate or severe pass-B kills remain, but the analytics still show a structural texture deficit.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "current": 0.379,
+        "target": 0.72,
+        "delta": -0.341,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "current": 0.791,
+        "target": 0.7,
+        "delta": 0.091,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "current": 48.0,
+        "target": 19.0,
+        "delta": 29.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "concerns": [
+        "structural rhythm concerns: comma_period_ratio below target range",
+        "structural rhythm concerns: one_sentence_paragraph_pct above target range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.1% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.7% below floor 4.0% (human: 8.5%)",
+        "texture_score 8.9% below floor 10.0% (human: 24.4%)",
+        "short_pct 63.4% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions. COMPOUND CLAUSES: 3.7% (floor: 4.0%, human: 8.5%). Join related ideas with ', and' / ', but' / ', yet'. SHORT SENTENCES: 63.4% (ceiling: 62.0%, human: 52.2%). Too choppy; combine adjacent short sentences.",
+      "flaggedPassageCounts": {
+        "telegram_run": 17,
+        "texture_desert": 7
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 13,
+        "totalViolations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

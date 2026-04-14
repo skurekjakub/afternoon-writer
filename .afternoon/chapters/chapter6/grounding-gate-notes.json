@@ -1,0 +1,30 @@
+{
+  "chapterId": "chapter6",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "scene-grounding",
+      "sceneId": 5,
+      "sceneTitle": "Andorhal on the horizon",
+      "findingId": "G11-001",
+      "category": "G11",
+      "severity": "MILD",
+      "lines": "309-311",
+      "excerpt": "\"It pressed across the wards in one broad sheet. The corruption had soaked so deeply into the place that flour in sacks, ledgers on desks, bakers at their boards, carts in the lanes, and clerks waving loads through the gate all carried it through the day's work.\"",
+      "reason": "The citywide contamination read is valid, but \"ledgers on desks\" slides past what Jaina can physically or magically ground from the road outside the wall. The sentence moves from broad embodied sensing into invisible office detail, which weakens the otherwise excellent final reveal by breaking POV-bound material access.",
+      "suggestedFix": "Keep the citywide pressure, but swap the unseen office detail for an exterior or contact-legible carrier: \"It pressed across the wards in one broad sheet. The corruption had soaked so deeply into the place that flour in sacks, grain dust on sleeves, bakers at their boards, carts in the lanes, and clerks waving loads through the gate all carried it through the day's work.\"",
+      "fixMode": "light-swap"
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "mildKills": 1,
+    "moderateKills": 0,
+    "severeKills": 0,
+    "dominantFailures": [
+      "G11"
+    ]
+  }
+}

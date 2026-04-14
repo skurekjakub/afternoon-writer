@@ -1,0 +1,471 @@
+{
+  "chapterId": "chapter5",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 14,
+      "kills": 8,
+      "keeps": 6,
+      "dominantPattern": "fragment-and-chained negation pivots",
+      "severity": {
+        "mild": 8,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 41,
+          "text": "Not north. Not toward the border farms Sylvanas had been measuring in her head. South and west instead, into the heavy grain roads that fed the kingdom's interior, the ones laid in her grandmother's day to drag harvest out of the Andorhal basin.",
+          "pattern": "pattern-7-chained-negation",
+          "deletionTest": "South and west instead, into the heavy grain roads that fed the kingdom's interior, the ones laid in her grandmother's day to drag harvest out of the Andorhal basin.",
+          "severity": "mild",
+          "reason": "Two refusals build a hallway to the real direction; the affirmative route line survives cleanly without them.",
+          "suggestedFix": "South and west instead, into the heavy grain roads that fed the kingdom's interior, the ones laid in her grandmother's day to drag harvest out of the Andorhal basin.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 61,
+          "text": "\"Not one accident. Many placements.\"",
+          "pattern": "pattern-6-count-reset",
+          "deletionTest": "\"Many placements.\"",
+          "severity": "mild",
+          "reason": "The rejected count is scaffolding; the real information is the repeated placement.",
+          "suggestedFix": "\"Many placements.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 105,
+          "text": "Not missing. Not mangled. Clean.",
+          "pattern": "pattern-7-chained-negation",
+          "deletionTest": "Clean.",
+          "severity": "mild",
+          "reason": "The double refusal only delays the committed descriptor.",
+          "suggestedFix": "Clean.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 133,
+          "text": "She did not stop because she thought the trail dead. She stopped because there was nothing else in this room worth the next hour.",
+          "pattern": "pattern-3-source-swap-pivot",
+          "deletionTest": "She stopped because there was nothing else in this room worth the next hour.",
+          "severity": "mild",
+          "reason": "The negative cause preamble can be cut without losing the concrete reason she stops.",
+          "suggestedFix": "She stopped because there was nothing else in this room worth the next hour.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 153,
+          "text": "Not abandoned. Interrupted.",
+          "pattern": "pattern-2-fragment-pivot",
+          "deletionTest": "Interrupted.",
+          "severity": "mild",
+          "reason": "The first fragment only primes the sharper second one.",
+          "suggestedFix": "Interrupted.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 239,
+          "text": "Not a factor. A property.",
+          "pattern": "pattern-2-fragment-pivot",
+          "deletionTest": "A property.",
+          "severity": "mild",
+          "reason": "The reveal lands harder and cleaner if it starts at the real noun.",
+          "suggestedFix": "A property.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 331,
+          "text": "That had not been carelessness. It had been the best read available.",
+          "pattern": "pattern-5-preamble-negation",
+          "deletionTest": "It had been the best read available.",
+          "severity": "mild",
+          "reason": "The sentence keeps its meaning when it starts at the actual judgment.",
+          "suggestedFix": "It had been the best read available.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 341,
+          "text": "The miss sat badly because of its size, not because she should have known better.",
+          "pattern": "pattern-1-direct-contrast-pivot",
+          "deletionTest": "The miss sat badly because of its size.",
+          "severity": "mild",
+          "reason": "The second clause only rejects an interpretation; the concrete sting already lives in the first clause.",
+          "suggestedFix": "The miss sat badly because of its size.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 11,
+      "kills": 8,
+      "keeps": 3,
+      "dominantPattern": "roads and abstractions carrying human agency",
+      "severity": {
+        "mild": 8,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 35,
+          "text": "The road was doing what a road did: carrying the same trouble farther than any one village could see.",
+          "pattern": "pattern-1-infrastructure-command-compression",
+          "subject": "road",
+          "verb": "was doing / carrying",
+          "realAgent": "wagons, shipments, and grain traffic moving south through the depots",
+          "severity": "mild",
+          "reason": "The road is not the carrier; the transport chain is.",
+          "suggestedFix": "The same trouble kept moving south on wagon routes, farther than any one village could see.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "line": 57,
+          "text": "The shape of the march had settled without anyone naming it.",
+          "pattern": "abstract-state-settled",
+          "subject": "shape of the march",
+          "verb": "had settled",
+          "realAgent": "the four riders' spacing and practiced formation on the road",
+          "severity": "mild",
+          "reason": "An abstract shape is carrying the settling action that belongs to the riders' formation.",
+          "suggestedFix": "Without naming it, they had settled into marching order.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 71,
+          "text": "They were hunting a thread woven through the routes that already existed, hidden as long as it kept the right pace on the right roads.",
+          "pattern": "abstract-locomotion-thread",
+          "subject": "thread",
+          "verb": "kept",
+          "realAgent": "contaminated shipments moving at normal trade pace through established routes",
+          "severity": "mild",
+          "reason": "The metaphorical thread is doing the pace-keeping that belongs to actual shipments.",
+          "suggestedFix": "They were hunting shipments slipped into routes that already existed, hidden as long as they moved at the right pace on the right roads.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filter_noticed"
+        },
+        {
+          "line": 105,
+          "text": "It was the look of a room that had been given an hour's warning and used it well.",
+          "pattern": "pattern-6-scenery-knowing",
+          "subject": "room",
+          "verb": "had been given / used",
+          "realAgent": "the people who cleaned and staged the depot before the party arrived",
+          "severity": "mild",
+          "reason": "The room is carrying the warning and response that belong to the cleaners.",
+          "suggestedFix": "It was the look of a room whose cleaners had been given an hour's warning and used it well.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 183,
+          "text": "If the road expected inspection, the true record would travel with the people who mattered.",
+          "pattern": "pattern-1-infrastructure-command-compression",
+          "subject": "road",
+          "verb": "expected",
+          "realAgent": "the people running the stop and guarding the real books",
+          "severity": "mild",
+          "reason": "Expectation belongs to the operators, not the road itself.",
+          "suggestedFix": "If the people running this stop expected inspection, the true record would travel with the people who mattered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 273,
+          "text": "\"To cover themselves. The man at Millbrook Spur, the blank books, the missing shipment—that feels like a road being scrubbed, not a road still taking fresh loads.\"",
+          "pattern": "pattern-1-infrastructure-command-compression",
+          "subject": "road",
+          "verb": "being scrubbed / taking",
+          "realAgent": "cleaners erasing paper traces while shipments either continue or stop",
+          "severity": "mild",
+          "reason": "The road is absorbing the erasure and loading actions that belong to people and wagons.",
+          "suggestedFix": "\"To cover themselves. The man at Millbrook Spur, the blank books, the missing shipment—that feels like people scrubbing the route behind themselves, not moving fresh loads through it.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "simile_like"
+        },
+        {
+          "line": 353,
+          "text": "The map was only catching up to it.",
+          "pattern": "pattern-3-geography-promising",
+          "subject": "map",
+          "verb": "was catching up",
+          "realAgent": "Sylvanas and Jaina updating their understanding to match the route already in front of them",
+          "severity": "mild",
+          "reason": "The map is being made to perform the mental lag that belongs to the riders' analysis.",
+          "suggestedFix": "The map only showed what was already there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 363,
+          "text": "South waited.",
+          "pattern": "pattern-3-geography-promising",
+          "subject": "South",
+          "verb": "waited",
+          "realAgent": "the road and whatever lay ahead on tomorrow's ride",
+          "severity": "mild",
+          "reason": "A compass direction is carrying suspense and anticipation that belong to the coming ride.",
+          "suggestedFix": "South was where they would ride next.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 13,
+      "kills": 5,
+      "keeps": 8,
+      "dominantPattern": "over-cap colon narration",
+      "severity": {
+        "mild": 5,
+        "moderate": 0,
+        "severe": 0
+      },
+      "findings": [
+        {
+          "line": 7,
+          "text": "Supplier marked with a symbol she did not know: a wheel inside a wheel.",
+          "pattern": "punct_colon_narration",
+          "count": 8,
+          "cap": 3,
+          "severity": "mild",
+          "reason": "This is one of five excess colon-narration instances above the chapter cap.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Supplier marked with a symbol she did not know—a wheel inside a wheel.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 29,
+          "text": "Fenwick Crossing was bigger: four clerks, deeper shelves, a yard master who wore his authority like a coat borrowed for the day.",
+          "pattern": "punct_colon_narration",
+          "count": 8,
+          "cap": 3,
+          "severity": "mild",
+          "reason": "This is an excess colon-narration use; the list can land without the repeated colon rhythm.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Fenwick Crossing was bigger—four clerks, deeper shelves, a yard master who wore his authority like a coat borrowed for the day.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 35,
+          "text": "The road was doing what a road did: carrying the same trouble farther than any one village could see.",
+          "pattern": "punct_colon_narration",
+          "count": 8,
+          "cap": 3,
+          "severity": "mild",
+          "reason": "This is an excess colon-narration instance and one of the weaker list-pivot uses in the chapter.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "The same trouble kept moving south on wagon routes, farther than any one village could see.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 173,
+          "text": "The invoices in the window were blank as well: fresh paper stacked where it would be seen from outside.",
+          "pattern": "punct_colon_narration",
+          "count": 8,
+          "cap": 3,
+          "severity": "mild",
+          "reason": "This excess colon instance adds another piece of the chapter's repeated list-introduction tic.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "The invoices in the window were blank as well—fresh paper stacked where it would be seen from outside.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 233,
+          "text": "Most of it was nothing: wagon loads, dates, shorthand.",
+          "pattern": "punct_colon_narration",
+          "count": 8,
+          "cap": 3,
+          "severity": "mild",
+          "reason": "This excess colon use is generic and can be cut without losing the inventory beat.",
+          "toolSignal": "punct_colon_narration",
+          "suggestedFix": "Most of it was nothing—wagon loads, dates, shorthand.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 21,
+    "totalKeeps": 17,
+    "mildKills": 21,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 3,
+    "guidesWithKills": 3,
+    "killsWithFix": 21,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 21 mild sentence-level kills remain across pass A; the pass threshold is 3 or fewer mild-only kills. The chapter also shows structural rhythm concerns and a structural texture deficit.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.353,
+        "target": 0.72,
+        "delta": -0.367,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside_range"
+      },
+      "sentence_length_cv": {
+        "value": 0.783,
+        "target": 0.7,
+        "delta": 0.083,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "within_range"
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 46.4,
+        "target": 19.0,
+        "delta": 27.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside_range"
+      },
+      "notes": [
+        "structural rhythm concerns"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdictReasons": [
+        "participial_pct 1.7% below floor 5.0% (human: 11.0%)",
+        "compound_pct 3.2% below floor 4.0% (human: 8.5%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)",
+        "texture_score 6.7% below floor 10.0% (human: 24.4%)",
+        "short_pct 64.3% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.7% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions. COMPOUND CLAUSES: 3.2% (floor: 4.0%, human: 8.5%). Join adjacent short sentences with ', and' / ', but' / ', yet'. SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). SHORT SENTENCES: 64.3% (ceiling: 62.0%, human: 52.2%). Too choppy; combine adjacent short sentences.",
+      "flaggedPassageCounts": {
+        "telegram_run": 20,
+        "texture_desert": 8
+      },
+      "notes": [
+        "structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 22,
+        "totalViolations": 3,
+        "overCapCategories": [
+          "punctuation_tics",
+          "narrator_verdict",
+          "slopsquid"
+        ]
+      }
+    }
+  }
+}

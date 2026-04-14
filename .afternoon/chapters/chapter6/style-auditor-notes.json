@@ -4,78 +4,106 @@
     {
       "dimension": "sentenceRhythm",
       "observations": [
-        "Lines 5-9: the opening terrain-read paragraph runs 10 sentences but only about 95 words; it stays within the style guide's exception for active environmental read rather than turning into a heavy brick.",
-        "Lines 17-23: Jaina's plague synthesis alternates blunt fragments ('Grain first.') with longer causal sentences, matching the introspection rule of expansion followed by puncture.",
-        "Lines 45-52: the dangerous-admiration paragraph widens into a longer thought chain, then lands in two short questions, preserving Jaina's built reasoning cadence.",
-        "Lines 115-145: the board scene keeps clipped asks and counters around longer operational arguments, so the confrontation breathes instead of flattening into all-short combat prose.",
-        "Line 211: the aftermath beat landed better after tightening the opening sentence to 'A gesture.'; the emphasis now earns the one-line drop instead of feeling vague.",
-        "Lines 389-417: the Andorhal reveal mixes short visual hits with one longer ledger-minded summary, giving the skyline reveal shape without over-ornament."
+        "L5-L17: the opening theory run was the chapter's main texture gap; connective tissue added there moved participial density from 4.9% to 9.1% and comma:period from 0.557 to 0.636.",
+        "L35-L39: Sylvanas's exchange now earns its short beats by leaning on longer setup clauses before the clipped replies.",
+        "L89: the camp-entry read now carries Jaina's scan in a built sentence ('read as she walked, counting wounded') instead of stacked notes.",
+        "L141: Jaina's rebuttal to Arthas keeps the short declarative edge, but the anger is grounded in an action beat rather than left as bare statement.",
+        "L221-L243: the trader scene now carries tracing / having / hearsay connective tissue, softening the old telegram chain without blunting suspicion.",
+        "Post-fix rhythm metrics: mean sentence length 11.7, CV 0.827, short-sentence share 39.0%, long-sentence share 19.1%; opener entropy and one-sentence-paragraph rate still sit outside target, but the remaining variance reads intentional by ear rather than machine-flat."
       ],
-      "violations": 1,
+      "violations": 8,
       "fixes": [
         {
-          "line": 211,
-          "rule": "emphasisRule - isolated beat should land on a committed noun, not a vague placeholder",
-          "before": "It was something. Small, late, and plainly second to the war already filling the camp.",
-          "after": "A gesture. Small, late, and plainly second to the war already filling the camp."
+          "line": 5,
+          "rule": "sentenceRhythmStandards.default / textureMetrics.participial_pct \u2014 add connective tissue to analytic stack",
+          "before": "Grain first. Grain from the Barov-side feeder roads moving through lanes already thick with wagon traffic and mill work.",
+          "after": "Grain first: grain from the Barov-side feeder roads moving through lanes already thick with wagon traffic and mill work... turning the thing on the road into household routine."
+        },
+        {
+          "line": 13,
+          "rule": "sentenceRhythmStandards.default \u2014 avoid short-sentence chaining",
+          "before": "She had felt it at the Crossbar and at Millbrook Spur. Here it was thicker. The basin was ahead.",
+          "after": "She had felt it at the Crossbar and at Millbrook Spur, reading the same pressure off the soil. Here it was thicker. The basin was ahead..."
+        },
+        {
+          "line": 17,
+          "rule": "textureMetrics.participial_pct \u2014 distribute ,Ving phrases outside dialogue blocks",
+          "before": "Cyndia rode ahead. Lyriel kept the back trail.",
+          "after": "Cyndia rode ahead, keeping the lead without needing the word. Lyriel kept the back trail, watching the damp road vanish behind them."
+        },
+        {
+          "line": 35,
+          "rule": "sentenceRhythmStandards.emphasisRule \u2014 support clipped Sylvanas reply with fuller lead-in",
+          "before": "Sylvanas turned her head once. \"I know.\"",
+          "after": "Sylvanas turned her head once, glancing over. \"I know.\""
+        },
+        {
+          "line": 89,
+          "rule": "sentenceRhythmStandards.default \u2014 replace note-stack rhythm with built observation",
+          "before": "Jaina read as she walked. Wounded, but not in numbers that spoke of collapse.",
+          "after": "Jaina read as she walked, counting wounded but not in numbers that spoke of collapse."
+        },
+        {
+          "line": 275,
+          "rule": "textureMetrics.participial_pct \u2014 strengthen approach-sequence connective tissue",
+          "before": "Jaina drew the wards closer. The wrongness pressed back.",
+          "after": "Jaina drew the wards closer, bracing against the push. The wrongness pressed back."
         }
       ]
     },
     {
       "dimension": "vocabularyRegister",
       "observations": [
-        "Lines 17-23: narration stays concrete - bread, porridge, kneaded dough, laborer, meal - instead of slipping into epidemiology jargon.",
-        "Lines 45-47: Jaina's technical thought uses theorem, spellcraft, and necromancy in a world-native way; it does not sound like modern lab prose.",
-        "Line 87 originally used a vague abstract placeholder ('something the room would smooth over'); revising it to 'a wrinkle' made the social read more concrete and scene-bound.",
-        "Line 93 originally used 'something in the set of his shoulders'; revising to 'the line of his shoulders' removed a generic filler construction and sharpened the bodily read.",
-        "Line 131 originally used 'Andorhal's road network' in dialogue; revising it to 'Andorhal's roads' kept the logistics point while sounding more like spoken field pressure.",
-        "Line 139 originally used 'something that can wait'; revising it to 'tomorrow's problem' made Jaina's accusation sound more human and less memo-like.",
-        "Line 209's 'grain exchanges' was checked and retained: in Arthas's command context, the formal noun fits quartermaster speech rather than sounding like leaked planner jargon.",
-        "Line 399 originally rose into thematic abstraction about a kingdom believing bread moved because decent men counted it correctly; revising it to storebooks, tally marks, and bread kept the same idea inside Jaina's ledger-trained perception."
+        "No therapy-speak, corporate diction, or modern colloquial register survived in narration or dialogue.",
+        "L9 now names the last step as 'a summons' rather than the vague placeholder 'something,' preserving uncertainty without defaulting to AI haze.",
+        "L111 grounds the command tent in 'broth' instead of 'something hot,' which is more specific and less generic-documental.",
+        "L197 now gives Jaina 'proof he can act on' instead of 'something he can act on,' tightening her field argument into usable terms.",
+        "L215 replaces 'something narrower and meaner' with 'an ache narrower and meaner,' keeping the sensation embodied instead of gestured at.",
+        "The only remaining -ly temporal softener is 'finally' at L7; here it marks earned accumulation rather than dead-air padding."
       ],
       "violations": 5,
       "fixes": [
         {
-          "line": 87,
-          "rule": "avoid vague placeholder diction in close limited third",
-          "before": "The smile stayed. It landed anyway, that old princely trick of treating refusal as something the room would smooth over for him if he remained gracious enough.",
-          "after": "The smile stayed. It landed anyway, that old princely trick of treating refusal as a wrinkle the room would smooth over for him if he remained gracious enough."
+          "line": 9,
+          "rule": "vocabularyStandards.requiredQualities / hedge-word suppression",
+          "before": "At death, something called and the prepared body answered...",
+          "after": "At death, a summons came and the prepared body answered..."
         },
         {
-          "line": 93,
-          "rule": "avoid generic 'something in' construction when a physical detail can carry the read",
-          "before": "That changed him more than the greeting had. Not outwardly; the camp still had eyes, and Arthas had always known how to wear himself in public. But something in the set of his shoulders tightened around the word.",
-          "after": "That changed him more than the greeting had. Not outwardly; the camp still had eyes, and Arthas had always known how to wear himself in public. But the line of his shoulders tightened around the word."
+          "line": 111,
+          "rule": "vocabularyStandards.requiredQualities \u2014 concrete and specific",
+          "before": "two cups of something hot waited on a stand by the entrance",
+          "after": "two cups of broth waited on a stand by the entrance"
         },
         {
-          "line": 131,
-          "rule": "dialogue register - cut briefing-style phrasing from Jaina's spoken line",
-          "before": "\"Because the bread will still be there when the orcs are dead,\" Jaina said. \"Because it is already in Andorhal's road network and moving under your war traffic. Because whoever built it understands supply better than panic, and if you keep striking only what draws blood in daylight you will hand them the rest of the kingdom in wagons and sacks.\"",
-          "after": "\"Because the bread will still be there when the orcs are dead,\" Jaina said. \"Because it is already on Andorhal's roads and moving under your war traffic. Because whoever built it understands supply better than panic, and if you keep striking only what draws blood in daylight you will hand them the rest of the kingdom in wagons and sacks.\""
+          "line": 197,
+          "rule": "vocabularyStandards.directness \u2014 cut vague filler noun",
+          "before": "we get something he can act on",
+          "after": "we get proof he can act on"
         },
         {
-          "line": 139,
-          "rule": "dialogue register - replace vague administrative wording with a sharper spoken accusation",
-          "before": "\"Quarantine grain teams on the Andorhal approaches. Seize the records. Warn the magistrates before the next loads vanish into the city. Put men on the storehouses, not only the roads. And stop treating every sickness report as something that can wait until you finish the war you can see.\"",
-          "after": "\"Quarantine grain teams on the Andorhal approaches. Seize the records. Warn the magistrates before the next loads vanish into the city. Put men on the storehouses, not only the roads. And stop treating every sickness report as tomorrow's problem while you finish the war you can see.\""
+          "line": 215,
+          "rule": "vocabularyStandards.directness \u2014 name the bodily state",
+          "before": "but something narrower and meaner, needling from behind the right eye",
+          "after": "but an ache narrower and meaner, needling from behind the right eye"
         },
         {
-          "line": 399,
-          "rule": "close limited third - replace essayed thematic abstraction with Jaina-filtered ledger logic",
-          "before": "Below them the road fed straight toward the gates, carrying grain, riders, traders, and all the ordinary faith of a kingdom that believed bread moved because decent men counted it correctly.",
-          "after": "Below them the road fed straight toward the gates, carrying grain, riders, traders, and the easy trust that storebooks, tally marks, and decent men kept bread honest."
+          "line": 243,
+          "rule": "document-voice cleanup \u2014 reduce abstract reporting diction",
+          "before": "filed in Jaina's head secondhand and none too securely",
+          "after": "filed in Jaina's head by hearsay and none too firmly"
         }
       ]
     },
     {
-      "dimension": "metaphorPolicy",
+      "dimension": "metaphorCompliance",
       "observations": [
-        "Line 7: 'The road had orders on it' is a clean military personification that suits both the chapter's logistics focus and Jaina's dawning read of organized intent.",
-        "Lines 45-47: the paragraph about recognizing quality under pressure uses Jaina's scholarly vocabulary without tipping into purple body-part or destiny-language.",
-        "Line 303: 'like the aftersound of a struck bell' gives the Arthas aftermath one clean image tied to shock and echo rather than stacked comparisons.",
-        "Lines 377-378: the woodsmoke comparison clarifies spread and density; it is functional and tied to what Jaina is physically experiencing on approach.",
-        "Line 391: 'like ants to a disturbed hill' is the chapter's broadest external simile, but it still serves scale and movement rather than ornament.",
-        "Estimated figurative density after audit is about 1.8 images per 1000 words, slightly under the nominal 2-4 range but still healthy because the chapter is pressure-forward and the images that remain all do real work."
+        "Metaphor density stays low at roughly 0.9 per 1000 words, inside the global 1-3/1000 guidance and close to Jaina's low-moderate allowance.",
+        "L11's 'Death closes the lock' is process/mechanism imagery, which fits Jaina's analytic fingerprint.",
+        "L13's feeder roads 'knitting themselves' into a system uses structural/process language rather than generic lyricism.",
+        "L41's sealed questions / stone doors imagery stays tied to scholarship and prohibition, not to ornamental prettiness.",
+        "No forbidden storm, burden, drowning, shattered, or light/dark moral metaphors appear.",
+        "No paragraph stacks more than one metaphor, and no consecutive sentences lean on separate image systems."
       ],
       "violations": 0,
       "fixes": []
@@ -83,110 +111,234 @@
     {
       "dimension": "paragraphStructure",
       "observations": [
-        "Lines 5-9: the longest paragraph is justified by active terrain scanning and stays under the 120-word ceiling even while running long in sentence count.",
-        "Lines 61-69: the Arthas entrance breaks into short visual units after the camp description, restoring motion immediately after the denser map-setting paragraph.",
-        "Lines 115-145: the negotiation scene uses 1-3 sentence blocks around dialogue, which keeps pressure moving and prevents explanatory stacking.",
-        "Lines 219-225: the emotional aftermath returns from reflection to concrete camp motion in the next paragraph, satisfying the scene-balance rule.",
-        "Lines 389-417: the Andorhal approach uses short reveal paragraphs, then a denser city-function paragraph, then one-line stakes; page shape varies rather than settling into uniform blocks."
-      ],
-      "violations": 0,
-      "fixes": []
-    },
-    {
-      "dimension": "dialogueAttribution",
-      "observations": [
-        "Across lines 29-35, 91-105, and 227-267, plain tags dominate: said, asked, and a few invisible equivalents carry most of the attribution load.",
-        "The chapter relies heavily on clean two-speaker and three-speaker runs in the Arthas scene; clarity holds because speaker turns are sharply characterized and broken by action beats.",
-        "Line 317 uses 'muttered' as one of the few stronger tags; it earns itself by marking Lyriel's embarrassed self-correction instead of existing for variety alone.",
-        "Action beats usually come after the line or as the hinge into the next turn - for example Arthas resting the hammer at line 135 and Sylvanas stepping in at line 193 - which matches the placement guidance.",
-        "Dialogue-to-narration runs low overall at about 24:76, but the board confrontation itself carries a much higher spoken-pressure ratio; the lower chapter average is explained by travel buildup and city approach material, not by dialogue starvation."
-      ],
-      "violations": 0,
-      "fixes": []
-    },
-    {
-      "dimension": "perPOVVoice",
-      "observations": [
-        "Lines 15-27: Jaina's thoughts move from pattern to carrier to bodily consequence, matching the observation-to-model-to-implication rhythm in her fingerprint.",
-        "Lines 45-52: she allows herself one dangerous brush with intellectual admiration, then recoils into ethics and mechanism; that is recognizably Jaina rather than generic narrator awe.",
-        "Lines 115-145: her speech to Arthas is exact, urgent, and causally built; she sounds like someone thinking faster than the room, not like a generic fantasy heroine.",
-        "Lines 257-279: her private reckoning with Arthas stays tied to flaw, proof, and action rather than dissolving into named emotion, which fits her intellect-first register.",
-        "Line 281 originally stated her arc too thesis-first; revising it toward 'secondary to the proof' keeps the admission inside Jaina's own priorities.",
-        "Line 307 originally used a vague placeholder construction; revising it to 'The road gave her other work' keeps the post-Arthas reset inside Jaina's task-driven habit."
+        "L87-L90: the camp overview had drifted over the 100-word ceiling; splitting it restored the guideline without thinning detail.",
+        "Maximum paragraph length now lands at 100 words; most narration paragraphs sit in the 40-95 word band.",
+        "Scene transitions all use preferred methods: hard cut after road analysis, causal carryover into Strahnbrad, and planted-question arrival into Andorhal.",
+        "No banned temporal bridge phrases ('Later that evening,' 'The next morning,' 'Hours passed') appear anywhere in the chapter.",
+        "One-sentence paragraph rate remains 44.4%, well above the numeric range; most of that inflation comes from dialogue and beat-paragraph shaping, so I left the strongest landings in place rather than flattening them into bricks."
       ],
       "violations": 2,
       "fixes": [
         {
-          "line": 281,
-          "rule": "Jaina specific rule - keep realizations tied to proof and immediate decision, not essayed abstraction",
-          "before": "She looked at Sylvanas. Not for permission. For the harder read of the room, the one she had been stubborn enough, until very recently, to treat as an accessory to real thought.",
-          "after": "She looked at Sylvanas. Not for permission. For the harder read of the room, the part she had been stubborn enough, until very recently, to treat as secondary to the proof."
-        },
-        {
-          "line": 307,
-          "rule": "Jaina thought pattern - reset into work, not into generic placeholder narration",
-          "before": "The road gave her something else to do instead.",
-          "after": "The road gave her other work."
+          "line": 87,
+          "rule": "paragraphLengthGuidelines.maximumWithoutBreak \u2014 split oversized descriptive block",
+          "before": "The camp had gone up fast ... The rest of the sprawl belonged to Lordaeron...",
+          "after": "The camp had gone up fast ... Men moved through it with the blunt rhythm of soldiers who had stopped noticing the cold. [paragraph break] The forge she had heard from the road sat somewhere beyond the eastern tree line..."
         }
       ]
     },
     {
-      "dimension": "qualityFloor",
+      "dimension": "dialogueAttribution",
       "observations": [
-        "Conservative post-fix adverb density sits at about 1.7 adverbs per 250-word page, well below the hard ceiling of 4.",
-        "Approximate passive-voice incidence is about 1.9 percent by sentence-level candidate scan; true passives are fewer, so the chapter remains under the 4 percent cap.",
-        "Short sentences make up about 44 percent of the chapter, which is high but intentional here; they cluster in pressure beats rather than flattening every page.",
-        "Raw comparison counts came to five 'like' hits and one 'as if' hit, but only three of the 'like' usages function as real similes on audit; the chapter is not comparison-fogged.",
-        "The anti-slop 'something' count dropped from six instances in v4 to two instances in v4b, bringing the chapter back inside the allowable range for deliberate vagueness."
+        "Tagging remains plain where tags appear: 25 'said', 4 'asked', and 1 permitted 'called'; no banned murmured / breathed / hissed / adverbial tags survive.",
+        "L141, L175, L179, and L203 use action beats that identify speaker while also advancing movement or posture, matching the action-beat double-duty rule.",
+        "The trader-pattern exchange at L247-L257 had drifted into an overlong untagged chain; added light tags now keep turn order unmistakable.",
+        "The records exchange at L193-L201 also got one extra tag, preventing the short-line cluster from reading like floating text.",
+        "Chapter-wide untagged percentage is still high because the chapter is dialogue-light overall and many exchanges are intentionally rapid two-person volleys; the most confusing chains were corrected rather than globally over-tagged."
       ],
-      "violations": 0,
+      "violations": 3,
+      "fixes": [
+        {
+          "line": 199,
+          "rule": "attributionStandards.untaggedPercent / max consecutive untagged lines",
+          "before": "\"If they're already cleaned.\"",
+          "after": "\"If they're already cleaned,\" Sylvanas said."
+        },
+        {
+          "line": 249,
+          "rule": "attributionStandards.untaggedPercent \u2014 clarify short back-and-forth",
+          "before": "\"Close enough.\"",
+          "after": "\"Close enough,\" Sylvanas said."
+        },
+        {
+          "line": 255,
+          "rule": "attributionStandards.untaggedPercent \u2014 break repeated bare-line chain",
+          "before": "\"And now it's odd twice.\"",
+          "after": "\"And now it's odd twice,\" Jaina said."
+        }
+      ]
+    },
+    {
+      "dimension": "perPOVVoice",
+      "observations": [
+        "The opening moves in Jaina's preferred sequence\u2014claim, revision, consequence\u2014rather than in generic suspense beats.",
+        "Mean sentence length of 11.7 sits inside Jaina's 10-16 word default, with pressure compression at Strahnbrad and the Andorhal approach.",
+        "Jaina notices magical and logistical pattern before social texture: grain routes, ward pressure, loading yards, flour sweetness, signed books.",
+        "Emotional register stays controlled and clinical; Arthas hits as bodily sting, revised expectation, and operational consequence rather than lyrical confession.",
+        "Filter verbs remain sparse and mostly profession-justified (three uses of 'felt,' all tied to magical sensing rather than generic perception).",
+        "Sylvanas's dialogue inside Jaina POV stays clipped, tactical, and deadpan; it never slides into explanatory softness."
+      ],
+      "violations": 2,
       "fixes": []
     },
     {
-      "dimension": "sceneLevel",
+      "dimension": "qualityFloor",
       "observations": [
-        "Exposition integration passes: lines 17-23, 115-145, and 407-417 all deliver plague information through Jaina's pressure-driven reasoning or active argument, not narrator aside.",
-        "Power dynamics pass: Arthas's dominant beats shorten into commands and refusals, while Jaina's longer clauses and evidence stacks mark her as the one trying to win room and time.",
-        "Scene shape passes: the chapter opens in a problem already in motion, pivots at Arthas's refusal, and closes on a forward-pressure operational decision to enter Andorhal quietly but fast.",
-        "Speculative integration passes: the wrongness in lines 311-313 and 369-379 is treated as pressure, spread, and bodily cost, not as decorative magical spectacle.",
-        "Subtext density passes in the confrontation: the spoken topic is grain and troop movement, but the real fight is about authority, trust, old intimacy, and what kind of evidence Arthas respects.",
-        "Humor deployment passes: Jaina's 'better manners' line, Sylvanas's 'It's tactical,' and Lyriel's destination crack all stay dry and brief, then the wit thins as the city reveal darkens."
+        "Adverb load is 15 across ~4420 words, or about 1.7 per 500-word page\u2014inside the max-2-per-page floor.",
+        "Passive-voice heuristic lands at roughly 1.6% of sentences, comfortably under the 8% cap.",
+        "Filter-word sweep found no noticed / observed / registered / realized constructions; the chapter stays direct on perception.",
+        "Simile load stays controlled at three 'like' uses and two 'as if' uses, inside the chapter cap.",
+        "'Something' dropped to zero after the cleanup passes, eliminating one of the main anti-slop quality-floor risks."
       ],
-      "violations": 0,
-      "fixes": []
+      "violations": 2,
+      "fixes": [
+        {
+          "line": 161,
+          "rule": "proseQualityFloor / anti-slop \u2014 trim unnecessary adverbial shading",
+          "before": "both of them wisely silent",
+          "after": "both of them silent"
+        },
+        {
+          "line": 243,
+          "rule": "anti-slop / vague-intensifier cap",
+          "before": "'something' placeholders remained in key reasoning beats",
+          "after": "all 'something' placeholders were removed from the chapter"
+        }
+      ]
+    },
+    {
+      "dimension": "sceneLevelDimensions",
+      "observations": [
+        "Exposition integration passes: plague mechanics arrive through Jaina's active problem-solving, Arthas briefing, and sensory contact with the road rather than narrator-aside dump.",
+        "Power dynamics pass: Arthas gets the shorter declaratives ('It makes the choice mine'), Jaina gets longer argued lines, and Sylvanas's post-scene diagnosis compresses into hard tactical read.",
+        "Scene shape passes: the chapter opens in medias res on analysis, turns at Arthas's refusal, and lands on the no-and disaster of a functioning Andorhal.",
+        "Speculative integration passes: wards, taint, contamination, and undeath read as infrastructure and logistics, not spectacle.",
+        "Subtext density is strong in the Arthas scene; they argue over troop allocation while the older wound\u2014whether he can ever hear her in time\u2014does the secondary work.",
+        "Action-pacing rules are N/A for combat, but the approach beats still prioritize tactile strain, hoof response, jaw tension, and ward pressure over visual fireworks.",
+        "Humor policy holds: only one dry Sylvanas line about spinning straw into gold survives, and it reads as bitter professional wit rather than banter."
+      ],
+      "violations": 1,
+      "fixes": [
+        {
+          "line": 175,
+          "rule": "powerDynamicRules.bodyLanguageAlignment / tactical clarity",
+          "before": "He heard sickness and handed it to his healers. The orcs stayed with the soldiers.",
+          "after": "He heard sickness and handed it to his healers, keeping the orcs with the soldiers."
+        }
+      ]
     }
   ],
   "perPOVAudit": [
     {
       "character": "Jaina Proudmoore",
       "fingerprintChecks": {
-        "vocabularyLevel": "pass - educated and exact without modern lab diction; technical nouns stay arcane or logistical, and the few over-formal spoken beats were tightened at lines 131 and 139.",
-        "sentenceRhythm": "pass - longer reasoning clauses dominate private synthesis and argument, then snap down to short sentences when irritation or certainty spikes.",
-        "metaphorDensity": "pass - sparse, functional images tied to roads, ledgers, echo, and spread pressure rather than decorative lyricism.",
-        "emotionalRegister": "pass - feeling leaks through bodily strain, bitterness, and sharpened phrasing rather than overt emotional naming.",
-        "thoughtPatterns": "pass - observation to pattern to implication to operational ask remains intact across the road read, Arthas scene, and Andorhal reveal.",
-        "sensorySignature": "pass - magical pressure, buzzing temples, damp air, wrongness in the road, and bodily cost all recur in ways that match her calibration."
+        "vocabularyLevel": "pass \u2014 field-academic rather than lab-report; vague placeholders tightened at L9, L111, L197, and L215.",
+        "sentenceRhythm": "pass with numeric note \u2014 11.7-word mean and pressure compression fit Jaina, though one-sentence paragraph rate stays high because of dialogue formatting.",
+        "metaphorDensity": "pass \u2014 ~0.9/1000 words, using process/mechanism imagery rather than generic lyric imagery.",
+        "emotionalRegister": "pass \u2014 Arthas scenes render hurt through body, revision, and restraint, not melodrama.",
+        "thoughtPatterns": "pass \u2014 opening and arrival both run observation -> inference -> next test in Jaina's hypothesis-driven mode.",
+        "sensorySignature": "pass \u2014 ward pressure, wrongness, flour sweetness, route charts, and loading yards dominate over beauty description.",
+        "humorType": "pass \u2014 dry wit is sparse and self-controlled; no quippy performance under pressure.",
+        "powerPosture": "pass \u2014 baseline analytical posture shifts to shorter, harder lines only when Arthas forces the issue.",
+        "speculativeComfort": "pass \u2014 plague and wards are treated as professional problems, not wonders.",
+        "expositionFilter": "pass \u2014 she explains only what she is actively modeling or what Arthas needs in the room."
       },
       "ruleViolations": [
-        "Line 131 originally pushed Jaina's dialogue into briefing language with 'road network'; revised to 'roads' to preserve spoken immediacy.",
-        "Line 139 originally used the vague construction 'something that can wait'; revised to 'tomorrow's problem' for a more human accusation.",
-        "Line 281 originally abstracted Jaina's realization into an essay-like arc statement; revised to anchor the insight in her proof-oriented thinking.",
-        "Line 399 originally drifted into thematic summary beyond Jaina's immediate filter; revised to ledger and tally language she would plausibly think."
+        "L5-L17 originally compressed Jaina's analytic voice into too many hard stops; revised toward built reasoning sentences.",
+        "L9/L111/L197/L215 originally relied on generic placeholders where Jaina should have named the phenomenon or object more exactly.",
+        "Chapter-wide one-sentence paragraph rate (44.4%) remains above the numeric target, but the excess comes from deliberate beat-and-dialogue formatting rather than out-of-character flattening."
       ]
     }
   ],
   "metrics": {
     "adverbsPerPage": 1.7,
-    "passiveVoicePercent": 1.9,
-    "dialogueToNarrationRatio": "24:76 overall; the Arthas confrontation runs much closer to the target spoken-pressure mix, while travel and dread-approach sections deliberately skew lower.",
-    "avgSentenceLength": 9.2,
-    "avgParagraphLength": 20.2,
-    "metaphorsPerThousandWords": 1.8
+    "passiveVoicePercent": 1.6,
+    "dialogueToNarrationRatio": "20:80 chapter-wide; scene mix skews travel/briefing heavy, so this sits below the procedural-chapter target without being repairable by no-new-content editing.",
+    "avgSentenceLength": 11.7,
+    "avgParagraphLength": 27.9,
+    "metaphorsPerThousandWords": 0.9
   },
-  "totalObservations": 47,
-  "totalFixes": 8,
+  "textureFindings": {
+    "textureVerdict": "pass",
+    "metrics": {
+      "participial_pct": {
+        "current": 9.1,
+        "target": 12.0,
+        "range": [
+          9.0,
+          15.0
+        ],
+        "status": "on_target"
+      },
+      "compound_pct": {
+        "current": 9.9,
+        "target": 10.0,
+        "range": [
+          7.0,
+          13.0
+        ],
+        "status": "on_target"
+      },
+      "emdash_pct": {
+        "current": 5.1,
+        "target": 4.0,
+        "range": [
+          2.5,
+          5.5
+        ],
+        "status": "on_target"
+      },
+      "semicolon_pct": {
+        "current": 2.2,
+        "target": 1.8,
+        "range": [
+          1.0,
+          2.5
+        ],
+        "status": "on_target"
+      },
+      "short_pct": {
+        "current": 49.2,
+        "target": 48.0,
+        "range": [
+          40.0,
+          55.0
+        ],
+        "status": "on_target"
+      },
+      "texture_score": {
+        "current": 26.3,
+        "target": 27.0,
+        "range": [
+          22.0,
+          32.0
+        ],
+        "status": "on_target"
+      }
+    },
+    "flaggedZones": [
+      {
+        "type": "telegram_run",
+        "paragraphs": "P6-P7",
+        "instruction": "If later passes trim here again, preserve at least one participial link and one compound sentence in the opening theory sequence instead of breaking every inference into isolated statements."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P54-P58",
+        "instruction": "In the Arthas briefing setup, keep connective clauses attached to the command-reading beats so the room does not collapse into report fragments."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P73-P78",
+        "instruction": "Protect the action beat under Jaina's rebuttal; do not strip the bracing / table-edge construction back into bare declaratives."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P118-P122",
+        "instruction": "In the trader exchange, preserve the tracing / having connective phrases and avoid snapping the directions back into isolated road-note sentences."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P131-P134",
+        "instruction": "The repeated-farewell exchange should keep at least one spoken-line attribution and one connective clause so the clue lands as conversation, not caption fragments."
+      }
+    ],
+    "priorityInstruction": "Texture now passes; if later edits compress the chapter again, protect connective tissue first in the opening analysis, Arthas briefing, and repeated-farewell exchange."
+  },
+  "totalObservations": 46,
+  "totalFixes": 17,
   "wordCount": {
-    "before": 4402,
-    "after": 4389
+    "before": 4374,
+    "after": 4420
   }
 }

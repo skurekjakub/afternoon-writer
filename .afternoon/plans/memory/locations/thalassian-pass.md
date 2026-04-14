@@ -1,9 +1,5 @@
 # Thalassian Pass
 
-## Chapter 1-2 state
+Thalassian Pass is not just a road. It is the bodily sensation of leaving protected elven space and feeling the world get harsher by degrees. The ward-stones stand at intervals, the air inside them carries Quel'Thalas's managed ease, and then the last marker falls behind and the road becomes exposed country.
 
-Chapter 1 establishes the pass as threshold country; Chapter 2 proves how much that threshold matters. Inside the warded side, the land still carries the bodily hum of Quel'Thalas's defenses. Outside it, everything opens at once. Jaina feels the dampening vanish. The escort tightens. The road becomes harsher, meaner, and more exposed before a single enemy appears.
-
-That shift is the location's core continuity truth. The pass is not only a choke point on the map. It is a sensory seam. The elven side feels structured, buffered, and held in magical order. The southern side feels raw enough that every rider has to do more of the work themselves. Chapter 2 adds another layer by making the pass the moment where magical theory becomes physical pressure. The wrongness is no longer an argument in a holding room. It is in the open land, waiting.
-
-Future uses of the Thalassian Pass should preserve that double identity: defensive architecture behind you, exposed world ahead, and a very literal sense that crossing the line changes what the body can feel.
+Chapter 2 adds the key continuity point: the pass has been muting the contamination. Jaina does not meet the full field until she is past the wards. That means future scenes can treat the pass as both a military chokepoint and a magical filter — a place where the kingdom's defenses still shape what people can feel, know, and survive.

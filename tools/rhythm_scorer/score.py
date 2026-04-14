@@ -14,7 +14,7 @@ TEXTURE METRICS (structural sentence complexity):
   - Em-dashes: mid-sentence pivots and asides (human ~5%, pipeline ~1%)
   - Semicolons: clause-joining (human ~2%, pipeline ~0.3%)
   - Short sentences: <=8 words (human ~36%, pipeline ~47%)
-  - Texture score: combined % of sentences with any joining construction
+  - Texture score: balanced 0-100 scale (100 = all dimensions on target)
 
 Usage:
     python3 tools/rhythm_scorer/score.py --json path/to/draft.md
@@ -64,7 +64,13 @@ def main():
     if args.baselines:
         with open(args.baselines, encoding="utf-8") as f:
             loaded = json.load(f)
-            texture_bl = loaded.get("textureMetrics", loaded)
+            texture_bl = loaded.get("textureMetrics", texture_bl)
+    elif args.target_json:
+        # Fall back to pulling textureMetrics from target-json if the user passed one (e.g. style-guide.json)
+        with open(args.target_json, encoding="utf-8") as f:
+            loaded = json.load(f)
+            if "textureMetrics" in loaded:
+                texture_bl = loaded["textureMetrics"]
 
     with open(args.file, encoding="utf-8") as f:
         text = f.read()

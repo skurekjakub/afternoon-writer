@@ -12,9 +12,8 @@
   ],
   "immediateObjective": "Finish the troll sweep, dodge the Convocation budget session, and stay outdoors one more day.",
   "constraints": [
-    "Limited Third Absolute — Sylvanas perception only.",
-    "No trust or partnership framing between Sylvanas and Jaina yet.",
-    "No on-page Jaina dialogue before the chapter-boundary line into Chapter 2."
+    "Limited third, absolute — Sylvanas only.",
+    "Jaina does not speak on-page until the chapter-ending hook."
   ],
   "metaInfo": {
     "worldbuildingReferences": [
@@ -104,8 +103,8 @@
         "label": "partnership",
         "operatingModeAtOpen": "No partnership. One woman in custody, one woman deciding how hard the door stays shut.",
         "operationalChangeThisChapter": "Jaina stops being paperwork trouble and becomes the one person Sylvanas has to hear before she can decide what kind of threat this is.",
-        "namingRule": "Sylvanas does not give Jaina the dignity of her name in her internal framing yet.",
-        "doNotOverstateRule": "No thaw, no rapport, no early respect. The chapter ends on the first hard face-to-face look."
+        "namingAttitudeRule": "Sylvanas does not give Jaina the dignity of her name in her internal framing yet.",
+        "doNotOverstateRule": "No thaw, no rapport, no early respect."
       }
     ]
   },
@@ -125,11 +124,11 @@
       },
       {
         "character": "Farstrider runner",
-        "rule": "Scene 2 only. Delivers the inciting report, then turns back south with Sylvanas to Cyndia's post."
+        "rule": "Scene 2 only. Delivers the report, then returns south with Sylvanas."
       },
       {
         "character": "Jaina Proudmoore",
-        "rule": "Seen in Scene 3. She does not speak on-page until the chapter-ending line prompts Chapter 2."
+        "rule": "Seen in Scene 3. She does not speak on-page until the chapter-ending hook."
       }
     ],
     "chapterHandoffTarget": "Chapter 2 opens at Cyndia's post on the interrogation beat. Lor'themar and the mounted patrol are already northbound; Sylvanas, Jaina, and Cyndia inherit the scene."
@@ -148,10 +147,17 @@
       "knowledgeAtSceneStart": [
         "Ordinary frontier work; nothing stranger than trolls."
       ],
-      "enrichment": {
-        "detail": "Eversong should read as a curated amber-canopied homeland rather than generic forest, and the Amani pressure as routine frontier violence that the Farstriders have handled for generations.",
-        "source": "stories/the-plague-road/locations/silvermoon-and-quelthalas.md; stories/the-plague-road/plans/investigation-arc.md; Warcraft Wiki: Amani Empire"
-      },
+      "arcPressure": "Sylvanas's field ease is about to be interrupted by exactly the kind of outsider problem she prefers to leave south of the wards.",
+      "enrichment": [
+        {
+          "detail": "Eversong is canonically held in a perpetual-spring state and defended by runestones that blunt hostile magic, so the patrol can read as controlled golden woodland rather than wild frontier chaos.",
+          "source": "Warcraft Wiki: Eversong Woods; local ref: stories/the-plague-road/locations/silvermoon-and-quelthalas.md"
+        },
+        {
+          "detail": "Farstrider mounts read best here as lightly tacked Thalassian field horses — endurance-bred, quiet under the ward hum, expensive but visibly field-used.",
+          "source": "Local ref: stories/the-plague-road/locations/thalassian-horses.md"
+        }
+      ],
       "beats": [
         {
           "beatId": 1,
@@ -172,13 +178,12 @@
             "Any larger threat than routine troll violence."
           ],
           "sensoryAnchors": [
-            "wet impact of the arrow through troll flesh",
+            "wet arrow impact",
             "crushed fern",
             "troll-blood tang",
-            "Eversong sweetness",
-            "silence returning to birdsong"
+            "amber canopy hush"
           ],
-          "transitionIntent": "release-pressure: the clean kill opens room for banter and reminds us how badly Sylvanas wants to stay out here, away from politics."
+          "transitionIntent": "release-then-drift: the clean kill opens a pocket of banter and reminds the reader how badly Sylvanas wants to stay out here."
         },
         {
           "beatId": 2,
@@ -196,18 +201,18 @@
             "Whether the ward-stones actually need checking."
           ],
           "sensoryAnchors": [
-            "steel cleaned on fern frond",
-            "cooling forest air after combat",
+            "steel wiped on fern",
+            "cooling air after combat",
             "horses settling under familiar riders"
           ],
-          "transitionIntent": "linger-ease: let the road stay easy for another minute."
+          "transitionIntent": "ease-extension: let the road stay easy for another minute."
         },
         {
           "beatId": 3,
           "beatType": "scene",
           "scenePhase": "conflict",
           "goal": "Ride south in temporary peace.",
-          "conflict": "Lor'themar keeps pushing the political reality Sylvanas wants to ignore.",
+          "conflict": "Lor'themar keeps pressing the political reality Sylvanas wants to ignore.",
           "outcome": {
             "type": "yes-but",
             "summary": "Sylvanas gets the ride she wants, but the Convocation remains waiting at the edge of the day."
@@ -222,11 +227,11 @@
             "Any immediate threat south of them."
           ],
           "sensoryAnchors": [
-            "amber canopy light over the track",
-            "ward-hum under the horses' stride",
+            "amber light over the track",
+            "ward-hum under hoofbeats",
             "shared pace on the forest road"
           ],
-          "transitionIntent": "intrusion-pressure: ease is broken by an urgent mounted approach from the south."
+          "transitionIntent": "hard-interruption: ease is broken by an urgent mounted approach from the south."
         }
       ],
       "sceneLevelWarnings": []
@@ -239,23 +244,25 @@
         "Sylvanas",
         "Lor'themar",
         "Farstrider runner",
-        "patrol"
+        "mounted patrol"
       ],
       "knowledgeAtSceneStart": [
         "Still just a border day, as far as anyone knows."
       ],
       "arcPressure": "The problem Sylvanas wanted to leave south of the wards has already reached her road.",
-      "enrichment": {
-        "detail": "Thalassian Pass is the southern mountain chokepoint where Quel'Thalas's ambient hum thins, the air cools, and the ward-stones are felt more than heard; border riding here should stay quiet, trained, and defense-grid familiar.",
-        "source": "stories/the-plague-road/locations/silvermoon-and-quelthalas.md; stories/the-plague-road/locations/thalassian-horses.md; Warcraft Wiki: Thalassian Pass"
-      },
+      "enrichment": [
+        {
+          "detail": "The southern border should feel like a real threshold: the golden Eversong ambience starts thinning, the ward-stones carry a bass vibration felt in the teeth, and the pass wind never quite stops.",
+          "source": "Local ref: stories/the-plague-road/locations/silvermoon-and-quelthalas.md; Warcraft lore summaries on Eversong/Quel'Thalas defenses"
+        }
+      ],
       "beats": [
         {
           "beatId": 4,
           "beatType": "scene",
-          "scenePhase": "goal",
+          "scenePhase": "disaster",
           "goal": "Continue south on patrol.",
-          "conflict": "A Farstrider runner comes in hard from Cyndia's post, sent north on the south patrol road because Cyndia knew exactly where Sylvanas would be if she stole one more patrol before the Convocation, and he brings bad news: a human mage crossed the first ward ring before dawn and was caught studying the ward-stones.",
+          "conflict": "A Farstrider runner comes in hard from Cyndia's post with word that a human mage crossed the first ward ring before dawn and was caught studying the ward-stones.",
           "outcome": {
             "type": "no-and",
             "summary": "Sylvanas loses the rest of her ordinary day, and the trouble immediately smells like Kirin Tor business and politics."
@@ -272,12 +279,12 @@
             "Whether the warning is real."
           ],
           "sensoryAnchors": [
-            "lathered runner's horse",
+            "lathered horse",
             "foam at the bit",
-            "runner speaking in clipped patrol shorthand"
+            "clipped patrol shorthand"
           ],
-          "transitionIntent": "decision-pressure: someone has to handle the politics, and someone has to ride south.",
-          "dialogueGuidance": "Let Lor'themar make one dry remark that this was not blind luck: Cyndia sent the runner up the south patrol road because she knew Sylvanas would still be out here dodging the Convocation."
+          "transitionIntent": "command-pressure: someone has to handle the politics, and someone has to ride south.",
+          "dialogueGuidance": "Lor'themar should underline, dryly, that Cyndia predicted Sylvanas would dodge the Convocation and sent the runner up the south patrol road on purpose."
         },
         {
           "beatId": 5,
@@ -290,42 +297,43 @@
           "newOnPageInformation": [
             "Lor'themar goes where councils talk; Sylvanas goes where trouble is still alive.",
             "Both understand the stakes of an unauthorized human mage inside the ward system.",
-            "Lor'themar takes the patrol north, while the runner wheels back south with Sylvanas."
+            "The patrol goes north with Lor'themar while the runner wheels back south with Sylvanas."
           ],
           "stillUnknownAfterBeat": [
             "Whether this is a diplomatic mess, a spy problem, or something worse."
           ],
           "sensoryAnchors": [
-            "two horses separating at the fork",
-            "forest road north versus the harder southern track",
-            "the riderless gap after Lor'themar peels away"
+            "horses splitting at the fork",
+            "north road versus hard southern track",
+            "sudden gap after Lor'themar peels away"
           ],
-          "transitionIntent": "forward-drive: Sylvanas rides south without the one person who usually takes the edge off."
+          "transitionIntent": "isolation-pressure: Sylvanas rides south without the one person who usually takes the edge off."
         },
         {
           "beatId": 6,
           "beatType": "scene",
-          "scenePhase": "disaster",
+          "scenePhase": "conflict",
           "goal": "Reach the border post fast enough to control the situation personally.",
-          "conflict": "On the ride down, Sylvanas turns the possibilities over the way a soldier does: rogue mage, Kirin Tor spying, someone tampering with the wards.",
+          "conflict": "On the ride down, Sylvanas keeps turning over the possibilities — rogue mage, Kirin Tor spying, someone tampering with the wards — and none of them fit cleanly.",
           "outcome": {
             "type": "yes-but",
             "summary": "She arrives angrier and more certain it matters, but the talk of wrong leylines still does not fit any box she trusts."
           },
           "valueShift": "grim purpose -> hard focus",
           "newOnPageInformation": [
-            "Sylvanas knows Jaina's name before she sees her face.",
             "The border transition is both physical and mental for Sylvanas."
           ],
           "stillUnknownAfterBeat": [
-            "Whether the mage is in over her head or deliberately hostile."
+            "Whether the mage is in over her head or deliberately hostile.",
+            "That the prisoner is Jaina Proudmoore."
           ],
           "sensoryAnchors": [
-            "Eversong warmth thinning into the colder Pass",
-            "ward-stones pulsing closer together",
-            "loose gravel and mountain wind"
+            "thinning warmth",
+            "closer ward-stones",
+            "loose gravel",
+            "mountain wind"
           ],
-          "transitionIntent": "arrival-pressure: the road carries her straight into Cyndia's account."
+          "transitionIntent": "arrival-pressure: the road carries Sylvanas straight into Cyndia's account."
         }
       ],
       "sceneLevelWarnings": []
@@ -341,20 +349,28 @@
         "Jaina"
       ],
       "knowledgeAtSceneStart": [
-        "Human mage detained; no identity confirmation yet; leyline claim still untrusted."
+        "Human mage detained.",
+        "No identity confirmation yet.",
+        "Leyline claim still untrusted."
       ],
       "arcPressure": "Seeing Jaina up close keeps this from staying a report on paper. Now it is a woman, a name, and a problem inside Sylvanas's own border post.",
-      "enrichment": {
-        "detail": "Jaina's Antonidas connection makes her a live sovereign-security problem, not a random trespasser, because she is already an elite Kirin Tor apprentice; Sylvanas's Ranger-General authority makes the name reveal immediately political as well as tactical.",
-        "source": "stories/the-plague-road/characters/jaina.md; stories/the-plague-road/characters/sylvanas.md; stories/the-plague-road/plans/story-arc.md; Warcraft Wiki: Jaina Proudmoore; Warcraft Wiki: Ranger-General of Silvermoon"
-      },
+      "enrichment": [
+        {
+          "detail": "Canon Jaina at this point is Antonidas's apprentice and already treated as an exceptional young mage; age twenty-three to twenty-four is the right band for her first appearance here.",
+          "source": "Warcraft Wiki: Jaina Proudmoore; Wowhead lore guide for Jaina Proudmoore"
+        },
+        {
+          "detail": "Canon Sylvanas is already the Ranger-General of Silvermoon and commander of the Farstriders, so her read of Jaina as a sovereign-security breach rather than a mere trespass is fully grounded.",
+          "source": "Warcraft Wiki: Sylvanas Windrunner; Wowpedia: Ranger-General"
+        }
+      ],
       "beats": [
         {
           "beatId": 7,
           "beatType": "scene",
           "scenePhase": "goal",
           "goal": "Establish exactly what happened at the border.",
-          "conflict": "Cyndia confirms the mage crossed before dawn, reached the second ring, and argued for continued analysis instead of attempting escape.",
+          "conflict": "Cyndia confirms the mage crossed before dawn, reached the second ring, and argued for continued analysis instead of escape.",
           "outcome": {
             "type": "yes-but",
             "summary": "Cyndia gives Sylvanas clean facts, but the facts make the prisoner stranger, not clearer."
@@ -362,29 +378,29 @@
           "valueShift": "hard focus -> narrowing assessment",
           "newOnPageInformation": [
             "The mage was not sneaking carefully; she was intent on her work.",
-            "The ward-stones reacted like something had gone wrong in them, not like someone blasted her way through.",
-            "Cyndia has confiscated staff and materials pending senior authority."
+            "The ward-stones reacted like something had gone wrong in them, not like someone blasted a path through.",
+            "Cyndia confiscated staff and materials pending senior authority."
           ],
           "stillUnknownAfterBeat": [
             "Whether the mage is arrogant, panicked, or both.",
             "Whether the leyline warning is genuine."
           ],
           "sensoryAnchors": [
-            "border camp built into stone",
-            "bright ward-stones on the road",
-            "rangers holding the posture of extended alert"
+            "stone-built border camp",
+            "bright ward-light",
+            "rangers holding extended alert"
           ],
-          "transitionIntent": "proximity-pressure: the report sends Sylvanas straight to the holding space."
+          "transitionIntent": "containment-pressure: the report sends Sylvanas straight to the holding space."
         },
         {
           "beatId": 8,
           "beatType": "scene",
-          "scenePhase": "conflict",
+          "scenePhase": "disaster",
           "goal": "Assess the prisoner and confirm identity.",
           "conflict": "What Sylvanas expected does not match what she sees: practical travel gear, worn boots, calloused hands, frost-burned knuckles, and the posture of someone furious at not being heard.",
           "outcome": {
             "type": "no-and",
-            "summary": "The woman in the holding space is not what Sylvanas expected, and at the same moment Cyndia names her: Jaina Proudmoore, Antonidas's apprentice, inside the ward grid."
+            "summary": "The woman in the holding space is not what Sylvanas expected, and Cyndia names her at the same moment: Jaina Proudmoore, Antonidas's apprentice, inside the ward grid."
           },
           "valueShift": "narrowing assessment -> cold fury",
           "newOnPageInformation": [
@@ -399,10 +415,11 @@
           ],
           "sensoryAnchors": [
             "cold ward-light on Jaina's face",
-            "ink stains and frost burns on her hands",
-            "confiscated staff against the weapons rack"
+            "ink stains",
+            "frost-burned knuckles",
+            "confiscated staff by the rack"
           ],
-          "transitionIntent": "escalation-hook: identity pushes the scene from detention to interrogation."
+          "transitionIntent": "escalation-hook: identity turns detention into interrogation."
         },
         {
           "beatId": 9,
@@ -422,33 +439,33 @@
             "Any reason for trust."
           ],
           "sensoryAnchors": [
-            "rangers clearing a path without being told",
-            "blue ward-light climbing Sylvanas's boots as she steps closer",
+            "rangers clearing a path",
+            "blue ward-light climbing Sylvanas's boots",
             "absolute stillness before the first exchange"
           ],
-          "transitionIntent": "chapter-boundary: Chapter 1 ends on Sylvanas's opening line, and Chapter 2 begins from Jaina's POV at that same moment."
+          "transitionIntent": "hard-hook: Sylvanas steps into interrogation and the chapter cuts on her opening demand."
         }
       ],
       "sceneLevelWarnings": []
     }
   ],
-  "chapterCloseHandoff": {
+  "chapterClose": {
     "activeCastAtClose": [
       "Sylvanas",
       "Jaina",
       "Cyndia",
       "border rangers"
     ],
-    "departuresAlreadyLocked": [
+    "departuresLocked": [
       "Lor'themar is northbound toward Silvermoon and will not appear physically in Chapter 2.",
       "The mounted patrol goes north with Lor'themar and is gone before Sylvanas reaches the outpost.",
       "The runner returns to border-post duty after bringing Sylvanas in and does not remain active in Chapter 2."
     ],
-    "factsLockedForNextChapter": [
+    "factsLockedForChapter2": [
       "Jaina has been detained for hours before Sylvanas arrives.",
       "Sylvanas knows Jaina's identity before the conversation starts.",
       "Jaina has not yet explained the contamination on-page.",
-      "The line \"Start talking\" belongs to the chapter boundary and must not be replayed from outside Jaina's POV in Chapter 2."
+      "The line that opens the interrogation belongs to the chapter boundary and must not be replayed from outside Jaina's POV in Chapter 2."
     ],
     "factsNotYetEarned": [
       "Proof that Jaina is right.",
@@ -456,11 +473,47 @@
       "Any assumption that the danger has already become something everyone can see and name."
     ]
   },
+  "researchSources": [
+    {
+      "label": "Warcraft Wiki — Jaina Proudmoore",
+      "url": "https://warcraft.wiki.gg/wiki/Jaina_Proudmoore",
+      "usedFor": [
+        "Antonidas apprenticeship",
+        "young-mage reputation"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Sylvanas Windrunner",
+      "url": "https://warcraft.wiki.gg/wiki/Sylvanas_Windrunner",
+      "usedFor": [
+        "Ranger-General status",
+        "Farstrider command authority"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki — Eversong Woods",
+      "url": "https://warcraft.wiki.gg/wiki/Eversong_Woods",
+      "usedFor": [
+        "perpetual-spring environment",
+        "Quel'Thalas border feel"
+      ]
+    },
+    {
+      "label": "Wowhead — Lore of Jaina Proudmoore",
+      "url": "https://www.wowhead.com/guide/lore-of-jaina-proudmoore",
+      "usedFor": [
+        "age band",
+        "pre-Third War reputation"
+      ]
+    }
+  ],
   "validation": {
     "passed": true,
     "warnings": [
-      "Beats 1-3 all shift upward in mood before the report lands, so the opening ease runs positive three beats in a row. The break at beat 4 is doing a lot of corrective work."
+      "Source outline omitted Scene 1 arcPressure; normalized from the chapter's stated conflict.",
+      "Beats 1-3 all shift upward (tension -> satisfaction -> playful defiance -> ease). Keep the opener brisk so the runner's arrival feels like a clean interruption rather than drift.",
+      "Meta info listed fjstories/the-plague-road/locations/thalassian-horses.md; normalized to stories/the-plague-road/locations/thalassian-horses.md."
     ],
-    "enrichments": 3
+    "enrichments": 5
   }
 }

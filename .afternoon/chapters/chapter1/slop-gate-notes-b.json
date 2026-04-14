@@ -1,0 +1,224 @@
+{
+  "chapterId": "chapter1",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "severityMarkers": [
+        "MILD"
+      ],
+      "dominantPattern": "F2",
+      "findings": [
+        {
+          "pattern": "F2",
+          "severity": "MILD",
+          "line": "The runner hesitated.",
+          "issue": "Generic dialogue beat; the sentence is only a stock hesitation label and could belong to any breathless messenger.",
+          "suggestedFix": "The runner dragged in another breath.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "MILD",
+          "line": "Cyndia almost smiled.",
+          "issue": "Generic dialogue beat; it stops at a stock facial label instead of giving a character-specific physical tell.",
+          "suggestedFix": "Cyndia's mouth twitched once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": "Cyndia almost smiled.",
+          "word": "almost",
+          "deletionTest": "Cyndia smiled.",
+          "issue": "Hedge drag; the qualifier weakens a moment that should either commit to the expression or render it concretely.",
+          "suggestedFix": "Cyndia's mouth twitched once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": "This had stopped being paperwork the moment she saw the hands.",
+          "whatItRestates": "Jaina's ink-stained, frost-split hands already tell Sylvanas this is field trouble rather than tidy diplomatic business.",
+          "issue": "Narrative over-translation; the sentence explains the conclusion after the concrete image already landed.",
+          "suggestedFix": "Ink. Split knuckles. Frostbite.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 2,
+      "keeps": 4,
+      "severityMarkers": [
+        "MILD"
+      ],
+      "dominantPattern": "B1",
+      "findings": [
+        {
+          "pattern": "B1",
+          "severity": "MILD",
+          "line": "Cyndia met her outside, braid dark at the temples, posture straight enough for respect and tired enough for truth.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas would clock discipline and fatigue, but \"tired enough for truth\" is a polished authorial gloss instead of her in-body read of another ranger.",
+          "confidence": "MODERATE",
+          "suggestedFix": "Cyndia met her outside, braid dark at the temples, posture still straight despite the fatigue at her eyes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A7",
+          "severity": "MILD",
+          "line": "Everyone with ears had simply understood this had crossed from routine detention into whatever came next.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence generalizes the whole post's internal read from outside Sylvanas's body instead of staying with what she can register concretely in the yard.",
+          "confidence": "HIGH",
+          "suggestedFix": "Voices had dropped around the yard.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 4,
+      "keeps": 2,
+      "severityMarkers": [
+        "MILD"
+      ],
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "Which made it either nonsense or the wrong kind of truth.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "Whether the runner's \"rot\" claim is empty nonsense or a ward warning described in the language of spoiled grain and wells.",
+          "reason": "Placeholder abstraction; the line reaches for weight through \"truth\" without cashing out what category of warning Sylvanas is actually considering.",
+          "suggestedFix": "Which made it either nonsense or a warning about the wards in the language of spoiled grain and wells.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "Frost-bitten knuckles and ink stains belonged to scholars and field workers, the sort who let the work chew at the body around it.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "Long field hours that split hands, burn knuckles, and grind ink into the fingers.",
+          "reason": "Placeholder-noun stand-in; \"the work\" borrows intensity from a concrete image while refusing to name the actual bodily cost already implied by the scene.",
+          "suggestedFix": "Frost-bitten knuckles and ink stains belonged to scholars and field workers who let the job split their hands and stain their fingers.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": "By the time the outpost came into full view, anger had worn down into a colder, more useful thing.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "Sylvanas's anger narrowing into hard focus on the outpost and the prisoner rather than a vague \"thing.\"",
+          "reason": "Placeholder-noun stand-in; the sentence wants the authority of compression without naming the specific mental state it lands on.",
+          "suggestedFix": "By the time the outpost came into full view, anger had worn down into hard focus on the outpost.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4",
+          "severity": "MILD",
+          "line": "Cyndia met her outside, braid dark at the temples, posture straight enough for respect and tired enough for truth.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The visible fatigue cue that tells Sylvanas Cyndia will answer plainly.",
+          "reason": "Unanchored interpretive summary; the sentence names \"truth\" instead of staying with the physical signs Sylvanas can actually read.",
+          "suggestedFix": "Cyndia met her outside, braid dark at the temples, posture still straight despite the fatigue at her eyes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "No line in this chapter sets up a plain-speech or street-level translation exchange, so the guide had no candidates to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 8,
+    "mildKills": 10,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Pass B fails: more than three mild KILL findings remain across GPT-5 prose issues, narrator seep, and phantom concreteness, even though every hit has a low-difficulty fix."
+  }
+}

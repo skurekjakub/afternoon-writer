@@ -1,0 +1,145 @@
+{
+  "chapterId": "chapter3",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "severities": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F1",
+      "cleanReason": "The rhythm-scorer telegram run at the threshold was re-audited against Sylvanas's tactical POV. The clipped absence inventory is a deliberate scan pattern with scene-specific payload, not a sustained same-template stretch.",
+      "findings": []
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severities": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A1",
+      "cleanReason": "The pass-B tool signal and the chapter-close fragment stack both stayed inside Sylvanas's practical register. Each suspect line cashes out from local evidence or active decision-making instead of drifting into narrator caption voice.",
+      "findings": []
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 2,
+      "kills": 0,
+      "keeps": 2,
+      "severities": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P2",
+      "cleanReason": "The candidate lines are anchored by adjacent concrete evidence: cold chimneys and silence at the opening, then Jaina's refusal of the easy answer in the granary. They compress field judgments Sylvanas could actually make from visible signs already on the page.",
+      "findings": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severities": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in this chapter sets up a plain-speech or translation demand, so the guide found no eligible candidate chain to audit.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 0,
+    "totalKeeps": 5,
+    "mildKills": 0,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 0,
+    "killsWithFix": 0,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "No pass-B KILLs survived the false-positive filter. Tool-backed and abstraction-risk lines resolved as evidence-based Sylvanas POV keeps, and no fake-simplification exchange appeared in the chapter.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.461,
+        "target": 0.72,
+        "delta": -0.259,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "value": 0.798,
+        "target": 0.7,
+        "delta": 0.098,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 32.4,
+        "target": 19.0,
+        "delta": 13.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "comma_period_ratio below calibrated range",
+        "one_sentence_paragraph_pct above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 3.1% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 3.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 15,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 26,
+        "totalViolations": 2,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "patterns": [
+              "punct_colon_narration"
+            ]
+          },
+          {
+            "category": "narrator_verdict",
+            "patterns": [
+              "verdict_enough_for"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

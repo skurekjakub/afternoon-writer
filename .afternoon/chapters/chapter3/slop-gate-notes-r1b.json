@@ -1,0 +1,391 @@
+{
+  "chapterId": "chapter3",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 9,
+      "kills": 7,
+      "keeps": 2,
+      "dominantPattern": "F3-filter-drag",
+      "severity": "mild-only",
+      "findings": [
+        {
+          "pattern": "F6-thesis-opening",
+          "severity": "mild",
+          "text": "The kitchen told the story quickly.",
+          "issue": "Thesis opening",
+          "reason": "The sentence summarizes the paragraph before the concrete evidence arrives, giving the paragraph an essay-brain opener.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "structuralZone": "telegram_run"
+        },
+        {
+          "pattern": "F6-thesis-opening",
+          "severity": "mild",
+          "text": "The account came in pieces.",
+          "issue": "Thesis opening",
+          "reason": "It abstracts Miri's fragmented testimony into a summary label instead of starting inside the broken speech itself.",
+          "suggestedFix": "Miri answered in scraps.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4-over-translation",
+          "severity": "mild",
+          "text": "It was calculation.",
+          "issue": "Interpretive restatement",
+          "reason": "The next sentence already shows the tactical logic of the choice, so this sentence translates what the reader already has.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "structuralZone": "telegram_run + texture_desert"
+        },
+        {
+          "pattern": "F2-generic-beat",
+          "severity": "mild",
+          "text": "He shrugged.",
+          "issue": "Generic emotional beat",
+          "reason": "The beat stops at a stock gesture that could belong to anyone on the page and does no character-specific work.",
+          "suggestedFix": "One hand lifted off the reins in a brief, loose turn.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3-filter-drag",
+          "severity": "mild",
+          "text": "Sylvanas watched them go until the bend took them.",
+          "issue": "Filter verb",
+          "reason": "The sentence routes the departure through a filter verb instead of letting the visible action carry it directly.",
+          "suggestedFix": "They rode north until the bend took them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3-filter-drag",
+          "severity": "mild",
+          "text": "Sylvanas watched the wagon roll north past the last houses, the pale grain dust in the bed catching the last light.",
+          "issue": "Filter verb",
+          "reason": "Deleting the filter verb leaves the image stronger and more immediate.",
+          "suggestedFix": "The wagon rolled north past the last houses, pale grain dust in the bed catching the last light.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7-closure-addiction",
+          "severity": "mild",
+          "text": "That was enough.",
+          "issue": "Closure sentence",
+          "reason": "The line closes the beat with an interpretive stamp the following action sentence does not need.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks in clipped tactical reads, concrete field signs, and operational consequence. She inventories absences, routes, angles, and threat implications; she does not usually step back to write polished thematic captions over what she sees.",
+      "registerConfidence": "high",
+      "totalCandidates": 7,
+      "kills": 5,
+      "keeps": 2,
+      "dominantPattern": "B1-polished-abstraction",
+      "severity": "mild-only",
+      "findings": [
+        {
+          "pattern": "B1-polished-abstraction",
+          "severity": "mild",
+          "tier": "B",
+          "text": "The village had been emptied from the inside out, leaving only the shape of what had lived there.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence is too polished and thematic for Sylvanas's immediate field read; she would think in leftover evidence, not in the abstract 'shape of what had lived there.'",
+          "confidence": "moderate",
+          "suggestedFix": "Thirty-six households and not a single corpse. The houses still held meals, tools, and beds; only the people were gone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1-polished-abstraction",
+          "severity": "mild",
+          "tier": "B",
+          "text": "What remained was faster, harder-edged, and Jaina gave it to Sylvanas at full speed.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence sounds authored from outside the scene rather than like Sylvanas's direct read of Jaina's change in delivery.",
+          "confidence": "moderate",
+          "suggestedFix": "Jaina's answer came fast and clipped, stripped of the careful border-post phrasing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5-scene-state",
+          "severity": "mild",
+          "tier": "A",
+          "text": "The lane went still.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence names a scene mood from above instead of rendering the visible halt in bodies and sound.",
+          "confidence": "high",
+          "suggestedFix": "No one in the lane moved.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1-polished-abstraction",
+          "severity": "mild",
+          "tier": "B",
+          "text": "In another village, on another day, he would have been nothing but road talk and a creaking axle.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence zooms out into a polished literary aside instead of staying inside Sylvanas's immediate appraisal of the trader.",
+          "confidence": "moderate",
+          "suggestedFix": "On any other road, Sylvanas would have taken him for one more grain seller and kept riding.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A2-thesis-fragment-pair",
+          "severity": "mild",
+          "tier": "A",
+          "text": "Still thin. Still loose. Enough to keep.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragments read like captioned thesis beats rather than like Sylvanas staying inside the clue in front of her.",
+          "confidence": "high",
+          "suggestedFix": "The grain seller was still only a clue, but now two people had given Sylvanas the same one.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "structuralZone": "telegram_run + texture_desert"
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 7,
+      "kills": 4,
+      "keeps": 3,
+      "dominantPattern": "P3-placeholder-noun-stand-in",
+      "severity": "mild-only",
+      "findings": [
+        {
+          "pattern": "P4-unanchored-interpretive-summary",
+          "severity": "mild",
+          "text": "The kitchen told the story quickly.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The specific evidence on the page — loaf, chair, and untouched dust — that actually tells the story.",
+          "reason": "The line summarizes before it names the concrete payload.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3-placeholder-noun-stand-in",
+          "severity": "mild",
+          "text": "The village had been emptied from the inside out, leaving only the shape of what had lived there.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The actual leftover signs — meals, tools, and slept-in beds with no bodies.",
+          "reason": "The sentence leans on 'shape' instead of naming the concrete remnants already established.",
+          "suggestedFix": "Thirty-six households and not a single corpse. The houses still held meals, tools, and beds; only the people were gone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P4-unanchored-interpretive-summary",
+          "severity": "mild",
+          "text": "The pause had the slower drag of sorting impressions that once seemed unimportant.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "Which road details he is mentally revisiting before he answers.",
+          "reason": "The line compresses his pause into abstract cognition instead of naming the concrete reconsideration.",
+          "toolSignal": "hedge_seemed",
+          "suggestedFix": "He took a moment over that, picking through what he'd seen on the road before he answered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3-placeholder-noun-stand-in",
+          "severity": "mild",
+          "text": "The newer grain seller was still only a thread, but it was a thread from two mouths now.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The actual clue: Miri and the trader have both mentioned a second grain seller.",
+          "reason": "The line tries to sound sharp with 'thread' instead of stating the concrete evidentiary upgrade.",
+          "suggestedFix": "The grain seller was still only a clue, but now two people had given Sylvanas the same one.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "structuralZone": "telegram_run + texture_desert"
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "dominantPattern": null,
+      "severity": "clean",
+      "cleanReason": "Audited the only real translation-style exchange in the chapter — Sylvanas's \"What else carries it in.\" and Jaina's reply. The answer names usable carriers (water, runoff, well, river trough) with no second translation pass needed.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 16,
+    "totalKeeps": 8,
+    "mildKills": 16,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": 3,
+    "killsWithFix": 16,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 16 mild sentence-level kills remain across the pass-B guides, which exceeds the mild-only pass ceiling of 3. Fake simplification was clean; rhythm still shows structural concerns that downstream revision should address.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.468,
+        "target": 0.72,
+        "delta": -0.252,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.797,
+        "target": 0.7,
+        "delta": 0.097,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 32.4,
+        "target": 19.0,
+        "delta": 13.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "structuralRhythmConcerns": [
+        "comma_period_ratio below calibrated range",
+        "one_sentence_paragraph_pct above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 3.1% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.0% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 3.1% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.0% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassages": {
+        "telegramRunCount": 14,
+        "textureDesertCount": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 23,
+        "totalViolations": 1,
+        "overCapCategories": [
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_enough_for",
+            "count": 1,
+            "cap": 0,
+            "line": 31
+          }
+        ]
+      }
+    }
+  }
+}

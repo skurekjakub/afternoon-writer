@@ -9,6 +9,7 @@ from .constants import DEFAULT_TEXTURE_BASELINES
 from .models import RhythmReport
 from .rhythm import compute_mattr, count_punctuation, opener_stats, word_count
 from .texture import (
+    balanced_texture_score,
     classify_sentence_texture,
     find_telegram_runs,
     find_texture_deserts,
@@ -97,11 +98,11 @@ def analyze_rhythm(text: str, texture_baselines: dict = None) -> RhythmReport:
         "emdash_pct": round(emdash_count / n_sent * 100, 1),
         "semicolon_pct": round(semicolon_count / n_sent * 100, 1),
         "short_pct": round(texture_short_count / n_sent * 100, 1),
-        "texture_score": round(
-            (participial_count + compound_count + emdash_count + semicolon_count)
-            / n_sent * 100, 1
-        ),
     }
+
+    # Balanced 0–100 score: 100 = all dimensions on target
+    tex_score, tex_dim_scores = balanced_texture_score(tex_metrics, texture_baselines)
+    tex_metrics["texture_score"] = tex_score
 
     # Flagged passages
     telegram_runs = find_telegram_runs(classifications, all_sentences)
@@ -110,7 +111,9 @@ def analyze_rhythm(text: str, texture_baselines: dict = None) -> RhythmReport:
     flagged.sort(key=lambda f: f["start_sentence"])
 
     # Verdict
-    verdict, verdict_reasons = texture_verdict(tex_metrics, texture_baselines)
+    verdict, verdict_reasons = texture_verdict(
+        tex_metrics, texture_baselines, tex_dim_scores,
+    )
 
     return RhythmReport(
         commas=commas, periods=periods, cp_ratio=cp_ratio,
@@ -130,11 +133,12 @@ def analyze_rhythm(text: str, texture_baselines: dict = None) -> RhythmReport:
         emdash_pct=tex_metrics["emdash_pct"],
         semicolon_pct=tex_metrics["semicolon_pct"],
         texture_short_pct=tex_metrics["short_pct"],
-        texture_score=tex_metrics["texture_score"],
+        texture_score=tex_score,
         texture_verdict=verdict,
         texture_verdict_reasons=verdict_reasons,
         texture_flagged=flagged,
         texture_baselines=texture_baselines,
+        texture_dimension_scores=tex_dim_scores,
     )
 
 
@@ -183,7 +187,7 @@ def report_from_json_targets(json_path: str) -> RhythmReport:
         emdash_pct=_val(tex, "emdash_pct"),
         semicolon_pct=_val(tex, "semicolon_pct"),
         texture_short_pct=_val(tex, "short_pct"),
-        texture_score=_val(tex, "texture_score"),
+        texture_score=100.0,  # target is 100 by definition on balanced scale
         texture_verdict="stored_target",
         texture_verdict_reasons=[],
         texture_flagged=[],

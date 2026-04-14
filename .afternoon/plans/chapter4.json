@@ -2,8 +2,8 @@
   "chapterId": "chapter4",
   "title": "The Sick Village",
   "pov": "Jaina Proudmoore",
-  "timelinePosition": "Two days after Chapter 3. The party has ridden south through ordinary-looking country marked by scattered sickness and stronger readings, not open collapse.",
-  "openLocation": "A still-functioning village south of Millhaven where sickness is spreading but has not yet been named for what it is.",
+  "timelinePosition": "Two days after Chapter 3.",
+  "openLocation": "A still-functioning village south of Millhaven.",
   "transport": "Southbound on Thalassian horses; on foot inside the village.",
   "activeCastAtOpen": [
     "Jaina",
@@ -13,9 +13,9 @@
   ],
   "immediateObjective": "Assess an ordinary-looking outbreak site before it quietly becomes another Millhaven.",
   "constraints": [
-    "Limited Third Absolute \u2014 Jaina perception only.",
-    "No explicit organization naming before the chapter itself earns only local conspiracy evidence.",
-    "No thaw, trust, or softness between Jaina and Sylvanas; superiority weakens, irritation stays."
+    "Limited third, absolute \u2014 Jaina only.",
+    "No grain confirmation before Jaina earns it from patient patterning; no cult proof before the granary scene.",
+    "No trust or softness overstatement \u2014 irritation stays even as Jaina stops treating Sylvanas as escort muscle."
   ],
   "metaInfo": {
     "worldbuildingReferences": [
@@ -68,7 +68,7 @@
     ],
     "povDoesNotKnowAtOpen": [
       "How it first gets into people.",
-      "Whether the old grain seller matters.",
+      "Whether the old seller matters.",
       "Whether this village can still be saved.",
       "Whether someone is steering the outbreak or it is spreading on its own.",
       "The exact point where sickness becomes the dead getting back up."
@@ -82,7 +82,7 @@
     "castKnowsLeavingChapter": [
       "Grain is confirmed as what carries the plague into people, and the road and storehouses are how it spreads.",
       "A live village watcher existed inside the sickness pattern and died by poison before he could be questioned.",
-      "Granary markings and ledgers tie the grain route southwest through Andorhal, making it the next objective.",
+      "Andorhal is now the next route objective.",
       "The old seller / newer grain-man anomalies remain weak scraps in the file rather than proof."
     ]
   },
@@ -135,20 +135,8 @@
         "rule": "Not in this chapter. She has already departed north under Neral's escort."
       },
       {
-        "character": "Militia captain",
-        "rule": "Local one-chapter authority figure for this outbreak site."
-      },
-      {
-        "character": "Village medic",
-        "rule": "Local one-chapter witness to the sickness pattern; does not travel forward."
-      },
-      {
-        "character": "Granary keeper",
-        "rule": "Local one-chapter logistics witness; useful only for this village's supply history."
-      },
-      {
-        "character": "Village watcher / initiate",
-        "rule": "Local one-chapter operative tied to the grain stores; dies before he can be turned into a continuing witness."
+        "character": "Militia captain / village medic / granary keeper / cult initiate",
+        "rule": "Local one-chapter villagers for this outbreak site only."
       }
     ],
     "chapterHandoffTarget": "Chapter 5 opens with the same smaller riding party following the grain road southwest."
@@ -169,11 +157,17 @@
       "knowledgeAtSceneStart": [
         "The contamination is real; how it gets into people is still unknown."
       ],
-      "arcPressure": "Jaina keeps reaching for a purely magical answer while Sylvanas is already reading the human bottlenecks that make the outbreak legible.",
-      "enrichment": {
-        "detail": "Lordaeron village texture should stay practical rather than gothic: timber-and-stone buildings, bakehouse smoke, wet road mud, rough market noise, and ordinary grain traffic. That normal bread-and-market baseline makes the buried sickness feel embedded in daily life instead of already post-apocalyptic.",
-        "source": "stories/the-plague-road/locations/lordaeron-and-northrend.md; Warcraft Wiki: Andorhal; Wowpedia: Andorhal"
-      },
+      "arcPressure": "Jaina can feel the wrongness first, but Sylvanas reads the human resistance faster; if they do not fuse those methods, the village will keep naming a weaponized outbreak as ordinary sickness.",
+      "enrichment": [
+        {
+          "detail": "Human border villages in Lordaeron should still feel fed and working on the surface: wet roads, grain economy, livestock, woodsmoke, and autumn labor. The horror here is ordinary routine persisting right up to collapse, not post-apocalyptic ruin.",
+          "source": "local ref: stories/the-plague-road/locations/lordaeron-and-northrend.md"
+        },
+        {
+          "detail": "Canon plague victims typically die within about three days and rise shortly after, so this chapter's 'ordinary sickness' stage should still feel deceptively plausible while coughs, sweetened breath, and mounting weakness are already inside the village.",
+          "source": "Warcraft Wiki: Plague of Undeath"
+        }
+      ],
       "beats": [
         {
           "beatId": 1,
@@ -183,9 +177,9 @@
           "conflict": "This settlement is still functioning, and that makes the danger harder to read because the locals see sickness, not plague.",
           "outcome": {
             "type": "yes-but",
-            "summary": "The party reaches a living site, but Jaina immediately understands the wrongness is already inside ordinary life."
+            "summary": "The party reaches a living site, but Jaina immediately feels the wrongness already threaded through ordinary routine."
           },
-          "valueShift": "investigative focus -> ordinary life with buried wrongness",
+          "valueShift": "investigative focus -> ordinary village with buried wrongness",
           "newOnPageInformation": [
             "The same contamination can be observed before open collapse.",
             "Most villagers still think they are dealing with an ugly run of sickness, not a spreading weapon."
@@ -196,20 +190,21 @@
           ],
           "sensoryAnchors": [
             "bread smoke",
-            "market noise threaded with coughs",
-            "flushed child on her feet",
+            "market noise cut with coughs",
+            "flushed child kept on her feet",
             "sick-sweetness under ordinary village smells"
           ],
-          "transitionIntent": "dialogue hook: the militia captain's resistance has to be solved before Jaina can touch the sickroom.",
+          "transitionIntent": "access-pressure: the militia captain blocks easy access and forces Sylvanas to negotiate a workable role.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "locations/millhaven",
+            "file": "threads/contamination-in-living-flesh",
             "fields": [
-              "establishedFacts",
-              "eventsHere"
+              "evidence",
+              "povCharacterKnows"
             ],
             "chapter": "chapter3"
-          }
+          },
+          "verifierNotes": "This living-village stage grows out of the same contamination thread already established on the south road. Do not present partial outbreak conditions as a brand-new category of threat."
         },
         {
           "beatId": 2,
@@ -219,9 +214,9 @@
           "conflict": "The militia captain has no reason to trust armed elves in what still looks, to him, like a bad local sickness run.",
           "outcome": {
             "type": "yes-but",
-            "summary": "Sylvanas gets access by confirming Millhaven's fate and forcing him to take the possibility seriously, but local trust is thin and disbelief still slows everyone."
+            "summary": "Sylvanas gets them inside by making Millhaven impossible to dismiss, but local trust stays thin and disbelief still slows everyone."
           },
-          "valueShift": "ordinary life with buried wrongness -> access under pressure",
+          "valueShift": "ordinary village with buried wrongness -> access under pressure",
           "newOnPageInformation": [
             "Sylvanas can read exhausted authority and bargain with it instead of bulldozing it.",
             "Jaina sees diplomacy where she expected force.",
@@ -231,20 +226,22 @@
             "Whether what they learn here will generalize beyond this village."
           ],
           "sensoryAnchors": [
-            "work-rough hands",
-            "Sylvanas lowering her voice",
-            "Millhaven's fate landing in the room"
+            "work-rough hands on the militia captain",
+            "Sylvanas lowering her voice instead of raising it",
+            "the weight of 'no one left' landing on the man"
           ],
-          "transitionIntent": "action continuation: Jaina peels toward the infirmary while Sylvanas works doors, stores, and frightened locals for the village's change history.",
+          "transitionIntent": "split-tasking: Jaina is sent to the infirmary while Sylvanas works the village through its doors, stores, and frightened people.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "relationships/jaina--sylvanas",
+            "file": "characters/sylvanas-windrunner",
             "fields": [
-              "currentState",
-              "history"
+              "beliefs",
+              "abilitiesDemonstrated",
+              "bodyLanguagePatterns"
             ],
             "chapter": "chapter3"
-          }
+          },
+          "verifierNotes": "Jaina has already learned Sylvanas reads pressure, authority, and useful human weakness faster than expected. This beat deepens that correction; it must not reset Jaina to chapter1 contempt."
         },
         {
           "beatId": 3,
@@ -254,9 +251,9 @@
           "conflict": "Jaina is looking at the same necromantic pattern she saw as residue in Millhaven, but now alive and spreading through tissue in real time.",
           "outcome": {
             "type": "yes-but",
-            "summary": "She can describe the stages, but not yet how it first gets in."
+            "summary": "She can describe the stages in living bodies, but not yet how the contamination first gets in."
           },
-          "valueShift": "access under pressure -> something is getting into them somehow",
+          "valueShift": "access under pressure -> whatever is doing this is getting into them somehow",
           "newOnPageInformation": [
             "Early cases cluster contamination in the gut.",
             "Only a handful of cases are sick enough to show the pattern spreading out from the gut, which means the body is taking it in and carrying it further.",
@@ -268,23 +265,22 @@
           "sensoryAnchors": [
             "sweetness on infected breath",
             "Jaina's magic on living tissue",
-            "borrowed cots in a room never meant to be an infirmary"
+            "borrowed cots in a room that was never meant to be an infirmary"
           ],
-          "transitionIntent": "investigative carry: the gut-first pattern forces Jaina to compare patient severity against diet and routine while Sylvanas keeps building the timeline outside.",
+          "transitionIntent": "pattern-pressure: Jaina doubles down on patient correlation while Sylvanas gathers the village's change history.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "threads/living-contamination-vector",
+            "file": "threads/contamination-in-living-flesh",
             "fields": [
               "evidence",
               "povCharacterKnows"
             ],
             "chapter": "chapter3"
-          }
+          },
+          "verifierNotes": "Jaina already knows the contamination is physical and active in living bodies. The new turn here is the gut-first clustering in current patients, not a surprise reveal that it can touch flesh before death."
         }
       ],
-      "sceneLevelWarnings": [
-        "Scene 1 rolls straight into Scene 2 without sequel relief; the chapter does not reach its first sequel until beat 7."
-      ]
+      "sceneLevelWarnings": []
     },
     {
       "sceneId": 2,
@@ -300,14 +296,23 @@
         "village civilians"
       ],
       "knowledgeAtSceneStart": [
-        "The contamination is getting into people somehow.",
-        "The village's routines may hold the answer."
+        "The contamination is getting into people somehow; the village's routines may hold the answer."
       ],
-      "arcPressure": "The answer only becomes usable once Jaina stops treating diet, routine, and supply as lesser evidence than magic.",
-      "enrichment": {
-        "detail": "The plague mechanism here should stay gut-first and exposure-weighted: repeated ingestion produces worse cases, and Jaina is sharp enough to see that the body is participating in the mechanism without solving the full theorem. Antonidas-trained Jaina can make that fast, authoritative read without being allowed the Chapter 12 completion early.",
-        "source": "stories/the-plague-road/plans/plague-mechanism.md; Warcraft Wiki: Jaina (Warcraft III); Wowhead: Lore of Jaina Proudmoore"
-      },
+      "arcPressure": "Jaina can isolate the magical carrier only if she lets Sylvanas's read of timing, labor, and supply stop feeling like secondary evidence.",
+      "enrichment": [
+        {
+          "detail": "Andorhal was Lordaeron's main agricultural distribution point and the plague spread through infected grain shipped from there to surrounding towns, which supports a village pattern of bread-heavy households worsening first while the source still sits farther down the road.",
+          "source": "Warcraft Wiki: Plague of Undeath; Warcraft Wiki: Andorhal"
+        },
+        {
+          "detail": "Andorhal should be understood less as a skyline than as loading yards, granaries, manifests, wagons, clerks, and grain dust everywhere \u2014 useful forward texture once the supply-chain answer clicks.",
+          "source": "local ref: stories/the-plague-road/locations/lordaeron-and-northrend.md; Warcraft Wiki: Andorhal"
+        },
+        {
+          "detail": "Jaina is canonically Antonidas's apprentice and one of the mages sent to investigate the plague, so her fast necromantic pattern-recognition and medical triage here should read as earned expertise rather than lucky guessing.",
+          "source": "Warcraft Wiki: Jaina Proudmoore"
+        }
+      ],
       "beats": [
         {
           "beatId": 4,
@@ -319,7 +324,7 @@
             "type": "yes-but",
             "summary": "She proves partial intervention is possible, but only as delay, not cure."
           },
-          "valueShift": "something is getting into them somehow -> I can buy time, not victory",
+          "valueShift": "whatever is doing this is getting into them somehow -> I can buy time, not victory",
           "newOnPageInformation": [
             "Stabilization wards can slow progression in some cases.",
             "Most patients are still early enough to help if the entry route is found quickly."
@@ -328,21 +333,21 @@
             "What the patients are all taking in that created the pattern."
           ],
           "sensoryAnchors": [
-            "blue stabilization light",
-            "amber-wrong contamination",
-            "hands going still",
-            "child watching from the corner"
+            "blue stabilization light over amber-wrong contamination",
+            "farmer's wife's hands going still",
+            "child watching Jaina work from the corner"
           ],
-          "transitionIntent": "causal carry: temporary stabilization is useless without the intake route, so Jaina cross-checks food habits and household routine next.",
+          "transitionIntent": "correlation-pressure: Jaina now cross-references patient condition against diet and routine.",
           "continuityStatus": "evolution",
           "memoryRef": {
             "file": "characters/jaina-proudmoore",
             "fields": [
               "abilitiesDemonstrated",
-              "knowledge"
+              "beliefs"
             ],
             "chapter": "chapter3"
-          }
+          },
+          "verifierNotes": "Treat the medical intervention as a new application of established plague-reading skill, not as the first proof that Jaina can act on the problem at all."
         },
         {
           "beatId": 5,
@@ -365,20 +370,21 @@
             "Where the tainted grain first joins the local stores."
           ],
           "sensoryAnchors": [
-            "bakery in view",
+            "bakery in view from the infirmary door",
             "grain dust on wood and clothes",
             "Jaina gripping the frame when the pattern locks"
           ],
-          "transitionIntent": "revelatory convergence: once grain reads as the carrier, supplier history becomes the next necessary question.",
+          "transitionIntent": "supplier-pressure: Jaina now knows what is making people sick, but not who put it there.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "threads/living-contamination-vector",
+            "file": "threads/contamination-in-living-flesh",
             "fields": [
               "evidence",
-              "povCharacterKnows"
+              "notes"
             ],
             "chapter": "chapter3"
-          }
+          },
+          "verifierNotes": "This is the earned grain confirmation. Earlier Millhaven details remain precursor clues; do not retroactively write prior chapters as if grain had already been proved there."
         },
         {
           "beatId": 6,
@@ -388,34 +394,36 @@
           "conflict": "The witnesses only remember routines, prices, deliveries, and practical changes \u2014 not magical theory.",
           "outcome": {
             "type": "yes-but",
-            "summary": "Sylvanas finds the same supplier-and-timeline pattern as Millhaven, but still cannot prove why it matters."
+            "summary": "Sylvanas finds a supplier-and-timeline pattern that makes Millhaven's weak grain clue harder to dismiss, but they still cannot prove why it matters."
           },
           "valueShift": "the grain is the weapon -> same supplier, same timeline",
           "newOnPageInformation": [
-            "New grain supplier three months back.",
-            "The same 'pleasant, forgettable, better prices' description appears again.",
-            "Sylvanas has the people-and-road pattern, but not yet why it matters.",
+            "A new grain supplier appeared three months back.",
+            "The same 'pleasant, forgettable, better prices' description surfaces again.",
+            "Sylvanas now has a supplier-and-road pattern that starts connecting this village to the weaker Millhaven clue.",
             "Jaina can see from the window that Sylvanas is building a usable model of the village out of prices, deliveries, and fear."
           ],
           "stillUnknownAfterBeat": [
             "Whether this supplier is cause or coincidence."
           ],
           "sensoryAnchors": [
-            "grain-dusted hands",
-            "few questions getting specific answers",
-            "Jaina watching through the window"
+            "grain-dusted hands of the keeper",
+            "Sylvanas asking very few questions and getting very specific answers",
+            "Jaina watching through the window while still half in medical triage"
           ],
-          "transitionIntent": "revelatory convergence: Sylvanas's supplier pattern has to be laid beside Jaina's ingestion read before either answer is usable alone.",
+          "transitionIntent": "synthesis-pressure: the two partial pictures have to be laid beside each other.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "threads/new-grain-seller",
+            "file": "threads/newer-grain-seller",
             "fields": [
               "evidence",
-              "povCharacterKnows"
+              "povCharacterKnows",
+              "notes"
             ],
             "chapter": "chapter3"
           },
-          "verifierNotes": "Strengthen the supplier echo without treating the old seller or the newer grain man as solved identity proof yet."
+          "verifierNotes": "Treat the supplier match as the first real strengthening of Millhaven's weak grain clue, not as retroactive certainty about the old trader or supplier identity.",
+          "verifierModification": "Clarified the outcome and one support bullet so the chapter strengthens the Millhaven clue without rewriting chapter3 into prior proof."
         },
         {
           "beatId": 7,
@@ -432,24 +440,25 @@
             "Jaina catches herself waiting for Sylvanas's half before trusting her own answer, which is new enough to be disorienting."
           ],
           "stillUnknownAfterBeat": [
-            "Whether they are dealing with a lone saboteur or something larger."
+            "Whether they are dealing with a lone saboteur or an organization."
           ],
           "sensoryAnchors": [
             "grain dust on Sylvanas's gloves",
             "residual ward-light on Jaina's hands",
-            "silence before both realize they reached the same picture"
+            "silence before both realize they reached the same picture from different directions"
           ],
-          "transitionIntent": "action continuation: with the two halves locked together, they move on the granary before anyone inside can scrub the trail.",
+          "transitionIntent": "granary-rush: they go to the granary at once.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "relationships/jaina--sylvanas",
+            "file": "relationships/jaina-proudmoore--sylvanas-windrunner",
             "fields": [
               "currentState",
               "powerDynamic",
               "trajectory"
             ],
             "chapter": "chapter3"
-          }
+          },
+          "verifierNotes": "Operational convergence only. Jaina waiting for Sylvanas's half marks a method correction, not trust or softness."
         }
       ],
       "sceneLevelWarnings": []
@@ -463,30 +472,35 @@
         "Sylvanas",
         "Cyndia",
         "Lyriel",
-        "village watcher",
+        "cult initiate",
         "militia captain"
       ],
       "knowledgeAtSceneStart": [
-        "Grain is carrying the plague.",
-        "The road and storehouses are spreading it."
+        "Grain is carrying the plague; the road and storehouses are spreading it."
       ],
-      "arcPressure": "Once the grain answer lands, Jaina has to accept that logistics, evidence handling, and field timing are part of the mechanism rather than afterthoughts.",
-      "enrichment": {
-        "detail": "Andorhal is Lordaeron's breadbasket and distribution hub: warehouse-scale granaries, loading yards, grain dust, and outbound wagon traffic feeding whole regions. This village granary should feel like one spoke in that larger supply web, which sharpens why the next move is southwest toward the hub rather than staying local forever.",
-        "source": "stories/the-plague-road/locations/lordaeron-and-northrend.md; Warcraft Wiki: Andorhal; Wowpedia: Andorhal"
-      },
+      "arcPressure": "Once the answers fuse, the granary has to prove the plague is a deliberate network with disposable people in it; otherwise Jaina can still pretend it is only a mechanism waiting to be solved.",
+      "enrichment": [
+        {
+          "detail": "Mal'Ganis commanded both the Scourge and the Cult of the Damned in Lordaeron while the plague network moved through infected grain and supervised handlers, which supports a low-level watcher as a frightened expendable cog rather than a mastermind.",
+          "source": "Warcraft Wiki: Mal'Ganis; Warcraft Wiki: Plague of Undeath"
+        },
+        {
+          "detail": "Andorhal fed northern Lordaeron through King's Road grain shipments, so 'follow the supply chain southwest' should feel like a concrete logistical trail of ledgers, wagons, granaries, and storehouses rather than a vague hunch.",
+          "source": "Warcraft Wiki: Andorhal; local ref: stories/the-plague-road/locations/lordaeron-and-northrend.md"
+        }
+      ],
       "beats": [
         {
           "beatId": 8,
           "beatType": "scene",
           "scenePhase": "goal",
           "goal": "Secure the grain stores and see how the grain is being doctored.",
-          "conflict": "A young watcher inside the granary reaches for a lamp to destroy the evidence.",
+          "conflict": "A young initiate is inside actively monitoring the grain and reaches for a lamp to destroy the evidence.",
           "outcome": {
             "type": "no-and",
-            "summary": "Sylvanas stops the fire and Jaina contains the broken agent, but the presence of a live watcher proves deliberate conspiracy."
+            "summary": "Sylvanas stops the fire and Jaina contains the broken agent, but his presence proves deliberate conspiracy."
           },
-          "valueShift": "someone is moving tainted grain on purpose -> someone is guarding the operation",
+          "valueShift": "tainted grain is being moved on purpose -> someone is guarding the operation",
           "newOnPageInformation": [
             "The contamination exists in concentrated liquid form before mixing.",
             "A live operative is stationed at village level to monitor the weapon."
@@ -497,10 +511,10 @@
           ],
           "sensoryAnchors": [
             "clay vessel shattering",
-            "sweet wrong smell",
+            "sweet wrong smell of concentrated agent",
             "Sylvanas's arrow pinning instead of killing"
           ],
-          "transitionIntent": "action continuation: a live captured watcher turns evidence control into prisoner control and urgent analysis.",
+          "transitionIntent": "capture-pressure: interrogation becomes the next urgent priority.",
           "continuityStatus": "new"
         },
         {
@@ -511,56 +525,52 @@
           "conflict": "The initiate is terrified, not disciplined-looking, and that makes him easy to underestimate while Jaina is forced to triage evidence fast.",
           "outcome": {
             "type": "yes-but",
-            "summary": "They physically hold him, and Jaina proves the liquid is skilled work rather than hedge poison; sack marks and ledger notes point southwest through Andorhal, but they still do not get usable words out of him."
+            "summary": "They hold him physically, and Jaina proves the liquid is skilled work, but they do not get usable words out of him."
           },
           "valueShift": "someone is guarding the operation -> this is bigger than one frightened boy",
           "newOnPageInformation": [
             "The alchemical design is far beyond hedge work.",
-            "The treatment sits on necromantic work Jaina knows only from warnings and half-whispered lessons about things Dalaran does not teach openly.",
-            "Recent sack marks and granary ledger notes tie the latest shipment lane southwest through Andorhal.",
+            "The treatment sits on necromantic work Jaina knows only from warnings and half-whispered lessons about the things Dalaran does not teach openly.",
             "The initiate is a cog, not a mastermind."
           ],
           "stillUnknownAfterBeat": [
-            "Who above the village line is directing the route.",
-            "Whether Andorhal is source, hub, or only the next visible node."
+            "Names, hierarchy, target scope."
           ],
           "sensoryAnchors": [
-            "torchlight on a terrified face",
+            "torchlight on the prisoner's terrified face",
             "barrier over the broken agent",
-            "Cyndia and Lyriel moving the prisoner under armed control"
+            "Lyriel and Cyndia moving the prisoner under armed control"
           ],
-          "transitionIntent": "causal snap: the prisoner reaches his poison before a real interrogation can begin, collapsing the easy route to names.",
+          "transitionIntent": "holding-cell pressure: the interrogation possibility collapses before it can be used.",
           "continuityStatus": "new",
-          "verifierNotes": "Jaina already knows necromancy in the broad Kirin Tor sense; the novelty here is the skilled applied design and delivery method, not the subject itself.",
-          "verifierModification": "Added a concrete Andorhal-bearing logistics clue so the chapter5 handoff comes from observed evidence instead of authorial push."
+          "verifierNotes": "Jaina already knows necromancy in the broad sense. The new information is the sophistication and deliberate refinement of this work, not the existence of necromancy itself."
         },
         {
           "beatId": 10,
           "beatType": "scene",
           "scenePhase": "disaster",
           "goal": "Interrogate the initiate before the trail goes cold.",
-          "conflict": "The initiate kept a concealed poison capsule for capture, making the window between restraint and questioning shorter than ordinary custody can solve.",
+          "conflict": "By the time they reach the holding cell, the initiate has already killed himself with poison he was carrying for exactly this moment.",
           "outcome": {
             "type": "no-and",
-            "summary": "The witness is dead before they can break him, and the hidden capsule makes the silence feel trained rather than accidental."
+            "summary": "The witness is dead, and his death proves somebody trained him for capture."
           },
           "valueShift": "this is bigger than one frightened boy -> the village is tied to something larger and colder",
           "newOnPageInformation": [
-            "He carried a concealed poison capsule specifically for capture.",
-            "The village line is disciplined enough to train disposable watchers to die before talking."
+            "He was given a way to die before he could talk.",
+            "The plague operation has enough structure to treat village watchers as disposable hands."
           ],
           "stillUnknownAfterBeat": [
-            "Exact name of the organization.",
-            "Who is directing the route beyond Andorhal."
+            "The exact name of the organization.",
+            "The full source node."
           ],
           "sensoryAnchors": [
             "warm body on the cell floor",
-            "bare trace of foam",
-            "quiet horror in the room"
+            "bare trace of foam at the mouth",
+            "quiet horror in the room after they realize how quickly they lost him"
           ],
-          "transitionIntent": "decision carryover: with the watcher dead, only recorded logistics, grain marks, and the southwest supply chain remain actionable.",
-          "continuityStatus": "new",
-          "verifierModification": "Made the poison mechanism explicit so the death reads as enemy discipline instead of escort incompetence."
+          "transitionIntent": "supply-chain pressure: the only viable next move is to follow the supply chain southwest.",
+          "continuityStatus": "new"
         },
         {
           "beatId": 11,
@@ -568,35 +578,31 @@
           "scenePhase": "decision",
           "emotion": "Exhausted resolve.",
           "dilemma": "Stay and keep helping a village that still thinks it has a fever problem, or leave partial relief behind and go after the source before more places become Millhaven.",
-          "decision": "Seal what grain they can, leave hard containment instructions with the captain and medic, and follow the grain network toward Andorhal.",
+          "decision": "Follow the grain network toward Andorhal.",
           "valueShift": "the village is tied to something larger and colder -> the trail has a destination",
           "newOnPageInformation": [
-            "The source is no longer just an idea; records and sack marks tie the route southwest through Andorhal.",
-            "Sylvanas leaves the captain with orders to seal the granary and pull suspect grain out of circulation.",
-            "Jaina leaves the medic strict instructions about bread exposure, triage order, and which patients may still be slowed.",
+            "The source is no longer just an idea; it has a road and a name: Andorhal.",
             "Jaina and Sylvanas are now solving the same problem from opposite ends, and the picture only clears when they set their answers together."
           ],
           "stillUnknownAfterBeat": [
-            "Who sits behind the network.",
-            "Whether Andorhal is the source or only the next visible tier."
+            "Who sits behind the network."
           ],
           "sensoryAnchors": [
-            "night coughing through ordinary houses",
-            "fading light from Jaina's hands",
-            "imagined grain wagons already moving southwest"
+            "night coughing through otherwise ordinary houses",
+            "fading light from Jaina's hands after stabilization work",
+            "grain wagons imagined already moving somewhere southwest"
           ],
-          "transitionIntent": "forward hook: chapter5 opens with the quartet following records, storehouses, and wagon routes toward Andorhal.",
+          "transitionIntent": "chapter-hook: Chapter 5 opens on the smaller riding party following records, storehouses, and wagon routes toward Andorhal.",
           "continuityStatus": "evolution",
           "memoryRef": {
-            "file": "relationships/jaina--sylvanas",
+            "file": "relationships/jaina-proudmoore--sylvanas-windrunner",
             "fields": [
               "currentState",
               "trajectory"
             ],
             "chapter": "chapter3"
           },
-          "verifierNotes": "Keep the closing shift functional rather than warm; this is method alignment, not trust.",
-          "verifierModification": "Weighted the departure choice with concrete local containment measures so the pursuit does not erase the village stakes."
+          "verifierNotes": "Carry forward cold collaborative method only. Chapter 5 inherits quicker mutual use, not easy warmth."
         }
       ],
       "sceneLevelWarnings": []
@@ -609,12 +615,15 @@
       "Cyndia",
       "Lyriel"
     ],
-    "departuresLocked": [],
+    "departuresLocked": [
+      "The core riding party remains Jaina, Sylvanas, Cyndia, and Lyriel.",
+      "Militia captain, village medic, granary keeper, and the dead cult initiate are local to this outbreak site only."
+    ],
     "factsLockedForChapter5": [
       "Grain is confirmed as what carries the plague into people.",
       "The road and storehouse network is how it spreads.",
       "A live village watcher existed and died by poison before he could be questioned.",
-      "Granary records and sack marks tie the next target to the route southwest through Andorhal.",
+      "The next target is the route southwest toward Andorhal.",
       "Millhaven remains the first fully claimed village in the pattern; most other settlements are still only in confused early-stage sickness.",
       "Millhaven left two weak grain-side anomalies in the file: the old seller on the north road and the survivor girl's memory of a newer grain man."
     ],
@@ -624,187 +633,158 @@
       "Any collapse of the partnership into open trust."
     ]
   },
+  "researchSources": [
+    {
+      "label": "Warcraft Wiki \u2014 Plague of Undeath",
+      "url": "https://warcraft.wiki.gg/wiki/Plague_of_Undeath",
+      "usedFor": [
+        "infected grain distribution context",
+        "early civilian symptom timeline",
+        "cult-operated village spread"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki \u2014 Andorhal",
+      "url": "https://warcraft.wiki.gg/wiki/Andorhal",
+      "usedFor": [
+        "agricultural distribution hub context",
+        "grain-route logic toward the southwest",
+        "storehouse and manifest texture"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki \u2014 Mal'Ganis",
+      "url": "https://warcraft.wiki.gg/wiki/Mal%27Ganis",
+      "usedFor": [
+        "Lordaeron plague command role",
+        "cult network framing",
+        "watcher-as-cog calibration"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki \u2014 Jaina Proudmoore",
+      "url": "https://warcraft.wiki.gg/wiki/Jaina_Proudmoore",
+      "usedFor": [
+        "Antonidas apprenticeship",
+        "plague-investigator context",
+        "field-mage competence calibration"
+      ]
+    }
+  ],
   "validation": {
     "passed": true,
-    "normalizations": [
-      "Normalized beatType and scenePhase from the markdown beat headings.",
-      "Converted meta-info references, knowledge ledger, arc position, and cast/handoff notes into preserved JSON scaffold form.",
-      "Added scene-level arcPressure where the chapter's stance test is visibly active.",
-      "Kept the active outline title as operative authority; older arc docs still carry the stale title 'The Dying Village'."
-    ],
     "warnings": [
-      "Beats 1-6 run six consecutive scene beats before the first sequel at beat 7. The accumulating procedural pressure works, but the chapter stays scene-heavy for a long stretch.",
-      "Scene outcomes skew heavily toward yes-but (beats 1-4, 6, and 9), with only one clean yes and two no-and turns. The chapter still lands, but the tension texture is narrower than it could be.",
-      "Cross-doc drift: story-arc.md and investigation-arc.md still call Chapter 4 'The Dying Village' while the active outline is 'The Sick Village'. Kept the outline title as operative authority for this run."
+      "Beats 1-6 run six consecutive scene beats before the sequel at beat 7. Keep the infirmary and witness-pattern work sharply differentiated so the investigation keeps climbing instead of blending together.",
+      "Beats 8-10 stack three darkening scene beats in a row inside the granary sequence, with two no-and outcomes bracketing a yes-but. Modulate the pressure so each step changes the kind of danger, not just the amount.",
+      "Scene-beat outcomes lean heavily yes-but overall (six of the nine scene beats). The chapter has strong pressure, but the gains need different emotional weights so every discovery does not feel blunted in the same way."
     ],
-    "enrichments": 3
+    "enrichments": 7
   },
-  "chapterBridge": "Intentional two-day bridge from chapter3's southbound recommitment: the same reduced quartet arrives carrying Millhaven's proof, Neral's absence, and the weak grain clue into a village still alive enough to misname the plague as ordinary sickness.",
+  "chapterBridge": "Intentional two-day carry from chapter3's southbound commitment: the same reduced four-rider party has pushed deeper into Lordaeron following stronger readings and still-living settlements, so chapter4 opens as the first on-page proof of the ordinary-looking outbreak the road ahead promised rather than as a reset.",
   "requiredMemory": [
-    "locations/millhaven",
-    "relationships/jaina--sylvanas",
-    "threads/living-contamination-vector",
+    "threads/contamination-in-living-flesh",
+    "characters/sylvanas-windrunner",
     "characters/jaina-proudmoore",
-    "threads/new-grain-seller"
+    "threads/newer-grain-seller",
+    "relationships/jaina-proudmoore--sylvanas-windrunner"
   ],
   "verification": {
     "craftResearch": [
       {
-        "topic": "investigation chapter pivots",
-        "findings": "The chapter needs a fair late pivot built from planted evidence, not a conclusion dropped in from outside the scene.",
-        "source": "Jane Friedman, Novel Factory, Wattpad Creators thriller and mystery craft guidance via web research"
+        "topic": "ordinary-setting suspense",
+        "findings": "Keep the setting recognizably ordinary, then let small abnormalities poison it; suspense rises when bread smoke, labor, and market noise coexist with unmistakable wrongness.",
+        "source": "Web craft survey: Jane Friedman, Dan Padavona, Authors Pathway"
       },
       {
-        "topic": "scene sequel rhythm",
-        "findings": "Long procedural or action runs need reaction and decision space or the pressure turns flat instead of sharp.",
-        "source": "Dabble, Writers Helping Writers, The Novelry scene-sequel guidance via web research"
+        "topic": "active clue escalation",
+        "findings": "Each discovery beat should come from action and should change the type of evidence, not merely repeat the same unease at higher volume.",
+        "source": "Web craft survey: Authors Pathway, BookBaby, Novel Factory"
       },
       {
-        "topic": "scene and chapter transitions",
-        "findings": "Transitions land best when they carry explicit causal or emotional momentum and orient the reader cleanly across time or place changes.",
-        "source": "Authors Pathway, Blue Pencil, Helping Writers Become Authors transition guidance via web research"
+        "topic": "parallel specialist investigation",
+        "findings": "When two specialists share a chapter, each should own a distinct investigative lane and the chapter should turn when the two partial answers finally lock together.",
+        "source": "Web craft survey: Novel Factory, Mystery Writer's Hub, Master of Worlds"
       },
       {
-        "topic": "fantasy thriller investigations",
-        "findings": "Mystery discovery works best when magical logic stays rule-bound, clues escalate complication, and personal stakes stay attached to each reveal.",
-        "source": "Write It Scared, Master of Worlds, Sudowrite thriller craft guidance via web research"
+        "topic": "breathing room after hard proof",
+        "findings": "After a dense answer or revelation cluster, insert a short decision beat so the reader processes the implication before the next surge.",
+        "source": "Web craft survey: Dan Padavona, StoryFlint, Jane Friedman"
+      },
+      {
+        "topic": "chapter-end pursuit hook",
+        "findings": "Close with a fresh objective created by the new evidence, not with full solution; the answer should narrow the road ahead and sharpen pursuit.",
+        "source": "Web craft survey: Novel Factory, StorytellingDB, Mystery Writer's Hub"
       }
     ],
+    "phaseObservations": {
+      "structure": [
+        "Beat 1 opens on active arrival and immediate assessment, which keeps the chapter from restarting with recap after chapter3's southbound hook.",
+        "Beats 1-3 escalate by changing evidence type from ambient wrongness to access conflict to body-mapping, so the opening investigation does not flatten into one note.",
+        "Beats 4-6 are a long analytical run with no sequel break, but they survive because each beat asks a different question: Can this be slowed? How does it enter? What changed in village routine?",
+        "Beat 7 lands at the right spot as the chapter's pressure-release and synthesis turn; without it, the granary sequence would feel like scene-pileup rather than pivot.",
+        "Beats 8-10 escalate the granary line from evidence preservation to technical diagnosis to proof of network discipline, and beat 11 converts that proof into a clean pursuit hook toward Andorhal."
+      ],
+      "character": [
+        "The chapter stays inside Jaina's limited-third filter: every social read is phrased through what surprises, corrects, or irritates her.",
+        "Jaina remains active in beats 1, 3, 4, 5, 7, 8, 9, and 11; the beats where Sylvanas owns the lane are part of the forced-choice design, not passivity drift.",
+        "Sylvanas serves a distinct narrative function from Jaina throughout: she solves access, witness behavior, supply pattern, and tactical action instead of duplicating magical diagnosis.",
+        "Scene 1 and Scene 2 both earn their arcPressure claims because Jaina keeps reaching for the magical half first until Sylvanas's people-read becomes structurally indispensable.",
+        "The end-state shift is earned by method change rather than sentiment: Jaina leaves less superior and more collaborative, while the tone stays tense enough to avoid false trust."
+      ],
+      "continuity": [
+        "Beat 1 correctly extends chapter3's established idea that ordinary settlements farther south can still hide the plague inside routine life.",
+        "Beat 3 advances the contamination thread instead of re-revealing Jaina's competence; the new information is gut-first clustering in living patients.",
+        "Beat 5 is the chapter that finally proves grain, so earlier Millhaven material must remain precursor clue rather than rewritten certainty.",
+        "Beat 6 originally leaned too close to retroactive proof; it has been clarified so the supplier match strengthens the Millhaven clue without pretending chapter3 already solved it.",
+        "Beat 9 needed a continuity warning because Jaina already knows necromancy exists; what is newly learned here is sophistication, secrecy, and scale."
+      ],
+      "transitions": [
+        "Beat 1's access-pressure handoff lands cleanly in beat 2 because the militia captain becomes the immediate gate the chapter has to solve.",
+        "Beat 3's pattern-pressure transition carries into beat 4 without dead air: diagnosis moves directly into correlation and attempted mitigation.",
+        "Beat 6 and beat 7 form the chapter's best hinge, because synthesis-pressure resolves into a decision beat instead of another redundant clue pass.",
+        "Beat 9's holding-cell handoff works because the next beat turns physical custody into an immediate narrative loss, not a delayed off-page update.",
+        "The chapter opening uses an intentional cross-chapter break, but the new chapterBridge keeps the two-day skip oriented through the same reduced party, same southbound pursuit, and same outbreak logic."
+      ]
+    },
     "evaluation": {
       "pacing": {
         "score": "strong",
-        "notes": "The chapter runs hot through beat 7, then uses beat 11 as the necessary release-and-redirection beat. The pressure is deliberate rather than shapeless, but it only stays sharp once the exit choice carries real local cost.",
-        "details": [
-          "Beat 1 opens inside motion, coughs, and buried wrongness instead of setup summary.",
-          "Beats 1 through 3 escalate by access problem, then body read, not by repeating the same note.",
-          "Beats 4 through 6 stay scene-heavy, but each changes the investigative method from treatment, to diagnosis, to logistics.",
-          "Beat 7 is the chapter's first real breath, and it arrives just before the granary run can turn monotonous.",
-          "Beats 8 through 10 create the chapter's tightest pressure cluster, so beat 11 has to absorb consequence and choice rather than merely point south."
-        ]
+        "notes": "The chapter rises from ordinary unease (beats 1-2) to medical proof (3-5), shared synthesis (6-7), and conspiracy confirmation (8-10) before a brief pursuit-launch release in beat 11. The 9-scene / 2-sequel ratio is aggressive, but the evidence types change often enough to keep the middle from turning into investigative blur."
       },
       "structure": {
         "score": "strong",
-        "notes": "The chapter escalates from living-village unease, to grain confirmation, to deliberate conspiracy, then hands off cleanly into the next pursuit. The major structural fix was earning Andorhal on-page and weighting the departure decision.",
-        "details": [
-          "The opening hook is strong because the village is functioning badly, not already dead.",
-          "The middle turn lands at beats 5 through 7, where grain stops being a weak clue and becomes usable proof.",
-          "Scene 2 is the hinge because Jaina and Sylvanas solve separate halves before the chapter allows convergence.",
-          "The granary sequence works as the climax because it converts diagnosis into opposition, not just more evidence.",
-          "The close survives because the witness death narrows the route to logistics and pursuit instead of wrapping the case."
-        ]
+        "notes": "The opening is active, the midpoint turn lands when Jaina's medical answer and Sylvanas's supply answer lock together, and the close narrows the chase to Andorhal instead of resolving the problem. One continuity wording issue in beat 6 was softened so the chapter does not overstate what Millhaven had already proved."
       },
       "character": {
         "score": "strong",
-        "notes": "Jaina stays active, limited-third holds, and the arc block is delivered without softening the Jaina-Sylvanas lane into trust. The chapter's gains come from method correction, not emotional thaw.",
-        "details": [
-          "Beat 1 filters the village through Jaina's wrongness-read rather than detached worldbuilding.",
-          "Beat 2 corrects Jaina's view of Sylvanas through observed behavior, which keeps POV discipline intact.",
-          "Beats 3 through 5 give Jaina agency in diagnosis, triage, and proof instead of leaving her reactive.",
-          "Beat 6 keeps Sylvanas load-bearing while still filtering the discovery through what Jaina can see and infer.",
-          "Beat 7 is the chapter's forced-choice beat: Jaina stops protecting a neat magical lane and acts on the combined method.",
-          "Beat 11 lands the promised end-state only if the prose keeps the shift cooler than trust and sharper than camaraderie."
-        ]
+        "notes": "Jaina remains the POV and still drives the diagnostic half of the chapter, while Sylvanas, Cyndia, Lyriel, and the local witnesses all carry distinct functions. The chapter fulfills its arc promise by weakening Jaina's superiority without converting usefulness into warmth."
       },
       "transitions": {
         "score": "strong",
-        "notes": "All 11 beat handoffs were checked and retyped into explicit causal carries. The chapter bridge now marks the intentional two-day gap, and the granary run no longer leaps to Andorhal without a visible link.",
+        "notes": "All 11 beat-level transitionIntent chains were verified against the next beat or scene. No beat-level intents were missing, scene boundaries land cleanly, and the chapterBridge now frames the deliberate two-day chapter break as continuation rather than reset.",
         "intents_verified": 11,
         "intents_added": 0,
-        "intents_retyped": 11,
-        "intentional_breaks": 1,
-        "details": [
-          "Beat 1 now hands by dialogue pressure into the captain confrontation instead of a generic next-step note.",
-          "Beat 3 now names the investigative carry from gut pattern to diet review, which keeps scene 2 from feeling like a restart.",
-          "Beat 5 now points causally toward supplier history, making beat 6 feel earned rather than adjacent.",
-          "Beat 6 now hands by convergence into beat 7, clarifying why the chapter needs a shared-read sequel before the granary.",
-          "Beat 9 now snaps causally into beat 10 through the concealed poison, which closes the interrogation window without making the escort look careless.",
-          "Beat 11 now hands chapter5 a forward hook anchored in records, route, and pursuit rather than in abstract intention."
-        ]
+        "intentional_breaks": 1
       },
       "continuity": {
         "score": "strong",
-        "notes": "The chapter advances prior state cleanly: the quartet stays consistent, grain moves from weak clue to earned answer, and the Jaina-Sylvanas shift remains operational rather than warm. No contradiction with memory indexes was found.",
+        "notes": "3 beats are new and 8 are evolutions; this is a forward-driving chapter with essentially no recap-only beats. One overclaim was corrected in beat 6, and anti-reintroduction guards were added for Jaina's plague competence, Sylvanas's human-read, the still-weak old-grain-seller clue, Jaina's necromancy knowledge, and the still-cold partnership dynamic.",
         "new": 3,
         "callbacks": 0,
         "evolutions": 8,
-        "contradictions_fixed": 0,
-        "anti_reintroductions_fixed": 2,
-        "details": [
-          "Beat 1 evolves Millhaven's aftermath into the first living village in the pattern without replaying chapter3.",
-          "Beats 2, 7, and 11 advance the Jaina-Sylvanas lane from proof-tested alignment into colder method dependence, not trust.",
-          "Beats 3 through 5 evolve the living-contamination-vector thread from suggestive grain clue to explicit ingestion proof.",
-          "Beat 6 strengthens the newer-grain-seller thread but keeps the earlier road anomalies as weak scraps, not solved identity proof.",
-          "Beat 9 guards against anti-reintroduction by treating broad necromancy knowledge as established and the applied design as the new layer.",
-          "The chapter never reintroduces Neral or the survivor girl on-stage, preserving chapter3's locked departures.",
-          "Callback density remains at 0 percent because the chapter spends its beats advancing prior material instead of recapping it."
-        ]
+        "contradictions_fixed": 1,
+        "anti_reintroductions_fixed": 5
       }
     },
     "modifications": [
       {
-        "type": "transition-normalization",
-        "description": "Retyped all 11 transitionIntent fields into explicit causal carries so every beat hands the next beat or scene a clear reason to exist.",
+        "type": "continuity-clarification",
+        "description": "Softened beat 6 so the supplier match strengthens Millhaven's weak grain clue without retroactively treating chapter3 as if it had already proved the supplier pattern.",
         "beatsBefore": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11
+          6
         ],
         "beatsAfter": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11
-        ]
-      },
-      {
-        "type": "evidence-clarification",
-        "description": "Added Andorhal-bearing sack marks and ledger notes to beat 9 so the chapter5 pursuit is grounded in discovered evidence.",
-        "beatsBefore": [
-          9,
-          10,
-          11
-        ],
-        "beatsAfter": [
-          9,
-          10,
-          11
-        ]
-      },
-      {
-        "type": "continuity-guard",
-        "description": "Clarified the concealed poison capsule in beat 10 and the necromantic-knowledge boundary in beat 9 so the chapter preserves escort competence and Jaina's established knowledge level.",
-        "beatsBefore": [
-          9,
-          10
-        ],
-        "beatsAfter": [
-          9,
-          10
-        ]
-      },
-      {
-        "type": "decision-weight",
-        "description": "Expanded beat 11 so the departure toward Andorhal leaves concrete containment orders behind, preserving the village stakes while still launching the next pursuit.",
-        "beatsBefore": [
-          11
-        ],
-        "beatsAfter": [
-          11
+          6
         ]
       }
     ],

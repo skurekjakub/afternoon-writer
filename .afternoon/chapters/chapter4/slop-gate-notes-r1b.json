@@ -1,0 +1,360 @@
+{
+  "chapterId": "chapter4",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 10,
+      "kills": 6,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F2/F7 mixed",
+      "findings": [
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 5,
+          "text": "That was the problem.",
+          "issue": "Abstractly restates the wrongness already conveyed by the ordinary market image.",
+          "whatItRestates": "It all looked normal.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 5,
+          "text": "That was the problem.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "It all looked normal.",
+          "issue": "Closure tag explains the image instead of letting the normality land on its own.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "MILD",
+          "line": 63,
+          "text": "The common-house back room had been made into an infirmary in the way villages made anything into anything when they had no choice.",
+          "paragraphLocation": "line 63 opening sentence",
+          "issue": "Thesis-opening summary announces the paragraph's point before the concrete sickroom details do the work.",
+          "suggestedFix": "Shelves gone, three bunks against one wall, four pallets on the floor.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 157,
+          "text": "Instead she heard coughing somewhere behind the row of houses and felt only the weight of the next door ahead.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Jaina had expected satisfaction when the pieces met.",
+          "issue": "Emotional summary closes the beat by naming burden instead of stopping on the coughs.",
+          "suggestedFix": "Instead she heard coughing somewhere behind the row of houses.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "MILD",
+          "line": 253,
+          "text": "He swallowed.",
+          "issue": "Generic dialogue beat that could belong to any frightened prisoner and adds no specific physical read.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "MILD",
+          "line": 263,
+          "text": "His throat worked.",
+          "issue": "Another generic fear beat that labels stress without adding character-specific action.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 349,
+          "text": "Outside, the village kept coughing in the cold morning while bread smoke rose over the roofs as if nothing had changed.",
+          "word": "as if",
+          "deletionTest": "Outside, the village kept coughing in the cold morning while bread smoke rose over the roofs unchanged.",
+          "issue": "The hedge softens a visible contradiction the sentence can state directly.",
+          "suggestedFix": "Outside, the village kept coughing in the cold morning while bread smoke rose over the roofs unchanged.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 5,
+      "kills": 3,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "A1/A5",
+      "findings": [
+        {
+          "pattern": "A1",
+          "severity": "MILD",
+          "line": 109,
+          "text": "Time bought at cost.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "This captioned abstraction steps outside Jaina's active triage into polished summary language.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A5",
+          "severity": "MILD",
+          "line": 197,
+          "text": "The room went very still.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "It labels the scene state from above instead of giving the physical freeze Jaina could register.",
+          "verdict": "KILL",
+          "confidence": "HIGH",
+          "suggestedFix": "No one moved.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2",
+          "severity": "MILD",
+          "line": 319,
+          "text": "No more force in the voice, only more certainty.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence compresses Sylvanas's delivery into polished interpretive language rather than the immediate sound Jaina would catch.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 7,
+      "kills": 3,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": 157,
+          "text": "Instead she heard coughing somewhere behind the row of houses and felt only the weight of the next door ahead.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The concrete next task or visible threat the sentence avoids naming.",
+          "reason": "Placeholder weight language asks the reader to supply the burden instead of naming the next sickroom or remaining work.",
+          "verdict": "KILL",
+          "suggestedFix": "Instead she heard coughing somewhere behind the row of houses.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P1",
+          "severity": "MILD",
+          "line": 161,
+          "text": "\"In two villages, with the same kind of man attached to it,\" Sylvanas said.",
+          "failedQuestion": "What specifically is being claimed?",
+          "missingPayload": "The actual seller pattern: pleasant grain man, lower prices, village delivery trail.",
+          "reason": "Dialogue reaches for incisive pattern language while dodging the specific seller identity Sylvanas is actually naming.",
+          "verdict": "KILL",
+          "suggestedFix": "\"In two villages, with the same grain seller behind it,\" Sylvanas said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P1",
+          "severity": "MILD",
+          "line": 319,
+          "text": "\"That's planning. That's reach.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The concrete conclusion already available: someone stationed a boy here and armed him with poison for capture.",
+          "reason": "The reply caps the deduction with sloganized abstraction instead of the operational fact already on the page.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No dialogue exchange in this draft sets up a translation request ('plainly', 'smaller words', 'short version', street-level restatement), so the guide found no candidate simplification chains to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 10,
+    "mildKills": 12,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 12,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 12 mild pass-B kills across three guides exceeds the 3-mild threshold. The draft also carries a structural texture deficit that should be addressed during revision.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "measured": 0.372,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "deltaFromTarget": -0.348
+      },
+      "sentence_length_cv": {
+        "measured": 0.784,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "deltaFromTarget": 0.084
+      },
+      "one_sentence_paragraph_pct": {
+        "measured": 45.7,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "deltaFromTarget": 26.7
+      },
+      "notes": [
+        "Structural rhythm concern: comma_period_ratio is below the calibrated floor.",
+        "Structural rhythm concern: one_sentence_paragraph_pct is far above the calibrated ceiling."
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)",
+        "compound_pct 2.4% below floor 4.0% (human: 8.5%)",
+        "texture_score 6.8% below floor 10.0% (human: 24.4%)",
+        "short_pct 70.9% above ceiling 62.0% -- telegram prose (human: 52.2%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | COMPOUND CLAUSES: 2.4% (floor: 4.0%, human: 8.5%). Join related ideas: ', and' / ', but' / ', yet'. Adjacent short sentences often want combining. | SHORT SENTENCES: 70.9% (ceiling: 62.0%, human: 52.2%). Too choppy. Combine adjacent short sentences using the constructions above.",
+      "flaggedPassageCounts": {
+        "telegram_run": 18,
+        "texture_desert": 9
+      },
+      "notes": [
+        "Structural texture deficit"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 17,
+        "totalViolations": 2,
+        "overCapCategories": [
+          "punctuation_tics",
+          "paragraph_structure"
+        ]
+      }
+    }
+  }
+}

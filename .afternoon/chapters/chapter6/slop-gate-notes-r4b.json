@@ -1,0 +1,280 @@
+{
+  "chapterId": "chapter6",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "pattern": "F1-rhythmic-sameness",
+          "severity": "severe",
+          "line": 321,
+          "text": "The grain was still moving. The city was still working.",
+          "issue": "Repeated short declaratives flatten the Andorhal reveal into a texture-desert closure; this line sits inside the final telegram run flagged by the rhythm scorer.",
+          "suggestedFix": "The grain was still moving through a city that still worked.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4-interpretive-restatement",
+          "severity": "mild",
+          "line": 55,
+          "text": "The rest of her meaning was clear enough.",
+          "issue": "The sentence translates Sylvanas's silence after the scene already gives the practical implication in the surrounding exchange.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4-interpretive-restatement",
+          "severity": "mild",
+          "line": 153,
+          "text": "He meant every word.",
+          "issue": "Arthas's dialogue and the preceding 'No apology in it' already carry this meaning; the sentence re-subtitles the beat.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "B1-polished-caption",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks like a field mage: hypothesis-driven, concrete when handling evidence, and technical without sounding essayistic. She can compress ideas, but her live interiority stays tied to proof, bodily signal, and immediate tactical consequence rather than polished thematic captions.",
+      "registerConfidence": "high",
+      "findings": [
+        {
+          "pattern": "B1-polished-caption",
+          "severity": "moderate",
+          "tier": "B",
+          "line": 41,
+          "text": "That was cleaner than the fight Jaina had been having with herself.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The line summarizes her interior conflict from above instead of staying inside the immediate relief of hearing Sylvanas say it plainly.",
+          "confidence": "moderate",
+          "suggestedFix": "Sylvanas had said it plain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2-conceptual-compression",
+          "severity": "moderate",
+          "tier": "B",
+          "line": 81,
+          "text": "Patience in Sylvanas meant she thought the outcome settled and was waiting for the proof to catch up.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence over-articulates Sylvanas's interior stance in polished explanatory prose beyond what Jaina would read in the moment.",
+          "confidence": "moderate",
+          "suggestedFix": "That was the look Sylvanas wore when she thought an argument was finished.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1-verdict-tag-fragment",
+          "severity": "mild",
+          "tier": "A",
+          "line": 123,
+          "text": "That, too, was familiar.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment lands like a caption after concrete observation instead of a thought grounded in what Arthas is doing at the table.",
+          "confidence": "high",
+          "suggestedFix": "He never interrupted when the answer interested him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "P3-placeholder-noun",
+      "findings": [
+        {
+          "pattern": "P3-placeholder-noun",
+          "severity": "mild",
+          "line": 5,
+          "text": "Somebody had put the thing where everyone would swallow it willingly.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The taint hidden in bread or grain.",
+          "reason": "The sentence leans on 'thing' instead of naming the contaminated bread-chain Jaina has already identified.",
+          "suggestedFix": "Somebody had buried the taint in bread everyone would eat willingly.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P3-placeholder-noun",
+          "severity": "mild",
+          "line": 23,
+          "text": "It carries the thing the rest of the way until death finishes it.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The taint now carried by the body.",
+          "reason": "The body-stage explanation refuses to name the payload even though the scene already frames it as taint passing from grain into flesh.",
+          "suggestedFix": "It carries the taint the rest of the way until death finishes it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P1-sloganized-abstraction",
+          "severity": "mild",
+          "line": 39,
+          "text": "\"Truth first. Judgment after, if there's time.\"",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "Say plainly that the plague design is competent before condemning it.",
+          "reason": "The line sounds hard-edged but still hides behind abstract nouns instead of naming the actual dispute in the exchange.",
+          "suggestedFix": "\"Say what it is first. Curse it after, if there's time.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "dominantPattern": null,
+      "cleanReason": "The only explicit translation exchange examined is Sylvanas's request to explain what the sickness becomes after death (lines 27-29). Jaina's reply gives a usable three-step payload already on the page—grain survives baking, the body holds the taint, death triggers the unresolved final turn—so no second simplification pass is needed.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 9,
+    "totalKeeps": 10,
+    "mildKills": 6,
+    "moderateOrSevereKills": 3,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 9,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 3 moderate/severe kills remain (1 severe rhythmic-sameness closure and 2 moderate narrator-seep compressions), plus 6 mild pass-B kills. The Andorhal approach still flattens into short declarative repetition and abstract shorthand at key turns.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.42,
+        "target": 0.72,
+        "delta": -0.3,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "value": 0.782,
+        "target": 0.7,
+        "delta": 0.082,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 42.7,
+        "target": 19.0,
+        "delta": 23.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "concerns": [
+        "comma_period_ratio below calibrated range",
+        "one_sentence_paragraph_pct far above calibrated range",
+        "structural rhythm concerns"
+      ]
+    },
+    "textureMetrics": {
+      "participial_pct": 2.4,
+      "compound_pct": 7.1,
+      "emdash_pct": 3.3,
+      "semicolon_pct": 0.9,
+      "short_pct": 57.6,
+      "texture_score": 13.6,
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassages": {
+        "telegramRunCount": 17,
+        "textureDesertCount": 8
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 21,
+        "totalViolations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

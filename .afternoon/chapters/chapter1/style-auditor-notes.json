@@ -4,231 +4,122 @@
     {
       "dimension": "sentenceRhythm",
       "observations": [
-        "Lines 3-9: the opener alternates medium action sentences with one-word aftermath beats; the cadence matches the action standard.",
-        "Lines 15-25: patrol banter stays in short declaratives, with one longer clause only where the political joke needs setup.",
-        "Lines 67-71: Sylvanas's road-thought paragraph uses clipped noun-phrase bursts to keep introspection tactical instead of soft.",
-        "Lines 71-73: the runner arrival was rhythmically strong but carried one negation-scaffold sentence that softened impact.",
-        "Lines 249-263: the identity reveal now pivots from ward-light to classification and command without a softer setup phrase."
+        "Lines 3-15 keep the action baseline tight and verb-forward; the opening sequence earns its clipped compression.",
+        "Lines 33-61 collapse into short-turn banter plus one-line narration, pushing the chapter into a rhythm flatline instead of the guide's mixed 10-12 word cadence.",
+        "Lines 97-145 carry the runner report in stacked short declaratives; the urgency works, but the connective tissue stays well below target.",
+        "Lines 181-227 keep the ride south readable and close, yet the sentence chain remains too choppy for a travel-and-briefing stretch.",
+        "Lines 249-276 render Cyndia's report in useful field language, but the passage still overuses hard stops where compounds or participial links should carry pressure.",
+        "Lines 381-399 land the holding-room reveal with strong scene pressure, though the cadence is still dominated by short declaratives rather than earned contrast."
       ],
-      "violations": 2,
-      "fixes": [
-        {
-          "line": 71,
-          "rule": "sentenceRhythmStandards.default + emphasisRule — cut negation scaffolding and land on blunt pressure beats",
-          "before": "They heard the rider before they saw him. Fast horse. Hard push. Not panic exactly, but close enough to bruise it. Heads turned south together. The patrol had their bows in hand before the runner broke through the trees.",
-          "after": "They heard the rider before they saw him. Fast horse. Hard push. Near panic. Close enough to bruise. Heads turned south together. The patrol had their bows in hand before the runner broke through the trees."
-        },
-        {
-          "line": 249,
-          "rule": "sentenceRhythmStandards.emphasisRule — remove soft setup and let cadence carry the reveal",
-          "before": "For a beat there was only ward-light and the old bass note of the stones in the floor.",
-          "after": "For a beat: ward-light and the old bass note of the stones in the floor."
-        }
-      ]
+      "violations": 24,
+      "fixes": []
     },
     {
       "dimension": "vocabularyRegister",
       "observations": [
-        "Lines 21-29: the narration stays concrete — wrist, shaft, fern frond, trunks, road, papers — and never drifts into planner language.",
-        "Lines 55-69: road, hoofbeats, ward-hum, tree spacing, and hollows all keep the lexicon fieldbound and Sylvanas-native.",
-        "Lines 141-153: 'theory and papers' is contempt filtered through Sylvanas, not document voice; the line still belongs to her.",
-        "Lines 139-157 carried a few low-value adverb/telling residues during the ride into the Pass.",
-        "Lines 239-243 read Jaina through boots, burns, calluses, and posture instead of through elegant variation or abstract labels."
+        "Lines 5-9 stay in Sylvanas's tactical field vocabulary: footing, range, stride, and the bow-work all read profession-first.",
+        "Lines 27-31 ground the patrol world in road mud, ward hum, and runestones without drifting into document voice or decorative fantasy diction.",
+        "Lines 105-139 keep 'rot' and 'lines' plain in dialogue; no one starts speaking like a memo or a lab report.",
+        "Lines 211-219 render Jaina through field markers—ink, frost burns, split hands—rather than abstract scholarly labeling.",
+        "The banned-term sweep found no hits for actionable, vector, optimal, substrate, propagation, algorithm, data, dynamics, or similar report-language contamination."
       ],
-      "violations": 4,
-      "fixes": [
-        {
-          "line": 139,
-          "rule": "vocabularyStandards.requiredQualities — keep the ride observation concrete and unsugared",
-          "before": "Loose gravel replaced the forest road. The mountain wind came down the cut in long steady breaths, carrying stone dust, pine, and the faint iron taste of distant water. The runner stayed half a horse-length ahead and wisely kept silent.",
-          "after": "Loose gravel replaced the forest road. The mountain wind came down the cut in long steady breaths, carrying stone dust, pine, and the faint iron taste of distant water. The runner stayed half a horse-length ahead and had sense enough to keep silent."
-        },
-        {
-          "line": 157,
-          "rule": "vocabularyStandards.baseline — replace the generic adverbial arrival with a harder physical beat",
-          "before": "Cyndia was waiting before Sylvanas had fully dismounted.",
-          "after": "Cyndia was waiting before Sylvanas hit the ground."
-        },
-        {
-          "line": 191,
-          "rule": "vocabularyStandards.baseline — remove filler adverb and keep the report plain",
-          "before": "Cyndia only nodded. \"She's been in holding since. No escape attempt. No demand for envoy privilege. Just the same claim, over and over, until I had her moved out of earshot of the road.\"",
-          "after": "Cyndia nodded. \"She's been in holding since. No escape attempt. No demand for envoy privilege. Just the same claim, over and over, until I had her moved out of earshot of the road.\""
-        },
-        {
-          "line": 241,
-          "rule": "vocabularyStandards.baseline — replace a weak adverb with a harsher, more physical adjective",
-          "before": "The right-hand knuckles were white and pink where cold magic had burned them and healed badly. Calluses, too — not ornamental ones from training yards, but the hard skin of someone who used her staff. She sat upright without leaning back, shoulders rigid, her stare fixed on the confiscated notes.",
-          "after": "The right-hand knuckles were white and pink where cold magic had burned them and healed wrong. Calluses, too — not ornamental ones from training yards, but the hard skin of someone who used her staff. She sat upright without leaning back, shoulders rigid, her stare fixed on the confiscated notes."
-        }
-      ]
+      "violations": 0,
+      "fixes": []
     },
     {
       "dimension": "metaphorCompliance",
       "observations": [
-        "Line 55: 'The sound of the country's skin holding closed' is a single body-under-strain image grounded in ward maintenance and threat containment.",
-        "Line 83: 'The morning narrowed' is brief compression rather than ornament; it sharpens pressure in one stroke.",
-        "Line 153: 'It smelled of theory and papers' keeps the figurative move inside Sylvanas's contempt instead of drifting poetic.",
-        "Lines 249-253: 'old bass note' and 'ward grid' stay inside military-political and tactile source domains; no mixed metaphor stack appears.",
-        "Chapter-wide count is approximately 4 figurative images across 2565 words, or 1.56 per thousand — leaner than the guide's 2-4 band but still tonally appropriate for competence-first opening pressure."
+        "Metaphor density stays low across the chapter, comfortably inside the 1-3 per thousand rule.",
+        "Lines 29-31 rely on concrete border imagery rather than ornamental comparison; the road and the chamber do real story work.",
+        "Lines 137-139 use spoiled grain and wells as Sylvanas's language for evaluating 'rot,' which fits the world's practical register.",
+        "Line 395 uses 'like a second accusation' as a mild comparison; it functions, but it is less Sylvanas-coded than the stronger ranger or tactical images elsewhere.",
+        "No forbidden storm, drowning, shattered, burden, or wall/armor/mask emotional metaphors survived into v4b."
       ],
-      "violations": 0,
+      "violations": 1,
       "fixes": []
     },
     {
       "dimension": "paragraphStructure",
       "observations": [
-        "Lines 27-29: the 5-sentence patrol paragraph earns its size because it is active environmental read and social placement, not static exposition.",
-        "Lines 67-69: the 5-sentence thought chain also earns its size because Sylvanas is mapping terrain, horses, and ambush habits in one tactical run.",
-        "Lines 219-223: the ward-check block was split so the tactile test and the operational conclusion no longer stack into one 9-sentence unit.",
-        "Lines 229-231: the room-clear inventory was split into two visual beats, reducing the brick effect without changing content.",
-        "Lines 239-243: Jaina's first-look description was split so the physical evidence lands before Sylvanas's judgment follows."
+        "The chapter contains 200 paragraphs, with the rhythm scorer measuring 59.8% one-sentence paragraphs against a target range of 15-24%.",
+        "Paragraph run P17-P31 (lines 33-61) overuses isolated dialogue turns and single-line beats, flattening the page shape.",
+        "Paragraph run P49-P73 (lines 97-145) keeps tension high but still reads as a stacked sequence of short blocks rather than varied procedural prose.",
+        "Paragraph run P125-P138 (lines 249-276) compresses report, reaction, and inference into too many one-sentence units.",
+        "The chapter does avoid the opposite failure: there are no overlong 100+ word narration blocks clogging the read."
       ],
-      "violations": 3,
-      "fixes": [
-        {
-          "line": 219,
-          "rule": "paragraphLengthGuidelines.typical — break a long fragment stack into two pressure-linked paragraphs",
-          "before": "She put a hand to the doorframe, not for balance, but to feel the ward through the stone. Warm. Steady. No violence in it. Whatever the prisoner had done to the network, she had not beaten it. The stones still stood. They had called. Cyndia had answered. The wards had held.",
-          "after": "She put a hand to the doorframe, not for balance, but to feel the ward through the stone. Warm. Steady. No violence in it.\n\nWhatever the prisoner had done to the network, she had not beaten it. The stones still stood. They had called. Cyndia had answered. The wards had held."
-        },
-        {
-          "line": 229,
-          "rule": "paragraphLengthGuidelines.typical — vary paragraph shape during the room-clear sequence",
-          "before": "Her gaze went first where it always went. Exit. Window slit too narrow for use. Bench. Table edge. Staff on the rack. Satchel below it. Ranger to the left of the door, another at the back wall. Then the prisoner.",
-          "after": "Her gaze went first where it always went. Exit. Window slit too narrow for use. Bench. Table edge.\n\nStaff on the rack. Satchel below it. Ranger to the left of the door, another at the back wall. Then the prisoner."
-        },
-        {
-          "line": 239,
-          "rule": "paragraphLengthGuidelines.sceneBalance — separate evidence gathering from the concluding read on Jaina's body",
-          "before": "The woman on the bench had practical road robes dusty at the hem, leather dark at the knees from field use, and boots worn pale across the toes from too many miles in the stirrups. Her braid was trying to come loose. Ink marked two fingers of her left hand. The right-hand knuckles were white and pink where cold magic had burned them and healed badly. Calluses, too — not ornamental ones from training yards, but the hard skin of someone who used her staff. She sat upright without leaning back, shoulders rigid, her stare fixed on the confiscated notes.",
-          "after": "The woman on the bench had practical road robes dusty at the hem, leather dark at the knees from field use, and boots worn pale across the toes from too many miles in the stirrups. Her braid was trying to come loose. Ink marked two fingers of her left hand.\n\nThe right-hand knuckles were white and pink where cold magic had burned them and healed wrong. Calluses, too — not ornamental ones from training yards, but the hard skin of someone who used her staff. She sat upright without leaning back, shoulders rigid, her stare fixed on the confiscated notes."
-        }
-      ]
+      "violations": 121,
+      "fixes": []
     },
     {
-      "dimension": "dialogueRatioAttribution",
+      "dimension": "dialogueAttribution",
       "observations": [
-        "Chapter-wide dialogue-to-narration ratio is 22:78, below the global 45:55 target, but the chapter is intentionally action/travel/briefing heavy and does restore spoken pressure at each decision hinge.",
-        "Lines 15-25: the Sylvanas-Lor'themar exchange supplies competence-collision dialogue early, preventing a prose wall after the kill.",
-        "Lines 75-121: the runner report and split decision use dialogue for plot turns rather than burying them in summary.",
-        "Lines 165-217: Cyndia's briefing stays plain and reportable; the chapter uses 14 no-frills said/asked tags and 0 creative tags.",
-        "Line 263: the chapter ends on spoken pressure the moment the scene finally has room to talk."
+        "The rough dialogue mix lands at about 36:64 dialogue-to-narration words, more narration-heavy than the procedural-chapter target of 60:40 dialogue-to-narration.",
+        "Attribution balance is off: rough pass found about 16.4% said/asked, 14.1% action/context attribution, and 69.5% untagged dialogue paragraphs.",
+        "The longest untagged run exceeds the guide's four-line ceiling, especially in the Lor'themar banter around lines 35-61.",
+        "Lines 101-145 remain clear despite sparse tags because speaker identity is easy to track, so clarity is not the issue; distribution is.",
+        "Creative tag policy passes cleanly: no murmured, breathed, intoned, purred, or adverb-loaded tags appear in the chapter."
       ],
-      "violations": 1,
+      "violations": 2,
       "fixes": []
     },
     {
       "dimension": "perPOVVoice",
       "observations": [
-        "Lines 3-5: Sylvanas notices the opening under the troll's arm before she notices anything emotional about the kill.",
-        "Lines 29-31: she sorts road, Pass, Silvermoon, and paperwork by threat and annoyance rather than by scenery.",
-        "Lines 67-69: her attention goes to range, tree spacing, a horse's foreleg, and an eastern hollow — exactly the right tactical filter.",
-        "Lines 229-231: she clears the room by exits, obstacles, gear, and personnel before she grants the prisoner visual priority.",
-        "Lines 253-257: Jaina becomes a political/security problem in Sylvanas's mind before she becomes a person in need of sympathy."
+        "Lines 3-15 demonstrate Sylvanas's auditory-spatial filter: threat, footing, range, and movement arrive before beauty or self-reflection.",
+        "Lines 63-65 keep her road-thoughts territorial and bodily rather than reflective; south suits her because it lets her breathe.",
+        "Lines 165-175 keep her humor deadpan and proprietary, especially 'Go be expensive, Lor'themar.'",
+        "Line 165 in v4 named an inward satisfaction too abstractly for her calibration; v4b revises it to a steadier physical effect.",
+        "Line 359 in v4 named a muted reaction in abstract terms; v4b cuts that to the flatter in-voice judgment 'It landed flat.'",
+        "Lines 383 and 387 in v4 leaned too hard into inferred interiority for Jaina; v4b replaces those with visible posture and jaw-set evidence."
       ],
-      "violations": 0,
-      "fixes": []
-    },
-    {
-      "dimension": "qualityFloor",
-      "observations": [
-        "Adverbs per page after the audit are 1.17, well under the hard cap of 4.",
-        "Estimated passive voice is 1.18%, well under the hard cap of 4%.",
-        "The chapter uses 1 'like' construction and 0 'as if' constructions, so comparison fog never takes over.",
-        "Filter-word density is low; the chapter generally reports sensation directly instead of routing it through noticed/felt/saw scaffolding.",
-        "Word count moved from 2569 to 2565 in the audit pass, preserving the no-expansion rule while tightening filler."
-      ],
-      "violations": 1,
+      "violations": 4,
       "fixes": [
         {
-          "line": 191,
-          "rule": "proseQualityFloor.showTellRatioTarget — strip filler so the report lands more directly",
-          "before": "Cyndia only nodded. \"She's been in holding since. No escape attempt. No demand for envoy privilege. Just the same claim, over and over, until I had her moved out of earshot of the road.\"",
-          "after": "Cyndia nodded. \"She's been in holding since. No escape attempt. No demand for envoy privilege. Just the same claim, over and over, until I had her moved out of earshot of the road.\""
+          "line": 165,
+          "rule": "Sylvanas emotionalRegister — action/physical effect instead of abstract emotional naming",
+          "before": "Old satisfaction moved through her at the sight of it.",
+          "after": "The sight of it steadied her."
+        },
+        {
+          "line": 359,
+          "rule": "Sylvanas specificRules — no abstract emotional summary when a harder judgment will do",
+          "before": "It should have pleased her more than it did.",
+          "after": "It landed flat."
+        },
+        {
+          "line": 383,
+          "rule": "POV violation check — replace inferred interior state with visible body language",
+          "before": "She held herself braced for disbelief and finished with courtesy about it.",
+          "after": "Shoulders set, courtesy still in place."
+        },
+        {
+          "line": 387,
+          "rule": "POV violation check — render visible pressure instead of claiming hidden feeling",
+          "before": "The prisoner met Sylvanas straight on at once, tired at the edges and furious enough to hide it.",
+          "after": "The prisoner met Sylvanas straight on at once, tired at the edges, jaw set hard enough to show what courtesy covered."
         }
       ]
     },
     {
-      "dimension": "expositionIntegration",
+      "dimension": "qualityFloor",
       "observations": [
-        "Lines 27-29: horses, wards, and long-road routine arrive through patrol behavior, not through a worldbuilding stop.",
-        "Lines 55-56: the ward-hum is explained by teeth and tongue pressure, which keeps the magical fact bodily and local.",
-        "Lines 81-101: the human-mage problem enters through a runner's clipped report and Sylvanas's suspicion, not a narrator aside on inter-kingdom politics.",
-        "Lines 165-195: Cyndia gives only tactical consequence and anomaly shape; she does not gloss leyline theory for its own sake.",
-        "Lines 247-253: Jaina's political significance arrives through reports, bloodline, and location inside the ward grid, not through detached lore summary."
+        "Rough adverb rate is 14 -ly words across 3022 words, or about 1.16 per 250-word page, which stays below the maxAdverbsPerPage limit of 2.",
+        "Rough passive-voice rate is about 2.1%, well inside the 8% ceiling.",
+        "The simile cap passes: two 'like' uses and one 'as if' use across the full chapter.",
+        "Filter-verb sweep found no narration hits for noticed, observed, realized, registered, processed, catalogued, or assessed.",
+        "The prose still misses the quality floor indirectly through telegram texture, but it does not miss the hard numerical floor on adverbs or passive voice."
       ],
       "violations": 0,
       "fixes": []
     },
     {
-      "dimension": "powerDynamics",
+      "dimension": "sceneLevelDimensions",
       "observations": [
-        "Lines 75-81: the runner kneels and reports in clipped units, establishing Sylvanas's institutional dominance immediately.",
-        "Lines 93-107: Sylvanas controls the questioning through short prompts; the runner answers and never seizes sentence length.",
-        "Lines 163-195: Cyndia's report is crisp but subordinate, which fits competent hierarchy rather than noisy deference.",
-        "Lines 247-257: the identity reveal tightens Sylvanas's syntax into classifications, then into the imperative 'Start talking.'",
-        "Lines 85-129: Lor'themar is the one real near-equal in the chapter; the matched dry exchanges show parity without erasing Sylvanas's command position."
-      ],
-      "violations": 0,
-      "fixes": []
-    },
-    {
-      "dimension": "sceneShape",
-      "observations": [
-        "Lines 3-25: the opening gambit is in-medias-res action followed by friction-laced banter, which matches the guide.",
-        "Lines 55-71: the easy road sequence establishes the comfort state that the chapter is about to violate.",
-        "Lines 71-121: the runner arrival lands near the middle and changes the governing question from patrol routine to ward breach.",
-        "Lines 155-217: the arrival at the post narrows options through briefing and custody detail instead of replaying the same report.",
-        "Lines 247-263: the chapter resolves as cliff-edge forward pressure rather than as explanation, which is the correct chapter-closing shape."
-      ],
-      "violations": 0,
-      "fixes": []
-    },
-    {
-      "dimension": "speculativeIntegration",
-      "observations": [
-        "Lines 55-56: the ward-hum reads as familiar national infrastructure, not as spectacle.",
-        "Line 81: the leyline claim enters as a problem report; the prose treats it as a breach variable, not as a magic showpiece.",
-        "Lines 135-139: the closer-spaced stones are felt through pulses, rein pressure, and mountain air, which keeps magic domesticated.",
-        "Lines 185-195: Cyndia describes stone behavior by reaction and failure mode, which fits the style guide's consequence-first rule.",
-        "Lines 219-221: Sylvanas checks ward warmth and steadiness like a commander checking a wall, with awe completely withheld."
-      ],
-      "violations": 0,
-      "fixes": []
-    },
-    {
-      "dimension": "subtextDensity",
-      "observations": [
-        "Lines 15-23: the budget joke is really an argument about patrol staffing, competence, and institutional stupidity.",
-        "Lines 49-53: the Cyndia exchange is nominally logistical, but the subtext is that everyone knows Sylvanas's habits better than she likes.",
-        "Lines 59-63: the bridge-repair jokes are really contempt for the Convocation's priorities.",
-        "Lines 85-91: Lor'themar's remark about the wasted horse carries shared history and mild accusation without saying either outright.",
-        "Lines 127-129: the parting joke trades operational concern through wit instead of direct sentiment."
-      ],
-      "violations": 0,
-      "fixes": []
-    },
-    {
-      "dimension": "actionPacing",
-      "observations": [
-        "Lines 3-5: the kill beat uses short impact sentences and one longer geometry sentence to keep action legible.",
-        "Lines 71-73: the runner arrival uses micro-sentences at the right tension spike and does not stay clipped long enough to turn monotone.",
-        "Lines 133-155: the ride south compresses travel and only expands the details that change threat assessment.",
-        "Lines 229-231: the room-clear fragments prioritize sightlines and bodies over decorative description, which fits close-tension pacing.",
-        "Lines 261-263: time dilates again only at the interrogation threshold, exactly where the scene gains a new governing risk."
-      ],
-      "violations": 0,
-      "fixes": []
-    },
-    {
-      "dimension": "humor",
-      "observations": [
-        "Lines 15-19: Lor'themar's budget line is deadpan understatement, not quippy riffing.",
-        "Line 23: Sylvanas's answer uses contempt to needle the Convocation, which matches her humor fingerprint.",
-        "Lines 61-63: the 'ancient principle' line stays in-world and political; it does not wink at the reader.",
-        "Lines 85-91: 'waste a horse proving it' is tired insider wit under pressure, not comic-relief drift.",
-        "Lines 127-129: the last joke lands before the holding room and then humor disappears, which matches the chapter's tonal drop."
+        "Exposition integration passes: lines 27-31, 81-85, and 251-267 feed world detail through patrol work, ward handling, and physical evidence rather than narrator aside.",
+        "Power dynamics pass: Sylvanas controls sentence pressure and topic control through most exchanges, especially lines 155-175 and 363-399.",
+        "Scene shape passes: the chapter opens in action, turns at the rider arrival in lines 91-99, and resolves on the interrogation demand at lines 397-399.",
+        "Speculative integration passes the domestication test: wards and leylines are treated as border infrastructure and military problems, not spectacle.",
+        "Humor deployment fits the early-arc policy: dry wit remains alive in manageable-threat scenes and contracts as the chapter tightens around the prisoner."
       ],
       "violations": 0,
       "fixes": []
@@ -238,35 +129,125 @@
     {
       "character": "Sylvanas Windrunner",
       "fingerprintChecks": {
-        "vocabularyLevel": "pass — lines 21-29, 55-69, and 229-257 stay lean, martial, and concrete; the audit removed the few leftover soft adverbial beats.",
-        "sentenceRhythm": "pass — short declaratives dominate, with longer clauses only when terrain or political implication needs mapping; lines 71 and 249 were tightened to keep the cadence hard.",
-        "metaphorDensity": "pass — figurative language stays sparse and draws from bodies, pressure, and containment; density remains lean rather than ornate.",
-        "emotionalRegister": "pass — emotion shows as irritation, classification, pressure, and command rather than open naming; even Jaina's reveal becomes a security problem first.",
-        "thoughtPatterns": "pass — lines 141-153 and 253-257 follow threat assessment -> utility/danger judgment -> decision, exactly as specified.",
-        "sensorySignature": "pass — the chapter privileges footfall, hoofbeats, ward pressure, exits, distance, posture, and exposed ground over decorative color."
+        "vocabularyLevel": "pass — lines 3-31 and 205-227 stay military-precise, field-practical, and free of modern or clinical diction.",
+        "sentenceRhythm": "fail — close-third pressure is right, but chapter-wide cadence stays too short and too fragmented for the style guide's mixed baseline.",
+        "metaphorDensity": "pass — metaphor use remains sparse and mostly concrete, with only a mild drift at line 395.",
+        "emotionalRegister": "mixed — mostly compressed and physical, but v4 needed cleanup at lines 165 and 359 where emotion was summarized too abstractly.",
+        "thoughtPatterns": "pass — Sylvanas reads threat, competence, containment, and political consequence as a running tactical brief throughout the chapter.",
+        "sensorySignature": "pass — sound, position, wind, road condition, and ward-hum dominate her attention ahead of ornamental detail."
       },
       "ruleViolations": [
-        "Line 71 originally used a negation-scaffold pressure beat that softened Sylvanas's harder rhythm; fixed in v4b.",
-        "Line 139 originally leaned on the adverb 'wisely' instead of trusting Sylvanas's sharper contempt; fixed in v4b.",
-        "Line 157 originally used the softer 'fully dismounted' phrasing instead of a harder physical arrival beat; fixed in v4b.",
-        "Line 191 originally carried the filler phrase 'only nodded'; fixed in v4b.",
-        "Line 241 originally ended the burn read on 'healed badly' rather than the harsher 'healed wrong'; fixed in v4b.",
-        "Line 249 originally used 'there was only' instead of landing the reveal in Sylvanas's harder cadence; fixed in v4b."
+        "Line 165 (v4): abstract emotional naming softened Sylvanas's register; revised in v4b.",
+        "Line 359 (v4): abstract reaction summary weakened the harder Sylvanas cadence; revised in v4b.",
+        "Lines 383 and 387 (v4): close-third inference about Jaina's inner state went beyond what Sylvanas could strictly know; revised in v4b.",
+        "Chapter-wide: sentence length and paragraph cadence drift too far into telegram territory for Sylvanas POV prose."
       ]
     }
   ],
   "metrics": {
-    "adverbsPerPage": 1.17,
-    "passiveVoicePercent": 1.18,
-    "dialogueToNarrationRatio": "22:78",
-    "avgSentenceLength": 10.06,
-    "avgParagraphLength": 2.36,
-    "metaphorsPerThousandWords": 1.56
+    "adverbsPerPage": 1.16,
+    "passiveVoicePercent": 2.1,
+    "dialogueToNarrationRatio": "36:64",
+    "avgSentenceLength": 8.4,
+    "avgParagraphLength": 15.1,
+    "metaphorsPerThousandWords": 1.0
   },
-  "totalObservations": 70,
-  "totalFixes": 9,
+  "textureFindings": {
+    "textureVerdict": "fail",
+    "metrics": {
+      "participial_pct": {
+        "current": 1.1,
+        "target": 12.0,
+        "range": [
+          9.0,
+          15.0
+        ],
+        "status": "below_range"
+      },
+      "compound_pct": {
+        "current": 6.6,
+        "target": 10.0,
+        "range": [
+          7.0,
+          13.0
+        ],
+        "status": "below_range"
+      },
+      "emdash_pct": {
+        "current": 1.1,
+        "target": 4.0,
+        "range": [
+          2.5,
+          5.5
+        ],
+        "status": "below_range"
+      },
+      "semicolon_pct": {
+        "current": 1.4,
+        "target": 1.8,
+        "range": [
+          1.0,
+          2.5
+        ],
+        "status": "on_target"
+      },
+      "short_pct": {
+        "current": 66.2,
+        "target": 48.0,
+        "range": [
+          40.0,
+          55.0
+        ],
+        "status": "above_range"
+      },
+      "texture_score": {
+        "current": 10.2,
+        "target": 27.0,
+        "range": [
+          22.0,
+          32.0
+        ],
+        "status": "below_range"
+      }
+    },
+    "flaggedZones": [
+      {
+        "type": "telegram_run",
+        "paragraphs": "P17-P31",
+        "instruction": "Join adjacent banter beats with action-led compound sentences and add at least one participial connector in the narration between exchanges."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P49-P73",
+        "instruction": "Blend the runner's report into fewer sentence units using ', and' / ', but' joins and selective em-dash pivots instead of isolated statement bursts."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P91-P114",
+        "instruction": "Enrich the ride-and-briefing stretch with participial phrases that carry motion and speech together rather than stopping after each fact."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P125-P138",
+        "instruction": "Convert the ward-stone report from hard-stop fragments into compound clauses that bind evidence, reaction, and inference in the same sentence."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P154-P177",
+        "instruction": "Break the satchel-and-yard sequence out of its one-line cadence by joining inventory details to Sylvanas's judgments with connective clauses."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P189-P200",
+        "instruction": "In the holding-room reveal, add connective phrasing around the visual inventory so the description lands as one controlled sweep instead of a stop-start scan."
+      }
+    ],
+    "priorityInstruction": "Participial density is 1.1% against a 12.0% target — add ', Ving' connective phrases and compound joins in the flagged zones before any finer-grain polish."
+  },
+  "totalObservations": 42,
+  "totalFixes": 4,
   "wordCount": {
-    "before": 2569,
-    "after": 2565
+    "before": 3035,
+    "after": 3022
   }
 }

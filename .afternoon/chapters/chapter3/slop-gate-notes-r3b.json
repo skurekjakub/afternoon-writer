@@ -1,0 +1,320 @@
+{
+  "chapterId": "chapter3",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 10,
+      "kills": 7,
+      "keeps": 3,
+      "dominantPattern": "F2",
+      "findings": [
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "location": "line 3",
+          "citedText": "The village was worse at street level.",
+          "issue": "thesis opening",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F6",
+          "severity": "mild",
+          "location": "line 67",
+          "citedText": "Behind the village, Sylvanas got the rest from churned mud and broken prints.",
+          "issue": "thesis opening",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "mild",
+          "location": "line 55",
+          "citedText": "That was a different kind of strength than Sylvanas had first given her credit for.",
+          "whatItRestates": "Jaina had evidence under her hands and still refused the easy answer.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "location": "line 149",
+          "citedText": "Jaina met Sylvanas's eyes for an instant.",
+          "issue": "generic label beat",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "location": "line 183",
+          "citedText": "Cyndia went still.",
+          "issue": "generic label beat",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2",
+          "severity": "mild",
+          "location": "line 237",
+          "citedText": "He shook his head.",
+          "issue": "generic label beat",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "mild",
+          "location": "line 271",
+          "citedText": "The grain seller was still only a clue, but now two people had given Sylvanas the same one.",
+          "couldEndEarlierAt": "The trader never looked back. The horse leaned into the collar with the patient rhythm of an animal that had made that road a hundred times and expected to make it a hundred more. On any other road, Sylvanas would have taken him for one more grain seller and kept riding.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Sylvanas thinks in tactical, field-practical shorthand. She notices sound, spacing, spoor, and competence first, and she compresses decisions into operational reads rather than thematic commentary. She would not normally drift into essay-distance typologies or polished chapter-level flourishes when the road is still active.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "A5/A7",
+      "findings": [
+        {
+          "pattern": "A5",
+          "severity": "mild",
+          "location": "line 223",
+          "citedText": "Two rangers and a mage heading south into country that was getting worse.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence names a scene-state from above ('country that was getting worse') instead of staying with a specific field sign Sylvanas is reading.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A7",
+          "severity": "mild",
+          "location": "line 227",
+          "citedText": "He had the kind of face road years had worn smooth rather than memorable.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The sentence typifies the man into a road-worn category instead of reporting what Sylvanas can actually use from the face already described.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B1",
+          "severity": "mild",
+          "location": "line 187",
+          "citedText": "Toward people who still thought this was someone else's road.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Sylvanas's register supports border, wards, and patrol lines; 'someone else's road' turns that into a polished thematic flourish instead of an in-body tactical thought.",
+          "confidence": "moderate",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 1,
+      "keeps": 4,
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "pattern": "P3",
+          "severity": "mild",
+          "location": "line 55",
+          "citedText": "On the farms two days back, Sylvanas would have called that scholar's caution, the kind that kept mages arguing while the thing in front of them kept moving.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The sentence never names what immediate threat or evidence Jaina would have been delaying over; 'the thing in front of them' is a placeholder stand-in.",
+          "reason": "Placeholder-noun stand-in hiding behind tactical prestige compression.",
+          "suggestedFix": "On the farms two days back, Sylvanas would have called that scholar's caution.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "dominantPattern": null,
+      "cleanReason": "No simplification setup appears in this chapter. Characters ask for mechanism, route status, or confirmation directly; no exchange claims to translate specialist speech into plainer street-level payload."
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 10,
+    "mildKills": 11,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 11,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "11 mild KILLs remain across three pass-B guides, which exceeds the 3-mild maximum for a pass. The chapter also still shows structural rhythm pressure from low comma-to-period ratio and a high one-sentence-paragraph rate.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.474,
+        "target": 0.72,
+        "delta": -0.246,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside_range"
+      },
+      "sentence_length_cv": {
+        "value": 0.786,
+        "target": 0.7,
+        "delta": 0.086,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "within_range"
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 34.6,
+        "target": 19.0,
+        "delta": 15.6,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside_range"
+      },
+      "structuralConcerns": [
+        "comma_period_ratio below calibrated range",
+        "one_sentence_paragraph_pct above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 3.0% below floor 5.0% (human: 11.0%)",
+        "semicolon_pct 0.2% below floor 0.3% (human: 1.4%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 3.0% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions. | SEMICOLONS: 0.2% (floor: 0.3%, human: 1.4%). Join related clauses: 'She didn't answer; the question wasn't meant for her.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 13,
+        "texture_desert": 6
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalViolations": 4,
+        "overCapCategories": [
+          {
+            "category": "narrator_verdict",
+            "combinedCount": 2,
+            "patterns": [
+              "verdict_enough_for"
+            ]
+          },
+          {
+            "category": "punctuation_tics",
+            "combinedCount": 5,
+            "patterns": [
+              "punct_colon_narration"
+            ]
+          },
+          {
+            "category": "slopsquid",
+            "combinedCount": 1,
+            "patterns": [
+              "slopsquid_bigram"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

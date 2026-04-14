@@ -4,48 +4,121 @@
     {
       "dimension": "sentenceRhythm",
       "observations": [
-        "Lines 1-7: the opening starts on a 23-word road-scent sentence, then drops to the one-line fragment 'Counting choices.' The emphasis beat is earned by the longer setup and fits Sylvanas's threat-assessment snap.",
-        "Lines 29-31: the 38-word ledger sentence earns its length because Sylvanas is reading routes, crews, weather, and payment logic in one tactical chain; the paragraph then cuts to 'Not the same picture.' to puncture the run.",
-        "Lines 97-123: 'Ride. Stop. Read. Ask.' is a deliberate action montage. The clipped chain is bracketed by longer travel sentences, so it reads as procedural pressure rather than telegram monotony.",
-        "Lines 231-257: the corpse-office inspection alternates medium sentences with blunt fragments ('Warm still.' / 'Not long.' / 'Necromancy.'). That matches the style guide's action-plus-reorientation rule.",
-        "Lines 507-525: the name-shift passage expands into one long reflective sentence, then snaps back to short dialogue. Measured sentence share still runs short-heavy overall, but the variance is intentional enough to pass the meta-audit."
+        "L41-L45: The depot-table paragraph now carries mixed cadence instead of note-card fragments; the record clutter and Sylvanas's read sit in one moving sentence before the sharper landing.",
+        "Global metrics improved from comma:period 0.61 to 0.691, mean sentence length 11.5 to 12.3, and short-sentence share 36.4% to 33.9%, all within the style-guide rhythm ranges.",
+        "L49-L63: The map-reading stretch now uses linked motion ('following', 'weighing', 'holding') so the paper-trail logic reads as active pursuit rather than inventory recital.",
+        "L145-L173: The cleaned-depot entry still keeps two earned short shocks ('Nothing moved.' / 'Interrupted, then.') but the surrounding sentences now supply enough buildup to justify them under the emphasis rule.",
+        "Openers remain the weakest numeric rhythm dimension: opener entropy stayed 5.89, below the 7.2 floor, but I did not force novelty because artificial inversions would sound less like Sylvanas than the current direct syntax."
+      ],
+      "violations": 6,
+      "fixes": [
+        {
+          "line": 41,
+          "rule": "default rhythm — add connective tissue to fragment cluster",
+          "before": "By midday the counting-room table had vanished under three autumns of records. Wax drips. Cord ties. A broken tally weight rolling every time someone jostled the boards.",
+          "after": "By midday the counting-room table had vanished under three autumns of records—wax drips, cord ties, a broken tally weight rolling every time someone jostled the boards."
+        },
+        {
+          "line": 45,
+          "rule": "default rhythm — avoid stacked fragment list",
+          "before": "Sylvanas leaned over the table. Ink columns, wagon dates, place names: Fenwick. Thornfield. A bakehouse north of Andorhal. A relay east of Sorrow Hill.",
+          "after": "Sylvanas leaned over the table, reading ink columns and wagon dates as place names stacked under her hand: Fenwick, Thornfield, a bakehouse north of Andorhal, a relay east of Sorrow Hill."
+        },
+        {
+          "line": 49,
+          "rule": "texture support — connect perception to motion",
+          "before": "The mage traced them with one frost-roughened fingertip.",
+          "after": "The mage traced them with one frost-roughened fingertip, following the roads south and west."
+        },
+        {
+          "line": 63,
+          "rule": "default rhythm — keep the interruption inside live action",
+          "before": "Sylvanas kept one hand on the map while he spoke.",
+          "after": "Sylvanas kept one hand on the map while he spoke, holding it flat against the draft."
+        },
+        {
+          "line": 95,
+          "rule": "default rhythm — add motion-linked clause in travel analysis",
+          "before": "The mage considered with the road moving under them, one hand braced flat against the folded map to stop its snapping.",
+          "after": "The mage considered, riding with the road moving under them and one hand braced flat against the folded map to stop its snapping."
+        },
+        {
+          "line": 107,
+          "rule": "default rhythm — replace hard stop with carrying clause",
+          "before": "The new hand wrote only dates and amounts, clean as a prayer card and twice as dead.",
+          "after": "The new hand wrote only dates and amounts, leaving the page clean as a prayer card and twice as dead."
+        }
+      ]
+    },
+    {
+      "dimension": "texture",
+      "observations": [
+        "Texture verdict moved from borderline on v4 to pass on v4b: participial density rose 5.4% -> 9.5% and texture score rose 17.4 -> 22.4.",
+        "Compound sentence density now sits at 8.7%, em-dash density at 3.1%, semicolon density at 1.0%, and short-sentence share at 44.5%; all are inside the calibrated texture ranges.",
+        "The old paper-trail desert around L41-L63 is materially healthier after added participial links; the scorer no longer flags the first scene-opening map section.",
+        "Residual low-priority flagged zones remain in the Millbrook Spur office run and the old-seller memory run, but the scorer now classifies the chapter as within_target rather than below_target.",
+        "Meta-audit reread focused on the cleaned-depot sequence, the route-debate scene, and the old-seller memory block; the new connective tissue still sounds like Sylvanas's working mind rather than an auditor forcing ornament."
+      ],
+      "violations": 6,
+      "fixes": [
+        {
+          "line": 145,
+          "rule": "textureMetrics.participial_pct — add connective action in scene entry",
+          "before": "Sylvanas drew up and read the place.",
+          "after": "Sylvanas drew up, reading the place as Lyriel went off her horse and onto the low roofline by the grain shed, bow canted down over the yard."
+        },
+        {
+          "line": 173,
+          "rule": "textureMetrics.participial_pct — prevent blank-ledger run from reverting to telegram prose",
+          "before": "If the people running this stop expected scrutiny, the true record would travel with the men who mattered.",
+          "after": "If the people running this stop expected scrutiny, the true record would travel with the men who mattered, leaving this much behind on purpose."
+        },
+        {
+          "line": 241,
+          "rule": "textureMetrics.participial_pct — connect Jaina's note handoff to scene motion",
+          "before": "Jaina laid her notes beside it, then a second page, then the copied chalk entries from Millbrook Spur. She no longer waited to be asked for the missing half.",
+          "after": "Jaina laid her notes beside it, then a second page, then the copied chalk entries from Millbrook Spur, no longer waiting to be asked for the missing half."
+        },
+        {
+          "line": 287,
+          "rule": "textureMetrics.participial_pct — strengthen analytical transition",
+          "before": "Jaina looked from the route to her notes and back again.",
+          "after": "Jaina looked from the route to her notes and back again, measuring the distance in her head."
+        },
+        {
+          "line": 297,
+          "rule": "textureMetrics.participial_pct — keep memory block in a carrying sentence",
+          "before": "He had met Millhaven with what looked like honest surprise.",
+          "after": "He had met Millhaven with what looked like honest surprise, taking in the empty road without overplaying it."
+        },
+        {
+          "line": 321,
+          "rule": "textureMetrics.participial_pct — keep closing map beat from fragmenting",
+          "before": "Sylvanas studied the map one last time: knife pinning parchment, candle guttering low, route line angling south toward Strahnbrad and then back toward Andorhal.",
+          "after": "Sylvanas studied the map one last time, taking in the knife pinning parchment, the candle guttering low, the route line angling south toward Strahnbrad and then back toward Andorhal."
+        }
+      ]
+    },
+    {
+      "dimension": "vocabularyRegister",
+      "observations": [
+        "No document-voice or anti-slop red-flag vocabulary survived the pass: searches for vector, actionable, processing, catalogued, registered, assessment, dynamics, architecture, algorithm, data, and therapy-speak returned zero matches.",
+        "L71-L83: Jaina's contamination language stays field-plain ('spread wider', 'low dose', 'places that stay on shipped grain longest') instead of slipping into laboratory diction.",
+        "L121-L129 and L193-L201: magical language remains professional and functional ('preservation wards', 'quiet necromancy', 'same touch') rather than spectacle-forward or glossary-like.",
+        "L269-L273: Jaina's line about copies of route books, buyers, quartermasters, and priories is specific to the world and the desk in front of her, not corporate or institutional summary language.",
+        "L297-L305: the old-seller memory remains concrete—coat, nose, wagon slats, grain dust—without abstract emotional nouns or planner vocabulary."
       ],
       "violations": 0,
       "fixes": []
     },
     {
-      "dimension": "vocabularyRegister",
-      "observations": [
-        "Lines 11-29: Sylvanas's diction stays concrete and tactical — ledgers, weights, crews, weather, patrol report — with no neutral-narrator abstraction.",
-        "Lines 33-49: Jaina's route correction remains exact but spoken. 'Recent means there hasn't been time yet' keeps her analytical voice without slipping into report language.",
-        "Lines 89-90: Jaina's contamination read stays field-mage plain: 'older stitching,' 'fresh deliveries,' 'spreading it wide and deep at once.' That passes the anti-document-voice check.",
-        "Line 443: 'Ownership, storehouses, transfer hands, something' left one vague, note-like noun hanging at the end of live dialogue. I tightened it to 'all of it' to keep the line spoken rather than schematic.",
-        "Line 555: 'sleep had become a problem she had no current interest in solving' leaned slightly process-brained. I changed it to 'sleep was a suggestion she had no current interest in taking' so the wit stays human and in-scene."
-      ],
-      "violations": 2,
-      "fixes": [
-        {
-          "line": 443,
-          "rule": "vocabularyStandards avoid list — process language and vagueness creeping into live dialogue",
-          "before": "Ownership, storehouses, transfer hands, something.",
-          "after": "Ownership, storehouses, transfer hands, all of it."
-        },
-        {
-          "line": 555,
-          "rule": "vocabularyStandards / anti-slop secondary check — process phrasing in close-third banter",
-          "before": "Jaina gave her a look that suggested sleep had become a problem she had no current interest in solving.",
-          "after": "Jaina gave her a look that suggested sleep was a suggestion she had no current interest in taking."
-        }
-      ]
-    },
-    {
       "dimension": "metaphorCompliance",
       "observations": [
-        "Line 141: 'Together they made Andorhal look less like a destination than a knot' uses roadwork/logistics imagery rooted in the chapter's evidence chase, not decorative flourish.",
-        "Lines 157-159: 'feed a static line long enough and the line becomes yours' / 'Somebody was turning food into siege work' stays inside Sylvanas's martial frame and sharpens the tactical read.",
-        "Line 295: the Barov seal detail ('formal, expensive, made for people who did not touch their own freight') uses class-status imagery instead of epic abstraction.",
-        "Line 449: 'Candlelight made the inked roads look like cuts' is one clean body-strain image at a pressure point; it clarifies threat and does not stack with a second metaphor in the same sentence.",
-        "Line 561: 'That's cavalry lying to itself' lands as dry character humor rather than ornamental simile. Overall figurative density is about 1.85 per thousand words, slightly below the global 2-4 target but consistent with Sylvanas's low-metaphor fingerprint, so I left it."
+        "Estimated metaphor/simile density is about 1.0 per thousand words: the chapter uses roughly five clear comparison beats across 4.8k words, which sits inside the 1-3 per thousand guide.",
+        "L39 uses a human-scaled status simile ('authority like a coat borrowed for the day') that matches Sylvanas's competence-reading lens instead of ornament-for-ornament's sake.",
+        "L69 uses 'like cut bristles' for harvest stubble; the image is concrete, agricultural, and immediately visualizable.",
+        "L107's 'clean as a prayer card' and L315's 'dry as old paper' stay sparse and scene-functional; they do not stack in consecutive sentences or sprawl into extended metaphor.",
+        "Forbidden metaphor families do not appear: no armor/mask emotional shields, no burden metaphors for duty, no storm/light-dark/drowning/shattered emotional shorthand."
       ],
       "violations": 0,
       "fixes": []
@@ -53,47 +126,109 @@
     {
       "dimension": "paragraphStructure",
       "observations": [
-        "Lines 67-77: the village-stop paragraph stays within four sentences, then breaks into short exchanges. The page keeps moving from description back to action within one paragraph, as required.",
-        "Lines 131-145: the depot-read paragraph hits the chapter's densest structural block at seven sentences, but it is doing active terrain-and-ledger assessment and immediately breaks into 'Not one chain. A web.' The max-length exception is earned.",
-        "Lines 199-205: the cleaned-depot scene opens through absence, yard noise, and perimeter call rather than clock-time scaffolding. That uses the preferred threat-forward transition method.",
-        "Lines 381-417: the move out of the depot into the coaching house happens by consequence — evidence collected, body left, room secured — not by a hard reset or summary bridge.",
-        "Lines 569-601: the closing reflection lasts one paragraph before the chapter returns to orders, saddling, and road movement. Dense thought is followed by concrete action inside the next paragraph."
+        "Scene boundaries are clean and spec-compliant: the chapter uses hard cuts at L67, L141, and L239, with each new section opening on a fresh consequence rather than temporal throat-clearing.",
+        "Average paragraph length is 29.8 words / 2.4 sentences; the chapter lives below the 40-60 word narration workhorse, but the shortness is mostly driven by investigative dialogue turns and beat paragraphs rather than bloated scene-bricks.",
+        "One-sentence paragraph share remains high at 36.6%, well above the guide's global target, but the density is concentrated in dialogue turns and earned emphasis rather than long runs of narration-only one-liners.",
+        "L111-L113 and L153-L155 were the worst structure offenders in v4; both now carry more internal weight and no longer read like isolated bullet points.",
+        "No narration paragraph runs past the guide's 100-word / 7-sentence ceiling; the risk in this chapter was fragmentation, not sprawl."
       ],
-      "violations": 0,
-      "fixes": []
+      "violations": 4,
+      "fixes": [
+        {
+          "line": 111,
+          "rule": "paragraphLengthGuidelines — merge isolated reveal into the storehouse paragraph",
+          "before": "The books were balanced ... trying to repair a lie in haste.\n\nSomebody had been ahead of them.",
+          "after": "The books were balanced ... trying to repair a lie in haste, as if somebody had been ahead of them long enough to let the room settle."
+        },
+        {
+          "line": 153,
+          "rule": "paragraphLengthGuidelines — remove empty blank-book fragment stack",
+          "before": "She pulled one of the bottom ledgers free.\n\nBlank.\n\nThe second was blank as well. Fresh paper. Fresh stitching.",
+          "after": "She pulled one of the bottom ledgers free and found it blank.\n\nThe second was blank as well, its fresh paper and fresh stitching showing under cheap calfskin still stiff at the corners."
+        },
+        {
+          "line": 199,
+          "rule": "paragraph cadence — compress two clipped thought lines into one earned beat",
+          "before": "Same hand, then. Or someone trained cleanly enough to imitate it.",
+          "after": "Same hand, then, or someone trained cleanly enough to imitate it."
+        },
+        {
+          "line": 299,
+          "rule": "paragraph cadence — keep memory block from breaking into disconnected note cards",
+          "before": "He had known more than he should have for a harmless man with an empty wagon.",
+          "after": "He had known more than he should have for a harmless man with an empty wagon, speaking with the easy detail of someone who lived on these roads."
+        }
+      ]
     },
     {
-      "dimension": "dialogueAndAttribution",
+      "dimension": "dialogueAttribution",
       "observations": [
-        "Chapter-wide dialogue-to-narration ratio lands at about 31:69. That fits the guide's 25:75 to 35:65 band for travel, dread build, and aftermath chapters.",
-        "Scene blocks stay in range: lines 1-198 run about 33:67, lines 199-416 about 29:71, lines 419-559 about 32:68, and the dawn handoff at lines 560-601 about 25:75. No scene slips into under-dialogued sludge or talky drift.",
-        "Explicit attribution markers are overwhelmingly no-frills: 48 total tag markers, 47 of them said/asked-class, with no creative-tag spam. That keeps acoustic texture clean.",
-        "Lines 81-95 and 183-195 show Sylvanas's questions functioning as orders; action in the room carries status while tags stay simple.",
-        "Lines 515-529 demonstrate the clean two-speaker exception: the exchange goes mostly untagged, but posture, page handling, and turn order keep clarity intact."
+        "Heuristic attribution count across 80 dialogue paragraphs: 2 said-tags, 51 action-beat paragraphs, 27 untagged paragraphs, 0 creative tags.",
+        "The chapter stays readable despite that skew because almost every exchange is a two-person tactical handoff or a short command-response sequence anchored by clear physical placement.",
+        "L43, L121, L245, and L277 show the preferred action-beat placement working well: motion or handling action identifies the speaker while still advancing the scene.",
+        "No creative-tag contamination remains; searches found no whispered/murmured/intoned/purred/growled/hissed/breathed/shouted/called tags.",
+        "Quoted-word dialogue ratio measures 19:81 against the procedural-chapter 60:40 house target. I did not force extra dialogue into the chapter, because meeting that number here would require adding beats rather than auditing the existing prose."
       ],
-      "violations": 0,
+      "violations": 1,
       "fixes": []
     },
     {
       "dimension": "perPOVVoice",
       "observations": [
-        "Lines 1-9: Sylvanas opens on smell, tack rub, horse ears, crossings, and scout behavior. The sensory signature is movement, readiness, and field reading, exactly on-model.",
-        "Lines 29-31 and 157-159: her thought pattern stays threat assessment -> capability judgment -> decision. She reads ledgers as patrol reports and supply lines as siege logic rather than as neutral data.",
-        "Lines 161-177: when the scale breaks wider, she does not become lyrical or openly afraid. She compresses to 'Regional. Not local.' and then returns to consequence.",
-        "Lines 231-275: magic is filtered through utility and breach potential. Jaina finds residue; Sylvanas immediately translates that into silencing, staging, witness loss, and what evidence remains usable.",
-        "Lines 507-529 and 553-567: vulnerability arrives as greater exactness, not softness. The quiet name shift is filed through handwriting, correction, and work rhythm; the later banter stays flat and edged."
+        "L3-L31 and L87-L103: Sylvanas still reads roads, distance, horses, patrol visibility, and supply lines before she reads mood; the exposition filter remains tactical and auditory-spatial, as required.",
+        "L131-L139 and L299-L305: emotional pressure stays compressed into operational judgment ('Worse.', irritation at the old seller, the final 'She had let him pass.') instead of abstract emotional naming.",
+        "L255-L267 quietly lands the name shift from 'the mage' to 'Jaina' without tenderness language; the change reads as operational ease, exactly as the chapter plan required.",
+        "L245-L295: Jaina's dialogue remains analytical but field-adapted—hypothesis chains, conditional logic, and professional contamination reasoning without modern-scientist jargon.",
+        "L315-L317 preserves the POV-specific humor rules: Jaina gets one dry line, Sylvanas lets it stand, and the narration does not wink at the reader or over-signal the joke."
       ],
-      "violations": 0,
-      "fixes": []
+      "violations": 6,
+      "fixes": [
+        {
+          "line": 241,
+          "rule": "Sylvanas POV / Jaina power posture — make Jaina's contribution feel like part of the working method",
+          "before": "Jaina laid her notes beside it, then a second page, then the copied chalk entries from Millbrook Spur. She no longer waited to be asked for the missing half.",
+          "after": "Jaina laid her notes beside it, then a second page, then the copied chalk entries from Millbrook Spur, no longer waiting to be asked for the missing half."
+        },
+        {
+          "line": 267,
+          "rule": "Sylvanas power posture — keep command beat attached to tactical focus",
+          "before": "Sylvanas did not look up. \"We are not riding to Hearthglen first.\"",
+          "after": "Sylvanas did not look up, keeping one finger on the map. \"We are not riding to Hearthglen first.\""
+        },
+        {
+          "line": 277,
+          "rule": "Jaina analytical posture — add physical focus to the route read",
+          "before": "Jaina leaned in until the candle laid gold along the side of her face. \"That passes near Strahnbrad.\"",
+          "after": "Jaina leaned in until the candle laid gold along the side of her face, studying the mark with her eyes narrowed. \"That passes near Strahnbrad.\""
+        },
+        {
+          "line": 287,
+          "rule": "Jaina thought pattern — keep her route logic embodied and active",
+          "before": "Jaina looked from the route to her notes and back again.",
+          "after": "Jaina looked from the route to her notes and back again, measuring the distance in her head."
+        },
+        {
+          "line": 297,
+          "rule": "Sylvanas memory filter — keep the old seller concrete and performative, not abstract",
+          "before": "He had met Millhaven with what looked like honest surprise.",
+          "after": "He had met Millhaven with what looked like honest surprise, taking in the empty road without overplaying it."
+        },
+        {
+          "line": 321,
+          "rule": "Sylvanas closing filter — keep the final map beat inside physical attention",
+          "before": "Sylvanas studied the map one last time: knife pinning parchment, candle guttering low, route line angling south toward Strahnbrad and then back toward Andorhal.",
+          "after": "Sylvanas studied the map one last time, taking in the knife pinning parchment, the candle guttering low, the route line angling south toward Strahnbrad and then back toward Andorhal."
+        }
+      ]
     },
     {
       "dimension": "qualityFloor",
       "observations": [
-        "Curated adverb count is 13 across roughly 17.3 manuscript pages, or about 0.75 per page. That is safely below the hard limit of 4 per page.",
-        "Naive passive matches land at about 2.4% of sentences after manual validation, below the 4% cap. Most flagged forms are stage-setting phrases rather than mushy exposition.",
-        "Lines 201-215, 231-257, and 283-319 show the chapter's show/tell balance staying physical: absence, broom lines, warm sleeve, ash, wax, shallow grooves. The chapter explains very little directly.",
-        "Filter-word pass came back clean for the core limited-third offenders: no 'she felt / she noticed / she saw / she heard' drift governs the chapter's actual perception rendering.",
-        "Document-voice blacklist sweep found no vector/algorithm/data/geometry-style contamination after the three fixes. The prose stays embodied and scene-bound."
+        "Adverbs land at 0.57 per estimated page, well under the hard cap of 2 per page.",
+        "Passive-voice heuristic lands at 5.0%, inside the max 8% floor; most hits are acceptable state descriptions rather than evasive narration.",
+        "Searches found no filter-verb cluster after revision: no noticed/observed/realized/became aware/processed/catalogued/assessed failures remain.",
+        "Show-vs-tell stays on the right side of the floor: the chapter renders fear, urgency, competence, and distrust through handling, route logic, silence, and body placement rather than naming those states.",
+        "The one noteworthy hedge remains 'what looked like honest surprise' at L297, but in context it is valid because Sylvanas is explicitly re-reading an incomplete memory, not claiming certainty she does not have."
       ],
       "violations": 0,
       "fixes": []
@@ -101,65 +236,113 @@
     {
       "dimension": "sceneLevelDimensions",
       "observations": [
-        "Exposition integration passes at lines 29-42, 141-177, and 533-547: worldbuilding arrives through ledgers, route logic, and consequence. There is no detached narrator aside explaining the grain network from above the scene.",
-        "Power dynamics pass at lines 11-27, 81-95, and 371-411: Sylvanas's dominant beats stay shorter and cleaner, while Jaina's longer clauses appear when she is mapping cause and consequence under pressure.",
-        "Scene shape passes across the chapter: the opening begins with a problem already in motion, the midpoint turn hits when the cleaned depot proves active opposition (lines 199-257), and the resolution lands on a hard route commitment at lines 545-601.",
-        "Speculative integration passes at lines 247-257 and 401-407: necromancy is treated as hidden handwork, failure mode, and tactical threat, not decorative spectacle. Awe is withheld.",
-        "Lines 533-555 were the chapter's closest brush with planner-summary compression and slightly abstract banter. I tightened the evidence recap at line 533 and the later sleep beat at line 555 so the scene closes on lived pressure instead of report texture."
+        "Exposition integration passes: manifests, depots, grain roads, Barov paperwork, and contamination logic all arrive through active investigation rather than narrator aside (L41-L65, L107-L139, L241-L321).",
+        "Power dynamics pass in the night-analysis scene: Sylvanas holds the shorter declaratives and hard route decisions, while Jaina gets the longer analytical clauses and conditional reasoning (L261-L295).",
+        "Scene shape passes across all three sections: scene 1 widens the map, scene 2 reverses into counter-cleanup and silencing, and scene 3 lands on a route decision that forces chapter 6 open.",
+        "Speculative integration passes: wards, necromancy, and contamination are treated as professional infrastructure problems, not awe events (L121-L129, L185-L201).",
+        "Humor calibration passes for an early procedural chapter: there is sparse dry wit ('dry as old paper', Sylvanas letting the line stand) but no quippy banter or tonal collapse under the corpse and cleanup material."
       ],
-      "violations": 2,
-      "fixes": [
-        {
-          "line": 533,
-          "rule": "sceneShapeStandards / expositionPolicy — recap leaned too close to summary compression instead of present-tense evidence handling",
-          "before": "Sylvanas laid the surviving evidence in one line — Barov wax, torn sheet, copied tally, scraped board notes, the remembered timing of village sickness, the loaded team cutting south out of the cleaned depot. Jaina added hers beside it — heavier contamination on older dependency routes, weaker spread where bought flour mattered less, transfer pattern favoring the south feeder, silence in the east line where entries had stopped.",
-          "after": "Sylvanas laid the surviving evidence in one line — Barov wax, torn sheet, copied tally, scraped board notes, the memory of village sickness breaking worse on one road than another, the loaded team cutting south out of the cleaned depot. Jaina set her own beside it — heavier contamination on the older dependency routes, weaker spread where bought flour mattered less, the south feeder still carrying weight while the east line went quiet."
-        }
-      ]
+      "violations": 0,
+      "fixes": []
     }
   ],
   "perPOVAudit": [
     {
       "character": "Sylvanas Windrunner",
       "fingerprintChecks": {
-        "vocabularyLevel": "pass — lines 11-29, 157-159, and 381-411 keep lean martial diction, class/status language, and exact verbs without drift into abstract summary.",
-        "sentenceRhythm": "pass — lines 1-7, 97-123, and 507-529 favor short declaratives and fragments, with longer tactical chains only when the map or memory genuinely requires them.",
-        "metaphorDensity": "pass — figurative language stays low and sourced to hunting, soldiery, bodies under strain, and roads under pressure; no mixed or stacked metaphors found.",
-        "emotionalRegister": "pass — lines 161-177, 259-269, and 507-525 render emotion as pressure, irritation, utility, and recalculated focus rather than named feeling.",
-        "thoughtPatterns": "pass — the chapter repeatedly moves from clue -> threat picture -> route decision. Sylvanas categorizes by utility, danger, and who still controls the field.",
-        "sensorySignature": "pass — smell, footing, weather on skin, wheel ruts, silence, gate noise, and the feel of readiness dominate the chapter's sensory mix.",
-        "humorType": "pass — lines 23-25, 371-379, and 559-565 use deadpan contempt and flat understatement rather than quippy riffing.",
-        "powerPosture": "pass — lines 11-25, 81-85, and 381-411 show Sylvanas ending exchanges in clipped declaratives and letting questions function as commands.",
-        "speculativeComfort": "pass — lines 247-257 and 401-407 translate magic into battlefield utility, breach potential, and silencing technique instead of spectacle.",
-        "expositionFilter": "pass — she notices routes, cover, fatigue, rank, logistics, and whether magic changes operational reality; she never defines basics to herself."
+        "vocabularyLevel": "pass — L45-L65 and L257-L273 stay military-practical and route-focused, with no abstract emotional diction.",
+        "sentenceRhythm": "pass — clipped defaults remain intact, but longer tactical sentences now carry the procedural weight without flattening into fragments.",
+        "metaphorDensity": "pass — Sylvanas gets sparse, concrete comparisons only; no decorative or non-domain metaphor stack appears.",
+        "emotionalRegister": "pass — L131-L139 and L299-L305 render pressure through compression, irritation, and decision rather than named feeling.",
+        "thoughtPatterns": "pass — the narration stays inside threat assessment, route logic, and memory re-evaluation instead of drifting into authorial summary.",
+        "sensorySignature": "pass — she tracks road direction, sightlines, horse condition, paper seams, and physical placement before anything ornamental."
       },
-      "ruleViolations": [],
-      "specificRuleChecks": [
-        "Rule 1 pass — lines 29-31 keep one clean observation before interpretation: weights, weather, crews, then tactical reading.",
-        "Rule 2 pass — Jaina is mostly 'the mage' until the line-509 name shift; the register change marks relational movement without fanfare.",
-        "Rule 3 pass — contempt surfaces through chosen detail ('The innkeeper was pretending not to resent...' / 'The clerk heard only that he was not the center of catastrophe') rather than monologue.",
-        "Rule 4 pass — even the name-shift beat notices script, correction, and work before meaning.",
-        "Rule 5 pass — when Sylvanas revises her read, she changes route and method rather than apologizing.",
-        "Rule 6 pass — her dialogue stays short and high-pressure; lines 81-85 and 205-205 show questions as commands.",
-        "Rule 7 pass — descriptions keep tactical value: depot quiet, wheel shine, broom lines, sigil, road cut.",
-        "Rule 8 pass — vulnerability at lines 507-525 becomes more exact, not more lyrical.",
-        "Rule 9 pass — no decorative Thalassian appears; the ancient farewell remains clue material, not flavoring.",
-        "Rule 10 pass — Jaina's surprises register as recalibration and route adjustment, not amazement."
-      ]
+      "ruleViolations": []
+    },
+    {
+      "character": "Jaina Proudmoore",
+      "fingerprintChecks": {
+        "vocabularyLevel": "pass — her dialogue uses field-plain magical reasoning ('copies of the route books', 'thickest contamination line') rather than technocratic jargon.",
+        "sentenceRhythm": "pass — Jaina keeps the longer, built analytical clauses at L245-L249, L269, and L287-L295, compressing only when the exchange needs speed.",
+        "metaphorDensity": "pass — Jaina does not over-metaphorize; the chapter keeps her mostly in hypothesis and evidence mode.",
+        "emotionalRegister": "pass — she stays controlled and professional, with no overexplained self-analysis or therapist language.",
+        "thoughtPatterns": "pass — her lines consistently move observation -> implication -> route consequence, especially in the night-analysis scene.",
+        "sensorySignature": "pass — she notices contamination, route copies, and pattern behavior first; even at the corpse she reads the magical touch as a working professional."
+      },
+      "ruleViolations": []
     }
   ],
   "metrics": {
-    "adverbsPerPage": 0.75,
-    "passiveVoicePercent": 2.4,
-    "dialogueToNarrationRatio": "31:69",
-    "avgSentenceLength": 7.41,
-    "avgParagraphLength": 14.37,
-    "metaphorsPerThousandWords": 1.85
+    "adverbsPerPage": 0.57,
+    "passiveVoicePercent": 5.0,
+    "dialogueToNarrationRatio": "19:81",
+    "avgSentenceLength": 12.3,
+    "avgParagraphLength": 29.8,
+    "metaphorsPerThousandWords": 1.0
   },
-  "totalObservations": 40,
-  "totalFixes": 3,
+  "textureFindings": {
+    "textureVerdict": "pass",
+    "metrics": {
+      "participial_pct": {
+        "current": 9.5,
+        "target": 12.0,
+        "range": [9.0, 15.0],
+        "status": "on_target"
+      },
+      "compound_pct": {
+        "current": 8.7,
+        "target": 10.0,
+        "range": [7.0, 13.0],
+        "status": "on_target"
+      },
+      "emdash_pct": {
+        "current": 3.1,
+        "target": 4.0,
+        "range": [2.5, 5.5],
+        "status": "on_target"
+      },
+      "semicolon_pct": {
+        "current": 1.0,
+        "target": 1.8,
+        "range": [1.0, 2.5],
+        "status": "on_target"
+      },
+      "short_pct": {
+        "current": 44.5,
+        "target": 48.0,
+        "range": [40.0, 55.0],
+        "status": "on_target"
+      },
+      "texture_score": {
+        "current": 22.4,
+        "target": 27.0,
+        "range": [22.0, 32.0],
+        "status": "on_target"
+      }
+    },
+    "flaggedZones": [
+      {
+        "type": "texture_desert",
+        "paragraphs": "P73-P84",
+        "instruction": "If this Millbrook Spur office run gets touched again, keep the desk, window, and ledger discoveries tied together with participial or compound links instead of re-breaking them into short report beats."
+      },
+      {
+        "type": "texture_desert",
+        "paragraphs": "P147-P158",
+        "instruction": "If later edits reopen the old-seller memory run, protect the carrying sentences around the recalled wagon details and do not strip them back to isolated memory fragments."
+      },
+      {
+        "type": "telegram_run",
+        "paragraphs": "P152-P154",
+        "instruction": "Keep at least one longer sentence bridging the memory landing into 'She had let him pass' so the silence lands after buildup rather than as a chain of short beats."
+      }
+    ],
+    "priorityInstruction": "Texture now passes; if downstream edits reopen risk, guard the Millbrook Spur office section and the old-seller memory from sliding back into clipped note-card cadence."
+  },
+  "totalObservations": 45,
+  "totalFixes": 16,
   "wordCount": {
-    "before": 4320,
-    "after": 4326
+    "before": 4699,
+    "after": 4799
   }
 }

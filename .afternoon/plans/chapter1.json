@@ -12,9 +12,8 @@
   ],
   "immediateObjective": "Finish the troll sweep, dodge the Convocation budget session, and stay outdoors one more day.",
   "constraints": [
-    "Limited Third Absolute — Sylvanas perception only.",
-    "No trust or partnership framing between Sylvanas and Jaina yet.",
-    "No on-page Jaina dialogue before the chapter-boundary line into Chapter 2."
+    "Limited third, absolute \u2014 Sylvanas only.",
+    "Jaina does not speak on-page until the chapter-ending hook."
   ],
   "metaInfo": {
     "worldbuildingReferences": [
@@ -84,11 +83,10 @@
       "surfaceObjective": "Finish the troll work, stay on horseback, and find one more excuse to miss the Convocation.",
       "pressureSource": "Cyndia's runner finds her with word that a human mage crossed the wards and will not stop talking about something wrong in the leylines.",
       "misbeliefManifestation": "Sylvanas hears human mage and thinks politics, spying, paperwork. If the trouble started in Lordaeron, she expects Lordaeron to keep it there.",
-      "chapterTest": "The first warning that matters comes from the exact kind of outsider she is built to distrust, and the breach forces her to decide whether this stays a contained border incident or becomes her problem.",
-      "forcedChoice": "Treat the prisoner as routine protocol trouble and leave the matter at the post, or intervene personally because something has crossed her ward line and refuses to fit the usual boxes.",
+      "chapterTest": "The first warning that matters comes from the exact kind of outsider she is built to distrust, and it lands inside her own border instead of safely beyond it.",
+      "forcedChoice": "Leave the prisoner to protocol and let other people sort the mess out, or ride south and put her own eyes on it.",
       "endStateShift": "By chapter close this is no longer a spoiled patrol day. It is Sylvanas's problem, and the mage is standing in her holding space.",
-      "carryForwardResidue": "Chapter 2 opens with Sylvanas angry, alert.",
-      "verifierModification": "Tightened the chapter test and forced-choice wording so the arc promise matches the actual pressure pattern in the beats: Sylvanas is reclassifying a border nuisance into a personal operational problem, not indulging in a leisurely choice."
+      "carryForwardResidue": "Chapter 2 opens with Sylvanas angry, alert."
     },
     "throughPov": [
       {
@@ -105,8 +103,8 @@
         "label": "partnership",
         "operatingModeAtOpen": "No partnership. One woman in custody, one woman deciding how hard the door stays shut.",
         "operationalChangeThisChapter": "Jaina stops being paperwork trouble and becomes the one person Sylvanas has to hear before she can decide what kind of threat this is.",
-        "namingRule": "Sylvanas does not give Jaina the dignity of her name in her internal framing yet.",
-        "doNotOverstateRule": "No thaw, no rapport, no early respect. The chapter ends on the first hard face-to-face look."
+        "namingAttitudeRule": "Sylvanas does not give Jaina the dignity of her name in her internal framing yet.",
+        "doNotOverstateRule": "No thaw, no rapport, no early respect."
       }
     ]
   },
@@ -126,11 +124,11 @@
       },
       {
         "character": "Farstrider runner",
-        "rule": "Scene 2 only. Delivers the inciting report, then turns back south with Sylvanas to Cyndia's post."
+        "rule": "Scene 2 only. Delivers the report, then returns south with Sylvanas."
       },
       {
         "character": "Jaina Proudmoore",
-        "rule": "Seen in Scene 3. She does not speak on-page until the chapter-ending line prompts Chapter 2."
+        "rule": "Seen in Scene 3. She does not speak on-page until the chapter-ending hook."
       }
     ],
     "chapterHandoffTarget": "Chapter 2 opens at Cyndia's post on the interrogation beat. Lor'themar and the mounted patrol are already northbound; Sylvanas, Jaina, and Cyndia inherit the scene."
@@ -149,10 +147,17 @@
       "knowledgeAtSceneStart": [
         "Ordinary frontier work; nothing stranger than trolls."
       ],
-      "enrichment": {
-        "detail": "Eversong should read as a curated amber-canopied homeland rather than generic forest, and the Amani pressure as routine frontier violence that the Farstriders have handled for generations.",
-        "source": "stories/the-plague-road/locations/silvermoon-and-quelthalas.md; stories/the-plague-road/plans/investigation-arc.md; Warcraft Wiki: Amani Empire"
-      },
+      "arcPressure": "Sylvanas's field ease is about to be interrupted by exactly the kind of outsider problem she prefers to leave south of the wards.",
+      "enrichment": [
+        {
+          "detail": "Eversong is canonically held in a perpetual-spring state and defended by runestones that blunt hostile magic, so the patrol can read as controlled golden woodland rather than wild frontier chaos.",
+          "source": "Warcraft Wiki: Eversong Woods; local ref: stories/the-plague-road/locations/silvermoon-and-quelthalas.md"
+        },
+        {
+          "detail": "Farstrider mounts read best here as lightly tacked Thalassian field horses \u2014 endurance-bred, quiet under the ward hum, expensive but visibly field-used.",
+          "source": "Local ref: stories/the-plague-road/locations/thalassian-horses.md"
+        }
+      ],
       "beats": [
         {
           "beatId": 1,
@@ -173,13 +178,12 @@
             "Any larger threat than routine troll violence."
           ],
           "sensoryAnchors": [
-            "wet impact of the arrow through troll flesh",
+            "wet arrow impact",
             "crushed fern",
             "troll-blood tang",
-            "Eversong sweetness",
-            "silence returning to birdsong"
+            "amber canopy hush"
           ],
-          "transitionIntent": "release-pressure: the clean kill opens room for banter and reminds us how badly Sylvanas wants to stay out here, away from politics.",
+          "transitionIntent": "release-then-drift: the clean kill opens a pocket of banter and reminds the reader how badly Sylvanas wants to stay out here.",
           "continuityStatus": "new"
         },
         {
@@ -198,11 +202,11 @@
             "Whether the ward-stones actually need checking."
           ],
           "sensoryAnchors": [
-            "steel cleaned on fern frond",
-            "cooling forest air after combat",
+            "steel wiped on fern",
+            "cooling air after combat",
             "horses settling under familiar riders"
           ],
-          "transitionIntent": "linger-ease: let the road stay easy for another minute.",
+          "transitionIntent": "ease-extension: let the road stay easy for another minute.",
           "continuityStatus": "new"
         },
         {
@@ -210,7 +214,7 @@
           "beatType": "scene",
           "scenePhase": "conflict",
           "goal": "Ride south in temporary peace.",
-          "conflict": "Lor'themar keeps pushing the political reality Sylvanas wants to ignore.",
+          "conflict": "Lor'themar keeps pressing the political reality Sylvanas wants to ignore.",
           "outcome": {
             "type": "yes-but",
             "summary": "Sylvanas gets the ride she wants, but the Convocation remains waiting at the edge of the day."
@@ -225,11 +229,11 @@
             "Any immediate threat south of them."
           ],
           "sensoryAnchors": [
-            "amber canopy light over the track",
-            "ward-hum under the horses' stride",
+            "amber light over the track",
+            "ward-hum under hoofbeats",
             "shared pace on the forest road"
           ],
-          "transitionIntent": "intrusion-pressure: ease is broken by an urgent mounted approach from the south.",
+          "transitionIntent": "hard-interruption: ease is broken by an urgent mounted approach from the south.",
           "continuityStatus": "new"
         }
       ],
@@ -243,23 +247,25 @@
         "Sylvanas",
         "Lor'themar",
         "Farstrider runner",
-        "patrol"
+        "mounted patrol"
       ],
       "knowledgeAtSceneStart": [
         "Still just a border day, as far as anyone knows."
       ],
       "arcPressure": "The problem Sylvanas wanted to leave south of the wards has already reached her road.",
-      "enrichment": {
-        "detail": "Thalassian Pass is the southern mountain chokepoint where Quel'Thalas's ambient hum thins, the air cools, and the ward-stones are felt more than heard; border riding here should stay quiet, trained, and defense-grid familiar.",
-        "source": "stories/the-plague-road/locations/silvermoon-and-quelthalas.md; stories/the-plague-road/locations/thalassian-horses.md; Warcraft Wiki: Thalassian Pass"
-      },
+      "enrichment": [
+        {
+          "detail": "The southern border should feel like a real threshold: the golden Eversong ambience starts thinning, the ward-stones carry a bass vibration felt in the teeth, and the pass wind never quite stops.",
+          "source": "Local ref: stories/the-plague-road/locations/silvermoon-and-quelthalas.md; Warcraft lore summaries on Eversong/Quel'Thalas defenses"
+        }
+      ],
       "beats": [
         {
           "beatId": 4,
           "beatType": "scene",
-          "scenePhase": "goal",
+          "scenePhase": "disaster",
           "goal": "Continue south on patrol.",
-          "conflict": "A Farstrider runner comes in hard from Cyndia's post, sent north on the south patrol road because Cyndia knew exactly where Sylvanas would be if she stole one more patrol before the Convocation, and he brings bad news: a human mage crossed the first ward ring before dawn and was caught studying the ward-stones.",
+          "conflict": "A Farstrider runner comes in hard from Cyndia's post with word that a human mage crossed the first ward ring before dawn and was caught studying the ward-stones.",
           "outcome": {
             "type": "no-and",
             "summary": "Sylvanas loses the rest of her ordinary day, and the trouble immediately smells like Kirin Tor business and politics."
@@ -276,12 +282,12 @@
             "Whether the warning is real."
           ],
           "sensoryAnchors": [
-            "lathered runner's horse",
+            "lathered horse",
             "foam at the bit",
-            "runner speaking in clipped patrol shorthand"
+            "clipped patrol shorthand"
           ],
-          "transitionIntent": "decision-pressure: someone has to handle the politics, and someone has to ride south.",
-          "dialogueGuidance": "Let Lor'themar make one dry remark that this was not blind luck: Cyndia sent the runner up the south patrol road because she knew Sylvanas would still be out here dodging the Convocation.",
+          "transitionIntent": "command-pressure: someone has to handle the politics, and someone has to ride south.",
+          "dialogueGuidance": "Lor'themar should underline, dryly, that Cyndia predicted Sylvanas would dodge the Convocation and sent the runner up the south patrol road on purpose.",
           "continuityStatus": "new"
         },
         {
@@ -295,45 +301,45 @@
           "newOnPageInformation": [
             "Lor'themar goes where councils talk; Sylvanas goes where trouble is still alive.",
             "Both understand the stakes of an unauthorized human mage inside the ward system.",
-            "Lor'themar takes the patrol north, while the runner wheels back south with Sylvanas."
+            "The patrol goes north with Lor'themar while the runner wheels back south with Sylvanas."
           ],
           "stillUnknownAfterBeat": [
             "Whether this is a diplomatic mess, a spy problem, or something worse."
           ],
           "sensoryAnchors": [
-            "two horses separating at the fork",
-            "forest road north versus the harder southern track",
-            "the riderless gap after Lor'themar peels away"
+            "horses splitting at the fork",
+            "north road versus hard southern track",
+            "sudden gap after Lor'themar peels away"
           ],
-          "transitionIntent": "forward-drive: Sylvanas rides south without the one person who usually takes the edge off.",
+          "transitionIntent": "isolation-pressure: Sylvanas rides south without the one person who usually takes the edge off.",
           "continuityStatus": "new"
         },
         {
           "beatId": 6,
           "beatType": "scene",
-          "scenePhase": "disaster",
+          "scenePhase": "conflict",
           "goal": "Reach the border post fast enough to control the situation personally.",
-          "conflict": "On the ride down, Sylvanas turns the possibilities over the way a soldier does: rogue mage, Kirin Tor spying, someone tampering with the wards.",
+          "conflict": "On the ride down, Sylvanas keeps turning over the possibilities \u2014 rogue mage, Kirin Tor spying, someone tampering with the wards \u2014 and none of them fit cleanly.",
           "outcome": {
             "type": "yes-but",
             "summary": "She arrives angrier and more certain it matters, but the talk of wrong leylines still does not fit any box she trusts."
           },
           "valueShift": "grim purpose -> hard focus",
           "newOnPageInformation": [
-            "By the time she reaches the post, Sylvanas expects a politically significant breach, not a random trespasser.",
             "The border transition is both physical and mental for Sylvanas."
           ],
           "stillUnknownAfterBeat": [
-            "Whether the mage is in over her head or deliberately hostile."
+            "Whether the mage is in over her head or deliberately hostile.",
+            "That the prisoner is Jaina Proudmoore."
           ],
           "sensoryAnchors": [
-            "Eversong warmth thinning into the colder Pass",
-            "ward-stones pulsing closer together",
-            "loose gravel and mountain wind"
+            "thinning warmth",
+            "closer ward-stones",
+            "loose gravel",
+            "mountain wind"
           ],
-          "transitionIntent": "arrival-pressure: the road carries her straight into Cyndia's account.",
-          "continuityStatus": "new",
-          "verifierModification": "Removed the premature identity reveal so beat 8 remains the canonical moment when Cyndia names Jaina. This resolves the internal contradiction with Scene 3 knowledge state and the Chapter 2 handoff."
+          "transitionIntent": "arrival-pressure: the road carries Sylvanas straight into Cyndia's account.",
+          "continuityStatus": "new"
         }
       ],
       "sceneLevelWarnings": []
@@ -349,20 +355,28 @@
         "Jaina"
       ],
       "knowledgeAtSceneStart": [
-        "Human mage detained; no identity confirmation yet; leyline claim still untrusted."
+        "Human mage detained.",
+        "No identity confirmation yet.",
+        "Leyline claim still untrusted."
       ],
       "arcPressure": "Seeing Jaina up close keeps this from staying a report on paper. Now it is a woman, a name, and a problem inside Sylvanas's own border post.",
-      "enrichment": {
-        "detail": "Jaina's Antonidas connection makes her a live sovereign-security problem, not a random trespasser, because she is already an elite Kirin Tor apprentice; Sylvanas's Ranger-General authority makes the name reveal immediately political as well as tactical.",
-        "source": "stories/the-plague-road/characters/jaina.md; stories/the-plague-road/characters/sylvanas.md; stories/the-plague-road/plans/story-arc.md; Warcraft Wiki: Jaina Proudmoore; Warcraft Wiki: Ranger-General of Silvermoon"
-      },
+      "enrichment": [
+        {
+          "detail": "Canon Jaina at this point is Antonidas's apprentice and already treated as an exceptional young mage; age twenty-three to twenty-four is the right band for her first appearance here.",
+          "source": "Warcraft Wiki: Jaina Proudmoore; Wowhead lore guide for Jaina Proudmoore"
+        },
+        {
+          "detail": "Canon Sylvanas is already the Ranger-General of Silvermoon and commander of the Farstriders, so her read of Jaina as a sovereign-security breach rather than a mere trespass is fully grounded.",
+          "source": "Warcraft Wiki: Sylvanas Windrunner; Wowpedia: Ranger-General"
+        }
+      ],
       "beats": [
         {
           "beatId": 7,
           "beatType": "scene",
           "scenePhase": "goal",
           "goal": "Establish exactly what happened at the border.",
-          "conflict": "Cyndia confirms the mage crossed before dawn, reached the second ring, and argued for continued analysis instead of attempting escape.",
+          "conflict": "Cyndia confirms the mage crossed before dawn, reached the second ring, and argued for continued analysis instead of escape.",
           "outcome": {
             "type": "yes-but",
             "summary": "Cyndia gives Sylvanas clean facts, but the facts make the prisoner stranger, not clearer."
@@ -370,30 +384,30 @@
           "valueShift": "hard focus -> narrowing assessment",
           "newOnPageInformation": [
             "The mage was not sneaking carefully; she was intent on her work.",
-            "The ward-stones reacted like something had gone wrong in them, not like someone blasted her way through.",
-            "Cyndia has confiscated staff and materials pending senior authority."
+            "The ward-stones reacted like something had gone wrong in them, not like someone blasted a path through.",
+            "Cyndia confiscated staff and materials pending senior authority."
           ],
           "stillUnknownAfterBeat": [
             "Whether the mage is arrogant, panicked, or both.",
             "Whether the leyline warning is genuine."
           ],
           "sensoryAnchors": [
-            "border camp built into stone",
-            "bright ward-stones on the road",
-            "rangers holding the posture of extended alert"
+            "stone-built border camp",
+            "bright ward-light",
+            "rangers holding extended alert"
           ],
-          "transitionIntent": "proximity-pressure: the report sends Sylvanas straight to the holding space.",
+          "transitionIntent": "containment-pressure: the report sends Sylvanas straight to the holding space.",
           "continuityStatus": "new"
         },
         {
           "beatId": 8,
           "beatType": "scene",
-          "scenePhase": "conflict",
+          "scenePhase": "disaster",
           "goal": "Assess the prisoner and confirm identity.",
           "conflict": "What Sylvanas expected does not match what she sees: practical travel gear, worn boots, calloused hands, frost-burned knuckles, and the posture of someone furious at not being heard.",
           "outcome": {
             "type": "no-and",
-            "summary": "The woman in the holding space is not what Sylvanas expected, and at the same moment Cyndia names her: Jaina Proudmoore, Antonidas's apprentice, inside the ward grid."
+            "summary": "The woman in the holding space is not what Sylvanas expected, and Cyndia names her at the same moment: Jaina Proudmoore, Antonidas's apprentice, inside the ward grid."
           },
           "valueShift": "narrowing assessment -> cold fury",
           "newOnPageInformation": [
@@ -408,10 +422,11 @@
           ],
           "sensoryAnchors": [
             "cold ward-light on Jaina's face",
-            "ink stains and frost burns on her hands",
-            "confiscated staff against the weapons rack"
+            "ink stains",
+            "frost-burned knuckles",
+            "confiscated staff by the rack"
           ],
-          "transitionIntent": "escalation-hook: identity pushes the scene from detention to interrogation.",
+          "transitionIntent": "escalation-hook: identity turns detention into interrogation.",
           "continuityStatus": "new"
         },
         {
@@ -432,34 +447,34 @@
             "Any reason for trust."
           ],
           "sensoryAnchors": [
-            "rangers clearing a path without being told",
-            "blue ward-light climbing Sylvanas's boots as she steps closer",
+            "rangers clearing a path",
+            "blue ward-light climbing Sylvanas's boots",
             "absolute stillness before the first exchange"
           ],
-          "transitionIntent": "chapter-boundary: Chapter 1 ends on Sylvanas's opening line, and Chapter 2 begins from Jaina's POV at that same moment.",
+          "transitionIntent": "hard-hook: Sylvanas steps into interrogation and the chapter cuts on her opening demand.",
           "continuityStatus": "new"
         }
       ],
       "sceneLevelWarnings": []
     }
   ],
-  "chapterCloseHandoff": {
+  "chapterClose": {
     "activeCastAtClose": [
       "Sylvanas",
       "Jaina",
       "Cyndia",
       "border rangers"
     ],
-    "departuresAlreadyLocked": [
+    "departuresLocked": [
       "Lor'themar is northbound toward Silvermoon and will not appear physically in Chapter 2.",
       "The mounted patrol goes north with Lor'themar and is gone before Sylvanas reaches the outpost.",
       "The runner returns to border-post duty after bringing Sylvanas in and does not remain active in Chapter 2."
     ],
-    "factsLockedForNextChapter": [
+    "factsLockedForChapter2": [
       "Jaina has been detained for hours before Sylvanas arrives.",
       "Sylvanas knows Jaina's identity before the conversation starts.",
       "Jaina has not yet explained the contamination on-page.",
-      "The line \"Start talking\" belongs to the chapter boundary and must not be replayed from outside Jaina's POV in Chapter 2."
+      "The line that opens the interrogation belongs to the chapter boundary and must not be replayed from outside Jaina's POV in Chapter 2."
     ],
     "factsNotYetEarned": [
       "Proof that Jaina is right.",
@@ -467,101 +482,139 @@
       "Any assumption that the danger has already become something everyone can see and name."
     ]
   },
+  "researchSources": [
+    {
+      "label": "Warcraft Wiki \u2014 Jaina Proudmoore",
+      "url": "https://warcraft.wiki.gg/wiki/Jaina_Proudmoore",
+      "usedFor": [
+        "Antonidas apprenticeship",
+        "young-mage reputation"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki \u2014 Sylvanas Windrunner",
+      "url": "https://warcraft.wiki.gg/wiki/Sylvanas_Windrunner",
+      "usedFor": [
+        "Ranger-General status",
+        "Farstrider command authority"
+      ]
+    },
+    {
+      "label": "Warcraft Wiki \u2014 Eversong Woods",
+      "url": "https://warcraft.wiki.gg/wiki/Eversong_Woods",
+      "usedFor": [
+        "perpetual-spring environment",
+        "Quel'Thalas border feel"
+      ]
+    },
+    {
+      "label": "Wowhead \u2014 Lore of Jaina Proudmoore",
+      "url": "https://www.wowhead.com/guide/lore-of-jaina-proudmoore",
+      "usedFor": [
+        "age band",
+        "pre-Third War reputation"
+      ]
+    }
+  ],
   "validation": {
     "passed": true,
     "warnings": [
-      "Beats 1-3 all shift upward in mood before the report lands, so the opening ease runs positive three beats in a row. The break at beat 4 is doing a lot of corrective work."
+      "Source outline omitted Scene 1 arcPressure; normalized from the chapter's stated conflict.",
+      "Beats 1-3 all shift upward (tension -> satisfaction -> playful defiance -> ease). Keep the opener brisk so the runner's arrival feels like a clean interruption rather than drift.",
+      "Meta info listed fjstories/the-plague-road/locations/thalassian-horses.md; normalized to stories/the-plague-road/locations/thalassian-horses.md."
     ],
-    "enrichments": 3
+    "enrichments": 5
   },
-  "chapterBridge": null,
   "requiredMemory": [],
+  "chapterBridge": null,
   "verification": {
     "craftResearch": [
       {
         "topic": "fantasy first-chapter hooks",
-        "findings": "Open with disturbance and character-in-action so the reader meets the protagonist under pressure before exposition settles in.",
-        "source": "Best Fantasy Novel Openings; The Art of Writing a Gripping First Chapter"
+        "findings": "Open inside a live moment, avoid exposition-first starts, and raise a story question immediately. This plan does that by opening on a kill shot and withholding the real border threat until the runner arrives.",
+        "source": "Konn Lavery; What We Writing; Writer's Digest"
       },
       {
-        "topic": "fantasy worldbuilding in openings",
-        "findings": "Thread setting through context, sensation, and action rather than stopping for lore explanation.",
-        "source": "How To Write The First Chapter Of A Fantasy Novel; first-chapter craft roundups"
+        "topic": "organic worldbuilding in fantasy openings",
+        "findings": "Introduce the world through action and consequence rather than explanation. The plan uses ward-hum, Thalassian horses, and border protocol as lived texture instead of a lore dump.",
+        "source": "Writer's Digest; Fabled Planet; What We Writing"
       },
       {
-        "topic": "scene-sequel rhythm",
-        "findings": "Alternate action beats with reaction / dilemma / decision so the chapter breathes and each escalation changes the next move.",
-        "source": "Dabble scene-and-sequel guide; Writers Helping Writers; Liz Verity"
+        "topic": "scene-sequel balance and breathing room",
+        "findings": "Action chapters still need short reaction/decision beats after pressure spikes. Beats 2, 5, and 9 already provide the required emotional and decision breathing room.",
+        "source": "Dabble scene-and-sequel guidance; BubbleCow; Jack Bickham references"
       },
       {
-        "topic": "chapter endings that pull forward",
-        "findings": "Close on an unresolved question, decision, or confrontation that promises movement instead of complete resolution.",
-        "source": "chapter-ending craft articles collected via web research"
+        "topic": "chapter tension curves",
+        "findings": "Chapters should rise, briefly release, then climb into a sharper turn instead of staying flat or relentless. This chapter dips into ease before the messenger interruption, then ratchets upward scene by scene.",
+        "source": "Dabble; BubbleCow; scene-structure craft references"
       },
       {
-        "topic": "mid-chapter mini-turns",
-        "findings": "A chapter stays lively when its trajectory changes around the middle rather than running in one emotional direction the whole time.",
-        "source": "micro-cliffhanger and reversal craft guidance via web research"
+        "topic": "chapter endings and reveal hooks",
+        "findings": "A strong chapter ending leaves a consequential question unresolved rather than fully resolving the scene. Ending on Sylvanas committing to interrogate Jaina creates a clean interrogative hook into chapter 2.",
+        "source": "Writer's Digest Online; Helping Writers Become Authors; RiverEditor"
       }
     ],
+    "phaseNotes": {
+      "structure": [
+        "Beat 1 opens in committed action, immediately establishing competence and avoiding a static setup.",
+        "Beats 1-3 intentionally descend from combat into ease; because the span is only three beats, it reads as baseline establishment rather than an opening sag.",
+        "Beat 4 lands the real chapter turn at the chapter midpoint, which satisfies the expected opening-chapter pivot.",
+        "The 6 scene beats / 3 sequel beats ratio fits an action-forward opener and still gives breathing room after each major shift.",
+        "The closing beat withholds explanation but escalates stakes, so the chapter ends on forward pull rather than resolution."
+      ],
+      "character": [
+        "Every beat stays legible through Sylvanas's limited-third filter; no beat requires omniscient access.",
+        "Sylvanas drives the chapter through repeated decisions: extending the patrol, taking the south road, and choosing immediate interrogation.",
+        "The only reactive stretch is the report landing in beat 4, and the chapter converts that reaction into agency by beat 5.",
+        "Lor'themar, Cyndia, the runner, and Jaina all have distinct narrative jobs, so no supporting character is redundant.",
+        "The arc-position promises are all delivered on-page: field ease, outsider pressure, forced choice, and the end-state shift into personal responsibility."
+      ],
+      "continuity": [
+        "Chapter 1 has no prior-chapter memory to call back to, so all 9 beats are correctly annotated as new.",
+        "Character naming is internally consistent across outline and plan: Sylvanas, Lor'themar, Cyndia, and Jaina all match the established spellings.",
+        "The Jaina visual read in beat 8 is first-introduction material, not a reintroduction, so no anti-reintroduction correction is needed.",
+        "Chapter-close handoff facts align cleanly with the cast-and-handoff rules: Lor'themar northbound, Sylvanas/Jaina/Cyndia retained.",
+        "Callback density is 0%, which is appropriate for an opening chapter and avoids recap drag."
+      ],
+      "transitions": [
+        "All 9 beats already contain transitionIntent coverage; no missing handoffs needed to be added.",
+        "Beat 3 to beat 4 is a clean hard interruption: easy trail rhythm breaks exactly where the runner arrives.",
+        "Beat 5 to beat 6 carries both logistical motion and emotional isolation after Lor'themar peels away.",
+        "Beat 6 to beat 7 lands the scene boundary coherently: the ride's arrival pressure resolves into Cyndia's factual briefing.",
+        "Beat 9 functions as a controlled chapter break rather than a dropped thread, because the interrogation hook explicitly hands momentum into chapter 2."
+      ],
+      "reshape": [
+        "No beat reorder was necessary because the midpoint report already creates the chapter's structural turn.",
+        "No sequel beat had to be added because beats 2, 5, and 9 already absorb emotion and decision after each pressure spike.",
+        "No scene merge or split was required because the patrol/report/prisoner sequence tracks a clean escalation ladder.",
+        "No transition intents needed revision because each scene boundary already lands in the opening state of the next scene.",
+        "No continuity or anti-reintroduction repairs were needed beyond adding the chapter-start continuity annotations."
+      ]
+    },
     "evaluation": {
       "pacing": {
         "score": "strong",
-        "notes": "Action-heavy opener with a clean break at beat 4, sequel breathing room at beats 2, 5, and 9, and a closing hook that hands directly into Chapter 2. The only pacing warning is that beats 1-3 all rise in comfort before the intrusion lands.",
-        "details": [
-          "Beat 1 opens in live action, so the chapter earns momentum before any explanation arrives.",
-          "Beats 1-3 intentionally establish Sylvanas's comfort zone, but all three trend upward in mood; the report in beat 4 has to do the full disruption work.",
-          "The chapter uses a 6 scene / 3 sequel split, which suits an action-heavy opener without starving the reader of reaction beats.",
-          "Beat 5 gives the first real breathing room after the report by turning irritation into command choice instead of piling on more exposition.",
-          "Beat 9 ends on controlled intensity rather than resolution, which preserves narrative pull into the next chapter."
-        ]
+        "notes": "The opener moves from active kill to banter to interruption without lingering too long in ease. Tension resets briefly in beats 2-3, pivots hard at beat 4, and climbs steadily through the Jaina reveal and interrogation hook."
       },
       "structure": {
         "score": "strong",
-        "notes": "The chapter opens with competence, pivots at the midpoint when the runner arrives, and closes on a hard interrogation hook. Structural wording around the arc test was tightened to match the actual on-page pressure, and the identity-reveal contradiction was corrected.",
-        "details": [
-          "Beat 1 satisfies opening-strength guidance by dropping the reader into a kill rather than into summary or backstory.",
-          "Beat 4 functions as the chapter's real turn: the patrol story becomes the investigation story almost exactly at the middle of the beat map.",
-          "Scene 2 cleanly splits Lor'themar north and Sylvanas south, which gives the chapter a directional fork instead of a static report.",
-          "Scene 3 converts a report on paper into a person in custody, which is the correct escalation for the chapter's promise.",
-          "The final beat leaves an unresolved confrontation rather than paying off the warning too early."
-        ]
+        "notes": "Opening strength is high, the midpoint turn lands on the messenger report, and the close leaves a consequential unresolved question. Scene-sequel balance fits an action-led first chapter."
       },
       "character": {
         "score": "strong",
-        "notes": "All nine beats remain filterable through Sylvanas's tactical perception. Sylvanas stays active, the supporting cast have distinct jobs, and the chapter earns the initial threat framing without softening it into early rapport.",
-        "details": [
-          "Beat 1 shows Sylvanas through action and field judgment, which aligns with both the story arc and the voice sheet.",
-          "Beats 2-3 establish her dislike of court obligations without diluting her competence or turning the opening into mere banter.",
-          "Lor'themar serves a distinct narrative function as political absorber and trusted counterpart; he is not duplicating Cyndia or the patrol.",
-          "Cyndia's role in Scene 3 is cleanly different from Lor'themar's: she is the factual border-post authority who hands Sylvanas the immediate ground truth.",
-          "Jaina's first appearance stays in the correct threat / asset register: notable, exhausted, politically dangerous, and not yet trusted."
-        ]
+        "notes": "Sylvanas owns the chapter's agency and filter. Supporting cast functions are distinct, and the beats fulfill the chapter's promised stance test and forced choice without premature thaw."
       },
       "transitions": {
         "score": "strong",
-        "notes": "All 9 beat-level transitionIntent chains were verified. No new intents were needed. The road-to-briefing and boundary handoff both work, with the caveat that Scene 3 should add new facts rather than replay the runner report.",
-        "details": [
-          "Beat 1's release-pressure intent lands cleanly in beat 2's sequel space, giving the action an immediate aftermath.",
-          "Beat 3's intrusion-pressure intent pays off directly when the runner arrives in beat 4.",
-          "Beat 5's forward-drive intent correctly turns the scene split into motion rather than into a static handoff.",
-          "Beat 6's arrival-pressure intent lands in beat 7 because the road delivers Sylvanas straight into Cyndia's more detailed account.",
-          "Beat 9's chapter-boundary intent is load-bearing and correctly preserved: Chapter 2 should begin on the same moment from Jaina's POV, not with a recap."
-        ],
+        "notes": "All beat-level transitionIntent chains were verified. No missing intents. Scene boundaries from trail to report to holding space land cleanly. Chapter bridge is null because this is chapter 1.",
         "intents_verified": 9,
         "intents_added": 0,
-        "intentional_breaks": 0
+        "intentional_breaks": 1
       },
       "continuity": {
         "score": "strong",
-        "notes": "Chapter 1 has no prior afternoon memory state, so every beat is correctly annotated as new. requiredMemory is empty, chapterBridge is null, and the handoff facts for Chapter 2 remain explicit.",
-        "details": [
-          "No memory indexes exist yet for this story state, so no beat qualifies as callback or evolution.",
-          "All 9 beats are marked continuityStatus = new and no beat carries a memoryRef.",
-          "Jaina's physical details in beat 8 are first-introduction details, not reintroductions, so they remain new rather than callback.",
-          "The chapter-end canon now locks the identity reveal at beat 8, preventing downstream continuity drift in Chapter 2.",
-          "requiredMemory stays empty because the writer has no prior-memory reading list for chapter 1."
-        ],
+        "notes": "All 9 beats are new because there is no prior canonized chapter memory yet. No contradictions found. Callback density 0%. No anti-reintroductions required correction.",
         "new": 9,
         "callbacks": 0,
         "evolutions": 0,
@@ -569,48 +622,7 @@
         "anti_reintroductions_fixed": 0
       }
     },
-    "reshapeAudit": [
-      "Removed the premature identity reveal from beat 6 so Scene 3 can own the reveal cleanly.",
-      "Kept the existing scene order because beat 4 already provides the needed mid-chapter turn.",
-      "Kept all existing transitionIntent entries because the handoff chain was structurally sound after the identity fix.",
-      "Adjusted arcPosition wording instead of inventing a new beat, preserving the planner's plot while making the chapter promise honest.",
-      "Left the chapter-ending hook intact because it is the strongest bridge into Chapter 2."
-    ],
-    "modifications": [
-      {
-        "type": "continuity-fix",
-        "description": "Removed the premature identity reveal from beat 6 so beat 8 remains the canonical moment Cyndia names Jaina.",
-        "beatsBefore": [
-          6,
-          8
-        ],
-        "beatsAfter": [
-          6,
-          8
-        ]
-      },
-      {
-        "type": "arc-alignment",
-        "description": "Reworded the chapter test and forced choice so the arc block matches the actual pressure in the beats: Sylvanas is reclassifying a ward-line breach into a personal operational problem.",
-        "beatsBefore": [
-          4,
-          5,
-          6,
-          7,
-          8,
-          9
-        ],
-        "beatsAfter": [
-          4,
-          5,
-          6,
-          7,
-          8,
-          9
-        ]
-      }
-    ],
-    "observationCount": 30,
-    "verdict": "approved-with-modifications"
+    "modifications": [],
+    "verdict": "approved"
   }
 }

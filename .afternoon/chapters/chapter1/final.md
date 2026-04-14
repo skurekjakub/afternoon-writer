@@ -1,259 +1,370 @@
 # Chapter 1: The Border
 
-The last troll came out of the fern with the axe already moving.
+The troll came out of the fern with the axe already in flight.
 
-Sylvanas was still in the saddle when she loosed. The horse checked under her without needing the rein. Hoofbeats bit into the soft track, the world narrowed to one opening under the troll's lifted arm, and the arrow went into it hard enough to throw a wet sound back into the trees. The axethrower took two more steps on momentum alone, crashed shoulder-first through a screen of fern, and stayed there, twitching once.
+Sylvanas hit the leaf mold before her mare finished shying, bow in hand, world cut to footing, range, and one broad Amani charging with another axe already up because the first had buried itself in a birch behind her.
 
-Then Eversong took the morning back.
+Good.
 
-Birdsong first, cautious and thin. A breeze under the amber canopy. The sweet green smell of crushed fern fighting with the hotter tang of troll blood. Sylvanas let the bow lower a finger's width and listened for anything that still deserved killing.
+She drew on the move. The eye was too small through the bounce of his stride. Lower. She loosed and stepped left, turning the rush into a passing problem on the Farstrider road. The arrow punched in beneath the collarbone. He staggered. Two rangers had blades half out by then, late enough to be decoration.
 
-Nothing.
+The troll tore at the shaft and roared.
 
-Behind her, Lor'themar drew up beside the body and looked down at it with the expression he reserved for problems too stupid to be interesting.
+She was already drawing again. The second arrow went through his mouth and into the spine. Blood sprayed dark across the fern bed. He hit hard and stayed down under Eversong's amber canopy.
 
-"Well," he said. "That settles the budget question."
+The forest came back in pieces: a horse blowing hard, leather settling, one bird trying the air again above the gold leaves.
 
-Sylvanas slid from the saddle. "Does it."
+Lor'themar rode up, took in the corpse and the axe in the birch, and said, “You left that one for me on purpose.”
 
-"Mm. Clearly we need fewer rangers in the southeast. The Amani appear to be dying of embarrassment on their own."
+“You were thinking about tomorrow.”
 
-She planted a boot on the troll's wrist, bent, and took her arrow back in one clean pull. The shaft came free with a hitch of meat. She wiped it on a fern frond and dropped it into the quiver.
+“A failure of judgment. I won't repeat it.”
 
-"If you present that argument exactly as phrased," she said, "I will attend the session just to watch them pretend not to understand it."
+She braced a boot on the troll's shoulder, worked the arrow free, and said, “You will. The Convocation does that to your face.”
 
-Lor'themar's mouth pulled at one corner. "A generous offer. I assume it won't survive the ride home."
+“My face is an innocent thing abused by bad company.”
 
-Around them the rest of the patrol spread through the trees, checking bodies and marking spoor. Their horses stood where the riders had left them, heads high, ears moving, tack whispering instead of clattering. Silvermoon-bred field horses knew the routine. Blood, wards, trolls, long roads. None of it was new.
+She wiped the shaft on fern and slid it back into the quiver. Around them the Farstriders finished the sweep in the quiet way she trusted more than treaties while another runestone answered deeper in the trees.
 
-Sylvanas put two fingers to the bowstring and looked south through the trunks. The road was only a paler band under the trees from here, a line men would try to hold. South meant the Pass. North meant Silvermoon, a chamber full of polished fools, and at least one clerk already laying out papers that would waste her entire afternoon.
+Clean enough. She swung back into the saddle thinking this was the part of Quel'Thalas that made sense: road under hoof, a border held by living hands instead of argued over in Silvermoon.
 
-"Ward-stones," she said.
+Lor'themar fell in beside her as the patrol turned south.
 
-Lor'themar made a thoughtful sound so false it almost counted as song. "Ah."
+“Tomorrow,” he said, “the southeastern patrol cuts go before the Convocation.”
 
-"It's been three days since the last southern sweep."
+“My condolences.”
 
-"Two."
+“Accepted. You may show your grief by attending.”
 
-"Then we're overdue."
+“I outrank grief.”
 
-"To inspect stones that have survived longer than half the Convocation's bloodlines."
+“You outrank nothing in that chamber,” Lor'themar said. “That is why they built it.”
 
-She stepped back into the saddle. "If they wish to lecture the border, they may come south and lecture it directly."
+The patrol laughed behind them. Sylvanas let it die and rode on through leaf mold, horse sweat, and the faint ozone that lived around the ward-stones.
 
-One of the patrol rangers laughed and then swallowed the rest of it when Sylvanas looked his way. She let him keep the first part. It had been a clean morning. The last troll was down, and the light through the leaves had that deep amber cast Eversong wore when the day meant to stay fair. There were worse uses for an hour than stealing one more stretch of road from the people who called it governance.
+“We should check the southern stones,” she said.
 
-Lor'themar mounted with the easy economy of a man who had been doing it for centuries and still found new reasons to resent chairs. He settled beside her as the patrol formed up.
+“Should we.”
 
-"Cyndia will know where to find you," he said.
+“The pass wind has been rough.”
 
-"If Cyndia needs me, she has legs."
+“On the stones.”
 
-"Cyndia has judgment. A rarer thing."
+“On everything south of the city,” she said. “Unless the weather has worsened there too.”
 
-They took the track south at an easy pace, horses falling into the familiar rhythm of riders who did not need to prove they could ride. Amber light broke across the road in long bars. The ward-hum sat under the hoofbeats, too low to hear and too steady to ignore, a pressure through the teeth and the back of the tongue. Sylvanas liked it. The sound of the country's skin holding closed.
+“Cyndia said you'd say that.”
 
-Lor'themar rode just off her left knee, filling one stretch of silence and leaving the next untouched.
+“Cyndia has become insolent.”
 
-"They'll start with southeastern patrol numbers," he said at last. "Then road maintenance. Then Sunsorrow will find a way to make bridge repair into a matter of civilizational dignity."
+“Competent. Close relation.”
 
-"He would have to lower himself to repair a bridge first."
+“Dangerous relation.”
 
-"True. He may instead compare the bridge to some ancient principle none of us are qualified to touch."
+They rode on at the pace they had fallen into years ago, neither setting it, both keeping it, and Sylvanas kept count: gaps in birdsong, iron against leather, the hum deepening at another node in the ring.
 
-The patrol laughed more openly at that. Good. Let them. Men rode better when their shoulders were loose.
+South suited her. The farther from Silvermoon, the easier her lungs worked.
 
-Sylvanas let the road lengthen in front of her and did not think about chambers, votes, or ledgers. She thought about range. About tree spacing. About the way one horse in the rear had developed the habit of favoring its right foreleg after steep climbs. About the hollow to the east where trolls liked to wait because younger rangers always forgot hollows existed if leaves covered them.
+“If you miss tomorrow,” Lor'themar said, “they'll cut the Amani corridor by a third out of wounded dignity.”
 
-This was work. The rest was theater.
+“Then talk them back to two-thirds.”
 
-They heard the rider before they saw him. Fast horse. Hard push. Near panic. Close enough to bruise. Heads turned south together. The patrol had their bows in hand before the runner broke through the trees.
+“Again.”
 
-The horse came in lathered and angry, foam flecking the bit, flanks dark with sweat. The rider hauled it short, slid down half a heartbeat before it had fully stopped, and went to one knee in the road.
+“You do love traditions.”
 
-"Ranger-General."
+“One day I'm going to make you sit through the whole session.”
 
-Sylvanas did not bother to hide her displeasure. "This had better be good."
+“No.”
 
-The runner's chest was working hard enough to count. He got the words out anyway, clipped and plain, Farstrider shorthand hammered flat by speed.
+“It has history on its side,” he said before she could.
 
-"Border post at the Pass. Human mage detained inside the first ring before dawn. Reached the second line of stones. No credentials. Caught working at the ward-markings instead of running. Claims the leylines are wrong."
+The road dipped past a runestone scored with old Thalassian lines. Her mare sidestepped once at the bass note coming off it, then settled. One more excuse dressed as diligence. One more hour without a roof over her head.
 
-The morning narrowed.
+“When this runner from Cyndia appears,” Lor'themar said, “I want credit for prophecy.”
 
-Lor'themar exhaled through his nose. "And this," he said mildly, "is why Cyndia sent you up the south patrol road."
+“If Cyndia sends a runner for a ward-stone check, I'll send her north to accountancy.”
 
-The runner kept his eyes ahead. Smart man.
+“Cruel.”
 
-"She knew exactly where I'd be," Sylvanas said.
+“Effective.”
 
-"As did I," Lor'themar said. "The difference is that I wasn't desperate enough to waste a horse proving it."
+He was smiling when the sound came out of the south.
 
-Sylvanas looked at the runner. "What kind of mage?"
+Hoofbeats. Hard, ugly, a horse ridden past pride and into need.
 
-"Human, my lady. Young. Travel gear. No escort. Staff confiscated. Papers too."
+The runner rounded the bend on a lathered grey and hauled it down hard, ranger and horse both spattered to the chest with mud.
 
-"Name?"
+“Ranger-General.” The words came clipped by training and short by breath. “Message from Cyndia's post. Human mage crossed the first ward ring before dawn, reached the second, and got caught at the stones.”
 
-"Not confirmed before I left."
+The pleasant day dropped out from under her.
 
-Not a courier. Cyndia had not thought her safe enough to define from a pouch and seal. A human mage inside the ward network without credentials was already bad. One talking about leylines was worse. Politics first, perhaps. Kirin Tor arrogance. A test of the stones. Or someone foolish enough to touch a ward-net she did not understand and call the result a warning.
+Lor'themar's hand stilled on the pommel. “Inside the ward line?”
 
-Sylvanas's stolen hour died where it sat.
+“Yes, my lord. No credentials, no escort, no permit seal.”
 
-"How long since detention?"
+Sylvanas caught the bowstring. Human mage inside her wards smelled of trouble with paperwork behind it.
 
-"Hours, my lady. Cyndia held her at the post and sent me at once."
+“Name?”
 
-Lor'themar shifted in the saddle. Convocation for him. Pass for her.
+“Wouldn't give one at first. Kept demanding to inspect the southern stones. Said the lines were wrong, and”—the runner dragged in air—“said rot is riding the leylines north.”
 
-Sylvanas looked at him once. That was enough.
+Lor'themar closed his eyes for half a beat. “Of course Cyndia found you on this road.”
 
-"Take the patrol north," she said.
+The runner risked a glance at him. “She said, my lord, that if the Ranger-General was not on the road to Silvermoon she would be on the road away from it, and the southern track was the sensible place to look.”
 
-"Gladly."
+“Cyndia continues to justify her existence,” he said.
 
-"Tell them this is not a diplomatic question yet."
+Sylvanas had already gone cold inside. A human mage alone might mean Kirin Tor arrogance, Lordaeron stupidity, or one gifted idiot with no sense. Inside the ward network, talking about leylines at dawn, meant a problem with her stones besides.
 
-"Which means it will be by midday."
+“How far in?”
 
-"Then keep them talking until evening."
+“Second ring. She stopped at the nearest stone with a chalk circle under the base and frost worked white through it, notes all over the ground. Cyndia says it wasn't breaching so much as...” The runner swallowed.
 
-He gave her the smallest nod. Understood.
+“Choose.”
 
-The patrol was already shifting, north and south sorting themselves by habit. The runner wheeled his horse in a tight circle and held it for her.
+“Measuring, ma'am.”
 
-Lor'themar's gaze flicked once to the south road, once back to her. "Try not to start a war before supper."
+Lor'themar looked at Sylvanas. “Worse.”
 
-"Try not to lose a vote before lunch."
+“Everything said by a human mage inside my borders is worse.”
 
-His half-smile came and went. Then he was gone north with the patrol, hoofbeats fading under the amber trees, leaving a riderless gap beside her.
+“Some of them manage to be charming while doing it.”
 
-Sylvanas took the runner's road south at once.
+“She's contained?”
 
-The Pass announced itself a mile before the stones came into view. The air cooled first, the soft held warmth of Eversong thinning into something leaner. The hum in the ground changed as well. One ward-stone every measured stretch became two, then three, the network tightening as the land narrowed. Her horse threw its head at the strongest of the pulses and then settled when she touched the rein.
+“Yes, Ranger-General. Staff taken, satchel taken, holding room secured, and the prisoner won't stop saying the lines are carrying rot.”
 
-Good animal.
+Rot again. A word for spoiled grain and bad wells, not runestones. Either nonsense or warning.
 
-Loose gravel replaced the forest road. The mountain wind came down the cut in long steady breaths, carrying stone dust, pine, and the faint iron taste of distant water. The runner stayed half a horse-length ahead and had sense enough to keep silent.
+“The Convocation will enjoy this,” Lor'themar said.
 
-Sylvanas used the ride to sort what mattered.
+“It can enjoy hearing about it after I'm done with it.”
 
-Human mage. Alone. No escort. No credentials.
+“Someone has to tell them before Antonidas's apprentice vanishes under Farstrider guard.”
 
-Kirin Tor test? Possible. Foolish, but mages had been known to combine those things.
+She turned to him. “You know who she is?”
 
-Spy? Less likely. A real spy would not have knelt at ward-stones until the rangers found her, and would not have kept talking after capture unless the talk itself was the mission.
+“I know which human names are worth keeping in the dossiers, and a young mage with enough nerve to cross alone and enough confidence to lecture ward-stones narrows the list.”
 
-Sabotage? The stones would tell. If the network had been forced, Cyndia would have said forced.
+Jaina Proudmoore, maybe, but still no proof this was anything more than an intrusive scholar with too much magic and no sense.
 
-Something wrong in the leylines.
+It had reached her road now.
 
-That one she disliked on principle. It smelled of theory and papers, of people who put grand names on trouble and expected the naming to count as service. Still, the wrong sort of fool could be as dangerous as any enemy. Especially if she had crossed the line alone to prove herself right.
+“Take the patrol north,” she said.
 
-The first outpost of the Pass came into view around a turn of stone: a Farstrider post built into the mountain flank, half wall and half carved shelter, ward-stones set bright along the road outside it. Rangers moved under the eaves and beside the holding shed, stiff with too many hours on alert.
+“You say that as if you've stolen my line.”
 
-Cyndia was waiting before Sylvanas hit the ground.
+“You were going to say it badly.”
 
-She came down from the platform steps at once, auburn braid dark against her leathers, bow on her back, left hand still callused white where the string rode it. Young by elven measure, sharp enough to make age irrelevant. Her salute was brief.
+“I was going to say it diplomatically.”
 
-"Ranger-General."
+“Exactly.”
 
-"Report."
+He turned in the saddle and gave the order, and the rangers moved at once, tack whispering, horses stepping through the turn as one body.
 
-Cyndia turned with her toward the outpost, matching stride. The camp had been built straight into the rock at this point in the Pass; stone underfoot, stone at their backs, stone taking the weight of the wards and giving it back as a low vibration under the soles.
+He reined in beside her one last time. “If it is Proudmoore, the chamber will call it court business before it calls it a threat.”
 
-"Crossing before dawn. South road empty all night until the stones at first ring sounded wrong to the watch. Sick-wrong." Cyndia gave the word a fraction too much weight. Good. "We found her at the second ring with both hands on the marker and her own spellwork laid over the runes. She did not run when challenged."
+“Then don't let them.”
 
-"Because?"
+“As always, your political guidance is invaluable.”
 
-"She said stopping would cost her the pattern."
+“Go be expensive, Lor'themar.”
 
-Sylvanas's mouth flattened. "Of course she did."
+That got the laugh she wanted. “Try not to start a war before noon.”
 
-"No credentials on her person. No escort. Travel papers from Lordaeron side only, none valid for the ward line. Staff confiscated. Satchel confiscated. Notes as well."
+“No promises.”
 
-"Attempt to destroy any of it?"
+He took the north road at a canter with the patrol streaming after him.
 
-"No. She argued to keep working. Nothing else."
+Gone. The road tightened.
 
-That, at least, was new. A saboteur destroyed. A spy concealed. A court sorceress protested rank. This one had chosen argument in place of escape.
+Sylvanas turned her mare south, cutting a hand back when the runner wheeled the grey after her. “Beside me. Talk while we ride.”
 
-"Ward reaction?" Sylvanas asked.
+They went hard over a southern track rougher than the road behind them, gravel loosening under the first sprint as trees thinned and the land sloped toward the Pass. Wind found them where the canopy opened.
 
-Cyndia pointed toward the nearest stone as they passed it. The rune-cut surface held a low blue light in the grooves, steady now.
+“Everything,” Sylvanas said.
 
-"No blast scoring. More like something under the stone answering back. The hum shifted with her work. When we pulled her off, it settled after a few breaths. I would have sent for the magisters if you hadn't already been riding."
+“First sighting just before dawn. Cyndia and the watch felt a drag in the hum at the outer stones and found the prisoner at the second marker, kneeling with a chalk circle under the base and frost cracked white through it. No attempt to flee. She argued when ordered back.”
 
-"You did right."
+“Argued what.”
 
-Cyndia nodded. "She's been in holding since. No escape attempt. No demand for envoy privilege. Just the same claim, over and over, until I had her moved out of earshot of the road."
+“That it was carrying damage from farther south and nobody was listening. She tried to keep working while she said it.”
 
-"And the claim."
+“Any sign she forced the first ring?”
 
-"That a threat is moving north through the leylines and the stones can feel it."
+“No blast marks. No burned grass. The stones reacted, but wrong for an outside strike—more like...” Another pause.
 
-Sylvanas stopped just short of the holding shed. The ward-light along its doorframe painted blue edges on the leather at her wrists and the tips of her boots.
+“You've had your warning.”
 
-"Can they."
+“That she found an opening that was already there and kept leaning on it.”
 
-"I don't know, my lady."
+Not better.
 
-Honest answer. Better than a useful lie.
+They passed between two old standing stones, the ward hum thickening until it buzzed in Sylvanas's teeth. Her mare tossed her head, then lengthened under the bit when Sylvanas steadied her.
 
-No shouting. No chain-rattle. No lecture on diplomatic immunity. Just silence. Wrong in an elven holding room.
+“Anything else on her?”
 
-Sylvanas looked at Cyndia. "You still have the satchel?"
+“Field satchel, notes, staff—no court trim, just a travel-worn kit. Hands marked up too. Ink on them, frost burns.”
 
-"Yes."
+“Frost burns.”
 
-"The papers?"
+“Knuckles and two fingers, worked raw by cold magic.”
 
-"Yes."
+Court mages came polished. Frost-bitten knuckles and ink stains belonged to people who let the job split their hands.
 
-She put a hand to the doorframe, not for balance, but to feel the ward through the stone. Warm. Steady. No violence in it.
+The southern monoliths showed pale ahead where the pass narrowed into defended ground. Sylvanas leaned lower and gave the mare more head. Mountain air met them there, carrying dust, worked stone, and under both the old song of the wards.
 
-Whatever the prisoner had done to the network, she had not beaten it. The stones still stood. They had called. Cyndia had answered. The wards had held.
 
-That mattered.
+Rain slicked the ground here, forcing riders single file. Scouts liked to wait along the cut when raiders or smugglers stirred beyond the line. At the border, she went exact, and now a human mage had put hands on her stones.
 
-Sylvanas stepped inside.
+By the time the outpost came into view, anger had worn down into hard focus. Stone buildings against the slope, watch platforms in the trees, three ward monoliths marking the line with pale fire. Rangers waited with bows close, ready to hear whether this was still a holding problem or had become a killing one.
 
-The holding space was small and plain: one table bolted to the floor, one bench against the wall, one weapons rack by the door where confiscated gear stayed in sight and out of reach. A lamp under blue glass burned against the far wall, turning the room cold and exact.
+Cyndia met her outside, braid dark at the temples, posture straight despite the fatigue at the corners of her mouth. “Ranger-General.”
 
-Her gaze went first where it always went. Exit. Window slit too narrow for use. Bench. Table edge.
+“Ranger.”
 
-Staff on the rack. Satchel below it. Ranger to the left of the door, another at the back wall. Then the prisoner.
+Sylvanas dismounted, landing light on the packed earth.
 
-She had expected polish.
+“You sent the runner well.”
 
-Kirin Tor gold thread. Fine gloves. Some court-bred prodigy with clean boots and a look already arranged for being underestimated. Human kingdoms produced them in flocks, dressed in silk and certainty, each convinced that a title exempted her from geography.
+“I know your habits, ma'am.”
 
-This was not that.
+“A risk to discipline.”
 
-The woman on the bench had practical road robes dusty at the hem, leather dark at the knees from field use, and boots worn pale across the toes from too many miles in the stirrups. Her braid had half come loose. Ink marked two fingers of her left hand.
+“A convenience to the border.”
 
-The right-hand knuckles were white and pink where cold magic had burned them and healed wrong. Calluses too — hard use, not training-yard polish. She sat upright without leaning back, shoulders rigid, her stare fixed on the confiscated notes.
+There—insolent and competent, and she let it live.
 
-More dangerous, then, than a court pet. Worse. A woman who had done her own work long enough to stop caring what it cost her hands.
+“Report.”
 
-One of the rangers by the wall shifted to make room. Cyndia came in behind Sylvanas and stopped at the threshold.
+Cyndia led her to the nearest ward-stone. Chalk still dusted the base, frost glazing one side thin and bright. Heel marks scored the dirt nearby, a ranger's boot half-smearing one note without erasing the line beneath it.
 
-"Identity confirmed from the papers," she said. "Jaina Proudmoore. Apprentice to Antonidas."
+“First disturbance at fourth bell. Not a breach signal. The tone dragged low and doubled back on itself. Two rangers and I found the prisoner here, working some kind of reading spell—not at the ward itself. At what it was carrying.”
 
-For a beat: ward-light and the old bass note of the stones in the floor.
+“She said that too.”
 
-Proudmoore.
+“Yes, Ranger-General. Repeatedly.”
 
-Silvermoon kept that name in reports. Antonidas's apprentice. Kul Tiras blood. A girl half the human courts on the continent would trip over themselves to excuse. Inside her ward grid.
+“Did she try to break through when challenged.”
 
-The prisoner looked up at the sound of her own name. Blue eyes. Tired enough to hollow the face. The jaw stayed hard with fury.
+“No. She tried to finish the line she'd started, and then she tried to explain.”
 
-So. Not some nameless academy fool. Not a harmless one either. A political problem with frost-burned hands.
+“Worse.”
 
-Behind her, rangers moved without being told. One stepped aside from the table. Another cleared the line between bench and door. Cyndia stayed where she was. Good. The room no longer needed help.
+“Considerably.”
 
-Sylvanas walked forward until the blue light climbed the leather of her boots and stopped at the edge of the prisoner's shadow.
+Sylvanas laid two fingers against the carved base. Warm as ever, the hum steady now, with no crackle of a recent strike and no stink of forced magic driven in from outside. Whatever the human had done, she had done it with the ward rather than against it.
 
-"Start talking."
+“You took everything?”
+
+“Staff, satchel, notes, three chipped focus crystals, and a knife small enough to pass for decorative until you touched the edge. No seal case, no diplomatic packet, no escort tokens.”
+
+“Name.”
+
+“She wouldn't give one at first. Objected to every question that slowed her down.” Cyndia took a breath. “Jaina Proudmoore.”
+
+Sylvanas knew the name at once—Antonidas's apprentice, too much talent for her age and enough nerve to make it everyone's business.
+
+“How did you confirm it.”
+
+“Her notes. One crystal answered to her hand when one of the rangers tried it. I left the rest sealed.”
+
+“Everything feels above your pay.”
+
+“Not troll arrows.”
+
+Fair.
+
+Sylvanas looked again at the frost at the base of the stone. If it was Jaina Proudmoore, trust still had to be earned.
+
+“How did she take confinement.”
+
+“Angry, with any fear buried too deep to show. She wanted back at the stones, asked whether we'd felt the bad patch on the north sweep, and said we were wasting time.”
+
+“Charming.”
+
+“Not especially.”
+
+“Did you hit her.”
+
+“Only enough.”
+
+“Show me the satchel.”
+
+A guard brought it over, weathered leather tied with ordinary cord. Sylvanas opened it herself.
+
+Paper, more than she had expected: notes in a cramped hand blotted by cold or haste, charcoal rubbings of runes, sketches of the southern stones from several angles. No diplomatic letters tucked between the pages in case manners failed.
+
+Fieldwork, then: ugly, hurried, sincere-looking in the least convenient way possible.
+
+One sheet had been folded and refolded until the edges softened: a map of the southern approaches with notes at several ley crossings and a line in the margin—spread northward along existing channels—faster near population routes.
+
+“Did she write all this here.”
+
+“Some on the road, some before she crossed. She had miles on her before we took her.”
+
+Boots, ink, frost burns—field signs, not court polish.
+
+“Holding room?”
+
+“Secured. Less once the staff was out of reach, more once she saw that wouldn't get it back.”
+
+The post had gone quieter while they talked. Voices had dropped around the yard. A horse stamped once in the lean-to and drew an answer from another.
+
+“Who has seen her besides you.”
+
+“Only the two door guards. I kept the rest back.”
+
+Good. Fewer tongues.
+
+“Lor'themar rides north already,” Sylvanas said. “The Convocation will hear some version of this before sunset; I'd prefer it to be mine.”
+
+“Understood.”
+
+“And Cyndia.”
+
+“Ma'am.”
+
+“If this turns out to be a scholar's tantrum dressed in expensive frostwork, I will remember that you interrupted a good patrol day.”
+
+Cyndia's mouth twitched once. “If it's real, you'll remember I interrupted it early.”
+
+Sylvanas turned toward the holding room, Cyndia falling in half a step behind.
+
+Stone box at the edge of the yard: narrow window, iron-bound door, blue ward-light caged along the threshold. Beside the wall stood a pale staff with its crystal head gone cloudy in the outpost light.
+
+Cyndia lowered her voice as they crossed the yard. “One more thing, Ranger-General.”
+
+“Say it.”
+
+“She was furious we wouldn't let her keep working.”
+
+“That makes her reckless.”
+
+“Yes, ma'am.”
+
+“Or convinced.”
+
+“I dislike both.”
+
+At the door the guards straightened, blue light climbing Sylvanas's boots while inside someone shifted once and went still.
+
+She gave a short nod. A guard opened the door and stepped back.
+
+Small room: bench, bucket, one slit window losing afternoon light to the ward glow. The prisoner stood too fast for indifference and too controlled for panic, in travel robes with a dusty hem and boots grey with miles, one finger stained with ink.
+
+The knuckles were worse. Frost had left them red and split where magic had bitten back. Her braid had come loose at the neck. Hair the color of late wheat had more weather than care in it. Younger than the dossier suggested. Not soft.
+
+The prisoner met Sylvanas straight on, tired at the edges, jaw set hard enough to show what courtesy covered.
+
+Jaina Proudmoore, then: a hard-used young mage in a Farstrider cell, hands chewed raw by her own work, bent toward the ward-stones instead of this room.
+
+Sylvanas stepped inside, door open behind her, Cyndia at her shoulder, staff out of reach, exits known.
+
+Good.
+
+Ink, split knuckles, frostbite, confiscated staff outside the door like a second accusation.
+
+She let the silence pull tight until the ward-light was the loudest thing in the room.
+
+Then she said, “You crossed my ward line alone. Start there.”

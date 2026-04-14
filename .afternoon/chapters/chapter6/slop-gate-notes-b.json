@@ -1,0 +1,326 @@
+{
+  "chapterId": "chapter6",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 8,
+      "kills": 6,
+      "keeps": 2,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 1,
+        "severe": 0
+      },
+      "dominantPattern": "F2/F4 scaffolding and F7 closure lines",
+      "findings": [
+        {
+          "pattern": "F4-narrative-over-translation",
+          "severity": "mild",
+          "line": 139,
+          "text": "That made the next part worse.",
+          "issue": "The sentence translates Arthas's pause instead of letting the exchange land on his look up and refusal.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4-narrative-over-translation",
+          "severity": "mild",
+          "line": 185,
+          "text": "That landed because it was true.",
+          "issue": "The sentence explains the effect of Sylvanas's line instead of trusting the line and Jaina's reaction to carry it.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2-dialogue-beat-genericism",
+          "severity": "mild",
+          "line": 189,
+          "text": "Sylvanas glanced at her.",
+          "issue": "Generic beat could belong to anyone and adds no character-specific physical work.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F2-dialogue-beat-genericism",
+          "severity": "mild",
+          "line": 191,
+          "text": "Jaina let out a breath through her nose.",
+          "issue": "Generic breath beat labels the turn without adding scene-specific action or pressure.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F3-filter-drag",
+          "severity": "mild",
+          "line": 283,
+          "text": "She tightened her wards again, shaved the pain down by half, and noticed at the same time what the horses had been noticing for the last hour.",
+          "issue": "The filter verb mediates a direct field read and pads the transition into the horse unease.",
+          "deletionTest": "She tightened her wards again, shaved the pain down by half. Heads higher. Ears working.",
+          "suggestedFix": "She tightened her wards again, shaved the pain down by half, and found the horses with heads higher and ears working.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7-closure-addiction",
+          "severity": "moderate",
+          "line": 211,
+          "text": "That, at least, felt clean.",
+          "issue": "Paragraph-final emotional summary closes the exchange after Sylvanas's line instead of stopping on the decision itself.",
+          "couldEndEarlierAt": "\"Either way,\" Sylvanas said, mounting in one smooth motion, \"the argument is over.\"",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 1,
+        "severe": 0
+      },
+      "dominantPattern": "A1 verdict-tag fragments",
+      "findings": [
+        {
+          "pattern": "A1-verdict-tag-fragment",
+          "severity": "mild",
+          "line": 151,
+          "text": "There it was.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "issue": "Caption fragment announces the interpretive turn from outside the moment.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "A1-verdict-tag-fragment",
+          "severity": "mild",
+          "line": 165,
+          "text": "Ordinary work, thick as mud.",
+          "tier": "A",
+          "whoIsSayingThis": "narrator",
+          "issue": "Compressed verdict caption summarizes the camp traffic instead of staying with Jaina's concrete view of crates, hammers, and clerks.",
+          "confidence": "high",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "B2-conceptual-compression-beyond-register",
+          "severity": "moderate",
+          "line": 331,
+          "text": "Being right did nothing by itself.",
+          "tier": "B",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina can reason analytically, but this sentence abstracts the whole chapter into a thematic slogan rather than a local field thought.",
+          "confidence": "moderate",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 5,
+      "kills": 2,
+      "keeps": 3,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P1 sloganized abstraction in dialogue",
+      "findings": [
+        {
+          "pattern": "P1-sloganized-abstraction-in-dialogue",
+          "severity": "mild",
+          "line": 275,
+          "text": "Two points start a line.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The line never names the actual operative claim: two grain-side encounters with the same farewell.",
+          "reason": "Dialogue compression turns the clue into a proverb instead of stating the concrete pattern.",
+          "suggestedFix": "Two men on two roads using the same farewell was enough to mark it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "P1-sloganized-abstraction-in-dialogue",
+          "severity": "mild",
+          "line": 277,
+          "text": "They also start mistakes.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The warning never names the concrete alternate read: two ordinary grain men using an ordinary grain phrase.",
+          "reason": "The line sounds sharp but hides the actual skeptical claim behind aphorism rhythm.",
+          "suggestedFix": "Or it was two grain men talking like grain men.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "No exchange in chapter6 frames a reply as translation into plainer or more usable speech, so this pass had no live simplification candidates to audit."
+    }
+  ],
+  "summary": {
+    "totalKills": 11,
+    "totalKeeps": 8,
+    "mildKills": 9,
+    "moderateOrSevereKills": 2,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 11,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Fail: 11 KILLs total, including 2 moderate pass-B closures/seep lines; the chapter also carries major rhythm drift that is flattening the prose into repeated short-cadence scaffolding.",
+    "rhythmMetrics": {
+      "commaPeriodRatio": {
+        "value": 0.352,
+        "target": 0.72,
+        "delta": -0.368,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "outside-range"
+      },
+      "sentenceLengthCv": {
+        "value": 0.831,
+        "target": 0.7,
+        "delta": 0.131,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "outside-range"
+      },
+      "oneSentenceParagraphPct": {
+        "value": 41.1,
+        "target": 19.0,
+        "delta": 22.1,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "outside-range"
+      },
+      "note": "Structural rhythm concerns: all tracked summary metrics are outside the style-guide range."
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdictReasons": [
+        "participial_pct 1.7% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 1.7% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions: ', turning back to the fire' / ', gripping the railing with both hands'. These create connective tissue between actions.",
+      "flaggedPassageCounts": {
+        "telegramRun": 22,
+        "textureDesert": 9
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 32,
+        "totalViolations": 3,
+        "overCapCategories": [
+          {
+            "category": "punctuation_tics",
+            "pattern": "punct_colon_narration",
+            "count": 12,
+            "cap": 4
+          },
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "category": "paragraph_structure",
+            "pattern": "opener_consecutive_repeat",
+            "count": 1,
+            "cap": 0
+          }
+        ]
+      }
+    }
+  }
+}

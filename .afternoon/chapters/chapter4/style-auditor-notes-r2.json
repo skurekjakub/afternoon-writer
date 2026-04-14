@@ -1,0 +1,73 @@
+{
+  "chapterId": "chapter4",
+  "mode": "texture-reaudit",
+  "iteration": 2,
+  "targetFile": "v4-r2.md",
+  "textureFindings": {
+    "textureVerdict": "fail",
+    "metrics": {
+      "participial_pct": {
+        "current": 8.0,
+        "target": 12.0,
+        "range": [
+          9.0,
+          15.0
+        ],
+        "status": "below_range"
+      },
+      "compound_pct": {
+        "current": 11.0,
+        "target": 10.0,
+        "range": [
+          7.0,
+          13.0
+        ],
+        "status": "on_target"
+      },
+      "emdash_pct": {
+        "current": 4.0,
+        "target": 4.0,
+        "range": [
+          2.5,
+          5.5
+        ],
+        "status": "on_target"
+      },
+      "semicolon_pct": {
+        "current": 2.4,
+        "target": 1.8,
+        "range": [
+          1.0,
+          2.5
+        ],
+        "status": "on_target"
+      },
+      "short_pct": {
+        "current": 48.1,
+        "target": 48.0,
+        "range": [
+          40.0,
+          55.0
+        ],
+        "status": "on_target"
+      },
+      "texture_score": {
+        "current": 25.4,
+        "target": 27.0,
+        "range": [
+          22.0,
+          32.0
+        ],
+        "status": "on_target"
+      }
+    },
+    "flaggedZones": [
+      {
+        "type": "telegram_run",
+        "paragraphs": "P47-P50",
+        "instruction": "Add ', Ving' participial connectors across the diagnosis exchange to join the scan, question, answer, and instruction beats instead of letting them fall as isolated short units."
+      }
+    ],
+    "priorityInstruction": "Participial density is 8.0% against a 12.0% target and still below the 9.0% floor—add ', Ving' connective phrases in P47-P50 before tuning any other texture metric."
+  }
+}

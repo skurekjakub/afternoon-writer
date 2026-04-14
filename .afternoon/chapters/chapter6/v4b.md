@@ -1,435 +1,325 @@
 # Chapter 6: The Pattern
 
-The feeder road had changed under them overnight.
+The feeder road ran southwest through the cold, hedged on both sides with winter-black thorn, and the Thalassian horses settled into a long morning stride before the waystation and its smoking cookhouse dropped from sight. Jaina rode with the copied route chart folded against her thigh, one thumb on the crease, and kept the case laid out in her head so no part of it could blur.
 
-Yesterday it had been a line on a map, the least ugly answer among several bad ones. This morning it showed itself. Wheel ruts held last night's damp. Fresh hoofcuts marked the verge. Dung had been trampled flat by too much traffic to belong to village carts alone. Mist lay low over the fields and the horses broke through it at the knee. Cold beaded on Jaina's gloves where she held the copied route page against the pommel. Damp leather. Horse sweat. Somewhere ahead, past the white blur of morning, armor knocked once against armor.
+Grain first: grain from the Barov-side feeder roads moving through lanes already thick with wagon traffic and mill work, the wheel-inside-wheel sigil on eleven depots, the worst villages always the ones that kept buying, never bad water, never one spoiled local storehouse. Somebody had buried the taint in bread everyone would take into the body willingly, loaf after loaf, turning the thing on the road into household routine.
 
-The road had orders on it.
+The body next. She had spent two nights fearing she had missed the obvious turn, the one a better investigator would have seen at Millhaven, but the road had finally given enough back. The grain prepared the body for it, teaching flesh week by week, loaf by loaf, to answer what it had never been meant to answer.
 
-Sylvanas rode a little ahead and left of her, where she could watch the road ahead without breaking the quartet's shape. Cyndia ranged wider when the hedges opened. Lyriel kept the right with the easy forward lean of someone who liked a road best when it invited speed. Jaina sat inside their line and let the mare's motion work up through her spine.
+The last turn still lay in shadow. At death, a summons came and the prepared body answered, and what rose was neither the dead nor the living in any clean sense. She did not have the right words for that part. Not yet.
 
-It should have steadied the pounding behind her eyes.
+Death closes the lock, she thought.
 
-It did not.
+The headache had started within a mile of the waystation, not the sharp flare of overuse but the slow press she had come to trust as contamination riding the land itself. She had felt it at the Crossbar and at Millbrook Spur, reading the same pressure off the soil. Here it was thicker. The basin was ahead, the feeder roads knitting themselves into one system with every mile and the wrongness deepening with them.
 
-The pattern would not stop arranging itself.
+She kept sorting the pieces. Grain. Body. Death. Organization. That was what turned a plague into a campaign. One mage with too much nerve could foul a village store. Eleven depots with one factor mark, cleaned shelves, watchers on the roads, and a body removed from Millbrook Spur before daylight—that was money, labor, discipline. Whoever planned eleven depots and road watchers knew trade as well as necromancy.
 
-Grain first. That part had been plain for days now, if not to anyone useful in Lordaeron: corruption worked into bread and porridge and all the daily hunger nobody bothered to notice. But the grain had never been the whole thing. It was only the shell. Too clean, too durable, too willing to survive sack, storehouse, oven, stomach.
+Cyndia rode ahead, keeping the lead without needing the word. Lyriel kept the back trail, watching the damp road vanish behind them. Hoofbeats, cold breath, quiet leather, the road still damp with dawn.
 
-Yesterday she had known that only in pieces. On horseback, with Strahnbrad's war traffic mixing with grain teams, the pieces locked.
+"Someone built this," Jaina said, shifting the folded chart higher against the saddle.
 
-Not the full answer. The last turn still hid from her: the exact step where long corruption crossed into motion after death. But what came before it stood clear enough to make her stomach pitch.
+Sylvanas rode two lengths off, the same spacing she had kept since Millhaven, one hand low on the reins. "You said that yesterday."
 
-Whoever had built this had not thrown poison into wells and hoped for panic. Poison was crude. This moved through routine. It wanted the hand that kneaded dough, the mother cutting bread, the laborer eating twice because the fields had been long and the meal cheap. It wanted repetition. Time. The body learning the wrong lesson until death no longer ended it.
+"I meant the inner part, not the route map." Jaina left the chart where it was, folded against her thigh. "The grain keeps enough of the taint to survive baking, and then the body takes over, carrying the corruption the rest of the way until death finishes it." The road bent through a stand of bare ash. "Someone spent years on that."
 
-Her temples buzzed harder.
+A crow burst from the hedge and crossed in front of them, wings loud in the wet air. Neither horse shied. They were too road-broke for that.
 
-She pressed two fingers to the place above her brow. The pressure had moved deeper over the last few days. No longer a headache. A second pulse instead, patient and wrong.
+"Explain the sickness becoming the other thing," Sylvanas said. "What they are after death."
 
-"Bad?" Sylvanas asked without looking back.
+"I can give you the first three steps." Jaina touched two fingers under her right eye, easing the pressure a little. "The last one is still dark. The body is taught to answer when it dies. I do not know what, exactly, answers back; only that the grain is what teaches it."
 
-"Close," Jaina said.
+"Then whoever designed it knew both halves."
 
-"To the city or the answer?"
+"Yes." The word came with a taste she disliked. "Alchemy. Necromancy. Trade. Supply." She heard where her own mind had gone a beat before the judgment caught up, recoiling from it even as the old reflex answered to elegant wardwork and clean proof. "It's well made."
 
-"Yes."
+Sylvanas turned her head once, glancing over. "I know."
 
-That pulled the smallest turn from Sylvanas's mouth. Not warmth. Recognition of a shared inconvenience.
+"I know that's a foul thing to say."
 
-Jaina unfolded the route page again, though she no longer needed it. The marks were already under her skin: Andorhal tightening the roads into one knot, Barov paper turning up often enough to matter and not often enough to convict, Strahnbrad ahead because Lordaeron had committed men to the threat it could see. Grain teams ahead. Dispatch riders ahead. War and bread on the same road.
+"It is also true." Sylvanas faced the road again, settling back into the reins. "Say what it is first. Curse it after, if there's time."
 
-Understanding more than she had yesterday should have comforted her.
+That was plain enough. The thing had been built by a serious mind, and denying that did not make it smaller. The Kirin Tor had kept certain questions locked away for a reason—what could be carried through death, what a body could be taught to keep, what line separated memory from echo when magic got its hooks into flesh. Antonidas had never answered those questions directly. He had only closed the books and told her some doors were wiser as stone; someone had taken those sealed questions into a workroom and opened every one.
 
-Instead it made the mind behind it feel larger.
+The cruelty reached people through bread. Everybody ate bread: at a road table, in a village kitchen, torn apart with wet hands while the oven still held the next batch. She thought of the boy in the infected village with his loaf on the table and cut the image off before it rooted.
 
-She had spent her life among difficult people and beautiful work. Dalaran bred both. She knew the pleasure of a theorem that held under pressure, of spellcraft so exact it looked effortless. Some part of her could not help recognizing quality when she stood in it, and that was the vilest thing of all. Not that this was monstrous; that was obvious. It was that the work was good—precise, layered, built by someone who knew exactly how far one discipline could be pushed before it became another.
+Her hands had tightened on the reins; she loosened them, and her mare flicked an ear back at her before lengthening into the ruts again.
 
-Necromancy, yes, but not the blunt obscenity that made a corpse twitch by force. Something cleverer, and much closer to the questions Dalaran preferred to nail shut and call immoral rather than unfinished.
+"We need someone above the road captains before Andorhal," she said.
 
-How much of a self could survive death? How much could a body be taught to remember?
+"Arthas is on this road."
 
-She had no right even to think that way. Antonidas would have named the danger at once. But the road kept asking it.
+"I know."
 
-Sylvanas slowed her horse and lifted one hand.
+Sylvanas let the silence sit between them with the easy patience of someone who thought the argument had already reached its answer. Arthas would not turn for a threat he could not yet strike, and Jaina was not ready to concede it—not while there was still a chance to put the whole thing in front of a man with rank enough to move riders and freeze ledgers.
 
-Ahead, the mist thinned enough to show movement: riders coming at a trot, Lordaeron colors dark with damp, a wagon behind them carrying two men in bandages and one who was far too still. Jaina smelled iron before the party reached them. Old blood under wet wool. The leading soldier gave the Farstriders a long look, Jaina a shorter one, and kept going.
+By the time the sun had climbed behind a bank of cloud, the mist had burned off the road, mud silvering into pale grey while the horses lengthened their stride into the day's first thin warmth.
 
-War first, Jaina thought. The visible wound first.
+She kept grain, body, death, and the network behind them in mind, letting the headache ride with her.
 
-By the time Strahnbrad's outer camp took shape through the haze, she was no longer pretending Arthas would hear the truth and turn his whole command around. She still believed he should. That failure had not yet been beaten out of her. But the road had done enough work that hope now carried a bruise under it.
+---
 
-The camp sprawled across the lower ground in mud, wet banners, and hammered order. Horse lines. Supply carts. A forge going despite the damp. Men in Lordaeron blue and Silver Hand white moved around one another with the practiced friction of an army forced to stop where it wanted to be moving. Nearer the center, mounted knights waited around a map board propped on barrels, plate polished bright enough that the weak sun found it anyway.
+By late morning the feeder road had bent north enough to show the Strahnbrad approaches—churned mud, wagon ruts cut deep through old farmland, blue-and-gold banners above a scatter of tents, and the iron clang of a camp already past setup and deep into use. Rope lines and pickets had eaten the edge of the fields. A cookfire guttered under a wet stack of wood. Somewhere beyond the eastern trees a forge was running hard enough to carry across the road.
 
-Jaina knew him before she could make out his face.
+Cyndia dropped back from the lead. "Scouts. Quarter mile. Lordaeron colors."
 
-That was the worst thing. Not by features. By use. By the way the command space bent around him. Arthas had always made a center of himself without trying.
+Jaina had already seen the pennons. The sight hit in two directions at once, familiar and not hers. She had spent two years near that court, near Arthas, near rooms where people yielded before he entered, always close to the edge of them.
 
-He turned at the stir of arriving horses.
+"We're not stopping," Sylvanas said, drawing even on her other side.
 
-Golden hair damp at the temples. Plate newly cleaned despite the churn everywhere else. Light's Vengeance resting across one forearm, effortless. He looked older than the last time she had stood this near him. Harder at the mouth. The old open brightness narrowed by command and lack of sleep. Still every inch the prince men would follow into a stupid death if he promised victory young enough.
+"We are if they stop us first." Jaina kept her voice level and her hands quiet on the reins. "And we cannot ride past a Lordaeron camp while carrying this."
 
-He smiled when he saw her, and for one breath the years between them failed to exist.
+"He won't turn for it."
 
-"Lady Proudmoore," he said. "Either the kingdom has grown very small, or I've gone farther south than I meant to."
+"You don't know that."
 
-It was easy. Of course it was. The charm had always been easy.
+"I know what happens when you try to pull a prince off the war in front of him." Sylvanas's tone stayed flat. "He will finish the thing burning in his sight before he chases the one hidden in grain."
 
-Jaina reined in hard enough that her mare tossed her head. "Arthas."
+"He may surprise you."
 
-Sylvanas brought her own horse level and a little ahead, not enough to insult, enough to remind the camp that Jaina had not ridden in alone. Cyndia and Lyriel opened behind them with quiet efficiency, two green-and-gold answers to any question about whether the human soldiers should close in.
+The pause after that held Sylvanas in her usual patient stillness, the one she wore when she thought an argument was finished and saw no reason to bruise it further.
 
-Arthas's glance flicked over Farstrider leathers, bows, Sylvanas's face. Surprise, then quick accommodation.
+The road widened where traffic had gnawed both banks down to mud. Three riders in Lordaeron colors took the track ahead of them, weapons low but ready. One raised a hand.
 
-"Ranger-General," he said. "I didn't expect Silvermoon's aid in Hillsbrad."
+Jaina sat straighter so the blue of her coat was the first thing they saw.
 
-"You don't have it," Sylvanas said.
+---
 
-The smile stayed. It landed anyway, that old princely trick of treating refusal as a wrinkle the room would smooth over for him if he remained gracious enough.
+The camp had gone up fast and stayed long enough to leave marks. Farmland had become rope lines, pavilions, cookfires, mud lanes, wagon parks. Men moved through it with the blunt rhythm of soldiers who had stopped noticing the cold.
 
-"Then I've been corrected quickly." He looked back to Jaina. "You've come a long way to find me. That usually means trouble."
+The forge she had heard from the road sat somewhere beyond the eastern tree line; the hammer carried between tent rows, and the smell of hot iron kept slipping through wet canvas and cook smoke. Silver Hand sigils marked the tents nearest the village wall. The rest of the sprawl belonged to Lordaeron—clerks, quartermasters, supply carts, healers, runners, the whole weight of an army dug in for a stay.
 
-"It means plague," Jaina said. "And if you have ten minutes, I'll tell you why the orcs are not the only thing burning your time."
+The scout took their horses and led them through on foot. Jaina read as she walked, counting wounded but not in numbers that spoke of collapse. Paladins at the well with campaign dents still showing in their plate. Runners and officers moving fast enough that nobody repeated an order. Men eating at the cookfires with one eye still on the lanes. The fighting had already reached this place and settled into routine.
 
-That changed him more than the greeting had. Not outwardly; the camp still had eyes, and Arthas had always known how to wear himself in public. But the line of his shoulders tightened around the word.
+Three soldiers went past at a hurried walk toward the healer's tents, one of them with fresh blood down his sleeve, all of them still steady on their feet. Even the mud looked worked hard, stamped flat by boots and cartwheels until it had lost the softness of farmland and taken on the shape of a place where decisions got made in a hurry. Jaina felt the argument she had built for Arthas change weight as she crossed the camp, harder to place in a hand already holding all this.
 
-"I've reports enough on sickness," he said. "Bad grain, bad wells, frightened villages. Ugly, but not unusual in a season like this."
-
-"This isn't spoiled grain."
-
-"No?" He tipped his head. "You crossed half the kingdom to tell me my quartermasters have a storage problem."
-
-"I crossed half the kingdom because villages are dying and then getting up again."
-
-The men nearest the board shifted at that, faces tightening.
-
-Arthas's gaze sharpened. "Come down, then."
-
-She dismounted before the grooms could reach her stirrup. The ground took her boots with a wet suck. Sylvanas came down more smoothly; even mud seemed to make terms with her on contact. Together they crossed into the ring around the barrels and the board. Jaina caught the quick discomfort of a paladin who had to step aside for an elf on his prince's signal. Good. Let him be uncomfortable.
-
-Up close the board showed the southern settlements in grease pencil and knife-point corrections, black marks where raids had struck, supply lines drawn and redrawn in haste. Orc pressure. Civilian extractions. Burned farmsteads. Real urgency. Arthas had not invented any of it. That made it worse.
-
-"Speak plainly," he said. "I'm short on time."
-
-Plainly, then.
-
-Jaina flattened the copied route sheet against the board with one hand.
-
-"The grain is carrying it," she said. "Worked into it on purpose, and clean enough to survive the oven. People aren't dropping from one bad loaf. They're fed it for weeks. It settles in. By the time they start dying, the rot is already in them."
-
-Arthas looked at the page, then at her hand, then at the map beyond both. His face stayed courteous. It was an old skill of his, listening with enough attention to make interruption feel ungenerous while still withholding belief.
-
-"You've proven this?"
-
-"I've watched it village by village."
-
-"To what scale?"
-
-"Not local," Sylvanas said before Jaina could answer. "Depots. Road books. Storehouse routes. The road behind us is part of it."
-
-"And yet you've ridden into my camp to tell me about bread while Blackrock raiders are dragging farmers out of their own homes."
-
-"Because the bread will still be there when the orcs are dead," Jaina said. "Because it is already on Andorhal's roads and moving under your war traffic. Because whoever built it understands supply better than panic, and if you keep striking only what draws blood in daylight you will hand them the rest of the kingdom in wagons and sacks."
-
-That got through further. The stillness after told its own story.
-
-Arthas rested the hammer's head against the mud. "And what exactly do you want me to do, Jaina?"
-
-He had used her name too softly. As if softness could make the question fair.
-
-"Quarantine grain teams on the Andorhal approaches. Seize the records. Warn the magistrates before the next loads vanish into the city. Put men on the storehouses, not only the roads. And stop treating every sickness report as tomorrow's problem while you finish the war you can see."
-
-Silence around the board.
-
-Arthas looked down at the route sheet again. When he spoke, his tone stayed maddeningly reasonable.
-
-"I don't say you're wrong," he said. "I say I have a confirmed enemy in striking distance and civilians being dragged off by the hour. If the grain is as widespread as you claim, I won't solve it by turning half my mounted force toward Andorhal while the Blackrocks torch the countryside."
-
-Jaina stared at him.
-
-There it was. The gap. The old one, older now because command had fed it instead of teaching it fear.
-
-"Counting sacks," she said.
-
-"Do not do that," Arthas said quietly.
-
-For the first time the courtesy showed its teeth.
-
-"I am fighting a war in front of me."
-
-"You're standing inside one and calling it something smaller because you know where to swing a hammer at orcs."
-
-"And you are asking me to abandon civilians under active attack for an investigation you cannot finish naming."
-
-That struck because it was partly true. Jaina hated him for knowing exactly where the bruise was.
-
-"I can name enough."
-
-"Enough for Dalaran, perhaps. Enough for the Kirin Tor to send letters and decide who ought to be responsible. I need certainty before I move troops off a live front."
-
-"You need a cleaner answer than the road is willing to give you."
-
-His jaw hardened.
-
-"What I need," Arthas said, "is to deal with the threat slaughtering people today. If your city proves what you think it will, send word to Capital City, to Hearthglen, to any magistrate along the line. I'll add my own authority to the warning once the raids are contained. But I will not gut this response on the strength of one argument, however well delivered."
-
-One argument.
-
-Weeks of villages, bodies, spoor, ledgers, poisoned bread, stripped depots, and the whole ugly road under her horse's hooves reduced to that.
-
-Her own laugh came out before she meant to give it voice. Short. Without humor.
-
-"Well delivered," she said. "Thank you. I was worried the facts might need better manners."
-
-The nearest knight went rigid with offense. Arthas only looked tired.
-
-"I know you think I'm refusing to listen."
-
-"I think you have listened perfectly," Jaina said. "That's the problem."
-
-For a beat she thought he might answer as Arthas and not as crown prince. The old private anger stirred behind the public one, quick and hot and almost young enough to remember safer rooms. Then the camp closed over it.
-
-"You are asking me to move on what you can see and I cannot," he said.
-
-Sylvanas stepped in before Jaina could answer.
-
-"If the prince has heard the warning," she said, "then we've taken what we can from this stop."
-
-"I've heard it," Arthas said.
-
-"Good," Sylvanas said.
-
-No curtsy. No concession.
-
-"If you reach Andorhal," he said to Jaina, all formal edges now, "be careful how you spread this. Panic kills as efficiently as plague."
-
-"So does hierarchy," she said.
-
-That did it. One of the paladins inhaled through his nose, scandalized on the room's behalf. Arthas's gaze held hers a moment longer, not warm, not kind, not even particularly angry now. Simply fixed. He had made his decision and settled into it with the whole of his weight.
-
-"Captain," he said to one of the waiting officers without looking away from her, "send word to the quartermasters that any reports from Andorhal's grain exchanges come directly through the command tent by nightfall."
-
-A gesture. Small, late, and plainly second to the war already filling the camp.
-
-Arthas lifted Light's Vengeance from the mud. "I cannot give you more than that now."
-
-"No," Jaina said. "You can't."
-
-She took the route sheet back, folded it once with too much force, and stepped away from the board. Behind her, orders were already beginning again. Riders assigned. Villages named. Someone shouting for remounts. The camp moved on without her.
-
-By the time she reached her mare, her hands were shaking.
-
-Not much. Enough.
-
-She laid a hand flat to the animal's neck until the tremor left her own fingers.
-
-Troop movement went on all around them. Men passing with pikes. An acolyte of the Light carrying bandages in both arms. Somewhere to the west a horn sounded once, twice, and cut off. Arthas had not invented any of it. It would have been easier to hate him cleanly if he had.
+Arthas stood at a map table near the village gate with three officers around him and a runner waiting at his left. When the tent flap fell shut behind Jaina, he had her name ready.
 
 "Jaina."
 
-Sylvanas's voice, close enough that Jaina did not have to turn to hear it.
+Warmth first, then surprise. It struck low in her chest before she could stop it. He wore light field plate built for movement, and the command sash across it still looked cleaner than anything else in the tent, as if he belonged somewhere more orderly than the place where he stood.
 
-"If you're about to say he never mattered—"
+He filled the room the way he always had—certainty first, charm second, with the sense that he had already chosen the line of advance and everyone else would do better if they stepped quickly into it. She had once mistaken that for the safest kind of strength there was.
 
-"No."
+"Word said you were riding south," he said. "I didn't expect this far."
 
-That stopped her. She looked over.
+"We kept riding south longer than I expected."
 
-Sylvanas stood with one hand on her horse's reins, the morning light caught thin and cold along the curve of her cheekbone.
+His glance cut to Sylvanas, easy and practiced. "Ranger-General."
 
-"He mattered," Sylvanas said. "He matters now. That's why this is worse."
+"Your Highness." Sylvanas stood two steps back and to the right, already where protocol would put her before the others had fully settled.
 
-Jaina swallowed. The anger in her throat turned granular.
+"I need a few minutes," Jaina said.
 
-"You heard him."
+"Of course." He dismissed the officers with a turn of the hand, sending the runner with them. The tent shrank at once. A lamp burned at the corner of the table; two cups of broth waited on a stand by the entrance, untouched. She left them there. "What are you following?"
 
-"I did."
+She gave him the short version: grain carrying the taint, repeated eating teaching the body to hold it, death finishing whatever came next. Then the tagged depots, the cleaned shelves, the blank books, the dead man at Millbrook Spur without a wound, the Barov name appearing too often to ignore and still not often enough to prove.
 
-"And?"
+He listened. Arthas kept both hands on the table and let her finish.
 
-Sylvanas's eyes flicked once toward the map board, where Arthas was already leaning over fresh reports.
+"How certain?" he said.
 
-"He heard the warning," she said. "He chose the thing he could strike today."
+"Of the grain, very. Of the Barov tie, less. Of the scale—" She spread her notes beside his map, flattening a corner that wanted to curl back. "Eleven confirmed depots. Forty to fifty communities in the chain. The worst of it is still ahead."
 
-There was no comfort in the line. Which was why Jaina believed it at once.
+He read. He turned the route diagram once and followed the lines the way commanders followed roads, in terms of distance, wagons, and where a mounted unit could still arrive before dark. He set that page down, took up her Millbrook Spur notes, and read the room summary, the body placement, the shelves. He never interrupted when the answer interested him, and he had never needed the room to mistake confidence for thought.
 
-Not cruelty. More dangerous than that: the old princely certainty that a threat could wait if it would not yield to force at once.
+He lingered over the route map longer than she expected, resting a gauntleted fingertip once on the southern road where three lines fed into one. Then he picked up the page on the depots and read each place name instead of skimming for the total. That would have impressed her if she had needed impressing.
 
-"Years ago," Jaina said, mostly to the horse's shoulder, "I told myself that seeing the flaw early was enough. That if I stepped away before the worst of him had room to bloom, that counted as wisdom."
-
-Sylvanas said nothing. The silence held because she let it.
-
-"And now this. The same man, the same refusal, only with more dead depending on it."
-
-"Then stop asking him to save you from what he is."
-
-Jaina laughed again, softer this time and more bitter for it. "That's almost kind, for you."
-
-"No," Sylvanas said. "It's tactical."
-
-That, of all things, steadied her.
-
-Cyndia came in from the edge of camp at a jog. "Road ahead is clear enough for now. Two grain teams half a mile on, moving slow under escort traffic."
-
-Lyriel followed a few steps later, mouth set. "If we're staying, we should stable the horses. If we're leaving, now would be my preferred time."
-
-Jaina drew one long breath through her nose. The air smelled of wet canvas, forge smoke, horse piss, and the copper edge of too many wounded men in one place.
-
-She could go back. Not to Dalaran. That road had burned behind her long ago. But back to the prince, back to one more careful attempt at arranging evidence into an order he might choose to respect.
-
-And while she did, the road would keep moving without her.
-
-She looked at Sylvanas. Not for permission. For the harder read of the room, the part she had been stubborn enough, until very recently, to treat as secondary to the proof.
-
-Sylvanas met her eyes and waited.
-
-Not cynical, Jaina thought. Accurate.
-
-"No more asking," Jaina said.
-
-Lyriel's chin lifted a fraction. Cyndia's weight shifted already toward the horses.
-
-"We go to Andorhal. If the city is what the road says it is, then the proof speaks there or it doesn't speak at all."
-
-"Good," Sylvanas said.
-
-Jaina mounted. The ache behind her eyes had ripened into a bright, mean throb. Around them the camp stayed busy and indifferent. One prince's refusal among ten thousand other moving parts.
-
-They rode out of Strahnbrad without ceremony.
-
-Once clear of the camp's churn, the feeder road opened again into long damp stretches bordered by winter-bare fields and low stone walls gone soft with moss.
-
-For a while nobody spoke.
-
-Jaina was grateful for it. The camp remained in her body after it dropped behind them, like the aftersound of a struck bell. Arthas's voice. Arthas saying he had heard and choosing otherwise.
-
-There was no missing sentence that would have fixed him.
-
-The road gave her other work.
-
-Traffic thickened by degrees. Farmers' carts yielding to troop columns. Grain wagons under patched canvas. A pair of priests rode past with mud on their tabards and the look of men who had spent too long deciding who could still be saved.
-
-By noon the buzzing at Jaina's temples had become directional.
-
-Not enough to point like a compass. Enough to load the air more heavily every mile closer. The horses felt it before anyone said so. Jaina's mare shook her head twice and tried the bit. Sylvanas's gelding pinned his ears at nothing visible and needed a touch on the neck before he settled.
-
-"They're feeling it," Jaina said.
-
-"So am I," Lyriel muttered from the right flank, then, catching herself, added, "Only in the horse."
-
-Even Jaina managed a thin smile at that.
-
-The road curved around a copse of leafless alder and dropped into a busier stretch where side lanes joined it in quick succession. A watering trough stood near the junction, half full of grey sky. Beside it a wagon had stopped while its driver adjusted a binding on one rear wheel. He looked up as they approached: middle-aged, broad through the shoulders, wrapped in the kind of serviceable brown that invited no memory at all. A woman sat on the bench seat beside him with a child asleep against her shawl.
-
-"Andorhal?" Jaina called.
-
-The man straightened, wiped his palms on his coat, and pointed down the road with the wrench. "Keep the main line. You'll see the store roofs before the walls. Hard to miss it once the grain starts crowding in."
-
-Jaina thanked him and would have ridden on at once, but Sylvanas had let her horse slow almost to a stop.
-
-"Busy ahead?" Sylvanas asked.
-
-"Always." The man smiled, quick and neighborly. "Busiest place in the kingdom if the bakers are to be believed, and they've an interest in the argument."
-
-The woman on the wagon laughed softly without waking the child.
-
-"You'll have room enough," the man went on. "Road's packed, but it moves."
-
-Nothing magical on him. Jaina checked without meaning to, the habit now as fast as blinking. Only warmth, fatigue, yesterday's ale in the blood, the ache in one shoulder from too much wrench work.
-
-Then he dipped his head and said, "May the stars keep your road."
-
-Jaina barely marked it. Odd wording, that was all.
-
-Sylvanas did mark it.
-
-Her stillness changed with the abruptness of a temperature drop.
-
-They rode on another twenty paces before Jaina said, "What?"
-
-"You've heard it before," Jaina said when Sylvanas did not answer.
+"This is running toward Andorhal," he said.
 
 "Yes."
 
-"From him?"
+"Andorhal is the center."
 
-"Perhaps. Or from someone very much like him."
+"All the roads feed it."
 
-Jaina turned that over. "You think it's the trader."
+He laid the sheet down. "Then I need to clear the Blackrock raiders out of this corridor before I can—"
 
-"I think it's the same phrase in the mouth of the same kind of forgettable man." Sylvanas exhaled once through her nose. "That is not the same thing."
+"The Blackrock raiders are happening now," Jaina said. "The plague will still be happening in three months. If you let the grain keep moving, you'll be defending empty houses."
 
-Jaina let that sit. Not an answer. Only the same unease catching on a second face.
+He raised his head. He had not stopped listening.
 
-"Do you want to turn back?"
+"Jaina." He set the paper down with deliberate care, as if patience itself might keep the room orderly. "I hear you. I know you've done the work. But the orcs are hitting villages on this road today. If I pull men off that to chase ledgers and storehouses, I leave living people to burn for a threat I cannot yet put a sword through."
 
-"For a man changing a wheel with his wife beside him?" Sylvanas shook her head. "No. If he matters, he matters farther in."
+"The grain is already killing them." She kept her voice flat, bracing one hand on the edge of the table so the anger had somewhere to go besides the air between them. "You can see the raiders. You can't see the loaves on a table in a village three days from here. That does not make the grain smaller."
 
-By the time the road dipped again and the alder copse took the wagon from sight, Jaina still could not decide whether the phrase meant anything or whether meaning had begun to breed in her skull from overuse.
+"It makes the choice mine."
 
-The city's pressure arrived before the city itself.
+"I am asking for riders, then. Andorhal's lord. Hearthglen. Anyone who can seize the records and stop the grain before it finishes the route."
 
-The pain behind Jaina's eyes tightened through the bones of her face. Not sharp enough for panic. Worse than that. Steady. She shifted her grip on the reins and found her right hand colder than the left. The mare's neck went damp under her palm.
+"I have two riders left to spare, and both are already carrying reinforcement requests to the capital." No apology in it. "I will put what you've told me into my next report. If you get the records out of Andorhal, bring them to me. I'll see they reach the right hands."
 
-No one spoke now because the road had become work.
+Sylvanas said nothing behind her. She did not have to.
 
-Cyndia tightened back into the quartet's nearer orbit. Lyriel gave the hedges the full attention of a drawn bow. Sylvanas kept one hand low on the reins and the other free.
+Leaving angry at foolishness would have been easier. Harder to leave knowing he had heard the danger, measured it against the war in front of him, and chosen the nearer fire with clean hands and a prince's authority.
 
-Jaina leaned forward in the saddle. The wrongness was too broad here, too spread out. Not one house. Not one granary. It sat over the place the way woodsmoke sat over a town in winter: never equal, never dense enough to seize by one source, yet thick enough that the body could not help taking it in.
+"Thank you for your time," Jaina said.
 
-"How far?" she said.
+His expression shifted, brief and human. "Be careful in Andorhal."
 
-"Not long," Sylvanas replied.
+She gathered the pages, folded them back into her coat, and walked out into the cold.
 
-Jaina did not ask how Sylvanas knew. The answer was in the road under them. The traffic had a city's impatience now. More carts. More wagons running empty one way and heavy the other. Teamsters cursing time instead of weather.
+---
 
-Then the rise came.
+Cyndia and Lyriel were waiting where the horses had been left, both of them silent. Jaina did not look back at the command tent. Around her the camp kept moving with crates, hammer blows, shouted tallies, and a pair of clerks arguing over a wagon count beside a cart stacked with barley sacks.
 
-It was not much. A long shallow climb through rutted earth where the hedges thinned and the land opened. Jaina's mare dug in. Mud clung to the fetlocks in dark cuffs. At the top, Lyriel made a low sound that was not quite speech, and Jaina looked up past the pain long enough to see why.
+Sylvanas came up beside her, gloved hand already on her mare's reins.
 
-Andorhal sat on the horizon exactly where the road had promised it would. Not ruined—working, which was worse.
+"He's not wrong about the raiders," Jaina said.
 
-Granary roofs lifted above the nearer buildings in a row of steep dark angles. Smoke rose from dozens of chimneys. Wagon lines crawled in and out of the gate roads like ants to a disturbed hill. Beyond the outer walls, storehouses and exchange yards spread wide, all of it built to take weight and keep it moving. Even at this distance Jaina could make out cranes, stacked sacks under long awnings, men crossing catwalks between lofted bays.
+"No."
 
-It looked fed, busy, competent.
+"He's treating the raiders as the war and the plague as somebody else's problem."
 
-And under that working surface lay the same pressure now battering the back of her eyes.
+"That is one way to say it."
 
-Jaina stopped her mare without deciding to. The others drew up around her.
+Jaina turned to her. "Yours?"
 
-Below them the road fed straight toward the gates, carrying grain, riders, traders, and the easy trust that storebooks, tally marks, and decent men kept bread honest.
+Sylvanas checked the road behind them on instinct before she answered. "You gave him a war with no front line. He heard sickness and handed it to his healers, keeping the orcs with the soldiers. Commanders do that in the field."
 
-"There," she said, though everyone could see it.
+"He was listening."
 
-Sylvanas followed the wagon traffic with her eyes instead of the skyline. "Alive," she said.
+"He was." Sylvanas took the reins Cyndia held out and gave the mare a brief stroke at the jaw before she mounted. "He would have listened just as hard if you told him some Dalaran archmage had learned to spin straw into gold. He takes you seriously. The plague still comes second."
 
-"That's the problem."
+Jaina had gone in believing a clean argument, laid out cleanly, would force Arthas to yield. She had believed that once before, in another room, with Arthas wearing a different face and the same certainty. He had listened, weighed it against the raiders, and refused anyway.
 
-Millhaven had been aftermath. Dane Hall had been proof. The stripped depots and road books had been structure. This was the first time the whole thing stood in front of her still doing business, still sending flour and loaves and comfort to half a kingdom with commerce and corruption in the same hands.
+"I knew that," she said.
 
-The city looked normal enough to shame accusation.
+"Did you."
 
-Children would be running somewhere in there. Bakers shouting over ovens. Teamsters arguing rates. Clerks stamping tallies and cursing poor figures. A thousand small ordinary motions keeping the place alive while the plague rode outward through those same roads.
+Jaina rubbed her thumb along the rein leather. "I knew it enough to fear it. Not enough to stop expecting better."
 
-No ruin to point at. No visible corruption to satisfy a prince who preferred the kind of crisis that smoked.
+A horse shifted behind them, the nearest tent line rattling in the wind. She laid one hand on her gelding's neck and kept the anger where it could still be used. Arthas had a visible war and too few men. The older sting under it was not simple, but it did not need solving on this road.
 
-Only a working grain city carrying the kingdom's death in plain sight.
+She had wanted speed—a shortcut past ceremony, a moment in which he would take the shape of her thinking before the whole explanation had to be unpacked. Instead the years between them had only made the refusal sound courteous.
 
-Jaina closed her eyes against the throb for one beat, opened them again, and made herself look harder. The roofs. The yards. The converging roads. The human swarm of it. If Arthas would not believe the road, then perhaps the city would believe in itself for him.
+"The records," she said.
 
-"Chapter of your life," Lyriel said under her breath, "I would have preferred a cleaner destination."
+"Yes."
 
-"You and me both," Jaina said.
+"If Andorhal's books are still there, we get proof he can act on without choosing to believe me first."
 
-Cyndia shaded her eyes with two fingers and studied the outer traffic. "Gate lines are moving. No visible checks on grain."
+"If they're already cleaned," Sylvanas said.
 
-Of course not.
+"Then we learn that too."
 
-Sylvanas turned in the saddle. "We go in quiet first. Learn the shape before we test it."
+She took her reins from Cyndia, turning her gelding toward the pale south road between muddy banks.
 
-Jaina nodded. "Quiet. But fast."
+"Either way," Sylvanas said, mounting in one smooth motion, "the argument is over."
 
-Because the city was there. Because Arthas had heard and chosen otherwise. Because the old farewell had repeated and still refused to become an answer.
+They rode out before anyone in the camp pulled them into one more conversation that would do no good.
 
-Jaina set her heels lightly to the mare's sides.
+---
 
-Below them, Andorhal went on working.
+South of Strahnbrad the country opened into stripped fields and black hedgerows. The road improved with the traffic, broader and harder packed, with ruts set deep by loaded wagons. Grain mostly. They passed two before mid-afternoon, both headed toward Andorhal under oiled cloth that left flour dust on the seams.
+
+Jaina kept her eyes off the second wagon's load as long as she could, failed, and then looked too hard.
+
+The pain behind her eye had thickened since Strahnbrad: not the dull early ache of a far-off taint, but an ache narrower and meaner, needling from behind the right eye toward the left as the basin roads drew tighter around them. At the border villages she had read the wrongness from outside it. Here she was riding inside its reach.
+
+She cinched her outer wards closer. Enough to keep going. Not enough to stop the pressure altogether.
+
+The junction came where three roads met: Strahnbrad from the north, a worn feeder cut from the west, and the main Andorhal approach slanting southeast. A milestone leaned at the angle, its carved face green with age. Beside it a grain wagon had pulled over. The driver stood in the road with a cartbook open against his forearm while his lead horse nosed at the grass beyond the ditch.
+
+He looked up at the sound of hooves. Older man. Broad chest. Coat patched at one elbow. He had the easy balance of somebody who had spent most of his life on roads, wasting no motion he didn't need.
+
+"Andorhal?" he said.
+
+"Yes," Jaina said.
+
+He turned the cartbook and tapped the route with a blunt nail, tracing the road south. "Straight through. Pass the second waymarker—the one with the old paint—and you'll see the granary towers before the wall." He gave directions the way practiced road men did, with no interest in who received them. "Road's dry all the way in."
+
+"What's moving there now?" Sylvanas asked.
+
+He weighed the question in a brief pause. "Grain. Mills running. Bakery quarter busy since summer." Then, having already priced it in his own head, he named the current bushel rate without being asked. "Nothing strange I've seen."
+
+"Good," Jaina said.
+
+He closed the cartbook. The lead horse tugged again at the cheekpiece. He turned back toward it, stopping half a step later and tossing the farewell over his shoulder in the same easy tone.
+
+"Safe roads to you. Keep the grain above damp."
+
+He caught the lead horse's cheekpiece and checked the tack.
+
+Sylvanas went still a beat late.
+
+Jaina heard the phrase catch too. Keep the grain above damp. Too specific for a casual farewell, and familiar only by retelling—the north-road seller from Sylvanas's account, filed in Jaina's head by hearsay and none too firmly. Sylvanas rode with the stillness of a woman weighing it.
+
+They rode on, and Jaina left the question alone until the junction had sunk a quarter mile behind them and the wagon noise had flattened into the rest of the road.
+
+"The same phrase?" she asked.
+
+"Close enough," Sylvanas said.
+
+"Two men. Two roads. Weeks apart."
+
+"The phrase belongs to the grain trade." Sylvanas kept her hands light on the reins. "Common enough. First time I let it pass because we had not yet tied grain to the carrier. It stayed with me because it was an odd thing to say to strangers."
+
+"And now it's odd twice," Jaina said.
+
+"Yes."
+
+Jaina ran back over the man at the junction: patched sleeve, good horse, road dust in the seams of his coat, weathered hands, nothing magical on him she had felt even through the worsening pressure in her head. A grain man on a grain road, unless he wasn't.
+
+"I got nothing from him," she said. "But I wasn't looking for him."
+
+"I know." No blame in it. "It may be nothing. It may be a district habit and we're building too much out of two points."
+
+"Two men on two roads using the same farewell was enough to flag it."
+
+"Or it was two grain men talking like grain men."
+
+Fair enough. She set it beside the old seller in her mind and left it there.
+
+The headache sharpened.
+
+She tightened her wards again, shaving the pain down by half, and found the horses with heads higher and ears working. That thread of unease came from slow strain building through the body. Thalassian horses tolerated magic better than most; these had carried them through Sylvanas's presence and the feeder-road hum without complaint, and they kept that posture now as the miles fell away.
+
+Jaina drew the wards closer, bracing against the push. The wrongness pressed back. No single source to point at, no hot knot of magic she could circle wide around—only the pull of one source somewhere ahead, feeding taint out through every road.
+
+Her fingers had gone numb with cold and strain, stiffening around the reins until she flexed them once and got warmth back.
+
+"How far?" she asked.
+
+"Two miles," Cyndia called from the lead. "Less, maybe."
+
+The last mile hurt.
+
+The pressure did not leap; it built by grains. Each time she tightened the ward, the ache slipped past it again, and by the time they were nearly in sight of the city the pain had spread from behind her eye to the crown of her skull. She put up the heavier ward she had used only at the worst villages and kept riding under the extra pull it laid across her senses.
+
+Inside the walls would be worse.
+
+The ward held some of it out and only thinned the rest. At the border villages the taint had struck like a bad smell caught on the wind—sharp, local, survivable at a remove. Here it pressed across the wards in a broad sheet, sitting on the skin and in the teeth, coming in with every breath. Every few minutes the wrongness hit hard enough against the ward to make her jaw tighten.
+
+The horses knew it already. Cyndia's gelding gave two side-tilting steps toward the shoulder, straining to turn back. Her own kept its pace, but its ears flattened toward the road ahead and stayed there.
+
+"We may stable them outside the wall," Jaina said.
+
+"I know a family two roads east of the gate," Lyriel said from the rear. "If they stayed."
+
+The road bent, the trees broke, and the sky opened.
+
+Andorhal stood across the winter fields alive with walls, rooflines, four granary towers, bakehouse smoke, wagons at the gate, and the distant hush of work.
+
+The gates stood open, traffic moving. Wagons unloaded and left empty for more. The towers were full, and carts were still pulling grain out toward the road. The city looked less like a place under sentence than a market day that happened to wear winter light.
+
+She could make out the order of it even from here: tower first, then warehouse roofs, then the lower spread of workshops and houses shouldering together behind the low wall. Loading yards lay open beside the gate, men crossing them with the quick plain purpose of people moving inventory, not fleeing disaster. From this distance the skyline looked ordinary—no smoke from a fire gone wrong, no bell in alarm, no knot of people massed in panic, only the basin's grain traffic under winter light and the faint warm sweetness of flour and baking carrying farther than it should have.
+
+She could feel the city from here.
+
+It pressed across the wards in one broad sheet. The corruption had soaked so deeply into the place that flour in sacks, grain dust on sleeves, bakers at their boards, carts in the lanes, and clerks waving loads through the gate all carried it through the day's work.
+
+The worst part was how cleanly the road and the city matched. Every depot they had traced, every symbol copied from a ledger, every village that had sickened without understanding why—all of it pointed here, and here was a functioning node in plain sight.
+
+One of the horses balked and had to be urged on. Then it obeyed, tight-backed and miserable.
+
+"Still running," Jaina said.
+
+"Yes."
+
+This was what she had tried to give him: towers full, wagons loading, a city still working. She had followed the evidence here all day. The grain was still moving through a city that still worked. Whatever hands had cleaned Millbrook Spur had not reached here, or had not needed to, or were still waiting their hour.
+
+She stopped arguing with herself. A prince would ask for records; soldiers in camp would wait for orders.
+
+Records first. Ledgers. Towers. Men who signed for the grain.
+
+The gates were close enough now that, with her wards pulled tight, Jaina could ride straight toward them.

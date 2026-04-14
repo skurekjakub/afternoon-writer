@@ -1,0 +1,177 @@
+{
+  "chapterId": "chapter2",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 6,
+      "kills": 3,
+      "keeps": 3,
+      "dominantPattern": "F4/F7",
+      "findings": [
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "text": "Every moment spent arguing was a moment it had to spread.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "The contamination pulsed below the packed yard like a heartbeat in the wrong place.",
+          "suggestedFix": "(delete sentence)",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F7",
+          "severity": "MILD",
+          "text": "She had been reading it through glass.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "The contamination pressed at her sternum, copper and turned earth in her throat, wrongness humming under the packed dirt hard enough to make her shake.",
+          "suggestedFix": "(delete sentence)",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "pattern": "F4",
+          "severity": "MILD",
+          "text": "Sylvanas had already done the work on the map. Already followed the convergence south.",
+          "whatItRestates": "\"Millhaven.\" plus the immediately preceding interruption already show that Sylvanas understood the route and pinch point.",
+          "suggestedFix": "(delete both sentences)",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "dominantPattern": "A1",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Jaina thinks like a field-trained mage: analytical, fast, evidence-first, and dry when irritated. She can compress into clipped diagnostic fragments, but her thinking still stays attached to magical evidence, bodily sensation, and practical consequences rather than caption-like thematic shorthand.",
+      "registerConfidence": "HIGH",
+      "findings": [
+        {
+          "pattern": "A1",
+          "tier": "A",
+          "severity": "MILD",
+          "text": "Sylvanas had already done the work on the map. Already followed the convergence south.",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "The fragment pair turns Jaina's realization into a polished caption instead of leaving it inside her interrupted thought and Sylvanas's single-word answer.",
+          "confidence": "HIGH",
+          "suggestedFix": "(delete both sentences)",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 3,
+      "kills": 1,
+      "keeps": 2,
+      "dominantPattern": "P2",
+      "findings": [
+        {
+          "pattern": "P2",
+          "severity": "MILD",
+          "text": "Sylvanas had already done the work on the map. Already followed the convergence south.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "the specific crossings, line pinch, or marked route behavior that would cash out 'the convergence south'",
+          "suggestedFix": "(delete both sentences)",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 0,
+      "kills": 0,
+      "keeps": 0,
+      "cleanReason": "No explicit plain-speech translation setup survives in this revision. The chapter's compressed technical lines are either already operational ('Soil and water both') or are not framed as simplification exchanges."
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 7,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": 4,
+    "guidesWithKills": 3,
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "Five mild pass-B kills remain. One sentence-cluster around 'done the work on the map / followed the convergence south' trips three guides at once, and two paragraph-end lines still over-close or over-translate. Iteration trajectory is oscillating (10, 8, 6, 9), so conservative deletion fixes are warranted.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.484,
+        "target": 0.72,
+        "delta": -0.236,
+        "range": [0.6, 0.85],
+        "inRange": false
+      },
+      "sentence_length_cv": {
+        "value": 0.765,
+        "target": 0.7,
+        "delta": 0.065,
+        "range": [0.6, 0.8],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 44.6,
+        "target": 19.0,
+        "delta": 25.6,
+        "range": [15.0, 24.0],
+        "inRange": false
+      },
+      "structuralConcerns": [
+        "comma_period_ratio below calibrated range",
+        "one_sentence_paragraph_pct far above calibrated range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "borderline",
+      "verdict_reasons": [
+        "participial_pct 2.4% below floor 5.0% (human: 11.0%)"
+      ],
+      "interpretation": "PARTICIPIAL PHRASES: 2.4% (floor: 5.0%, human: 11.0%). Add ', Ving' phrases to connect actions.",
+      "telegram_run_count": 13,
+      "texture_desert_count": 5
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 19,
+        "total_violations": 0,
+        "overCapCategories": []
+      }
+    }
+  }
+}

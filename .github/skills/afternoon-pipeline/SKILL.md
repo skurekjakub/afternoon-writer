@@ -1,51 +1,40 @@
 ---
 name: afternoon-pipeline
-description: "Domain knowledge for the afternoon fiction-writing pipeline — a 12-agent sequential system that transforms beat plans into polished prose. Use this skill whenever editing afternoon agent files, modifying pipeline behavior, adding new agents, changing config.json, troubleshooting pipeline runs, understanding how the memory/continuity system works, or asking any question about how the afternoon agents interact. Also triggers on: 'afternoon pipeline', 'afternoon agents', 'edit the writer agent', 'add an agent to afternoon', 'fix the pipeline', 'config.json fields', 'continuityStatus', 'requiredMemory', 'memory-keeper passes', 'why did the pipeline fail', 'crash recovery', 'how does the orchestrator work', 'status.json', 'manifest.json', or any request involving the .afternoon/ directory or .github/agents/afternoon-*.agent.md files."
+description: "Domain knowledge for the afternoon fiction-writing pipeline. Use this skill when editing afternoon agents, orchestrator flow, config.json, memory/continuity behavior, crash recovery, or any file under .afternoon/ or .github/agents/afternoon-*.agent.md."
 ---
 
 # Afternoon Pipeline
 
-The afternoon pipeline is a 12-agent sequential system that transforms user-authored beat plans into polished fiction. This skill gives you the domain knowledge to work on any part of it.
+Use this skill for pipeline work: agent prompts, orchestrator routing, config, memory flow, or recovery behavior.
 
-## Pipeline at a Glance
+## Quick Flow
 
-```
-style-extractor (user-invocable, run once per story) → style-guide.json
-outline-builder (interactive, user-facing) → outlines/{chapterId}.md
+```text
+style-extractor -> style-guide.json
+outline-builder -> outlines/{chapterId}.md
 
-Orchestrator (pure router) — per chapter, sequentially:
-    1. Planner         → validates beats, enriches with research → plans/{chapterId}-initial.json
-    2. Plan-Verifier   → continuity annotation, structural evaluation → plans/{chapterId}.json (final)
-    3. Writer           → prose from plan, anti-slop primed → chapters/{chapterId}/v1.md
-    4. Slophunter       → 11 targeted AI-pattern hunts → chapters/{chapterId}/v2.md
-    5. [Slop-Gate A/B ↔ Slophunter revision loop] → adversarial audit, revision if either pass fails
-    6. [Grounder]       → map-driven grounding → chapters/{chapterId}/v2g.md + grounding-map.json
-    7. [Grounding-Gate ↔ Grounder revision loop] → adversarial grounding audit, revision if fail
-    8. [Expander]       → intimate/emotional scene expansion → chapters/{chapterId}/v3.md
-    9. Style-Editor     → 7 quality checks, voice polish → chapters/{chapterId}/v4.md
-   10. [Style-Auditor]  → adversarial style-guide enforcement → chapters/{chapterId}/v4b.md
-   11. Final-Slophunter → polish-mode slophunter → chapters/{chapterId}/v5.md
-   12. Memory-Keeper    → 5-pass continuity catalog → plans/memory/{category}/{entity}.json + .md
-   Assembly: cp v5.md → final.md
+planner -> plan-verifier -> writer-coordinator
+writer-coordinator -> writer per scene -> craft loop -> continuity loop -> v1.md
+v1.md -> slophunter -> slop-gate loop -> grounder -> grounding-gate loop -> cp v2g.md v3.md -> final-slophunter -> memory-keeper -> cp v5.md final.md
 ```
 
-## Reference Files
+## Read The Right File
 
-Read the reference file for your current task. Each contains the full domain knowledge you need.
+| Task | File |
+|---|---|
+| Overall flow | `references/architecture.md` |
+| Agent I/O and ownership | `references/agents.md` |
+| Config fields | `references/config.md` |
+| Memory and continuity | `references/memory-system.md` |
+| Adding an agent | `references/adding-agents.md` |
+| Running the pipeline | `references/running.md` |
+| Debugging a run | `references/troubleshooting.md` |
 
-| Task | Reference file | When to read |
-|------|---------------|-------------|
-| Understand the architecture | `references/architecture.md` | First time working on the pipeline, or need a refresher on how agents connect |
-| Edit or understand a specific agent | `references/agents.md` | Modifying agent behavior, adding checks, changing what an agent reads/writes |
-| Work with config.json | `references/config.md` | Adding config fields, understanding what fields mean, changing project settings |
-| Understand the memory/continuity system | `references/memory-system.md` | Working with continuityStatus, memoryRef, requiredMemory, or the memory-keeper |
-| Add a new agent to the pipeline | `references/adding-agents.md` | Creating a new agent and integrating it into the dispatch chain |
-| Troubleshoot a pipeline failure | `references/troubleshooting.md` | Pipeline crashed, agent failed, status.json issues, crash recovery |
-| Run the pipeline | `references/running.md` | Starting the pipeline, monitoring progress, understanding completion |
+## Rules That Matter
 
-## How to Use
-
-1. Identify which task you're doing from the table above.
-2. Read that reference file.
-3. If your task spans multiple areas (e.g., "add a new agent that reads memory files"), read both relevant reference files.
-4. When editing agent files, always verify cross-agent consistency afterward — changes to one agent's output format affect all downstream agents that read it.
+- The orchestrator is prose-blind. It reads `config.json`, `manifest.json`, and agent `status.json` files only.
+- Routing and crash recovery use `status.json`, not output-file existence.
+- Canonical draft chain: `v0.md -> v0c.md -> v1.md -> v2.md -> v2g.md -> v3.md -> v5.md -> final.md`.
+- Slop-gate and grounding-gate audit failures are not operational failures; they return completed status with a fail verdict and trigger revision loops.
+- The grounder can be disabled or can degrade to `cp v2.md v2g.md` without blocking the chapter.
+- If you change what an agent reads or writes, update every downstream reader in the same session.

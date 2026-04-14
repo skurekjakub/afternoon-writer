@@ -61,7 +61,6 @@ while true; do
     --share "${SHARE_FILE}" \
     --experimental \
     --reasoning-effort xhigh \
-    --plugin-dir ".github/extensions/" \
     -p "begin" 2>&1 | tee "${LOG_FILE}"
 
   EXIT_CODE=${PIPESTATUS[0]}
