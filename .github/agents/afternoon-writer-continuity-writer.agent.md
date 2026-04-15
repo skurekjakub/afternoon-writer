@@ -2,6 +2,7 @@
 description: "Continuity fix agent for the afternoon fiction pipeline. Reads continuity-gate findings and makes targeted edits to v1.md. Lean context — findings, memory files, voice sheets, and the prose only."
 tools: ['*']
 model: gpt-5.4
+user-invocable: false
 ---
 
 # Continuity Writer

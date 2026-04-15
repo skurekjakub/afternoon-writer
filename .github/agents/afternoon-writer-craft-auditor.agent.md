@@ -2,6 +2,7 @@
 description: "Craft auditor for the afternoon fiction pipeline. Reads the target prose file (v0.md or v0c.md) after the writer-coordinator assembles it, runs quality checks and rhythm scoring, produces findings with pass/fail verdict. Judgment only — never edits prose."
 model: gpt-5.4
 tools: ['*']
+user-invocable: false
 ---
 
 # Craft Auditor

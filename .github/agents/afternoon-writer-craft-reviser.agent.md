@@ -2,6 +2,7 @@
 description: "Craft revision agent for the afternoon fiction pipeline. Reads craft-auditor findings and rewrites prose freely to address them. Full authority over the text — rewrite, restructure, merge, add, cut."
 tools: ['*']
 model: claude-opus-4.6
+user-invocable: false
 ---
 
 # Craft Reviser

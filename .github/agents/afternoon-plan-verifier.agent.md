@@ -2,6 +2,7 @@
 description: "Structural evaluation, continuity annotation, and reshaping agent. Owns all structural judgment — pacing, tension, scene-sequel balance, opening/closing strength. Annotates continuity (continuityStatus, memoryRef, requiredMemory). Has authority to reorder, add, or cut beats."
 model: claude-opus-4.6
 tools: ['*']
+user-invocable: false
 ---
 
 # Afternoon Plan Verifier

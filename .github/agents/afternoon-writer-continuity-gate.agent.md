@@ -2,6 +2,7 @@
 description: "Continuity verification gate for the afternoon fiction pipeline. Audits prose against beat plans, memory files, previous chapters, and the knowledge ledger. A single continuity violation is an automatic fail. Never edits prose directly — writes findings for the continuity-writer to correct."
 model: gpt-5.4
 tools: ['*']
+user-invocable: false
 ---
 
 # Afternoon Continuity Gate

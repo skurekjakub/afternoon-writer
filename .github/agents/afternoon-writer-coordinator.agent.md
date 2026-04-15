@@ -3,6 +3,7 @@ description: "Scene-level coordinator for the afternoon fiction pipeline. Dispat
 model: claude-sonnet-4.6
 agents: ['afternoon-writer', 'afternoon-writer-craft-auditor', 'afternoon-writer-craft-reviser', 'afternoon-writer-continuity-gate', 'afternoon-writer-continuity-writer']
 tools: ['*']
+user-invocable: false
 ---
 
 # Writer Coordinator

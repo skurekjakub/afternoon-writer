@@ -2,6 +2,7 @@
 description: "Interactive chapter outline builder for the afternoon fiction pipeline. Reads anti-slop rules and style target, researches genre conventions, then enters an elicitation loop to build a detailed structured beat plan. Outputs to .afternoon/outlines/."
 model: gpt-5.4
 tools: ['*']
+user-invocable: false
 ---
 
 # Afternoon Outline Builder

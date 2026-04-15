@@ -2,6 +2,7 @@
 description: "Beat-plan builder and research enrichment agent. Reads prose outlines, creates structured beat plans with scene/sequel architecture, enriches with web research. Does NOT evaluate structure or annotate continuity — those belong to the plan-verifier."
 model: gpt-5.4
 tools: ['*']
+user-invocable: false
 ---
 
 # Afternoon Planner

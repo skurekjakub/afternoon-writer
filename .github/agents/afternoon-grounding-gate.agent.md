@@ -2,6 +2,7 @@
 description: "Adversarial grounding verification gate for the afternoon fiction pipeline. Audits grounded prose against the shared grounding evaluation surface, emits pass/fail, and suggests local fixes for grounder revision mode."
 model: gpt-5.4
 tools: ['*']
+user-invocable: false
 ---
 
 # Afternoon Grounding Gate

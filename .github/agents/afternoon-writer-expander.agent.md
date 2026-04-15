@@ -2,6 +2,7 @@
 description: "Scene expansion editor for the afternoon fiction pipeline. Reads v2g.md (grounded), expands underwritten intimate scenes and emotional beats per chapter-focus-points.md, produces v3.md."
 model: gpt-5.4
 tools: ['*']
+user-invocable: false
 ---
 
 # Afternoon Expander

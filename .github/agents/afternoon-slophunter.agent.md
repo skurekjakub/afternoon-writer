@@ -2,6 +2,7 @@
 description: "AI-pattern removal agent for the afternoon fiction pipeline. Reads v1.md, rewrites style-only fixes into v2.md, and auto-fixes instead of flagging. Also runs revision mode to apply specific slop-gate findings."
 model: gpt-5.4
 tools: ['*']
+user-invocable: false
 ---
 
 # Afternoon Slophunter

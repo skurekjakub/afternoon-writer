@@ -2,6 +2,7 @@
 description: "Autonomous orchestrator for the afternoon fiction pipeline. Dispatches planner → plan-verifier → writer-coordinator → slophunter ↔ slop-gate → grounder ↔ grounding-gate → final-slophunter → memory-keeper per chapter. Pure router — never reads prose content."
 model: claude-sonnet-4.6
 agents: ['afternoon-planner', 'afternoon-plan-verifier', 'afternoon-writer-coordinator', 'afternoon-writer', 'afternoon-slophunter', 'afternoon-slop-gate', 'afternoon-grounder', 'afternoon-grounding-gate', 'afternoon-memory-keeper']
+user-invocable: true
 ---
 
 # Afternoon Orchestrator

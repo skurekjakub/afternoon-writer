@@ -1,6 +1,7 @@
 ---
 description: "World-specificity grounding agent for the afternoon fiction pipeline. Creates a grounding map, grounds scene by scene, runs dialogue and final-third audits, and produces v2g.md."
 model: gpt-5.4
+user-invocable: false
 ---
 
 # Afternoon Grounder

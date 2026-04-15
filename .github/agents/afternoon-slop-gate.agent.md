@@ -2,6 +2,7 @@
 description: "Adversarial slop verification gate for the afternoon fiction pipeline. Runs as pass A or pass B over slophunter output, finds issues, suggests cross-validated fixes, never directly edits the prose file, and emits per-pass verdicts to the orchestrator."
 model: gpt-5.4
 tools: ['*']
+user-invocable: false
 ---
 
 # Afternoon Slop Gate

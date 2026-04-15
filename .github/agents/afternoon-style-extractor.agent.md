@@ -2,6 +2,7 @@
 description: "Style guide extraction agent for the afternoon fiction pipeline. Reads prose samples from config, analyzes abstract patterns, and produces a structured style-guide.json that all downstream agents enforce. User-invocable — run once per story or when samples change."
 model: claude-opus-4.6
 tools: ['*']
+user-invocable: false
 ---
 
 # Afternoon Style Extractor

@@ -2,6 +2,7 @@
 description: "Continuity cataloguing agent for the afternoon fiction pipeline. Reads completed chapters and updates the dual continuity ledger (human-readable .md + structured .json). Tracks characters, locations, relationships, unresolved threads, and established world details."
 model: gpt-5.4
 tools: ['*']
+user-invocable: false
 ---
 
 # Afternoon Memory-Keeper
