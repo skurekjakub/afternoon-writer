@@ -15,7 +15,7 @@
 - Ch 15: she sees what that speed has become at Hearthglen and knows the tempo is now wrong.
 - Ch 16: Jaina spending plague knowledge to save real people starts repairing the Scholomance crack.
 - Ch 17: Stratholme is the detonation. Arthas no longer needs anyone else's judgment once he has the answer he wants.
-- Ch 23: Sylvanas closes the same chain with the arrow.
+- Ch 22: Sylvanas closes the same chain with the arrow.
 
 ## Thematic note
 - Crossing the border is still the right decision.

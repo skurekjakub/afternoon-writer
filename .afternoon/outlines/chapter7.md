@@ -17,7 +17,7 @@
 - Millhaven was the first village fully taken. Too much of the country beyond it shows the same weapon hidden inside ordinary sickness.
 - Jaina can feel the plague before local officials know what they are looking at, but they are still chasing shipments that already landed instead of stopping the spread at its source.
 - Barov names keep showing up in the paperwork, but a name on a deed is not guilt.
-- The grain-side farewell pattern tied to the old seller clue is still thin, still unresolved, and not worth turning away from Andorhal for.
+- The farewell Sylvanas has heard twice, from the old carter and the tally-man, is still thin, still unresolved, and not worth turning away from Andorhal for.
 - Arthas heard the warning and chose the war everyone could see.
 
 **Still in the dark about:**
@@ -30,7 +30,7 @@
 **Hold back:**
 - No Kel'Thuzad naming in this chapter.
 - No certainty that the Barovs built the plague cult.
-- No suggestion that the old seller or newer grain-man clue is solved.
+- No suggestion that the old carter or the newer grain-man clue is solved.
 - No warm trust language beyond plain working reliance.
 
 **End of chapter state:**
@@ -70,9 +70,9 @@
 - **Cyndia:** Still with the scouting pack.
 - **Lyriel:** Still with the scouting pack and alive through this chapter.
 - **Corin:** Introduced here as a local Kirin Tor contact inside Andorhal.
-- **Captain Havel:** Introduced here as a local militia contact whose city-first caution, need for control, and habit of steering people through his own routes will obstruct the raid and may hide something worse.
+- **Captain Havel:** Introduced here at the militia post by the market gate, where the tally-man on the road sent them, as a local militia contact whose city-first caution, need for control, and habit of steering people through his own routes will obstruct the raid and may hide something worse.
 - **Neral:** Not present. She remains on the northbound warning line after escorting the survivor girl out in Chapter 3.
-- **Old seller / newer grain-man clue:** Background only. Keep it weak and unresolved.
+- **The old carter and the newer grain-man clue:** Background only. Keep them weak and unresolved.
 
 **Next chapter starts:** Chapter 8 opens the same night in Andorhal with Corin inside their circle, Havel pushing for a slower, cleaner move through routes he controls, and the ambush going forward anyway.
 
@@ -82,7 +82,7 @@
 
 **The action:** They get through Andorhal's gate under cover and gather enough local truth to stop circling and start moving.
 **Cast:** Sylvanas, Jaina, Cyndia, Lyriel, gate guards, inspection clerks, Corin, Havel.
-**Starting point:** Horses stabled outside the wall. The party approaches the gate on foot with Jaina's cover paperwork.
+**Starting point:** Horses stabled outside the wall. The party approaches the gate on foot with Jaina's cover paperwork. It is a Farstrider pass that Sylvanas wrote for her under her own seal.
 
 ### Beat 1
 - They get through the gate without showing what they are here for. The checks are tighter than a normal trade stop: clerks take names, inspect seals, and ask sharp questions about granary business.
@@ -112,6 +112,7 @@
 - They do not know whether anyone has already reacted to their presence or which side of the split will hit real danger first.
 - Ground the division: Havel spreading district notes against a warehouse wall, Corin fumbling for access seals while Jaina waits with patient hands and impatient eyes, the four-woman pack dividing without discussion.
 - There are now two hunts moving through one city on the same clock.
+- Inside: sending her off with a clerk-mage they met an hour ago; easier when she could watch every step; trusts the mage or only the mage's results, and declines to sort that out; would rather have Jaina's eyes on Havel than her own; no, would rather have Jaina where she can see her, which is a different thing and she leaves it there
 
 ### Beat 4
 - Sylvanas and Havel work the granary district on foot. She reads it like hostile ground: watch patterns, timing, broken sightlines. Havel gives her names, shifts, and which granaries changed suppliers three months ago.
@@ -136,10 +137,10 @@
 **Starting point:** Evening at a safe meeting point, with both halves of the investigation returning at once.
 
 ### Beat 6
-- Jaina brings the magical half. The grain is treated during packaging with a necromantic carrier layer, and the body finishes the work after ingestion. Sylvanas brings the physical half: masked workers, active dead drops, a treatment site, and a disciplined local cell.
-- Neither half of the investigation would have been enough alone. The poison is being worked into the grain by skilled alchemical and necromantic hands, and Andorhal is hiding a real cult structure instead of one-off saboteurs.
+- Jaina and Sylvanas trade their halves across the table in a short exchange. Jaina: the grain is treated at packaging with a necromantic carrier layer, and the body finishes the work after it is eaten. Sylvanas: masked workers, dead drops, a treatment site, a disciplined cell.
+- The poison is worked into the grain by skilled alchemical and necromantic hands, and Andorhal hides a real cult structure. Keep this to a few lines; the facts carry the fit.
 - They do not know who designed the process, whether Andorhal is the top of the system or only one hub, or how the cursed victim becomes undead after death.
-- Ground the synthesis: Jaina's neat notes spread beside Sylvanas's rough hand-drawn route marks, Corin and Havel watching two kinds of expertise arrive at one answer, the room going quiet when the scale of the plot lands.
+- Ground the synthesis: Jaina's neat notes beside Sylvanas's rough route marks, Corin and Havel watching.
 - The conspiracy is visible at last.
 
 ### Beat 7
@@ -148,6 +149,7 @@
 - They do not know whether Corin or Havel have already been marked as leaks by the cult or whether Havel's route-pushing is fear or active cover.
 - Ground the friction: Corin's access notes spread flat and ready, Havel redrawing the same safer lanes again and again, Sylvanas watching the route choices instead of the words.
 - The room stops being a briefing and starts becoming a line-drawing exercise over who they can trust.
+- Inside: Havel redraws the same lane, and men who own a lane do that; or he is a careful captain in a city that isn't hers, and she is unfair to him because he is slow; the Convocation would call him a sensible local partner, which counts against him; Corin, hopeless with seals and right every time
 
 ### Beat 8
 - They decide to capture a cultist that night. Sylvanas wants a live prisoner before the cell closes its shift. Jaina backs her because the arcane trail is fresh and delay gives the cult time to scrub the site. Corin sides with speed.
@@ -155,6 +157,7 @@
 - They do not know how fast the cult can scatter once it senses contact or whether the secondary granary is already alert.
 - Ground the planning: candlelit maps weighted with knives, keys, and an iron chalk holder, Jaina and Sylvanas naturally aligned across the table while Havel keeps trying to slow the move.
 - Chapter 8 opens straight into the ambush.
+- Inside: wants the prisoner tonight because by morning there won't be one; or because she is sick of arriving a day late; Jaina backed her before she asked, and she noticed, and won't mention it; Cyndia and Lyriel spread thin on the perimeter, and she is the one spreading them
 
 ---
 
@@ -174,7 +177,7 @@
 - The granary district holds a hidden cult network with at least eight people in it and two layers to its command.
 - Corin is a trusted local ally inside Andorhal. Havel knows the city and keeps trying to steer the operation into routes he controls.
 - The next move is a same-night capture of a living zealot at the secondary granary.
-- The old seller and newer grain-man clue remains weak, background, and unresolved.
+- The old carter and the newer grain-man clue remain weak, background, and unresolved.
 
 **Do not add yet:**
 - Kel'Thuzad's name.

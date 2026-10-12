@@ -305,7 +305,7 @@ The truth, then. She was tired enough for it.
 She decided it wasn't worth arguing about.
 
 **Good:**
-Not worth it. She let the argument die in her mouth, swallowed it down with the last of her wine, and changed the subject.
+Not worth it. She swallowed the argument down with the last of her wine and changed the subject.
 
 **Why:** "She decided" is a cognitive summary. The replacement shows the decision through action — swallowing the words, the wine, the topic change.
 

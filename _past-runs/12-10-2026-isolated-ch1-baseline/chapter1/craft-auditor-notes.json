@@ -1,0 +1,141 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 0,
+  "targetFile": "v0.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter; worst in Scene 1 (lines 5-31), the ride in Beat 6 (lines 231-239), and the dialogue runs at lines 79-101, 139-163, 199-209",
+      "passage": "\"Then he folded into the bracken, and the bracken closed over him, and he didn't get up.\" / \"Tried again, and this time a second bird answered it from farther up the ridge, and then a third, and within the space of ten breaths the woods had decided...\" / \"He looked at her a moment longer, then nodded once and turned the gelding north, and the patrol went after him by twos, and...\"",
+      "problem": "Texture score is 71.0/100, below the 90 pass line. Two dimensions cause it, and they pull in opposite directions. Compound joins are at 21.7% against a 10% target (score 38): the default sentence engine is 'X, and Y, and Z', with 72 sentences over 25 words carrying three or more 'and's. Participial phrases are at 3.2% against 12% (score 46): there is almost no ', Ving' connective tissue. Em-dash (4.1%) and semicolon (2.4%) are on target, so leave them alone.",
+      "fix": "Convert compound joins into participial phrases. This one move fixes both dimensions at once. Line 11: 'The string slapped her bracer, the arrow going down the hill in a flat grey line to take him under the arm...' Line 23: 'She set a boot on his ribs, working her arrow loose with a twist and a pull.' Line 63: 'Sylvanas pushed the nose away and swung up, turning onto the old ranger trace.' Line 103: 'The mare went into a long, swinging canter, the trail opening ahead of them.' Line 211: 'Theris slid down off the chestnut, catching himself on the stirrup leather.' Line 233: 'she took the grade in long, digging strides, her shoes striking sparks.' Line 431: 'The rangers moved without being told, the one in the corner stepping back along the wall.' Where a compound can't become participial, split it into two sentences. Aim for about 60-70 fewer ', and' joins and about 50 more ', Ving' phrases across the chapter. In the flagged dialogue deserts (Lor'themar banter at lines 79-101, the Theris exchange at 155-163, the north/south handoff at 199-209), add one or two narration beats each that are built on a participle (e.g. 'Lor'themar ducked another branch, brushing the leaves off his shoulder') to break the telegram runs. Theris's breathless fragments at line 139 are intentional and can stay."
+    },
+    {
+      "check": "voice-register",
+      "severity": "high",
+      "location": "Whole chapter; worst at lines 5, 47, 57, 181, 185, 231, 355, 405, 421",
+      "passage": "\"Her stomach went tight and small, the way it did on the edge of a bad drop, and before she could stop it she was back in the Convocation chamber three months ago: the high gold windows that didn't open, the smell of lilies and lamp oil and warm velvet, and a treasury magister reading aloud—aloud, line by line, for most of an afternoon—the cost of every fletching and bowstring and horseshoe the Farstriders had used in a year.\" (79 words)",
+      "problem": "style-guide.json sets a hard cap of 25 words per sentence in Sylvanas POV. 120 sentences break it, 48 go past 40 words, and 3 go past 60 (line 47: 79 words, line 185: 77, line 5: 66). The scorer confirms it: long sentences are 23.4% against a 10% target (range 7-14), and mean sentence length is 14.0 against 11 (range 9-13). The anchor (Sanderson) uses one long polysyndetic sentence to open up a moment and then hits short. This draft stacks long sentences back to back (lines 181 and 185, 231-233, 363-367), so the short punches lose their contrast. The voice sheet's default is short declaratives with fuller sentences kept for tactical logic. The narration keeps drifting into a lyrical, accumulating register that sounds more like a narrator than like Sylvanas. Two more global metrics are also off: one-sentence paragraphs are 37.4% against 19% (mostly dialogue turns with no attached narration), and opener entropy is 6.05 against 7.7 ('She' opens 93 sentences, 'The' 64).",
+      "fix": "Split every sentence over 40 words, and most over 25. Line 47: end at 'bad drop.' and start a new sentence at 'Before she could stop it she was back in the Convocation chamber three months ago.' Make the windows/lilies/magister list its own sentence, and cut the 'aloud—aloud' doubling. Line 185: lift the dash aside ('a Kirin Tor spy who'd been clumsy...') into its own two sentences, then land 'She had been inside the wards with her hands on a stone.' as a standalone short sentence before the secondhand clause. Line 5: break after 'gully', after 'run', and after 'burn'. Lines 181 and 185 together: cut about 30% and let 'No.' and 'Her ring. Her stones.' do the work. Where two dialogue turns sit as bare one-line paragraphs, attach a short action beat to one of them. Vary openers by fronting a place, an object, or a participle instead of 'She'."
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "high",
+      "location": "Beat 7 (lines 257-351) and Scene 2 overall (lines 125-255)",
+      "passage": "\"Feren came up on her at the second ring about an hour after sunup. He's not quiet, Feren, and the wind was behind him... I've seen what they do when they'd rather be somewhere else. One breath and they're gone, and you're left standing in a smell like a struck flint.\" ... \"The tower's three rooms and a roof, General. Where would you have me put it, in the barley?\"",
+      "problem": "The pacing weights in the plan are inverted. The plan says Scene 2 is 'short' and Scene 3's Beat 7 'should stay lean so the door opens early enough to matter', with Beats 8 and 9 getting the most space. In the draft, Beat 7 is the longest beat in the chapter at about 1,840 words. Beat 8 is about 1,630 and Beat 9 only about 620. Scene 2 (about 2,480 words) is nearly as long as Scene 1 (about 2,630), which is supposed to be 'medium'. The door to the storeroom doesn't open until about 70% of the way through the chapter.",
+      "fix": "Cut Beat 7 to roughly 900-1,100 words. Cut or compress: Cyndia's digression on mage teleportation (line 293; keep 'She had two hundred yards on him and she didn't run'); the gear-in-the-same-room exchange (lines 323-327); and the recap paragraphs at 329-333, which restate what Cyndia just said. Keep the 'three women' line as one sentence. Keep the six stones walked, 'asked him to wait', Liron's hollow-cask reading, and the 'one more thing' hook. In Scene 2, compress the spy/envoy reasoning at lines 241-255 into about half: keep 'None of the three told a Farstrider post that the leylines were wrong' and the 'take someone's word' line, and cut the watch-file paragraph at 255 (the file gets used properly in Beat 8). Put some of the saved words into Beat 9: one more concrete physical beat during the walk into the light, or a second read of the mage at arm's length before the line."
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "medium",
+      "location": "Beat 7 line 321 vs Beat 8 lines 355 and 387",
+      "passage": "\"Staff, pack, the book, and a belt full of little pouches I haven't opened and won't.\" ... \"It's in there with her. On the spear rack, chained.\" / (later) \"Cyndia came forward into the light with something held against her chest in both arms. It was a book... I had it sitting on the table a full hour after Theris left\"",
+      "problem": "Where the book is contradicts itself. Cyndia says the book is chained on the storeroom rack with the mage. Sylvanas's inventory of the rack (line 355) lists staff, pack, and belt, but no book. Then Cyndia comes in behind Sylvanas from the outer room carrying the book and says it sat on her table. The book is the source of the name, so readers will notice the slip at the chapter's key reveal.",
+      "fix": "Take 'the book' out of Cyndia's line 321 list, and add a clause saying she kept the book out on purpose: 'Staff, pack, and a belt full of pouches. Not the book. The book I kept.' That also sets up her 'one more thing' at line 335. Optionally, have Sylvanas glance at the tally-sheet table on her way to the door so the book is physically placed."
+    },
+    {
+      "check": "emotional-life",
+      "severity": "medium",
+      "location": "Scene 1 line 103; Scene 2 line 145; Scene 3 lines 313, 415",
+      "passage": "\"The irritation came up in her like heat off a forge, and she didn't answer it.\" / \"The temper came up in her all at once, hot under the cold of the room... It wanted somewhere to go. Sylvanas felt it reach her face and stopped it there.\" / \"Something went cold and small under Sylvanas's breastbone\" / \"Something tightened at the base of her skull\"",
+      "problem": "Every scene does have involuntary interior moments, which is a strength: the stomach clench and memory at line 47, the childhood runestone memory at 145, turning to speak to an empty stirrup at 237, and the missed-stair drop at 403. But the two anger beats name the emotion ('irritation', 'temper') and make it the subject of the sentence. The style guide says the narration never names Sylvanas's emotions and that anger shows as clipped commands and tightened fingers. The two 'Something went/tightened' openers are the abstract 'something' construction the guide bans ('Concrete physical correlate or nothing').",
+      "fix": "Line 103: cut the first clause. Start the paragraph with the physical response, e.g. 'Her fingers closed on the reins. She touched her heels to the mare's sides instead of answering...' The canter already carries the irritation. Line 415: keep the long exhale and the 'cold and clear and could be used' landing. Replace 'The temper came up in her... It wanted somewhere to go. Sylvanas felt it reach her face' with a concrete signature such as heat in her face, her jaw locking, or her bow hand closing on nothing now that Cyndia holds the bow. Lines 145 and 313: name the body part doing the work ('Her breastbone went cold'; 'The muscles at the base of her skull drew tight') instead of 'Something'."
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "Beat 5 lines 181-185 vs Beat 9 lines 417-425; repeated phrasing across chapter",
+      "passage": "\"She could send her sergeant south. She could send Lor'themar... No.\" / \"She could put the mage out... No. She could leave her...\" ; \"She let her breath out long and slow through her nose\" (lines 237 and 415); \"close as stitches\" (239, 313); \"without being told\" (109, 431), \"without being asked\" (211), \"Nobody had told them to\" (273); \"Lor'themar waited.\" / \"She waited.\" / \"Sylvanas waited.\" (53, 221, 337)",
+      "problem": "The two decision beats use the same scaffolding: list options as 'She could...', then a one-word 'No.' paragraph, then the choice. A single echo can be deliberate, but this one reads as a template, and it takes the edge off Beat 9, the chapter's peak. Signature phrases repeat word for word, and the 'the way' construction appears 18 times. There are also two 'as though [object] had insulted/said something' jokes (line 19: the scratch 'as though it had insulted her family'; line 293: the floor 'had said something she disagreed with'), which show the joke is a formula.",
+      "fix": "Restructure Beat 9's deliberation so it doesn't mirror Beat 5. Fold the two rejected options into a tighter mental sweep (two sentences, no lone 'No.'), or make the rejection physical (she looks at the staff chained out of reach and the option is dismissed by what she sees). Keep the exhale at line 415 and recast line 237 ('She breathed out through her teeth and kept her eyes forward'). Keep 'close as stitches' at 239 and change 313 to 'one after another, quick and close'. Keep 'without being told' once, probably at 431. Cut two of the three '[Name] waited.' paragraphs. Cut one of the two 'as though' jokes. Cut 'the way' to under 8 uses by turning them into direct statements."
+    },
+    {
+      "check": "limited-third",
+      "severity": "medium",
+      "location": "Beat 8, line 377",
+      "passage": "\"Nobody had believed her. It was in the set of her shoulders against the chair back, in her locked hands... She was furious and she was exhausted, and she'd been both in this cold room, chained to a floor, the whole of the afternoon\"",
+      "problem": "Line 367 already shows the mage's fury and exhaustion in concrete terms: the thumbprint shadows, the jumping jaw muscle, the whitened fingers. Line 377 then states it outright ('She was furious and she was exhausted') and asserts the mage's history as fact ('Nobody had believed her'). That is emotional labeling of another character, and it tells what was just shown. The plan says her fury 'shows in her body', and here the narration overrides the body.",
+      "fix": "Cut 'She was furious and she was exhausted.' Turn 'Nobody had believed her' into Sylvanas's inference tied to evidence, e.g. 'She had the look of someone who'd said the same true thing all day to people who wrote it down and didn't listen.' Or cut it and let the speech-put-away moment at line 375 carry it. Keep the closing image of the burning barley and the stones out on the hillside."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Lines 11, 17, 23, 131, 267, 293, 367, 403 and others",
+      "passage": "\"like a cleaver going into a side of pork\" / \"like dropped cutlery\" / \"like a butcher's drain on a hot day\" / \"dark as wet bark... like a bellows with a split in the leather\" / \"like a flag of truce\" / \"like thumbprints pressed into clay\"",
+      "problem": "There are about 20-25 similes in about 9,500 words. Sylvanas's calibration sets metaphor density at 0-1 per 1000 words, drawn from predator behavior, forestry, or siege mechanics. Many here come from the kitchen or butcher shop (pork, cutlery, butcher's drain, cask, bellows), which is not her field. Line 131 stacks two in consecutive sentences, which the global metaphor policy forbids.",
+      "fix": "Cut about half. Keep the strongest that fit her world: 'as though the ground owed them money' (deadpan), 'close as stitches', 'like missing a stair in the dark', and the hollow-cask line (it's Liron's, relayed in dialogue, so it's fine). At line 131, keep one of 'wet bark' or 'bellows'. Recast 'cleaver into pork' and 'dropped cutlery' as plain concrete statements ('a wet, heavy thock'; 'his axes scattered in the crushed ferns')."
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "Lines 25, 313, 373, 415",
+      "passage": "\"She still noticed when it came back.\" / \"she found she was standing very still\" / \"Her eyes went over Sylvanas once, fast\" / \"Sylvanas felt it reach her face\"",
+      "problem": "Filter verbs ('noticed', 'found she was', 'felt'), which are on the style guide's AI-default list, and one body-part-agency construction for the mage where the person herself can act. ('Sylvanas's fingers found the bowstring before she had decided to reach for it' at line 127 is fine: it matches the voice-sheet tell and is deliberately involuntary.)",
+      "fix": "Line 25: 'It still came back to her new each time,' or cut the sentence. Line 313: 'She had gone very still.' Line 373: 'The mage looked her over once, fast—'. Line 415: covered by the emotional-life fix above."
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "low",
+      "location": "Beat 8 lines 353, 373 vs Beat 9 line 427",
+      "passage": "\"so that her breath showed faintly the moment she stepped through\" / \"the ranger at the door snapping straighter as Sylvanas passed him\" / \"She would get none standing in the doorway.\"",
+      "problem": "The staging contradicts itself. The plan says 'Beat 8 is the read from the doorway, Beat 9 is the walk in.' The prose has Sylvanas step through and pass the door ranger in Beat 8, then calls her position 'the doorway' in Beat 9. That softens the walk into the light, which is supposed to be the chapter's closing physical move.",
+      "fix": "Keep her on the threshold through Beat 8: 'her breath showed faintly as the cold reached her in the doorway', and the door ranger straightens 'as she stopped beside him'. Then the walk at line 431 really is her first step into the room."
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "low",
+      "location": "Beat 6 line 239; Beat 7 line 267",
+      "passage": "\"it was harder now than it had been that morning to look at one and then look away\" / \"She was a broad, square-built woman with pale hair cropped short as a recruit's\"",
+      "problem": "Two small factual slips. (1) Sylvanas did not walk any stones 'that morning'. The troll fight was in early afternoon and the ring walk started after it. (2) Cyndia's description contradicts stories/the-plague-road/characters/cyndia.md ('young-for-elf, auburn braid, green eyes, left-handed draw, scout-built rather than imposing'), which the plan's Scene 3 enrichment also cites. Flagged here for the continuity gate as well.",
+      "fix": "(1) Change to 'harder now than it had been an hour ago, under the gold'. (2) Rewrite Cyndia's introduction to the canon description, e.g. a lean scout-built woman with an auburn braid gone frayed after a day without sleep. Keep the pink-rimmed eyes and the rag salute, which are good."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 71.0,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {"actual": 3.2, "target": 12.0, "score": 45.6},
+      "compound": {"actual": 21.7, "target": 10.0, "score": 38.5},
+      "emdash": {"actual": 4.1, "target": 4.0, "score": 100.0},
+      "semicolon": {"actual": 2.4, "target": 1.8, "score": 100.0}
+    },
+    "pullingDown": [
+      "compound: OVER by 11.7 points. Too many ', and/but/yet' joins; polysyndeton is the default sentence engine.",
+      "participial: UNDER by 8.8 points. Almost no ', Ving' connective phrases."
+    ],
+    "globalRhythm": {
+      "meanSentenceLength": {"actual": 14.0, "target": 11.0, "range": [9.0, 13.0]},
+      "longSentencePct": {"actual": 23.4, "target": 10.0, "range": [7.0, 14.0]},
+      "shortSentencePct": {"actual": 40.3, "target": 35.0, "range": [28.0, 42.0]},
+      "oneSentenceParagraphPct": {"actual": 37.4, "target": 19.0, "range": [15.0, 24.0]},
+      "openerEntropy": {"actual": 6.05, "target": 7.7, "range": [7.2, 8.2]},
+      "mattr": {"actual": 0.793, "target": 0.83, "range": [0.8, 0.87]},
+      "commaPeriodRatio": {"actual": 0.754, "target": 0.72, "range": [0.6, 0.85]},
+      "sentencesOver25Words": 120,
+      "sentencesOver40Words": 48
+    },
+    "interpretation": "PARTICIPIAL: 3.2% -> target 12.0% (score 46/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 21.7% -> target 10.0% (score 38/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch.",
+    "flaggedPassages": [
+      "texture_desert s85-95: \"The southern stones,\" Sylvanas said. Lor'themar waited. \"The ring along the Pass road. (lines 51-55)",
+      "texture_desert s134-144 / telegram_run s135-144 (80% short): \"Three posts into one leaves forty miles of ring with nobody...\" (lines 83-89)",
+      "texture_desert s146-158 / telegram_run s151-158 (75% short): \"They'll vote on it whether you're in the room or not...\" / \"Last time I was there, I said one sentence.\" (lines 89-101)",
+      "telegram_run s198-205 (75% short): \"Ranger-General.\" He was young... (line 133)",
+      "telegram_run s211-223 (92% short) / texture_desert s211-229: \"One human. A woman. A mage.\" (lines 139-147; breathless report, partly intentional)",
+      "telegram_run s244-251 (100% short): \"She said it a great many times, General. Cyndia has her in irons in the storeroom. Her kit's impounded.\" (line 155)",
+      "telegram_run s291-298 / texture_desert s291-306: \"You realize,\" he said, \"that you are sending me to the session.\" (lines 199-209)",
+      "telegram_run s299-306 (75% short): That got a twitch at one corner of his mouth... \"Sergeant!\" (lines 207-209)",
+      "telegram_run s572-579 (75% short): Whatever this was, it hadn't come from any court. Cyndia came in behind her. (lines 379-385)"
+    ]
+  },
+  "passedChecks": {
+    "emotionalLife": "Involuntary interior moments in every scene (lines 47, 145, 237, 313, 403). At least five registers: dry humor (Lor'themar/Saltheril map, the barley pot), warmth (birdsong quiet, 'alive to be irritating', the mare after the apple), loneliness (the empty stirrup at 237, the strongest beat in the draft), dread, and controlled anger. Value shifts land on concrete moments ('Mount up. We're going south.', 'Take the patrol north.', 'Start talking.'). Problems are limited to the named-emotion phrasing noted above.",
+    "dialogue": "Voices are clearly distinct. Lor'themar is urbane and ironic ('I don't enjoy it. I'm good at it.'). Sylvanas is clipped with deadpan barbs ('It's the knowing that tires them.'). Cyndia is colloquial and put-upon ('Where would you have me put it, in the barley?'). Theris speaks in breathless fragments. No institutional or clinical dialogue found.",
+    "constraints": "Jaina never speaks. Narration never uses 'Jaina'; the name appears only in Cyndia's reading of the inscription and in the italic watch-file recall. No 'plague'. Leylines stay an unverified claim. The ward hum is rendered as the normal grid. The name comes from the impounded book plus the watch-file check. Lor'themar sees through the excuse with a wordless look in Beat 2, and the spoken needling is in Beat 3. The locked closing line 'Start talking.' is present."
+  },
+  "summary": "A strong draft at the scene level. Every beat is dramatized, the constraints are respected, the voices are distinct, and the empty-stirrup moment and the book-inscription reveal are standout craft. It fails on texture (71/100: far too many compound joins, almost no participial phrases) and on Sylvanas's register (120 sentences over the 25-word POV cap, with lyrical accumulating sentences stacked back to back). It also fails on pacing weight: Beat 7 is the longest beat when it should be lean, and Beat 9 is thin. A secondary pass should fix the book-location contradiction, the two named-emotion anger beats, the line-377 labeling of the mage's emotions, and the repeated 'She could... No.' decision scaffold."
+}

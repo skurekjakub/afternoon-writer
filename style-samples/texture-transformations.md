@@ -109,3 +109,34 @@ Leading participial. Short, controlled.
 > He sat in a large stone room, baked by enormous firepits that cast a garish light upon the revelers, causing beads of sweat to form on their skin as they danced, and drank, and yelled, and sang.
 
 One trailing participial (*causing*) followed by a legitimate parallel compound list (*danced, and drank, and yelled, and sang*). Both constructions in the same sentence — that's the target register.
+
+## 7. Adjacent short sentences → main clause + absolute phrase
+
+Two short sentences describe one moment and the second belongs to it: a sensation, a body part, or a detail of the same instant. Merge them into the first sentence's main clause plus an absolute phrase. The second sentence may have its own subject (a noun or body part). This is the case rule 1 misses, because rule 1 needs a shared subject.
+
+**Pattern:** `Subject verbed. [Noun] verbed [detail].` → `Subject verbed, [noun] Ving [detail].`
+
+Her shoulder burned. A bead of sweat crept from her hairline toward her left eye.
+→ Her shoulder burned, sweat creeping from her hairline toward her left eye.
+
+The mare slowed. Her flanks were dark with sweat.
+→ The mare slowed, flanks dark with sweat.
+
+Cyndia stood by the hearth. Her arms were folded across her chest.
+→ Cyndia stood by the hearth, arms folded across her chest.
+
+He reached the gate. His breath came short and hard.
+→ He reached the gate, breath coming short and hard.
+
+**Merge when:**
+- Both sentences are under about twelve words and describe the same instant.
+- The second adds a sensory, spatial or body detail about the first.
+- The second has no time gap from the first.
+
+**Do not merge when:**
+- The second event happens after the first. That is sequence, and merging it implies false simultaneity.
+- Either sentence is a deliberate beat for emphasis (a one-line paragraph, a reveal).
+- The second sentence would need `found`, `settled` or `let it` to join. Those are separate problems.
+- It would produce three participial sentences in a window of five. Respect the clustering limit in `slop-hitlist.md`.
+
+Count merges toward the chapter's participial target. Do not exceed it.

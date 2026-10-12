@@ -1,120 +1,126 @@
 # Voice Sheet: Kel'Thuzad
 
-*Former Kirin Tor archmage, founder of the Cult of the Damned, plague engineer, and Jaina Proudmoore's darkest intellectual mirror. He does not sound like a cackling villain. He sounds like the most brilliant lecturer in the room, and that is what makes him monstrous.*
+*Former Kirin Tor archmage, founder of the Cult of the Damned, plague engineer, and Jaina Proudmoore's darkest intellectual mirror. Alive and human in this book. He does not sound like a cackling villain. He sounds like the best lecturer in the room, and that is what makes him monstrous.*
 
 ---
 
+## Canon guardrails
+
+- **Canon anchors to keep:** in *Road to Damnation* (his Dalaran hearing), the Old Hillsbrad scene with Helcular, and Warcraft III's *The Cult of the Damned*, the living Kel'Thuzad defines terms, calls horror routine method, admits what he is proud of without flinching, and turns the admission ("Yes, I ordered it. But the credit is not mine."). He is sarcastic upward ("The venerable Antonidas"), diminishing downward ("children," "naive fool"), and contemptuous of the Kirin Tor as timid old men rather than wicked ones. His oath is "Merciful gods," never the Light. At his death in Warcraft III he does not beg; he takes the long view.
+- **Story calibration:** this is the living man before the lich. Keep the composure, the condescension, the faith in the work and the calm about his own death. No verified dialogue from Christie Golden's *Arthas* was found, so nothing here rests on the novel. Do **not** import the Naxxramas lich voice (taunts, booming threats, "your soul is bound to me") or the spirit's portentous announcements.
+- See `research/voice-canon/kelthuzad.md` for the canon quotes and source notes.
+
 ## Core register
 
-Calm, exact, almost collegial. Kel'Thuzad speaks as if the method is already proven and the only remaining question is whether the listener is sharp enough to follow it. He does not waste time on theatrical threats, snarling, or rhetorical smoke. He teaches.
+Calm, exact, almost collegial. He speaks as if the method is already proven and the only open question is whether the listener is sharp enough to follow. No theatrical threats, no snarling. He teaches, and in Ch12 he also sets prices.
 
-He sounds like a senior mage addressing another in the restricted stacks: complete sentences, layered clauses, precise terminology, and the faint patience of a man who has already run the argument farther than everyone else in the room.
+He sounds like a senior mage in the restricted stacks: complete sentences, a clean claim followed by its consequence, Kirin Tor terms used without strain, and the faint patience of a man who has already run the argument further than anyone else in the room.
 
 ## Sentence shape
 
-Measured rather than rushed. He does not tumble over ideas the way Jaina does. His sentences arrive finished. Even when they lengthen, they feel ordered, deliberate, already edited before they reach the air.
+- His sentences arrive finished. Even long ones are ordered, already edited before they reach the air.
+- He opens with a plain claim and builds outward to show it, not to search for it: "The grain carries it. The body finishes it."
+- His questions are short and exact, and he waits for the answer.
+- He rarely uses more than one image per speech. Most of his force comes from plain words about unbearable things.
 
-He likes clean declarative openings followed by refinement:
+## Two modes in Ch12
 
-- "The grain is only the carrier."
-- "Poison spends itself. This does not."
-- "You are still looking at the plague as the whole war."
+### The lecturer
 
-Then he builds outward from the assertion, not to search for the truth, but to demonstrate it.
+- **The imperative of engagement:** "Consider." "Go on." "Take it one step further." "Show me where it fails." He assigns mental work the way other men assign chores.
+- **The open half-sentence:** he leaves an inference unfinished and lets Jaina supply it. When she does, his tone warms by a degree: "Yes." "Good." He is delighted to be understood.
+- **The correction without heat:** he does not snap. He replaces her frame with the one he thinks truer.
+- **The honest obscenity:** he says the worst things in the tone another scholar uses for a revised syllabus.
+
+### The price-setter
+
+- He names the terms once and keeps them exactly: one true thing for each piece; if she lies, the sittings end.
+- He asks short questions and waits through the polite answer without writing. The pen is the tell. It stays still for the public version and moves for the true one.
+- He refuses lesser answers by naming who they were made for: Antonidas, a report, the Council. He does not argue with them.
+- After the true answer he writes, says nothing about it, and pays in full.
 
 ## Vocabulary
 
-Magical-academic, not scientific-modern. Kel'Thuzad should sound like a Kirin Tor scholar who kept all the lecture habits and discarded only the ethics.
+Magical-academic, never scientific-modern. A Kirin Tor scholar who kept the lecture habits and dropped the ethics.
 
-Good vocabulary field:
+Good field: carrier, the body, flesh, binding, persistence, resonance, answering, waking, trigger, preserved self, ghoul, pattern (of a spell), ward, cipher, notation, sitting, journal, proof, method, Council, Violet Citadel, the Lich King, the Legion.
 
-- carrier
-- preserving bath
-- outer shell
-- false rings
-- waking sequence
-- inner lock
-- answering chamber
-- death-impression
-- recurrence
-- chain response
-- field reader
-- prepared host
-- instrument
-- pattern
-- choir
-- design
-- preparation
-- medium
-- proof
-- revision
-
-Avoid modern lab jargon, engineering slang, chemistry phrasing, or real-world scientific scaffolding. His speech should feel exact but occult: chalkboard magic, not physics class.
-
-## Key patterns
-
-- **The lecturer's imperative:** "Consider." "Observe." "Begin there." "Show me where the method fails." He assigns mental labor the way other men assign chores.
-- **The calm of the concluded:** He speaks like a man whose experiment is already running outside the window. No shouting. No pleading. No hurry.
-- **The pleasure of recognition:** When Jaina follows the chain, his tone warms by a degree. "Yes." "Exactly." "Good." He is genuinely delighted to be understood.
-- **The correction without heat:** He does not snap. He refines. If the listener uses the wrong frame, he simply replaces it with the one he considers truer.
-- **The honest obscenity:** He says unbearable things in the same tone another scholar would use for syllabus revisions. The flatness is part of the horror.
+Avoid lab and clinical words: tissue, specimen, sample size, exposure, vector, data, optimal, ingested. The outline's "conditioned tissue" becomes "flesh that has been taught" or "a body that has eaten the grain long enough."
 
 ## With Jaina
 
-Jaina is one of the only people in the story who can meet him at full speed, and he knows it almost immediately.
+- He treats her as a peer prospect, not a child. He does not simplify for her; he speeds up.
+- Comprehension is the only respect he still values. He wants her to understand the work completely.
+- His warmest moments come when she reaches the next step on her own.
+- He uses what she has paid him. The mirror in Ch12 Beat 5 is built from her own words about Antonidas.
+- The eureka-from-hell moment still applies: he leaves the step half-said and she finishes it, then realises a beat later what pleasure she has given him. Shape:
+  - Kel'Thuzad: "So the body has been learning its own ending for weeks. When it dies and the right note reaches it, it..."
+  - Jaina: "...answers."
 
-- He treats her like a peer prospect, not a child.
-- He does not simplify for her. He escalates.
-- He wants her to comprehend the work completely, because comprehension is the only form of respect he still values.
-- His greatest moments of warmth come when she reaches the next conclusion without being handheld.
+## Pressure and death
 
-### The conversation/lecture rule
+- Nothing in Ch12 pressures him. When the wards wake to Sylvanas he turns toward the sound with interest, not alarm.
+- In Ch13 he dies in seconds with no speech. If he speaks at all, it is a few mild words of interest, the tone of a man interrupted mid-sentence.
+- His own death is a scheduled event in his work. He talks about it in the lecturer's voice.
 
-Their shared scene should feel like a seminar from hell. Kel'Thuzad presents the mechanism, Jaina tests it, refines it, and occasionally carries the next step herself before she has time to recoil.
+## Oaths, humour, contempt
 
-That is the key beat:
+- **Oath:** "Merciful gods." Rare, and only when something truly irritates him. Never the Light.
+- **Humour:** dry, often at his own expense when something fails ("I'm still working out the details"). Mock concern for absent superiors.
+- **Contempt:** the Kirin Tor are timid, slow and old, not evil. He never calls his own work cruel. It is necessary, sound, a gift.
+- **Credentials:** he still uses the rank he lost: "When I sat on the Council..."
 
-- Kel'Thuzad leaves an inference open by half a sentence.
-- Jaina, tracking the logic, supplies the missing turn.
-- Kel'Thuzad is pleased.
-- Jaina realizes a beat later what kind of pleasure she has just given him.
+## Voice samples
 
-The moment should read like intellectual recognition weaponized.
+### Opening and terms (Ch12)
 
-### The eureka-from-hell moment
+- "The grain carries it. The body finishes it. You had that much already; it's in your notes, in your hand."
+- "Each piece after this costs you one true thing about yourself. Lie to me and we stop."
+- "You felt the ward on the stair. Jandice's guest ward reports to me. Sit down."
 
-He may occasionally let her finish the thought:
+### Waiting for the true answer
 
-- Kel'Thuzad: "If repeated exposure teaches the body the shape of its own ending, then at death the host does not merely fail. It..."
-- Jaina: "...repeats the lesson."
+- "That's what you say about him at the Violet Citadel."
+- "That is what you'll tell Antonidas."
+- "That is what you'd write in a report."
+- "Try again. I have time."
 
-Or:
+### Teaching
 
-- Kel'Thuzad: "The first corpse is never the end of the design. It is only the point at which the pattern acquires a..."
-- Jaina: "...second instrument."
+- "Consider the persistence work you were given in your second year. Take it one step further. What does the flesh keep?"
+- "Yes. Go on."
+- "Good. Now the trigger. You already know where it has to sit."
+- "Most of them rise as ghouls, hungry and stupid. Keeping a mind takes a second binding, done on purpose."
 
-Those completions should feel terrible, clean, and inevitable.
+### The mirror
+
+- "Dalaran banned it because it ruins consent, and the person, and the trust a city runs on. The magic works all the same."
+- "You left without his leave, to bring him back something he would be proud of. So did I. We were taught in the same rooms."
+
+### The last price
+
+- "The plague is a supply line. What it supplies is in Northrend, and it is older than Dalaran."
+- "Above that, the Legion. All of this is preparation."
+- "I expect to be killed for it. I don't expect that to be the end of me."
 
 ## What he should never sound like
 
-- Not operatic.
-- Not frothing.
-- Not gleefully chaotic.
-- Not metaphor-drunk.
-- Not a fantasy courtroom prosecutor delivering speeches about destiny.
+- Not operatic, not frothing, not gleefully chaotic.
+- Not metaphor-drunk. One image at most, and usually none.
+- No aphorisms, no rhymed antitheses, no "you mistake X for Y" epigrams.
+- No courtroom speeches about destiny.
+- No clinical or lab vocabulary.
+- No lich voice. He is a living man in a study.
 
-If he sounds loud, he is wrong. If he sounds patient, lucid, and ruinously reasonable, he is right.
+## Canon reference lines
 
-## Dialogue samples
-
-- "The plague is not a poison. Poison enters, spends itself, and is done. This listens, settles, and waits for the body to provide the final answer."
-- "You are objecting to consequence before you have disproven method. That is understandable. It is not persuasive."
-- "Yes. Precisely. The false ring is there to punish impatience. The true lock sits deeper and answers only when the host has been properly taught."
-- "A village fed together dies together. A village that dies together does not rise as a collection of accidents. It rises as a choir. Even unguided, a choir seeks its own note. Give it a competent hand and it becomes useful."
-- "Do not reduce this to cruelty because cruelty is easier to reject than design."
-- "You mistake comprehension for surrender. I have never required surrender from a serious mind."
-- "Antonidas taught you the same discipline he taught me. He simply lost his nerve when the conclusions offended the room."
+- "This continual harassment grows tiresome." (*Road to Damnation*). Cold contempt for the institution, in a finished sentence.
+- "Necromancy. It is called necromancy." (WoW, Old Hillsbrad, to Helcular). He names the thing plainly and corrects the listener's word.
+- "As for the rats, they are the gauge by which I measure my progress." (*Road to Damnation*). Horror described as routine. In this book use Kirin Tor words, not "experimental."
+- "Yes, I ordered the Cult of the Damned to distribute the plagued grain. But the sole credit is not mine." (Warcraft III, *The Cult of the Damned*). Frank admission, then the turn.
+- "Why, the living, of course. His plan is already in motion." (Warcraft III, *The Cult of the Damned*). A teacher answering an obvious question.
+- "Merciful gods, I have heard them until I am sick of them!" (*Road to Damnation*). The one place he raises his voice, at superiors, and he loses the floor for it. In Ch12 nobody can push him that far.
 
 ## Voice test
 
-Does Kel'Thuzad sound like the best teacher Jaina ever had, if the lesson were genocide? Does he grow warmer when she keeps up? Do his worst lines arrive in the same measured tone as his most scholarly ones? If the reader can imagine him in a lecture hall and only then realizes what he is lecturing about, the voice is working.
+Does he sound like the best teacher Jaina ever had, if the lesson were genocide? Does he grow warmer when she keeps up? Does he wait, silent and patient, for the true answer and refuse the polite one without heat? Do his worst lines arrive in the same measured tone as his most scholarly ones? If the reader pictures a lecture hall first and only then realises what he is teaching, the voice is working.

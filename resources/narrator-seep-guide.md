@@ -27,6 +27,8 @@ REGISTER SUMMARY: [2-3 sentences describing how this character thinks, what voca
 
 Ground this in what the text establishes, not in what you imagine. If the text does not establish enough for you to write a register summary, say so — and then kill more aggressively, because you cannot distinguish character voice from narrator voice without that baseline.
 
+**Free indirect thought is not seep.** When the narration speaks in the POV character's own idiom (her swearing, her questions to herself, her unfair asides, her self-corrections), that is the character thinking, and it is wanted. Seep is the opposite: a sentence more polished, detached or thematic than she is. Test: could she mutter it under her breath? Keep it. Is it an aphorism, a pun on the previous line, or a verdict summing up the moment? Kill it.
+
 **The register summary is your primary tool.** Every judgment call in this guide comes down to: does this sentence match the register, or does it sound like someone smarter, more detached, more polished, or more thematic than this character in this moment?
 
 ---
@@ -162,6 +164,7 @@ Shapes:
 - `Such moments were common in his life.`
 - `The world was full of people like him.`
 - `That's the thing about [abstraction] — ...`
+- Generic `you` in third-person narration: `You could set a watch by it.` `the way you put down anything near a manuscript` `if you unloaded it first`. The narrator addresses an imagined reader instead of staying in the character's perception. Exception: a POV character's own idiom in free indirect thought, once, where it is clearly hers.
 
 **Detection test:** Is the sentence making a claim about a *category* of things rather than describing *this specific thing the character is perceiving right now*? Does it require knowledge the POV character doesn't have in the moment (what "people always" do, what "everyone" thinks)? Could you imagine this sentence appearing in an essay about the character rather than inside the character's experience? If yes → **KILL A7**.
 

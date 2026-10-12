@@ -1,216 +1,198 @@
-# Chapter 24: The Condemned
+# Chapter 24: The Stinger
 
-**POV:** Sylvanas Windrunner (limited third, absolute)
-**When:** Opens hours after Chapter 23's arrest and closes after the verdict with Lor'themar outside the cell.
-**Where:** Capital City palace dungeons, then the tribunal hall, then back to the cells.
-**Travel:** Static imprisonment, escorted movement in chains to the tribunal hall, return to cells, then corridor-side contact through bars.
-**Characters:** Sylvanas, Jaina in the next cell, palace guards, interrogators, Thornton, Ashcombe, Antonidas, two Kirin Tor magi, Uther, Vereesa, Lor'themar.
-**Goal:** Survive the legal machinery long enough to keep the truth and the blade intelligence alive while the kingdom seals the wrong story around them.
+**POV:** Jaina Proudmoore in Scenes 1 and 3, Sylvanas Windrunner in Scene 2 (all limited third, absolute)
+**When:** Opens the night after Chapter 23's verdict, with Sylvanas's refusal of Lor'themar's door standing and the pair still in adjacent dungeon cells beneath a palace holding an unheld Frostmourne still tethered north. Closes before dawn, as the blade leaves the vault.
+**Where:** Capital City palace dungeons, two adjacent cells divided by two feet of stone.
+**Travel:** Static imprisonment only. Motion belongs to the blade's pulse, the voices through the wall, and the visitor who passes through the cells on his way to the vault.
+**Characters:** Jaina, Sylvanas, the visitor, Lor'themar and Vereesa off-page pressure only.
+**Goal:** Survive the cell-night, move the blade intelligence through stone into the hands that will carry it, and keep the partnership working through the wall.
 
 ## References
 
 - **Worldbuilding references:** [Lordaeron and Northrend](stories/the-plague-road/locations/lordaeron-and-northrend.md)
-- **Character references:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Vereesa profile](stories/the-plague-road/characters/vereesa.md), [Lor'themar profile](stories/the-plague-road/characters/lorthemar.md), [Uther profile](stories/the-plague-road/characters/uther.md), [Antonidas profile](stories/the-plague-road/characters/antonidas.md)
+- **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Mal'Ganis profile](stories/the-plague-road/characters/malganis.md), [Lor'themar profile](stories/the-plague-road/characters/lorthemar.md), [Vereesa profile](stories/the-plague-road/characters/vereesa.md)
 
-**Sylvanas's starting position:**
-- The pair saved the kingdom in the chamber and still left the room with the worst possible evidence profile.
-- Jaina is alive but deeply depleted in the next cell.
-- Frostmourne sits in custody above them, no longer riding through Arthas but still tethered north and still active.
-- Antonidas reached Capital City before the murder and still missed the room by the same brutal margin that beat Uther.
-- Uther arrived too late to witness the murder itself.
-- Every warning the investigation ever sent can now be recast as premeditation.
+**The pair's starting position:**
+- Frostmourne is in the evidence vault above them and its cycle is accelerating.
+- The verdict changed nothing about the blade's appetite.
+- Sylvanas refused Lor'themar's door because Jaina was not covered by it. Both women are in their cells, and one of them chose to stay.
+- Lor'themar and his three hundred are in the city. The door between knowledge and action is still shut.
+- Jaina already knows the anti-blade counter, including what the throne room taught: the fire went through on an arrow. The problem is delivery, not theory.
+- Kel'Thuzad's journal passages are in the public record. Jaina told Sylvanas the same words at sea, and neither woman has spoken of the reading since.
 
 **Still in the dark about:**
-- Whether Antonidas defies Dalaran publicly or stays inside the line it draws around the tribunal.
-- Whether Silvermoon stands behind her or cuts her loose completely.
-- How fast Frostmourne is already seeking another mind through the palace.
-- Whether Lor'themar or any outside ally reaches the city in time to matter.
+- How fast the blade will actually choose a next mind if nothing interrupts it.
+- Whether any ally outside the cells can move fast enough to matter.
+- What exactly comes through the dark in Scene 2.
+- How many earlier faces the visitor has worn before Sylvanas lays them side by side.
+- What moves the blade, if it moves.
 
 **Hold back:**
-- No cosmic visitor yet. That belongs to the next chapter's night.
-- No promise of prison break, acquittal, or even competent containment.
-- No certainty yet about which palace minds are nearest the blade's call until Jaina starts counting through stone.
-- No flattening of the tribunal into simple corruption. It has to work cleanly and still arrive at the wrong answer.
+- No clean taxonomy for the visitor inside immediate POV. The women register scale before labels.
+- No prison break or release route. The one door was offered and refused in Ch23.
+- No spoken thesis. Jaina's packaging of the counter is practical, and addressing it to Sylvanas is the whole statement.
+- No visitor monologue. He speaks at most two lines plus the Kaldorei farewell.
+- No claim that Jaina sees the full five-face pattern before Sylvanas's memory cascade lands.
+- No wielder shown when the blade leaves the vault.
+- The second-read causes (the answer Lyriel gave the carter, the riders' spacing, the cleaned depot) stay out of the recognition.
 
 **End of chapter state:**
-- The tribunal convicts both women on every major count and commutes death to indefinite imprisonment.
-- Antonidas comes with two Kirin Tor magi, but no sanctioned Kirin Tor witness takes the stand.
-- Uther testifies clearly and is dismissed as a wounded former commander.
-- Vereesa delivers the Convocation's disavowal in person and stays in the city afterward.
-- Jaina clocks Frostmourne's acceleration as days rather than weeks.
-- Lor'themar arrives with three hundred Farstriders and mages who can independently feel the blade's wrongness.
+- Jaina has packaged the anti-blade counter and addressed it to Sylvanas by name as the one who will deliver it. Sylvanas has it by heart.
+- The visitor passed through the cells on his way to the blade, said two lines and the farewell in Kaldorei, and looked past the women toward the vault.
+- Sylvanas recognises him by the look and the words together. The being visiting the cells wore five earlier faces across the investigation.
+- Sylvanas now has two tells tied to his disguises: the farewell, and the gaze past the people toward his work.
+- Before dawn Frostmourne leaves the vault. Jaina feels its pulse move away, farther and then fainter. No wielder is seen.
+- Book 2 opens with the pair still imprisoned, the blade gone from the palace, and the new enemy still in the city.
 
 ---
 
 ## Character Arcs
 
-### Sylvanas
-- The battlefield is gone, but the need to read what is happening has not gone with it.
-- She opens still expecting clean reading to generate some leverage, even inside a system designed to leave the accused none.
-- The chapter forces her to endure the kind of helplessness she hates most: seeing every move clearly and still not being able to stop it.
-- By the end, she moves from total abandonment to the first outside reinforcement, but only after the verdict is already locked.
+### Jaina
+- She opens with the answer to Frostmourne and nowhere to put it but through a wall.
+- The throne room put her fire on someone else's arrow. She acts on that here and says nothing about it.
+- She packages the counter for Sylvanas to carry, by name, though Sylvanas is behind a door she refused to have opened.
+- By the end, Jaina is still imprisoned, has handed the work on, and is the one who feels the blade go.
 
-### Jaina through Sylvanas's eyes
-- Jaina is the only person in the palace who can hear how close the blade is to finding another hand.
-- Sylvanas reads her through breath, bread-smell, tapping, tremor, and the body language of someone forced to sit near the weapon she scarred.
-- No interiority. Her pain and calculation stay external.
-- By the end, Jaina is still imprisoned, but she has turned raw attunement into a countdown the others can act on.
+### Sylvanas
+- She enters Scene 2 having refused her own door, with nothing left to do but listen and remember.
+- The visitor widens the board without giving her any new freedom, which is exactly the kind of pressure she hates.
+- For once nothing outranks the farewell: no city burning, no clock she can act on. She finally has the time to look at it.
+- By the end, five faces are one being, and she has the tells to hunt it.
 
 ### Partnership
-- The pair opens after the peak, reduced to what can pass through stone.
-- This chapter turns combat choreography into endurance, message discipline, and shared threat-reading.
-- Let the wall, the silence, and the chain of outside failures prove the bond.
-- Do not soften the institutional brutality with sentiment the chapter has not earned.
+- The pair opens reduced to voices, breath, and taps through masonry.
+- The counter crossing the wall with Sylvanas's name on it carries the book's answer. Do not state it.
+- Let the wall-talk, the counter, and the recognition carry the change.
+- Do not overwrite the stone and silence with explanatory speeches.
 
-### Frostmourne's pressure
-- The blade is no longer in a prince's hand, which makes it less directed and more frightening.
-- Its role here is not duel pressure but environmental pressure: cold through foundations, wrongness through walls, and a search pattern only Jaina can hear clearly.
-- The chapter needs the law and the blade pressing at once, each making the other worse.
-- By the end, the legal verdict matters less than the timetable the sword is imposing.
+### The visitor's pressure
+- The blade is already the active danger at open, but the chapter has to prove there is something older standing behind even that danger.
+- The visitor should feel easy where everyone else has been strained: easy through stone, easy through fear, easy through scale.
+- He is passing through. The women are not what he came for. He looks past them toward the vault, as he looked past them toward his work at every sighting.
+- By the end, the new enemy is not solved, only recognised.
 
 ---
 
 ## Cast and handoff rules
 
-- **Thornton:** Competent, calm, and not secretly villainous. His precision is part of the tragedy.
-- **Ashcombe:** Elegant prosecutor who uses true facts to build a false chain of cause and intent.
-- **Antonidas:** Present in the hall, exhausted, furious, and politically muzzled. He gets to be seen and still not get to save Jaina.
-- **Uther:** Clear, grave, and historically wounded without becoming melodramatic.
-- **Vereesa:** Sister first in effect even while reading the Convocation's formal words.
-- **Lor'themar:** Quiet arrival, heavy with cost. He does not promise what the board cannot yet support.
+- **The blade:** Present through pulse, cold, and predation. Never reduce it to background scenery.
+- **Lor'themar and outside allies:** Off-page pressure only. The door is shut because Sylvanas refused it.
+- **The visitor:** At most two lines plus the Kaldorei farewell. No board-widening speech. Immediate POV does not need the name first. The horror is ease and age.
+- **Ancient language beat:** The phrase has to land as impossible before it lands as pattern key.
 
-**Next chapter starts:** Chapter 25 opens at night in the cells with the verdict delivered, the blade accelerating, and the first outside reinforcement still unable to open the door.
+**Next chapter starts:** Book 2 opens from this prison state, with Frostmourne gone from the vault and its new hand unknown, the Nathrezim thread active, and the pair still in their cells.
 
 ---
 
-## Scene 1: The Cells
+## Scene 1: Through the Wall
 
-**The action:** Triumph is stripped down into helpless imprisonment, and Frostmourne proves it is the more urgent prison anyway.
-**Cast:** Sylvanas, Jaina through the wall, guards, interrogators.
-**Starting point:** The room above them proved innocence only to the people who were not there in time to see it.
+**The action:** Jaina tracks the blade and packages the counter through the wall for Sylvanas to carry.
+**Cast:** Jaina, Sylvanas through the wall.
+**Starting point:** The verdict is delivered, Sylvanas has refused her door, and Frostmourne is still active above them.
 
 ### Beat 1
-- Sylvanas maps the cell because inventory is the only discipline left, and the completed map is useless the moment she has it.
-- The cell is small enough to learn in paces and still impossible to use, the cold rising through the floor is wrong in direction and intensity which means the blade is already influencing the building, and Jaina's breath and bread-smell through the wall are the only proof the partnership still exists inside this system.
-- She does not know how quickly the blade's pressure worsens or whether the tribunal will read the chamber as murder, conspiracy, or something even simpler.
-- Ground the cell: thin torch bars on the wall through the grate, frost smell replacing old dungeon damp, Jaina's uneven breathing carrying through masonry to elven ears.
-- Imprisonment becomes real in the body before the law ever names it.
+- Jaina keeps counting because the blade's pulse is the only thing in the night she can still measure.
+- The cycle is shortening from pulse to pulse, the blade is not broadcasting blindly anymore but narrowing toward individual minds, and Jaina can now distinguish the difference between ambient hunger and targeted interest.
+- They do not know which mind the blade lands on first or whether the palace wards fail before a person does.
+- Ground the pulse: wrong heartbeat through stone above her, a guard-mind brushing the blade's radius and catching on it, bread-taste and pulse collapsing into the same rhythm inside Jaina's body.
+- The blade becomes the real night.
+- Inside: counting because counting is something to do; the cycle narrowing, and part of her is fascinated by how it picks; the guard whose mind keeps catching, and she knows his tread now and not his name; her own words in Ashcombe's gentle reading voice, and not now, not with the blade this loud
 
 ### Beat 2
-- The interrogation puts the full truth into the record and turns that record against them almost immediately.
-- The prosecution's questions were written before the interrogator entered the cell, Sylvanas can watch belief fail in real time as the scale of the truth grows, and the entire investigation stated plainly sounds like the defense a guilty person would invent if she needed something too large to rebut.
-- She does not know whether any judge or clerk reads past the implausibility of the content or whether Jaina hearing the whole account through the wall helps or only hurts.
-- Ground the statement: clerk's pen scratching fast across a board balanced on knees, a guard-captain's posture shifting from attention to endurance, iron lock turning again after the truth is filed away as fantasy.
-- The truth enters the wrong record.
+- Jaina packages the counter. She says Sylvanas's name through the wall first, and then gives it to her as the one who will deliver it.
+- It is practical: the blade's cycle and how fast it is shortening, where the permanent flaw sits, the guard whose mind keeps catching on the blade's radius, and the counter in the order the throne room actually ran it, frost and arcane from whatever mage Sylvanas can get and the fire carried in on her own arrow. Jaina says nothing about the door Sylvanas refused.
+- They do not know whether any door opens for Sylvanas in time or whether the next wielder is already in the palace.
+- Ground the package: consonants blunted by two feet of stone, fingertip taps marking cycle length between spoken lines, the blister on Jaina's palm from the arrowhead splitting as she taps.
+- The counter has an addressee.
 
 ### Beat 3
-- Then the colder prison makes itself known. Frostmourne is active, looking, and close enough for Jaina to hear it through stone.
-- The dungeon is getting colder because the blade is pulling heat through the foundations, Jaina can hear the weapon actively seeking a next mind, and the pair's wall-language now has to carry live threat reporting rather than just endurance.
-- They do not know which people in the palace are most vulnerable first or whether anyone outside the cells can be made to understand the danger before the blade chooses.
-- Ground the pressure: breath clouds thickening in a cell that should not be this cold, Jaina's voice through stone saying one terrible verb, wool blanket on the cot smelling of frost instead of damp.
-- The tribunal stops being the only clock in the chapter.
+- Sylvanas gives the counter back through the wall in her own words, and Jaina corrects one thing.
+- The wall-language is strong enough now to carry technical threat reporting. Sylvanas repeats the cycle, the flaw, and the order. She has the arrow right and the timing a beat early, and Jaina moves it. The blade spikes harder every time either of them says something true about it.
+- They do not know whether any outside ally can receive and act on the intelligence before the blade chooses or whether the next wielder is only being shaped toward it.
+- Ground the channel: Sylvanas's voice lower and slower through the stone, Jaina's forehead against the cold wall while she listens, the pulse jumping above them each time the counter is spoken.
+- The partnership becomes a working channel again.
+- Inside: a beat early, of course; corrects it, and is fussy about it, and glad of something to be fussy about; the refused door, which she will not mention; would she have taken it, in Sylvanas's place; probably, and she doesn't like knowing that
 
 ---
 
-## Scene 2: The Trial
+## Scene 2: The Visitor
 
-**The action:** The system works well enough to condemn the wrong people, and the blade itself becomes evidence against the only two people who understand it.
-**Cast:** Sylvanas, Jaina, Thornton, Ashcombe, palace mages, Uther, guards, gallery.
-**Starting point:** The blade is active, the accused are right, and the room above them is built to convert their competence into guilt.
+**The action:** Something older passes through the cells on its way to the blade, speaks twice, says the farewell, and Sylvanas finally has the time to recognise it.
+**Cast:** Sylvanas, Jaina through the wall, the visitor.
+**Starting point:** The counter has crossed the wall, and the blade is seeking above them.
 
 ### Beat 4
-- Ashcombe lays out the case with elegant precision, using real facts and reversing only the direction of cause.
-- Months of correct investigation are recast as months of deliberate preparation, Scholomance knowledge and Northrend travel and relay work all become proof of design instead of response, and Thornton's competence matters because this courtroom is not lawless, only precise in the wrong direction.
-- They do not know whether any witness can puncture the prosecution's causation chain or whether the tribunal will settle on traitors, spies, or something worse.
-- Ground the hall: light columns catching courtroom dust, lighter courtroom chains that still say the system already won, one brief look between Jaina and Sylvanas across a floor too wide to cross.
-- The legal cage closes around facts the pair actually lived.
+- Something comes into the cells that does not belong to any category Sylvanas has been using so far. It walks the corridor as if the cells were a passage on its way somewhere else.
+- The blade's cold is not the only cold in the prison now, Jaina's fear through the wall is different in kind from anything before it, and the darkness changes before the visitor fully appears.
+- They do not know what the visitor is or whether the blade and the visitor are allied, parallel, or nested.
+- Ground the entrance: torch flame shrinking inward, air gaining weight before shape, Jaina's sharp inhale through the wall.
+- The room stops belonging to known threats.
 
 ### Beat 5
-- Frostmourne comes into the room in a lead-lined chest, and its horror is used as proof against the people most damaged by it.
-- Lead, wards, and oak muffle the blade without quieting it, palace mages can describe the weapon's effects without understanding its will or history, and Jaina is actively harmed by the exhibit while the court mistakes her knowledge for complicity.
-- They do not know how much faster the vault wards degrade for every minute the blade spends in hearing space or whether anyone in the room reads Jaina's reaction correctly.
-- Ground the exhibit: lead-lined chest on a center table drawing warmth out of the room, fogging breath above the clerk's notes, Jaina gripping the chair arms hard enough to whiten her hands.
-- The predator enters the courtroom in a box.
+- The visitor stops at Sylvanas's bars long enough for two lines. His eyes go past both cells, up, toward the vault.
+- He speaks as if picking up an old conversation: "You did well with the prince." Then, already looking past her: "It will want another hand." He gives no name and explains neither line.
+- They do not know what the being is, where it sits relative to the Lich King and the blade, or who the next hand might be.
+- Ground the pass: a voice too calm for what it says, his gaze lifting past the bars toward the ceiling and the vault above it, Jaina's breath stopping through the wall on the second line.
+- The women are not what he came for.
+- Inside: praised by that, and the praise lands, which is the filthiest part of it; another hand, whose; the guard Jaina named, or someone she would never think of; he barely looked at her, and she is offended, and knows how stupid that is
 
 ### Beat 6
-- Uther gives the cleanest truth available to the room, and the prosecution cuts him down without ever having to prove him wrong.
-- Uther can lay out Hearthglen and Stratholme and Arthas's deterioration in a way that should break the case, the court only needs the facts that he was stripped of command and arrived after the act, and twenty minutes of bad timing become the difference between witness and hearsay.
-- They do not know whether any later witness can land harder than Uther or how long Jaina can keep sitting upright under the blade's presence.
-- Ground the testimony: Uther's hands closing into fists while Ashcombe reframes him, formal paladin surcoat where armor should have been, the room going quieter because everyone feels the testimony should matter more than the court lets it matter.
-- Hope enters the room and is professionally neutralized.
-
----
-
-## Scene 3: The Betrayals
-
-**The action:** Every outside system fails in its own style before the law says guilty.
-**Cast:** Sylvanas, Jaina, Antonidas, two Kirin Tor magi, Vereesa, Thornton, Ashcombe, gallery.
-**Starting point:** The strongest witness in the kingdom just failed to change the frame.
+- He goes on the way he was going, upward through the stone toward the vault, and his farewell is in ancient Kaldorei.
+- The visitor never treated the cells as confinement in the first place, the original farewell is older than any living polity now standing, and the Common phrase from five earlier faces was always this, translated.
+- They do not know whether he meant the farewell as mockery, habit, or bait, or how much of the investigation he steered from behind those other faces.
+- Ground the exit: a body passing into solid stone without noise or strain, one impossible phrase hanging in the cell after the shape is gone, torchlight recovering only after the ordinary dark is back.
+- Impossible recognition becomes possible.
 
 ### Beat 7
-- Antonidas is present with two Kirin Tor magi and still hits the same wall as everyone else.
-- Antonidas comes in person and is allowed to observe, object, and ask for continuance, but not to turn himself into sanctioned Kirin Tor evidence, the tribunal treats unsanctioned blade examination as tampering rather than rescue, and the witness chair stays empty while blue Kirin Tor robes remain visible in the room.
-- They do not know whether Antonidas's conscience breaks later into open defiance or whether the tribunal reads his constrained presence as caution, guilt, or theater.
-- Ground the failure: Antonidas standing in the gallery instead of the witness box, one Kirin Tor mage going pale when the chest is opened, Jaina refusing to look toward her mentor until the objection is denied.
-- Presence proves weaker than help.
-
-### Beat 8
-- Silvermoon speaks next, and it chooses to speak through Vereesa.
-- The Convocation claims Sylvanas acted without authorization and without sovereign protection behind her, Vereesa was chosen as courier because the words cut harder in her voice, and Vereesa stays in the hall afterward which means the clean political narrative is already fraying at the edges.
-- They do not know whether Vereesa is still acting wholly as the Convocation's instrument by chapter's end or whether any of Silvermoon's political cost can later be turned back into leverage.
-- Ground the disavowal: Windrunner crest pinned to the cloak of the woman reading the order, gold wax seal broken in a room full of strangers, one brief look between sisters carrying more than the formal text does.
-- Family becomes the state's weapon.
-
-### Beat 9
-- Thornton gives the ruling the system has been building toward all day: guilty on every major count, death commuted to indefinite imprisonment.
-- Thornton follows the prosecution's causation chain all the way to its intended end, commutation is political management rather than mercy, and the kingdom now has an official history in which its saviors murdered its royals.
-- They do not know whether the blade claims another mind before any appeal fiction matters or whether any outside force now has enough leverage to reopen what the court just closed.
-- Ground the verdict: Thornton's pen steady in the same hand that handled every earlier procedure, Jaina's tremor stopping briefly in shock rather than recovery, guards tightening chains only after the word guilty lands.
-- The wrong answer becomes law.
+- Sylvanas has nothing left to do in a cell, and for the first time since the Millhaven road nothing outranks the farewell. She recognises him by the look and the words together. Five earlier faces collapse into one.
+- The old carter on the Millhaven road looking back up the road toward Millhaven. The tally-man walking out of Andorhal glancing back at the granary roofs. The robed figure in the Eastweald watching the ground where the ward went off. The quartermaster's aide watching the column form on the Stratholme road. The carter in Stratholme's service lane looking past her at the wall. Each time the farewell, and each time his eyes on his work. In the recognition she re-sees each covert contact: the old carter's question about the young grain-man, the tally-man's directions to Havel, the courier who ran from the robed figure with the dispatch and then the Tyr's Hand lie, the sealed manifest the aide handed to a carter for the Stratholme granaries, and the carter's nod that sent the acolyte off down the lane. Seeing them together, she understands that he was running the cult and watching his work. The farewell and the gaze are now tells she can hunt.
+- They do not know how many other faces the same being wore without being caught or whether the tells stay usable now that he knows he has been seen.
+- Ground the recognition: five remembered farewells striking in sequence behind the ancient original, five remembered faces each turned a little away from her, toward a road, a roofline, scorched ground, a column, a wall, Frostmourne pulsing above them while she lays the faces side by side.
+- The sequel gets its first real hunting tool.
+- Inside: five faces, every one of them in front of her, and she kept riding; the city outranked him, the column outranked him, and was that right each time; yes; and he was counting on exactly that; wants Cyndia's book, and Cyndia is in custody somewhere in this palace
 
 ---
 
-## Scene 4: The Aftermath
+## Scene 3: The Pulse
 
-**The action:** The verdict immediately becomes secondary to Frostmourne's acceleration, and the first real reinforcement reaches the door too late.
-**Cast:** Sylvanas, Jaina through the wall, Lor'themar, guards.
-**Starting point:** The verdict is final on paper and useless against the blade above them.
+**The action:** Jaina, who has tracked the pulse all night, feels the blade leave the vault.
+**Cast:** Jaina, Sylvanas through the wall.
+**Starting point:** The visitor has gone up through the stone toward the vault, and the cells are ordinary dark again.
 
-### Beat 10
-- Back in the cells, Jaina starts counting the blade's accelerating rhythm through the wall, and the timetable collapses from weeks to days.
-- Jaina's tapping through stone is how she counts the blade's cycle, the timeline has shrunk to days rather than weeks, and elven mages near the vault might independently feel enough wrongness to corroborate what Jaina hears.
-- They do not know whether any corroboration moves fast enough to beat the blade or which palace minds are nearest the call.
-- Ground the count: fingertip taps through stone counting the blade's heartbeat, air in the cell colder after the verdict instead of warmer, Sylvanas holding a possible plan warm in her head because it is all she can physically hold.
-- The real clock reasserts itself.
-
-### Beat 11
-- Lor'themar reaches the cells after the verdict, bringing force enough to matter politically and still not enough to open the door.
-- Lor'themar won just enough in Silvermoon to move three hundred Farstriders and mages into Capital City, the elven mages can independently feel the vault's wrongness from outside the cells, and Sylvanas is no longer alone politically, only still trapped physically.
-- They do not know whether Lor'themar can turn perception into leverage before the blade chooses or whether Vereesa's continued presence helps or hinders that move.
-- Ground the arrival: familiar Farstrider cadence in dungeon footsteps before the face appears, road-dust on Lor'themar where court polish should be, two hands meeting across cold iron bars for the only contact the chapter allows.
-- Reinforcement arrives without release.
+### Beat 8
+- Before dawn, the pulse Jaina has tracked all night moves. It is no longer above her. It goes farther, then fainter.
+- The blade is leaving the vault. Its cycle has not stopped; it is travelling. Jaina cannot tell who or what carries it, and nothing in the cells shows her.
+- They do not know who holds the blade now, where it is going, or whether the counter she gave Sylvanas will ever reach it.
+- Ground the leaving: the cold in the stone above her easing for the first time all night, the pulse farther with each beat and then fainter, Jaina's fingertips staying on the wall after there is nothing left to match them to.
+- Farther, then fainter, and no hand shown.
 
 ---
 
 ## Chapter close / handoff
 
 **Active cast at close**
-- Sylvanas
 - Jaina
-- Lor'themar, outside the cell
+- Sylvanas
+- Lor'themar, elsewhere in the palace complex
 - Vereesa, elsewhere in Capital City
-- Frostmourne, in the vault above
+- Frostmourne, gone from the vault, carrier unknown
+- The visitor, loose in the city
 
-**What carries into Chapter 25:**
-- The verdict is guilty on all major counts with indefinite imprisonment in place of execution.
-- Antonidas came but did not take the stand in any way that could save Jaina.
-- Uther testified and was dismissed.
-- Vereesa delivered the Convocation's disavowal and stayed in the city.
-- Jaina has clocked the blade's acceleration as days rather than weeks.
-- Lor'themar has three hundred Farstriders and mages in the city who can feel the blade.
+**What carries into Book 2:**
+- Jaina packaged the anti-blade counter for Sylvanas to deliver, frost and arcane from a mage and the fire on an arrow. Sylvanas has it by heart.
+- Sylvanas refused Lor'themar's door because Jaina was not covered. Lor'themar's three hundred are still in the city.
+- Kel'Thuzad's journal passages quoting Jaina are public record. The pair have not spoken of the reading. Sylvanas had the words from Jaina at sea.
+- The larger enemy behind the visible war is real and operational.
+- Frostmourne has left the vault. Its new hand is unknown.
+- Kel'Thuzad expected to return as a lich after his death. Nothing in Book 1 has closed that door.
+- Sylvanas now has two tells tied to the visitor's disguises: the farewell and the gaze toward his work.
+- The visitor has worn five earlier faces across the investigation.
+- The pair remain imprisoned while all of this is true.
 
 **Do not add yet:**
-- Any prison break.
-- Any legal reversal.
-- Any direct naming of the larger cosmic enemy.
-- Any guarantee that Lor'themar's force gets near the blade in time.
+- Any prison break. Sylvanas refused the one legal door, and there is no other.
+- Any clean counter to the visitor beyond detection.
+- Any next wielder for Frostmourne on-page. Nobody sees who carries the blade out.
+- Any public understanding of what the pair just learned.
+- Any spoken reckoning between the pair over the journal passages.

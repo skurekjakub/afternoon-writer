@@ -49,6 +49,7 @@ Outlines may use labeled metatags or plain prose bullets. Either way, extract th
 | Facts established ("Locks" label, or capstone bullets) | `newOnPageInformation` | What the reader now knows that they didn't before |
 | Unknown items ("What they don't know" label, or "They do not know..." bullets) | `stillUnknownAfterBeat` | What stays unresolved |
 | Sensory grounding ("Texture" label, or "Ground the..." bullets) | `sensoryAnchors` | Keep as keyword clusters, not sentences |
+| Inner argument ("Inside:" bullet, optional) | `interiority` | Copy the argument as keyword clauses: what she is chewing on, the contradiction, what she will not admit. Never write it as finished sentences or a conclusion. |
 | Transition ("Turn" label, or final capstone bullet) | `transitionIntent` | Add a type prefix (action-continuation, question-pressure, sensory-carry, etc.) |
 
 ### Scene-level fields from outline
@@ -99,7 +100,7 @@ Outlines may use labeled metatags or plain prose bullets. Either way, extract th
 
 ### Optional beat fields
 
-Use when the scene needs them: `disclosureProvenance`, `plantedThread`.
+Use when the scene needs them: `disclosureProvenance`, `plantedThread`, `interiority` (always carry it over when the outline beat has an `Inside:` bullet).
 
 ## Writer Freedom
 

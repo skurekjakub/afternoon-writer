@@ -23,7 +23,7 @@
 - The horror of Ch 12 is that he is compelling for the right reasons: intelligence, coherence, delight in being fully understood.
 
 ## Key ties
-- Antonidas: colleague he outgrew or believes he outgrew.
+- Antonidas: teacher he outgrew or believes he outgrew.
 - Jaina: first mind in years he thinks is worth teaching at full speed.
 - Lich King: patron he reads as a greater library, not as a master.
 
@@ -33,5 +33,5 @@
 - Ch 13: dies calm, as if finishing a theorem.
 
 ## Book 2 hook
-- His journals on the Nathrezim are real treasure.
+- His journals on the Nathrezim are real treasure. Jaina carries them out of Scholomance in Ch 13 with the stolen grimoire, and the palace guards seize both at the Ch 22 arrest.
 - The monster's library may be the only place with the intelligence needed to fight Mal'Ganis.

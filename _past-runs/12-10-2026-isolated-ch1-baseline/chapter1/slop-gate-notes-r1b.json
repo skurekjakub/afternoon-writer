@@ -1,0 +1,295 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner (pre-undeath Ranger-General)",
+    "registerSummary": "Dry, exact, tactical. She thinks in footing, range, windows, counts, gear and horses; she reads people by hands, posture and kit. Her humor is contempt-dry and aimed at the Convocation and Lor'themar. She does not do thematic summary, confessional emotion-naming, or sympathy for the prisoner in this chapter.",
+    "registerConfidence": "HIGH"
+  },
+  "fixStrategy": "default (iterationKillsB = [15]; no oscillation history)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 44,
+      "kills": 7,
+      "keeps": 37,
+      "severity": {"mild": 7, "moderate": 0, "severe": 0},
+      "dominantPattern": "F4/F7 (restatement and paragraph-final closure)",
+      "findings": [
+        {
+          "id": "B-G1",
+          "line": 91,
+          "text": "Most people, when she put her heels in, fell behind.",
+          "pattern": "F7",
+          "issue": "Paragraph-final closure. The paragraph already showed Lor'themar keeping pace ('stayed there, nose level with her stirrup', 'so he rode'). The closer explains the contrast the action carried.",
+          "couldEndEarlierAt": "sitting deep in the saddle as if this were what he'd intended all along.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixNote": "DELETE the sentence. Paragraph ends on 'as if this were what he'd intended all along.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-G2",
+          "line": 155,
+          "text": "Two roads, and a body needed on each.",
+          "pattern": "F6",
+          "issue": "Thesis opening. The paragraph opens on a caption claim, then lays out the two roads in the next two sentences. The concrete sentences do the work; the opener is the topic sentence.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixNote": "DELETE the sentence. Paragraph opens on 'Someone had to ride south, see this mage, and decide what she was.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-G3",
+          "line": 167,
+          "text": "He said nothing, wearing the same patient, far-too-knowing face he'd worn in the hollow with the troll-stink still on them.",
+          "pattern": "F2",
+          "issue": "Expression label as the whole beat. 'patient, far-too-knowing face' names the look with no physical sign. Also, no 'hollow' appears in Scene 1 (the earlier exchange happened over the dead troll at the gap, below the slope).",
+          "severity": "MILD",
+          "suggestedFix": "He said nothing. He only looked at her, head tilted, the way he had over the dead troll when she named the southern stones.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-G4",
+          "line": 209,
+          "text": "With the Kirin Tor it was always worth considering both.",
+          "pattern": "F4",
+          "issue": "Restates what the reader already has. L159 already said 'with Dalaran, both was never out of the question.' Cutting it loses nothing.",
+          "textureZone": "texture_desert (sentences 347-358)",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixNote": "DELETE the sentence. The paragraph ends on 'Or both.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-G5",
+          "line": 257,
+          "text": "one who'd simply been right in the wrong country",
+          "pattern": "F3",
+          "word": "simply",
+          "deletionTest": "one who'd been right in the wrong country",
+          "issue": "Hedge softener. Deleting 'simply' makes the line more direct. 'right in the wrong country' already marks this as the innocent option.",
+          "toolSignal": "hedge_simply",
+          "severity": "MILD",
+          "suggestedFix": "one who'd been right in the wrong country",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-G6",
+          "line": 289,
+          "text": "She had put it away the moment Sylvanas filled the doorway. Whether that was sense or pride, Sylvanas couldn't tell yet.",
+          "pattern": "F4",
+          "issue": "Interpretive restatement. L287 already showed it: 'Then she closed her mouth on whatever she'd meant to say.' 'She had put it away the moment Sylvanas filled the doorway' says it again. The cited span includes the next sentence only because its 'that' points back to the cut line.",
+          "textureZone": "texture_desert (sentences 493-508)",
+          "severity": "MILD",
+          "suggestedFix": "Whether swallowing it now was sense or pride, Sylvanas couldn't tell yet.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-G7",
+          "line": 289,
+          "text": "She wanted to know.",
+          "pattern": "F7",
+          "issue": "Paragraph-final emotional summary. It names the curiosity that the open sense-or-pride question already carries. The paragraph is stronger ending on 'couldn't tell yet.'",
+          "couldEndEarlierAt": "Whether ... sense or pride, Sylvanas couldn't tell yet.",
+          "textureZone": "texture_desert (sentences 493-508)",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixNote": "DELETE the sentence.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "summaryBlock": {
+        "F1": "0 (hunt opening, Theris report staccato, and spy/envoy parallel checked; all deliberate or varied)",
+        "F2": 1,
+        "F3": "1 word, 0 SEVERE stacks",
+        "F4": 2,
+        "F5": "0 scenes (Lor'themar's concessions and Cyndia's cooperation are plan-intended; Scene 3 ends with no warmth)",
+        "F6": 1,
+        "F7": 2,
+        "worstFailureMode": "F4/F7 (tied)",
+        "overallAssessment": "Clean surface. The remaining failures are sentences that restate or cap a beat the action already landed, mostly in the late Scene 1 ride and the storeroom doorway read."
+      }
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 22,
+      "kills": 3,
+      "keeps": 19,
+      "severity": {"mild": 2, "moderate": 1, "severe": 0},
+      "dominantPattern": "A7 (generalizing construction)",
+      "tierAKills": 2,
+      "tierBKills": 1,
+      "severePages": [],
+      "severeScenes": [],
+      "structuralHabit": "no",
+      "findings": [
+        {
+          "id": "B-N1",
+          "line": 291,
+          "text": "The woman had spent the afternoon chained to a floor while a barley pot burned next door and the stones she'd come to read stood on the hillside without her.",
+          "tier": "B",
+          "pattern": "B1",
+          "whoIsSayingThis": "A narrator summarizing the prisoner's day from outside.",
+          "povMismatch": "A standalone paragraph that pulls back to recap facts the reader already has (irons, barley pot, stones), framed through what the prisoner wanted ('the stones she'd come to read stood on the hillside without her'). That sympathetic framing works against the plan's no-warmth lock and Sylvanas's register in the doorway read.",
+          "confidence": "MODERATE",
+          "severity": "MODERATE",
+          "suggestedFix": "",
+          "fixNote": "DELETE the paragraph. L289 flows straight into 'Cyndia came up at her shoulder...'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-N2",
+          "line": 49,
+          "text": "It was one of the more irritating things about serving beside someone for longer than most human kingdoms had existed.",
+          "tier": "A",
+          "pattern": "A7",
+          "whoIsSayingThis": "A narrator generalizing ('serving beside someone') over the specific moment with Lor'themar.",
+          "povMismatch": "Moves from this exchange up to a category claim about long service. It is a paragraph-final essay zoom, not an active thought.",
+          "confidence": "HIGH",
+          "severity": "MILD",
+          "suggestedFix": "He had been doing that to her for longer than most human kingdoms had existed.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-N3",
+          "line": 91,
+          "text": "Most people, when she put her heels in, fell behind.",
+          "tier": "A",
+          "pattern": "A7",
+          "whoIsSayingThis": "A narrator setting Lor'themar against 'most people'.",
+          "povMismatch": "A generalization made to decorate the moment, not a tactical conclusion that drives an action. Same sentence as B-G1 (F7). One fix covers both.",
+          "confidence": "HIGH",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixNote": "DELETE the sentence (same fix as B-G1).",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 19,
+      "kills": 2,
+      "keeps": 17,
+      "severity": {"mild": 2, "moderate": 0, "severe": 0},
+      "dominantPattern": "P4 / P1 (one each)",
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": [],
+      "findings": [
+        {
+          "id": "B-P1",
+          "line": 205,
+          "text": "It was harder now than it had been an hour ago, under the gold, to check one and move on, because a stranger had knelt at stones like these this morning and called what lay under them wrong.",
+          "pattern": "P4",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "What 'harder' looks like: what she does differently at each stone. The page shows her checking 'foot to crown', not lingering or hesitating.",
+          "severity": "MILD",
+          "suggestedFix": "She lingered at each one longer than she had under the gold, because a stranger had knelt at stones like these this morning and called what lay under them wrong.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-P2",
+          "line": 149,
+          "text": "\"The Convocation always wants to have known first. It's the knowing that tires them.\"",
+          "pattern": "P1",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The plain claim behind 'the knowing': the Convocation wants credit for being told first, then wants someone else to handle the prisoner. If Lor'themar asked 'Tires them how?', the line has no answer.",
+          "severity": "MILD",
+          "suggestedFix": "\"The Convocation always wants to have known first. Then it wants us to handle her.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "toolSignalsAudited": [
+        {"toolSignal": "hedge_simply", "line": 257, "result": "KEEP under P-logic (anchored shorthand: 'right in the wrong country' is tied to the leyline claim and Liron's reading); killed under gpt-5 F3 as B-G5"},
+        {"toolSignal": "something_vague", "line": 259, "result": "KEEP (Cyndia openly holds the item back and says why; the line does not pretend to be specific). See scratchpad."}
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severity": {"mild": 0, "moderate": 0, "severe": 0},
+      "dominantPattern": null,
+      "brokenExchanges": [],
+      "findings": [],
+      "cleanReason": "No speaker asks for plainer speech, smaller words, or 'streets'. Four near-setups were audited as exchanges. (1) L113-117 'Report.' / Theris's clipped report gives usable payload: first ring, rocks east of the road, before dawn, taken at the second ring an hour past sunup, kneeling, book, no papers. (2) L127-131 'Wrong how?' / 'She didn't say. Or she said, and none of us could follow it.' Theris admits he cannot translate rather than faking a translation. (3) L245-247 'Theris says what she says. This is me.' Cyndia's plain-speech recast names the stone, the method (palms, as the magisters taught at Fairbreeze), the sign (reads like a cracked stone with no mark; a full cask answering hollow), and the count (six since noon, second ring and first). That is a usable target and a usable trigger. (4) L161-165 Sylvanas's briefing to Lor'themar gives exact content to deliver and an exact limit ('Tell them she said it. Not that it's true.')."
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 77,
+    "mildKills": 11,
+    "moderateOrSevereKills": 1,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md"],
+    "killsWithFix": 12,
+    "killsUnfixable": 0,
+    "uniqueLinesToEdit": 11,
+    "verdict": "fail",
+    "verdictReason": "1 MODERATE kill (L291 standalone narrator-summary paragraph, B1) plus 11 MILD kills, over the 3-MILD threshold. All 12 have drop-in fixes; 6 are pure deletions. B-G1 and B-N3 are the same sentence with one fix. Structural rhythm concerns: one_sentence_paragraph_pct 25.7 (range 15-24), long_sentence_pct 17.4 (range 7-14), opener_entropy 6.31 (range 7.2-8.2). Structural texture deficit: texture verdict below_target (score 81.2), participial 6.0% against a 12.0% target.",
+    "rhythmMetrics": {
+      "source": "tools/rhythm_scorer/score.py vs .afternoon/style-guide.json rhythmMetrics.global",
+      "comma_period_ratio": {"actual": 0.604, "target": 0.72, "range": [0.6, 0.85], "delta": -0.116, "inRange": true, "note": "at floor of range"},
+      "sentence_length_mean": {"actual": 11.2, "target": 11.0, "range": [9.0, 13.0], "delta": 0.2, "inRange": true},
+      "sentence_length_cv": {"actual": 0.788, "target": 0.7, "range": [0.6, 0.8], "delta": 0.088, "inRange": true},
+      "short_sentence_pct": {"actual": 39.1, "target": 35.0, "range": [28.0, 42.0], "delta": 4.1, "inRange": true},
+      "long_sentence_pct": {"actual": 17.4, "target": 10.0, "range": [7.0, 14.0], "delta": 7.4, "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 25.7, "target": 19.0, "range": [15.0, 24.0], "delta": 6.7, "inRange": false, "note": "deleting the L291 standalone paragraph (B-N1) nudges this down"},
+      "opener_entropy": {"actual": 6.31, "target": 7.7, "range": [7.2, 8.2], "delta": -1.39, "inRange": false},
+      "mattr": {"actual": 0.809, "target": 0.83, "range": [0.8, 0.87], "delta": -0.021, "inRange": true},
+      "structuralRhythmConcerns": ["long_sentence_pct above range", "one_sentence_paragraph_pct above range", "opener_entropy below range"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 81.2,
+      "participial_pct": 6.0,
+      "compound_pct": 12.1,
+      "emdash_pct": 2.4,
+      "semicolon_pct": 1.5,
+      "short_pct": 48.5,
+      "verdict_reasons": [
+        "participial: 6.0% below target 12.0% (score 55/100)",
+        "compound: 12.1% above target 10.0% (score 82/100)",
+        "emdash: 2.4% below target 4.0% (score 88/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.0% -> target 12.0% (score 55/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.1% -> target 10.0% (score 82/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.4% -> target 4.0% (score 88/100). Use for mid-sentence pivots.",
+      "flaggedPassageCounts": {"telegram_run": 8, "texture_desert": 9},
+      "flaggedZonesTouchingKills": [
+        {"zone": "texture_desert sentences 347-358 (spy/envoy reasoning, L207-211)", "finding": "B-G4"},
+        {"zone": "texture_desert sentences 493-508 (doorway read, L287-291)", "findings": ["B-G6", "B-G7", "B-N1"]}
+      ],
+      "note": "Structural texture deficit. When applying B-G6 and B-N1, the slophunter can join the remaining L287-289 sentences with a participial or em-dash pivot instead of leaving them as separate short sentences."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 43,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passBMappedSignals": [
+          {"pattern": "hedge_simply", "category": "hedging", "line": 257, "mappedGuide": "phantom-concreteness-guide.md", "outcome": "KILL (via gpt-5 F3, B-G5)"},
+          {"pattern": "something_vague", "category": "vague_pointers", "line": 259, "mappedGuide": "phantom-concreteness-guide.md", "outcome": "KEEP"}
+        ],
+        "note": "No narrator_verdict, slopsquid, ai_vocabulary, academic_register, dialogue_register, verbose_phrases, expression_decomposition, clinical_anatomy, or ambient_inversion matches. The remaining matches (punctuation, participial, simile, filler, filter, contact verbs) map to pass A."
+      }
+    }
+  }
+}

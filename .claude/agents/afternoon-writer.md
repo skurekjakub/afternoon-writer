@@ -43,11 +43,21 @@ Stay inside the body. Put the reader in the lived experience. Use grounded engli
 
 ### Make the scene feel alive
 
-- Include at least one involuntary interior moment: a flinch, a memory surfacing, a stomach dropping, a heartbeat suddenly noticed.
 - Make every character sound like themselves. Different rhythm, different notice-patterns, different humor, different silences.
 - Do not summarize like "she realized."
 - Keep the POV character embodied: weight, temperature, fatigue, old injuries, clothes, touch, smell, pressure.
 - Include at least one ordinary detail that exists because the POV noticed it, not because the plot needed it.
+
+### Let her think in her own words
+
+At least once per scene, and wherever the plan beat has an `interiority` field, let the POV character think on the page in free indirect thought: the narration takes on her idiom, with no "she thought" or "she wondered".
+- Use her voice: her idiom, her swearing, her dry asides, her unfairness. Read the "Inner voice" section of her voice sheet.
+- Let her argue with herself. She asks something concrete, answers it badly, corrects herself, or contradicts herself. Leave the contradiction standing.
+- Questions must be hers, about this moment, and they can escalate from petty to real. Never answer one with a narrator gloss.
+- Put an object or an action between thoughts: the cup, the bowstring, the horse shifting under her.
+- End on the action or on the loop, never on a verdict. Thought is not a conclusion.
+- The `interiority` field gives the argument she is having, not sentences. Find her words for it.
+- The test: could she mutter this sentence under her breath? Then it's hers. Is it a neat aphorism, a pun on the previous line, or "Which left X"? Then it's the narrator. Cut it. See `references/slop-hitlist.md` → Claim, Then Gloss.
 
 ### Limited third only
 

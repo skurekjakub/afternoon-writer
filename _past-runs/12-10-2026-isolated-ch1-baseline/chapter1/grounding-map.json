@@ -1,0 +1,33 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 3,
+  "globalRisks": ["door-blocking-continuity"],
+  "segments": {
+    "openingThird": { "risk": "low" },
+    "middleThird": { "risk": "low" },
+    "finalThird": { "risk": "low" }
+  },
+  "scenes": [
+    {
+      "sceneId": 3,
+      "title": "The Prisoner",
+      "riskTags": ["blocking-gap", "door-motif"],
+      "biggestGap": "G4-001: Cyndia steps past Sylvanas into the storeroom light, then only Sylvanas steps back over the threshold. Cyndia is left shut in with the prisoner.",
+      "sourceBank": {
+        "geography": ["the Pass post", "storeroom"],
+        "institutions": ["Farstriders"],
+        "materials": ["blue ward-lamp light", "oilcloth", "barred door"]
+      },
+      "sceneContract": {
+        "placeAnchor": "Storeroom threshold, door eased to a hand's width of blue light",
+        "materialAnchor": "oilcloth, blue-leather book, ward-light",
+        "povAnchor": "Sylvanas takes the room by its door and who stands on which side",
+        "dialogueAnchor": "Cyndia lowers her voice; door eased shut before she turns the book",
+        "exitAnchor": "Door and ward-light circle around the chair, unchanged"
+      },
+      "dialogueRuns": [
+        { "label": "book reveal at the door", "risk": "low" }
+      ]
+    }
+  ]
+}

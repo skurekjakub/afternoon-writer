@@ -151,7 +151,7 @@ The mug. She'd been holding it for — she looked at the tea. Cold. A film on th
 
 She set it down. Picked it up. Set it down again. Adjusted its position on the table. Aligned the handle with the wood grain. Moved it slightly. Aligned it again.
 
-Maren watched this. Said nothing. Let the mug-arranging happen. She was good at that — at letting people do the thing they needed to do with their hands while their mind caught up with their mouth.
+Maren watched this. Said nothing. She was good at that — at sitting through other people doing the thing they needed to do with their hands while their mind caught up with their mouth.
 
 "She's dead," she said, finally, and set the mug down for the last time.
 
@@ -208,7 +208,7 @@ She threw the stone into the river. It sank without ceremony.
 She wondered what Maren was doing right now. She imagined her in the kitchen, cooking something that smelled like home, humming that tuneless song she always hummed. She felt a pang of longing that surprised her with its intensity. She hadn't expected to miss her this much, this quickly. She missed her with an ache that had settled into her body like something permanent.
 
 **Good:**
-She wondered what Maren was cooking tonight. The thought arrived with a pang, sharp and quick, and she let it come and go. Some doors you don't open on the road. She picked up her pace.
+She wondered what Maren was cooking tonight. The thought arrived with a pang, sharp and quick. Then it was gone. Some doors you don't open on the road. She picked up her pace.
 
 **Why:** Five sentences of longing compressed to one wondering, one pang, one rule (doors on the road), one action (walking faster). The compression MATCHES the character's coping strategy — she's not allowing herself to dwell.
 

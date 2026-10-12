@@ -19,19 +19,19 @@
 - She knows the plague claims the body, but not how the dead are forced to answer afterward.
 - Her magical sensitivity helps identify plague sites earlier than anyone else would, but she is still chasing poison that already spread.
 - Cyndia's scouting warnings and Jaina's own route work say the Barov surface and the deeper arcane source do not fully match.
-- The old seller on the north road and the survivor girl's newer grain-man memory are still unresolved background clues.
+- The old carter on the north road and the survivor girl's newer grain-man memory are still unresolved background clues.
 
 **Still in the dark about:**
 - Whether the Barovs are masterminds, willing hosts, or respectable fronts for someone worse.
 - Whether Scholomance is an active cult stronghold or only a hidden archive.
 - Whether Kel'Thuzad is present.
 - Whether Kirin Tor reinforcements can reach her before the spread outruns them.
-- Whether the old seller matters at all.
+- Whether the old carter matters at all.
 
 **Hold back:**
 - No Mal'Ganis identification.
 - Do not confirm that the Barovs knowingly designed the plague.
-- Do not resolve the old seller and grain-man clue.
+- Do not resolve the old carter and the grain-man clue.
 - Do not assume Sylvanas and Cyndia can rescue her the same day.
 
 **End of chapter state:**
@@ -66,6 +66,7 @@
 ## Cast and handoff rules
 
 - **Sylvanas and Cyndia:** Off-page on the southbound Arthas thread. Cyndia's earlier field notes help Jaina's physical approach, but neither woman is present.
+- **The lake watch:** A Farstrider runner from Lor'themar's relay, left on the Darrowmere shore at the Chapter 9 split. Jaina leaves her horse with the watch before she takes Jandice's boat.
 - **Jandice Barov:** Dark mage, gatekeeper, and key into Scholomance.
 - **Lord Alexei Barov:** The polished political surface for the estate and the grain shipments.
 - **Kel'Thuzad:** Off-page pressure until the descent. His presence is felt in the wards long before he is seen.
@@ -82,11 +83,12 @@
 **Starting point:** The Barov name sits at the center of the grain ledgers. Jaina has spell fragments, Barov papers, Cyndia's estate notes, and no escort.
 
 ### Beat 1
-- Jaina approaches alone and feels at once what the split cost. No one is reading the tree line for her, pricing the exits, or telling her when curiosity has become exposure. She chooses the direct approach under Kirin Tor authority.
+- Jaina approaches alone and feels at once what the split cost. No one is reading the tree line for her, pricing the exits, or telling her when curiosity has become exposure. She chooses the direct approach and bluffs a Kirin Tor authority she does not hold.
 - The lack of Sylvanas is practical before it is personal. The deepest magic is not in the manor but beyond it toward Darrowmere and Caer Darrow, and arriving openly trades surprise for entry.
 - They do not know whether formal rank will buy access or only surveillance, or how much the house already knows about her.
 - Ground the arrival: a Thalassian horse sweating in the cold, deep wagon ruts, orchards that look healthy until the rot catches in the leaves, the Barov crest over a gate built for obedience.
 - She rides straight to the door and forces the house to answer.
+- Inside: what would Sylvanas look at first; the tree line, probably, so she looks at the tree line and sees trees; bluffing a rank she doesn't hold, which is exactly why the Kirin Tor won't give it to her; knows the direct approach is the wrong one and takes it because it is the fast one
 
 ### Beat 2
 - Alexei does not panic. He answers with polished courtesy, curated records, and a story prepared for Dalaran. Jaina forces a reaction by showing the Barov papers and enough of the spell fragments to prove she knows what kind of work this is.
@@ -100,7 +102,7 @@
 ## Scene 2: The Lake
 
 **The action:** Jandice offers access on terms that strip Jaina of privacy and initiative.
-**Cast:** Jaina, Jandice Barov.
+**Cast:** Jaina, Jandice Barov, the lake watch.
 **Starting point:** The manor is not the real source. The island is.
 
 ### Beat 3
@@ -108,7 +110,8 @@
 - Jandice is using access as control, and Jaina understands the cost and takes it anyway. The missing spell matters more to her than keeping clean distance.
 - They do not know whether Jandice wants to impress her, recruit her, or deliver her intact to the master below.
 - Ground the bargain: Jandice's sharp gaze measuring power, rich Barov colors cut in Dalaran lines, a ward-mark settling cold against Jaina's skin like a second pulse.
-- Jaina lets the ward mark her and steps into the boat.
+- Jaina leaves her horse with the Farstrider lake watch on the shore. She lets the ward mark her and steps into the boat.
+- Inside: knows to the thread what the ward costs her, and takes it; Sylvanas would refuse, flatly, and be right; wants the spell more than clean distance, and calls that duty; a little flattered to be sized as a peer, which is the worst part
 
 ### Beat 4
 - The lake crossing removes the last easy exit. The ward line closes behind her, the estate falls away, and the island fortress resolves as an active stronghold instead of a hidden archive.
@@ -138,6 +141,7 @@
 - They do not know whether Jaina is being invited down as student, witness, or prey.
 - Ground the library: a cracked leather grimoire still warm from use, the Council of Six seal scratched out, ink and rare reagents in a room that should smell like a grave, Jandice proud of what she serves.
 - Jaina stops pretending the upper halls are enough.
+- Inside: her master's ciphers under Kel'Thuzad's hand; did Antonidas know, or not know, and which is worse; the soul-echo layering is beautiful and she is memorising it anyway; Jandice's pride in the work, and her own under it, too much the same shape
 
 ---
 
@@ -160,6 +164,7 @@
 - They do not know whether the descent ends in knowledge, recruitment, or death.
 - Ground the descent: ancient stone worn smooth, embalming dryness in the air, fungi pulsing to her living signature, a door closing behind her without locking and still feeling like a tomb.
 - Chapter 12 resumes below.
+- Inside: the door is open because they want her through it; going anyway, drafting the explanation for Antonidas as she walks; Sylvanas would have said no in one word; the runner on the shore, and how long he waits before he rides; frightened, and curious, and the curious part is louder
 
 ---
 
@@ -182,4 +187,4 @@
 - Kel'Thuzad's direct explanation of the Lich King and the Burning Legion.
 - Any sign of Sylvanas arriving.
 - Any repair of the shattered pack.
-- Any answer to the old seller / newer grain-man clue.
+- Any answer to the old carter and the newer grain-man clue.

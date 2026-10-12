@@ -1,0 +1,33 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 2,
+  "feedbackPath": ".afternoon/chapters/chapter1/grounding-gate-notes-r1.json",
+  "targetFile": "v2g-r1.md",
+  "touchedScenes": ["Scene 3 - The Prisoner"],
+  "globalRisks": ["door-blocking-continuity"],
+  "sceneAudits": [
+    {
+      "scene": "Scene 3 - The Prisoner",
+      "biggestGap": "Door eased to a hand's width at the book reveal was never reopened before the walk-in (G4-001).",
+      "anchorsAdded": {
+        "place": ["storeroom door pushed wide"],
+        "material": [],
+        "dialogue": [],
+        "exit": ["open door left behind her, so the mage's refusal to glance at it carries weight"]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": ["door blocking break at line 325"],
+    "fixesApplied": ["Changed 'Sylvanas walked into the light.' to 'Sylvanas pushed the door wide and walked into the light.' Applied the gate's suggested fix verbatim."],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [],
+    "materials": [],
+    "unsourcedAdditions": []
+  },
+  "notes": "Single-clause edit, no new nouns. Dialogue run in the touched stretch is short and already anchored by the book and door beats. Rhythm preserved. v2g-r2.md was created by copying v2g-r1.md and editing in place."
+}

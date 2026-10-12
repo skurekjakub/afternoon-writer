@@ -2,7 +2,7 @@
 
 **POV:** Sylvanas Windrunner (limited third, absolute)
 **When:** After hard days of Eastweald patrols following Andorhal. The hunt is still live, but the best traces are already cooling.
-**Where:** Cult-held Eastweald north of Andorhal, on the approach toward Barov country.
+**Where:** Cult-held Eastweald east of Andorhal, on the approach toward Barov country.
 **Travel:** Mounted on Thalassian horses into the Eastweald, then on foot through orchards, outposts, and the outskirts.
 **Characters:** Sylvanas, Jaina, Cyndia, Lyriel.
 **Goal:** Use a live Eastweald clue before it cools, pull real proof from the cult's next layer, and turn the Andorhal victory into a path toward the people above the local cells.
@@ -14,12 +14,12 @@
 
 **Sylvanas's starting position:**
 - Grain is the poison, Andorhal was the heart of the plague, and treated grain is already moving through northern Lordaeron.
-- Kel'Thuzad has been named as the mastermind somewhere north of Andorhal.
+- Kel'Thuzad has been named as the mastermind somewhere east of Andorhal.
 - The Cult of the Damned is a hidden organization with living members, mage support, and discipline.
 - Barov holdings keep turning up in the records, but the name is still a paper trail, not proof.
 - Jaina's sensitivity keeps them ahead of most of the crown's awareness, but still behind the spread itself.
 - Millhaven was the first village lost, and the eastward spread has mostly hidden itself inside ordinary sickness or quiet occupation.
-- The old seller, newer grain-man, and repeated farewell clue is still unresolved.
+- The old carter, the newer grain-man, and the repeated-farewell clue are still unresolved.
 - The four women now move like one hunting pack.
 
 **Still in the dark about:**
@@ -33,13 +33,14 @@
 - No Mal'Ganis identification.
 - No claim that the Barov name equals total guilt.
 - No assumption that Arthas will help once reached.
-- Do not flatten the old seller, newer grain-man, or repeated farewell clue into a solved answer.
+- Do not flatten the old carter, the newer grain-man, or the repeated-farewell clue into a solved answer.
 
 **End of chapter state:**
 - Lyriel is dead, and the pack is permanently broken.
 - Jaina leaves with the Barov papers, Cyndia's estate-approach notes, and fractured spell fragments.
-- Sylvanas and Cyndia leave with a live Hearthglen dispatch and the Arthas thread under collapsing political backing.
-- The repeated farewell sharpens again, but remains unresolved.
+- Sylvanas and Cyndia leave with a torn Hearthglen dispatch and the Arthas thread under collapsing political backing.
+- The courier's Tyr's Hand lead is false. The dispatch contradicts it.
+- The farewell reaches Sylvanas a third time, secondhand from Cyndia. The man who said it was a robe at a distance, walking away. There is nothing to hunt.
 
 ---
 
@@ -48,7 +49,8 @@
 ### Sylvanas
 - She opens believing hard hunting and fast calls will crack Eastweald before the trail dies.
 - She trusts Jaina, but still treats the magical read as one input among many instead of the final safety line.
-- That mistake gets Lyriel killed and leaves Sylvanas wounded.
+- She is right about the patrol seam and moves on her half before Jaina's half is in. That gets Lyriel killed and leaves Sylvanas wounded.
+- Twin-sin wiring (structural note; the prose never names it): this is Sylvanas's first act of being right alone. Her second is Chapter 11 B6. Jaina's matching act is Chapter 16 B8.
 - By the end, she knows Jaina's sweep is not support work. It is the line between movement and slaughter.
 
 ### Jaina through Sylvanas's POV
@@ -68,11 +70,13 @@
 ## Cast and handoff rules
 
 - **Cyndia:** Still with the scouts. After Lyriel dies, she starts checking the empty flank Lyriel used to hold.
-- **Lyriel:** Alive at chapter open. Dies in Scene 2.
+- **Lyriel:** Alive at chapter open. Dies in Scene 2. At the split, Jaina ties off Sylvanas's bandage with the knot Lyriel taught her in Chapter 4.
 - **Corin / Havel:** Off-page Andorhal contacts only. They do not travel with the pack here.
 - **Lor'themar:** Off-page pressure reaching Sylvanas by runner.
+- **Lor'themar's runner:** A Farstrider from Lor'themar's relay. At the split, Sylvanas posts him on the Darrowmere shore as a lake watch on Jaina's line.
 - **Antonidas:** Off-page pressure reaching Jaina by sending stone.
-- **Repeated farewell clue:** A dying courier can repeat it, but it must stay weak and unresolved.
+- **Cult courier:** Cyndia catches him. He gives one false lead, breaks free, and dies in the fall from an orchard terrace. The torn dispatch stays in her hand.
+- **Repeated farewell clue:** The robed figure who walks away from the fight speaks it as he sends off the courier, and Cyndia hears it. This is the third sighting. The courier talks when caught, but he does not say it. It must stay weak and unresolved.
 
 **Next chapters start:** Chapter 10 opens with Jaina alone on the Barov thread. Chapter 11 opens with Sylvanas and Cyndia on the Arthas / Hearthglen thread.
 
@@ -103,15 +107,16 @@
 ## Scene 2: The Trap
 
 **The action:** Sylvanas sees an opening, moves before Jaina finishes the read, and the chapter takes its real casualty.
-**Cast:** Sylvanas, Jaina, Cyndia, Lyriel, cult enforcers.
+**Cast:** Sylvanas, Jaina, Cyndia, Lyriel, cult enforcers, robed figure, cult courier.
 **Starting point:** The farmhouse evidence points toward a larger site while the trail is still live.
 
 ### Beat 3
 - They reach the edge of a larger compound. Sylvanas sees a seam in the patrol pattern and wants the pack through before it closes. Jaina wants one more sweep because the ground ahead feels layered with wards. Sylvanas calls the move before the read is finished.
-- The lost minutes at the farmhouse sharpen the pressure, but they do not excuse the mistake. The magical layer matters as much as the physical seam, and the opening may be real or staged.
+- The lost minutes at the farmhouse sharpen the pressure, but they do not excuse the mistake. Sylvanas's read of the patrol is right: the seam is real. She acts on her half before Jaina's half is in, and the magical layer matters as much as the physical seam.
 - They do not know how many ward layers sit ahead or whether the seam is a corridor or a kill zone.
 - Ground the decision: low ground under scrub oak, Sylvanas reading cover and timing, Jaina speaking a fraction too late.
 - The pack crosses into the trap.
+- Inside: the seam is real and closing; one more sweep, there is always one more sweep with mages; a day late since Millhaven and not again; calls it over Jaina's half-finished sentence and names that command
 
 ### Beat 4
 - The ward line detonates on Farstrider spacing. The first blast kills Lyriel at once. Jaina gets a barrier up in time to catch the second blast, and Sylvanas drags the survivors clear while taking a serious wound.
@@ -121,10 +126,19 @@
 - They break contact carrying grief and proof.
 
 ### Beat 5
-- They retreat with what they can carry. Jaina keeps the spell fragments and Barov papers. Cyndia kills a fleeing courier and gets a torn dispatch tying cult watchers to Hearthglen and Arthas's troop movement. The dying courier uses the same farewell phrase again, hard enough to stab Sylvanas's memory without solving it.
-- Sylvanas's wound is survivable but real, and Cyndia starts compensating for Lyriel's missing flank before she notices herself doing it. The dispatch opens a second lead.
+- As the cultists scatter, one robed figure among them does not run. He stands at the edge of the fight and watches the ground where the ward went off. A courier runs from his side with a dispatch case. Cyndia is close enough on the flank to hear the figure send the courier off with May the stars keep your road. Then he turns and walks away into the scrub.
+- Sylvanas sees only a robe standing still at a distance while she drags the survivors clear. On a first read he is one more cultist leaving a lost fight, and Cyndia takes the running courier as the target that matters.
+- They do not know who the figure is or why a cultist would send a runner off with a road farewell.
+- Ground the figure: one dark robe standing still while every other robe runs, ward smoke drifting between them, the courier's boots already pounding toward the orchard.
+- Second read (plant only; the prose must not explain it): he is checking that the trap did its work, and the courier carries his order. The ward was laid to the riders' spacing he watched on the Millhaven road and the Andorhal road. The rider who answered him at Millhaven is the one it killed.
+- Cyndia goes after the courier.
+
+### Beat 6
+- They retreat with what they can carry. Jaina keeps the spell fragments and Barov papers. Cyndia runs the courier down at an orchard terrace and gets a hand on his dispatch case. Pinned, he talks fast: the orders go south to Tyr's Hand, where the master waits. He twists free, the case tears in her grip, and he goes over the terrace wall and dies in the fall. Cyndia comes back with the torn half of the dispatch and the farewell she heard the robed figure give him. Sylvanas hears it secondhand, bleeding, with Lyriel dead, and it stabs her memory without solving it.
+- The torn dispatch ties cult watchers to Hearthglen and Arthas's troop movement. It contradicts the courier's Tyr's Hand story, so they drop his lead. Sylvanas's wound is survivable but real, and Cyndia starts compensating for Lyriel's missing flank before she notices herself doing it.
 - They do not know whether Hearthglen is target, pressure point, or collision point, or whether the repeated farewell belongs to one being, one cult group, or coincidence.
-- Ground the retreat: a blood-soaked bandage tied on the move, Cyndia checking an empty flank twice, a torn dispatch crackling in Jaina's hand.
+- Ground the retreat: a blood-soaked bandage tied on the move, the broken terrace wall below the orchard, Cyndia checking an empty flank twice, a torn dispatch crackling in Jaina's hand.
+- Second read (plant only; the prose must not explain it): the courier was sent out with the Tyr's Hand story ready in case he was caught. The lie is the robed figure's.
 - The surviving clues now point in two directions.
 
 ---
@@ -133,21 +147,26 @@
 
 **The action:** The clues finally sort cleanly, outside pressure closes in, and Lyriel's death forces the hunt to split.
 **Cast:** Sylvanas, Jaina, Cyndia, Lor'themar's runner, Antonidas via sending stone.
-**Starting point:** Lyriel is dead. The survivors hold spell fragments, Barov papers, one live Hearthglen dispatch, and almost no room left to be wrong.
+**Starting point:** Lyriel is dead. The survivors hold spell fragments, Barov papers, one torn Hearthglen dispatch, and almost no room left to be wrong.
 
-### Beat 6
-- On a ridge regroup, the evidence stops competing and starts sorting itself. The Barov papers and spell fragments belong to Jaina's line. The Hearthglen dispatch belongs to Sylvanas's. Lor'themar's runner brings news of cleaned sites and failing Farstrider patience, while Antonidas makes Kirin Tor suspicion formal.
+### Beat 7
+- On a ridge regroup, Sylvanas asks Cyndia to describe the robed man. Cyndia has a robe, at a distance, walking away into the scrub. There is nothing to hunt. Then the evidence stops competing and starts sorting itself. The Barov papers and spell fragments belong to Jaina's line. The Hearthglen dispatch belongs to Sylvanas's. Lor'themar's runner brings news of cleaned sites and failing Farstrider patience, while Antonidas makes Kirin Tor suspicion formal.
+- The runner also carries word of Millhaven's dead. The column reached the outer ward at the Thalassian border and burned on the runestones. Silvermoon reads it as proof that the wards hold and that the plague is Lordaeron's problem.
 - Barov involvement is stronger, but still not full guilt. Hearthglen is now a real military thread, not a rumor, and outside backing is narrowing on both leads.
 - They do not know whether Arthas will hear the plague as disaster or only as target, or whether Jaina can push the Barov line before her credibility closes.
 - Ground the pressure: cold wind over exposed stone, Lor'themar's tight handwriting, Antonidas's voice through the stone, Lyriel's absence shaping every pause.
 - No one can hold both leads.
+- Inside: she put Lyriel on that flank; the seam was real, she was right, and Lyriel is dead anyway; Jaina said wait, and she would rather not remember the exact word; Silvermoon reads burned dead as proof the wards hold, of course it does; wants to hit someone on the Convocation and settles for the map
 
-### Beat 7
+### Beat 8
 - The split becomes unavoidable. Jaina has to take the Barov thread alone because only she can use the papers, read the fragments, and maybe still get through Barov doors. Sylvanas and Cyndia have to ride the Hearthglen thread because they need military authority, and Arthas is the only nearby power big enough to matter.
 - Jaina takes the Barov papers, Cyndia's estate notes, and the spell fragments. Sylvanas and Cyndia take the Hearthglen and Arthas thread. The pack is permanently broken.
+- Sylvanas keeps Lor'themar's runner off the relay and posts him on the Darrowmere shore as a lake watch on Jaina's line. If Jaina crosses the lake and does not come back, he rides south to find Sylvanas.
+- Before they part, Jaina re-dresses Sylvanas's wound and ties it off one-handed with the Farstrider knot Lyriel taught her in the sick village. Sylvanas looks at the knot and says it will hold.
 - They do not know which lead will reach command first or whether separation saves the hunt or breaks it.
-- Ground the split: Jaina tying off Sylvanas's bandage, Cyndia checking the right flank even while standing still, everyone speaking only the parts that matter.
+- Ground the split: the knot pulled tight with Jaina's teeth, Cyndia checking the right flank even while standing still, everyone speaking only the parts that matter.
 - Chapter 10 and Chapter 11 begin from the split.
+- Inside: sending her across a lake alone, a day after moving too fast got one of her own killed; posts the runner on the shore and calls it procedure; would go with her, and can't, and won't say she would; Lyriel's knot in Jaina's teeth; says it will hold, and lets that be all she says
 
 ---
 
@@ -163,16 +182,19 @@
 - She carries the Barov paper trail, Cyndia's field notes on the estate approach, and the fractured spell fragments from the farmhouse.
 - The fragments hold useful necromantic bindings without the full waking curse.
 - Barov involvement is still a paper trail, not a confession.
+- Lor'themar's runner waits on the Darrowmere shore as a lake watch.
 
 **What carries into Chapter 11:**
 - Sylvanas and Cyndia take the Arthas / Hearthglen thread.
+- If Jaina crosses to Caer Darrow and does not come back, the lake watch rides south to tell Sylvanas.
+- Silvermoon has read the burning of Millhaven's dead on the runestones as proof that the wards hold.
 - Lyriel's death has shattered the unit, and Cyndia now checks the empty flank twice.
-- Sylvanas carries the fresh wound Jaina bandaged during the retreat.
+- Sylvanas carries the fresh wound Jaina bandaged at the split, tied off with Lyriel's knot.
 - Arthas matters because Farstrider and Kirin Tor backing are both collapsing.
-- The repeated farewell clue sharpens again, but remains unproven.
+- The farewell has reached Sylvanas a third time, secondhand. The robed man was a robe at a distance, walking away; there was nothing to hunt.
 
 **Do not add yet:**
 - Any Mal'Ganis identification.
 - Full Barov guilt.
-- A full answer to the old seller / newer grain-man / repeated farewell puzzle.
+- A full answer to the old carter, the newer grain-man, or the repeated-farewell puzzle.
 

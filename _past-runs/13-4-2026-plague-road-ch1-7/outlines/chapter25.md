@@ -138,7 +138,8 @@
 
 ### Beat 7
 - Sylvanas's memory locks into place all at once. Five earlier faces collapse into one operative line.
-- The grain trader and the Andorhal contact and the retreating figure and the military aide and the Stratholme-road merchant all resolve into the same enemy, the repeated star-road farewell stops being a curiosity and becomes a tell, and the new investigation lane is not only the blade but the disguised manipulator moving through the kingdom behind it.
+- The old carter on the Millhaven road, the tally-man walking out of Andorhal, the robed figure who walked away from the Eastweald fight, the aide in Arthas's camp and the carter in Stratholme's service lane all resolve into the same enemy. The repeated star-road farewell is now a tell they can hunt. The new investigation lane is the disguised manipulator moving through the kingdom behind the blade.
+- In the recognition, Sylvanas re-sees each covert contact: the old carter's question about the young grain-man, the tally-man's directions to Havel, the dispatch the courier carried away from the robed figure, the sealed manifest the aide handed to a carter for the Stratholme granaries, and the carter's nod that sent the acolyte off down the lane. Seeing them together, she understands that he was running the cult and watching his work.
 - They do not know how many other faces the same being wore without being caught or whether the tell remains usable now that the being knows it has been noticed.
 - Ground the recognition: five remembered farewells striking in sequence behind the ancient original, one dead language relighting five old scenes at once, Frostmourne pulsing above them while the pattern locks into place below.
 - The sequel gets its first real hunting tool.
@@ -159,6 +160,7 @@
 - Jaina named the truth: being right together was the mechanism; being right alone was never enough.
 - The larger enemy behind the visible war is real and operational.
 - Frostmourne will seek another hand.
+- Kel'Thuzad expected to return as a lich after his death. Nothing in Book 1 has closed that door.
 - Sylvanas now has a linguistic tell tied to the visitor's disguises.
 - The visitor has worn multiple earlier faces across the investigation.
 - The pair remain imprisoned while all of this is true.

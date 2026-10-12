@@ -4,7 +4,7 @@
 **When:** Two days after Chapter 3, after a southbound ride through country that still looks normal even with the sickness already in it.
 **Where:** A working village south of Millhaven where people are falling ill but have not named the outbreak for what it is.
 **Travel:** Southbound on Thalassian horses, then on foot inside the village.
-**Characters:** Jaina, Sylvanas, Cyndia, Lyriel.
+**Characters:** Jaina, Sylvanas, Cyndia, Lyriel, Captain Willem Brask (village militia).
 **Goal:** Learn how the sickness gets into people quickly enough to keep this village from becoming another Millhaven.
 
 ## References
@@ -16,30 +16,31 @@
 - Millhaven's dead marched north toward Quel'Thalas.
 - Millhaven looks like the first village on this road that was fully lost.
 - Other places can still look ordinary even when the sickness is already rooted in them.
-- Her magical sensitivity lets the party feel trouble earlier than most people would, but not early enough to save a village once the contamination is planted.
+- Her magical sensitivity lets the party feel trouble earlier than most people would, but at Millhaven it came too late to save anyone.
 - The plague is physical, pervasive, lethal, and necromantic in broad Kirin Tor terms, even if the exact banned method sits outside her training.
 - Neral already rode north with the survivor girl and the warning.
-- The old seller on the road and the girl's newer grain man are still only weak clues.
+- The old carter on the road and the girl's newer grain man are still only weak clues.
 
 **Still in the dark about:**
 - How the sickness first gets into the body.
 - Whether this village can still be saved.
 - Whether someone is steering the outbreak or it is spreading on its own.
 - The exact point where sickness becomes undeath.
-- Whether the old seller from the road actually matters.
+- Whether the old carter from the road actually matters.
 
 **Hold back:**
 - No grain connection before Jaina earns it from the patient pattern.
 - No proof of a cult before the granary scene.
-- No solved old seller mystery.
+- No solved old carter mystery.
 - No suggestion that Jaina knows nothing about necromancy. Her gap is in banned practice, not the field itself.
 
 **End of chapter state:**
 - Grain carries the plague into people.
 - Roads and storehouses are how the plague spreads.
 - A live watcher was inside the village and died by poison before he could be questioned.
+- The village lives. Captain Willem Brask stopped the grain on their word, and the early cases held under Jaina's wards.
 - Andorhal is the next destination on the route.
-- The old seller and the newer grain man are still unresolved scraps of information.
+- The old carter and the newer grain man are still unresolved scraps of information.
 
 ---
 
@@ -50,6 +51,7 @@
 - She keeps reaching for a clean magical answer and underrates Sylvanas's read of people, habits, and supply.
 - By the end, Jaina has the answer, but it comes through food, labor, timing, and Sylvanas's practical eye as much as through spellwork.
 - She stops treating Sylvanas like escort muscle and starts bringing the human side of the problem straight to her.
+- She leaves with a village that lives because they were on time, and with a ranger's knot in her hands that Lyriel taught her.
 
 ### Sylvanas through Jaina's POV
 - Jaina starts out reading Sylvanas as sharp, useful, and secondary to the real magical problem.
@@ -60,15 +62,17 @@
 - They enter the village as two specialists on the same road, but not the same method.
 - The investigation proves neither approach works alone.
 - They leave still tense, but now they are solving one problem together instead of arguing over whose kind of knowledge counts.
+- This is their one clean win: on time, and it holds.
 
 ---
 
 ## Cast and handoff rules
 
 - **Cyndia:** Still with the riding party.
-- **Lyriel:** Still with the riding party.
+- **Lyriel:** Still with the riding party. She works the infirmary beside Jaina and teaches her the Farstrider one-handed bandage knot.
 - **Neral:** Not with the party. She already left north with the survivor girl.
-- **Local village cast:** The militia captain, medic, granary keeper, and cult initiate belong to this outbreak site only.
+- **Captain Willem Brask:** The village militia captain. He blocks them, yields to Sylvanas, and stops the grain on their word. He does not return on-page. His only later appearance is a sworn letter for the defence in Chapter 23.
+- **Local village cast:** The medic, granary keeper, and cult initiate belong to this outbreak site only.
 
 **Next chapter starts:** Chapter 5 opens with the same four riders following the grain road southwest.
 
@@ -85,7 +89,7 @@
 - The plague is already here even though ordinary life is still running. Jaina knows this place is earlier in the same pattern Millhaven finished.
 - They don't know how the sickness gets in or whether stepping in now can still change the outcome.
 - Ground the arrival: bread smoke over the lane, coughing buried under village noise, a flushed child kept on her feet because no one knows better.
-- A militia captain stops them before they can move freely.
+- The militia captain, Willem Brask, stops them before they can move freely.
 
 ### Beat 2
 - The captain has no reason to trust armed outsiders in the middle of an outbreak. Sylvanas gets them through by making Millhaven concrete enough to scare him without sparking panic.
@@ -93,6 +97,7 @@
 - They don't know if this village is following Millhaven's full pattern or whether the captain can keep order if panic starts.
 - Ground the exchange: work-rough hands on a spear shaft, Sylvanas lowering her voice instead of raising it, the words no one left in Millhaven landing hard.
 - Once the captain yields, Jaina heads to the sick while Sylvanas starts reading the village.
+- Inside: could not have done that, and is annoyed she couldn't; had the ranger filed as escort muscle and has to refile her; she would have explained the necromancy to him, at length, which is worse than a spear; how did Sylvanas know how hard to press, and can it be learned
 
 ### Beat 3
 - In the infirmary, Jaina studies living cases and finds the same necromantic pattern she saw at Millhaven, only this time it is still moving through warm bodies.
@@ -111,9 +116,9 @@
 
 ### Beat 4
 - Jaina throws stabilization wards over the worst cases, but the magic only buys time. She cannot help people fast enough if the village keeps swallowing the source.
-- Partial magical relief is possible, and most patients are still early enough to matter. That makes the missing entry route more urgent, not less.
+- Partial magical relief is possible, and most patients are still early enough to matter. That makes the missing entry route more urgent. Lyriel, hauling water and cots, watches Jaina try to tie off a dressing one-handed while her other hand holds a ward. She shows her the Farstrider one-handed knot: loop it over the thumb, turn the wrist under, pull the tail through, and set it with the teeth. "We learn it so we can patch our own mistakes." Jaina ties the next dressing herself.
 - They don't know what the patients are all eating or how one source is reaching so many houses at once.
-- Ground the treatment: blue ward-light over amber wrongness, a farmer's wife finally going still, a child watching from the corner while Jaina works.
+- Ground the treatment: blue ward-light over amber wrongness, a farmer's wife finally going still, Lyriel's quick hands over Jaina's on the linen, a child watching from the corner while Jaina works.
 - She starts comparing symptoms to diet and routine instead of reaching for a cleaner magical answer.
 
 ### Beat 5
@@ -122,6 +127,7 @@
 - They don't know who is poisoning the grain or where the tainted stock enters local storage.
 - Ground the realization: the bakery visible from the infirmary door, grain dust on wood and sleeves, Jaina gripping the frame when the answer lands.
 - She has the body-side truth, but not yet the road-side source.
+- Inside: the pleasure of it clicking, in a room full of fevers; earned from the bodies in the right order, proud of that, and ashamed of being proud; bread, so who bakes, who mills, who sells; no, slower, the oat-eaters first, rule out the comfortable answer; the road half still missing, and Sylvanas out there with it
 
 ### Beat 6
 - While Jaina works the bodies, Sylvanas works the village memory. She asks about prices, deliveries, and routine until the small changes start lining up.
@@ -141,7 +147,7 @@
 
 ## Scene 3: The Granary
 
-**The action:** The village investigation turns into an active hunt inside the grain stores.
+**The action:** The village investigation turns into an active hunt inside the grain stores, and the village is saved.
 **Cast:** Jaina, Sylvanas, Cyndia, Lyriel, cult initiate, militia captain.
 **Starting point:** Grain is the carrier, and the granary is where they can prove it.
 
@@ -167,11 +173,12 @@
 - With the witness gone, they are left with the road.
 
 ### Beat 11
-- With the village only partly helped and the route finally visible, Jaina and Sylvanas have to choose between staying here and riding after the source before more towns fall. They choose the grain road southwest.
-- Andorhal becomes a real destination instead of a guess, and the two of them are now working the same puzzle from different sides. The village can be stabilized, but not saved by waiting.
-- They don't know who sits at the center of the network or whether they can get ahead of the spread.
-- Ground the departure: night coughing through ordinary houses, the hum fading from Jaina's tired hands, the thought of wagons already moving farther south.
-- Chapter 5 opens with the ride after the grain road.
+- The witness is dead, but they are still in time here, and they use it. Brask closes the granary and the bakery on their word, sends riders after the last flour cart, and burns the tainted stock in the yard. Jaina holds her wards over the sick through the night.
+- By morning the early cases are holding and the first fevers have broken. The village will live. Brask writes their names in his own ledger so he can tell it right if anyone asks. Andorhal becomes a real destination instead of a guess, and they choose the grain road southwest.
+- They don't know who sits at the center of the network or whether they can get ahead of the spread anywhere else.
+- Ground the departure: flour burning sour in the granary yard, cold ovens, the hum fading from Jaina's tired hands, Brask's pen scratching their names.
+- Chapter 5 opens with the ride after the grain road, one living village behind them.
+- Inside: on time, here, and it held; wants to call it a win and keeps checking the fevers instead; the dead initiate, and whether a faster barrier would have kept him talking; Millhaven not undone by any of this; the knot she can tie now, and the silly comfort of it
 
 ---
 
@@ -185,13 +192,15 @@
 
 **What carries into Chapter 5:**
 - Grain is confirmed as the plague carrier.
+- The village lives. Captain Willem Brask stopped the grain on their word and wrote their names in his ledger.
+- Jaina can tie the Farstrider one-handed knot Lyriel taught her.
 - Roads and storehouses are how the plague spreads.
 - A live watcher existed inside the village and died by poison rather than talk.
 - The party's next move is to follow the route southwest toward Andorhal.
 - Millhaven remains the first village fully claimed in the pattern, while other settlements are still in earlier stages.
-- The old seller and the survivor's newer grain man remain weak but persistent clues.
+- The old carter and the survivor's newer grain man remain weak but persistent clues.
 
 **Do not add yet:**
 - Any Barov connection.
-- Concrete recognition of the old grain seller's identity.
+- Concrete recognition of the old carter's identity.
 - Open emotional trust between Jaina and Sylvanas.

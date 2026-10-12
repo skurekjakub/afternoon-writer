@@ -30,8 +30,8 @@
 - Ch 9: her analysis-over-time mistake draws blood.
 - Ch 10-12: Scholomance and Kel'Thuzad force her to see how close brilliance can stand to monstrosity.
 - Ch 16-18: Stratholme proves being right means nothing if no one will move with you.
-- Ch 21-23: learns Frostmourne's rhythm, invents the answer in the throne room, and saves Sylvanas by being exactly as dangerous as Sylvanas first thought.
-- Ch 25: the institutions fail her. The partnership does not.
+- Ch 20-22: learns Frostmourne's rhythm, invents the answer in the throne room, and saves Sylvanas by being exactly as dangerous as Sylvanas first thought.
+- Ch 24: the institutions fail her. The partnership does not.
 
 ## Carry-forward
 - Her late-book power should feel expensive, not effortless.

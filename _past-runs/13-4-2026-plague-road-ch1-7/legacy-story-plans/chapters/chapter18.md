@@ -90,7 +90,7 @@
 - What, exactly, the residue will teach her; Warm parapet stone under both palms; Fire eating through buildings block by block instead of one general blaze; a silence made louder by the ordinary city hum no longer being there.
 ### Beat 2
 - Arthas's concern with presentation survived intact all the way to atrocity
-- The Alterac ruling now reads as a small-scale version of the same fatal gap between speed and judgment. Jaina's old diagnosis was accurate and useless at once. They do not know whether being right about Arthas can ever do more than mark the shape of the damage or how much of this reading comes from history and how much from the wall.
+- The internment-camp night, when Arthas was sure before he had looked, now reads as a small-scale version of the same fatal gap between speed and judgment. Jaina's old diagnosis was accurate and useless at once. They do not know whether being right about Arthas can ever do more than mark the shape of the damage or how much of this reading comes from history and how much from the wall.
 - Pale hands catching firelight with no blood on them; the memory of a circlet straightened in a mirror; Heat on Jaina's face from a city her science could not save.
 ### Beat 3
 - Stratholme gives Jaina the first true city-scale activation read she has ever had

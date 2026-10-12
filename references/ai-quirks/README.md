@@ -5,7 +5,7 @@ A categorized library of ~850 bad/good prose example pairs, organized by anti-pa
 ## How Agents Should Use This
 
 ### Slop Editor (v1 → v2)
-Read ALL sentence-level files (01-07) before editing. These are your primary hunting targets. Skim paragraph-level (08-11) for context.
+Read ALL sentence-level files (01-13) before editing. These are your primary hunting targets. Skim paragraph-level (08-11) for context.
 
 ### Expander (v2 → v3)
 Read paragraph-level files (08-11) before expanding. When expanding near transitions, also read scene-level (12-16). Expansion must not introduce quirks — check 01-07 after expanding.
@@ -31,6 +31,12 @@ Word and phrase-level patterns. Most granular, most enforceable.
 - **05-ai-vocabulary.md** — delve, tapestry, ethereal, palpable, cascaded, emboldened
 - **06-said-bookisms.md** — dialogue attribution: bookisms, adverb-on-tag, beat overload
 - **07-punctuation-tics.md** — em dash clusters, semicolons, no contractions, length uniformity
+- **08-permission-tags.md** — `she let it`, `let it settle`, `let the fear do its work`
+- **09-contact-verb-agency.md** — body parts that `found`, discovery-wrapper `found`, sensations that `settled`
+- **10-counting-devices.md** — counted strides, heartbeats and arrows, clock minutes, distances by number
+- **11-unplaceable-then-placed.md** — `a smell she couldn't place, [identifies it]`; disclaimed then answered
+- **12-claim-then-gloss.md** — statement then a sentence that explains, caps or puns on it; `Which left X.`; `Close enough to reach. Close enough to be reached.`
+- **13-no-look-handoff.md** — `Without looking, she held X out. Y took it.`
 
 ### paragraph-level/ (files 08-11)
 Paragraph rhythm, structure, and grounding. Requires reading 3-5 paragraphs in context.

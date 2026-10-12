@@ -1,0 +1,881 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 40,
+      "kills": 13,
+      "keeps": 27,
+      "severityMarkers": {
+        "clusterPages": [
+          "storeroom L277-L283 (3 kills)",
+          "closing L309-L333 (4 kills)"
+        ],
+        "clusterWarnings": [
+          "'nothing/nobody/no X but Y' shape repeats 3x (L193, L203, L329)"
+        ]
+      },
+      "dominantPattern": "N7-chained-negation / N2-nothing-but-pivot",
+      "notes": "Bare negative facts with no contrast structure (e.g. 'No one carried.', 'He didn't smile.', 'Nobody saw her before dawn.') were screened out as non-candidates. KEEP share is above 20% because many candidates are Step-1 imperatives or binary diagnostics in the spy/envoy reasoning (L207-L213, L257). Each KEEP was re-run against the adversarial self-check; see scratchpad.",
+      "findings": [
+        {
+          "id": "A-NEG-01",
+          "line": 19,
+          "text": "bows half-drawn, eyes on the treeline instead of each other.",
+          "pattern": "N1-direct-contrast-pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Pattern 1 ('X instead of Y'). Deletion test passes: 'eyes on the treeline' carries the discipline alone; the rejected alternative is scaffolding.",
+          "suggestedFix": "bows half-drawn, still facing the treeline.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "bows half-drawn, eyes on the treeline."
+        },
+        {
+          "id": "A-NEG-02",
+          "line": 49,
+          "text": "He didn't point out that the southern ring had been walked three weeks ago and that she had signed the report herself.",
+          "pattern": "N5-preamble-negation",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 5. The fact is delivered through what Lor'themar did not say, then the next sentence gives what he did ('He let it sit'). State the fact directly; 'He let it sit' still carries the unspoken read.",
+          "suggestedFix": "Her own rangers had walked the southern ring three weeks ago, and she had signed the report herself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "He let it sit exactly as long as it took her to know that he knew... (fact must be restated affirmatively, not lost)"
+        },
+        {
+          "id": "A-NEG-03",
+          "line": 89,
+          "text": "Instead of answering, she touched her heels to the mare's sides.",
+          "pattern": "N1-direct-contrast-pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Pattern 1. The very next paragraph already says 'make him ride rather than make herself talk'; the 'Instead of answering' pivot duplicates that contrast. Deletion test passes.",
+          "suggestedFix": "She touched her heels to the mare's sides.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "She touched her heels to the mare's sides."
+        },
+        {
+          "id": "A-NEG-04",
+          "line": 193,
+          "text": "Nothing was left but the thrush somewhere up in the canopy, trying the same three notes.",
+          "pattern": "N2-nothing-but-pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "'Nothing ... but Y' fragment-pivot shape; repeats in the same scene (see A-NEG-05) and again at L329, so the cluster rule applies. Start at the thrush.",
+          "suggestedFix": "Then the thrush had the woods to itself, somewhere up in the canopy, trying the same three notes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The thrush, somewhere up in the canopy, trying the same three notes."
+        },
+        {
+          "id": "A-NEG-05",
+          "line": 203,
+          "text": "She had the words nearly out before she found nobody there but the wind.",
+          "pattern": "N2-nothing-but-pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Second 'no X but Y' in the same scene as A-NEG-04; cluster rule (same shape repeating across a scene) makes every instance KILL. Fix keeps the absence of Lor'themar as an affirmative recall.",
+          "suggestedFix": "She had the words nearly out before she remembered who had ridden north.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "She had the words nearly out before she found the wind."
+        },
+        {
+          "id": "A-NEG-06",
+          "line": 227,
+          "text": "Four rangers stood about the room, none of them sitting.",
+          "pattern": "N4-minimizer-restatement",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Negative restatement of the affirmative already given ('stood'). Deletion test passes with no loss.",
+          "suggestedFix": "Four rangers stood about the room.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Four rangers stood about the room."
+        },
+        {
+          "id": "A-NEG-07",
+          "line": 277,
+          "text": "with room enough to sit up straight and not much else.",
+          "pattern": "N4-minimizer-pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Minimizer tail ('and not much else'). Sits in the storeroom cluster with A-NEG-08 and A-NEG-09, so the borderline case is downgraded to KILL. Fix states the chain's limit affirmatively and still sets up 'She was sitting up straight.'",
+          "suggestedFix": "short enough that sitting up straight took all its slack.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "with room enough to sit up straight.",
+          "clusterDowngrade": true
+        },
+        {
+          "id": "A-NEG-08",
+          "line": 281,
+          "text": "The ward-light came down cold on her face and found nothing soft in it.",
+          "pattern": "N5-preamble-negation",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Defines the face by the softness it lacks, then the following sentences supply the real description (bruised skin, split lip). Same fix resolves intent-smear A-INT-10.",
+          "suggestedFix": "In the cold ward-light Sylvanas could see every hard line of her face.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The skin under her eyes had gone dark as a bruise... (survives)",
+          "clusterPage": "storeroom, L277-L283"
+        },
+        {
+          "id": "A-NEG-09",
+          "line": 283,
+          "text": "But the Pass wasn't cold enough for that yet, not this early, not even on the tops, and the woman hadn't come over the tops.",
+          "pattern": "N7-chained-negation",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 7: four chained refusals (wasn't / not / not even / hadn't). The deduction (the burn is not weather) is a real clue and must survive; the fix keeps it with affirmative clauses.",
+          "suggestedFix": "But the Pass only got cold enough for that in deep winter, on the tops, and the woman had come up the scree well below them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "and the woman had come up the scree (clue survives affirmatively)",
+          "clusterPage": "storeroom, L277-L283"
+        },
+        {
+          "id": "A-NEG-10",
+          "line": 309,
+          "text": "There would not be several letters. There would be dozens, every one of them sealed in violet.",
+          "pattern": "N6-count-reset",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 6 count reset, matching the calibration example 'This was not one rush. Several passes.' The callback to Lor'themar's line can be made affirmatively.",
+          "suggestedFix": "Lor'themar had said several letters. There would be dozens, every one of them sealed in violet.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "There would be dozens, every one of them sealed in violet."
+        },
+        {
+          "id": "A-NEG-11",
+          "line": 325,
+          "text": "She would get none standing in the doorway.",
+          "pattern": "N2-fragment-pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Defines the next action by refusal ('get none standing'). Lands next to A-NEG-12 and A-NEG-13 in the closing page, so the cluster rule applies. Fix states the action.",
+          "suggestedFix": "She would have to go and find one.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "She had no reason to trust a word the woman said. (action lost; rewrite affirmatively)",
+          "clusterDowngrade": true
+        },
+        {
+          "id": "A-NEG-12",
+          "line": 329,
+          "text": "Nobody spoke. There was no sound but the wind in the slit and the faint clink of chain as the mage's hands shifted in her lap. Then that stopped too.",
+          "pattern": "N8-negation-stack",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Two stacked negations ('Nobody spoke' + 'no sound but') building to ordinary nouns (wind, chain), third 'nothing/no X but Y' of the chapter. Start at the sounds. Fix also absorbs 'Then that stopped too,' which would lose its referent.",
+          "suggestedFix": "Around her the rangers held still. Wind whined in the slit, and chain clinked faintly as the mage's hands shifted in her lap, then went quiet.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The wind in the slit and the faint clink of chain as the mage's hands shifted in her lap.",
+          "clusterPage": "closing, L309-L333"
+        },
+        {
+          "id": "A-NEG-13",
+          "line": 333,
+          "text": "The eyes were blue, the whites shot red with sleeplessness, and they didn't drift to the staff or to Cyndia or to the open door.",
+          "pattern": "N7-chained-negation",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 7: three refused destinations and no affirmative statement of where the eyes are. The tactical read (prisoner not eyeing weapon or exit) survives in the fix. Same fix resolves A-INT-13.",
+          "suggestedFix": "The eyes were blue, the whites shot red with sleeplessness, and she kept them on Sylvanas, though the staff and the open door were both an easy glance away.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The eyes were blue, the whites shot red with sleeplessness, and [they stayed on Sylvanas].",
+          "clusterPage": "closing, L309-L333"
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 29,
+      "kills": 13,
+      "keeps": 16,
+      "severityMarkers": {
+        "clusterFlags": [
+          "L89-L105 (A-INT-03..06)",
+          "storeroom/closing L277-L333 (A-INT-09,10,12,13)"
+        ],
+        "repeatNouns": [
+          "the post (L95, L141)"
+        ],
+        "pattern4Alert": "no (A-INT-11 is city metonymy, not self-deception)"
+      },
+      "dominantPattern": "P8-body-part-subject",
+      "secondSweep": "Extra P5/P6 sweep for pass A done. It added A-INT-08 (palisade huddled), A-INT-09 (hair given up), A-INT-12 (doorway shown) and A-INT-05 (mouth thoughtful). Checked and kept as literal or physical: boulders shouldering up, trees folded over the sound, pack slumped, cold air met her, the storeroom kept pork, light slid over her boots. 'answered hollow under Liron's hands' (L317) was looked at for instrument-phrase demotion and kept on subject-matter grounds (ward-stone reading is the chapter's defined mechanism).",
+      "findings": [
+        {
+          "id": "A-INT-01",
+          "line": 11,
+          "text": "He ran two more strides on legs that hadn't heard yet.",
+          "pattern": "P8-body-part-cognition",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Legs given hearing. Real agent: his dying body still running. The involuntary-motion exception covers the motion, not the cognition verb.",
+          "suggestedFix": "He ran two more strides on dead legs.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "legs",
+          "verb": "hadn't heard",
+          "realAgent": "his body, already dead"
+        },
+        {
+          "id": "A-INT-02",
+          "line": 59,
+          "text": "Her back teeth knew when she passed a ward-stone, a faint pressure just below hearing that came up through the mare's hooves and into her spine.",
+          "pattern": "P8-body-part-cognition",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 8 test passes: put Sylvanas back as subject and the meaning holds. The ward-hum is subject matter and stays; only 'knew' on the teeth goes.",
+          "suggestedFix": "She felt each ward-stone in her back teeth as she passed it, a faint pressure just below hearing that came up through the mare's hooves and into her spine.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "her back teeth",
+          "verb": "knew",
+          "realAgent": "Sylvanas, feeling the ward pressure"
+        },
+        {
+          "id": "A-INT-03",
+          "line": 89,
+          "text": "Her fingers closed on the reins.",
+          "pattern": "P8-body-part-volition",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Body-part subject taking her reaction; no involuntariness is signaled. Character-as-subject test passes.",
+          "suggestedFix": "She closed her hand hard on the reins.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "her fingers",
+          "verb": "closed",
+          "realAgent": "Sylvanas"
+        },
+        {
+          "id": "A-INT-04",
+          "line": 95,
+          "text": "Nothing at that post would want anything from her—nothing there ever did.",
+          "pattern": "P5-place-wanting",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Pattern 5 ('the city wanted something from her'). The post wants nothing; Cyndia and her rangers do. Repeat-noun rule: 'the post' is given wanting twice (see A-INT-07).",
+          "suggestedFix": "Nobody at that post would want anything from her—Cyndia never did.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "that post / nothing there",
+          "verb": "would want",
+          "realAgent": "Cyndia and the post's rangers"
+        },
+        {
+          "id": "A-INT-05",
+          "line": 97,
+          "text": "mouth gone thoughtful",
+          "pattern": "P8-body-part-cognition",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Mouth given a mental state. Real agent: Lor'themar, about to speak. The fix gives the visible tell that 'You were about to' answers.",
+          "suggestedFix": "lips pursed on a remark",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "mouth",
+          "verb": "gone thoughtful",
+          "realAgent": "Lor'themar"
+        },
+        {
+          "id": "A-INT-06",
+          "line": 105,
+          "text": "Sylvanas's fingers found the bowstring before she had decided to reach for it.",
+          "pattern": "P8-body-part-found",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Canonical 'X found' body-part verb. The reflex exception is arguable, but it sits within a page of A-INT-03, A-INT-04 and A-INT-05, so the cluster rule downgrades it. Fix keeps the reflex ('before she had decided').",
+          "suggestedFix": "Sylvanas had two fingers on the bowstring before she had decided to reach for it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "fingers",
+          "verb": "found",
+          "realAgent": "Sylvanas (trained reflex)",
+          "clusterDowngrade": true,
+          "toolSignal": "contact_found"
+        },
+        {
+          "id": "A-INT-07",
+          "line": 141,
+          "text": "So much for the post that never wanted anything from her.",
+          "pattern": "P5-place-wanting",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Second time 'the post' wants or doesn't want something (repeat-noun rule). The real agent is the post commander, who is the one sending the summons.",
+          "suggestedFix": "So much for Cyndia never wanting anything from her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the post",
+          "verb": "never wanted",
+          "realAgent": "Cyndia"
+        },
+        {
+          "id": "A-INT-08",
+          "line": 215,
+          "text": "a timber palisade huddled behind it",
+          "pattern": "P6-architecture-posture",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Architecture given a cold or frightened human posture. Real fact: the palisade stands close behind the tower. Caught by the pass-A geography and architecture sweep.",
+          "suggestedFix": "a timber palisade built tight against its back",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "palisade",
+          "verb": "huddled",
+          "realAgent": "builders' layout; physical placement"
+        },
+        {
+          "id": "A-INT-09",
+          "line": 277,
+          "text": "and had given up somewhere on the scree",
+          "pattern": "P5-object-giving-up",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Hair given the decision to quit. Real agent: the climb shook the pins loose.",
+          "suggestedFix": "and had come down somewhere on the scree",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "her hair",
+          "verb": "had given up",
+          "realAgent": "the climb loosening the pins"
+        },
+        {
+          "id": "A-INT-10",
+          "line": 281,
+          "text": "The ward-light came down cold on her face and found nothing soft in it.",
+          "pattern": "P10-actor-omitted",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Light given the act of finding or judging. The real actor (Sylvanas assessing the face) is left out. Same sentence as A-NEG-08; shared fix.",
+          "suggestedFix": "In the cold ward-light Sylvanas could see every hard line of her face.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "ward-light",
+          "verb": "found",
+          "realAgent": "Sylvanas"
+        },
+        {
+          "id": "A-INT-11",
+          "line": 317,
+          "text": "At Dalaran for whatever it had done or failed to do.",
+          "pattern": "P4-institution-acting",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "A city doing and failing to do. The real actor is named in the paragraph just before ('Either the old man had let his one apprentice walk out... or he had no idea where she was'), so the metonymy is avoidable.",
+          "suggestedFix": "At Antonidas for whatever he had done or failed to do.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "Dalaran",
+          "verb": "had done or failed to do",
+          "realAgent": "Antonidas"
+        },
+        {
+          "id": "A-INT-12",
+          "line": 333,
+          "text": "From here Sylvanas could see what the doorway hadn't shown her.",
+          "pattern": "P10-location-showing",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Doorway given the verb 'shown'. Real agent: Sylvanas's earlier vantage point. Put the actor back in subject position and the meaning holds.",
+          "suggestedFix": "From here Sylvanas could see what she had missed from the doorway.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the doorway",
+          "verb": "hadn't shown",
+          "realAgent": "Sylvanas, from the doorway"
+        },
+        {
+          "id": "A-INT-13",
+          "line": 333,
+          "text": "The eyes were blue, the whites shot red with sleeplessness, and they didn't drift to the staff or to Cyndia or to the open door.",
+          "pattern": "P8-body-part-volition",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Eyes as the subject of 'drift' (Pattern 8); the mage is choosing where to look. Same sentence as A-NEG-13; shared fix. Third intent-smear kill on the closing page.",
+          "suggestedFix": "The eyes were blue, the whites shot red with sleeplessness, and she kept them on Sylvanas, though the staff and the open door were both an easy glance away.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the eyes",
+          "verb": "didn't drift",
+          "realAgent": "the mage",
+          "clusterPage": "closing, L329-L333"
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 20,
+      "kills": 11,
+      "keeps": 9,
+      "severityMarkers": {
+        "tic1_cornerMouth": "1/1 cap",
+        "tic2_marked": "0/2",
+        "tic3_tightened": "3/3 cap, only 1 physical (half-physical rule violated)",
+        "tic3_eased": "2/2 cap, both physical",
+        "tic4_facialShifted": "0/1",
+        "tic5_gaze": "11/4 cap (7 killed; L281, L287, L331, L333-after-fix kept)",
+        "tic6_weight": "0/2",
+        "tic7_tags": "0 performance tags; 1 adverb tag",
+        "toolOverCap": "punct_colon_narration 7/6"
+      },
+      "dominantPattern": "T5-gaze-beat",
+      "findings": [
+        {
+          "id": "A-TIC-01",
+          "line": 259,
+          "text": "arms tightening over her chest",
+          "pattern": "T3-tightened-emotional",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Tightened count is 3 (L249 skull 'drew tight', L259 arms, L317 grip), and only 1 of the 3 is physical, below the half-physical rule. This is the most generic emotional instance; Cyndia's folded arms are already set up at L141.",
+          "suggestedFix": "arms folded hard over her chest",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "ticCount": 3,
+          "cap": 3
+        },
+        {
+          "id": "A-TIC-02",
+          "line": 75,
+          "text": "He glanced over, the reins slack in one hand.",
+          "pattern": "T5-gaze-beat",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Gaze beats: 11 against a cap of 4. Generic glance in the dialogue run, and a filler_glanced tool hit.",
+          "suggestedFix": "He rode with the reins slack in one hand.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "ticCount": 11,
+          "cap": 4,
+          "toolSignal": "filler_glanced"
+        },
+        {
+          "id": "A-TIC-03",
+          "line": 97,
+          "text": "She knew that look, too.",
+          "pattern": "T5-gaze-beat",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Generic 'that look' gaze beat (Tic 5 over cap). The fix sends the read through the remark she expects, which the next line ('Don't.') answers.",
+          "suggestedFix": "She could hear it coming.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "ticCount": 11,
+          "cap": 4
+        },
+        {
+          "id": "A-TIC-04",
+          "line": 129,
+          "text": "Sylvanas kept her eyes on the runner.",
+          "pattern": "T5-gaze-beat",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Tic 5 over cap. Delete. Lor'themar's creaking saddle followed directly by her next question ('Wrong how?') already shows she won't turn to him.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "ticCount": 11,
+          "cap": 4,
+          "fixType": "deletion"
+        },
+        {
+          "id": "A-TIC-05",
+          "line": 167,
+          "text": "This time she held it and did not look away first.",
+          "pattern": "T5-gaze-beat",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "'She held his gaze' variant, which the guide lists as a generic connection beat. Tic 5 over cap.",
+          "suggestedFix": "This time she waited him out.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "ticCount": 11,
+          "cap": 4
+        },
+        {
+          "id": "A-TIC-06",
+          "line": 203,
+          "text": "She breathed out through her teeth and kept her eyes forward after that.",
+          "pattern": "T5-gaze-beat",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Emotional avoidance sent through the eyes, Tic 5 over cap. The fix ties back to 'Twice on the climb she turned her head.'",
+          "suggestedFix": "She breathed out through her teeth and stopped turning her head after that.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "ticCount": 11,
+          "cap": 4
+        },
+        {
+          "id": "A-TIC-07",
+          "line": 289,
+          "text": "One look at Sylvanas, and she had put it away.",
+          "pattern": "T5-gaze-beat",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Repeats the assessment look from L287 ('She took in Sylvanas once, fast'), Tic 5 over cap. L287 is the more specific instance and stays.",
+          "suggestedFix": "She had put it away the moment Sylvanas filled the doorway.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "ticCount": 11,
+          "cap": 4
+        },
+        {
+          "id": "A-TIC-08",
+          "line": 19,
+          "text": "bows half-drawn, eyes on the treeline instead of each other.",
+          "pattern": "T5-gaze-beat",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Tic 5 over cap. The rangers' orientation carries the discipline without an eye beat. Same text as A-NEG-01; shared fix.",
+          "suggestedFix": "bows half-drawn, still facing the treeline.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "ticCount": 11,
+          "cap": 4
+        },
+        {
+          "id": "A-TIC-09",
+          "line": 31,
+          "text": "This was the part of the day she liked best: the quiet after the kill, the work done properly, everyone she'd brought out still alive to be irritating.",
+          "pattern": "punct-colon-narration-over-cap",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Narration colons: 7 against a cap of 6 (tool over_cap). This is the weakest one, a thesis-and-reveal colon; the others introduce concrete lists or the L311 reveal.",
+          "suggestedFix": "She liked this part of the day best, the quiet after the kill, with the work done properly and everyone she'd brought out still alive to be irritating.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "ticCount": 7,
+          "cap": 6,
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "id": "A-TIC-10",
+          "line": 305,
+          "text": "Her stomach dropped—a short, ugly lurch, like missing a stair in the dark.",
+          "pattern": "body-cliche-stomach-dropped",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Stock body cliche (tool hit), stacked against the heartbeat line right after it and part of a run of somatic tells in the back half (L123, L249, L305, L317). The fix keeps the missed-stair image and gives it a visible action at the doorframe she has just stepped back through.",
+          "suggestedFix": "Sylvanas set a hand on the doorframe, as she would on a missed stair in the dark.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "cliche_stomach_dropped"
+        },
+        {
+          "id": "A-TIC-11",
+          "line": 103,
+          "text": "he said mildly",
+          "pattern": "T7-adverb-on-tag",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Adverb tag (tool hit). Lor'themar's mild register is already set ('His voice stayed perfectly pleasant'), and the dry line carries its own tone.",
+          "suggestedFix": "he said",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "adverb_on_tag"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 37,
+    "totalKeeps": 52,
+    "mildKills": 26,
+    "moderateOrSevereKills": 11,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 37,
+    "killsUnfixable": 0,
+    "sharedFixGroups": [
+      [
+        "A-NEG-01",
+        "A-TIC-08"
+      ],
+      [
+        "A-NEG-08",
+        "A-INT-10"
+      ],
+      [
+        "A-NEG-13",
+        "A-INT-13"
+      ]
+    ],
+    "verdict": "fail",
+    "verdictReason": "11 MODERATE kills (chained and stacked negation, count reset, 'the post' given wants twice, body-part cognition) plus 26 MILD. Gaze beats run 11 against a cap of 4. Narration colons are over cap. Structural texture deficit (participial 5.8% vs 12% target). Structural rhythm concerns: long_sentence_pct 17.5 above 14 range max; opener entropy 6.3 below 7.2 range min.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.605,
+        "target": 0.72,
+        "delta": -0.115,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.783,
+        "target": 0.7,
+        "delta": 0.083,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 23.8,
+        "target": 19.0,
+        "delta": 4.8,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 38.7,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 17.5,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.3,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct above range",
+        "opener_entropy below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 82.1,
+      "verdict_reasons": [
+        "participial: 5.8% below target 12.0% (score 54/100)",
+        "compound: 11.9% above target 10.0% (score 84/100)",
+        "emdash: 2.5% below target 4.0% (score 90/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.8% → target 12.0% (score 54/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 11.9% → target 10.0% (score 84/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.5% → target 4.0% (score 90/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegram_run_count": 10,
+      "texture_desert_count": 9,
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 49,
+        "total_violations": 1,
+        "overCap": [
+          {
+            "category": "punctuation_tics",
+            "pattern": "punct_colon_narration",
+            "count": 7,
+            "cap": 6
+          }
+        ],
+        "passAMappedSignalsKilled": [
+          "filler_glanced L75",
+          "punct_colon_narration L31",
+          "cliche_stomach_dropped L305",
+          "adverb_on_tag L103",
+          "contact_found L105 (corroborating)"
+        ],
+        "passAMappedSignalsKept": "see scratchpad (participial_trailing x11, punct_semicolon x9, simile_* x7, filler_glanced L297, filler_nodded, filler_frowned, filter_watched, filter_decided, remaining 6 colons)",
+        "outOfPass": [
+          "hedge_simply L257 -> pass B",
+          "something_vague L259 -> pass B"
+        ]
+      }
+    }
+  }
+}

@@ -480,7 +480,7 @@ Third use: "I know." Quiet. The kind of quiet that meant she'd already moved thr
 She smiled at the joke. [paragraph] ... She smiled when Tiku walked in. [paragraph] ... A smile crossed her face as she read the letter.
 
 **Good:**
-First use: The joke landed. She let it — a huff of air through her nose, almost a laugh.
+First use: The joke landed. A huff of air through her nose, almost a laugh.
 Second use: Tiku in the doorway, rain-soaked and swearing. Something in her chest unclenched.
 Third use: The letter. She read it twice, the second time slower, and when she set it down her hands were steady for the first time in days.
 

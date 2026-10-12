@@ -1,0 +1,19 @@
+Chapter1 went through every pipeline step and was assembled with no blocks or degradations. The manifest status is "completed".
+
+The final chapter is at `.afternoon/chapters/chapter1/final.md`, about 6,127 words.
+
+- **Slop-gate:** both passes failed the first time and cleared after three revision rounds, so the revision cap was not reached.
+- **Grounding-gate:** it failed twice more before passing at the third and last allowed iteration, so it came close to the cap.
+
+Four items came back from the agents unresolved:
+- **Cyndia and the kit:** Theris says Cyndia was already going through Jaina's kit when he left. Cyndia later says the book sat untouched for an hour after he left. The grounding-gate and the memory-keeper both flagged this as unresolved.
+- **Chapter 2 plan mismatch:** `chapter2.json` assumes Jaina is held in a warded circle with an anchor-stone barrier. Chapter 1 has her chained to a floor ring-bolt, with no barrier. Either chapter 1 gets a one-line rune-ring mention or chapter 2's plan changes.
+- **Ranger staging:** line 201 ("He had taken the junior's place a length off the mare's left hip") is unclear. At line 193 the youngest ranger twists round in her saddle although she was told to walk the chestnut. The final slophunter left both for a continuity pass.
+- **Invented names:** Saltheril, Fairbreeze, Tranquillien, Theris, Feren and Liron are not in the plan or the project materials. The grounding-gate thinks the first three are existing Warcraft names, which I haven't checked. The rangers look invented to fill unnamed roles.
+
+The memory-keeper moved an earlier run's memory files, which described chapters 1–7, to `.afternoon/plans/memory-stale-backup-prior-run/`. It rebuilt `plans/memory/` from chapter 1 only. Restore the backup if you wanted that data merged instead.
+
+`.afternoon/chapters/chapter1/final.md`
+
+===AFTERNOON DONE===
+exit=0

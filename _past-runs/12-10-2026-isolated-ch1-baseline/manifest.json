@@ -1,0 +1,180 @@
+{
+  "status": "completed",
+  "currentChapter": "chapter1",
+  "currentAgent": null,
+  "progress": {
+    "chaptersCompleted": 1,
+    "chaptersTotal": 1
+  },
+  "log": [
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "planner",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter1-initial.json"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "plan-verifier",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/plans/chapter1.json"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "writer-coordinator",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v1.md"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v2.md"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "slop-gate-a",
+      "status": "completed",
+      "verdict": "fail",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/slop-gate-notes-a.json"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "slop-gate-b",
+      "status": "completed",
+      "verdict": "fail",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/slop-gate-notes-b.json"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "slophunter-revision-r1",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v2-r1.md"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "slop-gate-a-r1",
+      "status": "completed",
+      "verdict": "fail",
+      "totalFindings": 21
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "slop-gate-b-r1",
+      "status": "completed",
+      "verdict": "fail",
+      "totalFindings": 12
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "slophunter-revision-r2",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v2-r2.md"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "slop-gate-a-r2",
+      "status": "completed",
+      "verdict": "fail",
+      "totalFindings": 5
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "slop-gate-b-r2",
+      "status": "completed",
+      "verdict": "fail",
+      "totalFindings": 5
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "slop-gate-r3",
+      "status": "completed",
+      "verdict": "pass",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v2.md"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "grounder",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v2g.md"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "grounding-gate",
+      "status": "completed",
+      "verdict": "fail",
+      "totalFindings": 4
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "grounding-gate",
+      "status": "completed",
+      "verdict": "pass",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v2g.md",
+        ".afternoon/chapters/chapter1/v3.md"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "final-slophunter",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/v5.md"
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "memory-keeper",
+      "status": "completed"
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00Z",
+      "chapter": "chapter1",
+      "agent": "assembly",
+      "status": "completed",
+      "artifacts": [
+        ".afternoon/chapters/chapter1/final.md"
+      ]
+    }
+  ],
+  "slopGateExhausted": null
+}

@@ -9,7 +9,7 @@
 
 ## References
 
-- **Worldbuilding references:** [Silvermoon & Quel'Thalas](stories/the-plague-road/locations/silvermoon-and-quelthalas.md), [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-process.md)
+- **Worldbuilding references:** [Silvermoon & Quel'Thalas](stories/the-plague-road/locations/silvermoon-and-quelthalas.md), [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
 - **Character references:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
 
 **Sylvanas's starting position:**
@@ -26,7 +26,7 @@
 **Hold back:**
 - No confirmation that grain carries the sickness.
 - No proof that an organized cult is behind it.
-- No hint that the old trader is anything but a useful local source.
+- No hint that the old carter is anything but a useful local source.
 
 **End of chapter state:**
 - Millhaven is the first village on this road fully taken.
@@ -59,11 +59,11 @@
 ## Cast and handoff rules
 
 - **Cyndia:** Remains with the riding party. She is the ranger Sylvanas trusts most on the ground.
-- **Lyriel:** Remains with the riding party.
+- **Lyriel:** Remains with the riding party. She talks to anyone on a road, and she is the one who answers the carter.
 - **Neral:** Present at open. She rescues the survivor girl and rides north with the warning dispatch in this chapter.
 - **Unnamed escort ranger:** Rides north with Neral and the survivor girl.
 - **Survivor girl:** Found in a cellar. Escorted north by Neral. Does not continue south.
-- **Old grain seller:** Helpful local source on the road. He should read ordinary, useful, and forgettable.
+- **Old carter:** Helpful local source on the road. He should read ordinary, useful, and forgettable.
 
 **Next chapter starts:** Chapter 4 opens after a two-day ride south with Sylvanas, Jaina, Cyndia, and Lyriel.
 
@@ -95,6 +95,7 @@
 - They don't know what physical thing first carried the sickness in.
 - Ground the inspection: thick grain dust, stale trapped cellar heat, Jaina kneeling in a storehouse while Sylvanas clears the sightlines around her.
 - Magic shows the scale of the damage, but Sylvanas still needs physical tracks to tell her where it went.
+- Inside: expected a scholar to grab the loudest answer and call it proof; the mage didn't, and that is irritating; is it caution or a performance for the Ranger-General; one granary, not enough, and she would have said the same
 
 ### Beat 4
 - Behind the village, the ground is completely churned by drag marks and ruined lanes. Sylvanas can tell many dead left Millhaven on their feet, but she can't trace exactly where they went yet.
@@ -134,10 +135,10 @@
 
 ---
 
-## Scene 3: The Grain Seller on the Road
+## Scene 3: The Old Carter on the Road
 
-**The action:** Sylvanas sends the warning north, crosses paths with a casually helpful trader, and commits her remaining force to riding south.
-**Cast:** Sylvanas, Jaina, Cyndia, Lyriel, Neral, old grain seller, survivor girl.
+**The action:** Sylvanas sends the warning north, crosses paths with a casually helpful old carter, and commits her remaining force to riding south.
+**Cast:** Sylvanas, Jaina, Cyndia, Lyriel, Neral, old carter, survivor girl.
 **Starting point:** The dead are confirmed moving north, and the survivor has to leave right away with the dispatch.
 
 ### Beat 8
@@ -146,27 +147,31 @@
 - They have no idea if the warning will make it in time.
 - Ground the split: a message sealed in frantic haste, the dispatch tube strapped hard to Neral's saddle, the girl eventually calming under Neral's voice.
 - Once Neral leaves, Sylvanas has to stop pretending this is just a short scouting sweep.
+- Inside: cutting her own strength for a human's warning, which stopped being a theory at the road cut; sending the child north or getting her off her hands; the Convocation will read the dispatch and argue the cost of the courier; four riders and a prisoner, and the prisoner is the one who knows where to go
 
 ### Beat 9
-- An old grain seller comes up the road pulling an empty wagon. He reacts to the news of Millhaven like a shocked local and gives them a completely plain, useful read on the other settlements.
-- Millhaven is the first village on this road to fall, but places farther south are still visibly trading. The old trader reads as entirely ordinary and sincere.
+- An old carter comes up the road pulling an empty wagon. He reacts to the news of Millhaven like a shocked local and gives them a completely plain, useful read on the other settlements. While they talk, he keeps looking past them up the road toward Millhaven.
+- As road gossip, he asks whether they passed the young grain-man on the road. Lyriel answers him the way she answers anyone on a road, friendly and true: they passed no one, but the girl here spoke of a newer grain seller, and they'll watch for him on the way south. She tells him he'd get a better price going home with a full wagon. The carter shakes his head at the state of the roads and asks nothing more.
+- Millhaven is the first village on this road to fall, but places farther south are still visibly trading. The old carter reads as entirely ordinary and sincere, and his question sounds like any carter's gossip.
 - They don't know if any part of his story connects to what really caused the sickness.
-- Ground the encounter: old grain dust resting in the wagon slats, surprise breaking across a forgettable face, the survivor girl settling against Neral's saddle.
+- Ground the encounter: old grain dust in the wagon slats, surprise breaking across a forgettable face, his eyes going once along the line of horses, the survivor girl leaning against Neral's saddle.
+- Second read (plant only; the prose must not explain it): he is checking his work at Millhaven and checking on his agent, the young grain-man. Lyriel's friendly answer tells him the party has a living witness and is following the grain-man south. That is why the Chapter 5 depot is cleaned ahead of them. He also looks over how the riders hold formation and space themselves on the road. The Chapter 9 ward is laid to that spacing, and Lyriel dies in it.
 - The road ahead looks alive enough to completely hide the real underlying pattern.
 
 ### Beat 10
-- The conversation ends fast. The man's farewell lands just strangely enough to stick for a second, then the road pulls them strictly apart.
-- Neral and the girl leave the chapter here. Sylvanas mentally files the farewell without immediately building a case around it. The party is now formally split.
+- The conversation ends fast. The man's farewell, May the stars keep your road, lands just strangely enough to stick for a second, then the road pulls them apart.
+- Neral and the girl leave the chapter here. Sylvanas marks the farewell as odd and builds no case around it. The party is now formally split.
 - They don't know why his words feel strange or whether they matter at all.
 - Ground the departure: a brief final glance back at the wagon wheels rolling north, the girl completely silent against Neral as the horse steps out.
-- Sylvanas turns away from the trader and faces the road south.
+- Sylvanas turns away from the carter and faces the road south.
 
 ### Beat 11
 - With the border warned, Sylvanas has one real choice left: fall back, or keep following the growing magic deeper into Lordaeron. She keeps riding south.
 - They still don't know grain is the specific carrier or who is organizing this whole plague. The next village they hit is alive enough to misunderstand what's happening to it.
 - They don't know how far the sickness has already spread or whose face is behind it.
-- Ground the ride: the landscape widening into human farmland, a thicker pressure from the front, the stark absence of the fifth horse after Neral's departure.
-- Chapter 4 opens after a long two-day ride with just the four remaining elves and Jaina.
+- Ground the ride: the landscape widening into human farmland, a thicker pressure from the front, the two empty places in the horse line after Neral's departure.
+- Chapter 4 opens after a long two-day ride with just the three remaining elves and Jaina.
+- Inside: the border is warned, so her duty is done by any measure the Convocation would sign; deeper into human land on a human mage's read; the empty places in the line, and she put them there; tells herself it is the trail she is following and not the mage
 
 ---
 
@@ -185,8 +190,9 @@
 - Neral carried the physical warning dispatch back to the border.
 - The southbound party is stripped down to exactly Sylvanas, Jaina, Cyndia, and Lyriel.
 - They've heard about a newer grain seller exactly once, but the connection hasn't been made yet.
+- Lyriel answered the carter's question about the grain seller. On a first read it is nothing.
 
 **Do not add yet:**
 - Any confirmation that grain physically carries the sickness.
 - Any explicit proof of an organized cult stringing this together.
-- Any sudden recognition that the old trader was something much worse than a helpful local.
+- Any sudden recognition that the old carter was something much worse than a helpful local.

@@ -1,0 +1,67 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 3,
+      "sceneTitle": "The Prisoner",
+      "findingId": "G12-001",
+      "category": "G12",
+      "severity": "MODERATE",
+      "lines": "277",
+      "excerpt": "She wore a long travel coat of heavy blue-grey wool, double-breasted and buttoned to the throat, cut like a ship's officer's coat and stiff with dried mud from hem to knee.",
+      "reason": "The most specific costume detail in the chapter contradicts its sources. jaina.md says 'practical traveling robes', the plan's Scene 3 enrichment repeats 'practical traveling robes', and partnership-arc.md frames Ch 1 as 'a security breach in violet robes'. The craft auditor flagged this and the grounder listed it as a residual concern, but nobody fixed it. Chapter 2 is in Jaina's POV and will be written from jaina.md, so the costume will split across the chapter boundary. The ship's-officer cut is a working identification clue (line 301), so keep the cut and change the garment.",
+      "suggestedFix": "She wore a long travel robe of heavy blue-grey wool, double-breasted and buttoned to the throat, cut like a ship's officer's coat and stiff with dried mud from hem to knee.",
+      "fixMode": "light-swap"
+    },
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 3,
+      "sceneTitle": "The Prisoner",
+      "findingId": "G12-002",
+      "category": "G12",
+      "severity": "MILD",
+      "lines": "301",
+      "excerpt": "Kul Tiran. The coat's ship's-officer cut, the high double row of horn buttons.",
+      "reason": "This line echoes G12-001 and must change with it, or the identification beat names a garment that is no longer on the page. The Kul Tiran inference still works, because it rests on the cut and the buttons, not on the word 'coat'.",
+      "suggestedFix": "Kul Tiran. The robe's ship's-officer cut, the high double row of horn buttons.",
+      "fixMode": "light-swap"
+    },
+    {
+      "sweep": "scene-grounding",
+      "sceneId": 2,
+      "sceneTitle": "The Messenger",
+      "findingId": "G4-003",
+      "category": "G4",
+      "severity": "MILD",
+      "lines": "199-205",
+      "excerpt": "The mare flicked an ear at each one and did not break stride ... She lingered at each one longer than she had under the gold, because a stranger had knelt at stones like these this morning",
+      "reason": "The staging contradicts itself. Line 199 has her riding hard, and line 205 says the mare 'did not break stride'. Then she 'lingered at each one longer than she had under the gold', where she was walking the ring and stopping at stones. A body at a hard climb cannot stay at each stone longer than a body at a walk did. The tension is rising here (the first stones she checks after the 'wrong' report), and the reader loses track of whether she stops or not. Only her eyes can linger.",
+      "suggestedFix": "Her eyes held on each one longer than they had under the gold, because a stranger had knelt at stones like these this morning and called what lay under them wrong.",
+      "fixMode": "light-swap"
+    },
+    {
+      "sweep": "scene-grounding",
+      "sceneId": 3,
+      "sceneTitle": "The Prisoner",
+      "findingId": "G2-004",
+      "category": "G2",
+      "severity": "MILD",
+      "lines": "299",
+      "excerpt": "she had read it on enough long nights at the Spire to see the pages.",
+      "reason": "'The Spire' could mean two places. The chapter has already named two Spires: Sunfury Spire (line 43, the Convocation seat she hates) and Windrunner Spire (line 123, her family estate). Reading Farstrider watch-files 'because the Convocation would not' at Sunfury Spire would turn the irony upside down, and the grounding map ties this memory to Windrunner Spire. The specific name is available, so use it.",
+      "suggestedFix": "she had read it on enough long nights at Windrunner Spire to see the pages.",
+      "fixMode": "substitute"
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "mildKills": 3,
+    "moderateKills": 1,
+    "severeKills": 0,
+    "dominantFailures": ["G12", "G4", "G2"]
+  }
+}

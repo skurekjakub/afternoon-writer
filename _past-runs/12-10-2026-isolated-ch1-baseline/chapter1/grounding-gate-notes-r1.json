@@ -1,0 +1,28 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 1,
+  "targetFile": "v2g-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "scene-grounding",
+      "sceneId": 3,
+      "sceneTitle": "The Prisoner",
+      "findingId": "G4-001",
+      "category": "G4",
+      "severity": "MILD",
+      "lines": "295, 323-329",
+      "excerpt": "Sylvanas stepped back over the threshold, and the ranger at the door eased it to until only a hand's width of blue light was left. [...] Sylvanas walked into the light. [...] though the staff and the open door were both a turn of the head away.",
+      "reason": "This is the chapter's final pressure beat, and the blocking breaks in it. At line 295 Sylvanas steps back out of the storeroom and the door is eased nearly shut, down to a hand's width of light. Nothing on the page opens it again. Line 325 has her 'walk into the light' from the other side of a door that is almost closed, and line 329 then uses 'the open door' as a load-bearing escape route the mage refuses to look at. The plan makes this door a motif ('how hard the door stays shut'; 'the door opens early enough to matter'), so the reopening should be on the page. One clause fixes it and keeps the clipped cadence of the walk-in.",
+      "suggestedFix": "Sylvanas pushed the door wide and walked into the light.",
+      "fixMode": "light-insert"
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "mildKills": 1,
+    "moderateKills": 0,
+    "severeKills": 0,
+    "dominantFailures": ["G4"]
+  }
+}

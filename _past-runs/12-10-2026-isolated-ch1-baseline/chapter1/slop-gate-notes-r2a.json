@@ -1,0 +1,181 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA [37, 21] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 23,
+      "kills": 2,
+      "keeps": 21,
+      "severityMarkers": {"mild": 1, "moderate": 1, "severe": 0},
+      "dominantPattern": "Pattern 5 - preamble negation",
+      "clusterPages": [],
+      "clusterWarnings": ["Both kills are Pattern 5 preambles in Scenes 2-3 ('He said nothing. He only...' / 'She had told him nothing...; he had...'). No page reaches 2+ kills."],
+      "keepRateNote": "Keep rate is high because most candidates are absence inventories, procedural imperatives, or live spy/envoy/trespasser eliminations rather than X-then-Y pivots. Each keep is documented in the scratchpad with the guide condition met.",
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 167,
+          "pattern": "negation-P5-preamble",
+          "text": "He said nothing. He only tilted his head, the way he had over the dead troll when she named the southern stones.",
+          "deletionTest": "He tilted his head, the way he had over the dead troll when she named the southern stones.",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Pattern 5 preamble negation with the 'only' softener: 'He said nothing' primes the beat and the head-tilt arrives diminished. The tilt already carries the silence. Lor'themar's silence is also staged as 'He was silent.' at line 49 and 'I said nothing.' at line 99, so this is the third silence-by-negation beat in the chapter.",
+          "textureZone": "Sits inside the texture_desert / telegram_run at sentences 270-282. Merging the beat into one sentence also helps the zone.",
+          "suggestedFix": "He tilted his head, the way he had over the dead troll when she named the southern stones.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-2",
+          "line": 201,
+          "pattern": "negation-P5-preamble",
+          "text": "She had told him nothing about where to ride; he had dropped into place a length off the mare's left hip, as a junior ranger would.",
+          "deletionTest": "He had dropped into place a length off the mare's left hip, as a junior ranger would.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 5 preamble: the negative clause sets up what Theris did on his own, but 'as a junior ranger would' already says he did it from training. The sentence survives the deletion test.",
+          "suggestedFix": "He had taken the junior's place a length off the mare's left hip.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 24,
+      "kills": 2,
+      "keeps": 22,
+      "severityMarkers": {"mild": 2, "moderate": 0, "severe": 0},
+      "dominantPattern": "Pattern 8 / Pattern 10 - actor demoted or omitted",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweepP5P6": "Did the dedicated second pass over every sentence for inanimate or abstract subjects carrying agency, cognition, combustion, or physical-behavior verbs: road and geography motion verbs (lines 187, 197), smells and wind (197, 199), light (29, 325), the gate (215), the storeroom and stone (271), ward-stone hum and readings (59, 205, 247, 249), body-part subjects (123, 249, 281, 303, 313), the ache settling into a joint (13), woods and birds (5, 27), the Convocation (147, 149), and evidence or documents (17, 95). The sweep found no metaphor chains across consecutive sentences and no instrument-phrase demotions. It surfaced the two kills below. Most keeps are literal physics, ward behavior that is the chapter's actual subject, or involuntary body responses where the involuntariness is the point.",
+      "keepRateNote": "Keep rate is high because most candidates are literal physics, the chapter's own ward mechanism (subject-matter defense), or involuntary body reflexes covered by the Pattern 8 exception. Each keep is documented in the scratchpad.",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 281,
+          "pattern": "intent-smear-P8-body-part-subject",
+          "text": "Her hands were clasped in her lap, gripping her own fingers hard enough to whiten them.",
+          "subject": "Her hands",
+          "verb": "gripping",
+          "realAgent": "The mage. She is gripping her own fingers to hold herself together.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8: the hands get a deliberate grip that belongs to the woman. Swapping in the character as subject keeps the meaning. Line 329 already does this correctly ('the mage was holding them still against it by will alone'), which shows the volition is hers.",
+          "toolSignal": "participial_trailing",
+          "toolNote": "The slop checker flagged ', gripping her' as participial_trailing (10 of 25 cap). The fix keeps the participial because the chapter's participial_pct is below target, and moves its attachment to the mage.",
+          "suggestedFix": "She sat with her hands clasped in her lap, gripping her own fingers hard enough to whiten them.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-2",
+          "line": 17,
+          "pattern": "intent-smear-P10-receiver-noun-actor-omitted",
+          "text": "The sign at the creek had said eight.",
+          "subject": "The sign at the creek",
+          "verb": "had said",
+          "realAgent": "Sylvanas (or her trackers), who read eight sets of tracks at the creek.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 10 / Pattern 2 sibling: the evidence gets the speech verb and the tracker who read it is left out. 'Sign' also stays vague about what was actually on the ground. Putting the reader back as subject keeps the meaning and names the physical evidence.",
+          "textureZone": "Just past the texture_desert at sentences 15-34.",
+          "suggestedFix": "She had read eight sets of tracks at the creek.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 13,
+      "kills": 1,
+      "keeps": 12,
+      "severityMarkers": {"mild": 1, "moderate": 0, "severe": 0},
+      "dominantPattern": "Tic 5 - eye/gaze repertoire",
+      "ticCounts": {
+        "tic1_cornerOfMouth": {"count": 1, "cap": 1, "lines": [177]},
+        "tic2_marked": {"count": 0, "cap": 2, "lines": [], "note": "Only literal 'mark' nouns (231 knee-marks, 247 'not a mark on it'). No verb uses."},
+        "tic3_tightened": {"count": 1, "cap": 3, "lines": [313], "note": "Line 313 is a physical grip on the bow, with the wrapping creaking. Line 249 'drew tight' is the only emotional tightening variant. Under cap."},
+        "tic3_eased": {"count": 2, "cap": 2, "lines": [93, 295], "note": "Both physical: easing the canter at 93, easing the door at 295."},
+        "tic4_shiftedFacial": {"count": 0, "cap": 1, "lines": [], "note": "Lines 129 and 323 are physical shifts in the saddle and of the book."},
+        "tic5_eyeGaze": {"count": 5, "cap": 4, "lines": [61, 281, 287, 327, 329]},
+        "tic6_weight": {"count": 0, "cap": 2, "lines": [], "note": "'heavy' at 11 and 277 is literal (the sound, the wool). 'weighed' at 265 is a judgment verb, not a weight metaphor."},
+        "tic7_nonSaidTags": {"count": 0, "cap": 3, "lines": [], "note": "'called' at 15 and 51 and 'shouted' at 215 are volume tags, which are exempt. 'read it low' at 297 is a mode tag. No performance tags."}
+      },
+      "findings": [
+        {
+          "id": "A-TIC-1",
+          "line": 327,
+          "pattern": "tic5-eye-gaze-over-cap",
+          "text": "The mage had to tip her head back to meet her, and she did.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Tic 5 over cap (5 of 4). Four of the five gaze beats sit on the storeroom page (281, 287, 327, 329), and 327/329 are back-to-back gaze holds. 'to meet her' is the generic connection beat, and line 329 repeats it with a more specific version ('she kept them on Sylvanas, though the staff and the open door were both a turn of the head away'). Kill the weaker one and let posture carry 327.",
+          "suggestedFix": "The mage had to tip her head back, and she did, chin up.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 55,
+    "mildKills": 4,
+    "moderateOrSevereKills": 1,
+    "guidesRun": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "guidesWithKills": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "There is 1 MODERATE kill (A-NEG-1, a Pattern 5 preamble with the 'only' softener at line 167) and there are 4 MILD kills, which is more than the 3-MILD threshold. Every kill has a low-difficulty drop-in fix, so one revision should clear this pass. There is also a structural texture deficit (texture_score 80.7, below_target: participial 5.8% vs 12%, emdash 2.4% vs 4%, compound 12.2% just over target). Structural rhythm concerns: long_sentence_pct 17.1 (range 7-14), opener_entropy 6.27 (range 7.2-8.2), one_sentence_paragraph_pct 25.9 (range 15-24).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.603, "target": 0.72, "delta": -0.117, "range": [0.6, 0.85], "inRange": true},
+      "sentence_length_mean": {"actual": 11.2, "target": 11.0, "delta": 0.2, "range": [9.0, 13.0], "inRange": true},
+      "sentence_length_cv": {"actual": 0.787, "target": 0.7, "delta": 0.087, "range": [0.6, 0.8], "inRange": true},
+      "short_sentence_pct": {"actual": 39.1, "target": 35.0, "delta": 4.1, "range": [28.0, 42.0], "inRange": true},
+      "long_sentence_pct": {"actual": 17.1, "target": 10.0, "delta": 7.1, "range": [7.0, 14.0], "inRange": false},
+      "opener_entropy": {"actual": 6.27, "target": 7.7, "delta": -1.43, "range": [7.2, 8.2], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 25.9, "target": 19.0, "delta": 6.9, "range": [15.0, 24.0], "inRange": false},
+      "mattr": {"actual": 0.809, "target": 0.83, "delta": -0.021, "range": [0.8, 0.87], "inRange": true},
+      "structuralRhythmConcerns": ["long_sentence_pct above range", "opener_entropy below range (top openers: the 58, she 57, he 34, a 24, sylvanas 21)", "one_sentence_paragraph_pct above range"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 80.7,
+      "participial_pct": 5.8,
+      "compound_pct": 12.2,
+      "emdash_pct": 2.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 48.7,
+      "verdict_reasons": [
+        "participial: 5.8% below target 12.0% (score 54/100)",
+        "compound: 12.2% above target 10.0% (score 80/100)",
+        "emdash: 2.4% below target 4.0% (score 88/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.8% -> target 12.0% (score 54/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.2% -> target 10.0% (score 80/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.4% -> target 4.0% (score 88/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": {"telegram_run": 9, "texture_desert": 10},
+      "fixInteraction": "A-IS-1 keeps its participial phrase. A-NEG-2 removes one semicolon (9 of 12 cap, semicolon_pct is on target, so the loss is safe)."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 40,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "atCap": ["punct_colon_narration 6/6"],
+        "passAMappedHits": "punctuation_tics 15, participial_attachment 10, simile_overload 7, filler_actions 2, filter_words 1. All were audited. One (participial_trailing at line 281) corroborates kill A-IS-1, and the rest are KEEPs documented in the scratchpad. The contact_verbs hits (settled 13/57, found 111/237) are unmapped, but they were audited under the intent-smear second sweep and kept. vague_pointers (line 259) maps to pass B and was not audited here."
+      }
+    }
+  }
+}

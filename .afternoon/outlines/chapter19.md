@@ -1,202 +1,220 @@
-# Chapter 19: The Decision
+# Chapter 19: The Voyage
 
-**POV:** Sylvanas Windrunner (limited third, absolute)
-**When:** One day after Chapter 18. Opens in a field camp south of Stratholme and closes with the line turned north toward the coast.
-**Where:** Farstrider field camp south of Stratholme.
-**Travel:** Camp work at open, then mounted arrival and departure beats, then a sustained road ride north.
-**Characters:** Sylvanas, Jaina, Cyndia, Vereesa, Farstrider escort.
-**Goal:** Decide whether the investigation now belongs on the north road, then survive the attempts to pull both women back before that decision is spoken aloud.
+**POV:** Jaina Proudmoore (limited third, absolute)
+**When:** Directly follows Chapter 18. Opens at the northern coast after the ride out of Lordaeron's interior and closes with landfall at Daggercap Bay in Northrend.
+**Where:** Northern Lordaeron harbor road and quay.
+**Travel:** Horseback arrival, harbor work on foot, schooner crossing aboard the Wolfheart, then dockside landfall.
+**Characters:** Jaina, Sylvanas, Cyndia, three Farstrider rangers from the Chapter 18 escort, Captain Dagny Ironhull, and the Wolfheart crew.
+**Goal:** Secure passage north and keep the pursuit alive across open water after both institutions have fallen away.
 
 ## References
 
-- **Worldbuilding references:** [Lordaeron and Northrend](stories/the-plague-road/locations/lordaeron-and-northrend.md), [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
-- **Character references:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Vereesa profile](stories/the-plague-road/characters/vereesa.md), [Lor'themar profile](stories/the-plague-road/characters/lorthemar.md), [Antonidas profile](stories/the-plague-road/characters/antonidas.md)
+- **Worldbuilding references:** [Lordaeron and Northrend](stories/the-plague-road/locations/lordaeron-and-northrend.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
+- **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Antonidas profile](stories/the-plague-road/characters/antonidas.md)
 
-**Sylvanas's starting position:**
-- Stratholme shut the Scholomance crack in practice.
-- Jaina's revised model now points past contaminated grain toward a source or relay farther north.
-- Arthas is sailing for Northrend with men already selected by their obedience at Stratholme.
-- Uther rides west to warn Terenas.
-- South was only the road out from the wall. It is not where the next real answer lives.
+**Jaina's starting position:**
+- North is no longer a theory lane. Sylvanas chose it over recall and Jaina chose it over Dalaran.
+- Arthas already has a sea lead and a hand-picked force that followed him through Stratholme.
+- The resonance thread grows stronger toward the coast, which means the source really does lie across the water.
+- The relay network dies at the harbor. Once they sail, no institution is carrying them.
+- The pursuit now depends on money, a willing ship, and whatever Jaina can still hear.
+- Jaina has still not told Sylvanas what she paid Kel'Thuzad. The desk volume is in her bag, unopened.
 
 **Still in the dark about:**
-- Whether Jaina will cut the Dalaran line as cleanly as Sylvanas suspects she must.
-- How far the Convocation will go to drag Sylvanas home.
-- Whether Lor'themar still has anything left to spend politically after holding the line this long.
-- How the line reaches Northrend with two horses, one escort band, and no institutional cover once the coast is behind them.
-- What each of them is actually willing to lose by saying north out loud.
+- Whether any captain will accept a Northrend run at all.
+- How directly the source can answer her probing once she is on open water.
+- What the sea crossing will cost her body if she has to force it.
+- What Arthas is chasing in Northrend besides the source itself.
+- Whether arrival can still matter with the lead Arthas already has.
 
 **Hold back:**
-- No Frostmourne sighting or direct blade identification yet.
-- No Sylvanas access to Jaina's exact words on the sending-stone.
-- No suggestion that north is safe just because it is correct.
-- No softening of desertion, family cost, or institutional severance.
-- No ship specifics yet. That belongs to Chapter 20.
+- No Muradin briefing or Frostmourne specifics yet.
+- No full explanation of the source as a named cosmic hierarchy.
+- No promise that arrival means they can still catch Arthas before he acts.
+- No assumption that Jaina can widen her Frostmourne sensitivity and then simply settle it again.
+- No clean answer yet to whether Jaina's certainty differs from the men she is chasing.
+- No absolution and no recoil from Sylvanas when Jaina confesses the Kel'Thuzad trades, and no narrated reading of what the confession means. It stays dialogue.
 
 **End of chapter state:**
-- Sylvanas refuses the Convocation's recall and says aloud that the threat to Quel'Thalas is wherever Arthas goes next.
-- Vereesa carries that refusal home.
-- Lor'themar bought a small forward mobilization at immense personal and political cost.
-- Jaina tells Antonidas she is going north and closes the Dalaran line herself.
-- The relay network dies at the coast. Everything beyond that is competence, borrowed passage, and whatever Jaina can track through resonance.
-- The chapter ends with the line riding north and the investigation fully becoming a pursuit.
+- Captain Dagny's Wolfheart can get them to Northrend if Jaina pays the crossing cost in power.
+- The source opposes them directly through supernatural headwinds once the ship is committed.
+- The forced stillness of the voyage opens a new honesty lane between Jaina and Sylvanas.
+- Jaina has told Sylvanas the three things she paid Kel'Thuzad, in the words she used, and that he wrote in his book after each one. Sylvanas asked one practical question and moved on. The desk volume is still in Jaina's bag, unopened.
+- Jaina pushes through the opposition, but doing so sharpens her sensitivity and makes the bread-taste part of her baseline.
+- Sylvanas stops Jaina when Jaina will not stop herself.
+- Jaina has said aloud that Kel'Thuzad and Arthas were right about parts of it. Nobody answered her.
+- Daggercap Bay proves they arrived, but it also proves Arthas is still a few days ahead in practical terms.
 
 ---
 
 ## Character Arcs
 
-### Sylvanas
-- She opens already knowing the evidence points north.
-- The real question is what she is willing to lose by obeying it.
-- The last scraps of border thinking still want this to stay a Lordaeron problem or a Quel'Thalas problem.
-- By the end, Sylvanas says aloud what the investigation has been teaching her all along: the border no longer defines the job.
-- North stops being a probable direction and becomes an order.
+### Jaina
+- She opens believing that if she can keep north in reach, being right can still matter.
+- The crossing turns that belief into a physical cost instead of just a strategic one.
+- Jaina keeps treating willpower and correct analysis as if they can bridge any distance if she simply pushes hard enough.
+- At the mast she ends the withholding she began on the Ch14 road and tells Sylvanas what she paid Kel'Thuzad.
+- By the end, she reaches Northrend, but the voyage proves the chase is no longer only on the map. It is in her body now.
 
-### Jaina through Sylvanas's POV
-- Jaina is the analytical counterweight and the witness whose model points north.
-- Sylvanas can see Jaina's direction clearly before she hears any spoken choice from her.
-- Keep Jaina exterior. Use notes, posture, the stone's light, and how she falls into formation once north is spoken.
+### Sylvanas through Jaina's POV
+- She is commander, counterweight, and the only person on the ship whose authority can still cut through Jaina's overreach.
+- Jaina reads care through orders, water, presence, and timing rather than spoken softness.
+- Keep Sylvanas exterior. Everything comes through tone, movement on deck, and the fact that she sees the cost before Jaina will admit it.
 
 ### Partnership
-- The pair opens bonded by witness but not yet tested against family, rank, and home.
-- This chapter makes the partnership into something chosen, not just something that works in the field.
-- The bond shows up through parallel severance rather than speeches.
-- Do not narrate the feeling ahead of the scene.
+- The pair opens chosen over institutions and stripped down to travel logistics and shared direction.
+- The sea forces stillness, and the stillness gives the partnership room to become more than tactical shorthand.
+- Let the waterskin, the one-word command, and the deck silence carry the turn.
+- Sylvanas hears the Kel'Thuzad trades from Jaina before anyone else can read them to her. Her answer is practical, and the partnership carries on past it.
+- Do not name the bond ahead of the scene.
 
 ---
 
 ## Cast and handoff rules
 
-- **Cyndia:** Camp order, outrider discipline, and the practical lane that lets the others spend time on map, sister, and stone.
-- **Vereesa:** Younger sister first in effect even when she starts in formal register. The recall must arrive through document, title, and family wound together.
-- **Lor'themar:** Off-page but vivid through Vereesa's report. His deterioration must feel physical.
-- **Antonidas:** Present only through the sending-stone and only as body language from Sylvanas's angle.
-- **Farstrider escort / relay network:** Institutional infrastructure at its last usable edge.
+- **Dagny:** Pure pragmatist. She prices danger and handles seawork cleanly. No mystical register and no sailor superstition doing story work for her.
+- **Cyndia and the rangers:** Shipboard perimeter, load discipline, and visible proof that the line still functions even when the fight is weather rather than steel.
+- **Antonidas:** Present only through Jaina's dead stone, remembered training, and the severed line she keeps touching even though it is over.
+- **The Wolfheart crew:** Competent labor under pressure. They work lines, poles, and sails while Jaina works the wind.
 
-**Next chapter starts:** Chapter 20 opens on the coast and the voyage north, with institutional scaffolding stripped away and the partnership carrying the whole pursuit.
+**Next chapter starts:** Chapter 20 opens at Daggercap Bay with Northrend finally underfoot, Arthas's trail already visible, and the first local ally waiting inland.
 
 ---
 
-## Scene 1: The Camp
+## Scene 1: The Harbor
 
-**The action:** South is reframed as temporary aftermath ground and north becomes the next real direction before any institution arrives to contest it.
-**Cast:** Sylvanas, Jaina, Cyndia, Farstrider escort.
-**Starting point:** Arthas sails north, Uther rides west, and the revised source model points the same way as the prince.
+**The action:** The choice to go north becomes literal departure before the coast can reclaim either woman for an institution that already failed them.
+**Cast:** Jaina, Sylvanas, Cyndia, three Farstrider rangers, Dagny, harbor hands.
+**Starting point:** North is chosen, the relay network ends here, and the chase dies if they cannot buy passage.
 
 ### Beat 1
-- The camp is orderly, but nothing about the order changes what still burns on the northern horizon or what that burn means for every next choice. South already feels like an exit lane instead of a plan.
-- Stratholme still burns heavily enough to stain the sky from camp, Jaina is back to working with notes in her hands instead of standing stunned, and Cyndia has already rebuilt a functioning Farstrider camp with almost nothing.
-- They do not know whether the chapter ends with these women going north or being turned back by authority or how much time the coast road still gives them before Arthas gains too much sea lead.
-- Ground the camp: brown-black smoke on the northern horizon, a small fire and horses picketed tight, Jaina coming out with papers before she reaches food or conversation.
-- The camp confirms that south is only where they stopped, not where the answer is.
+- Northrend is a bad run even under good conditions, and this passage offers no institutional backing. It offers urgency, money, and risk. Dagny agrees to carry them, but only as a captain pricing danger.
+- The Wolfheart is a hard-water schooner already working northern routes, Dagny raises the price instead of refusing, and the coast is the last place where Farstrider or Dalaran infrastructure can still touch this pursuit at all.
+- They do not know whether the sea itself will let them through or whether Dagny's weather clause becomes more than bargaining language.
+- Ground the harbor: salt wind and gull noise over tarred rope, horses steaming at the quay after the hard northbound ride, Dagny looking at the weather and at Jaina as if pricing both together.
+- North stops being a road problem and becomes a ship problem.
 
 ### Beat 2
-- When they lay the evidence down, every meaningful line bends north: Arthas, the source model, the resonance thread, and the vanishing usefulness of more southbound proof.
-- More village work south would refine what they already know instead of changing it, Jaina's frequency model and Farstrider road intelligence converge on the same vector, and Northrend is no longer a theory lane but the next operational target.
-- They do not know who will force the choice into spoken form first or what outside cost arrives before they can turn the map into motion.
-- Ground the mapwork: a case stretched over supply crates, a ranging pin marking camp south of the city, red contamination overlays crossing trader roads toward northern ports.
-- North becomes the real answer before anyone says it out loud.
+- The boarding is practical and easy. The emotional weight is not. Jaina crosses the last edge of land carrying a sending-stone that is already dead.
+- The horses and land gear stay behind, from here forward the chase belongs to the ship, Jaina still keeps the cold sending-stone instead of discarding it, and Sylvanas and Cyndia fall into shipboard discipline as fast as they fall into road discipline.
+- They do not know whether Jaina can keep the resonance thread useful without making herself visible to the source or what the crew will do when the crossing turns unnatural.
+- Ground the departure: wet planks under boots, saddles and road dust left on the quay instead of taken aboard, the dead weight of the stone in Jaina's coat pocket.
+- The old world starts falling away before the ship even moves.
 
 ---
 
-## Scene 2: The Sister
+## Scene 2: The Departure
 
-**The action:** The Convocation arrives in the most personal form possible and forces Sylvanas to break the old border thinking aloud.
-**Cast:** Sylvanas, Vereesa, Jaina in the background, Cyndia, escort riders.
-**Starting point:** North is the right answer on the map. The institutions have not yet said their piece.
+**The action:** The last easy routes home die, and the coastline becomes absence.
+**Cast:** Jaina, Sylvanas, Cyndia, Farstrider rangers, Dagny, Wolfheart crew.
+**Starting point:** Passage is secured, but every support lane that matters still belongs to land.
 
 ### Beat 3
-- Cyndia's intercept reads clean, which means the incoming riders are not enemy trouble. That makes it worse. The lead rider's posture says family before the face confirms it.
-- The Convocation sent Vereesa rather than a clerk or magistrix, Vereesa rode hard enough to spend arrows and horse strength getting here, and Sylvanas recognizes at once that the choice of messenger is the tactic.
-- They do not know whether Vereesa is only carrying orders or also carrying real intelligence from Silvermoon or how private this conversation can remain in a working camp.
-- Ground the arrival: bird-call recognition signals at the camp edge, a gray mare lathered through the chest, ink on a ranger's hands that should have been occupied by a bow.
-- Home arrives to contest the road.
+- Cyndia leaves the last usable relay trail. Jaina tests the stone only enough to prove it stays cold and mute. No escort, no portal, and no correction arrives before the ship clears the harbor.
+- Cyndia leaves precise harbor and destination notes with the last usable Farstrider contact, Jaina gets nothing from the stone except proof that she already cut herself loose, and everything beyond this point runs on competence and guesswork.
+- They do not know whether anything sent from shore can matter before Arthas acts or whether Jaina's next contact with the source will be observation or retaliation.
+- Ground the severance: a brass relay cylinder warm from a runner's hand, the stone staying dark even under Jaina's touch, harbor bells marking the tide while nobody calls them back.
+- Silence becomes the operating condition.
+- Inside: cut the line herself and keeps checking it anyway; Antonidas taught her to test a result twice, and she is using his habit on his silence; no correction coming, which is what she wanted, and it is awful; keeps the stone, and has no good reason, and keeps it
 
 ### Beat 4
-- Vereesa has to speak as Ranger Captain first while standing in front of her sister. The document is built to make any refusal legible as desertion.
-- The Convocation suspended Sylvanas's foreign deployment authority immediately, noncompliance will be treated as desertion rather than ordinary disobedience, and the isolationist faction is using Stratholme itself as proof that this was never their war.
-- They do not know how far Vereesa personally agrees with what she just delivered or whether Sylvanas will answer as sister, general, or something harsher.
-- Ground the recall: red wax on good vellum, formal register cracking only after the last word, the untouched document hanging between the sisters' hands.
-- The institution turns into a personal weapon.
+- The Wolfheart clears the harbor cleanly. That makes the loss land harder, not softer. The coast vanishes in stages, and with it go rank, infrastructure, and every ordinary route home.
+- The Eastern Kingdoms disappear a little at a time instead of all at once, shipboard life immediately reduces the line to watch rotations, bunks, and deck lanes, and Jaina feels the north thread more clearly once nothing landbound is crowding it.
+- They do not know whether arrival is still possible on usable time or whether the sea is empty or actively hostile.
+- Ground the coastfall: shoreline becoming first a cliff line, then a gray strip, then nothing, rigging strain replacing road noise, sea-cold taking over where harbor smells used to be.
+- The pursuit is now alone.
+
+---
+
+## Scene 3: The Crossing
+
+**The action:** Jaina's gift and the source meet in direct opposition, and the forced stillness of the ship opens the honesty lane the road kept delaying.
+**Cast:** Jaina, Sylvanas, Cyndia, Farstrider rangers, Dagny, Wolfheart crew.
+**Starting point:** They are at sea, northbound, and fully beyond land support.
 
 ### Beat 5
-- Then comes the real price report. Vereesa describes what Lor'themar spent to hold this mission open even a little longer, and Sylvanas can no longer keep the cost abstract.
-- Lor'themar spent nearly everything he had left securing a tiny forward mobilization, the wit and polish from earlier chapters are gone and he is down to numbers and bone, and even that small win may not survive the next chamber session.
-- They do not know whether the crack in Silvermoon's wall widens in time to matter or what Cyndia makes of hearing her lord hollowed out on Sylvanas's account.
-- Ground the report: Vereesa's ink-stained fingers describing chamber records and vote counts, Lor'themar reduced to names, dates, and contamination totals in a flat voice, Cyndia listening from the camp edge without comment.
-- The political cost becomes a body Sylvanas can picture.
+- The headwinds are not weather. They carry the same frequency family as the plague, which means the source has noticed them and is pushing back. Jaina realizes her own northward probing is what made them legible.
+- The headwinds behave like intention rather than weather, Jaina's resonance sensitivity works both ways and every probe north announced her, and Dagny does not break the contract when she hears the truth but recalculates what Jaina can buy with her body.
+- They do not know whether Jaina can force them through without ruining herself or whether the source's opposition has a limit.
+- Ground the resistance: a gale that feels like a door slammed shut, sailcloth snapping against a wind that never offers a natural gap, Jaina reaching into the wind and feeling something reach back.
+- The voyage stops being travel and becomes a contest.
 
 ### Beat 6
-- Vereesa finally drops the formal lane and argues family: Alleria gone, the Windrunner name at stake, home still reachable if Sylvanas turns back now. Sylvanas cannot answer with comfort because the evidence has already moved past comfort.
-- Vereesa's real argument is family continuity rather than chamber protocol, Sylvanas now states explicitly that the threat to Quel'Thalas is wherever Arthas goes next, and everyone in earshot hears the refusal, which means the desertion is no longer theoretical.
-- They do not know whether Vereesa can carry the refusal home without breaking from it or whether Jaina will mirror this choice or only understand it.
-- Ground the break: a childhood name surfacing once and landing harder than rank ever could, the untouched recall still in Vereesa's hands, camp quiet enough for the refusal to travel farther than either sister wanted.
-- Sylvanas breaks from one institution in the open.
-
----
-
-## Scene 3: The Parallel Severance
-
-**The action:** Jaina makes the quieter mirror choice with Dalaran, and Vereesa rides home carrying the cost of Sylvanas's refusal.
-**Cast:** Sylvanas, Jaina, Vereesa, Cyndia.
-**Starting point:** Sylvanas has already chosen north in substance if not yet as road order.
+- The ship can only claw forward in bursts, and the forced stillness leaves the partnership with hours the road never gave them. At the mast they talk about what they each walked away from.
+- Sylvanas says she stopped reading the Convocation's letters weeks before she refused the recall. Jaina answers with what she has kept back since Scholomance: the three things she said to Kel'Thuzad, in the words she said them, and that he wrote in his book after each one. Sylvanas asks one question: is that book in Jaina's bag? It is, unopened, with the others. Sylvanas says nothing more about it. Then one of them says the next part out loud: Arthas broke from his father's orders too, and he was sure.
+- They do not know whether their certainty is different in kind or only in consequence or what the partnership becomes once there is no institution left around it.
+- Ground the stillness: mainmast cold against Jaina's back, ship creak and contested water under a conversation with no witnesses, Sylvanas sitting down across from her on a coil of wet rope.
+- The sea gives them the honesty the road kept postponing.
+- Inside: said all three, his room's words in the open air, and Sylvanas asked about the book and nothing else; Arthas was sure too, so what is the difference, results, timing, who is watching; wants a difference in kind and can only find one in degree; enjoying the argument, here, with Stratholme's smoke barely out of her clothes
 
 ### Beat 7
-- Sylvanas cannot hear Jaina's words through the stone, only the body carrying them. The body says this is notification, not negotiation.
-- Jaina initiates the second call herself, the stone goes dark when it ends unlike the lingering warmth from the unresolved check-in the night before, and Jaina stores it like a tool she does not expect to use soon.
-- They do not know what Antonidas said back or what that severance cost Jaina privately.
-- Ground the call: amber pulse of the stone at the camp edge, straight spine and set jaw during the conversation, dark crystal once the connection dies.
-- Sylvanas gets the only fact she needs: Jaina is not asking permission to go north.
+- To recover the voyage timeline, Jaina matches the headwinds by turning herself into the second engine of the ship. The Wolfheart regains distance, but the cost is blood, reserves, and a channel she may not be able to narrow again.
+- The crossing becomes a raw endurance contest between Jaina's sustained output and the source's resistance, the bread-taste stops being intermittent and becomes constant, and the channel widens far enough that Jaina feels not just a point in the north but a cold structure answering back.
+- They do not know whether recovery after arrival is possible before the next fight or whether the widened channel is damage, asset, or both.
+- Ground the push: blood drying on the back of Jaina's hand while her hands never lower, the hull shuddering between two opposed winds, Dagny watching her like a captain watching an engine burn too hot.
+- Progress is bought with Jaina's body.
 
 ### Beat 8
-- There is no version of Vereesa's departure that heals anything. The best they can do is make it clean enough to survive. She rides back carrying the recall unanswered except by Sylvanas's absence.
-- Vereesa accepts the refusal even while hating what it means, the recall returns to Silvermoon unanswered except by absence, and Cyndia witnesses both Windrunner departures without intruding on either.
-- They do not know whether the sisters will see each other again or what story the Convocation tells once Vereesa rides back without the Ranger-General.
-- Ground the leaving: the recall document folded into Vereesa's saddlebag, a gray mare turning north under a rider who wanted the opposite answer, dust hanging after the escort is gone.
-- With both institutions answered, only the road order is left.
+- Jaina will not stop herself once arrival becomes mathematically possible. Sylvanas decides for her. One word. No debate.
+- Jaina will not define her own limit once the ship can still move, Sylvanas's authority still reaches the part of Jaina that obeys competence, and the care lands through command, water, warmth, and shared silence rather than explanation.
+- They do not know whether the widened channel will narrow again once the push ends or what the source has done to Jaina by holding that line open for so long.
+- Ground the stop: one word crossing a noisy deck and landing harder than any shouted order, a leather waterskin warm from Sylvanas's cloak, the natural wind reappearing under the killed channel as if weather had been there all along.
+- Surrender lands as trust instead of defeat.
+- Inside: the sums said she could keep going, and the sums were hers; one word, and she obeyed before she decided to; furious, and grateful, and drinking the water anyway; Antonidas never could stop her like that, and she won't think about why Sylvanas can
 
 ---
 
-## Scene 4: The Road North
+## Scene 4: The Approach
 
-**The action:** Agreement turns into movement, and the map, the relay network, and Jaina's senses all point the same way.
-**Cast:** Sylvanas, Jaina, Cyndia, escort riders.
-**Starting point:** Both women have now chosen the mission over home. North only lacks the spoken order.
+**The action:** The crossing leaves one question open in the dark, then turns into ice, coast, and proof that the chase is still late.
+**Cast:** Jaina, Sylvanas, Cyndia, Farstrider rangers, Dagny, Wolfheart crew.
+**Starting point:** The crossing will succeed, but Jaina has paid for that success visibly.
 
 ### Beat 9
-- The order is operationally obvious and personally irreversible. Once spoken, it turns analysis and refusal into desertion in motion.
-- Sylvanas gives the direction in a single word, Jaina falls into formation without question and confirms convergence rather than debate, and north becomes a shared decision instead of a map inference.
-- They do not know how they secure passage once the land runs out or how far behind Arthas they already are in practical terms.
-- Ground the turn: tents struck and loads redistributed fast, horses turned and moving before the dust from Vereesa's departure fully settles, Jaina already in her left-rear lane when the order finishes sounding.
-- North becomes chosen fact.
+- In the dark after the push, Jaina says into the cabin, "Kel'Thuzad was right about parts of it. So is Arthas." Sylvanas, awake in the next bunk, tells her to sleep, because Dagny wants her on the ice watch at first light.
+- Nobody answers the question. The ice watch is real: the floes begin at first light and Dagny needs Jaina's sense of them. Jaina lies awake anyway.
+- They do not know whether the question has an answer or what it will demand when she has to act fast again.
+- Ground the night: a narrow bunk rocking under a body too tired to sleep, bread-taste and sea-sway sharing the same dark, cold stars through the deadlight over a ship still moving north.
+- The question is out loud and still open.
+- Inside: right about parts of it, so which parts, and who sorts them; she would have said method, not certainty, a month ago; Sylvanas said sleep, an answer of a kind, or a mercy, or neither; lies awake ranking her certainty against theirs and dislikes the ranking
 
 ### Beat 10
-- As they ride, the relay network thins toward the coast, the air changes, and Jaina's face says the frequency is getting stronger even though Sylvanas cannot feel it herself. Everything beyond the coast will have to run on borrowed passage and the partnership alone.
-- The last useful relay stations end at the northern harbors, sea air and colder wind arrive before the water itself does, and Jaina's resonance sense reacts more strongly as they ride into the northward pull.
-- They do not know which ship they get or what waits in Northrend besides Arthas and the source.
-- Ground the road: salt wind reaching them before the coast is visible, horses breathing harder in colder evening air, Jaina's expression changing as if she has found a track the others cannot see.
-- The investigation fully becomes pursuit.
+- By dawn the headwinds ease only because the ship has entered a colder, harsher problem: ice, ambient resonance, and a coast that does not care whether they survive it. Jaina no longer has to reach for the source. This close, it reaches for her.
+- Northrend's cold is place-pressure rather than simple weather, the source signature is ambient at this range, and the contamination echo in Jaina aligns harder under proximity instead of fading.
+- They do not know how much of Jaina's altered perception will remain once they leave the source's immediate radius or whether the coast offers a usable lead or only proof of lateness.
+- Ground the approach: iron-tipped poles ringing off ice floes, frost webbing the rigging at dawn, the cold changing from wind-bite to something that presses behind the eyes.
+- Proximity becomes physical.
+
+### Beat 11
+- They make landfall at Daggercap Bay, but arrival is not rescue. The harbor already shows days of military use and departure. Arthas is alive, inland, and still ahead.
+- Daggercap Bay carries fresh signs of Arthas's expedition through expanded docks, caches, bootprints, empty camp traces, and burned ship ribs frozen into the harbor ice, the source stops opposing the crossing once they enter its domain, and the pursuit now changes from sea arithmetic to inland tracking.
+- They do not know who, if anyone, is still alive inland who can tell them what Arthas found or how much farther north the real answer sits beyond the harbor.
+- Ground the landfall: frozen mud under boots after four days of deck motion, new timber on dwarven trade docks, the resonance everywhere at once instead of only at the edge of thought.
+- Arrival proves only that the chase continues on land.
 
 ---
 
 ## Chapter close / handoff
 
 **Active cast at close**
-- Sylvanas
 - Jaina
+- Sylvanas
 - Cyndia
-- Vereesa, departed north for Silvermoon
+- Three Farstrider rangers
+- Dagny
+- Wolfheart crew
 
 **What carries into Chapter 20:**
-- Sylvanas refused the Convocation and is now a deserter in practice.
-- Jaina severed the Dalaran line herself.
-- Lor'themar bought only a small forward mobilization and paid heavily for it.
-- The relay network ends at the coast.
-- Jaina's resonance model grows stronger northward.
-- The line is riding for the northern harbors and a ship to Northrend.
+- The line reached Daggercap Bay alive.
+- Arthas is already inland and a few days ahead.
+- The source opposed the crossing directly through supernatural headwinds.
+- Jaina pushed her Frostmourne sensitivity hard enough that the bread-taste now reads as baseline rather than flare-up.
+- Sylvanas stopped Jaina before the crossing cost became fatal.
+- Sylvanas knows the three things Jaina paid Kel'Thuzad, from Jaina, and that he wrote after each one. The desk volume is unopened in Jaina's bag.
+- The next chapter begins with inland tracking, local intelligence, and the first Frostmourne lane.
 
 **Do not add yet:**
-- Any ship captain or vessel choice.
-- Any on-page Frostmourne contact.
-- Any institutional rescue or forgiveness.
-- Any easing of the resource deficit they are riding into.
+- Any on-page sight of Frostmourne.
+- Any Muradin alliance or weapon briefing.
+- Any promise that Jaina can safely exploit the widened channel.
+- Any indication that arrival itself corrected the timetable.

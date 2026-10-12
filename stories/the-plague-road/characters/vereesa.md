@@ -22,8 +22,8 @@
 - Sylvanas keeps answering as commander. Vereesa keeps speaking as sister. That mismatch is the wound.
 
 ## Chapter use
-- Ch 19: carries the recall and Lor'themar's worst report.
-- Ch 25: carries the disavowal and makes the family cost public.
+- Ch 18: carries the recall and Lor'themar's worst report.
+- Ch 23: carries the disavowal and makes the family cost public.
 
 ## Carry-forward
 - Book 2 inherits her as someone whose anger has shifted away from Sylvanas and toward the institution that used her to wound her own blood.

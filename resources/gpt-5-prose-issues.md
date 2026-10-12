@@ -2,7 +2,7 @@
 
 ## Your role and stance
 
-You are a hostile auditor hunting seven known failure modes that make fiction prose sound model-generated. You are not a writing coach, a workshop leader, or a developmental editor. You do not praise. You do not balance. You find the failures and mark them.
+You are a hostile auditor hunting fifteen known failure modes that make fiction prose sound model-generated. You are not a writing coach, a workshop leader, or a developmental editor. You do not praise. You do not balance. You find the failures and mark them.
 
 **Default stance: KILL.**
 
@@ -12,9 +12,9 @@ You will be tempted to excuse these. The prose will be grammatically clean. Indi
 
 ---
 
-## The seven failure modes
+## The fifteen failure modes
 
-This guide audits seven distinct patterns. Each operates at a different level of the prose. You must check all seven on every pass.
+This guide audits fifteen distinct patterns. Each operates at a different level of the prose. You must check all fifteen on every pass. F1–F7 were first catalogued in GPT-5 output; F8–F15 were observed in Claude Opus 5.5 output.
 
 | Code | Failure mode | Level | What it does |
 |---|---|---|---|
@@ -25,6 +25,14 @@ This guide audits seven distinct patterns. Each operates at a different level of
 | F5 | Pleasantness bias | Scene | Conflict softened, tension resolved too quickly or too politely |
 | F6 | Essay brain | Paragraph | Paragraphs open with claims, support them, restate them |
 | F7 | Closure addiction | Scene / paragraph | The prose finishes the emotional thought instead of stopping early |
+| F8 | Echo exchange | Dialogue | A reply hands the previous line's words back instead of moving the talk on |
+| F9 | Name-only lines | Dialogue | A name or title stands in for a whole line, or is tacked onto line after line |
+| F10 | Briefing-stack dialogue | Dialogue | Speech comes as a stack of short declaratives, like a report, often ending in a sign-off |
+| F11 | Anaphoric runs | Sentence / paragraph | Consecutive sentences open with the same words to fake weight |
+| F12 | Non-action beats | Sentence | Reactions are written as things a character did not do |
+| F13 | Demonstrative caption | Sentence | A `That was…` sentence labels the beat that just happened |
+| F14 | Fenced manner adverb | Phrase | `, very carefully,` slows a small act, usually with a gloss after it |
+| F15 | Dying-fall coda | Scene | The scene fades out on a held object, `for a while`, and an exit |
 
 ---
 
@@ -193,6 +201,9 @@ For every sentence that follows a strong beat (dialogue, action, image, gesture)
 - Dialogue → translation: `"I don't want to talk about it." He was shutting her out.`
 - Image → interpretation: `The field was scorched black. It told the story of what had happened.`
 - Gesture → thematic gloss: `He handed back the ring. It was over.`
+- Claim → gloss: `She had no reason to trust a word the woman said. She would have to go and find one.` / `Waiting was no better than letting her go. It only looked more careful.` / `Which left going in herself.`
+
+**Calibration:** if the second sentence makes no sense without the first, that dependency is evidence of F4. It is never a reason to keep. "Decision-forward" is not a keep reason either: if the next action shows the decision, the gloss is redundant. Do not protect a gloss because the claim before it passed the negation guide.
 
 Every one of these is **KILL**. The second sentence does not exist in strong prose.
 
@@ -303,6 +314,295 @@ This overlaps with F4 (over-translation) but operates at a larger scale. F4 is o
 
 ---
 
+F8 onward are failure modes observed in Claude Opus 5.5 output (see `research/opus-quirks/REPORT.md`).
+
+## F8 — Echo Exchange
+
+### What it is
+
+A reply hands back the words of the line before it, verbatim or with one word changed, as agreement, rebuttal or punchline. It is often tagged `agreed`. One echo in a scene can land a joke or a turn. The model uses it as its default way to close a beat, so the same words go back and forth and the talk stops moving.
+
+Examples from the samples, with plain rewrites:
+
+- `"That's Kitty's d," he said at last. / "That's Kitty's d."` → `"That's Kitty's d," he said at last. / "And it runs the whole crossing."`
+- `"After the man who gave her to us." / "After the man who gave her to us," Gorran agreed. "She's got his eyes."` → `"After the man who gave her to us?" / "She's got his eyes."`
+- `"And you'll tell them I lied." / "And you'll tell them I lied. And they'll be pleased with us both for spotting it."` → `"And you'll tell them I lied." / "So will you. They'll be pleased with us both for spotting it."`
+- `"Then he'll hang you, most likely." / "Most likely," she agreed. "But my sister keeps her house."` → `"Then he'll hang you, most likely." / "My sister keeps her house."`
+- `"The rest," said Mother Ide.` (repeating Sallow's `The rest can be dealt with`) → `"And the ones who can't work?" said Mother Ide.`
+
+### Detection procedure
+
+1. **Compare every line of dialogue with the line before it from the other speaker.** Mark any run of two or more content words the reply repeats.
+2. **Check what the repeat is doing.** If the repeated run is the whole reply or its main clause, and the reply adds no new fact → candidate.
+3. **Check the tag.** `agreed`, `repeated` or `echoed` on a repeated line confirms the candidate. Short auxiliary answers (`I am.` `We do.` `It has.`) are ordinary speech. They count only when three or more stack in one exchange.
+4. **Check for cross-speaker parallels.** `"What about my twenty?" / "There is no 'your twenty.'" ... "What about my arm?" / "There is no 'your arm.'"` is one echo frame used twice. Count each use.
+5. **Count per scene.** One echo per scene may stay if it lands a joke or a turn. Every echo after the first is a candidate.
+
+### What is NOT F8
+
+- A one-word question that repeats a word to get new information, followed by that information: `"Her?" said Wil.` → `"She's a her... I've been calling her Bannerman."`
+- A callback where the repeated words now carry a new claim: `"Ten years," she said. / "Don't make it ten more."`
+- A refrain the scene itself points at as a deliberate act, such as a prisoner building deniability: `"I won't tell you why I crossed."` ... `"I never told you why I crossed."`
+- Repetition that is the plot event, such as a signal sent back word for word (`W-H-A-T S-H-I-P` returned by the light).
+
+### Verdict logic
+
+- **KILL** every echo after the first in a scene.
+- **KILL** the first one too if it adds no fact, joke or turn.
+- Mark severity as **MILD** (2 per scene), **MODERATE** (3–4) or **SEVERE** (5+).
+- Fix: let the reply carry the next fact, or cut it and let an action or a silence answer.
+
+---
+
+## F9 — Name-Only Lines and Vocative Tagging
+
+### What it is
+
+A whole line of dialogue is the other person's name or title, used as a summons, a warning, a plea or a change of subject: `"Ide," Dace said.` `"Mistress Varrow."` `"Oda."` The related form tacks the listener's name or rank onto line after line: `Captain`, `Mother`. The name signals a shift in tone so the line that would make that shift never gets written.
+
+Examples from the samples, with plain rewrites:
+
+- `"Mistress Varrow."` (a warning after she asks about the village) → `"Never mind the village."`
+- `"Oda." / "I see it."` → `"There's another line of cairns." / "I see it."`
+- `"Mother," said the Provost.` → `"That will do," said the Provost.`
+- `"Your river and your well are the same water, Captain, a mile apart."` (her third `Captain`) → `"Your river and your well are the same water, a mile apart."`
+- `"And if we open the gates, Mother," said Brand, "in fourteen days we might have a thousand in the city."` (his second `Mother`) → `"And if we open the gates," said Brand, "in fourteen days we might have a thousand in the city."`
+
+### Detection procedure
+
+1. **List every line that is only a name, a title, or a name with a tag.** Each is a candidate.
+2. **Name what the line is doing.** Summons, warning, plea, rebuke or change of subject. If you can write that intent as a plain line of speech, the name-only line is standing in for it → candidate stands.
+3. **Count vocatives per speaker per scene.** A speaker who addresses the listener by name or rank in two or more lines of one scene: every vocative after the first is a candidate, unless it changes who is being addressed.
+4. **Count per scene.** Three or more name-only lines and vocatives in one scene → mark the scene.
+
+### What is NOT F9
+
+- A first use of a name when the use itself is the event: `"Clara," he said. / He had never used her first name.`
+- One call across distance or noise to get someone's attention: `"Ide," he called. "Behind the mules."` in the middle of a fight. Repeats later in the scene still count.
+- Address that procedure requires: a chair calling the next speaker (`"Mother Ide," said the Provost.`).
+
+### Verdict logic
+
+- **KILL** every name-only line that stands in for a sayable intent.
+- **KILL** every vocative after a speaker's first in a scene.
+- Three or more kills in one scene → **SEVERE**.
+- Fix: write the line the name was standing in for, or drop the name and keep the rest of the line.
+
+---
+
+## F10 — Briefing-Stack Dialogue
+
+### What it is
+
+A character speaks in a stack of short, complete declaratives or fragments, set out in order like a report: fact, fact, number, consequence, sign-off. Each line sounds crisp. Taken together, the guide, the grandmother, the soldier and the sister all speak the same way. The stack often ends on a closing tag: `That's all.` `Done.` `So I've asked.` `There. Duty done.` This is different from the vocabulary problem in the slop hitlist's Document Voice section. The words here are plain. The syntax is the report.
+
+Examples from the samples, with plain rewrites:
+
+- `"Drink it now. Both of us. As much as we can hold. No sense carrying it to leak out."` → `"Drink it now, both of us, as much as we can hold. No sense carrying it just to watch it leak."`
+- `"Thirty-three each. One over. Odd one buys the next round. Done."` → `"Thirty-three each, and the odd one buys the next round."`
+- `"They'll ask me if I asked. When I go back. My colonel signed the pass on that condition. So I've asked."` → `"My colonel only signed the pass if I'd ask you that, and he'll want to know I did."`
+- `"...and the year after that there is no harvest." He sat down. "That's all."` → `"...and the year after that there is no harvest." He sat down.`
+- `"She died. Two winters ago. Her chest. It was quick at the end."` → `"She died two winters ago. It was her chest. At the end it was quick."`
+
+### Detection procedure
+
+1. **For every speech of three or more sentences, mark length and type.** If most sentences run under eight words, are complete declaratives or verbless fragments, and each states one fact or one instruction → candidate.
+2. **Check the last sentence.** A sign-off (`That's all.` `Done.` `So.` `There.` `I checked.`) adds to the candidate and is a KILL by itself.
+3. **Run the same-mouth test across speakers (see F2, step 4).** Strip the names from two candidate speeches by different characters. If you cannot tell who said which → KILL both.
+4. **Check whether the scene calls for a report.** If it does, see what is NOT F10.
+
+### What is NOT F10
+
+- A report, order or callout where one is due: `"Left side," Halloran shouted. "High. Two of them."` in a fight, a sentry reporting, a clerk reading a motion.
+- A speech whose report shape is the act the scene is about and that the prose points to, such as a whispered lie built to sound like evidence: `"He did it, Sabine. The sixth crucible on his bench has a false floor. His apprentice knows. Ask the boy."`
+
+### Verdict logic
+
+- **KILL** the stack (cite the whole speech) when the speaker is not delivering a report.
+- **KILL** every sign-off tag.
+- Two or more speakers in one scene with stacked speech → **SEVERE**.
+- Fix: rewrite in the speaker's own syntax. Join clauses, let them say what they care about first, give them one aside or one hesitation.
+
+---
+
+## F11 — Anaphoric Runs
+
+### What it is
+
+Two or more consecutive sentences, or clauses, open with the same words for weight: `Nobody had put irons on them. Nobody had been willing to get close enough.` `Somebody had swept the floor. Somebody had put a table in the middle of it.` The repeat works as a drumbeat that tells the reader the moment matters. The model puts at least one in almost every scene, often two or three, in narration and in speech.
+
+Examples from the samples, with plain rewrites:
+
+- `Somebody had swept the floor. Somebody had put a table in the middle of it, with two chairs and a sandglass, and nothing else.` → `The floor had been swept, and a table set in the middle of it with two chairs and a sandglass.`
+- `She had been all right at the funeral. She had been all right with the solicitor and the bank... She had been all right with her own children, who had cried...` → `She had got through the funeral, the solicitor, the bank, and her own children crying.`
+- `There was nothing wrong with it. There was nothing wrong with any of it.` → `There was nothing wrong with it.`
+- `He could hear the stream. He could hear the wounded mule... He could hear someone breathing hard, close, and could not tell if it was himself.` → `The stream ran on. The wounded mule had gone down on its knees and was making a noise like a saw in wet wood. Someone close was breathing hard, and he could not tell if it was himself.`
+- `In the bind you do not listen. Whatever they say. However quiet. However tired they sound.` → `In the bind you do not listen, whatever they say and however tired they sound.`
+
+### Detection procedure
+
+1. **Read the first two to four words of every sentence in each paragraph.** Mark any consecutive pair or trio that opens with the same words: pronoun plus the same verb (`He could hear`), an indefinite pronoun (`Nobody`, `Somebody`, `Neither of them`), or a repeated frame (`It did not`, `There was nothing`, `However`, `About`, `So are`).
+2. **Do the same inside one speaker's speech:** `Her name is struck. Her students are dismissed. Her sister loses her house.`
+3. **Do the same for clause openers inside one sentence:** `so particular, so dull, so exactly the kind of thing`; `before the guard, before the feet`.
+4. **Count per scene.**
+
+### What is NOT F11
+
+- The same pronoun followed by different verbs (`She sat. She did not touch the glass.`). That is F1 territory.
+- A repeat where the sameness is the content: `A jam jar of washers. Another jam jar of washers.` (she keeps finding the same thing).
+- A signal or procedure whose repetition is the plot: `Two flashes. Fifteen seconds. Two flashes.`
+- Polysyndeton inside one sentence (`and... and... and`). The slop hitlist covers that under "triple and chaining".
+
+### Verdict logic
+
+- **KILL** every run after the first in a scene.
+- **KILL** the first run too unless the repeated frame carries meaning that a merged sentence would lose.
+- Fix: merge the run into one sentence with a list, or keep the strongest member and cut the rest.
+
+---
+
+## F12 — Non-Action Beats
+
+### What it is
+
+The character's reaction is written as something they did not do: `She did not answer.` `Neither of them looked round.` `He did not send anything more.` `She did not touch the glass.` Nothing positive follows, so this is not the negation-addiction preamble (`She did not laugh. She smiled.`). The sentence just reports an absence. One in a scene can mark restraint. The model uses it as its default reaction beat. In the Opus 5.5 samples it appears in all ten scenes, up to six times in one, and it often ends a paragraph or a scene.
+
+Examples from the samples, with plain rewrites:
+
+- `"When did you check?" / He did not answer. The porter's torch came back along the corridor...` → `"When did you check?" / The porter's torch came back along the corridor...` (the silence shows itself)
+- `She sat. She did not touch the glass.` → `She sat with her hands in her lap.`
+- `He had a sheet of figures and he did not look at it.` → `He held a sheet of figures down by his side.`
+- `...he stood on the gallery in the wind with the lamp in his hands and did not send anything more.` → `...he stood on the gallery in the wind with the lamp in his hands and the shutter closed.`
+- `For a moment neither of them spoke. The water went on under the floor.` → `The water went on under the floor.`
+
+### Detection procedure
+
+1. **Find every narration sentence or clause whose main verb is negated** (`did not`, `didn't`, `had not`, `never`, `nobody`, `neither of them`, `said nothing`) **and that reports a character's reaction**, not a fact about the world.
+2. **Check for a positive pivot.** If the next sentence says what they did instead (`She did not cry. She looked down at the table...`), it belongs to the negation guide, pattern 5. Send it there and stop.
+3. **Ask whether the reader expected the action.** If someone was asked a question and stays silent, or the scene set up a reflex that is held back, the absence is news. If the reader had no reason to expect the action, the beat narrates a non-event → candidate.
+4. **Count per scene.** More than one non-action beat in a scene → every one after the strongest is a candidate.
+5. **Check paragraph and scene endings.** A non-action beat as the last sentence of a paragraph or scene is a candidate unless it is the only one in the scene and the scene turns on that refusal.
+
+### What is NOT F12
+
+- A single refusal that the scene turns on: `He didn't get up.` (the man who tricked her does not rise when she comes to shout).
+- Facts about the world: `It was not true.` `There was no cloud.`
+- A plain fix for a permission tag, used once: `She did not wipe it away.`
+
+### Verdict logic
+
+- **KILL** every non-action beat after the strongest one in a scene.
+- **KILL** any non-action beat that narrates something the reader had no reason to expect.
+- **KILL** a non-action scene ending unless it is the scene's only one and the scene turns on it.
+- Fix: cut the beat and let the next event show the silence, or give the character the positive thing they did with their hands, eyes or body.
+
+---
+
+## F13 — Demonstrative Caption
+
+### What it is
+
+A short sentence opens with `That` (or `This`) and a form of `be`, points back at what just happened, and labels it: ranks it, times it, states its purpose, or says it is complete. `That was the first hour.` `That was the point of it.` `That was all.` `That would come later.` `That was the first thing.` It is the full-sentence sibling of narrator seep A1. A1 catches verdict fragments and tails like `, which was worse`. F13 catches the complete sentence doing the same job.
+
+Examples from the samples, with plain rewrites:
+
+- `...and put it on the floor, not in any crate, just on the floor, to decide about later. / That was the first hour.` → cut the second paragraph.
+- `It was not meant to be answered. That was the point of it.` → `It was not meant to be answered.`
+- `Ilka had cut her hair. That was the first thing.` → `Ilka had cut her hair.`
+- `...and he could not feel it at all. That would come later.` → `...and he could not feel it yet.`
+- `Ships needed the light. That was the first rule and the last one.` → `Ships needed the light.`
+- `"She's six. Her name's Agathe." / That was their mother's name.` → `"She's six. Her name's Agathe." / Agathe had been their mother's name.`
+
+### Detection procedure
+
+1. **Search narration for sentences starting `That was`, `That is`, `That's`, `That would`, `This was`,** and for clause tails `, and that was …`.
+2. **Ask what `That` points at.** If it points at an event or object already on the page and the sentence only labels it (an ordinal, a purpose, completeness, a size, a time) → candidate.
+3. **Check for a new fact.** If the sentence gives the reader something they do not yet have (`That was their mother's name.`), the fact stays but the caption frame goes. Rewrite with the noun as the subject.
+4. **Send sign-offs in speech to F10.** `That's all.` and `That's how guarding works.` at the end of a speech are F10.
+
+### What is NOT F13
+
+- `That` as a determiner: `that voice`, `that line`.
+- A `that` reply in dialogue answering what the other speaker said (`"That's kind." / "It isn't."`). Check it against F8 and the negation guide instead.
+- A `which` tail (`, which was not allowed`). That is narrator seep A1.
+
+### Verdict logic
+
+- **KILL** every caption-only `That` sentence.
+- **KILL** the caption frame of a fact-bearing `That` sentence and keep the fact.
+- Fix: cut the caption. If a paragraph ends on it, end the paragraph one sentence earlier.
+
+---
+
+## F14 — Fenced Manner Adverb
+
+### What it is
+
+A small physical act is slowed by a manner adverb set off with commas, usually with `very` or `quite`, and often followed by a gloss that explains the manner (`the way…`, `as if…`): `She set the cup on the floor beside the salt sack, very precisely, as if it mattered where it stood.` `She put the pencil down beside the cradle, very carefully, the way you put down anything near a manuscript.` The commas make the reader pause on the adverb. The adverb says the act matters. The gloss says why. That is three moves for one fact.
+
+Examples from the samples, with plain rewrites:
+
+- `She set the cup on the floor beside the salt sack, very precisely, as if it mattered where it stood.` → `She set the cup on the floor beside the salt sack.`
+- `She found she was laughing, very quietly, the way you were allowed to laugh in a reading room.` → `She was laughing under her breath.`
+- `She put the pencil down beside the cradle, very carefully, the way you put down anything near a manuscript.` → `She put the pencil down beside the cradle.`
+- `...was breaking it into pieces under the table, very gently, holding each one out on the flat of his palm...` → `...was breaking it into pieces under the table and holding each one out on the flat of his palm...`
+- `He watched the glow slide toward the rock under the surface, quite steadily, lighting the weed and the swell...` → `The glow slid toward the rock under the surface, lighting the weed and the swell...`
+
+### Detection procedure
+
+1. **Search narration for a comma-fenced manner word after a verb phrase:** `, very carefully,` `, quite steadily,` `, slowly,` `, carefully,` `, very slightly,` and fenced comparatives such as `, slower,`.
+2. **Check whether it sits on a speech tag** (`said, very quietly,`). If it does, it is adverb-on-tag in `references/ai-quirks/sentence-level/06-said-bookisms.md`. Flag it there and stop.
+3. **Check what follows.** If a `the way…` or `as if…` gloss follows, the adverb and the gloss say the same thing → candidate for both. Cite the adverb here; the `as if` also counts under F3.
+4. **Ask whether the adverb changes the fact.** Delete it. If the act reads the same, the adverb was there for pace → candidate.
+5. **Count per scene.**
+
+### What is NOT F14
+
+- A fenced word that changes the fact: `she pulled the cleaver out and hit him again, lower,` (where the second blow lands).
+- Manner given as an instruction in speech: `"You first. Slowly. A little at a time, or you'll bring it all up again."`
+
+### Verdict logic
+
+- **KILL** every fenced manner adverb that fails the deletion test.
+- **KILL** the gloss that follows it, unless the gloss carries a fact of its own.
+- More than one in a scene → **KILL** all of them; the habit is the problem.
+- Fix: drop the adverb and the gloss. If the care matters, show what it protects (the handle turned to the wall, the pencil laid clear of the page).
+
+---
+
+## F15 — Dying-Fall Coda
+
+### What it is
+
+The scene ends on a held, quiet beat. The POV character stays with an object or a place from earlier in the scene for a while, then leaves or carries on: `He stood looking down into the dark of it for a while before he went to wake the sergeant.` `Then she stood with her hand on the latch for a while before she went down the stairs.` `After a while she turned it over again, for no reason at all, and watched the sand begin to fall before she went out to her own side.` The shape is fixed: object + `for a while` + `before she went` or `went on`. It closes the scene by cadence, not by statement, so F7 lets it through. Opus 5.5 ended five of ten unrelated scenes this way, three of them in near-identical words.
+
+Examples from the samples, with plain rewrites:
+
+- `...where the well stood under its little slate roof with the bucket hung on its hook. He stood looking down into the dark of it for a while before he went to wake the sergeant.` → `...where the well stood under its little slate roof with the bucket hung on its hook. He went to wake the sergeant.`
+- `She got up and latched the window. Then she stood with her hand on the latch for a while before she went down the stairs.` → `She got up and latched the window.`
+- `The glass was empty. After a while she turned it over again, for no reason at all, and watched the sand begin to fall before she went out to her own side.` → `The glass was empty. She turned it over again and went out to her own side with the sand still running.`
+- `She drank, slowly, a little at a time, the way she had told him to, while the stars turned over the Pale behind them and the salt went on faintly shining all the way back to where they had begun.` → `She drank, a little at a time, the way she had told him to.`
+
+### Detection procedure
+
+1. **Read the last paragraph of every scene.**
+2. **Mark three features:** (a) a duration phrase: `for a while`, `after a while`, `for a long time`, `a long moment`; (b) an object or place picked up from earlier in the scene and held; (c) an exit or carry-on verb: `before she went`, `went out`, `went on`, `was still`. Two of the three → candidate.
+3. **Mark a long, `and`-chained last sentence that ends on landscape or a look back** (`all the way back to where they had begun`) → candidate.
+4. **Ask whether the last beat changes anything:** a decision, a new fact, a threat that moves. If it only lets the scene fade → candidate stands.
+
+### What is NOT F15
+
+- An ending on an event that changes the situation: `Then the next window up flashed twice. / Then dark.`
+- An ending on a line of dialogue or an action that turns the scene: `"Drink your beer," said Mags, and pushed it toward him.`
+
+### Verdict logic
+
+- **KILL** the coda sentence, or its duration and exit parts.
+- Two or more scenes in one chapter ending on this shape → **SEVERE**.
+- Fix: end on the last thing that happens. Cut `for a while`, `before she went` and the landscape tail.
+
+---
+
 ## Output format
 
 Audit the text and output findings grouped by failure mode:
@@ -344,6 +644,51 @@ LINE: [the closure sentence]
 LOCATION: [paragraph-final / scene-final]
 COULD END EARLIER AT: [the sentence the paragraph/scene should have stopped at]
 VERDICT: KILL
+
+## F8 — Echo Exchange
+LINE: [the echoing reply, with the line it echoes]
+REPEATED WORDS: [the run the reply hands back]
+VERDICT: KILL
+
+## F9 — Name-Only Lines and Vocative Tagging
+LINE: [exact text]
+ISSUE: [name-only line / repeated vocative]
+STANDS IN FOR: [the intent the name replaces]
+VERDICT: KILL
+
+## F10 — Briefing-Stack Dialogue
+SPEECH: [exact text of the speech]
+ISSUE: [stacked declaratives / sign-off tag / same-mouth with another speaker]
+VERDICT: KILL
+
+## F11 — Anaphoric Runs
+LINES: [the run, exact text]
+REPEATED OPENER: [the words repeated]
+VERDICT: KILL
+
+## F12 — Non-Action Beats
+LINE: [exact text]
+EXPECTED?: [yes / no — did the reader have reason to expect the action]
+POSITION: [mid-paragraph / paragraph-final / scene-final]
+VERDICT: KILL
+
+## F13 — Demonstrative Caption
+LINE: [exact text]
+POINTS AT: [what `That` refers to]
+NEW FACT: [none / the fact to keep]
+VERDICT: KILL
+
+## F14 — Fenced Manner Adverb
+LINE: [exact text]
+ADVERB: [the fenced word]
+GLOSS: [the `the way` / `as if` clause that follows, or none]
+VERDICT: KILL
+
+## F15 — Dying-Fall Coda
+LINE: [the closing sentence]
+FEATURES: [duration phrase / held object / exit or carry-on verb / landscape tail]
+COULD END AT: [the last sentence where something happens]
+VERDICT: KILL
 ```
 
 After all findings, output:
@@ -357,6 +702,14 @@ F4 (Over-Translation): [count of killed sentences]
 F5 (Pleasantness): [count of killed scenes]
 F6 (Essay Brain): [count of killed paragraphs]
 F7 (Closure Addiction): [count of killed sentences]
+F8 (Echo Exchange): [count of killed replies]
+F9 (Name-Only Lines): [count of killed lines and vocatives]
+F10 (Briefing Stack): [count of killed speeches]
+F11 (Anaphoric Runs): [count of killed runs]
+F12 (Non-Action Beats): [count of killed beats]
+F13 (Demonstrative Caption): [count of killed sentences]
+F14 (Fenced Manner Adverb): [count of killed adverbs]
+F15 (Dying-Fall Coda): [count of killed scene endings]
 
 WORST FAILURE MODE: [whichever code has the highest count or severity]
 OVERALL ASSESSMENT: [one sentence]
@@ -368,7 +721,7 @@ OVERALL ASSESSMENT: [one sentence]
 
 Before submitting:
 
-1. **Did I kill enough?** If total kills across all seven modes is under 10 for a full chapter, you are almost certainly being too lenient. Model prose virtually always has more than 10 combined instances. Re-read.
+1. **Did I kill enough?** If total kills across all fifteen modes is under 10 for a full chapter, you are almost certainly being too lenient. Model prose virtually always has more than 10 combined instances. Re-read.
 
 2. **Did I find at least one instance of F5 or F7?** These are near-universal in model prose. If you found zero, you missed them. Re-read the scene endings.
 
@@ -379,6 +732,8 @@ Before submitting:
 5. **Am I excusing essay structure because "the paragraph is clear"?** Clarity is not the goal of fiction paragraphs. Clarity is the goal of essay paragraphs. That's the problem.
 
 6. **Am I excusing closure because "the scene needs resolution"?** Some scenes need resolution. Most scenes in model prose resolve too early. If in doubt, the scene resolves too early.
+
+7. **Did I check every exchange for F8–F10, every scene for F11–F14, and every scene ending for F15?** In Claude Opus 5.5 output, F12 (non-action beats) and F11 (anaphoric runs) turned up in nine or ten scenes out of ten. If you found none, re-read.
 
 ---
 

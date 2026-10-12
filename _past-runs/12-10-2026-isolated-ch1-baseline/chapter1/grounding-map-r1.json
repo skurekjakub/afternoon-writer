@@ -1,0 +1,48 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 1,
+  "globalRisks": ["source-fidelity", "staging-consistency"],
+  "segments": {
+    "openingThird": { "risk": "low" },
+    "middleThird": { "risk": "low" },
+    "finalThird": { "risk": "medium" }
+  },
+  "scenes": [
+    {
+      "sceneId": 2,
+      "title": "The Messenger",
+      "riskTags": ["staging-contradiction"],
+      "biggestGap": "Ride at hard climb contradicted by Sylvanas lingering at each stone.",
+      "sourceBank": {
+        "geography": ["Thalassian Pass road", "ward-stone ring"],
+        "materials": ["mare", "gold canopy", "grey rock"]
+      },
+      "sceneContract": {
+        "placeAnchor": "Pass road climb, ward-stones set thick as stitches",
+        "materialAnchor": "hum through saddle, mare's hooves",
+        "povAnchor": "checking each stone foot to crown",
+        "dialogueAnchor": "n/a (no dialogue in touched passage)",
+        "exitAnchor": "stranger's claim about the stones"
+      },
+      "dialogueRuns": []
+    },
+    {
+      "sceneId": 3,
+      "title": "The Prisoner",
+      "riskTags": ["costume-source-drift", "ambiguous-place-name"],
+      "biggestGap": "Garment contradicts jaina.md and plan ('practical traveling robes'); 'the Spire' ambiguous.",
+      "sourceBank": {
+        "geography": ["Windrunner Spire"],
+        "materials": ["blue-grey wool robe", "horn buttons", "watch-file"]
+      },
+      "sceneContract": {
+        "placeAnchor": "storeroom, ward-lamp circle",
+        "materialAnchor": "travel robe stiff with mud, ship's-officer cut, horn buttons",
+        "povAnchor": "Sylvanas reading cut and buttons as identification, memory of watch-file at Windrunner Spire",
+        "dialogueAnchor": "Cyndia's inscription reading, book in oilcloth",
+        "exitAnchor": "ward-light, chain, 'Start talking.'"
+      },
+      "dialogueRuns": []
+    }
+  ]
+}

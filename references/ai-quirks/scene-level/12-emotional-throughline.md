@@ -38,7 +38,7 @@ She thought about dinner. There was leftover stew from yesterday, and some bread
 **Good:**
 The argument had been vicious. Words said that couldn't be unsaid. She sat in the aftermath and felt the damage — a ringing silence, like the moment after a bell stops but the sound is still in your teeth.
 
-The fire was dying. She should add wood. She didn't move. The cold crept in, and she let it, because the cold felt appropriate and warmth would have been an insult to whatever had just happened between them.
+The fire was dying. She should add wood. She didn't move. The cold crept in. She stayed where she was. The cold felt appropriate and warmth would have been an insult to whatever had just happened between them.
 
 Eventually she moved. Added a log. Watched the flames catch with the distant, uninvested attention of someone watching something that doesn't concern them. The stew from yesterday was in the pot. She'd eat. She'd sleep. Tomorrow — but she couldn't finish the thought. Tomorrow was on the other side of tonight, and tonight was still happening.
 
@@ -57,7 +57,7 @@ She examined the map on the table.
 **Good:**
 Fear — the cold kind, starting in the stomach, spreading. Her heart hammered. Her palms went slick. Every instinct she had was screaming one word, and the word was "run."
 
-She didn't run. She stood there and let the fear do its work, because running wouldn't change anything and at least standing still felt like a choice.
+She didn't run. She stood there. Running wouldn't change anything, and standing still at least felt like a choice.
 
 The map on the table. She forced her eyes to it. The lines blurred, resolved, blurred again. Focus. She traced the route with a finger that wouldn't quite hold steady.
 
@@ -126,7 +126,7 @@ Later — an hour, maybe two, the fire built up and dying back again — she was
 
 "I said thank you."
 
-For what, she didn't ask. The laugh from earlier was still in her sternum. She held still and let the thank-you settle next to it, two warm things in the same spot, and closed her eyes.
+For what, she didn't ask. The laugh from earlier was still in her sternum. She held still. The thank-you sat next to it, two warm things in the same spot. She closed her eyes.
 
 **Why:** The laugh's physical impact ("hit her in the sternum") in paragraph one is called back in the final paragraph ("still in her sternum"). The emotion thread persists across paragraphs about fire-tending and near-sleep, resurfacing when triggered by the thank-you.
 

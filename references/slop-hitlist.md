@@ -198,6 +198,74 @@ AI avoids repeating a character's name by cycling through synonyms: "the woman,"
 
 **Fix:** Rotate through the full body. Throat, stomach, hands, spine, skin, posture. Reserve breath-reactions for moments where breathing is genuinely disrupted — a kiss, a gut-punch, surfacing from water.
 
+## Permission Tags — `she let it` (zero uses)
+
+The character is shown granting permission to a feeling, sensation or object instead of doing something. `A bead of sweat crept toward her eye, and she let it.` `The thought arrived, and she let it come and go.` `She let it take her weight.` `She let the fear do its work.` `Let it settle.`
+
+**Fix:** write what she does, or cut the tag. `A bead of sweat crept from her hairline toward her left eye.` loses the tag. It can stand alone or join the previous sentence as a participial phrase (`Her shoulder burned, sweat creeping from her hairline toward her left eye.`). **When removing a negation, do not swap it for a permission tag.** `She didn't blink it away.` → `and she let it.` trades one tell for another. Write the positive physical fact instead: `She kept her eye on the slope.` or `She held still.`, or join the sensation to the previous sentence and stop there. The same tag with a person as object counts too: `She let him have them.` `She let him have the eleventh too.` Physical allowing with an object and a result (`She let the dog out.`) is fine.
+
+## Contact Verbs with Agency — `found`, `settled` (zero uses)
+
+Two uses of `found` and one of `settled` are banned outright. They are different from the dominance rule above, which only caps repeats.
+
+- **A body part finds something.** The hand or fingers are given the verb, and the character is demoted to the owner.
+- **`found` wraps a discovery.** The sentence announces that the character noticed a fact instead of stating it.
+- **A sensation settles.** An ache, weight, cold or dread is given a landing verb.
+
+Bad, with the fix:
+- `Sylvanas's fingers found the bowstring before she had decided to reach for it.` → `Her hand was on the bowstring before she decided to reach for it.`
+- `He tried to salute and found his hand still wrapped in the reins.` → `He tried to salute. His hand was still wrapped in the reins.`
+- `…until the old ache settled back into the joint.` → `…until the old ache was back in the joint.`
+
+Literal uses stay: `The mare settled into the long walk.` `She found the first ring on the map.` The test is whether the grammatical subject is a person or animal doing the thing, or a body part or sensation doing it.
+
+## Counting Devices (zero uses)
+
+The model counts things nobody in the scene is counting: strides, breaths, heartbeats, seconds, arrows, steps, the order of events. The number sounds precise and controlled. It is a rhythm device, and it reads as a narrator keeping a tally.
+
+Banned:
+- **Ordinals and counts as rhythm.** "He took his first ten strides under the silverleaf… She let him have the eleventh too." "The first arrow went wide. The second took him in the thigh. The third…"
+- **Counted body time.** "Three heartbeats." "She counted to ten." "Four breaths later."
+- **Clock time as measurement.** "For a full minute." "Forty seconds." "It took eleven minutes." Time passes by event: until the fire caught, until the patrol passed.
+- **Distances and quantities by number for precision.** "Twelve paces." "Six yards of open ground." "Nineteen dead." Say how it looks: a short run of open ground, a row of bodies.
+- **Tallies.** A character ticking items off, or the narration numbering a list of acts.
+
+Allowed: a number that is a plain fact and does no rhythmic work. Two days' ride. A second horse. Both hands. The third ring of the ward, when the ward is named that way in the world. A count a character would actually make, spoken in dialogue ("That's eight"), once.
+
+**Fix:** drop the number and state the event. "He took his first ten strides under the silverleaf, where she had no line. She let him have them. She let him have the eleventh too, when he jinked left around a boulder…" → "He made the silverleaf, where she had no line, and she held her shot. She held it again when he jinked left around a boulder and looked back up the slope at nothing."
+
+## Unplaceable, Then Placed (zero uses)
+
+The narration says the character cannot identify a smell, sound, feeling or face, then identifies it in the same sentence. `a sharp clean smell Sylvanas couldn't place, the air on the tops before snow` — she couldn't place it, and then the prose places it exactly. The disclaimer is false mystery, and the gloss is the narrator answering over her head.
+
+Shapes: `a [smell/sound/feeling] she couldn't place, [precise identification]`; `something she couldn't name — [names it]`; `a look he couldn't read, [reads it]`.
+
+**Fix:** choose one.
+- She knows it: name it plainly. `a sharp clean smell, the air on the high tops before snow`.
+- She doesn't know it: leave it unknown and give only what she perceives. `a sharp clean smell she couldn't place.` Then stop.
+- The narrator knows and she doesn't: that is a POV leak. Cut the identification.
+
+## Claim, Then Gloss (zero uses)
+
+A sentence states a judgement or fact, and the next sentence explains, caps or riffs on it. The second sentence leans on the first, often by turning one of its words, and it closes a thought the reader already had. It is narration explaining itself.
+
+- **Word-turn callback:** `She had no reason to trust a word the woman said. She would have to go and find one.` "Find one" only works because of "reason". It's a pun on the previous line.
+- **Epigram cap:** `Waiting was no better than letting her go. It only looked more careful.` The second sentence is an aphorism about the first.
+- **Deduction fragment:** `Which left going in herself.` / `That left one option.` / `So that was that.` The narrator does the character's arithmetic aloud.
+- **Stepped repetition:** `Close enough to reach. Close enough to be reached.` The second fragment flips the first for effect.
+
+**The test:** if the second sentence makes no sense without the first, that dependency proves it's a gloss. It is not a reason to keep it.
+
+**Fix:** keep the claim and cut the gloss, or cut both and let the next action carry the decision. `She held her bow out to the side. Cyndia took it.` Walking into the room is the decision.
+
+**Replacement trap:** do not fix a negation by writing a gloss. `She would get none standing in the doorway.` became `She would have to go and find one.` That swaps one tell for another. Cut the sentence instead.
+
+## The No-Look Handoff (max 1 per book)
+
+`Without looking, she held her bow out to the side. Cyndia took it.` One character holds something out blind and the other takes it without a word. It is stock shorthand for wordless trust between competent people. It appears in nearly every Opus draft, and once it's familiar it reads as a stamp.
+
+**Fix:** write the plain handoff (`She gave Cyndia her bow.`), or give the moment something particular to these two people: a word, a fumble, a habit only they share.
+
 ## Inanimate-Subject Agency (max 2 per scene)
 
 "The silence pressed against her." "The darkness seemed to breathe." "The room held its breath." "Something in the air shifted." "The tension coiled between them." AI stacks sentences where abstractions and objects perform emotional labor, creating a world where rooms have feelings and silences have intentions. One or two per scene is atmosphere; three or more and the prose becomes a haunted house where every noun is sentient.

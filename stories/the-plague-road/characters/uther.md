@@ -18,13 +18,13 @@
 - He saw the prince's speed problem long before Stratholme, but hope kept him in the teacher's role too long.
 
 ## Jaina line
-- Uther understands why she left Arthas better than either of them can admit.
+- Uther understands what Jaina saw in Arthas better than either of them can admit.
 - He sees the Sylvanas/Jaina partnership and instantly recognizes the kind of corrective friction Arthas no longer has.
 
 ## Chapter use
 - Ch 15: watching and afraid. The Light still answers Arthas, which is its own horror.
 - Ch 17: Stratholme break. "Boy" is not insult; it is paternal anguish stripped raw.
-- Ch 25: tells the truth at the tribunal and is dismissed anyway.
+- Ch 23: tells the truth at the tribunal and is dismissed anyway.
 
 ## Writer rules
 - He does not lose faith. He runs headfirst into its limits.

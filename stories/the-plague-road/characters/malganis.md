@@ -19,11 +19,16 @@
 - Verbal: the repeated farewell, "May the stars keep your road," which turns out to be an ancient Kaldorei fossil he no longer notices he is using.
 
 ## Confirmed face trail
-- Ch 3: old trader.
-- Ch 6: grain trader.
-- Ch 9: retreating figure.
-- Ch 15: military aide.
-- Ch 17: refugee-road merchant.
+- Ch 3: old carter with an empty wagon on the Millhaven road.
+  - Covert contact: as gossip, he asks whether they passed the young grain-man, his distributor, and learns that the survivor talked.
+- Ch 6: granary tally-man walking out of Andorhal with a ledger satchel.
+  - Covert contact: his directions send the party to Captain Havel, his cult-paid man.
+- Ch 9: robed figure who walks away from the Eastweald fight.
+  - Covert contact: the courier Cyndia kills had just left him, and the torn Hearthglen dispatch is his order.
+- Ch 15: quartermaster's aide in Arthas's war camp at Hearthglen.
+  - Covert contact: he hands a sealed manifest to a carter for the Stratholme granaries, sending grain and orders into the city before the army arrives.
+- Ch 17: carter with an empty wagon leaving Stratholme's service lane.
+  - Covert contact: his nod sends a sick-looking acolyte off before the Culling, and his wall route puts the trio where they will witness it.
 - On first read these should feel like unrelated helpers. On second read they are the same ancient thing walking beside the investigation.
 
 ## True self

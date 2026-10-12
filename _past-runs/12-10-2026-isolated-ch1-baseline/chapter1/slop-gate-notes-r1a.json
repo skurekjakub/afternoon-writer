@@ -1,0 +1,570 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA = [37], no prior oscillation)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 45,
+      "kills": 10,
+      "keeps": 35,
+      "severity": "MODERATE",
+      "dominantPattern": "Pattern 5 preamble/non-reaction negation and emphatic restatement of already-established facts",
+      "clusterPages": [
+        "Cyndia briefing, lines 237-257: 4 kills (L237, L247, L251, L257) -> severe cluster"
+      ],
+      "clusterWarnings": [
+        "Non-reaction beat shape repeats across scenes: 'He didn't smile.' (L151), 'She didn't raise her voice.' (L219), 'Cyndia didn't hesitate over it' (L251)",
+        "Three-hypothesis-then-'None of' shape repeats: L211 (kept, first instance) and L257 (killed)"
+      ],
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 141,
+          "pattern": "neg-P5-state-by-absence",
+          "severity": "MILD",
+          "text": "Nobody was arguing about trolls now.",
+          "deletionTest": "Paragraph reads: 'Behind her the patrol had come up, bunching along the trail. So much for Cyndia never wanting anything from her.' Survives; the negation only defines the patrol's state by what it stopped doing.",
+          "reason": "Defines the patrol's mood by the absence of a prior action; sits beside a second negation callback ('never wanting anything') in the same paragraph. No binary diagnostic, spatial precision, or hard constraint.",
+          "suggestedFix": "Every one of them was listening.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-2",
+          "line": 151,
+          "pattern": "neg-P5-preamble-non-reaction",
+          "severity": "MILD",
+          "text": "He didn't smile.",
+          "deletionTest": "'\"Someone has to tell them.\"' Survives; the line itself carries his refusal to banter.",
+          "reason": "Pattern 5: defines his reaction by the reaction he did not have. Same non-reaction shape recurs at L219 and L251.",
+          "suggestedFix": "He let the joke go by.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-3",
+          "line": 159,
+          "pattern": "neg-P4-litotes-minimizer",
+          "severity": "MILD",
+          "text": "with Dalaran, both was never out of the question.",
+          "deletionTest": "No positive half exists; the clause states possibility by negating impossibility.",
+          "reason": "Double-negative litotes standing in for a plain positive ('could be both'); no keep condition applies. (Note for slophunter: L209 repeats the same 'both' joke - 'With the Kirin Tor it was always worth considering both.' Repetition is outside pass A scope, but the positive fix below avoids a third phrasing of 'always'.)",
+          "suggestedFix": "with Dalaran, it could easily be both.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-4",
+          "line": 213,
+          "pattern": "neg-redundant-limitation",
+          "severity": "MILD",
+          "text": "What a right one looked like, she could not have said. Still less a wrong one.",
+          "deletionTest": "Paragraph keeps 'She could not read a leyline.' two sentences later, which states the same capability boundary. Survives and tightens.",
+          "reason": "Adversarial self-check 1: deleting the pair loses no concrete fact; the hard constraint is carried by 'She could not read a leyline.' The pair is a negation echo in a paragraph already dense with negations (L207-213).",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-5",
+          "line": 219,
+          "pattern": "neg-P5-preamble-non-reaction",
+          "severity": "MILD",
+          "text": "She didn't raise her voice.",
+          "deletionTest": "'\"Cyndia.\" Everyone in the yard had already turned...' Survives; the reason clause already shows she needed no volume.",
+          "reason": "Pattern 5: defines her delivery by the action she did not take. Repeats the non-reaction shape of L151.",
+          "suggestedFix": "She pitched it low.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-6",
+          "line": 237,
+          "pattern": "neg-emphatic-restatement",
+          "severity": "MODERATE",
+          "text": "Not one ranger on the wall had seen her.",
+          "deletionTest": "Paragraph ends '...laid her hands on it six times. \"Go on.\"' Survives; the unseen crossing is already established at L117 ('Nobody saw her cross'), L155 ('without a single ranger seeing her'), and L231 ('Nobody saw her before dawn').",
+          "reason": "Fourth negation-framed statement of the same fact; 'Not one' is emphasis, not information. Part of the L237-257 severe cluster.",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-7",
+          "line": 247,
+          "pattern": "neg-P1-contrast-tail",
+          "severity": "MODERATE",
+          "text": "He says every one reads like the trouble's inside it, not on the face.",
+          "deletionTest": "'He says every one reads like the trouble's inside it.' Survives; 'inside' already excludes the face, and the preceding sentences say 'only there's not a mark on it' and 'Every one looks as it has for a hundred years.'",
+          "reason": "Pattern 1 tail: the negative half restates a distinction the same speech has already made twice. The earlier 'only there's not a mark on it' is kept as the physical-precision instance. Part of the L237-257 severe cluster.",
+          "suggestedFix": "He says every one reads like the trouble's inside it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-8",
+          "line": 251,
+          "pattern": "neg-P5-manner-by-absence",
+          "severity": "MODERATE",
+          "text": "Cyndia didn't hesitate over it, which was the thing Sylvanas had always valued in her.",
+          "deletionTest": "No positive half; the trait Sylvanas values is defined only by the hesitation that did not happen.",
+          "reason": "Defines Cyndia's delivery by negation; third non-reaction beat in the chapter (with L151, L219). Part of the L237-257 severe cluster.",
+          "suggestedFix": "Cyndia said it straight out, which was the thing Sylvanas had always valued in her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-9",
+          "line": 257,
+          "pattern": "neg-P7-chained-elimination-repeat",
+          "severity": "MODERATE",
+          "text": "None of them was a spy. She was nearly certain none of them was an envoy.",
+          "deletionTest": "'Sylvanas could make three women out of that: one arrogant, one frightened, and one who'd simply been right in the wrong country.' Survives; the three positive readings already displace spy and envoy, and L207-211 ran the full elimination on the ride.",
+          "reason": "Cluster rule: repeats the L211 'three options, then None of' shape in a new scene, chaining two negations to re-close a question the chapter already closed. Part of the L237-257 severe cluster.",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-10",
+          "line": 275,
+          "pattern": "neg-P5-expectation-flourish",
+          "severity": "MILD",
+          "text": "She had expected violet. She hadn't known she was expecting it until it wasn't there: silk,",
+          "deletionTest": "'She had expected violet: silk, and rings on soft fingers, and the smooth, well-fed face of someone who had spent her life in rooms where people listened.' Survives and improves.",
+          "reason": "The middle sentence is a double-negation flourish ('hadn't known... until it wasn't there') sitting between the expectation and its catalog. 'This one hadn't.' at paragraph end is kept as the binary diagnostic.",
+          "suggestedFix": "She had expected violet: silk,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 52,
+      "kills": 7,
+      "keeps": 45,
+      "severity": "MODERATE",
+      "dominantPattern": "Pattern 8 body-part / stride subjects carrying the character's volition, plus static landscape given body-behavior verbs (P5/P6 sweep)",
+      "clusterFlags": [
+        "Storeroom close, lines 327-333: 2 body-part kills (L327 hands shifted, L333 mouth arguing)"
+      ],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweepP5P6": "Re-read every sentence for inanimate/abstract/body-part subjects. Found: static landscape with body-behavior or motion verbs (L193 trees folded, L197 boulders shouldering); receiver noun with the real keeper omitted (L55 apple lived); body-part/stride subjects (L123, L267, L327, L333). Rule applied consistently: a genuinely physical agent making literal contact or motion (sweat crept, axe kissed, wind pushed, cold air met, cold mineral bite pouring down) is KEEP under condition 3; a static object given motion or human-body behavior is KILL. No abstract-state-settling-into-body cases (L13 'old ache settled back into the joint' is a literal physical pain). No consecutive-sentence metaphor chains on one inanimate subject.",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 55,
+          "pattern": "IS-P10-receiver-noun-actor-omitted",
+          "severity": "MILD",
+          "text": "hunting the dried apple that usually lived in that cuff",
+          "subject": "the dried apple",
+          "verb": "lived",
+          "realAgent": "Sylvanas, who keeps an apple in her cuff for the mare",
+          "reason": "Pattern 10: the keeper is omitted and the apple gets the habitation verb; putting Sylvanas back in subject position keeps the same meaning.",
+          "suggestedFix": "hunting the dried apple she usually kept in that cuff",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-IS-2",
+          "line": 123,
+          "pattern": "IS-P8-body-part-subject",
+          "severity": "MODERATE",
+          "text": "Her mother's hand was closing on the back of her collar—*not those, never those*.",
+          "subject": "her mother's hand",
+          "verb": "was closing on",
+          "realAgent": "her mother",
+          "reason": "Pattern 8: the hand performs the mother's deliberate grab; 'Her mother caught her by the collar' means the same thing. Not a reflex.",
+          "suggestedFix": "Her mother caught her by the back of the collar—*not those, never those*.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-IS-3",
+          "line": 193,
+          "pattern": "IS-P5P6-static-scenery-action-verb",
+          "severity": "MILD",
+          "text": "until the trees folded over the sound",
+          "subject": "the trees",
+          "verb": "folded over",
+          "realAgent": "distance and foliage muffling the receding patrol",
+          "reason": "Second-sweep catch: static trees given a folding action; nothing in the scene moves except the patrol.",
+          "suggestedFix": "until the sound faded out among the trees",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-IS-4",
+          "line": 197,
+          "pattern": "IS-P5P6-static-scenery-body-verb",
+          "severity": "MILD",
+          "text": "grey boulders shouldering up out of the thin soil",
+          "subject": "grey boulders",
+          "verb": "shouldering",
+          "realAgent": "none; the boulders protrude from the soil",
+          "reason": "Second-sweep catch: static rock given a human-body pushing verb.",
+          "suggestedFix": "grey boulders jutting up out of the thin soil",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-IS-5",
+          "line": 267,
+          "pattern": "IS-P8-strides-carried-her",
+          "severity": "MODERATE",
+          "text": "Three strides took her to the barred door.",
+          "subject": "three strides",
+          "verb": "took",
+          "realAgent": "Sylvanas, crossing the room",
+          "reason": "Pattern 8 cousin of the calibration line 'Her feet carried her across the room'; the strides carry her instead of her walking.",
+          "suggestedFix": "She crossed to the barred door in three strides.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-IS-6",
+          "line": 327,
+          "pattern": "IS-P8-body-part-subject",
+          "severity": "MILD",
+          "text": "chain clinked faintly as the mage's hands shifted in her lap, then went quiet",
+          "subject": "the mage's hands",
+          "verb": "shifted",
+          "realAgent": "the mage",
+          "reason": "Pattern 8: the sentence is about the chain sound, so the involuntary-movement exception does not apply; 'the mage moved her hands' means the same thing.",
+          "suggestedFix": "chain clinked faintly as the mage moved her hands in her lap, then went quiet",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-IS-7",
+          "line": 333,
+          "pattern": "IS-P8-body-part-subject",
+          "severity": "MODERATE",
+          "text": "the chapped mouth that had been arguing all day and was shut now",
+          "subject": "the chapped mouth",
+          "verb": "had been arguing",
+          "realAgent": "the mage",
+          "reason": "Pattern 8: arguing is deliberate speech belonging to the mage; the mouth takes her volition. Clusters with A-IS-6 on the closing page.",
+          "suggestedFix": "the chapped mouth, shut now after a day of arguing",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 14,
+      "kills": 4,
+      "keeps": 10,
+      "severity": "MILD",
+      "dominantPattern": "Tic 5 eye/gaze repertoire exhaustion (8 emotional/reaction gaze beats against a cap of 4)",
+      "tallies": {
+        "tic1CornerOfMouth": {
+          "count": 1,
+          "cap": 1,
+          "kills": 0,
+          "lines": [
+            177
+          ]
+        },
+        "tic2Marked": {
+          "count": 0,
+          "cap": 2,
+          "kills": 0,
+          "note": "only noun uses: 'knee-marks' L231, 'not a mark on it' L247"
+        },
+        "tic3TightenedEased": {
+          "tightened": 3,
+          "tightenedCap": 3,
+          "eased": 2,
+          "easedCap": 2,
+          "kills": 0,
+          "lines": [
+            215,
+            249,
+            315,
+            93,
+            297
+          ],
+          "note": "tightened: L215 palisade (physical), L249 muscles drew tight (emotional), L315 fingers on bow grip (physical grip); eased: L93 canter, L297 door, both physical"
+        },
+        "tic4FacialShifted": {
+          "count": 0,
+          "cap": 1,
+          "kills": 0,
+          "note": "L129, L325, L327 are physical shifts"
+        },
+        "tic5EyeGaze": {
+          "count": 8,
+          "cap": 4,
+          "kills": 4,
+          "lines": [
+            61,
+            73,
+            193,
+            287,
+            297,
+            299,
+            329,
+            331
+          ]
+        },
+        "tic6WeightMetaphor": {
+          "count": 0,
+          "cap": 2,
+          "kills": 0,
+          "note": "L11 heavy thock, L277 heavy wool, L13/L57 settled, L265 weighed - all literal"
+        },
+        "tic7NonSaidTags": {
+          "count": 0,
+          "cap": 3,
+          "kills": 0,
+          "note": "no performance tags; 'called' L15 exempt; 'murmuring' L181 is not a dialogue tag"
+        }
+      },
+      "findings": [
+        {
+          "id": "A-RT-1",
+          "line": 299,
+          "pattern": "tic5-eye-gaze-generic",
+          "severity": "MILD",
+          "text": "She looked up.",
+          "reason": "Tic 5 excess over cap; most generic gaze beat in the chapter, carries no information between the quoted inscription and Cyndia's next line.",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-RT-2",
+          "line": 297,
+          "pattern": "tic5-eye-gaze-generic",
+          "severity": "MILD",
+          "toolSignal": "filler_glanced",
+          "text": "She glanced past Sylvanas at the chair and lowered her voice.",
+          "reason": "Tic 5 excess over cap; generic glance. Her next line ('Not where she can hear it, General.') already gives the reason for the lowered voice.",
+          "suggestedFix": "She lowered her voice.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-RT-3",
+          "line": 73,
+          "pattern": "tic5-eye-gaze-avoidance-tag",
+          "severity": "MILD",
+          "toolSignal": "participial_trailing",
+          "text": "\"You're the one who enjoys standing up,\" she said, watching the trail.",
+          "reason": "Tic 5 excess over cap; stock gaze-avoidance tag on a dialogue line. Her dodge already shows in the line itself and in the canter at L89.",
+          "suggestedFix": "\"You're the one who enjoys standing up,\" she said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-RT-4",
+          "line": 193,
+          "pattern": "tic5-eye-gaze-farewell-look",
+          "severity": "MILD",
+          "text": "The youngest twisted round in her saddle to look back until the sergeant barked at her, and she faced front.",
+          "reason": "Tic 5 excess over cap; generic farewell look-back. 'Twisted round in her saddle' already carries the physical beat.",
+          "suggestedFix": "The youngest twisted round in her saddle until the sergeant barked at her, and she faced front.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "toolSignalAudit": "All pass-A-mapped slop_checker hits audited. Under cap and kept: punct_semicolon 9/13, punct_colon_narration 6/6 (at cap, none over), participial_trailing 11/26 (L73 killed under Tic 5 above; rest kept), simile_like 3/13, simile_as_if 2/5, simile_as_though 2/3, filler_nodded L193, filler_frowned L127, filter_decided L105. filler_glanced L297 killed (A-RT-2). Full keep rationale in scratchpad."
+    }
+  ],
+  "summary": {
+    "totalKills": 21,
+    "totalKeeps": 90,
+    "mildKills": 14,
+    "moderateOrSevereKills": 7,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 21,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "7 MODERATE kills (negation cluster in the Cyndia briefing L237-257; body-part/stride agency at L123, L267, L333) plus 14 MILD kills. Down from 37 pass-A kills at iteration 0. Every kill has a drop-in fix or a clean deletion. Structural rhythm concern: one_sentence_paragraph_pct 25.7 is outside the 15-24 range. Structural texture deficit: texture below_target (participial 6.0% vs 12.0%).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.604,
+        "target": 0.72,
+        "delta": -0.116,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.788,
+        "target": 0.7,
+        "delta": 0.088,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 25.7,
+        "target": 19.0,
+        "delta": 6.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "sentence_short_pct": 39.1,
+      "sentence_long_pct": 17.4,
+      "structuralRhythmConcerns": [
+        "one_sentence_paragraph_pct above range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 81.2,
+      "participial_pct": 6.0,
+      "compound_pct": 12.1,
+      "emdash_pct": 2.4,
+      "semicolon_pct": 1.5,
+      "short_pct": 48.5,
+      "verdict_reasons": [
+        "participial: 6.0% below target 12.0% (score 55/100)",
+        "compound: 12.1% above target 10.0% (score 82/100)",
+        "emdash: 2.4% below target 4.0% (score 88/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.0% -> target 12.0% (score 55/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.1% -> target 10.0% (score 82/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.4% -> target 4.0% (score 88/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 8,
+        "texture_desert": 9
+      },
+      "overlapWithKills": "The L207-209 envoy-reasoning texture desert sits next to A-NEG-3 and A-NEG-4; the Cyndia exchange telegram run ('Have you?' / 'I'd like very much to have.') sits inside the L237-257 negation cluster. When applying those fixes, join sentences rather than leaving bare deletions where it reads choppy. Caution: A-RT-3 removes a trailing participial, so add participial joins elsewhere to compensate."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 43,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "atCap": [
+          "punct_colon_narration 6/6"
+        ],
+        "passAMapped": [
+          "punctuation_tics",
+          "participial_attachment",
+          "simile_overload",
+          "filler_actions",
+          "filter_words"
+        ],
+        "passBMappedNotAudited": [
+          "hedging (hedge_simply L257)",
+          "vague_pointers (something_vague L259)"
+        ]
+      }
+    }
+  }
+}

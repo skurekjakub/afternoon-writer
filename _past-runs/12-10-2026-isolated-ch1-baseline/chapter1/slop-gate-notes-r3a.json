@@ -1,0 +1,298 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsA 37 -> 21 -> 5, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 20,
+      "kills": 1,
+      "keeps": 19,
+      "killRate": "5.0%",
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "change-of-state negation pivot (stopped being X and became Y)",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "keepRateNote": "Keep share exceeds the guide's 20% heuristic. Every keep was re-run through the adversarial self-check; the survivors are procedural commands (L161, L165, L183), hard report facts the plot later uses (L121 no papers/no escort feeds L309; L61 intact stones feeds L247), active spy/envoy/flight diagnostics (L207, L209, L211, L239, L309, L317), physical precision (L247, L273), and dialogue rebuttals that are later turned into a decision (L75 -> L171). No pivot-shaped narration beyond the one kill remains.",
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 205,
+          "text": "The hum in her back teeth stopped being a hum and became a pulse,",
+          "pattern": "NEG-P2-change-of-state-pivot",
+          "deletionTest": "The hum in her back teeth became a pulse, swelling as she came up on a stone and fading as she passed it... (survives; the prior state is already named by 'The hum')",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 2 in change-of-state clothing: the clause names what the sensation stopped being before naming what it became, and the deletion test survives intact.",
+          "suggestedFix": "The hum in her back teeth thickened into a pulse,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "No negation. Subject 'the hum' is the literal ward-stone sensation (subject-matter, literal non-human action), so no intent smear. 'thickened' is not a tracked tic word and does not touch the tightened/eased cap."
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 25,
+      "kills": 1,
+      "keeps": 24,
+      "killRate": "4.0%",
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "geography given human routine (P5)",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweepP5P6": "Completed the dedicated sentence-by-sentence subject sweep. Roads and terrain (L187 'the road ran', L197 'The road climbed', L55 'trace that followed the ward ring', L89 'trail opening ahead') carry literal path/motion verbs only; none carries fire, cognition, or revision verbs. No plan/map/answer/room receives a revision or cognition verb with the actor in an instrument phrase (Saltheril's map is 'had painted' by him, L63). Body-part subjects (L123 breastbone went cold, L249 muscles drew tight, L281 a muscle jumped, L303 heartbeat thudded, L313 jaw locked/fingers tightened, L329 fine tremor) are all involuntary, and L313 proves it in the next sentence ('She made herself unclench them'). No abstract state settles into a body part. No consecutive-sentence metaphor chain on one inanimate subject; the stones 'reading' wrong (L247) is the chapter's literal in-world mechanism. The only surviving smear is L27.",
+      "keepRateNote": "Keep share exceeds the guide's 15% heuristic because the candidate list is deliberately wide (every inanimate or body-part subject was entered). Nearly all keeps are literal physics, animal action, involuntary reflex, or in-world ward mechanics; the only judgment keeps are the Convocation lines (L147, L149, L315), documented in the scratchpad.",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 27,
+          "text": "A second bird answered, then a third, and within ten breaths the woods had gone back to their business.",
+          "pattern": "IS-P5-geography-volition",
+          "subject": "the woods",
+          "verb": "had gone back to their business",
+          "realAgent": "the birds (and other small animals) resuming their calls and movement",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 5: geography is handed a human routine ('their business') while the actual actors, the birds named in the same sentence, are pushed out of subject position. 'The woods' is terrain, not an established collective of people, so the collective-actor keep does not apply.",
+          "suggestedFix": "A second bird answered, then a third, and within ten breaths birds were calling all through the canopy.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "Real agent (birds) restored to subject position. No negation. No tracked tic (no gaze, corner-of-mouth, weight, tightened/eased, or performance tag). 'canopy' already appears in the same scene (L25 'gold canopy'), so no new observation is added."
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 45,
+      "kills": 0,
+      "keeps": 45,
+      "killRate": "0%",
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "none over cap",
+      "tallies": {
+        "tic1_cornerOfMouth": {
+          "count": 1,
+          "cap": 1,
+          "lines": [
+            177
+          ]
+        },
+        "tic2_marked": {
+          "count": 0,
+          "cap": 2,
+          "lines": []
+        },
+        "tic3_tightened": {
+          "count": 2,
+          "cap": 3,
+          "lines": [
+            249,
+            313
+          ],
+          "note": "'drew tight' (L249) and 'fingers tightened on the bow grip' (L313); L215 'palisade built tight' is architectural, not counted"
+        },
+        "tic3_eased": {
+          "count": 2,
+          "cap": 2,
+          "lines": [
+            93,
+            295
+          ],
+          "note": "both physical (canter eased back; door eased to)"
+        },
+        "tic4_expressionShifted": {
+          "count": 0,
+          "cap": 1,
+          "lines": [],
+          "note": "L129 and L323 'shifted' are physical (weight in saddle, book in arm)"
+        },
+        "tic5_eyeGaze": {
+          "count": 3,
+          "cap": 4,
+          "lines": [
+            281,
+            287,
+            329
+          ],
+          "note": "L221 and L281 eye-rim/skin descriptions are physical states, not gaze beats"
+        },
+        "tic6_weightMetaphor": {
+          "count": 0,
+          "cap": 2,
+          "lines": [],
+          "note": "L13 ache settled is literal joint pain; L265 'weighed her' is assessment"
+        },
+        "tic7_nonSaidTags": {
+          "count": 0,
+          "cap": 3,
+          "lines": [],
+          "note": "L15/L51/L177 'called/raised his voice' are volume tags, exempt; L181 'murmuring' is to a horse, not a dialogue tag"
+        }
+      },
+      "cleanReason": "Every listed tic is at or under its hard cap. Corner-of-mouth appears once (L177, at cap, a character-specific Lor'themar beat). Tightened 2/3 and eased 2/2, with both eased uses physical. Gaze beats 3/4, all in the storeroom scene and all character-specific (Sylvanas's room-taking assessment, the mage's appraisal). Zero facial 'shifted', zero metaphorical 'marked', zero weight metaphors, zero performance dialogue tags. All pass-A-mapped slop-checker hits (semicolons 8/12, narration colons 6/6, trailing participials 10/25, similes like 3/12, as-though 2/3, as-if 1/5, settled 2/6, found 2/6, nodded 1/4, frowned 1/4, decided 1/3) are under cap and were individually audited as KEEPs in the scratchpad. No slophunter-introduced replacement tics detected.",
+      "candidateBreakdown": "8 listed-tic instances (corner-of-mouth 1, tightened 2, eased 2, gaze 3) + 37 pass-A-mapped slop-checker matches (semicolon 8, colon_narration 6, participial_trailing 10, simile_like 3, simile_as_though 2, simile_as_if 1, contact_settled 2, contact_found 2, filler_nodded 1, filler_frowned 1, filter_decided 1)"
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 88,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass-with-warnings: 2 MILD kills (L205 change-of-state negation pivot; L27 woods given human routine), 0 MODERATE/SEVERE, within the 3-MILD ceiling. Both have low-difficulty drop-in fixes. Structural rhythm concerns: one_sentence_paragraph_pct, long_sentence_pct, and opener_entropy outside range. Structural texture deficit: texture below_target (81.4; participial 5.8% vs 12.0% target).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.603,
+        "target": 0.72,
+        "delta": -0.117,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.2,
+        "target": 11.0,
+        "delta": 0.2,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.788,
+        "target": 0.7,
+        "delta": 0.088,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 39.2,
+        "target": 35.0,
+        "delta": 4.2,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 16.8,
+        "target": 10.0,
+        "delta": 6.8,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.27,
+        "target": 7.7,
+        "delta": -1.43,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 25.9,
+        "target": 19.0,
+        "delta": 6.9,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.809,
+        "target": 0.83,
+        "delta": -0.021,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": true
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct above range",
+        "opener_entropy below range",
+        "one_sentence_paragraph_pct above range",
+        "comma_period_ratio at the floor of its range"
+      ]
+    },
+    "textureMetrics": {
+      "texture_score": 81.4,
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "verdict_reasons": [
+        "participial: 5.8% below target 12.0% (score 54/100)",
+        "compound: 12.1% above target 10.0% (score 82/100)",
+        "emdash: 2.5% below target 4.0% (score 90/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.8% -> target 12.0% (score 54/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.1% -> target 10.0% (score 82/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.5% -> target 4.0% (score 90/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 9,
+        "texture_desert": 11,
+        "total": 20
+      },
+      "killOverlap": "L27 (A-IS-1) falls inside the opening texture_desert (sentences 15-34); the fix keeps a compound join, so a revision there could also add a participial phrase to a neighbouring sentence."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 38,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "atCap": [
+          "punct_colon_narration (6/6)"
+        ],
+        "passAMappedHits": "semicolon 8, colon_narration 6, participial_trailing 10, simile_like 3, simile_as_though 2, simile_as_if 1, contact_settled 2, contact_found 2, filler_nodded 1, filler_frowned 1, filter_decided 1; all audited, all KEEP",
+        "passBMappedHits": "something_vague 1 (L259), not audited in pass A"
+      }
+    }
+  }
+}

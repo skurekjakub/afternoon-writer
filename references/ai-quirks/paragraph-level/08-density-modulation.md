@@ -66,7 +66,7 @@ Maren had betrayed them. The gate guard was dead. The supplies were gone. The ho
 **Good:**
 Maren had betrayed them.
 
-She sat with that for a moment. Let it settle. The gate guard was dead — she'd seen the body on her way in. The supplies were gone, the horses scattered, and the last healer had fled with the refugees.
+She sat with that for a moment. The gate guard was dead — she'd seen the body on her way in. The supplies were gone, the horses scattered, and the last healer had fled with the refugees.
 
 Six hours. That's what they had. Six hours until the enemy arrived, and she was sitting in the mud cataloguing disasters like a merchant taking stock.
 

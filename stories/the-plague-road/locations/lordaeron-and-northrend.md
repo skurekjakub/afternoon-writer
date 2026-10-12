@@ -22,7 +22,8 @@
 
 ## Hearthglen
 - Fortified town, military logic, walls and gates that make sense to soldiers.
-- Important mostly as offstage proof that the plague can turn defenders from inside the defense.
+- On the page in Ch 15 as Arthas's war camp, and proof that the plague can turn defenders from inside the defense.
+- Lies northwest of the Eastweald. The road from Hearthglen to Stratholme runs east.
 - More disciplined and martial than the early villages or Andorhal.
 
 ## Stratholme
@@ -37,12 +38,13 @@
 - Residential rings: inner merchants, middle trades, outer working districts and warehouses.
 
 ### Gates and flow
-- Main southern gate: formal military approach.
+- Main gate: formal military approach, at the end of the east road from Hearthglen.
 - Northern service gate: goods, staff, bulk movement, later the cleaner way in for S&J.
 - Segmented internal defenses help a city under siege and also help purge teams move district by district.
 
 ### In this story
-- S&J do not witness the opening choice. They arrive too late and watch the last part from above after slipping in through the service side.
+- S&J arrive early, ahead of Arthas's column, and work inside the city before he comes. They witness the opening choice at the main gate.
+- Arthas approaches by the east road from Hearthglen.
 - The city should feel both vast and legible from the wall.
 - During and after: controlled fires, cleanup-silence, burning grain, city-scale contamination, Arthas emerging with the wrong stillness in him.
 
@@ -50,6 +52,7 @@
 - Working coastal town and evidence waypoint.
 - Useful for manifests, harbor records, and merchant traffic on the grain trail.
 - Important negative note: this is not the Northrend departure point.
+- It is the return landing point. Pack ice drives the Wolfheart south, and S&J land here, buy horses, and ride north on the King's Road.
 
 ## Seastone Harbor
 - Small northern fishing harbor tucked under coastal cliffs.
@@ -90,7 +93,8 @@
 ## Daggercap Bay
 - Northrend landing point and the last exit point that still exists.
 - Arthas's temporary harbor, abandoned camp, and burned ships are the first hard proof that he already values the objective over the army.
-- The *Wolfheart* waiting here matters morally as much as practically: S&J keep a retreat Arthas destroyed.
+- Arthas keeps his own ship in a separate cove. It is gone from the cove when S&J return to the bay.
+- The *Wolfheart* waiting here matters morally as much as practically: S&J keep a retreat Arthas destroyed for his army and kept only for himself.
 - Key feel: charred hull ribs frozen into ice, fuel-smell ghosting in the cold, empty military footprint.
 
 ## Dragonblight

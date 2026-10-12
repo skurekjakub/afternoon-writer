@@ -20,7 +20,7 @@
 - Sylvanas's street read and Jaina's magical read now work well enough to support a same-night ambush.
 - Lyriel is alive, and the four-woman scouting party is still intact.
 - Jaina's sensitivity keeps them ahead of most of the crown's awareness, but not ahead of grain already moving through ordinary roads.
-- The old seller and newer grain-man clue is still unresolved background, not an active lead.
+- The old carter and the newer grain-man clue are still unresolved background, not an active lead.
 - Jaina can isolate the poisoned grain magic, but she still cannot stop the final curse that turns sickness into undeath.
 
 **Still in the dark about:**
@@ -32,14 +32,14 @@
 **Hold back:**
 - Do not confirm before Beat 7 that the grain is already beyond recall.
 - Do not name Kel'Thuzad before Beat 8.
-- Do not solve the old seller or newer grain-man clue.
+- Do not solve the old carter or the newer grain-man clue.
 - Do not claim the whole kingdom is already lost.
 
 **End of chapter state:**
 - The network can kill captured zealots with a death-curse.
 - Havel was on cult coin and dies when he tries to close the trap on them.
 - Corin stays inside the trust boundary.
-- Kel'Thuzad is identified as the mind behind the plague north of Andorhal.
+- Kel'Thuzad is identified as the mind behind the plague east of Andorhal.
 - The party can detect the plague earlier than most authorities, but they are still behind the spread.
 
 ---
@@ -69,13 +69,13 @@
 ## Cast and handoff rules
 
 - **Cyndia:** Still with the hunting party.
-- **Lyriel:** Still with the hunting party and alive at close.
+- **Lyriel:** Still with the hunting party and alive at close. She is still the one who talks to Jaina and jokes where Cyndia won't.
 - **Corin:** A real ally inside Andorhal. He stays local once the party moves on.
 - **Captain Havel:** Posing as an ally at open. Exposed as a cult-paid contact and killed in the escape.
 - **Kel'Thuzad:** Not yet named at chapter open.
-- **Old seller / newer grain-man clue:** Keep off the active board.
+- **The old carter and the newer grain-man clue:** Keep off the active board.
 
-**Next chapter starts:** Chapter 9 opens with the same four-woman scouting party hunting north into the Eastweald.
+**Next chapter starts:** Chapter 9 opens with the same four-woman scouting party hunting east into the Eastweald.
 
 ---
 
@@ -132,8 +132,9 @@
 - In Corin's hideout, the last pieces fit. Havel's debts vanished when the supplier routes changed, reports died whenever they touched the wrong granaries, and cult enforcers moved first toward every shelter he named.
 - Havel was on cult coin, and the network planned for breach, containment, and witness silencing months ago. Andorhal's local cell is only one layer of a larger structure.
 - They do not know whether the spread can still be slowed or who sits above the city's dark masters.
-- Ground the aftermath: a hideout that feels temporary, Corin going pale as he says it aloud, Jaina shifting from investigation notes to emergency notes.
+- Ground the aftermath: a hideout that feels temporary, Corin going pale as he says it aloud, Lyriel getting one dry line past Cyndia's silence (in Silvermoon, at least, the magisters send a letter before they try to kill you), Jaina shifting from investigation notes to emergency notes.
 - Jaina turns from the local cell to the source behind it.
+- Inside: should have seen Havel, every shelter he named; no, she did see it, and filed it under territorial; the prisoner's half-sentence, and a faster ward might have held it; Sylvanas shot a man in the street and she is relieved, and doesn't look at that; emergency notes, because notes give her hands something to do
 
 ---
 
@@ -152,17 +153,18 @@
 
 ### Beat 8
 - The name comes together from fragments: Corin's local knowledge, the prisoner's cut-off confession, and what Havel's betrayal says about the level of planning. The answer is Kel'Thuzad.
-- Kel'Thuzad was a Kirin Tor mage expelled by Antonidas for necromantic work, which means the plague finally has a human architect Jaina can place. His operation lies somewhere north of Andorhal.
+- Kel'Thuzad was a Kirin Tor mage expelled by Antonidas for necromantic work, which means the plague finally has a human architect Jaina can place. His operation lies somewhere east of Andorhal.
 - They do not know his exact base.
 - Ground the naming: Corin saying the name like it burns, Havel's betrayal hardening theory into certainty, Jaina going still for a reason deeper than fear.
 - The hunt becomes personal for Jaina.
 
 ### Beat 9
 - Jaina has to face what the name means. Kel'Thuzad is not some distant heretic. He came out of the same arcane world that trained her.
-- The investigation now has a familiar human center, and the trail points north into the Eastweald. Chapter 9 begins as a hunt for the real seat of the work.
+- The investigation now has a familiar human center, and the trail points east into the Eastweald. Chapter 9 begins as a hunt for the real seat of the work.
 - They do not know Kel'Thuzad's exact base or how they will reach it before the next layer closes.
 - Ground the close: silence in the hideout, everyone feeling the weight of Jaina's pause before they know the history inside it.
-- Chapter 9 opens on the northbound hunt.
+- Chapter 9 opens on the eastbound hunt.
+- Inside: same libraries, same lecture halls, maybe the same tutors; Antonidas expelled him and said almost nothing about why, and she never asked; part of her wants to read his work, and that part is the problem; how much of what she knows did he know first
 
 ---
 
@@ -180,11 +182,11 @@
 - Havel was a cult-paid city contact, and Sylvanas kills him when he turns the trap.
 - Corin remains a trusted ally inside Andorhal.
 - Andorhal is a working hub, and treated grain has already moved into northern Lordaeron.
-- Kel'Thuzad is identified as the former Kirin Tor mastermind operating north of Andorhal.
+- Kel'Thuzad is identified as the former Kirin Tor mastermind operating east of Andorhal.
 - The same four-woman scouting party carries the hunt forward.
 
 **Do not add yet:**
 - Kel'Thuzad's exact base.
 - Full Barov guilt.
-- An answer to the old seller and newer grain-man clue.
+- An answer to the old carter and the newer grain-man clue.
 - Any claim that shutting down Andorhal alone can undo the spread.

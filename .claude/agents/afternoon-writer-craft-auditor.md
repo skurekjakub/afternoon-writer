@@ -26,7 +26,7 @@ Run these checks in order. For each, cite specific passages (quote the text) and
 
 ### 1. Emotional Life
 
-- Does the POV character have at least one involuntary interior moment per scene? A flinch, a memory surfacing without invitation, a stomach drop. Not evaluation — sensation.
+- Does the POV character think on the page at least once per scene, in her own idiom (free indirect thought, no "she thought")? Does she argue with herself, with a question, a bad answer or a self-correction, and leave it unresolved? Body sensation alone does not count. A narrator verdict or aphorism does not count either; that is a finding.
 - Do characters sound different from each other in dialogue? Different rhythm, different things they notice, different silences. If two characters could swap lines, flag it.
 - Does the chapter have at least three emotional registers? Not just "tense" for 5000 words. A flash of dark humor, a moment of warmth, a beat of exhaustion.
 - Does the value shift land through a concrete moment — a line of dialogue, a gesture, a sensory detail — not through narrator summary?

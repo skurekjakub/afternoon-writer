@@ -61,7 +61,9 @@ The negation is doing structural work ONLY if it meets one of these exact condit
 
 3. **Hard constraint or limitation.** The negation states a real capability boundary that affects the plot. Example: `The worst cases can be slowed, not healed.` This is a fact about the world that constrains future action.
 
-If the negation meets one of these three conditions → **KEEP**.
+4. **Self-argument in free indirect thought.** The POV character denies, refuses or contradicts something to herself, in her own idiom, and the next sentence complicates or undercuts it. Example: `Nobody had talked him into it. Closing up shop had been his own decision.` The negation is her arguing with herself, not the narrator framing. This does not cover narrator captions (`Not a gasp. A snort.`), and it never protects a following gloss (see Replacement trap: claim-then-gloss).
+
+If the negation meets one of these four conditions → **KEEP**.
 
 If it does not meet any of these three conditions → **KILL**.
 
@@ -71,7 +73,7 @@ There are no other keep reasons. "It sounds good" is not a keep reason. "The con
 
 Before you finalize a KEEP verdict, ask yourself:
 
-- Am I keeping this because I genuinely identified condition 1, 2, or 3?
+- Am I keeping this because I genuinely identified condition 1, 2, 3, or 4?
 - Or am I keeping this because the writing is good enough around it that the pattern doesn't bother me?
 
 If it is the second one, change the verdict to **KILL**. Good surrounding prose is camouflage, not justification.
@@ -258,3 +260,13 @@ If your verdicts on these examples do not match, recalibrate before proceeding t
 ## Begin
 
 You have the guide. Apply it to the text you are given. Default to KILL. Justify every KEEP. Output the structured format above. Do not hedge.
+
+## Replacement trap: permission tags
+
+When a negation describes something a character does not do (`She didn't blink it away.`), do not replace it with a permission tag (`and she let it.`). That is a KILL under `slop-hitlist.md` → Permission Tags and intent-smear Pattern 11. Replace it with the positive physical fact (`She held still.`), or cut the sentence when the previous one already carries the moment.
+
+## Replacement trap: claim-then-gloss
+
+When you kill a negation, do not replace it with a sentence that riffs on the one before it. `She would get none standing in the doorway.` became `She would have to go and find one.` That is a KILL under `slop-hitlist.md` → Claim, Then Gloss, and under gpt-5-prose-issues F4. Cut the sentence. The next action carries the decision.
+
+Keeping the claim under condition 3 does not protect the sentence after it. Judge each sentence separately.

@@ -21,10 +21,10 @@
 - Ch 18: Antonidas checks in after Stratholme. He can offer extraction on paper, not a world Jaina can safely return to.
 
 ## Arc IV — Endgame
-- Ch 19: last real call. Jaina tells Antonidas she is going north and not coming back. This is the emotional severance.
-- Ch 21-23: Antonidas wins only a tiny advisory presence in Capital City. It is real help and nowhere near enough.
-- Ch 24: he appears in person, asks for time, asks for expert review, and still cannot stop the verdict. This is his wall, same as Lor'themar's.
-- Ch 25: he remains in the city as guilty institutional pressure, not rescue. Book 2 starts with him diminished by public impotence.
+- Ch 18: last real call. Jaina tells Antonidas she is going north and not coming back. This is the emotional severance.
+- Ch 20-22: Antonidas wins only a tiny advisory presence in Capital City. It is real help and nowhere near enough.
+- Ch 23: he appears in person, asks for time, asks for expert review, and still cannot stop the verdict. This is his wall, same as Lor'themar's.
+- Ch 24: he remains in the city as guilty institutional pressure, not rescue. Book 2 starts with him diminished by public impotence.
 
 ## Tone line
 - Start: mentor's calm.

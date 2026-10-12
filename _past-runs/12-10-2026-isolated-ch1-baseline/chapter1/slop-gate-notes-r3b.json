@@ -1,0 +1,187 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsB 15 -> 12 -> 5, strictly decreasing)",
+  "falsePositiveFilter": {
+    "pov": "Sylvanas Windrunner, limited third absolute. Pre-undeath Ranger-General: dry, exact, tactical. Clears exits, cover, and bodies before she reads the social meaning. Deadpan humor. No confessional emotion-naming.",
+    "subjectMatter": "Troll sweep, ward-ring patrol, runner report, and the arrival at the border post. The ward hum and pulse are the normal grid (plan constraint). The leyline claim is reported, never shown.",
+    "intentionalDynamics": "Lor'themar lets her excuse stand (Beat 2), then takes the order north (Beat 5). Cyndia holds back the name-source until Sylvanas has seen the prisoner (Beat 8). No warmth toward the mage.",
+    "dialogueRegister": "Lor'themar is urbane and needling. Cyndia is plain and put-upon ('I'll tell you straight'). Theris gives a clipped Farstrider report. Sylvanas talks in command shorthand."
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 20,
+      "kills": 1,
+      "keeps": 19,
+      "severity": { "mild": 1, "moderate": 0, "severe": 0 },
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "id": "r3b-gpt5-01",
+          "pattern": "F7",
+          "failureMode": "Closure Addiction",
+          "line": 213,
+          "text": "Whoever this mage was, she had walked straight into the one subject in Quel'Thalas where Sylvanas would have to take someone's word.",
+          "location": "paragraph-final (last interior paragraph before the post comes into view)",
+          "couldEndEarlierAt": "She could not read a leyline.",
+          "issue": "The closer states the implication the concrete lines already made. A mage who claims the leylines are wrong, plus 'She could not read a leyline,' already tells the reader she will have to take someone's word. The paragraph lands harder on the flat admission. The closer also comes early for the trust beat that L321 delivers in the scene ('She had no reason to trust a word the woman said').",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixAction": "delete the sentence; the paragraph ends on 'She could not read a leyline.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Thinks in tactical inventories (tracks, footholds, exits, counts) and finished judgments. Dry, deadpan humor ('everyone she'd brought out still alive to be irritating'). Her comparisons come from field life: wintering at the Pass, rangers ordered to stand down. She would not think in narrative-significance terms or speak from a vantage after the scene.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 18,
+      "kills": 1,
+      "keeps": 17,
+      "tierAKills": 0,
+      "tierBKills": 1,
+      "severity": { "mild": 1, "moderate": 0, "severe": 0 },
+      "dominantPattern": "B3",
+      "structuralHabit": "no",
+      "crossReferenceNote": "L213 closer was also a B1 candidate. It is already killed under gpt-5 F7 and not re-killed here.",
+      "findings": [
+        {
+          "id": "r3b-seep-01",
+          "pattern": "B3",
+          "tier": "B",
+          "line": 203,
+          "text": "The second time she never did remember what it had been.",
+          "whoIsSayingThis": "A narrator speaking from after the ride. 'Never did remember' asserts a fact about her whole future, beyond the moment on the climb.",
+          "povMismatch": "Limited third absolute stays inside the moment on the climb. 'Never did' is the negative form of the calibration kill 'She would remember this later'. It steps outside the timeline to report on her memory instead of giving the lost thought as it happens.",
+          "confidence": "MODERATE",
+          "severity": "MILD",
+          "suggestedFix": "The second time the words were gone before she had them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 12,
+      "kills": 1,
+      "keeps": 11,
+      "killRate": "8%",
+      "severity": { "mild": 1, "moderate": 0, "severe": 0 },
+      "dominantPattern": "P5",
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": [],
+      "keepRateNote": "The keep rate is above the guide's 25% warning. Each keep was re-challenged with the Step 4 anti-rationalization check. They survive because the prose names its carrier in the same or the next line: the troll count, Liron's palm reading, the ink on her fingers, the night-ride-day cost. The scratchpad gives the reasoning line by line.",
+      "findings": [
+        {
+          "id": "r3b-phantom-01",
+          "pattern": "P5",
+          "line": 209,
+          "text": "Or both.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The 'both' hypothesis (a spy using an envoy's cover) gets no test, unlike its neighbors. The spy gets 'A spy would have had a story ready. Lost on the mountain road. Gathering herbs.' The envoy gets 'banners and letters and an escort' and 'did not come alone.' 'Or both.' is a two-word status note, the plan's 'spy, diplomat, or both' copied in. The established fact that would test it (Theris: 'No papers. No seal. No escort.') is never connected.",
+          "issue": "Planner shorthand. The third hypothesis is filed as an outline leaf, tacked onto the envoy paragraph after two 'Envoys did not' rebuttals, so 'None of the three' in L211 covers a hypothesis the page never weighed.",
+          "severity": "MILD",
+          "suggestedFix": "And an envoy sent to spy would have come with papers to hide behind.",
+          "fixDifficulty": "low",
+          "fixNote": "Uses only the established 'No papers' fact. It matches the shape of the 'A spy would have...' test in L207, and L211 'None of the three' still reads correctly.",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "killRate": "0%",
+      "brokenExchanges": [],
+      "findings": [],
+      "cleanReason": "The chapter has no 'say it plainly / smaller words / in streets' setups. I audited five exchanges that ask for unpacking or claim plain speech. (1) L129 'Wrong how?' gets Theris's honest admission that nobody could follow it. That is not a claimed simplification. (2) L245-247 'Theris says what she says. This is me.' delivers usable payload: Liron's hands on the stone, cracked-stone reading, no mark, six stones since noon, both rings. (3) L295 'I'll tell you straight' is followed by concrete handling (an hour before touching it, opened with a knife, the inscription read aloud). (4) L251 'Cyndia said it straight out' gives a plain three-way 'I don't know' with named alternatives. (5) L163-165 'And the leylines?' -> 'Tell them she said it. Not that it's true.' is an order Lor'themar can carry out unchanged. None needs a second unpacking pass."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 52,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass-with-warnings: 3 MILD kills, 0 MODERATE/SEVERE, which meets the 3-MILD ceiling. All three have low-difficulty drop-in fixes (1 deletion, 2 one-sentence replacements). Structural rhythm concerns: long_sentence_pct, opener_entropy, and one_sentence_paragraph_pct are out of range. Structural texture deficit: texture_score 81.4 is below_target, with participial 5.8% against a 12.0% target.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.603, "target": 0.72, "delta": -0.117, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.2, "target": 11.0, "delta": 0.2, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.788, "target": 0.7, "delta": 0.088, "range": [0.6, 0.8], "inRange": true },
+      "short_sentence_pct": { "actual": 39.2, "target": 35.0, "delta": 4.2, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 16.8, "target": 10.0, "delta": 6.8, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.27, "target": 7.7, "delta": -1.43, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 25.9, "target": 19.0, "delta": 6.9, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.809, "target": 0.83, "delta": -0.021, "range": [0.8, 0.87], "inRange": true },
+      "structuralRhythmConcerns": ["long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 81.4,
+      "participial_pct": 5.8,
+      "compound_pct": 12.1,
+      "emdash_pct": 2.5,
+      "semicolon_pct": 1.4,
+      "short_pct": 48.7,
+      "verdict_reasons": [
+        "participial: 5.8% below target 12.0% (score 54/100)",
+        "compound: 12.1% above target 10.0% (score 82/100)",
+        "emdash: 2.5% below target 4.0% (score 90/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.8% -> target 12.0% (score 54/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.1% -> target 10.0% (score 82/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.5% -> target 4.0% (score 90/100). Use for mid-sentence pivots.",
+      "flaggedPassages": { "telegram_run": 10, "texture_desert": 10 },
+      "note": "structural texture deficit. Most telegram runs sit in dialogue exchanges (L33-39, L69-87, L111-121, L161-177, L229, L249-251), where short lines are register-appropriate. The deserts at sentences 15-34 (troll kill, L11-17) and 517-533 (watch-file, L299-301) are the best targets for added participial joins. Judging by the scorer previews, none of the three kill sites (L203, L209, L213) falls inside a flagged zone."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 38,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passBMappedSignals": [
+          { "pattern": "something_vague", "category": "vague_pointers", "line": 259, "text": "Something in her things", "guide": "phantom-concreteness-guide.md", "disposition": "KEEP (see scratchpad)" }
+        ],
+        "note": "No ai_vocabulary, clinical_anatomy, slopsquid, narrator_verdict, verbose_phrases, expression_decomposition, academic_register, dialogue_register, hedging, or ambient_inversion matches. The other hits (punctuation, participial, simile, contact verbs, filler, filter) map to pass A."
+      }
+    }
+  }
+}

@@ -9,7 +9,7 @@
 
 ## References
 
-- **Worldbuilding references:** [Silvermoon & Quel'Thalas](stories/the-plague-road/locations/silvermoon-and-quelthalas.md), [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-process.md)
+- **Worldbuilding references:** [Silvermoon & Quel'Thalas](stories/the-plague-road/locations/silvermoon-and-quelthalas.md), [Thalassian Horses](stories/the-plague-road/locations/thalassian-horses.md), [Plague Mechanism](stories/the-plague-road/plans/plague-mechanism.md)
 - **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
 
 **Jaina's starting position:**
@@ -62,7 +62,7 @@
 
 - **Sylvanas Windrunner:** Leads the ride south once she decides to test Jaina's claim.
 - **Ranger Cyndia:** Border-post officer who becomes the active escort lead.
-- **Ranger Lyriel:** Right-flank escort and best shot in the mounted detail.
+- **Ranger Lyriel:** Right-flank escort and best shot in the mounted detail. She is the one ranger who talks to Jaina on the road, and she jokes where Cyndia won't.
 - **Ranger Neral:** Third named escort and strongest rider in the group.
 - **Unnamed fourth ranger:** Background escort only. Do not build continuity around her.
 
@@ -85,7 +85,7 @@
 
 ### Beat 2
 - Jaina explains the corrupted leylines, but makes the mistake of trimming the explanation down for a soldier.
-- She explains she tracked a broadly necromantic magic until the Thalassian ward-stones carried the same damage, and crossed the border to confirm it. Her map and tools are confiscated.
+- She explains she tracked a broadly necromantic magic until the Thalassian ward-stones carried the same damage, and crossed the border to confirm it. Her map and tools are confiscated. Among them is a paired sending stone to Antonidas. She has kept it silent so he cannot order her home.
 - She has no idea if Sylvanas hears a regional threat or just an overreaching mage's theory.
 - Ground the explanation: Jaina's hands tracing lines in the air involuntarily, frost burns on her knuckles, Cyndia listening motionless from the side.
 - Sylvanas ignores the theory-heavy part and zeroes in on the weak practical point: why Jaina came alone.
@@ -96,11 +96,12 @@
 - She doesn't know if Sylvanas reads this isolation as proof of obsession or proof of a real emergency.
 - Ground the silence: ward-stones humming in the gap after the admission, Jaina trying not to sound embarrassed by her own lack of authority.
 - Sylvanas reaches the point where she has to decide if this is worth verifying.
+- Inside: the note on Antonidas's desk, and whether he has read it yet; the silent sending stone, which she calls caution and is not; would she believe herself, from the other side of the circle; probably not, and she would still be right
 
 ### Beat 4
 - Jaina realizes argument will not be enough. If she wants out of the circle, she has to prove the danger on the road.
-- Sylvanas needs out-of-doors proof. Demonstration matters more than persuasion now.
-- They don't know if the road will prove Jaina right or make her look insane.
+- Sylvanas needs out-of-doors proof. Demonstration matters more than persuasion now. Before she decides, she asks which stones read worst and where, and she listens to that answer harder than to anything else Jaina has said.
+- They don't know if the road will prove Jaina right or make her look insane. Jaina does not know Sylvanas has already had her own hand on one of those stones.
 - Ground the decision: Sylvanas resting her hand near the ward edge, the visible shift of a commander locking into a new operating mode.
 - Sylvanas offers a conditional release.
 
@@ -112,7 +113,7 @@
 - The moment the ward falls, Jaina feels how much worse the contamination has grown.
 
 ### Beat 6
-- Jaina gets her staff back, checks the resonance, and realizes the corruption is significantly worse than it was eight hours ago.
+- Jaina gets her staff back, with the sending stone returned alongside it. She checks the resonance and realizes the corruption is significantly worse than it was eight hours ago.
 - Cyndia, Lyriel, and Neral join the mounted detail. Neral is positioned as the relay rider if they need to send word back fast. The group mounts up immediately.
 - They do not know what they will find when they reach Millhaven.
 - Ground the departure: the familiar, heavy resonance when the staff snaps back into Jaina's grip, horses brought up to the post, escort riders falling seamlessly into place around Sylvanas.
@@ -142,10 +143,11 @@
 
 ### Beat 9
 - She slips into a careful, simplified explanation. Sylvanas cuts her off and proves she's already read the map for what actually matters.
-- Sylvanas correctly identifies Millhaven as the place where the tainted lines pinch together. Jaina realizes she's been talking down to the wrong person; her first read of Sylvanas shatters on the spot.
+- Sylvanas correctly identifies Millhaven as the place where the tainted lines pinch together. Jaina realizes she's been talking down to the wrong person; her first read of Sylvanas shatters on the spot. Lyriel, riding on Jaina's right, tells her quietly that Sylvanas does that to everyone. She is the first ranger to talk to Jaina as anything but a prisoner.
 - They don't know if Millhaven is the source or just the place taking the worst of the hit.
 - Ground the correction: Jaina stopping mid-gesture, Sylvanas correcting her without missing a beat, tack creaking under the steady rhythm of the ride.
 - Jaina drops the watered-down language just as the road starts proving things are beyond theory.
+- Inside: talked down to her the whole road; embarrassed, then annoyed at being embarrassed, then curious; who else has she simplified for without noticing; the small pleasure of someone keeping up, filed under useful and left there
 
 ### Beat 10
 - Before the village is even fully in sight, the land itself starts looking wrong.
@@ -175,6 +177,7 @@
 - They still don't know how the sickness first entered the animals.
 - Ground the autopsy: wrong heat inside dead flesh, Jaina's bare hand on the carcass, horses shying from the smell of corrupted blood.
 - They remount and push hard toward the place where the wrongness is strongest.
+- Inside: active before death, which is the interesting part, and she hates that it is; hand in a dead deer and already drafting the next test; who ate from these fields, and how long ago; puts the sick feeling off until after the read, as if it will wait
 
 ### Beat 13
 - They close the last stretch to Millhaven. The village already looks as dead as the animals they just fought.
@@ -198,6 +201,7 @@
 **What carries into Chapter 3:**
 - The full mounted group arrives at Millhaven together.
 - Cyndia, Lyriel, Neral, and the unnamed escort ranger are firmly established as the active riding party alongside Sylvanas and Jaina.
+- Lyriel is the ranger who talks to Jaina on the road.
 - The contamination is confirmed to be physical, lethal, and spreading.
 - The entry method for the sickness (how it spreads physically) is still unknown to them.
 

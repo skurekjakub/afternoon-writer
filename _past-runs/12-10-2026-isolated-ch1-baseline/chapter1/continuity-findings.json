@@ -1,0 +1,83 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter1",
+  "iteration": 1,
+  "targetFile": "v1.md",
+  "status": "pass",
+  "hardViolations": 0,
+  "softViolations": 2,
+  "sourcesAudited": [
+    ".afternoon/config.json",
+    ".afternoon/plans/chapter1.json",
+    ".afternoon/outlines/chapter1.md (holding-space wording only)",
+    ".afternoon/plans/chapter2.json (handoff fields, knowledge ledger, opening-scene sensory anchors)",
+    ".afternoon/plans/memory/relationships/jaina-proudmoore--sylvanas-windrunner.json (advisory only)",
+    ".afternoon/plans/memory/characters/{jaina-proudmoore,cyndia}.json (advisory only)",
+    ".afternoon/plans/memory/locations/{thalassian-pass,southern-border-outpost}.json (advisory only)",
+    ".afternoon/chapters/chapter1/continuity-findings.json (iteration 0, for fix verification)",
+    ".afternoon/chapters/chapter1/v1.md"
+  ],
+  "memoryNote": "No previous chapter exists. The plan sets requiredMemory to [] and verification.continuity says the memory ledger holds prior-run, future-state entries that were left out on purpose. Memory disagreements (Cyndia's 'dark braid', Jaina's 'travel robes', the holding room 'keyed to an anchor stone') are not counted against the prose. Where a chapter2.json handoff field depends on the same detail, it is raised as a cross-chapter handoff item.",
+  "priorFindingsResolution": [
+    {
+      "violationId": "V1 (iter 0, hard)",
+      "resolved": true,
+      "note": "Line 247 now reads \"Theris says she claims the leylines are wrong.\", an accurate quote of line 127. Line 155 now reads \"what was wrong with the lines under Sylvanas's stones\", which ties the narration to the relayed leyline claim and makes no stone-malfunction claim before Beat 7."
+    },
+    {
+      "violationId": "V2 (iter 0, soft)",
+      "resolved": true,
+      "note": "Line 205 now ties the difficulty of looking away to her own unease ('because a stranger had knelt at stones like these this morning and called something under them wrong'). The stones are no longer the source, so the normal-grid lock holds."
+    },
+    {
+      "violationId": "V3 (iter 0, soft)",
+      "resolved": true,
+      "note": "The runner (line 117) now says 'east of the road' and 'An hour past sunup', matching Cyndia (lines 233, 241). Ring geography (crossed the first ring, taken at the second) agrees."
+    },
+    {
+      "violationId": "V4 (iter 0, soft)",
+      "resolved": "mostly",
+      "note": "The inscription is now read at the pulled-to door, out of the prisoner's hearing (lines 299-303). The fix leaves a blocking contradiction at the exact point it depends on, and the book is unwrapped in the prisoner's sight. See new V2."
+    }
+  ],
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "Lines 273-279 and 333 (storeroom: chair in the middle of an overhead lamp's light circle; irons chained to a floor ring-bolt; 'Her shadow pooled under her'; Sylvanas's full room inventory at line 275 finds no ward barrier or anchor stone)",
+      "description": "Chapter 2 opens on this exact beat, but its plan assumes a different holding space. chapter2.json has Jaina 'on foot inside the ward circle at open', with 'ward pressure on Jaina's magic', 'Sylvanas's shadow across the circle', 'Sylvanas's hand at the ward edge', 'barrier dropping when Cyndia pulls the anchor stone', and 'stiff legs after hours on stone'. The v1 storeroom has none of that. The blue circle is light from a hanging ward-lamp, not a barrier. Nothing damps her magic; she is held by irons and a guard. She is seated in a chair, and with the lamp directly overhead Sylvanas's shadow pools beneath her rather than falling across the circle. Sylvanas also walks into the circle unimpeded. Chapter 1's own plan and outline do not prescribe a ward circle; the outline locks 'the human in the chair'. So this is a handoff conflict, not a broken Chapter 1 rule, but the Chapter 2 writer and gate will hit it on line one.",
+      "evidence": "chapter2.json: timelinePosition 'Opens on the exact beat where Chapter 1 ends.' transport 'On foot inside the ward circle at open.' Beat 1 sensoryAnchors: 'ward pressure on Jaina's magic', 'Sylvanas's shadow across the circle'. Beat 4: 'Sylvanas's hand at the ward edge'. Beat 5: 'barrier dropping when Cyndia pulls the anchor stone', 'stiff legs after hours on stone'. outlines/chapter1.md line 144: 'The human in the chair...'. v1.md line 275: room inventory with no barrier. Line 333: 'Her shadow pooled under her, small and black.'",
+      "suggestedFix": "Choose one place to fix it. (a) Chapter 1 prose, minimal: in Sylvanas's room read (line 275) or the light-circle description (line 273), add that the circle the lamp lights is also a ring of runes cut into the flagstones, keyed to an anchor stone (Cyndia's, or on its own hook by the door), that holds a mage's working down. This is ordinary border-grid hardware, not a manifestation of the danger, so the 'no physical manifestation' lock holds. Keep the chair (outline-locked). (b) Tell the orchestrator to amend chapter2.json so it matches v1: Jaina seated and chained to a floor ring-bolt, the lamp overhead (shadow under Sylvanas, not across the circle), release by unlocking the irons, and 'stiff legs after hours in the chair'. If (a) adds the anchor-stone barrier, chapter2.json still needs the chair/stone and shadow details corrected."
+    },
+    {
+      "violationId": "V2",
+      "severity": "soft",
+      "category": "physical",
+      "location": "Line 299: \"Cyndia stepped past her to the edge of the light, peeling the oilcloth back... She glanced past Sylvanas at the chair and lowered her voice. 'Not where she can hear it, General.' Sylvanas stepped back over the threshold, and the ranger at the door eased it to...\"",
+      "description": "The blocking that keeps the inscription out of the prisoner's hearing contradicts itself. Sylvanas is in the doorway (line 289). Cyndia 'stepped past her to the edge of the light', and the only light just described is the lamp's circle inside the storeroom (lines 273, 333), so Cyndia has walked into the room. Yet she then 'glanced past Sylvanas at the chair', which puts Sylvanas between her and the chair, and she ends up outside the pulled-to door, angling the flyleaf to the hand's width of light, with no exit shown. Taken literally, Cyndia is shut in with the prisoner. This is exactly what iteration 0's V4 fix relies on. Also, Cyndia unwraps the book in the open doorway while the prisoner 'was looking at the door' (line 283), before the door is eased to, and later carries it into the room and holds it beside the rack (line 333). The prisoner sees her own book, which bears Antonidas's inscription, uncovered after a whispered conference. That doesn't settle chapter2.json's open question 'Whether Sylvanas already knows who she is', but it pushes hard toward an answer.",
+      "evidence": "Iteration 0 V4 fix option (a): 'move the inscription reveal out of the prisoner's earshot... at the doorway with the door pulled to.' chapter2.json knowledgeLedger.povDoesNotKnowAtOpen: 'Whether Sylvanas already knows who she is.' v1.md line 289: Sylvanas 'stopped beside' the door ranger. Line 283: the mage 'was looking at the door—at Sylvanas in the door'.",
+      "suggestedFix": "Line 299: replace 'stepped past her to the edge of the light' with something that keeps Cyndia outside, e.g. 'stopped at her elbow, on the outer side of the threshold'. Move the oilcloth peeling to after the door is eased to: 'Sylvanas stepped back over the threshold, and the ranger at the door eased it to... Only then did Cyndia peel the oilcloth back...'. Optional: at line 331/333, have Cyndia lay the book on the outer table or keep it wrapped, rather than carrying it uncovered into the prisoner's sight."
+    }
+  ],
+  "reviewedNonIssues": [
+    "Knowledge timeline, Beats 1-3: troll sweep finishes with no losses (lines 17-19). Sylvanas's belief that the post's reports are routine is her own assumption, not Cyndia on page (line 95). The ward-hum is the normal grid (lines 59, 93). No mage, leyline, or breach knowledge leaks before the runner arrives.",
+    "Beat 2 vs Beat 3 split: Lor'themar's wordless read (line 49), then spoken needling about the session and Saltheril (lines 63-87). The canter shows him taking her irritation without slowing (line 91), which sets up the empty shoulder in Beat 6 (lines 201-203).",
+    "Beat 4: Sylvanas pulls the report out with questions (lines 113-139). First ring crossed before dawn, taken at the second, studying a stone with no credentials, a bare 'the leylines are wrong' claim, no name, no sponsor. No 'corruption' or 'plague' and no interpretation. The runner's 'Nothing on her that says who sent her' and 'She hasn't given one' keep the identity unknown.",
+    "Beat 5: Lor'themar and the patrol go north to the Convocation, and the runner stays (lines 161-193). Her briefing orders limit the leylines to 'Tell them she said it. Not that it's true.' (line 165). Stance shift to 'Her ring. Her stones.' (line 159) is on schedule.",
+    "Beat 6: the denser pulse at the Pass is marked as normal (line 205). Spy/envoy/both is the working guess, and the leyline claim fits none of them (lines 209-215). She doesn't guess the name. The runner rides behind, leaving her stirrup empty (line 201).",
+    "Beat 7: adds only new facts. Tracked route along the first ring, taken at the second, didn't bolt and argued to stay, Liron's report that the stones read wrong from the inside, and the gear lockdown (lines 233-257). The stone malfunction is reported, not shown, and Sylvanas's own ride past the stones felt normal (line 251). Cyndia hedges ('could be nothing but his hands are tired'). The name is held back (line 261).",
+    "Line 259 ('None of them was a spy. She was nearly certain none of them was an envoy.') doesn't pre-empt Beat 8. The unconscious 'violet' expectation is what Beat 8 breaks (line 277), and the arrogant/terrified/correct options stay open as Beat 7 stillUnknownAfterBeat requires.",
+    "Beat 8: road-worn, young, frost-burned knuckles, ink-stained fingers, worn boots, fury carried in the body with no speech (lines 279-293). The staff is chained on the spear rack, in sight and out of reach (line 275). The name comes from the flyleaf, opened 'a full hour after Theris left' (line 299), and is checked against the watch-file (line 305). Jaina's speech is never the source.",
+    "Name discipline: 'Jaina' appears only in Cyndia's spoken reading (line 301). The italic watch-file recall (line 305) is the check constraint 25 requires. Narration otherwise uses the mage, the human, the woman, the prisoner, Antonidas's apprentice.",
+    "No Jaina dialogue: she draws breath and stops (line 289). Her words to Feren and Cyndia appear only as reported speech (lines 241, 245).",
+    "Forbidden lexicon: no 'plague', 'corruption', 'taint', 'blight', 'poison', or 'disease' anywhere. The grep hits at lines 105/109 are 'trot'.",
+    "Physical manifestation lock: the frost-burn inference (line 285) and the snow-sharp smell (line 337) point to the mage's own magic, not the danger. The stone wrongness appears only through Liron's report as Cyndia relays it.",
+    "Beat 9 and close: release and stalling are both rejected (lines 323-325), and she chooses to hear the prisoner with no reason to trust her (line 329). Rangers clear a path and blue light falls on her boots (line 333). No warmth. The chapter ends on the locked 'Start talking.'",
+    "castKnowsLeavingChapter: custody plus a direct case to Sylvanas, identity known (Antonidas's apprentice), a serious interrogation, and Antonidas's knowledge and motive still unknown (lines 315-317). All present.",
+    "Cast: Lor'themar and the patrol exit north in Scene 2. Theris is with her on the ride and only referenced in Scene 3. Cyndia first appears in Scene 3. Lyriel and Neral are not named. Silvermoon is never cut to; the Convocation chamber appears only as memory (line 43).",
+    "Physical tracking: bent arrow quivered (line 35). Remount swap and the spent chestnut walked north (lines 179-183). Mare's reins handed off (line 227). Irons consistent from the runner's report (line 131) to the room (line 279). Bow handed to Cyndia, who shifts the book into one arm (line 331). Barley pot burning throughout (lines 229, 267, 293). Cyndia 'starting through' the kit when Theris left (line 131) fits the book being opened an hour later and the pouches still shut (lines 257, 299).",
+    "Advisory (not counted): 'Sylvanas had ridden past those stones an hour ago' (line 251) reads as those rings at the Pass, not literally Liron's six. That is plausible, since the mage worked west along the first ring toward the road. Ring layout (the southern trace crossing the Pass road, then the first and second rings at the post) is never pinned down precisely enough to contradict.",
+    "Advisory for Chapter 2 (not counted): chapter2.json's 'contamination is worse than it was eight hours earlier' roughly fits capture an hour past sunup and Sylvanas's arrival in copper light. Memory's 'six hours in the ward circle' is prior-run state."
+  ]
+}

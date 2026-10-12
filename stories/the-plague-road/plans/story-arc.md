@@ -1,12 +1,12 @@
 # The Plague Road — Story Arc
 
 - Genre: competence thriller that hardens into tragedy.
-- Tone: Ch 1-6 witty procedural; Ch 7-14 darker conspiracy; Ch 15-18 atrocity and rupture; Ch 19-25 lean endgame thriller.
-- POV: Sylvanas odd chapters, Jaina even chapters, with dual exceptions in Ch 22 and Ch 25.
+- Tone: Ch 1-6 witty procedural; Ch 7-14 darker conspiracy; Ch 15-18 atrocity and rupture; Ch 19-24 lean endgame thriller.
+- POV: Sylvanas odd chapters and Jaina even chapters through Ch 17. Then Ch 18 is dual (Jaina on the wall, Sylvanas at the camp), Ch 19 is Jaina, Ch 20 is Sylvanas, Ch 21 is dual, Ch 22 is Jaina, Ch 23 is Sylvanas, and Ch 24 is dual.
 - End state: they kill Arthas in the throne room, save no one who can testify, and are condemned anyway.
 
 ## Premise
-- Sylvanas catches Jaina inside the ward boundary, treats her as a threat, then discovers the mage is the only person reading the plague correctly.
+- Sylvanas's border post catches Jaina inside the ward boundary. Sylvanas treats her as a threat, then discovers the mage is the only person reading the plague correctly.
 - Their hostile investigation becomes a chase from border villages to Andorhal, Scholomance, Stratholme, Northrend, and back to Capital City.
 - They kill Arthas seconds after he murders Terenas and are found standing over both bodies.
 
@@ -45,14 +45,14 @@
 ## World rules
 - High elves cannot be reanimated by the plague in this AU.
 - That fact makes Silvermoon complacent, not safe.
-- Mal'Ganis sanitizes sites, steers Arthas, and hides behind a repeated road-farewell.
+- Mal'Ganis sanitizes sites, steers Arthas, watches his work in disguise, directs the cult covertly, and hides behind a repeated road-farewell.
 - Frostmourne is not a solved problem when Arthas dies.
 
 ## Arc map
 - Investigation, Ch 1-8: border breach to Andorhal.
 - Scholomance, Ch 9-14: split, dark mirror, crack.
-- Arthas, Ch 15-18: Hearthglen to Stratholme.
-- Endgame, Ch 19-25: Northrend, return, throne room, condemnation.
+- Arthas, Ch 15-18: Hearthglen to Stratholme, and the turn north.
+- Endgame, Ch 19-24: Northrend, return, throne room, condemnation.
 
 ## Use rule
 - This file is the signpost.

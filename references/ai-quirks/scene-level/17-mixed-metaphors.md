@@ -129,7 +129,7 @@ She was navigating a labyrinth of emotions, each turn revealing a new landscape 
 **Good:**
 She was lost. Not in any place she could map — in herself, in the tangle of what had happened and what she'd done about it and what she should have done instead. Every thought led to another thought, and that thought led to three more, and none of them led anywhere useful.
 
-She sat down. Not literally — she was walking, still walking, feet on the road — but her mind sat down. Stopped trying. Let the tangle be a tangle.
+She sat down. Not literally — she was walking, still walking, feet on the road — but her mind sat down. Stopped trying. The tangle stayed a tangle.
 
 **Why:** Bad version: labyrinth → landscape → mountains → rivers → key/door. Five domains in three sentences. The fix drops all metaphor and uses direct language: lost in herself, tangle of thoughts. The "sat down" is a mental action with a literal correction, which is more interesting than any of the stacked metaphors.
 

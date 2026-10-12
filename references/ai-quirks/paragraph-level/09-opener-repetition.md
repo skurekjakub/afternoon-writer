@@ -54,7 +54,7 @@ Footsteps. Behind, too close. She spun. Steel met steel, the impact jarring her 
 
 The cut along her forearm — she noticed it when the fight was over, the way you notice rain after you're already wet. Not deep. It would keep.
 
-Blade wiped on the nearest coat. Sheathed. Her hands were shaking, but that was fine. They always shook after. The trick was to let them.
+Blade wiped on the nearest coat. Sheathed. Her hands were shaking, but that was fine. They always shook after. The trick was to wait.
 
 **Why:** Five "She" openers in an action scene. The fix: article (The first), article (The second), fragment (Footsteps), article (The cut), fragment (Blade wiped). The action is also more vivid — stone chips, jarring teeth, shaking hands.
 
@@ -223,7 +223,7 @@ Morning would bring — what? She didn't know. That was the problem. She ran the
 
 Maren shifted behind her. She didn't turn around. Some conversations happen better when you can't see each other's faces.
 
-Exhaustion arrived the way it always did — all at once, between one breath and the next. Her eyes closed. The blade rested on her knees. The fire popped and settled, and she let it carry her down.
+Exhaustion arrived the way it always did — all at once, between one breath and the next. Her eyes closed. The blade rested on her knees. The fire popped and settled. She went under.
 
 **Why:** Four gerund openers. The fix: pronoun (She), fragment (Morning would bring), name (Maren), abstract noun (Exhaustion). Each paragraph now has room to develop instead of being a single beat.
 

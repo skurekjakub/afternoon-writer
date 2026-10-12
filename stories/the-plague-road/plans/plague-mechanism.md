@@ -10,6 +10,7 @@
    - Strong magical signature.
    - Survives storage, baking, and travel.
    - Misleads early investigation because it is loud but not complete.
+   - Grain is the carrier, not the real instrument. It is an echo and an amplifier that answers a signal from somewhere else.
 2. Repeated ingestion conditions the body.
    - Gut first, then wider system response.
    - The body is not just poisoned; it becomes part of the mechanism.
@@ -39,9 +40,10 @@
 - Ch 4-6: isolates ingestion, repeated exposure, and body participation. Still missing the final step.
 - Ch 7-8: sees layered design, live monitoring, handler-directed obedience, and the fact that the loudest signature is not the whole mechanism.
 - Ch 9-12: research plus Kel'Thuzad finally turn fragments into one model: body as answering chamber, low fidelity vs high fidelity preservation.
+- Ch 18: Stratholme shows that city-scale activation works as a network answering a broadcast. Grain is an amplifier answering a signal from farther north. Kel'Thuzad's death removed one relay, not the whole system.
 
 ## Writer rules
 - Jaina is never clueless.
 - Jaina is still incomplete before Ch 12.
-- Kel'Thuzad completes the model; he does not replace it with a brand-new one.
+- Kel'Thuzad completes the body-side model; he does not replace it with a brand-new one. Ch 18 extends it outward to the broadcast source.
 - Keep diction fantasy-facing: contamination, ingress, answering chamber, preserved pattern, choir.

@@ -1,0 +1,227 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner (pre-undeath Ranger-General)",
+    "registerSummary": "Dry, exact, tactical interior. Thinks in footing, range, counts, routes, and people's tells; uses sardonic one-line jokes and terse fragment assessments ('Good.', 'That root would hold.'). Does not name her own emotions confessionally, does not editorialize about relationships or themes, and does not narrate her own psychology in neat chiastic summaries.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 31,
+      "kills": 4,
+      "keeps": 27,
+      "severity": { "mild": 4, "moderate": 0, "severe": 0 },
+      "dominantPattern": "F3",
+      "modeSummary": {
+        "F1": "0 - dialogue telegram runs (banter L63-L87, report L115-L121) are exchange rhythm and deliberate breathless report, not sustained narration monotony; no ', Ving' tail clusters",
+        "F2": "0 - frowned/nodded/shifted beats all carry concrete, character-specific continuations",
+        "F3": "2 - L95 'she thought', L281 'could see'",
+        "F4": "1 - L91 interpretive restatement of Lor'themar riding beside her",
+        "F5": "0 - Lor'themar accepting the split and Cyndia's cooperation are plan-intended (intentional-structure defense); no scene resolves its central conflict",
+        "F6": "1 - L329 announcement sentence opening the close-up paragraph",
+        "F7": "0 - scene endings land on action (hoofbeats/rider), image (mare's shoes on gravel / thrush), and the locked line; paragraph closers examined and kept in scratchpad"
+      },
+      "findings": [
+        {
+          "id": "B-GPT5-1",
+          "line": 91,
+          "pattern": "F4",
+          "mode": "Narrative over-translation",
+          "severity": "MILD",
+          "text": "He knew she would make him ride rather than make herself talk, so he rode, sitting deep in the saddle as if this were what he'd intended all along.",
+          "whatItRestates": "The previous sentence already shows the dynamic concretely: 'Lor'themar's gelding came up beside her inside fifty yards and stayed there, nose level with her stirrup.' This line then explains it, stating Lor'themar's knowledge and Sylvanas's own avoidance motive in a neat chiasmus ('make him ride rather than make herself talk'). The plan wants this dynamic shown so its absence can be felt in Beats 5-6, not announced. The confessional self-analysis also runs against the 'no confessional emotion-naming' constraint.",
+          "suggestedFix": "He rode it out at her side, sitting deep in the saddle, the reins still slack in one hand.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "Fix drops the hedge 'as if' and the mind-reading 'He knew'. It keeps only physical behavior and calls back the slack-rein detail from L75, so it neither interprets (F4/A6) nor introduces a placeholder noun.",
+          "textureZone": "inside texture_desert (L75-L91 banter run); the fix keeps a participial joining construction"
+        },
+        {
+          "id": "B-GPT5-2",
+          "line": 95,
+          "pattern": "F3",
+          "mode": "Filter verb",
+          "severity": "MILD",
+          "word": "thought",
+          "text": "A day, she thought.",
+          "deletionTest": "A day. Two if she was careful.",
+          "reason": "The thought tag does nothing but route the interior. The paragraph already sits in close free-indirect thought ('Two if she was careful'), so the tag is scaffolding. Deleting it makes the paragraph stronger.",
+          "suggestedFix": "A day.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT5-3",
+          "line": 281,
+          "pattern": "F3",
+          "mode": "Filter verb",
+          "severity": "MILD",
+          "word": "could see",
+          "text": "In the cold ward-light Sylvanas could see every hard line of her face.",
+          "deletionTest": "In the cold ward-light every hard line of her face showed.",
+          "reason": "'Sylvanas could see' mediates a direct perception. The face and the light carry the beat without the filter. Sylvanas's act of seeing is not the dramatic event here; the face is.",
+          "suggestedFix": "The cold ward-light showed every hard line of her face.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "The light is a literal illumination source, so the fix is not an A8 staged-ambience frame. No hedge, no interpretation."
+        },
+        {
+          "id": "B-GPT5-4",
+          "line": 329,
+          "pattern": "F6",
+          "mode": "Essay brain - thesis opening",
+          "severity": "MILD",
+          "text": "From here Sylvanas could see what she had missed from the doorway. The eyes were blue,",
+          "issue": "The first sentence announces that a reveal is coming ('could see what she had missed') before giving it. That is a topic-sentence opener with a stacked filter ('could see'). The close-range details that follow (eye color, red whites, tremor, smell) already make the doorway-to-chair shift on their own.",
+          "suggestedFix": "Up close, the eyes were blue,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "'Up close' keeps the spatial progression the plan wants (Beat 8 read from the doorway, Beat 9 the walk in) without a filter verb or a thesis sentence."
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 22,
+      "kills": 1,
+      "keeps": 21,
+      "severity": { "mild": 1, "moderate": 0, "severe": 0 },
+      "dominantPattern": "A1",
+      "tierAKills": 1,
+      "tierBKills": 0,
+      "severePages": [],
+      "severeScenes": [],
+      "structuralHabit": "no",
+      "note": "L91 also reads as B1 register drift but was killed under gpt-5 F4 (child-guide rule: not re-killed here).",
+      "findings": [
+        {
+          "id": "B-NS-1",
+          "line": 251,
+          "pattern": "A1",
+          "tier": "A",
+          "severity": "MILD",
+          "text": "Cyndia said it straight out, which was the thing Sylvanas had always valued in her.",
+          "whoIsSayingThis": "A narrator. The appended 'which was the thing Sylvanas had always valued in her' is a retrospective character-note caption about the relationship, written about Sylvanas by name. It is not a thought she is having mid-scene.",
+          "povMismatch": "This is a verdict-tag clause hung on a dialogue beat. Sylvanas is mid-interrogation, about to ask 'Where's her kit?', and is not pausing to grade her officer's virtues. The keep condition (active assessment driving a decision) does not apply.",
+          "confidence": "HIGH",
+          "suggestedFix": "Cyndia said it straight out.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "The plain beat keeps Cyndia's established bluntness ('I'll tell you straight', L295) as delivery and drops the caption. It is not a generic F2 beat-kill-list verb."
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 14,
+      "kills": 0,
+      "keeps": 14,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": null,
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": ["'clean' x6 (L5, L33, L61, L95, L205, L329): each one is anchored to a literal referent (open route, clean kill, clean runes, report wording, clean-cut stone, a smell); none is a prestige abstraction", "'trouble' x2 (L231, L247): both are cashed out in the same line (before-dawn tracking gap; cracked-stone/hollow-cask simile)"],
+      "toolSignalsReviewed": [
+        { "toolSignal": "something_vague", "line": 259, "text": "Something in her things.", "verdict": "KEEP", "reason": "Intentional-structure defense: Cyndia is deliberately holding back the identifying object until Sylvanas has seen the prisoner ('I'd rather you looked at her first'). The payload is delivered on-page at L295-L297 (the inscribed book)." }
+      ],
+      "cleanReason": "Fourteen candidates examined (placeholder nouns work/trouble/thing/sum/answer, prestige 'clean/properly', tactical compressions 'took the room', 'consciously seen', 'meant her', planner-shaped lines 'Or both.', 'Which left going in herself.', 'Which left the space beside her stirrup empty.', hypothesis summary 'three women', and dialogue 'whatever's useful'). Each one cashes out from text already on the page. 'The sum' is answered in Lor'themar's next line (Silvermoon by full dark). 'The frontier allotment meant her' is anchored by the Farstrider cost reading in the same paragraph. 'Took the room' is followed by a full door/window/ranger/rack scan. 'Or both.' is pre-anchored at L159 and tested at L211. 'Which left going in herself.' follows two concretely costed options (escort out with a bill for the barley; a night, a hard ride, and another day for a magister). The dialogue in this chapter is report and banter built from concrete nouns (forty miles of ring, six stones, knee-marks, cask), so there is no sloganized abstract argument to kill. Self-check: the absence of dialogue and inferential kills was re-examined against Cyndia's, Theris's, and Lor'themar's lines and Sylvanas's spy/envoy reasoning, and it holds."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": null,
+      "brokenExchanges": [],
+      "cleanReason": "No line in the chapter frames its reply as plain speech, smaller words, 'say it in streets', or the short version. The four nearest request-for-usable-payload exchanges were audited as exchanges. (1) 'You found me. Report.' gets ring geography, time, posture, and the kit status. (2) 'Wrong how?' gets an honest admission that nobody could follow her, with no claim of simplification. (3) 'Give me yours. Start before dawn.' gets scree route, stones six and seven, six knee-marks, and the second-ring capture. (4) 'And the leylines?' gets 'Tell them she said it. Not that it's true.', which is a usable briefing instruction. Each reply gives a target another character could act on without a second unpacking pass."
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 66,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md"
+    ],
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "fixStrategy": "default (iterationKillsB 15 -> 12, strictly decreasing)",
+    "verdict": "fail",
+    "verdictReason": "5 MILD kills exceed the 3-MILD pass ceiling (0 MODERATE/SEVERE). There are two filter verbs (L95 'she thought', L281 'could see'), one interpretive restatement (L91), one thesis-opening announcement (L329), and one narrator verdict-tag caption (L251). All five are single-sentence drop-in fixes, down from 12 kills at iteration 1. Structural rhythm concerns: long_sentence_pct, opener_entropy, and one_sentence_paragraph_pct are outside range. Structural texture deficit: texture below_target, with participial 5.8% against a 12% target.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.603, "target": 0.72, "delta": -0.117, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.2, "target": 11.0, "delta": 0.2, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.787, "target": 0.7, "delta": 0.087, "range": [0.6, 0.8], "inRange": true },
+      "short_sentence_pct": { "actual": 39.1, "target": 35.0, "delta": 4.1, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 17.1, "target": 10.0, "delta": 7.1, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.27, "target": 7.7, "delta": -1.43, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 25.9, "target": 19.0, "delta": 6.9, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.809, "target": 0.83, "delta": -0.021, "range": [0.8, 0.87], "inRange": true },
+      "structuralRhythmConcerns": ["long_sentence_pct above range", "opener_entropy below range", "one_sentence_paragraph_pct above range"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "textureScore": 80.7,
+      "verdictReasons": [
+        "participial: 5.8% below target 12.0% (score 54/100)",
+        "compound: 12.2% above target 10.0% (score 80/100)",
+        "emdash: 2.4% below target 4.0% (score 88/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.8% -> target 12.0% (score 54/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.2% -> target 10.0% (score 80/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.4% -> target 4.0% (score 88/100). Use for mid-sentence pivots.",
+      "telegramRunCount": 9,
+      "textureDesertCount": 10,
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 40,
+        "totalViolations": 0,
+        "overCapCategories": [],
+        "atCap": ["punct_colon_narration 6/6 (pass A domain)"],
+        "passBMappedSignals": [
+          { "pattern": "something_vague", "category": "vague_pointers", "line": 259, "verdict": "KEEP", "guide": "phantom-concreteness-guide.md" }
+        ]
+      }
+    }
+  }
+}

@@ -145,7 +145,7 @@ She moved through the room the way water moves through a channel — finding the
 She existed in a liminal space between sleep and waking.
 
 **Good:**
-Half-asleep. Sounds reached her like they were crossing a long room — Maren's voice, footsteps, the scrape of a chair. She let them stay distant. Not ready to surface yet.
+Half-asleep. Sounds reached her like they were crossing a long room — Maren's voice, footsteps, the scrape of a chair. They stayed distant. Not ready to surface yet.
 
 **Why:** "Liminal space" is academic jargon. The replacement gives us the specific texture of being half-conscious.
 

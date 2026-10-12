@@ -52,13 +52,13 @@
 - Ch 17-18: Stratholme welds the crack shut. Shared witness replaces unfinished explanations.
 - After the wall, Sylvanas stops evaluating Jaina and starts tracking her automatically as part of the combat picture.
 
-## Phase 5 — Competence Recognition (Ch 19-22)
+## Phase 5 — Competence Recognition (Ch 18-21)
 - Northrend strips away almost all friction.
 - They communicate in shorthand, split work without discussion, and move like people who have been operating together for years.
 - Muradin notices it before either of them names it.
 - The Frostmourne retreat proves the team was right even when the fight was unwinnable.
 
-## Phase 6 — Peak Competence (Ch 23)
+## Phase 6 — Peak Competence (Ch 22)
 - Sylvanas takes the direct fight and loses it honestly.
 - Jaina invents the answer under pressure and holds the seam open.
 - Sylvanas rises and makes the kill shot.

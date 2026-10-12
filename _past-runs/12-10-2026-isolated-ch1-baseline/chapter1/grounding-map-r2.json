@@ -1,0 +1,33 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 2,
+  "globalRisks": ["tail-risk", "door-blocking-continuity"],
+  "segments": {
+    "openingThird": { "risk": "low" },
+    "middleThird": { "risk": "low" },
+    "finalThird": { "risk": "medium" }
+  },
+  "scenes": [
+    {
+      "sceneId": 3,
+      "title": "The Prisoner",
+      "riskTags": ["blocking-break", "final-beat"],
+      "biggestGap": "Door is eased to a hand's width at the book reveal and never reopened before Sylvanas walks in and the open door is used as an escape route.",
+      "sourceBank": {
+        "geography": ["Thalassian Pass post storeroom"],
+        "institutions": ["Farstriders"],
+        "materials": ["barred door", "ward-lamp", "blue-white light", "flagstones", "ring-bolt chain", "staff", "spear rack"]
+      },
+      "sceneContract": {
+        "placeAnchor": "storeroom doorway, door eased to a hand's width",
+        "materialAnchor": "barred door, blue ward-light, flagstones",
+        "povAnchor": "Sylvanas takes the room by exits; the door is her exit count",
+        "dialogueAnchor": "Cyndia's low voice and the book held in the crook of her arm",
+        "exitAnchor": "Sylvanas pushes the door wide and walks into the light; the open door stays behind her"
+      },
+      "dialogueRuns": [
+        { "label": "Cyndia book reveal", "risk": "low" }
+      ]
+    }
+  ]
+}

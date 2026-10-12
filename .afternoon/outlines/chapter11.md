@@ -2,7 +2,7 @@
 
 **POV:** Sylvanas Windrunner (limited third, absolute)
 **When:** Runs parallel to Chapter 12. While Jaina is already inside Scholomance after Chapter 10's descent, Sylvanas and Cyndia ride south from the Chapter 9 split to brief Arthas, then turn north again when Jaina's trail goes dark.
-**Where:** Eastweald road south toward Hearthglen and Arthas's field camp.
+**Where:** Eastweald road south toward Arthas's field camp. Hearthglen, his next target, lies northwest of the Eastweald.
 **Travel:** Mounted on Thalassian horses south through the Eastweald to Arthas's camp, then hard north again toward Caer Darrow.
 **Characters:** Sylvanas, Cyndia.
 **Goal:** Force proof of the plague through human military and political machinery fast enough to matter, then decide whether Arthas is help or a loaded weapon.
@@ -13,7 +13,7 @@
 - **Character references:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Arthas profile](stories/the-plague-road/characters/arthas.md), [Uther profile](stories/the-plague-road/characters/uther.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
 
 **Sylvanas's starting position:**
-- Chapter 9 split the hunt. Jaina took the Barov trail while Sylvanas and Cyndia took the track toward Arthas.
+- Chapter 9 split the hunt. Jaina took the Barov trail while Sylvanas and Cyndia took the track toward Arthas. A Farstrider runner from Lor'themar's relay stayed on the Darrowmere shore as a lake watch.
 - The poisoned grain supply is organized, regional, and hidden inside the kingdom's trade routes.
 - Barov properties sit at the center of the trade ledgers, but ownership is still not proof of guilt.
 - Lyriel is dead, the formation is broken, and the team is short on both combat reach and magical tracking.
@@ -26,13 +26,13 @@
 - Whether Hearthglen is already lost.
 - Jaina's exact status on the Barov and Scholomance line.
 - Whether the Barovs are complicit or only infiltrated.
-- Whether the old seller and repeated farewell pattern matters.
+- Whether the old carter and the repeated-farewell pattern matter.
 
 **Hold back:**
 - No explicit Mal'Ganis identification.
 - No claim that Arthas understands the deeper magic just because he understands the threat.
 - No suggestion that Jaina's descent is happening later. It is running in parallel.
-- No resolution of the old seller and repeated farewell clue.
+- No resolution of the old carter and the repeated-farewell clue.
 
 **End of chapter state:**
 - Arthas is marching toward Hearthglen with conviction stronger than nuance.
@@ -49,6 +49,7 @@
 - Instead she gets dragged through the arena she hates most: protocol, witnesses, holy caution, and commanders who only hear danger once it sounds like normal war.
 - Without Jaina present, she has to argue with partial truth, field evidence, and judgment.
 - She wins in the ugliest way possible: by giving Arthas a war he knows how to want.
+- Twin-sin wiring (structural note; the prose never names it): this is Sylvanas's second act of being right alone, after Chapter 9 B3. She is right about the grain and right about Arthas, and she hands him the target without the half of the case only Jaina could make. Jaina's matching act is Chapter 16 B8.
 
 ### Jaina through Sylvanas's POV
 - Jaina is missing both as magical proof and as the one person who could have made this briefing legible without translation.
@@ -65,7 +66,7 @@
 ## Cast and handoff rules
 
 - **Jaina:** Off-page inside the Barov trail.
-- **Cyndia:** With Sylvanas throughout. She now permanently covers the right flank Lyriel used to hold.
+- **Cyndia:** With Sylvanas throughout. She now permanently covers the left flank.
 - **Arthas Menethil:** The human commander Sylvanas chooses to activate.
 - **Uther the Lightbringer:** The secondary commander whose warning about Arthas matters later, even if it changes nothing here.
 - **Captain Falric:** The gatekeeper at Arthas's camp.
@@ -101,6 +102,7 @@
 - They do not know which version of Arthas they are riding toward or whether the army can pivot fast enough to matter.
 - Ground the decision: a dark road flattening under hard pace, Cyndia riding tighter than a full formation would allow, the ugly calm of a necessary decision.
 - The road delivers them to the prince's camp.
+- Inside: if it has to be a human war, then she chooses where the human sword lands; choosing a prince because he is the nearest weapon, and she knows how that sounds; strategy, or only wanting something to hit; Lyriel would have had a joke for this road, and nobody does
 
 ---
 
@@ -125,11 +127,12 @@
 - The barrier drops, and the real fight starts inside the tent.
 
 ### Beat 6
-- Sylvanas presents the plague in the only language the room can hear. She does not have Jaina's deep proof, so she briefs with maps, supply lines, compromised grain, hidden distribution, and the fact that visible war has been chasing the wrong thing.
+- Sylvanas presents the plague in the only language the room can hear. She does not have Jaina's deep proof, so she briefs with maps, supply lines, compromised grain, hidden distribution, and the fact that visible war has been chasing the wrong thing. When a healer asks how a fever becomes a walking corpse, Sylvanas answers with a line of Jaina's from the road to Strahnbrad: "It comes in on the wagons and walks out on its own feet." One quiet callback; she knows whose line it is.
 - Arthas hears target and motion. Uther hears danger and incompleteness. The rest of the room hears risk to grain, nobles, and public order. Sylvanas withholds Kel'Thuzad's name and Jaina's position because she cannot prove one and will not endanger the other.
 - They do not know whether Arthas will act with discipline or whether Uther can slow him if he does not.
-- Ground the briefing: a campaign map filling with plague marks over war marks, Arthas leaning forward when the threat becomes marchable, Uther going still for all the wrong reasons.
+- Ground the briefing: a campaign map filling with plague marks over war marks, Arthas leaning forward at Jaina's sentence, Uther going still for all the wrong reasons.
 - Sylvanas wins the room by giving Arthas a war he knows how to want.
+- Inside: Jaina's line, borrowed without leave, and it landed harder than anything of her own; holding back the name and the lake, protection or simple distrust of a human prince; he leaned in at the wrong part; won the room, and does not like how
 
 ---
 
@@ -151,7 +154,7 @@
 ## Scene 4: The Call North
 
 **The action:** Political support collapses, then Jaina's silence cuts through it.
-**Cast:** Sylvanas, Cyndia, Farstrider messengers.
+**Cast:** Sylvanas, Cyndia, Farstrider messengers, the lake watch.
 **Starting point:** Arthas is in motion, and the wider response to the plague has been handed off to human armies.
 
 ### Beat 8
@@ -159,14 +162,15 @@
 - Political backing is actively collapsing, and evidence erasure is not incidental. Arthas's march will continue without Sylvanas's hand on it if she lets it.
 - They do not know whether staying with the army buys anything or how long before recall pressure becomes a direct order.
 - Ground the pressure: Lor'themar's tight angry handwriting, warm dispatch parchment, the humiliation of being attacked by process instead of blades.
-- Then Jaina's line goes silent, and politics loses the argument.
+- Then the lake watch rides in from the Darrowmere shore, and politics loses the argument.
 
 ### Beat 9
-- Sylvanas gets word that Jaina entered Caer Darrow and never came back out. The Arthas march is now open war, but the missing partner becomes the only field truth that matters.
+- The watch reports that Jaina crossed to Caer Darrow and did not come back. The Arthas march is now open war, but the missing partner becomes the only field truth that matters.
 - Sylvanas hands the kingdom off to the prince she just armed. She and Cyndia turn north at once, and Chapter 13 begins from this redirect.
 - They do not know whether Jaina is trapped, compromised, or already in the hands of something older than the local cult face.
 - Ground the turn: the familiar weight of the bow in Sylvanas's hand as the direction changes, Thalassian horses turning north while Arthas's dust still hangs to the south, Cyndia reading the order from posture alone.
 - Chapter 13 opens when Sylvanas reaches the room.
+- Inside: drops a kingdom's war for one mage and calls it field truth; Silvermoon's recall can wait, or rot; the runner did exactly what she told him, and she could hit him for it; is she dead; no, not that, ride
 
 ---
 
@@ -180,8 +184,9 @@
 - Sylvanas and Cyndia are moving hard north toward Caer Darrow to find Jaina.
 - Arthas has been marched toward Hearthglen with conviction and blind fury.
 - Uther's warning about Arthas's flaw is now firmly planted.
+- Sylvanas used one of Jaina's lines from the road to Strahnbrad in the briefing. Jaina does not know this.
 - Recall pressure and active evidence erasure are collapsing the ranging mission from behind.
-- The old seller and repeated farewell pattern remains unresolved.
+- The old carter and the repeated-farewell pattern remain unresolved.
 - Chapter 12 stays in simultaneous time. Chapter 13 is the arrival created by this redirect.
 
 **Do not add yet:**

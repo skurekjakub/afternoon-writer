@@ -37,9 +37,9 @@
 - Ch 9: her tactical mistake kills one of her own and teaches her to wait for what she cannot read alone.
 - Ch 13-14: the Scholomance crack damages trust but does not kill the team.
 - Ch 17-18: Stratholme burns away the remaining distance.
-- Ch 19: she refuses recall for the first time in her life.
-- Ch 21-23: Northrend and the throne room prove the partnership is not convenience but structure.
-- Ch 25: prison strips away every institution except the one bond she built herself.
+- Ch 18: she refuses recall for the first time in her life.
+- Ch 20-22: Northrend and the throne room prove the partnership is not convenience but structure.
+- Ch 24: prison strips away every institution except the one bond she built herself.
 
 ## Writer rules
 - Keep her self-aware, not self-explanatory.

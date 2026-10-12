@@ -1,0 +1,315 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner (pre-undeath Ranger-General)",
+    "registerSummary": "Dry, exact, tactical. Notices exits, cover, gait, fatigue, rank and competence first; humor is deadpan and never underlined; speaks and thinks in finished judgments. She does not linger on emotional naming, decorative description, or the narrative significance of her own choices.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 51,
+      "kills": 12,
+      "keeps": 39,
+      "severity": { "mild": 11, "moderate": 1, "severe": 0 },
+      "dominantPattern": "F3 (4 kills), then F7 (3)",
+      "modeCounts": { "F1": 0, "F2": 2, "F3": 4, "F4": 2, "F5": 0, "F6": 1, "F7": 3 },
+      "findings": [
+        {
+          "id": "B-GPT-01",
+          "pattern": "F4",
+          "line": 21,
+          "text": "She hadn't had to think about a hill in this forest since she was a girl.",
+          "issue": "Over-translation. 'Choosing footholds before she'd consciously seen them' and 'That root would hold. That slab would slide.' already show the effortless read; the closer restates it as a claim. Part of a scene-1 habit of lifelong-belonging paragraph closers (see also line 25 and line 59, kept).",
+          "severity": "MILD",
+          "textureZone": "texture_desert sentences 15-34",
+          "suggestedFix": "That root would hold. That slab would slide.",
+          "fixTarget": "That root would hold. That slab would slide. She hadn't had to think about a hill in this forest since she was a girl.",
+          "fixAction": "delete-sentence",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-02",
+          "pattern": "F4",
+          "line": 29,
+          "text": "They were all fine.",
+          "issue": "Restatement. Line 19 already closed the casualty check ('That was the worst of it. No one carried. No one limped.'), the arguing in the previous sentence shows it again, and line 31 says it a third time ('everyone she'd brought out still alive').",
+          "severity": "MILD",
+          "suggestedFix": "Someone was already arguing about who had taken the troll in the creekbed.",
+          "fixTarget": "Someone was already arguing about who had taken the troll in the creekbed. They were all fine.",
+          "fixAction": "delete-sentence",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-03",
+          "pattern": "F3",
+          "line": 49,
+          "text": "He was silent a moment.",
+          "issue": "Temporal padding. The next sentence measures the pause exactly ('He let it sit exactly as long as it took her to know that he knew'), so 'a moment' is dead air.",
+          "severity": "MILD",
+          "suggestedFix": "He was silent.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-04",
+          "pattern": "F3",
+          "line": 59,
+          "text": "As a small girl she had thought the forest was singing to itself, and nobody had ever quite convinced her otherwise.",
+          "issue": "Hedge 'quite'. Deletion test: 'nobody had ever convinced her otherwise' is firmer and keeps the joke.",
+          "severity": "MILD",
+          "suggestedFix": "As a small girl she had thought the forest was singing to itself, and nobody had ever convinced her otherwise.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-05",
+          "pattern": "F2",
+          "line": 121,
+          "text": "He swallowed.",
+          "issue": "Generic beat. Kill-list verb standing alone as the whole beat. The report already carries its breath rhythm through the 'Breath.' beats in line 117.",
+          "severity": "MILD",
+          "textureZone": "telegram_run sentences 198-206 / texture_desert 190-214",
+          "suggestedFix": "\"Hands on it, General. Studying it. She had a book open on the ground beside her. No papers. No seal. No escort. Nothing on her that says who sent her.\"",
+          "fixTarget": "\"Hands on it, General. Studying it. She had a book open on the ground beside her.\" He swallowed. \"No papers. No seal. No escort. Nothing on her that says who sent her.\"",
+          "fixAction": "delete-beat-and-merge-quote",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-06",
+          "pattern": "F6",
+          "line": 155,
+          "text": "The choice lay flat in front of her, like Saltheril's map with nobody painted on it.",
+          "issue": "Essay brain, thesis opening. The paragraph opens by announcing its subject ('The choice') and then lays out the evidence. 'Two roads, and a body needed on each.' already does the opening job with concrete roads.",
+          "severity": "MILD",
+          "suggestedFix": "Two roads, and a body needed on each.",
+          "fixTarget": "The choice lay flat in front of her, like Saltheril's map with nobody painted on it. Two roads, and a body needed on each.",
+          "fixAction": "delete-sentence",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-07",
+          "pattern": "F3",
+          "line": 287,
+          "text": "The mage drew breath to speak, and Sylvanas watched it go in and stay there.",
+          "issue": "Filter verb 'watched'. Deletion test passes: the held breath reads directly without Sylvanas's watching routed through it. Watching is not the dramatic event here.",
+          "severity": "MILD",
+          "toolSignal": "filter_watched",
+          "suggestedFix": "The mage drew breath to speak and held it.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-08",
+          "pattern": "F7",
+          "line": 291,
+          "text": "Whatever this was, it hadn't come from any court.",
+          "issue": "Paragraph-final interpretive summary. Lines 275-285 already showed in concrete terms that she isn't a court mage (no violet, no rings, mud to the knee, frost-burn, ink); the closer restates it in the abstract with the placeholder 'this'. Overlaps narrator-seep A6 and phantom P3. Recorded once here.",
+          "severity": "MILD",
+          "textureZone": "texture_desert sentences 504-516",
+          "suggestedFix": "The woman had spent the afternoon chained to a floor while a barley pot burned next door and the stones she'd come to read stood on the hillside without her.",
+          "fixTarget": "The woman had spent the afternoon chained to a floor while a barley pot burned next door and the stones she'd come to read stood on the hillside without her. Whatever this was, it hadn't come from any court.",
+          "fixAction": "delete-sentence",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-09",
+          "pattern": "F3",
+          "line": 305,
+          "text": "She could hear her own heartbeat, loud over the whine of wind through the slit.",
+          "issue": "Filter verb 'could hear'. Deletion test passes: the heartbeat can be stated directly.",
+          "severity": "MILD",
+          "suggestedFix": "Her own heartbeat thudded loud over the whine of wind through the slit.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-10",
+          "pattern": "F7",
+          "line": 313,
+          "text": "She didn't know which was worse. She suspected she was going to find out.",
+          "issue": "Closure addiction, false-ambiguity close. This is the signature 'didn't know which was worse' plus a quip that seals the paragraph. Line 311 already ends on the real open question ('or he had no idea where she was'), and the italic callback in line 315 lands harder straight after it.",
+          "severity": "MODERATE",
+          "suggestedFix": "",
+          "fixTarget": "She didn't know which was worse. She suspected she was going to find out.",
+          "fixAction": "delete-paragraph",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-11",
+          "pattern": "F7",
+          "line": 317,
+          "text": "When she was done, what remained was cold and clear and could be used.",
+          "issue": "Paragraph-final emotional summary. 'She made herself unclench them one at a time.' is the strong stop. The closer names the resulting emotional state with the placeholder 'what remained' (also phantom P3, recorded once here).",
+          "severity": "MILD",
+          "suggestedFix": "She made herself unclench them one at a time.",
+          "fixTarget": "She made herself unclench them one at a time. When she was done, what remained was cold and clear and could be used.",
+          "fixAction": "delete-sentence",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-12",
+          "pattern": "F2",
+          "line": 241,
+          "text": "One of the rangers by the hearth shifted his weight. Sylvanas ignored him.",
+          "issue": "Generic beat. 'Shifted his weight' is a kill-list verb on an unnamed body that could belong to anyone in the room, and the follow-up only cancels it. Neither sentence does physical work.",
+          "severity": "MILD",
+          "suggestedFix": "\"And since?\"",
+          "fixTarget": "One of the rangers by the hearth shifted his weight. Sylvanas ignored him. \"And since?\"",
+          "fixAction": "delete-beat",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "f5SceneVerdicts": "No F5 kill. Scene 1: Lor'themar letting the pretext stand is plan-mandated (Beat 2), and his needling keeps the friction alive. Scene 2: the split has friction ('I don't recall volunteering') and costs her the shoulder companion. Scene 3: no warmth and ends on a cold demand. Kept under the intentional-structure defense (see scratchpad).",
+      "f1Note": "No sustained F1 stretch. The closest candidate is the paragraph-closer run at lines 317-325 (three or more aphoristic closers in a row); the kills at 317 and 323 (narrator-seep B3) break the run."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 31,
+      "kills": 2,
+      "keeps": 29,
+      "severity": { "mild": 1, "moderate": 1, "severe": 0 },
+      "dominantPattern": "A8 / B3 (one each)",
+      "tierCounts": { "tierA": 1, "tierB": 1 },
+      "severePages": [],
+      "severeScenes": [],
+      "structuralHabit": "No. Child-pattern overlaps already recorded under gpt-5 F4/F7 (lines 291, 313, 317) are not re-killed here.",
+      "findings": [
+        {
+          "id": "B-NS-01",
+          "pattern": "A8",
+          "tier": "A",
+          "line": 59,
+          "text": "Under all of it, if she let herself listen, was the hum.",
+          "whoIsSayingThis": "Narrator. The inversion stages the hum as an ambient reveal, but Sylvanas has known its source, the ward-stones, since childhood.",
+          "issue": "Atmospheric inversion. A front-loaded prepositional frame ('Under all of it ... was') holds back a source the POV could name outright. The delay does no work.",
+          "severity": "MILD",
+          "confidence": "HIGH",
+          "suggestedFix": "If she let herself listen, the ward-stones hummed under all of it.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-NS-02",
+          "pattern": "B3",
+          "tier": "B",
+          "line": 323,
+          "text": "It had always been going to, from the moment Theris came up out of the south with his horse dying under him. She had only been taking the long way round.",
+          "whoIsSayingThis": "Narrator. Retrospective inevitability commentary on the shape of the decision.",
+          "povMismatch": "Sylvanas mid-decision eliminates options in tactical terms (as in line 321); stepping outside the timeline to note that the outcome was always fixed and her deliberation was 'the long way round' is narrative-awareness commentary, not an operational thought.",
+          "issue": "Thematic awareness. The character comments on the narrative arc of her own choice.",
+          "severity": "MODERATE",
+          "confidence": "MODERATE",
+          "suggestedFix": "Which left going in herself.",
+          "fixTarget": "Which left going in herself. It had always been going to, from the moment Theris came up out of the south with his horse dying under him. She had only been taking the long way round.",
+          "fixAction": "delete-sentences",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 22,
+      "kills": 1,
+      "keeps": 21,
+      "severity": { "mild": 1, "moderate": 0, "severe": 0 },
+      "dominantPattern": "P3",
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": [],
+      "keepRateNote": "The keep rate (95%) is above the guide's 25% leniency alarm. Each keep was re-run through Step 4 anti-rationalization. Almost every candidate cashes out from evidence already on the page: the troll count, the runner's ring geography, Feren's knee-marks, Liron's palm readings, the ink and the frost-burn. Two more placeholder closers (lines 291 and 317) were caught as P3 overlaps and recorded under gpt-5 F7 to avoid double entries.",
+      "findings": [
+        {
+          "id": "B-PC-01",
+          "pattern": "P3",
+          "line": 335,
+          "text": "and let the silence run until it belonged to her.",
+          "failedQuestion": "What does this cash out to? / By what sign?",
+          "missingPayload": "Nothing visible marks the silence becoming hers. The concrete version (the chain stopping, the mage not speaking first) is already on the page at line 329, and this clause re-labels it as abstract possession.",
+          "issue": "Placeholder stand-in. 'It belonged to her' gives the line the feel of a power shift without any observable sign.",
+          "severity": "MILD",
+          "textureZone": "texture_desert sentences 582-591",
+          "suggestedFix": "and let the silence run.",
+          "fixTarget": "Sylvanas stood over her—the raw knuckles, the ink, the chapped mouth that had been arguing all day and was shut now—and let the silence run until it belonged to her.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": "none",
+      "brokenExchanges": [],
+      "cleanReason": "There are six translation or report setups: 'Report.' (113), 'Wrong how?' (129), 'And the leylines?' (163), 'Give me yours. Start before dawn.' (229), 'Theris says she claims the leylines are wrong.' (245), and Cyndia's 'I'll tell you straight' (297). Every reply that claims to simplify delivers payload a listener could use: the rocks east of the road, the first and second ring, an hour past sunup, between the sixth and seventh stone, six stones west, knee-marks with a flat place beside them, palms reading 'like a cracked stone', and 'Tell them she said it. Not that it's true.' The 'Wrong how?' reply admits it has no payload ('none of us could follow it') rather than faking one, and the plan requires the leyline claim to stay bare and unverified.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 15,
+    "totalKeeps": 95,
+    "mildKills": 13,
+    "moderateOrSevereKills": 2,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md"],
+    "killsWithFix": 15,
+    "killsUnfixable": 0,
+    "fixStrategy": "default (no iterationKillsB history in manifest; iteration 0)",
+    "verdict": "fail",
+    "verdictReason": "2 MODERATE kills (B-GPT-10 F7 false-ambiguity closer at line 313; B-NS-02 B3 inevitability commentary at line 323) plus 13 MILD kills, which is more than the 3-MILD threshold. All 15 have low-difficulty drop-in fixes, and most are deletions. Structural rhythm concerns: long_sentence_pct 17.5 is outside range [7, 14], and opener_entropy 6.3 is outside range [7.2, 8.2]. Structural texture deficit: texture verdict below_target (participial 5.8% vs target 12%).",
+    "rhythmMetrics": {
+      "source": "tools/rhythm_scorer/score.py vs .afternoon/style-guide.json rhythmMetrics.global",
+      "comma_period_ratio": { "actual": 0.605, "target": 0.72, "delta": -0.115, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.2, "target": 11.0, "delta": 0.2, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.783, "target": 0.7, "delta": 0.083, "range": [0.6, 0.8], "inRange": true },
+      "short_sentence_pct": { "actual": 38.7, "target": 35.0, "delta": 3.7, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 17.5, "target": 10.0, "delta": 7.5, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.3, "target": 7.7, "delta": -1.4, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 23.8, "target": 19.0, "delta": 4.8, "range": [15.0, 24.0], "inRange": true },
+      "mattr": { "actual": 0.81, "target": 0.83, "delta": -0.02, "range": [0.8, 0.87], "inRange": true },
+      "structuralRhythmConcerns": ["long_sentence_pct above range", "opener_entropy below range (top openers: the 61, she 60, he 34, a 24, sylvanas 20)"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 82.1,
+      "verdict_reasons": [
+        "participial: 5.8% below target 12.0% (score 54/100)",
+        "compound: 11.9% above target 10.0% (score 84/100)",
+        "emdash: 2.5% below target 4.0% (score 90/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.8% → target 12.0% (score 54/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 11.9% → target 10.0% (score 84/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.5% → target 4.0% (score 90/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": { "telegram_run": 10, "texture_desert": 9 },
+      "note": "Structural texture deficit. Kills inside flagged zones: B-GPT-01 (desert 15-34), B-GPT-05 (telegram 198-206 / desert 190-214), B-GPT-08 (desert 504-516), B-PC-01 (desert 582-591). Revisions there should also add participial joins."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 49,
+        "total_violations": 1,
+        "overCap": ["punct_colon_narration (7 vs cap 6) - pass A recurring-tics domain"],
+        "passBMappedSignals": [
+          { "pattern": "hedge_simply", "line": 257, "text": "simply", "verdict": "KEEP", "reason": "'Simply' works as 'merely', setting the third woman apart from the arrogant and frightened ones. The payload (right about the stones, trespassing in Quel'Thalas) is anchored by Liron's report immediately above." },
+          { "pattern": "something_vague", "line": 259, "text": "Something in her things.", "verdict": "KEEP", "reason": "Deliberate, stated withholding ('I'd rather you looked at her first'). It is anchored by the oilcloth bundle on the table (231) and 'The book I kept.' (255), and paid off at 297-299." }
+        ],
+        "crossPassSignalCited": [ { "pattern": "filter_watched", "line": 287, "finding": "B-GPT-07" } ],
+        "noHits": ["ai_vocabulary", "slopsquid", "narrator_verdict", "ambient_inversion", "verbose_phrases", "academic_register", "dialogue_register", "expression_decomposition", "clinical_anatomy"]
+      }
+    }
+  }
+}

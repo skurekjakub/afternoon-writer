@@ -1,0 +1,28 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 2,
+  "targetFile": "v2g-r2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "scene-grounding",
+      "sceneId": 3,
+      "sceneTitle": "The Prisoner",
+      "findingId": "G4-001",
+      "category": "G4",
+      "severity": "MILD",
+      "lines": "291-297",
+      "excerpt": "Cyndia stepped past her to the edge of the light and peeled the oilcloth back with her fingertips. [...] \"Not where she can hear it, General.\" Sylvanas stepped back over the threshold, and the ranger at the door eased it to until only a hand's width of blue light was left. Cyndia turned the book. \"Here.\"",
+      "reason": "This blocking gap is in the same doorway beat as the r1 door fix. Sylvanas is standing in the doorway (269, 273), so when Cyndia 'stepped past her to the edge of the light', she goes into the storeroom with the prisoner. Then only Sylvanas steps back over the threshold before the door is eased to a hand's width. Nothing on the page brings Cyndia out with her. Yet in the next sentence Cyndia is turning the book toward Sylvanas and reading the inscription low. At 323 she is at Sylvanas's side to take the bow. So for one beat the reader has Cyndia shut in with the prisoner, which is exactly the 'where she can hear it' position the line was meant to avoid. The plan makes the door a motif, so who is on which side of it matters. One clause fixes it, without bloat and without breaking the clipped cadence.",
+      "suggestedFix": "Sylvanas stepped back over the threshold, Cyndia after her, and the ranger at the door eased it to until only a hand's width of blue light was left.",
+      "fixMode": "light-insert"
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "mildKills": 1,
+    "moderateKills": 0,
+    "severeKills": 0,
+    "dominantFailures": ["G4"]
+  }
+}

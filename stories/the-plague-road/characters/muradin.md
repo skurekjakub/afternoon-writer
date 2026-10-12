@@ -20,11 +20,11 @@
 ## Arthas line
 - Trainer: saw the speed problem early.
 - Ally: watches the prince grow narrower and more dangerous in Northrend.
-- Victim: warns him off the blade, gets struck down anyway, and is left behind without a backward glance.
+- Victim: warns him off the blade when the prince passes his camp, is struck down by the ice-shard blowback in the cave, and is left behind without a backward glance. Arthas walks on. Sylvanas and Jaina carry Muradin out.
 
 ## Chapter use
-- Ch 21: local intel, Frostmourne warning, first outside voice naming how tight S&J are as a team.
-- Ch 22: wounded and left with Baelgun while the real chase runs on.
+- Ch 20: local intel, Frostmourne warning, first outside voice naming how tight S&J are as a team. Struck down in the cave and carried out by the pair.
+- Ch 21: wounded and left with Baelgun while the real chase runs on.
 
 ## Writer rule
 - Keep him plainspoken. His usefulness comes from clarity, not from speeches.

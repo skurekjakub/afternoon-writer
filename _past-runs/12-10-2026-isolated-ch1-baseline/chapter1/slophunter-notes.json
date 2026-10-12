@@ -1,0 +1,85 @@
+{
+  "chapterId": "chapter1",
+  "mode": "revision",
+  "iteration": 3,
+  "changes": [
+    {
+      "feedbackRef": "A -> intent-smear-agency-laundering-guide.md -> A-IS-2",
+      "line": 17,
+      "before": "The sign at the creek had said eight.",
+      "after": "She had read eight sets of tracks at the creek.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-GPT5-1",
+      "line": 91,
+      "before": "He knew she would make him ride rather than make herself talk, so he rode, sitting deep in the saddle as if this were what he'd intended all along.",
+      "after": "He rode it out at her side, sitting deep in the saddle, the reins still slack in one hand.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-GPT5-2",
+      "line": 95,
+      "before": "A day, she thought. Two if she was careful.",
+      "after": "A day. Two if she was careful.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A -> negation-addiction-hunting-guide.md -> A-NEG-1",
+      "line": 167,
+      "before": "He said nothing. He only tilted his head, the way he had over the dead troll when she named the southern stones.",
+      "after": "He tilted his head, the way he had over the dead troll when she named the southern stones.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A -> negation-addiction-hunting-guide.md -> A-NEG-2",
+      "line": 201,
+      "before": "She had told him nothing about where to ride; he had dropped into place a length off the mare's left hip, as a junior ranger would.",
+      "after": "He had taken the junior's place a length off the mare's left hip.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> narrator-seep-guide.md -> B-NS-1",
+      "line": 251,
+      "before": "Cyndia said it straight out, which was the thing Sylvanas had always valued in her.",
+      "after": "Cyndia said it straight out.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-GPT5-3",
+      "line": 281,
+      "before": "In the cold ward-light Sylvanas could see every hard line of her face.",
+      "after": "The cold ward-light showed every hard line of her face.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A -> intent-smear-agency-laundering-guide.md -> A-IS-1",
+      "line": 281,
+      "before": "Her hands were clasped in her lap, gripping her own fingers hard enough to whiten them.",
+      "after": "She sat with her hands clasped in her lap, gripping her own fingers hard enough to whiten them.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A -> recurring-prose-tics.md -> A-TIC-1",
+      "line": 327,
+      "before": "The mage had to tip her head back to meet her, and she did.",
+      "after": "The mage had to tip her head back, and she did, chin up.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-GPT5-4",
+      "line": 329,
+      "before": "From here Sylvanas could see what she had missed from the doorway. The eyes were blue,",
+      "after": "At this range, the eyes were blue,",
+      "source": "gate-suggestion-adjusted",
+      "note": "Gate suggested 'Up close,'; adjusted to 'At this range,' because 'Up close' already opens line 23 ('Up close the troll smelled worse')."
+    }
+  ],
+  "unfixable": [],
+  "selfAudit": [
+    "Changed passages re-checked against hitlist, intent-smear, narrator-seep, negation. No new violations introduced.",
+    "Eye/gaze beats: line 327 'to meet her' removed, bringing Tic 5 count from 5 to 4 (cap 4). No new eye/gaze beats added; fixes use posture, tracks, and light.",
+    "Line 201 now leaves 'Which left the space beside her stirrup empty.' attached to a single preceding sentence; reads as a deliberate fragment."
+  ],
+  "wordCount": { "before": 6424, "after": 6376 }
+}

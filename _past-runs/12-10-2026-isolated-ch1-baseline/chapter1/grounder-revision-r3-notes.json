@@ -1,0 +1,32 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 3,
+  "feedbackPath": ".afternoon/chapters/chapter1/grounding-gate-notes-r2.json",
+  "targetFile": "v2g-r2.md",
+  "touchedScenes": [3],
+  "globalRisks": ["door-blocking-continuity"],
+  "sceneAudits": [
+    {
+      "scene": "Scene 3 - The Prisoner (book reveal at the storeroom door)",
+      "biggestGap": "G4-001: Cyndia left shut in the storeroom while Sylvanas stepped back over the threshold.",
+      "anchorsAdded": {
+        "place": [],
+        "material": [],
+        "dialogue": ["Cyndia follows Sylvanas back over the threshold before the door is eased to"],
+        "exit": []
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": ["door blocking in the book-reveal beat"],
+    "fixesApplied": ["added 'Cyndia after her' so both women are on the same side of the door when it is eased to; applied the gate's suggested fix verbatim"],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [],
+    "materials": [],
+    "unsourcedAdditions": []
+  }
+}

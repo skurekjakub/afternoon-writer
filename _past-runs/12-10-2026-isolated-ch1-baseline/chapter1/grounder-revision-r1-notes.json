@@ -1,0 +1,54 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 1,
+  "feedbackPath": ".afternoon/chapters/chapter1/grounding-gate-notes.json",
+  "targetFile": "v2g.md",
+  "touchedScenes": [2, 3],
+  "globalRisks": ["source-fidelity", "staging-consistency"],
+  "sceneAudits": [
+    {
+      "scene": "Scene 2 - The Messenger (climb to the post)",
+      "biggestGap": "G4-003: mare 'did not break stride' contradicted by Sylvanas lingering at each stone.",
+      "anchorsAdded": {
+        "place": [],
+        "material": [],
+        "dialogue": [],
+        "exit": ["stones still checked, now by eyes only, ending on the stranger's 'wrong' claim"]
+      },
+      "dialogueGroundingApplied": false,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 3 - The Prisoner",
+      "biggestGap": "G12-001/002: coat vs plan's practical traveling robes; G2-004: 'the Spire' ambiguous.",
+      "anchorsAdded": {
+        "place": ["Windrunner Spire (replaces bare 'the Spire' in watch-file memory)"],
+        "material": ["travel robe in place of travel coat; cut and horn buttons retained"],
+        "dialogue": [],
+        "exit": []
+      },
+      "dialogueGroundingApplied": false,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": ["costume contradiction with jaina.md", "ambiguous Spire reference", "stride/linger staging contradiction"],
+    "fixesApplied": [
+      "line 277: coat -> robe",
+      "line 277: 'coat cuffs' -> 'robe cuffs' (consequential, same garment)",
+      "line 301: The coat's -> The robe's",
+      "line 205: 'She lingered' -> 'Her eyes held ... than they had'",
+      "line 299: the Spire -> Windrunner Spire"
+    ],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [],
+    "materials": [
+      "stories/the-plague-road/characters/jaina.md (practical traveling robes)",
+      "plan scene3 enrichment",
+      "Windrunner Spire already on page at line 123"
+    ],
+    "unsourcedAdditions": []
+  }
+}

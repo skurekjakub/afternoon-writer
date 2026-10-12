@@ -282,7 +282,7 @@ By the time they finished, the rectangles were gone. The room had gone grey. Mar
 
 ### 13.
 **Good (physical contact with environment):**
-She leaned against the wall. Stone, cool through her shirt, the mortar rough against her shoulder blades. She let it take her weight. The wall didn't mind. Walls never did.
+She leaned against the wall. Stone, cool through her shirt, the mortar rough against her shoulder blades. She put her weight on it. The wall didn't mind. Walls never did.
 
 Maren was talking. Something about the border, the shipment, the timeline. She heard the words but couldn't make them stick — they slid off her like water. She pressed harder against the wall. Solid. Real. The one thing in this room that wasn't trying to convince her of something.
 

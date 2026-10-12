@@ -217,6 +217,27 @@ This is the document-voice sibling of intent smear: the prose wants compression,
 
 ---
 
+### Pattern 11 — Permission tags (`she let it`)
+
+A feeling, sensation, silence or object is given the verb, and the character is reduced to granting permission. The tag narrates willpower and stops the sentence from stating what she did.
+
+- `A bead of sweat crept from her hairline toward her left eye, and she let it.`
+- `The thought arrived with a pang, and she let it come and go.`
+- `She let it take her weight.`
+- `She let the fear do its work.`
+- `She held still and let the thank-you settle.`
+- `Let it settle.`
+
+**Who is actually doing the work?** The character does one thing: she stays put, keeps quiet, does not wipe, does not move. The sweat, fear, silence or wall does its own physical thing. Write the two plainly.
+
+**The test:** Delete `and she let it` or `she let X [verb]`. If the sentence still carries every fact, the tag was padding. **KILL.** If the tag was the only record of what she did, replace it with the action: `She did not wipe it away.` `She stayed where she was.` `She put her weight on the wall.`
+
+**Not this pattern:** physical allowing with an object and a result. `She let the dog out.` `She let him in and shut the door.` `She let the rope run through her hands.`
+
+**Closed set of tags to hunt:** `and she let it`, `she let it [verb]`, `let it settle`, `let it pass`, `let it go` (as emotion), `let the [feeling] do its work`, `let [it/them] stay`, `let the [noun] be a [noun]`, `the trick was to let them`.
+
+---
+
 ## Cluster rules
 
 Clusters escalate severity. Apply after individual classification:
@@ -321,10 +342,14 @@ Study these before you begin. These are ground truth.
 | `The realization hit her.` | KILL | Pattern 9. Nominalized verb as agent. She realized. |
 | `A decision formed between them.` | KILL | Pattern 9. They decided. The decision didn't form itself. |
 | `The plan sharpened under the quill with every line.` | KILL | Pattern 10. Receiver noun doing the human work. She sharpened the plan. |
+| `Her fingers found the bowstring before she had decided to reach for it.` | KILL | Pattern 8. Body part is the agent. Her hand was on the bowstring. |
+| `He tried to salute and found his hand still wrapped in the reins.` | KILL | Discovery wrapper. His hand was still wrapped in the reins. |
+| `The old ache settled back into the joint.` | KILL | Sensation given a landing verb. The ache was back in the joint. |
 | `The camp moved on without her.` | KEEP | Collective actor. The camp is people. They are established in scene. They physically moved. |
 | `Hope carried a bruise under it.` | KEEP | POV emotional metaphor. No agency transfer. Describes how hope feels to the character. |
 | `The river carried the debris south.` | KEEP | Literal. The river actually does this. Physics, not metaphor. |
-| `The silence held because she let it.` | KEEP | Real agent is explicit ("she let it"). The silence is not given independent agency. |
+| `The silence held because she let it.` | KILL | Pattern 11. Permission tag. "She let it" narrates willpower and hands the verb to the silence. Say what she did: she stayed quiet. |
+| `The cold crept in, and she let it.` | KILL | Pattern 11. Permission tag. State what she did: she stayed where she was. |
 
 If your verdicts on these do not match, recalibrate before proceeding.
 
