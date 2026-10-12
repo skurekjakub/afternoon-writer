@@ -11,22 +11,22 @@
 - Ch 8: full expedition vote fails. Recall threat begins.
 
 ## Arc II — Scholomance
-- Ch 9: Lor'themar appears in person looking worn down. He takes the Scholomance proof because it might finally move votes.
+- Ch 9: Lor'themar reaches Sylvanas only by runner: cleaned sites, failing Farstrider patience. Millhaven's dead burned on the border runestones, and Silvermoon reads that as proof the wards hold.
 - Ch 10: Jaina becomes the new political weapon. The partnership with a human mage is easier to attack than the plague facts.
+- Ch 11: Lor'themar's dispatch says sites are being scrubbed and recall pressure is turning into command.
 - Ch 12: Lor'themar spends a major favor to delay the recall three weeks. He starts counting ammunition instead of making jokes.
 - Ch 13: Scholomance evidence cracks the certainty faction but does not beat it yet.
 
 ## Arc III — Arthas
+- Ch 14-17: no runner reaches the road. Silvermoon's pressure waits for Ch 18.
 - Ch 15: Arthas's mobilization becomes Lor'themar's new argument and Vandellor's new counterargument.
-- Ch 16: Stratholme finally shakes even Sunsorrow. The buffer-state logic starts breaking.
-- Ch 17: Lor'themar wins the scout company, 4-3, by spending his last real leverage. Small military effect, huge political precedent.
-- Ch 18: the wedge holds. The question becomes "send more?" instead of "send anyone?"
+- Ch 17: Stratholme finally shakes even Sunsorrow. The buffer-state logic starts breaking.
+- Before Ch 18 (exact chapter open): Lor'themar wins the scout company, a small forward mobilization, 4-3, by spending his last real leverage. Small military effect, huge political precedent.
 
 ## Arc IV — Endgame
-- Ch 18: Vereesa reports Lor'themar gutted by the effort. The Convocation recalls Sylvanas anyway by shifting from threat assessment to mandate.
-- Ch 19-22: scout reports do the slow work politics would not do on their own. The room grinds toward mobilization.
-- Ch 22: full expedition finally passes. Too late to matter for the throne room, right on time to matter for aftermath.
-- Ch 23: Lor'themar reaches Capital City with the force one beat late. Same wall as Antonidas, different path.
+- Ch 18: the forward mobilization is the field camp where Vereesa finds Sylvanas. She reports Lor'themar gutted by the effort; even this camp may not survive the next session. The Convocation recalls Sylvanas anyway by shifting from threat assessment to mandate. Three of the escort ride north.
+- Ch 19-22: scout reports do the slow work politics would not do on their own. The ranger who slips away from the throne-room arrest carries word to Lor'themar.
+- Ch 23: Vereesa delivers the disavowal in person and stays. Lor'themar wins just enough to move three hundred Farstriders and mages; they ride into Capital City during the trial, and their presence buys commutation. After the verdict he can open one door, Sylvanas's, and she refuses it.
 - Ch 24: the force becomes leverage for Book 2: custody pressure, vault scrutiny, and proof that Lordaeron is not handling its own disaster.
 
 ## Tone line

@@ -8,17 +8,19 @@
 1. Frost: sync her casting to the blade's rhythm.
 2. Arcane: punch through the seam at exactly the right instant.
 3. Fire: burn out Arthas's local channel from inside.
-- Result: Arthas loses the stable bearer link. The deep tether north remains. Frostmourne survives.
+- In the room Jaina gets frost and arcane through and has nothing left for the fire. Unplanned, she puts the last of it into Sylvanas's arrowhead. The arrow carries the fire through the seam. The kill is the spell.
+- Result: Arthas loses the stable bearer link. The seam becomes a permanent flaw. The deep tether north remains. Frostmourne survives.
 
 ## Why Sylvanas is required
 - Jaina needs three to five seconds at sword range.
 - Sylvanas buys them by keeping Arthas busy and turned away, first at range, then close.
 - This only works because they already read each other's movement without speaking.
+- The plan names frost, arcane, fire, and Sylvanas buying the seconds. Nobody plans the arrow.
 
 ## Cost
-- Jaina: emptied out, nosebleeds, raw hands, lasting resonance sensitivity.
+- Jaina: emptied out, nosebleeds, a palm burned on the arrowhead, lasting resonance sensitivity.
 - Sylvanas: drained by proximity to the blade, wounded, exhausted beyond normal combat.
-- Arthas: no redemption, just consequence. The power riding him stutters long enough for him to die.
+- Arthas: no redemption, just consequence. He says "Jaina" once, and the arrow kills him where the first shot failed.
 
 ## Meaning
 - Scholomance pays off here: Kel'Thuzad's cross-school logic becomes the weapon used against Frostmourne.

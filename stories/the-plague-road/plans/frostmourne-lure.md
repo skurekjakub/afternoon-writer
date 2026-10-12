@@ -12,7 +12,7 @@
 
 ## Important constraints
 - Arthas is destroyed by true facts with missing meanings, not by fake facts.
-- S&J do not know about Frostmourne before the cave.
+- S&J do not know about Frostmourne until Muradin names it in Ch 20, too late to beat Arthas to the cave.
 - Mal'Ganis makes sure Arthas gets the trail before they do.
 - Ship-burning is the final expression of a pattern already visible at Stratholme.
 

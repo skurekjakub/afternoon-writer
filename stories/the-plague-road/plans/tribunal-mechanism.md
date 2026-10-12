@@ -13,17 +13,18 @@
 - Necromantic practice by association with Scholomance.
 
 ## Prosecution story
-- Every true fact gets turned the wrong way.
+- Ashcombe does not lie. Every fact he uses is true; he reverses only the direction of cause.
 - Warnings become alibis.
-- Investigation becomes premeditation.
+- Investigation becomes premeditation: Sylvanas aimed Arthas at Hearthglen, Jaina's "Not cleanly. Not now." came before the Culling, Jaina was Kel'Thuzad's guest and carried out his books.
 - Defiance becomes proof of outside masters.
 - Their partnership becomes a designed covert team instead of a field alliance.
-- The lie works because it sounds more believable than "the prince was carrying a soul-drinking sword from a frozen god."
+- Captain Gavren Marsh testifies to the room exactly as he found it.
+- The story works because it sounds more believable than "the prince was carrying a soul-drinking sword from a frozen god."
 
 ## Why the defense fails
-- Antonidas cannot fully defend Jaina without publicly exposing Kirin Tor failure.
-- Uther is treated as a bitter officer broken at Stratholme.
-- Lor'themar arrives too late.
+- Antonidas is refused the stand.
+- Captain Willem Brask's sworn letter is true and ruled irrelevant.
+- Uther's testimony lands and the court wavers. Ashcombe answers with Kel'Thuzad's journal and reads Jaina's three admissions aloud. The room turns.
 - Vereesa is politically trapped by the very disavowal she carried.
 
 ## Frostmourne problem
@@ -33,5 +34,6 @@
 
 ## Outcome
 - Guilty.
-- Death sentence on paper, commuted to indefinite imprisonment for political convenience.
+- Death commuted to indefinite imprisonment, bought by Lor'themar's three hundred in the square.
+- After the verdict Lor'themar can open Sylvanas's door only. She refuses.
 - The cruel point: competence and conspiracy look identical from the outside if the court refuses the larger truth.

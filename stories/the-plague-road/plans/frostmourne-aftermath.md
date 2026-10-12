@@ -1,24 +1,25 @@
 # Frostmourne — After the Throne Room
 
 - Arthas dies. The blade does not shut down.
-- Jaina breaks the local bearer bond, not the deeper tie north.
+- Jaina's spell, finished by the fire on Sylvanas's arrow, breaks the local bearer bond, not the deeper tie north.
 
 ## Ch 22
 - The sword screams when it hits the floor.
 - The chamber flash-freezes in geometric patterns.
 - Terenas's soul flashes once to Jaina and is pulled back under.
-- Guards find a dead king, a dead prince, two foreign women, and a blade nobody wants to touch.
+- Guards find a dead king, a dead prince, dead guardsmen, two foreign women, and a blade nobody wants to touch.
 
 ## Ch 23
 - The vault starts freezing almost immediately.
 - Show whispers, dreams, ward strain, and frightened guards.
 - Palace mages cannot truly contain or explain it.
 - The prosecution uses the sword as conspiracy proof.
-- Jaina hears the blade from her cell and knows it is baiting the next crack in the room.
+- Jaina hears the blade from her cell and clocks its acceleration in days, not weeks.
 
 ## Ch 24
-- Mal'Ganis gets one sword line only: it will find another hand.
+- Mal'Ganis gets one sword line only: "It will want another hand."
 - That confirms the blade is still active and Arthas was never the end of it.
+- Before dawn the blade leaves the vault. Jaina feels it go. No wielder is shown.
 
 ## Carry-forward
 - Frostmourne is a character-level threat, not scenery.

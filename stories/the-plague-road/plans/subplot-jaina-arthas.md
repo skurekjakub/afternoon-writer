@@ -11,16 +11,16 @@
 - Arthas ends it, for her studies and his duties. Jaina lets him, partly because she wants to get back to her books. Her guilt grows from that.
 
 ## What Arthas carries
-- Courtesy gone rigid. He uses formality where warmth used to be.
+- Courtesy gone rigid. He uses formality where warmth used to be: "Lady Proudmoore" in Ch 15, one look in the Ch 20 cave, "Jaina" once in the Ch 22 throne room.
 - He distrusts analysis because analysis is what, in his mind, Jaina chose over him.
 - By Stratholme he treats hesitation as betrayal, not caution.
 
 ## What Jaina carries
 - She was right about the shape of him and still could not change the outcome.
 - Every later scene with Arthas feels like the old diagnostic incident at larger scale.
-- The guilt is not leaving. It is failing to make him hear what she saw.
+- The guilt is that she did not fight him on it because part of her wanted her books, and that she still thinks he would have listened if she had stayed. She tells Kel'Thuzad so in Ch 12. At Stratholme she is at his side, she answers him alone, and he listens.
 
 ## What Sylvanas reads
 - She knows there is history.
 - After the Scholomance crack, that history becomes another reason to watch Jaina carefully around dangerous men.
-- Sylvanas reads the surface accurately and the interior badly.
+- Sylvanas reads the surface accurately and the interior badly, until Jaina tells her the Arthas price herself at sea in Ch 19.
