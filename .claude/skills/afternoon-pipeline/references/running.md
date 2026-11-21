@@ -34,10 +34,11 @@ Prerequisite: install `agy` and authenticate interactively once by running `agy`
 Optional environment variables:
 
 - `AFTERNOON_EFFORT`: reasoning effort (`low`, `medium`, `high`, `xhigh`, `max`; default `high`)
-- `AFTERNOON_MODE`: execution mode (`auto`, `accept-edits`, `plan`; default `auto`)
+- `AFTERNOON_SKIP_PERMISSIONS`: passes `--dangerously-skip-permissions` for headless autonomous runs (default `true`; avoids `--mode auto` account-tier blocks)
+- `AFTERNOON_MODE`: optional `--mode` override (unset by default; e.g., `accept-edits`)
 - `AFTERNOON_MODEL`: optional model slug override (run `agy models` to list available Gemini slugs; leave unset to use `agy` defaults and per-agent tiers)
 
-Run logs are written to `logs/afternoon/agy_gemini_<timestamp>.log`.
+Output is enforced and validated against `.agents/schemas/orchestrator-result.schema.json` using `--output-format json --json-schema`. Structured stdout and stderr logs are written to `logs/afternoon/agy_gemini_<timestamp>.json` and `.stderr.log`. A fatal `"status": "error"` exits non-zero cleanly instead of reporting false completion.
 
 ### Interactive Usage
 

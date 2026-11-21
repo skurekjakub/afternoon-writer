@@ -5,6 +5,17 @@ mainAgent: false
 subagent: true
 model: flash
 inheritCustomizations: true
+enableWriteTools: true
+enableSubagentTools: true
+tools:
+  - read_file
+  - write_file
+  - edit_file
+  - run_command
+  - invoke_subagent
+  - manage_subagents
+  - send_message
+  - manage_task
 ---
 
 # Writer Coordinator

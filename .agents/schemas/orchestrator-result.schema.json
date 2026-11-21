@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AfternoonOrchestratorResult",
+  "type": "object",
+  "required": [
+    "status",
+    "completionMarker",
+    "chaptersCompleted",
+    "chaptersTotal",
+    "blockedChapters",
+    "finalArtifacts",
+    "summary"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "completed",
+        "completed-with-blocks",
+        "flagged",
+        "error",
+        "in-progress"
+      ],
+      "description": "Terminal pipeline status. Use 'error' if required tools or config are missing; never mark an error as 'completed'."
+    },
+    "completionMarker": {
+      "type": "string",
+      "enum": [
+        "===AFTERNOON DONE===",
+        ""
+      ],
+      "description": "Set to '===AFTERNOON DONE===' only when status is completed, completed-with-blocks, or flagged. Leave empty string on error or in-progress."
+    },
+    "chaptersCompleted": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "chaptersTotal": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "blockedChapters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "finalArtifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "string"
+    }
+  }
+}

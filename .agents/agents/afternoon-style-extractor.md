@@ -5,6 +5,16 @@ mainAgent: true
 subagent: true
 model: pro
 inheritCustomizations: true
+enableWriteTools: true
+enableSubagentTools: false
+tools:
+  - read_file
+  - write_file
+  - edit_file
+  - run_command
+  - search_web
+  - manage_task
+  - send_message
 ---
 
 # Afternoon Style Extractor

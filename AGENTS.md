@@ -24,11 +24,11 @@ Do not duplicate skills into `.agents/skills/`; edit skills in `.claude/skills/`
 
 ## Running on Gemini (Antigravity CLI)
 
-- **Autonomous full run** (with crash-recovery restart loop):
+- **Autonomous full run** (with `--dangerously-skip-permissions`, JSON schema enforcement/validation via `.agents/schemas/orchestrator-result.schema.json`, and crash-recovery restart loop):
   ```bash
   ./afternoon-start-gemini.sh
   ```
-  Optional env vars: `AFTERNOON_EFFORT` (default `high`), `AFTERNOON_MODE` (default `auto`), `AFTERNOON_MODEL` (optional slug from `agy models`).
+  Optional env vars: `AFTERNOON_EFFORT` (default `high`), `AFTERNOON_SKIP_PERMISSIONS` (default `true`), `AFTERNOON_MODE` (optional `--mode` override), `AFTERNOON_MODEL` (optional slug from `agy models`).
 - **Interactive orchestrator**:
   ```bash
   agy --agent afternoon-orchestrator

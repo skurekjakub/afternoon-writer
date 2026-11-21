@@ -5,6 +5,17 @@ mainAgent: true
 subagent: false
 model: flash
 inheritCustomizations: true
+enableWriteTools: true
+enableSubagentTools: true
+tools:
+  - read_file
+  - write_file
+  - edit_file
+  - run_command
+  - invoke_subagent
+  - manage_subagents
+  - send_message
+  - manage_task
 ---
 
 # Afternoon Orchestrator
@@ -394,13 +405,29 @@ Continue from that point through the rest of the sequence.
 
 Do NOT check for the existence of output files (`v0.md`, `v0c.md`, `v1.md`, `v2.md`, `v2g.md`, etc.) — use only `status.json` as your signal.
 
-## Completion
+## Completion & Structured Output
 
-When all chapters are assembled:
-1. Set manifest status to `"completed"`.
-2. Log a final summary: total chapters, any blocked chapters.
-3. List all `final.md` paths for the user.
-4. Print the exact string: `===AFTERNOON DONE===`
+When the pipeline reaches a terminal state (all chapters assembled, all remaining chapters blocked, a flagged plan, or a fatal startup/tool error), your final response must conform to `.agents/schemas/orchestrator-result.schema.json`:
+
+```json
+{
+  "status": "completed | completed-with-blocks | flagged | error | in-progress",
+  "completionMarker": "===AFTERNOON DONE=== (only for completed, completed-with-blocks, or flagged; empty string \"\" for error or in-progress)",
+  "chaptersCompleted": 24,
+  "chaptersTotal": 24,
+  "blockedChapters": [],
+  "finalArtifacts": [".afternoon/chapters/chapter1/final.md"],
+  "summary": "Plain summary of the run or error."
+}
+```
+
+Rules for terminal status:
+1. **All chapters assembled:** Set manifest status to `"completed"`, set JSON `status` to `"completed"`, set `completionMarker` to `"===AFTERNOON DONE==="`, and list all `final.md` paths in `finalArtifacts`.
+2. **All remaining chapters blocked:** Set manifest status to `"completed-with-blocks"`, set JSON `status` to `"completed-with-blocks"`, set `completionMarker` to `"===AFTERNOON DONE==="`, and list blocked chapters in `blockedChapters`.
+3. **Flagged by an agent:** Set JSON `status` to `"flagged"`, set `completionMarker` to `"===AFTERNOON DONE==="`, and include the flag reason in `summary`.
+4. **Fatal error (missing `storyOverview`, missing required tools like `run_command`/`write_file`/`invoke_subagent`, or unrecoverable startup error):** Set JSON `status` to `"error"`, set `completionMarker` to `""` (empty string — NEVER emit `===AFTERNOON DONE===` on a fatal error!), and describe the exact error in `summary`.
+
+When running interactively (without `--json-schema`), print the summary and `===AFTERNOON DONE===` on completion/block/flag.
 
 ## Rules
 

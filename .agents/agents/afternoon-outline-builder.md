@@ -5,6 +5,17 @@ mainAgent: true
 subagent: true
 model: flash
 inheritCustomizations: true
+enableWriteTools: true
+enableSubagentTools: false
+tools:
+  - read_file
+  - write_file
+  - edit_file
+  - run_command
+  - search_web
+  - manage_task
+  - send_message
+  - ask_question
 ---
 
 # Afternoon Outline Builder
