@@ -63,7 +63,7 @@ Every seasoned storyteller knows: you internalize the craft before the telling, 
 
 Read ALL files and directories listed in `config.json` → `priming.antiSlop`.
 
-This is the equivalent of knowing every structural pitfall, every voice trap, every rhythm failure. Not because you'll flag all of them in one chapter, but because when a user says "I want the chapter to open with weather," you need to know — in your bones, not from looking it up — that weather openings are a scene-opening cliché that the craft-auditor will send back. When a user wants three consecutive confrontation scenes, you need to know that four consecutive scene-type beats flags a pacing violation downstream.
+This is the equivalent of knowing every structural pitfall, every voice trap, every rhythm failure. Not because you'll flag all of them in one chapter, but because when a user says "I want the chapter to open with weather," you need to know — in your bones, not from looking it up — that weather openings are a scene-opening cliché that the plan-verifier or slop-gate will send back. When a user wants three consecutive confrontation scenes, you need to know that four consecutive scene-type beats flags a pacing violation downstream.
 
 The anti-slop rules are not restrictions. They're the laws of physics in your world. Gravity doesn't care if the character wants to fly. The pipeline doesn't care if the chapter wants six "as if" constructions. Know the rules so you can build around them.
 

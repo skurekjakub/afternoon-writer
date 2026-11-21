@@ -15,11 +15,12 @@ Do not duplicate skills into `.agents/skills/`; edit skills in `.claude/skills/`
 
 1. **Prose-blind orchestrator**: `afternoon-orchestrator` is a pure router. It reads only `.afternoon/config.json`, `.afternoon/manifest.json`, and `.afternoon/agents/{name}/status.json`. It never reads prose, plans, memory, or audit notes.
 2. **`status.json` routing**: Every pipeline worker writes `.afternoon/agents/{name}/status.json`. Routing decisions use `status.json`, never output file existence.
-3. **Canonical draft chain**:
-   `v0.md -> v0c.md -> v1.md -> v2.md -> v2g.md -> v3.md -> v5.md -> final.md`
-   (`v3.md` is currently copied from `v2g.md`; `afternoon-writer-expander` is retained on disk but not dispatched.)
+3. **Canonical draft chains**:
+   - **Gemini / Antigravity lean chain (`.agents/`)**: `v0.md -> v1.md -> v2.md -> final.md`
+     (planner → plan-verifier → writer-coordinator [writer + continuity-gate/writer] → slophunter ↔ single-pass slop-gate [max 3 iterations] → `final.md` → memory-keeper)
+   - **Claude Code full chain (`.claude/`)**: `v0.md -> v0c.md -> v1.md -> v2.md -> v2g.md -> v3.md -> v5.md -> final.md` (retained untouched)
 4. **One outline beat = one plan beat**: `afternoon-planner` and `afternoon-plan-verifier` must never merge outline beats.
-5. **Audit-only gates**: `afternoon-writer-craft-auditor`, `afternoon-writer-continuity-gate`, `afternoon-slop-gate`, and `afternoon-grounding-gate` emit findings and verdicts only — they never edit prose files.
+5. **Audit-only gates**: `afternoon-writer-continuity-gate` and `afternoon-slop-gate` (plus `afternoon-writer-craft-auditor` and `afternoon-grounding-gate` in `.claude/`) emit findings and verdicts only — they never edit prose files.
 6. **Tool CLI contract**: Any `python3 tools/...` command documented in agent prompts must match flags accepted by `tools/` (verified by `python3 -m unittest tools/tests/test_docs_contract.py`).
 
 ## Running on Gemini (Antigravity CLI)

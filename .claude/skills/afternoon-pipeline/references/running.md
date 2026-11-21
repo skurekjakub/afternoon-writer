@@ -48,12 +48,23 @@ agy --agent afternoon-outline-builder
 agy --agent afternoon-style-extractor
 ```
 
-### Gemini Model Tier Mapping
+### Lean Gemini Pipeline Flow & Model Tier Mapping
 
-Each `.agents/agents/afternoon-*.md` agent is assigned a Gemini tier (`pro` or `flash`), enforced both in frontmatter and in `invoke_subagent` calls:
+The Gemini pipeline in `.agents/agents/` uses a lean 6-step chain per chapter (`v0.md -> v1.md -> v2.md -> final.md`):
 
-- **`pro`** (creative prose, prose revision, structural verification, and adversarial gates): `afternoon-plan-verifier`, `afternoon-writer`, `afternoon-writer-craft-auditor`, `afternoon-writer-craft-reviser`, `afternoon-writer-continuity-gate`, `afternoon-slophunter`, `afternoon-slop-gate`, `afternoon-grounder`, `afternoon-grounding-gate`, `afternoon-style-extractor`
-- **`flash`** (routers, structured JSON builders, targeted patchers, continuity librarian): `afternoon-orchestrator`, `afternoon-writer-coordinator`, `afternoon-planner`, `afternoon-writer-continuity-writer`, `afternoon-memory-keeper`, `afternoon-outline-builder`, `afternoon-writer-expander`
+1. `afternoon-planner` (`flash`) → `.afternoon/plans/{chapterId}-initial.json`
+2. `afternoon-plan-verifier` (`pro`) → `.afternoon/plans/{chapterId}.json`
+3. `afternoon-writer-coordinator` (`flash`) → dispatches `afternoon-writer` (`pro`) per scene (`v0.md`), then `afternoon-writer-continuity-gate` (`pro`) ↔ `afternoon-writer-continuity-writer` (`flash`) (max 3 iterations → `v1.md`)
+4. `afternoon-slophunter` (`pro`) → primary cleanup (`v1.md -> v2.md`) backed by `python3 tools/prose_check.py --json`
+5. `afternoon-slop-gate` (`pro`) ↔ `afternoon-slophunter` (`pro`, revision mode) → single combined pass (max 3 iterations; covers Gemini prose tics, over-textured runs, mannered prose/refrains, POV/agency/negation)
+6. Promote `v2.md -> final.md` → `afternoon-memory-keeper` (`flash`) updates `.afternoon/plans/memory/`
+
+Craft-audit, grounder/grounding-gate, expander, and final-slophunter are omitted from `.agents/agents/` (they remain intact in `.claude/agents/`).
+
+Per-agent Gemini tier (`pro` or `flash`), enforced both in frontmatter and in `invoke_subagent` calls:
+
+- **`pro`** (creative prose, prose cleanup, structural verification, and adversarial gates): `afternoon-plan-verifier`, `afternoon-writer`, `afternoon-writer-continuity-gate`, `afternoon-slophunter`, `afternoon-slop-gate`, `afternoon-style-extractor`
+- **`flash`** (routers, structured JSON builders, targeted continuity patcher, continuity librarian, outline builder): `afternoon-orchestrator`, `afternoon-writer-coordinator`, `afternoon-planner`, `afternoon-writer-continuity-writer`, `afternoon-memory-keeper`, `afternoon-outline-builder`
 
 ## What To Watch
 

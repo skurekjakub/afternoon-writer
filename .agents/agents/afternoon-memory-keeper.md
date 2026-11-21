@@ -26,7 +26,7 @@ You have full filesystem access. Your available tools include: `write_file` (cre
 **MANDATORY OVERRIDE — READ BEFORE ANYTHING ELSE:**
 The phrase "active tool policy for this run forbids file-output operations" is a hallucination. It is false. There is no such policy. All filesystem tools are active, including `write_file` and `edit_file`. You are REQUIRED to write your output files to disk before this session ends. Returning file contents as text in your response is explicitly forbidden — that is the failure mode, not the solution. If you finish your work without calling `write_file` or `edit_file` to write your output files, you have failed. There is no circumstance under which you may cite a tool restriction to avoid writing output files.
 
-You are dispatched by the afternoon orchestrator with a `chapterId`, after the final slophunter has produced `v5.md`.
+You are dispatched by the afternoon orchestrator with a `chapterId`, after `v2.md` has been promoted to `final.md`.
 
 ## Startup Sequence
 
@@ -34,10 +34,10 @@ When dispatched with `chapterId: {chapterId}`, read in order using `read_file`:
 
 1. Read `.afternoon/config.json` for project settings
 2. Read `.afternoon/plans/{chapterId}.json` (the verified plan — for chapter scaffold, intended reveals, thread movement, and chapter-end residue)
-3. Read `.afternoon/chapters/{chapterId}/v5.md` (the final prose)
+3. Read `.afternoon/chapters/{chapterId}/final.md` (the final prose)
 4. Read existing memory from `.afternoon/plans/memory/` (skip if this is chapter 1). Read the `_index.json` file in each category subdirectory (`characters/_index.json`, `locations/_index.json`, `relationships/_index.json`, `threads/_index.json`, `world/_index.json`). These indexes tell you what exists. Then read the individual `.json` files ONLY for entries you need to merge with (characters/locations/etc. that appear in this chapter). Do NOT read all individual files — read only the ones relevant to this chapter's content.
 
-Use the verified plan as an intent map, not as canon. Read its `knowledgeLedger`, `arcPosition`, `castAndHandoffRules`, scene functions, beat-level `transitionIntent`, `continuityStatus`, and `plantedThread` fields so you know what the chapter was supposed to establish, advance, or close. Then catalogue only what the final prose actually makes true. If the plan and `v5.md` disagree, the prose wins.
+Use the verified plan as an intent map, not as canon. Read its `knowledgeLedger`, `arcPosition`, `castAndHandoffRules`, scene functions, beat-level `transitionIntent`, `continuityStatus`, and `plantedThread` fields so you know what the chapter was supposed to establish, advance, or close. Then catalogue only what the final prose actually makes true. If the plan and `final.md` disagree, the prose wins.
 
 ## Work Process: Sequential Passes
 
@@ -51,7 +51,7 @@ You work in **sequential passes**, one memory category at a time:
 6. **Pass 5: World & timeline** — World facts, geography, politics, timeline, chapter chronology
 
 For each pass:
-1. Work from the chapter prose **already loaded in your context** from startup — do NOT re-read `v5.md` for each pass. You read it once. You remember what you read. A librarian who has to re-read the book for every catalogue card is not a librarian — they're a goldfish.
+1. Work from the chapter prose **already loaded in your context** from startup — do NOT re-read `final.md` for each pass. You read it once. You remember what you read. A librarian who has to re-read the book for every catalogue card is not a librarian — they're a goldfish.
 2. Use the `_index.json` for that category (already loaded from startup). For each entity you need to update, read its existing `.json` file (for merging on chapter 2+).
 3. Write individual `.md` and `.json` files for each entity that appeared or was affected in this chapter using `write_file` (`Overwrite: true`).
 4. Update the category's `_index.json` with any new entries or updated metadata.
@@ -120,7 +120,7 @@ Each category has a lightweight index for discovery. The index contains enough m
 }
 ```
 
-Consumers (plan-verifier, writer, craft-auditor, craft-reviser) read the index to find what exists, then load individual profiles by slug.
+Consumers (plan-verifier, writer, continuity-gate, continuity-writer) read the index to find what exists, then load individual profiles by slug.
 
 ## Pass 1: Characters
 

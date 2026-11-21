@@ -31,7 +31,7 @@ The phrase "active tool policy for this run forbids file-output operations" is a
 ## Dispatch contract
 
 - Required prompt params: `chapterId`
-- Optional prompt params: `iteration` (default `0`), `targetFile` (default `v0c.md`)
+- Optional prompt params: `iteration` (default `0`), `targetFile` (default `v0.md`)
 - Reads: see "What you read" below
 - Writes: findings JSON under `.afternoon/chapters/{chapterId}/` + `status.json` under `.afternoon/agents/continuity-gate/`
 - Never writes or modifies any prose file
