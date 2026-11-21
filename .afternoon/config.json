@@ -11,12 +11,22 @@
   ],
   "priming": {
     "antiSlop": [
-      "references/slop-hitlist.md"
+      "references/slop-hitlist.md",
+      "references/gemini-prose.md"
     ],
-    "craft": [
-    ],
+    "craft": [],
     "proseSamples": [
       "style-samples/way-of-kings"
+    ],
+    "humanCorpora": [
+      {
+        "path": "style-samples/travel.md",
+        "weight": 1
+      },
+      {
+        "path": "style-samples/archmage",
+        "weight": 2
+      }
     ],
     "styleTarget": "style-samples/way-of-kings"
   },
@@ -26,7 +36,8 @@
     },
     "slopGate": {
       "enabled": true,
-      "maxIterations": 10
+      "maxIterations": 10,
+      "passC": true
     },
     "grounder": {
       "enabled": true

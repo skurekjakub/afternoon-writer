@@ -2,56 +2,58 @@
 set -uo pipefail
 
 # =============================================================================
-# afternoon-start-gemini.sh — afternoon pipeline on Gemini 2.5 Pro via BYOK
+# afternoon-start-gemini.sh — afternoon pipeline on Gemini via Antigravity CLI
 #
 # Prerequisites:
-#   export GEMINI_API_KEY=<your-google-ai-studio-key>
-#   Get a free key at: https://aistudio.google.com/app/apikey
+#   1. Antigravity CLI (`agy`) installed and on PATH.
+#   2. Authenticated interactively once (run `agy` and complete sign-in).
+#   3. Project configured at `.afternoon/config.json` with outlines in
+#      `.afternoon/outlines/*.md`.
+#
+# Optional Environment Variables:
+#   AFTERNOON_MODEL   Override the session model slug (run `agy models` to see
+#                     available Gemini slugs). When unset, uses agy defaults
+#                     and per-agent `pro`/`flash` model tiers.
+#   AFTERNOON_EFFORT  Reasoning effort: low | medium | high | xhigh | max
+#                     (default: high).
+#   AFTERNOON_MODE    Execution mode: auto | accept-edits | plan
+#                     (default: auto — auto-approves workspace edits and
+#                     sandboxed commands).
 #
 # Usage:
-#   GEMINI_API_KEY=<key> ./afternoon-start-gemini.sh
-#   or:
-#   export GEMINI_API_KEY=<key>
 #   ./afternoon-start-gemini.sh
+#   AFTERNOON_EFFORT=xhigh ./afternoon-start-gemini.sh
+#   AFTERNOON_MODEL=<slug> ./afternoon-start-gemini.sh
 # =============================================================================
 
-# --- Gemini BYOK ---
-if [[ -z "${GEMINI_API_KEY:-}" ]]; then
-  echo "ERROR: GEMINI_API_KEY is not set." >&2
-  echo "  Get a free key at: https://aistudio.google.com/app/apikey" >&2
-  echo "  Then run: GEMINI_API_KEY=<key> ./afternoon-start-gemini.sh" >&2
-  exit 1
-fi
-
-export COPILOT_PROVIDER_TYPE=openai
-export COPILOT_PROVIDER_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
-export COPILOT_PROVIDER_API_KEY="${GEMINI_API_KEY}"
-export COPILOT_MODEL=gemini-3.1-pro-preview
-
-echo "[$(date)] Model: Gemini 3.1 Pro Preview via BYOK (Google AI Studio)"
-
-# --- Env vars for long autonomous runs ---
-export COPILOT_TASK_WAIT_TIMEOUT_SECONDS=360000
-export CONFIGURE_COPILOT_AGENT=false
-export COPILOT_SWE_AGENT_BACKGROUND_AGENTS=true
-export COPILOT_SWE_AGENT_PARALLEL_TASK_EXECUTION=true
-export COPILOT_LARGE_OUTPUT_MAX_BYTES=104857600
-export COPILOT_BUFFER_EXHAUSTION_THRESHOLD=0.99
-export COPILOT_LARGE_OUTPUT_THRESHOLD_BYTES=204800
-export COPILOT_CLI_ENABLED_FEATURE_FLAGS=EXTENSIONS
+AFTERNOON_EFFORT="${AFTERNOON_EFFORT:-high}"
+AFTERNOON_MODE="${AFTERNOON_MODE:-auto}"
+AFTERNOON_MODEL="${AFTERNOON_MODEL:-}"
 
 DONE_MARKER="===AFTERNOON DONE==="
 AGENT_NAME="afternoon-orchestrator"
-AGENT_FILE="./.github/agents/${AGENT_NAME}.agent.md"
+AGENT_FILE="./.agents/agents/${AGENT_NAME}.md"
+SKILLS_FILE="./.agents/skills.json"
 
-# --- Pre-flight ---
-if [[ ! -f "$AGENT_FILE" ]]; then
+# --- Pre-flight checks ---
+if ! command -v agy >/dev/null 2>&1; then
+  echo "ERROR: 'agy' (Antigravity CLI) not found on PATH." >&2
+  echo "  Install Antigravity CLI and authenticate interactively once with 'agy'." >&2
+  exit 1
+fi
+
+if [[ ! -f "${AGENT_FILE}" ]]; then
   echo "ERROR: Agent file not found: ${AGENT_FILE}" >&2
   exit 1
 fi
 
-if ! grep -qF "$DONE_MARKER" "$AGENT_FILE"; then
+if ! grep -qF "${DONE_MARKER}" "${AGENT_FILE}"; then
   echo "ERROR: Stop marker '${DONE_MARKER}' not found in ${AGENT_FILE}" >&2
+  exit 1
+fi
+
+if [[ ! -f "${SKILLS_FILE}" ]]; then
+  echo "ERROR: Skills config not found: ${SKILLS_FILE}" >&2
   exit 1
 fi
 
@@ -71,28 +73,32 @@ if [[ ${BEAT_COUNT} -eq 0 ]]; then
   exit 1
 fi
 
-echo "[$(date)] Pre-flight OK: agent '${AGENT_NAME}' validated, config exists, ${BEAT_COUNT} outline file(s) found."
+MODEL_DESC="${AFTERNOON_MODEL:-default (per-agent pro/flash tiers)}"
+echo "[$(date)] Antigravity CLI (agy) | mode=${AFTERNOON_MODE} | effort=${AFTERNOON_EFFORT} | model=${MODEL_DESC}"
+echo "[$(date)] Pre-flight OK: agent '${AGENT_NAME}' validated, skills registered, config exists, ${BEAT_COUNT} outline file(s) found."
+
 mkdir -p logs/afternoon
 
 while true; do
   TIMESTAMP=$(date +%s)
   LOG_DIR="./logs/afternoon"
-  LOG_FILE="${LOG_DIR}/copilot_gemini_${TIMESTAMP}.log"
-  SHARE_FILE="${LOG_DIR}/share_gemini_${TIMESTAMP}.md"
+  LOG_FILE="${LOG_DIR}/agy_gemini_${TIMESTAMP}.log"
 
-  echo "[$(date)] Starting copilot run (log: ${LOG_FILE})"
+  AGY_ARGS=(
+    --agent "${AGENT_NAME}"
+    --mode "${AFTERNOON_MODE}"
+    --effort "${AFTERNOON_EFFORT}"
+  )
 
-  copilot \
-    --yolo \
-    --agent "${AGENT_NAME}" \
-    --log-level "debug" \
-    --log-dir "${LOG_DIR}/" \
-    --share "${SHARE_FILE}" \
-    --experimental \
-    --reasoning-effort xhigh \
-    --plugin-dir ".github/extensions/" \
-    -p "begin" 2>&1 | tee "${LOG_FILE}"
+  if [[ -n "${AFTERNOON_MODEL}" ]]; then
+    AGY_ARGS+=(--model "${AFTERNOON_MODEL}")
+  fi
 
+  AGY_ARGS+=(-p "begin")
+
+  echo "[$(date)] Starting agy run (log: ${LOG_FILE})"
+
+  agy "${AGY_ARGS[@]}" 2>&1 | tee "${LOG_FILE}"
   EXIT_CODE=${PIPESTATUS[0]}
 
   # --- Check for done marker in output ---
@@ -102,10 +108,10 @@ while true; do
   fi
 
   if [[ ${EXIT_CODE} -ne 0 ]]; then
-    echo "[$(date)] Copilot exited with code ${EXIT_CODE}. Restarting in 5s..."
+    echo "[$(date)] agy exited with code ${EXIT_CODE}. Restarting in 5s..."
     sleep 5
   else
-    echo "[$(date)] Copilot exited cleanly without done marker. Restarting in 2s..."
+    echo "[$(date)] agy exited cleanly without done marker. Restarting in 2s..."
     sleep 2
   fi
 done

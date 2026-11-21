@@ -20,6 +20,8 @@ Pipeline settings live in `.afternoon/config.json`.
 | `agents.groundingGate.maxIterations` | max grounding revision loops | Best-effort cap. |
 | `agents.slopGate.enabled` | enable slop-gate | Defaults on. |
 | `agents.slopGate.maxIterations` | max slop revision loops | Best-effort cap. |
+| `priming.humanCorpora` | human reference prose: a path, or `{"path": ..., "weight": ...}` | Calibrates `tools/mannered_checker` caps and re-anchors `style-guide.json` rhythm/texture metrics on the weighted blend (currently Way of Kings 1, Archmage 2). Large corpora are measured in chapter-sized chunks, and LitRPG furniture (skill brackets, level-ups) is stripped before measuring. Add or edit a sample, or change a weight, and the next checker run recalibrates; or run `python3 tools/mannered_checker/calibrate.py`. |
+| `agents.slopGate.passC` | run slop-gate pass C (mannered prose + refrains) | Defaults on. Set `false` to fall back to passes A and B only. |
 | `agents.expander.enabled` | legacy field | Currently ignored; expander is not in the live pipeline. |
 | `completionMarker` | end-of-run sentinel | Watched by the start script. |
 | top-level `styleTarget` | legacy label | Keep it in sync if you want, but agents read `priming.styleTarget`. |

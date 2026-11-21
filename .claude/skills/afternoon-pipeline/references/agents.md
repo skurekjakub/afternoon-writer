@@ -24,7 +24,7 @@ Shared rules:
 | Continuity-Gate | `.claude/agents/afternoon-continuity-gate.md` | `plan + memory + prior canon + target prose -> continuity-findings.json` | Fails prose that breaks knowledge, beat order, cast logic, or canon. |
 | Continuity-Writer | `.claude/agents/afternoon-continuity-writer.md` | `continuity findings + v1.md -> v1-crN.md` | Applies only continuity fixes. |
 | Slophunter | `.claude/agents/afternoon-slophunter.md` | `v1.md -> v2.md`, `v3.md -> v5.md`, `v2/v2-r -> v2-rN.md` | Removes AI prose patterns, including revision mode from gate feedback. |
-| Slop-Gate | `.claude/agents/afternoon-slop-gate.md` | `v2/v2-r -> slop-gate notes` | Two-pass adversarial slop audit with suggested fixes. |
+| Slop-Gate | `.claude/agents/afternoon-slop-gate.md` | `v2/v2-r -> slop-gate notes` | Three-pass adversarial slop audit with suggested fixes: A (negation, agency, tics), B (gpt-5 issues, narrator seep, phantom concreteness), C (mannered prose and cross-chapter refrains, backed by `tools/mannered_checker`). |
 | Grounder | `.claude/agents/afternoon-grounder.md` | `v2.md -> v2g.md` | Adds world-specific grounding and keeps a grounding map. |
 | Grounding-Gate | `.claude/agents/afternoon-grounding-gate.md` | `v2g/v2g-r -> grounding-gate notes` | Audits grounding, tail strength, and source fidelity. |
 | Memory-Keeper | `.claude/agents/afternoon-memory-keeper.md` | `plan + v5.md -> plans/memory/*` | Updates canon memory after each chapter. |
