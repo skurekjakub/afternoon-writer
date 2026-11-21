@@ -12,6 +12,11 @@ def format_json(report: RhythmReport, filepath: str) -> str:
     The texture block includes per-dimension scores (0–100 each)
     and an 'interpretation' field with actionable fix instructions.
     """
+    return json.dumps(report_dict(report, filepath), indent=2)
+
+
+def report_dict(report: RhythmReport, filepath: str) -> dict:
+    """The JSON report as a dict (what --json prints)."""
     tex_metrics = {
         "participial_pct": report.participial_pct,
         "compound_pct": report.compound_pct,
@@ -27,7 +32,7 @@ def format_json(report: RhythmReport, filepath: str) -> str:
         dimension_scores=report.texture_dimension_scores,
     )
 
-    return json.dumps({
+    return {
         "file": filepath,
         "comma_period_ratio": round(report.cp_ratio, 3),
         "sentence": {
@@ -68,7 +73,7 @@ def format_json(report: RhythmReport, filepath: str) -> str:
             "baselines": report.texture_baselines,
             "flagged_passages": report.texture_flagged,
         },
-    }, indent=2)
+    }
 
 
 def format_summary(report: RhythmReport, filepath: str) -> str:
@@ -113,13 +118,30 @@ def format_summary(report: RhythmReport, filepath: str) -> str:
         lines.append("  DIMENSIONS:")
         for name, detail in report.texture_dimension_scores.items():
             marker = "\u2713" if detail["score"] >= 90 else "\u2717"
+            dir_tag = ""
+            if detail["score"] < 90:
+                dir_tag = " [ABOVE]" if detail["actual"] > detail["target"] else " [BELOW]"
             lines.append(
                 f"    {marker} {name}: {detail['actual']:.1f}% "
-                f"(target {detail['target']}%) → score {detail['score']:.0f}/100"
+                f"(target {detail['target']}%){dir_tag} → score {detail['score']:.0f}/100"
             )
 
     if report.texture_verdict_reasons:
         lines.append("  GAPS: " + "; ".join(report.texture_verdict_reasons))
+        tex_metrics = {
+            "participial_pct": report.participial_pct,
+            "compound_pct": report.compound_pct,
+            "emdash_pct": report.emdash_pct,
+            "semicolon_pct": report.semicolon_pct,
+            "short_pct": report.texture_short_pct,
+            "texture_score": report.texture_score,
+        }
+        interp = texture_interpretation(
+            tex_metrics, report.texture_baselines,
+            report.texture_verdict, report.texture_verdict_reasons,
+            dimension_scores=report.texture_dimension_scores,
+        )
+        lines.append("  ACTION: " + interp)
 
     if report.texture_flagged:
         lines.append(f"  FLAGGED PASSAGES: {len(report.texture_flagged)}")

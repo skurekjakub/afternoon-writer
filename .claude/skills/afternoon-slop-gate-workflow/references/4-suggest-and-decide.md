@@ -25,7 +25,7 @@ Every KILL must end with:
 - Preserve the scene's meaning and the POV character's voice.
 - Do not add exposition, new observations, or extra content.
 - Make the fix drop-in replaceable at the same approximate position in the paragraph.
-- Prefer deletion when the flagged text is decorative scaffolding.
+- Prefer deletion when the flagged text is decorative scaffolding. To delete, set `suggestedFix` to `""` and add a short `fixNote` saying what goes and how the join should read.
 - When one sentence attracts kills from three or more guides, consider deletion before attempting a creative rewrite.
 
 ## Iteration-aware fix conservatism
@@ -34,6 +34,7 @@ Before finalizing suggestions, read `.afternoon/manifest.json` and inspect the p
 
 - pass `a` reads `slopGateLoop.iterationKillsA`
 - pass `b` reads `slopGateLoop.iterationKillsB`
+- pass `c` reads `slopGateLoop.iterationKillsC`
 
 Use the trajectory after detection, not during detection.
 

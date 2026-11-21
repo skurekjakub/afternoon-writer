@@ -1,0 +1,117 @@
+{
+  "_doc": "Signature beats the writer keeps reusing. perChapter = max in one chapter; window/perWindow = max across the last `window` chapters including the target. Regexes are case-insensitive. Add a family whenever a beat starts recurring across chapters.",
+  "families": [
+    {
+      "name": "subordinate_yardstick",
+      "description": "Sylvanas measures her own lapse by the punishment she would give a ranger ('she'd have flayed a ranger for that'). Seeded by her voice sheet; used about 11 times in chapters 1-5.",
+      "regex": "\\b(?:flay(?:ed)?\\b[^.!?\\n]{0,30}\\branger|hide off (?:any|a|the) ranger|skin off (?:him|her)|mucking stalls|walk the outer ring for|sent rangers to their blankets|word to say to any ranger|back to (?:his|her) bench for it|a ranger's hide|go out again and bring me|excuse from a ranger|excuse she would flay)",
+      "perChapter": 1,
+      "window": 3,
+      "perWindow": 1
+    },
+    {
+      "name": "prize_student_mockery",
+      "description": "Jaina's 'Brilliant, Jaina. Antonidas's prize student' self-mockery. Lifted verbatim from her voice sheet in chapters 2 and 4.",
+      "regex": "\\b(?:Brilliant, Jaina|prize student|best in her year)\\b",
+      "perChapter": 1,
+      "window": 4,
+      "perWindow": 1
+    },
+    {
+      "name": "duty_done_still_riding",
+      "description": "'Her duty was done by any measure the chamber would sign. So why was she still riding south?' Voice-sheet argument; one use per arc is plenty.",
+      "regex": "\\b(?:duty (?:was|is) done|by any measure (?:the|a) (?:chamber|Convocation))",
+      "perChapter": 1,
+      "window": 6,
+      "perWindow": 1
+    },
+    {
+      "name": "elf_ears_stare",
+      "description": "Humans look at the elves' ears. Five times in chapter 5 alone.",
+      "regex": "\\b(?:looked|looking|look|stared|staring|glanced|eyeing|taken in|took in)\\b[^.!?\\n]{0,40}\\b(?:at |in )?(?:her|his|their|the|the elves'?|Lyriel's|Sylvanas's|Cyndia's) ears\\b(?! went| had gone| going)",
+      "perChapter": 1,
+      "window": 2,
+      "perWindow": 1
+    },
+    {
+      "name": "blush_ears",
+      "description": "Ears or face going red or hot as the embarrassment beat.",
+      "regex": "\\b(?:ears|face|cheeks|neck) (?:went|going|had gone|were going|was going|had begun to go|came up) (?:red|hot|pink|scarlet)\\b|\\bwent red (?:to|at|right)\\b|\\b(?:gone|went|going) red to the ears\\b",
+      "perChapter": 1,
+      "window": 2,
+      "perWindow": 1
+    },
+    {
+      "name": "no_sleep_sand_eyes",
+      "description": "'She had not slept since the night before X. Her eyes were full of sand.' Used in chapters 3 and 5 with the same shape.",
+      "regex": "\\b(?:had not|hadn't) slept since\\b|\\beyes (?:felt |were )?(?:full of|rubbed with|gritty with) sand\\b",
+      "perChapter": 1,
+      "window": 3,
+      "perWindow": 1
+    },
+    {
+      "name": "short_surprised_laugh",
+      "description": "Lyriel jokes, Jaina laughs 'short and surprised', Lyriel checks Cyndia, Cyndia is watching the hedge. Same micro-scene in chapters 2 and 5.",
+      "regex": "\\bshort,? (?:and )?surprised\\b|\\blaughed before she could help it\\b",
+      "perChapter": 1,
+      "window": 3,
+      "perWindow": 1
+    },
+    {
+      "name": "lyriel_checks_cyndia",
+      "description": "Lyriel glances at Cyndia after a joke and Cyndia gives no sign. Voice-sheet trait; budget it.",
+      "regex": "\\bLyriel (?:glanced|turned|looked) (?:at|to) Cyndia\\b|\\bglancing at Cyndia\\b",
+      "perChapter": 1,
+      "window": 3,
+      "perWindow": 1
+    },
+    {
+      "name": "cyndia_weight_even",
+      "description": "Cyndia reports 'with her weight even' at almost every appearance.",
+      "regex": "\\bweight even\\b",
+      "perChapter": 1,
+      "window": 2,
+      "perWindow": 1
+    },
+    {
+      "name": "got_down_badly",
+      "description": "Jaina gets on or off the horse 'badly, as always'.",
+      "regex": "\\b(?:got|came|climbed) (?:down|up|off) badly\\b|\\bbadly, as (?:always|she did every time)\\b",
+      "perChapter": 1,
+      "window": 2,
+      "perWindow": 1
+    },
+    {
+      "name": "knees_set",
+      "description": "Knees that have 'set' after riding or kneeling.",
+      "regex": "\\bknees (?:had )?set\\b|\\bknees that had set\\b|\\bknees\\b[^.!?\\n]{0,15}\\bhad set\\b|\\bset stiff\\b|\\bknees stiff as\\b",
+      "perChapter": 1,
+      "window": 2,
+      "perWindow": 1
+    },
+    {
+      "name": "empty_places_at_back",
+      "description": "The empty places at the back of the line where Neral and the fourth ranger used to ride.",
+      "regex": "\\b(?:two |the )?(?:empty )?places (?:at the back|nobody was riding in)\\b|\\bholes in the back of it\\b|\\btwo empty places\\b",
+      "perChapter": 1,
+      "window": 2,
+      "perWindow": 1
+    },
+    {
+      "name": "pleased_with_herself",
+      "description": "A past thought she 'had been pleased with', now deflated.",
+      "regex": "\\b(?:been |was )?pleased with (?:herself|himself|those words|that)\\b",
+      "perChapter": 1,
+      "window": 3,
+      "perWindow": 1
+    },
+    {
+      "name": "spy_hypothesis_ladder",
+      "description": "'A spy, then. ... One who wants to be caught. Nonsense. ... Or she was right.' Voice-sheet example reused as a template.",
+      "regex": "\\bOr (?:she|he|it) was right\\b|\\bOne who wants to be caught\\b|\\bNo, nonsense\\b",
+      "perChapter": 1,
+      "window": 4,
+      "perWindow": 1
+    }
+  ]
+}

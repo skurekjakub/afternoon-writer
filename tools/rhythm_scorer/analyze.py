@@ -11,6 +11,7 @@ from .rhythm import compute_mattr, count_punctuation, opener_stats, word_count
 from .texture import (
     balanced_texture_score,
     classify_sentence_texture,
+    find_over_textured_runs,
     find_telegram_runs,
     find_texture_deserts,
     texture_verdict,
@@ -107,7 +108,8 @@ def analyze_rhythm(text: str, texture_baselines: dict = None) -> RhythmReport:
     # Flagged passages
     telegram_runs = find_telegram_runs(classifications, all_sentences)
     texture_deserts = find_texture_deserts(classifications, all_sentences)
-    flagged = telegram_runs + texture_deserts
+    over_textured_runs = find_over_textured_runs(classifications, all_sentences)
+    flagged = telegram_runs + texture_deserts + over_textured_runs
     flagged.sort(key=lambda f: f["start_sentence"])
 
     # Verdict

@@ -1,6 +1,6 @@
 ---
 name: afternoon-slop-gate
-description: "Adversarial slop verification gate for the afternoon fiction pipeline. Runs as pass A or pass B over slophunter output, finds issues, suggests cross-validated fixes, never directly edits the prose file, and emits per-pass verdicts to the orchestrator."
+description: "Adversarial slop verification gate for the afternoon fiction pipeline. Runs as pass A, B or C over slophunter output, finds issues, suggests cross-validated fixes, never directly edits the prose file, and emits per-pass verdicts to the orchestrator."
 model: opus
 ---
 
@@ -14,7 +14,7 @@ Read the **`afternoon-slop-gate-workflow`** skill at the start of every invocati
 
 1. **Read Workspace** - parse the dispatch, choose the pass, resolve the target prose and output files
 2. **Build False-Positive Filter** - load POV, subject-matter, dialogue, and intent defenses from the chapter plan
-3. **Audit Assigned Pass** - run only the guide pack for pass `a` or pass `b`
+3. **Audit Assigned Pass** - run only the guide pack for pass `a`, `b` or `c`
 4. **Suggest and Decide** - cross-check every KILL fix against the current pass guide pack and compute the pass verdict
 5. **Write Artifacts** - write the notes JSON, scratchpad markdown, and `status.json`
 
@@ -25,12 +25,13 @@ In Phase 3, load only the pass route that matches `pass`. The workflow reference
 - Required prompt params: `chapterId`, `pass`
 - Optional prompt params: `iteration` (default `0`), `targetFile` (default `v2.md`), `stage` (default `standard`)
 - Reads: `.afternoon/config.json`, the target prose file, the chapter plan, the current pass's guides, and `.afternoon/manifest.json` during suggestion and decision
+- Pass C also reads the previous chapter's `final.md`, the POV characters' voice sheets, and the output of `tools/mannered_checker/check.py`
 - Writes: pass-specific notes JSON and scratchpad files under `.afternoon/chapters/{chapterId}/`, plus `.afternoon/agents/slop-gate/status.json`
-- If `pass` is missing or not `a` / `b`, write failed `status.json` and stop
+- If `pass` is missing or not `a` / `b` / `c`, write failed `status.json` and stop
 
 ## Cross-cutting rules
 
-- Audit exactly one pass per dispatch. Pass A owns negation, intent-smear, and recurring-prose-tics, including actor-demotion and body-part-subject cases where the real actor has been pushed into an instrument phrase or omitted. Pass B owns gpt-5 prose issues, narrator seep, and phantom concreteness, including atmospheric inversions that stage ambience instead of naming the source and planner-shorthand lines that compress whole tactical states into note-speak.
+- Audit exactly one pass per dispatch. Pass A owns negation, intent-smear, and recurring-prose-tics, including actor-demotion and body-part-subject cases where the real actor has been pushed into an instrument phrase or omitted. Pass B owns gpt-5 prose issues, narrator seep, and phantom concreteness, including atmospheric inversions that stage ambience instead of naming the source and planner-shorthand lines that compress whole tactical states into note-speak. Pass C owns mannered prose and refrains: bent idioms, sentences that fail a plain paraphrase, equative montage, maxims, comic self-consciousness, glosses, house wit, planted echo inserts, capped figures, and wording or beats the book has already used (`resources/mannered-prose-guide.md`, `resources/refrain-guide.md`).
 - The slop hitlist is not a slop-gate pass. It stays slophunter-side, especially in revision self-audit.
 - Every audit is a fresh sweep. Never read prior slop-gate notes, scratchpads, or slophunter revision notes.
 - Every finding must cite exact prose text and include a `pattern` field. KILLs go to the notes JSON; KEEPs go to the scratchpad.

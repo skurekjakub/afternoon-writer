@@ -227,70 +227,70 @@
   },
   "rhythmMetrics": {
     "purpose": "Numeric measurements from rhythm_scorer on the style source (Sanderson Way of Kings opening), with calibrated targets for The Plague Road. Targets differ from measured because PR is tighter, more dialogue-forward, and darker than Sanderson epic fantasy.",
-    "source": "style-samples/travel.md (Brandon Sanderson, The Way of Kings, Prelude through Chapter 6)",
+    "source": "weighted blend of style-samples/travel.md (weight 1) + style-samples/archmage (weight 2), via tools/mannered_checker/calibrate.py",
     "global": {
       "comma_period_ratio": {
-        "measured": 0.663,
-        "target": 0.72,
+        "measured": 0.676,
+        "target": 0.733,
         "range": [
-          0.6,
-          0.85
+          0.613,
+          0.863
         ]
       },
       "sentence_length_mean": {
-        "measured": 9.6,
-        "target": 11.0,
+        "measured": 11.012,
+        "target": 12.412,
         "range": [
-          9.0,
-          13.0
+          10.412,
+          14.412
         ]
       },
       "sentence_length_cv": {
-        "measured": 0.664,
-        "target": 0.7,
+        "measured": 0.687,
+        "target": 0.723,
         "range": [
-          0.6,
-          0.8
+          0.623,
+          0.823
         ]
       },
       "short_sentence_pct": {
-        "measured": 38.9,
-        "target": 35.0,
+        "measured": 34.055,
+        "target": 30.155,
         "range": [
-          28.0,
-          42.0
+          23.155,
+          37.155
         ]
       },
       "long_sentence_pct": {
-        "measured": 8.2,
-        "target": 10.0,
+        "measured": 13.552,
+        "target": 15.352,
         "range": [
-          7.0,
-          14.0
+          12.352,
+          19.352
         ]
       },
       "opener_entropy": {
-        "measured": 7.65,
-        "target": 7.7,
+        "measured": 6.587,
+        "target": 6.637,
         "range": [
-          7.2,
-          8.2
+          6.137,
+          7.137
         ]
       },
       "one_sentence_paragraph_pct": {
-        "measured": 21.6,
-        "target": 19.0,
+        "measured": 23.978,
+        "target": 21.378,
         "range": [
-          15.0,
-          24.0
+          17.378,
+          26.378
         ]
       },
       "mattr": {
-        "measured": 0.827,
-        "target": 0.83,
+        "measured": 0.845,
+        "target": 0.848,
         "range": [
-          0.8,
-          0.87
+          0.818,
+          0.888
         ]
       }
     },
@@ -338,49 +338,71 @@
           0.8
         ]
       }
+    },
+    "perCorpus": {
+      "style-samples/travel.md": {
+        "comma_period_ratio": 0.663,
+        "sentence_length_mean": 9.597,
+        "sentence_length_cv": 0.662,
+        "short_sentence_pct": 38.806,
+        "long_sentence_pct": 8.256,
+        "opener_entropy": 6.748,
+        "one_sentence_paragraph_pct": 21.453,
+        "mattr": 0.827
+      },
+      "style-samples/archmage": {
+        "comma_period_ratio": 0.683,
+        "sentence_length_mean": 11.72,
+        "sentence_length_cv": 0.699,
+        "short_sentence_pct": 31.68,
+        "long_sentence_pct": 16.2,
+        "opener_entropy": 6.506,
+        "one_sentence_paragraph_pct": 25.24,
+        "mattr": 0.854
+      }
     }
   },
   "textureMetrics": {
     "purpose": "Structural complexity measurements from rhythm_scorer. The target values are calibrated higher than Sanderson because PR needs more connective tissue (anti-telegram) and tighter syntactic variety.",
-    "source": "style-samples/travel.md",
+    "source": "weighted blend of style-samples/travel.md (weight 1) + style-samples/archmage (weight 2), via tools/mannered_checker/calibrate.py",
     "participial_pct": {
-      "human": 11.0,
-      "target": 12.0,
+      "human": 6.23,
+      "target": 7.23,
       "range": [
-        12.0,
-        15.0
+        7.23,
+        10.23
       ]
     },
     "compound_pct": {
-      "human": 8.5,
-      "target": 10.0,
+      "human": 12.635,
+      "target": 14.135,
       "range": [
-        7.0,
-        13.0
+        11.135,
+        17.135
       ]
     },
     "emdash_pct": {
-      "human": 3.5,
-      "target": 4.0,
+      "human": 4.619,
+      "target": 5.119,
       "range": [
-        2.5,
-        5.5
+        3.619,
+        6.619
       ]
     },
     "semicolon_pct": {
-      "human": 1.4,
-      "target": 1.8,
+      "human": 1.21,
+      "target": 1.61,
       "range": [
-        1.0,
-        2.5
+        0.81,
+        2.31
       ]
     },
     "short_pct": {
-      "human": 52.1,
-      "target": 48.0,
+      "human": 45.677,
+      "target": 41.577,
       "range": [
-        40.0,
-        55.0
+        33.577,
+        48.577
       ]
     },
     "texture_score": {
@@ -391,6 +413,22 @@
         100.0
       ],
       "note": "Balanced 0-100 scale. 100 = all dimensions on target. Scorer uses log-decay penalty for deviation from per-metric targets."
+    },
+    "perCorpus": {
+      "style-samples/travel.md": {
+        "participial_pct": 11.05,
+        "compound_pct": 8.506,
+        "emdash_pct": 3.538,
+        "semicolon_pct": 1.391,
+        "short_pct": 51.991
+      },
+      "style-samples/archmage": {
+        "participial_pct": 3.82,
+        "compound_pct": 14.7,
+        "emdash_pct": 5.16,
+        "semicolon_pct": 1.12,
+        "short_pct": 42.52
+      }
     }
   },
   "contrastivePairs": [

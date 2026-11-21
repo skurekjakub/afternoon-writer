@@ -6,6 +6,10 @@ from .constants import (
     COMPOUND_RE,
     DESERT_MIN_SENTENCES,
     EMDASH_RE,
+    ORNATE_EMDASH_MIN,
+    ORNATE_PARTICIPIAL_MIN,
+    ORNATE_TOTAL_MARKERS_MIN,
+    ORNATE_WINDOW,
     PARTICIPIAL_RE,
     SEMICOLON_RE,
     SHORT_THRESHOLD,
@@ -32,7 +36,7 @@ def find_telegram_runs(
 ) -> list[dict]:
     """Find runs of choppy, textureless prose via sliding window.
 
-    A telegram run = TELEGRAM_WINDOW+ consecutive sentences where >=75%
+    A telegram run = TELEGRAM_WINDOW+ consecutive sentences where >=65% (TELEGRAM_SHORT_PCT)
     are short (<=8 words) AND zero have any texture construction.
     """
     n = len(classifications)
@@ -130,6 +134,69 @@ def find_texture_deserts(
             "sentence_count": length,
             "preview": preview,
         })
+
+    return flagged
+
+
+def find_over_textured_runs(
+    classifications: list[dict], sent_texts: list[str],
+) -> list[dict]:
+    """Find stretches of over-ornate prose via sliding window (Gemini failure mode).
+
+    An over_textured_run = ORNATE_WINDOW consecutive sentences with either:
+      - >= ORNATE_EMDASH_MIN sentences containing em-dashes (0/437K in human corpora),
+      - >= ORNATE_PARTICIPIAL_MIN sentences containing participial phrases, or
+      - >= ORNATE_TOTAL_MARKERS_MIN total texture markers across the window (0/437K human).
+    """
+    n = len(classifications)
+    if n < ORNATE_WINDOW:
+        return []
+
+    flagged = []
+    i = 0
+    while i <= n - ORNATE_WINDOW:
+        window = classifications[i:i + ORNATE_WINDOW]
+        em_count = sum(1 for c in window if c["emdash"])
+        part_count = sum(1 for c in window if c["participial"])
+        total_markers = sum(
+            int(c["participial"]) + int(c["compound"]) + int(c["emdash"]) + int(c["semicolon"])
+            for c in window
+        )
+
+        triggers = []
+        if em_count >= ORNATE_EMDASH_MIN:
+            triggers.append(f"{em_count}/{ORNATE_WINDOW} em-dash")
+        if part_count >= ORNATE_PARTICIPIAL_MIN:
+            triggers.append(f"{part_count}/{ORNATE_WINDOW} participial")
+        if total_markers >= ORNATE_TOTAL_MARKERS_MIN:
+            triggers.append(f"{total_markers} markers in {ORNATE_WINDOW} sents")
+
+        if triggers:
+            end = i + ORNATE_WINDOW
+            while end < n:
+                c = classifications[end]
+                m = int(c["participial"]) + int(c["compound"]) + int(c["emdash"]) + int(c["semicolon"])
+                if m >= 2 or (em_count >= ORNATE_EMDASH_MIN and c["emdash"]) or (part_count >= ORNATE_PARTICIPIAL_MIN and c["participial"]):
+                    end += 1
+                else:
+                    break
+
+            preview_sents = sent_texts[i:min(i + 3, end)]
+            preview = " ".join(s[:60] for s in preview_sents)
+            if len(preview) > 200:
+                preview = preview[:197] + "..."
+
+            flagged.append({
+                "type": "over_textured_run",
+                "start_sentence": i,
+                "end_sentence": end - 1,
+                "sentence_count": end - i,
+                "triggers": triggers,
+                "preview": preview,
+            })
+            i = end
+        else:
+            i += 1
 
     return flagged
 
@@ -255,6 +322,8 @@ def texture_interpretation(
         return "Texture within target range. No structural changes needed."
 
     parts = []
+    over_count = 0
+    under_count = 0
 
     if dimension_scores:
         for name, detail in dimension_scores.items():
@@ -264,6 +333,7 @@ def texture_interpretation(
             score_str = f"(score {detail['score']:.0f}/100)"
 
             if actual < target:
+                under_count += 1
                 instructions = {
                     "participial": (
                         "Add ', Ving' phrases: ', turning back to the fire' / "
@@ -283,18 +353,19 @@ def texture_interpretation(
                     ),
                 }
             else:
+                over_count += 1
                 instructions = {
                     "participial": (
-                        "Too many ', Ving' phrases. Convert some to independent "
-                        "clauses or action beats."
+                        "Too many ', Ving' phrases. Cut excess tails and convert "
+                        "some to plain independent clauses or direct action beats."
                     ),
                     "compound": (
                         "Too many ', and/but/yet' joins. Break some into "
                         "separate sentences for punch."
                     ),
                     "emdash": (
-                        "Too many em-dashes. Replace some with commas, "
-                        "parenthetical clauses, or sentence breaks."
+                        "Too many em-dashes. Cut excess dashes and replace with "
+                        "commas, plain clauses, or clean periods."
                     ),
                     "semicolon": (
                         "Too many semicolons. Convert some to periods "
@@ -313,17 +384,28 @@ def texture_interpretation(
         val = metrics.get("short_pct", 0.0)
         lo, hi = bl.get("range", [0, 100])
         if val > hi:
+            under_count += 1
             parts.append(
                 f"SHORT SENTENCES: {val:.1f}% (ceiling: {hi}%). "
                 f"Too choppy. Combine adjacent shorts using constructions above."
             )
         elif val < lo:
+            over_count += 1
             parts.append(
                 f"SHORT SENTENCES: {val:.1f}% (floor: {lo}%). "
-                f"Too dense. Break some long sentences for rhythm variety."
+                f"Too dense/over-long. Break some long sentences into clean short beats for rhythm variety."
             )
 
     if not parts:
         return f"Borderline texture. Minor gaps: {'; '.join(reasons)}"
 
-    return " | ".join(parts)
+    if over_count > 0 and under_count == 0:
+        prefix = "OVER-TEXTURED (cut excess ornament; do NOT add more constructions): "
+    elif under_count > 0 and over_count == 0:
+        prefix = "UNDER-TEXTURED (add connective tissue): "
+    elif over_count > 0 and under_count > 0:
+        prefix = "MIXED TEXTURE IMBALANCE (cut over-represented constructions, add under-represented ones): "
+    else:
+        prefix = ""
+
+    return prefix + " | ".join(parts)

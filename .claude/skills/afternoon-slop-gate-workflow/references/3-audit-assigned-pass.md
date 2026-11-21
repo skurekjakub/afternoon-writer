@@ -4,6 +4,7 @@ This phase runs the guide loop for the current pass. Before auditing, read the r
 
 - pass `a` -> `references/3a-pass-a-guides.md`
 - pass `b` -> `references/3b-pass-b-guides.md`
+- pass `c` -> `references/3c-pass-c-guides.md`
 
 Use these audit-wide rules for every guide in the selected pass:
 

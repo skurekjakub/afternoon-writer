@@ -59,6 +59,22 @@ At least once per scene, and wherever the plan beat has an `interiority` field, 
 - The `interiority` field gives the argument she is having, not sentences. Find her words for it.
 - The test: could she mutter this sentence under her breath? Then it's hers. Is it a neat aphorism, a pun on the previous line, or "Which left X"? Then it's the narrator. Cut it. See `references/slop-hitlist.md` → Claim, Then Gloss.
 
+### Say it plainly
+
+Write the sentence a good, tired novelist writes first, not the one that shows off.
+- If a phrase is one word away from a stock idiom, use the idiom straight or say the thing plainly. The mare picks her footing; she does not "choose her own feet."
+- Every sentence must mean literally what it says. If you can't restate it flatly and get something true, rewrite it. "He stood, then didn't know what to do about having stood" fails that test.
+- Narrate events with an actor and a verb. Don't sum a night up as a list ("the night had been fire and a cage and men carrying sacks").
+- Let her reason from what is in front of her, not from rules of life ("a man in a hurry leaves the corners"). In dialogue, an answer gets one particular reason at most.
+- Don't play a character's body or self-awareness for laughs ("heard herself", "before she meant to", "his mouth went slack, and then the rest of him caught up").
+- Don't explain a line or a gesture after showing it (", which meant...").
+- Keep the wit for the character who owns it, and spend it rarely: one dry aside a scene is plenty.
+
+### Don't repeat the book
+
+- The voice sheets' example lines show the *shape* of a thought. Never reuse their wording or their image. Find this scene's version, from this scene's facts.
+- You read the previous chapter for continuity. Don't reuse its openings, similes, jokes, reaction beats or character tags, even reworded. If the last chapter opened on "she had not slept since...", open this one some other way.
+
 ### Limited third only
 
 Write in strict limited third. Every narration sentence must belong to the current POV character's observation, thought, or inference.

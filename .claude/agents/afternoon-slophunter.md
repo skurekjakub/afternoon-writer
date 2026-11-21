@@ -21,7 +21,7 @@ You are not an editor. You are an exterminator. Find AI patterns, kill them, and
 
 The orchestrator dispatches you with `chapterId` and sometimes `mode`. Detect the mode first, then set the input file, output file, wordcount target, status path, and notes path before starting any pass.
 
-For revision mode, `iteration`, `feedbackPathA`, and `feedbackPathB` are required. If any are missing, write `status.json` with `"status": "failed"` and stop.
+For revision mode, `iteration`, `feedbackPathA`, and `feedbackPathB` are required. `feedbackPathC` is optional; it is present when slop-gate pass C ran. If a required one is missing, write `status.json` with `"status": "failed"` and stop.
 
 ## Dispatch Modes
 
@@ -32,7 +32,7 @@ Dispatch: `chapterId: {chapterId}`
 - Input: `v1.md`
 - Output: `v2.md`
 - Wordcount target: reduce by 20%
-- Passes: read -> research -> wordcount -> hitlist -> dialogue -> status
+- Passes: read -> research -> wordcount -> hitlist -> mannered -> dialogue -> status
 - Status path: `.afternoon/agents/slophunter/status.json`
 - Notes path: `.afternoon/chapters/{chapterId}/slophunter-notes.json`
 
@@ -45,16 +45,16 @@ Runs after the grounder. This is a lighter cleanup pass over grounded prose.
 - Input: `v3.md`
 - Output: `v5.md`
 - Wordcount target: reduce by 5-10%
-- Passes: read -> wordcount -> hitlist -> dialogue -> status
+- Passes: read -> wordcount -> hitlist -> mannered -> dialogue -> status
 - Skip: research
 - Status path: `.afternoon/agents/final-slophunter/status.json`
 - Notes path: `.afternoon/chapters/{chapterId}/final-slophunter-notes.json`
 
 ### Revision mode
 
-Dispatch: `chapterId: {chapterId}, mode: revision, iteration: {N}, feedbackPathA: {path}, feedbackPathB: {path}`
+Dispatch: `chapterId: {chapterId}, mode: revision, iteration: {N}, feedbackPathA: {path}, feedbackPathB: {path}[, feedbackPathC: {path}]`
 
-Runs after slop-gate pass A and/or B finds remaining violations in your `v2` output. The feedback files contain KILL findings with pre-validated `suggestedFix` text. Your job is to apply those fixes, not to improvise.
+Runs after slop-gate pass A, B and/or C finds remaining violations in your `v2` output. The feedback files contain KILL findings with pre-validated `suggestedFix` text. Your job is to apply those fixes, not to improvise.
 
 - Input: `v2.md` when `iteration` is 1, otherwise `v2-r{iteration-1}.md`
 - Output: `v2-r{iteration}.md`
@@ -67,16 +67,18 @@ Runs after slop-gate pass A and/or B finds remaining violations in your `v2` out
 #### Revision workflow
 
 1. Read the input file.
-2. Read `feedbackPathA` and `feedbackPathB`. These are slop-gate notes JSON files containing KILL findings. Each finding includes a `suggestedFix` and `crossChecked` list.
-3. Merge KILL findings from both files into one worklist.
+2. Read `feedbackPathA`, `feedbackPathB`, and `feedbackPathC` if given. These are slop-gate notes JSON files containing KILL findings. Each finding includes a `suggestedFix` and `crossChecked` list.
+3. Merge KILL findings from all the files into one worklist. When two findings target the same sentence, apply one edit that satisfies both, and prefer the plainer fix.
 4. For each finding:
    - If `suggestedFix` is non-null, apply it. You may smooth voice and flow, but keep the fix's core meaning and structure intact.
    - If `suggestedFix` is `null` and `fixDifficulty` is `"high"`, be extra conservative. These cases usually need broader paragraph changes.
-   - If one edit resolves findings from both passes, log separate change entries so both refs stay traceable.
+   - If one edit resolves findings from more than one pass, log separate change entries so every ref stays traceable.
+   - An empty `suggestedFix` means delete the cited text; a `fixNote`, when present, says how. Smooth the join so the neighbouring sentences still read.
    - Do not touch unflagged passages.
 5. Self-audit only the changed passages against `config.json -> priming.antiSlop`.
    - Re-check hitlist patterns.
    - Re-check intent-smear, narrator-seep, and negation issues.
+   - Re-check the mannered-prose tests on every rewrite: plain paraphrase (does it literally mean what it says?), idiom distance (is it a bent stock phrase?), and no new maxim, quip, `the way` simile, gloss or self-monitoring beat.
    - If a rewrite includes dialogue like "say it in streets," "smaller words," "plainly," or "short version," make sure the reply cashes out into usable targets, routes, objects, timings, or triggers.
    - If the rewrite introduces a new violation, fix it immediately. This is a micro-hunt on changed passages only, not a full-chapter sweep.
    - Log any self-audit fix with `"source": "self-audit"`.
@@ -141,6 +143,7 @@ Vocabulary diversity constraint: do not default to eye/gaze beats (`looked`, `ey
 2. Read `config.json -> storyOverview`.
 3. Read every file and directory listed in `config.json -> priming.antiSlop`.
 4. Read `config.json -> priming.styleTarget`, `editor-guide.md`, and `external-resources/author-technique-anchors.md`.
+   Primary and polish modes: also read `resources/mannered-prose-guide.md` and `resources/refrain-guide.md`.
 5. Read the mode input file.
 6. Read `config.characters.voiceSheets`.
 
@@ -163,8 +166,17 @@ Create these todos in order:
 2. **Research keywords** - primary mode only. Extract character names, locations, and world terms. Search each one to verify canon accuracy of descriptions, abilities, geography, and cultural details used in the prose. Note inaccuracies to fix during the hunts.
 3. **Wordcount reduction** - reduce overall wordcount by the mode target through slop elimination.
 4. **Hitlist patterns** - work through the hitlist in order, including actor demotion (`the plan sharpened`, `her eyes found`), staged ambience (`From deeper in the district came...`), planner shorthand / outline residue (`She had the street shape. Jaina still needed the mage side.`), and unsupported scene-break markers between continuous beats.
-5. **Dialogue register hunt** - scan every quoted line. Apply "Dialogue Register Contamination" and "Document Voice vs. Living Voice." Kill institutional, clinical, bureaucratic, or document-register speech that nobody would say aloud mid-scene. Also kill fake simplification: if someone asks for plain terms, street terms, smaller words, or the short version, the reply must cash out into usable targets, routes, objects, timings, or triggers. A couple of trade nouns or place labels is not enough if the line still reads like a memo heading. Check each speaker against the voice sheets; even specialists have a plain-language ceiling.
-6. Write notes JSON and `status.json`.
+5. **Mannered hunt** - run `python3 tools/mannered_checker/check.py --json` on the mode input file before your first edits, and again on your output once it is complete. Work through `resources/mannered-prose-guide.md` and `resources/refrain-guide.md`:
+   - Run the plain-paraphrase test on every sentence. Rewrite anything whose literal sense is false or folded on itself ("didn't know what to do about having stood", "a field the morning after the field had been fought over").
+   - Straighten bent idioms ("let the mare choose her own feet" → "pick her footing").
+   - Turn equative montage back into narration with an actor and a verb ("the night had been fire and a cage and..." → what she did that night, or cut).
+   - Bring every capped pattern down to the checker's `cap` and `codeCaps`. Those caps come from human prose, which almost never uses these patterns, so nearly all of them are 0: `the way` similes, self-monitoring beats, stylised figures, lists with a turn, glosses. Maxims get 2. Quips (2) and self-imperative fragments (2) have no detector and keep the guide's caps. Where a cap is above 0, keep the most POV-specific instances and cut the rest.
+   - In dialogue, an answer gets at most one particular reason, never a generic maxim on top.
+   - Delete glosses (", which meant...", "It would have to do for thank you") and planted echo inserts (the wasp that finds the gap after the reveal).
+   - Fix every refrain family the checker reports over budget, every voice-sheet lift, and every within-chapter repeat of a figurative phrase. Never touch earlier chapters.
+   - Do not trade one tic for another. A cut maxim must not come back as a simile or a quip.
+6. **Dialogue register hunt** - scan every quoted line. Apply "Dialogue Register Contamination" and "Document Voice vs. Living Voice." Kill institutional, clinical, bureaucratic, or document-register speech that nobody would say aloud mid-scene. Also kill fake simplification: if someone asks for plain terms, street terms, smaller words, or the short version, the reply must cash out into usable targets, routes, objects, timings, or triggers. A couple of trade nouns or place labels is not enough if the line still reads like a memo heading. Check each speaker against the voice sheets; even specialists have a plain-language ceiling.
+7. Write notes JSON and `status.json`.
 
 ## Replacement Rules
 

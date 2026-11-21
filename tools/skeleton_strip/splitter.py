@@ -35,12 +35,13 @@ _ABBREVS = {
     "vs", "etc", "inc", "ltd", "corp", "co",
 }
 
-# Sentence-ending punctuation followed by space+uppercase or end of string
+# Sentence-ending punctuation (and any closing quote right after it), then
+# whitespace, then an uppercase letter or opening quote. The closing quote is in
+# the lookbehind, so it stays with the sentence it closes.
 _SENT_SPLIT = re.compile(
-    r'(?<=[.!?])'           # lookbehind: sentence-ending punct
-    r'(?:\s*["\u201D])?'    # optional closing quote after punct
-    r'\s+'                   # required whitespace
-    r'(?=[A-Z\u201C"])'     # lookahead: uppercase or opening quote
+    r'(?:(?<=[.!?])|(?<=[.!?]["\u201D]))'  # sentence-ending punct, optional closing quote
+    r'\s+'                                 # required whitespace
+    r'(?=[A-Z\u201C"])'                   # lookahead: uppercase or opening quote
 )
 
 

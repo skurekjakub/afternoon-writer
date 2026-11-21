@@ -86,7 +86,7 @@ Read config.json field agents.slopGate.enabled. Default is true.
 
 **If disabled:** skip this entire section. Go straight to step 6 (Grounder).
 
-**If enabled:** dispatch afternoon-slop-gate twice on the same prose file:
+**If enabled:** read config.json field agents.slopGate.passC (default true). The active passes are A and B, plus C when passC is true. Dispatch afternoon-slop-gate once per active pass, in order, on the same prose file:
 1. Pass A:
    ```
    prompt: "chapterId: CHAPTER, pass: a"
@@ -95,40 +95,50 @@ Read config.json field agents.slopGate.enabled. Default is true.
    ```
    prompt: "chapterId: CHAPTER, pass: b"
    ```
+3. Pass C (only when passC is true):
+   ```
+   prompt: "chapterId: CHAPTER, pass: c"
+   ```
 
-Read `.afternoon/agents/slop-gate/status.json` after each dispatch. Check the `pass` and `verdict` fields:
+Pass C audits mannered prose and refrains (sentences that fail a plain paraphrase, bent idioms, maxims, comic self-consciousness, and wording or beats reused from earlier chapters).
 
-- both pass A and pass B verdicts are `"pass"` → go to step 6 (Grounder). Done with slop-gate.
-- either pass verdict is `"fail"` → enter the revision loop below after both passes have written their notes artifacts.
-- status `"failed"` on either pass (agent crashed, not a verdict) → retry that pass 5 times at MINIMUM. sixth failure → mark chapter blocked, skip to next chapter.
+Before the first dispatch, create `slopGateLoop` in the manifest: `{"iteration": 0, "maxIterations": N, "passes": ["a","b","c"], "verdicts": {}}`, dropping `"c"` when passC is false. `passes` fixes the pass set for the whole chapter, so later iterations and crash recovery use the same one. Before each pass dispatch, set `slopGateLoop.phase` to `"awaiting-audit-a"`, `"awaiting-audit-b"` or `"awaiting-audit-c"`.
+
+Read `.afternoon/agents/slop-gate/status.json` after each dispatch. Check the `pass` and `verdict` fields. Record the verdict in `slopGateLoop.verdicts` under the pass letter (for example `"verdicts": {"a": "fail", "b": "pass"}`), and append totalFindings to `slopGateLoop.iterationKillsA`, `iterationKillsB` or `iterationKillsC`:
+
+- every active pass verdict is `"pass"` → clear slopGateLoop from the manifest and go to step 6 (Grounder). Done with slop-gate.
+- any pass verdict is `"fail"` → enter the revision loop below after every active pass has written its notes artifacts.
+- status `"failed"` on any pass (agent crashed, not a verdict) → retry that pass 5 times at MINIMUM. sixth failure → mark chapter blocked, skip to next chapter.
 
 #### Revision loop
 
 Read max iterations from config.json field agents.slopGate.maxIterations (default 10).
 
-The revision loop alternates between one slophunter revision dispatch and two slop-gate re-audits (pass A, then pass B). Repeat until both passes pass or you run out of iterations.
+The revision loop alternates between one slophunter revision dispatch and one slop-gate re-audit per active pass (pass A, then pass B, then pass C if active). Repeat until every active pass passes or you run out of iterations.
 
 **File naming convention** — the loop creates numbered files. All paths are relative to .afternoon/chapters/CHAPTER/:
 
-| Iteration | Slophunter reads gate feedback from | Slophunter writes | Gate A re-audits | Gate B re-audits |
-|---|---|---|---|---|
-| 1 | slop-gate-notes-a.json + slop-gate-notes-b.json | v2-r1.md | v2-r1.md → slop-gate-notes-r1a.json | v2-r1.md → slop-gate-notes-r1b.json |
-| 2 | slop-gate-notes-r1a.json + slop-gate-notes-r1b.json | v2-r2.md | v2-r2.md → slop-gate-notes-r2a.json | v2-r2.md → slop-gate-notes-r2b.json |
-| 3 | slop-gate-notes-r2a.json + slop-gate-notes-r2b.json | v2-r3.md | v2-r3.md → slop-gate-notes-r3a.json | v2-r3.md → slop-gate-notes-r3b.json |
+| Iteration | Slophunter reads gate feedback from | Slophunter writes | Gate A re-audits | Gate B re-audits | Gate C re-audits |
+|---|---|---|---|---|---|
+| 1 | slop-gate-notes-a.json + slop-gate-notes-b.json + slop-gate-notes-c.json | v2-r1.md | v2-r1.md → slop-gate-notes-r1a.json | v2-r1.md → slop-gate-notes-r1b.json | v2-r1.md → slop-gate-notes-r1c.json |
+| 2 | slop-gate-notes-r1a.json + slop-gate-notes-r1b.json + slop-gate-notes-r1c.json | v2-r2.md | v2-r2.md → slop-gate-notes-r2a.json | v2-r2.md → slop-gate-notes-r2b.json | v2-r2.md → slop-gate-notes-r2c.json |
+| 3 | slop-gate-notes-r2a.json + slop-gate-notes-r2b.json + slop-gate-notes-r2c.json | v2-r3.md | v2-r3.md → slop-gate-notes-r3a.json | v2-r3.md → slop-gate-notes-r3b.json | v2-r3.md → slop-gate-notes-r3c.json |
 
-Pattern: iteration N reads both previous-pass notes files, writes `v2-rN.md`, then both passes re-audit that revision independently.
+Pattern: iteration N reads every active pass's previous notes file, writes `v2-rN.md`, then every active pass re-audits that revision independently. When pass C is not active, drop the C column and `feedbackPathC`.
 
 **For each iteration (1, 2, 3, ... up to max):**
 
-1. Update manifest: set `slopGateLoop.iteration` to the current number, `slopGateLoop.phase` to `"awaiting-revision"`, and store:
+1. Update manifest: set `slopGateLoop.iteration` to the current number, `slopGateLoop.phase` to `"awaiting-revision"`, reset `slopGateLoop.verdicts` to `{}`, and store:
    - `feedbackPathA`
    - `feedbackPathB`
+   - `feedbackPathC` (only when pass C is active)
    - `targetFile` (`v2-rN.md` for this iteration's re-audits)
 
 2. Dispatch afternoon-slophunter in revision mode:
    ```
-   prompt: "chapterId: CHAPTER, mode: revision, iteration: N, feedbackPathA: .afternoon/chapters/CHAPTER/[pass A feedback file from table], feedbackPathB: .afternoon/chapters/CHAPTER/[pass B feedback file from table]"
+   prompt: "chapterId: CHAPTER, mode: revision, iteration: N, feedbackPathA: .afternoon/chapters/CHAPTER/[pass A feedback file from table], feedbackPathB: .afternoon/chapters/CHAPTER/[pass B feedback file from table], feedbackPathC: .afternoon/chapters/CHAPTER/[pass C feedback file from table]"
    ```
+   Omit `feedbackPathC` when pass C is not active.
    Read slophunter status. If failed, retry five times. sixth failure → mark chapter blocked, exit loop.
 
 3. Update manifest: set `slopGateLoop.phase` to `"awaiting-reaudit-a"`.
@@ -147,13 +157,21 @@ Pattern: iteration N reads both previous-pass notes files, writes `v2-rN.md`, th
    ```
    Read gate status. Record totalFindings in manifest `slopGateLoop.iterationKillsB` array. If status is `"failed"`, retry pass B five times. Sixth failure → mark chapter blocked, exit loop.
 
-7. Check both gate verdicts:
-   - both `"pass"` → update manifest: set `slopGateLoop.phase` to `"awaiting-promote"`, then promote the passing revision to canonical:
+7. If pass C is active: update manifest: set `slopGateLoop.phase` to `"awaiting-reaudit-c"`, then dispatch afternoon-slop-gate pass C for re-audit:
+   ```
+   prompt: "chapterId: CHAPTER, pass: c, iteration: N, targetFile: v2-rN.md"
+   ```
+   Read gate status. Record totalFindings in manifest `slopGateLoop.iterationKillsC` array. If status is `"failed"`, retry pass C five times. Sixth failure → mark chapter blocked, exit loop.
+
+   After each re-audit in steps 4, 6 and 7, also record that pass's verdict in `slopGateLoop.verdicts`.
+
+8. Check every active pass verdict in `slopGateLoop.verdicts`. A pass with no recorded verdict counts as `"fail"`:
+   - all `"pass"` → update manifest: set `slopGateLoop.phase` to `"awaiting-promote"`, then promote the passing revision to canonical:
      `cp v2-rN.md v2.md` and `cp slophunter-revision-rN-notes.json slophunter-notes.json`
       (in the chapter directory). Clear slopGateLoop from manifest. Go to step 6 (Grounder).
-   - either `"fail"` → increment iteration, loop again.
+   - any `"fail"` → increment iteration, loop again.
 
-**If all iterations exhausted** and either pass still fails:
+**If all iterations exhausted** and any pass still fails:
 - Promote the latest revision anyway: cp the last v2-rN.md to v2.md and its notes to slophunter-notes.json.
 - Clear slopGateLoop from manifest.
 - Log warning in manifest: set slopGateExhausted to a message noting the chapter and iteration count.
@@ -303,12 +321,19 @@ If manifest.json exists with status "in-progress", you are resuming from a crash
 
 Read currentChapter and currentAgent from the manifest.
 
-**If slopGateLoop exists in the manifest**, you crashed mid-revision-loop:
+**If slopGateLoop exists in the manifest**, you crashed inside the slop-gate stage:
+- The active passes are `slopGateLoop.passes`. If it is missing (a loop started before pass C existed), use `["a","b"]`.
 - Read slopGateLoop.phase:
-   - "awaiting-revision" → re-dispatch the slophunter in revision mode using the iteration, feedbackPathA, and feedbackPathB from the loop state.
+   - "awaiting-audit-a", "awaiting-audit-b" or "awaiting-audit-c" → re-dispatch that pass's initial audit (`chapterId: CHAPTER, pass: X`), then the active passes after it, then route as in step 5.
+   - "awaiting-revision" → re-dispatch the slophunter in revision mode using the iteration, feedbackPathA, feedbackPathB, and (if present) feedbackPathC from the loop state.
    - "awaiting-reaudit-a" → re-dispatch the slop-gate using the iteration, `pass: a`, and targetFile from the loop state.
    - "awaiting-reaudit-b" → re-dispatch the slop-gate using the iteration, `pass: b`, and targetFile from the loop state.
+   - "awaiting-reaudit-c" → re-dispatch the slop-gate using the iteration, `pass: c`, and targetFile from the loop state.
+   - After a re-dispatched audit or re-audit, dispatch the active passes that come after it, then continue with step 8 (or step 5's routing at iteration 0).
    - "awaiting-promote" → do the file promotion (copy the passing revision to v2.md and its notes to slophunter-notes.json), clear slopGateLoop, go to step 6 (Grounder).
+- If `phase` is missing, infer the next step from the last manifest log entry for this chapter. After a slophunter entry, the next step is pass A's audit: the initial audit at iteration 0, or the re-audit of `v2-r{iteration}.md` after that. After a slop-gate entry for pass X, it is the next active pass after X, or step 8 when X is the last active pass.
+- If `feedbackPathA`, `feedbackPathB`, `feedbackPathC` or `targetFile` are missing, derive them from `iteration` with the file naming table.
+- Verdicts of passes that ran before the crash are in `slopGateLoop.verdicts`. A pass with no recorded verdict counts as `"fail"`, so the loop runs one more iteration rather than promoting prose no gate has passed.
 
 **If groundingGateLoop exists in the manifest**, you crashed mid-grounding-gate loop:
 - Read groundingGateLoop.phase:

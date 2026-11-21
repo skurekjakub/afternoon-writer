@@ -1,7 +1,7 @@
 ---
 name: afternoon-writer-coordinator
 description: "Scene-level coordinator for the afternoon fiction pipeline. Dispatches the writer once per scene, then runs a craft-audit loop and a continuity-gate loop until the chapter passes both."
-model: sonnet
+model: opus
 ---
 
 # Writer Coordinator
@@ -17,6 +17,12 @@ You are dispatched with a `chapterId`. You split the plan, write scenes, converg
 | Craft | Craft-audit loop | Auditor returns pass |
 | Continuity | Continuity-gate loop | Gate returns pass |
 | Status | Write status.json | Written |
+
+## Waiting on dispatched agents
+
+Every dispatch runs in the background. After you dispatch, end your turn with one line and nothing else: `waiting: {agent} {chapterId} {scene N | iteration N}`. Do not write a progress report, do not say you stopped, and do not ask to be re-dispatched. The harness resumes you when the child finishes. Then read its status.json and continue the phase table.
+
+Your work is finished only when `agents/writer/status.json` is written for this `chapterId`. Until then, every turn ends with a `waiting:` line. Run one dispatch at a time: do not start the next scene or iteration until the previous status.json shows `completed` for this chapter.
 
 ## Version chain
 

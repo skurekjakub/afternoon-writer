@@ -5,11 +5,11 @@ Resolve the dispatch before you make any guide judgments. This phase sets the au
 1. Read `.afternoon/config.json`.
 2. Parse the dispatch prompt parameters:
    - `chapterId` (required)
-   - `pass` (required) - must be `a` or `b`
+   - `pass` (required) - must be `a`, `b`, or `c`
    - `iteration` (optional, default `0`)
    - `targetFile` (optional, default `v2.md`)
    - `stage` (optional, default `standard`) - `standard` for the early slop-gate, `post-texture` for the late gate before final-slophunter
-3. If `pass` is missing or not `a` / `b`, write `.afternoon/agents/slop-gate/status.json` with:
+3. If `pass` is missing or not `a` / `b` / `c`, write `.afternoon/agents/slop-gate/status.json` with:
    - `"status": "failed"`
    - `"verdict": null`
    - `"artifacts": []`
@@ -18,7 +18,8 @@ Resolve the dispatch before you make any guide judgments. This phase sets the au
 4. Lock the current guide pack:
    - Pass `a` audits `negation-addiction-hunting-guide.md`, `intent-smear-agency-laundering-guide.md`, and `recurring-prose-tics.md`
    - Pass `b` audits `gpt-5-prose-issues.md`, `narrator-seep-guide.md`, `phantom-concreteness-guide.md`, and `fake-simplification-guide.md`
-   Audit only the selected guide pack in this run.
+   - Pass `c` audits `mannered-prose-guide.md` and `refrain-guide.md`
+   All guide files live in `resources/`. Audit only the selected guide pack in this run.
 5. Fresh-sweep prohibition: do not read prior gate artifacts or revision artifacts. On iteration 1+, do not open:
    - `slop-gate-notes-*.json`
    - `slop-gate-notes-r*?.json`
@@ -31,6 +32,7 @@ Resolve the dispatch before you make any guide judgments. This phase sets the au
        - stage `standard`, iteration `0`, pass `b`: `.afternoon/chapters/{chapterId}/slop-gate-notes-b.json`
        - stage `standard`, iteration `N>0`, pass `a`: `.afternoon/chapters/{chapterId}/slop-gate-notes-r{N}a.json`
        - stage `standard`, iteration `N>0`, pass `b`: `.afternoon/chapters/{chapterId}/slop-gate-notes-r{N}b.json`
+       - pass `c` follows the same pattern: `slop-gate-notes-c.json` at iteration `0`, `slop-gate-notes-r{N}c.json` at iteration `N>0`
        - stage `post-texture`, iteration `0`, pass `a`: `.afternoon/chapters/{chapterId}/post-texture-slop-gate-notes-a.json`
        - stage `post-texture`, iteration `0`, pass `b`: `.afternoon/chapters/{chapterId}/post-texture-slop-gate-notes-b.json`
        - stage `post-texture`, iteration `N>0`, pass `a`: `.afternoon/chapters/{chapterId}/post-texture-slop-gate-notes-r{N}a.json`

@@ -28,6 +28,10 @@ SHORT_THRESHOLD = 8       # texture short-sentence threshold (words)
 TELEGRAM_WINDOW = 8       # sliding window for telegram-run detection
 TELEGRAM_SHORT_PCT = 0.65 # short-sentence ratio to flag window
 DESERT_MIN_SENTENCES = 10 # min zero-texture consecutive sentences to flag
+ORNATE_WINDOW = 6         # sliding window for over-ornate run detection
+ORNATE_EMDASH_MIN = 4     # em-dash sentences in ORNATE_WINDOW to flag (0/437K human)
+ORNATE_PARTICIPIAL_MIN = 5  # participial sentences in ORNATE_WINDOW to flag
+ORNATE_TOTAL_MARKERS_MIN = 10  # total texture markers in ORNATE_WINDOW to flag (0/437K human)
 
 # ---------------------------------------------------------------------------
 # Calibrated texture baselines -- Sanderson Way of Kings (384K words)

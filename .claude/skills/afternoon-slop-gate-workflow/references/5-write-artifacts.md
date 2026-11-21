@@ -31,6 +31,7 @@ Rules:
   - `rhythmMetrics` — key rhythm metrics + deltas from style-guide targets (comma_period_ratio, sentence_length_cv, one_sentence_paragraph_pct). Note any metrics outside their `range` as "structural rhythm concerns"
   - `textureMetrics` — the full texture verdict, verdict_reasons, interpretation, and flagged passage counts (telegram_run count, texture_desert count). If verdict is "below_target", note "structural texture deficit"
   - `analyticHints.slopChecker` — violation summary (total_violations, over-cap categories)
+  - `analyticHints.manneredChecker` (pass C only) — the mannered checker's `summary`, the patterns and codes over cap with their calibrated caps, the refrain families over budget, and whether it recalibrated this run
 - pass-with-warnings still includes the remaining MILD findings in the notes JSON for downstream editors
 
 ## Scratchpad markdown

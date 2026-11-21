@@ -18,7 +18,7 @@ TEXTURE METRICS (structural sentence complexity):
 
 Usage:
     python3 tools/rhythm_scorer/score.py --json path/to/draft.md
-    python3 tools/rhythm_scorer/score.py --summary path/to/draft.md
+    python3 tools/rhythm_scorer/score.py --summary path/to/draft.md   (the default)
     python3 tools/rhythm_scorer/score.py --compare path/to/draft.md --target path/to/source.md
 """
 
@@ -31,18 +31,35 @@ import sys
 if __name__ == "__main__" and __package__ is None:
     sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 
+from tools.prose_core.text import drop_headers, read_text
 from tools.rhythm_scorer.analyze import analyze_rhythm, report_from_json_targets
 from tools.rhythm_scorer.constants import DEFAULT_TEXTURE_BASELINES
 from tools.rhythm_scorer.formatters import format_comparison, format_json, format_summary
+
+
+def load_texture_baselines(path: str | None) -> dict:
+    """textureMetrics from a JSON file such as style-guide.json, or the built-in defaults."""
+    if not path:
+        return DEFAULT_TEXTURE_BASELINES
+    with open(path, encoding="utf-8") as f:
+        return json.load(f).get("textureMetrics", DEFAULT_TEXTURE_BASELINES)
+
+
+def score_file(path: str, baselines: str | None = None) -> dict:
+    """The --json report for one file, as a dict."""
+    from tools.rhythm_scorer.formatters import report_dict
+
+    report = analyze_rhythm(drop_headers(read_text(path)), texture_baselines=load_texture_baselines(baselines))
+    return report_dict(report, path)
 
 
 def main():
     parser = argparse.ArgumentParser(
         description="Rhythm & texture scorer: prose rhythm and structural complexity analysis"
     )
-    group = parser.add_mutually_exclusive_group(required=True)
+    group = parser.add_mutually_exclusive_group()
     group.add_argument("--json", action="store_true", help="Output JSON report")
-    group.add_argument("--summary", action="store_true", help="Output human-readable summary")
+    group.add_argument("--summary", action="store_true", help="Output human-readable summary (default)")
     group.add_argument("--compare", action="store_true", help="Compare draft vs target")
     parser.add_argument("file", help="Path to prose file")
     parser.add_argument("--target", help="Target file for comparison mode")
@@ -59,44 +76,26 @@ def main():
         print(f"File not found: {args.file}", file=sys.stderr)
         sys.exit(1)
 
-    # Load texture baselines
-    texture_bl = DEFAULT_TEXTURE_BASELINES
-    if args.baselines:
-        with open(args.baselines, encoding="utf-8") as f:
-            loaded = json.load(f)
-            texture_bl = loaded.get("textureMetrics", texture_bl)
-    elif args.target_json:
-        # Fall back to pulling textureMetrics from target-json if the user passed one (e.g. style-guide.json)
-        with open(args.target_json, encoding="utf-8") as f:
-            loaded = json.load(f)
-            if "textureMetrics" in loaded:
-                texture_bl = loaded["textureMetrics"]
+    texture_bl = load_texture_baselines(args.baselines or args.target_json)
 
-    with open(args.file, encoding="utf-8") as f:
-        text = f.read()
-
-    # Strip markdown headers from analysis
-    text_lines = [ln for ln in text.split('\n') if not ln.startswith('#')]
-    text = '\n'.join(text_lines)
+    # Markdown headers are not prose
+    text = drop_headers(read_text(args.file))
 
     report = analyze_rhythm(text, texture_baselines=texture_bl)
 
     if args.json:
         print(format_json(report, args.file))
-    elif args.summary:
-        print(format_summary(report, args.file))
     elif args.compare:
         if args.target_json:
             target_report = report_from_json_targets(args.target_json)
             target_label = f"{args.target_json} (stored targets)"
         else:
-            with open(args.target, encoding="utf-8") as f:
-                target_text = f.read()
-            target_text_lines = [ln for ln in target_text.split('\n') if not ln.startswith('#')]
-            target_text = '\n'.join(target_text_lines)
+            target_text = drop_headers(read_text(args.target))
             target_report = analyze_rhythm(target_text, texture_baselines=texture_bl)
             target_label = args.target
         print(format_comparison(report, target_report, args.file, target_label))
+    else:
+        print(format_summary(report, args.file))
 
 
 if __name__ == "__main__":
