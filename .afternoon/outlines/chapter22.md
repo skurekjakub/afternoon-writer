@@ -1,10 +1,10 @@
 # Chapter 22: The Throne Room
 
 **POV:** Jaina Proudmoore (limited third, absolute)
-**When:** Directly follows Chapter 21. Opens at the palace service entrance in the last hour before the king's noon homecoming audience for Arthas and closes in custody after the Imperial Chamber fight.
+**When:** Directly follows Chapter 21. Opens inside the palace service passages in the last hour before the king's noon homecoming audience for Arthas and closes in custody after the Imperial Chamber fight.
 **Where:** Capital City palace service passages, then the Imperial Chamber.
-**Travel:** Stealth movement on foot through service corridors, live combat across the Imperial Chamber, then escorted arrest on foot into custody.
-**Characters:** Jaina, Sylvanas, Cyndia, three Farstrider rangers, Arthas, Terenas, Uther briefly, Antonidas and two Kirin Tor magi at the margins, Captain Gavren Marsh and the palace guards after.
+**Travel:** Stealth movement on foot through kitchen and service corridors, live combat across the Imperial Chamber, then escorted arrest on foot into custody.
+**Characters:** Jaina, Sylvanas, Cyndia, three Farstrider rangers, Arthas, Terenas, Uther briefly, Antonidas and two Kirin Tor magi at the margins, Captain Gavren Marsh and palace guards after.
 **Goal:** Reach Frostmourne, buy three to five seconds, and break the blade's hold before Arthas and the room around him finish the kingdom.
 
 ## References
@@ -13,190 +13,186 @@
 - **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Arthas profile](stories/the-plague-road/characters/arthas.md), [Uther profile](stories/the-plague-road/characters/uther.md)
 
 **The line's starting position:**
-- The anti-blade framework is real: frost for rhythm, arcane for breach, fire for transformation.
-- Sylvanas is the combat partner who has to buy the seconds the cast needs.
-- Antonidas and the Kirin Tor pair got them to a side service lane and cannot come farther without breaking stealth.
-- Arthas is already in the palace, and Uther still cannot reach the king by formal means.
-- The king receives Arthas at a public homecoming audience at noon. The court will mass at the bronze doors, and Arthas's men hold the inner posts.
-- Jaina is nearly spent, but her widened sensitivity can still track the blade through walls.
-- Cyndia and the rangers have to hold the way back out because the room itself is all the plan can afford.
+- The three-school cast is set: frost for rhythm, arcane for breach, fire to burn out the binding from inside.
+- Sylvanas claimed the sword-range seconds needed to hold Arthas while Jaina casts.
+- Antonidas and two Kirin Tor magi softened the kitchen service ward and stay outside so stealth holds.
+- Arthas has held the palace for four days; his men stand on the inner posts, and Uther is still shut out from Terenas by formal barriers.
+- The king receives Arthas at a public homecoming audience at noon, with the court massed outside the bronze doors.
+- Jaina is nearly spent, and her widened sensitivity tracks the blade straight through stone walls.
+- Cyndia and the rangers split off to hold the retreat corridors because only Jaina and Sylvanas can afford to enter the chamber.
 
 **Still in the dark about:**
-- Whether Terenas is still alive when they reach the chamber.
-- Whether Uther or Antonidas crosses their path again in time to matter.
-- Whether the seam holds under live pressure the way it held in the cave.
-- What survival looks like politically if the spell works at all.
+- Whether Terenas is still alive when they reach the throne room.
+- Whether Uther or Antonidas reaches the chamber in time to witness anything.
+- Whether the oscillation seam holds under live combat pressure the way it held in the cavern.
+- What happens politically if the cast actually works.
 
 **Hold back:**
-- No clean or total solution. The best outcome is still ugly.
-- No guarantee that any outsider sees the murder itself.
+- No clean or total victory. The best outcome is still catastrophic.
+- No guarantee that any outsider witnesses the murder itself.
 - No promise that breaking Arthas's bearer-bond frees the souls in Frostmourne or cuts the deeper tether north.
 - No interior access to Sylvanas or Arthas.
-- No planned arrow. Putting the fire into the arrowhead is improvised in the moment, and neither woman names it.
+- No planned arrow. Closing her bare hand around Sylvanas's arrowhead to pour fire into the iron is improvised in the instant Jaina runs dry, and neither woman names it.
 
 **End of chapter state:**
-- Terenas dies at the homecoming audience before Jaina and Sylvanas can stop the murder.
-- Jaina gets frost and arcane through the seam and has nothing left for the fire. She puts the last of it into Sylvanas's arrowhead. Sylvanas's arrow carries the fire through the seam, burns out Frostmourne's bearer-bond from the inside, and kills Arthas. The kill is the spell.
-- The seam becomes a permanent flaw, but the deeper tether to something in the far north they cannot name is not cut.
-- Arthas says "Jaina" once in the room.
-- Frostmourne remains active, unheld, and full of trapped souls after the victory.
-- Antonidas and the Kirin Tor pair never reach the chamber in time to witness anything useful.
-- Once the blade lets go, the two sentries the pair killed in the corridor and the two guards who held the bronze doors look like ordinary dead palace guardsmen. Nobody can see they were undead.
-- Captain Gavren Marsh is first through the bronze doors and sees the room exactly as it looks.
-- The room looks catastrophic to every late witness.
-- Palace guards arrest the women who saved the kingdom because the evidence they actually see points the wrong way.
+- Terenas dies at the homecoming audience before Jaina and Sylvanas can stop the strike, even though Sylvanas shoots specifically for Arthas's sword-wrist/hand to break his grip.
+- Jaina drives frost and arcane through the seam—drawing one single `"Jaina"` from Arthas—and hits empty on fire. Her bare hand closes around Sylvanas's iron arrowhead, blistering her palm as she pours her last fire straight into the iron.
+- Sylvanas looses the short recurve; the amber-lit arrow drives through the open seam, burns out Frostmourne's bearer-channel from inside, and kills Arthas. The kill is the spell.
+- The seam becomes a permanent flaw, while the deeper tether north remains uncut and Frostmourne stays active, unheld, and packed with trapped souls including Terenas.
+- Antonidas and his magi never reach the chamber in time to witness anything.
+- When the blade lets go, the two corridor sentries and the two bronze-door guards collapse looking like ordinary murdered palace guardsmen.
+- Captain Gavren Marsh is first through the bronze doors, sees two dead royals, four dead guardsmen, a frozen room, and two exhausted women near the bodies, arrests them, and seizes their kit (grimoire and Kel'Thuzad's journals).
+- The third Farstrider ranger posted near the outer service landing slips away cleanly as guards flood the wing and carries word out to Lor'themar.
 
 ---
 
 ## Character Arcs
 
 ### Jaina
-- The framework is real, but paper truth means nothing until it survives a live room.
-- She opens still wanting the spell to produce a clean answer if she performs it cleanly enough.
-- The chamber forces her to accept a broken kind of save: king dead, souls trapped, blade still active, deeper tether uncut.
-- By the end, Jaina has opened the seam and could not finish the spell alone. The fire went through on Sylvanas's arrow. She stays conscious long enough to see what that bought.
+- Paper truth means nothing until it survives a live room.
+- She opens still hoping clean execution can save the king as well as break the blade.
+- The chamber strips away every clean outcome: king dead, souls trapped, blade active, tether uncut, and her own reserves hitting zero before the third school lands.
+- Reaching out bare-handed to burn her last fire directly into Sylvanas's iron arrowhead is the purest physical trust she has left; she stays conscious just long enough to watch the kill finish the spell and turn into an arrest.
 
 ### Sylvanas
-- She enters the room already named for the hardest part of the plan.
-- Jaina can only read the price through movement, wound timing, positioning, and the way Sylvanas keeps stepping where Frostmourne has to answer first.
-- The chapter strips away any abstract version of partnership work. Sylvanas has to stand in sword range and hold it there.
-- By the end, her arrow carries Jaina's last fire through the seam, and the kill is the spell.
+- She enters already named for the hardest five seconds in the room.
+- Jaina reads the bill Sylvanas pays only through footwork, cold blood running down her forearm, taking a real wound to buy a second, and never stepping back from sword range.
+- When Jaina's bare palm closes over her iron arrowhead, Sylvanas holds the draw dead steady without flinching and puts the fire straight through the seam on a borrowed short recurve.
 
 ### Arthas
-- He enters not as a reachable remnant of the prince Jaina knew but as Frostmourne's current answer to the room.
-- Jaina reads him through resonance, remembered habits, and the visible absence of hesitation.
-- Do not give him interior justification or tragedy language the scene has not earned.
-- He says "Jaina" once, when the arcane breaches the seam. In Ch15 he called her Lady Proudmoore; in the Ch20 cave he only looked at her. One line, no more.
-- By the end, even his death is ugly and incomplete because the blade outlasts him.
+- He enters not as a reachable remnant of the prince Jaina knew, but as Frostmourne's current hand in the room.
+- Jaina reads him through resonance, remembered posture, and the total absence of human hesitation.
+- Do not grant him interior tragedy speeches.
+- He speaks `"Jaina"` once—in the voice he had before Stratholme—when the arcane punches through the seam. In Chapter 15 he called her Lady Proudmoore; in Chapter 20 he only looked at her. One word, no more.
+- Even his death is ugly and abrupt, dropping like a severed puppet while the sword outlives him.
 
 ### Partnership
-- The pair opens at full compression. Every shared tell and learned timing is about to be spent in one room.
-- This chapter proves the plan can work and proves that working does not mean clean.
-- Let the cast, the wound timing, and the arrowhead in Jaina's fist carry the change.
-- Do not narrate perfect trust or noble sacrifice ahead of proof.
+- Every shared tell and learned beat across twenty-one chapters compresses into one room.
+- Jaina's bare hand closing around Sylvanas's iron arrowhead—skin blistering on hot iron between them while Sylvanas holds full draw—is the purest unspoken intimacy of their bond in combat.
+- Do not narrate devotion or sacrifice ahead of the action; let the wound timing and the scorched palm carry it.
 
 ---
 
 ## Cast and handoff rules
 
-- **Cyndia and the rangers:** Hold the service-passage exits and do not enter the throne-room core unless collapse forces it. Their position outside the room matters once the arrests begin.
-- **Antonidas and two Kirin Tor magi:** Present only at the palace margins. They can keep one side lane from closing and still miss the chamber completely.
-- **Uther:** In the palace and certain something is wrong, but never in the room when the king dies. The near miss has to stay sharp.
-- **Undead royal guard:** Palace soldiers at a glance, blade-echoes underneath. They should feel like proof Arthas already colonized the building from the inside.
-- **Captain Gavren Marsh:** Palace guard captain, waiting with the court outside the bronze doors for the audience. First through the doors. Honest and competent. He will later report exactly what the room looked like, and that is what makes him dangerous.
-- **Palace guards:** Living, frightened, and late. They read the room from what they actually see, not from what truly happened.
+- **Cyndia and the rangers:** Split cleanly outside the chamber: Cyndia and two rangers hold the deeper retreat route and service exit, while the third Farstrider ranger takes watch near the outer service landing—planting her clean escape to warn Lor'themar when the palace locks down.
+- **Antonidas and two Kirin Tor magi:** Outer palace service arch only. They hold one ward soft and miss the throne room entirely.
+- **Uther:** Inside the palace and sure something is rotten, sent away to rally the Silver Hand minutes before the murder so the near miss stays razor sharp.
+- **Undead royal guard:** Palace guardsmen at a glance, Frostmourne echoes underneath—until the blade drops them and erases every trace of undeath.
+- **Captain Gavren Marsh:** Honest, competent guard captain waiting outside the bronze doors with the court. First through the doors, reporting exactly what his eyes see.
+- **Palace guards:** Living, shocked, and late. They bind what the room puts in front of them.
 
-**Next chapter starts:** Chapter 23 opens in dungeon cells and tribunal procedure, with the blade in custody above them and no useful witness to the murder itself.
+**Next chapter starts:** Chapter 23 opens days later in Capital City's dungeon cells and tribunal hall, with Frostmourne locked above them and no eyewitness to the murder.
 
 ---
 
 ## Scene 1: The Infiltration
 
-**The action:** The side lane holds long enough to get Jaina and Sylvanas to the chamber, the palace proves it is already compromised, and Uther misses the room by minutes.
+**The action:** Cyndia's team splits cleanly to hold the back stairs and outer landing, undead corridor sentries prove Arthas already colonized the palace, and Uther misses the chamber by minutes.
 **Cast:** Jaina, Sylvanas, Cyndia, three Farstrider rangers, Uther.
-**Starting point:** The plan exists, the palace is open, and the room ahead matters more than anything outside it.
+**Starting point:** The service door shut behind them, the noon bell is under an hour away, and the blade's pull thickens through the stone.
 
 ### Beat 1
-- The service door gets them inside cleanly, and the split with Cyndia's team works, but the moment Jaina steps into the passages the blade's proximity turns bodily.
-- In the last hour before the noon audience, peacetime habit still leaves the service lanes light, Cyndia takes the retreat route with two rangers while one stays closer to the pair, and indoors Jaina's bread-taste spikes until it is almost impossible to ignore.
-- They do not know whether the split holds if the room collapses or how many dead nodes sit between them and the chamber.
-- Ground the passage: kitchen grease and lye in tight stone corridors, door wood worn smooth by years of trays and carts, Cyndia's last sweep before she vanishes around the corner.
-- They move from the palace margin into the part Arthas already owns.
+- Inside the kitchen corridors, peacetime habit leaves the back passages light during the hour before the noon audience. They execute the split cleanly: Cyndia and two rangers drop back to hold the deeper retreat corridor and service exit, while the **third Farstrider ranger** takes point near the **outer service landing** overlooking the courtyard stairs so someone has eyes on the palace perimeter and an open bolt-hole if the wing seals. The moment Jaina and Sylvanas turn up the inner passage alone, Frostmourne's proximity hits Jaina bodily, spiking the bread-taste until she can barely swallow.
+- Positioning the third ranger at the outer service landing keeps the retreat watched and cleanly enables her escape to Lor'themar in Beat 11 without forcing a miracle out of the throne room.
+- They do not know whether the back stairs hold if the fight turns loud, or how many dead sentries stand between them and the dais.
+- Ground the split: kitchen grease and lye clinging to tight stone corridors, service doors rubbed smooth by serving trays, the third ranger melting into the shadow of the outer landing rail while Cyndia gives Jaina one last silent check before disappearing around the bend.
+- Jaina and Sylvanas climb alone into the wing Arthas already owns.
 
 ### Beat 2
-- The first throne sentries look alive until Jaina's deeper sense catches the blade in them. She and Sylvanas kill both before either body can make a sound.
-- Jaina can pick out blade-echoes before sight fully does, Sylvanas reads the same wrongness from motion and stillness alone, and Arthas already placed undead sentries inside the king's own house while living staff continue routine work nearby.
-- They do not know whether these guards are isolated or part of a responsive chain or whether silence still buys them surprise once the chamber opens.
-- Ground the sentries: halberds held too still in torchlight, armor and flesh hitting stone without any human cry, bread-taste roaring with the throne-room door only paces away.
-- The palace stops feeling threatened and starts feeling taken.
+- Two throne-wing sentries look like ordinary palace halberdiers until Jaina catches Frostmourne's echo ringing inside their chests. Sylvanas reads the same dead stillness off their posture at the same instant. Together they drop both sentries before a single shout leaves their throats.
+- Arthas already posted undead guards inside his father's own hallways while living servants set tables two corridors over.
+- They do not know whether those two sentries were isolated pickets or linked to Arthas's awareness inside the chamber.
+- Ground the kills: halberd shafts held too rigidly in torchlight, iron plate and flesh hitting flagstone without a human groan, bread-taste roaring in Jaina's throat with the throne-room service door paces ahead.
+- They step past two silent bodies knowing the palace is already taken from inside.
 
 ### Beat 3
-- Uther reaches them at the worst possible useful moment. He confirms the same corruption, but confirmation is worthless now if it costs them the room.
-- Uther feels the wrongness without Jaina having to explain it, he is already a discarded warning inside a palace that should have listened days ago, and Jaina and Sylvanas go on while Uther turns to gather the Silver Hand.
-- They do not know whether Uther returns in time to witness anything that matters or whether paladins arriving after another feeding change anything in the chamber.
-- Ground the near miss: plate humming faintly through corridor stone, Uther's voice rough from repeated failed audiences, Jaina using the bread-taste as the only clock that matters.
-- The best witness in the kingdom goes the wrong direction because the room cannot wait.
+- Uther rounds the corner at the worst possible useful moment. One glance at their faces and the cold crawling down the corridor tells him the palace is compromised—he needs no speech from Jaina to feel the rot. He is already a sidelined paladin whose warnings the court ignored for days. Waiting for him to rally the Silver Hand means losing the noon bell; bringing him alone risks the clock Jaina's teeth are counting. Jaina and Sylvanas push straight for the service door while Uther turns hard the other way to bring his paladins.
+- The single witness the kingdom would trust without question marches away from the room because the bread-taste says there are no minutes left to spend.
+- They do not know whether Uther gets back in time to witness the murder, or only the bodies afterward.
+- Ground the near miss: warplate humming faintly against cold stone, Uther's voice scraped raw from days of barred doors, Jaina shaking her head once as the pulse spikes behind the wall.
+- Uther strides back toward the barracks while Jaina and Sylvanas reach the throne-room service latch.
 - Inside: the one man the court might believe, and they are sending him the other way; wait for him; no, the bread-taste says no; wants a witness, and knows that wanting one right now is vanity; or sense, and there is no time to sort which
 
 ---
 
 ## Scene 2: The Murder
 
-**The action:** The room opens, the murder happens, and the first exchange spends their concealment.
-**Cast:** Jaina, Sylvanas, Arthas, Terenas, two undead throne guards, living guards at a distance.
-**Starting point:** The noon bell is ringing, the court is massed outside the bronze doors, and the pair are at the service entrance with no credible witness in the room.
+**The action:** They slip behind the throne-room columns as the noon audience begins, Sylvanas shoots for Arthas's sword-wrist a beat too late, and Terenas dies on the marble.
+**Cast:** Jaina, Sylvanas, Arthas, Terenas, two undead bronze-door guards, living court massed outside the doors.
+**Starting point:** The noon bell starts tolling, the court crowds outside the closed bronze doors, and Jaina and Sylvanas reach cover with no witness in sight.
 
 ### Beat 4
-- They make it to curtain and column cover just in time for Jaina to confirm the seam is where it should be. The audience has begun the way Arthas asked for it: the king alone on his throne, the prince kneeling, and the court held behind the bronze doors until he has knelt. The nosebleed starts as soon as the chamber fully opens to her senses.
-- Terenas is still alive when they reach the chamber, two of Arthas's undead guards hold the bronze doors shut from inside, Frostmourne's seam is exactly where Jaina read it in the cave, and the room is as bad for this plan as Sylvanas expected: wide, ceremonial, echoing, and short on forgiving cover.
-- They do not know whether they can move before Arthas kills the king or whether Jaina can cast at all once the blade starts broadcasting at full strength.
-- Ground the room: white sun through the octagonal window, Lordaeron's seal laid in polished marble, warm blood from Jaina's first nosebleed under the blade's full signal.
-- The room goes live before the pair are ready.
+- They slip behind curtain and marble column cover just as the chamber opens to Jaina's full sense—and her nose starts bleeding immediately. The audience runs exactly as Arthas arranged it: Terenas alone on the dais, Arthas kneeling before him, the court held outside behind the shut bronze doors by two of Arthas's undead guards until the prince finishes kneeling. Jaina checks the blade's field and confirms the oscillation seam sits right where she heard it in the cavern.
+- Terenas is still alive for a few breaths, the seam holds true, and the ceremonial hall is a nightmare for Sylvanas's part of the plan: broad polished marble, echoing ceiling, and almost no forgiving cover.
+- They do not know whether they can break Arthas's strike before he reaches the king, or whether Jaina can hold a cast inside the blade's full broadcast.
+- Ground the room: pale noon light pouring through the octagonal window onto Lordaeron's inlaid marble seal, two motionless guards braced against the inner bronze doors, hot blood sliding off Jaina's lip as Frostmourne's pulse slams into her skull.
+- Arthas rises from his knee before either woman can cross the marble.
 
 ### Beat 5
-- They are one beat too late. Sylvanas knows from Chapter 20 that an arrow will not kill him. She shoots anyway, at his sword arm, to pull his attention off Terenas. Arthas kills Terenas without hesitation.
-- Arthas murders Terenas with no visible human struggle, Frostmourne feeds visibly through the killing, and the arrow gives away Sylvanas's position at once. She chose that when she drew.
-- They do not know whether any conventional damage matters now except as distraction or how much stronger the blade becomes after feeding on a king.
-- Ground the failure: crown ringing away across marble, the wound in Arthas's sword arm closing instead of behaving like a wound, Terenas asks, "What is this? What are you doing, my son?" and Arthas answers, "Succeeding you, Father."
-- The king dies, concealment dies with him, and the real plan has to start.
+- They are one heartbeat too late. Knowing from Chapter 20 that a body shot will not drop him, Sylvanas aims specifically for Arthas's **sword-wrist and hand** to break his grip off Terenas and yank his eyes off the throne. The arrow strikes true—flesh closing over the wound instead of parting his fingers—and gives away Sylvanas's column at once. Arthas does not hesitate. As Frostmourne rises and drives home, Terenas cries, `"What is this? What are you doing, my son?"` Arthas answers coldly, `"Succeeding you, Father."`
+- Terenas dies without a flicker of struggle in his son's face, Frostmourne drinks visibly from the kill, and Sylvanas spent their concealment knowingly the instant she loosed.
+- They do not know how much stronger the blade just grew from feeding on a king, or whether the seam still opens inside that surge.
+- Ground the murder: the royal crown spinning away with a long brass ring across white marble, the wound in Arthas's sword-wrist sealing around cold flesh without slowing his grip, Terenas collapsing across the throne steps while Sylvanas steps out from behind the pillar in plain sight.
+- The king hits the marble dead, concealment is gone, and Arthas turns toward Sylvanas.
 
 ---
 
 ## Scene 3: The Fight
 
-**The action:** Sylvanas buys the seconds, Jaina forces the seam open, the plan breaks at the third school, and Sylvanas's arrow carries the fire Jaina cannot cast.
+**The action:** Sylvanas holds sword range through cold and blood, Jaina cracks the seam and hits empty on fire, and Jaina's bare hand burns fire into Sylvanas's iron arrowhead to finish the spell and kill Arthas.
 **Cast:** Jaina, Sylvanas, Arthas.
-**Starting point:** The king is dead, concealment is gone, and the only remaining answer is the plan itself.
+**Starting point:** Terenas is dead on the dais, Arthas is moving on Sylvanas, and the three-school cast is the only answer left in the room.
 
 ### Beat 6
-- Sylvanas takes Arthas head-on to make Jaina a lane. The chamber gives her almost no terrain, and Frostmourne starts draining her the moment she closes.
-- Bow work can only steer Arthas now rather than kill him, the columns matter because the open floor gives Sylvanas nothing else, and the consuming field pulls warmth and speed out of her in real time.
-- They do not know whether the bought window lasts long enough for all three schools or what happens if Sylvanas's speed margin goes before Jaina reaches the seam.
-- Ground the exchange: column stone cracking under Frostmourne's impact, cold thickening across the floor in a visible radius, blood on Sylvanas's forearm staying cold as it runs.
-- The window begins, and it is burning through the body Jaina needs.
+- Sylvanas steps straight into the open floor to draw Arthas away from Jaina's casting space. The chamber offers only tall marble columns; arrows can steer Arthas's steps now, not kill him. The instant she closes to sword range, Frostmourne's consuming field drags heat and speed straight out of her limbs.
+- Sylvanas has to stay close enough to keep Arthas locked on her while bleeding warmth every second, buying Jaina the breath to tune frost to the blade's cycle.
+- They do not know whether Sylvanas's speed lasts five seconds inside that cold, or whether Jaina can match the cycle after the blade just fed.
+- Ground the clash: fluted marble cracking into powder under Frostmourne's swing, rime spreading across the floor tiles in a pale ring around Arthas's boots, dark blood running down Sylvanas's slashed forearm already turning cold on her skin.
+- The seconds begin, paid directly out of Sylvanas's body.
 
 ### Beat 7
-- Jaina keeps the frost synchronization steady long enough for the seam to hold under live combat, but Sylvanas pays for that time with a real wound.
-- Jaina can tune herself to the cycle under pressure rather than only afterward in analysis, Sylvanas taking the hit almost breaks the cast before it truly starts, and the weakest lane in the field sits behind Arthas exactly where the plan needed it.
-- They do not know whether Jaina has enough left to finish the sequence or whether Sylvanas can keep Arthas committed for the remaining seconds.
-- Ground the hold: Jaina's cold overlay distinct from Frostmourne's cold, Sylvanas on one knee and up again before the opening closes, the seam pulsing like a gap between hammer blows.
-- The seam stops being theory and becomes something Jaina can actually strike.
+- Jaina locks her frost cast onto Frostmourne's rhythm and holds it steady under live swings, catching the seam as it cycles open right behind Arthas's guard. Holding him committed costs Sylvanas a hard blow that knocks her onto one knee—she drives herself straight back up into his reach before the opening can collapse.
+- Jaina proves she can tune the cycle live rather than only in hindsight, and Sylvanas refuses to surrender an inch of floor even wounded.
+- They do not know whether Jaina has enough left to punch arcane and fire through before Sylvanas drops.
+- Ground the hold: Jaina's sharp, clean mage-frost flickering distinct against Frostmourne's dead cold, Sylvanas's boot skidding on ice as she rises from one knee straight back inside his arc, the seam throbbing open like a gap between hammer blows.
+- The seam holds open wide enough to strike.
 
 ### Beat 8
-- Jaina sends the arcane across the seam, and it breaches. Arthas feels it. He turns his head from Sylvanas to Jaina and says, "Jaina." It is the only time he says her name in the room. She reaches for the fire, and there is nothing left to reach with.
-- Frost and arcane are through and the seam is open for this cycle, but Jaina has no fire left to send. Sylvanas is within Jaina's reach, an arrow nocked on the short recurve. Jaina closes her hand around the arrowhead and puts the last of the fire into the iron. Nobody planned it, and neither of them says a word.
-- They do not know whether fire carried in iron can still change the binding from inside or whether the seam stays open long enough for the shot.
-- Ground the break: arcane force punching colorless through the gap, Arthas saying her name in the voice he had before Stratholme, the arrowhead going dull red in Jaina's fist while the skin of her palm burns on it.
-- The plan breaks at the third school, and the fire goes into the arrow.
+- Jaina drives the arcane straight across the seam, and it breaches cleanly. Arthas feels the cut inside the blade. His head snaps away from Sylvanas straight to Jaina, and he says one word in the voice he had before Stratholme: `"Jaina"`. She reaches inside herself for the fire to finish the third school—and hits nothing. Empty. Sylvanas is right at her side, short recurve half-drawn with a plain iron arrowhead nocked. Without a word between them, Jaina reaches out and closes her **bare hand directly around Sylvanas's iron arrowhead**, pouring the very last ember in her body straight into the metal while skin and iron hiss together and blister her palm red.
+- Pure physical intimacy under lethal fire: nobody planned it, neither woman speaks, Jaina trusts Sylvanas's hand not to flinch as the iron heats white-dull inside her fist, and Sylvanas holds full draw steady around Jaina's burning palm.
+- They do not know whether fire carried on iron can alter the binding from inside, or whether the breached seam shuts before the string releases.
+- Ground the break: colorless arcane force punching cleanly through blue-white cold, Arthas's single `"Jaina"` hanging sharp in the echoing hall, Jaina's bare fingers clamping white-knuckled over Sylvanas's iron broadhead until the metal glows dull red and blisters her palm open.
+- Jaina drops her burned hand clear of the shaft as the iron catches fire.
 
 ### Beat 9
-- Sylvanas looses. The arrow carries Jaina's fire through the seam into the bearer-channel and burns the channel out from inside. The kill is the spell. Arthas dies where the first shot failed.
-- The arrow goes where the field can no longer close, the fire changes the binding exactly where the plan put the third school, and once the bearer-channel burns through, the seam becomes a permanent flaw. Arthas falls like a severed puppet rather than a prince receiving any noble end. Jaina is still looking at his face when he goes down.
-- They do not know whether the room is safer with the wielder dead or whether the blade remains merely dangerous or actively hungry without a hand on it.
-- Ground the kill: a short recurve instead of longbow elegance, an amber streak going into the gap, fire turning the blade's inner channels amber, blade and body striking marble as two separate final sounds, Jaina's knees hitting cold marble after.
-- The wielder falls, but the room does not become safe.
+- Sylvanas looses the short recurve. The amber-lit arrow drives straight through the breached seam into Frostmourne's bearer-channel and burns the conduit out from the inside. The kill is the spell. Arthas dies on the marble right where the first arrow failed—dropping like a cut puppet rather than a prince receiving a noble end, with Jaina still watching his face as he hits the stone.
+- Fire carried in iron alters the binding exactly where the third school needed to land, scorching the seam into a permanent flaw, and killing the wielder breaks his grip on the sword.
+- They do not know whether an unheld, scarred Frostmourne goes quiet or turns worse.
+- Ground the kill: the plain short recurve snapping instead of an elven longbow, an amber streak splitting the cold gap, fire running amber down the runes inside the steel, Frostmourne and Arthas striking the polished marble as two separate, final sounds just before Jaina's knees hit the floor.
+- Arthas lies dead on the seal, and the blade skitters free across the marble.
 
 ---
 
 ## Scene 4: The Aftermath
 
-**The action:** The victory proves incomplete the moment the blade hits the floor, and the first people through the doors turn the saviors into criminals.
-**Cast:** Jaina, Sylvanas, Frostmourne, Captain Gavren Marsh, palace guards, later Uther and the Silver Hand off-beat.
-**Starting point:** Arthas is down and the blade no longer rides cleanly through him.
+**The action:** Unheld Frostmourne erupts across the floor, the undead guards drop looking like murdered living men, Captain Gavren Marsh bursts in and arrests the saviors, and the third ranger slips away to Lor'themar.
+**Cast:** Jaina, Sylvanas, Frostmourne, Captain Gavren Marsh, palace guards, Uther and the Silver Hand arriving late.
+**Starting point:** Arthas is dead, Jaina is on her knees with a blistered palm, and Frostmourne lies unheld on the marble.
 
 ### Beat 10
-- Frostmourne hits the floor and the room learns what an unheld blade sounds like. The spell worked. It did not solve what is inside the sword.
-- The wounded blade erupts in frost and resonance the moment it lands, trapped soul-echoes flash visibly including Terenas's freshest imprint, and the binding stack proves to have layers: the spell burnt out Arthas's local conduit without freeing the dead or cutting the deeper tether, and Frostmourne's pull north remains.
-- They do not know whether the chamber can contain the weapon's new state or how anyone outside this room could ever read this victory correctly.
-- Ground the fallout: frost racing through floor grooves like veins, faces above the blade, there and gone, room temperature dropping past winter into something with no season.
-- Victory becomes louder and harder to explain than anyone wanted.
+- The instant Frostmourne hits the floor, the chamber learns what a scarred, unheld runeblade sounds like. Frost races outward through the marble cracks like veins, the room drops past winter into a cold with no season, and pale soul-echoes flash visibly above the steel—including Terenas's freshest face, there and gone. The spell worked and failed at once: it burned out Arthas's local conduit without freeing a single trapped soul or cutting the deeper tether pulling north.
+- Victory is loud, freezing, and incomplete, and nothing about the room looks like a rescue.
+- They do not know whether the palace can even lock the sword away safely, or how anyone walking through the bronze doors could ever read this scene right.
+- Ground the fallout: frost spidering along floor seams toward the dais, flickering faces above the runeblade vanishing into vapor, Jaina clutching her blistered right palm against her ribs while breath freezes solid off her chin.
+- Frostmourne screams across the marble as the bronze doors finally groan inward.
 
 ### Beat 11
-- The two door guards drop where they stand when the blade lets go, and the bronze doors open on the freeze. Captain Gavren Marsh is first through, with the court behind him. He sees two dead royals, a cursed blade, two dead guardsmen at the doors, and two exhausted women near the bodies. That is enough to decide the story.
-- Marsh's men find the two corridor sentries in the service passage, and they look like ordinary dead palace guardsmen now. No one in the first wave dares touch Frostmourne, Uther and the Silver Hand arrive too late to witness the murder and only early enough to see the aftermath, and Jaina and Sylvanas surrender because there is nothing left to spend on convincing late witnesses. The guards seize their kit, with the stolen grimoire and Kel'Thuzad's journals in it. The ranger who stayed near the pair slips away as the guards come and carries word out to Lor'themar.
-- They do not know whether any legal process in the palace can hold the blade safely or whether any witness can now stop the tribunal logic from hardening.
-- Ground the arrest: bronze doors opening into the chamber's freeze, spearpoints lowering toward two women too exhausted to explain anything well, frost on Jaina's cheek as hands bind her where she fell.
-- The women who saved the kingdom become its prisoners in the same room.
+- The instant the blade lets go, the two guards holding the bronze doors collapse where they stand—and every trace of undeath vanishes off their corpses. The bronze doors burst open into the freeze. **Captain Gavren Marsh** steps through first with armed guards and courtiers crowding behind him. He sees two dead royals, a cursed blade radiating frost, two dead guardsmen at the doors, and two bloodied, exhausted women kneeling near the bodies—one holding a bow whose arrow still sits in the prince's chest. Marsh's men discover the two corridor sentries outside, also looking like ordinary murdered palace guardsmen. Uther and the Silver Hand arrive too late to witness the murder, only in time for the frozen aftermath. Too spent to fight or argue, Jaina and Sylvanas surrender while guards bind them and sweep their packs—including the stolen grimoire and Kel'Thuzad's unopened desk journals—into evidence sacks. Outside on the service landing, the **third Farstrider ranger** sees the wing slam shut, slips cleanly down the perimeter stairs, and runs to carry word to Lor'themar.
+- Marsh is honest and competent, which makes his eyewitness report catastrophic: on the physical evidence in front of him, anyone would arrest them. Cyndia and two rangers are taken elsewhere in the wing while the third ranger escapes to trigger Silvermoon's response.
+- They do not know whether any vault can contain the blade, or whether any witness can keep the court from hanging them.
+- Ground the arrest: bronze doors swinging wide into swirling frost, halberd points lowering toward two women too spent to rise, iron shackles closing over Jaina's burned wrist, Kel'Thuzad's journals dropping into a guard's canvas sack while frost settles on Jaina's cheek.
+- Guards haul the two women who saved the kingdom out of the Imperial Chamber in chains.
 - Inside: Marsh sees exactly what is there, and on that evidence she would bind them too; Arthas said her name, and she has nowhere to put it; the journals going into a guard's sack, the desk volume still unopened; too tired to explain, and relieved not to have to try, and ashamed of the relief
 
 ---
@@ -204,28 +200,26 @@
 ## Chapter close / handoff
 
 **Active cast at close**
-- Jaina
-- Sylvanas
+- Jaina, in custody
+- Sylvanas, in custody
 - Cyndia, elsewhere in custody
 - Two Farstrider rangers, elsewhere in custody
-- The third ranger, who slipped away with word for Lor'themar
+- The third Farstrider ranger, slipped away from the outer service landing with word for Lor'themar
 - Uther, late witness to aftermath only
-- Captain Gavren Marsh, first witness through the bronze doors
+- Captain Gavren Marsh, first eyewitness through the bronze doors
 
 **What carries into Chapter 23:**
-- Terenas is dead, and his soul remains trapped inside Frostmourne.
-- Arthas is dead from Sylvanas's arrow, which carried Jaina's last fire through the seam. The kill was the spell.
-- Arthas said "Jaina" once before he died.
-- Frostmourne no longer rides through Arthas but remains tethered to something in the far north they cannot name and far from inert.
-- Jaina's sensitivity to Frostmourne is worse after the cast, and at moments the wounded blade seems to hitch toward the mage who scarred it.
-- Uther is not an eyewitness to the murder.
-- Captain Gavren Marsh was first through the bronze doors and saw the room as it looked.
-- The two corridor sentries and the two door guards now read as ordinary murdered palace guardsmen.
-- The tribunal inherits a room that points hard toward the wrong story.
-- The guards hold the pair's kit, including the stolen grimoire and Kel'Thuzad's journals.
+- Terenas is dead, killed at the noon audience (`"What is this? What are you doing, my son?"` / `"Succeeding you, Father."`), and his soul remains trapped inside Frostmourne.
+- Arthas is dead from Sylvanas's short-recurve arrow, carrying Jaina's last fire poured bare-handed into the iron arrowhead through the breached seam. The kill was the spell.
+- Arthas spoke `"Jaina"` once before dying.
+- Jaina's right palm carries a raw burn blister from the arrowhead.
+- Frostmourne is scarred with a permanent seam, unheld, active, and still tethered to something in the far north.
+- Uther arrived too late to witness the murder; Captain Gavren Marsh was first through the bronze doors and saw the room exactly as it looked.
+- All four dead guards (two corridor sentries, two bronze-door guards) now look like ordinary murdered palace guardsmen.
+- The palace holds the pair's packs, including the stolen grimoire and Kel'Thuzad's journals.
 
 **Do not add yet:**
-- Any acquittal or meaningful legal fairness.
+- Any acquittal or legal fairness.
 - Any stable containment of Frostmourne.
-- Any public acknowledgment that the pair saved the kingdom.
+- Any public acknowledgment that Jaina and Sylvanas saved the kingdom.
 - Any immediate rescue by the Silver Hand, Kirin Tor, or Silvermoon.

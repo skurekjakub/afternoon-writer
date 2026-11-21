@@ -13,9 +13,9 @@
 
 ## Why Sylvanas is required
 - Jaina needs three to five seconds at sword range.
-- Sylvanas buys them by keeping Arthas busy and turned away, first at range, then close.
+- Sylvanas plants the third ranger at the outer service landing (who later slips away to warn Lor'themar), then enters with Jaina, opens with an arrow aimed for Arthas's sword-wrist/hand to pull him off Terenas, and buys the needed seconds by keeping him busy and turned away, first at range, then close.
 - This only works because they already read each other's movement without speaking.
-- The plan names frost, arcane, fire, and Sylvanas buying the seconds. Nobody plans the arrow.
+- The plan names frost, arcane, fire, and Sylvanas buying the seconds. Nobody plans Jaina closing her hand over the arrowhead to burn the last fire into the steel.
 
 ## Cost
 - Jaina: emptied out, nosebleeds, a palm burned on the arrowhead, lasting resonance sensitivity.

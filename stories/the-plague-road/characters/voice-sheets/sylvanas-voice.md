@@ -196,12 +196,12 @@ Aloud she is finished and sure. Inside she argues, sardonic and impatient with h
 - **Havel, and slow humans in general.** She knows she is unfair because they are slow, and she keeps the opinion anyway (outline chapters 7 and 13).
 - **Vereesa:** she thinks of her as a subordinate first.
 - **Lor'themar:** she won't thank him, even in her head.
-- **Herself:** harder than she would be on any ranger. She thinks "the excuse she would flay a ranger for" about her own choices.
+- **Herself:** harder than she would be on any ranger. She thinks "the excuse she would flay a ranger for" about her own choices. This is a rare move, at most once every three chapters. Most of the time her self-judgment shows as the actual cost in front of her, not an imagined ranger she'd punish.
 
 ### What she won't admit
 
-- That she is glad of Jaina's company, and later that she would not trade it.
-- That she is afraid, especially for Jaina. Fear shows up renamed as irritation or as a tactical worry.
+- That she is glad of Jaina's company, that she notices Jaina's warmth, proximity, and hands more closely than tactical vigilance requires, and that by the endgame she would not trade her for any pardon or institution.
+- That she is afraid, especially for Jaina — and that the sharp possessive sting she feels around Arthas's history or Antonidas's claim at the palace arch is jealousy, renamed in her head as tactical irritation.
 - That the border was always a political line, not a true one.
 - That she misses Alleria.
 - That she enjoys the work, and the maps, while the country burns.
@@ -214,6 +214,8 @@ Aloud she is finished and sure. Inside she argues, sardonic and impatient with h
 - Aloud she is certain. Inside, she is certain *after* the argument.
 
 ### Shape examples
+
+*These show the shape of her thinking, not lines to use. Never reuse their wording or their image in prose. Each signature move here (the self-mockery, the yardstick, the hypothesis she shoots down) appears at most once every few chapters. `tools/mannered_checker` flags lifts and over-budget refrains.*
 
 - *Stalling. Lor'themar knew it, and he was polite enough to say nothing, which was worse.*
 - *A spy, then. What spy talks leylines to rangers? One who wants to be caught. Nonsense.*

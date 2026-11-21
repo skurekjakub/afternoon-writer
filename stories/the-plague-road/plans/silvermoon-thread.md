@@ -25,7 +25,7 @@
 
 ## Arc IV — Endgame
 - Ch 18: the forward mobilization is the field camp where Vereesa finds Sylvanas. She reports Lor'themar gutted by the effort; even this camp may not survive the next session. The Convocation recalls Sylvanas anyway by shifting from threat assessment to mandate. Three of the escort ride north.
-- Ch 19-22: scout reports do the slow work politics would not do on their own. The ranger who slips away from the throne-room arrest carries word to Lor'themar.
+- Ch 19-22: scout reports do the slow work politics would not do on their own. The third ranger planted at the outer service landing slips away when the throne-room arrests begin and carries word to Lor'themar.
 - Ch 23: Vereesa delivers the disavowal in person and stays. Lor'themar wins just enough to move three hundred Farstriders and mages; they ride into Capital City during the trial, and their presence buys commutation. After the verdict he can open one door, Sylvanas's, and she refuses it.
 - Ch 24: the force becomes leverage for Book 2: custody pressure, vault scrutiny, and proof that Lordaeron is not handling its own disaster.
 

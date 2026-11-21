@@ -57,20 +57,20 @@
 
 ### Jaina
 - She enters believing that if she gets the full answer, she can hold the room on intellect alone.
-- Kel'Thuzad prices every piece in the one currency she cannot fake, and she pays because the answer is here and nowhere else.
-- Each payment is easier to make than the last, and that is the danger.
-- By the end, she has the full process and has said three things in this room that she has told no one else.
+- Kel'Thuzad prices every piece in the one currency she cannot fake, and she pays because the answer sits on his slate and nowhere else.
+- Each payment slides out faster than the last, and the ease of sitting across from a mind that keeps pace with hers is the real trap.
+- By the end, she holds the entire plague process and has spoken three bare truths in this room that she has told no one alive.
 
 ### Kel'Thuzad through Jaina's POV
-- He is not a ranting monster. He is lucid, calm, and scholarly.
-- The danger is his clarity and how legible he is to Jaina.
-- He keeps his side of every bargain exactly. That is what makes the bargain hard to refuse.
-- He makes atrocity sound intellectually clean.
+- He is not a ranting monster. He is dry, patient, unhurried, and scholarly.
+- The dread sits in his clarity and how effortlessly Jaina reads his notation.
+- He keeps his side of every bargain to the syllable, which makes refusing the next sitting nearly impossible.
+- He makes mass slaughter sound like a clean seminar across steeped tea.
 
 ### Partnership
-- Jaina is alone in the room, with no Sylvanas friction on the thinking.
-- Nobody is there to cut the lecture short or ask what the theory does to living people. Kel'Thuzad sets the price of the room instead.
-- Keep Sylvanas off-page until the final beat.
+- Jaina is sealed underground without Sylvanas's sharp friction cutting through the lecture.
+- Nobody is standing at the doorway to kick over the slate or ask whose bones line the rooms two floors above; Kel'Thuzad sets the air of the table instead.
+- Keep Sylvanas off-page until the final beat—when the wards shiver to her unmistakable stride and relief hits Jaina harder than fear.
 - This is exposure and threshold, not conversion.
 
 ---
@@ -90,128 +90,128 @@
 
 ## Scene 1: The Terms
 
-**The action:** Kel'Thuzad receives Jaina in a study that feels like Dalaran turned inside out, proves he has what she came for, and names his price.
+**The action:** Kel'Thuzad receives Jaina in a subterranean study that feels like Dalaran inverted, proves he holds the missing spell, and names his price.
 **Cast:** Jaina, Kel'Thuzad, Jandice briefly.
-**Starting point:** Jaina descended because the one answer she still lacks is here.
+**Starting point:** Jaina descended because the one answer she still lacks waits behind this door.
 
 ### Beat 1
-- Jaina reaches the deepest room and it is a study. The scholarship is recognizably Kirin Tor even here, and Kel'Thuzad dismisses Jandice the way a master dismisses a student.
-- Kel'Thuzad's sanctum is a working study, Jandice's authority stops at him, and he sees the stolen grimoire at once and does not ask for it back. He says he felt her coming through Jandice's guest ward. A bound journal lies open at his elbow, pen in the gutter.
-- They do not know why Kel'Thuzad is willing to receive her, or whether this is a trap, a test, or a real exchange.
-- Ground the room: cold dry air, green fungi light, Antonidas-style margin notes, the door sealing softly after Jandice leaves.
-- Jaina has reached the room that holds the answer.
+- The deepest crypt room opens into a quiet scholar's study. Shelved Dalaran treatises line cold stone walls, and Kel'Thuzad dismisses Jandice with a faint nod the way a master clears an eager apprentice from the room.
+- Kel'Thuzad spots the stolen grimoire swelling Jaina's coat at a glance and does not ask for it back; he remarks mildly that he felt her crossing through Jandice's guest ward hours ago. A leather-bound journal lies open at his elbow, iron nib resting in the gutter.
+- She does not know why he lets her sit unchained or whether this table is a snare, an audit, or an actual exchange.
+- Ground the room: bone-dry crypt air smelling faintly of embalming herbs under steeped tea, pale green fungi light reflecting off glass jars, Antonidas-style margin notes on open folios, the heavy door clicking softly shut behind Jandice's stiff back.
+- Jaina sits across from the man who built the plague.
 
 ### Beat 2
-- Kel'Thuzad gives her the first piece free to show he has the rest: he finishes her own reasoning about the carrier aloud, and it matches her notes. Then he sets the terms. Each further piece of the spell costs one true thing about herself. If she lies, the sittings end.
-- The free piece only confirms what she already had: the treated grain is only the carrier, and the body is part of the process. The rest is behind the price. Jaina accepts, because the spell is here, the Kirin Tor is not coming, and she thinks a true thing costs her nothing she cannot afford.
-- They do not know what he wants with her answers, or how he will tell a true one from a clever one.
-- Ground the terms: chalk on slate, his still hands, the pen lifting from the journal when she says yes and going back down.
-- The bargain is struck.
+- Kel'Thuzad offers the first piece free to prove his hand: he finishes Jaina's own grain-carrier deductions aloud, equation by equation, matching her farmhouse fragments down to the last variable. Then he names his terms. Each further piece of the spell costs one true thing about herself; if she lies, the sittings end.
+- The free piece only confirms what she already proved—treated grain as carrier, living flesh as vessel—while keeping the waking spell behind the bargain. Jaina accepts because the Kirin Tor is not coming and she tells herself a sentence costs nothing she cannot spare.
+- She does not know what he wants with her answers or how cleanly he can hear a dodge.
+- Ground the terms: chalk rasping dryly across dark slate, Kel'Thuzad's quiet hands folded over the desk, his pen lifting off the journal when she says yes and settling back to wait.
+- The bargain locks shut between them.
 - Inside: a true thing costs nothing, she has plenty; the sort of person who says costs nothing, and she has met them; checks his free piece against her notes, and again, and it holds, and that pleases her more than it should; what a scholar wants with answers that aren't scholarship
 
 ---
 
 ## Scene 2: The First Price
 
-**The action:** Kel'Thuzad asks about Antonidas, Jaina pays, and he gives her resonance and then argues her into the mirror.
+**The action:** Kel'Thuzad asks about Antonidas, waits out her polite dodge until she pays in truth, gives her resonance, and holds up the mirror between them.
 **Cast:** Jaina, Kel'Thuzad.
-**Starting point:** The terms are set and the next piece of the spell is on the table.
+**Starting point:** The terms are set and the next link in the spell waits on the slate.
 
 ### Beat 3
-- Kel'Thuzad asks what she really thinks of Antonidas. Her first answer is respect and gratitude, and he waits through it without writing. She pays with the true one: "I didn't ask his leave, because he'd have said no and I'd have stayed. I want him to be proud of me. I want that more than I want to be right."
-- He can tell a polite answer from a true one, and he waits for the true one. Jaina has never said this aloud. He writes a line in the journal; she takes it for a note on the spell.
-- They do not know what he will do with the answer, or how much of it he already guessed.
-- Ground the payment: the sending stone heavy in her coat pocket while she says it, her voice coming out quieter than she meant, the scratch of his pen in the quiet after.
-- He keeps his side.
+- Kel'Thuzad asks what she truly thinks of Antonidas. Jaina offers loyalty and gratitude; he sits motionless, pen raised, waiting out the rehearsed reply without a word. She breaks first and pays with the true sentence: `"I didn't ask his leave, because he'd have said no and I'd have stayed. I want him to be proud of me. I want that more than I want to be right."`
+- He hears the seam between courtesy and bone truth immediately. Jaina has never spoken that sentence aloud; the quiet scratch of his pen in the bound journal sounds to her like a note on the spell.
+- She does not know what he does with what he hears or how much of it he already saw on her face.
+- Ground the payment: the cold sending stone weighing down her coat pocket as she speaks, her voice dropping lower than she meant, the dry scratch of his iron nib filling the still room afterward.
+- He keeps his word.
 
 ### Beat 4
-- Kel'Thuzad pays in full. He makes her finish the reasoning with him: conditioned tissue keeps patterned potential, and resonance wakes it into answering. He frames it as one step past accepted Kirin Tor work on persistence and binding.
-- Jaina's fractured notes finally make sense, the equations are sound, and the notation looks like Antonidas pushed into forbidden ground.
-- They do not know the final waking trigger, or how much the next piece will cost.
-- Ground the exchange: chalk dust on her fingers, his notation and hers side by side on the slate, Jaina seeing the work is sound before she decides what it means.
-- Jaina understands enough to fight him on it.
+- Kel'Thuzad pays in full, making her walk the chalk steps beside him: conditioned living tissue keeps patterned potential, and resonance strikes that pattern awake after death. He lays it out as one clean stride beyond approved Kirin Tor persistence bindings.
+- Jaina's broken farmhouse fragments click into a single ruthless proof, the equations ring sound, and the shorthand looks terrifyingly like Antonidas's own chalk work pushed across a forbidden border.
+- She does not know the final waking trigger yet, or what the next question will cost.
+- Ground the exchange: white chalk dust working under Jaina's fingernails, his crisp notation sitting beside hers on the slate, her pulse quickening at the elegance of the proof before her conscience catches up.
+- She understands enough now to push back.
 
 ### Beat 5
-- Jaina drags the talk back to villages, grain, bodies, and consent: if the process keeps a pattern without permission, the violation comes before any theory. Kel'Thuzad answers seriously. Dalaran banned necromancy because it destroys consent, personhood, and civic trust. The magic itself works. Then he uses what she paid him: she went out without Antonidas's leave to bring back something he would be proud of, and so did he, once. The same master made them both.
-- Jaina's strongest ground is about people, and he acknowledges it. The only difference he allows between them is direction and cost. The method is shared. The sitting breaks for sleep, and Jaina is shown to a guest cell above.
-- They do not know whether shared Kirin Tor standards can still reach him, or whether he is teaching her, testing her, or recruiting her.
-- Ground the mirror: specimen jars at the edge of the light, Kirin Tor texts on the shelves, her own words coming back to her in his calm voice.
-- She sleeps on the mirror and comes back to the table.
-- Inside: he used her own sentence, and used it well; same institution, so what is the difference, direction and cost, and is that enough; her answer is consent, and it sounds like a lecture even to her; would Sylvanas have let him finish; no, and she wanted to hear the end
+- Jaina wrenches the talk back to dead villages, poisoned flour, and stolen bodies: binding a dead person without consent makes the work monstrous before the first rune dries. Kel'Thuzad nods seriously—Dalaran banned necromancy to guard consent, personhood, and civic trust, not because the magic fails. Then he turns her first payment back on her gently: she rode north without Antonidas's leave hoping to bring back proof that would make him proud, and so did he, once. The same master shaped them both.
+- Jaina's truest ground is living people, and he concedes it without raising his voice; the only wall he leaves between them is direction and cost. The sitting breaks for sleep, and guards lead her up to a locked guest cell that feels uncomfortably like a Dalaran dormitory.
+- She does not know whether Kirin Tor ethics can even touch him anymore, or whether he is teaching her, peeling her open, or courting an heir.
+- Ground the mirror: dark specimen jars lined just outside the lamp glow, familiar Dalaran bindings on the shelves, her own confessed sentence coming back to her in his quiet lecturer's cadence.
+- She sleeps on that mirror and walks back to the table in the morning.
+- Inside: he used her own sentence, and used it well; same institution, so what is the difference, direction and cost, and is that enough; her answer is consent, and it sounds like a lecture even to her; would Sylvanas have let him finish; no, she would have put an arrow through the slate, and Jaina wanted to hear the end
 
 ---
 
 ## Scene 3: The Second Price
 
-**The action:** Kel'Thuzad asks about Arthas, Jaina pays with the end of their romance, and he gives her the waking trigger and the preserved self.
+**The action:** Kel'Thuzad asks about Arthas, Jaina pays with the raw truth of their split, and he gives her the waking trigger and the preserved self.
 **Cast:** Jaina, Kel'Thuzad.
-**Starting point:** A new sitting. Jaina has resonance and still lacks the trigger.
+**Starting point:** A fresh sitting. Jaina holds resonance and still needs the trigger that raises the dead.
 
 ### Beat 6
-- Kel'Thuzad asks about the prince. Court gossip reached him even here. Jaina tries the public version, that they parted as friends so she could study and he could serve Lordaeron, and he waits. She pays: "When he ended it, I didn't fight him. Part of me wanted to go back to my books. I still think that if I'd stayed, he would have listened to me."
-- The second true thing comes faster than the first. Jaina notices that, and it frightens her more than the question did. He writes again.
-- They do not know why he wants Arthas from her, or what the answer is worth to him.
-- Ground the payment: fresh tea going cold at her elbow, Jaina's hand flat on the table to keep it still, the pen moving while she is still speaking.
-- He keeps his side again.
+- Kel'Thuzad asks about the prince—court gossip travels even down here. Jaina tries the polished Dalaran line that they parted warmly for duty and study; he waits without blinking. She pays faster than she did the first time: `"When he ended it, I didn't fight him. Part of me wanted to go back to my books. I still think that if I'd stayed, he would have listened to me."`
+- The second confession slides out more easily than the first, and noticing that ease chills her worse than his question. His pen starts moving before her last syllable fades.
+- She does not know why he cares about Arthas or what her old wound is worth to him.
+- Ground the payment: fresh tea cooling untouched beside her elbow, Jaina pressing both palms flat to the table to stop her fingers shaking, the rhythmic scratch of his pen crossing the page while she is still speaking.
+- He pays his side cleanly again.
 
 ### Beat 7
-- Kel'Thuzad gives her the waking trigger and then the extra layer: most village dead rise as crude ghouls, and keeping a thinking self takes a deliberate further binding. Jaina follows the logic far enough to see its beauty, and she pulls back from the table.
-- The ban had to be moral because the magic keeps working past the point where it should. Jaina can see the beauty in it without consenting to it, and she now holds the spell entire.
-- They do not know what she does with the fact that her mind followed the path, or what remains to buy.
-- Ground the recoil: her chair scraping back on stone, a ward ripple running through the sanctum floor, chalk still in her hand after she has stood up.
-- She has the spell. She does not yet have who it serves.
-- Inside: followed it all the way and it was beautiful; pulled back, which counts for something, or only for the chair; the second answer came faster than the first, and she would like not to know that; chalk still in her hand, and she does not put it down
+- Kel'Thuzad lays out the waking trigger and then the sharper, colder layer beneath it: village dead wake as mindless ghouls, while preserving a thinking mind past death demands a deliberate extra binding. Jaina's mind follows the weave straight to its lock, sees the terrible symmetry of it—and shoves her chair back from the table.
+- Dalaran's ban had to be moral because the spellwork keeps singing well past the edge of atrocity. Jaina sees its beauty without consenting to it, and she now holds the entire waking spell in her head.
+- She does not know what to do with how cleanly her mind followed him, or what the final question will demand.
+- Ground the recoil: wooden chair legs shrieking across stone, a faint ward tremor rippling beneath her boots, a stub of chalk still gripped tight in her palm even after she stands.
+- She has the whole spell, yet not the master it feeds.
+- Inside: followed it all the way and it was beautiful; pulled back, which counts for something, or only for the chair; the second answer came faster than the first, and she wishes she didn't know that; chalk still in her hand, and she does not set it down
 
 ---
 
 ## Scene 4: The Last Price
 
-**The action:** Kel'Thuzad names the most expensive piece, refuses Jaina's easy answers, and gives her the Lich King and the Legion for the true one.
+**The action:** Kel'Thuzad sets the steepest price on the master above him, turns back every official answer Jaina tries, and gives her the Lich King and the Burning Legion for the truth she hates most.
 **Cast:** Jaina, Kel'Thuzad.
-**Starting point:** Jaina holds the whole spell and knows it serves something above him.
+**Starting point:** Jaina holds the complete spell and knows Kel'Thuzad is building it for someone higher.
 
 ### Beat 8
-- Jaina asks who the plague serves. Kel'Thuzad tells her this piece costs more, and asks what she would do with everything he has given her. She says she would stop it. He says that is what she will tell Antonidas. She says she would take it to Dalaran. He says that is what she would write in a report.
-- He wants the answer she would give no one else, and he will not take a lesser one. Jaina could leave now with the spell and without the scale. The scale is what Lordaeron needs.
-- They do not know whether there is a true answer she can bear to say, or what it will cost to hear herself say it.
-- Ground the pressure: the journal open and the pen still, the wards humming under the floor, Jaina's hands locked together in her lap.
+- Jaina asks whom the plague serves. Kel'Thuzad tells her this piece costs the most, and asks what she would do with everything he has placed in her hands. She says she would stop the plague; he calls that the speech for Antonidas. She says she would carry it to Dalaran; he calls that a report.
+- He wants the answer she would never utter to another soul, and he will not budge for a smaller one. Jaina could stand up now with the spell and without the scale—and Lordaeron needs the scale.
+- She does not know whether she can bear hearing the real answer out loud or what saying it will crack inside her.
+- Ground the pressure: the bound journal lying open with his pen still, deep wards thrumming under the flagstones, Jaina's fingers locked white-knuckled in her lap under the cold table edge.
 - She pays.
 
 ### Beat 9
-- Jaina gives him the true answer: "I'd learn the rest of it, even the parts I'll never need to stop it. I've been happy at this table. You teach me as fast as you can talk, and I keep up." He writes it down, and he looks pleased in a way he has not looked before.
-- It is the thing she most did not want to hear out loud, and it is true. This price costs her the most because it is about who she is in this room, and he knew it would.
-- They do not know whether the gladness is the room talking or her own, and Jaina cannot sort it here.
-- Ground the cost: heat in her face in a cold room, the scratch of the pen going on longer than before, Jaina looking at the shelf of journals instead of at him.
-- He keeps his side for the last time.
+- Jaina forces the real sentence out: `"I'd learn the rest of it, even the parts I'll never need to stop it. I've been happy at this table. You teach me as fast as you can talk, and I keep up."` Kel'Thuzad writes it slowly, and a quiet, genuine pleasure touches his face for the first time.
+- It is the one thing she dreaded hearing in her own voice because it is true—not about Dalaran or Arthas, but about who she has been in this room across three days—and he knew it would cut deepest.
+- She does not know how much of that gladness belonged to the sealed cellar and how much was always hers, and she cannot untangle it while sitting opposite him.
+- Ground the cost: hot blood rushing into her cheeks in the freezing cellar, the iron nib scratching across the page longer than before, Jaina fixing her eyes on the shelf of bound journals so she does not have to watch him smile.
+- He keeps his side one last time.
 
 ### Beat 10
-- Kel'Thuzad names the Lich King, an ancient mind in Northrend, and calls the plague a supply line. Then he names the Burning Legion above it. The Scourge is preparation for invasion. He expects his own self to go on past his death.
-- He sees the Lich King as patron rather than master, parts of the waking architecture came from beyond anything Dalaran could teach, and Jaina now has the full chain: carrier, resonance, trigger, preserved self, and the purpose behind them.
-- They do not know which institutions can answer a threat this size, or whether any counter Jaina designs will matter in time.
-- Ground the revelation: older, colder ward signatures in the walls, Jaina's fingers whitening where they lock together, Kel'Thuzad discussing his own death in a lecturer's voice.
-- The trade is complete.
+- Kel'Thuzad names the Lich King—an ancient mind chained in Northrend—and calls the plague of Lordaeron a supply line. Then he names the Burning Legion waiting behind it: the Scourge is only preparation for invasion. Calm as a tutor closing a lecture, he adds that he expects his own mind to endure past the death of his body.
+- He speaks of the Lich King as patron rather than master; pieces of the waking spellwork came from beyond anything Dalaran ever dreamed; and Jaina now holds the whole chain: carrier, resonance, trigger, preserved self, Lich King, and Legion.
+- She does not know what kingdom or council can answer an invasion of that size, or whether anything she carries out of this cellar will arrive in time.
+- Ground the revelation: older, sharper cold seeping from the deeper wall wards, Jaina's knuckles bloodless where her hands stay locked together, Kel'Thuzad discussing his own coming death in the flat, pleasant tone of a senior mage finishing tea.
+- The bargain is paid in full.
 
 ---
 
 ## Scene 5: The Sound
 
-**The action:** The trade ends, Kel'Thuzad closes his journal, and the sanctum begins answering Sylvanas's approach.
+**The action:** Kel'Thuzad closes the journal, the room goes still, and the fortress wards suddenly shudder under Sylvanas's descent.
 **Cast:** Jaina, Kel'Thuzad.
-**Starting point:** Jaina has everything she came for and has paid three times for it.
+**Starting point:** Jaina holds everything she came for and has paid three times to buy it.
 
 ### Beat 11
-- The room goes still. Kel'Thuzad blots the last page, closes the journal, and sets it on the desk with the others. He is satisfied because he was understood. Jaina has the full spell and the cosmic frame, and she has said three true things in this room.
-- No moral conversion has happened, but Jaina cannot unsay what she paid. Kel'Thuzad remains calm and in control of the room. The journal is one more volume on his desk.
-- They do not know how an outsider will read this room on arrival, or how Jaina will report any of this later.
-- Ground the stillness: blotting sand hissing off the page, research logs stacked on the desk, Jaina sitting very straight with nothing in her hands.
-- The stillness breaks because the building answers someone else's movement.
-- Inside: said it aloud and it is still true; the room talking or her, and she cannot sort it here; has the whole spell, which is what she came for, so why the feeling of being robbed; drafting the report to Antonidas in her head already, and what to leave out of it
+- Silence drops over the study. Kel'Thuzad shakes blotting sand over the final lines, shuts the bound journal, and lays it casually on the desk beside his other volumes. He looks quietly satisfied at having been understood. Jaina sits rigid with the whole spell, the scale of Northrend and the Legion, and three bare truths she cannot call back.
+- She has not turned to his side, yet nothing can unsay what she traded. Kel'Thuzad remains calm and master of the room, and the journal sits right in front of her looking like one more research log.
+- She does not know how anyone walking through that door will read this table, or how she will ever trim these days into a report.
+- Ground the stillness: fine sand hissing softly off wet ink, neat stacks of leather journals along the desk edge, Jaina sitting upright with chalk dust still pale on her fingers and nothing left to hold.
+- Then the stone beneath their boots answers footsteps that do not belong to Scholomance.
+- Inside: said it aloud and it is still true; the room talking or her, and she cannot sort it here; has the whole spell, which is what she came for, so why the feeling of being robbed; already shaping the report for Antonidas, and counting the sentences she will cut out
 
 ### Beat 12
-- Kel'Thuzad feels the disturbance first through the wards. Jaina feels it a beat later and knows the movement pattern before she says the name: Sylvanas is coming down through Scholomance.
-- Sylvanas is already descending toward the sanctum, and Kel'Thuzad reads the change on Jaina's face without understanding the partnership behind it. Chapter 13 begins at entry, not aftermath.
-- They do not know how Sylvanas will read the tableau when she arrives or whether Chapter 13 opens on rescue, confrontation, or both.
-- Ground the approach: defensive wards waking in layered ripples, relentless room-clearing motion with no wasted spellwork, Kel'Thuzad's attention turning upward with amused curiosity.
+- Kel'Thuzad senses the break in the upper wards first, tilting his head with cool curiosity. A heartbeat later Jaina feels the pulse through the stone and recognizes the pace before she even breathes the name: Sylvanas is cutting straight down through Scholomance.
+- Relief hits Jaina so hard her chest tightens—and right behind it lands the cold dread of what Sylvanas is about to see when she reaches an open doorway with tea and chalk on the table. Kel'Thuzad watches the sudden shift on Jaina's face without grasping who is coming for her. Chapter 13 opens at the threshold.
+- She does not know how Sylvanas will read this quiet study on sight or whether the next breath brings rescue, fury, or both.
+- Ground the approach: layered ward lines snapping in rapid ripples through the floor, relentless room-clearing motion with zero wasted magic, Kel'Thuzad turning his gaze mildly toward the stairs as Jaina's pulse leaps.
 - Chapter 13 begins at the door.
 
 ---

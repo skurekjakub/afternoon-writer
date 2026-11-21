@@ -13,7 +13,7 @@
 - Necromantic practice by association with Scholomance.
 
 ## Prosecution story
-- Ashcombe does not lie. Every fact he uses is true; he reverses only the direction of cause.
+- Ashcombe does not lie, and he has no omniscient knowledge: every fact he uses comes from grounded sources (Captain Marsh's arrest report, Hearthglen and Stratholme officer accounts, the seized grimoire and Kel'Thuzad journals, and Vereesa's disavowal). He reverses only the direction of cause.
 - Warnings become alibis.
 - Investigation becomes premeditation: Sylvanas aimed Arthas at Hearthglen, Jaina's "Not cleanly. Not now." came before the Culling, Jaina was Kel'Thuzad's guest and carried out his books.
 - Defiance becomes proof of outside masters.
@@ -31,6 +31,7 @@
 - Serious examination would help the defense.
 - Fast proceedings and fear of tampering keep that examination from happening.
 - Their detailed knowledge of the blade is used against them instead.
+- Ser Edric Valecrest is heard once by name on palace guard rotation — seeding the mind Jaina will feel catching on the blade in Ch 24.
 
 ## Outcome
 - Guilty.

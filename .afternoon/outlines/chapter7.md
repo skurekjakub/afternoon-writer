@@ -2,7 +2,7 @@
 
 **POV:** Sylvanas Windrunner (limited third, absolute)
 **When:** Directly after Chapter 6, with the party reaching Andorhal after Arthas's dismissal and getting inside before the city realizes it is under investigation.
-**Where:** Andorhal's gates and market district, with inspection offices, granaries, and the mage quarter beyond.
+**Where:** Andorhal's gates and market district, with inspection offices, blind mill-yard loading lanes, granaries, and the mage quarter beyond.
 **Travel:** Arrive on Thalassian horses; move on foot once inside.
 **Characters:** Sylvanas, Jaina, Cyndia, Lyriel.
 **Goal:** Get into Andorhal under cover, learn how the plague is being planted at the city's center, and map the cult traffic moving it.
@@ -15,10 +15,10 @@
 **Sylvanas's starting position:**
 - Grain is carrying the poison, and every trail of rot still leads toward Andorhal.
 - Millhaven was the first village fully taken. Too much of the country beyond it shows the same weapon hidden inside ordinary sickness.
-- Jaina can feel the plague before local officials know what they are looking at, but they are still chasing shipments that already landed instead of stopping the spread at its source.
-- Barov names keep showing up in the paperwork, but a name on a deed is not guilt.
+- Jaina can feel the plague before local officials know what they are looking at, yet they are still chasing shipments that already landed instead of stopping the spread at its source.
+- Barov names keep showing up in the paperwork, though a name on a deed is not guilt.
 - The farewell Sylvanas has heard twice, from the old carter and the tally-man, is still thin, still unresolved, and not worth turning away from Andorhal for.
-- Arthas heard the warning and chose the war everyone could see.
+- Arthas heard the warning after the Strahnbrad raid and chose the war everyone could see.
 
 **Still in the dark about:**
 - How the poison is worked into grain inside a working trade hub.
@@ -31,37 +31,35 @@
 - No Kel'Thuzad naming in this chapter.
 - No certainty that the Barovs built the plague cult.
 - No suggestion that the old carter or the newer grain-man clue is solved.
-- No warm trust language beyond plain working reliance.
+- No spoken confessions of warmth beyond fierce, unspoken physical awareness and plain working reliance.
 
 **End of chapter state:**
 - Andorhal is a working mill city, not an already-dead one.
 - The poison is worked into the grain during packaging by skilled alchemical and necromantic hands.
-- The granary district is hiding cultists, not random saboteurs.
+- The granary district hides an organized cult cell with lookouts, dead drops, and masked workers treating sacks.
 - Corin has earned his place with them.
-- Havel keeps trying to drag the problem back into militia habits and onto routes he controls, and something about that pull feels wrong.
-- They can still take someone alive that night.
+- Havel walked Sylvanas into a near-pinch in a blind loading alley and keeps redrawing the raid onto his own controlled streets; Sylvanas stops trusting his map before anyone can prove why.
+- They agree to take a cultist alive tonight before the shift turns over.
 
 ---
 
 ## Character Arcs
 
 ### Sylvanas
-- She opens thinking Andorhal can be solved like a Farstrider hunt: scout harder, find the weak gate, read the ground better than the people who live there.
-- That approach stops being enough the moment the city closes around the problem. Too many clerks, too many rules, too many mages, too much grain moving under ordinary hands.
-- She keeps looking for the clean field answer and keeps finding only half of one.
-- The full picture only starts to hold when the work splits and Jaina takes the doors Sylvanas cannot open by stealth or force.
-- By chapter close, Sylvanas cannot pretend Jaina is just extra help. She needs Jaina's half of the hunt to make the raid possible.
+- She opens thinking Andorhal can be solved like a Farstrider hunt: scout harder, read the ground better than the locals, keep Jaina in sight.
+- The city forces them to split by skill—and Sylvanas hates watching Jaina walk out of sight down a crowded street with a clerk-mage they met an hour ago.
+- Dodging a physical pinch in a blind alley and watching masked workers from wet slate eaves gives her hard proof, yet she still has only half the picture until she climbs down and sees Jaina whole across the safe-room table.
+- By chapter close, Sylvanas cannot pretend Jaina is just extra help—or pretend the jolt of relief when Jaina walks in unhurt is merely tactical.
 
 ### Jaina through Sylvanas's POV
-- Jaina already proved useful on the road, but she was easier to trust when Sylvanas could watch every step of the work.
-- In Andorhal, Jaina keeps finding answers Sylvanas cannot pull out of streets, roofs, or frightened faces, and she does it without showing off or asking leave.
-- Sylvanas can think Jaina's name plainly now. What distance remains comes from caution and pressure, not contempt.
+- Jaina was easier to trust on the open road when Sylvanas could watch every step and cover her back.
+- In Andorhal, Jaina walks straight into doors Sylvanas cannot open by stealth or bow, pulls the arcane truth out of packaging offices without showing off, and backs a same-night strike before Sylvanas even asks.
+- Sylvanas thinks Jaina's name plainly now, and the sharp, unvoiced relief of finding her unhurt at the safe-room table catches Sylvanas off guard enough that she buries it under a curt question.
 
-### Partnership / team
-- The group still moves at Sylvanas's pace, but the reliance is growing and neither woman bothers to name it.
-- The work truly splits here. Each has to trust the other to finish the part she cannot watch herself.
-- Keep the respect practical and dry, never sentimental.
-- They are not softened. They are simply harder to pull apart from the same job.
+### Partnership
+- The work truly divides here: each woman has to trust the other to survive the half she cannot see.
+- Havel's steering tests their judgment, and Jaina and Sylvanas align across the candlelit map without needing a single word of persuasion.
+- Keep their reliance dry, charged, and practical—harder to pull apart with every hour in the city.
 
 ---
 
@@ -70,11 +68,11 @@
 - **Cyndia:** Still with the scouting pack.
 - **Lyriel:** Still with the scouting pack and alive through this chapter.
 - **Corin:** Introduced here as a local Kirin Tor contact inside Andorhal.
-- **Captain Havel:** Introduced here at the militia post by the market gate, where the tally-man on the road sent them, as a local militia contact whose city-first caution, need for control, and habit of steering people through his own routes will obstruct the raid and may hide something worse.
+- **Captain Havel:** Introduced here at the militia post by the market gate, where the tally-man on the road sent them. Helpful on the surface, yet he steers Sylvanas into a blind loading alley where cult toughs nearly box her in, then keeps pushing dawn timing and controlled militia streets.
 - **Neral:** Not present. She remains on the northbound warning line after escorting the survivor girl out in Chapter 3.
 - **The old carter and the newer grain-man clue:** Background only. Keep them weak and unresolved.
 
-**Next chapter starts:** Chapter 8 opens the same night in Andorhal with Corin inside their circle, Havel pushing for a slower, cleaner move through routes he controls, and the ambush going forward anyway.
+**Next chapter starts:** Chapter 8 opens the same night in Andorhal with Corin inside their circle, Havel pushing for a slower, cleaner move through streets he controls, and the ambush going forward anyway.
 
 ---
 
@@ -82,82 +80,82 @@
 
 **The action:** They get through Andorhal's gate under cover and gather enough local truth to stop circling and start moving.
 **Cast:** Sylvanas, Jaina, Cyndia, Lyriel, gate guards, inspection clerks, Corin, Havel.
-**Starting point:** Horses stabled outside the wall. The party approaches the gate on foot with Jaina's cover paperwork. It is a Farstrider pass that Sylvanas wrote for her under her own seal.
+**Starting point:** Horses stabled outside the wall. The party approaches the gate on foot with Jaina's cover paperwork—a Farstrider pass that Sylvanas wrote for her under her own seal.
 
 ### Beat 1
-- They get through the gate without showing what they are here for. The checks are tighter than a normal trade stop: clerks take names, inspect seals, and ask sharp questions about granary business.
-- Andorhal is still a working market city, but grain traffic is under new scrutiny. Sylvanas cannot tell yet whether that pressure comes from officials finally noticing the sickness or from the cult tightening its own screen.
-- They do not know which city officials are only overworked clerks and which belong to the cult.
-- Ground the gate check: boot-packed mud at the threshold, grain dust in the cobbles, an ink-cuffed clerk shaking from overwork rather than fear, Jaina answering in the flat tone of someone who has filed forms in three cities this month, wagons backed up by the new checks.
-- They are inside, and the grain district is already watching itself harder than it should.
+- They pass through the market gate without showing why they came. Checks are tighter than normal trade traffic: clerks record names, turn wax seals over in the light, and ask sharp questions about granary haulage.
+- Andorhal is still a humming market city, yet grain wagons are backed up under fresh scrutiny. Sylvanas cannot tell yet whether officials finally noticed the fever or the cult tightened its own screen.
+- They do not know which city officials are merely overworked clerks and which take cult coin.
+- Ground the gate check: boot-packed mud at the arch, grain dust in the cobbles, an ink-cuffed clerk shaking from sleeplessness rather than fear, Jaina answering in the flat tone of someone who has filed papers in three cities this month, wagons idling nose-to-tail.
+- They clear the arch and head straight for the contacts inside the walls.
 
 ### Beat 2
-- Havel and Corin give them the truth from two sides of the same problem. Havel knows the street truth: sickness gathering around certain granaries, supplier routes changing three months ago, workers who move like soldiers. Corin knows the paper truth: tainted shipments, copied route marks, and granary records Dalaran ignored.
-- Havel has watched sickness gather around the grain system for months, with a new supplier pattern entering three months ago. Corin has been tracking tainted shipments for weeks with no answer from above. Both men are useful, and both have already been failed by their institutions in different ways.
-- They do not know who directs the disciplined workers, whether Havel is merely cautious or steering them on purpose, or whether Corin has seen the ritual itself or only what it leaves behind.
-- Ground the informants: street-dusted militia leather, Havel's scarred hands near a well-used truncheon, Corin's ink-stained fingers and bruised eyes, ignored notices weighted by a cracked river stone.
-- They have enough local truth. It is time to split the work.
+- Havel and Corin hand them two sides of the same rotten city. Havel knows the street truth from the market-gate post where the tally-man sent them: fevers clustering around specific granaries, supplier carts switching three months ago, loaders who walk like trained guards. Corin knows the paper truth: tainted shipments, forged route marks, and warnings Dalaran left unanswered.
+- Both men look useful on the surface, and both seem burned by superiors who ignored them.
+- They do not know who directs the disciplined loaders, whether Havel is merely territorial or steering them on purpose, or whether Corin has seen the treatment itself or only its aftermath on paper.
+- Ground the informants: street-dusted militia leather, Havel's scarred hands resting near a worn truncheon, Corin's ink-stained fingers and dark-ringed eyes, ignored Dalaran notices pinned under a cracked river stone.
+- With street names and office seals on the table, they have enough to split the hunt before dark.
 
 ---
 
 ## Scene 2: The Split
 
-**The action:** The city forces the investigation to divide, and Sylvanas catches the human side of the cult in motion.
-**Cast:** Sylvanas, Jaina, Cyndia, Lyriel, Corin, Havel, granary workers, cult operatives.
-**Starting point:** Late afternoon. Jaina has access Corin can open. Sylvanas has a street guide she does not fully trust.
+**The action:** The city forces them to divide by skill; Havel walks Sylvanas straight into a near-pinch in a blind loading alley, driving her onto the eaves where she catches the cult treating grain under immediate peril.
+**Cast:** Sylvanas, Jaina, Cyndia, Lyriel, Corin, Havel, granary workers, cult operatives, cult lookout, sickened loader.
+**Starting point:** Late afternoon. Jaina has inspection doors Corin can open. Sylvanas has a militia guide she already half-distrusts.
 
 ### Beat 3
-- They split the investigation fast and without ceremony. Jaina takes Corin and the mage-side access through the inspection offices; Sylvanas takes Havel into the granary district on foot.
-- The split is purely by skill, not rank. Sylvanas sends Jaina after the doors she herself would only slow down, and Jaina does not insult them both by arguing.
-- They do not know whether anyone has already reacted to their presence or which side of the split will hit real danger first.
-- Ground the division: Havel spreading district notes against a warehouse wall, Corin fumbling for access seals while Jaina waits with patient hands and impatient eyes, the four-woman pack dividing without discussion.
-- There are now two hunts moving through one city on the same clock.
-- Inside: sending her off with a clerk-mage they met an hour ago; easier when she could watch every step; trusts the mage or only the mage's results, and declines to sort that out; would rather have Jaina's eyes on Havel than her own; no, would rather have Jaina where she can see her, which is a different thing and she leaves it there
+- They split the hunt fast and without ceremony. Jaina takes Corin and the Kirin Tor access seals through the inspection offices; Sylvanas takes Havel into the granary district on foot while Cyndia and Lyriel shadow the outer approaches.
+- The division is pure skill, not rank—yet Sylvanas hates letting Jaina walk out of sight down a crowded street beside a clerk-mage they met an hour ago. Sylvanas's fingers stay hooked on her bowstring until Jaina's blue wool disappears around the corner.
+- They do not know whether the cult already knows they are inside the walls or which half of the split will hit steel first.
+- Ground the division: Havel spreading district notes against a damp warehouse wall, Corin fumbling for wax seals while Jaina waits with steady hands and impatient eyes, Sylvanas watching Jaina's back vanish into market traffic before turning sharply to Havel.
+- Two hunts move into the city against the same fading light.
+- Inside: sending her off with a clerk-mage they met an hour ago; easier when she could watch every step; trusts Jaina or only Jaina's results, and declines to sort that out; would rather have Jaina's eyes on Havel than her own; no, would rather have Jaina where she can see her, which is a different thing and she leaves it there
 
 ### Beat 4
-- Sylvanas and Havel work the granary district on foot. She reads it like hostile ground: watch patterns, timing, broken sightlines. Havel gives her names, shifts, and which granaries changed suppliers three months ago.
-- At least eight people in the district move wrong, too disciplined and often in pairs. Havel's local knowledge is real, but he keeps trying to drag the work through routes he controls, and Sylvanas does not miss that.
-- They do not know whether Havel is only territorial or actively covering something.
-- Ground the legwork: workers whose stillness reads as trained waiting rather than fatigue, loading lanes with too many blind corners, Havel pointing with two fingers held flat like a knife.
-- Sylvanas stops reading the district as random sickness and starts reading it as a guarded operation.
+- Sylvanas and Havel work the granary district on foot. She reads the quarter like hostile timber: watch intervals, pairs of "porters" who never break stride, blind corners. Havel feeds her real shift times and supplier names—then smoothly steers her down a narrow, high-walled blind loading lane behind an old millhouse, calling it a quiet shortcut to the shipping clerk's yard.
+- Half a beat before the trap closes, Sylvanas reads two thick-shouldered loaders stepping out of opposite doorways with weighted clubs tucked under sacking while a heavy dray rolls across the lane mouth behind them. Havel stays two paces back beside a side door, hand nowhere near his truncheon. Sylvanas does not shout or accuse; she drives off a cart wheel, catches a rusted gutter iron, and climbs straight to the eaves before the pair can box her in—vanishing over the slate lip while Havel calls softly down an empty brick alley.
+- They do not know whether Havel deliberately walked her into cult muscle or froze at the wrong corner, or how many men now know an elf is on the roofs.
+- Ground the near-trap: high brick walls choking every exit, iron-rimmed cart wheels sealing the alley mouth, two men stepping out in practiced silence, Sylvanas's boot striking wheel hub and drainpipe in one clean surge, Havel's calm hand staying well clear of his belt.
+- Sylvanas leaves Havel below and hunts the granary roofs alone.
 
 ### Beat 5
-- Sylvanas spots a worker making a dead drop and tails him through three streets. From a rooftop, she sees masked, gloved workers under lamplight handling grain in a secondary granary.
-- The cell has two layers: handlers running dead drops and workers contaminating grain. The masked crew are not protecting themselves from dust. They are protecting themselves from the grain.
-- They do not know who sits above the local handlers, whether Sylvanas was spotted, or what exactly is being added inside.
-- Ground the stakeout: the dead drop pressed into a crack without a glance around, rooftop grit and chimney soot, masked figures moving under dirty-window lamplight, gloved hands pressing something thick into open bags.
-- Sylvanas has proof of a live network. Now they can strike if Jaina comes back with the missing half.
+- Moving along the wet slate eaves, Sylvanas picks up one of the disciplined men making a silent dead drop in a mortar crack and trails him across three alleys to a shuttered secondary granary. Through a grime-streaked upper window she watches masked, gloved workers under hooded lamps pressing thick dark paste into open flour sacks—protecting their own lungs and skin from the grain they are packing.
+- Directly beneath her boots, a cult lookout sweeps the narrow alley with a shaded lantern, pausing twice to listen at the drainpipes while Sylvanas freezes flat on slick slate. Below the shuttered side door, a sickened loader suddenly folds in half clutching his gut, breath rattling sweet and wet; two masked handlers dart out and drag him inside by the heels before he can die and turn in the open street.
+- They do not know who commands the treatment house, whether the lookout caught a glint off the eaves, or what exact compound the gloves are working into the flour.
+- Ground the stakeout: wet slate under Sylvanas's soles, shaded lantern light brushing the gutter inches below her boot, gloved hands pressing dark paste into white flour, heels scraping cobbles as the sick loader disappears behind a slammed door.
+- Sylvanas slips off the far roof at dusk with proof of a live treatment house—and a hard cold knot over the militia captain who led her into a dead-end alley.
 
 ---
 
 ## Scene 3: The Full Picture
 
-**The action:** Jaina brings the magical answer, Sylvanas brings the physical answer, and together they choose a same-night grab.
+**The action:** Sylvanas reunites with Jaina at the safe room, trades halves in a few sharp lines, watches Havel try to steer them back into his routes, and locks in a same-night grab.
 **Cast:** Sylvanas, Jaina, Corin, Havel, Cyndia, Lyriel.
-**Starting point:** Evening at a safe meeting point, with both halves of the investigation returning at once.
+**Starting point:** Evening at the safe room, with Sylvanas coming off the eaves and Jaina returning from the inspection offices.
 
 ### Beat 6
-- Jaina and Sylvanas trade their halves across the table in a short exchange. Jaina: the grain is treated at packaging with a necromantic carrier layer, and the body finishes the work after it is eaten. Sylvanas: masked workers, dead drops, a treatment site, a disciplined cell.
-- The poison is worked into the grain by skilled alchemical and necromantic hands, and Andorhal hides a real cult structure. Keep this to a few lines; the facts carry the fit.
-- They do not know who designed the process, whether Andorhal is the top of the system or only one hub, or how the cursed victim becomes undead after death.
-- Ground the synthesis: Jaina's neat notes beside Sylvanas's rough route marks, Corin and Havel watching.
-- The conspiracy is visible at last.
+- Sylvanas drops into the safe room—slate dust on her knees, still taut from the alley—and sees Jaina already bent over the lamp-lit table, whole, ink smudged along her jaw. A sharp, unspoken jolt of relief unclenches Sylvanas's jaw before she buries it behind a clipped question, eyes checking Jaina's hands and collar for blood before dropping to the notes.
+- They trade halves in a few crisp lines across the wood. Jaina: the grain is treated at packaging with a necromantic carrier layer, and the living body finishes the work after eating. Sylvanas: masked workers, dead drops, a dragged loader, a guarded treatment house. Keep the exchange short; the pieces snap together on their own.
+- They do not know who designed the spellwork, whether Andorhal sits at the top or feeds something larger, or how the final turn into undeath triggers.
+- Ground the reunion: soot on Sylvanas's gloves, Jaina looking up fast with ink on her cheek and clear relief flashing before she hides it too, neat arcane notes laid flat beside Sylvanas's rough charcoal sketch of the granary roof.
+- Both halves lock into one target: the secondary granary on tonight's shift.
 
 ### Beat 7
-- Corin earns his place inside their circle simply by being right and by moving toward the danger instead of away from it. Havel keeps pressing safer routes, dawn timing, and enough militia control to make the arrest look proper.
-- Corin wants speed because he knows no one above him is coming. Havel keeps trying to drag the raid back into militia habits and onto routes he controls, and something about that insistence feels wrong even before anyone can prove why.
-- They do not know whether Corin or Havel have already been marked as leaks by the cult or whether Havel's route-pushing is fear or active cover.
-- Ground the friction: Corin's access notes spread flat and ready, Havel redrawing the same safer lanes again and again, Sylvanas watching the route choices instead of the words.
-- The room stops being a briefing and starts becoming a line-drawing exercise over who they can trust.
-- Inside: Havel redraws the same lane, and men who own a lane do that; or he is a careful captain in a city that isn't hers, and she is unfair to him because he is slow; the Convocation would call him a sensible local partner, which counts against him; Corin, hopeless with seals and right every time
+- Corin earns his place in the room by laying out his office keys and backing speed because nobody in Dalaran is coming. Havel arrives late, smooth and dusty, apologizing evenly for "losing" Sylvanas in the mill-yard—then keeps pressing for dawn timing, militia backup, and redrawing the same safer streets on the map, including the blind approaches he controls.
+- Sylvanas watches Havel's charcoal trace the exact brick bottleneck she climbed out of an hour ago. She says nothing aloud to tip him off; she simply stops marking where she actually intends to put Cyndia and Lyriel.
+- They do not know whether Havel was bought months ago or frightened into silence, or whether Corin has already been marked as a leak.
+- Ground the friction: Corin's access keys laid flat beside the lamp, Havel's thick finger tracing the same dead-end approach twice, Sylvanas watching his charcoal instead of his smile.
+- Sylvanas mentally cuts Havel out of her real escape routes before the briefing even ends.
+- Inside: Havel redraws the same blind alley, and men who own a street do that; or he stood by a side door while two clubs stepped out and never touched his truncheon; the Convocation would call him a sensible local partner, which counts against him; Corin, hopeless with seals and right every time
 
 ### Beat 8
-- They decide to capture a cultist that night. Sylvanas wants a live prisoner before the cell closes its shift. Jaina backs her because the arcane trail is fresh and delay gives the cult time to scrub the site. Corin sides with speed.
-- A live capture is possible tonight because the cult still feels secure. Cyndia and Lyriel are strong enough on perimeter to let Sylvanas and Jaina commit to the grab.
-- They do not know how fast the cult can scatter once it senses contact or whether the secondary granary is already alert.
-- Ground the planning: candlelit maps weighted with knives, keys, and an iron chalk holder, Jaina and Sylvanas naturally aligned across the table while Havel keeps trying to slow the move.
-- Chapter 8 opens straight into the ambush.
-- Inside: wants the prisoner tonight because by morning there won't be one; or because she is sick of arriving a day late; Jaina backed her before she asked, and she noticed, and won't mention it; Cyndia and Lyriel spread thin on the perimeter, and she is the one spreading them
+- Sylvanas calls the capture for tonight before the masked crew closes its shift. Jaina backs her before Sylvanas finishes the sentence—her ink-stained fingers brushing the parchment corner an inch from Sylvanas's knife—because the arcane trail is hot and morning means a scrubbed building. Corin sides with speed; Havel pushes back once more and gets overruled flat.
+- Cyndia and Lyriel check their bowstrings by the shuttered window, ready to seal the alleys while Sylvanas and Jaina take a worker alive.
+- They do not know how fast the cult can collapse on a blown granary or whether the treatment house is already watching the street.
+- Ground the planning: candlelit map weighted with knives, keys, and iron chalk, Jaina and Sylvanas aligned shoulder-to-shoulder across the table while Havel's jaw goes tight behind his politeness.
+- Chapter 8 opens minutes later in the dark streets outside the secondary granary.
+- Inside: wants the prisoner tonight because by morning there won't be one; or because she is sick of arriving a day late; Jaina backed her before she asked, fingers right beside her knife, and she noticed and won't mention it; Cyndia and Lyriel spread thin on the perimeter, and she is the one spreading them
 
 ---
 
@@ -173,14 +171,14 @@
 
 **What carries into Chapter 8:**
 - Andorhal is a working mill city, not another dead village.
-- The contamination is introduced during packaging by skilled dark alchemy and necromancy, and the cult protects itself from its own weapon during handling.
-- The granary district holds a hidden cult network with at least eight people in it and two layers to its command.
-- Corin is a trusted local ally inside Andorhal. Havel knows the city and keeps trying to steer the operation into routes he controls.
-- The next move is a same-night capture of a living zealot at the secondary granary.
+- The poison is worked into grain during packaging by skilled dark alchemy and necromancy, and the masked cult crew protects itself while dragging sickened loaders inside before they turn.
+- The granary district holds an organized cult cell with lookouts, dead drops, and disciplined pairs.
+- Corin is a trusted local ally inside Andorhal. Havel steered Sylvanas into a near-pinch in a blind loading alley and keeps pushing controlled streets and dawn timing, raising sharp unspoken suspicion.
+- The next move is a same-night capture of a living cultist at the secondary granary.
 - The old carter and the newer grain-man clue remain weak, background, and unresolved.
 
 **Do not add yet:**
 - Kel'Thuzad's name.
 - Proof that the wider spread is already complete.
 - Full Barov guilt.
-- Any collapse of the partnership into overt warmth.
+- Any spoken confession or collapse of their guarded tension into easy warmth.

@@ -1,6 +1,6 @@
 # Voice Sheet: Ranger Lyriel
 
-*Story mode: right-flank escort and the best shot in the detail. She talks to anyone she meets on a road, and she is the first ranger to speak to Jaina as a person rather than a prisoner. She jokes where Cyndia won't. The reader should stop noticing her before the Ch 9 trap.*
+*Story mode: right-flank escort and the best shot in the detail. She talks to anyone she meets on a road, and she is the first ranger to speak to Jaina as a person rather than a prisoner. She jokes where Cyndia won't. Her warmth and ease make her sudden death in the Ch 9 trap hit hard.*
 
 ## Grounding
 
@@ -37,7 +37,7 @@
 
 - She rides at Jaina's knee when the road allows and drops back to her flank the moment it doesn't, mid-sentence.
 - Her quick hands go over yours to show you something, then she lets go.
-- She glances at Cyndia after a joke to check whether it landed. It never does, and she is satisfied anyway.
+- She glances at Cyndia after a joke to check whether it landed. It never does, and she is satisfied anyway. Use this once every few chapters, not after every joke, and vary what Cyndia is doing.
 
 ## Sample shapes (story-specific, never canon)
 

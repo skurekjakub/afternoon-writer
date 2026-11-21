@@ -61,13 +61,18 @@ Use this as the fast cast index. Standalone files hold the major recurring notes
 
 ## Investigation support
 ### Ranger Lyriel
-- Cyndia's partner.
-- Quietly reliable until the trap kills her.
-- Her death matters because the reader has stopped noticing her.
+- Cyndia's partner and right-flank scout; the best shot in the detail.
+- Warm, joking, open with strangers, and the first ranger to talk to Jaina as a person rather than a prisoner.
+- Innocently tips off the old carter (Mal'Ganis) in Ch 3 with a kind, truthful answer, teaches Jaina the Farstrider one-handed bandage knot in Ch 4, and is killed instantly in the Ch 9 ward trap when Sylvanas calls the move early.
 
 ### Ranger Neral
 - Early third ranger and northbound dispatch rider.
 - Structural use: gets warnings out and escorts the survivor.
+
+### Captain Willem Brask
+- Ch 4 village militia captain south of Millhaven; careful farmer-soldier slow to trust and fast once convinced.
+- Stops the grain, shuts the granary and bakery, and burns the tainted stock on Sylvanas and Jaina's word; writes their names in his own ledger so he can tell it right. The village lives.
+- Sends a plain, sworn letter for the defence in Ch 23 (undisputed by Ashcombe and ruled irrelevant to the king's death).
 
 ### Apprentice Corin
 - Junior Kirin Tor contact in Andorhal.
@@ -75,8 +80,9 @@ Use this as the fast cast index. Standalone files hold the major recurring notes
 - Proves the institution can still produce useful people even while the hierarchy fails.
 
 ### Captain Aldric Havel
-- Andorhal militia captain.
-- Harried, honest, solving the wrong scale of problem because no one told him the right one.
+- Andorhal militia captain at the market-gate post (Ch 7-8).
+- **Cover:** harried, honest local officer solving the wrong scale of problem and trying to keep arrests proper.
+- **Truth:** on cult coin (his debts vanished when the supplier routes shifted). His street facts are real, but every offer steers the party onto routes, timings, and shelters he controls; exposed and killed by Sylvanas's arrow in Ch 8 when he tries to close the trap.
 
 ### Captured operative
 - Ch 8 prisoner who dies before he can finish talking.
@@ -93,6 +99,6 @@ Use this as the fast cast index. Standalone files hold the major recurring notes
 
 ## Book 2 seed
 ### Ser Edric Valecrest
-- Young palace guard officer and most likely next hand for Frostmourne.
+- Young palace guard officer seeded once by name on rotation in Ch 23; in Ch 24 Jaina feels his mind catching on Frostmourne's pull from the vault.
 - Not a villain. Ambitious, decent, too hungry to be invisible.
-- Important because the blade's next victim should have a face, a name, and a mother who polished his buckle.
+- Still never shown claiming the blade on-page in Book 1; important because the blade's next victim should have a face, a name, and a mother who polished his buckle.

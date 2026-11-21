@@ -91,10 +91,10 @@
 - Grey light, early dark, almost no ordinary life-sound. The place itself feels like the Lich King's body.
 
 ## Daggercap Bay
-- Northrend landing point and the last exit point that still exists.
-- Arthas's temporary harbor, abandoned camp, and burned ships are the first hard proof that he already values the objective over the army.
-- Arthas keeps his own ship in a separate cove. It is gone from the cove when S&J return to the bay.
-- The *Wolfheart* waiting here matters morally as much as practically: S&J keep a retreat Arthas destroyed for his army and kept only for himself.
+- Northrend landing point and the last human exit point that still exists.
+- Arthas's temporary harbor, abandoned camp, and **all** of his ships burned to the waterline are the first hard proof that he already values the objective over the army (no reserve ship is left in a separate cove).
+- His exit home runs far past the bay, through a northern glacier pass beyond the cavern to a hidden dead-crewed vessel in a northern sea-ice fjord — leaving Daggercap Bay nothing but charred hulls and the intact *Wolfheart*.
+- The *Wolfheart* waiting here matters morally as much as practically: S&J keep a retreat Arthas destroyed for his army.
 - Key feel: charred hull ribs frozen into ice, fuel-smell ghosting in the cold, empty military footprint.
 
 ## Dragonblight
@@ -115,4 +115,5 @@
 - The altar inscription is explicit about the price. It warns, but it does not stop anyone.
 - Frostmourne's field should read as pressure, cold, and wrongness. Jaina recognizes it as kin to the plague.
 - Arthas's selected men already look half-lost by the time S&J reach the chamber.
+- A cavern ice-collapse separates the retreat from Arthas's push deeper through the northern glacier pass toward the sea-ice fjord, earning his four-day lead home while S&J extract Muradin back to the *Wolfheart*.
 - This is the point of no return: the cave takes a prince and gives back a death knight.

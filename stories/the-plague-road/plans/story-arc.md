@@ -12,7 +12,7 @@
 
 ## Core engine
 - Two authorities forced together: military tactician vs arcane prodigy.
-- Main relationship line: threat -> asset -> partner -> necessary -> absolute trust under fire.
+- Main relationship line: threat -> asset -> partner -> necessary -> slow-burn romantic devotion forged inside tactical intimacy and absolute trust under fire.
 - Every solved problem reveals a bigger, faster, less containable one.
 
 ## The four spines
@@ -24,7 +24,7 @@
 
 ### 2. Partnership
 - See partnership-arc.md.
-- The emotional core is trust earned through repeated correct action.
+- The emotional core is slow-burn romantic tension and unspoken devotion earned through repeated correct action, physical awareness, and staying when every institution breaks. No melodrama or speeches about feelings.
 
 ### 3. Sylvanas's line
 - Lie: the world beyond the border is someone else's problem.

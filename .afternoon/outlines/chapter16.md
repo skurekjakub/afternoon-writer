@@ -1,11 +1,11 @@
 # Chapter 16: Before the Gates
 
 **POV:** Jaina Proudmoore (limited third, absolute)
-**When:** Directly follows Chapter 15. Opens on the hard ride ahead of Arthas's main column and closes at Stratholme's gates when Jaina has to admit the source plan cannot save the city cleanly anymore.
-**Where:** East road into Stratholme's outer farming belt.
-**Travel:** Hard horseback approach, then fast on-foot work through storehouses and market routes, then back to the gates as Arthas's mounted vanguard comes up.
+**When:** Directly follows Chapter 15. Opens on the final hard gallop ahead of Arthas's vanguard and closes at Stratholme's gates when Jaina has to admit the source plan cannot save the city cleanly anymore.
+**Where:** East road into Stratholme's outer farming belt, then inside Stratholme's east granary, market streets, and second storehouse, then back to the main gate.
+**Travel:** Hard horseback sprint into the city, fast on-foot fighting and spellwork through storehouses and market streets, then back to the gates as Arthas's mounted vanguard rides up.
 **Characters:** Jaina, Sylvanas, Cyndia, Arthas, Uther, Falric.
-**Goal:** Reach Stratholme before the army, hit the plague's feeding points, and find out whether there is still a way to stop the city from turning.
+**Goal:** Reach Stratholme before the army, break the plague at its grain stores and bakehouses, and find out whether the city can still be stopped from turning.
 
 ## References
 
@@ -13,18 +13,18 @@
 - **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Arthas profile](stories/the-plague-road/characters/arthas.md), [Uther profile](stories/the-plague-road/characters/uther.md)
 
 **Jaina's starting position:**
-- Hearthglen proved the outbreak can tip from bad grain and sick households into a city feeding itself to the dead.
-- Kel'Thuzad's explanation gave her something usable, not only explanatory: the plague can be broken at concentrated feeding points if she reaches them before too much of the city has eaten.
-- Arthas is marching behind them and will not wait for proof longer than the road makes him wait.
-- Sylvanas chose to ride with the source plan instead of staying with the prince's main force.
-- The crack from Scholomance is still there even though the team is working cleanly.
+- Hearthglen proved the outbreak can tip from tainted grain and sick households into a city feeding itself to the dead.
+- Kel'Thuzad's explanation gave her one usable counter: break the resonance inside concentrated grain stores before too many households eat from them.
+- Arthas is marching hard behind them and will wait only as long as the road forces him to wait.
+- Sylvanas chose to ride with Jaina's granary plan instead of staying beside the prince's column.
+- The crack from Scholomance and the ford still sit unspoken between them even as they ride knee-to-knee again.
 
 **Still in the dark about:**
-- Whether Stratholme is still early enough for the source plan to matter.
-- How many grain nodes in the city are already hot.
+- Whether Stratholme is still early enough for the source plan to save it.
+- How many granaries and bakehouses inside the walls are already hot.
 - Whether any part of Arthas still wants an answer other than steel.
-- Whether she can say too late out loud when the city finally gives her that answer.
-- How many living cult handlers are still inside the city and what they can still steer.
+- Whether she can speak too late aloud when the streets force the count on her.
+- How many living cult handlers wait inside the city steering the turning dead.
 
 **Hold back:**
 - No on-page Culling yet.
@@ -34,130 +34,128 @@
 - No explicit Mal'Ganis identification.
 
 **End of chapter state:**
-- Jaina's source plan is real and works at the node level: at least one granary can be spoiled and its pull broken.
-- The city is already too far gone for that success to scale. Too many stores are hot, too much bread is already in houses, and too much plague is already sitting inside living bodies.
-- Cult handlers are still present in the city and can harden or direct the dead when blind choir behavior alone would only clump and feed.
-- Sylvanas gets direct field proof that Jaina used Kel'Thuzad's teaching to try to save people immediately.
-- Arthas reaches the gates and forces Jaina to answer the only question that matters: can Stratholme still be saved cleanly?
-- Sylvanas starts to step in and speak first. Jaina answers alone, over her: not cleanly, not now.
+- Jaina's source plan is real and works storehouse by storehouse: she forces the east granary to sour, clot, and go dead before the guards can drag her out.
+- The city is already too far gone for that win to scale. Morning loaves are already in doorways, carts have already unloaded, and too many living bodies already carry the plague.
+- Living cult handlers are inside Stratholme steering infected workers mid-turn, and the dead keep surging even after a handler dies.
+- Sylvanas gets unmistakable firsthand proof that Jaina spent Kel'Thuzad's teaching fighting to save living people.
+- Arthas reaches the gates and demands to know whether Stratholme can still be saved.
+- Sylvanas starts forward, hand rising toward Jaina's sleeve to take the question first. Jaina pushes past the reaching hand and speaks over her alone: `"Not cleanly. Not now."`
 
 ---
 
 ## Character Arcs
 
 ### Jaina
-- She opens believing correct theory plus speed may finally save somebody instead of only explaining why they died.
-- The plan works in one place, which makes the larger failure worse rather than better.
-- She has to stop thinking about elegant mechanism and start counting mouths, ovens, and houses already ahead of her.
-- By the end, she says the truth without softening it, alone, over Sylvanas's move to answer first. The answer is correct.
+- She opens believing speed plus Kel'Thuzad's stolen method can finally save living people instead of only explaining why they died.
+- Breaking the east granary proves the method works—which makes the morning loaves outside hit twice as hard.
+- She is forced to stop thinking in runes and storehouses and start counting ovens, kitchens, and children's breakfasts already ahead of her.
+- At the gate, she pushes past Sylvanas's reaching hand and tells Arthas the raw truth alone—correct, honest, and cutting Sylvanas personally as well as tactically at the worst possible moment.
 
 ### Sylvanas through Jaina's POV
-- She is cover, witness, and the partner who makes the attempt field-real instead of theoretical.
-- Jaina can feel Sylvanas watching not only whether the plan works, but what Jaina does with knowledge that once looked dangerous in her hands.
-- Keep Sylvanas exterior. Let the pressure come from timing, questions, and where she puts her body.
-- At the gate Sylvanas starts forward to take Arthas's question, and Jaina speaks over her.
+- She is bow cover, door-holder, and the partner who turns Jaina's frantic theory into real ground inside hostile streets.
+- Jaina feels Sylvanas watching not only whether the spell works, but how desperately Jaina spends dangerous knowledge for strangers.
+- Keep Sylvanas exterior: read her in where she plants her boots, how fast her arrow answers a cult whistle, and the sudden sting when her hand stops short of Jaina's sleeve at the gate.
 
 ### Partnership
-- The team is fast, efficient, and not healed.
-- The repair here comes through work: Jaina names targets, Sylvanas makes room for the work, Cyndia keeps the line moving.
-- Do not call this trust in the abstract. Let the proof live in the attempt itself.
-- The chapter ends on Jaina acting without her partner, at the one moment it costs the most.
+- The three women move fast, fierce, and unhealed.
+- Repair starts through shared blood and sweat—Jaina naming granaries, Sylvanas holding angry guards off her back, Cyndia clearing lanes—never through speeches.
+- Then the chapter ends on Jaina shoving past Sylvanas's hand at the gate, acting alone in the one breath it hurts most.
 
 ---
 
 ## Cast and handoff rules
 
-- **Sylvanas:** Tactical cover, hard questions, fast read on streets and retreat lines. At the gate she reads Arthas and starts to answer for them both. Jaina does not wait for her.
-- **Cyndia:** Relay, horse control, flank watch, and second set of eyes on crowd shift and route closure.
-- **Arthas:** Arrives late in the chapter, already moving. Keep him exterior and immediate.
-- **Uther:** Arrives with the main column. His presence must register as moral weight before the split.
-- **Local guards / bakers / teamsters / civilians:** Use them to show what too late means in lived terms: bread already moved, ovens already hot, families already carrying the plague inside them.
-- **Cult handler:** Living field presence. Brief, practical, and alarming because it proves someone is still steering parts of this.
+- **Sylvanas:** Door-holder, lethal bow cover, fast read on streets and exits. At the gate she reads Arthas's face and moves to answer for them both, hand rising toward Jaina's sleeve; Jaina pushes past her and speaks over her.
+- **Cyndia:** Horse holder, flank watch, alley clearance, and eyes on the shifting morning crowd.
+- **Arthas:** Arrives at the gate late in the chapter, lathered horse still blowing, already leaning toward steel. Keep him exterior and immediate.
+- **Uther:** Rides up behind Arthas with the vanguard; his silence carries moral weight before the break.
+- **Local guards / bakers / teamsters / civilians:** Hostile and terrified in Store #1 because they think an elf and a mage are spoiling clean food; devastating in the streets because bread is already warm in children's hands.
+- **Cult handler:** Living field presence in Store #2. Sharp whistle, brief and terrifying because he steers turning workers mid-room before Sylvanas kills him.
 
-**Next chapter starts:** Chapter 17 opens at the gates after Jaina has answered Arthas honestly, over Sylvanas, and before the city has been formally reduced to his next decision.
+**Next chapter starts:** Chapter 17 opens at the gates in the heartbeat after Jaina answers Arthas honestly over Sylvanas, before Arthas turns her answer into his next order.
 
 ---
 
 ## Scene 1: The Ride
 
-**The action:** The source plan becomes a physical race, and Jaina has to speak it in roads, districts, ovens, and arrival order instead of theory.
+**The action:** One relentless approach beat strips the source plan to granaries, bakehouses, and unloaded carts as they beat Arthas's vanguard to the east gate.
 **Cast:** Jaina, Sylvanas, Cyndia.
-**Starting point:** The plan is narrow, the army is behind them, and the city clock is already running.
+**Starting point:** Arthas's column is rolling behind them, and Stratholme's ovens are already firing for morning.
 
 ### Beat 1
-- The road will not give them all the speed they want. Wagons have torn the ruts deep, the horses are already hot, and every slow bend feels like bread cooling in another oven they have not reached yet.
-- Jaina's mind is no longer on the whole plague chain but on delivery order and how fast bread leaves heat, Sylvanas and Cyndia are treating the plan as a real field task, and the dust of Arthas's mounted vanguard is still visible far enough back to matter. The infantry follow later.
-- They do not know whether the lead is enough or which district of Stratholme took the first seeded grain.
-- Ground the ride: horses blowing hard and white at the mouth, cart ruts forcing them onto the firmer shoulder of the road, Arthas's dust hanging low behind them.
-- The ride becomes part of the plan instead of just the road to it.
-
-### Beat 2
-- Jaina strips the plan down to what the others can use at speed: main grain stores first, then bakehouses already working from them, then carts not yet unloaded. She can foul a store, break its pull, and burn what must be burned. She cannot unfeed people who already ate.
-- The source plan depends on concentration and order rather than a city-wide wave of magic, Jaina is openly using Kel'Thuzad's method against the plague, and Cyndia takes the route and relay role without argument, showing the three women are working as a unit.
-- They do not know whether the first store they hit will still be intact enough to matter or whether the city has already spread too far beyond stores and ovens.
-- Ground the briefing at speed: Jaina shouting district names into the wind, Sylvanas riding close enough to hear without making her repeat herself, Cyndia cutting ahead at a fork to keep a side lane clear.
-- The plan now has to prove it can do something real.
+- The three horses hammer down rut-torn approaches ahead of Arthas's rising yellow dust, white lather flying off their bits. Leaning low into the wind, Jaina strips her plan to bare targets Sylvanas and Cyndia can run at a sprint: main grain stores first, then working bakehouses, then carts still unloaded—she can foul a store and break its pull, not unfeed anyone who already ate.
+- Riding close enough to hear without making Jaina repeat a syllable, Sylvanas takes the district order at once while Cyndia spurs ahead to clear the east gate lane. Jaina is openly deploying Kel'Thuzad's resonance backward against his own plague, and every slow wagon blocking the verge feels like another oven pulling loaves out of heat.
+- They do not know which district received the first seeded shipments or how many minutes their lead will buy before Arthas's vanguard hits the cobbles.
+- Ground the approach: lathered horses blowing hard onto the firm verge, Jaina shouting granary streets over pounding hooves, Sylvanas matching her stride knee-to-knee, Arthas's vanguard dust climbing behind them as Stratholme's walls rush forward.
+- They hit the east gate at a gallop and plunge straight into the waking city.
 
 ---
 
 ## Scene 2: The First Stores
 
-**The action:** The source plan scores one real success and then immediately shows why that success cannot scale fast enough to save Stratholme.
+**The action:** Store #1 turns into a hostile scramble against Stratholme's own guards and bakers while Jaina proves the spell works; the street outside kills hope in one breath; and Store #2 explodes into close-quarters horror under a living cult handler's whistle.
 **Cast:** Jaina, Sylvanas, Cyndia, local guards, teamsters, bakers, civilians, one cult handler.
-**Starting point:** The plan is physically workable if the target is concentrated and early enough.
+**Starting point:** The east granary is still open for morning trade, and nobody inside knows their flour is poisoned.
+
+### Beat 2
+- They burst into the east granary while teamsters are still hauling sacks toward waiting carts, and the room explodes into hostility. City guards draw steel and furious bakers and carters shove forward shouting that an elf and a Dalaran mage have no right to touch clean food while the city wakes for market.
+- Stratholme does not look dead yet—the guards are loyal, angry, and completely blind to the sweet chemical rot curling under the beams—and Jaina feels the heavy, humming resonance packed thick inside the stacked grain sacks.
+- They do not know how long Sylvanas can hold angry Lordaeron guards without spilling innocent blood, or how many carts already pulled out of this yard at dawn.
+- Ground the breach: flour dust exploding in shafts of morning light, iron halberds scraping floor planks as guards surge in, a baker seizing Jaina's sleeve screaming about winter stores while Sylvanas plants herself in the doorway with an arrow drawn to the cheek—not loosing, just holding the line.
+- Jaina drops to her knees among the sacks with shouting men three paces away.
 
 ### Beat 3
-- The east granary is still standing and still guarded, which gives Jaina one clean shot. Nobody at the door understands why a mage is screaming about spoiled grain while the city is still trying to open for trade.
-- Stratholme is not yet openly dead at the edges, local guards are confused rather than informed, and the outbreak is early enough here that a concentrated source can still be hit before it fully spreads.
-- They do not know how many other stores in the city are already moving the same grain or whether this granary is central or only one branch.
-- Ground the store: sack dust hanging under the beams, teamsters arguing over deliveries while Sylvanas forces the door, the first sickly-sweet necromantic note rising stronger at the grain itself.
-- The plan gets one place where it can work cleanly.
+- With no circle space and angry guards pressing against Sylvanas's bow and Cyndia's blade at the wagon bay, Jaina drives Kel'Thuzad's resonance straight backward into the grain—ugly, frantic, and raw. Under her shaking hands, the stored wheat sours in seconds, clots wet and gray through split burlap, and goes utterly dead before the guards can drag her off the floor.
+- The countermeasure works in the field, Sylvanas directly shields the spellwork with her body instead of questioning it, and both women feel the sickly hum in the storehouse snap off like a cut wire.
+- They do not know how many more granaries they can hit before the city guard swarms them or how far the dawn carts already traveled.
+- Ground the break: grain souring in a sudden stinking rush, white flour collapsing gray and damp where blue-white frost and counter-resonance tear through it, bakers gagging back from the ruined sacks, Jaina's hands shaking violently once the hum breaks.
+- The first real win lands—and lasts until they shove back through the doorway.
 
 ### Beat 4
-- Jaina breaks the granary fast, with no proper circle room and no time for elegance. Sylvanas and Cyndia hold the space while Jaina forces the store to answer wrong: spoil, clot, collapse, go dead.
-- Jaina can foul a concentrated plague source in the field, Sylvanas directly enables that work instead of doubting or slowing it, and the method is ugly, fast, and practical rather than elegant.
-- They do not know whether they can repeat this enough times before the city outruns them or how far the carts that already left have gone.
-- Ground the break: grain souring in a rush instead of rotting slowly, flour turning wet and gray where the spell bites through it, Jaina's hands shaking once the pull in the room breaks.
-- The first real success lands.
+- The morning street outside kills every drop of relief in a single glance. Bakehouse chimneys pour sweet smoke over the roofs, handcarts stand empty beside market stalls, and ten paces away a mother tears a warm loaf in half for a child sitting on a doorstep. Jaina can ruin sacks; she cannot unbake bread already in stomachs.
+- Speed of distribution has beaten them before they even hit Store #2. The plague has already jumped from granaries into kitchens, ovens, and living children, and Jaina's mind stops counting storehouses and starts counting mouths.
+- They do not know whether any central hub left can still change the sum or how many households are already carrying dormant sickness.
+- Ground the street: warm bread steam drifting sweet through air Jaina no longer trusts, flour smeared across a mother's wrist as she hands a crust to her child, Sylvanas sweeping ordinary market stalls with the flat eyes of a ranger reading an ambush already sprung.
+- They sprint for the second storehouse knowing the morning is already slipping away.
+- Inside: it worked, it actually worked, and the relief died in one doorway; can't unbake bread, can't unfeed a child; doing the math in ovens and small throats now and hating how fast the numbers come; the spell was Kel'Thuzad's, and it worked, and someday she will have to say that aloud
 
 ### Beat 5
-- The street outside kills any false hope. Bakers are already carrying morning loaves. Carts have already unloaded. Families are already tearing bread for children in doorways. Jaina cannot unbake what has been eaten.
-- Distribution speed rather than contamination alone is now the problem, the plague has already crossed from stores into kitchens and bodies, and Jaina has to count people now instead of nodes.
-- They do not know whether a central store remains that matters enough to justify another push or how many households are already carrying dormant activation.
-- Ground the street: warm bread steam in air Jaina no longer trusts, a mother breaking a loaf with flour still on her wrist, Sylvanas reading ordinary market traffic like a kill zone delayed by hours.
-- The city shows them exactly how late they are.
-- Inside: it worked, it actually worked, and the pleasure of that lasts one doorway; can't unbake bread, can't unfeed a child; thinking in ovens and mouths now, and hates how quickly she does the sums; the method was his, and it worked, and someday she will have to say so
+- Store #2 is already half stripped and smells like a charnel house under spilled flour. Halfway across the floor, fevered grain-workers drop their sacks, collapse onto their knees, and jerk back upright mid-room—joints snapping, jaws locking—the instant a sharp, practiced human whistle cuts down from the upper loading loft. A living cult handler is right there steering the turn.
+- Close-quarters chaos erupts between stacked flour bins: turning workers lunging blind through white dust while the handler blows a second shrill note to drive them straight at Jaina's throat. Jaina throws jagged frost across the planks to pin two clawing men off a cornered apprentice while Sylvanas pivots off a wagon wheel and puts an arrow straight through the handler's throat before the third note clears his lips.
+- They do not know how many other handlers are scattered across Stratholme's market quarters right now.
+- Ground the horror: a piercing human whistle slicing over screams, a flour-dusted laborer snapping upright with gray veins bulging along his neck, spilled sacks bursting white around Sylvanas's boots as her arrow pins the handler to the loft timber.
+- The handler drops dead—and the turning workers do not stop.
 
 ### Beat 6
-- The second store is worse. It is already half stripped, sickness is already moving among the workers, and a living handler is there using taught signals to stiffen the nearest dead when panic starts. The plague is not only spreading. Someone is still helping steer it.
-- Cult handlers are still present and can directly shape undead behavior in the city, the plague has enough blind organization to keep pressure up even without a handler on every street, and Jaina's method can destroy supply without erasing what already moved into flesh.
-- They do not know whether any third strike is worth the time or what answer Arthas will demand if he reaches the gates before they finish counting the damage.
-- Ground the proof: a human whistle cutting through the street while the nearest dead jerk toward it, sick workers trying to stand long after they should be lying down, Sylvanas's arrow pinning the handler before Jaina fully turns.
-- The chapter stops asking whether the plan works and starts asking what it means at city scale.
+- Even with the handler bleeding out in the rafters, the newly risen workers keep clawing straight through Jaina's splintering ice while sick men out in the alley stumble toward the noise. Sylvanas drags Jaina back through the side yard with Cyndia clearing the lane, proving the worst combination: live cultists are steering parts of the city, and the blind plague momentum no longer even needs them to keep spreading.
+- Jaina's method can kill grain in a bin; it cannot touch the living flesh already turning in the alleys, nor catch the empty flour carts rattling past the corner toward the west quarter.
+- They do not know whether hitting a third store saves a single street or only wastes the minutes before Arthas hits the gate.
+- Ground the breakout: frost snapping under gray fingers, a dead handler's brass whistle dangling from a leather cord in the loft, an empty bakery wagon clattering past the alley mouth while screams rise two streets deeper in.
+- Storehouses are no longer enough; the city is already turning under their boots.
 
 ---
 
 ## Scene 3: The Count
 
-**The action:** Jaina stops chasing one more fix and says the city-scale truth before Arthas can fill the silence with his own answer.
+**The action:** Jaina faces the math of loaves, ovens, and children's breakfasts, then pushes past Sylvanas's reaching hand at the gate to give Arthas the raw truth alone.
 **Cast:** Jaina, Sylvanas, Cyndia, Arthas, Uther, Falric, vanguard soldiers.
-**Starting point:** The method works locally, but the city has already pushed too much plague into households and bodies.
+**Starting point:** The spell works on sacks, and the city has already eaten past every granary they can reach.
 
 ### Beat 7
-- Jaina can still think of more places to hit. That is the trap. Each one might help one district, one street, one morning. None of them pulls the plague back out of stomachs, ovens, and blood. The plan is not wrong. It is late.
-- Jaina's breaking point is not magical exhaustion but the count itself, she now understands exactly how the plan lost, and the line between source contamination and population contamination has been crossed for good.
-- They do not know whether Arthas will hear the difference between cannot be saved cleanly and nothing can be done or whether Uther will stand with Jaina's answer or against Arthas's response.
-- Ground the count: Jaina staring at a row of open shutters and thinking about breakfasts instead of spellwork, necromantic drag mixed with kitchen smoke and morning air, hoofbeats from the mounted vanguard finally close enough to stop being imagined.
-- She has to leave the problem and name it.
-- Inside: one more granary, one more street, and it would feel like doing something; for them, or for her; the plan isn't wrong, and that is no help at all; could keep working until the prince arrives and let him decide, and that would be hiding behind the work
+- Standing at the rise above the market lane, Jaina can still name three more bakeries she could hit in twenty minutes—and sees the trap inside her own head. Each strike might buy one block, one cellar, one morning; none of it pulls the plague back out of warm loaves, kitchen tables, and children's blood. The plan was not wrong; it was late.
+- Exhaustion is not what stops her—the count does. Down the street, shutters stand propped wide to morning air while hearth smoke rises from hundreds of breakfasts, and behind them the heavy thunder of Arthas's mounted vanguard finally shakes the cobbles outside the gate.
+- They do not know whether Arthas will hear any space between cannot be saved cleanly and burn it all, or where Uther will stand once the answer drops.
+- Ground the count: rows of open wooden shutters over morning streets, sweet hearth smoke curling beside the unmistakable necromantic drag rising from living houses, heavy warhorse hooves vibrating up through Jaina's soles from the east road.
+- Jaina turns her back on the next granary and walks toward the gate to name what she found.
+- Inside: one more granary, one more street, and it would feel like fighting; for them, or so she doesn't have to say the number; the plan isn't wrong, which helps nobody; could keep running until the prince decides without her, and that would be hiding behind the work
 
 ### Beat 8
-- Arthas reaches the gates already expecting a usable answer and asks if Stratholme can still be saved. Sylvanas steps up at Jaina's shoulder and starts to answer first, her hand coming up toward Jaina's arm. Jaina speaks over her, alone, because the answer is true: "Not cleanly. Not now."
-- Sylvanas has read Arthas correctly since Chapter 6, and she moved to shape the answer before he could use it. Jaina will not lie to buy comfort, and she gives the correct answer without her partner. Arthas now has the one answer he was always going to hear as a hard edge, and Uther understands what it is about to cost.
-- They do not know what Sylvanas meant to say, or the form Arthas's next order will take.
-- Ground the gate: Arthas's horse still lathered from the ride up, Sylvanas's gloved hand stopping short of Jaina's sleeve, flour dust and ash in Jaina's mouth when she says no.
-- Chapter 17 opens on this answer at the gate while Arthas turns it into action.
-- Inside: Sylvanas's hand coming up, and she sees it and does not wait; it is true, so say it; would Sylvanas have lied to him, or only softened it, and would he have heard the difference; said it alone and cannot tell whether that was honesty or pride
+- Arthas rides straight up to the gate on a lathered charger, Uther grim behind him, and cuts through every greeting with one demand: can Stratholme still be saved? Reading Arthas's eyes in half a second, Sylvanas steps forward right at Jaina's shoulder to answer first—her gloved hand rising toward Jaina's sleeve both to hold her back and to take the prince's blow herself. Jaina feels the heat of Sylvanas's proximity, pushes straight past the reaching hand in a motion that stings personally as well as tactically, and speaks over her alone because the answer is true: `"Not cleanly. Not now."`
+- Sylvanas read Arthas cleanly all the way back in Chapter 6 and tried to shape the answer before he could weaponize it; Jaina refuses to soften a true count, and gives the one hard edge Arthas was already waiting to hear without her partner. Sylvanas's hand freezes short of Jaina's sleeve and drops; Uther goes gray around the mouth knowing what comes next.
+- They do not know what Sylvanas meant to say to buy time, or the exact shape Arthas's next order will take.
+- Ground the gate: Arthas's charger tossing white foam across the cobbles, Sylvanas's gloved fingers stopping inches from Jaina's torn cuff as Jaina steps clear of her reach, flour dust and bitter ash dry in Jaina's mouth as `"Not cleanly. Not now."` leaves her lips.
+- Chapter 17 opens in this exact breath at the gate while Arthas turns her answer into action.
+- Inside: Sylvanas's hand rising for her sleeve, and she sees it and steps straight past it; it is true, so say it; felt Sylvanas go still at her shoulder, stung worse than she expected; would Sylvanas have lied to him, or only bought an hour, and would Arthas have listened to either; said it alone and cannot tell whether that was honesty or pride
 
 ---
 
@@ -172,12 +170,12 @@
 - Falric
 
 **What carries into Chapter 17:**
-- Jaina's source plan was real and produced at least one local success.
+- Jaina's source plan was real and produced at least one local success at the east granary.
 - That success cannot scale because too much contaminated grain has already moved into ovens, homes, and bodies.
-- Cult handlers are still active and can directly command or harden undead behavior inside the city.
+- Living cult handlers are active inside Stratholme and can direct infected workers mid-turn, while the blind plague keeps pushing even after a handler dies.
 - Sylvanas has firsthand proof that Jaina used Kel'Thuzad's teaching to try to save people immediately.
 - Arthas has reached the gate and forced the question.
-- Jaina answered honestly that Stratholme cannot be saved cleanly now. She answered alone, over Sylvanas, who had started to step in.
+- Jaina answered honestly that Stratholme cannot be saved cleanly now (`"Not cleanly. Not now."`). She pushed past Sylvanas's reaching hand and answered alone, over Sylvanas, who had started to step in.
 
 **Do not add yet:**
 - The on-page wording of Arthas's final order.

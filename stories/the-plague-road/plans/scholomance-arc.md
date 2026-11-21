@@ -41,10 +41,11 @@
 
 ## Ch 14 — The Revelation
 - POV: Jaina.
-- Jaina briefs the new intelligence clinically: Lich King, Legion, scale, grain already out.
+- Live road pressure hits before any debrief settles: at an overrun Eastweald ford/bridge clash, Sylvanas's fractional post-Scholomance hesitation nearly draws blood, and Jaina catches the delay instantly.
+- At the stream stop, Jaina briefs the new intelligence clinically: Lich King, Legion, scale, grain already out.
 - She keeps back the price. Asked once how she got him to talk, she gives a true, partial answer, and Sylvanas does not press.
-- Sylvanas's trust now carries a fractional delay. Jaina notices.
-- Road pressure returns immediately: Hearthglen barely held and Arthas is marching on Stratholme.
+- No Antonidas stone call and no Silvermoon runner reach them here (both institutional lines wait for Ch 18).
+- Road pressure snaps back immediately via the Hearthglen relay: Hearthglen barely held and Arthas is marching on Stratholme.
 
 ## Key notes
 - Mal'Ganis lays the Ch 9 ward and the courier's false lead. The Hearthglen dispatch is genuine; Sylvanas's choice to arm Arthas is her own.

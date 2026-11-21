@@ -4,8 +4,7 @@
 
 ## Grounding
 
-- Sources: outline Ch 4 (work-rough hands on a spear shaft; he has no reason to trust armed outsiders; Millhaven made real enough to frighten him; he closes the granary and bakery, sends riders after the last flour cart, and burns the tainted stock; his pen scratches their names) and Ch 23 (the letter says why he wrote their names before it says anything else, swears the pair stopped the grain in time, and says the village lived).
-- He has no entry in `supporting.md`. Everything here comes from the two outline chapters.
+- Sources: `supporting.md`, outline Ch 4 (work-rough hands on a spear shaft; he has no reason to trust armed outsiders; Millhaven made real enough to frighten him; he closes the granary and bakery, sends riders after the last flour cart, and burns the tainted stock; his pen scratches their names), and Ch 23 (the letter says why he wrote their names before it says anything else, swears the pair stopped the grain in time, and says the village lived).
 
 ## Baseline register
 

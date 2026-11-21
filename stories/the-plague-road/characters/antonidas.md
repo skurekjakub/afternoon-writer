@@ -21,12 +21,12 @@
 - Ch 2: no contact. Jaina keeps her paired stone silent so he cannot order her home. He has only the note she left.
 - Ch 9: first contact. He makes Kirin Tor suspicion formal.
 - Ch 10: caution, delay, and procedure when Jaina reaches him from Scholomance.
-- Ch 14: Jaina gives him the Lich King chain and the Legion threat but not the room. He tells her to come home, and she refuses.
-- Ch 18: last real plea before Northrend. He offers extraction after Stratholme.
-- Ch 18: Jaina tells him she is going north and closes the line herself.
+- Ch 13-17: no stone contact reaches the road (no call in Ch 14). The field stays chapters ahead of Dalaran.
+- Ch 18 (on the road): Antonidas offers extraction after Stratholme and asks her home. Jaina finally gives him the Lich King chain and the Legion threat, keeps back the Scholomance price, and refuses extraction.
+- Ch 18 (that night): Jaina tells him she is going north and closes the line herself.
 - Ch 19: the stone is dead.
-- Ch 21: the stone wakes once the Wolfheart is clear of the ice, and Jaina warns him. At Southshore he confirms Arthas is in Capital City. He arrives in Capital City in person with two Kirin Tor magi and meets the pair at the palace margin.
-- Ch 23: he stands in the tribunal gallery, argues, asks for time, and still cannot save her.
+- Ch 21: at Southshore Jaina chooses to wake the stone herself (no proximity rule); Antonidas does not yet know where Arthas is (the Farstrider relay runner on the King's Road brings word of Arthas's homecoming). Antonidas arrives in Capital City in person with two Kirin Tor magi and meets the pair at the kitchen service arch (`"You came."`).
+- Ch 23: he is refused the stand in the tribunal gallery, hears Jaina's first Kel'Thuzad admission about him read aloud from the journal, and still cannot save her.
 
 ## Carry-forward
 - Keep him warm but never safe.

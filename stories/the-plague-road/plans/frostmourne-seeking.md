@@ -7,8 +7,8 @@
 - Hours 1-6: wrong cold, pressure, instinct to leave.
 - Hours 6-24: whispers begin.
 - Days 1-3: tailored dreams start.
-- By the trial (Ch 23): cold and influence spread beyond the vault. Jaina clocks the acceleration in days, not weeks.
-- Verdict night (Ch 24): the cycle narrows from ambient hunger to single minds. One guard's mind keeps catching on it. Before dawn the blade leaves the vault.
+- By the trial (Ch 23): cold and influence spread beyond the vault. Jaina clocks the acceleration in days, not weeks. Ser Edric Valecrest is seeded once by name on palace guard rotation.
+- Verdict night (Ch 24): the cycle narrows from ambient hunger to single minds. Jaina feels Ser Edric's mind catching on the blade's pull. Before dawn the blade leaves the vault (still never shown being claimed on-page in Book 1).
 
 ## Likely hands
 - Ser Edric Valecrest: ambitious young knight who wants to matter.

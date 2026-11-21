@@ -17,8 +17,8 @@
 - Field work from the earlier chapters traced cursed grain contracts back through Barov papers and Barov properties in the Eastweald.
 - The farmhouse read in Chapter 9 gave her fractured binding rules, Barov transit papers, and proof of the living-body component, but not the final awakening curse.
 - She knows the plague claims the body, but not how the dead are forced to answer afterward.
-- Her magical sensitivity helps identify plague sites earlier than anyone else would, but she is still chasing poison that already spread.
-- Cyndia's scouting warnings and Jaina's own route work say the Barov surface and the deeper arcane source do not fully match.
+- Her magical sight catches plague traces earlier than anyone else would, yet she is still chasing poison that already spread.
+- Cyndia's scouting notes and Jaina's own route work say the Barov manor surface and the deeper arcane source do not match.
 - The old carter on the north road and the survivor girl's newer grain-man memory are still unresolved background clues.
 
 **Still in the dark about:**
@@ -45,21 +45,21 @@
 ## Character Arcs
 
 ### Jaina
-- She arrives believing speed, rank, and clear magical sight can carry the Barov thread alone.
-- To get inside, she burns surprise early, shows too much, and accepts a warded crossing she would never take with Sylvanas beside her.
-- What she lacks is not intelligence. It is the second mind that would price exits, servants, and traps before the next revelation pulls her forward.
-- By the end, retreat means leaving the only live answer in enemy hands, so she goes below.
+- She arrives believing speed, Kirin Tor rank, and clear arcane sight can carry the Barov thread alone.
+- To get inside, she burns surprise early, shows too much, and accepts a tracking ward she would never take with Sylvanas standing beside her.
+- What she lacks is not intellect; it is the second voice that prices exits, servants, and gilded traps before curiosity pulls her through the next door.
+- By the end, walking back out means leaving the only live answer in enemy hands, so she walks down into the trap with her eyes open.
 
 ### Sylvanas through Jaina's absence
-- Sylvanas is missing as fieldcraft, not as fantasy.
-- Every time Jaina yields initiative, crosses a boundary, or accepts curated access, the lack is practical.
-- The estate proves that recognizing dangerous magic and surviving the room that holds it are different skills.
-- Sylvanas stays off-page as the missing refusal that would have slowed this descent.
+- Sylvanas is missing first as a scout's eye, and then as an ache in the cold, quiet rooms—the sharp flat refusal Jaina keeps expecting to hear at her shoulder.
+- Every time Jaina yields ground, accepts a ward, or follows a curated hallway, she catches herself half-turning toward empty space where Sylvanas would have stepped in front of the door.
+- The estate proves that reading dangerous magic and surviving the room holding it are two different arts.
+- Sylvanas stays off-page as both the missing refusal and the one presence Jaina wishes were standing behind her in the dark.
 
 ### Partnership
-- The partnership is split by necessity, leaving both threads thin.
-- The absence bites in protocol, route choice, and surrendering initiative.
-- Jaina's descent is partly what the chapter needs and partly what no one is present to stop.
+- The split leaves both women thin and exposed in the exact rooms they handle worst alone.
+- Absence bites in every choice Jaina makes: walking straight up the drive, letting a Barov mage mark her skin, stepping into a boat with no second blade watching the shore.
+- Jaina descends because the answer is down there—and because the one person who would have stopped her is riding south.
 
 ---
 
@@ -83,88 +83,88 @@
 **Starting point:** The Barov name sits at the center of the grain ledgers. Jaina has spell fragments, Barov papers, Cyndia's estate notes, and no escort.
 
 ### Beat 1
-- Jaina approaches alone and feels at once what the split cost. No one is reading the tree line for her, pricing the exits, or telling her when curiosity has become exposure. She chooses the direct approach and bluffs a Kirin Tor authority she does not hold.
-- The lack of Sylvanas is practical before it is personal. The deepest magic is not in the manor but beyond it toward Darrowmere and Caer Darrow, and arriving openly trades surprise for entry.
-- They do not know whether formal rank will buy access or only surveillance, or how much the house already knows about her.
-- Ground the arrival: a Thalassian horse sweating in the cold, deep wagon ruts, orchards that look healthy until the rot catches in the leaves, the Barov crest over a gate built for obedience.
-- She rides straight to the door and forces the house to answer.
-- Inside: what would Sylvanas look at first; the tree line, probably, so she looks at the tree line and sees trees; bluffing a rank she doesn't hold, which is exactly why the Kirin Tor won't give it to her; knows the direct approach is the wrong one and takes it because it is the fast one
+- Approaching the Barov drive alone, Jaina feels the missing weight at her flank at once. No one is reading the tree line, counting gatehouse windows, or cutting her short before curiosity becomes exposure. She chooses the front gate and bluffs a formal Kirin Tor commission she does not hold.
+- The absence hits practically first and personally half a breath later: she keeps remembering Sylvanas's collarbone warm under her bandage knot, then forces her eyes back to the iron gates. The deepest magic is not in the manor at all, but pulling cold from across Darrowmere Lake toward Caer Darrow.
+- She does not know whether Dalaran's name will buy entry or only a watched parlor, or how much the house already knows about her road from Andorhal.
+- Ground the arrival: a Thalassian horse blowing steam in the cold drive, deep grain-wagon ruts cut into gravel, orchard leaves blackening at the tips, the Barov crest stamped over iron gates built to keep people small.
+- She rides straight up to the steps and forces the house to answer.
+- Inside: what would Sylvanas look at first; the tree line, probably, so she looks at the tree line and sees trees; catches herself reaching for that clipped no at her shoulder; bluffing a rank she doesn't hold, which is why the Kirin Tor won't give it to her; knows the front door is the wrong door and takes it because it is fast
 
 ### Beat 2
-- Alexei does not panic. He answers with polished courtesy, curated records, and a story prepared for Dalaran. Jaina forces a reaction by showing the Barov papers and enough of the spell fragments to prove she knows what kind of work this is.
-- Alexei is prepared for scrutiny, and Jaina can force movement but not honesty. Jandice, not Alexei, is the real way inward.
-- They do not know whether Jandice wants to impress her, recruit her, or trap her, or how staged this whole reception is.
-- Ground the reception: perfectly steeped tea, smokeless enchanted heat, Alexei's still hands, Jandice arriving with reagent burns on elegant fingers.
-- The danger changes shape when Jandice enters the room.
+- Lord Alexei Barov does not flinch. He meets her with silk-smooth hospitality, scrubbed transit ledgers, and a rehearsed noble complaint aimed at Dalaran's meddling. Jaina cracks the polite stall by laying the live Barov transit papers and a fractured spell-plate across his tea table, proving she knows what kind of magic runs through his wagons.
+- Alexei is drilled for royal inspectors and Kirin Tor clerks; Jaina can make his hands go still, not make him honest. The real trap—and the real door—enters behind him: Jandice Barov, who smells of rare reagents and looks at Jaina with sharp, hungry appraisal.
+- She does not know whether Jandice means to impress her, recruit her, or cage her, or how much of this parlor scene was set before she reached the gate.
+- Ground the reception: steeped amber tea in a too-cold hall, smokeless enchanted hearthfire that never warms Jaina's hands, Alexei's manicured fingers resting flat on false ledgers, Jandice stepping out of the shadows with dark reagent burns across her knuckles.
+- The polite stall dies the second Jandice takes over the room.
 
 ---
 
 ## Scene 2: The Lake
 
-**The action:** Jandice offers access on terms that strip Jaina of privacy and initiative.
+**The action:** Jandice trades passage to Caer Darrow for a guest ward that strips Jaina of secrecy and control.
 **Cast:** Jaina, Jandice Barov, the lake watch.
-**Starting point:** The manor is not the real source. The island is.
+**Starting point:** The manor is only the gilded front. The real arcane engine sits out on the island.
 
 ### Beat 3
-- Jandice sizes Jaina as a peer, not a guest. She offers passage to the island only if Jaina accepts a guest ward that lets the house taste and track her arcane signature.
-- Jandice is using access as control, and Jaina understands the cost and takes it anyway. The missing spell matters more to her than keeping clean distance.
-- They do not know whether Jandice wants to impress her, recruit her, or deliver her intact to the master below.
-- Ground the bargain: Jandice's sharp gaze measuring power, rich Barov colors cut in Dalaran lines, a ward-mark settling cold against Jaina's skin like a second pulse.
-- Jaina leaves her horse with the Farstrider lake watch on the shore. She lets the ward mark her and steps into the boat.
-- Inside: knows to the thread what the ward costs her, and takes it; Sylvanas would refuse, flatly, and be right; wants the spell more than clean distance, and calls that duty; a little flattered to be sized as a peer, which is the worst part
+- Jandice treats Jaina as a fellow prodigy, not a guest—flattering her intellect while tightening a leash around it. She offers a boat across Darrowmere only if Jaina accepts a guest ward that lets the island taste and track her arcane signature down to the heartbeat.
+- Jandice is selling access as a collar, and Jaina reads every thread of the binding before letting it settle onto her wrist. She takes it anyway because the missing waking spell sits across that water.
+- She does not know whether Jandice wants a rival to boast to, a convert to claim, or a prize to hand down intact to the master below.
+- Ground the bargain: Jandice's narrow eyes measuring power in Jaina's stance, rich Barov velvet cut in Dalaran lines, the guest ward sinking cold into Jaina's skin like a second, slower pulse.
+- At the shore, Jaina hands her Thalassian horse to the quiet Farstrider lake watch Sylvanas left behind—one brief look passing between them—then lets the ward bite and steps into Jandice's boat.
+- Inside: knows to the thread what the ward costs her, and takes it; Sylvanas would refuse in one word and shove her back toward the horse, and she wishes for half a second she were here to try; wants the spell more than clean distance, and calls that duty; a little flattered to be measured as a peer, which is the worst part
 
 ### Beat 4
-- The lake crossing removes the last easy exit. The ward line closes behind her, the estate falls away, and the island fortress resolves as an active stronghold instead of a hidden archive.
-- The crossing is surrender of initiative, not transport. Scholomance is active and heavily warded, and the enemy knows she is coming.
-- They do not know whether any clean way back still exists or what waits below the upper halls.
-- Ground the crossing: green-black water swallowing light, mist sealing the shore, a copper taste in the air as the boat crosses the boundary, Caer Darrow rising from the fog.
-- Scholomance stops being rumor and becomes a place.
+- Crossing Darrowmere snaps the last easy exit shut. As the oars dip through the outer ward line, the manor shore vanishes in fog and Caer Darrow rises ahead—not a dusty ruin or secret vault, but a lit, humming fortress awake to every pulse on her wrist.
+- Stepping off the boat means giving up initiative completely. Scholomance is manned, heavily warded, and already alerted to who just landed on its stones.
+- She does not know whether any clean road back across the lake remains or what waits beneath the upper halls.
+- Ground the crossing: green-black lake water swallowing lantern light, mist sealing the far bank behind them, a metallic copper tang hitting her tongue at the ward boundary, Caer Darrow's wet stone walls rising sheer out of the fog.
+- Scholomance stops being a rumor in a ledger and closes around her like a vault.
 
 ---
 
 ## Scene 3: The School
 
-**The action:** Scholomance proves itself real, orderly, and academically monstrous, while Jandice tries to make Jaina easy to manage.
+**The action:** Scholomance reveals itself as an orderly, horrifying mirror of Dalaran while Jandice curates a gilded tour designed to seduce and manage her.
 **Cast:** Jaina, Jandice, acolytes, necromancers, students.
-**Starting point:** Caer Darrow is awake, warded, and already aware of who crossed the lake.
+**Starting point:** Caer Darrow is awake, warded, and tracking every step Jaina takes through its upper halls.
 
 ### Beat 5
-- Jaina reads the upper halls and realizes the horror is not chaos but order. Scholomance is a working school of necromancy built out of inverted Kirin Tor discipline.
-- The place is staffed, funded, and academically serious. The upper halls alone prove an active school, and Jaina is being shown what the house wants shown.
-- They do not know where the missing spell is kept or how much of the tour is bait.
-- Ground the school: a lecture hall with necromantic runes on the board, a severed hand used like a pointer, robed students moving with Dalaran-level focus, wards humming under polished stone.
-- The upper library puts the real theft within reach.
+- Walking the upper halls, Jaina sees the true horror is not blood-soaked madness—it is academic order. Scholomance is a funded, disciplined school of necromancy built straight out of Kirin Tor habits turned inside out.
+- The lecture rooms are crowded with quiet, attentive students taking notes, and Jaina realizes she is seeing only the clean upper floors Jandice wants a Dalaran mage to admire.
+- She does not know where the waking curse is kept, what rooms sit behind the locked service doors, or how much of this tour is bait.
+- Ground the school: a tiered lecture hall with necromantic runes chalked neatly across slate, a severed hand mounted as a pointer, robed acolytes bending over inkwells with Dalaran focus, wards humming steadily beneath polished flagstones.
+- Then Jandice leads her into the upper library, putting real proof within reach of her hand.
 
 ### Beat 6
-- Jandice shows her the grimoires as both seduction and test. Jaina learns more from the books and from Jandice's slips than from any direct explanation.
-- Antonidas's ciphers shape Kel'Thuzad's work, the plague binds soul-echo to flesh through layered resonance, and the missing awakening mechanism lies deeper below. Jandice's vanity is useful but dangerous.
-- They do not know whether Jaina is being invited down as student, witness, or prey.
-- Ground the library: a cracked leather grimoire still warm from use, the Council of Six seal scratched out, ink and rare reagents in a room that should smell like a grave, Jandice proud of what she serves.
-- Jaina stops pretending the upper halls are enough.
-- Inside: her master's ciphers under Kel'Thuzad's hand; did Antonidas know, or not know, and which is worse; the soul-echo layering is beautiful and she is memorising it anyway; Jandice's pride in the work, and her own under it, too much the same shape
+- Jandice lays open the grimoires as both temptation and boast. Jaina pulls more out of the margin notes—and out of Jandice's vain slips—than Jandice means to give away, slipping a small cracked-leather grimoire of the Damned into her coat when Jandice turns to gloat over a shelf.
+- Antonidas's own ciphers lie twisted beneath Kel'Thuzad's hand; the plague binds soul-echo to living flesh through layered resonance; and the final waking trigger is kept deeper below, where Jandice cannot go uninvited.
+- She does not know whether the doors below will open to her as scholar, witness, or prisoner.
+- Ground the library: a cracked leather grimoire still warm from recent hands, the Council of Six seal scraped raw off the binding, sharp ink and rare reagents scenting a vault that ought to smell like a grave, Jandice preening over what she serves.
+- Jaina stops pretending the upper halls hold what Lordaeron needs.
+- Inside: her master's ciphers under Kel'Thuzad's hand; did Antonidas know, or not know, and which is worse; the soul-echo layering is clean and sharp and she is memorizing it anyway; Jandice's pride in the work, and her own under it, too close to the same shape
 
 ---
 
 ## Scene 4: The Decision
 
-**The action:** Institutional caution fails, and Jaina chooses the descent knowing the invitation is the trap.
+**The action:** Antonidas answers with delay and caution, and Jaina walks down into the crypt knowing the open door is a trap.
 **Cast:** Jaina, Jandice, Antonidas via sending stone.
-**Starting point:** Jaina has proof, a stolen grimoire, and no honest way out that does not abandon the only live answer.
+**Starting point:** Jaina holds proof, a stolen grimoire hidden against her ribs, and no retreat that does not abandon the one answer that matters.
 
 ### Beat 7
-- Jaina reaches Antonidas with her sending stone and gets caution, delay, and procedure. She has to choose between leaving with partial proof or going deeper before the house buries what matters.
-- Antonidas will not move on a noble house fast enough to matter, and Jaina cannot count on rescue or sanction. Partial proof means leaving the one answer she came for.
-- They do not know whether Antonidas suspects how deep she already is or how quickly the house will move once she commits.
-- Ground the refusal: waterlogged static in Antonidas's voice, the blue glow of the stone fighting the room's dark magic, Darrowmere glimpsed through a narrow window.
-- With real backing denied, only the downward choice remains.
+- Alone for a few stolen minutes in a cold alcove, Jaina risks her sending stone to reach Antonidas. What comes back through the ward-static is caution, noble-house politics, and orders to withdraw and file a report.
+- Antonidas will not move on House Barov fast enough to save a single village, and no Kirin Tor force is riding to Darrowmere. Leaving now with partial proof means leaving the waking spell in enemy hands.
+- She does not know whether Antonidas guesses how deep inside the island she already stands or how fast the Barovs will scrub the estate if she retreats.
+- Ground the refusal: waterlogged crackle thinning Antonidas's familiar voice, pale blue light from the stone fighting the room's dark wards, Darrowmere's black water glimpsed through a narrow arrow slit.
+- With Dalaran stepping back, only the stairs down remain.
 
 ### Beat 8
-- Jandice returns with the descent, and Jaina takes it knowing permission itself is the trap. She goes below because retreat means surrendering the only live answer about how the dead are raised.
-- Jaina chooses the descent fully aware it is curated. The stolen grimoire and the missing spell both point downward, and Chapter 12 resumes with her already inside the inner crypts.
-- They do not know whether the descent ends in knowledge, recruitment, or death.
-- Ground the descent: ancient stone worn smooth, embalming dryness in the air, fungi pulsing to her living signature, a door closing behind her without locking and still feeling like a tomb.
+- Jandice returns with word that the master below will see her. Jaina sees the trap in every smooth syllable of the invitation—and walks down anyway, because retreat surrenders the only live answer to how the dead are woken.
+- She commits with eyes wide open, the stolen grimoire pressing hard against her ribs and the guest ward pulsing cold on her wrist. The stairs swallow the last dry air from above; Chapter 12 picks up inside the inner sanctum.
+- She does not know whether the room at the bottom holds knowledge, recruitment, or a quiet death.
+- Ground the descent: ancient crypt steps hollowed smooth by centuries of boots, dry embalming cold catching in her throat, pale fungi pulsing brighter against her living heat, a heavy door swinging shut behind her without a bolt and still sealing like a tomb.
 - Chapter 12 resumes below.
-- Inside: the door is open because they want her through it; going anyway, drafting the explanation for Antonidas as she walks; Sylvanas would have said no in one word; the runner on the shore, and how long he waits before he rides; frightened, and curious, and the curious part is louder
+- Inside: the door is open because they want her through it; going anyway, already drafting the defense for Antonidas as she walks; Sylvanas would have dragged her back to the boat by the collar; thinks of the Farstrider on the shore and how long he waits before he rides south to tell her; frightened, and hungry to know, and the hungry part is louder
 
 ---
 

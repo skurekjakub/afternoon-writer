@@ -16,7 +16,7 @@
 - Track the humor as a barometer. When the humor dies, he is nearly spent.
 
 ## What matters
-- He knows Sylvanas is right and spends twenty-five chapters trying to make Silvermoon act like it.
+- He knows Sylvanas is right and spends twenty-four chapters trying to make Silvermoon act like it.
 - He counts votes the way a ranger counts angles.
 - He spends every favor he has to buy time, then a small forward mobilization, then finally three hundred Farstriders and mages.
 - He wins too late.
@@ -27,10 +27,10 @@
 
 ## Chapter use
 - Ch 1: baseline ease.
-- Ch 9-11: runners and dispatches in his handwriting carry the political combat.
-- Ch 14: a runner brings his private warning that the Convocation is moving toward a recall.
+- Ch 9-11: runners and dispatches in his handwriting carry the political combat; recall pressure escalates in Ch 11 (no runner reaches them in Ch 14).
 - Ch 18: Vereesa reports the small forward mobilization he bought and the man the Convocation has ground nearly flat.
-- Ch 23-24: arrives with three hundred Farstriders and mages after the verdict and still misses the one room that mattered.
+- Ch 23: arrives in Capital City with three hundred Farstriders and mages **during the trial before the verdict** — their presence in the square buys the commutation from death to indefinite imprisonment. Afterward he offers Sylvanas her own solo door out of prison, which she refuses.
+- Ch 24: his force remains outside as leverage and scrutiny for Book 2, still unable to undo the room that mattered.
 
 ## Carry-forward
 - Book 2 inherits him as the man who finally won the argument and burned his whole political life doing it.

@@ -1,11 +1,11 @@
 # Chapter 21: The Return
 
-**POV:** Jaina Proudmoore in Scenes 1-3, Sylvanas Windrunner in Scenes 4-5 (limited third, absolute)
+**POV:** Jaina Proudmoore in Scenes 1-2, Sylvanas Windrunner in Scenes 3-4 (limited third, absolute)
 **When:** Opens hours after Chapter 20's retreat from the Frostmourne cavern and closes at the palace service door in Capital City on the morning of the king's homecoming audience for Arthas.
-**Where:** The road south toward Muradin's camp in Dragonblight, then Daggercap Bay, the southbound crossing, Southshore, the King's Road, Capital City, and the palace approach.
-**Travel:** Casualty carry on foot, camp handoff, return march to Daggercap Bay, an ice-delayed southbound crossing aboard the Wolfheart told as a jump cut, landfall at Southshore, horses bought there, a hard ride north on the King's Road, then the approach on foot through Capital City to the palace.
-**Characters:** Jaina, Sylvanas, Cyndia, three Farstrider rangers, unconscious Muradin, Baelgun shortly after, Dagny, Antonidas by stone and then in person, two Kirin Tor magi, villagers, a relay runner, Capital City heralds and crowds.
-**Goal:** Get the cave intelligence off Northrend, turn it into a workable anti-blade plan, and reach the throne room before the king's homecoming audience puts Terenas within reach of the blade.
+**Where:** Muradin's camp in Dragonblight, the march south to Daggercap Bay, the southbound crossing aboard the *Wolfheart*, Southshore, the King's Road, Capital City, and the palace service approach.
+**Travel:** Casualty carry on foot, camp handoff, return march to Daggercap Bay, an ice-delayed southbound crossing aboard the *Wolfheart* told as a jump cut, landfall at Southshore, horses bought there, a hard ride north on the King's Road, then approach on foot through Capital City to the palace.
+**Characters:** Jaina, Sylvanas, Cyndia, three Farstrider rangers, unconscious Muradin, Baelgun, Dagny, Antonidas by stone and then in person, two Kirin Tor magi, villagers, a Farstrider relay runner, Capital City heralds and crowds.
+**Goal:** Get the cave intelligence off Northrend, turn it into a workable anti-blade plan, and reach the throne room before the king's noon homecoming audience puts Terenas within reach of the blade.
 
 ## References
 
@@ -13,223 +13,185 @@
 - **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Muradin profile](stories/the-plague-road/characters/muradin.md), [Antonidas profile](stories/the-plague-road/characters/antonidas.md), [Uther profile](stories/the-plague-road/characters/uther.md)
 
 **The formation's starting position:**
-- Arthas claimed Frostmourne, and the prince they chased is gone in the only useful sense.
-- Muradin is alive enough to carry but badly wounded.
-- Frostmourne's field contains a seam, an oscillation point between consuming and radiating phases.
-- The Wolfheart is still the only usable route back south.
+- Arthas claimed Frostmourne, left Light's Vengeance in the snow, and pushed deeper into the northern glacier tunnel after bringing down a curtain of ceiling ice.
+- Muradin is alive enough to carry, badly wounded from the ice-shard blowback.
+- Frostmourne's field contains a seam—an oscillation point between consuming and radiating phases.
+- The *Wolfheart* waiting at Daggercap Bay is their only ship south; Arthas burned all of his own vessels there before marching inland.
 - Jaina closed the Dalaran line herself before they sailed north. The sending-stone in her coat is cold because she cut it.
 
 **Still in the dark about:**
-- Whether Muradin survives the handoff to his camp.
-- How far ahead of them Arthas already is.
-- Whether any warning sent from Southshore reaches someone in time to matter.
-- Whether Jaina can turn the oscillation point into something usable under live combat pressure.
-- How deeply Arthas has already settled his people inside the palace by the time they reach Lordaeron again.
+- Whether Muradin survives treatment at Baelgun's camp.
+- How far ahead of them Arthas already is once he reaches northern sea-ice water.
+- Whether any warning sent from Southshore reaches someone who can stop the audience in time.
+- Whether Jaina can turn the oscillation seam into a live cast under combat pressure.
+- How deeply Arthas has already settled his men inside Capital City's palace.
 
 **Hold back:**
-- No fully complete throne-room choreography before the road-planning beats earn it.
-- No clean promise that Antonidas's arrival, Uther's access, or any institution can still stop Arthas from outside the room.
-- No claim that Jaina can narrow the widened sensitivity once this chapter finishes using it.
-- No tribunal logic yet. That belongs to the aftermath chapter.
-- No plan for the bow. The plan names frost, arcane, fire, and Sylvanas buying the seconds. Nobody plans the arrow that carries the fire in Ch22.
-- No proximity rule for the sending-stone. It is silent because Jaina cut the line, and it speaks again only when she chooses to wake it.
+- No fully complete throne-room choreography before the crossing and palace-margin beats earn it.
+- No clean promise that Antonidas's arrival, Uther's presence, or any formal appeal can stop Arthas from outside the room.
+- No claim that Jaina can narrow her widened sensitivity once this chapter finishes using it.
+- No tribunal logic yet. That belongs to Chapter 23.
+- No plan for the bow. The plan names frost, arcane, fire, and Sylvanas buying the seconds. Nobody plans the arrow that carries the fire in Chapter 22.
+- No proximity rule for the sending-stone. It is silent because Jaina cut the line, and it wakes again only when she chooses to wake it.
 
 **End of chapter state:**
-- Muradin is handed to Baelgun's camp alive enough to keep.
-- Arthas's ship left Daggercap before the line reached the bay. He sailed while they were still on the march back from the cave, at a death knight's pace with nothing to carry, on a route the ice left open, with a crew that does not rest. He has been in the palace for four days by the time the line hears of it.
-- He has spent those days putting his own men on the palace posts. The king receives him at a public homecoming audience at noon on a set day, and the line races that hour.
-- Pack ice costs the return crossing days. Jaina's return push is more damaging than the voyage north.
-- At Southshore Jaina chooses to wake the stone and call Antonidas back. He comes to Capital City with two Kirin Tor magi, but their help stops at the palace margins.
-- The oscillation finding becomes a three-school framework and then a plan built around the audience hour: frost, arcane, fire, with Sylvanas holding Arthas for the seconds the cast needs.
-- Sylvanas is the named combat partner who must buy the spell its seconds.
-- Uther is in the palace but still cannot reach the king in time by formal means.
-- Cyndia's protective sweep now covers Jaina as well as her older lane.
-- The formation reaches the palace before the audience with no public alarm and no useful witness guaranteed.
+- Baelgun takes wounded Muradin at the dwarven camp and confirms scouts spotted Arthas's column pushing through the northern glacier pass toward the sea-ice fjords—not circling back to Daggercap Bay.
+- On the march south, Jaina cracks the oscillation seam while her body pays with constant bread-taste and baseline finger tremor; Cyndia and the rangers silently tighten around her flanks.
+- Pack ice costs the *Wolfheart* days on the brutal return crossing; Sylvanas replaces her cracked bow with a short recurve from ship's stores and keeps Jaina fed, steady, and upright with quiet, fierce care.
+- On one remembered night at sea, Jaina strips the seam down to a three-school sequence (`frost -> arcane -> fire`) needing three to five seconds at sword range.
+- At Southshore, Jaina's knees give out when she drops the wind and Sylvanas catches her edge cleanly; Jaina wakes the cold sending-stone by her own choice to warn Antonidas, who pledges to go to Capital City with two magi.
+- On the celebrating King's Road, a Farstrider relay runner brings the bomb: Arthas sailed down an ice-free northern route with a crew that never rested, has held the palace for **four days** placing his own men on inner posts, and faces the king's public homecoming audience at **noon, two days from now**.
+- Under the palace kitchen service arch before dawn, Antonidas confirms every formal channel failed and Uther is shut out inside; when the plan stops hiding behind `"someone"`, Sylvanas claims **`"I."`** before Jaina has to ask.
+- Antonidas takes Jaina aside (`"You came."`) and wipes dried blood off her lip with his thumb while Sylvanas watches the service door, stabbed by a sharp, denied jealousy.
+- They cross the kitchen service door hours before the noon bell without alarm, and Sylvanas sees Cyndia's protective sweep now covering Jaina automatically, just as it once covered Lyriel.
 
 ---
 
 ## Character Arcs
 
 ### Jaina
-- The cave loss only matters if she can turn what she heard there into a different kind of weapon.
-- She opens wanting the finding itself to be enough, as if seeing the flaw clearly could bridge the gap between understanding and delivery.
-- The chapter forces her to accept that intelligence is useless unless it can survive in another person's hands and body. It also makes her call back the teacher she cut off, because the warning outranks her pride.
-- By the end, Jaina no longer holds only a flaw in the blade. She holds a framework that matters only if someone else buys her time to use it.
+- The cave defeat only matters if she turns the seam she heard into a workable weapon.
+- She opens pushing her body past exhaustion on the march and across pack ice, leaving out whose body has to stand in Frostmourne's reach.
+- At Southshore she swallows her pride and wakes the line to Antonidas because the king's life outranks the cut she made.
+- By the end, she stands under the kitchen arch holding a three-school plan that works only if Sylvanas stands at sword range beside her.
 
 ### Sylvanas
-- Political rescue is already over by the time her section begins.
-- If there is still a way to matter, it lives inside the room where Arthas stands, not in any court or council around it.
-- Sylvanas stops leaving the role language vague and lets the planning expose that she is the one who must stand in Frostmourne's reach.
-- By the end, she moves from co-investigator to the body that has to hold the death knight in place while the mage works.
+- Formal rescue is already dead before her section opens; whatever still matters lives inside the throne room.
+- She catches Jaina's edge at Southshore, drives the ride north by watching Jaina's stamina instead of mileposts, and claims **`"I."`** before Jaina ever has to ask her to step into Frostmourne's reach.
+- Watching Antonidas wipe blood from Jaina's lip stabs her with a sudden, sharp jealousy she flatly refuses to name.
+- By the end, she steps through the kitchen service door committed to holding a death knight in place while Jaina casts.
 
 ### Partnership
-- The pair opens under retreat strain: warning, analysis, motion, no spare language.
-- This chapter turns we know the problem into we have a real answer only if both bodies do their part.
-- Let warning failure, allowed overreach, pronoun shift, and the final threshold carry the change.
-- Do not narrate romance or sacrifice ahead of proof.
+- Quiet, fierce physical care on the brutal return crossing turns into absolute unspoken commitment on land.
+- Sylvanas catches Jaina without making a show of it, speaks **`"I."`** so Jaina never has to ask, and feels a razor edge of unacknowledged jealousy at Antonidas's thumb on Jaina's lip.
+- Let action, timing, and the pronoun shift carry the weight—no speeches.
 
 ---
 
 ## Cast and handoff rules
 
-- **Baelgun:** Blunt dwarven certainty. He takes a wounded commander, says what the camp can do, and pushes them back toward the coast.
-- **Dagny:** Pragmatic, sharp, and highly competent. She reads strain like a captain working with a dangerous engine she did not build.
-- **Antonidas:** Reached from Southshore only because Jaina chooses to wake the line she closed. He answers with what he will do, since he does not yet know where Arthas is. By the final approach he is in Capital City with two Kirin Tor magi and no real authority left. Face to face with Jaina for the first time since she cut him off, he can hand them a side lane, the latest palace status, and one exchange. He cannot stop the room by formal means.
-- **Villagers:** Ordinary, hospitable, and catastrophically uninformed. They are not fools. They are living inside the kingdom's lie.
-- **Relay runner:** Hot, efficient, and all bad news. The runner is the one place in the chapter where Arthas's homecoming is reported.
-- **Capital City crowds and heralds:** Celebrating the prince. Their noise is the clock: the heralds cry the noon audience on every square.
-- **Cyndia and the rangers:** Carry work, relay discipline, concealment, and proof that the line still protects its own under pressure.
+- **Baelgun:** Blunt dwarven certainty. He takes wounded Muradin, reports what his scouts saw at the northern glacier pass, and sends the line south immediately.
+- **Dagny:** Pragmatic, sharp, and blunt. She turns the *Wolfheart* around on speed terms and reads Jaina's strain like a captain watching an overheated engine.
+- **Antonidas:** Reached from Southshore solely because Jaina chooses to wake the cut stone. In Capital City before dawn with two Kirin Tor magi, he looks road-tired, has no formal authority left, can soften one kitchen service ward, and gets one quiet exchange with Jaina before she goes inside.
+- **Villagers:** Hospitable, celebrating, and fatally uninformed. They are living inside the kingdom's lie.
+- **Relay runner:** Winded, efficient, and carrying the clock: four days in the palace, noon audience in two days.
+- **Capital City heralds and crowds:** Singing for the prince while crying the noon audience on every square.
+- **Cyndia and the rangers:** Flank protection, relay work, and silent adoption of Jaina into Lyriel's old watch-pattern.
 
-**Next chapter starts:** Chapter 22 opens in the last hour before the noon audience, with service-passage infiltration, undead royal guard, Uther's near miss, and the throne-room plan finally under live pressure.
+**Next chapter starts:** Chapter 22 opens in the last hour before the noon audience, inside the palace kitchen service passages with Cyndia's split, undead sentries, and Uther's near miss.
 
 ---
 
-## Scene 1: The Handoff
+## Scene 1: The Handoff & March (Jaina)
 
-**The action:** The cave is stripped down to its immediate cost, and the return south begins before grief, warmth, or argument can slow it.
+**The action:** Baelgun takes Muradin and explains how Arthas went north past the glacier; on the immediate march back to Daggercap, Jaina cracks Frostmourne's cycle while her body pays the bill.
 **Cast:** Jaina, Sylvanas, Cyndia, three Farstrider rangers, Muradin, Baelgun.
-**Starting point:** Arthas has Frostmourne, Muradin is down, and the line only got out clean by retreating fast.
+**Starting point:** The line just hauled unconscious Muradin out of the collapsing cavern, and Jaina's fingers are still tracing the seam she heard.
 
 ### Beat 1
-- Baelgun takes Muradin and says the blunt truth no one else has time to soften: the camp can treat him, but it cannot solve Frostmourne or carry the warning south for them.
-- Muradin is alive enough for treatment even if nothing more can be promised, Baelgun reads the danger as something that can come looking for them if they stay, and the camp keeps Muradin while the line keeps the burden of warning the south.
-- They do not know whether Muradin wakes in time to matter later or whether any warning can still beat Arthas home.
-- Ground the handoff: dwarven hands taking Muradin's weight without ceremony, blood freezing dark in beard braids and on fur trim, Baelgun sounding angrier than shocked because anger is the only useful shape left.
-- Responsibility narrows to the people who understand the threat.
+- Baelgun Flamebeard takes Muradin's weight at the palisade gate and gives them two blunt facts without softening either: the camp can treat Muradin, and dwarven scouts already spotted Arthas's column pushing north out of the cavern through the **northern glacier pass toward the sea-ice fjords**—not circling back south to Daggercap Bay. Arthas is not coming back to the burned harbor; whatever ship or passage waits for him lies north in the ice. Baelgun cannot stop Frostmourne or carry word to Lordaeron. No one sits down by the cookfires; the seven turn straight back south toward the coast before warmth can slow their boots.
+- Muradin is alive enough for dwarven care, the northern glacier pass explains cleanly how Arthas bypasses Daggercap Bay altogether, and Light's Vengeance stays behind unresolved while the line carries the warning south.
+- They do not know whether Muradin wakes in time to matter, or how fast Arthas can reach open water from the northern fjords.
+- Ground the handoff: scarred dwarven hands lifting Muradin off elven shoulders, dark blood frozen in his beard braids, Baelgun's anger snapping out the glacier-pass scout report while camp warmth drops away behind them after five strides.
+- They turn straight back into Dragonblight's white glare with Arthas already pushing toward the northern sea.
 
 ### Beat 2
-- The camp offers warmth, but warmth here is only delay dressed kindly. The line turns back toward the coast immediately.
-- No one wastes time pretending a fuller recovery window exists, Light's Vengeance and the cave both stay behind unresolved, and Jaina leaves still half inside the fight because the field's rhythm has not left her head.
-- They do not know whether the return crossing can be made faster than the voyage north or whether Jaina's head is carrying a weapon or only the ghost of one.
-- Ground the departure: camp heat falling away after a few strides, Muradin gone from view behind palisade timber, Jaina's fingers already tracing the same invisible pattern as they walk.
-- The return begins before anyone is ready for it.
-
----
-
-## Scene 2: The Return March
-
-**The action:** Cave residue becomes the first real anti-blade intelligence, and the cost of carrying that intelligence becomes bodily.
-**Cast:** Jaina, Sylvanas, Cyndia, three Farstrider rangers.
-**Starting point:** The line is moving south and Jaina is carrying something from the cave she cannot yet name cleanly.
-
-### Beat 3
-- Jaina will not let the cave collapse into simple failure because one piece inside it still rings true. Frostmourne's field is not one continuous state. It cycles.
-- Frostmourne alternates between taking and throwing, Jaina's widened channel is what let her hear the shift at all, and the cave left behind a timing problem rather than only a combat problem.
-- They do not know what can exploit the seam or whether the seam lasts long enough in each cycle to matter in a real fight.
-- Ground the pattern: Jaina timing the remembered cycle against bootfalls in snow, bread-taste sharpening each time the remembered cycle lines up, fingers writing phase marks in empty air because no paper is fast enough.
-- The blade acquires its first real flaw.
+- On the forced march south to Daggercap Bay, Jaina refuses to let the cavern stay a simple defeat and cracks what she heard inside Frostmourne's field: it does not hold one continuous state—it cycles between consuming and radiating phases, leaving a recurring seam between the two. Timing the remembered pulse against bootfalls in snow sharpens the discovery, and her body answers back at once: the yeast-warm bread-taste climbs louder than it ever did on the voyage north, and the tremor in her fingers stops receding between steps.
+- Jaina's widened sensitivity is now burning at baseline rather than only when she casts, and Cyndia and the three rangers notice enough to tighten their marching formation quietly around Jaina's flanks without saying a word.
+- They do not know what can strike through that seam, or whether Jaina's body holds together long enough to build an answer.
+- Ground the march and cost: Jaina counting phase marks in freezing air against boots crunching snow, warm yeast-smell rising off her skin in killing cold, fingers trembling steadily inside her gloves while rangers silently angle closer on either side of her.
+- They reach Daggercap Bay carrying a flaw in the blade and a mage visibly fraying at the edges.
 - Inside: it cycles, and the thrill of that is indecent with the dwarf barely handed off; or she hears a pattern because she needs one; checks it again against the remembered cave, bootfall by bootfall; no, it is there; they lost, and she is happy, and she will tell no one
 
-### Beat 4
-- The body answers back. The bread-taste is louder than it was after the voyage north. The tremor is no longer an aftershock. It is baseline.
-- Jaina's widened sensitivity is now costing her constantly rather than only after major casting, Cyndia and the rangers sense enough of the change to start treating Jaina's lane as protected without saying so, and the channel is useful and increasingly hard to treat as optional.
-- They do not know whether the channel ever narrows again or whether the price of hearing the blade matters first in the fight or only in the aftermath.
-- Ground the cost: yeast-warm smell rising from Jaina's skin in killing cold, fingers that never fully stop shaking, snow glare making exhaustion feel sharper instead of softer.
-- The line reaches the coast carrying a weapon and a cost.
-
 ---
 
-## Scene 3: Daggercap and the Crossing
+## Scene 2: The Crossing (Jaina)
 
-**The action:** The empty cove proves Arthas is ahead, the crossing south passes in a jump cut, and one remembered night turns the flaw into a usable framework.
-**Cast:** Jaina, Sylvanas, Cyndia, three Farstrider rangers, Dagny, Wolfheart crew.
-**Starting point:** The pair have a flaw in the blade's cycle, but no delivery method and no political cover.
+**The action:** The *Wolfheart* turns immediately into a brutal, ice-delayed return crossing where Jaina strips the seam into a three-school sequence before collapsing at Southshore.
+**Cast:** Jaina, Sylvanas, Cyndia, three Farstrider rangers, Dagny, *Wolfheart* crew.
+**Starting point:** Daggercap Bay holds only Arthas's burned hulls and the *Wolfheart*; Jaina has a flaw in the blade's cycle, no delivery plan, and a dead sending-stone in her coat.
 
-### Beat 5
-- Arthas's ship is gone from its cove. The anchorage he kept apart from the burned hulls is empty, and no one at the bay saw it leave. Dagny turns the Wolfheart around on speed terms.
-- Arthas kept a way home and has already used it. The bay offers no lane for a warning: the sending-stone in Jaina's coat is cold because she closed the line herself. Dagny understands from one look that the run south must be immediate and will be faster only if Jaina pays harder than she paid northbound.
-- They do not know where the ship went, who crews it, or whether Arthas is aboard.
-- Ground the cove: a cut mooring line trailing in black water, bare anchorage beside the frozen ribs of the burned fleet, crew moving turnabout work at a captain's clipped pace.
-- Nothing can go ahead of them, and only speed is left.
+### Beat 3
+- At Daggercap Bay, only the blackened ribs of Arthas's burned ships sit frozen in the ice beside the *Wolfheart*. Dagny takes one look at their faces and turns the schooner around on speed terms—faster only if Jaina feeds the sails harder than she did coming north. The crossing south passes as a brutal jump cut: pack ice drives the *Wolfheart* off course and steals days, and Jaina remembers only scraps—a rag gone stiff with nosebleed blood that barely stops, heels of bread and warm water pressed firmly into her fist by Sylvanas with quiet, fierce care when she forgets to eat, and Sylvanas pulling a short recurve bow from the ship's stores to replace the main bow cracked in the cavern.
+- The pack ice costs them days they cannot afford, Jaina's body pays harder for every knot south than it paid northbound, and Sylvanas's care shows in keeping food in Jaina's hand and a cloak over her shoulders without asking permission.
+- They do not know whether Arthas is already on Lordaeron soil, or whether Jaina arrives with enough left in her to cast anything at all.
+- Ground the turnabout and crossing: frozen burned ship ribs sliding astern in black harbor water, a linen rag crusted brown with Jaina's blood, bread pressed steadily into her cold fingers, Sylvanas testing the draw weight of the short recurve at the rail.
+- The *Wolfheart* fights clear of the ice with most of Jaina's reserves spent into the canvas.
 
-### Beat 6
-- The crossing south is a jump cut. Pack ice drives the Wolfheart off its line and costs them days, and Jaina remembers little of them.
-- What she keeps: the nosebleed that by the end barely stops, food put into her hands because logistics outrank appetite, and her body paying for every hour of wind she feeds the sails, harder than it paid northbound. Sylvanas takes a short recurve from the Wolfheart's stores to replace the bow that cracked in the cave.
-- They do not know whether Jaina arrives with enough left for the real fight.
-- Ground the crossing: a rag gone stiff with her blood, a heel of bread pushed into her fist, Sylvanas testing the draw of the short recurve at the rail.
-- The crossing is paid for, and most of it is gone from her.
-
-### Beat 7
-- One night she does remember. Exhaustion strips the thought down until it finally works. The oscillation point is not a break point. It is a transition point. The answer has to pass through it in sequence.
-- The anti-blade framework requires three schools in order, frost to match the rhythm, arcane to breach the seam, fire to alter the binding from inside, and the framework only matters if someone can buy Jaina three to five seconds within arm's reach of the blade.
-- They do not know who actually gives her those seconds or whether Jaina's depleted body can cast the framework even once under combat conditions.
-- Ground the framework: night stars over a ship still carrying the day's push in its timbers, Sylvanas sitting beside Jaina because the finding now needs to become work, Jaina laying the sequence out in plain words instead of Scholomance terms.
-- The flaw becomes a working framework.
+### Beat 4
+- One night at sea she remembers cleanly. Exhaustion strips the clutter out of her head until the answer locks in: the oscillation seam is not a wall to smash, it is a transition point to pass through in sequence. Three schools in strict order—**frost** to match the rhythm, **arcane** to breach the seam, **fire** to burn out the binding from inside—and it only works if someone keeps Arthas pinned within sword range for three to five uninterrupted seconds. Sitting beside Sylvanas under the cold stars, Jaina lays it out in plain words instead of academy jargon, and leaves out whose body has to stand in those seconds.
+- The seam becomes a usable three-school cast, and both women know without saying it how thin the margin is for anyone standing inside Frostmourne's reach.
+- They do not know whether Jaina's depleted body can run three schools consecutively in live combat, or who will actually hold the seconds.
+- Ground the plan: clear northern stars over timbers still humming from the day's wind-work, Sylvanas sitting shoulder-close beside Jaina listening without interrupting, Jaina ticking off frost, arcane, and fire on three trembling fingers.
+- The three-school sequence is fixed between them, missing only a name for the fighter at sword range.
 - Inside: transition, not break, and of course, and why did that take an ocean; three to five seconds at arm's length from that thing, and someone has to stand in them; lays it out in plain words and leaves out whose body; Sylvanas beside her, and she does not let herself guess
 
-### Beat 8
-- They make landfall at Southshore without relief. Jaina stops feeding the sails, and her knees give under her.
-- Southshore is ordinary, calm, and fatally unwarned, Jaina's collapse when she stops pushing proves how little she has left under the skin, and the three-school framework survives the voyage intact enough to carry into planning.
-- They do not know whether the framework can be translated into real choreography before they reach the palace or whether the kingdom can still be saved politically or only physically.
-- Ground the landfall: Lordaeron earth feeling soft and almost warm after Northrend ice, Jaina's knees giving under her the moment she stops pushing, Sylvanas's hand near enough to catch without actually taking her weight.
-- The final movement begins on land.
+### Beat 5
+- They make landfall at Southshore in ordinary, sunlit calm—a harbor that has no idea what is loose in its kingdom. The instant Jaina stops driving the wind into the sails and steps onto dry planks, her knees fold straight under her. Sylvanas's hand is already there, catching Jaina's elbow and taking just enough weight to keep her upright without making a show of it in front of the crew. Steadying her breath against Sylvanas's grip, Jaina reaches into her coat and pulls out the dead sending-stone she cut herself in Chapter 18.
+- Southshore's ordinary bustle proves no warning beat them home, Jaina's collapse shows how close to empty she is, and reaching for the dead stone means pride has lost to the clock.
+- They do not know whether Antonidas will answer a cut line, or how far ahead Arthas is on Lordaeron soil.
+- Ground the landfall: soft, warm Lordaeron timber underfoot after ice, Jaina's knees buckling the moment the sails slacken, Sylvanas's hand locking fast around Jaina's forearm without a word, the cold violet crystal coming out of Jaina's pocket.
+- Jaina stands upright on Southshore's dock holding the dark stone she swore off before sailing north.
 
 ---
 
-## Scene 4: The Road North
+## Scene 3: The Clock (Sylvanas)
 
-**The action:** Jaina wakes the line she cut, and the first celebrating village turns lateness into a public clock.
-**Cast:** Sylvanas, Jaina, Cyndia, three Farstrider rangers, Antonidas by stone, villagers, relay runner.
-**Starting point:** They are ashore in unwarned country, Jaina can barely stand, and the stone in her coat is still cold.
+**The action:** Jaina wakes the stone to warn Antonidas, and a celebrating village on the King's Road delivers the exact hour they are racing.
+**Cast:** Sylvanas, Jaina, Cyndia, three Farstrider rangers, Antonidas by stone, villagers, Farstrider relay runner.
+**Starting point:** They are ashore in unwarned Lordaeron, Jaina can barely keep her feet, and the stone in her hand is still dark.
+
+### Beat 6
+- On the Southshore quay, Jaina rests her thumb on the cold crystal a long moment before waking it by her own choice—no proximity spell triggered it; she opens the line she cut. Sylvanas hears only Jaina's clipped side: Arthas holds Frostmourne, he is coming home, and the blade must never get near King Terenas. Antonidas does not know where Arthas is yet; he pledges to ride straight to Capital City with two Kirin Tor magi. While Jaina pockets the stone, Sylvanas dispatches mainland Farstrider relays north and buys fresh horses on the dock.
+- Choosing to wake the stone proves Jaina puts warning Terenas above pride, Dalaran is finally moving toward the capital, and Sylvanas puts every remaining Farstrider contact on the road.
+- They do not know whether any warning outruns Arthas, or whether the palace listens before noon arrives.
+- Ground the call: the crystal waking violet under Jaina's thumb, her spine squaring before she speaks into fish-market noise, Sylvanas counting coin into a horse-dealer's palm while Cyndia seals a relay tube.
+- Fresh horses clear Southshore at a hard gallop north along the King's Road.
+
+### Beat 7
+- Pushing hard up the King's Road, they ride straight through a village strung with goldenrod garlands and chalk drawings of Prince Arthas on a barn wall—ordinary folk celebrating the prince who beat the plague. At the road edge, a winded Farstrider relay runner hands Sylvanas a hot brass cylinder and drops the bomb: Arthas sailed south down an ice-free northern route out of the fjords with a crew that did not rest, has already been inside the Capital City palace for **four days** placing his own men on inner posts, and King Terenas receives him at a public homecoming audience at **noon, two days from now**. Capital City is two hard days' ride away.
+- The kingdom's celebration is a lethal cover for Arthas's four-day head start, stopping to argue with celebrating villagers would cost them the audience hour, and lateness hardens into a single reachable deadline.
+- They do not know what Arthas has been feeding Frostmourne inside the palace for four days, or what happens if they arrive an hour late.
+- Ground the lie and clock: goldenrod garlands looped on tavern posts, children's chalk prince smiling on barn planks, the brass message tube still hot from the runner's fist, Sylvanas going dead still in the saddle as the math narrows to noon.
+- They spur straight past the garlands on a two-day forced ride for the capital.
+
+---
+
+## Scene 4: Capital City & The Threshold (Sylvanas)
+
+**The action:** They enter a city celebrating its own killer, meet Antonidas before dawn under a kitchen arch, put Sylvanas's name on the sword-range seconds, and cross into the palace before the noon bell.
+**Cast:** Sylvanas, Jaina, Cyndia, three Farstrider rangers, Antonidas, two Kirin Tor magi, heralds, townsfolk, palace gate guards.
+**Starting point:** The homecoming audience is set for noon tomorrow, Arthas's men hold the inner palace posts, and Jaina's three-school cast still needs a body at sword range.
+
+### Beat 8
+- They reach Capital City the night before the audience after a ride Sylvanas measured by how much it took out of Jaina rather than by leagues. Heralds ring handbells crying the noon audience on every square, taverns roar songs for the returning prince, and peacetime militia man the city walls. Jaina presses her palm flat against the outer gate arch and feels Frostmourne's pulse straight through stone. Inside the palace approach, the outer watch is living Lordaeron militia—and behind them on the inner posts stand armored men who do not shift their weight in the night cold.
+- The kingdom's lie has a bell and a schedule, Frostmourne is already broadcasting inside the palace walls, and Arthas's dead-still men control the inner approaches.
+- They do not know whether Arthas expects anyone to come through the walls, or whether the noon schedule holds until they get inside.
+- Ground the city: brass herald bells clanging over tavern choruses, Jaina's bare palm flat on cold gate stone with warm bread-smell hanging around her at three paces, inner palace guards standing motionless in winter air.
+- They melt into the back streets behind the palace walls to wait for Antonidas before dawn.
 
 ### Beat 9
-- On the Southshore quay, Jaina takes the cold sending-stone out of her coat. She closed this line herself before they went north. To warn anyone who can reach the king, she has to call Antonidas back.
-- Nothing has woken the stone. Jaina holds it a long while with her thumb on the crystal before she wakes it. Sylvanas hears only Jaina's side: Arthas holds Frostmourne, he is coming home, and the blade must be kept away from the king. Antonidas does not know where Arthas is. He says he will go to the king himself and take two magi with him. Sylvanas sends Farstrider warnings north through the mainland relay, and they buy horses.
-- They do not know whether any warning outruns Arthas or whether the court will hear it over whatever he has already told them.
-- Ground the call: the stone dark in Jaina's palm until she wakes it, her shoulders squaring before she speaks, fish-market noise going on around a call nobody else on the quay understands.
-- The line Jaina cut is open again because she chose to open it.
+- Before first light, Antonidas meets them under a low kitchen service arch with two Kirin Tor magi, looking road-tired rather than tower-composed. Every formal avenue failed: the court refused to let Dalaran's warning interrupt a royal homecoming, and Uther is already inside the palace shut out by ceremony and courtiers. Antonidas's two magi can feel the blade's wrongness from outside, soften one kitchen service ward, and hold outer attention—nothing they have can enter the throne room. They map the hour before noon, when the court masses at the bronze doors and the back service corridors empty. Jaina lays out the three-school sequence one last time: frost, arcane, fire—and `"someone"` holding Arthas inside Frostmourne's consuming field at sword range for three to five uninterrupted seconds. Before Jaina has to ask, Sylvanas says, **`"I."`** Nobody plans any role for the bow.
+- The plan stops hiding behind `"someone"`, Sylvanas claims the deadliest seconds outright so Jaina never has to ask her for them, and everyone under the arch knows how thin the margin is.
+- They do not know whether Sylvanas can survive Frostmourne's drain for five seconds, or whether Jaina's spent reserves can push all three schools through.
+- Ground the meeting and claim: hooded blue-white Kirin Tor lantern light under damp kitchen stone, dawn catching Antonidas's stunned face as Jaina names the sword-range seconds, total silence under the arch until Sylvanas's single `"I."` lands flat and final.
+- The plan has its fighter, its mage, and its door—with no safety net behind them.
+- Inside: someone, someone, and every one of them looking at the damp cobbles; she is the only one who can hold him and they all know it; says it before Jaina has to ask, so Jaina never has to; that cold again, which she felt once in the cave and did not like
 
 ### Beat 10
-- On the King's Road north, the first celebrating village makes the kingdom's lie visible, and the relay runner turns it into a clock. Arthas has been in the palace for four days. The king receives him at a public homecoming audience at noon, two days from now, and the capital is two hard days' ride away.
-- Arthas sailed from Daggercap while the line was still on the march back from the cave, at a death knight's pace with nothing to carry, on a route the ice left open, with a crew that does not rest. The kingdom believes he ended the threat rather than brought it home. He has spent his four days putting his own men on the palace posts while peacetime gates stay open, and the line cannot stop to tell the truth here without losing the hour.
-- They do not know what the blade has fed on during those four days or what Arthas means the audience to be.
-- Ground the lie: goldenrod garlands on fence posts and tavern doors, children's chalk drawings of the prince on a barn wall, a hot brass message cylinder in a runner's hand, Sylvanas going still in the exact way she does when the math worsens.
-- Lateness becomes an hour they can still reach.
-
----
-
-## Scene 5: The Capital
-
-**The action:** The line rides into a city celebrating its own killer, meets Antonidas at the palace margin, builds the plan around the audience hour, and enters the palace without public alarm.
-**Cast:** Sylvanas, Jaina, Cyndia, three Farstrider rangers, Antonidas, two Kirin Tor magi, heralds, townsfolk, palace gate guards.
-**Starting point:** The audience is set for noon, Arthas's men hold the inner posts, and Jaina's framework still needs a body to carry it.
+- Before they slip inside, Antonidas takes Jaina a few paces aside under the arch—the first time they have stood face to face since she cut his stone dead. He does not ask her to come back to Dalaran. He asks what she needs. She asks him to keep the service ward soft until the noon bell. He says he should have come when she first called him. Jaina says, **`"You came."`** He reaches up and wipes dried blood off her lip with his thumb. Standing three paces away with her eyes fixed hard on the iron-studded service door, Sylvanas hears every syllable—and feels a sudden, sharp, denied stab of jealousy at the old man's thumb on Jaina's mouth.
+- Jaina leaves her teacher with forgiveness she barely had spare breath for, while Sylvanas stares straight at the door planks and refuses to admit why watching someone else wipe Jaina's blood makes her jaw lock.
+- They do not know whether Antonidas will ever see what happens inside the chamber, or what he can say for Jaina afterward.
+- Ground the exchange: an old mage's thumb brushing dried blood from Jaina's split lip, his other hand gripping his staff knuckles-white, Sylvanas motionless three paces off staring at the iron latch while her shoulders tighten.
+- Jaina steps away from Antonidas and joins Sylvanas at the service door.
+- Inside: he should have come when she first called, yes, he should; `"You came,"` which is kinder than Sylvanas would ever be; his thumb at Jaina's lip, and she studies the iron rivets on the service door very hard; no one from Silvermoon ever rode across a kingdom to wipe blood off her face, and she is not jealous of an old man
 
 ### Beat 11
-- They reach Capital City the night before the audience, after a ride Sylvanas measured by what it cost Jaina rather than by distance. The city is celebrating the man who is about to kill its king.
-- Heralds cry the noon audience on every square, taverns sing about the prince who beat the plague, and the gates run peacetime watches. Jaina feels the blade's pulse from the outer gate. At the palace gate the outer watch is living Lordaeron militia, and behind them on the inner posts stand men who do not shift their weight in the cold.
-- They do not know whether Arthas expects intruders or whether the audience hour holds until they are inside.
-- Ground the city: a herald's handbell with the noon audience cried over it, a tavern chorus about the prince coming through shutters, Jaina's palm flat on the gate arch while the pulse comes through the stone, warm bread-smell hanging around her at three paces.
-- The kingdom's lie has a timetable, and the line is inside it.
-
-### Beat 12
-- Antonidas meets them before dawn under a service arch on the palace's kitchen side. He came in person after Jaina's call from Southshore, with two Kirin Tor magi, and he has the palace's last usable facts.
-- Every formal lane failed: the court would not let Dalaran's warning interrupt a homecoming. Uther is in the palace, shut out by celebration, timing and court insulation, still trying for a word with the king before noon. The two magi can feel the blade's wrongness from the palace margins, can soften one service ward, and can hold outer attention. None of that help travels into the room that matters.
-- They do not know whether the side lane stays clear long enough to matter or whether Uther becomes ally, witness, or one more silenced truth.
-- Ground the margin: blue-white Kirin Tor glow hooded under the service arch, Antonidas looking road-tired instead of tower-composed, palace stone already colder near the hidden court than the morning warrants.
-- The palace gains a human edge, but only at its margins.
-
-### Beat 13
-- The final plan stops hiding behind the word someone, and it is built around the noon bell. The court will mass at the bronze doors for the audience, and the service passages behind the throne will be emptiest in the hour before. Frost must sync the rhythm. Arcane must breach the seam. Fire must change the binding from inside. And someone has to hold Arthas at close range inside Frostmourne's consuming field for three to five uninterrupted seconds. Sylvanas says I.
-- Jaina must stand close, still, and fully committed while the cast runs. Sylvanas's part is to hold the death knight's attention; nobody mentions her bow. They mean to reach the chamber before the audience opens and the king comes within reach of the blade. The choreography is clear enough to attempt even if everyone present knows the margin is too thin to call safe.
-- They do not know whether Sylvanas survives the drain long enough to hold the line or whether Jaina's reserves survive three schools under live conditions.
-- Ground the plan: Jaina speaking in plain words because there is no room left for academy talk, dawn light catching on Antonidas's face when he hears the price of the plan, the silence after three to five seconds at sword range.
-- The combat partner stops being abstract and becomes a person.
-- Inside: someone, someone, and every one of them looking at the table; she is the only one who can hold him and they all know it; says it before Jaina has to ask, so Jaina never has to; that cold again, which she felt once in the cave and did not like
-
-### Beat 14
-- Before they go in, Antonidas takes Jaina aside under the arch. It is the first time they have stood face to face since she closed the line on him.
-- He does not ask her to come home. He asks what she needs. She asks him to keep the service ward soft until the noon bell. He says he should have come when she first called him. She says, "You came." He wipes the dried blood off her lip with his thumb.
-- They do not know whether Antonidas will see anything of what happens in the room or what he will be able to say for her afterward.
-- Ground the exchange: a teacher's thumb at a pupil's lip, his other hand holding his staff too tightly, Sylvanas a few paces off with her eyes on the service door and every word reaching her ears.
-- Jaina leaves her teacher at the arch with one small thing asked of him.
-- Inside: he should have come when she first called, yes, he should; "You came," which is more generous than Sylvanas would be; his thumb at Jaina's lip, and she studies the service door very hard; no one from Silvermoon ever came for anyone like that, and she is not jealous of an old man
-
-### Beat 15
-- The city is festive, the guards are soft, and Antonidas's help cannot travel with them without breaking the stealth the plan depends on. The line enters through the service lane without challenge while the noon bell is still hours off, and Sylvanas notices that Cyndia's protective sweep now covers Jaina as surely as it once covered Lyriel's lane.
-- Parade residue still marks the approach roads and palace gate, guards are relaxed because the kingdom believes the danger is over, Antonidas and the Kirin Tor cell stay in the palace margins rather than the room where anything can be proven, and Jaina still does not know she has inherited a dead ranger's coverage.
-- They do not know whether Arthas expects intruders specifically or simply fears nothing left inside the walls or whether any outsider arrives soon enough to witness what really happens.
-- Ground the threshold: Welcome Home, Prince Arthas over the gate, flower paste ground into the road by days of traffic, Cyndia's head turning through the same protective pattern while the service door closes behind them.
-- The line crosses the last threshold with no public alarm and no witness guaranteed.
+- Hours before the noon bell, while trampled flower petals coat the parade roads and relaxed palace guards lean on their halberds outside, the softened ward gives without a hum and the six of them slip through the kitchen service door unchallenged. Antonidas and his two magi stay hidden under the outer arch so stealth holds. As the heavy wooden door swings shut behind them, Sylvanas catches Cyndia's head turning through the exact two-step rear-and-flank sweep that used to guard Lyriel—now automatically covering Jaina's blind side without either woman naming it.
+- Stealth holds into the palace core, institutional witnesses stay outside where they cannot see the murder, and Jaina still has no idea she has inherited a dead ranger's guard-pattern.
+- They do not know whether Arthas expects intruders, or whether any living witness reaches the throne room before the noon bell tolls.
+- Ground the entry: crushed goldenrod paste smeared across parade cobbles outside, a painted *Welcome Home, Prince Arthas* banner hanging above the outer gate, Cyndia's eyes sweeping past Jaina's shoulder as the kitchen door latches shut in the dark.
+- The service door closes behind them, leaving the six of them inside Arthas's palace with no alarm raised and no witness coming after them.
 
 ---
 
@@ -240,27 +202,25 @@
 - Jaina
 - Cyndia
 - Three Farstrider rangers
-- Antonidas, palace margin only
-- Two Kirin Tor magi, palace margin only
-- Uther, in the palace but not yet in contact on-page
+- Antonidas, outer palace service arch only
+- Two Kirin Tor magi, outer palace service arch only
+- Uther, inside the palace but not yet in contact on-page
 
 **What carries into Chapter 22:**
-- Muradin is alive enough to keep at Baelgun's camp.
-- Arthas sailed from Daggercap before the line reached the bay and has occupied the palace for four days.
-- The king's public homecoming audience for Arthas is set for noon, and the line is inside the palace before it.
+- Muradin is alive and in Baelgun's care at the dwarven camp.
+- Arthas bypassed Daggercap Bay via the northern glacier pass and sea-ice fjords, sailed south with a crew that did not rest, and has held the palace for four days.
+- The king's public homecoming audience is set for noon, and the six of them are inside the service passages before it begins.
 - Arthas's men hold the inner palace posts.
-- Jaina woke the stone at Southshore by her own choice. The warnings went by stone and by Farstrider relay, and failed in practical terms.
-- Sylvanas carries a short recurve from the Wolfheart's stores. Her main bow cracked in the cave.
-- Jaina's oscillation finding is now a three-school framework with live choreography. Nobody planned a part for the bow.
-- Sylvanas is the named combat partner who must buy the spell its seconds.
-- Antonidas reached Capital City with a tiny Kirin Tor cell, but their help stops at the service margins.
-- Uther is in the building but not in the room where the murder will happen.
-- Cyndia's protective sweep includes Jaina even though neither of them names it.
-- The line reaches the palace without public alarm.
+- Jaina woke the sending-stone at Southshore by her own choice; formal warnings failed.
+- Sylvanas carries a short recurve bow from the *Wolfheart*'s stores; her main bow cracked in the cavern.
+- Jaina's three-school sequence (`frost -> arcane -> fire`) is set, with Sylvanas explicitly claiming `"I."` for the three to five seconds at sword range. Nobody planned any role for the bow.
+- Antonidas and two Kirin Tor magi hold the outer service ward soft until noon and cannot enter the throne room.
+- Uther is in the building, shut out from the king by formal walls.
+- Cyndia's protective sweep automatically covers Jaina.
 
 **Do not add yet:**
 - Any successful cast in live combat.
-- Any credible public validation of Arthas's corruption before the murder.
+- Any credible public proof of Arthas's corruption before the murder.
 - Any political rescue.
 - Any promise that Sylvanas survives the drain the plan demands.
-- Any plan that uses the bow to deliver the spell.
+- Any plan that uses the bow to deliver the fire.

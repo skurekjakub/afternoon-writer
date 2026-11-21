@@ -49,19 +49,19 @@
 ### Jaina
 - She opens believing that if she can find the entry route fast enough, she can stop this village from becoming another Millhaven.
 - She keeps reaching for a clean magical answer and underrates Sylvanas's read of people, habits, and supply.
-- By the end, Jaina has the answer, but it comes through food, labor, timing, and Sylvanas's practical eye as much as through spellwork.
+- By the end, Jaina has the answer, earned through food, labor, timing, and Sylvanas's eye on the street as much as through spellwork.
 - She stops treating Sylvanas like escort muscle and starts bringing the human side of the problem straight to her.
 - She leaves with a village that lives because they were on time, and with a ranger's knot in her hands that Lyriel taught her.
 
 ### Sylvanas through Jaina's POV
 - Jaina starts out reading Sylvanas as sharp, useful, and secondary to the real magical problem.
-- Sylvanas keeps seeing the pressure points Jaina misses: fear, routine, authority, and supply.
-- By the end, Jaina is thinking of her as Sylvanas, not just the ranger, and she stops talking down to her.
+- Sylvanas keeps seeing the pressure points Jaina misses: fear, routine, authority, and supply—and moves through a tense room with a quiet precision Jaina cannot stop watching.
+- By the end, Jaina thinks of her as Sylvanas, not just the ranger, and stops talking down to her.
 
 ### Partnership
-- They enter the village as two specialists on the same road, but not the same method.
-- The investigation proves neither approach works alone.
-- They leave still tense, but now they are solving one problem together instead of arguing over whose kind of knowledge counts.
+- They enter the village as two specialists on the same road, working by different rules.
+- The outbreak proves neither approach works alone, and the granary fight proves how cleanly they cover each other without speaking.
+- They leave still taut and guarded, yet standing shoulder-close on the same side of the hunt.
 - This is their one clean win: on time, and it holds.
 
 ---
@@ -85,26 +85,26 @@
 **Starting point:** The contamination is real, but no one knows how it is getting into people.
 
 ### Beat 1
-- They ride into a village that is still alive and working, which makes the danger harder to pin down. Jaina feels the necromantic wrongness under market noise, bread smoke, and people trying to act normal.
-- The plague is already here even though ordinary life is still running. Jaina knows this place is earlier in the same pattern Millhaven finished.
-- They don't know how the sickness gets in or whether stepping in now can still change the outcome.
-- Ground the arrival: bread smoke over the lane, coughing buried under village noise, a flushed child kept on her feet because no one knows better.
-- The militia captain, Willem Brask, stops them before they can move freely.
+- They ride into a village that is still alive and working, which makes the rot harder to pin down. Jaina feels the necromantic wrongness humming under market chatter, bread smoke, and people trying to go about their morning.
+- The plague is already inside the lane even though ovens are lit and carts are rolling. Jaina knows this village sits days earlier in the exact sequence Millhaven finished.
+- They don't know how the sickness gets in or whether stepping in now can still save anyone.
+- Ground the arrival: bread smoke drifting across the lane, wet coughing buried under cartwheels, a flushed child kept on her feet because nobody knows better.
+- The militia captain, Willem Brask, steps into the road with a spear across his chest before they can dismount.
 
 ### Beat 2
-- The captain has no reason to trust armed outsiders in the middle of an outbreak. Sylvanas gets them through by making Millhaven concrete enough to scare him without sparking panic.
-- Jaina watches Sylvanas solve a human problem she could not have solved with magic. The captain gives them room because Sylvanas knows exactly how hard to press.
-- They don't know if this village is following Millhaven's full pattern or whether the captain can keep order if panic starts.
-- Ground the exchange: work-rough hands on a spear shaft, Sylvanas lowering her voice instead of raising it, the words no one left in Millhaven landing hard.
-- Once the captain yields, Jaina heads to the sick while Sylvanas starts reading the village.
-- Inside: could not have done that, and is annoyed she couldn't; had the ranger filed as escort muscle and has to refile her; she would have explained the necromancy to him, at length, which is worse than a spear; how did Sylvanas know how hard to press, and can it be learned
+- Brask has no reason to trust armed outsiders in the middle of an outbreak. Sylvanas walks straight up to the spear's point without flinching and drops her voice instead of raising it, laying Millhaven out plainly enough to chill him without sparking panic in the square.
+- Jaina watches Sylvanas solve a human standoff she would have botched with an arcane lecture. Brask lowers his spear because Sylvanas reads exactly how hard to lean—and Jaina is sharply aware of the quiet control in Sylvanas's throat and the complete stillness in her shoulders.
+- They don't know if this village is following Millhaven's full course or whether Brask can hold order if word gets out.
+- Ground the exchange: work-rough hands white on a spear shaft, Sylvanas standing inside the point with her hands open and steady, the words "no one left in Millhaven" landing quiet and heavy.
+- Once Brask yields the lane, Jaina heads for the sick while Sylvanas starts working the square.
+- Inside: could not have done that, and is annoyed she couldn't; had the ranger filed as escort muscle and has to refile her; she would have explained the necromancy to him, at length, which is worse than a spear; how did Sylvanas know how quiet to get, and can it be learned
 
 ### Beat 3
-- In the infirmary, Jaina studies living cases and finds the same necromantic pattern she saw at Millhaven, only this time it is still moving through warm bodies.
-- The earliest cases cluster in the gut, and the worse ones spread outward from the stomach. The medic has been treating fever because he has no frame for anything worse.
-- They don't know whether the entry route is food, water, or contact.
-- Ground the triage: sick-sweet breath, borrowed cots packed too close together, Jaina's spell light moving under living tissue instead of over corpses.
-- Jaina narrows the problem to something people are taking in.
+- In the infirmary, Jaina studies living cases and finds the same necromantic stain she felt at Millhaven, only now it is still moving through warm blood.
+- The earliest cases burn in the gut first, and the worse ones spread outward from the stomach. The village medic has been dosing them for swamp fever because fever is the only sickness he knows how to treat.
+- They don't know whether the sickness enters by food, well water, or touch.
+- Ground the triage: sick-sweet breath, borrowed cots packed too tight together, Jaina's blue spell-light tracing under living ribs instead of cold hides.
+- Jaina narrows the hunt to something people are putting into their mouths.
 
 ---
 
@@ -115,33 +115,33 @@
 **Starting point:** Jaina sees the contamination inside living bodies, and Sylvanas is reading the village habits around it.
 
 ### Beat 4
-- Jaina throws stabilization wards over the worst cases, but the magic only buys time. She cannot help people fast enough if the village keeps swallowing the source.
-- Partial magical relief is possible, and most patients are still early enough to matter. That makes the missing entry route more urgent. Lyriel, hauling water and cots, watches Jaina try to tie off a dressing one-handed while her other hand holds a ward. She shows her the Farstrider one-handed knot: loop it over the thumb, turn the wrist under, pull the tail through, and set it with the teeth. "We learn it so we can patch our own mistakes." Jaina ties the next dressing herself.
-- They don't know what the patients are all eating or how one source is reaching so many houses at once.
-- Ground the treatment: blue ward-light over amber wrongness, a farmer's wife finally going still, Lyriel's quick hands over Jaina's on the linen, a child watching from the corner while Jaina works.
-- She starts comparing symptoms to diet and routine instead of reaching for a cleaner magical answer.
+- Jaina throws stabilization wards over the worst cases, but magic only buys hours. She cannot keep people upright if the village keeps swallowing the source.
+- Partial magical relief holds, and most patients are still early enough to save. That makes the missing entry route urgent. Lyriel, hauling water and cots, watches Jaina struggle to tie off a dressing one-handed while her other hand holds a ward. She steps in and teaches her the Farstrider one-handed knot: loop it over the thumb, turn the wrist under, pull the tail through, and set it with the teeth. "We learn it so we can patch our own mistakes." Jaina ties the next dressing herself.
+- They don't know what the patients all ate or how one source is reaching half the village at once.
+- Ground the treatment: blue ward-light over amber wrongness, a farmer's wife finally going still, Lyriel's quick hands guiding Jaina's on the linen, a child watching from the corner while Jaina works.
+- Jaina stops reaching for a tidier arcane answer and starts comparing fevers to kitchen tables.
 
 ### Beat 5
-- The patient pattern finally clicks. The worst cases are the people eating the most bread, while those on separate oats or their own provisions are less sick.
-- The contamination enters through ingestion, and repeated meals matter more than one bad swallow. Jaina earns the grain answer from the bodies before anyone names it.
-- They don't know who is poisoning the grain or where the tainted stock enters local storage.
-- Ground the realization: the bakery visible from the infirmary door, grain dust on wood and sleeves, Jaina gripping the frame when the answer lands.
-- She has the body-side truth, but not yet the road-side source.
+- The patient pattern clicks. The worst fevers belong to households eating the most baker's bread, while families living on their own oats or salt stores are barely touched.
+- People are swallowing the taint in their daily bread, and repeated meals build it faster than one bad bite. Jaina earns the grain answer from the sickbeds before anyone speaks the word flour.
+- They don't know who poisoned the grain or where the bad sacks entered local storage.
+- Ground the realization: the bakery chimney visible through the infirmary doorway, flour dust on wood and sleeves, Jaina gripping the doorframe when the pattern lands.
+- She has the sickroom half of the answer, and Sylvanas is out in the lane with the other half.
 - Inside: the pleasure of it clicking, in a room full of fevers; earned from the bodies in the right order, proud of that, and ashamed of being proud; bread, so who bakes, who mills, who sells; no, slower, the oat-eaters first, rule out the comfortable answer; the road half still missing, and Sylvanas out there with it
 
 ### Beat 6
-- While Jaina works the bodies, Sylvanas works the village memory. She asks about prices, deliveries, and routine until the small changes start lining up.
-- A new grain supplier appeared three months ago, and the description matches the same pleasant, forgettable type from before. Sylvanas finds the people-and-road half of the pattern that Jaina could not have pulled out of spellwork.
-- They do not know whether this is the same man from the road or how far the pattern reaches beyond this village.
-- Ground the legwork: grain-dusted hands, short practical questions, Jaina catching sight of Sylvanas through glass while still in triage.
-- Their two answers are ready to be joined.
+- While Jaina works the cots, Sylvanas works the village memory. She asks about flour prices, cart days, and deliveries until the small changes line up.
+- A new grain supplier showed up three months ago—same pleasant, forgettable sort as the rumor from Millhaven. Through the infirmary glass, Jaina catches sight of Sylvanas leaning against a cart rail, flour dusting her black gloves, steady hands resting on her bow-hip as a carter talks faster than he meant to.
+- They do not know whether this is the same man from the road or how far the deliveries reach beyond this village.
+- Ground the legwork: flour-dusted gloves, short practical questions, Jaina watching Sylvanas through wavy window glass while finishing a ward.
+- Both halves of the answer are ready to meet at the doorway.
 
 ### Beat 7
-- They compare findings and the pieces lock at once. Jaina has the body-side answer, Sylvanas has the road-side answer, and together they point straight at the granary.
-- Tainted grain is moving through trade on purpose, and the granary is now a crime scene instead of just storage. Jaina stops treating Sylvanas's read as background and waits for it as part of the answer.
-- They don't know whether this is one saboteur or a larger network.
-- Ground the join: grain dust on Sylvanas's gloves, ward-light fading from Jaina's hands, the silence after both realize the same thing.
-- They move on the granary at once.
+- They meet at the infirmary threshold out of the wind and compare findings; the pieces lock in one breath. Jaina has the bread and the guts; Sylvanas has the new supplier and the storehouse carts. Together they point straight at the granary.
+- Tainted grain is moving through ordinary trade on purpose. Standing shoulder-close over the flour-dusted sill, Sylvanas wipes a smudge of meal off her glove and holds Jaina's eyes dead-on as both arrive at the same target at once.
+- They don't know whether they are hunting one saboteur or a larger ring.
+- Ground the join: grain dust on Sylvanas's knuckles, ward-light fading from Jaina's palms, the tight silence when neither woman has to explain her half twice.
+- They cross the square straight for the granary.
 
 ---
 
@@ -152,32 +152,32 @@
 **Starting point:** Grain is the carrier, and the granary is where they can prove it.
 
 ### Beat 8
-- They enter the grain stores and catch a young initiate watching the operation. The moment he realizes he is caught, he goes for a lamp to burn the evidence.
-- Sylvanas stops the fire, Jaina restrains the watcher, and the granary becomes proof of organization instead of accident. The poison exists as a concentrated liquid before it is mixed into flour.
-- They don't know who commands him or how large the operation is.
-- Ground the seizure: a clay vessel breaking on floorboards, the wrong sweet smell of the concentrate, Sylvanas's arrow pinning a sleeve instead of a throat.
-- For one moment, they have both a living witness and a fresh crime scene.
+- They force the grain storehouse and catch a young watcher inside tending the sacks. The instant he sees them, he lunges for an oil lamp to torch the evidence.
+- Sylvanas puts an arrow straight through his sleeve inches from the lamp without grazing skin, Jaina snaps frost around his boots in the same beat, and Sylvanas steps right in front of Jaina's shoulder to kick the brass lamp clear—close enough that Jaina catches pine resin and bow-wax over the sickly sweet smell of spilled liquid. The poison sits in clay jugs as a dark concentrate before it is worked into flour.
+- They don't know who commands the watcher or how wide the ring runs.
+- Ground the seizure: a clay vessel shattering on floorboards, the sweet-rotten reek of the concentrate, Sylvanas's arrow pinning wool to timber, the solid heat of Sylvanas stepping across Jaina's line to kick the lamp away.
+- For one tight minute, they hold a live prisoner beside a fresh crime scene.
 
 ### Beat 9
-- The initiate is frightened and almost useless, but the spilled concentrate matters more than his panic. Jaina contains it fast enough to study what it is.
-- The liquid is master-level alchemical work built on necromantic theory Jaina only knows from warnings. The prisoner is too low-level to explain much, but the plague is clearly made, not improvised.
-- They don't know the name behind the work or where the center of the network is.
-- Ground the containment: torchlight shaking on the prisoner's face, a barrier thrown over the spill, Cyndia and Lyriel hauling him upright.
-- They move him to a cell because the route matters more than his fear.
+- The initiate is shaking and almost useless, yet the spilled concentrate matters more than his panic. Jaina throws a containment shell over the puddle before it can soak the planks.
+- The liquid is master-level alchemy wedded to banned necromantic craft Jaina knows only from Dalaran's warning texts. The boy is too low-ranking to explain the formula, but nobody improvised this in a barn.
+- They don't know the name behind the alchemy or where the shipments start.
+- Ground the containment: torchlight shaking across the boy's pale face, a blue barrier sealing the dark spill, Cyndia and Lyriel hauling him upright by the elbows.
+- They march him to Brask's lockup because the route he serves matters more than his terror.
 
 ### Beat 10
-- The interrogation dies before it starts. By the time they lock him in, he has already swallowed poison meant for capture.
-- The watcher was trained to die silent, and the people behind the plague are organized enough to waste village-level agents. They lose their only direct witness and keep only the route.
-- They don't know the group's name or the network's center point.
-- Ground the failure: a warm body on cold stone, a trace of foam at the mouth, the room going still when they realize they were beaten again.
-- With the witness gone, they are left with the road.
+- The questioning dies before it begins. By the time the cell door shuts, the boy has bitten through a poison capsule kept for capture.
+- The watcher was trained to die silent, and whoever runs these carts is willing to burn village-level agents to protect the road. The boy dies on cold stone without giving a single name, leaving them only the flour wagons' route.
+- They don't know the group's name or where its center sits.
+- Ground the failure: a warm body stiffening on cold flagstones, white foam at the lip, the lockup going dead quiet as both women realize they were beaten again.
+- With their witness gone, they turn back to the village they can still save.
 
 ### Beat 11
-- The witness is dead, but they are still in time here, and they use it. Brask closes the granary and the bakery on their word, sends riders after the last flour cart, and burns the tainted stock in the yard. Jaina holds her wards over the sick through the night.
-- By morning the early cases are holding and the first fevers have broken. The village will live. Brask writes their names in his own ledger so he can tell it right if anyone asks. Andorhal becomes a real destination instead of a guess, and they choose the grain road southwest.
-- They don't know who sits at the center of the network or whether they can get ahead of the spread anywhere else.
-- Ground the departure: flour burning sour in the granary yard, cold ovens, the hum fading from Jaina's tired hands, Brask's pen scratching their names.
-- Chapter 5 opens with the ride after the grain road, one living village behind them.
+- The watcher is dead, yet here they are still on time—and they spend the night making it count. Brask shuts the granary and bakery on their word, sends riders after the last flour cart, and burns the tainted sacks in the yard. Jaina holds her wards over the sick until dawn.
+- By morning the early fevers have broken and the cots are quiet. The village will live. Brask writes their names in his own ledger so he can swear to it if anyone ever asks. Before they mount for the southwest grain road toward Andorhal, Sylvanas hands Jaina a tin cup of boiled water without a word—gloved fingers steady against Jaina's frost-stiff knuckles for a single beat, then gone.
+- They don't know who sits at the center of the grain road or whether they will reach the next town in time.
+- Ground the departure: flour burning sour in the granary yard, cold ovens, the hum fading from Jaina's tired hands, Brask's pen scratching their names, warm tin pressed into Jaina's cold fingers.
+- Chapter 5 opens on the southwest grain road with one living village behind them.
 - Inside: on time, here, and it held; wants to call it a win and keeps checking the fevers instead; the dead initiate, and whether a faster barrier would have kept him talking; Millhaven not undone by any of this; the knot she can tie now, and the silly comfort of it
 
 ---

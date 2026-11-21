@@ -1,11 +1,11 @@
 # Chapter 8: The Hunters Hunted
 
 **POV:** Jaina Proudmoore (limited third, absolute)
-**When:** The same night as Chapter 7, with the party moving at once before Andorhal can clean up the breach.
-**Where:** Andorhal at night: safe house, granary district, back streets, and temporary shelters.
+**When:** The same night as Chapter 7, with the party moving at once before Andorhal's cell can scrub the treatment house.
+**Where:** Andorhal at night: safe room, granary district, back alleys, and Corin's temporary hideout.
 **Travel:** On foot through the city under cover and stealth.
 **Characters:** Jaina, Sylvanas, Cyndia, Lyriel, Corin, Captain Havel.
-**Goal:** Take a living cultist, force the Andorhal cell to reveal who is above it, and get out before the city closes around them.
+**Goal:** Take a living cultist, force the Andorhal cell to reveal who sits above it, and get out before the city net closes around them.
 
 ## References
 
@@ -13,158 +13,157 @@
 - **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Antonidas profile](stories/the-plague-road/characters/antonidas.md), [Kel'Thuzad profile](stories/the-plague-road/characters/kelthuzad.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
 
 **Jaina's starting position:**
-- Andorhal's grain is being treated at the hub before shipment.
-- The city holds a living cult network, not a few isolated saboteurs.
-- Corin has been useful inside the records.
-- Havel keeps trying to push the work back into militia routes and shelters he controls.
-- Sylvanas's street read and Jaina's magical read now work well enough to support a same-night ambush.
-- Lyriel is alive, and the four-woman scouting party is still intact.
-- Jaina's sensitivity keeps them ahead of most of the crown's awareness, but not ahead of grain already moving through ordinary roads.
+- Andorhal's grain is being treated at packaging before shipment.
+- The city holds an organized cult cell with lookouts, dead drops, and masked workers, not a few lone saboteurs.
+- Corin has proven reliable inside the inspection records.
+- Havel keeps trying to steer the move onto streets and shelters he controls, after already losing Sylvanas near a blind mill alley.
+- Sylvanas's street read and Jaina's arcane read now run cleanly together at speed.
+- Lyriel is alive, and the four-woman hunting pack is intact.
+- Jaina's sensitivity keeps them ahead of most of the crown's awareness, yet not ahead of flour already rolling down ordinary roads.
 - The old carter and the newer grain-man clue are still unresolved background, not an active lead.
-- Jaina can isolate the poisoned grain magic, but she still cannot stop the final curse that turns sickness into undeath.
+- Jaina can trace and isolate the poisoned grain magic, yet she still cannot stop the final curse that turns sickness into undeath.
 
 **Still in the dark about:**
-- Whether a captured zealot can stay alive long enough to talk.
-- Whether the local cult can kill compromised members from a distance.
-- Whether they are still early enough to slow the spread.
+- Whether a captured cultist can stay alive long enough to talk.
+- Whether the local cell can kill compromised members from a distance.
+- Whether they are still early enough to cut off the shipments beyond Andorhal.
 - Who commands the operation or where that command sits.
 
 **Hold back:**
-- Do not confirm before Beat 7 that the grain is already beyond recall.
+- Do not confirm before Beat 7 that the treated grain is already shipped beyond Andorhal.
 - Do not name Kel'Thuzad before Beat 8.
 - Do not solve the old carter or the newer grain-man clue.
 - Do not claim the whole kingdom is already lost.
 
 **End of chapter state:**
-- The network can kill captured zealots with a death-curse.
-- Havel was on cult coin and dies when he tries to close the trap on them.
-- Corin stays inside the trust boundary.
-- Kel'Thuzad is identified as the mind behind the plague east of Andorhal.
-- The party can detect the plague earlier than most authorities, but they are still behind the spread.
+- The cult can kill captured zealots mid-sentence with a remote death-curse.
+- Havel was on cult coin; he breaks for his trap alley during the escape and Sylvanas kills him with one arrow before he can shut them in.
+- Corin earns their trust and stays behind in Andorhal as their local ally.
+- Treated grain has already moved beyond Andorhal into northern Lordaeron.
+- Kel'Thuzad is named as the former Kirin Tor mastermind operating somewhere east of Andorhal.
+- The four-woman hunting pack—Sylvanas, Jaina, Cyndia, and Lyriel—prepares to ride east into the Eastweald.
 
 ---
 
 ## Character Arcs
 
 ### Jaina
-- She opens believing one live prisoner can give them the answer they need.
-- The capture works, but the witness dies before she can save him.
-- She learns that proof can still arrive too late to protect the person carrying it.
-- By the end, she has a name, but she loses the belief that clarity alone will keep them ahead.
+- She opens believing one living prisoner will finally put them ahead of the poison.
+- The ambush works, then a remote death-curse kills the man mid-sentence right in front of her hands—and only Sylvanas yanking her clear keeps her out of the backlash.
+- Racing through the closing streets glued to Sylvanas's heel, Jaina feels the hot jolt of Sylvanas's lethal protection—and the unsettling relief of watching Havel drop to one arrow.
+- By the end, Kel'Thuzad's name turns a plague investigation into a personal wound out of her own Dalaran halls.
 
 ### Sylvanas through Jaina's POV
-- Sylvanas runs the ambush, the streets, and the escape with clean practical judgment.
-- Jaina trusts her field instincts now, even while she still treats magic as the cleaner road to certainty.
-- The death-curse shows how much the work depends on Sylvanas keeping danger physical and immediate.
-- Their coordination is fast enough to look effortless.
+- Sylvanas runs the grab, the street flight, and the killing shot on Havel with lethal economy—stepping directly in front of Jaina's body whenever steel or spell flares from an alley.
+- During the escape they move as one body: Jaina gripping the back of Sylvanas's cloak or catching her wrist to warn of waiting magic half a beat before a corner, Sylvanas turning every warning into motion and clear ground.
+- When Kel'Thuzad's name leaves Jaina hollow over the map, Sylvanas offers no speech—only one steady gloved hand laid on the table edge inches from Jaina's shaking fingers.
 
 ### Partnership
-- Their partnership is finally working at full speed.
-- Each woman covers the other's blind side before being asked.
-- They do not need speeches to show trust.
-- The cult answers that trust with a trap they barely survive.
+- Their partnership hits full lethal speed here: two women covering magic and steel as one breathing unit without a wasted syllable.
+- Sylvanas's protective violence is immediate and unapologetic; Jaina stops flinching from it and realizes how fiercely she relies on it.
+- No speeches, no softening—just total physical alignment when the city tries to close around them.
 
 ---
 
 ## Cast and handoff rules
 
 - **Cyndia:** Still with the hunting party.
-- **Lyriel:** Still with the hunting party and alive at close. She is still the one who talks to Jaina and jokes where Cyndia won't.
-- **Corin:** A real ally inside Andorhal. He stays local once the party moves on.
-- **Captain Havel:** Posing as an ally at open. Exposed as a cult-paid contact and killed in the escape.
-- **Kel'Thuzad:** Not yet named at chapter open.
+- **Lyriel:** Still with the hunting party and alive at close. She is still the one who talks warmly to Jaina and lands a dry joke where Cyndia won't.
+- **Corin:** Proven ally inside Andorhal. Stays local in the city once the four-woman pack rides east.
+- **Captain Havel:** Posing as an ally at open. Exposed as cult-paid during the flight and killed by one arrow from Sylvanas when he breaks for his trap route.
+- **Kel'Thuzad:** Not named until Beat 8.
 - **The old carter and the newer grain-man clue:** Keep off the active board.
 
-**Next chapter starts:** Chapter 9 opens with the same four-woman scouting party hunting east into the Eastweald.
+**Next chapter starts:** Chapter 9 opens after hard days of riding east with the four-woman pack (Sylvanas, Jaina, Cyndia, and Lyriel) hunting into the cult-held Eastweald; Corin remains an off-page contact in Andorhal.
 
 ---
 
 ## Scene 1: The Capture
 
-**The action:** The party takes a living cultist, gets real structure out of him, and loses him to a death-curse before he can give them the name they need.
+**The action:** The party takes a living cultist, pulls real structure out of him, and loses him to a remote death-curse before he can finish the name.
 **Cast:** Jaina, Sylvanas, Cyndia, Lyriel, Corin, Havel, captured cultist.
-**Starting point:** Minutes after the decision. The target is marked, the route is chosen, and the leadership is still unnamed.
+**Starting point:** Minutes after the decision. The target is marked, the shift is live, and the mastermind is still unnamed.
 
 ### Beat 1
-- They need a living cultist before the cell realizes it has been breached. Havel wants slow militia procedure and routes he says he can secure, but Jaina and Sylvanas know waiting will lose the target.
-- The capture has to happen tonight, and Jaina and Sylvanas can now run a strike together without wasting movement on friction. Havel keeps steering them toward shelters and corridors he controls.
-- They do not know whether the prisoner knows anything useful or whether the capture has already been noticed.
-- Ground the ambush: narrow night streets, wards smothered before they flare, Lyriel and Cyndia sealing the exits, Sylvanas taking the man alive on the move instead of at a door.
-- They take the zealot breathing.
+- They move on the secondary granary before the night crew changes shift. Havel argues one last time for militia procedure and his own side streets; Jaina and Sylvanas ignore him and take the alley off a glance.
+- Cyndia and Lyriel seal both ends of the narrow street in silence. Jaina smothers the doorway wards before they can chime, and Sylvanas takes a gloved handler alive on the move—one hand clamping his jaw shut before he can bite a poison tooth while Jaina freezes his ankles to the cobbles.
+- They do not know how much this handler knows or whether a rooftop lookout saw the grab.
+- Ground the ambush: narrow wet cobbles, a ward choked dead before it flares, Sylvanas's gloved hand locked over the man's mouth, Lyriel's silent hand-sign from the shadowed arch.
+- They haul the cultist breathing into the nearby holding cellar.
 
 ### Beat 2
-- The interrogation gives them structure but not the name they need. The man fears his masters more than his captors, and Havel keeps trying to drag the questioning back to shelters, names, and procedure.
-- The operation answers upward to one mortal mastermind, poisoned grain was planned over months, and lower-rank cultists handle the infected without understanding the full ritual.
-- They do not know the master's name or whether the prisoner can live long enough to say it.
-- Ground the questioning: sweat on the prisoner's lip, Sylvanas getting more with silence than threats, Jaina hearing the name almost arrive and knowing the shape of it matters.
-- Something hits before the confession lands.
+- The questioning breaks open the cult's outline without giving them the name at the top. The man is more terrified of his masters than of Sylvanas's bow, while Havel keeps hovering near the door, pressing to move the prisoner to a militia shelter he controls.
+- The prisoner admits the poisoned shipments were built over months under one mortal mastermind, and that lower-rank handlers pack and ship the treated flour without ever being shown the full ritual.
+- They do not know the master's name or how many heartbeats the prisoner has left to say it.
+- Ground the questioning: cold sweat beading on the prisoner's lip, Sylvanas pulling answers with quiet stillness rather than threats, Jaina leaning forward as the first syllable of a name starts to form on his tongue.
+- Cold necromantic power snaps through the stone before the word clears his mouth.
 
 ### Beat 3
-- A necromantic death-curse kills the prisoner mid-sentence. Jaina feels the spell too late to stop it, and the speed of the response makes the room smaller and more dangerous all at once.
-- The network can kill compromised zealots from a distance, and capable cult mages are working inside the city. Havel looks worse after the curse, not better.
-- They do not know which mage cast it or how many enforcers are already moving.
-- Ground the break: a sentence cut in half, a cold needle of magic through the room, control vanishing in one breath.
-- The hunters become the hunted.
+- A remote death-curse kills the prisoner mid-sentence—black blood and broken breath cutting the word clean in half. Jaina lunges forward trying to catch the spell-thread before it finishes him; Sylvanas hooks an arm hard around Jaina's ribs and yanks her back against the brick wall out of the backlash, holding her pinned behind her shoulder for one fierce second while her bow swings toward the cellar grate.
+- The cult has capable necromancers inside Andorhal who can execute compromised workers from blocks away—and now they know the exact block holding the investigators. Havel looks gray and panicked after the curse, not relieved.
+- They do not know which rooftop holds the caster or how many armed enforcers are already closing on the cellar.
+- Ground the break: a confession severed mid-breath, an iron-cold needle of necromancy piercing the air, Sylvanas's arm iron-tight across Jaina's ribs pulling her clear of the collapsing body, control shattering in one heartbeat.
+- Boots pound the cobbles overhead; they bolt into the night streets before the cellar becomes a grave.
 
 ---
 
 ## Scene 2: The Hunters Hunted
 
-**The action:** The capture turns into an escape, Havel finally breaks open as betrayal, and the group survives only because Jaina and Sylvanas are working together at speed.
+**The action:** The city net snaps shut, Havel breaks for his trap alley and dies on one arrow, and Jaina and Sylvanas survive by moving as one body through the dark.
 **Cast:** Jaina, Sylvanas, Cyndia, Lyriel, Corin, Havel, cult enforcers.
-**Starting point:** The cult can kill captured zealots from a distance and now knows exactly where the investigators are.
+**Starting point:** Cult necromancers know where they are, and armed enforcers are closing off the district.
 
 ### Beat 4
-- They have to leave the safe house before cult enforcers close around it. Jaina reads magical pressure while Sylvanas reads the streets, and Havel keeps pushing the same known routes and shelters.
-- The cult has a prepared city defense, not a panicked response. Jaina and Sylvanas are now covering different danger bands in real time, and Havel's advice lines up too neatly with the closing net.
-- They do not know which fallback house is safe or how wide the search ring already is.
-- Ground the flight: street noise thinning in the wrong places, pressure moving through nearby blocks, Sylvanas reading corners and rooflines at speed.
-- They stop treating Havel as merely difficult.
+- They pour out of the cellar into streets that have gone unnaturally empty. Jaina feels waiting cult mages through the stone while Sylvanas reads alleys, choke points, and rooflines ahead—and every single street Havel swears is "clear" rings with waiting arcane pressure straight ahead of them.
+- The ambush net was planned weeks ahead, not improvised tonight. When Havel shouts for them to turn into his "safe" militia shelter and Jaina feels a ward-snare coiled right behind that corner, she catches Sylvanas's eye across the dark alley—neither woman needs to say the word traitor.
+- They do not know which back street is still open or how wide the cult ring stretches.
+- Ground the flight: market streets going dead silent two blocks ahead, cold magic pulsing behind shuttered windows, Jaina catching Sylvanas's sleeve at a blind turn and Sylvanas pivoting off the touch without slowing a stride.
+- They break hard away from Havel's route and run for Corin's hidden bolt-hole.
 
 ### Beat 5
-- Jaina catches pressure shifts just before steel arrives and feeds them to Sylvanas, who turns the warnings into movement. Havel breaks for the route he has been selling them all night, and Sylvanas kills him before he can close the trap.
-- Their partnership is now a survival tool, not just cooperation. Cyndia and Lyriel hold the flanks cleanly, and Corin stays with them when Havel breaks.
-- They do not know whether any cover remains once Havel is exposed or how much of the city net he fed the cult.
-- Ground the break: hard turns into side alleys, rear-guard discipline, one arrow settling the question of Havel.
-- They escape the first closure with Corin and without Havel.
+- Through three twisting lanes, Jaina and Sylvanas move as one body—Jaina gripping the back of Sylvanas's cloak to pull her off a warded threshold half a breath before it sparks, Sylvanas stepping squarely across Jaina's chest to drop a cult enforcer lunging from a cellar stair before his blade comes within two paces of Jaina's ribs.
+- Realizing they are cutting loose from his net, Havel breaks hard for his trap alley shouting for the watch to drop the iron gate across their path. Sylvanas does not hesitate or call a warning: one clean draw, one arrow, putting Havel flat on the cobbles before he reaches the chain. Cyndia and Lyriel hold the rear arch cleanly, and Corin stays right at Jaina's shoulder without wavering.
+- They do not know how many enforcers heard Havel shout or how long Corin's hideout will stay blind.
+- Ground the break: hard boots skidding on damp cobbles, frost blowing a barred shutter off its hinges, Sylvanas's lethal pivot in front of Jaina's body, one arrow settling Havel flat in the mud.
+- They slip through the breach with Corin and seal the hideout door behind them.
 
 ### Beat 6
-- In Corin's hideout, the last pieces fit. Havel's debts vanished when the supplier routes changed, reports died whenever they touched the wrong granaries, and cult enforcers moved first toward every shelter he named.
-- Havel was on cult coin, and the network planned for breach, containment, and witness silencing months ago. Andorhal's local cell is only one layer of a larger structure.
-- They do not know whether the spread can still be slowed or who sits above the city's dark masters.
-- Ground the aftermath: a hideout that feels temporary, Corin going pale as he says it aloud, Lyriel getting one dry line past Cyndia's silence (in Silvermoon, at least, the magisters send a letter before they try to kill you), Jaina shifting from investigation notes to emergency notes.
-- Jaina turns from the local cell to the source behind it.
-- Inside: should have seen Havel, every shelter he named; no, she did see it, and filed it under territorial; the prisoner's half-sentence, and a faster ward might have held it; Sylvanas shot a man in the street and she is relieved, and doesn't look at that; emergency notes, because notes give her hands something to do
+- Inside Corin's cramped back-room hideout, the last ugly pieces click shut. Corin remembers Havel's gambling debts vanishing the exact month the grain suppliers changed, reports dying whenever they named certain granaries, and cult enforcers hitting every safe street Havel tried to sell them tonight.
+- Havel was on cult coin, and the Andorhal cell built breach plans, safe-house traps, and witness-killing curses months ago. This city cell is only one gear in a far bigger machine.
+- They do not know whether any road out of Andorhal is still clean or whose name sits at the top of the machine.
+- Ground the aftermath: a shuttered bolt-hole smelling of damp ink and candle tallow, Corin going white as he connects Havel's debts aloud, Lyriel slipping one dry line past Cyndia's grim silence ("in Silvermoon, at least, the magisters send a letter before they try to kill you"), Jaina tearing a clean sheet for names and eastbound roads while her hands still shake from the alley.
+- Jaina clears the table and lays her arcane map over Corin's shipping tallies to see how much grain already escaped the city.
+- Inside: should have seen Havel, every shelter he named; no, she did see it, and filed it under territorial; the prisoner's half-sentence, and a faster ward might have held it; Sylvanas shot a man in the street right in front of her and she is relieved, and won't look too closely at why; notes, then, because notes give her hands something to hold
 
 ---
 
 ## Scene 3: The Name
 
-**The action:** Jaina confirms the plague is already moving beyond Andorhal and finally identifies the mind behind it.
+**The action:** Jaina confirms treated grain is already out beyond Andorhal and hears the name that turns the hunt personal.
 **Cast:** Jaina, Sylvanas, Cyndia, Lyriel, Corin.
-**Starting point:** The local cult cell has shown its internal defenses, proving the group in Andorhal is only one layer of a larger problem.
+**Starting point:** Havel is dead, the local cell is exposed as one layer of a larger design, and the four-woman pack needs the architect's name and heading.
 
 ### Beat 7
-- Jaina lays her contamination map against route notes and the prisoner's last broken words. The lines point outward. Andorhal is not the whole problem; it is the hub feeding the roads.
-- Treated grain has already moved beyond the city, and Jaina's early detection still leaves them behind the spread. The next answer has to come from the mind that built it.
-- They do not know where the mastermind is operating from or whether any upstream hub can still be cut off.
-- Ground the realization: route lines fanning away from Andorhal, Jaina going still over the map, the sick certainty of being late.
-- They need a name, not just proof of scale.
+- Jaina lays her contamination map directly over Corin's shipping ledgers and the dead cultist's broken admissions. Every heavy line fans outward from Andorhal into northern Lordaeron.
+- Treated grain has already left the city on regular merchant carts; even Jaina's early warning leaves them chasing wagons already unloaded in towns across the north. Shutting down one granary here will not stop the plague—they have to cut off the mind building it.
+- They do not know where that mastermind hides or whether any upstream stronghold can still be taken before the next wave ships.
+- Ground the realization: ink lines fanning outward like cracks from Andorhal's stamp, Jaina going completely still over the parchment, the sick weight of arriving behind the wagons again.
+- Corin looks at the prisoner's severed first syllable, the forbidden Kirin Tor craft, and the eastbound supply marks—and stops breathing for a second.
 
 ### Beat 8
-- The name comes together from fragments: Corin's local knowledge, the prisoner's cut-off confession, and what Havel's betrayal says about the level of planning. The answer is Kel'Thuzad.
-- Kel'Thuzad was a Kirin Tor mage expelled by Antonidas for necromantic work, which means the plague finally has a human architect Jaina can place. His operation lies somewhere east of Andorhal.
-- They do not know his exact base.
-- Ground the naming: Corin saying the name like it burns, Havel's betrayal hardening theory into certainty, Jaina going still for a reason deeper than fear.
-- The hunt becomes personal for Jaina.
+- From Corin's whispered recall of Dalaran whispers, the cut-off syllable on the prisoner's tongue, and the unmistakable Kirin Tor craft inside the poison, the name lands on the table: **Kel'Thuzad**.
+- Kel'Thuzad—former Kirin Tor archmage expelled by Antonidas for forbidden necromantic research, now running the plague operation somewhere east of Andorhal. The plague finally has a human face Jaina can place.
+- They do not know his exact stronghold in the east.
+- Ground the naming: Corin saying the name as if it scorches his mouth, the candle flame dipping in the sudden hush, Jaina staring down at the ink-blotted map until the lines blur—the man poisoning half of Lordaeron walked the same Dalaran corridors she did.
+- Every piece of Jaina's earlier revulsion at the plague's elegance slams home with a name attached.
 
 ### Beat 9
-- Jaina has to face what the name means. Kel'Thuzad is not some distant heretic. He came out of the same arcane world that trained her.
-- The investigation now has a familiar human center, and the trail points east into the Eastweald. Chapter 9 begins as a hunt for the real seat of the work.
-- They do not know Kel'Thuzad's exact base or how they will reach it before the next layer closes.
-- Ground the close: silence in the hideout, everyone feeling the weight of Jaina's pause before they know the history inside it.
-- Chapter 9 opens on the eastbound hunt.
-- Inside: same libraries, same lecture halls, maybe the same tutors; Antonidas expelled him and said almost nothing about why, and she never asked; part of her wants to read his work, and that part is the problem; how much of what she knows did he know first
+- Jaina has to sit with what the name means. Kel'Thuzad is not a distant monster out of rumor; he came out of the same libraries, the same halls, and the same teacher's discipline that shaped her.
+- The trail points east into the Eastweald. Corin will stay behind in Andorhal to watch the shipping ledgers and keep their eyes inside the city; the four-woman pack—Sylvanas, Jaina, Cyndia, and Lyriel—will slip out before dawn and hunt east. Feeling the sudden freeze in the room, Sylvanas steps beside Jaina's chair and lays one gloved hand flat on the table edge inches from Jaina's trembling fingers—no speech, no comfort cliché, just steady physical presence anchoring her before they ride.
+- They do not know Kel'Thuzad's exact base or what trap waits for them in the Eastweald.
+- Ground the close: heavy quiet in the hideout, Cyndia and Lyriel already checking packs by the door, Sylvanas's gloved hand resting steady beside Jaina's knuckles on the scarred wood.
+- Chapter 9 opens days later with the four-woman pack hunting deep into the cult-held Eastweald.
+- Inside: same libraries, same lecture halls, maybe the same tutors; Antonidas expelled him and said almost nothing about why, and she never asked; part of her still wants to read his work, and that part is the problem; how much of what she knows did he know first; Sylvanas's hand an inch from hers on the table, steady enough to anchor the whole room
 
 ---
 
@@ -178,12 +177,12 @@
 - Corin
 
 **What carries into Chapter 9:**
-- The cult can kill captured zealots with a death-curse.
-- Havel was a cult-paid city contact, and Sylvanas kills him when he turns the trap.
-- Corin remains a trusted ally inside Andorhal.
+- The cult can kill captured zealots mid-sentence with a remote death-curse.
+- Havel was cult-paid, tried to close a trap alley on them, and died on one arrow from Sylvanas.
+- Corin stays behind in Andorhal as a trusted local off-page contact while the four-woman pack (Sylvanas, Jaina, Cyndia, and Lyriel) rides east into the Eastweald.
 - Andorhal is a working hub, and treated grain has already moved into northern Lordaeron.
-- Kel'Thuzad is identified as the former Kirin Tor mastermind operating east of Andorhal.
-- The same four-woman scouting party carries the hunt forward.
+- Kel'Thuzad is identified as the former Kirin Tor mastermind operating somewhere east of Andorhal.
+- Barov holdings remain a paper trail, not proof of guilt, and the old carter / newer grain-man / repeated-farewell clues remain unresolved.
 
 **Do not add yet:**
 - Kel'Thuzad's exact base.

@@ -224,8 +224,8 @@ She thinks faster than she talks, and less politely. She corrects herself mid-th
 - That the silent sending stone is hiding, not caution (outline chapter 2).
 - That she admires Kel'Thuzad's work, and wants to see the spell work once.
 - That she is afraid. She calls it "the curious part" and turns that part up.
-- That Sylvanas can stop her with one word when Antonidas never could (outline chapter 19).
-- How much she likes someone keeping up with her.
+- That Sylvanas can stop her with one word when Antonidas never could (outline chapter 19), and that the pull she feels toward Sylvanas — the sharp awareness of her shoulder, her hands, her voice in the dark — goes far past working trust.
+- How much she wants to be known at full speed without shrinking, and how little it takes for Sylvanas's misread or hesitation to wound her.
 
 ### The gap between her spoken and inner voice
 
@@ -235,6 +235,8 @@ She thinks faster than she talks, and less politely. She corrects herself mid-th
 - Aloud she is sure in proportion to the evidence. Inside she is more sure, then less, then sure again.
 
 ### Shape examples
+
+*These show the shape of her thinking, not lines to use. Never reuse their wording or their image in prose. Each signature move here (the self-mockery, the yardstick, the hypothesis she shoots down) appears at most once every few chapters. `tools/mannered_checker` flags lifts and over-budget refrains.*
 
 - *She called it caution. No. She had kept the stone quiet so he couldn't call her home.*
 - *Who milled it? No, slower. Who ate it first?*

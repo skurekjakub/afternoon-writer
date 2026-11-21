@@ -41,21 +41,21 @@
 - Now the question is scale.
 - Records, manifests, and depots reveal a distribution network, not a local outbreak.
 - Barov operations sit in the middle of the compromised routes.
-- A depot overseer lies and sends them toward Brill. They lose a day, and he is gone when they come back.
+- A depot overseer runs a forged quarantine transfer and decoy tracks to send them toward Brill; they lose a day, return to find him gone, and walk into a dusk cleanup-crew ambush at the depot/road that proves the network is actively sanitizing behind itself.
 - The old carter and empty wagon from Ch 3 snag retroactively.
-- Sylvanas starts thinking "Jaina" instead of "the mage."
+- Over the midnight map read, the physical distance narrows for the first time and Sylvanas starts thinking "Jaina" instead of "the mage."
 
 ## Ch 6 — The Pattern
 - POV: Jaina.
 - The plague is clearly engineered and continent-minded.
-- Arthas appears still chasing the wrong war. He is polite, dismissive, and already dangerous in the way certainty can be dangerous.
-- Mal'Ganis appears again as a granary tally-man, sends them to Havel, and repeats the road-farewell. Jaina reads nothing off him. Twice is wrong, not yet a pattern.
+- Arthas appears at Strahnbrad under live Blackrock raid skirmish pressure, still chasing the wrong war. He is polite, dismissive, and already dangerous in the way certainty can be dangerous.
+- Mal'Ganis appears again as a granary tally-man, sends them to Havel, and repeats the road-farewell while his eyes go past them to the granary roofs. Jaina reads nothing off him. Twice is wrong, not yet a pattern.
 - End on Andorhal: functioning city on the surface, contamination underneath.
 
 ## Ch 7 — Andorhal
 - POV: Sylvanas.
 - They enter as supply inspectors.
-- Corin gives mage-guild access. Havel gives militia traction and keeps steering them onto routes he controls.
+- Corin gives mage-guild access. Havel gives militia traction and keeps steering them onto routes he controls, including a blind-lane near-trap and tense rooftop lookout peril as the city tightens around them.
 - Labor splits naturally: Jaina handles magical method; Sylvanas handles people, logistics, and threat layout.
 - Jaina finds how the grain is being treated at the hub.
 - Sylvanas finds the embedded network, hierarchy, and scale.

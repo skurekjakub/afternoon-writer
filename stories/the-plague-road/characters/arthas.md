@@ -28,13 +28,13 @@
 - Sylvanas reads him as a military asset whose tempo keeps turning more dangerous.
 
 ## Story beats
-- Ch 6: golden prince chasing the wrong war.
+- Ch 6: golden prince chasing the wrong war at Strahnbrad under live Blackrock raid pressure.
 - Ch 15: absorbs weeks of plague work in hours and turns it into acceleration.
 - Ch 17: Stratholme proves the math can be sound and the act still monstrous.
-- Ch 18-20: burned fleet with his own ship kept back in a separate cove, Muradin's warning ignored, Frostmourne. The first arrow should kill him and does not. The ice-shard blowback strikes Muradin down, and Arthas walks on without looking back.
-- Ch 21: sails home after the pair, straight for Lordaeron's coast, and reaches Capital City first.
-- Ch 22: kills Terenas. Sylvanas shoots his sword arm to pull him off the king, knowing an arrow will not kill him.
-- Ch 22 end: Jaina finds the seam, Sylvanas lands the second shot, and the prince dies too late to save anyone who matters.
+- Ch 18-20: burns **all** of his ships at Daggercap Bay (no reserve ship kept behind), ignores Muradin's warning, and claims Frostmourne. The first arrow should kill him and does not. The ice-shard blowback strikes Muradin down, and after the Ch 20 cavern ice-collapse Arthas pushes deeper through the northern glacier pass without looking back.
+- Ch 21: reaches a hidden dead-crewed vessel at a northern ice-fjord and sails straight home **before** Sylvanas and Jaina even make it back to Daggercap Bay, arriving in Capital City four days ahead of them.
+- Ch 22: kills Terenas. Sylvanas shoots his sword-wrist/hand to pull him off the king, knowing an arrow will not kill him.
+- Ch 22 end: Jaina finds the seam, Sylvanas lands the second shot carrying Jaina's fire, and the prince dies too late to save anyone who matters.
 
 ## Writer rules
 - Do not soften him into pure victim or flatten him into a cartoon tyrant.

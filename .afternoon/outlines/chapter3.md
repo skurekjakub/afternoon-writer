@@ -40,19 +40,19 @@
 
 ### Sylvanas
 - She opens treating this as a border problem to read and report, not a human disaster she has to carry herself.
-- The silent village and the missing bodies force her to read tracks, corpses, and magic together.
-- She starts the chapter using Jaina as a specialist, not a partner.
-- By the end, Sylvanas still does not trust Jaina, but she stops treating the mage's read as optional.
+- The silent village and the missing bodies force her to read tracks, empty kitchens, and Jaina's spellwork together.
+- She starts the chapter using Jaina as a specialist under guard, not a partner.
+- By the end, Sylvanas still does not trust Jaina, yet she cuts her own escort in half and rides deeper into Lordaeron on the strength of Jaina's read—and cannot quite keep her eyes off the mage ahead of her on the road.
 
 ### Jaina through Sylvanas's POV
-- Sylvanas expects Jaina to be good at magic and weak on the actual road.
-- Jaina proves more useful than that by helping separate the loudest wrongness from the real pattern.
-- Sylvanas does not grow warm, but she starts listening when Jaina speaks.
+- Sylvanas expects Jaina to be good at magic and clumsy on real ground.
+- Jaina surprises her by refusing to grab the loudest answer in the granary, climbing straight into a dark cellar for a terrified child, and stripping away magical noise at the road cut without asking for praise.
+- Sylvanas does not grow warm, but she catches herself noticing small physical things—raw frost-burned knuckles, a bitten lip, the steady grip of cold fingers on her wrist—and filing every one of them under irritation.
 
 ### Partnership
-- They begin as a custody escort with no trust between them.
-- Millhaven forces them to build one picture out of physical and magical evidence.
-- They do not soften. They just stop wasting time pretending the other half of the problem does not matter.
+- They begin as a custody escort with sharp edges between them.
+- Millhaven forces them to match physical tracks against magical taint until both halves lock.
+- They do not soften. They just stop pretending the other woman is dead weight—and start moving closer than caution strictly requires.
 
 ---
 
@@ -76,33 +76,33 @@
 **Starting point:** The contamination is real, but they still don't know how it got here.
 
 ### Beat 1
-- They enter Millhaven expecting danger they can see. Instead, they get silence: no voices, no animals, no work sounds. Just a village that stopped in the middle of the day.
-- The village wasn't burned or sacked; the collapse is recent. The wrongness is heavy enough to spook the Thalassian horses.
+- They enter Millhaven expecting raiders or sickened beasts they can shoot. Instead, they get silence: no voices, no dogs, no smithy hammer. Just a village that stopped in the middle of the day.
+- The village wasn't burned or sacked; the collapse is recent. The wrongness sits heavy enough to make the Thalassian horses pin their ears and balk at the ditch.
 - They have no idea where the people went or if anything alive is still hiding inside.
-- Ground the approach: cold stoves, a loose door tapping in the wind, dust settling on tools that should have been touched that morning.
-- Sylvanas relies on her own training. She orders a full physical sweep instead of just trusting Jaina's magic.
+- Ground the approach: cold stoves, a loose shutter tapping in the breeze, dust settling on tools left out that morning.
+- Sylvanas falls back on Farstrider habit and orders a house-by-house sweep before letting Jaina touch the magic.
 
 ### Beat 2
-- The sweep finds absolutely no pile of bodies and no clear kill site. Every house looks like people left right in the middle of living and never came back.
-- The village emptied slowly over time, not in one panicked attack. Ordinary life froze in place, and the dead are simply missing.
-- They don't know if the villagers fled, were taken, or rose up and walked out.
-- Ground the sweep: stale half-eaten food on tables, a wooden toy dropped on the floor, one barn cat moving unbothered through the street like nothing happened.
-- With no bodies to study, Jaina begins checking the most magically saturated places.
+- The sweep turns up no bodies and no kill site. Every cottage looks like its owners set down a spoon or a broom and walked out mid-morning.
+- The village emptied over days, not in one panicked raid. Ordinary life froze in place, and the dead are simply gone.
+- They don't know if the villagers fled, were hauled away, or rose up and walked out.
+- Ground the sweep: stale half-eaten bread on scrubbed tables, a wooden toy dropped by a threshold, one barn cat winding unbothered down the empty lane.
+- With no corpses to inspect, Jaina starts testing the places where the taint sits thickest.
 
 ### Beat 3
-- Jaina examines the well, the cellar, the granary, and the soil. The whole village is soaked in sickness, but the trail still doesn't point cleanly to its first source.
-- The granary gives the strongest reading of all, but Jaina refuses to treat the loudest residual magic as the whole answer. Sylvanas notices this restraint and starts trusting her judgment a little more.
+- Jaina checks the well, the cellar, the granary, and the garden dirt. The whole village is soaked in sickness, yet the trail refuses to point cleanly to a single first touch.
+- The granary gives the loudest stain of all, and Jaina still refuses to call the loudest stain the whole answer. Sylvanas clears the rafters and sightlines above her, watching the set of Jaina's shoulders and the frost-burned knuckles hovering inches above spilled grain, irritated by how little she can fault the mage's restraint.
 - They don't know what physical thing first carried the sickness in.
-- Ground the inspection: thick grain dust, stale trapped cellar heat, Jaina kneeling in a storehouse while Sylvanas clears the sightlines around her.
-- Magic shows the scale of the damage, but Sylvanas still needs physical tracks to tell her where it went.
-- Inside: expected a scholar to grab the loudest answer and call it proof; the mage didn't, and that is irritating; is it caution or a performance for the Ranger-General; one granary, not enough, and she would have said the same
+- Ground the inspection: thick grain dust hanging in shafted light, stale cellar heat, Jaina biting the inside of her cheek as she kneels while Sylvanas holds the doorway with an arrow nocked.
+- Magic measures the rot, but Sylvanas still needs physical tracks in the mud to learn where the people went.
+- Inside: expected a scholar to grab the loudest answer and call it proof; the mage didn't, and that is irritating; raw knuckles in grain dust and not a word of complaint; one granary isn't enough, and she would have said the same
 
 ### Beat 4
-- Behind the village, the ground is completely churned by drag marks and ruined lanes. Sylvanas can tell many dead left Millhaven on their feet, but she can't trace exactly where they went yet.
-- The bodies didn't stay in the village. The road behind it is too trampled for a clean direction call, and Sylvanas refuses to guess or overstate what she sees.
-- They don't know which road the dead took, or if anyone is directing them.
-- Ground the tracks: mud broken by too many dragging, uneven feet; Cyndia trying to get a count without a clean line; Sylvanas crouched over dirt she doesn't trust yet.
-- They need a living witness to make sense of the mess.
+- Behind the last cottage, the pasture and back lane are churned raw with drag marks and ruined turf. Sylvanas can tell dozens of dead left Millhaven on their feet, yet the ground is too trampled to call their heading cleanly.
+- The bodies did not stay in the village. Sylvanas crouches over the broken mud and refuses to guess or overstate what the tracks prove.
+- They don't know which road the dead took, or if anyone drove them.
+- Ground the tracks: mud torn by too many uneven dragging heels, Cyndia counting without a clean line, Sylvanas rubbing wet clay between her bare fingers.
+- They need one living witness to tell them what walked out of here in the dark.
 
 ---
 
@@ -113,25 +113,25 @@
 **Starting point:** The village is dead and the bodies are gone, but they still need proof of where the threat moved next.
 
 ### Beat 5
-- They find a dehydrated girl hidden in a cellar, terrified and barely able to speak. She is the only living person left in Millhaven.
-- Neral is the one ranger the girl instinctively trusts. The child confirms people died here and something happened at night. The rescue gives them someone to protect, not just someone to question.
-- They have no idea if her broken memory is intact enough to guide them.
-- Ground the rescue: damp cellar air, a hoarse child's whisper in the dark, Jaina climbing down into the dirt while Sylvanas secures the space above them.
-- They shift from sweeping the village to pulling usable truth out of one frightened survivor.
+- They pull back a barred cellar hatch and find a dehydrated girl huddled behind empty cider casks—barely able to whisper, the only living soul left in Millhaven.
+- Neral is the ranger the child lets come close without flinching. As Jaina drops down the rotten ladder into the dark, Sylvanas catches her wrist to steady her on a broken rung—Jaina's fingers cold with spell-chill, gripping back hard for half a breath before she finds her footing.
+- They have no idea if the child's terrified memory can still point them straight.
+- Ground the rescue: damp cellar air, a hoarse whisper from behind the barrels, the sudden cold grip of Jaina's hand around Sylvanas's wrist at the hatch, Sylvanas guarding the open yard above.
+- They lift the child into the light and gently pull what happened out of her piece by piece.
 
 ### Beat 6
-- The girl remembers pieces, not a clean narrative: sweetness on people's breath, sick neighbors, bodies rising up, dead feet dragging on the north road, and talk about a newer grain seller.
-- The dead rose and marched at night, and the movement explicitly points north. The grain seller mention is just odd enough that they decide to mentally keep it.
-- They don't know if terror and broken memory are distorting her account of the route, or what the grain seller clue actually means.
-- Ground the interrogation: the girl's fist locked white around a blanket scrap, Neral asking the quiet, practical questions, and Jaina sorting the terror from the useful magical detail.
-- The testimony points straight north, but Sylvanas still demands the ground match it.
+- The girl remembers flashes, not a tidy story: a sick sweetness on her mother's breath, neighbors burning up with fever, bodies standing back up after dark, dead feet dragging out onto the north road, and grownups talking about a newer grain seller.
+- The dead rose at night and walked north. The newer grain seller is an odd scrap, thin enough that they pocket it without guessing what it means.
+- They don't know if fear scrambled her sense of direction, or whether the grain seller has anything to do with the sickness.
+- Ground the questioning: the girl's fist locked white around a wool scrap, Neral keeping her voice low and steady, Jaina sorting terror from what the sickness actually did before people died.
+- The child points straight north, and Sylvanas takes Jaina straight to the north road cut to make the mud confirm it.
 
 ### Beat 7
-- Sylvanas and Cyndia check the north road cut and finally get enough from the damaged tracks. Jaina strips away some of the magical noise, and the physical pieces finally line up.
-- At least sixty reanimated bodies moved north-northeast toward the Quel'Thalas border in rough formation. The threat is immediately upgraded to a direct border warning.
-- They do not know what raised the dead or who, exactly, is leading them.
-- Ground the confirmation: parallel dragging grooves in the road cut, Sylvanas reading the dirt with her bare fingertips, Cyndia's quiet count turning from skepticism to alarm.
-- The warning is now solid enough to send.
+- Sylvanas and Cyndia work the north road cut while Jaina kneels inches from Sylvanas's sleeve and strips back the distracting arcane hum so the physical tracks stand out clean.
+- At least sixty risen bodies marched north-northeast toward the Quel'Thalas border in rough column. Sixty dead headed for the Pass turns a scouting trip into a border warning.
+- They do not know what raised the dead or who is herding them.
+- Ground the confirmation: parallel dragging grooves cut into the ditch bank, Sylvanas's bare fingers in the cold dirt, the faint frost-chill radiating off Jaina's collar inches away, Cyndia's quiet count sharpening into alarm.
+- Sylvanas stands up with enough hard proof to send a courier north at a gallop.
 
 ---
 
@@ -142,35 +142,35 @@
 **Starting point:** The dead are confirmed moving north, and the survivor has to leave right away with the dispatch.
 
 ### Beat 8
-- Sylvanas chooses the border over her own safety and comfort. She sends Neral north with the survivor girl, the warning, and the extra escort, cutting her own strength for the ride south.
-- The dispatch goes out cleanly and immediately. Neral is the right rider for the child. The southbound group is now reduced to the four named leads.
-- They have no idea if the warning will make it in time.
-- Ground the split: a message sealed in frantic haste, the dispatch tube strapped hard to Neral's saddle, the girl eventually calming under Neral's voice.
-- Once Neral leaves, Sylvanas has to stop pretending this is just a short scouting sweep.
-- Inside: cutting her own strength for a human's warning, which stopped being a theory at the road cut; sending the child north or getting her off her hands; the Convocation will read the dispatch and argue the cost of the courier; four riders and a prisoner, and the prisoner is the one who knows where to go
+- Sylvanas puts the border ahead of her own numbers. She sends Neral north with the survivor girl, the sealed warning, and the unnamed escort ranger, cutting her own southbound force to four riders.
+- The dispatch leaves at speed. Neral is the right hand for the frightened child. Sylvanas, Jaina, Cyndia, and Lyriel are all that remains for the south road.
+- They have no idea if Neral will beat the sixty dead to the Pass.
+- Ground the split: wax pressed in haste onto the dispatch tube, leather straps cinched tight on Neral's saddle, the girl going quiet against Neral's ribs.
+- Watching two horses shrink up the northern road, Sylvanas stops pretending this is a quick border sweep.
+- Inside: cutting her own strength for a human's warning, which stopped being a theory at the road cut; sending the child north or getting her off her hands; the Convocation will read the dispatch and argue the cost of the courier; three elves and a prisoner, and the prisoner is the one who knows where to go
 
 ### Beat 9
-- An old carter comes up the road pulling an empty wagon. He reacts to the news of Millhaven like a shocked local and gives them a completely plain, useful read on the other settlements. While they talk, he keeps looking past them up the road toward Millhaven.
+- An old carter comes up the road pulling an empty wagon. He reacts to the news of Millhaven like a shocked local and gives them a plain, useful read on the settlements farther south. While they talk, his eyes keep drifting past them up the road toward Millhaven.
 - As road gossip, he asks whether they passed the young grain-man on the road. Lyriel answers him the way she answers anyone on a road, friendly and true: they passed no one, but the girl here spoke of a newer grain seller, and they'll watch for him on the way south. She tells him he'd get a better price going home with a full wagon. The carter shakes his head at the state of the roads and asks nothing more.
-- Millhaven is the first village on this road to fall, but places farther south are still visibly trading. The old carter reads as entirely ordinary and sincere, and his question sounds like any carter's gossip.
-- They don't know if any part of his story connects to what really caused the sickness.
-- Ground the encounter: old grain dust in the wagon slats, surprise breaking across a forgettable face, his eyes going once along the line of horses, the survivor girl leaning against Neral's saddle.
-- Second read (plant only; the prose must not explain it): he is checking his work at Millhaven and checking on his agent, the young grain-man. Lyriel's friendly answer tells him the party has a living witness and is following the grain-man south. That is why the Chapter 5 depot is cleaned ahead of them. He also looks over how the riders hold formation and space themselves on the road. The Chapter 9 ward is laid to that spacing, and Lyriel dies in it.
-- The road ahead looks alive enough to completely hide the real underlying pattern.
+- Millhaven is the first village on this road to fall, while places farther south are still openly trading. The old carter reads as ordinary and sincere, and his question sounds like harmless carter's gossip.
+- They don't know if any part of his story connects to what killed Millhaven.
+- Ground the encounter: old grain dust in the wagon slats, shock creasing a forgettable face, his eyes sliding once along the line of horses, the survivor girl leaning against Neral's saddle.
+- Second read (plant only; the prose must not explain it): he is checking his work at Millhaven and checking on his agent, the young grain-man. Lyriel's friendly answer tells him the party has a living witness and is following the grain-man south. That is why the Chapter 5 depot is cleaned and baited ahead of them. He also looks over how the riders hold formation and space themselves on the road. The Chapter 9 ward is laid to that spacing, and Lyriel dies in it.
+- With villages farther south still buying and hauling grain, Millhaven looks like a freak border hit instead of the first tile falling.
 
 ### Beat 10
-- The conversation ends fast. The man's farewell, May the stars keep your road, lands just strangely enough to stick for a second, then the road pulls them apart.
-- Neral and the girl leave the chapter here. Sylvanas marks the farewell as odd and builds no case around it. The party is now formally split.
-- They don't know why his words feel strange or whether they matter at all.
-- Ground the departure: a brief final glance back at the wagon wheels rolling north, the girl completely silent against Neral as the horse steps out.
-- Sylvanas turns away from the carter and faces the road south.
+- The talk ends fast. The man's farewell—"May the stars keep your road"—lands just strangely enough to snag for a breath, then the road pulls them apart.
+- Neral and the girl turn north here. Sylvanas clocks the farewell as odd and builds no case around it. The party splits cleanly at the bend.
+- They don't know why his words sit strangely or whether they matter at all.
+- Ground the departure: wagon wheels creaking north, a single glance back at the empty slats, the girl silent against Neral as the horses pick up a canter.
+- Sylvanas turns her back on the carter and faces the open road south.
 
 ### Beat 11
-- With the border warned, Sylvanas has one real choice left: fall back, or keep following the growing magic deeper into Lordaeron. She keeps riding south.
-- They still don't know grain is the specific carrier or who is organizing this whole plague. The next village they hit is alive enough to misunderstand what's happening to it.
-- They don't know how far the sickness has already spread or whose face is behind it.
-- Ground the ride: the landscape widening into human farmland, a thicker pressure from the front, the two empty places in the horse line after Neral's departure.
-- Chapter 4 opens after a long two-day ride with just the three remaining elves and Jaina.
+- With the Pass warned, Sylvanas has one real choice left: turn home, or follow the thickening magic deeper into Lordaeron. She rides south.
+- They still don't know grain is the carrier or who built the sickness. Ahead of them, Jaina sits straight in the saddle, blonde hair bright against the darkening human road, already leaning toward the next pull in the leylines.
+- They don't know how far the sickness has spread or whose face sits behind it.
+- Ground the ride: trees opening onto wide human farmland, heavier arcane pressure ahead, two empty places in the horse line after Neral leaves, Jaina's shoulders square against the wind.
+- Chapter 4 opens two days farther south with just the three elves and Jaina riding into a living village.
 - Inside: the border is warned, so her duty is done by any measure the Convocation would sign; deeper into human land on a human mage's read; the empty places in the line, and she put them there; tells herself it is the trail she is following and not the mage
 
 ---
@@ -184,15 +184,15 @@
 - Lyriel
 
 **What carries into Chapter 4:**
-- Millhaven is entirely dead, and physical tracks confirm its risen population marched right at Quel'Thalas.
-- Millhaven was the first village to fully collapse; the settlements ahead of them are still alive enough to hide whatever pattern is moving through them.
+- Millhaven is entirely dead, and physical tracks confirm its risen population marched toward Quel'Thalas.
+- Millhaven was the first village to fully collapse; the settlements ahead of them are still alive enough to hide whatever is moving through them.
 - A survivor girl from a cellar was sent north.
 - Neral carried the physical warning dispatch back to the border.
-- The southbound party is stripped down to exactly Sylvanas, Jaina, Cyndia, and Lyriel.
-- They've heard about a newer grain seller exactly once, but the connection hasn't been made yet.
+- The southbound party is stripped down to Sylvanas, Jaina, Cyndia, and Lyriel.
+- They've heard about a newer grain seller once, and haven't connected it to anything yet.
 - Lyriel answered the carter's question about the grain seller. On a first read it is nothing.
 
 **Do not add yet:**
 - Any confirmation that grain physically carries the sickness.
 - Any explicit proof of an organized cult stringing this together.
-- Any sudden recognition that the old carter was something much worse than a helpful local.
+- Any sudden recognition that the old carter was anything more than a helpful local.

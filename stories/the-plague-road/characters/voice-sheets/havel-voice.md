@@ -4,7 +4,7 @@
 
 ## Grounding
 
-- Sources: `supporting.md` (harried, honest, solving the wrong-sized problem). That entry describes his **cover**. The outline Ch 6–8 gives the truth: the tally-man sends the party to him; he gives them the street-level truth (names, shifts, the supplier change three months ago, workers who move like soldiers); he keeps redrawing the same safer lanes, pushing dawn timing and militia control so the arrest "looks proper"; he looks worse after the curse; and his debts vanished when the supplier routes changed.
+- Sources: `supporting.md` (cover vs. truth) and outline Ch 6–8: the tally-man sends the party to him; he gives them the street-level truth (names, shifts, the supplier change three months ago, workers who move like soldiers); he keeps redrawing the same safer lanes, pushing dawn timing and militia control so the arrest "looks proper"; he looks worse after the curse; and his debts vanished when the supplier routes changed.
 - **The rule for the writer:** his information is real, and his help is real until the moment it isn't. The tell is never in how he speaks. It is only in **where his advice always points**. Ch 6 says the prose must not explain the plant.
 
 ## Baseline register

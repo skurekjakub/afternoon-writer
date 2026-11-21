@@ -20,18 +20,18 @@
 
 ## Key ties
 - Antonidas: mentor, father figure, last line back to home.
-- Sylvanas: starts as custody and becomes the partner who turns her intelligence into action.
+- Sylvanas: starts as custody and becomes the partner who turns her intelligence into action — and the slow-burn pull and chosen devotion Jaina measures every risk and severance against, expressed in touch, proximity, and staying rather than speeches.
 - Arthas: old wound and old diagnosis. She saw the gap in him early and being right about it saves no one.
 - Kel'Thuzad: the method-mirror that shows her where her mind could go if nothing pushed back.
 
 ## Arc line
 - Ch 2: crosses the border alone because no one listened.
-- Ch 4-8: stops treating Sylvanas as a blunt instrument and starts waiting for her reading of the field.
-- Ch 9: her analysis-over-time mistake draws blood.
-- Ch 10-12: Scholomance and Kel'Thuzad force her to see how close brilliance can stand to monstrosity.
-- Ch 16-18: Stratholme proves being right means nothing if no one will move with you.
-- Ch 20-22: learns Frostmourne's rhythm, invents the answer in the throne room, and saves Sylvanas by being exactly as dangerous as Sylvanas first thought.
-- Ch 24: the institutions fail her. The partnership does not.
+- Ch 4-8: stops treating Sylvanas as a blunt instrument, feels the first unspoken shift over the Ch 5 midnight map, and starts waiting for her reading of the field.
+- Ch 9: Sylvanas calls the move before Jaina finishes the ward read; Lyriel dies and Sylvanas takes a serious wound that Jaina binds with Lyriel's one-handed knot.
+- Ch 10-14: Scholomance and Kel'Thuzad force her to see how close brilliance can stand to monstrosity; Sylvanas's Ch 13 misread stings deeply, and Jaina catches Sylvanas's fractional hesitation in the Ch 14 Eastweald ford clash before answering only part of her question at the stream.
+- Ch 16-18: Jaina's matching solo act comes at Stratholme (Ch 16), answering Arthas alone over Sylvanas (`"Not cleanly. Not now."`); the Culling proves being right means nothing if no one will move with you, and on the wall and at camp she severs Dalaran to go north beside Sylvanas.
+- Ch 19-22: confesses the Kel'Thuzad trades at the mast, pulls close in the cabin after wind-burn, learns Frostmourne's rhythm, burns her palm pouring the last fire into Sylvanas's arrowhead in the throne room, and saves Sylvanas by being exactly as dangerous as Sylvanas first thought.
+- Ch 23-24: the institutions fail her and her own words from Kel'Thuzad's journal turn the court; Sylvanas stays anyway, and through the dividing cell stone the partnership holds.
 
 ## Carry-forward
 - Her late-book power should feel expensive, not effortless.

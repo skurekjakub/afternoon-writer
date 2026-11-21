@@ -11,7 +11,7 @@
 - Arthas: tragic mirror of conviction without counterweight.
 
 ## Do not add
-- Separate romance subplot.
+- Detached or melodramatic romance subplot (the slow-burn romantic tension between Sylvanas and Jaina must travel inside the investigation and thriller pressure, never as separate soft detours).
 - Independent court-intrigue line.
 - Stand-alone Jaina backstory track.
 - Monster-of-the-week detours.

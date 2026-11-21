@@ -11,12 +11,12 @@
 ## Relevant capabilities
 - Perfect humanoid disguise.
 - Short-range telepathy good enough to read intent in conversation.
-- Ward-focus that flattens his demonic aura so Jaina reads him as nothing at all.
+- Demonic aura-masking that flattens his magical presence so Jaina reads him as nothing at all.
 - True-form power stays offstage until the reveal.
 
 ## The two tells
-- Physical: the dark-stone ward-focus that makes him magically boring.
-- Verbal: the repeated farewell, "May the stars keep your road," which turns out to be an ancient Kaldorei fossil he no longer notices he is using.
+- Physical: while talking, his eyes go past the listener toward his work (the road to Millhaven, Andorhal granary roofs, scorched ward ground, forming column, Stratholme wall, palace vault).
+- Verbal: the repeated farewell, `"May the stars keep your road,"` — a word-for-word Common rendering of an ancient Kaldorei fossil (*Anu kal dela ana'diel.*) he no longer notices he is using until Ch 24, when he speaks the original in the cells.
 
 ## Confirmed face trail
 - Ch 3: old carter with an empty wagon on the Millhaven road.

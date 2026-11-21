@@ -5,7 +5,7 @@
 **Where:** Darrowmere shoreline opposite Caer Darrow, then inside Scholomance.
 **Travel:** Mounted approach before open, rowboat across Darrowmere, on foot for the breach and descent, then back to horseback by close.
 **Characters:** Sylvanas, Cyndia, Jaina, Kel'Thuzad, Jandice, the lake watch.
-**Goal:** Get into Scholomance, kill Kel'Thuzad, get Jaina back out, and turn north toward Hearthglen before the next disaster outruns them.
+**Goal:** Breach Scholomance, kill Kel'Thuzad, pull Jaina out alive, and turn north toward Hearthglen before Arthas outruns them.
 
 ## References
 
@@ -13,23 +13,23 @@
 - **Character references:** [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Cyndia profile](stories/the-plague-road/characters/cyndia.md), [Kel'Thuzad profile](stories/the-plague-road/characters/kelthuzad.md), [Kel'Thuzad voice](stories/the-plague-road/characters/voice-sheets/kelthuzad-voice.md), [Jandice profile](stories/the-plague-road/characters/jandice.md)
 
 **Sylvanas's starting position:**
-- Jaina entered Caer Darrow alone and went silent inside Scholomance.
-- The southbound handoff to Arthas is already done, and Sylvanas rode back north because Jaina's trail disappeared.
+- Jaina crossed to Caer Darrow alone and never returned to the shore.
+- The southbound handoff to Arthas is done, and Sylvanas abandoned the campaign and rode hard north the moment the lake watch brought word.
 - Lyriel is dead, so every breach plan is thinner than it should be.
-- Caer Darrow is warded, occupied, and built to conceal work below its public rooms.
-- Sylvanas can feel deep arcane pressure through the stone even before she knows what kind of room is holding Jaina.
-- She is arriving late enough that whatever she finds has already had time to choose its shape.
+- Caer Darrow is warded, manned, and built to bury its real work beneath the noble shell.
+- Sylvanas can feel heavy dark magic pressing through the island stone before she even knows what kind of room holds Jaina.
+- She is arriving late enough that whatever waited underground has already had days to play out.
 
 **Still in the dark about:**
-- What Jaina found in Kel'Thuzad's sanctum.
-- Whether Jaina is captive, bargaining, injured, or still there by choice.
+- What Jaina learned inside Kel'Thuzad's sanctum.
+- Whether Jaina is captive, bargaining, hurt, or staying by choice.
 - The full resonance model, the waking trigger, the Lich King chain, and the Burning Legion above it.
-- Whether Kel'Thuzad will run, fight, or keep teaching until interrupted.
-- How much truth the room at the threshold will actually show.
+- Whether Kel'Thuzad will flee, fight, or keep talking when the door opens.
+- How much truth one glance from the doorway will actually show.
 
 **Hold back:**
 - No correct reading of what happened between Jaina and Kel'Thuzad in Chapter 12.
-- No open accusation or betrayal language from Sylvanas.
+- No open accusation or betrayal speech from Sylvanas.
 - No repair of the split partnership.
 - No tribunal, debrief, or institutional aftermath.
 - No explicit Mal'Ganis identification.
@@ -39,142 +39,142 @@
 - Kel'Thuzad is dead in his sanctum.
 - Jandice escaped the upper levels and remains a live loose end.
 - Jaina leaves with the full plague model, the waking trigger, the preserved-self distinction, and the Lich King / Burning Legion chain. She carries out the stolen grimoire and a bundle of Kel'Thuzad's journals, including the volume from his desk.
-- Sylvanas leaves with a hard wrong read of the sanctum, and Jaina keeps quiet about it.
+- Sylvanas leaves with a bitter, wrong read of the sanctum, and Jaina keeps silent under it.
 - Cyndia reforms the line at the shore.
-- Sylvanas turns the line north toward Hearthglen, where she sent Arthas, and the road starts at once.
+- Sylvanas turns them north toward Hearthglen, where she sent Arthas, and the road starts at once.
 
 ---
 
 ## Character Arcs
 
 ### Sylvanas
-- She enters with a simple job: find Jaina, kill the necromancer, get out.
-- She trusts posture, spacing, and what rooms reveal under pressure.
-- The sanctum gives her clear evidence and none of the context.
-- She acts correctly on the kill and incorrectly on the meaning.
-- By the end, she is still riding with Jaina, but trust has turned into watchfulness.
+- She climbs the wet fortress wall on a half-healed shoulder expecting chains, blood, or a fight to drag Jaina out alive.
+- She trusts what a room shows her—posture, open exits, trays of butchered peasants two floors up, tea and chalk dust below.
+- Seeing Jaina calm and unchained across from Kel'Thuzad cuts straight under her ribs like intimate betrayal, sharper than mere caution and far deeper than she will ever admit.
+- She acts cleanly on the kill and terribly wrong on the meaning.
+- By the end, she still rides with Jaina, yet the easy trust is replaced by a cold half-length gap and a watcher's eye.
 
 ### Jaina through Sylvanas's POV
-- From the doorway, Jaina looks calm in a room that should not allow calm.
-- Chalk, tea, notes, and no visible restraints all read the wrong way from sight alone.
-- She gets no clean chance to explain herself here.
-- Sylvanas judges the room she sees, not the argument she missed.
+- From the open doorway, Jaina looks unhurt, unchained, and settled in a room that should never allow calm.
+- Chalk dust on her fingers, cold tea beside her hand, shared notes on the slate, and sweeping Kel'Thuzad's desk journal into her bundle all read like complicity from sight alone.
+- Jaina gets no clean room to explain herself—and does not fight the look in Sylvanas's eyes.
+- Sylvanas judges the quiet room she walked into, never knowing the three prices paid before she arrived.
 
 ### Partnership
-- Cyndia stays outside while Sylvanas goes in alone.
-- The pair still works perfectly in the seconds that matter for the kill.
-- The damage begins after success, in spacing and silence instead of argument.
-- This chapter breaks ease without breaking the team.
+- Cyndia holds the exit while Sylvanas goes in alone.
+- For the five seconds it takes to kill Kel'Thuzad, Sylvanas and Jaina still move as one lethal body without a spoken word.
+- The real fracture opens the heartbeat after he falls—in silence, spacing, and hurt neither woman will name.
+- This chapter breaks closeness without breaking the hunt.
 
 ---
 
 ## Cast and handoff rules
 
 - **Cyndia:** Rows the crossing, holds the east-face exit, and rejoins at close with the horses.
-- **Jandice:** Met in the upper levels and left alive. Her jealousy poisons Sylvanas's first read, and she escapes before Kel'Thuzad dies.
-- **Jaina:** Seen through Sylvanas's reading until the road. She does not get a clean explanatory scene here.
-- **Kel'Thuzad:** Calm, seated, scholarly. He dies in the sanctum with no broad final speech.
+- **Jandice:** Caught in the upper levels and left alive. Her jealous framing poisons Sylvanas's read before she even reaches the stairs, and she slips away before Kel'Thuzad dies.
+- **Jaina:** Seen strictly through Sylvanas's eyes until the road. No explanatory scene here.
+- **Kel'Thuzad:** Calm, seated, scholarly. He dies in seconds with no grand final speech.
 - **The old carter and the repeated-farewell clue:** Absent. Keep them out of this chapter.
 
-**Next chapter starts:** Chapter 14 opens on the Hearthglen road with Jaina forced to brief what she learned while leaving the room itself unspoken.
+**Next chapter starts:** Chapter 14 opens on the Hearthglen road with Jaina forced to brief what she learned while leaving the sanctum room itself unspoken.
 
 ---
 
 ## Scene 1: The Shore
 
-**The action:** Sylvanas and Cyndia reach Caer Darrow, confirm Jaina crossed, and set the quietest breach they can manage.
-**Cast:** Sylvanas, Cyndia.
-**Starting point:** Jaina went in and did not come back out. The Barov estate was only the front.
+**The action:** Sylvanas and Cyndia reach Darrowmere, confirm Jaina crossed, and set the leanest covert breach they can run with two elves.
+**Cast:** Sylvanas, Cyndia, the lake watch.
+**Starting point:** Jaina crossed to Caer Darrow and never came back. The Barov manor was only the front wall.
 
 ### Beat 1
-- The shoreline makes the structure plain at once. Jaina's trail runs through the house, across Darrowmere, and onto Caer Darrow itself.
-- The real source is on the island, Jaina reached the landing and took a boat, and the lake crossing is part of the defense rather than scenery around it.
-- They do not know what is holding the island together below or whether Jaina is trapped, bargaining, or already dead.
-- Ground the shore: mist flattened over green-black water, ward shimmer across the lake, rowboats dragged half into black mud.
-- Sylvanas knows where to go and how little noise she can afford.
+- The shoreline lays the trap bare at a glance: Jaina's horse waits with the lake watch in the trees, and her boot prints run down to the Barov landing and vanish into black water toward Caer Darrow.
+- The manor is a decoy, the island holds the real magic, and the wide stretch of warded lake is built to drown an open assault.
+- They do not know what waits beneath the fortress stones or whether Jaina is still breathing, captive, or already dead.
+- Ground the shore: fog pressing flat over green-black water, faint ward shimmer skimming the lake surface, heavy rowboats dragged halfway up black mud.
+- Sylvanas reads the east cliff wall and sees the only quiet way in.
 
 ### Beat 2
-- Sylvanas and Cyndia make the leanest plan they can. Cyndia keeps the boat and the east-face exit. Sylvanas takes the window climb alone.
-- They preserve one clean way out, the east wall gives Sylvanas a covert breach, and Lyriel's absence is now part of the plan rather than grief kept separate from it.
-- They do not know what waits on the upper levels or whether Sylvanas will reach Jaina before the room below changes again.
-- Ground the crossing: cloth-wrapped oarlocks, mist closing behind the boat, wet stone under Sylvanas's hands, the half-healed Chapter 9 wound pulling as she climbs.
-- Sylvanas gets onto the island without announcing herself.
+- Sylvanas and Cyndia set a razor-thin breach: Cyndia stays with the muffled boat beneath the east-face drop to keep one live exit open, while Sylvanas climbs the wet wall alone.
+- Lyriel's absence now lives inside the math of the plan—there is no third bow to watch Sylvanas's back on the climb. Sylvanas's Chapter 9 shoulder wound pulls hot beneath Lyriel's knot as her gloved fingers find slick mortar.
+- They do not know what patrols the upper halls or whether Sylvanas is already too late for whatever waits below.
+- Ground the crossing: wool-wrapped oarlocks biting silently into dark water, fog swallowing the shore behind them, cold slime on the lower stones, Sylvanas's stitches pulling hard as she hauls herself over a high window sill.
+- Sylvanas drops inside the fortress without tripping the front gates.
 
 ---
 
 ## Scene 2: The Descent
 
-**The action:** Sylvanas breaches Scholomance, finds the fast route down, and carries the wrong frame to the door.
+**The action:** Sylvanas cuts down through Scholomance's butcher-shop back halls, forces the fast stair out of Jandice, and walks toward the sanctum carrying a poisoned frame.
 **Cast:** Sylvanas, Jandice.
-**Starting point:** Sylvanas is on the island alone.
+**Starting point:** Sylvanas is inside Caer Darrow alone, hunting downward toward Jaina.
 
 ### Beat 3
-- The east-face breach drops Sylvanas into service rooms and archive space, not the path meant for invited scholars. The deeper she goes, the more obvious it becomes that the real work is below.
-- Scholomance's upper levels still sit inside the Barov shell, side rooms hold peasants and stripped parts in different stages of use, and Jaina's trail keeps going down.
-- They do not know who designed the deeper defenses or what condition Jaina is in.
-- Ground the descent: lake water dripping from the sill, blue-white fungi light, preservative cold taking over the old archive dust.
-- Sylvanas stops treating this as a rescue from a school and starts treating it like a workshop built under a noble house.
+- The east-face window drops Sylvanas into back service passages and wet work rooms far from the clean lecture halls shown to guests. What she finds turns her stomach cold: living peasants penned behind iron grates, failed bodies stacked on draining boards, and severed hands and jaws still twitching in metal trays under preservative light.
+- Scholomance is no mere dark school—it is a slaughterhouse bolted beneath a noble manor—and Jaina's faint trail leads straight downward beneath these rooms.
+- She does not know what horrors sit even deeper below or what condition she will find Jaina in.
+- Ground the descent: black lake water dripping off Sylvanas's boots onto scrubbed stone, cold blue-white fungi light, metal trays rattling softly against bone as something severed twitches inside them, dry preservative chill burning her nose.
+- Sylvanas stops thinking of this as a rescue from a school and tightens her grip on the bow for a kill.
 
 ### Beat 4
-- Jandice is angry enough to talk. Sylvanas gets the quick route down, but she also gets Jandice's poisoned version of the room: Jaina was admitted, valued, and worth speaking to alone.
-- Jandice was dismissed so Kel'Thuzad could keep talking to Jaina, the old crypt stair is the fastest path to the sanctum, and jealousy sounds enough like proof to matter in a hurry.
-- They do not know how much of Jandice's story is bitterness and how much is true.
-- Ground the encounter: reagent-burned hands under Sylvanas's grip, chalk dust on Jandice's sleeve, insult in her voice before fear takes over.
-- Sylvanas heads down carrying a first read that is already bent.
-- Inside: a jealous woman's word, and she knows exactly what that is worth; then why is she hurrying; admitted, valued, alone with him, and Jaina would go, wouldn't she, for a book; unfair, and she keeps it anyway
+- Sylvanas catches Jandice alone on an upper landing and pins her hard to the wall. Fury overrides Jandice's fear long enough to spill both the fast crypt stair and her venomous version of what waits below: Kel'Thuzad dismissed her so he could keep Jaina all to himself—admitted, valued, seated at his table like a chosen peer.
+- Sylvanas gets the quickest route straight to the sanctum, and Jandice's wounded vanity sounds just sharp enough to lodge like a splinter under Sylvanas's skin. Sylvanas drops her and runs the stairs; Jandice slips away into the upper dark before the fight below starts.
+- She does not know how much of Jandice's venom is jealousy and how much is truth.
+- Ground the encounter: reagent-burned fingers clawing at Sylvanas's gauntlet, pale chalk dust smudged down Jandice's sleeve, bitter spite flashing in her eyes a heartbeat before terror catches up.
+- Sylvanas takes the crypt stair already braced for the wrong truth.
+- Inside: a jealous mage's spite, and she knows what that is worth; then why is her chest tight; admitted, valued, alone across from him, and Jaina would sit down, wouldn't she, if the book was good enough; dropped an army and climbed a wet cliff on a torn shoulder for this; unfair, and the anger stays anyway
 
 ### Beat 5
-- The covert route keeps Sylvanas off the public corridor. By the final approach, the voices inside do the rest of Jandice's work for her.
-- The lower passage runs through older crypt architecture and discard rooms, Jaina and Kel'Thuzad are speaking in an academic cadence, and the sanctum door is open before Sylvanas reaches it.
-- They do not know what the tableau will look like from the threshold or whether Jaina's face will match the voice.
-- Ground the approach: bone-dry dust under ward light, something still moving in preservative behind glass, Kel'Thuzad's lecture cadence carrying through stone.
-- Sylvanas reaches the door with just enough evidence to misread everything that matters.
+- The back crypt stair bypasses the public halls and runs straight past older stone cells and glass discard jars. Before Sylvanas even rounds the last corner, voices carry clearly down the corridor—not shouting, not chains, not begging, but the quiet back-and-forth cadence of a Dalaran seminar.
+- The heavy sanctum door stands unbolted ahead, and the voices inside do the rest of Jandice's work.
+- She does not know what Jaina's face will look like when she clears the corner, or whether the calm voices hide a blade at Jaina's throat.
+- Ground the approach: bone-dry dust puffing under soft boots, something pale turning slowly in cloudy glass behind an iron grille, Kel'Thuzad's calm lecturer's cadence drifting out into the stone hall.
+- Sylvanas reaches the open doorway carrying every wrong clue she needs to misread the room.
 
 ---
 
 ## Scene 3: The Sanctum
 
-**The action:** Sylvanas sees a damning tableau, kills Kel'Thuzad, and realizes the fight is easier than the silence after it.
+**The action:** Sylvanas sees a tableau that cuts straight to the bone, kills Kel'Thuzad in five seconds of lethal partnership, and watches silence freeze over the aftermath.
 **Cast:** Sylvanas, Jaina, Kel'Thuzad.
-**Starting point:** Jandice's complaint and the voices below both say the exchange was real.
+**Starting point:** Butchered trays two floors above, Jandice's spite in her ears, and quiet academic voices right inside the door.
 
 ### Beat 6
-- One glance gives Sylvanas a room that looks already answered. Kel'Thuzad is seated and unhurried. Jaina has chalk on her hand, tea at her elbow, notes on the boards, and no visible restraints.
-- Jandice's framing matches the doorway tableau, Jaina looks engaged rather than captive, and nothing visible tells Sylvanas what happened before she arrived.
-- They do not know whether one question would clarify anything before the room shaped the answer.
-- Ground the threshold: chalk dust on Jaina's left hand, cold tea beside the table, fungi light making the office look calm enough to be obscene.
-- Sylvanas refuses to give the room another second to keep talking.
+- One glance through the open door burns into Sylvanas and will not come out: Kel'Thuzad sits unhurried behind his desk, and Jaina sits across from him unchained, chalk dust pale on her left hand, a cup of steeped tea at her elbow, shared equations lining the slate between them.
+- Everything Jandice spat matches the room to the inch. After the bleeding climb, the dead scout back in the Eastweald, and the trays of twitching human hands two floors up, seeing Jaina look calm and settled across from the architect of the plague stings Sylvanas like an intimate betrayal she cannot name. Nothing in the room shows the three days or the three prices paid before the door opened.
+- She does not know whether asking one question would change anything—and her jaw locks too hard to ask it.
+- Ground the threshold: white chalk dust across Jaina's knuckles, cold tea gleaming beside open folios, green fungi light turning a necromancer's office into something calm enough to turn Sylvanas's stomach.
+- Sylvanas draws and refuses to let the room speak another word.
 
 ### Beat 7
-- Sylvanas kills Kel'Thuzad before the sanctum can turn back into a lecture. Jaina reacts on reflex, turning the ward geometry into containment instead of obstruction, and the partnership works perfectly for the length of the kill.
-- Kel'Thuzad dies in seconds without a grand speech, Jaina and Sylvanas still move together without hesitation in a fight, and Jaina sees the misread land and keeps quiet.
-- They do not know whether the silence after the kill can ever be explained cleanly or what Kel'Thuzad's death actually changes.
-- Ground the kill: ice-lattice barriers snapping across exits, a bowstring note cut short by cold, silence hitting the room hard after the arrow lands.
-- The target is down, and the real damage begins after success.
+- Sylvanas looses before Kel'Thuzad can turn the doorway back into a lecture. On pure instinct, Jaina snaps the sanctum's ward lines inward into a freezing cage instead of blocking Sylvanas's shot—for five brutal seconds, the two women move like one mind, sealing every escape before Sylvanas's arrows punch straight through Kel'Thuzad's chest.
+- Kel'Thuzad dies fast with no grand speech, only a faintly amused stillness as he drops. The instant his body hits the stone, Jaina catches the look in Sylvanas's eyes, sees the misread land whole, and goes completely silent.
+- They do not know whether the gulf opening across the dead man's floor can ever be talked down, or what killing his body truly stopped.
+- Ground the kill: jagged ice-lattice snapping shut across the side archways, bowstring thrum biting cleanly through cold air, sudden dead silence hitting the stone room as Kel'Thuzad slumps beside his desk.
+- The necromancer is dead, and the worse wound opens in the quiet afterward.
 
 ---
 
 ## Scene 4: The Exit
 
-**The action:** They climb out, reform the line, and carry the sanctum with them onto the Hearthglen road.
+**The action:** They break out of Scholomance before the upper halls rally, reform the line at the shore, and carry the unspoken freeze north toward Hearthglen.
 **Cast:** Sylvanas, Jaina, Cyndia.
-**Starting point:** Kel'Thuzad is dead, Jaina is out, and nobody is going to say the thing that matters before daylight.
+**Starting point:** Kel'Thuzad is dead on the floor, Jaina is free, and neither woman will say the one thing burning between them.
 
 ### Beat 8
-- Jaina burns Jandice's guest ward off her skin before they move. They leave fast and clean, but the climb out is not the same as the descent. Sylvanas stays close enough to guard Jaina and far enough to watch her. Jaina notices and says nothing.
-- The tactical exit works, Jandice is already gone from the upper levels, and the new distance between the women shows up first in movement rather than speech. Jaina carries out the stolen grimoire and a bundle of Kel'Thuzad's journals. She sweeps the closed volume from his desk into the bundle with the rest, and Sylvanas sees her take it.
-- They do not know whether the changed spacing is temporary or whether the road north will let either of them address it.
-- Ground the climb: fungi light thinning toward the upper halls, pressure shifting through the building after Kel'Thuzad's death, Jaina's silence heavier than her footsteps.
-- Daylight and Cyndia are waiting, but the room comes with them.
-- Inside: tea, chalk, no chains; knows what she saw, and saw nothing before it; one question at the door, not asked, and not asking now; at Jaina's shoulder to guard her, or to watch her, and won't choose; the book off his desk, swept up as if it were hers
+- Before they cross the threshold, Jaina sears Jandice's guest ward off her wrist in a sharp flash of pale fire, then sweeps up the stolen grimoire and a tight bundle of Kel'Thuzad's journals—catching the closed volume straight off his desk into her arm while Sylvanas watches. They climb out fast through the back stair; Sylvanas stays close enough to shield Jaina's back and half a stride off enough to watch her hands. Jaina feels the shift and says nothing.
+- The breach exit holds, Jandice is already gone from the upper halls, and the new distance shows first in shoulders and footsteps rather than shouted words.
+- They do not know whether this frost will thaw once daylight hits them or harden all the way to Hearthglen.
+- Ground the climb: bright sear-scent of the burned ward clinging to Jaina's cuff, the building's wards sagging unevenly after Kel'Thuzad's death, Jaina clutching the dead man's bound desk journal tight against her ribs, silence heavier than running boots on the stair.
+- Daylight and Cyndia's boat wait below, yet the sanctum climbs right out with them.
+- Inside: tea, chalk, no chains; knows what she saw, and knows she climbed through peasant trays to reach it; one question at the door, swallowed whole, and not asking now; at Jaina's shoulder to shield her, or to watch her, and hates that it hurts this much; the book off his desk, swept up as if it belonged in her arms
 
 ### Beat 9
-- Cyndia meets them at the shore with the horses. Jaina's was held by the lake watch. No one stops for the conversation that matters. Sylvanas turns them north toward Hearthglen, where she sent Arthas.
-- The line reforms as Cyndia left, Jaina center, Sylvanas half a step forward-right, Lyriel's absence still visible on the empty flank, and Chapter 14 begins before the sanctum can be unpacked.
-- They do not know whether Arthas has reached Hearthglen or how long the silence from Scholomance will hold.
-- Ground the road: late light on contaminated soil, Cyndia's automatic glance toward the missing flank, the changed feel of the line once Sylvanas takes that half-step.
-- Chapter 14 opens on the same road, with the knowledge shared and the room left buried.
-- Inside: half a step forward, and Cyndia saw it, and said nothing, which is worse; sent the prince north and now follows him; Jaina has not said a word, and she will not be the one to ask; would take the fight back over this, the fight was simple
+- Cyndia meets them at the misted landing with the horses—Jaina's brought up from the lake watch. No one stops on the mud bank to speak about the room below. Sylvanas swings into the saddle and points them north toward Hearthglen, where she sent Arthas.
+- The riding line reforms with one brutal change: Cyndia left, Jaina center, Sylvanas half a horse length forward-right—just far enough to keep Jaina in the corner of her eye instead of knee-to-knee beside her—while Lyriel's empty flank still yawns wide.
+- They do not know whether Arthas has already hit Hearthglen or how long this frozen silence can hold before it breaks in a fight.
+- Ground the road: pale afternoon sun over soured Eastweald earth, Cyndia's quick look at the empty flank and then at the new half-length gap between Sylvanas and Jaina, hooves pounding north while neither woman turns her head.
+- Chapter 14 opens on this exact stretch of road, with the truth half-told and the room still buried between them.
+- Inside: half a horse length ahead, and Cyndia noticed at once and said nothing, which is worse; dropped a prince to pull her out, and now rides back after the prince she armed; Jaina hasn't spoken a word, and she won't be the first to break; would take a room full of cultists over this quiet, a fight at least tells you where the knife is
 
 ---
 
@@ -190,8 +190,8 @@
 - Jandice escaped the upper levels and remains a live loose end.
 - Jaina is carrying the full resonance model, the waking trigger, the distinction between crude dead and preserved selfhood, and the Lich King / Burning Legion chain out of Scholomance.
 - Jaina carries the stolen grimoire and a bundle of Kel'Thuzad's journals, including the volume from his desk. She has not opened it. Jandice's guest ward is burned off.
-- Sylvanas reads the sanctum as a real vulnerability in Jaina and now checks where she used to trust.
-- The road line reforms as Cyndia left, Jaina center, Sylvanas forward-right by half a step.
+- Sylvanas reads the sanctum as a personal and dangerous crack in Jaina and now watches where she used to trust.
+- The road line reforms as Cyndia left, Jaina center, Sylvanas forward-right by half a length.
 - The party is heading north toward Hearthglen and Arthas when Chapter 14 opens. They have no fresh news of Hearthglen yet.
 - The old carter and the repeated-farewell clue remain unresolved.
 

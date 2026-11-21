@@ -14,7 +14,7 @@
 - Arthas is destroyed by true facts with missing meanings, not by fake facts.
 - S&J do not know about Frostmourne until Muradin names it in Ch 20, too late to beat Arthas to the cave.
 - Mal'Ganis makes sure Arthas gets the trail before they do.
-- Ship-burning is the final expression of a pattern already visible at Stratholme.
+- Ship-burning destroys **all** of his ships at Daggercap Bay — the final expression of a pattern already visible at Stratholme. After the Ch 20 cavern ice-collapse, he pushes deeper through the northern glacier pass to a hidden dead-crewed vessel at a northern ice-fjord and sails straight home four days ahead of S&J.
 
 ## Sea note
 - The Lich King pushes sustained headwinds at Jaina's ship because she is the threat.

@@ -1,198 +1,197 @@
 # Chapter 24: The Stinger
 
 **POV:** Jaina Proudmoore in Scenes 1 and 3, Sylvanas Windrunner in Scene 2 (all limited third, absolute)
-**When:** Opens the night after Chapter 23's verdict, with Sylvanas's refusal of Lor'themar's door standing and the pair still in adjacent dungeon cells beneath a palace holding an unheld Frostmourne still tethered north. Closes before dawn, as the blade leaves the vault.
+**When:** Opens the night after Chapter 23's verdict, with Sylvanas's refusal of Lor'themar's solo door standing and both women still in adjacent dungeon cells beneath an unheld Frostmourne tethered north. Closes before dawn, as the blade leaves the vault.
 **Where:** Capital City palace dungeons, two adjacent cells divided by two feet of stone.
-**Travel:** Static imprisonment only. Motion belongs to the blade's pulse, the voices through the wall, and the visitor who passes through the cells on his way to the vault.
-**Characters:** Jaina, Sylvanas, the visitor, Lor'themar and Vereesa off-page pressure only.
-**Goal:** Survive the cell-night, move the blade intelligence through stone into the hands that will carry it, and keep the partnership working through the wall.
+**Travel:** Static imprisonment only. Motion belongs to the blade's pulse, the voices pressed against cold stone, and the visitor who walks straight through the cells on his way to the vault.
+**Characters:** Jaina, Sylvanas, the visitor (Mal'Ganis), Lor'themar and Vereesa off-page pressure only.
+**Goal:** Survive verdict night, pass the anti-blade counter through stone into Sylvanas's keeping, recognize the five-face enemy behind the plague, and feel Frostmourne slip loose into the dark.
 
 ## References
 
-- **Worldbuilding references:** [Lordaeron and Northrend](stories/the-plague-road/locations/lordaeron-and-northrend.md)
-- **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Mal'Ganis profile](stories/the-plague-road/characters/malganis.md), [Lor'themar profile](stories/the-plague-road/characters/lorthemar.md), [Vereesa profile](stories/the-plague-road/characters/vereesa.md)
+- **Worldbuilding references:** [Lordaeron and Northrend](stories/the-plague-road/locations/lordaeron-and-northrend.md), [Frostmourne — The Seeking](stories/the-plague-road/plans/frostmourne-seeking.md)
+- **Character references:** [Jaina profile](stories/the-plague-road/characters/jaina.md), [Jaina voice](stories/the-plague-road/characters/voice-sheets/jaina-voice.md), [Sylvanas profile](stories/the-plague-road/characters/sylvanas.md), [Sylvanas voice](stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md), [Mal'Ganis profile](stories/the-plague-road/characters/malganis.md), [Lor'themar profile](stories/the-plague-road/characters/lorthemar.md), [Vereesa profile](stories/the-plague-road/characters/vereesa.md), [Supporting cast](stories/the-plague-road/characters/supporting.md)
 
 **The pair's starting position:**
-- Frostmourne is in the evidence vault above them and its cycle is accelerating.
-- The verdict changed nothing about the blade's appetite.
-- Sylvanas refused Lor'themar's door because Jaina was not covered by it. Both women are in their cells, and one of them chose to stay.
-- Lor'themar and his three hundred are in the city. The door between knowledge and action is still shut.
-- Jaina already knows the anti-blade counter, including what the throne room taught: the fire went through on an arrow. The problem is delivery, not theory.
-- Kel'Thuzad's journal passages are in the public record. Jaina told Sylvanas the same words at sea, and neither woman has spoken of the reading since.
+- Frostmourne sits in the evidence vault above them, accelerating from days toward hours.
+- The verdict changed nothing about the blade's hunger.
+- Sylvanas refused Lor'themar's solo transfer order because Jaina was excluded. Both women sit behind bars, and one of them chose to stay—neither woman says "I stayed for you" because staying already said it.
+- Lor'themar and his three hundred Farstriders and mages remain in Capital City, separated from the cells by locked iron.
+- Jaina knows the live anti-blade counter—including what the throne room proved, that fire rides in on Sylvanas's arrow.
+- Kel'Thuzad's journal passages are now public record. Jaina gave Sylvanas those words at sea, Sylvanas held her steady through the reading, and neither has spoken of it since.
 
 **Still in the dark about:**
-- How fast the blade will actually choose a next mind if nothing interrupts it.
-- Whether any ally outside the cells can move fast enough to matter.
-- What exactly comes through the dark in Scene 2.
-- How many earlier faces the visitor has worn before Sylvanas lays them side by side.
-- What moves the blade, if it moves.
+- How quickly the blade lands on a single mind if nothing interrupts it.
+- Whether Lor'themar or any outside ally can reach the vault in time.
+- What walks into the dark corridor in Scene 2.
+- How many earlier faces the visitor wore before Sylvanas lays them side by side.
+- Who or what carries the blade away before dawn.
 
 **Hold back:**
-- No clean taxonomy for the visitor inside immediate POV. The women register scale before labels.
-- No prison break or release route. The one door was offered and refused in Ch23.
-- No spoken thesis. Jaina's packaging of the counter is practical, and addressing it to Sylvanas is the whole statement.
-- No visitor monologue. He speaks at most two lines plus the Kaldorei farewell.
-- No claim that Jaina sees the full five-face pattern before Sylvanas's memory cascade lands.
-- No wielder shown when the blade leaves the vault.
-- The second-read causes (the answer Lyriel gave the carter, the riders' spacing, the cleaned depot) stay out of the recognition.
+- No clean demon-taxonomy or name inside immediate POV. Both women register age and ease before labels.
+- No prison break or hidden escape route. The one legal door was offered and refused in Chapter 23.
+- No spoken romantic thesis. Foreheads pressed to cold stone, lowered voices sharing breath and the counter, and Jaina addressing the counter to Sylvanas by name carry everything.
+- No visitor monologue. He speaks strictly two lines (`"You did well with the prince."` and `"It will want another hand."`) plus the ancient Kaldorei farewell (`Anu kal dela ana'diel.`).
+- No claim that Jaina grasps the five-face cascade before Sylvanas puts the memories side by side.
+- No wielder shown when Frostmourne leaves the vault—Valecrest's catching mind is lightly echoed in Beat 1, NEVER shown taking the sword.
+- The second-read causes (Lyriel's answer to the carter, the riders' spacing, the cleaned depot) stay out of Sylvanas's recognition.
 
 **End of chapter state:**
-- Jaina has packaged the anti-blade counter and addressed it to Sylvanas by name as the one who will deliver it. Sylvanas has it by heart.
-- The visitor passed through the cells on his way to the blade, said two lines and the farewell in Kaldorei, and looked past the women toward the vault.
-- Sylvanas recognises him by the look and the words together. The being visiting the cells wore five earlier faces across the investigation.
-- Sylvanas now has two tells tied to his disguises: the farewell, and the gaze past the people toward his work.
-- Before dawn Frostmourne leaves the vault. Jaina feels its pulse move away, farther and then fainter. No wielder is seen.
-- Book 2 opens with the pair still imprisoned, the blade gone from the palace, and the new enemy still in the city.
+- Pressed forehead-to-stone across two feet of wall, Jaina packages the full anti-blade counter addressed to Sylvanas by name—frost and arcane from whatever mage she gets, fire carried in on her arrow—while the blister on Jaina's burned palm splits as she taps the cycle; Sylvanas repeats it back by heart and Jaina corrects her timing by one beat.
+- The visitor glides through the dungeon corridor on his way up to the vault, speaks two calm lines (`"You did well with the prince."` / `"It will want another hand."`), looks past both cells toward the ceiling vault, and passes straight into solid stone leaving the ancient Kaldorei farewell (`Anu kal dela ana'diel.`).
+- With nothing left outranking the phrase, Sylvanas collapses five earlier faces into one being—old carter, Andorhal tally-man, Eastweald robed figure, Hearthglen/Stratholme quartermaster's aide, and Stratholme service-lane carter—locking down both tells (the farewell and his gaze past people toward his work) plus all five covert contacts.
+- Before dawn, the ceiling chill eases as Frostmourne's pulse moves off the vault—farther, then fainter—with no hand shown, leaving Jaina's fingertips resting against the cold stone wall toward Sylvanas's cell.
+- Book 2 opens with both women still imprisoned, Frostmourne gone from the palace into unknown hands, and the five-face enemy loose in the city.
 
 ---
 
 ## Character Arcs
 
 ### Jaina
-- She opens with the answer to Frostmourne and nowhere to put it but through a wall.
-- The throne room put her fire on someone else's arrow. She acts on that here and says nothing about it.
-- She packages the counter for Sylvanas to carry, by name, though Sylvanas is behind a door she refused to have opened.
-- By the end, Jaina is still imprisoned, has handed the work on, and is the one who feels the blade go.
+- She opens holding the real answer to Frostmourne with nowhere to put it except through two feet of stone.
+- The throne room put her last fire onto Sylvanas's iron arrowhead; here she hands the whole method straight to Sylvanas by name, saying nothing about the door Sylvanas turned down.
+- Pressed forehead against cold stone sharing breath and timing in the dark, she finishes her share of the work—and is left listening alone as the blade slips away before dawn, keeping her fingertips on Sylvanas's wall after the pulse fades.
 
 ### Sylvanas
-- She enters Scene 2 having refused her own door, with nothing left to do but listen and remember.
-- The visitor widens the board without giving her any new freedom, which is exactly the kind of pressure she hates.
-- For once nothing outranks the farewell: no city burning, no clock she can act on. She finally has the time to look at it.
-- By the end, five faces are one being, and she has the tells to hunt it.
+- She enters Scene 2 behind iron she chose to keep shut, stripped down to ears, memory, and cold stone.
+- The visitor widens the entire war without handing her a single inch of freedom—exactly the trap she hates most.
+- For the first time since the Millhaven road, no burning city or marching column outranks the farewell; she finally has the quiet to lay five faces side by side and forge two hunting tells out of them.
 
 ### Partnership
-- The pair opens reduced to voices, breath, and taps through masonry.
-- The counter crossing the wall with Sylvanas's name on it carries the book's answer. Do not state it.
-- Let the wall-talk, the counter, and the recognition carry the change.
-- Do not overwrite the stone and silence with explanatory speeches.
+- Foreheads resting against opposite sides of two feet of cold stone, voices lowered in the dark, sharing breath and the exact timing of the counter—neither woman ever says "I stayed for you," because staying already said it.
+- Jaina addressing the counter to Sylvanas by name—with her blistered palm splitting on the stone as she taps—carries the quiet, unbreakable devotion of the whole book.
+- Let stone, lowered voices, and fingertips left resting on the shared wall close Book 1 without a single explanatory speech.
 
 ### The visitor's pressure
-- The blade is already the active danger at open, but the chapter has to prove there is something older standing behind even that danger.
-- The visitor should feel easy where everyone else has been strained: easy through stone, easy through fear, easy through scale.
-- He is passing through. The women are not what he came for. He looks past them toward the vault, as he looked past them toward his work at every sighting.
-- By the end, the new enemy is not solved, only recognised.
+- Frostmourne is the live predator at open, yet the visitor proves something far older moves easily behind even the runeblade.
+- Where everyone else in the book bled, froze, and strained, he moves without effort—through bars, through fear, through stone.
+- He does not come for the prisoners; he passes through on his way up to his work, glancing past them toward the vault just as he glanced past them five times on the road.
 
 ---
 
 ## Cast and handoff rules
 
-- **The blade:** Present through pulse, cold, and predation. Never reduce it to background scenery.
-- **Lor'themar and outside allies:** Off-page pressure only. The door is shut because Sylvanas refused it.
-- **The visitor:** At most two lines plus the Kaldorei farewell. No board-widening speech. Immediate POV does not need the name first. The horror is ease and age.
-- **Ancient language beat:** The phrase has to land as impossible before it lands as pattern key.
+- **Frostmourne:** Present solely through ceiling chill, shortening pulse, and targeted predation. Never let it fade into background atmosphere.
+- **Lor'themar and outside allies:** Off-page pressure only. The cell door stays locked because Sylvanas refused it.
+- **The visitor:** Strictly two lines plus `Anu kal dela ana'diel.` No speechifying, no demon name inside immediate POV. The terror is casual ease and impossible age.
+- **Ancient Kaldorei beat:** `Anu kal dela ana'diel.` lands first as impossibly old speech, then clicks as the root of five Common translations.
 
-**Next chapter starts:** Book 2 opens from this prison state, with Frostmourne gone from the vault and its new hand unknown, the Nathrezim thread active, and the pair still in their cells.
+**Next chapter starts:** Book 2 opens directly from this cell state—Frostmourne gone from the vault in an unseen hand, the five-face enemy active in Capital City, and Jaina and Sylvanas still imprisoned side by side.
 
 ---
 
-## Scene 1: Through the Wall
+## Scene 1: Through the Wall (Jaina)
 
-**The action:** Jaina tracks the blade and packages the counter through the wall for Sylvanas to carry.
+**The action:** Jaina hears Frostmourne narrow onto a single catching guard-mind, then presses against the stone wall in the dark to give Sylvanas the full anti-blade counter by heart.
 **Cast:** Jaina, Sylvanas through the wall.
-**Starting point:** The verdict is delivered, Sylvanas has refused her door, and Frostmourne is still active above them.
+**Starting point:** Verdict night settles quiet after Lor'themar's boots vanish up the stair, Sylvanas's refusal stands unspoken between them, and Frostmourne is pulsing faster overhead.
 
 ### Beat 1
-- Jaina keeps counting because the blade's pulse is the only thing in the night she can still measure.
-- The cycle is shortening from pulse to pulse, the blade is not broadcasting blindly anymore but narrowing toward individual minds, and Jaina can now distinguish the difference between ambient hunger and targeted interest.
-- They do not know which mind the blade lands on first or whether the palace wards fail before a person does.
-- Ground the pulse: wrong heartbeat through stone above her, a guard-mind brushing the blade's radius and catching on it, bread-taste and pulse collapsing into the same rhythm inside Jaina's body.
-- The blade becomes the real night.
-- Inside: counting because counting is something to do; the cycle narrowing, and part of her is fascinated by how it picks; the guard whose mind keeps catching, and she knows his tread now and not his name; her own words in Ashcombe's gentle reading voice, and not now, not with the blade this loud
+- Jaina keeps counting because Frostmourne's pulse is the only honest thing left in the dark. The cycle is shortening beat by beat, shifting from broad, blind hunger to targeted interest—testing single minds walking the upper corridors. Above her, one familiar, steady boot-tread keeps brushing the blade's edge and catching on it: the eager young guard officer she heard a sergeant call **Valecrest** on watch rotation.
+- Jaina can now hear the difference between ambient cold and a sword choosing a target; echoing Valecrest's tread and name lightly ties Chapter 23's watch change to the night's danger without ever revealing who takes the blade before dawn.
+- They do not know whether the palace wards fail before a living mind does, or which shift breaks first.
+- Ground the pulse: wrong heartbeat thudding down through ceiling stone, the measured tread of one catching guard-mind pacing near the vault stair, yeast-warm bread-taste and Frostmourne's rhythm collapsing into one beat inside Jaina's ribs.
+- Jaina shifts closer to the shared wall as the cycle tightens overhead.
+- Inside: counting because counting is something to do; the cycle narrowing, and part of her is fascinated by how it picks; that young guard—Valecrest—whose tread keeps catching on the blade's edge; her own words in Ashcombe's gentle reading voice, and not now, not with the blade this loud
 
 ### Beat 2
-- Jaina packages the counter. She says Sylvanas's name through the wall first, and then gives it to her as the one who will deliver it.
-- It is practical: the blade's cycle and how fast it is shortening, where the permanent flaw sits, the guard whose mind keeps catching on the blade's radius, and the counter in the order the throne room actually ran it, frost and arcane from whatever mage Sylvanas can get and the fire carried in on her own arrow. Jaina says nothing about the door Sylvanas refused.
-- They do not know whether any door opens for Sylvanas in time or whether the next wielder is already in the palace.
-- Ground the package: consonants blunted by two feet of stone, fingertip taps marking cycle length between spoken lines, the blister on Jaina's palm from the arrowhead splitting as she taps.
-- The counter has an addressee.
+- Jaina leans her forehead against the cold two-foot stone dividing their cells and lowers her voice in the dark. She says Sylvanas's name first through the masonry—and packages the whole counter straight to her as the one who will deliver it: the shortening cycle length, where the permanent flaw sits, the young guard-mind catching on the vault's edge, and the exact throne-room order—frost and arcane from whatever mage Sylvanas can pull, and the fire carried through the seam on Sylvanas's own arrow. As Jaina taps the cycle length against the mortar between hushed lines, the arrowhead blister on her right palm splits open wetly against the stone. Neither woman mentions Lor'themar's refused door; neither says "I stayed for you," because staying already said it.
+- Addressing the method to Sylvanas by name—even with Sylvanas locked behind bars she refused to open—turns the throne room's improvised burn into a deliberate handoff between partners.
+- They do not know whether any door opens for Sylvanas before the blade moves, or whether the next hand is already standing outside the vault.
+- Ground the handoff: Jaina's forehead resting flat on cold masonry, hushed consonants blunted by two feet of stone, fingertip taps spacing the cadence while the burned blister on her palm splits against rough mortar.
+- The complete counter crosses the stone wall with Sylvanas's name on it.
 
 ### Beat 3
-- Sylvanas gives the counter back through the wall in her own words, and Jaina corrects one thing.
-- The wall-language is strong enough now to carry technical threat reporting. Sylvanas repeats the cycle, the flaw, and the order. She has the arrow right and the timing a beat early, and Jaina moves it. The blade spikes harder every time either of them says something true about it.
-- They do not know whether any outside ally can receive and act on the intelligence before the blade chooses or whether the next wielder is only being shaped toward it.
-- Ground the channel: Sylvanas's voice lower and slower through the stone, Jaina's forehead against the cold wall while she listens, the pulse jumping above them each time the counter is spoken.
-- The partnership becomes a working channel again.
-- Inside: a beat early, of course; corrects it, and is fussy about it, and glad of something to be fussy about; the refused door, which she will not mention; would she have taken it, in Sylvanas's place; probably, and she doesn't like knowing that
+- From the other side of the masonry—close enough that Jaina can hear the quiet brush of Sylvanas's brow or shoulder against the stone and share the rhythm of her breath in the dark—Sylvanas repeats the counter back slowly in her own words: cycle, permanent flaw, sequence, arrow. She has every piece right except the entry beat, which she places a fraction early; Jaina nudges it back one beat. Every time either woman speaks an exact truth about the sword, Frostmourne's pulse spikes harder through the ceiling above them.
+- The two-foot wall becomes a quiet, fiercely intimate working channel—lowered voices, shared breath, precise correction, and total unspoken devotion.
+- They do not know whether Sylvanas will ever get out in time to use what she just memorized, or whether the blade's spikes mean it knows it is being mapped.
+- Ground the exchange: Sylvanas's voice low and deliberate through stone, both foreheads pressed to opposite sides of the cold wall sharing the dark, the overhead pulse jumping violently each time the counter's order is spoken aloud.
+- Sylvanas holds the whole counter by heart, corrected to the exact beat.
+- Inside: a beat early, of course; corrects it, and is fussy about it, and glad of something to be fussy about; the refused door, which neither of them will ever name because staying already said it; would she have taken it, in Sylvanas's place; probably, and she doesn't like knowing that
 
 ---
 
-## Scene 2: The Visitor
+## Scene 2: The Visitor (Sylvanas)
 
-**The action:** Something older passes through the cells on its way to the blade, speaks twice, says the farewell, and Sylvanas finally has the time to recognise it.
+**The action:** Something ancient walks straight through the dungeon corridor on its way up to Frostmourne, speaks two calm lines plus the ancient Kaldorei farewell, and Sylvanas collapses five earlier faces into one enemy.
 **Cast:** Sylvanas, Jaina through the wall, the visitor.
-**Starting point:** The counter has crossed the wall, and the blade is seeking above them.
+**Starting point:** Sylvanas has the counter locked in memory, and both women sit close to the shared wall beneath the pulsing vault.
 
 ### Beat 4
-- Something comes into the cells that does not belong to any category Sylvanas has been using so far. It walks the corridor as if the cells were a passage on its way somewhere else.
-- The blade's cold is not the only cold in the prison now, Jaina's fear through the wall is different in kind from anything before it, and the darkness changes before the visitor fully appears.
-- They do not know what the visitor is or whether the blade and the visitor are allied, parallel, or nested.
-- Ground the entrance: torch flame shrinking inward, air gaining weight before shape, Jaina's sharp inhale through the wall.
-- The room stops belonging to known threats.
+- Something enters the cell corridor that fits no category Sylvanas has fought all book. It does not sneak or unlock a gate; it walks down the aisle as casually as someone cutting through a hallway on the way upstairs. The torch flames pull inward, the air thickens with a weight older than Frostmourne's chill, and through the stone Sylvanas hears Jaina pull a sharp, terrified breath different in kind from any fear she has shown before.
+- The blade's cold is no longer the oldest thing in the building, and Jaina's raw inhale confirms scale before Sylvanas even sees a clear silhouette.
+- They do not know what the visitor is, or whether it commands Frostmourne, serves its master, or simply collects its work.
+- Ground the entrance: corridor torch flames shrinking toward blue cores, dungeon air turning heavy before a figure fully resolves in the dark, Jaina's jagged inhale carrying through two feet of stone.
+- The visitor slows outside Sylvanas's iron grate.
 
 ### Beat 5
-- The visitor stops at Sylvanas's bars long enough for two lines. His eyes go past both cells, up, toward the vault.
-- He speaks as if picking up an old conversation: "You did well with the prince." Then, already looking past her: "It will want another hand." He gives no name and explains neither line.
-- They do not know what the being is, where it sits relative to the Lich King and the blade, or who the next hand might be.
-- Ground the pass: a voice too calm for what it says, his gaze lifting past the bars toward the ceiling and the vault above it, Jaina's breath stopping through the wall on the second line.
-- The women are not what he came for.
-- Inside: praised by that, and the praise lands, which is the filthiest part of it; another hand, whose; the guard Jaina named, or someone she would never think of; he barely looked at her, and she is offended, and knows how stupid that is
+- The visitor pauses at Sylvanas's bars just long enough for two calm, unhurried lines—never really looking at her, his eyes already lifting past both cells toward the ceiling and the vault above. Like a man picking up an old conversation, he says: `"You did well with the prince."` Then, already looking up through the stone past her: `"It will want another hand."` He gives no name and explains neither sentence.
+- Both women are mere roadside work to him—not what he came into the palace to collect—and Jaina's breathing stops dead through the wall on the second line.
+- They do not know who he serves, where he stands beside the Lich King, or what hand he means.
+- Ground the pass: a voice frighteningly smooth and unhurried in the dark, his gaze lifted straight past the iron bars toward the vault overhead, Jaina's breath freezing completely silent beyond the wall.
+- He treats both prisoners as finished business on his way upstairs.
+- Inside: praised by that, and the praise lands, which is the filthiest part of it; another hand, whose; the young guard Jaina named, or someone she would never guess; he barely looked at her, and she is offended, and knows how stupid that is
 
 ### Beat 6
-- He goes on the way he was going, upward through the stone toward the vault, and his farewell is in ancient Kaldorei.
-- The visitor never treated the cells as confinement in the first place, the original farewell is older than any living polity now standing, and the Common phrase from five earlier faces was always this, translated.
-- They do not know whether he meant the farewell as mockery, habit, or bait, or how much of the investigation he steered from behind those other faces.
-- Ground the exit: a body passing into solid stone without noise or strain, one impossible phrase hanging in the cell after the shape is gone, torchlight recovering only after the ordinary dark is back.
-- Impossible recognition becomes possible.
+- He resumes his easy stride—stepping smoothly upward straight through solid stone toward the vault without sound or strain—and drops his farewell behind him in **ancient Kaldorei**: `Anu kal dela ana'diel.` The phrase hangs impossibly old in the damp air after the shadow vanishes, and the corridor torches gutter back to ordinary yellow only after he is gone.
+- Iron bars and palace stone meant nothing to him; `Anu kal dela ana'diel.` predates Silvermoon and Lordaeron alike—and every stiff Common farewell Sylvanas heard across five roads was a rough translation of these exact five words.
+- They do not know whether he dropped the ancient tongue out of habit, amusement, or bait, or how many turns of their road he nudged behind borrowed faces.
+- Ground the exit: a dark shape gliding effortlessly into solid vault-stone with zero sound, `Anu kal dela ana'diel.` ringing cold in the quiet cell after he disappears, yellow torchlight creeping back across damp mortar.
+- Ordinary dungeon dark returns with the impossible ancient phrase still echoing in Sylvanas's ears.
 
 ### Beat 7
-- Sylvanas has nothing left to do in a cell, and for the first time since the Millhaven road nothing outranks the farewell. She recognises him by the look and the words together. Five earlier faces collapse into one.
-- The old carter on the Millhaven road looking back up the road toward Millhaven. The tally-man walking out of Andorhal glancing back at the granary roofs. The robed figure in the Eastweald watching the ground where the ward went off. The quartermaster's aide watching the column form on the Stratholme road. The carter in Stratholme's service lane looking past her at the wall. Each time the farewell, and each time his eyes on his work. In the recognition she re-sees each covert contact: the old carter's question about the young grain-man, the tally-man's directions to Havel, the courier who ran from the robed figure with the dispatch and then the Tyr's Hand lie, the sealed manifest the aide handed to a carter for the Stratholme granaries, and the carter's nod that sent the acolyte off down the lane. Seeing them together, she understands that he was running the cult and watching his work. The farewell and the gaze are now tells she can hunt.
-- They do not know how many other faces the same being wore without being caught or whether the tells stay usable now that he knows he has been seen.
-- Ground the recognition: five remembered farewells striking in sequence behind the ancient original, five remembered faces each turned a little away from her, toward a road, a roofline, scorched ground, a column, a wall, Frostmourne pulsing above them while she lays the faces side by side.
-- The sequel gets its first real hunting tool.
-- Inside: five faces, every one of them in front of her, and she kept riding; the city outranked him, the column outranked him, and was that right each time; yes; and he was counting on exactly that; wants Cyndia's book, and Cyndia is in custody somewhere in this palace
+- Locked in a cell with nothing left to outrank the phrase—no burning Stratholme, no marching column, no clock she can ride toward—Sylvanas finally has the quiet to look straight at it. The ancient farewell and that upward gaze past her toward the vault snap together, and **five earlier faces** collapse into one being:
+  1. The **old carter** on the Millhaven road looking back up the road toward Millhaven (asking after the young grain-man).
+  2. The **tally-man** walking out of Andorhal glancing back at the granary roofs (giving directions to Havel).
+  3. The **robed figure** in the Eastweald watching the scorched ground where the ward blew (sending the courier off with the dispatch and the Tyr's Hand lie).
+  4. The **quartermaster's aide** watching the column form on the Stratholme road near Hearthglen (handing the sealed manifest to a carter bound for Stratholme's granaries).
+  5. The **grain carter** in Stratholme's service lane looking past them at the wall (nodding once to send the sick-looking acolyte down the lane).
+- Every single time: the translated farewell, the eyes sliding past the people toward his own work, and a quiet hand steering the cult. Five separate sightings become one hunter's profile with two concrete tells—the phrase and the gaze—that Sylvanas can track the instant she gets loose.
+- They do not know how many other faces he wore unseen, or whether he keeps using those tells now that he knows she has them.
+- Ground the recognition: five translated farewells snapping into line behind `Anu kal dela ana'diel.`, five remembered faces each angled slightly past her toward road, roofline, scorched dirt, column, and wall, Frostmourne still pounding above her while she lays every face side by side.
+- Sylvanas locks all five faces and both tells into memory, wishing furiously for Cyndia's record book.
+- Inside: five faces, every one of them in front of her, and she kept riding; the city outranked him, the column outranked him, and was that right each time; yes; and he was counting on exactly that; wants Cyndia's book, and Cyndia is locked somewhere else in this palace
 
 ---
 
-## Scene 3: The Pulse
+## Scene 3: The Pulse (Jaina)
 
-**The action:** Jaina, who has tracked the pulse all night, feels the blade leave the vault.
+**The action:** Before dawn, Jaina feels Frostmourne leave the vault—moving farther, then fainter—leaving her fingertips resting against Sylvanas's stone wall in the dark.
 **Cast:** Jaina, Sylvanas through the wall.
-**Starting point:** The visitor has gone up through the stone toward the vault, and the cells are ordinary dark again.
+**Starting point:** The visitor passed upward through the stone toward the vault, and the cells sit back in ordinary dungeon dark.
 
 ### Beat 8
-- Before dawn, the pulse Jaina has tracked all night moves. It is no longer above her. It goes farther, then fainter.
-- The blade is leaving the vault. Its cycle has not stopped; it is travelling. Jaina cannot tell who or what carries it, and nothing in the cells shows her.
-- They do not know who holds the blade now, where it is going, or whether the counter she gave Sylvanas will ever reach it.
-- Ground the leaving: the cold in the stone above her easing for the first time all night, the pulse farther with each beat and then fainter, Jaina's fingertips staying on the wall after there is nothing left to match them to.
-- Farther, then fainter, and no hand shown.
+- Before dawn, the ceiling pulse Jaina tracked all night shifts. The weight directly overhead lifts; the killing chill in the stone above her eases for the first time since the arrest. Frostmourne's cycle does not stop—it moves horizontally, then out of the palace: **farther, then fainter**, beat by beat until the stone goes quiet. No hand is shown carrying it; nothing in the dark cells tells Jaina who took the sword or where it is bound. Even after the last faint pulse dies out of reach, Jaina leaves her fingertips resting quietly against the cold stone wall toward Sylvanas's cell.
+- Frostmourne is loose in the world again under an unknown hand, and Book 1 closes on quiet endurance and unbroken devotion across two feet of prison stone.
+- They do not know who holds Frostmourne now, where it is heading, or whether the counter Jaina gave Sylvanas will ever catch up to it.
+- Ground the leaving: frost smell thinning slightly overhead for the first time all night, the blade's rhythm stepping farther with each beat and then fainter into distance, Jaina's fingers—burned palm resting soft beside them—staying pressed quietly to the cold stone wall between her and Sylvanas after there is nothing left overhead to count.
+- Farther, then fainter—no hand shown—and Jaina's fingertips stay against Sylvanas's wall until dawn.
 
 ---
 
 ## Chapter close / handoff
 
 **Active cast at close**
-- Jaina
-- Sylvanas
-- Lor'themar, elsewhere in the palace complex
+- Jaina, still imprisoned
+- Sylvanas, still imprisoned
+- Lor'themar and three hundred elves, elsewhere in Capital City
 - Vereesa, elsewhere in Capital City
-- Frostmourne, gone from the vault, carrier unknown
-- The visitor, loose in the city
+- Frostmourne, gone from the palace vault, carrier unseen
+- The visitor (Mal'Ganis), loose in the city
 
 **What carries into Book 2:**
-- Jaina packaged the anti-blade counter for Sylvanas to deliver, frost and arcane from a mage and the fire on an arrow. Sylvanas has it by heart.
-- Sylvanas refused Lor'themar's door because Jaina was not covered. Lor'themar's three hundred are still in the city.
-- Kel'Thuzad's journal passages quoting Jaina are public record. The pair have not spoken of the reading. Sylvanas had the words from Jaina at sea.
-- The larger enemy behind the visible war is real and operational.
-- Frostmourne has left the vault. Its new hand is unknown.
-- Kel'Thuzad expected to return as a lich after his death. Nothing in Book 1 has closed that door.
-- Sylvanas now has two tells tied to the visitor's disguises: the farewell and the gaze toward his work.
-- The visitor has worn five earlier faces across the investigation.
-- The pair remain imprisoned while all of this is true.
+- Jaina packaged the full anti-blade counter addressed to Sylvanas by name—frost and arcane from a mage, fire carried on Sylvanas's arrow—and Sylvanas has it by heart to the exact beat.
+- Sylvanas refused Lor'themar's solo transfer order because Jaina was excluded; neither woman ever says "I stayed for you."
+- Kel'Thuzad's journal passages quoting Jaina are public record; Sylvanas knew them first from Jaina at sea and never blinked during the reading.
+- The five-face enemy behind the visible war is real and loose in the city, having spoken `"You did well with the prince."`, `"It will want another hand."`, and `Anu kal dela ana'diel.`
+- Sylvanas holds two concrete hunting tells for his disguises: the farewell (in ancient Kaldorei or translated Common) and his gaze sliding past people toward his work.
+- Frostmourne left the vault before dawn into an unseen hand (with young officer Ser Edric Valecrest lightly seeded as one catching mind, never shown claiming it).
+- Kel'Thuzad expected to return as a lich after his death; nothing in Book 1 closed that door.
+- Both women remain locked in adjacent dungeon cells as Book 1 closes.
 
 **Do not add yet:**
-- Any prison break. Sylvanas refused the one legal door, and there is no other.
-- Any clean counter to the visitor beyond detection.
-- Any next wielder for Frostmourne on-page. Nobody sees who carries the blade out.
-- Any public understanding of what the pair just learned.
-- Any spoken reckoning between the pair over the journal passages.
+- Any prison break. Sylvanas refused the one legal door, and no other exists here.
+- Any counter to the visitor beyond detection tells.
+- Any on-page sight of Frostmourne's new wielder.
+- Any public understanding of what Jaina and Sylvanas just learned.
+- Any spoken reckoning over the journal passages or the refused door.

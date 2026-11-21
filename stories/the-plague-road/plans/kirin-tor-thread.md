@@ -23,7 +23,7 @@
 
 ## Arc IV — Endgame
 - Ch 18, that night: Jaina tells Antonidas she is going north and closes the Dalaran line herself. This is the emotional severance.
-- Ch 21: at Southshore she chooses to wake the stone. He comes to Capital City in person with two magi, asks what she needs, and gets "You came."
+- Ch 21: at Southshore she chooses to wake the stone herself (Antonidas does not yet know where Arthas is; the Farstrider relay runner on the King's Road brings word of Arthas's homecoming). He comes to Capital City in person with two magi, meets them at the kitchen service arch, asks what she needs, and gets `"You came."`
 - Ch 22: the Kirin Tor cell holds a side lane at the palace margins and misses the chamber. Real help, nowhere near enough.
 - Ch 23: he is refused the stand and hears Jaina's words about him read from Kel'Thuzad's journal. This is his wall, same as Lor'themar's.
 - Ch 24: he remains in the city as guilty institutional pressure, not rescue. Book 2 starts with him diminished by public impotence.
