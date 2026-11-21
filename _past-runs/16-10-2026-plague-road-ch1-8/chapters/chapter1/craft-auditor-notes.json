@@ -1,0 +1,140 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 0,
+  "targetFile": "v0.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter; worst in L3, L9, L19, L37, L59, L67, L105, L175, L197, L201, L205, L237, L245, L281, L315",
+      "passage": "The track ran east with the ward line for a while, close enough that every few hundred yards another stone stood up out of the undergrowth at the roadside, and the hum of the ring came up through the ground into the horses' strides, low and constant, so that after a time she stopped hearing it and only felt it, the way you felt a river you were riding beside. (70 words)  /  And the mage herself—sitting there exactly as the file had written her, strong enough to cross the ring without a ripple, Antonidas's to the bone, Kirin Tor ink in the creases of her fingers—couldn't even do Sylvanas the courtesy of being the fool in silk she'd come down the passage to deal with. (53 words)",
+      "problem": "The style guide sets a hard ceiling for Sylvanas POV: 'Maximum sentence length in Sylvanas POV: 25 words.' About 91 of roughly 496 sentences go over it, and many run 40 to 70 words (L9: 52, L19: 49, L59: 45, L67: 46, L101: 46, L105: 70, L175: 49, L197: 57, L201: 48, L205: 48+47, L237: 52, L281: 51, L315: 53). The scorer agrees: long_pct is 23.3% (range 7-14), mean sentence length 13.1 (range 9-13), and CV 0.974 (range 0.6-0.8). Most of these sentences are built by chaining ', and ... , and ... , and', which is also why compound_pct is at 17.5%. The result reads more like Jaina's register (up to 30 words, compound-complex) than Sylvanas's clipped, subject-verb-object baseline.",
+      "fix": "Split every sentence over 25 words at its strongest 'and' or 'so that' joint. Turn the trailing clause into its own sentence or into a participial phrase. Example for L105: 'The track ran east with the ward line, another stone standing up out of the undergrowth every few hundred yards. The hum came up through the ground into the horses' strides. After a while she stopped hearing it and only felt it, like a river ridden beside.' Example for L315: end the Antonidas questions at 'Did he even know where she was?' and give the mage a separate short paragraph: 'And the mage had to be exactly what the file said. Strong enough to cross the ring without a ripple. Antonidas's to the bone. She couldn't even do Sylvanas the courtesy of being a fool in silk.' Keep at most one sentence over 25 words per scene, and save it for the critical half-second (the L15 troll fall is a good candidate)."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter; polysyndeton chains at L15, L37, L77, L101, L119, L131, L187, L299, L321",
+      "passage": "She could tell him about the stone, and he would carry it into the chamber and lay it in front of a row of magisters, and they would ask her what she meant by cold, and she would say cold, and they would look at each other. (L119)  /  She rubbed her thumb across the cold place in her palm and said nothing about the stone, and the road went on east under the amber light, and the hum ran on under the hooves. (L131)",
+      "problem": "Texture score is 70.6/100 (fail). Compound is at 17.5% against a 10% target, scoring 50. Participial is at 3.3% against a 12% target, scoring 46. The '..., and X, and Y, and Z' chain is used as the default way to connect clauses, not as a chosen effect. When it appears nine or more times, the deliberate uses (the troll's fall at L15 and the clerk-to-signature cascade at L77) stop standing out. Meanwhile the chapter has almost no ', Ving' connective phrasing.",
+      "fix": "Keep the polysyndeton at L15 (the fall) and L77 (the bureaucracy cascade) because they earn it. Everywhere else, convert ', and she/he VERBed' to a participial or break it into separate sentences. Specific conversions: L63 'She dismounted and handed the reins to the nearest rider and walked up to the stone' -> 'Dismounting, she handed the reins to the nearest rider and walked up to the stone.' L133 '...and Lor'themar pulled his bow off the saddle' -> 'Lor'themar pulled his bow off the saddle, nocking as he turned.' L243 'Sylvanas leaned over it and the lamp threw her shadow across half the sheet, and she shifted until it didn't' -> 'Leaning over it, she threw her shadow across half the sheet and shifted until it didn't.' L119 -> 'She could tell him about the stone. He would carry it into the chamber, laying it in front of a row of magisters. They would ask what she meant by cold. She would say cold.' L131 -> 'She rubbed her thumb across the cold place in her palm, saying nothing about the stone. The road went on east under the amber light.' Aim for about 40 new participial phrases across the chapter. That is roughly one in every 12 sentences, enough to reach about 12%."
+    },
+    {
+      "check": "limited-third",
+      "severity": "medium",
+      "location": "Scene 2, Beat 8, L287",
+      "passage": "the face of someone who has been saying the same true thing since before dawn to a run of people who listened politely and wrote it down and put it in a drawer. ... This one was looking at Sylvanas, and she was so angry it had gone quiet in her, and so tired the anger looked like the only thing holding her up in the chair.",
+      "problem": "Two leaks. (1) 'the same true thing' has the narration vouch for the prisoner's claim. Sylvanas does not know it is true, and the plan lists 'Real proof the magic warning is legitimate' under factsNotEarned. (2) 'she was so angry it had gone quiet in her' states another character's inner state as fact. The plan's povNote for Beat 8 says the fury has to stay Sylvanas's reading. The second half of the sentence ('looked like') stays inside her POV. The first half does not.",
+      "fix": "Cut 'true': 'saying the same thing since before dawn'. Rewrite the fury so it is inferred from what Sylvanas can see: 'This one was looking at Sylvanas, and the anger in that jaw had gone past shouting into something quiet and fixed. She looked tired enough that it was the only thing keeping her upright in the chair.' Or anchor it in Sylvanas's own experience: 'Sylvanas knew what that quiet was. She wore it after budget sessions.'"
+    },
+    {
+      "check": "emotional-life",
+      "severity": "medium",
+      "location": "Scene 1, Beat 5, L175; Scene 2, Beat 10, L313",
+      "passage": "She was glad. That was the worst of it. ... some low part of her had already worked out that she would not be sitting on a bench in the Convocation chamber tomorrow, and it was glad. (L175)  /  She'd known she wasn't going to since the runner opened his mouth on the forest road, and she'd walked the length of this passage knowing it, and she hated that most of all. (L313)",
+      "problem": "Both lines name Sylvanas's feelings outright ('glad', 'hated'). Her voice sheet's inner-voice test says 'If it names a feeling outright, it's wrong.' The style guide adds that her narration 'never names her emotions; it renders their physical signatures', and DC-12 bars abstract emotional vocabulary in her POV. 'That was the worst of it' and 'most of all' are also narrator verdicts, not argument. The plan's interiority ('glad of the excuse, and irritated at being glad') is correct as an intent, but the prose turns it into a label.",
+      "fix": "L175: render the gladness as something she catches herself doing and corrects, in the self-mocking second person the sheet uses. For example: 'Somewhere under the alarm a thought had already worked out that the Convocation bench would sit empty tomorrow. She caught herself liking that. Grinning over a breach, Ranger-General. She'd have had a ranger mucking stalls till midsummer for less.' Keep 'glad' out of it. L313: cut 'and she hated that most of all'. End on the fact and a body beat: '...and she'd walked the length of this passage knowing it. Her jaw ached from holding it.' Or end on a flat self-rebuke: 'Damn the runner, then, too.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "Chapter-wide simile density; stacked figures at L69, L105, L237",
+      "passage": "a hitch in it, as though the stone were favouring a leg ... Cold like a river rock turned over (L69)  /  the way you felt a river you were riding beside. The afternoon light came through the canopy amber and thick, the colour of old honey (L105)  /  so that standing in front of it felt like standing at the lip of a well ... like an ember banked for the night (L237)",
+      "problem": "The chapter has about 24 similes or comparisons in 6,900 words, about 3.5 per 1,000. Sylvanas's calibration is 0-1 per 1,000 and the global ceiling is 3. The metaphor policy also says 'Never stack two metaphors in consecutive sentences', and L69, L105 and L237 each do. Several come from outside her source domains of predator, forestry, siege and horse: 'old honey', 'the way you'd test a kettle' (L89), 'like a coin she couldn't put down' (L223), 'plank by plank' (L271), 'lip of a well', 'ember banked', 'like a slap' (L211), 'like a long held note' (L61). The good ones are ranger-native and should stay: favouring a leg, river rock turned over, a sound horse's flank, thick as a pelt, braced on a deck.",
+      "fix": "Cut to about 10 to 12 figures for the whole chapter. Keep: the boot dropped in mud, the horse's flank, favouring a leg, the river rock, oiled leather, the pelt, and the deck in a swell. Cut or flatten: 'colour of old honey' -> 'amber' alone; 'the way you'd test a kettle' -> 'briefly, palm flat'; 'like a coin she couldn't put down' -> 'small and constant'; 'lip of a well' -> describe the damper by what it does ('the lamplight went flat a hand's width from it'); drop 'like an ember banked for the night' (the 'dull violet' does the job); 'like a slap' -> 'hit her eyes hard'; 'plank by plank' -> cut. Where two figures sit in consecutive sentences, keep the stronger one and make the other literal."
+    },
+    {
+      "check": "emotional-life",
+      "severity": "medium",
+      "location": "Scene 1, Beat 3, L129",
+      "passage": "That was the thing about Lor'themar; you could be short with him all day and it slid off him like rain off oiled leather, and he never once slowed the horse down to make you pay for it. She wasn't going to tell him that, either.",
+      "problem": "This is a narrator verdict, a summary of what Lor'themar is like. The plan's newOnPageInformation ('Lor'themar is the one person who can take her irritation without slowing her down') is told here, not shown. The exchange just before it (bowstaves, 'You'll be there to say it yourself, of course.' / 'Of course.' / he laughed) already shows it. The summary repeats it and takes the beat away from the reader.",
+      "fix": "Cut the 'That was the thing about Lor'themar' sentence. Replace it with a small physical beat showing he takes her shortness and keeps pace, e.g. 'He laughed, quietly, and let it go, and kept his horse at her mare's shoulder the whole way, the same half-length back he'd ridden for thirty years.' Keep 'She wasn't going to tell him that, either', and anchor it to that beat: 'She didn't thank him for it. She never had.' That also fits the sheet's rule that she won't thank him, even in her head."
+    },
+    {
+      "check": "beat-fidelity",
+      "severity": "medium",
+      "location": "Scene 2, Beats 9-10, L305-L315",
+      "passage": "Send her home, then. ... Hold her, then. ... She wanted to hand it off. ... And Antonidas. What kind of master let his best student walk over an elven border alone...",
+      "problem": "Beat 10 has beatWeight 'short', but L305-L315 runs six consecutive deliberation paragraphs (about 420 words) between the frowning mage and 'She stepped into the cell.' Every interiority item from the plan is present, but they arrive as a list, one paragraph per item, and the tension before the chapter's fixed last line sags. L305 ('Shut the door... Or go in.') and L307 already make the stew-or-go decision, and L309-L311 then argue a second dilemma (send home vs. hold for a magister) at the same length. L315 (109 words, with sentences of 43 and 53 words) is the slowest paragraph in the scene, right where the prose should tighten.",
+      "fix": "Cut L305-L315 by about 40%. Fold 'send her home' and 'hold for a magister' into one paragraph of four or five short sentences ('Send her home, and the map went south with her, and nobody asked it how. No. Hold her for a magister, and wait a fortnight on a lens and a clerk. Sun's sake—a fortnight.'). Keep L313's 'known since the runner opened his mouth' in two sentences. Cut the Antonidas paragraph down to the two questions ('Had he sent her? Did he even know where she was?') plus one short sentence of anger at the mage for matching her file. Let the sentences shorten as she moves toward the chair, so the rhythm compresses into 'Start talking.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 1, L21, L59, L61",
+      "passage": "That was how you knew a hollow was empty. The birds said so before your own scouts did. (L21)  /  Everyone did, if they knew to listen: a low sound below sound, felt more in the teeth than the ear, the hum of the outer ring running stone to stone along the border like a long held note. Most elves stopped hearing it in childhood, the way they stopped hearing their own heartbeat. (L61)",
+      "problem": "L21 and L59 ('A ward-stone did not care about moss.') are generalizing asides. They read as ranger idiom and stay close enough to her voice, but they lean toward aphorism. L61 is the bigger problem: it explains basic ward-hum to the reader. The style guide puts basic ward mechanics among the things Sylvanas takes for granted and explains to no one ('Zero exposition for common Warcraft elements'). The phrase 'felt more in the teeth than the ear' is also repeated word for word at L299.",
+      "fix": "L61: cut 'Everyone did, if they knew to listen' and 'Most elves stopped hearing it in childhood...'. Keep the hum as something she hears, e.g. 'She heard it before she was off the horse, low, more in the teeth than the ear, the ring running stone to stone.' At L299, use a different sensory handle ('low and even under the lamp's hiss') so the echo isn't verbatim. L21 can stay, or tighten to 'The birds always said so before the scouts did.'"
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Scene 2, Beat 6, L233; Scene 1, Beat 4, L151; Scene 1, L203",
+      "passage": "\"Lockdown rack. Staff, satchel, the papers. The staff's under a damper.\" (L233)  /  \"Papers. Credentials?\" (L151)  /  \"Get her out here. I want her report, and I want it now.\" (L203)",
+      "problem": "'Lockdown' is modern prison vocabulary, and Cyndia's sheet bars report-speak. The plan used it as a label, but it shouldn't reach her mouth. 'Credentials' is Latinate and bureaucratic for Sylvanas speaking to a runner, and the style guide prefers Anglo-Saxon roots. 'I want it, and I want it now' is a stock line and weakens her otherwise clean command voice.",
+      "fix": "Cyndia: 'On the rack. Staff, satchel, the papers. The staff's under a damper.' (In narration, call it 'the holding rack' or 'the rack'.) Sylvanas at L151: 'Papers. Any seal?', which sets up the runner's 'No seal, no escort, no letter.' L203: 'Where's Cyndia? Get her out here. I'll have her report in the yard.' Or just 'Cyndia. Now.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 1, L53; L43; L19",
+      "passage": "\"No,\" he agreed. (L53)  /  he watched her with the particular patience of a man who had served under her long enough to know when she'd decided something before she said it (L43)  /  something green that had never had a name because no elf had ever needed to name it (L19)",
+      "problem": "'agreed' is a creative tag. Saying it with 'No' is a small irony, but 'said' or no tag does the job. 'the particular patience of a man who...' is a stock AI construction. The L19 'never had a name' flourish is lyrical decoration of the kind Sylvanas's POV filter says she doesn't linger on.",
+      "fix": "L53: '\"No. Nor will the Convocation.\"' with no tag. L43: 'and he watched her. He'd served under her long enough to know when she'd decided something before she said it.' L19: end the smell list at 'resin and sun-warmed blossom'."
+    },
+    {
+      "check": "beat-fidelity",
+      "severity": "low",
+      "location": "Between Scene 1 and Scene 2, L201-L205",
+      "passage": "\"Where's Cyndia?\" Her voice went across the yard and every head in it turned.",
+      "problem": "The plan has two scenes, but v0.md has no scene-break marker anywhere. The arrival at the Pass, Cyndia's report and the walk into the guardroom run on as one continuous block. The plan's 'action continuation (cross-scene)' intent works either way, but the coordinator should confirm the scene boundary is wanted.",
+      "fix": "Either add '###' before L201 ('The Pass post came into sight...') or before L205 (Cyndia coming out of the tower) and open Scene 2 there, or confirm that the continuous run is intentional. Formatting only. No prose change is required."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 70.6,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {"actual": 3.3, "target": 12.0, "score": 45.9, "direction": "under"},
+      "compound": {"actual": 17.5, "target": 10.0, "score": 49.6, "direction": "over"},
+      "emdash": {"actual": 2.3, "target": 4.0, "score": 86.7, "direction": "under"},
+      "semicolon": {"actual": 2.1, "target": 1.8, "score": 100.0, "direction": "on-target"}
+    },
+    "supportingRhythm": {
+      "comma_period_ratio": {"actual": 0.725, "range": [0.6, 0.85], "status": "ok"},
+      "sentence_length_mean": {"actual": 13.1, "range": [9.0, 13.0], "status": "slightly over"},
+      "sentence_length_cv": {"actual": 0.974, "range": [0.6, 0.8], "status": "over"},
+      "long_sentence_pct": {"actual": 23.3, "range": [7.0, 14.0], "status": "over"},
+      "short_sentence_pct": {"actual": 42.3, "range": [28.0, 42.0], "status": "at ceiling"},
+      "one_sentence_paragraph_pct": {"actual": 28.0, "range": [15.0, 24.0], "status": "over"},
+      "mattr": {"actual": 0.781, "range": [0.8, 0.87], "status": "under"},
+      "opener_entropy": {"actual": 5.9, "range": [7.2, 8.2], "status": "under; 'She' opens 70 of 515 sentences"}
+    },
+    "interpretation": "PARTICIPIAL: 3.3% -> target 12.0% (score 46/100). Add ', Ving' phrases as connective tissue between actions. COMPOUND: 17.5% -> target 10.0% (score 50/100). Too many ', and/but/yet' joins; break some into separate sentences. EMDASH: 2.3% -> target 4.0% (score 87/100). Use for mid-sentence pivots and interrupted tactical thought. SEMICOLON: on target. Auditor's note: participial and compound are the same problem. Converting about 35-40 ', and she VERBed' joins into ', VERBing' phrases fixes both dimensions and also brings the over-25-word sentences under the Sylvanas cap. Add 6-8 em-dashes, mainly as interrupted tactical thought in the L73, L171, L225 and L247 arguments (the sheet's 'she caught herself thinking about—' pattern) and as clipped self-correction.",
+    "flaggedPassages": [
+      "telegram_run s33-41: \"Clean,\" he said. \"He slipped.\" \"He slipped into your arrow.\" (post-kill exchange L27-L33; dialogue-appropriate, but add one connective narration beat)",
+      "telegram_run + texture_desert s55-67: \"The stones,\" he said. \"The outer ring's just south of us...\" (L45-L53; give Lor'themar or Sylvanas a participial action beat mid-exchange)",
+      "texture_desert s71-86: \"Six riders with me,\" she said... They found the first stone a little before noon (L57-L65; convert 'She dismounted and handed... and walked' to a participial)",
+      "telegram_run + texture_desert s124-139: \"Feels like a stone to me,\" he said. \"You never had the hand for it.\" (L91-L101)",
+      "texture_desert s170-179: South of the wards was Lordaeron's business... None of it was hers... And it hadn't. (L121)",
+      "telegram_run + texture_desert s199-216: \"Skip the compliments. What.\" \"Intruder.\" (runner exchange L141-L159; short lines suit the breathless runner, so add texture in the narration beats around them)",
+      "texture_desert s233-255 / telegram_run s246-255: Sylvanas had closed her right hand into a fist... Why say anything at all? ... One who wants to be caught. (L163-L171; spy argument, add one em-dash self-interruption)",
+      "texture_desert s314-323: Cyndia's report, L215",
+      "telegram_run + texture_desert s337-352: Or she was right... \"Did she fight?\" ... \"Her gear.\" \"Lockdown rack.\" (L225-L235)",
+      "telegram_run + texture_desert s410-425: Antonidas's apprentice. Gifted beyond her years... A lord admiral's daughter. (file recollection L261-L265)"
+    ]
+  },
+  "strengths": [
+    "Free indirect thought is present and in her idiom in every scene: 'Stalling, Ranger-General.' (L55), the real-or-excuse argument at the stone (L73-L77), the spy argument (L171, L225), surveyor vs raider (L247), 'Bad ground. Soft on every side' (L293).",
+    "Distinct voices: Lor'themar's mock-formal needling matches his sheet ('Shall I tell the chamber the Ranger-General has gone into stone-reading?'), Cyndia reports in event order and puts her one opinion last (L229), and the runner gets breathless fragments.",
+    "Emotional registers are varied: dry wit ('which was only stupid', 'a small square with a flag drawn on it, which was almost charming', 'sized up by trolls with less care'), warmth (Lor'themar's 'Sylvanas. Send word when you know what she is.'), exhaustion (Cyndia's shoulders, the prisoner), alarm (the runner).",
+    "Value shifts land on concrete moments: her fist closing on the cold when the runner says 'the leylines are wrong' (L163), her finger beside the circled stone (L251), and 'No violet. No gold. Nothing done up.' (L283).",
+    "All ten beats are dramatized with their sensory anchors. The stone echo runs cleanly through B2, B4, B7 and B9. The naming constraint holds: 'Jaina' appears only in Cyndia's line at L257. No Jaina dialogue. The fixed final line is present."
+  ],
+  "summary": "The draft's thought, dialogue and structure are strong. Sylvanas thinks and argues in her own ranger idiom in every scene, the cast sounds distinct, all ten beats are dramatized, and the stone thread pays off at the map and the cell. It fails on mechanics and a few register slips. Texture is 70.6/100, with participial at 3.3% and compound at 17.5%. About 91 sentences break the 25-word Sylvanas cap, mostly through default ', and ... , and' chains. Simile density runs about 3.5/1000 against her 0-1 calibration. One POV leak ('the same true thing' and the stated fury at L287) needs fixing, as do two named emotions (L175 'glad', L313 'hated').",
+  "summaryCounts": {"high": 2, "medium": 5, "low": 4, "total": 11}
+}

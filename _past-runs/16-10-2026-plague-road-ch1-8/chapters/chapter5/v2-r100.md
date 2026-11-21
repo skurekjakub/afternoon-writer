@@ -1,0 +1,669 @@
+By afternoon the ruts had dried at the lips and still held the dawn's rain in their bottoms, two long brown ribbons of water running on ahead of the mare toward the south and west. Loaded wheels had cut them deep enough that a horse who stepped wrong would go in to the knee. Sylvanas kept to the crown of the road and let the mare choose her own feet. Every so often she put her hand flat to the front of her coat, where the folded square of sacking lay against her ribs, and took it away again.
+
+They had crossed the ford at noon. Past it the hedges fell back and the land opened into stubble, the road running straight and wide between the fields, built for carts. Where another road crossed it there was a depot.
+
+A long shed with a weigh-house on the end, a yard of beaten dirt, a water trough gone green at the rim. A beam scale hung from a frame at the gate, its iron pan swinging in no wind she could feel. Three carts stood in the yard with their shafts down and nobody near them. Two cart horses were tied at the rail outside a lean-to office, heads low, skin shivering at the flies. She brought the mare in beside them. The cart horses lifted their heads at the smell of her, thick-necked and rough-coated, and put them down again; the mare stood among them with grey foam dried white along the cheek-strap, her fine legs trembling once and quiet. Sylvanas swung down onto knees that had set in the shape of the saddle.
+
+Her eyes felt rubbed with sand. She had not slept since the night before the village, and the night in the village had been fire and a cage and Brask's men carrying sacks. She worked her right hand open and shut on the rein before letting it go, the two fingers Tam had bitten purple at the middle joint and slow to bend.
+
+"Cyndia. The yard and the gate. Count the carts and anything chalked on that scale. Lyriel, with me." She turned in the road. "Mage."
+
+The mage was still in the saddle, the staff propped in the crook of her dead right arm and her wrapped left hand flat on the mare's neck, her face the colour of the dust. Lyriel went to her stirrup and took her weight as she came down. The mage stood with one hand on the saddle-flap, getting her legs back under her.
+
+"Where do you want me?"
+
+"Can you read from the crossing?"
+
+The mage turned her head toward the place where the two roads met past the gate, a plain dirt junction with a mile-post leaning out of the grass. "Yes. It's better there than in a yard. Everything in a yard gets walked over."
+
+"Then the crossing. Cyndia will be at the gate."
+
+The mage went, walking as if the road had gone soft under her, the staff's heel knocking the ground every second step. Sylvanas waited until she reached the gate, then went into the office.
+
+It was hot in there, a fire going in a little iron stove with a kettle on it, though the day was warm enough without. The one window faced west and let the afternoon sun straight in across the counter to light the dust on the ledgers along the back shelf. A wasp walked up and down the inside of the glass, testing the corner of a pane that stood open a finger's width at the top.
+
+The clerk was a narrow man in sleeve-guards, with a cold, a chewed pen in his fingers and ink to the second knuckle. He stood up when they came in and then didn't know what to do about having stood. He looked at the bows, at Sylvanas's ears, back at the bows.
+
+"The yard master's in Andorhal," he said. "Till the end of the week. If it's carriage—"
+
+"It isn't. I want your out-book. Since harvest. Everything you've weighed out on the north road."
+
+"I can't show the books." He wiped his nose on the back of his wrist. "They're the yard's books, not mine to—they go down to Andorhal at the quarter. The master checks every line. I can tell you what's on the scale today, if—"
+
+"Friend," Lyriel said. She had come round the end of the counter, easy, eyeing the stove. "You keep a fire lit in here? In this? It's like standing in a boot."
+
+"The ink thickens," the clerk said.
+
+"In this?"
+
+"Of a morning. The mornings are cold now." His shoulders came down. "And the kettle."
+
+"What's your name?"
+
+"Corley."
+
+"Master Corley. That's the Ranger-General of Quel'Thalas, and she's been up all night burning flour with a village captain, and so have the rest of us." Lyriel leaned her hip on the counter, settling in. "Did you hear about the village up past the ford? With the granary? Somebody must have come down the road with it by now."
+
+He had.
+
+"Fire," he said. "A carter's boy came through at dawn for the smith. He said the captain had burned the granary and the bakehouse and all the flour in the houses, and that there was fever. He said a lad died in the pound."
+
+"There was," Sylvanas said. "The fever was in the flour. The flour came down this road. I have a square of the sacking in my coat. Show me your book, Master Corley, and I'll show you the sacking, and then you can decide whether the master wants to check that line."
+
+He breathed through his mouth a while. Then he went to the back shelf, took down a long ledger bound in sheepskin gone dark at the corners, and blew the dust off the top edge before he laid it on the counter in the sun.
+
+The out-book was the kind she had seen at every quartermaster's table on the border, ruled in faded red, one line to a load: the day, the carter, where it went, how many sacks, the weight off the beam, the rate. In the margin beside nearly every line the clerk had written *And.* in a small tidy hand.
+
+"Andorhal," Corley said, when she stopped with her finger on it. "Where it came in from. Near everything does."
+
+She went back to the summer and came forward slowly, finger on the lines.
+
+Most of it was what she would have expected, if she'd ever thought about grain in her life. Big loads to mills, under the same few carters' names, at a rate that didn't move. Hollis. Hollis again, Millhaven, full rate, twenty sacks. Then a line at midsummer that sat differently on the page: *Own cart.* Millhaven. Twelve sacks. The rate was written smaller, in a crooked hand. Two coppers under on the measure.
+
+"What's 'own cart'?"
+
+"The free carters." Corley sniffed. "Lads with a cart and a horse who buy in the yard and sell where they like. There's always a few. More this year."
+
+"Their names."
+
+"They give a name, I don't write it. The yard's paid at the gate. It's the load I book, not the man." He heard himself, and his ears went red. "That's the rule. It's been the rule since my father had the book."
+
+Own cart, Millhaven, twelve sacks, short rate. Own cart, Millhaven again, a fortnight on. A third. She turned the page. Own cart, and a village she didn't know, then another, the short rate crooked beside each.
+
+"Your weights. Twelve sacks at the beam, here. Does anyone check them?"
+
+Lyriel had already gone to the door and called across the yard to Cyndia. She was back with the answer before Sylvanas had turned two more pages. "Three loads chalked on the scale for today, twenty sacks each. The carts in the yard have sixteen and seventeen and nineteen on them. Cyndia counted twice." Her voice stayed pleasant. "She says the boys are probably still unloading."
+
+"They tell me twenty," Corley said. "I write twenty. They settle it at Andorhal."
+
+The door opened behind her and the mage came in on Cyndia's arm, Cyndia letting go as soon as she was over the sill and going back out to the gate. The mage stood with her back against the doorframe, and the cold came in with her. Sylvanas could feel it from across the room, a draught where there wasn't one, the clerk's head coming round toward it. The crystal on the staff still glowed, a washed-out gold going dimmer.
+
+Sylvanas waited for the lecture. Currents and lines, what the drag did in the pulse, why a road was a better thing to listen to than a yard: three sentences to get to one. She had been given it twice since the Pass.
+
+"North road's heavy," the mage said. "All the way out, as far as I can hear, and old. It's been in there a long while. West's heavy too, further off, something past the crossing. South, down this road, the way we're going—heavy, and old, and it doesn't stop." She shut her eyes and opened them. "East is light. It's only starting."
+
+She leaned on the doorframe, waiting to be asked.
+
+"East," Sylvanas said. She turned the book round on the counter and set her finger on a line. "The east road has short-rate loads since midsummer. Here. And here."
+
+"Then they're light."
+
+"They're twelve sacks, same as Millhaven."
+
+"Then they weren't carrying it, or they weren't carrying much, or they were carrying it somewhere I can't hear from a mile-post. I can't tell you what's in a book, Ranger-General. I can tell you the east road is light."
+
+"Or you're wrong."
+
+"Or I'm wrong." She stayed against the doorframe. "Count them, then. I haven't the breath to argue about currents in a shed, and I'd rather you counted them than took my word for it."
+
+Corley looked from one of them to the other and swallowed.
+
+Sylvanas took a sheet of the yard's waybill paper off the pile at his elbow and turned it to the clean side. Her stub of lead skated on the glaze and left a shine. Damn the paper. She held out her hand, and Corley put his pen in it.
+
+A dot in the middle for the depot. Four lines out, north, west, south, east. She wrote the names along them from the book, in order of distance where she knew it and in order of the page where she didn't, the clerk leaning over unasked to put her right. "No, Coldwell's past the bridge, it's further on than Wick." Her fingers came away black.
+
+Millhaven went on the north road near the top of the sheet. The village with the granary went where the west road bent round to meet it. She didn't write a name for that one.
+
+"Now you."
+
+The mage came off the doorframe. She tucked the staff into her right arm and took the pen in her left, between the two fingertips that came out of the linen, holding it at a slant. She made a mark on the north road near Millhaven, pressing too hard. A blot with a tail. Another, lower down: a cross, meant, that looked like a bird's foot.
+
+She went on, heavy where it was heavy, a short stroke where it was light, the pen shaking in those two fingers and her mouth pressed flat. It was slow. Sylvanas let her finish.
+
+When it was done there were two pictures on one sheet, and they did not sit together. Sylvanas's names went out along the roads where the carts had gone. The mage's marks sat on the same roads where the sickness was, or where she said it was, here and there on a name, here and there on nothing but a stretch of road. The east road had four short-rate villages on it in Sylvanas's hand and two thin strokes in the mage's.
+
+"Cyndia," Sylvanas said. Cyndia came and stood in the open door, studying the paper on the counter and then the book.
+
+"Count the short-rate lines by road. Before the last month and since."
+
+Cyndia took the book standing and went down the page with one finger, lips moving, turning back once to check something, while Corley's kettle began to tick on the stove.
+
+"North road. Nine loads before the last month. Three since. West, seven and four. South—" she turned two pages "—eleven, and six. East road. One load before the last month. Nine since."
+
+The wasp found the gap at the top of the pane and was gone.
+
+Nine loads on the east road, and two thin strokes.
+
+A month of carts was a stroke, then; a summer of them was a blot with a tail. The mage had got that off a mile-post in a field with her eyes shut. Sylvanas would very much have liked one of the marks to be wrong. She put her finger on the north road where the oldest short-rate loads went out, the mage's heaviest marks sitting on the same names. She went west, and they did it again.
+
+"The first short-rate load on each road," she said. "The date."
+
+Cyndia read them off. North was earliest by a fortnight, Millhaven taking its first at midsummer, and the mage's marks were blackest around Millhaven. She had said *old* without being told anything about any book.
+
+"It started there," Corley said, a hand to his mouth.
+
+"It started there, or it started there first," the mage said, looking at the sheet. "That's not the same."
+
+Sylvanas went down the whole book, the short-rate lines on every page, own cart, own cart, and the places beside them. Millhaven's three loads looked like every other line. Take the name off and they were anyone's: a dozen sacks, a fortnight apart, a boy and a horse and two coppers under, gone up a road to a mill or a baker glad of the price.
+
+"How many places. Short rate, since midsummer. Every name once."
+
+Cyndia went back to the start and counted again. Corley put a cup from his kettle in front of the mage without a word, and she held it against her chest in the wrapped hand, not drinking.
+
+"Thirty-one," Cyndia said at last. "In this book. Some of them I don't know where they are."
+
+"I do," Corley said, his voice gone small. "I know where they all are."
+
+Thirty-one, out of one shed, on four roads, in one season, and the shed a day's ride from anywhere that mattered.
+
+She had thought, in that village, in the loft, on her knees in that cage with the boy's teeth in her hand, that she was following one man. A young man with a cart. She could follow one man; she had followed worse down worse roads, and caught them. She put her ink-black finger on Millhaven at the top of the sheet and drew it down the north road to the dot in the middle, then out along the other spokes in turn.
+
+The mage was watching her finger.
+
+"Master Corley. I'm taking this." She tapped the sheet. "Copy the short-rate lines out for me, every one, with the dates. Cyndia will sit with you. If the master asks where the lines went, tell him the Ranger-General of Quel'Thalas has them, and he can write to Silvermoon."
+
+He picked up a fresh pen and started, his hand not steady.
+
+They slept that night in the loft of the carters' inn across the road, on straw that smelled of other people's horses. Sylvanas took the first watch and then, because Lyriel was asleep sitting up against the wall with her mouth open, the second, Corley's list in her coat with the sacking. The mage slept on her side with the wrapped hand held up off the straw.
+
+The second day went in stops.
+
+A mill down a side road past Coldwell, where the miller had flour in his eyebrows and a slate on the wall. Lyriel admired the slate and asked after the young fellow with the cart.
+
+"Came back yesterday," the miller said. "For the last four sacks of his own load. Paid me full rate for them, more than he'd sold them me for. Said the damp had got into them on the road, and he couldn't let a customer keep spoiled flour." He wiped his hands down his apron, still put out by it. "Thirty years I've milled here, and never once a carter buying back."
+
+The mage stood in his yard with the heel of the staff on the stones, the crystal going dull gold. "Heavy. Old," she said, and then, "In the yard. Whatever was in the store has gone."
+
+A shop in a hamlet where a woman kept a notched stick on a nail for every house that owed her, half of them with a fresh notch since midsummer for the cheap flour. "Cheap, he called it," she said, and hung the stick back on its nail.
+
+A carters' inn at Wick with a stable book by the door, the free carters signing with a cross. One of them had gone out that morning before light, the ostler said, south, without waiting for his breakfast. "Paid for it, though. He always paid."
+
+A second depot on the south road, smaller than Corley's, with the same crooked rate in the margin of its book, and a clerk who did not want to show it and then did. Beside the short-rate loads there the clerk had written a word that Corley's book lacked. They were booked *in* before they were booked out, and from the same place every time.
+
+"The big depot," the clerk said, tapping the margin. "Down the river road. They break the Andorhal loads there for this whole side. Everything on this side of the river goes over the overseer's scale before it comes to me."
+
+At every crossing between, the mage got down, or Lyriel got her down, and set the staff's heel in the road and stood with her eyes shut while the horses blew. The Thalassian horses sidestepped once at the staff's cold and stood, as they had stood to the ward-stones below the Pass; it was the carters' cobs that shied, and were cursed for it. Heavy. Light. Old. Starting. She said it to the ground. Sylvanas sat the mare holding the mage's reins and watched the mage's face go a shade greyer each time and come back a shade less.
+
+By late afternoon they had a table.
+
+It was in the front room of an inn on the south road, under the window, the sun coming in low across it. Sylvanas had spread everything on it: her sheet from Corley's office, Corley's list, the miller's slate copied onto the back of a bill of sale, the hamlet woman's names in Lyriel's leaning writing, the Wick stable book's crosses, the second clerk's lines. A cup of the inn's beer stood on one corner to keep it flat and left a ring.
+
+She had drawn the roads again on a bigger sheet, then the side roads off them, then the lanes off those, some names twice because they were in two books, Wick in four. The mage put her marks down over the top of all of it in black, heavy and light, clumsy. The sheet looked fought over.
+
+The mage had a heavy mark on a place called Hollow Green, put there that morning from the crossing at the bottom of the Hollow Green lane.
+
+"Hollow Green is in no book," Cyndia said. "The woman at the shop said they've their own mill and they're proud of it."
+
+"Then it's past it. I heard it from the bottom of their lane and put it on the first name I came to. What's beyond Hollow Green?"
+
+Cyndia ran a finger down the list. "Brent's farm. Two short-rate loads."
+
+The mage took the pen in her two fingers and drew a bar through her mark on Hollow Green until it was only a black bar, then made a new one further down the lane on Brent's. It came out a blot. She left it.
+
+Sylvanas had sat at council tables in Silvermoon where a magister would have let a village burn before he moved a mark of his own on a map. The mage put the pen down and pushed a loose piece of hair off her face with the back of her wrist.
+
+She had thought, when she'd thought at all, that at the end of the road there would be a man. A man with a cart, and a reason, and a face she could put an arrow through. One man with a cart didn't sell grain short at forty-odd villages on four roads in one season. That was somebody with yards and books and boys, a scale every sack on this side of the river went over. Every human road in Lordaeron she had ever sneered at for its ruts was down there under the ink with a cart on it.
+
+She could not check one mark on that sheet. She had held the mage's staff once, on a cellar ladder in Millhaven, and felt a cold stick hum in her bones and mean nothing. Every blot over her lines was the mage's word and nothing else, and she was going to ride on it tomorrow. She pressed her finger on the Hollow Green bar until the nail whitened. It was a bar through a wrong mark, the right one further down the lane where Cyndia's book said it should be. So far, every mark she could lay against a book had matched it.
+
+"Forty-seven," Cyndia said, laying her pen down. "Nineteen of them in more than one book."
+
+"And that's the ones that kept a book," Lyriel said.
+
+At the next table two men in good brown coats were complaining about horses. There wasn't a remount to be had between here and the river, the older one said. Nor oats. The army had taken them all at the King's price, which was no price at all.
+
+Sylvanas turned on the bench, one hand on the sheet. "What army?"
+
+They looked at her ears, then at the bows against the wall.
+
+"The prince's, my lady," the older one said. "Prince Arthas. He has them up at Strahnbrad—orcs out of the camps, burning out farms in the hills, and he's gone up to finish them. You can't get a cart on the hill roads for soldiers."
+
+"Strahnbrad."
+
+"Up toward the hills," the younger one said, jerking his chin at the window and the south beyond it. "Soldiers on every road that way. Wherever you're going, I'd ask before you go."
+
+She turned back to the table and smoothed the sheet flat. Terenas's boy, with an army and orcs to chase. If he had an opinion about grain at all, it would be somewhere below the orcs, and below his horse.
+
+The innkeeper came over, wiping his hands, to ask about rooms.
+
+"How far to the big depot on the river road?"
+
+"You'd be there by noon tomorrow, my lady, if you went at first light. There's an inn at the halfway, if you'd rather go on tonight. The Plough. Decent beds."
+
+Sylvanas began to fold the sheet. It wouldn't fold along the old creases any more; there was too much on it. She folded it anyway, wrong, and tucked it into her coat with the sacking.
+
+"Bread and cheese," she said, standing. "For four. We'll take it with us."
+
+The light went while they were still in the open. Then the river road ran into woods, oak and hazel with holly under them, the growth cut back a cart's width years ago and not since, so the hazel touched overhead in places and the road ran on under it. Damp came up out of the ground and got into her coat at the collar. The mare's neck was dark with sweat under the mane, steaming.
+
+They rode as they had ridden since the village: Sylvanas in front, Cyndia on the left, Lyriel on the right, the mage in the middle. Where the road was wide enough Lyriel let her horse drift in, closing on the mage's knee. Behind them, the two places nobody was riding in. Sylvanas had stopped turning round to look at them somewhere after the ford.
+
+"—every letter," Lyriel was saying. "Did you see his g's? Every one with a tail down to the next line and a loop on the end of the tail. He wrote 'Coldwell' and it took up the page. That man was paid by the loop, Jaina. I've seen less thread on a spindle."
+
+The mage laughed.
+
+It came out short and surprised, as though somebody had pushed her. Then she laughed properly, bent over the pommel with the staff knocking the saddle-bow, and stopped only because it hurt. "He put a loop on the seven," she said, when she could. "On the seven."
+
+Lyriel turned to Cyndia.
+
+Cyndia was watching the trees to the left, along the wood at the height of a man, and back.
+
+Sylvanas faced front.
+
+Yesterday, the miller had said. The last four sacks, bought back at more than he'd been paid for them. This morning, the ostler had said, before light, without waiting for his breakfast. The east road at Corley's, light and only starting, with nine of its short-rate loads gone out in the last month. A man who had been through every door they'd knocked on, a day before them, or a morning.
+
+Bad luck, then. A free carter keeps carters' hours, and a slow hunt always runs a day behind. And a free carter buys back his own spoiled flour at a loss, out of the goodness of his heart, the day before four elves come asking.
+
+A day, every time. Somebody was keeping a day ahead of her, shutting doors, or behind her reading the road as she was reading it and sending word on. Four riders on Thalassian horses asking for books in every shed from the ford south. Somebody had sewn a fold of paper into a boy's collar and told him when, and the boy had sat on it since the back end of summer.
+
+She had been born in a forest, and tonight this wood was a bad place to be: black on both sides of the road, the hazel close enough to touch with the end of her bow, and four horses in a line down the middle. The tack was Thalassian, oiled and kept quiet, and it still made noise enough in a wood this tight: leather, the ring of a shoe on a buried flint, breath. She had her right hand back on the bowstring. The two bitten fingers were stiff. She closed them.
+
+She had meant to stop at the Plough, sleep, go on at first light, reach the overseer's scale by noon with everyone rested. It was what she would have told any ranger to do. And they would come in at noon, and the overseer would be sorry, but the young man had come by yesterday.
+
+"We don't stop at the Plough," she said.
+
+She said it low, and in the wood it carried.
+
+Lyriel dropped back from the mage's knee to her own flank.
+
+"We water at the Plough and go on. Nobody gets down after that until we can see the depot's scale." She watched the left-hand trees, where Cyndia was watching. "Every door we've come to, he's been through it the day before. I'd like to come to one first."
+
+Cyndia said, "Road's good," which was as much as to say the horses would do.
+
+The mage didn't ask how far. Sylvanas heard her shift her grip, take up the rein in the wrapped hand and drop the staff back into the crook of the dead arm.
+
+Sylvanas put the mare into a trot, and the others came up into it behind her.
+
+They watered at the Plough by the light of the ostler's lantern. He came out in his shirt and held it up to the horses, then to their faces, and lowered it again without asking anything. They were back on the road before the trough had stopped rocking. After that the night was the river road. The hazel ran out and the road came into the open, the river off to the left running loud over stones she couldn't see, the mare's ears two black points against a sky only a shade lighter than they were.
+
+Sylvanas slept once in the saddle, a moment of it, waking with her chin down and her right hand already at the bowstring. She stayed awake after that.
+
+Grey came up over the water at last, flat and cold, and the depot came up out of it. The mare's breath came out in short white clouds.
+
+She had pictured Corley's shed, larger. This was a town's worth of shed. Three long barns stood end to end along the bank on stone footings, roofed in tile, a wharf below them and a timber crane leaning out over the river with its rope hanging slack. A weigh-house sat across the gate with a beam over the road that could have lifted a loaded wagon off its wheels. Stables, an office with a chimney, a yard with room for twenty carts to turn.
+
+There were no carts in it. The gate stood open. Nobody came out of the weigh-house to see who had ridden through.
+
+"Cyndia. The yard, the stables, the wharf. Lyriel, get the mage down."
+
+She swung off, landing hard. Her knees had set again, worse than at Corley's, and for the first steps she walked on them stiffly, hating it. The barn doors stood open, all three pairs, run back on their rails as far as they would go.
+
+She went into the nearest and stopped just inside.
+
+It was empty. She had expected empty, or half-empty, a few sacks left against a wall, a heap of spoiled ones nobody wanted. The floor was oak, long boards worn into shallow troughs down the middle where barrows had gone up and down for a hundred years, and someone had swept it.
+
+The middle, where a man with a broom and a master waiting would sweep, and then the edges and the corners. Along the foot of every wall, where the boards met the stone, and in the gaps between the boards, where a grain store's dust sifts down and stays. She crouched and ran a gloved finger down one of the gaps. It came away with nothing on it but the flour that had been on it since the village.
+
+Along the walls the racks stood bare to the wood. On the floor in front of them lay long pale rectangles a sack-stack wide, where the boards had been covered for years and never darkened. A dozen ran down the length of the barn, every one clean.
+
+She looked up. The tie-beams were bare of cobweb; somebody had been up a ladder with a brush on a pole. Only the swallows' nests under the ridge had been left, mud cups empty now the birds had gone south.
+
+A barn was never quiet. The river slapped at the wharf piles beneath the floor and nothing else moved.
+
+Somebody had swept it, and not in a hurry, because a man in a hurry leaves the corners. A day's work for two men, or a night's. Who had told them to—
+
+Not yet. Who had the key to this place? Start there.
+
+She went out into the light, squinting. Cyndia was crossing the yard from the stables at a walk, which meant it would keep a moment. The mage stood in the second barn's doorway with the staff's heel on the sill and her eyes shut, Lyriel a step behind with her hands ready and not touching.
+
+"Ranger-General." Cyndia stopped in front of her. "The yard's been raked, all of it, from the gate to the barn doors, and the stable floors mucked out to the stone. There's one horse in the back paddock and a trap under the shed, and the harness is on the peg. The wharf's swept. There are rope-marks on the crane posts, old and new, so they had a boat in, but I can't tell you when." She paused. "Somebody raked the yard after the last cart went out. I'd say that was on purpose."
+
+"Wheel tracks?"
+
+"Not in the yard. Out on the road they're under everything else."
+
+The mage opened her eyes and came off the sill slowly, the staff knocking. The crystal on top of it was a dull gold, not much brighter than horn.
+
+"It's thin," the mage said. "All through. It was in there heavy for a long while, the boards have it, the way the miller's yard had it, and then it was taken out, and what's left is thin. Like a room where somebody's smoked a pipe for years, after you've opened the windows." She turned to the doors. "Whatever was stored in there, there isn't any of it now. Not a sack."
+
+"The books?"
+
+"I can't hear paper, Ranger-General."
+
+Sylvanas turned and took in the place properly, as she had not when she rode in, going for the doors and the windows and the ways out. Three barns, open, empty, swept. A weigh-house with its shutter up. The stables, mucked out to the stone. The wharf. And at the end of the row, set back from the yard behind a strip of beaten earth, the office, a small square house of brick with a slate roof and a thread of grey smoke going up from its chimney, straight, into air that had no wind in it.
+
+She had not seen the smoke from the gate. Somebody had stayed, then, and kept a fire lit.
+
+"Lyriel, the back of that house. Cyndia, the door. Mage, with me. Nobody touches anything they haven't asked me about."
+
+The door was on the latch. She knocked once with the side of her fist, for form, and opened it.
+
+The office took up the whole front of the house. It was warm, and getting warmer. The window faced east over the river, the sun clear of the far bank and lying across the floor in a long bright slab, and a squat iron stove was going in the corner on a brick hearth, its door open a crack and a red line showing round the edge. The ash pan under the grate was pulled half out and full, a soft grey heap, a curl at one edge still glowing orange and going black.
+
+Corley had kept a fire, too. The ink thickens, of a morning.
+
+Behind the desk the shelves were bare to the brackets.
+
+The man at the desk stood up, squaring his cuffs. He was fifty or so, in a good dark coat, with a pleasant broad face that had no colour in it at all. His shirt cuffs stuck out an inch past the coat sleeves, black with ink at the edge, old ink gone brown and new ink over it, still with a shine. The desk in front of him was the tidiest she had seen in Lordaeron: an inkstand, a sand-pot, a pen-knife, and five pens trimmed to one length and laid side by side.
+
+"Good morning," he said. "You'll have come up the river road. Your horses will want the trough; there's a good one by the stable—"
+
+"You're the overseer."
+
+"I am."
+
+"The books for this depot. Where—"
+
+"Gone to the regional office," he said. "Last week. For the quarter. They go up every quarter, all of them; the master likes to see every line himself. I'm sorry. If you'd come at midsummer, I'd have had the whole year on that shelf for you."
+
+"And the grain."
+
+"The last of it went two days ago. North, on the Brill road. Six wagons." He spread his hands, then laid them flat on the desk either side of the pens. "Sold whole to a house in Brill. The factor's name was on the bill, and the bill went with the books, or I'd give it to you. We sweep down after a sale. The master won't have rats."
+
+He had not asked who she was or what she wanted it for. He had taken in the ears and the bow and Cyndia in the door, as they all did, and then his attention had gone to the mage and stayed there.
+
+"Proudmoore. Read him," Sylvanas said.
+
+The mage had come in behind her and stopped just inside the sill, out of the sun. She lifted the staff a hand's height off the floor, the shaft in the crook of the dead arm and steadied by the two working fingers of the wrapped hand, and the crystal came up level with the overseer's chest and hung there, wavering, dull gold, the colour of old horn.
+
+He swallowed. Sylvanas watched it go down his throat.
+
+The crystal did nothing. The mage held it there while the stove ticked, then lowered it.
+
+"Nothing on him, Ranger-General. No more than on you."
+
+"Which house in Brill?" Sylvanas said, watching his hands.
+
+"Tolliver's. Tolliver and Sons, on the corn market, by the well—the elder Tolliver has the bill, if the younger's out. They've bought from this yard since my father's time." It came out smooth as a ledger line, every name in its column. "If you take the fork past the chapel you'll have the wagons in sight before Brill, I should think. They'll be slow on the hills, loaded like that."
+
+He was frightened. Sylvanas could see that without a staff. It was in the colour of him and in the hands pressed flat to the wood so they would not do anything else, and in the way he had answered every question before she'd finished asking it.
+
+Frightened of four elves walking into his yard at dawn with bows, the morning after he'd emptied it. Of a mage pointing a stick at his heart. Corley had gone red to the ears and run at the nose; this one went white.
+
+She could stand here and ask him which fear it was, and let him think up a second answer to go with the first. Six wagons, loaded, on a clay road, at a cart's walk, two days out. Thalassian horses could make that up before dark, even after the night they'd had. Every breath she spent in this room was a furlong. Another question, and the wagons would be in Brill by tomorrow with their sacks off and sold on to a dozen bakers, and she would have six more roads to follow instead of one.
+
+"Ranger-General." It was Lyriel, at the back of the house, through the inner door. "Back's clear. Kitchen garden, a well, washing on the line." A pause. "There's a marrow out here I'd want to see a cart for, if I had to carry it."
+
+The overseer laughed, a short polite breath, and stopped.
+
+"North," Sylvanas said. "The Brill road."
+
+"Through the town, past the chapel. There's a stone at the fork." He was nodding. "You can't miss it. You'll be wanting the trough first—"
+
+She was already out the door.
+
+The mage went up onto her mare from the mounting block by the stable, Lyriel's hands under her boot and her teeth set. Sylvanas took the mare north up the river road, through the little town, past a chapel with a woman sweeping the step, onto the Brill road, and there she put the mare into a canter and kept her in it.
+
+For the first miles the road ran out across the water-meadows on a causeway of stone and packed gravel, a lord's road, and it held nothing. Hooves rang on it. Wheels left nothing but a shine. The wagons were somewhere ahead, slowing on every hill. The causeway was flat, so she let the mare have it.
+
+At noon they watered at a ford and went on. Lyriel rode at the mage's knee with two fingers through the mare's cheek-strap, talking low about nothing Sylvanas could hear. The mage's head stayed up.
+
+In the afternoon the causeway ended and the road went up off the meadows between hedges, the stone giving out to yellow clay, the same as every road in this country. On clay a loaded wagon cuts deep.
+
+She pulled the mare up and looked again.
+
+There were always ruts. Two deep old grooves ran up the hill where loaded carts had gone for a hundred years. But they were soft at the shoulders, slumped in and smoothed down the way a rut goes when a night's rain has stood in it and drained and dried. The rain had come before dawn on the morning they rode out of the village; she had been awake to hear it. Six loaded wagons on this road after that rain would have cut through the slumped clay and left the edges standing sharp.
+
+There were no cut edges. She rode on up the hill and there were none. Hoofprints, single horses, ridden. A barrow with one wheel. Sheep, all over everything. A light cart, once, narrow, empty by the depth of it.
+
+"Cyndia."
+
+Cyndia was already down. She walked up the crown of the road with her eyes on the ground, crouched to put her fingers in a rut and drew them along the slumped edge, and came back.
+
+"Nothing heavy since the rain. Before it, plenty, but not lately. The sheep went through yesterday. There's a light cart, one horse, going north and coming back." She looked up the road and back at Sylvanas. "If six wagons came this way since the rain, they came by another road."
+
+There was a toll-bar over the top of the next rise, a pole across the road and a stone hut with a garden. They reached it as the sun was going down. The keeper came out with his day-book under his arm before they'd pulled up, a thin brown man in a leather apron, and planted his feet apart in front of his pole.
+
+Sylvanas let Lyriel take him. Lyriel got down and admired his beans, which were very fine, and asked how long he'd kept the bar and then whether the grain came through this way to Brill. He opened the book on the gatepost and went back through it with a finger, page by page, so she could see.
+
+"Not this month," he said. "Not this road. A month gone, more, there was four wagons from the river depot for the Brill mills, and that's the last. Since then I've had the post. A tinker. Lord's steward and his boy. Sheep for the market. And a company of the King's foot, a week gone, cutting across for the hill road and the prince, and they don't pay." He shut the book. "Grain don't come this way now. I'd know. Grain pays."
+
+The sun went down behind them on the road they had come up.
+
+No wagons. There had never been any wagons. She had taken a frightened man's word in a warm room because the wagons were getting further off with every breath she spent on him. She had heard that excuse from a ranger once, at the Pass, and taken the skin off him for it in front of his post.
+
+And the stove. Fresh ash on a warm morning, a red curl still going black at the edge of it, and she had looked at it and seen Corley's kettle.
+
+"Back," she said.
+
+Lyriel said, "Ranger-General," and was back up in her saddle before the toll-keeper had his pole open, which he had begun to do out of habit. The mage looked at Sylvanas once across the gap between their horses, a grey face in the last of the light, then turned her mare.
+
+They rode back down through the dark.
+
+It was the second night without sleep, and the horses knew it, even these horses. Somewhere on the causeway, in the black, with the water-meadows smoking pale on either side, the mage's mare went down on its knees and came up again with the mage still on it, by Lyriel's arm.
+
+After that Lyriel rode with her knee against the mage's knee and her fist in the back of the mage's coat, the two of them coming on together. Sylvanas did not stop. Every time she thought about anything on that road, she was thinking about the stove.
+
+The depot gate was shut when they came to it in the first grey, a chain through the bars and a padlock on the chain.
+
+She went over the wall and dropped into a yard as raked and empty as they had left it. The house had its back door standing open, knocking against the frame in the air off the river. Inside, the drawers were out of the kitchen dresser and upside down on the floor. Upstairs the press stood open with nothing in it but hangers and a smell of lavender, a woman's shawl lying on the stair where it had been dropped and stepped over. The trap was gone from under the shed, the horse from the paddock. The washing was still on the line.
+
+Cyndia read the trap's tracks in the lane, fresh and fast, going south over the bridge. The bridge-keeper was up and lighting his pipe.
+
+"Him and his wife," he said, round the stem. "Yesterday, not long after the bells for morning. Went over at a trot and never stopped to pay, which isn't like him, he pays to the farthing, that one. And she was crying." He got the pipe to draw. "Gone to her sister's, I'd think. She's got a sister somewhere down the south road."
+
+Alive, then, and the best part of a day ahead, gone into the whole south of Lordaeron with his wife and his trap.
+
+Sylvanas stood in the empty office with her hands at her sides. The chair was pushed back from the desk at an angle, the way a man leaves a chair when he gets up quickly. The pens were gone from the desk, all five. The stove was cold.
+
+She went down on her knees in front of it.
+
+The ash pan had been pushed home under the grate. She drew it out by the lip, set it on the bricks, and put her left hand into it, glove and all.
+
+Ash, fine and grey and cold, and in it, when she turned it over with her fingers, a curl of parchment gone brown and brittle at the edges, still pale in the middle. A wad of paper the size of her fist, black on the outside and whole inside when she broke it open, the way paper goes when a man crams in too much at once and shuts the door on it and doesn't stay to see it through. Small hard chips, dark red, clicking together in her palm. Wax. Broken seals.
+
+He had swept every corner of three barns, and then he had stuffed his stove the way a man strikes camp with riders on the ridge.
+
+"Cyndia. There'll be an ash pit out at the back where this gets emptied. Bring me everything in it. Use a bucket and don't shake it."
+
+Lyriel stayed on the wall, watching the gate and the lane and the bridge. The mage came in from the kitchen holding onto the doorframe and let herself down onto the hearth-step by the stove in pieces, the staff across her knees. The sun came round to the window and lay across the floor in a long bright slab, as it had the morning before, and Sylvanas worked in it.
+
+She took the scraps out of the ash one at a time and laid them on the boards, not reading them yet. She smoothed the curled ones with the side of a finger until they cracked, then left those be, and set them in rows the way she would lay out arrowheads off a field, by kind. Slips, the long narrow ones, ruled, with a column on the left. Squares of thicker paper with writing all over them. Parchment, three pieces, the seal-cords still through the holes. The wax in its own little heap.
+
+Cyndia came back with the bucket and knelt across the rows from her, tipped it out onto a sack a handful at a time, and went through it with two fingers. She laid the slips at the end of each row, in the same order, and after a while she was laying them faster than Sylvanas was.
+
+"There's nothing in them," the mage said.
+
+The mage had the heel of the staff on the boards beside the nearest row, the crystal dull.
+
+"The paper. It's only paper. It never sat by any of it." She took the staff off the boards and laid it back across her knees.
+
+They were the halves of waybills, the part a depot keeps when the load goes out: a date, a carter, sacks, a weight, where from, where to. The burned ones had lost an end or the middle, some of them everything but a word. *From Andorhal.* *Andorhal stores.* *Recd. And.*, in a small fast hand. *To Andorhal, for breaking.*
+
+Andorhal on the left of the slip, or Andorhal on the right, and on the other end every name she had written on her big sheet over two days and a dozen she hadn't. Wick. Coldwell. Corley's yard, by the name of the crossing it stood on. The river depot itself, over and over. The second depot on the south road. Villages she had never heard of, on roads she had not ridden.
+
+"With a place on them I can read," Cyndia said, after a long time, "fifty-three. Every one of them has Andorhal at one end."
+
+"Every one."
+
+"Every one I can read the ends of. Nine more with the end burned off."
+
+Sylvanas laid the river depot's slips in a fan, Andorhal at the narrow end and the other names going out at the wide end, then Corley's crossing, and Wick, and the south road. The fan kept widening at the top and never at the bottom, forty roads, fifty, all of them running down into one name like water into a drain.
+
+The square of sacking in her coat said Andorhal. Brask had said Andorhal, Corley had written *And.* in his margin a hundred times, and the mage had said, at the village, *or where he wanted us to think it came from*. Fifty-three slips in a frightened man's stove, and he had been trying to burn every one of them.
+
+Then there was the other word.
+
+It had been on the parchment first, the one word left whole on the biggest of the three pieces, above a seal that had run in the heat and gone into a red blister: *Barov*. She had read it and laid it in its row. Then it was on a slip, *Barov stores*, and on another, *for Barov's factor*, and on a corner of one of the letters, in a good clerk's hand, *his lordship Barov*.
+
+Cyndia started saying it as she laid them, the way she said a count. "Barov." And again, a little later. "Barov." Then she stopped saying it and only laid them, and sat back on her heels when she had finished. "Barov on thirty-one of them. And on the parchment. The wax is the same on all the pieces I can see a mark on. A shield, with something on it. It's gone soft."
+
+Sylvanas sat back too. Her knees were bad and her back was bad. She had been awake too many nights and on a horse through most of them, and she could feel every one in her eyes.
+
+"Proudmoore. Barov."
+
+The mage answered at once. "One of the old houses. A Lordaeron lord; he sits at the King's court." She shifted the staff on her knees. "They hold the land round Andorhal, and the granaries. Most of the granaries, I think. Lord Barov came to Boralus once when I was small, about a timber contract, and talked about wheat all the way through dinner while my father pretended to listen." She looked at the rows. "If they hold the granaries, their name's on the grain."
+
+A name.
+
+Every name so far had been a place. A boy in a loft who had said nothing. A young man with a cart and a face nobody could keep hold of. *Own cart*, and no name, because the yard was paid at the gate. And now a house with a lord in it, a seat at court, a seal, and a road that ran straight down into the middle of his land. She could ride to it and stand in front of it with a bow.
+
+She wanted it to be him. Sun's sake, she wanted it. A man at the end of the road she had been riding since the Pass, with a face, and a hall, and a door.
+
+But if Barov held the granaries, his name was on every sack that went out of them, rotten or sound, and on every slip that came back. Corley's master was in Andorhal till the end of the week, and nobody was going to hang Corley's master for being in Andorhal.
+
+Why had the overseer burned it, then? He had burned everything: the dates and the weights and the carters and the villages. A frightened man doesn't pick what to put in the stove. He puts in the shelf. Or he does, if somebody told him what to pick.
+
+And who told him? The lord? Or whoever had the use of the lord's granaries, his seal, his sacks and his overseers, the way they'd had the use of a boy in a loft since the back end of summer? She did not know. A ranger who brought her a name on a waybill and a look on his face would be sent back out for more.
+
+Sylvanas reached into her coat and took out the big sheet, folded wrong and soft at the creases, and opened it on the boards above the rows, weighting one corner with the ash pan. Then she took out the square of sacking and laid it at the narrow end of the fan, where all the slips ran together, the sheaf in its ring and the black stencilled letters facing up.
+
+ANDORHAL.
+
+She put her ash-black finger on the river depot on the sheet and began to lay the slips against it, one road at a time.
+
+---
+
+They stopped at midnight where the road split in two.
+
+There was a carters' lodge in the angle of the fork, a stone hut with a turf roof and one door, put up for men caught out by the dark with a load on, and a chest-high dry-stone wall between the door and the road. Old ash in the hearth gone to a crust. Bracken heaped in a corner and trodden flat. A bench along the back wall, made of planks off something else and set on two stone blocks. Somebody had drawn a horse in charcoal on the plaster above it, and somebody after him had given it a fifth leg.
+
+The horses stood hobbled in the lee of the wall, cropping the verge. Cyndia had the fork, both roads, walking. Lyriel had the wall itself, sitting up on top of it with her bow across her knees and her back to the door; every so often Sylvanas heard her heels knock the stones.
+
+Inside there was one candle, beeswax, thick as a wrist, smelling of honey as it burned. She had picked it up off the overseer's kitchen floor, half his wife's dresser drawer spilled round it, and she would answer to his wife for it if his wife ever came home.
+
+Everything else was on the bench or the floor in front of it. The big sheet, weighted at the corners with stones from the hearth. The slips, in Cyndia's order, by date, tied in bundles with bootlace. Corley's list. The ink-horn. The square of sacking, face up, because she had stopped putting it away. Her gloves lay by her boot, blacking everything they touched.
+
+The mage sat on the floor at the end of the bench, her back against the stone block and the staff upright in the crook of the dead arm. She had eaten, finally, half of the inn's bread and none of the cheese. There was colour in her face again, or the candle was putting it there. Her wrapped hand lay in her lap, the two working fingers out of the linen and already inked.
+
+"Coldwell," Sylvanas said, untying the first bundle. "The first load at midsummer. Twelve sacks."
+
+"Heavy. Old."
+
+"Wick. The same week."
+
+"Heavy. Older than Coldwell." The mage didn't look at the sheet. "I had it from the bridge. It's been in the ground there long enough to settle."
+
+Sylvanas set the slip down and left her thumb's black print on its corner. She wiped the thumb on her breeches and left a print there too.
+
+"Elm Ferry, harvest. Twenty sacks, King's road."
+
+"Nothing."
+
+Sylvanas stopped, the slip still in her hand.
+
+"Nothing," the mage said. "Not light. Nothing. I stood in that road while you watered the horses, and it was a road."
+
+Sylvanas laid the slip on the sheet on the King's road, beside Elm Ferry, and drew the next out of the bundle.
+
+They went on like that. She read the place off the slip, and the date, and the sacks. The mage gave her back a word, two words, from wherever she kept them, as fast as Sylvanas could read. Heavy. Light. Old. Starting. Nothing.
+
+When Sylvanas read a place twice, from two slips, the mage said "You've had that" before she'd finished the name. When Sylvanas read her a village she had never been near, she said, "I haven't been there." Sylvanas put those slips in a heap on their own. It got to be a tall heap.
+
+The candle burned down a finger's width. A moth found it, going round, and round, and in.
+
+Andorhal's grain had gone everywhere. The slips said so, fifty-three of them and the nine with their ends burned off, and the destination column was the one clerks got right, because a carter got paid by it. Barov's seal on half of it, his factor's name on more, his stores at the Andorhal end of every one.
+
+And the mage's marks sat on that same web of roads in clumps. All of them, every heavy one and every old one, sat on the south road and the lanes that ran off it, or on villages whose slips said *by the south road* in the small fast hand, getting older the further down the south road she put her finger.
+
+She sat back, the bench creaking, the planks shifting against each other.
+
+"It isn't in the granaries," the mage said. "Or it isn't in all of them."
+
+"Or it goes in on the road."
+
+"Or it goes in on the road, or at the far end of the road, before it ever gets to Andorhal, and comes round the back of it." She was looking at the sheet now, at the south road where it ran off the bottom edge with nothing under it. "I can't tell you which from here."
+
+"Which road it's on. Can you tell me that?"
+
+"Yes."
+
+She got the staff's heel under her and came up off the floor by it, the dead arm locked round the shaft and the two fingers steadying, and went to the door and pulled it open.
+
+The night came in. Cold, colder than it had been at dusk, with a damp edge off the fields that went straight down the back of Sylvanas's collar. The candle flame lay over flat and stood up again. Outside, the fork was grey under a quarter moon, the two roads pale going away from the door, one straight and one bending, Cyndia a shape out on the bend with her head turned toward the house.
+
+The mage stepped out onto the doorstone, set the staff's heel between the two roads, and shut her eyes.
+
+Slowly the crystal lit, a thread of gold in the dark, brightening, and then it did a thing she had not seen it do before. The light leaned. It crowded to one side of the stone, the staff standing straight under it, and the side it crowded to was the bend. The mage's jaw was working. Her teeth had begun to go, a fine fast chatter Sylvanas could hear from the bench, frost coming up white on the two bare fingertips where they lay against the wood.
+
+"That's enough," Sylvanas said.
+
+The mage took the heel off the stone. She stood with her shoulder on the doorpost and her eyes still shut, then opened them and shut the door behind her, which was more than Lyriel ever did.
+
+"The south road. Heavy, as far down it as I can hear, and that's further than I could hear at the depot. It's old at the bottom. There's a new layer on top of the old, and it's thin, but it's there, and it's going the same way." She came back and let herself down by the bench end again, the staff sliding into the crook of her arm. "The King's road's thin. There's a smear on it where carts have been that were near it. Nothing's ever sat on it."
+
+"How sure?"
+
+"As sure as Brent's."
+
+Sylvanas had a word ready, *sit down, Mage, before you fall down*, or the flat of a hand at the elbow, the way she kept a hand ready on a cliff path for a ranger who hadn't done that path before. The mage had sat down without being told. She was picking at a crust of frost on her fingertip with the edge of a thumbnail, studying the sheet.
+
+A Kirin Tor mage, and Sylvanas had yet to meet one who could tell you the hour without wanting the sundial admired. She had come down out of the Pass expecting one more, with a worse seat on a horse. She had been waiting since the village for the bit at the end. The *wasn't that something*. The little hand held out for it.
+
+And the woman was picking frost off her finger, reading the map upside down.
+
+Jaina had been on her feet before the question was cold.
+
+Jaina, then.
+
+Sylvanas took up the pen. She drew the south road on down off the bottom of the sheet onto the boards of the bench, there being nowhere else to draw it, bending it the way the light in the crystal had bent, the ink soaking into the grain of the bench.
+
+"There." Jaina leaned over and put a dry fingertip beside a village on the south road, two lanes down. "Ashford. That's not light. I said light at the time, I know. I hadn't heard the rest of the road. Make it heavy."
+
+Sylvanas made it heavy.
+
+The new mark sat black on Ashford, across the sheet from the bar through Hollow Green. At the foot of the candle the moth was in the grease now, still moving.
+
+It was a good map. Two roads into Andorhal, and one of them sick from end to end, getting sicker the further south it ran.
+
+And at the top of it, a depot swept to the boards the night before they came, a stove crammed full, a man who had his answer ready before she asked the question. Before that, a free carter who bought his own flour back the day before. Before that, a boy in a loft with a fold of paper sewn into his collar, who had been told when.
+
+Who told the overseer? Anyone. Brask, Corley, the miller, the ostler at Wick, the ostler at the Plough with his lantern. Anyone could stand in a doorway after four elves had gone by and tell the next man who came along.
+
+She leaned back against the wall and the bench shifted under her, plank against plank. She put her hand down flat on it to stop it.
+
+Her palm was bare, and the wood under it was ridged. The bench was made of wagon boards. Long planks, edge to edge, the holes still in them where the bolts had gone through to the bed-frame, a rust-stain bleeding out round each hole, and one board with a bit of iron strap still nailed across its end.
+
+Between the boards the cracks were packed full of grey dust. She ran her thumbnail down one of them. It came up under the nail, fine and dry and packed so hard it came out in a little curl.
+
+Grain dust. Years of it, worked into the cracks by sacks going up and down that wagon bed till the wagon fell apart. Somebody had made a bench out of what was left.
+
+The old man's wagon had been like that: flat plank sides, empty, the dust gone grey in every crack between the boards. *Empty going up, full coming down.* She'd thought that on the Millhaven bridge, and been pleased with herself for thinking it.
+
+He came up for the mill every fortnight. The mill was dead. *Nothing for me here, then.* She could hear the voice that had said it, plain and polite and flat, a man remarking on the weather. And then he hadn't turned round. A man with an empty wagon and nothing to fill it with turns his horse and goes home. He'd slapped the reins on that brown cob and driven straight on, north, up the street between the houses with the tables still laid in them, as if he had business further up. There was nothing further up but the rest of the dead street, and the cow way, and the Pass.
+
+And a young fellow with a grain cart. *New man. I've a mind to see what he looks like.*
+
+One odd old man on a road. She'd said it to rangers a hundred times, to young ones back from their first sweep with a story about a woodcutter who had stared at them too long. Everybody stares at elves too long.
+
+He'd gone north. The depot was south, a long way south. An old man on a box behind a cob with mud to its knees would not have made the river in a week, going the wrong way. And word didn't need a cob to carry it. She'd said so herself, not a moment since.
+
+She tried him beside the depot and he did not fit there; she tried him beside the young man with the cart and he did not fit there either, except that he had asked after him.
+
+An empty wagon, going the wrong way.
+
+She wiped the curl of dust off her nail onto her knee and got up, going out to take the wall from Lyriel.
+
+Lyriel came in off the wall and lay down on the bracken with her bow beside her, asleep before she had finished pulling her cloak up. Jaina slept sitting against the stone block, the staff in her arm and her head on the end of the bench next to the candle. Sylvanas pinched the candle out so she would not set her hair alight, then went back out and climbed the wall in the dark.
+
+The fork lay grey under the moon. The straight road went away south-west across the open ground, wide and pale and well-drained, the King's road, and anyone with a pair of eyes and a destination would take it. The other went off south between hedges, bending out of sight in the dark under the hills.
+
+Cyndia came back up the south road out of the dark when the sky behind the hills had just begun to come apart from the hills themselves, and stopped below the wall with her face turned up.
+
+"Ranger-General. I walked the south road a way, as far as the first bridge." Her left hand was by the quiver. "It's cut to pieces. Heavy wagons, iron tyres, a lot of them, going both ways, and more coming down than going up. The ones coming down sit lighter. The horses that pull them are all shod the same, a wide flat shoe with a heavy heel. I've seen that shoe on the King's post horses at the Pass." A pause. "I'd say they were army wagons, going up full and coming back empty."
+
+"Going up where?"
+
+"Into the hills. The road climbs past the bridge. I didn't go further."
+
+Sylvanas dropped down off the wall and went in, and lit the candle again off her flint. It took with the smell of honey and hot dust. Jaina's eyes came open at the light.
+
+She knelt at the bench on stiff knees; they had set again in the night. The south road ran off the bottom edge of the sheet and on down the boards in her own ink, bending. She dipped the pen and wrote at the edge of the sheet where the road left it, in letters as small as she could make them with a hand that had been holding a bow for four days: *Strahnbrad*.
+
+The men in brown coats at the inn had said soldiers were on every road up toward the hills. The toll-keeper's company of the King's foot, cutting across for the hill road and not paying. Cyndia's wide flat shoes. Three of them, and every one pointing down this road.
+
+She drew her belt knife and set the point on the word and leaned on it through the paper into the wood. It went in a thumb's depth and stood there.
+
+"The King's road is straight, and drained, and it goes into Andorhal by the front gate, and it's clean. It goes to a lord's door and a lord's sacks." She touched the knife's pommel. "The south road is the one the grain comes up. It goes round through the hills, past this, and into Andorhal by the back. And the army's on it."
+
+If she were hunting four elves on Thalassian horses, she would watch the road the trail was on. Whoever had told the overseer when would know that as well as she did. The King's road was clean, and clean was no use to her. At the end of the south road was whatever was putting the sickness into the grain, or the place it was put in.
+
+The slips said both roads. Only the marks said south, Jaina's marks, off a staff Sylvanas could hold in her own hand and feel nothing from. She was going to put four horses on a road she could not check.
+
+Jaina sat up with the staff across her knees.
+
+"I can read it again from the first bridge," she said. "When it's light. If you want to be sure."
+
+"No."
+
+Jaina nodded once and began getting the staff back into the crook of her arm.
+
+"The army is up there for the orcs. Orcs burning farms it can see from the saddle. It'll put everything it has into them, and when we ride in with a bag of flour and a story, they'll put the flour after the orcs, and after the horses, and after the quartermaster's supper. I'd do the same, with orcs in my hills." She pulled the knife out of the bench, the sheet coming up with it and dropping. "Expect them to get in the way."
+
+Jaina ran a thumb over the little hole in the sheet where the word had been.
+
+"Then I'll have to show it to them."
+
+"You'll have to. I can't see it either."
+
+She folded the sheet, wrong, along new creases, and put it in her coat with the slips and the sacking. Then she pinched the candle out and stood up.
+
+Cyndia had the horses saddled. She'd done it while Sylvanas was talking, the girths done up loose so the horses could breathe till they moved off. Lyriel came out of the hut yawning, bow strung and a crust of the inn's bread in her other hand. She got Jaina up onto the mare with a hand under her boot before holding the crust up to her. "Breakfast. I saved you the burnt end; it's the best bit, whatever Cyndia tells you." Cyndia went on checking a girth. Jaina took the crust in her two fingers and ate it.
+
+Sylvanas swung up. The mare's back was cold through the seat of her breeches, the mare blowing and stamping, ears forward at the dark, wanting to be off.
+
+They went out of the fork in the old order: Sylvanas in front, Cyndia on the left, Lyriel on the right with her knee by Jaina's, Jaina in the middle, and the two places at the back. The King's road went away to their right, pale and empty and straight across the open ground toward the front gate of Andorhal.
+
+Sylvanas turned the mare south, onto the bending road, between the hedges.
+
+The light came slowly. When it was good enough to see by, there was a smear low over the hills ahead where the road climbed, a long pale stain lying along the line of the slope. She had taken it for mist at first. It was too brown for mist, and it was moving.

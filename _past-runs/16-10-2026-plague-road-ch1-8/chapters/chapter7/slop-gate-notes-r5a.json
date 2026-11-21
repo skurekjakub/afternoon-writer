@@ -1,0 +1,157 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsA 70, 13, 9, 4, 3 is strictly decreasing); no fixes were needed this run",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 21,
+      "kills": 0,
+      "keeps": 21,
+      "severity": "none",
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [],
+      "cleanReason": "21 negation-shaped candidates were run through the four-step procedure. Two are procedural commands (L443 'You don't loose until I call.', L447 'Nobody comes down it at our backs'), which Step 1 keeps. Six are live binary diagnostics where both options exist in the scene and change what people do: L25 the low wall against the man with the book, L105 'Damp doesn't stop at a street corner' against the physicians' river damp, L121 the made-up brawling charge against the real reason, L125 'It isn't four yards', L241 Kett's against Fenner's crew, and L277 nothing to hide against a look-out. Five state hard capability limits that drive the split and the climb: L195, L209, L299, L365 and L5. Three are Sylvanas arguing with herself, with the next clause undercutting her: L25 the nib, L333 'If he had seen her... Unless he had been taught...', and L405. Two are spatial: L91 'rather than the chair' and L319 'came no nearer the sacks than that'. The rest are dialogue answers or rebuttals tied to a decision (L95, L237, L399). No 'not X but Y', fragment pivot, source-swap, count reset, mundane reveal chain or expression-decomposition shape appears anywhere in the narration. The L299 triple 'no' is a list of missing cover with no noun at the end of it, and it forces the rooftop climb, so Pattern 7's hallway shape does not apply. There is no page with 2+ kills and no shape repeats across scenes. Full defenses are in the scratchpad."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 23,
+      "kills": 0,
+      "keeps": 23,
+      "severity": "none",
+      "dominantPattern": null,
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "findings": [],
+      "secondSweepP5P6": {
+        "performed": true,
+        "roadsAndGeography": "Every road, lane or wall verb is a static-extent verb with no motion, fire or cognition load: L3 'The line ran back', L159 'The mill lane ran straight', 'Hurdle Lane came in behind', L223 'Hurdle Lane ran along', L225 'another lane came in', 'The walls ran right up to the corner', L239 'It ran straight for a stretch, then bent left', L245 'The lane opened out', L297 'the row met a wider street', L305 'The roofs ... ran into one another'.",
+        "plansMapsDocuments": "Havel's canvas map and pencil sheets get only physical verbs: chalked, rubbed out, gone grey, worn pale, spread, curled. The two document-layout idioms (L5 'Under that went her name and her rank', L351 'The same hook came again and again down the column') give no revision or cognition verb to a receiver noun. In L5 the actor, Sylvanas, is the subject of the sentence before. No actor is buried in an instrument phrase.",
+        "bodyPartSubjects": "Seven were found, and each one is involuntary, a state or perceptual: L9 'His pen hand shook' is a tremor. L29 'her jaw shut so hard that a muscle jumped' is an absolute state with an involuntary muscle. L173 and L343 fingertips going white is blanching. L303 'The fingers Tam had bitten caught the edge late and held badly' is an injured grip, and the injury is the point. L329 'Her elbow moved on the slates' is an accidental slip that sets off the grit run. L379 'her fingertips pressing white' is an absolute with blanching. L297 'the boots went off to the left' is perceptual, because she can only see his boots through the spokes. None of them says found, knew, carried or settled.",
+        "abstractStatesIntoBody": "None.",
+        "metaphorChains": "None. The staff takes four separate literal physical verbs in four different paragraphs (took her weight, knocked on the cobbles, the knock came down the street, the heel ground on the floor). That is not a chain of human verbs."
+      },
+      "cleanReason": "23 candidates have a non-human subject or a body-part subject. 9 have a literal non-human agent or physics: grain and wagons arriving, the pen resting, the staff bearing weight, dust showing prints, soot blacking sleeves, the sheet curling, the stool scraping, the cold reaching his jaw, and L365 'What it carries only wakes', which is the chapter's own plague mechanism. 7 are dialogue metonymy where the people are named in the same or next line: L21 'Since the Exchange said.' is followed at once by Sylvanas asking 'Who in it', L101 'every street that buys its bread' by the widow and her sister, L109 Fenner's and the Exchange changing suppliers, L141 villages writing in after 'the reeve writes in', L365 'It doesn't tell me whose hands.', L421 'the lock went on from inside' where the agent was out of sight, and L451 'Two bows' for archers. 1 is a collective actor: L337 the crews answering the bell with doors and wheels. 1 is physical allowing with an object and a result, outside Pattern 11's closed set: L297 'let the wagon grind on without her'. 2 are layout idioms. The 7 body-part subjects are covered in the second sweep. The real agent is named throughout: 'Somebody puts it on by hand', 'Somebody had chosen every spot', 'Neither man had a name for whoever stood the loaders'. No institution deceives itself, no road or room gets orders or memory, there is no nominalized realization and no permission tag."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 14,
+      "kills": 0,
+      "keeps": 14,
+      "severity": "none",
+      "dominantPattern": null,
+      "ticCounts": {
+        "tic1_cornerOfMouth": { "count": 0, "cap": 1 },
+        "tic2_marked": { "count": 2, "cap": 2, "lines": [177, 243], "note": "L177 'marked with the bill' is physical, in dialogue. L243 'marking the bend in Tenter Row' is mental, and the bend pays off at L307. At cap, not over." },
+        "tic3_tightenedEased": { "tightened": 0, "eased": 0 },
+        "tic4_facialShifted": { "count": 0, "cap": 1, "note": "L287 'Cyndia shifted her bow hand' is physical and not counted" },
+        "tic5_eyeGaze": { "count": 4, "cap": 4, "lines": [55, 55, 163, 373], "note": "Every other look in the chapter is tactical or functional work: watchers, the clerk dismissing them, Havel sizing up the bows, the handler's fixed eyes, the man at the window. At cap, not over." },
+        "tic6_weightHeaviness": { "count": 0, "cap": 2 },
+        "tic7_nonSaidTags": { "count": 0, "cap": 3, "note": "L59 'said under his breath' marks volume and is exempt" }
+      },
+      "toolMappedPatterns": {
+        "filter_watched": { "count": 3, "cap": 3, "verdict": "KEEP all", "lines": [29, 113, 421] },
+        "filler_nodded": { "count": 3, "cap": 4, "verdict": "KEEP all", "lines": [213, 247, 319] },
+        "simile_like": { "count": 1, "cap": 17, "verdict": "KEEP", "lines": [101] },
+        "simile_as_if": { "count": 1, "cap": 5, "verdict": "KEEP", "lines": [275] },
+        "participial_trailing": { "count": 12, "cap": 34, "verdict": "under cap" },
+        "punct_semicolon": { "count": 7, "cap": 17, "verdict": "under cap" },
+        "punct_colon_narration": { "count": 5, "cap": 8, "verdict": "under cap" }
+      },
+      "findings": [],
+      "cleanReason": "Every one of the seven tics is at or under its hard cap. There are no corner-of-mouth beats, no tightened or eased, no facial 'shifted', no weight metaphors and no performance tags. 'Marked' and the reaction gaze beats are both exactly at cap, and each instance is concrete or specific to the character. Every pass-A-mapped slop-checker pattern is under cap, and each flagged instance was adjudicated KEEP. The three 'watched' hits are a non-POV character's action (L29) or dialogue (L113, L421), so none of them filters Sylvanas's POV. The three nods are a consent beat (L213), a pointing gesture (L247) and silent signalling seen from the roof (L319). The two similes are Havel's gesture (L101) and the handler's cover move (L275 'as if to steady himself', where the 'as if' marks the pretence). No tic was introduced as a replacement in the revision."
+    }
+  ],
+  "toolSignalAudit": {
+    "passAMappedHits": 27,
+    "auditedAsKeep": 27,
+    "auditedAsKill": 0,
+    "outOfPassHits": [
+      { "pattern": "verdict_enough_for", "line": 223, "text": "wide enough for one wagon and a man flat against the wall beside it", "mapsTo": "narrator-seep-guide.md (pass B)", "note": "This is the only over-cap tool hit. It is not adjudicated in pass A." }
+    ]
+  },
+  "summary": {
+    "totalKills": 0,
+    "totalKeeps": 58,
+    "mildKills": 0,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [],
+    "killsWithFix": 0,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A, iteration 5, on v2-r5.md is a clean pass: 0 KILLs out of 58 candidates across the three guides. The kill trajectory is 70, 13, 9, 4, 3, then 0. Negation is clean on 21 candidates, intent-smear on 23 (the P5/P6 second sweep included) and recurring tics on 14, with every tic at or under its cap. Every pass-A-mapped slop-checker hit is under cap and was adjudicated KEEP. The one over-cap tool hit, verdict_enough_for at L223, belongs to pass B. There is a structural texture deficit: the score is 89.7, below_target, with compound joins high at 16.6% against 14.135% and em-dashes low at 3.0% against 5.119%, plus 8 telegram runs and 8 texture deserts. Structural rhythm concerns: one_sentence_paragraph_pct, long_sentence_pct and mattr are out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.691, "target": 0.733, "delta": -0.042, "range": [0.613, 0.863], "inRange": true },
+      "sentence_length_mean": { "actual": 12.5, "target": 12.412, "delta": 0.088, "range": [10.412, 14.412], "inRange": true },
+      "sentence_length_cv": { "actual": 0.757, "target": 0.723, "delta": 0.034, "range": [0.623, 0.823], "inRange": true },
+      "short_sentence_pct": { "actual": 35.5, "target": 30.155, "delta": 5.345, "range": [23.155, 37.155], "inRange": true },
+      "long_sentence_pct": { "actual": 22.7, "target": 15.352, "delta": 7.348, "range": [12.352, 19.352], "inRange": false },
+      "opener_entropy": { "actual": 6.34, "target": 6.637, "delta": -0.297, "range": [6.137, 7.137], "inRange": true },
+      "one_sentence_paragraph_pct": { "actual": 32.8, "target": 21.378, "delta": 11.422, "range": [17.378, 26.378], "inRange": false },
+      "mattr": { "actual": 0.786, "target": 0.848, "delta": -0.062, "range": [0.818, 0.888], "inRange": false },
+      "structuralRhythmConcerns": ["long_sentence_pct above range", "one_sentence_paragraph_pct above range", "mattr below range"]
+    },
+    "textureMetrics": {
+      "texture_score": 89.7,
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "participial_pct": 6.6,
+      "compound_pct": 16.6,
+      "emdash_pct": 3.0,
+      "semicolon_pct": 1.0,
+      "short_pct": 44.4,
+      "verdict_reasons": [
+        "compound: 16.6% above target 14.135% (score 77/100)",
+        "emdash: 3.0% below target 5.119% (score 81/100)"
+      ],
+      "interpretation": "COMPOUND: 16.6% -> target 14.135% (score 77/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 3.0% -> target 5.119% (score 81/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 8,
+        "texture_desert": 8,
+        "zones": [
+          "s11-22 gate clerk description (desert + telegram s15-22)",
+          "s51-65 clerk interrogation dialogue (telegram + desert)",
+          "s155-164 Havel rope-walk exchange (desert + telegram)",
+          "s230-238 Jaina/Corin 'Who did you write to?' (telegram)",
+          "s290-299 split hand-off (telegram + desert)",
+          "s375-384 Cyndia's count of the eight (desert)",
+          "s535-548 Jaina's coat explanation (desert + telegram s538-545)",
+          "s571-581 'Kett shut his gate at noon' (telegram + desert)",
+          "s666-675 Jaina's one-man request into the orders (desert + telegram)"
+        ],
+        "passAOverlap": "None. No pass A candidate in these zones was a KILL, so no combined fix is owed."
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 37,
+        "total_violations": 1,
+        "overCap": [
+          { "category": "narrator_verdict", "pattern": "verdict_enough_for", "count": 1, "cap": 0, "line": 223, "pass": "b" }
+        ],
+        "passAMappedCounts": {
+          "participial_trailing": "12/34",
+          "punct_semicolon": "7/17",
+          "punct_colon_narration": "5/8",
+          "filter_watched": "3/3",
+          "filler_nodded": "3/4",
+          "simile_like": "1/17",
+          "simile_as_if": "1/5"
+        },
+        "unmapped": { "contact_pressed": "4/6" }
+      }
+    }
+  }
+}

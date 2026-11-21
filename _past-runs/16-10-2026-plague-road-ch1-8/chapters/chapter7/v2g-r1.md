@@ -1,0 +1,463 @@
+The grain came into Andorhal through the market gate one wagon at a time, and every wagon stopped under the arch while a clerk wrote it into a book.
+
+Sylvanas stood in the queue on foot behind a cart of barley, the last of the sun lying flat across the back of her neck and her legs stiff from the saddle. The line ran back up the road past the first houses, wagon after wagon with the teams standing hipshot in the traces. The Thalassian horses were in a carter's yard outside the wall, where nobody in a human market town would stand and look at them. The mare had gone sideways the whole way down the hill with Jaina on her back and shied again at the yard gate, and Lyriel had lifted Jaina off her there, in the straw, before she could try it again.
+
+Sylvanas had written the pass on the lid of the ostler's feed bin with the ostler's pen: *The bearer, Jaina Proudmoore of Dalaran, travels on the business of the Kirin Tor under escort of the Farstriders of Quel'Thalas. Give her passage.* Under that went her name and her rank—she had no other name to sign that would get a human mage and three elven bows through a gate—and then the leaf-and-arrow, pressed into wax she had softened at his lamp. The wax had run on the left side; it always did when she was quick.
+
+The wall was field stone no higher than a man's chest from the road, its mortar crumbling and patched with worse. A boy could have gone over it with a tailboard for a ladder. There was not a ward-stone set in it anywhere, nothing a horse could have sidestepped. Two men in militia leather stood in the arch, each with an iron grain spike as long as his arm and grooved down one side, driving the spikes into the sacks on every cart and drawing them out to look at what came up in the groove. A third man leaned on the wall above with his back half turned to the road. Just inside, in the shade, a clerk sat at a table.
+
+He was young and already going bald on top, with ink to the cuff of his right sleeve. Beside him stood a board with a row of wax seals pressed onto it and a yard's name inked under each. He held each carter's bill up beside the board before he wrote. His pen hand shook, the nib chattering on the paper at the start of every line and settling by the end of it.
+
+"Whose yard?" he said to the barley man.
+
+"Holt's. Same as yesterday. You saw me yesterday."
+
+"Seal."
+
+The barley man held up his bill. The clerk found Holt's in the row and looked from the board to the bill and back, and the guards spiked the sacks. Grain ran out of the holes when the spikes came out, trickling off the tailboard into cobbles already pale with it, every crack packed full. The whole gate smelled of warm grain, dry and sweet, like bread before it goes in the oven.
+
+"Since when," the barley man said, "do you spike barley at the market gate?"
+
+"Since the Exchange said." The guard wiped his spike on his thigh. "Move on."
+
+Which exchange? Who in it, and why this week? It could be the town's own officers looking at their grain at last, after a summer of burying people. Or somebody inside wanted every load counted and every seal matched, so he would know at once what came in that wasn't his.
+
+Nobody had bothered to raise the wall, because every cart still had to stop at the man with the book. Was he tired, or told to look tired? Nobody could order a man's nib to chatter at the start of a line and steady by the end of it. The shake was his own, then, though from the arch she couldn't have told him from a man who was worn out and paid.
+
+"Ranger-General." Cyndia, low, at her left shoulder. "Two in the arch with the spikes. One on the walk, and he hasn't looked out at the road since we joined the line. Two more inside by the trough, sitting down. Four of the five are watching the wagons."
+
+Jaina stood at Sylvanas's right with the staff in the crook of her dead arm, holding the pass up in her two bare fingertips, her jaw shut so hard that a muscle jumped under her ear. The linen on her left hand had gone stiff and rust-coloured across the knuckles where she had wiped her lip on the hill, and the crystal by her cheek gave about as much light as a coal going grey. Lyriel stood half a step behind her, close enough to get an arm under her if her knees went, and watched the man on the wall.
+
+The barley cart rolled through. "Next," the clerk said.
+
+Jaina held out the pass. The clerk read it, looking at the seal and then at his board of granary seals, and back at the pass.
+
+"Dalaran," he said.
+
+"Yes."
+
+"Business in the city?"
+
+"The Kirin Tor's. I'm to report to their house in the mage quarter."
+
+"Any business with the granaries? Buying or selling. A factor, the guild, a yard."
+
+"None."
+
+"Carrying grain? Flour, meal, seed, malt?"
+
+"No."
+
+"For how long?"
+
+"Until the business is done."
+
+He looked up at that. Jaina looked back at him with her chin level and blood dried in her nose, and waited him out. He dipped his pen.
+
+Somewhere around the grain question Sylvanas would have asked him what business it was of his what the Kirin Tor bought, and they would all still be standing under the arch.
+
+He tipped the pass toward the light to read the bottom of it. "Windrunner," he said under his breath. "Ranger-General. Which—"
+
+"My escort," Jaina said.
+
+He wrote: *Proudmoore, Dalaran, Kirin Tor. Escort, Farstriders, three.* Then her own name, copied off the foot of the pass in his shaking letters, into a book that lay open on a table in a gate, where anyone with a reason could turn back a page and find it.
+
+"Through," the clerk said. He handed the pass back, already looking past them at the next wagon.
+
+Lyriel took the pass out of Jaina's fingers before she could fumble it and slid it inside the front of Jaina's coat, and the four of them went in under the arch. Under the stones Jaina's lip drew back from her teeth, as if the air in the shade had an edge on it.
+
+The street on the other side was loud with iron tyres on cobbles and somebody hammering at a hoop. A little way in, the carts bore off left down a broad lane toward the granaries, and at the corner of that lane a man in a brown coat and cap sat on an upturned barrel with a slate on his knee, chalking a mark for every wagon that turned down the lane. When the four of them came level he looked up at the bows and chalked again, but Sylvanas could not see whether that mark was for them or for the wagon behind.
+
+So somebody in the granary quarter kept a count on top of the gate's. Whose? A factor's, the Exchange's, somebody who wanted to know every cart that came into his streets and where it went after.
+
+She walked on without looking back at him.
+
+On the left, past the lane, a squat stone house stood with its door open and a lamp lit inside. The militia post, where the tally-man had said it would be.
+
+The post was one low room with a beaten earth floor. The lamp smoked, and the smoke hung under the beams in a flat grey layer that stung the eyes. On the wall behind the table hung a canvas map of the district, chalked on and rubbed out so many times that the streets had gone grey. On the near corner of the table lay a stack of papers a hand high, furred with dust and held down by a river stone cracked clean across and fitted back together.
+
+Two men were at the table. The one sitting was saying, "—leave it with the others, lad, and I'll get to it when—" He stopped when Sylvanas came in.
+
+He stood up. He was of middle height, broad and square, with the build of a man who had carried sacks before he ever carried a truncheon. His hair was cropped close and going iron at the sides, and the backs of both his hands were seamed with old white scars, rope or fire, she couldn't tell which. A truncheon hung at his belt, its grip worn pale. He looked at her, then at Cyndia behind her, at the bows.
+
+"Ranger-General," he said. Then he looked past her to the door, where Lyriel was bringing Jaina in with one hand under her left elbow. "My lady. Sit, please. You look done in. Corin—"
+
+The other man was already moving. He was young and thin, in a plain grey coat with a violet cord stitched round the collar and a satchel on a strap across his chest, with ink on every finger of his right hand and the skin under his eyes dark as a bruise. He pulled the stool out from the table for Jaina so fast it tipped, and caught it before it went over.
+
+Jaina sat, setting the heel of the staff on the earth floor between her boots and leaning on it. Cyndia went to the wall beside the window, where she could see both the street and the door. Lyriel stayed in the doorway with her shoulder to the post, facing out.
+
+"Thank you," Jaina said. "Jaina Proudmoore, of Dalaran. A man on the road, a tally-man from the granaries, told us to ask here for Captain Havel."
+
+"You've found him." Havel sat back down on the edge of the table rather than the chair. "They do send them to me. I'm cheaper than a factor, and I'm still here after dark."
+
+"Proudmoore," the young man said. "Lady Proudmoore. From the— is it the Citadel? Did someone finally—" He put his inky hand flat against the satchel and pressed. "Were you sent? About the shipments?"
+
+"No," Jaina said. "Nobody sent me."
+
+He kept his hand on the satchel.
+
+"Where are people sick, Captain?" Sylvanas said.
+
+Havel answered at once, getting up and going to the canvas on the wall. He laid two fingers on it, held flat together like a blade. "Mill lane. Here, from the weir bridge up to the Corn Exchange. There's four yards on it: Holt's, Fenner's, the Exchange granary and Garside's. It's them and every street that buys its bread off the bakers at the bottom of the lane. The old ones go first, and the babies. A cough, and they get thin, and then one morning they don't get up. The physicians call it the river damp."
+
+"Is it?"
+
+"Damp doesn't stop at a street corner." He slid the fingers along the grey lane, stopping where a cross street met it. "This does. I've a widow on this corner who's lost both her lodgers, and her sister across the way has never had so much as a sniffle. They buy from different ovens."
+
+"Since when?"
+
+"Some since spring, an old man here and there. It went bad at high summer, when Fenner's and the Exchange changed their suppliers, the both of them in the same week. New carters, new loaders, a factor's name on the contracts that nobody at the Exchange has ever shaken by the hand."
+
+"The loaders."
+
+"Hired in, from outside the town." He rested his right hand on the truncheon. "I've stood at Fenner's gate when the shift let out and watched them come. They come in twos, and nobody calls it. When the front pair stop at the corner the lot of them stop and wait, then go on again. I've men on this post I've drilled since they were boys, and I couldn't get that out of them. And there's not one of them been seen in the Wheatsheaf since midsummer, when every other loader on the lane drinks there."
+
+"Where do they sleep, Captain?" Cyndia said from the window.
+
+"Behind Fenner's. There's a long shed back there that used to be a rope-walk. The new supplier put a door on each end of it and a lock on each door."
+
+"Why haven't you taken them?" Sylvanas said.
+
+"I took two. At midsummer, for brawling. There'd been no brawl; I wanted them in a room with a lamp and a door I could shut. The magistrate had them out again by dinner. Their factor wrote to the town council about my manners, and the council had the letter read out in the hall." He rubbed the back of one scarred hand with the thumb of the other. "I've twelve men between this gate and the mill lane. When we take that crew, we take the whole of it at once, and we do it so the magistrate can't open the door the same afternoon."
+
+All summer he had stood at a yard gate watching drilled men come off shift, then gone back to his post to write it down. She'd have had the rope-walk shut the first night. The magistrate would have had them out by dinner and the crew warned and gone, but she'd still have done it.
+
+"It isn't four yards," the young man said.
+
+"Not now, lad."
+
+"Sorry. Captain. I— it isn't, though." He unbuckled the satchel and drew out a fold of papers, looking round for somewhere to put them down flat. He lifted the cracked river stone off the dusty pile and set it on his own sheets to hold them. The top sheet of the pile he had taken it from was in the same small upright hand as the new ones, and so was the one under it.
+
+"Those are mine," he said. "Notices. When an inspector flags a shipment, he has to send a notice to the gate post. I bring them here myself." He slid them aside and drew the other sheets forward.
+
+"These are copies of waybills, Ranger-General." He said the rank carefully, getting all of it in. "The inspection office keeps the second copy of every bill that leaves the city under a yard's mark. This is Fenner's mark for the south road." He turned one round to face her, putting an inky finger beside a small drawn sign in the corner: a hook with two bars through the shank. "Fenner's clerk starts the hook at the top and pulls it down. This one was started at the bottom. You can see where the ink sat before the pen moved."
+
+There was a dark bead at the foot of the hook, where the pen had rested.
+
+"And on the day on that bill," he said, "Fenner's own book has both its south wagons in the shed with a cracked axle. Somebody's copying the mark."
+
+"How many?"
+
+"Forty-one I'd swear to, since midsummer. Fenner's mark, the Exchange mark, Garside's. The south road mostly, and some out on the weir road and the east road too." He put his hand flat on the old pile. "When a village takes sick the reeve writes in to the town, and those letters come here too. I put them beside the bills. Some of the villages on a copied mark have written in since, and the rest haven't yet."
+
+"Forty-one," Havel said, "out of how many thousand loads we've sent out since midsummer? He's careful, I'll give him that. But it's a crew in four yards that's filling those carts. Take the crew and you've stopped the carts."
+
+"And the forty-one already gone?" Corin said.
+
+"I can't arrest a village."
+
+"Then read them before you—"
+
+"You're asking me to go into the Exchange with a pile of copies and tell the guild it's been sending poison down the south road under somebody else's seal. They'd have me off this post by morning, and you back to Dalaran in a box."
+
+Neither man had a name for whoever stood the loaders in those yards and drilled them.
+
+"I want to see Fenner's," she said.
+
+"You will." Havel went back to the wall at once, running two fingers off the mill lane and down a narrower street behind it. "We'll come at it from the back, down Hurdle Lane from here. My lads walk Hurdle Lane day and night, so it's covered. You'll come out by the rope-walk."
+
+She looked at the canvas. The mill lane ran straight from the weir bridge to Fenner's front gate, where the loaders came out in their twos. Hurdle Lane came in behind the rope-walk, where she would have a back wall to look at and very little else. A captain who liked strangers kept on his own streets would send them that way. She couldn't tell from a chalked wall whether that was all of it.
+
+"The man on the barrel's packed up his slate," Lyriel said from the doorway. "There's a boy come up the street with a pole, lighting the lamps."
+
+Since she sat down Jaina had kept the staff between her boots and her eyes half shut. Now she opened them.
+
+"Corin," she said. "Who did you write to? In Dalaran."
+
+He straightened. "The inspection desk at the Citadel, Lady Proudmoore. Every week, from the first copied mark I found. Then, when nothing came back, the Archmage's secretary. I kept copies of all of them, if you'd—"
+
+"Did anyone answer?"
+
+"No."
+
+The two bare fingertips on the staff went white. She leaned forward on the staff to look at the bills under the stone and the hook with the dark bead at its foot.
+
+"The flagged loads," she said. "When an inspector flags one, does the office keep any of the grain?"
+
+"A bag." He said it fast, nodding before she'd finished. "The inspector takes a bag off every flagged load for the sample room. Sealed, and marked with the bill. They're on shelves. Nobody's opened one since— nobody opens them."
+
+"Can I put my hand on them?"
+
+"You need a magister's ring for the sample room door." He patted the satchel. "I can get you in."
+
+Jaina was already getting the staff under her and her feet under the staff, and Lyriel had come in from the door to put a hand beneath her elbow before anyone asked.
+
+Out in the street the lamplighter had got as far as the post. He reached up with his pole to the bracket over the bench, and when the wick took he went on up the street, whistling three notes over and over.
+
+Havel came out behind them, pulling a fold of papers from inside his leather. He spread the sheets against the blind stone wall of the warehouse on the corner with the flat of his hand, one overlapping the next. They were his own, the district drawn in pencil smaller and closer than the canvas inside, every yard named.
+
+"Hurdle Lane," he said, tracing it down with two fingers. "Behind Holt's from here, past Garside's back gate, and you come out at the rope-walk end of Fenner's. The day crews go off at the Exchange bell, when it's full dark, and the night crews go in after. If you want to see that lot come out, that's when."
+
+Corin had the satchel open on the bench under the new lamp, going through it with both hands. Brass clinked. He brought out a ring of tags on a cord and turned them to the light one after another. "Not that one. That's the copy room. This is— no. Sorry. A moment. The sample room has its own, because the magisters wanted—"
+
+Jaina stood by the bench with the staff under her dead arm. The bench was right behind her knees, and she stayed on her feet.
+
+The sample room was across the city in the mage quarter, behind a door that opened to a magister's ring. Sylvanas would be a bow in a corridor there, and everyone in the building would turn round to look at her. Jaina could read the bags. The men were down this lane, and Jaina couldn't tell a drilled man's walk from a tired one if she had all night to do it.
+
+The boy, though. She had known him for the length of one argument at a table. He had kept a summer of notices on Havel's table under a cracked stone, writing every week to people who never once wrote back: an honest man, or a very patient one. A patient man with the keys to the inspection office could as easily be sitting on bills for somebody else as copying them. Without him the mage would get a bench in a hall till they lit the lamps, as the tally-man had promised. They were lighting them now.
+
+Lyriel would watch the corridors and catch Jaina when she went over.
+
+It had been easier at Corley's, with Jaina at the crossing and Sylvanas at the clerk's table and never more than a shout between them. Did she trust the mage, or only what the mage came back with?
+
+Sylvanas would have given a good deal to hear what Jaina made of Havel.
+
+Corin held up a brass tag with a ring stamped into it. "This one."
+
+"Proudmoore," Sylvanas said. "The sample room. Take him."
+
+Jaina was already turning on the staff. "I'll know what's in the bags," she said. "I won't know who put it there."
+
+"That's mine."
+
+Jaina nodded once, and the staff took most of her weight. Lyriel was still at her elbow, and Cyndia had come round onto Sylvanas's left, bow in hand.
+
+"Back here," Sylvanas said. "When the Exchange rings the night shift."
+
+Corin set off up the street too fast, the satchel bumping at his hip. He stopped and came back, falling in a second time at Jaina's pace with the satchel held against his chest in both arms. Lyriel went on Jaina's right with her hand under the elbow and her eyes on the windows above them. The staff knocked on the cobbles all the way up the street, under the noise of the wheels.
+
+Sylvanas turned back to Havel's papers.
+
+"Show me Hurdle Lane."
+
+Hurdle Lane ran along the backs of the granaries, wide enough for one wagon and a man flat against the wall beside it. The granaries stood over it on stone feet, timber from the first floor up, their hoist beams sticking out overhead with the ropes hanging slack. The lane was in shadow from end to end, and the dust in it got into her mouth.
+
+Every few yards another lane came in from one side or the other, loading lanes for the yards, every one of them blind. The walls ran right up to the corner, so she couldn't see a stride into any of them until she stood in its mouth. Wagons backed out of them without warning.
+
+Havel walked a half-step ahead of her on the left, talking the whole way.
+
+"That's Holt's. Old Holt's boy has it now, and his men were with the father. You can leave Holt's out." He raised his hand toward a gate on the right, two fingers flat. "Garside's. Yard-reeve's a man called Tarrant. He drinks in the Wheatsheaf and owes money in it, and he's careless, but he's a simple sort. Garside's took a little of the new factor's grain at Lammas and stopped. Tarrant told me the price was too good, and he didn't like it."
+
+"Who else took it?"
+
+"Fenner's and the Exchange, as I said, the same week. And two I left out at the post. Kett's on Tenter Row, and the old malt-house at the weir end that Garside leases. They're small. They take what the big yards haven't room for. The same factor, the same month."
+
+She was laying them against the canvas in her head when Havel said, "Four, all told."
+
+At Garside's back gate a boy was lighting the lamp on the gatepost. A cart came out of the next lane with its axle squealing, loud enough to drown every footstep, and she looked back up the lane. A man with a sack on his shoulder. Two women with a basket between them. Nobody she couldn't account for.
+
+On the right was the mouth of Tenter Row, narrower than the rest. It ran straight for a stretch, then bent left. Over the bend, against the sky, stood the gable of a granary and its hoist beam with no rope on it.
+
+"Tenter Row," Havel said. He pointed past it, on down Hurdle Lane. "Dyers, mostly, and Kett's at the bottom. Kett shut his gate at noon. You'll get nothing there tonight, and you'll get Fenner's crew if we go on while the light holds."
+
+He had pointed her away from where she was looking at the post, and now again. A man who knew his own streets and wanted a stranger on the ones he trusted would point like that. So would anyone who wanted her off Tenter Row. She went on down Hurdle Lane at his side, marking the bend in Tenter Row as she passed it.
+
+The lane opened out at the bottom into a yard of beaten earth behind Fenner's, with the rope-walk shed along one side: long and low and windowless, a door at each end, a hasp and a padlock on each door. The day crew was coming down out of Fenner's granary. Men sat on sacks against the wall with their caps off, men drank at the trough, a man on the hoist platform coiled rope. Two boys swept spilled grain into a heap with brooms worn down to the binding.
+
+"My lad's in the cooper's door there," Havel said, and nodded across the yard. "You can stand with him, and nobody looks twice at a man in a doorway."
+
+"Here will do."
+
+She stood where she was, at the corner of the lane behind a wagon whose team hung their heads in their nosebags, watching the yard over the horses' backs. Cyndia stood at her left shoulder. Havel stood a step away with his thumbs in his belt.
+
+Most of the men along the wall got up with a hand on a knee and a wince, and one stood arching his back with his fists in it.
+
+Two men stood at the near corner of the rope-walk with their weight square on both feet and their hands empty at their sides. There was a wall right behind them, and they stood a clear foot off it. At the trough a second pair drank one at a time; when the first bent to the water the other stood with his face to the lane, and when he had done they changed over without a word. Up on the hoist platform the man coiling rope had stopped coiling. He held the coil in both hands and looked down over the whole yard, gate to shed.
+
+She had seen that kind of standing before, in a boy on a hoist at Brask's granary who had bitten open his own collar sooner than speak to her.
+
+"Ranger-General." Cyndia, very low. "Two at the corner of the shed. Two at the trough, and they take turns. The one up on the hoist. And three by the gate, sitting down. The one in the middle hasn't taken his cap off, and the other two keep their feet under them. Eight that I'm sure of."
+
+Eight men, placed at the corner, the trough, the platform and the gate so that between them they held the whole yard and both ends of the shed and the mouth of the lane where she stood. Somebody had chosen every spot as she would have chosen it herself.
+
+"Are those your loaders, Captain?"
+
+"Those are them." Havel had his hand on the truncheon. "The ones by the gate came in at Lammas. The pair at the trough in high summer, with the first lot."
+
+"Who stands over them in the yard?"
+
+"Fenner's yard-reeve is Coll Simmons. He's been here twenty years, and he's frightened of them. He'll not say so, not to me."
+
+A boy went round the yard with a taper, lighting the lanterns on their hooks. When the lamp over the trough was lit the pair there turned their heads away from it, both together.
+
+The man on the hoist platform hung his coil on its peg and came down the outside ladder. At the bottom he spoke to the pair at the shed corner, and one of them answered. He walked across the yard toward the lane alone, rounding the tail of the wagon and passing Sylvanas so close that she could have taken his sleeve. He was a big man going soft, with a loader's leather pad on one shoulder and a brown beard. He kept his face to the lane all the way past her and Havel, whom every other man in that yard had looked at at least once.
+
+He went up Hurdle Lane with his eyes in front of him. At the mouth of the first loading lane, where the mortar had gone soft between the stones, he put his left hand flat on the wall as if to steady himself. With his thumb he worked something into a crack at the height of his hip, and kept pressing until whatever it was had gone in. Then he took his hand away and walked on.
+
+A man who walked like that had nothing to hide, or had somebody else to do his looking for him. She looked up. Hoist beams, loft doors, a pigeon walking the ridge of Garside's roof; nothing on the gables that she could see from the bottom of a lane at dusk.
+
+The crack. She could have whatever was in it out on the point of her knife and know. Then whoever came for it next would put his thumb in an empty crack, and by morning the eight would be gone from Fenner's yard with their locks and their factor, the rope-walk filled with a new crew who had never heard of any of them. Leave it in the wall. Take the man.
+
+She turned to Havel. "Show my ranger the shed doors, both ends, and which way the crew goes out at night. I want it from above."
+
+"There's a ladder up to Fenner's loft. I'll have Simmons—"
+
+"I'll find my own."
+
+Cyndia shifted her bow hand on the stave and asked Havel which end of the shed they unlocked first, and he began to tell her.
+
+Sylvanas went up Hurdle Lane.
+
+She matched the loader's pace. He was well ahead of her, walking easy up the middle of the lane, the leather pad on his shoulder showing pale in the dusk. She kept to the side, where she could step into the mouth of a loading lane if he stopped. He went past the crack in the wall at the same even pace. At the mouth of Tenter Row he turned in.
+
+She went after him.
+
+The row was straight to the bend and empty; if he turned round in it there was nowhere to be. She waited at the corner with her shoulder to the stone until he had gone round the bend, then went down the row fast and quiet. The dyers' yards on either side gave off a sour stink of the vats, and in one the day's cloth hung on the tenter frames, blue and rust-red, slack in the still air. Dust lay thick at the edges of the cobbles and showed every print, so she kept to the crown of the row.
+
+Round the bend the row met a wider street with a wagon going down toward the weir, the carter walking at the horses' heads. The loader fell in behind it. Sylvanas crossed to the wagon's other side, keeping the high wheels between them, the axle grinding loud enough to cover a troop of horse, let alone her feet. Through the spokes she could see his boots, and at the next corner the boots went off to the left. She stopped at the corner and let the wagon grind on without her before she looked.
+
+It was a back lane, long and straight, loading doors along both sides of it, every one shut and barred, the cobbles white with dust. A lamp burned at each end. Between them there was no wagon, no doorway deep enough to stand in, no turning. He was already well down it.
+
+If he looked back now he would see a tall elf standing alone at the end of an empty lane.
+
+A water butt stood against the wall at the corner, under the eaves of a lean-to. She went up onto the rim of the butt, then onto the lean-to roof, and from there reached for the edge of the main roof. The fingers Tam had bitten caught the edge late and held badly. She put her weight on the other two and her forearm and went up anyway, lying flat on the slates at the top with grit in her cheek and her heart going hard for so short a climb.
+
+The roofs along the back lane ran into one another with hardly a step between them. She went along them bent low, keeping the ridge between herself and the lane, and came over it flat when she had to. Soot came off the chimney stacks onto her hands and sleeves. One was still warm from somebody's supper fire, and in the house under it a woman was singing to a child, the same line over and over, a little flat.
+
+Below her the loader walked down the white lane in the lamplight and turned in at the last door on the left. It was a granary, smaller and older than Fenner's, stone below and black timber above, its hoist beam bare. She knew that beam. She had seen it over the bend in Tenter Row with the last of the sun on it.
+
+Kett's. Kett shut his gate at noon.
+
+She came along the last roof on her elbows and stopped behind a chimney stack across the lane from it.
+
+The granary's upper floor had a row of small windows along the lane side, the panes thick with dust and cobweb, with a lot of lamplight behind them. Somebody inside had knocked out the bottom pane of the nearest for air, and through the gap she could see half the length of the loft floor.
+
+Sacks stood along it in a row, open, their mouths rolled down. On the side of the nearest was a sheaf in a ring, stencilled, with lettering under it that she knew. She put her hand to her coat, to the square of sacking cut from Brask's loft.
+
+There were five men in the loft. Every one had a cloth tied over his nose and mouth, waxed, with a dull shine under the lamps, the same as the cloth over the mouth of the jar under Brask's floor, and long leather gloves that covered the forearm. One of them had a crock between his feet. He bent and put his gloved hand into it, and drew it out full of something dark and thick that hung off his fingers like cold dripping. He pushed the hand deep into the open sack and worked it there, his forearm buried in the grain, then went to the next sack and bent to the crock again. Behind him a second man rolled up the mouth of the finished sack and sewed it shut with a long needle. A third took the closed sacks away to a stack by the stair.
+
+The man she had followed came up the stair into the lamplight with his beard and his leather pad and no mask at all. He stopped at the top and came no nearer the sacks than that. The man with the crock went across to him, his gloved hands held up and away from both their bodies while they talked. She couldn't hear a word. The loader spoke briefly. The masked man nodded. The loader went back down the stair, and the masked man went back to his crock.
+
+Eight at Fenner's. Five here. How many more cracks in how many walls?
+
+Nearest the window, a man finished his sack, peeled his gloves off one at a time without letting them touch his skin, and dropped them into a bucket by the wall. Then he washed in a basin, hands and forearms both. Only after he had dried them did he pull the waxed cloth down off his face to drink from a jug, his head turned away from the sacks.
+
+Every hoist man at Fenner's had worked all day in that dust with his face bare and his shirt open. The guard in the arch had wiped grain off his spike onto his thigh. Everyone in Andorhal breathed the dust and ate the grain baked. These men scrubbed their arms before they would put a jug to their mouths.
+
+And Jaina was across the city by now, in a room full of sacks that had come out of rooms like this one, putting her two bare fingertips to them. She'd be white by the time the bell went. Whiter.
+
+Her elbow moved on the slates. A little run of grit went down the slope of the roof and pattered into the gutter.
+
+Inside the loft the man at the window lifted his head.
+
+He stood with his bare hands held out from his sides, looking at the window for a long time. With the lamps behind him the glass would give him back the lamps and his own face and nothing much else. She lay still with the grit against her cheek and her bad fingers curled under her. If he had seen her, he would not stand at the window like that. He would go to the stair, and the loader would be back in the lane below with others. Unless he had been taught to stand at the window like that first.
+
+He turned away and picked up his sack needle.
+
+Then the bell came across the roofs from the middle of the city, heavy and slow, the Exchange bell for the night shift, and down in the lanes the crews answered it with doors and wheels. In Kett's loft the masked men went on working the sacks.
+
+While the bell was still going she went back along the roof on her elbows to the far side of the chimney, and down.
+
+She came back to the post by the streets, at a walk, as anybody would after the bell. Soot had blacked both her sleeves to the cuff, and she rubbed at the grit on her face with her wrist and only spread the soot. Cyndia sat on the bench outside the post with her bow across her knees, Havel in the doorway with his thumbs in his belt. Before Sylvanas reached them the knock of the staff came down the street from the other end.
+
+Jaina came down it on Lyriel's arm, putting her weight on the staff with every step. Every few steps she stopped, and Lyriel stopped with her and waited. Corin walked on her dead side with the satchel hugged to his chest, one hand held out a finger's width from her sleeve. Under the new lamp over the bench her face had gone grey to the lips. The crystal at the head of the staff gave no light at all. The two bare fingertips at the end of her linen were white to the first joint, frost furred on the cloth around them, on a warm night.
+
+"Inside," Sylvanas said.
+
+The post was empty. The night men had gone out on the lanes at the bell, Havel said, and wouldn't be back till the Exchange rang again. Lyriel sat Jaina on the stool at the end of the table and went to the window, pulling the shutter nearly closed and standing at the gap with her shoulder to the frame. Cyndia took the door. Warm air came in through the gap, sweet with grain, and the lamp's smoke leaned toward it under the beams. Out in the street a wheel rang over the cobbles and went on, and then another.
+
+Corin lit a stub of candle at the lamp, which was no good for reading, and stood it on the table in a puddle of its own wax. He opened a sheet folded once. It wouldn't lie flat, so he put the ring of brass tags on one corner of it and the cracked river stone on the other.
+
+The sheet was in his small upright hand, a column down the left side: a bill number, a yard's mark drawn small beside it, and one word after. *Heavy. Heavy. Clean. Heavy. Heavy.* The same hook came again and again down the column. At the top of the sheet, above where his hand began, were three lines: blots, a stroke that had gone through the paper, a word she couldn't make out at all.
+
+"I tried," Jaina said. "Then I talked, and he wrote."
+
+"All the shelves," Corin said. "She did all of the shelves. I said she ought to stop at the first—"
+
+"Leave it."
+
+He stopped.
+
+Jaina leaned forward on the staff. Her voice was hoarse, and she spent it carefully. "Every bag on one of Corin's copied marks is bad, Ranger-General, and the bags on true marks are clean."
+
+Corin put his finger on the column, on the first *Heavy*, and took it off again. With his other hand he wound the satchel strap round his fist.
+
+"It's put on the grain," Jaina said. "A coat, too thin to see. Somebody puts it on by hand, after the grain's dressed and before the sack's sewn up, working it through so that every grain gets some." She lifted the two white fingertips off the staff and rubbed them together. "On its own the coat does very little. What it carries only wakes once the bread's eaten, inside whoever ate it." She put the fingertips back on the staff. "That's what's on the shelves. It doesn't tell me whose hands."
+
+Sylvanas took the folded sheet out of the front of her coat, the one she'd carried since the south road with Jaina's blots over her own lines. She turned it to the clean back and pressed it flat beside Corin's and drew with the stub of lead from her pocket. A square for Fenner's yard. A long box for the rope-walk. Eight strokes, put where the eight had stood. A single stroke on the wall at the mouth of the first loading lane. Then Tenter Row and the bend and a back lane, with a second square at the end of it, five strokes inside it and a ring for the crock.
+
+"I have the hands," she said.
+
+She turned the sheet round to face Jaina, putting her sooty finger on the second square. "Kett's. Upper floor. Five men in waxed cloths and long gloves. One of them has a crock of something black and thick between his feet. He fills his hand from it, puts his arm down into the open sack and works it there. One sews behind him. One stacks."
+
+Jaina looked at the ring Sylvanas had drawn for the crock, then at her own word on Corin's sheet, the first *Heavy*, and back.
+
+"With his arm," she said.
+
+"To the elbow."
+
+"Whoever filled that crock," Jaina said, "knows his way round an alchemist's bench, and round—" She stopped, her fingertips pressing white into the staff. "Necromancy. Both."
+
+Sylvanas moved her finger back to Fenner's yard and the eight strokes. "These stand sentry." She touched the single stroke she'd put at the mouth of the lane. "This one carries word between the walls and the loft."
+
+She held up her sooty hand and drew an invisible glove off it, one finger at a time, holding it well away from her face, and dropped it.
+
+"Whatever's on the outside of those gloves can kill the man inside them," Jaina said.
+
+"Kett's," Havel said. He had come round behind Corin to look down at her sheet, kneading the scarred knuckles of one hand in the palm of the other. "Kett shut his gate at noon. I'd have sworn to it."
+
+He'd pointed past Tenter Row on the way down, too.
+
+"Well." Havel straightened. "Kett's it is." He took a stub of chalk from an iron holder on the table and went to the canvas. "Now we do it properly. Here's Kett's." He drew a ring at the foot of Tenter Row. "The night crews come off when the Exchange rings the day in. They come out tired, and all together. I put four lads at the Hurdle Lane end of the row and four at the weir end, and we close it on them from both sides." He drew the chalk down Hurdle Lane from the gate to Tenter Row, along a line already worn pale into the canvas. "I'll have the magistrate's clerk out of his bed and standing at the bend with a lantern, so he sees them come out with the stuff on their gloves. Then there's no letter to the council, and nobody gets them out by dinner."
+
+"They'll be gone by then," Corin said.
+
+"Hear me out, lad."
+
+"No, I— sorry, Captain, but they will." He took another fold of paper from the satchel without even looking for it. "Kett's bills. The office copies. Look at the days on them. Every bill on Kett's mark is written for the first carts out. The south road, the weir road. Kett keeps nothing overnight. Whatever they sew up tonight is on a wagon before your clerk has his boots on, and the crock goes with it, or into the weir. And then we're standing in Tenter Row arresting five tired men for carrying sacks."
+
+"I'd not call that nothing."
+
+"And there's nobody else." Corin had gone pale. He kept his hand flat on the bills. "From Dalaran, I mean. I've asked. Every week since the first copied hook, I've asked—Lady Proudmoore knows I have. If we wait and do it properly, we'll do it with nobody, and after they've gone."
+
+"The lad's right about the carts," Havel said. "Fair enough." He turned back to the canvas. "So we stop the first carts at the market gate, and I'll have the spikes into every sack on Kett's mark, and we take the crew at the shift change like I said." He ran the chalk down Hurdle Lane again, top to bottom, in the same groove.
+
+She had no better reason to doubt him than that he was slow and she was sick to death of slow men. The magisters of the Convocation would have loved him, a sensible local officer mindful of the magistrate; they'd have sent him a commendation and her a letter about her manners. She held that against him. And the Dalaran boy had been right every time he opened his mouth.
+
+"Captain," Jaina said.
+
+Havel turned round with the chalk in his fingers.
+
+"When your men close the row," Jaina said, "what's left in the loft?"
+
+"The crew. And whatever they've—"
+
+"The crock. Where is the crock by the time your clerk gets there?"
+
+"Washed out," Corin said. "Or in the weir."
+
+"Seven carts gone down the lane, Ranger-General." Lyriel, from the gap in the shutter, without turning round. "Loaded, every one. And one coming up empty, with the carter asleep on the seat; the horse knows the way better than he does."
+
+Cyndia came in two steps from the door. "Ranger-General. The rope-walk." She put her finger on the long box on Sylvanas's sheet, at the far end of it. "The crew went in at this door when the bell rang. The captain's men watched them in, and the lock went on from inside. The pair from the trough went in last, together. The three from the gate went up Hurdle Lane instead." She took her finger off the sheet.
+
+Up the lane, past the wall with the crack in it, toward Tenter Row. More of them.
+
+By morning the magistrate's clerk would be holding a lantern at the bend over a crew with clean hands coming out of a scrubbed loft. She'd been a day behind them since the miller's buy-back, arriving every time to a cold stove and a smiling overseer. Did she want it tonight because she was sick of arriving late? Partly.
+
+"Tonight," she said.
+
+Havel turned from the canvas. "Ranger-General, the magistrate's clerk—"
+
+"Tonight, Captain, while they're still sewing." She pulled her belt knife and drove the point through the corner of her sheet into the table to stop it curling. "They think the city's theirs, and while they think it they'll leave one man coming and going alone through that door. By first light they won't need to."
+
+Jaina was getting up. The heel of the staff ground on the earth floor and the stool scraped back. Jaina came round the end of the table, Lyriel half a step off the shutter in case she fell, and stopped at Sylvanas's shoulder, facing Havel across it, and set the staff down there.
+
+"It's wet in that loft tonight," Jaina said. "On the gloves, in the bucket, on the floor round the crock. I can still read it there. Once they've burned the gloves and swilled the boards, all I'll have left is sacks again, and I've read enough sacks."
+
+Sylvanas had been about to ask.
+
+"They don't talk," she said. "Brask's boy had his death sewn into his collar. These will have the same."
+
+"I'll take his jaw first," Jaina said. "Before he knows he's been taken. If the cold reaches his jaw before he thinks to bite, he can't bite down on anything—but I need my fingers on his skin to do it, and I can only do it once tonight." Her two white fingertips lay flat on the staff. "One man. Give me one close enough to touch."
+
+"Cyndia. The roofs over the back lane, by the chimney across from the loft. Anyone at the windows, anyone on the gables, anyone coming down the lane behind us. You don't loose until I call."
+
+"Lyriel. The bend in Tenter Row. Nobody comes down it at our backs, and when we come out, we come out past you."
+
+"Mine."
+
+Two bows to hold two ends of a lane in a city full of men who drilled at corners. She had sent Neral north with the child and left the horses in a carter's yard, and now she was spreading what was left of the detail so thin she could see light through it, and calling it a perimeter.
+
+"At least let my lads have the Hurdle Lane end," Havel said. "If it goes wrong, you'll want it shut behind you."
+
+"Keep them there."
+
+"I'll see to it." He turned back to the canvas and ran the chalk down Hurdle Lane again, the chalk squeaking in the groove.
+
+Corin was already buckling the satchel. "The loft door on the lane side has a hasp. A long iron one. The inspection office's tag won't open it, but I know the kind of lock that's on it, and—" He got the buckle through on the second try. "I'll come. I can tell you what's on their bills when you've got him, and you'll want that before he's had time to think."
+
+Sylvanas pulled her knife out of the table, and the sheet curled up on itself at once, round her crock and her five strokes.
+
+"Stay behind Proudmoore," she said, pinching the candle out.
+
+

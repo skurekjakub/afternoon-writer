@@ -1,0 +1,189 @@
+{
+  "chapterId": "chapter6",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsA trajectory 42 -> 12 -> 6, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 16,
+      "kills": 0,
+      "keeps": 16,
+      "severity": "none",
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [],
+      "cleanReason": "Swept every not/n't/no/never/nothing/nobody/none/nor clause plus camouflaged forms (more than, instead of, only, all it was, expected-then-reversal). Of roughly 60 negative clauses, most were plain negative facts with no rejected alternative (the driver didn't stop, nobody answered Dace, the dead arm felt nothing, no wind between the walls). The 16 real contrast-shaped candidates all met a keep condition: Jaina arguing herself out of the bad-luck and one-man theories (L21, L25) and out of fairness to Arthas (L69-71, L101, L211-213 'No.'); binary diagnostics that drive the scene (L153 'more than the one village', L161 'saying nothing about Lord Barov, only...', L183 'I can see that... I can't see your grain', L199 'He had never taken the paper', L285 'no knot in him'); hard constraints the plan locks (L43 'I can't tell you who', L297 nothing of what had been said); a then-vs-now fact (L127 'instead of a practice sword'); and the scan result L291 'none of them wore a pale strap'. The keep rate is above the guide's 20% ceiling because the pivot shapes are gone from this draft. The keeps were re-checked against self-check questions 1-5 and are documented in the scratchpad. There are no clusters and no pivot rhythm repeating across narration and dialogue."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 31,
+      "kills": 0,
+      "keeps": 31,
+      "severity": "none",
+      "dominantPattern": null,
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "findings": [],
+      "secondSweep": "Dedicated P5/P6 sweep done sentence by sentence. Roads and geography: 'the road' gets only route verbs (climbed, went over, reached the flat, came out, went in between walls, brings you to). These are the guide's 'the road led' class, with no fire or intent verbs. 'The weight' / 'the drag' (L3, L13, L251, L311-313, L351) is the chapter's literal in-world signal, so the subject-matter defense applies. The plague as subject ('ride in the grain', 'keeps in them and waits', 'built there meal after meal and waited', 'ran on flour and finished on its own') describes the designed mechanism the plan names: 'made to keep and made to wait', and the locked line 'comes in on the wagons and walks out on its own feet'. Body-part subjects: 'Her left hand had shut hard on the reins' (L61), 'Her stomach turned over', 'Her chest loosened', 'Her face went hot', 'her heart going hard', 'Her teeth began to chatter', and 'The old voice came out before she had decided on any voice at all' (L133) are all involuntary, and in each the involuntariness is the point (P8/P9 exception; the voice line is used once). 'It held the staff against her ribs' (L9) is the dead arm working as a prop, with no volition implied. Collective actors with their people visible: 'the camp shouting round them' (L117), carts that 'took turns at the narrow places' (L309), lines of wagons 'waiting its turn' (L345); drivers, officers and the bellowing man are all on the page. Literal physics: 'The warm air carried the smell of bake ovens' (L347), 'the rime creeping out over the edge of the linen' (L313), mud 'pulling at her' (L123), the strap that 'had worn a long pale stripe' (L253). Permission tags: every 'let' is physical with an object and a result (let go of the reins, let the slip slide back, let the sheet fall closed, let go after the mare stopped fighting the bit). No instrument-phrase demotion found.",
+      "cleanReason": "There is no Pattern 1-11 instance where a non-human noun carries command, judgment, memory, deception, desire or permission. All 31 candidates fall under the closed keep list (literal non-human action, collective actor with people visible, in-world mechanism under the subject-matter defense, or involuntary body action). Details are in the scratchpad."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 17,
+      "kills": 0,
+      "keeps": 17,
+      "severity": "none",
+      "dominantPattern": null,
+      "tallies": {
+        "tic1_cornerOfMouth": "0 / cap 1",
+        "tic2_marked": "1 verb (L351 'Every road she'd marked on Sylvanas's sheet', literal ink) + 3 physical nouns / cap 2",
+        "tic3_tightened": "0 / cap 3",
+        "tic3_eased": "2 (L61 'She eased her grip' physical; L335 'until it eased', a headache) / cap 2",
+        "tic4_shiftedFacial": "0 / cap 1 (3 physical 'shifted': staff, feet, board)",
+        "tic5_eyeGazeEmotional": "4 (L39 Sylvanas looks Jaina over; L173 'He studied her, long and steady'; L203 'One glanced at her'; L273 'he looked up at Jaina as she passed') / cap 4. The other ~12 'look' verbs are tactical or directional (reading the camp, scanning the verge, his look at the far hills).",
+        "tic6_weightEmotional": "0 / cap 2 ('the weight' is the in-world magical drag, and L313 'weight of water' is a physical pressure simile)",
+        "tic7_nonSaidTags": "0 / cap 3 (all 22 tags are 'said'; 'whispering' at L207 is reported narration, not a tag)"
+      },
+      "findings": [],
+      "cleanReason": "Every tic is at or under its cap, and the capped instances are physical or character-specific. Tool hits mapped to this guide were all under cap and functional: semicolon 11/14, narration colon 7/7 (all introduce real lists or Arthas's reported speech), participial_trailing 10/28 (and the texture score wants more of these), as if/as though 4/8, filter watched 2/3 (Cyndia guarding the soldiers' hands; Jaina watching a grip on her dead arm and feeling nothing), decided 1/3 (involuntary voice), glanced 1/4, contact_found 1/6 (literal: found a recipe in a book)."
+    }
+  ],
+  "summary": {
+    "totalKills": 0,
+    "totalKeeps": 64,
+    "mildKills": 0,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [],
+    "killsWithFix": 0,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A clean: 0 KILLs across all three guides. Structural texture deficit: texture_score 83.7, below_target on participial (5.3 vs 7.23), em-dash (0.9 vs 5.12) and compound (15.8 vs 14.1, above). Structural rhythm concerns: long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are outside range. These do not affect the pass A verdict.",
+    "outOfScopeObservations": [
+      "L35 has a stray quotation mark: '...and it keeps in them and waits.\" It comes in on the wagons and walks out on its own feet.\"' The first closing quote should go, or the locked line falls outside the dialogue. This is a mechanical copy error for the slophunter, not a pass A finding.",
+      "L313 'Now the same weight of water closing on her head from every side, her ears hurting with it.' is a verbless fragment. Pass B or C may want to look at it."
+    ],
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.824,
+        "target": 0.733,
+        "delta": 0.091,
+        "range": [
+          0.613,
+          0.863
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 13.1,
+        "target": 12.412,
+        "delta": 0.69,
+        "range": [
+          10.412,
+          14.412
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.736,
+        "target": 0.723,
+        "delta": 0.013,
+        "range": [
+          0.623,
+          0.823
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 31.9,
+        "target": 30.155,
+        "delta": 1.75,
+        "range": [
+          23.155,
+          37.155
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 23.9,
+        "target": 15.352,
+        "delta": 8.55,
+        "range": [
+          12.352,
+          19.352
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.03,
+        "target": 6.637,
+        "delta": -0.61,
+        "range": [
+          6.137,
+          7.137
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.2,
+        "target": 21.378,
+        "delta": 6.82,
+        "range": [
+          17.378,
+          26.378
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.789,
+        "target": 0.848,
+        "delta": -0.059,
+        "range": [
+          0.818,
+          0.888
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "texture_score": 83.7,
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial: 5.3% below target 7.23% (score 84/100)",
+        "compound: 15.8% above target 14.135% (score 87/100)",
+        "emdash: 0.9% below target 5.119% (score 64/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.3% -> target 7.23%. Add ', Ving' phrases as connective tissue between actions. | COMPOUND: 15.8% -> target 14.135%. Too many ', and/but/yet' joins; break some into separate sentences. | EMDASH: 0.9% -> target 5.119%. Use em-dashes for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 4,
+        "texture_desert": 8
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 41,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passAMappedHits": "punctuation_tics 18, participial_attachment 10, simile_overload 4, filter_words 3, filler_actions 1, contact_verbs 1, all audited as KEEP",
+        "passBMappedHits": "hedging 2, vague_pointers 2, left to pass B"
+      }
+    }
+  }
+}

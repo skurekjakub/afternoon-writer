@@ -1,0 +1,3 @@
+# Abandoned farms and rotting fields below the Pass
+
+The farm road to Millhaven: long low farmhouses with cold chimneys, a field of black split cabbages, bean poles hung with black husks, turnip leaves gone to slime, rooks unbothered by horses. The smell is sweet and wrong, a forgotten crock in a cellar. At the whitewashed farm (rowan, wooden Light shrine on the gatepost, burnt candle stub) the door is on the latch; two bowls with spoons, a child's coat on the peg, a cold hearth, a cart gone south. A cow bawls in the byre, ignored on orders. The contamination sits in the furrows and the kitchen as it did in the hawthorn.

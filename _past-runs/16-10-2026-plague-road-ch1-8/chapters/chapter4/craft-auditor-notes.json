@@ -1,0 +1,214 @@
+{
+  "chapterId": "chapter4",
+  "iteration": 0,
+  "targetFile": "v0.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter. Worst in long narration paragraphs at v0.md lines 5, 9, 17, 73, 169, 337, 353, 471, 731, 747, 753, 851, 973, 979, 1085, 1145",
+      "passage": "The mare flung her head up and set all four feet on the cobbles and blew at them, and Lyriel's hand came across from the right and took the cheek-strap without Lyriel so much as turning her head.",
+      "problem": "Texture score is 64.2/100 (pass is 90). Three dimensions pull it down. Participial phrases are 2.4% against a 12% target (score 44): actions done at the same time are almost never joined with ', Ving'. Compound joins are 20.6% against 10% (score 41): the default way to string actions together is ', and ... and ... and', so the polysyndeton that should be a special effect (line 5, the market) is the texture of every paragraph. Em-dashes are 1.0% against 4.0% (score 72). Semicolons are on target (2.0%, score 100). Short sentences are 55.5%, just over the 55% ceiling. This is the same profile the Ch3 v0 had (62.3) before revision.",
+      "fix": "Do not touch the polysyndeton where it is doing work (line 5 market noise, line 1145 the departure). Elsewhere: (1) Turn simultaneous second actions into participles. Line 5: 'The mare flung her head up, planting all four feet on the cobbles and blowing at them.' Line 73: 'She did it without hurry and without looking round, lifting the bow off her shoulder and holding it out behind her.' Line 747: 'The cold went out of her and down the ash in a white feathering, crackling up over his boots and shins and knees and locking him there.' Line 851: 'Tam came behind him between Lyriel and Brask's man, the man's free hand clamped round the boy's arm.' Line 979: 'men were going to it and away from it with sacks on their shoulders, throwing the sacks in.' (2) Break the remaining 'and ... and' chains into two sentences, especially in lines 337, 353, 973 and the ward rounds. (3) Put the em-dashes where Jaina corrects herself mid-thought, which her voice sheet already asks for: lines 23, 279, 313, 439, 999 and 1005 are natural sites ('Food, then—whose food?'; 'If she'd frozen him to the neck—his jaw, she could have frozen his jaw'). Do not hit the em-dash target by grafting '—and' onto compound sentences; the Ch3 r1 audit flagged that move as mechanical. (4) Merge adjacent short narration sentences in the flagged telegram runs that are not deliberate (lines 221 'And nowhere else. The heart was clean. The lungs were clean.', 301, 603). Keep the deliberate ones: the slate list at 485-493, the Brask 'Millhaven.' exchange at 79-89, and 'Oh. / Oh, there it was.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "Whole chapter; most fixable at lines 251, 433, 471, 1057",
+      "passage": "The cooper's wife, from the box bed, in a voice like a door hinge: two loaves a day from Ellen's mother, there were five of them and who had the time to bake, with the cooper behind on his orders. And what else? Bread and dripping, bread and pottage, bread and whatever there was. And the boy? The boy ate like a wolf. Elsie, from the door-bed: porridge at Ashby's in the morning...",
+      "problem": "The style guide sets chapters 1-8 as dialogue-forward procedural at about 60:40 dialogue to narration. Words inside quotation marks are about 12% of this chapter (2,600 of 22,000), and the share is level across every section. Part of that is legitimate: the ward vigil and the loft fight are solitary or wordless. But the core clue-gathering of B5, the aha the plan's craft research says to slow down for, is delivered as reported speech in one 200-word paragraph (line 471). The patients who give Jaina the answer never speak in their own voices. The same happens with Tobin's well sorting (433) and the first round of new cases (251).",
+      "fix": "Dramatize line 471 as a short run of direct exchanges: Jaina asks, and the cooper's wife answers in her door-hinge voice ('Two a day from Ellen's mam. Five of us, and who's time to bake?'), then Elsie, then Hew Dunmore without lifting his eyes ('She eats the heel standing up. Says it's the best of it.'). Keep Jaina's questions short and in her civilian downshift register. Col's lines at 475-479 already work this way and show the model. Line 251 can give the young man his 'Tobin's an old woman' line as direct speech. Do not pad the night vigil with talk to raise the ratio; B4, B5 and B11 are where dialogue belongs."
+    },
+    {
+      "check": "limited-third",
+      "severity": "medium",
+      "location": "Lines 345, 581, 595, 697, 713, 727, 853, 859, 1043",
+      "passage": "and she thought, very clearly, *they should have left me by the water butt.*",
+      "problem": "The style guide sets narrative distance as 'no italicized internal monologue, no thought-tags; narration IS the character thinking'. The rest of the chapter does this well: lines 23, 279, 447, 501, 999-1005 are clean free indirect thought. These lines break it with 'she thought' tags or italic thoughts: 713 ('she thought, very clearly, *they should have left me...*'), 727 ('had half a heartbeat to think *good, he's frightened, he'll talk*'), 853 ('Crying again, she thought.'), 859 ('a little, she thought'), 1043 ('she thought, from a long way off, *good, that's the embers seen to,*'), 345 ('*No. No, I didn't—*'), 595 (italic). At 581 '*Refile it,* she'd said, in the lane' is also wrong on the facts: at line 137 she only thought it.",
+      "fix": "Render each as plain free indirect narration in roman type. 713: 'They should have left her by the water butt.' 727: 'Good, he was frightened, he'd talk—' 853: 'Crying again. She couldn't hear it. She didn't look.' (909 'Crying, she'd thought' can stay: that is a recollection, and it pays off.) 1043: 'Good. That was the embers seen to.' 345: 'No. No, she hadn't—' 581: 'Refile it, she'd told herself in the lane.' Italics are fine for remembered speech (37, 163, 641, 917) and for Sylvanas's hand signals (695, 699)."
+    },
+    {
+      "check": "beat-fidelity",
+      "severity": "medium",
+      "location": "B7, lines 641-643",
+      "passage": "And the carter on the bridge had asked them, so friendly, if they'd passed a young fellow with a grain cart. ... Sylvanas had stood on that bridge. She had stood half in the doorway at the inn while the girl talked. Jaina looked at her, and Sylvanas looked back, and neither of them said it.",
+      "problem": "The B7 planner warning says the old carter stays unidentified and is not mentioned as a suspect, because Ch5 owns that snag on Sylvanas's side. 'So friendly' puts an edge on the carter, and the next paragraph, where both women look at each other and 'neither of them said it', makes the unspoken 'it' read as a shared suspicion of the carter rather than the resemblance between the Millhaven grain-man and this one. Jaina is the POV, and here she seems to be making the connection Ch5 is meant to make.",
+      "fix": "Cut 'so friendly'. Either drop the carter clause entirely and let the girl's 'Cheaper than Mister Hollis' carry the resemblance alone, or keep the carter as a neutral source ('the carter on the bridge had asked after a young fellow with a grain cart'). Make the unsaid 'it' plainly the supplier: one new man selling cheap at Millhaven and here."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Lines 617 and 799 (Jaina dialogue); narration at 331, 523",
+      "passage": "\"It's made,\" she said. Her voice came out hoarse. \"This isn't a fever, and it isn't something gone bad in a wet barn. Somebody made this. Somebody very good.\"",
+      "problem": "Jaina's voice sheet red-flags 'not X, Y' corrections ('Say the true thing first'). Line 799 opens her biggest line of the chapter with two negations before the true thing. At 617 her B7 reasoning has 'So it isn't grain. Oats are grain. It's one flour', which is the same shape. The narration does it too at 523 ('It wasn't a bad cup or a bad swallow... It was every meal').",
+      "fix": "799: '\"It's made,\" she said... \"Somebody made this. Somebody very good.\"' (the wet barn has already been ruled out at 547; it doesn't need saying). 617: 'Oats are grain, and she's well. So it's one flour, and the more of it you eat...'. 523: lead with 'It was every meal.' and cut the negation or turn it into a question she answers."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Line 521",
+      "passage": "Jaina let out a breath she had not known she was keeping.",
+      "problem": "This is the stock 'breath she didn't know she was holding' line, lightly reworded. It lands at the moment the B5 deduction locks, which is a key beat.",
+      "fix": "Cut it, or give her a body action that belongs to her: the staff easing in the crook of her arm, or her hand opening on the slate frame. Better still, go straight from 'Not sick.' to 'Not grain, then.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "'the way' x53 across the chapter; clusters at 927-945, 1051-1143; second-person generalisations at 55, 719, 777, 787, 811, 1143",
+      "passage": "He looked at it the way the little ones in the cathedral at Boralus used to look at the reliquary... / She looked at him for a long moment, the way she'd looked at him in the lane before noon... / the way she had let him look at his own street...",
+      "problem": "'The way' is the chapter's default simile and callback frame: 53 uses in 22k words, four in twenty lines at 927-945. Several are narrator generalisations in the second person ('the way you would hold a gate shut', 'the way you lift a full bowl', 'the voice you would use to a son', 'the way you shake after a long night on deck'). These pull the camera slightly out from Jaina. Individually most are good, but together they are a tic.",
+      "fix": "Cut or recast about half. Keep the ones that carry Jaina's own memory (Boralus, Antonidas's letters, the nurse's cheek). Turn plain manner clauses into direct description ('She looked at him for a long moment, hands at her sides, as she had in the lane'). Anchor the second-person ones to Jaina's experience ('the way she'd shaken after a night watch on her father's deck')."
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "Line 805",
+      "passage": "The boy's face was wet. He'd been crying, silently, the whole time.",
+      "problem": "'The whole time' is something Jaina can't know. She had her back half to him while she laid the shell and read the spill. It is a small omniscient step.",
+      "fix": "Make it her inference: 'The boy's face was wet. He must have been crying since the frost went over him, and she hadn't heard a sound.'"
+    },
+    {
+      "check": "beat-fidelity",
+      "severity": "low",
+      "location": "B4, line 325",
+      "passage": "She could read the bread bin and the bucket and the ladle and the cat, and every one of them would come back thin",
+      "problem": "The plan and constraints say Jaina's attention must not touch bread before B5 earns it. 'Bread bin' is the first item in her list of things she could test. It is a small pre-signal, but it is the only one in B1-B4. Everything else (bread smoke at 5, 31) stays ambient as required.",
+      "fix": "Swap 'bread bin' for something neutral, such as 'the salt box', so the first time bread enters her reasoning is Garran's sops at 455-463."
+    },
+    {
+      "check": "beat-fidelity",
+      "severity": "low",
+      "location": "Lines 251, 279, 423-429, 445, 855",
+      "passage": "The whole cooper's household was down, Tobin had said, all five of them",
+      "problem": "The counts don't agree. On the page Tobin never says the whole cooper's household is down: at 251 he names only the boy and the mother. At 445 the house is 'down to the last child', which is ambiguous. The slate at 429, written for 'everyone in this room', lists six names, but at 855 there are 'seven wards'. The room description at 169-171 suggests more patients than six. A careful reader doing the sums alongside Jaina will trip on it, and it touches the procedural spine of B5.",
+      "fix": "Choose one count and make it consistent: either have Tobin say at 251 that all five of the cooper's house are down, with the others on pallets, and put them on the slate, or cut 'all five' and make 855 'six wards'. Flag it for the continuity gate as well."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Lines 507 and 547",
+      "passage": "A store is where things end up, she'd told Windrunner ... and Sylvanas was out there with it, and Jaina was up here holding a doorframe.",
+      "problem": "The narration name slides from 'Windrunner' to 'Sylvanas' as the plan asks, but the first 'Sylvanas' (547) comes two paragraphs after a 'Windrunner' (507), buried in an abstract sentence. It lands just before the beat where the refile actually happens: B6, watching her work supply through the glass.",
+      "fix": "Keep 'Windrunner' at 547 (or use 'the ranger' in thought). Let the first narration 'Sylvanas' be line 561, 'Sylvanas was down at the long stone building', so the name changes in the moment Jaina sees what she's doing. 581 ('filed her straight back under maps') then pays it off."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 64.2,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {
+        "actual": 2.4,
+        "target": 12.0,
+        "score": 43.5
+      },
+      "compound": {
+        "actual": 20.6,
+        "target": 10.0,
+        "score": 41.0
+      },
+      "emdash": {
+        "actual": 1.0,
+        "target": 4.0,
+        "score": 72.5
+      },
+      "semicolon": {
+        "actual": 2.0,
+        "target": 1.8,
+        "score": 100.0
+      }
+    },
+    "otherMetrics": {
+      "short_pct": 55.5,
+      "sentenceCount": 1768,
+      "meanSentenceLength": 12.5,
+      "paragraphOneSentencePct": 29.5,
+      "commaPeriodRatio": 0.865,
+      "dialogueWordShareApprox": 11.8
+    },
+    "interpretation": "PARTICIPIAL: 2.4% → target 12.0% (score 44/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 20.6% → target 10.0% (score 41/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.0% → target 4.0% (score 72/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.' | SHORT SENTENCES: 55.5% (ceiling: 55.0%). Too choppy. Combine adjacent shorts using constructions above.",
+    "flaggedPassages": [
+      "texture_desert sentences 81-90: Millhaven with smoke in its chimneys and a market in its str Jaina half turned in the saddle, toward the back of the line There was nobody t",
+      "telegram_run sentences 83-90: There was nobody there. She turned back. \"Ranger-General,\" Cyndia said, on the left.",
+      "telegram_run sentences 128-136: \"Then you'll turn round, my lady.\" \"Ranger-General.\" His thumb moved on the ash.",
+      "telegram_run sentences 147-154: \"They walked out of it,\" Windrunner said. \"Up the cow way above the village, in the night. Sixty of them that we could count.",
+      "texture_desert sentences 147-156: \"They walked out of it,\" Windrunner said. \"Up the cow way above the village, in the night. Sixty of them that we could count.",
+      "telegram_run sentences 185-192: \"Willem Brask,\" he said. \"I've the militia here, such as it is. He jerked his chin at the boy.",
+      "texture_desert sentences 185-197: \"Willem Brask,\" he said. \"I've the militia here, such as it is. He jerked his chin at the boy.",
+      "telegram_run sentences 270-278: \"Willem sent you?\" \"Captain Brask, yes. I'm Jaina Proudmoore.",
+      "texture_desert sentences 270-294: \"Willem sent you?\" \"Captain Brask, yes. I'm Jaina Proudmoore.",
+      "telegram_run sentences 279-289: He looked down at her hands, at the grubby linen bound round \"What happened to those?\" \"Frost.\"",
+      "telegram_run sentences 313-320: \"I'm going to look at you,\" Jaina said. \"With a light. It won't hurt you.",
+      "telegram_run sentences 322-333: The staff, then. She turned to Lyriel. \"Will you hold this for me?\"",
+      "texture_desert sentences 322-333: The staff, then. She turned to Lyriel. \"Will you hold this for me?\"",
+      "telegram_run sentences 348-357: And nowhere else. The heart was clean. The lungs were clean.",
+      "texture_desert sentences 348-357: And nowhere else. The heart was clean. The lungs were clean.",
+      "texture_desert sentences 397-410: The young man by the door had the smallest knot of all, no b He watched the light go in and out of his own stomach throug Jaina knelt there ",
+      "telegram_run sentences 416-423: They're taking it in. Swallowing it.\" \"Swallowing what?\"",
+      "texture_desert sentences 464-478: Each beat came in. Something came in after it, late. Thin, though.",
+      "telegram_run sentences 468-478: She had felt worse in the ditch water below the Pass. She had felt the same at the Millhaven well, before she had  She let it go.",
+      "telegram_run sentences 567-574: \"Loop over your thumb. Like that. The linen went round.",
+      "texture_desert sentences 567-581: \"Loop over your thumb. Like that. The linen went round.",
+      "telegram_run sentences 638-649: \"You'll have to write. Down the side, everyone in this room. Then how long they've been ill.",
+      "texture_desert sentences 638-657: \"You'll have to write. Down the side, everyone in this room. Then how long they've been ill.",
+      "telegram_run sentences 650-657: He wrote in big square capitals, slowly, with the tip of his GARRAN. COOPER, WIFE.",
+      "telegram_run sentences 676-684: But the water didn't sort them. A whole lane drew one bucket and it came out of them as a dy If it was the water, it was the water for every",
+      "telegram_run sentences 708-717: \"Wait,\" she said. \"Wait. Write that.",
+      "texture_desert sentences 708-717: \"Wait,\" she said. \"Wait. Write that.",
+      "telegram_run sentences 730-739: \"Oatcake, mostly. My mam's. She sends me up with a sack of her own meal and I do it on a",
+      "texture_desert sentences 730-739: \"Oatcake, mostly. My mam's. She sends me up with a sack of her own meal and I do it on a",
+      "telegram_run sentences 750-757: Elsie. Porridge in the morning, bread at noon. A fist.",
+      "texture_desert sentences 750-759: Elsie. Porridge in the morning, bread at noon. A fist.",
+      "telegram_run sentences 762-770: In a room full of fevers. With Garran swallowing his sops. Lovely, Jaina.",
+      "texture_desert sentences 781-796: \"Who else in the village eats their own oats?\" she said. \"No bread from the bakehouse. No flour from the store.\"",
+      "telegram_run sentences 788-796: \"Is she sick?\" \"Her? She stopped me this morning to tell me my apron was a disgra",
+      "texture_desert sentences 803-817: Tobin was still kneeling by the truckle bed with the bowl in There was milk on Garran's chin. \"Don't give him any more of that,\" Jaina said.",
+      "telegram_run sentences 892-904: \"Is it the bread?\" the girl said. \"I heard you. With Tobin.\"",
+      "texture_desert sentences 892-904: \"Is it the bread?\" the girl said. \"I heard you. With Tobin.\"",
+      "telegram_run sentences 956-964: It builds, meal on meal. She stopped. \"That's the body.",
+      "texture_desert sentences 956-969: It builds, meal on meal. She stopped. \"That's the body.",
+      "telegram_run sentences 976-986: She paused. \"The keeper is pleased with the price. He said so twice.\"",
+      "texture_desert sentences 976-986: She paused. \"The keeper is pleased with the price. He said so twice.\"",
+      "telegram_run sentences 988-997: The keeper liked him. Her mouth did something brief at one corner. \"I asked him for a face.",
+      "texture_desert sentences 988-998: The keeper liked him. Her mouth did something brief at one corner. \"I asked him for a face.",
+      "texture_desert sentences 1019-1039: Jaina was holding the staff so hard against her ribs that th Sylvanas's hand had gone to the string of her bow. It rested there.",
+      "telegram_run sentences 1023-1030: \"How much of his flour is left?\" she said. \"Most of the last load,\" Cyndia said. \"It's in the loft.",
+      "telegram_run sentences 1031-1039: Jaina looked round the room, at the blue mesh over every bed \"The wards will stand until full dark,\" she said. \"Perhaps a little after.",
+      "telegram_run sentences 1204-1211: It was the same. That was the first thing. It was the thing in Garran's gut and the cooper's wife's, in",
+      "texture_desert sentences 1204-1214: It was the same. That was the first thing. It was the thing in Garran's gut and the cooper's wife's, in",
+      "telegram_run sentences 1283-1298: \"He's a lookout,\" Sylvanas said. She hadn't moved from beside the lamp. \"Someone gave him a jar and a floorboard and told him to wat",
+      "texture_desert sentences 1283-1306: \"He's a lookout,\" Sylvanas said. She hadn't moved from beside the lamp. \"Someone gave him a jar and a floorboard and told him to wat",
+      "telegram_run sentences 1299-1306: A tip of her head at the blue shell. \"Mage. Will it hold?\"",
+      "telegram_run sentences 1341-1348: \"Who gives you the jar?\" she said. Nothing. \"Who brings the flour?",
+      "telegram_run sentences 1433-1441: She turned to Sylvanas instead. \"Ranger-General. She said it low, the way Sylvanas had spoken to him at the s",
+      "texture_desert sentences 1433-1452: She turned to Sylvanas instead. \"Ranger-General. She said it low, the way Sylvanas had spoken to him at the s",
+      "telegram_run sentences 1442-1452: Then past her, at Brask in the door with his torch held low  She looked at him for a long moment, the way she'd looked at \"Captain,\" she sai",
+      "telegram_run sentences 1454-1461: His eyes went up the lane, toward the bakehouse. His thumb stopped. \"Tell me what to shut,\" he said.",
+      "telegram_run sentences 1463-1471: \"Every house?\" \"I'm sorry, Captain. Every house.\"",
+      "texture_desert sentences 1463-1473: \"Every house?\" \"I'm sorry, Captain. Every house.\"",
+      "telegram_run sentences 1556-1563: He'd been waiting for months. Slower. That was no good either.",
+      "telegram_run sentences 1570-1577: \"Don't let Tobin see that. He'll want to bleed you as well.\" Jaina looked at the knot.",
+      "telegram_run sentences 1580-1590: \"Brask's man came up from the loft and took my place on the  The woman at the end of Cooper's Lane was on her step watchi I asked her for oa",
+      "texture_desert sentences 1580-1590: \"Brask's man came up from the loft and took my place on the  The woman at the end of Cooper's Lane was on her step watchi I asked her for oa",
+      "telegram_run sentences 1596-1606: Jaina, on her knees by Elsie. \"It's burned,\" she said. \"All of the granary.",
+      "texture_desert sentences 1596-1606: Jaina, on her knees by Elsie. \"It's burned,\" she said. \"All of the granary.",
+      "telegram_run sentences 1652-1659: Garran's bandage had slipped again. She saw it from the bench. The pad had come off the cut at his elbow in the night and t",
+      "telegram_run sentences 1689-1696: \"Dickon caught the cart at the ford,\" he said, as Jaina came \"Turned it round. The Hallams hadn't had theirs off it yet.",
+      "texture_desert sentences 1702-1714: ANDORHAL. \"From the loft,\" Sylvanas said. \"His sacks.",
+      "texture_desert sentences 1716-1726: \"Then that's where his cart came from,\" she said. And then, because it was true: \"Or where he wanted us to thi Sylvanas took the sacking bac",
+      "telegram_run sentences 1728-1737: \"The mage,\" he said. \"Jaina. Scratch.",
+      "texture_desert sentences 1728-1737: \"The mage,\" he said. \"Jaina. Scratch."
+    ]
+  },
+  "checkResults": {
+    "emotional-life": "pass. Jaina thinks on the page in every beat, in her own idiom, and argues with herself in the way her sheet describes: question, wrong answer, 'No. Slower', a better answer (23, 279, 313, 439-449, 505-509, 999-1005). Registers include dry humour (143 the hat, 255 'sold him a bad horse', 405 'Did you just bite my bandage?', 501 'Shall we have a prize-giving?', 1131), warmth (31 Boralus herring, the knot, 1053 Elsie cool), horror (the cage), and exhaustion (the vigil). The value shifts land on concrete moments: the spear grounded, Wenna going still, the slate, 'On purpose', the frost, the foam, the cold chimney, the sacking stencil. The voices are distinct: Brask, Tobin, Cyndia, Lyriel and Sylvanas could not swap lines.",
+    "voice-and-register": "Partial. Paragraph shape is varied (mean 3.1 sentences, no runs of three or more single-sentence narration paragraphs). Dialogue tags are almost all 'said'. The narration belongs to Jaina. The issues are a low dialogue share against the procedural target, 'the way' overuse, and one stock phrase.",
+    "limited-third": "Mostly clean: Sylvanas's reasoning for the sleeve shot is withheld (739), and B6 stays on what Jaina can see through glass. The failures are thought tags and italic monologue, plus one 'the whole time'.",
+    "dialogue-register": "Clean. No institutional or clinical vocabulary. Jaina downshifts for civilians, gives Sylvanas the full reasoning in B7, and stays polite and immovable with Brask ('I'm sorry, Captain. Every house.'). There are two 'not X, Y' constructions.",
+    "rhythm-texture": "fail, 64.2/100",
+    "beat-fidelity": "All twelve beats (B1-B11a) are dramatized, none summarized. Lyriel's switch to 'Jaina' lands in the knot lesson, with the fixed line verbatim. Jaina says only 'Ranger-General' aloud. Andorhal has an on-page source in the stencilled sacking and Brask. Brask's ledger, spelling and 'tell it right' come with no farewell blessing. Smaller problems: the carter edge at 641-643, the 'bread bin' at 325, and the patient counts."
+  },
+  "summary": "A strong draft on story and character. Every beat is dramatized, Jaina's free indirect argument with herself is the best on the series so far, and the voices are clearly separate. It fails on texture: 64.2/100, with almost no participial connective tissue, compound joins at twice the target, and em-dashes at a quarter of it. Below that sit a dialogue share far under the procedural target (the B5 interviews are reported speech), thought tags and italic monologue against the narrative-distance rule, and a carter aside in B7 that steps on Ch5's snag. The smaller items are 'not X, Y' lines, one stock 'breath' phrase, the 'the way' tic, a bread pre-signal and patient-count drift."
+}

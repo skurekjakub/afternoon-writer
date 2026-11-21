@@ -1,0 +1,5 @@
+# The orc internment camp (Jaina's memory)
+
+The year Jaina went to Dalaran, her escort halted for the night within sight of an orc internment camp. After the fire was banked, Arthas scratched at her tent wall: she had never seen an orc, had she, and there was a gap in the bracken under the watchtower that nobody was looking at. She said no; he said she was frightened; she went. They crawled the last of it on their elbows through wet fern with Arthas whispering all the way, sure of what they would see: beasts, that was why there were fences.
+
+At the fence she put her face to the gap between two stakes. Orcs lay by fires gone out, great grey shoulders under blankets. Against a hut a female sat with an infant on her lap, its fist round one of her tusks, rocking it and humming something low; she did not look up. All the way back, and at the tent door with wet on their knees, he was just as sure. Jaina lay awake till morning thinking he could not see what was in front of him, and never said so. It stays inside Jaina in Chapter 6; Sylvanas does not hear it.

@@ -1,0 +1,285 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 10,
+  "targetFile": "v2-r10.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative",
+  "fixStrategyReason": "manifest slopGateLoop.iterationKillsA = [49, 8, 12, 2, 3, 1, 13, 1, 1, 0]. The latest count (0) is >= the prior minimum (0), so the loop is oscillating. Deletion is preferred.",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 58,
+      "kills": 1,
+      "keeps": 57,
+      "severity": {
+        "MILD": 1,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P2-fragment-pivot",
+      "clusterFlags": [],
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "id": "r10a-neg-01",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P2-fragment-pivot (just-softener, split across two sentences)",
+          "severity": "MILD",
+          "line": 657,
+          "text": "She found nothing on the bank, at the sides or ahead of the first of them. They had just gone, all together, uphill.",
+          "deletionTest": "Either half alone carries the result. Without the second sentence, the null search result still answers L655 'What had they followed?' and leads into 'Who drives sixty dead up a cow way in the dark?'. The 'They had just gone, all together, uphill' payoff repeats facts already in L653-655 ('Every mark in this cut points uphill', 'shoulder to shoulder').",
+          "reason": "Pattern 2 in disguise (Not X. Just Y.): the null result (no drover or leader print) pivots onto a softened 'just gone, all together' restatement. Neither keep condition holds. The led-or-unled question changes nothing the characters do, and the second beat adds no fact.",
+          "suggestedFix": "She found nothing on the bank, at the sides or ahead of the first of them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "Negation: the remaining sentence is a single null search result with no pivot. It answers the binary set up in L655 and feeds the next line. Intent-smear: the subject is Sylvanas, and no inanimate or body-part agent is introduced. Recurring tics: no tic words. Conservative strategy (A trajectory ends at 0, equal to the prior minimum), so the fix is a deletion.",
+          "textureZone": "Not inside a flagged telegram_run or texture_desert. The nearest flagged zones are sentences 806-817 (around L621) and 875-885 (L667-671)."
+        }
+      ],
+      "auditNote": "Of the 58 candidates, 10 are Step 1 procedural or imperative negations and 13 are dialogue capability limits or diagnostics. Most narrative candidates are null results the next line uses as evidence, which fits a chapter about absence (no bodies, dogs, smoke or blood). All KEEPs were re-examined under the self-check."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 36,
+      "kills": 0,
+      "keeps": 36,
+      "severity": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "patternFourAlert": false,
+      "repeatNouns": [],
+      "secondSweepP5P6": "I re-read every sentence for inanimate, abstract or body-part subjects carrying agency, cognition, combustion or physical-behaviour verbs. Roads and routes only use extension idioms (running away, ran north, went over a shoulder). No plan, map, answer, room or city takes a cognition or revision verb with an actor demoted into an instrument phrase. Every body-part subject is involuntary (flinch, fatigue lag, dozing head, shock, a child's clenching fist, damaged fingers) or perception-limited (the face in the lantern light, hands under the floor). No abstract state lodges in the body. No metaphor chain was found.",
+      "cleanReason": "I examined 36 candidates, including the inn-sign 'complaint', the stone that 'would have told her by the cold', water 'holding the lantern', 'her eyes were a beat behind the light', 'Sylvanas's fingers sat on the string', 'The face stayed where it was', 'This foot had come up the cut', 'The chamber would have this in its hands', 'Neral let the name go' and 'The staff ... pointed'. Each is one of four things. (1) A literal physical or optical behaviour of a non-human agent. (2) An involuntary body response where the involuntariness is the point. (3) The in-world ward-stone or contamination mechanic, with the sign named. (4) A perception-limited or collective subject whose people are named in the same sentence or the next. No 'let' construction matches the Pattern 11 closed set: each is physical allowing with an object and a result, or a person dropping a question."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 67,
+      "kills": 0,
+      "keeps": 67,
+      "severity": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "ticCounts": {
+        "tic1_cornerOfMouth": 0,
+        "tic2_marked": 1,
+        "tic3_tightened": 0,
+        "tic3_eased": 1,
+        "tic4_shiftedFacial": 0,
+        "tic5_eyeGazeReaction": 4,
+        "tic6_weightMetaphor": 0,
+        "tic7_nonSaidTags": 0
+      },
+      "cleanReason": "Every tic is at or under its cap. Corner-of-mouth 0 (both 'corners' hits are dirt). Marked 1/2. Eased 1, and it is the bowstring. Shifted-facial 0. Eye/gaze reactions 4/4, all scene-specific (mage awake on the mounting block, child watching like a hare, the carter looking past the bows, the farm wife staring at the mage's hands). Emotional weight 0, because 'heavy' is the mage's in-world reading term. Non-said performance tags 0. Of the 57 tool matches mapped to this guide, none is over cap. filter_watched is at cap 3/3, with literal surveillance and one line of dialogue. bookism_hissed L339 is a false positive (lamp sound, not a tag). Pallor beats routed through the mouth recur (L197, L617, L721, L821), but that is outside the seven tics and noted in the scratchpad only."
+    }
+  ],
+  "toolSignalAudit": {
+    "mappedToPassA": {
+      "punct_semicolon": {
+        "count": 20,
+        "cap": 26,
+        "verdict": "KEEP all (under cap)"
+      },
+      "punct_colon_narration": {
+        "count": 10,
+        "cap": 13,
+        "verdict": "KEEP all (under cap)"
+      },
+      "participial_trailing": {
+        "count": 17,
+        "cap": 53,
+        "verdict": "KEEP all (under cap; texture deficit argues for more)"
+      },
+      "simile_like": {
+        "count": 2,
+        "cap": 26,
+        "verdict": "KEEP"
+      },
+      "simile_as_if": {
+        "count": 2,
+        "cap": 5,
+        "verdict": "KEEP"
+      },
+      "filter_watched": {
+        "count": 3,
+        "cap": 3,
+        "verdict": "KEEP (at cap, literal surveillance or dialogue)"
+      },
+      "filler_nodded": {
+        "count": 1,
+        "cap": 4,
+        "verdict": "KEEP"
+      },
+      "filler_shrugged": {
+        "count": 1,
+        "cap": 4,
+        "verdict": "KEEP"
+      },
+      "bookism_hissed": {
+        "count": 1,
+        "cap": 2,
+        "verdict": "KEEP (false positive: lantern sound, not a dialogue tag)"
+      }
+    },
+    "zeroHits": [
+      "abstract_locomotion",
+      "inanimate_agency",
+      "negation_addiction",
+      "breath_tells",
+      "body_cliches",
+      "temporal_padding",
+      "paragraph_structure",
+      "adverb_on_tag"
+    ],
+    "notMappedToPassA": {
+      "hedge_might_have_been": "pass B (phantom concreteness), L625",
+      "contact_pressed": "unmapped, 4/6",
+      "contact_settled": "unmapped, 1/6 (L213 'before the dust settled', literal grain dust)"
+    }
+  },
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 160,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md"
+    ],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 1 MILD kill (negation P2 at L657, fixed by deleting the 'just gone' payoff sentence), 0 MODERATE or SEVERE, which is within the 3-MILD threshold. Intent-smear and recurring-tics are clean. Not affecting the verdict: structural texture deficit (score 75.1, participial 4.4% against a 12% target, 29 telegram runs, 26 texture deserts) and structural rhythm concerns (sentence_length_cv, one_sentence_paragraph_pct, short and long sentence share, opener entropy and MATTR are outside the style-guide ranges).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.65,
+        "target": 0.72,
+        "delta": -0.07,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.899,
+        "target": 0.7,
+        "delta": 0.199,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 34.7,
+        "target": 19.0,
+        "delta": 15.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "sentence_length_mean": {
+        "actual": 11.7,
+        "target": 11.0,
+        "delta": 0.7,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 43.4,
+        "target": 35.0,
+        "delta": 8.4,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 20.7,
+        "target": 10.0,
+        "delta": 10.7,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.4,
+        "target": 7.7,
+        "delta": -1.3,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.765,
+        "target": 0.83,
+        "delta": -0.065,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "note": "structural rhythm concerns: 6 of 8 metrics outside range"
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 75.1,
+      "participial_pct": 4.4,
+      "compound_pct": 12.7,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.4,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.7% above target 10.0% (score 75/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% → target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.7% → target 10.0% (score 75/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% → target 4.0% (score 76/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 29,
+        "texture_desert": 26
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_words": 13293,
+        "total_matches": 63,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "atCap": [
+          "filter_watched (3/3)"
+        ]
+      }
+    }
+  }
+}

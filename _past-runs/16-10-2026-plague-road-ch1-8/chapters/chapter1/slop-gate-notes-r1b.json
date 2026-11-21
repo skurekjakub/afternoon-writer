@@ -1,0 +1,418 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB = [47]; no oscillation history)",
+  "fixConvention": "Each KILL gives `text` (the flagged sentence or fragment), `replaceFrom` (exact source string to find in v2-r1.md, which contains `text`), and `suggestedFix` (drop-in replacement for `replaceFrom`). Where the fix is a deletion, `suggestedFix` is `replaceFrom` minus the flagged text.",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 50,
+      "kills": 9,
+      "keeps": 41,
+      "severityMarkers": {
+        "mild": 9,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F7 (paragraph-final closure) - 4 kills; three of them are dry one-line closers in scene 2",
+      "structuralNote": "Scene 2 has a habit of ending narration paragraphs on a short 'Sylvanas + wry verdict' sentence (L209, L231, L271, L275, L291, L295/297). Each is voiced on its own. Stacked, they read as a template. The worst three are killed below; L271, L275 and L291 are kept because each carries a plan beat (no warmth / the mage's read of her / anger that she matches the file).",
+      "findings": [
+        {
+          "id": "B-r1-01",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 39,
+          "text": "He'd served under her long enough to know when she'd decided something before she said it.",
+          "replaceFrom": "Lor'themar let his horse drop its head to crop at a fern. He'd served under her long enough to know when she'd decided something before she said it.",
+          "whatItRestates": "The gesture before it (he lets the horse graze, settling in) and the line twelve lines later ('Stalling, Ranger-General. He knew it') both already show that he has read her stall.",
+          "reason": "Gesture followed by a gloss. Delete it and the reader loses nothing; L51 makes the same point in her own voice.",
+          "textureZone": "inside texture_desert 48-60 / telegram_run 53-60",
+          "suggestedFix": "Lor'themar let his horse drop its head to crop at a fern.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r1-02",
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 57,
+          "text": "She heard it before she was off the horse, a low hum more in the teeth than the ear.",
+          "replaceFrom": "She heard it before she was off the horse, a low hum more in the teeth than the ear.",
+          "word": "heard",
+          "deletionTest": "The stone was humming before she was off the horse, low, more in the teeth than the ear. (Works as direct perception. The filter verb plus the forward-pointing 'it' only delay the source.)",
+          "reason": "The filter verb sits between Sylvanas and the hum. Hearing it is not the event here. Compare L119, where hearing the rider 'before anyone else did' is the event and the line is kept.",
+          "suggestedFix": "The stone was humming before she was off the horse, low, more in the teeth than the ear.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r1-03",
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 91,
+          "text": "Any rider would have passed it at a trot.",
+          "replaceFrom": "Moss on the shoulder. Gold in the runes. Any rider would have passed it at a trot.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Gold in the runes.",
+          "reason": "Closing gloss on an image that already landed. L55 has set the moss and gold as a normal stone, and the scene has shown that the fault can't be seen (Lor'themar's palm, 'the clerk will write stable'). The closing generalisation also leans toward A7.",
+          "textureZone": "inside texture_desert 113-134",
+          "suggestedFix": "Moss on the shoulder. Gold in the runes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r1-04",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 115,
+          "text": "She didn't thank him for it. She never had.",
+          "replaceFrom": "the same half-length back he always rode. She didn't thank him for it. She never had.",
+          "expected": "no - nothing on the page sets up thanks for riding half a length back; 'it' has no clear thing to be thanked for",
+          "position": "paragraph-final",
+          "reason": "Second non-action beat in scene 1. The strongest is 'She said nothing about the stone' (L117), the plan's Beat 3 decision. This one reports a non-event and is followed by a caption. Her refusal to thank Lor'themar is shown in action at the split (L169, two fingers off the reins), where Beat 5 puts it.",
+          "textureZone": "likely inside texture_desert 159-171",
+          "suggestedFix": "the same half-length back he always rode.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r1-05",
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 209,
+          "text": "Sylvanas didn't much care for that one either.",
+          "replaceFrom": "Or she was right. Sylvanas didn't much care for that one either.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Or she was right.",
+          "reason": "Emotional summary closer after the paragraph has already turned. Ending on 'Or she was right.' is the harder beat and hands straight into 'Did she fight?'. This is part of the scene 2 dry-closer cluster.",
+          "textureZone": "inside telegram_run 318-330 and texture_desert 318-335",
+          "suggestedFix": "Or she was right.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r1-06",
+          "pattern": "F11",
+          "severity": "MILD",
+          "line": 229,
+          "text": "From the bottom edge of the sheet, from the south, from Lordaeron, thin ruled lines ran up toward the border",
+          "replaceFrom": "From the bottom edge of the sheet, from the south, from Lordaeron, thin ruled lines ran up toward the border, each one ending at a circled stone.",
+          "repeatedOpener": "from ... / from ... / from ... (three clause openers inside one sentence)",
+          "reason": "A run of clause openers used for weight. A merged sentence keeps the one real fact, that the bottom edge is the Lordaeron side, so the repeated frame carries nothing a merge would lose. This is the first run in scene 2, and it is killed because it is decorative.",
+          "suggestedFix": "Thin ruled lines ran up from the bottom edge of the sheet, the Lordaeron side, toward the border, each one ending at a circled stone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r1-07",
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 231,
+          "text": "Sylvanas had no idea which.",
+          "replaceFrom": "Because she was a fool. Because she wasn't. Sylvanas had no idea which.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "Because she wasn't.",
+          "reason": "False-ambiguity close ('She didn't know what to think' shape). The two opposite answers already show that she can't decide. The added line only names the uncertainty and closes the loop.",
+          "textureZone": "inside texture_desert 357-366",
+          "suggestedFix": "Because she was a fool. Because she wasn't.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r1-08",
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 277,
+          "text": "A moment later",
+          "replaceFrom": "A moment later her head turned to the stone once more,",
+          "word": "A moment later (temporal padding)",
+          "deletionTest": "Her head turned to the stone once more, and the frown came back deeper... ('once more' already carries the repeat.)",
+          "reason": "Temporal padding. The length of the gap doesn't matter to the beat. The repeat is the event, and 'once more' already says so.",
+          "suggestedFix": "Her head turned to the stone once more,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r1-09",
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 295,
+          "text": "The mage did.",
+          "replaceFrom": "close enough that the mage had to tip her head back to keep looking at her. The mage did.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "close enough that the mage had to tip her head back to keep looking at her.",
+          "reason": "A confirmation closer. In the very next paragraph the same shape follows ('left the human to sit in it. The human sat in it.'), so two paragraphs in a row end on '[set-up]. The [mage/human] [did it].' The second one is kept because it shows the mage holding the silence until Sylvanas speaks first (the L283 payoff). This one is redundant because 'had to tip her head back to keep looking' already implies it.",
+          "textureZone": "inside texture_desert 465-476",
+          "suggestedFix": "close enough that the mage had to tip her head back to keep looking at her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ],
+      "notes": "F5: no kill. Lor'themar's easy acceptance of the Convocation is a planned beat (intentional-structure defense), and scene 2 closes on 'Start talking.' with no warmth. F15: neither scene ends on a dying fall. Scene 1 ends on a repeated compulsive action that the plan calls for, and scene 2 ends on the outline's fixed line."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Living Ranger-General. Aloud she is clipped and finished. Inside she argues with herself: she asks a question, answers it badly and overrules it. She uses ranger and horse idiom, swears by the sun and says 'damn', mocks herself in the second person ('Stalling, Ranger-General'), and is unfair to magisters and humans. She reads ground, gait, fatigue, rank and threat first. She would not produce lyrical, stacked-cadence description or thematic captions.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 34,
+      "kills": 1,
+      "keeps": 33,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "B1 (sentence too polished for the POV)",
+      "tierAKills": 0,
+      "tierBKills": 1,
+      "tierANote": "Zero Tier A kills after a full re-read. The verdict-tag shapes (', which was worse than arguing' L51; ', and that was worse' L239; 'Arrogance, then.' L209; 'A nuisance with a pedigree.' L253) all come from her inner argument, and L51 is almost word for word a shape example on the voice sheet. Each KEEP and its defense is in the scratchpad. The repeated 'worse' verdict across scenes is logged as something to watch, not killed.",
+      "findings": [
+        {
+          "id": "B-r1-10",
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "MILD",
+          "line": 237,
+          "text": "And somewhere south of here, days ago or weeks, by lamplight in some tower room, a human had drawn a circle round it.",
+          "replaceFrom": "And somewhere south of here, days ago or weeks, by lamplight in some tower room, a human had drawn a circle round it.",
+          "whoIsSayingThis": "The narrator. The idea (a human drew this from the south) is hers, but the cadence is not.",
+          "povMismatch": "Three stacked scene-setting frames ('somewhere south of here', 'days ago or weeks', 'by lamplight in some tower room') build to a lyrical crescendo. Her inner voice works in short clauses that turn on each other. She would not compose an imagined lamplit tower room. The next paragraph has her attack the assumption in plain terms ('You didn't circle a stone from Lordaeron'), and the set-up needs to be just as plain.",
+          "confidence": "MODERATE",
+          "reason": "B1. The sentence sounds written rather than thought. The flat fix keeps the assumption that L239 overturns.",
+          "suggestedFix": "And days ago or weeks, a human south of the border had drawn a circle round it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 27,
+      "kills": 0,
+      "keeps": 27,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Checked every tactical inference, label fragment and dialogue quip. Each one cashes out from evidence already on the page. 'nothing else in the hollow had reason to keep that still' (L3) follows the still fronds on a windy morning. 'too fast and too even for anyone who meant to stop politely' (L119) names the hoofbeat signs in the same line. 'more of them than the hour called for' (L197) rests on rangers she can see. 'Something wrong with her stones' (L157) is anchored by the hitch and the cold, and her lack of a word for it is what the chapter is about (subject-matter defense). 'These had roads.' (L231) follows ruled lines she has just seen. 'The opening.' (L105) is cashed out in the next sentence. 'A name worth watching.' (L245) is the in-world file category from the knowledge ledger. 'Antonidas's to the bone' (L291) sits beside the ink and the crossing in the same list. 'Tell them the trolls can count... count our bows before they count our coin' (L109) states a real claim: trolls gauge the archers, so cutting bows invites a raid. No planner shorthand turned up: no 'she had the X' or 'still needed the Y' status lines. Of the 27 candidates, 27 are kept. That is above the guide's 25% leniency alarm, so every keep was re-run through the Step 4 anti-rationalisation check. The candidate list was built wide on purpose, and the earlier revision had already cut the unanchored lines.",
+      "repeatStandIns": "none ('stone' and 'cold' repeat a lot, but they are literal subject matter, not stand-ins)",
+      "findings": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 7,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Seven setup/reply exchanges were checked. 'Off how?' / 'Off.' then 'The beat's uneven. There's cold under it.' (L77-79) is the only true request for plainer speech. The reply names two field signs another ranger can check with a bare palm, and Lor'themar does exactly that in the next beat, so the target and trigger are usable. 'Asked.' / 'Argued...' (L201-203) gets concrete payload: a day with that stone and the next along the ring, and wardens who only read the outsides. 'Kirin Tor ink... dries violet at the edges. Ours dries black.' (L241) turns specialist knowledge into a visible sign. 'What do I tell them?' / 'Tell them the trolls can count...' (L103-109) gives Lor'themar a line he can use, and he says he will. 'Skip the compliments. What.' (L127), 'Papers. Any seal?' (L135) and 'Where is she?' / 'End of the passage. Second door.' (L249-251) ask for news or directions, not a translation of specialist talk, and each reply is a usable target. Each exchange is listed in the scratchpad.",
+      "brokenExchanges": [],
+      "findings": []
+    }
+  ],
+  "outOfScopeObservations": [
+    "L197 (pass A / clarity, not a pass-B guide): 'The benches stood empty. They straightened as she came in, hands near their bows.' Grammatically, 'They' refers to the benches. The slophunter may want to repair the antecedent ('The rangers straightened...').",
+    "L209 (continuity, not a pass-B guide): 'This one had sat down in front of a drawn bow' does not quite match Cyndia's account at L199, where she 'stepped away and showed her hands, and then she asked to stay'. Nothing in the report says she sat down."
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 108,
+    "mildKills": 10,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md"
+    ],
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "10 MILD kills and no MODERATE/SEVERE kills. That is more than the 3-MILD ceiling, so the pass fails. All ten fixes are low-difficulty, and seven are pure deletions. Main habit: paragraph-final closure (F7 x4), concentrated in scene 2's dry one-line closers. Structural rhythm concerns: long_sentence_pct 17.0 (range 7-14), opener_entropy 6.01 (range 7.2-8.2) and mattr 0.79 (range 0.80-0.87) are outside the style-guide ranges. There is a structural texture deficit: the texture verdict is below_target with three metrics out of range (participial 6.2%, em-dash 0.8%, semicolon 0.8%), which counts as a structural problem. Downstream editors should add ', Ving' joins and em-dash pivots in the flagged deserts rather than more short sentences.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.649,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": -0.071,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.0,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "delta": 0.0,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.743,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.043,
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 37.6,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "delta": 2.6,
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 17.0,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "delta": 7.0,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.01,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "delta": -1.69,
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 23.6,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 4.6,
+        "inRange": true,
+        "note": "at the top edge of the range"
+      },
+      "mattr": {
+        "actual": 0.79,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "delta": -0.04,
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct above range",
+        "opener_entropy below range",
+        "mattr below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 77.7,
+      "verdict_reasons": [
+        "participial: 6.2% below target 12.0% (score 56/100)",
+        "compound: 11.9% above target 10.0% (score 84/100)",
+        "emdash: 0.8% below target 4.0% (score 71/100)"
+      ],
+      "outOfRange": [
+        "participial_pct 6.2 (range 12-15)",
+        "emdash_pct 0.8 (range 2.5-5.5)",
+        "semicolon_pct 0.8 (range 1.0-2.5)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.2% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 11.9% -> target 10.0% (score 84/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 0.8% -> target 4.0% (score 71/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 7,
+        "texture_desert": 11
+      },
+      "note": "Structural texture deficit: three metrics out of range, which counts as structural. Kills B-r1-01, -03, -04, -05, -07 and -09 sit inside flagged zones, so when applying those deletions the reviser should also add joining constructions to the surrounding sentences."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 31,
+        "total_violations": 1,
+        "overCap": [
+          "narrator_verdict.verdict_too_x_for (1 of cap 0) - L119 'too even for anyone' - pass B, audited as KEEP (see scratchpad)"
+        ],
+        "passBMappedMatches": 1,
+        "passAMappedMatches": "punctuation_tics 9, participial_attachment 8, simile_overload 6, filter_words 3 (not audited here)",
+        "contactVerbs": "4 (unmapped; not audited here)"
+      }
+    }
+  }
+}

@@ -1,0 +1,1077 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 34,
+      "kills": 16,
+      "keeps": 18,
+      "killRate": "47%",
+      "severityMarkers": {
+        "MILD": 13,
+        "MODERATE": 3
+      },
+      "dominantPattern": "appended ', not [circumstance]' tail (L3, L181, L283) and P5 preamble negation",
+      "clusterPages": [
+        "L187-199 (Pass post arrival / guardroom: L191, L197, L199)",
+        "L283-287 (cell threshold: L283, L287)"
+      ],
+      "clusterWarnings": [
+        "Same appended-negation shape at L3, L181 and L283; L181 and L283 are near-identical ('She couldn't hear ..., not at/from ...').",
+        "Pivot rhythm appears in both narration (L83, L191) and dialogue (L215), so the dialogue instance is killed.",
+        "Keep rate above 20%: most keeps are condition-4 self-argument in Sylvanas's interior debate (L71, L109, L155, L211, L233, L241, L291, L293) or non-contrast negations recorded for transparency (L117, L119, L139). Each was re-examined against the self-check; see scratchpad."
+      ],
+      "findings": [
+        {
+          "id": "A-N01",
+          "line": 3,
+          "text": "Nothing else in the hollow had reason to keep that still, not on a morning with wind in it.",
+          "pattern": "negation-repeated-shape (appended ', not [circumstance]')",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Appended circumstantial negation; same ', not at/from/on X' shape recurs at L181 and L283 (cluster rule: repeated shape, every instance KILL). Deletion test: the circumstance survives as an affirmative opener.",
+          "fixAction": "replace",
+          "suggestedFix": "On a morning with wind in it, nothing else in the hollow had reason to keep that still.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "On a morning with wind in it, nothing else in the hollow had reason to keep that still."
+        },
+        {
+          "id": "A-N02",
+          "line": 7,
+          "text": "She did not intend to miss.",
+          "pattern": "P5 preamble negation (negated-intent punchline)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "One-line negated-intent beat restating the contingency from the previous sentence; deleting it loses no concrete fact (self-check 1). No keep condition applies.",
+          "fixAction": "delete",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Paragraph flows directly from 'all the way home.' to 'The troll would go for the stream.'"
+        },
+        {
+          "id": "A-N03",
+          "line": 41,
+          "text": "Lor'themar did not answer right away. He let his horse drop its head to crop at a fern.",
+          "pattern": "P5 preamble negation",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Names the reaction that did not happen before the real one. The horse cropping and the delayed 'The stones,' he said already carry the pause.",
+          "fixAction": "replace",
+          "suggestedFix": "Lor'themar let his horse drop its head to crop at a fern.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "He let his horse drop its head to crop at a fern."
+        },
+        {
+          "id": "A-N04",
+          "line": 57,
+          "text": "Runes ran deep down its southern face, filled with the faint gold that never quite looked like paint.",
+          "pattern": "P4 minimizer pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Defines the gold by what it does not look like. Deletion test survives: 'filled with a faint gold'.",
+          "fixAction": "replace",
+          "suggestedFix": "Runes ran deep down its southern face, their cuts filled with a faint gold.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Runes ran deep down its southern face, filled with the faint gold."
+        },
+        {
+          "id": "A-N05",
+          "line": 83,
+          "text": "For a moment he had a ranger's face and not a courtier's.",
+          "pattern": "P1 direct contrast pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "'X and not Y' contrast in narration. Deletion test survives; 'again' carries the usual-courtier implication affirmatively.",
+          "fixAction": "replace",
+          "suggestedFix": "For a moment he had a ranger's face again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "For a moment he had a ranger's face.",
+          "textureZone": "approx. inside texture_desert s115-138 / telegram_run s115-127 (sentence-index mapping approximate)"
+        },
+        {
+          "id": "A-N06",
+          "line": 93,
+          "text": "Nothing a person riding by would ever look at twice.",
+          "pattern": "P2 fragment pivot (negated summary fragment)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Catalog fragments ('Moss on the shoulder. Gold in the runes.') capped with a negated verdict fragment. No keep condition; the plot fact (the stone looks normal) can be stated affirmatively.",
+          "fixAction": "replace",
+          "suggestedFix": "Any rider would have passed it at a trot.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Moss on the shoulder. Gold in the runes."
+        },
+        {
+          "id": "A-N07",
+          "line": 145,
+          "text": "Nobody laughed.",
+          "pattern": "P5 preamble negation",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Names a reaction that did not happen before the real one (horse blowing, rider hushing it). Deletion test survives.",
+          "fixAction": "delete",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Behind her, one of the horses blew, shaking its head until its rider hushed it."
+        },
+        {
+          "id": "A-N08",
+          "line": 181,
+          "text": "She couldn't hear one, not at a gallop, and whether that was because there was none, she didn't know.",
+          "pattern": "negation-repeated-shape (appended ', not [circumstance]')",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Second instance of the appended ', not at X' shape (see L3, L283). Moving the circumstance to the front keeps the hard constraint without the pivot.",
+          "fixAction": "replace",
+          "suggestedFix": "At a gallop she couldn't hear one, and whether that was because there was none, she didn't know.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "She couldn't hear one at a gallop, and whether that was because there was none, she didn't know."
+        },
+        {
+          "id": "A-N09",
+          "line": 191,
+          "text": "It showed nowhere in her voice.",
+          "pattern": "P4 minimizer pivot (positive-positive-negative triad)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Two 'it showed in' beats capped by a negated third; the fact is that her voice was steady, which can be stated directly. Page cluster with L197 and L199.",
+          "fixAction": "replace",
+          "suggestedFix": "Her voice was level.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Her voice was level."
+        },
+        {
+          "id": "A-N10",
+          "line": 197,
+          "text": "Ward-lamps burned in iron brackets along both walls, and no corner kept a shadow worth the name.",
+          "pattern": "P5 preamble negation (defined by absence)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Describes the lighting by the shadow it lacks before 'The light was white...' gives the positive. Page cluster with L191 and L199.",
+          "fixAction": "replace",
+          "suggestedFix": "Ward-lamps burned in iron brackets along both walls and lit every corner.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Ward-lamps burned in iron brackets along both walls. The light was white with blue at the edges, steady as noon."
+        },
+        {
+          "id": "A-N11",
+          "line": 199,
+          "text": "None sat, though there were benches enough.",
+          "pattern": "P5 preamble negation (cluster downgrade)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Would pass as physical precision in isolation, but sits within two paragraphs of the L191 and L197 kills; cluster rule downgrades it. 'Rangers stood' already gives the posture.",
+          "fixAction": "replace",
+          "suggestedFix": "The benches stood empty.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Rangers stood along the far wall, more of them than the hour called for. They straightened as she came in"
+        },
+        {
+          "id": "A-N12",
+          "line": 215,
+          "text": "I don't think she minded that we had her, Ranger-General. I think she minded that we took her off the stone.",
+          "pattern": "P1 direct contrast pivot (dialogue leak)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "'I don't think X. I think Y.' pivot in dialogue while narration uses the same rhythm (L83, L191): cluster rule says the tic is leaking across voice boundaries. Her willingness to be held is already on the page at L205 ('asked whether she could be bound at the stone').",
+          "fixAction": "replace",
+          "suggestedFix": "What she minded, Ranger-General, was us taking her off the stone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "I think she minded that we took her off the stone."
+        },
+        {
+          "id": "A-N13",
+          "line": 231,
+          "text": "The ward-stones were there, not every one, but more than any human had a right to know.",
+          "pattern": "P1 direct contrast pivot ('not X, but Y')",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Textbook 'not X, but Y'. 'Many of' keeps the incomplete-survey fact the surveyor/raider reasoning at L233 depends on.",
+          "fixAction": "replace",
+          "suggestedFix": "Many of the ward-stones were there, more than any human had a right to know.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The ward-stones were there, more than any human had a right to know."
+        },
+        {
+          "id": "A-N14",
+          "line": 265,
+          "text": "The left was tied with a knot that wasn't the one it had come with.",
+          "pattern": "P4 minimizer (defined by what it is not)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Defines the knot as not-the-original; the observation (the lace was retied) can be stated directly.",
+          "fixAction": "replace",
+          "suggestedFix": "The left had been retied with a different knot.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The left was tied with a knot.",
+          "textureZone": "approx. inside texture_desert s428-447 (sentence-index mapping approximate)"
+        },
+        {
+          "id": "A-N15",
+          "line": 283,
+          "text": "She couldn't hear anything wrong in it, not from a doorway, with the lamp hissing overhead and rangers breathing at her back.",
+          "pattern": "negation-repeated-shape (appended ', not [circumstance]')",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Third instance of the appended ', not from X' shape and a near-copy of L181 ('She couldn't hear one, not at a gallop'). Front the circumstance.",
+          "fixAction": "replace",
+          "suggestedFix": "From a doorway, with the lamp hissing overhead and rangers breathing at her back, she couldn't hear anything wrong in it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "She couldn't hear anything wrong in it from a doorway, with the lamp hissing overhead and rangers breathing at her back."
+        },
+        {
+          "id": "A-N16",
+          "line": 287,
+          "text": "She wasn't going to get up; she wasn't going to speak first either.",
+          "pattern": "P7 chained negation",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Two stacked refusals defining the prisoner's stance by what she won't do; 'wasn't going to' recurs a third time at L293 (kept there as self-argument). State the stance affirmatively.",
+          "fixAction": "replace",
+          "suggestedFix": "She meant to keep that chair, and to make Sylvanas speak first.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "(no positive half; stance stated only by refusal)"
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 36,
+      "kills": 19,
+      "keeps": 17,
+      "killRate": "53%",
+      "severityMarkers": {
+        "MILD": 10,
+        "MODERATE": 9
+      },
+      "dominantPattern": "P4/P10 institutions, names and instruments doing human work; P5 sensations and emotions given landing verbs",
+      "clusterFlags": [
+        "L271-277 (cell: anger x2, cities hearing, name standing)",
+        "L205-211 (guardroom: hand, cold, Kirin Tor)",
+        "L247-249 (file: hand, name)"
+      ],
+      "repeatNouns": [
+        "cold (L77 lodging, L209 sitting; L147 kept)",
+        "name (L249 walk, L277 standing)",
+        "anger (L271 x2)",
+        "Convocation/Silvermoon institutional verbs (L73, L275)"
+      ],
+      "pattern4Alert": "yes - L73 (Convocation), L211 (Kirin Tor / Eversong), L275 (Dalaran / Kul Tiras / Silvermoon)",
+      "smartPovHighRisk": "yes - Sylvanas's analytic interior passages (L209-211, L247-249, L271-277) carry 2+ hits each",
+      "secondSweepP5P6": {
+        "performed": true,
+        "bodyPartSubjects": "L121 'her own hand went' KILL; L205 'left hand had come to rest' KILL; L189 'voice ... turning every head' KILL; L209 'right hand had closed again' KEEP (involuntary, echoes L147 'without meaning to'); L269 'Her hands lay on her knees' KEEP (static position, no volition); L281 'A small frown came ... and went' KEEP (involuntary expression is the point).",
+        "instrumentPhraseDemotion": "L247 'in a flat hand that didn't hand out words' KILL; L283 'In her palm she remembered moss' KEEP (Sylvanas stays the subject).",
+        "abstractStatesIntoBodyParts": "L77 cold lodging KILL; L209 cold sitting KILL; L233 not-knowing sat sour in stomach KILL; L271 anger in jaw KILL; L167 joke out of face KILL.",
+        "receiverNounsWithCognition": "L291 map 'asked it how' KILL; L249/L277 name walking/standing KILL; L105 'it says so in three hands' KEEP (a report literally stating text).",
+        "metaphorChains": "anger L271 (two consecutive sentences); name L247-249 then L277; cold L77 -> L147 -> L209."
+      },
+      "findings": [
+        {
+          "id": "A-I01",
+          "line": 57,
+          "text": "A ward-stone did not care about moss.",
+          "pattern": "P5 object wanting/refusing",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Stone given an attitude ('did not care'). Real agent: the ward mechanism, which works the same under moss. Also a negated attribute.",
+          "fixAction": "replace",
+          "suggestedFix": "A ward-stone worked the same under moss as bare.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "ward-stone",
+          "verb": "did not care",
+          "realAgent": "the ward's function, unaffected by moss"
+        },
+        {
+          "id": "A-I02",
+          "line": 73,
+          "text": "and the Convocation read the signatures and moved on",
+          "pattern": "P4 institution acting/judging",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Institution given reading and dismissal. Real agents: the magisters, named in the same paragraph. Pattern 4 alert.",
+          "fixAction": "replace",
+          "suggestedFix": "and the magisters read the signatures and moved on",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the Convocation",
+          "verb": "read ... moved on",
+          "realAgent": "the magisters sitting in the Convocation"
+        },
+        {
+          "id": "A-I03",
+          "line": 77,
+          "text": "She took her hand away, some of the cold coming with it and lodging in the palm.",
+          "pattern": "P5 sensation landing verb (abstract state settling into body part)",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Matches calibration 'The old ache settled back into the joint.' The cold gets a travelling-and-lodging verb; the same noun repeats the move at L209 (repeat-noun rule).",
+          "fixAction": "replace",
+          "suggestedFix": "She took her hand away, and the palm stayed cold.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the cold",
+          "verb": "coming ... lodging",
+          "realAgent": "her palm, which stays cold",
+          "textureZone": "approx. inside telegram_run s106-113 (sentence-index mapping approximate)"
+        },
+        {
+          "id": "A-I04",
+          "line": 117,
+          "text": "He laughed quietly and let it go, keeping his horse at her mare's shoulder, the same half-length back he always rode.",
+          "pattern": "P11 permission tag",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "'let it go' narrates willpower (dropping the subject) instead of stating what he did. Delete the tag; the riding carries the beat.",
+          "fixAction": "replace",
+          "suggestedFix": "He laughed quietly and kept his horse at her mare's shoulder, the same half-length back he always rode.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "permission_tag_she_let_it",
+          "subject": "he (tag on 'it' = the topic)",
+          "verb": "let it go",
+          "realAgent": "Lor'themar dropping the subject"
+        },
+        {
+          "id": "A-I05",
+          "line": 121,
+          "text": "and her own hand went to her string.",
+          "pattern": "P8 body part acting independently",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Body-part subject with volition; the involuntary exception is not invoked in the text. She put her hand to the string.",
+          "fixAction": "replace",
+          "suggestedFix": "and she set her own fingers to her string.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "her own hand",
+          "verb": "went to",
+          "realAgent": "Sylvanas"
+        },
+        {
+          "id": "A-I06",
+          "line": 167,
+          "text": "The joke went out of his face for a moment.",
+          "pattern": "P9 abstraction as agent leaving a body part",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "An abstraction (the joke) gets a motion verb inside a body part. Real agent: Lor'themar stops joking.",
+          "fixAction": "replace",
+          "suggestedFix": "For a moment he dropped the joke.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the joke",
+          "verb": "went out of",
+          "realAgent": "Lor'themar"
+        },
+        {
+          "id": "A-I07",
+          "line": 189,
+          "text": "Her voice carried across the yard, turning every head in it.",
+          "pattern": "P10 receiver/instrument doing the human work",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The voice is credited with turning heads; the real actors are the people in the yard turning. Put them in subject position.",
+          "fixAction": "replace",
+          "suggestedFix": "Her voice carried across the yard, and every ranger in it turned.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "participial_trailing",
+          "subject": "her voice",
+          "verb": "turning every head",
+          "realAgent": "the rangers in the yard"
+        },
+        {
+          "id": "A-I08",
+          "line": 205,
+          "text": "Cyndia's left hand had come to rest near her quiver; it stayed there.",
+          "pattern": "P8 body part acting independently",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Close kin of calibration 'Her gaze settled on him.' Cyndia moved her hand; nothing in the text makes it involuntary.",
+          "fixAction": "replace",
+          "suggestedFix": "Cyndia had rested her left hand near her quiver and kept it there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "Cyndia's left hand",
+          "verb": "had come to rest ... stayed",
+          "realAgent": "Cyndia"
+        },
+        {
+          "id": "A-I09",
+          "line": 209,
+          "text": "She opened it, the cold sitting in the middle of the palm where it had sat all afternoon, small and constant.",
+          "pattern": "P5 sensation landing verb (repeat noun)",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Second landing verb for the same cold (after 'lodging' at L77): repeat-noun rule. Calibration form: 'The ache was back in the joint.'",
+          "fixAction": "replace",
+          "suggestedFix": "She opened it. The small, constant cold was still in the middle of the palm, as it had been all afternoon.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the cold",
+          "verb": "sitting ... had sat",
+          "realAgent": "the sensation in her palm (state, not agent)"
+        },
+        {
+          "id": "A-I10",
+          "line": 211,
+          "text": "The Kirin Tor bred it the way Eversong bred horses.",
+          "pattern": "P4 institution/region acting",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Institution ('the Kirin Tor') and region ('Eversong') both given a human verb. Real agents: Kirin Tor masters training apprentices; elven horse-breeders.",
+          "fixAction": "replace",
+          "suggestedFix": "Kirin Tor masters bred it into their apprentices the way her own people bred speed into horses.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the Kirin Tor / Eversong",
+          "verb": "bred",
+          "realAgent": "Kirin Tor masters; Thalassian horse-breeders"
+        },
+        {
+          "id": "A-I11",
+          "line": 233,
+          "text": "Sylvanas had no idea which, and the not knowing sat sour in her stomach.",
+          "pattern": "P9 nominalized state settling into body part",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Nominalized 'the not knowing' given a sitting verb in her stomach; the pass-specific sweep target 'abstract states settling into body parts'.",
+          "fixAction": "replace",
+          "suggestedFix": "Sylvanas had no idea which, and her stomach was sour with it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the not knowing",
+          "verb": "sat",
+          "realAgent": "Sylvanas (her uncertainty, felt as nausea)"
+        },
+        {
+          "id": "A-I12",
+          "line": 247,
+          "text": "Gifted beyond her years, a Farstrider had written, in a flat hand that didn't hand out words like gifted.",
+          "pattern": "P10 instrument doing the human work",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The handwriting ('a flat hand') is given the writer's judgment about praise; the real actor, the Farstrider, is demoted into an instrument phrase.",
+          "fixAction": "replace",
+          "suggestedFix": "Gifted beyond her years, a Farstrider had written, in a flat hand, and Farstriders were stingy with words like gifted.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "a flat hand",
+          "verb": "didn't hand out",
+          "realAgent": "the Farstrider who wrote the file",
+          "textureZone": "approx. inside texture_desert s400-412 (sentence-index mapping approximate)"
+        },
+        {
+          "id": "A-I13",
+          "line": 249,
+          "text": "Well, she'd watched it walk into her post.",
+          "pattern": "P10 receiver noun given the human action (repeat noun 'name')",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "'it' = 'A name worth watching'; the name walks. Same noun stands at L277 (repeat-noun rule). The person did the walking.",
+          "fixAction": "replace",
+          "suggestedFix": "Well, she'd watched it. Now the mage was sitting in her cells.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filter_watched",
+          "subject": "it (the name)",
+          "verb": "walk",
+          "realAgent": "the mage"
+        },
+        {
+          "id": "A-I14",
+          "line": 271,
+          "text": "This one was looking at Sylvanas, the anger in that jaw gone past shouting into something quiet and fixed.",
+          "pattern": "P5 abstract state travelling in a body part (repeat noun 'anger')",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Anger given a trajectory inside the jaw; 'anger' is given a second agency verb in the next sentence (repeat-noun rule).",
+          "fixAction": "replace",
+          "suggestedFix": "This one was looking at Sylvanas, quiet and fixed, angry well past the point of shouting.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the anger",
+          "verb": "gone past ... into",
+          "realAgent": "the mage, angry"
+        },
+        {
+          "id": "A-I15",
+          "line": 271,
+          "text": "She was so tired the anger was the only thing holding her upright in the chair.",
+          "pattern": "P5 emotion given physical agency (repeat noun 'anger')",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The emotion is the agent holding her up. Not the POV character's emotion, so the POV-emotional-metaphor keep does not apply.",
+          "fixAction": "replace",
+          "suggestedFix": "She was so tired she was sitting upright in the chair on anger alone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the anger",
+          "verb": "holding her upright",
+          "realAgent": "the mage"
+        },
+        {
+          "id": "A-I16",
+          "line": 275,
+          "text": "If she came to harm here, Dalaran would hear of it and Kul Tiras with it, and Silvermoon would learn about it from them.",
+          "pattern": "P4 cities/institutions given cognition",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Three places hear and learn. Real agents are already on the page: Antonidas, the lord admiral (her father), the magisters. Pattern 4 alert.",
+          "fixAction": "replace",
+          "suggestedFix": "If she came to harm here, Antonidas would hear of it and the lord admiral with him, and the magisters in Silvermoon would learn about it from them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "Dalaran / Kul Tiras / Silvermoon",
+          "verb": "hear / learn",
+          "realAgent": "Antonidas, the lord admiral, the magisters"
+        },
+        {
+          "id": "A-I17",
+          "line": 277,
+          "text": "Soft on every side, and a famous name standing in the middle of it.",
+          "pattern": "P10 receiver noun given the human action (repeat noun 'name')",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Second time 'name' gets a human posture verb (see L249). Put the person in the sentence.",
+          "fixAction": "replace",
+          "suggestedFix": "Soft on every side, and a mage with a famous name standing in the middle of it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "a famous name",
+          "verb": "standing",
+          "realAgent": "the mage"
+        },
+        {
+          "id": "A-I18",
+          "line": 291,
+          "text": "Send her home, then, and the map went south with her, ink ring and all, and nobody ever asked it how.",
+          "pattern": "P2 map cast as respondent (receiver noun given cognition)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The map is cast as the one that could answer 'how'; the pass-specific sweep target 'maps ... receiving cognition verbs'. The question is how she knew, which belongs to the mage.",
+          "fixAction": "replace",
+          "suggestedFix": "Send her home, then, and the map went south with her, ink ring and all, and nobody ever learned how she'd drawn it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the map (it)",
+          "verb": "asked [how]",
+          "realAgent": "the mage, who knows how she circled the stone"
+        },
+        {
+          "id": "A-I19",
+          "line": 301,
+          "text": "Sylvanas let it go on and left the human to sit in it.",
+          "pattern": "P11 permission tag",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "'let it go on' hands the verb to the silence and narrates willpower. Delete the tag; 'left the human to sit in it' already states what she did.",
+          "fixAction": "replace",
+          "suggestedFix": "Sylvanas left the human to sit in it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "Sylvanas (tag on 'it' = the silence)",
+          "verb": "let it go on",
+          "realAgent": "Sylvanas keeping quiet"
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 40,
+      "kills": 5,
+      "keeps": 35,
+      "killRate": "12%",
+      "severityMarkers": {
+        "MILD": 5,
+        "MODERATE": 0
+      },
+      "dominantPattern": "Tic 5 eye/gaze over cap (7 vs 4) concentrated in the closing cell scene",
+      "ticCounts": {
+        "tic1_cornerOfMouth": {
+          "count": 0,
+          "cap": 1
+        },
+        "tic2_marked": {
+          "count": 2,
+          "cap": 2,
+          "note": "both literal (L233 surveyor/raider marking stones on a map)"
+        },
+        "tic3_tightened": {
+          "count": 0,
+          "cap": 3
+        },
+        "tic3_eased": {
+          "count": 2,
+          "cap": 2,
+          "note": "both physical (L31 easing his weight, L105 easing a knee)"
+        },
+        "tic4_facialShifted": {
+          "count": 0,
+          "cap": 1,
+          "note": "all 'shifted' uses physical (L53 mare, L105 saddle, L229 shadow, L245 crystal colour)"
+        },
+        "tic5_eyeGaze": {
+          "count": 7,
+          "cap": 4,
+          "instances": [
+            107,
+            113,
+            153,
+            271,
+            279,
+            299,
+            301
+          ],
+          "kept": [
+            107,
+            153,
+            271,
+            299
+          ],
+          "killed": [
+            113,
+            279,
+            301
+          ]
+        },
+        "tic6_weightHeaviness": {
+          "count": 0,
+          "cap": 2
+        },
+        "tic7_nonSaidTags": {
+          "count": 0,
+          "cap": 3,
+          "note": "'called' at L17 is a volume tag, exempt"
+        },
+        "punctColonNarration": {
+          "count": 7,
+          "cap": 5,
+          "killed": [
+            269,
+            295
+          ]
+        }
+      },
+      "findings": [
+        {
+          "id": "A-T01",
+          "line": 113,
+          "text": "He glanced at her sideways.",
+          "pattern": "Tic 5 eye/gaze repertoire (over cap)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Chapter has 7 emotional/reaction gaze beats against a cap of 4. This is the most generic (sideways glance as a reaction tag between two lines of his own dialogue).",
+          "fixAction": "replace",
+          "suggestedFix": "\"That's good. I'll use that. You'll be there to say it yourself, of course.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filler_glanced",
+          "fixNote": "Delete the beat and join the two halves of Lor'themar's dialogue."
+        },
+        {
+          "id": "A-T02",
+          "line": 279,
+          "text": "She came up to Sylvanas's face and held there without dropping.",
+          "pattern": "Tic 5 eye/gaze repertoire (over cap)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Generic held-gaze beat; the final scene stacks three hold-the-gaze beats (L279, L299, L301). The once-over list before it already does the sizing-up.",
+          "fixAction": "replace",
+          "suggestedFix": "Sylvanas's face came last.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T03",
+          "line": 301,
+          "text": "The human sat in it and didn't look away.",
+          "pattern": "Tic 5 eye/gaze repertoire (over cap)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Third hold-the-gaze beat in the closing scene and a stock 'didn't look away'. L299 ('tip her head back to keep looking at her. The mage did.') already holds the stare with physical staging.",
+          "fixAction": "replace",
+          "suggestedFix": "The human sat in it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T04",
+          "line": 269,
+          "text": "The skin was split and peeling the way Sylvanas had seen it on rangers coming off a winter watch at the high posts: frost-nip.",
+          "pattern": "punctuation tic: narration colon reveal (over cap)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "7 narration colons against a cap of 5; this one is a drum-roll reveal colon, among the two weakest. Name the condition in the sentence.",
+          "fixAction": "replace",
+          "suggestedFix": "The skin was split and peeling with frost-nip, the way Sylvanas had seen it on rangers coming off a winter watch at the high posts.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "id": "A-T05",
+          "line": 295,
+          "text": "And Antonidas: had he sent her?",
+          "pattern": "punctuation tic: narration colon (over cap)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Second excess narration colon; a topic-colon before a question adds nothing a plain question doesn't carry.",
+          "fixAction": "replace",
+          "suggestedFix": "And had Antonidas sent her?",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 40,
+    "totalKeeps": 70,
+    "mildKills": 28,
+    "moderateOrSevereKills": 12,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 40,
+    "killsUnfixable": 0,
+    "fixStrategy": "default (manifest has no slopGateLoop.iterationKillsA history)",
+    "verdict": "fail",
+    "verdictReason": "12 MODERATE kills (repeated appended-negation shape, Pattern 4 institutional agency, repeat-noun smears on cold/name/anger) and 28 MILD kills across all three pass A guides. Also a structural texture deficit (texture below_target: participial and em-dash) and structural rhythm concerns (long_sentence_pct, opener entropy and MATTR outside range).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.655,
+        "target": 0.72,
+        "delta": -0.065,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.745,
+        "target": 0.7,
+        "delta": 0.045,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 23.3,
+        "target": 19.0,
+        "delta": 4.3,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.0,
+        "target": 11.0,
+        "delta": 0.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 38.2,
+        "target": 35.0,
+        "delta": 3.2,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 16.9,
+        "target": 10.0,
+        "delta": 6.9,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 5.98,
+        "target": 7.7,
+        "delta": -1.72,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false,
+        "note": "Large gap may reflect a different entropy basis between scorer and style-guide measurement; treat as uncertain."
+      },
+      "mattr": {
+        "actual": 0.792,
+        "target": 0.83,
+        "delta": -0.038,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct above range",
+        "opener_entropy below range (uncertain basis)",
+        "mattr below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 80.4,
+      "participial_pct": 6.4,
+      "compound_pct": 11.2,
+      "emdash_pct": 0.6,
+      "semicolon_pct": 1.4,
+      "short_pct": 46.2,
+      "verdict_reasons": [
+        "participial: 6.4% below target 12.0% (score 57/100)",
+        "emdash: 0.6% below target 4.0% (score 69/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.4% -> target 12.0% (score 57/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 0.6% -> target 4.0% (score 69/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 10,
+        "texture_desert": 10
+      },
+      "note": "structural texture deficit. Fix A-I07 removes one trailing participial; the slophunter should restore participial count elsewhere when applying fixes."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 41,
+        "total_violations": 4,
+        "overCap": [
+          {
+            "pattern": "punct_colon_narration",
+            "count": 7,
+            "cap": 5,
+            "guide": "recurring-prose-tics (pass A)",
+            "handled": "A-T04, A-T05"
+          },
+          {
+            "pattern": "permission_tag_she_let_it",
+            "count": 1,
+            "cap": 0,
+            "guide": "intent-smear P11 (pass A)",
+            "handled": "A-I04"
+          },
+          {
+            "pattern": "opener_consecutive_repeat",
+            "count": 1,
+            "cap": 0,
+            "guide": "recurring-prose-tics (pass A)",
+            "handled": "KEEP (dialogue openers L43-47), see scratchpad"
+          },
+          {
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0,
+            "guide": "narrator-seep (pass B)",
+            "handled": "out of pass A scope (L121)"
+          }
+        ],
+        "passAMappedUnderCap": "filter_watched x2 (L31 KEEP, L249 -> A-I13), filter_decided x1 (L41 KEEP), filler_glanced x1 (L113 -> A-T01), participial_trailing x10 (L189 -> A-I07, rest KEEP), simile_like/as_if/as_though x5 (all KEEP), punct_semicolon x7 (under cap, KEEP)"
+      }
+    }
+  }
+}

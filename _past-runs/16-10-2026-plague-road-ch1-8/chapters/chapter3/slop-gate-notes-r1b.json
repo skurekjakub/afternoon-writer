@@ -1,0 +1,1051 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner",
+    "registerSummary": "Clipped, dry Ranger-General. She thinks in ground, tracks, lines and cover, swears by the sun or 'damn', and argues with herself in short self-questions she answers and overrules ('A doe is a doe. Find out.'). She is unfair to magisters and to the Convocation, names feelings only as irritation or body facts, and does not reach for aphorism, paradox or thematic captions.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 74,
+      "kills": 35,
+      "keeps": 39,
+      "mildKills": 31,
+      "moderateKills": 3,
+      "severeKills": 1,
+      "dominantPattern": "F12 (Non-Action Beats)",
+      "findings": [
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F2",
+          "severity": "MILD",
+          "line": 455,
+          "text": "The girl turned to Neral for it. Neral nodded.",
+          "issue": "Generic beat. 'Neral nodded.' is the whole beat, stopping at the kill-list verb; the permission it gives the girl could be any character's.",
+          "suggestedFix": "The girl turned to Neral for it, and Neral tipped her head at the mage.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "failureMode": "Dialogue-Beat Genericism",
+          "beatIssue": "generic label",
+          "textureZone": "telegram_run/texture_desert 'The baby first,' Neral said... (L439-L457)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F2",
+          "severity": "MILD",
+          "line": 675,
+          "text": "The mage studied the clay between her boots.",
+          "issue": "Generic look-away beat closing the exchange ('looked away' variant); could belong to any character and does no physical work. Third 'studied' in the scene (L605, L619).",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "failureMode": "Dialogue-Beat Genericism",
+          "beatIssue": "interchangeable",
+          "fixNote": "Delete the paragraph; L677 follows straight on from 'Yes.'"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F2",
+          "severity": "MILD",
+          "line": 687,
+          "text": "Neral nodded once.",
+          "issue": "Generic acknowledgement beat ('nodded once') with nothing character-specific; filler_nodded is at cap (4/4).",
+          "suggestedFix": "Neral turned back to the grey's girth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "failureMode": "Dialogue-Beat Genericism",
+          "beatIssue": "generic label"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 345,
+          "text": "so small that Sylvanas felt it more than heard it, ",
+          "issue": "Filter pair 'felt it more than heard it' routes the whisper through Sylvanas's awareness; stock phrase. Deletion test: 'Then, from under the floor, a whisper scraped down to nothing:' is stronger.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "word": "felt / heard",
+          "deletionTest": "Then, from under the floor, a whisper scraped down to nothing:",
+          "fixNote": "Delete the cited clause, leaving 'Then, from under the floor, a whisper scraped down to nothing:'",
+          "textureZone": "telegram_run/texture_desert 'There's somebody under the floor,' Sylvanas said... (L329-L347)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 371,
+          "text": "Sylvanas heard it patter on something underneath.",
+          "issue": "Filter verb 'heard' mediates a direct perception. Deletion test passes.",
+          "suggestedFix": "It pattered on something underneath.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "word": "heard",
+          "deletionTest": "It pattered on something underneath.",
+          "textureZone": "texture_desert 'Say it again.' Neral said it again... (L347-L371)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "severity": "SEVERE",
+          "line": 551,
+          "text": "She had already started rocking a little, without seeming to know she was doing it.",
+          "issue": "Stacked hedges in one sentence: 'a little' plus 'without seeming to know'. The stacking rule makes this SEVERE. It is also the second of three 'seeming to know/notice' hedges in the chapter (L199, L551, L751).",
+          "suggestedFix": "She had already started to rock the girl.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "word": "a little + without seeming to",
+          "deletionTest": "She had already started rocking.",
+          "stacked": true,
+          "textureZone": "texture_desert 'It was always dark,' the girl said... (L523-L551)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 567,
+          "text": "Sylvanas had nearly forgotten.",
+          "issue": "Hedge 'nearly' repeats the same frame from L451 ('Sylvanas had nearly forgotten her') in the same scene; the uncertainty is not the point here.",
+          "suggestedFix": "Sylvanas had forgotten.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "word": "nearly",
+          "deletionTest": "Sylvanas had forgotten."
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 751,
+          "text": "He took his hat off, seeming not to know he had done it.",
+          "issue": "Hedge 'seeming' (third 'seeming to know/notice' in the chapter). The unconscious gesture already shows in the act; the gloss adds nothing.",
+          "suggestedFix": "He took his hat off.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "word": "seeming",
+          "deletionTest": "He took his hat off."
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 271,
+          "text": "They had walked out. A great many of them, on their own feet, with their coats on the pegs and their spoons in their bowls, empty-handed and at a walk, through the gates instead of over them, out into the field and the dark.",
+          "issue": "Over-translation. Narration states 'They had walked out' and re-lists coats and spoons from L67/L57, then Sylvanas says the same words aloud at L273. The recap tells the reader what they already have.",
+          "suggestedFix": "A great many of them had gone out on their own feet, empty-handed and at a walk, through the gates instead of over them and into the dark.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "restates": "L57/L67 coats and spoons evidence, and L273 'They walked out,' she said."
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 317,
+          "text": "Somebody had put somebody down that hole and shut the lid on them.",
+          "issue": "Restates in plainer terms the inference just made ('Two hands: one down there to draw the bolt, one up here to drag the bed across and walk away').",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "restates": "L317 'Two hands: one down there to draw the bolt, one up here to drag the bed across and walk away.'",
+          "fixNote": "Delete the sentence.",
+          "textureZone": "texture_desert 'Two hands: one down there...' (L317-L319)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 429,
+          "text": "When she spoke again it was about something with a plain answer.",
+          "issue": "Pre-translation. Narration labels Neral's next question before it is asked; 'Who was sick first?' shows it on its own.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "restates": "L431 'Who was sick first?'",
+          "fixNote": "Delete the sentence.",
+          "textureZone": "telegram_run 'When she spoke again it was about something with a plain answer...' (L429-L437)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 479,
+          "text": "It was a hard question, for all the voice was soft.",
+          "issue": "Caption on the mage's question. The reader already has the question and its softness (L453 'pitched down nearly as low as Neral's'); 'Neral turned her head.' carries the reaction.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "restates": "L477 'How did you know?' and L453 softness",
+          "fixNote": "Delete the sentence; keep 'Neral turned her head.'",
+          "textureZone": "texture_desert 'And then?' Neral said. 'Mam died.' (L473-L489)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F6",
+          "severity": "MILD",
+          "line": 547,
+          "text": "Everything pointed north.",
+          "issue": "Thesis-opening sentence. The next sentence lists the evidence ('The girl's arm pointed north; the toes in the slot pointed north'), so the paragraph opens by announcing its own claim.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "paragraphIssue": "thesis opening",
+          "fixNote": "Delete; the paragraph opens on 'The girl's arm pointed north;'",
+          "textureZone": "telegram_run/texture_desert 'Cyndia.' Cyndia was still in the lane... (L543-L549)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 483,
+          "text": "A man at his wife's bedside had done the one sensible thing left to do.",
+          "issue": "Paragraph-final closure. The shaving glass and 'A frightened child didn't make up a shaving glass' already landed it; this sentence adds the emotional summary.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "location": "paragraph-final",
+          "couldEndAt": "A frightened child didn't make up a shaving glass.",
+          "fixNote": "Delete the sentence."
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 677,
+          "text": "It would hold now. The chamber could hold it up to the lamp as long as they liked.",
+          "issue": "Paragraph-final closure. After the evidence tally, the paragraph closes the loop on L589 ('They'd hold it up to the lamp') with a verdict and a callback flourish. Her next actions (glove on, 'Down', the dispatch) show the decision.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "location": "paragraph-final",
+          "couldEndAt": "...so that the sixty was a number Cyndia would put her name to.",
+          "fixNote": "Delete both sentences.",
+          "textureZone": "texture_desert 'It would hold now...' (L677-L681)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 789,
+          "text": "It was a relief to have one thing this morning that did not need doing.",
+          "issue": "Paragraph-final emotional summary that names the feeling ('relief'). Per the voice sheet, Sylvanas's feelings show as irritation or body facts, not named relief. 'Leave it.' already ends the argument with an order to herself.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "location": "paragraph-final",
+          "couldEndAt": "Leave it.",
+          "fixNote": "Delete the sentence; the paragraph is just 'Leave it.'"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F8",
+          "severity": "MILD",
+          "line": 627,
+          "text": "\"A cow, then.\"",
+          "issue": "Agreement echo. It hands back Cyndia's 'A cow' with 'then' added: no new fact, joke or turn (the same shape as the guide's 'Most likely,' she agreed).",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "echoes": "\"A cow,\" Cyndia said.",
+          "repeatedWords": "A cow",
+          "fixNote": "Delete the paragraph; the next paragraph opens with the mage moving the staff along.",
+          "textureZone": "telegram_run/texture_desert 'That's heavy,' she said... (L623-L629)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "severity": "MILD",
+          "line": 121,
+          "text": "The same as this morning, Ranger-General.",
+          "issue": "Repeated vocative. This is the mage's second of four 'Ranger-General' tags in scene 1 (L35, L121, L163, L213). Here it is tacked onto a mid-instruction line and does nothing; the others carry her 'a little too correct' voice.",
+          "suggestedFix": "The same as this morning.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "vocativeIssue": "repeated vocative",
+          "standsInFor": "nothing; filler tag",
+          "textureZone": "texture_desert 'I'll call you.' ... (L121-L159)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "severity": "MILD",
+          "line": 247,
+          "text": "\"I can't, Ranger-General.",
+          "issue": "Repeated vocative. It is Cyndia's second in scene 1, and her voice sheet sets the field call-and-answer register as 'no address'. The rank tag pads the refusal.",
+          "suggestedFix": "\"I can't.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "vocativeIssue": "repeated vocative; against Cyndia field register"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "severity": "MILD",
+          "line": 647,
+          "text": "\"They've bunched here, Ranger-General, where it narrows,\"",
+          "issue": "Repeated vocative. It is Cyndia's second of three in the cut (L615, L647, L653), on a field call where her voice sheet uses no address. L653 is the formal report and keeps its rank-first shape.",
+          "suggestedFix": "\"They've bunched here where it narrows,\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "vocativeIssue": "repeated vocative; against Cyndia field register"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "severity": "MILD",
+          "line": 831,
+          "text": "\"Mage.\"",
+          "issue": "Name-only line standing in for a sayable intent ('What is it?'). This is not a recall: the mage is reading on her feet with the staff, not under with her hand down.",
+          "suggestedFix": "\"Well?\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "vocativeIssue": "name-only line",
+          "standsInFor": "What do you hear? / Report.",
+          "fixNote": "Replace only the first line ('Mage.') with 'Well?'",
+          "textureZone": "telegram_run 'The crystal clicked faster...' (L829-L835)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F10",
+          "severity": "MILD",
+          "line": 367,
+          "text": "\"Five of us, and a lady with a stick, and some horses. That's all.\"",
+          "issue": "Sign-off tag 'That's all.' The first clause ('nobody up here but us') already gives the reassurance. Neral uses the same sign-off again at L383, where it does carry content ('I'm going to sit on the bottom of it. That's all.'), so this weaker one goes.",
+          "suggestedFix": "\"Five of us, and a lady with a stick, and some horses.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "speechIssue": "sign-off tag",
+          "textureZone": "texture_desert 'That's all.' A boot heel would split that hatch... (L367-L371)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "severity": "MILD",
+          "line": 67,
+          "text": "The coats were on the pegs and the boots were gone. The bread was on the boards and the people were gone.",
+          "issue": "Anaphoric frame run ('The X was on the Y and the Z were gone' x2) used as a drumbeat for weight, directly after 'Every peg by every door had a coat on it.' A merged sentence keeps the content.",
+          "suggestedFix": "The coats were on the pegs and the bread on the boards, and the boots and the people were gone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "repeatedOpener": "The [noun] was/were on the [noun] and the [noun] were gone",
+          "textureZone": "texture_desert 'He had not come back for it...' (L51-L69)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "severity": "MILD",
+          "line": 201,
+          "text": "\"Louder than the crossing. Louder than anything.\"",
+          "issue": "Anaphoric run in speech ('Louder than' x2). 'Louder than anything' adds weight and no fact.",
+          "suggestedFix": "\"Louder than the crossing.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "repeatedOpener": "Louder than",
+          "textureZone": "texture_desert 'Grain dust came up...' / 'Mage.' The mage lifted her head... (L187-L201)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "severity": "MILD",
+          "line": 661,
+          "text": "There was nothing on the bank, nothing ahead of the first of them, nothing at the sides.",
+          "issue": "Clause anaphora ('nothing' x3) as a drumbeat. In this scene the absence count at L817 ('No bay... No grey... No fourth ranger') is the run whose sameness is the content, and it stays.",
+          "suggestedFix": "She found nothing on the bank, at the sides or ahead of the first of them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "repeatedOpener": "nothing"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 249,
+          "text": "Sylvanas did not push.",
+          "issue": "Non-action beat. The strongest non-action in scene 1 is 'The mage did not lift her head.' (L147), which the recall turns on. This one reports an absence; the next sentence (she put that answer into Cyndia herself) shows the restraint on its own.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "expected": "yes",
+          "position": "paragraph-initial",
+          "fixNote": "Delete; the paragraph opens 'She had put that answer into her herself...'"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 429,
+          "text": "and Neral did not ask again.",
+          "issue": "Non-action clause. Scene 2's strongest non-action is 'Neral did not touch the ring.' (L375), which the rescue turns on; this one reports a non-event.",
+          "suggestedFix": "and Neral let the name go.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "expected": "partly",
+          "position": "mid-paragraph",
+          "textureZone": "telegram_run 'When she spoke again...' (L429-L437)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 459,
+          "text": "The mage said nothing more. She had nothing to write with, and no hand to write it with if she had.",
+          "issue": "Non-action beat ('said nothing more') after the girl's answer. The useful content is the reason (no pen, no hand).",
+          "suggestedFix": "The mage had nothing to write with, and no hand to write it with if she had.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "expected": "partly",
+          "position": "paragraph-initial"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 533,
+          "text": "She didn't try.",
+          "issue": "Paragraph-final non-action beat after 'Too late to take it back.' The thought already carries her refusal to backtrack.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "expected": "no",
+          "position": "paragraph-final",
+          "fixNote": "Delete; the paragraph ends 'Too late to take it back.'",
+          "textureZone": "telegram_run/texture_desert 'Too late to take it back. She didn't try...' (L533-L537)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 585,
+          "text": "Cyndia came up and stood at the other corner, not asking her why.",
+          "issue": "Non-action clause ('not asking her why') reporting a non-event; Cyndia standing her corner already shows the tact.",
+          "suggestedFix": "Cyndia came up and stood at the other corner.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "expected": "no",
+          "position": "mid-paragraph"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 777,
+          "text": "Cyndia's face did not move.",
+          "issue": "Non-action reaction beat. The scene's strongest non-action is 'Sylvanas did not draw.' (L741). Give Cyndia the positive thing she did.",
+          "suggestedFix": "Cyndia kept her eyes on the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "expected": "yes",
+          "position": "mid-paragraph",
+          "textureZone": "texture_desert 'Millhaven had been busy as you like...' (L769-L779)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F14",
+          "severity": "MODERATE",
+          "line": 339,
+          "text": "She talked to the hatch in Thalassian, very low, the long easy run",
+          "issue": "Fenced manner phrase ', very low,' followed by a gloss. This is the first of three fenced manner adverbs in scene 2 (L339, L385, L499), so the habit is the problem.",
+          "suggestedFix": "She talked low to the hatch in Thalassian, the long easy run",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "adverb": "very low",
+          "gloss": "the long easy run of nothing that Sylvanas had heard her use on the bay (keeps its fact)",
+          "textureZone": "telegram_run 'Easy. Nobody's going to hurt you...' (L339-L345)"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F14",
+          "severity": "MODERATE",
+          "line": 385,
+          "text": "She went down backwards, slow, and sat on the bottom rung.",
+          "issue": "Fenced manner word ', slow,'. This is the second of three in scene 2. Show the slowness concretely instead.",
+          "suggestedFix": "She went down backwards a rung at a time and sat on the bottom one.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "adverb": "slow",
+          "gloss": "none"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F14",
+          "severity": "MODERATE",
+          "line": 499,
+          "text": "Neral asked her in the common tongue, slower.",
+          "issue": "Fenced comparative ', slower.'. This is the third of three in scene 2.",
+          "suggestedFix": "Neral slowed down and asked her in the common tongue.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "adverb": "slower",
+          "gloss": "none"
+        },
+        {
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F15",
+          "severity": "MILD",
+          "line": 857,
+          "text": "pointed past the farm, down the valley, south, where the road went on.",
+          "issue": "Dying-fall features in the closing run: a held object picked up from earlier (the staff), a landscape tail and a carry-on verb ('where the road went on'). The dog line after it ends the chapter on an image and stays.",
+          "suggestedFix": "pointed past the farm, south.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "features": "held object (staff) / landscape tail / carry-on verb",
+          "couldEndAt": "The staff in the crook of the mage's elbow pointed past the farm, south."
+        }
+      ],
+      "modeCounts": {
+        "F1": 0,
+        "F2": 3,
+        "F3": 5,
+        "F4": 4,
+        "F5": 0,
+        "F6": 1,
+        "F7": 3,
+        "F8": 1,
+        "F9": 4,
+        "F10": 1,
+        "F11": 3,
+        "F12": 6,
+        "F13": 0,
+        "F14": 3,
+        "F15": 1
+      },
+      "f1Note": "No sentence-level F1 kill. The telegram runs and texture deserts the rhythm scorer flags are mostly in dialogue exchanges (the cellar interview, the cut). The narration varies its paragraph shapes, and the comma-plus-ing tails are isolated, never three in one paragraph. The structural rhythm concerns are recorded in summary.rhythmMetrics.",
+      "f5Note": "No F5 kill. Scene 1 keeps the mage-Sylvanas friction ('Damn her, then.') and ends with no direction. Scene 2 has Sylvanas frighten the girl and refuse to send Neral until first light. Scene 3 ends with the duty-versus-trail argument open and a farm door shut on them.",
+      "f13Note": "No F13 kill. 'That was true, and very convenient, which she would have pointed out to anyone else.' (L717) keeps its caption frame because the voice sheet uses that exact self-mocking shape.",
+      "severityMarkers": "F3 SEVERE at L551 (stacked hedges). F14 MODERATE x3 (three fenced manner adverbs in scene 2: a habit)."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 34,
+      "kills": 3,
+      "keeps": 31,
+      "mildKills": 3,
+      "moderateKills": 0,
+      "severeKills": 0,
+      "dominantPattern": "A2 / A7 / B1 (one each)",
+      "findings": [
+        {
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A2",
+          "severity": "MILD",
+          "line": 85,
+          "text": "A cat, and no dogs. A coat on every peg and nobody to put one on.",
+          "issue": "Thesis-fragment pair pinned over the scene. It re-captions L67 (coats on pegs, no dogs) as an epigraph. The previous sentence about the cat already does the counting the beat wants.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "whoIsSaying": "narrator",
+          "povMismatch": "An epigraph-shaped caption restating evidence she logged one paragraph earlier; a summary rather than the next thing she notices.",
+          "confidence": "HIGH",
+          "fixNote": "Delete both fragments; the paragraph ends on the cat sentence."
+        },
+        {
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A7",
+          "severity": "MILD",
+          "line": 471,
+          "text": "You kept it the way you kept a hoofprint you couldn't place, at the back of your head with the others, and walked on.",
+          "issue": "Generic-you maxim closing the grain-seller plant, and the third generic-you construction in the chapter (L69, L419, L471). L69 and L419 are her working idiom and drive decisions; this one is an aphorism. The hoofprint image is hers and can stay inside her POV.",
+          "suggestedFix": "She put it at the back of her head with the hoofprints she couldn't place, and let it lie.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "whoIsSaying": "narrator (generic you)",
+          "povMismatch": "Rounded maxim addressed to an imagined reader, not her own decision in the moment.",
+          "confidence": "HIGH"
+        },
+        {
+          "guide": "narrator-seep-guide.md",
+          "pattern": "B1",
+          "severity": "MILD",
+          "line": 661,
+          "text": "They had just gone, all together, uphill, the way water goes downhill.",
+          "issue": "Too polished for the POV. The uphill/downhill paradox is a writerly turn on the sentence itself. Sylvanas, mid-read, would mutter 'They had just gone,' not frame a chiasmus.",
+          "suggestedFix": "They had just gone, all together, uphill.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "B",
+          "whoIsSaying": "narrator",
+          "povMismatch": "Paradox flourish she would not say under her breath while hunting a stray print.",
+          "confidence": "MODERATE"
+        }
+      ],
+      "tierAKills": 2,
+      "tierBKills": 1,
+      "severePages": [],
+      "severeScenes": [],
+      "structuralHabit": "no",
+      "routedToChildGuides": "Interpretive restatements and closure lines are killed under gpt-5 F4/F7 (L271, L317, L429, L479, L483, L677, L789) and are not re-killed here."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 19,
+      "kills": 4,
+      "keeps": 15,
+      "mildKills": 4,
+      "moderateKills": 0,
+      "severeKills": 0,
+      "dominantPattern": "P3 (placeholder stand-ins)",
+      "findings": [
+        {
+          "guide": "phantom-concreteness-guide.md",
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": 19,
+          "text": "Nothing worse, and she liked that no better.",
+          "issue": "Placeholder 'worse' stands in for the thing she is smelling for (rot, the dead). By what sign: the smells listed are ash, thatch and sour milk. The concrete absence is the payload, so name it.",
+          "suggestedFix": "No rot under it, and she liked that no better.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the smell she expected and did not get: rot or the dead"
+        },
+        {
+          "guide": "phantom-concreteness-guide.md",
+          "pattern": "P4",
+          "severity": "MILD",
+          "line": 69,
+          "text": "each at a different hour of a different day,",
+          "issue": "Unanchored inference. Breakfast, supper and sickbed show different hours; nothing on the page yet shows different days (no relative decay compared). The 'different day' leap outruns the evidence. Cyndia's 'a few at a time' later carries the gradual exodus with her own read.",
+          "suggestedFix": "each at a different hour,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "failedQuestion": "By what sign?",
+          "missingPayload": "decay difference between houses (bread hardness vs water still in cup) that would show days apart",
+          "textureZone": "texture_desert 'He had not come back for it...' (L51-L69)"
+        },
+        {
+          "guide": "phantom-concreteness-guide.md",
+          "pattern": "P5",
+          "severity": "MILD",
+          "line": 109,
+          "text": "She picked the ground first.",
+          "issue": "Planner shorthand. It is a one-line status note that summarizes the tactical task from above ('picked the ground') before the next paragraph shows it (Lyriel to the gallery, Cyndia to the smithy corner, the handcart moved). It would fit unchanged on a beat card.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "already supplied by L111; the line is a caption over it",
+          "fixNote": "Delete the one-line paragraph; L111 does the work."
+        },
+        {
+          "guide": "phantom-concreteness-guide.md",
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": 833,
+          "text": "It's ahead of us, Ranger-General. All of it.",
+          "issue": "'All of it' overclaims and does not cash out. From one spot by a ford the mage cannot know the whole; the line wants weight rather than naming where. The only sign on the page is direction (she turned toward the willows).",
+          "suggestedFix": "It's ahead of us, Ranger-General. Down the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the direction or extent she actually read (south, down the road toward the willows)",
+          "textureZone": "telegram_run 'The crystal clicked faster...' (L829-L835)"
+        }
+      ],
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": [],
+      "keepRateNote": "The keep rate is above the guide's 25% heuristic. Three keeps are mandatory tool-signal reviews (hedge_perhaps x2, hedge_might_have_been) whose hedges are genuine field estimates. The rest are anchored shorthand whose concrete payload sits in the same or the adjacent line."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "mildKills": 0,
+      "moderateKills": 0,
+      "severeKills": 0,
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "No exchange claims plainer speech and fails. Eight translation-shaped exchanges were checked. 'How much is here, you've told me. Which way it went, you can't.' (L227) is a usable state. 'You did the rooms. Now do the places a person would fold up small' (L295) is anchored by the hiding-place list at L291. 'Can you tell her which marks are which?' (L617) is answered mark by mark. 'Ask her how she knows which way' (L497) gets 'The little window'. 'Which is the north road?' (L533) gets a pointed arm and 'Up the cow way'. 'What's it like down there? Who's still trading?' (L765) gets the ford market, chimney smoke and the barley price. The dispatch (L707) names the ring stretch and the high ground. The mage's 'not a knot... a stain in a cloth' (L833) gives a usable knot-versus-spread distinction; its closer is killed separately under phantom P3. Each reply hands the listener a target, sign or order."
+    }
+  ],
+  "summary": {
+    "totalKills": 42,
+    "totalKeeps": 93,
+    "mildKills": 38,
+    "moderateOrSevereKills": 4,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 42,
+    "killsUnfixable": 0,
+    "fixConvention": "suggestedFix replaces the exact cited text. An empty string means delete the cited text; see fixNote for paragraph handling.",
+    "fixStrategy": "default (iterationKillsB history [56]; this sweep is lower, so the trajectory is decreasing)",
+    "verdict": "fail",
+    "verdictReason": "42 kills (38 MILD, 4 MODERATE/SEVERE). There is one SEVERE F3 stacked hedge (L551) and three MODERATE F14 fenced manner adverbs in scene 2, so the pass fails on severity as well as on the MILD count. The dominant residue is gpt-5 F12 non-action beats and F9 repeated vocatives, plus a few F4/F7 closure lines. Narrator seep is light (3) and phantom concreteness light (4). Fake simplification is clean. Structural rhythm concerns: sentence_length_cv, short_sentence_pct, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr. Structural texture deficit: texture below_target (75.2), participial 4.8% vs 12% target, with 28 telegram runs and 29 texture deserts.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.66,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": -0.06,
+        "outsideRange": false
+      },
+      "sentence_length_cv": {
+        "actual": 0.893,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.193,
+        "outsideRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.6,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "delta": 0.6,
+        "outsideRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 43.1,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "delta": 8.1,
+        "outsideRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 20.5,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "delta": 10.5,
+        "outsideRange": true
+      },
+      "opener_entropy": {
+        "actual": 6.36,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "delta": -1.34,
+        "outsideRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 32.4,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 13.4,
+        "outsideRange": true
+      },
+      "mattr": {
+        "actual": 0.766,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "delta": -0.064,
+        "outsideRange": true
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "short_sentence_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 75.2,
+      "participial_pct": 4.8,
+      "compound_pct": 12.7,
+      "emdash_pct": 1.3,
+      "semicolon_pct": 1.7,
+      "short_pct": 52.0,
+      "verdict_reasons": [
+        "participial: 4.8% below target 12.0% (score 51/100)",
+        "compound: 12.7% above target 10.0% (score 75/100)",
+        "emdash: 1.3% below target 4.0% (score 75/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.8% → target 12.0% (score 51/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.7% → target 10.0% (score 75/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.3% → target 4.0% (score 75/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 28,
+      "textureDesertCount": 29,
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 76,
+        "total_violations": 1,
+        "overCap": [
+          {
+            "category": "filter_words",
+            "pattern": "filter_watched",
+            "count": 4,
+            "cap": 3
+          }
+        ],
+        "passBMappedSignals": [
+          {
+            "pattern": "hedge_perhaps",
+            "line": 315,
+            "text": "Five days, perhaps.",
+            "verdict": "KEEP",
+            "guide": "phantom-concreteness-guide.md"
+          },
+          {
+            "pattern": "hedge_perhaps",
+            "line": 423,
+            "text": "Eight years old, perhaps. Nine.",
+            "verdict": "KEEP",
+            "guide": "phantom-concreteness-guide.md"
+          },
+          {
+            "pattern": "hedge_might_have_been",
+            "line": 629,
+            "text": "into a long smear that might have been anything",
+            "verdict": "KEEP",
+            "guide": "phantom-concreteness-guide.md"
+          }
+        ],
+        "note": "No ai_vocabulary, slopsquid, narrator_verdict, academic_register, verbose_phrases, ambient_inversion or vague_pointers matches. The only over-cap pattern (filter_watched 4/3) maps to pass A."
+      }
+    }
+  }
+}

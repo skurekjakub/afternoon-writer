@@ -1,0 +1,178 @@
+{
+  "chapterId": "chapter2",
+  "iteration": 0,
+  "targetFile": "v0.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter; heaviest in transit and description paragraphs (ride down from the Pass, dawn hedges, the fields, the gallop, Millhaven overlook)",
+      "passage": "The cold off the heights followed them down and got in under her robe and settled in her knees, and the mare's shoulders rocked under her, long and even now that the horses had got used to whatever they'd got used to, and Jaina watched the back of Cyndia's head, and then she was watching nothing.",
+      "problem": "Compound joins run at 23.6% against a 10% target (dimension score 35/100), the single biggest drag on a 67.5 texture score. The draft's default way of building a long sentence is polysyndeton: clause, ', and', clause, ', and', clause. It works in a few places (the ground-read, the stag going down) but it is the resting state of almost every narration paragraph, so the long sentences all have the same shape. Other examples: 'They rode out under the white-blue lamps and down, the switchbacks dropping away into the dark, and below them on the saddle of the pass the outer stones stood in their line' (scene 1 close); 'The afternoon was raw and grey, and the wind had a wet edge to it, and any farmwife in Lordaeron would have had her fire banked up since dawn' (fields); 'She drew the knife from her belt as she stepped into the ditch on the far side of the doe, and knelt in the water as if it weren't there, and set the point against the hide' (B12); 'Cyndia came back from the hedge, and stopped beside Windrunner, and said...' (B8).",
+      "fix": "Do not cut the long sentences; reshape them. Convert roughly half of the ', and [verb]' joins in narration into participial phrases or separate sentences. Example: 'The cold off the heights followed them down, getting in under her robe and settling in her knees. The mare's shoulders rocked under her, long and even now the horses had got used to whatever they'd got used to. Jaina watched the back of Cyndia's head, and then she was watching nothing.' That one move lowers compound and raises participial at the same time. Keep the and-chains where momentum is the point (the stag ploughing the road, Neral riding the bay, the ground-read descent) and strip them from transit, staging and reporting sentences."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter",
+      "passage": "Windrunner rode slowly along the road from one end of the dead to the other. She stopped at each animal and looked down at it, the doe, the stag, the second doe, the wolves, and Jaina watched her do it and couldn't tell what she was looking for.",
+      "problem": "Participial phrases run at 4.2% against a 12% target (score 49/100). Almost all connective tissue is carried by 'and', so actions line up as a list of finite verbs instead of overlapping. This is the other half of the compound problem above.",
+      "fix": "Use ', Ving' phrases where one action carries another: 'Windrunner rode slowly along the road from one end of the dead to the other, stopping at each animal to look down at it...' / 'She got onto it at the second try, the mare sidling.' / 'Lyriel swung down and walked to the wolf in the ice, putting her boot on its neck and working her arrow out of its eye with a little twist of the wrist.' Aim for one or two per narration paragraph in the transit and aftermath stretches (ride down, dawn, fields, post-fight survey, gallop). Do not put them in the fight's short calls."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "medium",
+      "location": "Interiority runs: B3 (the note and the stone), B9 (the recalibration), B12 (who ate from the fields)",
+      "passage": "Millhaven, then. Not the nearest place on the road worth stopping. And why there? Most of them within a mile, the rest bending toward it.",
+      "problem": "Em-dashes run at 2.3% against a 4% target (score 87/100). The dashes that are there work well ('except that she wouldn't be on her own, because she wasn't anywhere on her own any more'). Jaina's interior voice is meant to break off and correct itself mid-thought, and the em-dash is the natural mark for that, but the draft mostly uses full stops for her self-corrections.",
+      "fix": "Add about 8 to 10 mid-sentence pivots, mainly in Jaina's self-correcting thought. Example: 'Millhaven, then—not the nearest place on the road worth stopping.' / 'Caution, a good apprentice's caution—oh, Light, no.' / 'Who else had eaten from those fields—the cow in the byre, whoever milked her?' Keep them in her interior voice, not in Sylvanas's or Cyndia's speech."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "medium",
+      "location": "Scorer texture deserts: B4 Q&A (sentences 152-162), B7 decision (359-371), post-fight survey (775-793), Lyriel's Ranger-Lord exchange (559-569), the grey's hock check (898-908)",
+      "passage": "That was what the elf wanted from her, of course: places. Which stones, which bends, how far off the road. Somewhere to send a patrol, marks for a map with her own ink on it. A soldier would want ground to stand on before she'd want a reason to stand there.",
+      "problem": "The scorer flags 19 telegram runs or texture deserts. Some are deliberate and should stay: the 'Hold' / 'Clear' roll call is a call-and-answer by design, and the bare admission at B3 ('Nobody sent me...') earns its short lines. Others are narration that has gone flat for no reason. Examples: B4's misreading paragraph above; the B7 decision ('She needed her hand on it. On the ground... The road was the ground. Nobody could say she'd stepped off the road.'); the post-fight survey, where Windrunner's slow ride, Cyndia's track report and 'Windrunner took that without a word' run as unbroken plain statements.",
+      "fix": "Leave the roll call and the B3 admission alone. In the B4 misreading paragraph, the B7 decision and the post-fight survey, join one sentence in each run to its neighbour with a participial or an em-dash pivot, so the run has one long, textured sentence against the short ones. Example for B7: 'She needed her hand on it—on the ground, under all this, where it had to be coming from.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "high",
+      "location": "Scene 1, opening paragraph (B1)",
+      "passage": "Start talking. As though she had done anything else since before dawn.",
+      "problem": "The plan's constraints say: 'Do not replay Chapter 1's closing line \"Start talking\"; Beat 1 opens from Sylvanas's order already given.' Chapter 1's final.md ends on exactly '\"Start talking.\"' and this chapter opens on the same two words. The style guide also lists mirror transitions (ending and opening on the same phrase) under transitions to avoid.",
+      "fix": "Open after the order has been given, without quoting it. Keep the sardonic second sentence, which is good Jaina. For example: 'As though she had been doing anything else since before dawn.' Or open on her body and the ward: 'Jaina kept her head tipped back. She had been talking since before dawn; she could talk a while longer.' Then go straight into the current paragraph 2."
+    },
+    {
+      "check": "voice-register",
+      "severity": "high",
+      "location": "B7, the ward cutoff paragraph; B8, surfacing from the ground-read",
+      "passage": "It pressed in from every side at once, the way water does once you've gone under. / She came up all at once, the way you come up out of deep water, and her mouth was full of iron.",
+      "problem": "The style guide's forbidden list includes 'Drowning metaphors for overwhelm'. B7 uses one for the moment the corruption hits her, and B8 uses a surfacing-from-deep-water image for the moment she comes out of the read. They are also the two biggest perception beats in the chapter, so the forbidden image sits right on the climax of each.",
+      "fix": "Replace both with images from Jaina's own world: lab, ward-craft, or Kul Tiran ship and tide (her father's crews already appear in this chapter). B7 example: 'It pressed in from every side at once, the way a hold fills when the hull's stove in.' (Make sure it reads as a ship, not as drowning.) Or drop the comparison and let the next line carry it. B8 example: 'She came up all at once, like a line snapping back off a cleat, and her mouth was full of iron.' Or cut the simile there entirely; 'Mage' calling her up already gives the motion."
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "B8 ground-read, the three paragraphs from 'It was easy at first' to 'a little salt is in everything that grows near the sea'",
+      "passage": "The packed top gave under her like ice gives on a pond, and then she was in the clay beneath, cold and heavy and close-packed, holding water the way a sponge holds it. ... It sat in the water the way tea sits in water once it's steeped ... the way roots are always drinking ... threaded up through it the way sap goes ... the way a river is old ... the way damp comes up a wall from a wet cellar floor ... the way a little salt is in everything that grows near the sea.",
+      "problem": "Eight comparisons in three paragraphs. The style guide allows one metaphor per paragraph and never two in consecutive sentences, at 1 to 3 per 1000 words. Across the chapter there are about 42 'the way' constructions, 22 'like a/the' and 15 'as if/though': roughly 5 to 6 comparisons per 1000 words, about double the ceiling. 'The way X does Y' has become the draft's reflex for every perception. Individually most of the images are good and in Jaina's register (tea, sap, damp up a cellar wall, salt near the sea). There are just too many of them in a row, and they start to blur.",
+      "fix": "In the ground-read, keep two images, one per paragraph. The tea and the salt are the strongest because they carry information: all-through saturation with no thread to pull, and a trace amount in living things. Cut or flatten the sponge, the sap, 'the way a river is old', and 'the way roots are always drinking' ('the hedge roots, drinking' is enough). Then sweep the chapter for 'the way' and cut about a third, mainly where a plain verb already does the job (for example, 'roots run through a pot' and 'silt in floodwater' both sit in the B12 read; keep one)."
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "Recurring narration beats across all three scenes",
+      "passage": "\"Not on the hill.\" / That was all. (B7) — That was all she said. She didn't look round. (B9) — ...and said, \"My lady,\" without looking up. That was all she said. (B6) — There was the creak of leather and somebody's horse shaking its head, the bit jingling. That was all. (B13)",
+      "problem": "Several beat-closers repeat verbatim, so they read as tics, not choices. 'That was all (she said).' appears four times. 'her face did nothing at all' appears twice for Windrunner (B8 and B13). The Lyriel tell ('She glanced across at Cyndia. Cyndia was [doing a task] and didn't look round/up.') is used three times in the same sentence shape (B6, B9, after the fight). The voice sheet makes it a tell, but by the third identical sentence it is a running gag. Jaina's legs or knees act on their own three times ('Her knees had forgotten how', 'Her legs had other ideas about it... before her knees agreed to hold her', 'Her knees held this time, more or less').",
+      "fix": "Keep the first 'That was all she said' (Neral, B6) and recast the other three: B7 can simply end on the order; B9 already has 'She didn't say *better*...', so cut 'That was all she said' and start there; B13 can end the paragraph on the bit jingling. Keep 'her face did nothing at all' at B13 (the stronger spot) and give B8 a different observable (the quartermaster comparison already does the work, so cut the phrase there). Keep the Lyriel glance at B6 and B9; after the fight, show Lyriel checking Cyndia some other way, or drop it. Keep one knees line (the B5 one, which is the funniest)."
+    },
+    {
+      "check": "emotional-life",
+      "severity": "medium",
+      "location": "B3 interiority, B10 (the farm kitchen), B12 (who ate from the fields); 'Light.' discovery beats in B5, B7, B8, B12",
+      "passage": "No. Slower. Ruts and a cart and a latch; that was what there was. Rule out the comfortable answer first, and then the other one... (B10) / ...one deer was one deer. No. Slower. A deer drank from the stream... Rule out the comfortable answers first. Then the other kind. (B12)",
+      "problem": "Jaina's interior argument is the best thing in the draft, but two of its moves have hardened into a formula. 'No. Slower.' followed by 'rule out the comfortable answer(s) first' appears almost word for word at B10 and again at B12, two pages apart, so the second time it reads as a catchphrase, not a thought. In the same way, four of her discovery beats open on a one-word 'Light.' paragraph ('Light. It had been doing this the whole time', 'Light. Oh, Light.', 'Light. It had left the lines.', 'Light. That was the interesting part.'). Each one is fine; together they make every revelation land the same way.",
+      "fix": "Keep 'No. Slower.' at B12, where it does the most work (pulling back from the food question). At B10, make the self-correction in a different idiom from her voice sheet, for example a sum ('She ran the sums again: a cart, a latch, rain in the ruts. That was what there was.') or a Kul Tiran sea word. Drop the second 'rule out the comfortable answers' entirely. For the 'Light.' beats, keep 'Light. Oh, Light.' at the B7 cutoff (the biggest hit) and 'Light. That was the interesting part.' at B12 (it sets up the curiosity-against-decency argument). At B5 and B8, let the discovery land without the oath, for example 'It had been doing this the whole time she sat here.' / 'It had left the lines.'"
+    },
+    {
+      "check": "emotional-life",
+      "severity": "low",
+      "location": "B7/B8 bridge, the night ride down out of the hills",
+      "passage": "...and the taste stayed in her mouth the whole way. It didn't get worse. It didn't need to.",
+      "problem": "'It didn't need to' is a narrator's punchline, not a Jaina thought. It sums up the dread from outside her instead of letting her have it, which is the narrator-verdict pattern.",
+      "fix": "Cut 'It didn't need to.' Or make it hers, as a thought she argues with: 'It didn't get worse. She kept testing for worse anyway, every few strides, like tonguing a bad tooth.'"
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "B7, after the ward cutoff",
+      "passage": "Every stone in the rings was a hand over an ear. Every elf behind them had been sitting in a quiet room with this leaning on the door.",
+      "problem": "This states the elves' experience as fact. Two paragraphs later Jaina asks 'Did the elves feel it?' and reads their horses for the answer. The plan's povNote for B7 says the elves' shift must come through horses and riders only. The first line closes a question that the second, correctly, leaves open.",
+      "fix": "Make the earlier line her inference, or turn it into a question: 'Every elf behind them might have been sitting in a quiet room with this leaning on the door, and never known it.' The later 'Did the elves feel it?' then follows on from it instead of contradicting it."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "B10 first farm; B10 pre-ambush silence",
+      "passage": "The first farm she noticed for its chimney. / There were no birds. Jaina noticed it only because she was listening for something...",
+      "problem": "'Noticed' is on the style guide's list of AI-default verbs to avoid. Both uses are filter verbs in front of a perception that can simply be shown.",
+      "fix": "'The first farm caught her eye by its chimney.' Or start straight on the chimney: 'The first farm was a long low house... with a stone chimney at the gable end and no smoke coming out of it.' For the birds: 'There were no birds. She'd only have known it by listening for something, anything, past the hum in her wrist.' Or just 'There were no birds. There had been rooks all afternoon.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "30 of 323 paragraphs; worst cases: post-fight paragraph ('Jaina sat in the middle of the road on a horse...', 143 words / 11 sentences), B12 food question ('The doe had been grazing somewhere...', 127 words / 14 sentences), the wolf-and-ice paragraph (148 words), the Millhaven overlook (133 words)",
+      "passage": "The doe had been grazing somewhere. Deer came out of woods at dusk and into fields like those back there, with the cabbages going black in their rows, and ate whatever stood in them. Who else had eaten from those fields? The cow in the byre? Whoever milked her? How long ago? She didn't know. ...",
+      "problem": "The style guide caps paragraphs at 7 sentences or 100 words, with an exception for a dense briefing. 30 paragraphs exceed 100 words, and several of the longest are interiority or action, not briefing. The B12 food-question paragraph packs two separate thought movements (who ate, then 'No. Slower', the deer's other routes) into 14 sentences. The post-fight paragraph combines her disorientation and the five-word reconstruction of Windrunner's calls.",
+      "fix": "Split at the turn in the thought. B12: break before 'No. Slower.' so the correction gets its own paragraph start. Post-fight: break before 'Everything else had happened round the edges of her', so the reconstruction of Windrunner's calls stands alone (it is the B11 arc beat and deserves the space). Wolf-and-ice: break after 'Jaina didn't think. There wasn't anything in her to think with.' Millhaven overlook: break before 'There was a long building at the crossing'. Jaina's spoken B9 analysis (149 words) can stay whole, since that is the register shift working as intended."
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "low",
+      "location": "B7 ('Not on the hill') and B9 (Jaina looking back at the hill road)",
+      "passage": "*Not on the hill.* Jaina turned in the saddle and looked back. ... There had been something wrong with it, apparently, and she didn't know what, and the Ranger-General hadn't thought it worth her while to say.",
+      "problem": "The draft adds a refusal that isn't in the plan ('Not on the hill'), raises it twice, and never pays it off. Its first appearance works well (it shows Jaina misreading Sylvanas's priorities). The B9 return, though, asks the reader to expect an answer the chapter never gives, and it splits the focus of B9's recalibration beat between two unexplained Sylvanas choices.",
+      "fix": "Either pay it off quietly in B12, where Jaina scans the rangers covering the road beside the wood ('They'd been stopped here on an open road beside a wood with things in it...'), with a half-line of recognition: an open hillside at night with the stones at their backs, and she'd wanted to kneel on it. Or cut the B9 look-back paragraph and let 'Not on the hill' stand as a single unexplained order. Do not have Sylvanas explain it."
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "low",
+      "location": "Chapter structure; B10 to B11 transition",
+      "passage": "\"Close up,\" Windrunner said, quite quietly. / The holly burst open.",
+      "problem": "Two related structural notes. (1) The plan has three scenes, and the style guide uses '###' hard cuts. The draft runs all of its roughly 13,500 words as one unbroken block with no scene breaks. The dawn wake ('Her chin hit her chest... The sky behind the hills had gone the colour of dishwater') is a good bridge inside the POV and can carry a break or stand without one. (2) B10's transition is planned as an 'intentional hard cut... no warning', but the draft builds a warning (the staff humming, no birds, Sylvanas stopping and saying 'Close up'). Advisory only: the built version is arguably stronger, because it shows Sylvanas reading the ground before Jaina does (B11 arc), and it reads as a deliberate improvement, not a missed beat. Separately, the chapter is about three times the length of Chapter 1's final (roughly 13.5k against 4.6k words). The plan's pacing note asked for the night-to-day ride to be 'compressed, not toured'. Transit passages (the hedgerow description at dawn, the noon ford, the gallop) are reasonably tight, but the combined tics and simile density above add bulk.",
+      "fix": "Optional: put a '###' scene break before 'The staff hummed.' (the start of Scene 3), keeping the build. Leave the Scene 1 to Scene 2 handoff continuous. Whoever takes the next pass should treat the simile and tic cuts above as the main way to trim length, not cutting beats."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 67.5,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {"actual": 4.2, "target": 12.0, "score": 48.6},
+      "compound": {"actual": 23.6, "target": 10.0, "score": 34.7},
+      "emdash": {"actual": 2.3, "target": 4.0, "score": 86.7},
+      "semicolon": {"actual": 1.9, "target": 1.8, "score": 100.0}
+    },
+    "otherMetrics": {
+      "sentenceCount": 1000,
+      "meanSentenceLength": 13.5,
+      "sentenceLengthCV": 0.945,
+      "shortPct": 51.9,
+      "paragraphCount": 323,
+      "oneSentenceParagraphPct": 26.9,
+      "mattr": 0.767,
+      "totalWords": 14011
+    },
+    "interpretation": "PARTICIPIAL: 4.2% -> target 12.0% (score 49/100). Add ', Ving' phrases as connective tissue between actions. | COMPOUND: 23.6% -> target 10.0% (score 35/100). Too many ', and/but/yet' joins; break some into separate sentences or convert to participials. | EMDASH: 2.3% -> target 4.0% (score 87/100). Use for mid-sentence pivots. | SEMICOLON: on target. Compound overshoot is the dominant drag; converting ', and [verb]' to ', [verb]ing' fixes the two worst dimensions at once.",
+    "flaggedPassages": [
+      "telegram_run + texture_desert, sentences 84-96: \"Her ears were going hot. She kept her voice level over it. 'I left a note on my master's desk...\" (B3 admission: deliberate, keep)",
+      "texture_desert, sentences 130-140: \"The ones I circled are bad. The ones I circled twice are worse. Most of those are on your second ring...\"",
+      "telegram_run, sentences 142-150: \"'How far east of the high road?' 'I'd need the map.' Jaina pushed the loose hair off her forehead...\"",
+      "texture_desert, sentences 152-162: \"'I followed them up. I haven't followed them back.' That was what the elf wanted from her, of course: places.\"",
+      "telegram_run + texture_desert, sentences 222-231: \"The same. 'Oh, Light,' she said, very quietly. Windrunner was watching her.\"",
+      "texture_desert, sentences 259-271: \"That was all she said. Another ranger came round the horse's head with the reins in her hand...\"",
+      "texture_desert, sentences 310-319: \"It came from everywhere: out of the road under the hooves... She had followed it north as a thread.\"",
+      "telegram_run + texture_desert, sentences 359-371: \"She needed her hand on it. On the ground, under all this... The road was the ground.\"",
+      "texture_desert, sentences 491-500: \"'Your lines don't spread,' Windrunner said. Jaina's hands stopped where they were...\"",
+      "texture_desert, sentences 559-569: \"'Does she?' 'She did it to the Ranger-Lord at midsummer...'\"",
+      "telegram_run, sentences 605-612: \"'Door was on the latch. Bowls on the table, a spoon in each. Nobody ate out of them.'\" (Cyndia's report: in voice, keep)",
+      "telegram_run + texture_desert, sentences 735-748: \"'Hold,' Windrunner said, in her ordinary voice. Everyone held. Nobody lowered a bow.\" (roll call: deliberate, keep)",
+      "texture_desert, sentences 775-793: \"When she came back she stopped her horse beside the ditch... 'Deer don't run at horses'... 'And wolves don't hunt beside deer.'\"",
+      "telegram_run, sentences 783-791: \"None of the wolf tracks are spread for running. Nothing was chasing anything.' Windrunner took that without a word.\"",
+      "telegram_run, sentences 884-891: \"Whatever it's been doing to her, it kept her on her feet... I don't know how yet.' 'Before she died.'\"",
+      "telegram_run + texture_desert, sentences 898-908: \"The cut on his near hock was shallow... Jaina put her clean hand on the leg above it... Hot horse.\""
+    ]
+  },
+  "strengths": [
+    "Emotional life is present in every scene and in Jaina's own idiom: the note-and-stone argument at B3 ('Caution, a good apprentice's caution. Oh, Light, no.'), the 'Brilliant, Jaina' self-mockery and 'who else have I simplified for' at B9, curiosity against decency with her hand in the doe at B12, and the go-down-or-wait argument at B13. All the planned interiority lands, and her self-arguments stay unresolved.",
+    "Voices are distinct and match their sheets: Sylvanas's clipped orders and her quiet in a room against her loud field calls; Cyndia's event-order reports with one remark at the end ('I'd say they meant to come back to it'); Lyriel's mock-solemn 'Lady Proudmoore' and her flat-exaggeration jokes; Neral's horse-practical lines ('That cow wants stripping'). No two characters could swap lines.",
+    "At least five registers: dark humour (the stockings, 'never bitten a single one of them', the Ranger-Lord's ears), warmth (Lyriel), exhaustion (dozing in the saddle), horror (the doe), and the intellectual hunger at B12.",
+    "The value shifts are dramatized: B9 turns on Jaina's hands frozen mid-gesture and the line 'Your lines don't spread'; B12's custody-into-investigation turn is shown by 'not one of them had said hurry'; 'still hates being under guard' lands concretely with Cyndia's 'Slowly' at the satchel.",
+    "All 13 beats are dramatized, and the planned differentiations are honoured: B5, B6 and B7 escalate in three different ways (noise, thread to cable, blow); B8 is about sinking into the ground and B12 about heat and tissue; the B6 Millhaven plant is paid off at B9 and B13. The plan's constraints (no grain, no reanimation, no warmth, no counted time, the pebble's description, address forms) are all held.",
+    "No institutional or clinical dialogue, and no limited-third violations beyond the one low-severity line flagged above."
+  ],
+  "summary": "A strong draft in emotional life, character voice and beat fidelity: Jaina argues with herself in her own idiom throughout, the five speakers are clearly distinct, and every beat is dramatized through concrete moments. It fails on texture (67.5/100), driven by polysyndetic ', and' chains (compound 23.6% against 10%) and too few participials (4.2% against 12%). It also opens by replaying Chapter 1's closing line against an explicit constraint, uses two drowning images from the style guide's forbidden list at its biggest perception beats, and runs simile density and several narration tics (repeated beat-closers, 'No. Slower', the one-word 'Light.' paragraphs) to the point of formula. These fixes are all at sentence level; no beats need rebuilding."
+}

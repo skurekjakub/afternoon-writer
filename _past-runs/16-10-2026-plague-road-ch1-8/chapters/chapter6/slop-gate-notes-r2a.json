@@ -1,0 +1,173 @@
+{
+  "chapterId": "chapter6",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (A trajectory 42 -> 12, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 20,
+      "kills": 6,
+      "keeps": 14,
+      "severity": "mild",
+      "dominantPattern": "Pattern 5 preamble / self-correction pivot ('No.' + correction, expected reaction then real one)",
+      "clusterWarnings": [
+        "Self-correction 'No.' opener repeats three times (L25 'No. Slower.', L99 'No, unfair.', L213 'No. He'd been sure'). Two weakest killed; L213 kept as the single survivor because it answers the explicit question 'Was that fair?'.",
+        "Expectation-then-actual shape repeats in the Strahnbrad scene (L155 'He didn't take the sheet. He put...', L173 'Jaina thought he'd laugh... He only studied her'). Both killed; L233 'Sylvanas didn't ask.' kept (60 lines away, no positive action to substitute).",
+        "L117 camp-noise paragraph stacks three trailing negative tags ('nobody answered him', 'neither one listening', 'would not stop'). Weakest killed."
+      ],
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 25,
+          "pattern": "NEG-P2 fragment pivot / self-correction cluster",
+          "text": "No. Slower. One man couldn't drive every load in Corley's book",
+          "deletionTest": "One man couldn't drive every load in Corley's book... -- survives; the em-dash break at the end of L23 already shows her cutting herself off.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 2 two-beat refusal before the real argument; part of a three-instance 'No.' self-correction cluster (L25, L99, L213), so the repetition itself is the tic.",
+          "suggestedFix": "One man couldn't drive every load in Corley's book",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-2",
+          "line": 57,
+          "pattern": "NEG-P5 preamble negation",
+          "text": "In the loft she had never asked what kind of keeping survives a mill, an oven and a gut.",
+          "deletionTest": "The content is the question; the 'had never asked' frame only primes it by naming what she failed to do.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 5: the sentence reaches the question by first stating she never asked it; state the question directly (also fixes the tense slip 'survives').",
+          "suggestedFix": "What kind of keeping could survive a mill, an oven and a gut?",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-3",
+          "line": 99,
+          "pattern": "NEG-P2 fragment pivot / self-correction cluster",
+          "text": "No, unfair. They were facing the smoke,",
+          "deletionTest": "They were facing the smoke, and the smoke was real... -- survives; the concession is carried by the content that follows.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 2 refusal-then-correction; second of three 'No.' self-corrections and the same scene as L213, so cluster rule applies.",
+          "suggestedFix": "But they were facing the smoke,",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-4",
+          "line": 117,
+          "pattern": "NEG-P4 minimizer tag / trailing negative gloss",
+          "text": "Two officers on either side of a banner pole shouted at each other about a ford, neither one listening.",
+          "deletionTest": "Two officers on either side of a banner pole shouted at each other about a ford. -- survives; 'shouted at each other' already carries the talking-past.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Trailing negative tag restates the clause before it; third negative tail in a four-sentence paragraph ('nobody answered him', 'would not stop').",
+          "suggestedFix": "Two officers on either side of a banner pole shouted at each other about a ford.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-5",
+          "line": 155,
+          "pattern": "NEG-P5 preamble negation",
+          "text": "He didn't take the sheet. He put one gloved finger on the knife slit.",
+          "deletionTest": "He put one gloved finger on the knife slit. -- survives, but the not-taking is the plant for L199 'He had never taken the paper.' and L335, so the fix states it positively.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 5 exactly ('She did not laugh. She smiled.'): negative action then the real one. The plant survives as a positive physical fact.",
+          "suggestedFix": "He left the sheet in her hand and put one gloved finger on the knife slit.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-6",
+          "line": 173,
+          "pattern": "NEG-P5 preamble with 'only' minimizer",
+          "text": "He only studied her, long and steady,",
+          "deletionTest": "He studied her, long and steady, as he might have a boy across the practice yard who had read his feint. -- survives and lands harder.",
+          "verdict": "KILL",
+          "severity": "mild",
+          "reason": "Pattern 5 camouflaged with 'only': the bigger expected reaction (laugh, snap) is named so the real one arrives diminished. Jaina's expectation sentence stays; only the minimizer goes.",
+          "suggestedFix": "He studied her, long and steady,",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 24,
+      "kills": 0,
+      "keeps": 24,
+      "severity": "none",
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Swept every inanimate, abstract and body-part subject, plus the dedicated P5/P6 second sweep. The 'weight'/'drag' subjects (L3, L9, L13, L251, L311, L313, L351) are the chapter's literal magical mechanism read through the staff (subject-matter defense, keep condition 3). The plague construct 'waited' / 'made to wait' / 'ran on flour and finished on its own' (L19, L27, L65) is the designed dormancy the plan names, not metaphor. Road motion verbs (climbed, went over, came out, reached) are fictive-motion topography of the 'the road led' kind, no intention verbs. Collective subjects (L117 'the camp shouting', L97 'the whole army', L345 wagon lines 'waiting its turn') have their people established. Body-part subjects (L61 hand shut on the reins, L165 chest loosened, L215 face went hot, L9 dead arm 'held the staff', L201 fingertips white) are involuntary or inert, and the involuntariness is the point; L61 follows with 'She eased her grip'. L195 'his gauntlet close on her sleeve' follows the named act 'He squeezed her arm'. Dialogue figures (L35 'walks out on its own feet', L183 'Every farm... is waiting to be next') point at established concrete referents. No permission tags (every 'let' has a physical object and result). No Pattern 4 institutional self-deception. Slop checker reported zero inanimate_agency / abstract_locomotion matches."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 19,
+      "kills": 0,
+      "keeps": 19,
+      "severity": "none",
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "All tics under cap. Tic 1 corner-of-mouth: 0. Tic 2 marked: 1 verb (L351, literal ink on the sheet) plus 3 literal nouns 'marks' (L153, L201, L333), cap 2. Tic 3: tightened 0; eased 2 (L61 physical grip, L335 headache) at cap 2, loosened 1 (L165 emotional). Tic 4 facial shifted: 0 (L43, L123, L203 are physical). Tic 5 emotional gaze beats: 3 (L39 Sylvanas looks Jaina over, L167 Arthas looks past her to the smoke, L173 studies Sylvanas), cap 4; the other 'look' verbs are directional actions. Tic 6 weight as emotional metaphor: 0 ('the weight came up' is the literal magical drag; L313 'weight of water' is a physical simile for pressure). Tic 7 performance tags: 0. Tool-signal audit: punct_semicolon 11/14, punct_colon_narration 7/7 (at cap, all catalogue colons), participial_trailing 10/28, simile_as_if 3/5, simile_as_though 1/3, filter_watched 2/3, filter_decided 1/3, filler_glanced 1/4 -- none over cap, each line read and kept (see scratchpad)."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 57,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "guidesWithKills": ["negation-addiction-hunting-guide.md"],
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "6 MILD kills, over the 3-MILD threshold; zero MODERATE/SEVERE. All six are negation-guide pivots: two 'No.' self-corrections (L25, L99), two Pattern 5 preambles in the Strahnbrad scene (L155, L173), a preamble question frame (L57) and a trailing negative tag (L117). Each fix is a deletion or a one-clause swap. Intent-smear and recurring tics are clean. Structural rhythm concerns: long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr outside range. Structural texture deficit (84.2, below_target: participial, em-dash).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.81, "target": 0.733, "delta": 0.077, "range": [0.613, 0.863], "inRange": true},
+      "sentence_length_mean": {"actual": 12.9, "target": 12.412, "delta": 0.488, "inRange": true},
+      "sentence_length_cv": {"actual": 0.74, "target": 0.723, "delta": 0.017, "inRange": true},
+      "short_sentence_pct": {"actual": 32.6, "target": 30.155, "delta": 2.445, "inRange": true},
+      "long_sentence_pct": {"actual": 23.5, "target": 15.352, "delta": 8.148, "range": [12.352, 19.352], "inRange": false},
+      "opener_entropy": {"actual": 6.01, "target": 6.637, "delta": -0.627, "range": [6.137, 7.137], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 27.1, "target": 21.378, "delta": 5.722, "range": [17.378, 26.378], "inRange": false},
+      "mattr": {"actual": 0.788, "target": 0.848, "delta": -0.06, "range": [0.818, 0.888], "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 84.2,
+      "participial_pct": 5.2,
+      "compound_pct": 15.6,
+      "emdash_pct": 0.9,
+      "semicolon_pct": 2.0,
+      "short_pct": 41.0,
+      "verdict_reasons": [
+        "participial: 5.2% below target 7.23% (score 82/100)",
+        "emdash: 0.9% below target 5.119% (score 64/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.2% -> target 7.23% (score 82/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 0.9% -> target 5.119% (score 64/100). Use for mid-sentence pivots: 'The door--the same one she'd slammed--stood open.'",
+      "flaggedPassages": {"telegram_run": 4, "texture_desert": 9},
+      "killsInFlaggedZones": "A-NEG-4 (L117) sits inside a texture_desert (camp-noise paragraph); A-NEG-5 (L155-163) borders the telegram_run/texture_desert at 'He let the slip slide back into the fold'. Fixes there could join clauses (e.g. a participial) while removing the pivot."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 41,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "atCap": ["punct_colon_narration 7/7", "something_vague 2/2 (pass B)", "hedge_might_have_been 1/1 (pass B)"],
+        "passAMappedSignals": "All audited and kept; none over cap."
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "chapterId": "chapter2",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsB trajectory 32,20,6,3 is strictly decreasing)",
+  "povRegister": {
+    "povCharacter": "Jaina Proudmoore (limited third, absolute)",
+    "registerSummary": "Exhausted, proud Kirin Tor apprentice and leyline scholar who thinks in lattice/resonance/pulse terms and drafts experiments mid-crisis; admiral's daughter whose images come from rigging, holds, decks, tides and gulls. Free indirect thought is heavy and self-mocking ('Light help her', 'Brilliant, Jaina', 'A fair guess. No.'). She misreads soldiers as wanting the short version, which is the chapter's designed arc flaw. She would not produce detached thematic captions about the meaning of the moment.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 58,
+      "kills": 3,
+      "keeps": 55,
+      "severity": { "mild": 3, "moderate": 0, "severe": 0 },
+      "dominantPattern": "F4/F7/F11 (one each)",
+      "findings": [
+        {
+          "id": "B-GPT5-1",
+          "pattern": "F4",
+          "failureMode": "Narrative Over-Translation",
+          "line": 289,
+          "text": "Windrunner had had the map. Of course she'd read it.",
+          "whatItRestates": "L285 already closes on 'And Windrunner had stood there and taken it, with the map already read and Millhaven already in her pocket.' Two paragraphs later the same realization is restated as a paragraph closer.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixAction": "delete",
+          "suggestedFixNote": "Delete both sentences. The paragraph ends on 'She'd said it in the cell, out loud, an excuse.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT5-2",
+          "pattern": "F11",
+          "failureMode": "Anaphoric Runs",
+          "line": 497,
+          "text": "She'd want jars. She'd want a great many jars, and a bench, and a lamp, and nobody knocking.",
+          "repeatedOpener": "She'd want",
+          "reason": "This is the only anaphoric run in scene 2. The repeated frame is there only for escalation weight. Merging loses no meaning, since 'a great many jars' already carries the escalation.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "She'd want a great many jars, and a bench, and a lamp, and nobody knocking.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT5-3",
+          "pattern": "F7",
+          "failureMode": "Closure Addiction",
+          "line": 583,
+          "text": "Jaina hated it exactly as much as she had at the Pass, and was glad of every one of them.",
+          "location": "paragraph-final, in the chapter's closing run",
+          "couldEndEarlierAt": "In the middle, with a ranger on every side of her.",
+          "reason": "This is a paragraph-final emotional summary that states the chapter's arc landing outright (still hates the guard, glad of the guard) in a balanced antithesis. L503 ('Except she wasn't anywhere on her own any more') and L509 (not one of them had said hurry) have already earned the gladness, and the callback fragment already carries the custody.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina kept the mare tucked in among them.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "modeSummary": {
+        "F1": "0. No sustained template rhythm. The telegram runs are dialogue Q&A, the roll call and fight callouts. See textureMetrics.",
+        "F2": "0. The bare beats ('She gave a short nod.' and 'She swallowed.') are each followed by a specific gloss or cause.",
+        "F3": "0. Every hedge and filter does work (genuine uncertainty, precise quantity or angle, or a perception channel that matters).",
+        "F4": 1,
+        "F5": "0. Custody holds to the last scene ('Slowly'). Lyriel's warmth is plan-mandated, and Windrunner gives no praise (L307).",
+        "F6": "0",
+        "F7": 1,
+        "F8": "0. 'Most.', 'You wouldn't.', 'Before she died.' and the Lyriel joke echo are kept under the guide's exceptions.",
+        "F9": "0. The summons, roll call and 'Ranger-General' address are kept under the procedure and plan address constraints.",
+        "F10": "0. Cyndia, Neral and Lyriel deliver reports where reports are due, and the same-mouth test separates them.",
+        "F11": 1,
+        "F12": "0. Each scene's non-action beats were ranked, and the survivors are refusals the scene turns on or data for an open question.",
+        "F13": "0. There are no 'That was' / 'This was' captions in the narration.",
+        "F14": "0. The fenced adverbs on speech tags (L121, L373) belong to pass A said-bookisms. 'quick and sure' (L145) carries the competence fact.",
+        "F15": "0. Scene 0 ends on the bread, scene 1 on the noon meal, and the chapter on an open question."
+      }
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 34,
+      "kills": 0,
+      "keeps": 34,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": "none (A7 gnomic generalizations are the most frequent candidate shape, and all are operational or experiential)",
+      "findings": [],
+      "cleanReason": "The register was established first (HIGH confidence). The A1/A2 fragment candidates are the chapter's designed misread of Windrunner, paid off at L285-L287 ('Places, of course.', 'The obvious place to start. A soldier's choice.'), or live self-corrections ('Still right, though.', 'Short.', 'A fair guess. No.', 'Fine. Let her count her costs.'). The A7 generalizations ('Any farmwife in Lordaeron...', 'Deer ran from horses.', 'Every village she had ever ridden into had dogs', 'A body that had simply died carried its own mark') are each an operational inference that drives the next perception or decision. The single generic 'you' (L191, 'take it apart on a bench') is clearly her idiom. The A8 inversions ('Under all of it ran the sour drag', 'Behind her the mare snorted', 'Off to the right a cow was bawling') name the source at once. The B4 metaphors stay in her domains (ships, lab bench, hunts, kitchens). The narrator_verdict tool hit at L131 is a tactile object description. Full rationale is in the scratchpad.",
+      "toolSignalsAudited": ["verdict_too_x_for L131 (KEEP)"]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 22,
+      "kills": 0,
+      "keeps": 22,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "Each shorthand or inferential line was cash-out tested against the local page. The planner-style status fragments ('The substance, then.', 'Smaller, then.', 'Millhaven, then.', 'Places, of course.', 'Short.') are each followed within one or two sentences by the concrete payload: the leyline speech, three testable hypotheses (place / carried thing / live working), the crossroads-and-carts question, and the creek-bend directions. The technical vocabulary ('lattice', 'resonance', 'lags in the pulse', 'source or the sink') is an operational distinction with field signs given in L297. The stand-in nouns ('wrongness', 'the hitch in the lines', 'the stuff') are anchored by the established coin-taste and late-drag signature. The hedging tool hits ('almost' x3, 'simply', 'might have been') and vague_pointers ('something in there') were all checked. They are precise quantity or angle, an ordinary-death versus this-death distinction, a genuine unknown, or a heat-anchored simile. The KEEP rate exceeds 25% because this is the fifth sweep of revised prose; each keep names its keep condition in the scratchpad.",
+      "toolSignalsAudited": ["hedge_almost L387 (KEEP)", "hedge_almost L415 (KEEP)", "hedge_almost L421 (KEEP)", "hedge_simply L495 (KEEP)", "hedge_might_have_been L179 (KEEP)", "something_vague L469 (KEEP)"]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "There are four translation setups. (1) L23 'The short version' leads to L25-L27 'currents magic runs along under the ground... damp up a wick'. (2) L267 'Short.' leads to the L275 river-over-its-banks speech. Both are designed fake simplifications. The prose diagnoses each failure itself: L35 'left what any village wisewoman might say after a bad dream', Windrunner's cut-off 'Your lines don't spread', and the L285 inventory of her own condescending phrases. This is plan arc beat 3, 'talks smaller than she thinks'. Killing them would remove the arc engine, so the intentional-structure defense applies. (3) L59 'Which stones read worst. Where.' leads to a usable reply (second ring, either side of the high road, near the split-cap stone; the creek bend on the outer ring east; 'I'd need the map'). (4) L295-L297 is Jaina dropping the simplification and giving field signs (thickest at the crossing and thinning evenly with the same resonance, against disagreeing weights and lags). Windrunner issues an order from it immediately ('Then I pick the ground.')."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 115,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md"],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 MILD kills (F4 L289 duplicate map realization, F11 L497 'She'd want' run, F7 L583 arc-stating closer) and 0 MODERATE/SEVERE. All 7 pass-B tool signals were audited and kept with concrete-content defenses. Structural texture deficit: texture is below_target at 73.4, with 3 dimensions outside range (participial low, compound high, em-dash low). Structural rhythm concerns: sentence_length_cv, one_sentence_paragraph_pct, long_sentence_pct, opener entropy and MATTR are outside the style-guide ranges. These go downstream and do not affect the verdict.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.828, "target": 0.72, "delta": 0.108, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 12.7, "target": 11.0, "delta": 1.7, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.826, "target": 0.7, "delta": 0.126, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 36.9, "target": 35.0, "delta": 1.9, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 22.8, "target": 10.0, "delta": 12.8, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.04, "target": 7.7, "delta": -1.66, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 31.6, "target": 19.0, "delta": 12.6, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.781, "target": 0.83, "delta": -0.049, "range": [0.8, 0.87], "inRange": false },
+      "note": "Structural rhythm concerns: 5 metrics outside range. The opener-entropy and MATTR baselines may be measured on a different scale or sample size than this chapter. Treat them as advisory."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 73.4,
+      "participial_pct": 6.4,
+      "compound_pct": 15.5,
+      "emdash_pct": 1.7,
+      "semicolon_pct": 1.1,
+      "short_pct": 45.7,
+      "verdict_reasons": [
+        "participial: 6.4% below target 12.0% (score 57/100)",
+        "compound: 15.5% above target 10.0% (score 57/100)",
+        "emdash: 1.7% below target 4.0% (score 79/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.4% -> target 12.0% (score 57/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 15.5% -> target 10.0% (score 57/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.7% -> target 4.0% (score 79/100). Use for mid-sentence pivots.",
+      "telegramRunCount": 10,
+      "textureDesertCount": 13,
+      "note": "Structural texture deficit: 3 dimensions outside range. Most flagged zones are the L59-L77 stone-location Q&A, the L237-L241 'Mage.' summons, the L409-L443 fight and roll call, and the L481-L487 knife exchange. They are dialogue or callout zones where staccato is functional, so no guide-level kill was attached."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 54,
+        "total_violations": 2,
+        "overCap": [
+          { "pattern": "punct_emdash_cluster", "count": 1, "cap": 0, "guide": "recurring-prose-tics.md (pass A, not audited here)" },
+          { "pattern": "verdict_too_x_for", "count": 1, "cap": 0, "guide": "narrator-seep-guide.md", "decision": "KEEP: L131 'too smooth for any river' is a tactile description of a worked rune-pebble" }
+        ],
+        "passBMappedSignals": 7,
+        "passBMappedSignalsKilled": 0
+      }
+    }
+  }
+}

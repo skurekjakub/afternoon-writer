@@ -1,0 +1,126 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative (iterationKillsA [49, 8, 12, 2, 3]: latest 3 >= prior minimum 2, so prefer minimal substitution or deletion)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 24,
+      "kills": 0,
+      "keeps": 24,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "cleanReason": "Swept every sentence with not/never/no/nothing/nobody/n't/none plus only/just/rather/instead minimizers (about 150 negation-bearing sentences). Most are plain absence facts or dialogue, not contrast constructions: the absence inventories at L67 and L810, the reports at L91/L99, and statements like 'He had not come back for it.' Of the 24 genuine contrast-shaped candidates, each fails the deletion test or meets a keep condition. Hard constraints on elf perception (L15, L177, L830) are a plan constraint. The binary diagnostics change what the party does: L213 milled vs came in, L225 hold vs use, L540 not the Pass road, L612 'This foot had never lifted', L678 'Not our road', L826 knot vs spread. L614 'near a print, not in it' is spatial precision. Free-indirect self-argument that the next line undercuts covers L109, L279, L588, L710 and L836-840; the last is the partnership-arc beat 'That was not the same as following the mage. / It was not the same.' Imperatives cover L189, L255, L317 and L333. No page has 2+ kills and no pivot shape repeats across scenes. All keeps are in the scratchpad.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 41,
+      "kills": 1,
+      "keeps": 40,
+      "severityMarkers": ["MILD"],
+      "dominantPattern": "P10-actor-omitted",
+      "secondSweep": "Dedicated P5/P6 sweep done sentence by sentence. Roads and geography: 'four roads running away' L109, 'the cut ... went on as a dark seam' L634, 'the road climbed out of the fold ... and the country opened' L802 and 'the road came round the shoulder' L846 are route idioms on the 'led' side of the line, with no intent verbs. The one geography sentence that takes an event verb, 'They had passed each other with the whole hill between.' (L634), is the kill. Receiver nouns and instrument phrases: 'The chamber would have this in its hands' L704 is possession, and Lor'themar and the nephew are named in the next sentences. 'the chamber would put its seal to' L832 is literal. Body-part subjects: involuntary or injury-bound cases are kept (L191 arm flinched, L219 fingers curled, L237 eyes a beat behind, L353 and L598 hand on the string, L398 fingers would not close, L492 fist, L814 head caught itself). Perceptual subjects where the actor is unseen are kept (L343 whisper, L372 bolt/hands below the floor, L378 and L382 face). 'the mage's elbow had it' L386 is literal grip mechanics for a woman with ruined hands. Abstract states settling into the body: none. 'Everything in her wanted to say north' L279 is a POV desire with no command or deception verb. 'It had caught on her' L780 is the chapter's single involuntary-snag framing and is the plan's carter-farewell plant. Metaphor chains: the lantern (turning the air L185, the water holding it L233, smearing L277, hissed L341) and the crystal (buzz, rattle, click) only get physical light and sound verbs, never human ones. Pattern 9 nominalizations: none. Pattern 11 permission tags: none ('Neral let her keep it' L414 and 'Sylvanas let her sleep' L814 are physical allowing with a result).",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 634,
+          "pattern": "P10-actor-omitted",
+          "severity": "MILD",
+          "text": "They had passed each other with the whole hill between.",
+          "subject": "They (grammatically the nearest plural is 'the two of them', i.e. the Pass road and the drove cut)",
+          "verb": "had passed each other",
+          "realAgent": "Sylvanas's party riding down the Pass road and the Millhaven dead walking up the cut",
+          "reason": "Actor omitted or demoted. The paragraph before ends on the two routes ('the two of them further and further apart the higher they went'), so 'They' parses as the roads. Diverging roads cannot 'pass each other' as an event, so the reader has to re-parse to find the real actors, the riders and the dead, who are never named in the sentence. Putting the actors in subject position keeps the meaning and sets up the mage's later 'We were the whole hill away.'",
+          "suggestedFix": "She and the dead had passed each other with the whole hill between.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 12,
+      "kills": 0,
+      "keeps": 12,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "cleanReason": "Every tic is under its cap. Tic 1 corner-of-mouth: 0 (L378 and L520 are dirt at the mouth corners, not expressions). Tic 2 'marked' as a verb: 1 (L285, mental use, cap 2); 'mark/marks' at L616/L626/L654 are nouns for physical tracks. Tic 3: 0 emotional tightened/eased ('She eased the string' L83 is physical). Tic 4: 0 facial shifted (L101 and L524 are physical). Tic 5 eye/gaze reaction beats: 3, cap 4 (L682 the hare-and-hawk watch, L742 'he looked past them', L846 the farm woman stared). The other eye mentions are ranger watching (L13, L89, L129, L424, L732), fatigue (L21, L237, L814) or the mage shutting her eyes to read (L117, L822, L826). Tic 6 weight metaphors: 0 ('heavy/heavier' is the mage's literal in-world reading term). Tic 7 performance tags: 0; tags are 'said' or action beats, and 'whisper' appears only as a noun for the child's unseen voice. Pass A tool signals were all under cap and kept (see analyticHints).",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 76,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": ["intent-smear-agency-laundering-guide.md"],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A passes with warnings: 1 MILD kill, 0 MODERATE/SEVERE, under the 3-MILD ceiling. The one kill is intent-smear P10 at L634 ('They had passed each other with the whole hill between.'): an ambiguous 'They' that grammatically points to the two roads and leaves out the real actors. A one-phrase drop-in fix is supplied. The negation and recurring-tics guides are clean, and every pass A slop-checker signal is under cap. Structural rhythm concerns: sentence_length_cv, short and long sentence pct, one_sentence_paragraph_pct, opener_entropy and mattr are outside the style-guide range. Structural texture deficit: texture is below_target at 74.7 (participial 4.4% against a 12% target).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.649, "target": 0.72, "delta": -0.071, "range": [0.6, 0.85], "inRange": true},
+      "sentence_length_mean": {"actual": 11.7, "target": 11.0, "delta": 0.7, "range": [9.0, 13.0], "inRange": true},
+      "sentence_length_cv": {"actual": 0.894, "target": 0.7, "delta": 0.194, "range": [0.6, 0.8], "inRange": false},
+      "short_sentence_pct": {"actual": 43.0, "target": 35.0, "delta": 8.0, "range": [28.0, 42.0], "inRange": false},
+      "long_sentence_pct": {"actual": 20.6, "target": 10.0, "delta": 10.6, "range": [7.0, 14.0], "inRange": false},
+      "opener_entropy": {"actual": 6.38, "target": 7.7, "delta": -1.32, "range": [7.2, 8.2], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 34.1, "target": 19.0, "delta": 15.1, "range": [15.0, 24.0], "inRange": false},
+      "mattr": {"actual": 0.765, "target": 0.83, "delta": -0.065, "range": [0.8, 0.87], "inRange": false},
+      "structuralRhythmConcerns": ["sentence_length_cv", "short_sentence_pct", "long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 74.7,
+      "participial_pct": 4.4,
+      "compound_pct": 12.9,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.0,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.9% above target 10.0% (score 73/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.9% -> target 10.0% (score 73/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {"telegram_run": 30, "texture_desert": 26}
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 65,
+      "total_violations": 0,
+      "overCapCategories": [],
+      "passATools": {
+        "punct_semicolon": "21/27, under cap, KEEP",
+        "punct_colon_narration": "11/13, under cap, KEEP",
+        "participial_trailing": "17/54, under cap, KEEP (L233 'holding the lantern' also checked under intent-smear and kept as reflection optics)",
+        "simile_like": "2/27, KEEP",
+        "simile_as_if": "2/5, KEEP",
+        "filter_watched": "3/3, at cap and not over, KEEP: L13 and L129 are ranger reading of the horse and the roads, L293 is dialogue",
+        "filler_nodded": "2/4, KEEP",
+        "bookism_hissed": "1/2, KEEP: L341 'The lantern hissed on the table.' is a literal sound, not a dialogue tag",
+        "contact_pressed/contact_settled": "4/6 and 1/6, not mapped to a pass A guide; 'before the dust settled' L213 is an idiom, not a Tic 6 weight metaphor"
+      },
+      "passBToolsNotAudited": ["hedge_might_have_been L626"]
+    },
+    "outOfScopeNotes": [
+      "L357-358: the narration line '*Not if it was him.* What kind of man...' runs straight into Neral's '\"Your da was right,\"' with no blank line between paragraphs. This is formatting, not a pass A issue."
+    ]
+  }
+}

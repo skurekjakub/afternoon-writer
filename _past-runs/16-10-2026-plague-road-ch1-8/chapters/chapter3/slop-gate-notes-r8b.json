@@ -1,0 +1,194 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 8,
+  "targetFile": "v2-r8.md",
+  "verdict": "fail",
+  "fixStrategy": "conservative",
+  "fixStrategyReason": "iterationKillsB trajectory [56, 42, 15, 10, 4, 4, 3, 7]: latest (7) >= minimum prior (3), so the loop is oscillating. Fixes prefer deletion and minimal word substitution.",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 52,
+      "kills": 3,
+      "keeps": 49,
+      "severity": { "mild": 3, "moderate": 0, "severe": 0 },
+      "dominantPattern": "F3 / F7 / F12 (one each)",
+      "findings": [
+        {
+          "id": "B-GPT-1",
+          "pattern": "F3",
+          "subPattern": "filter verb (hearing)",
+          "severity": "MILD",
+          "line": 295,
+          "text": "She turned back up the lane toward the dark houses with the light held low against her thigh, hearing them come after her.",
+          "word": "hearing",
+          "deletionTest": "She turned back up the lane toward the dark houses with the light held low against her thigh, and they came after her.",
+          "issue": "The filter verb routes the rangers' following through Sylvanas's ears. Nothing depends on how she perceives it here (unlike L810, where hearing the empty road behind her is the beat), so the deletion test passes.",
+          "verdict": "KILL",
+          "suggestedFix": "She turned back up the lane toward the dark houses with the light held low against her thigh, and her rangers fell in behind her.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-2",
+          "pattern": "F12",
+          "subPattern": "second non-action beat in scene",
+          "severity": "MILD",
+          "line": 426,
+          "text": "The girl shook her head against Neral's collar, and Neral did not ask again.",
+          "expected": "yes (she asked the girl's name)",
+          "position": "mid-paragraph",
+          "issue": "This is the second non-action beat in the end-house/cellar scene. The strongest is L372 'Neral did not touch the ring.', where the scene turns on the restraint. Under F12, every non-action beat after the strongest one in a scene is a KILL. A positive verb can carry the same gentleness.",
+          "verdict": "KILL",
+          "suggestedFix": "The girl shook her head against Neral's collar, and Neral let the name go.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-3",
+          "pattern": "F7",
+          "subPattern": "paragraph-final ironic summary",
+          "severity": "MILD",
+          "line": 710,
+          "text": "In anyone else she would have called that very convenient.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "She had kept the mage because the mage was a prisoner, and you did not hand a Kirin Tor apprentice to a relay rider with a child on her saddle.",
+          "issue": "Sylvanas asks herself a question, gives a flat 'No.' and an over-built reason. The reader can already see that the reason is a rationalisation. The closer then names that irony outright and finishes the thought for the reader. The voice sheet says her humour is 'deadpan and never underlined' and that she 'declines to sort out' whether she trusts the mage or only her results. This line underlines the joke and does the sorting. Without it, the next paragraph ('Both.' about the child) contrasts better with the 'No.'",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixAction": "delete sentence; paragraph ends on '...with a child on her saddle.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Ranger-General, tracker and field commander. She thinks in ground, sign, sightlines and drills, and checks every inference against her own tracking experience. Her inner voice argues with itself in short self-orders ('Don't.', 'Open the doors.', 'Leave it.') and sardonic asides, and she swears by the sun. Her humour is deadpan and never underlined. She would not think in narrative or thematic terms, predict her own memory, or narrate outcomes before they happen.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 41,
+      "kills": 2,
+      "keeps": 39,
+      "severity": { "mild": 2, "moderate": 0, "severe": 0 },
+      "tierAKills": 0,
+      "tierBKills": 2,
+      "dominantPattern": "B3",
+      "structuralHabit": "no",
+      "findings": [
+        {
+          "id": "B-NS-1",
+          "pattern": "B3",
+          "tier": "B",
+          "severity": "MILD",
+          "line": 297,
+          "text": "Neral found it in the end house.",
+          "whoIsSayingThis": "A narrator. The line announces the outcome of the search before the scene happens, then the next paragraph rewinds to Sylvanas up a ladder next door.",
+          "povMismatch": "In the moment Sylvanas does not know anyone will find anything. The summary is told from after the scene, which breaks Limited Third Absolute and spends the suspense of the search. 'It' is also a placeholder for the hatch or the child, neither of which is on the page yet.",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "",
+          "fixAction": "delete sentence; scene opens on 'The end house stood where the garden walls gave out, its back wall right on the lane.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-NS-2",
+          "pattern": "B3",
+          "tier": "B",
+          "severity": "MILD",
+          "line": 744,
+          "text": "It was a face she would forget in any crowd: weathered, stubbled grey, a nose broken once and set crooked.",
+          "whoIsSayingThis": "A narrator. The line predicts what Sylvanas will later fail to remember. It is the mirror of the guide's calibration KILL 'She would remember this later.'",
+          "povMismatch": "The line labels the carter 'forgettable' instead of letting him read that way. The plan says the clue must be 'visible on the page but not signposted' and that Sylvanas builds no case around him. Telling the reader he is forgettable is a signpost. The label also clashes with the detail after it (a crooked, broken nose is the most memorable thing in the description).",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "A weathered face, stubbled grey, the nose broken once and set crooked.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 18,
+      "kills": 0,
+      "keeps": 18,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": "none",
+      "findings": [],
+      "toolSignalsAudited": [
+        { "toolSignal": "hedge_might_have_been", "line": 626, "text": "into a long smear that might have been anything", "verdict": "KEEP", "reason": "The uncertainty is the point. Cyndia cannot read the smear by eye, which is why the staff is used to sort the marks, and the staff reads it 'heavy' in the next sentence. Logged in the scratchpad." }
+      ],
+      "cleanReason": "Examined 18 candidates: the compressed thought lines ('Fine; the mage.' L105, 'Damn her, then. The hand.' L215, 'She had sixty in a cow way.' L706, 'Three rangers and a prisoner, then' L710, 'three bows and a prisoner' L812, 'The read was the trail' L838), the mage's magic terms ('heavy', 'lines', 'late', 'loud', 'a knot', 'some things a great deal more', 'what it's doing', 'Anywhere things are kept.'), the inferences ('Somebody had stood at a window...' L285, 'Empty going up, full coming down.' L752, 'her eyes were a beat behind the light' L237, 'so she made it better' L109, 'by any measure the chamber would put its seal to' L832), and the slop-checker hedge hit at L626. Each cashes out on the page. The magic terms are defined by the staff and frost behaviour and by the mage's heavy/light comparisons (operational distinction). The status-note lines name the actual count, place or person, not a tiny summary from above (anchored shorthand). The inferences follow evidence already shown: Cyndia's 'a few at a time' report, the grain dust in the wagon cracks, the established sleeplessness (evidence-based inference). The keep rate is above the guide's 25% heuristic. That heuristic is calibrated for first-draft model prose, and this is the eighth revision."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "Audited 8 exchanges where one line restates, translates or plain-speaks another: Sylvanas's restatement 'How much is here, you've told me. Which way it went, you can't.' (L225), the Thalassian 'Ask her how she knows which way' passed to Neral and answered by 'The little window' plus pointing (L496-500), the mage's child-level rewording 'Which way were the toes pointing? Toward the mill? Or away from it?' (L506), 'Every night, or one night?' (L518), the girl's pointed answer to 'Which is the north road?' (L532-538), the mage's heavy/light calls for Cyndia's count (L616-626), Sylvanas's brief to Neral 'Sixty... Up the cow way, north-northeast, toward the outer ring east of the Pass' (L678) and the dispatch's order (L700), and the mage's 'Millhaven was a knot... It's ahead of us, Ranger-General. Down the road.' (L826). Each reply gives a usable target or trigger: toes against the mill, a slot window, a pointed arm, a count, a compass bearing plus a ring sector, or 'down the road'. The girl's 'Past Pell's. Up the cow way.' needs a follow-up, but the child does not claim to simplify, and the unpacking is plot that the dawn scene resolves (dialogue defense)."
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 114,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "narrator-seep-guide.md"],
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "5 MILD kills (more than 3 MILD-only), 0 MODERATE/SEVERE. Two are narrator-seep B3 lines that tell from outside the moment: the proleptic 'Neral found it in the end house.' and the memory-prediction 'a face she would forget in any crowd', which also signposts the carter plant against the plan. The other three are GPT-5 F3 (filter 'hearing'), F7 (underlined ironic closer at L710) and F12 (second non-action beat in the cellar scene). All have drop-in or delete fixes. Structural rhythm concerns: sentence_length_cv, short_pct, long_pct, opener entropy, one-sentence-paragraph pct and MATTR are outside their style-guide ranges. Structural texture deficit: texture verdict below_target (participial 4.5% vs 12% target).",
+    "otherObservations": [
+      "Out of pass-B scope, for the slophunter or continuity owner: L357-358 are missing a paragraph break ('...out of his own door into the dark?' runs straight into '\"Your da was right,\" Neral said.').",
+      "Out of scope, possible continuity tension: L456 says 'The mage had nothing to write with', but at L688 she produces an ink tin and steel pen. It may be consistent if her kit was on the horse. Flagged as uncertain, not verified.",
+      "Out of scope (pass A territory): Sylvanas's 'she would have flayed/had the hide off any ranger who...' benchmark recurs at L15, L588, L676, L812 and L816. The 'where she could cover X, Y and Z all at once' construction recurs at L193, L323 and L424.",
+      "Out of scope: at L672, 'She pulled the glove back on' follows a line from the mage, so 'She' is ambiguous. Sylvanas is meant."
+    ],
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.647, "target": 0.72, "delta": -0.073, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.897, "target": 0.7, "delta": 0.197, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 43.3, "target": 35.0, "delta": 8.3, "range": [28.0, 42.0], "inRange": false },
+      "long_sentence_pct": { "actual": 20.7, "target": 10.0, "delta": 10.7, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.4, "target": 7.7, "delta": -1.3, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 34.4, "target": 19.0, "delta": 15.4, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.765, "target": 0.83, "delta": -0.065, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": ["sentence_length_cv", "short_sentence_pct", "long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 75.2,
+      "participial_pct": 4.5,
+      "compound_pct": 12.7,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.4,
+      "verdict_reasons": [
+        "participial: 4.5% below target 12.0% (score 50/100)",
+        "compound: 12.7% above target 10.0% (score 75/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.5% -> target 12.0% (score 50/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.7% -> target 10.0% (score 75/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots.",
+      "flaggedPassages": { "telegram_run": 29, "texture_desert": 26 },
+      "killZoneOverlap": "B-NS-1 (L297) sits just before the texture_desert at sentences 387-403 and the telegram_run at 393-401 (end-house opening). Its fix is a deletion and does not add staccato. B-GPT-2 (L426) falls between the flagged cellar-interview zones (texture_desert 421-462, telegram_run 556-563). The B-GPT-1 fix replaces one ', Ving' tail with an 'and' join, a small shift away from the participial target, accepted because of conservative mode."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 64,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passBMappedSignals": ["hedge_might_have_been L626 (KEEP)"],
+        "atCap": ["hedge_might_have_been 1/1", "filter_watched 3/3 (pass A mapping)"]
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Depot country: the second day's stops
+
+A run of ordinary Lordaeron places, each a day behind. A mill past Coldwell (the miller, flour in his eyebrows, tells how the young cart man bought four sacks back at a loss). A hamlet shop with a notched tally stick on a nail (cheap flour since midsummer). A carters' inn at Wick with a stable book signed in crosses and an ostler who saw a carter ride south before light. A smaller depot on the south road whose clerk names the big river depot as the breaking point for the whole side. An inn on the south road where Sylvanas builds the table of 47 places (19 in more than one book) and two men in brown coats say the army has taken every remount and oat for Prince Arthas's campaign at Strahnbrad.
+
+The night ride runs through an oak-and-hazel wood on the river road (a cart's width cut and never since, hazel touching overhead, damp at the collar, an ambush wood for a woman who was born in a forest), with a water stop at the Plough and the river loud on the left in the open beyond.

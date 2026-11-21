@@ -1,0 +1,1651 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 115,
+      "kills": 56,
+      "keeps": 59,
+      "severityMarkers": [
+        "F3 SEVERE: stacked filter at L893 (thought + could see)",
+        "F8 MODERATE: Scene 1 has 3 echo exchanges (Ranger-General, Millhaven, Walked); 1 killed",
+        "F9 SEVERE: granary-loft scene has 3 name-only/vocative kills (L703, L739, L763)",
+        "F11 habit: 10 anaphoric runs killed across scenes 1-3 and the departure; granary scene alone has 5",
+        "F13 habit: 10 demonstrative captions killed; spread across every scene"
+      ],
+      "dominantPattern": "F11 / F13 (10 each)",
+      "findings": [
+        {
+          "id": "B-G01",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 9,
+          "severity": "MILD",
+          "text": "She had been almost cheerful, saddling up.",
+          "suggestedFix": "She had been cheerful, saddling up.",
+          "reason": "Hedge 'almost' pads a plain state; deletion test passes.",
+          "word": "almost",
+          "toolSignal": "hedge_almost",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G02",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 69,
+          "severity": "MILD",
+          "text": "The man had to lean a little to hear it, and he did lean.",
+          "suggestedFix": "The man had to lean in to hear it, and he did lean.",
+          "reason": "Hedge 'a little' softens a physical act that reads stronger without it.",
+          "word": "a little",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G03",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 119,
+          "severity": "MILD",
+          "text": "The egg woman called her price again, a little too loudly.",
+          "suggestedFix": "The egg woman called her price again, too loudly.",
+          "reason": "Hedge 'a little' blunts the forced-normal signal; 'too loudly' carries it alone.",
+          "word": "a little",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G04",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 159,
+          "severity": "MILD",
+          "text": "He said it the way you'd name a town a long way off and somehow to blame.",
+          "suggestedFix": "He made it sound a long way off, and to blame.",
+          "reason": "Hedge 'somehow' on top of a generic-you simile. Same sentence as B-N10; one fix covers both.",
+          "word": "somehow",
+          "toolSignal": "hedge_somehow",
+          "pairedWith": "B-N10",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G05",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 533,
+          "severity": "MILD",
+          "text": "at the window perhaps; through that glass there was no telling.",
+          "suggestedFix": "at the window; through that glass there was no telling.",
+          "reason": "Double hedge: 'perhaps' and 'there was no telling' say the same uncertainty. Keep the second, which is about the glass she can see.",
+          "word": "perhaps",
+          "toolSignal": "hedge_perhaps",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G06",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 683,
+          "severity": "MILD",
+          "text": "For a moment nobody moved. ",
+          "suggestedFix": "",
+          "reason": "Temporal padding plus a non-action report; the next sentence already freezes the tableau (the boy kneeling, Sylvanas standing over him).",
+          "word": "For a moment",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G07",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 817,
+          "severity": "MILD",
+          "text": "a sigh, almost, and then no breath after it",
+          "suggestedFix": "a sigh, and then no breath after it",
+          "reason": "Hedge 'almost' fenced mid-image; the sigh lands harder unqualified.",
+          "word": "almost",
+          "toolSignal": "hedge_almost",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G08",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 893,
+          "severity": "SEVERE",
+          "text": "She thought she could see Brask by the shape of him, standing at the yard gate with a slate or a board, putting his head down over it every time a man came in with a sack.",
+          "suggestedFix": "Brask, by the shape of him, stood at the yard gate with a slate or a board, putting his head down over it every time a man came in with a sack.",
+          "reason": "Stacked filters 'thought' + 'could see' in one sentence (guide: stacked = SEVERE). 'by the shape of him' already carries the distance uncertainty.",
+          "word": "thought / could see",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G09",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 979,
+          "severity": "MILD",
+          "text": "She looked at it anyway, a long moment, while it went on holding",
+          "suggestedFix": "She looked at it anyway while it went on holding",
+          "reason": "Temporal padding 'a long moment'; the clause 'while it went on holding' already measures the look.",
+          "word": "a long moment",
+          "pairedWith": "B-G20",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G10",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 981,
+          "severity": "MILD",
+          "text": "Lyriel seemed satisfied anyway.",
+          "suggestedFix": "Lyriel went on grinning anyway.",
+          "reason": "Hedge 'seemed' over an interior state; replace with the visible sign already established in the paragraph (the grin).",
+          "word": "seemed",
+          "toolSignal": "hedge_seemed",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G11",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F2",
+          "line": 561,
+          "severity": "MILD",
+          "text": "Sylvanas nodded. \"Cyndia.\"",
+          "suggestedFix": "\"Cyndia,\" Sylvanas said, \"tell her.\"",
+          "reason": "Bare 'nodded' beat on the kill list, carrying nothing that the next action does not.",
+          "issue": "generic label",
+          "toolSignal": "filler_nodded",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G12",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F2",
+          "line": 437,
+          "severity": "MILD",
+          "text": "\"Bread and dripping,\" he said, shrugging.",
+          "suggestedFix": "\"Bread and dripping,\" he said.",
+          "reason": "Generic shrug; Col's offhandedness is already in the line and in 'There's no griddle at the forge.'",
+          "issue": "generic label",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G13",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F2",
+          "line": 935,
+          "severity": "MILD",
+          "text": "Brask is still going round.\" A pause. \"The cart's not back.\"",
+          "suggestedFix": "Brask is still going round. The cart's not back.\"",
+          "reason": "'A pause.' is a generic beat standing alone between two halves of one speech.",
+          "issue": "generic label",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G14",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "line": 45,
+          "severity": "MILD",
+          "text": " She had been listening to the ground and missed three shut houses in plain daylight.",
+          "suggestedFix": "",
+          "reason": "Restates 'Jaina had not seen them' from the same paragraph; the shuttered house with the cup on the step already lands the miss.",
+          "restates": "Jaina had not seen them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G15",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "line": 579,
+          "severity": "MILD",
+          "text": " Cheap was how it got into every house, and into the old man who lived on sops.",
+          "suggestedFix": "",
+          "reason": "The 'Cheap, so ... so ... so' chain already showed the route into every house; this closer glosses it.",
+          "restates": "the cheap-chain sentence before it",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G16",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F6",
+          "line": 319,
+          "severity": "MILD",
+          "text": "Not Garran. The rest were early.",
+          "suggestedFix": "Not Garran.",
+          "reason": "Claim-evidence-restatement: paragraph opens 'Most of them were early', lists them, then restates 'The rest were early.'",
+          "issue": "summary close",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G17",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F7",
+          "line": 145,
+          "severity": "MILD",
+          "text": "Now Jaina could smell it for herself, and she wished she could not.\n\n",
+          "suggestedFix": "",
+          "reason": "Paragraph-final emotional summary after the girl's pear memory; the smell beat already landed.",
+          "couldEndAt": "Before she was hot.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G18",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F7",
+          "line": 367,
+          "severity": "MILD",
+          "text": " She was bailing with the plug out.",
+          "suggestedFix": "",
+          "reason": "Metaphorical closer restating 'still out in the village, in somebody's kitchen' (F7 metaphorical mystification).",
+          "couldEndAt": "Whatever had put a fist in Elsie overnight was still out in the village, in somebody's kitchen.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G19",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F7",
+          "line": 945,
+          "severity": "MILD",
+          "text": ", and there was nothing she could do about that from here.",
+          "suggestedFix": ".",
+          "reason": "Scene-final interpretive close before the section break; end on the image of the shell and Brask's man on the stair.",
+          "couldEndAt": "...and one of Brask's men sitting on the stair below.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G20",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F7",
+          "line": 979,
+          "severity": "MILD",
+          "text": ", feeling better than she had any right to.",
+          "suggestedFix": ".",
+          "reason": "Paragraph-final emotional summary on the knot beat; the held knot already carries it.",
+          "couldEndAt": "She looked at it anyway while it went on holding.",
+          "pairedWith": "B-G09",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G21",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F8",
+          "line": 91,
+          "severity": "MODERATE",
+          "text": "\"Walked.\" She let that sit.",
+          "suggestedFix": "She let that sit.",
+          "reason": "Third echo in Scene 1 ('Ranger-General'/'Ranger-General', 'Millhaven'/'Millhaven' kept as turn and plan beat). Sylvanas handing back 'Walked.' adds no fact. Pass-B change is only deleting her echoed \"Walked.\"; apply alongside pass A's fix for 'She let that sit.' if that lands.",
+          "repeatedWords": "Walked.",
+          "toolSignal": "permission_tag_she_let_it",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G22",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "line": 545,
+          "severity": "MILD",
+          "text": "\"Mage,\" she said.",
+          "suggestedFix": "\"Well, mage?\" she said.",
+          "reason": "Name-only line standing in for a sayable prompt to report.",
+          "issue": "name-only line",
+          "standsIn": "asking for the report",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G23",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "line": 547,
+          "severity": "MILD",
+          "text": "\"Ranger-General.\"\n\nJaina had it ready, in small words",
+          "suggestedFix": "Jaina had it ready, in small words",
+          "reason": "Title-only reply standing in for 'yes?'; the next paragraph already carries her response.",
+          "issue": "name-only line",
+          "standsIn": "acknowledgement",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G24",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "line": 703,
+          "severity": "SEVERE",
+          "text": "\"Jaina.\" Lyriel, at her side.",
+          "suggestedFix": "\"Jaina, leave it.\" Lyriel, at her side.",
+          "reason": "Name-only line standing in for a plea; Jaina's reply ('Let me read it') answers a sayable request. Third F9 kill in the granary-loft scene.",
+          "issue": "name-only line",
+          "standsIn": "plea to stop",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G25",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "line": 739,
+          "severity": "SEVERE",
+          "text": "\"Cyndia,\" Sylvanas said. \"Lyriel.\"",
+          "suggestedFix": "\"Cyndia, Lyriel, get him loose,\" Sylvanas said.",
+          "reason": "Two name-only fragments standing in for an order. Loft scene F9 cluster.",
+          "issue": "name-only line",
+          "standsIn": "order to free the prisoner",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G26",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "line": 763,
+          "severity": "SEVERE",
+          "text": "\"Captain.\"\n\n\"The cage,\" he said.",
+          "suggestedFix": "\"Captain. Somewhere that locks.\"\n\n\"The cage,\" he said.",
+          "reason": "Repeated vocative after her first 'Captain' two lines earlier; name-only repeat standing in for the repeated question. Loft scene F9 cluster.",
+          "issue": "repeated vocative",
+          "standsIn": "repeat of the question",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G27",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F10",
+          "line": 551,
+          "severity": "MILD",
+          "text": "She stopped. \"That's the body. I can't get further than that from in here.\"",
+          "suggestedFix": "She stopped. \"I can't get further than that from in here.\"",
+          "reason": "Sign-off tag closing a long speech. Same text as B-P02 (planner shorthand); one fix covers both.",
+          "issue": "sign-off tag",
+          "pairedWith": "B-P02",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G28",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 37,
+          "severity": "MILD",
+          "text": "So this was the part before. This was Millhaven a fortnight ago",
+          "suggestedFix": "So this was Millhaven a fortnight ago",
+          "reason": "'This was' run; the first sentence is a caption the second already contains.",
+          "repeatedOpener": "This was",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G29",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 127,
+          "severity": "MILD",
+          "text": "Antonidas had never taught it. Antonidas had never needed to;",
+          "suggestedFix": "Antonidas had never taught it, and had never needed to;",
+          "reason": "'Antonidas had never' run; merge keeps the joke.",
+          "repeatedOpener": "Antonidas had never",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G30",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 289,
+          "severity": "MILD",
+          "text": "She could stand here and read jugs until dark. She could read the salt box",
+          "suggestedFix": "She could stand here and read jugs until dark, and the salt box",
+          "reason": "'She could' run; the second sentence only extends the list.",
+          "repeatedOpener": "She could",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G31",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 327,
+          "severity": "MILD",
+          "text": "She got the pad back over the cut easily enough. She got the strip round his arm,",
+          "suggestedFix": "She got the pad back over the cut easily enough, and the strip round his arm,",
+          "reason": "'She got' run; merged sentence loses nothing before the 'Then she had to tie it' turn.",
+          "repeatedOpener": "She got",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G32",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 683,
+          "severity": "MILD",
+          "text": "They had him, alive and frightened, and nobody had told him yet what to say. They had the hole under the floor and the open sack and the jar.",
+          "suggestedFix": "They had him alive and frightened, before anybody had told him what to say, along with the hole under the floor, the open sack and the jar.",
+          "reason": "'They had' run used as a drumbeat over the inventory.",
+          "repeatedOpener": "They had",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G33",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 715,
+          "severity": "MILD",
+          "text": "She knew what this was. She knew it as she knew where the reefs lay off Tiragarde,",
+          "suggestedFix": "She knew what this was, as she knew where the reefs lay off Tiragarde,",
+          "reason": "'She knew' run (three 'knew' in two sentences) after 'Oh, Light.'",
+          "repeatedOpener": "She knew",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G34",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 719,
+          "severity": "MILD",
+          "text": "She wanted to take it apart. She wanted to sit down on these boards",
+          "suggestedFix": "She wanted to take it apart, to sit down on these boards",
+          "reason": "'She wanted' run; merge keeps both wants.",
+          "repeatedOpener": "She wanted",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G35",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 723,
+          "severity": "MILD",
+          "text": "\"Somebody made this. Somebody very good.\"",
+          "suggestedFix": "\"Somebody very good made this.\"",
+          "reason": "'Somebody' run in speech, after 'It's made' already said it once.",
+          "repeatedOpener": "Somebody",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G36",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 733,
+          "severity": "MILD",
+          "text": "looking. At the frost. At the arrow in the post. At the hole in the floor.",
+          "suggestedFix": "looking at the frost, the arrow in the post, the hole in the floor.",
+          "reason": "'At the' drumbeat fragment run; a list does the same work.",
+          "repeatedOpener": "At the",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G37",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 1043,
+          "severity": "MILD",
+          "text": "watching the heap smoke. They went past the pound, and the cage.",
+          "suggestedFix": "watching the heap smoke, and on past the pound and the cage.",
+          "reason": "'They went past' run in the departure procession.",
+          "repeatedOpener": "They went past",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G38",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "line": 339,
+          "severity": "MILD",
+          "text": "Then she let go and sat back on her heels, saying nothing.",
+          "suggestedFix": "Then she let go and sat back on her heels.",
+          "reason": "Non-action tail nobody expected to be otherwise; paragraph-final.",
+          "position": "paragraph-final",
+          "expected": "no",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G39",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "line": 531,
+          "severity": "MILD",
+          "text": "Elsie looked up at the window over her head, the lane she couldn't see from where she lay, and said nothing.",
+          "suggestedFix": "Elsie looked up at the window over her head, toward the lane she couldn't see from where she lay.",
+          "reason": "Second non-action beat in Scene 2 after 'saying nothing'; the look already shows the silence. Strongest Scene 2 non-action ('neither of them said it') is kept.",
+          "position": "paragraph-final",
+          "expected": "yes",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G40",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "line": 761,
+          "severity": "MILD",
+          "text": "Brask was still looking at the boy, saying nothing.",
+          "suggestedFix": "Brask was still looking at the boy.",
+          "reason": "The repeated 'Captain.' already shows he did not answer; 'saying nothing' narrates the absence twice.",
+          "position": "paragraph-final",
+          "expected": "yes",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G41",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "line": 789,
+          "severity": "MILD",
+          "text": " He didn't look up.",
+          "suggestedFix": "",
+          "reason": "Non-action beat before the interrogation; 'Tam sat on the bench with his hands between his knees' already gives the posture, and the kept 'Nothing.' beats carry the silence. Also leaves 'He looked up.' at L803 as the event.",
+          "position": "paragraph-final",
+          "expected": "no",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G42",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "line": 819,
+          "severity": "MILD",
+          "text": "Nobody said anything. The torch hissed",
+          "suggestedFix": "The torch hissed",
+          "reason": "Guide example shape ('For a moment neither of them spoke. The water went on...'): the torch and the dog show the silence.",
+          "position": "paragraph-start",
+          "expected": "no",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G43",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "line": 367,
+          "severity": "MILD",
+          "text": "That was the part she could not get past. The wards held the way the glass held.",
+          "suggestedFix": "The wards held the way the glass held.",
+          "reason": "Caption-only 'That was' sentence labelling the previous paragraph.",
+          "pointsAt": "nobody in the room was any better",
+          "newFact": "none",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G44",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "line": 709,
+          "severity": "MILD",
+          "text": "It was the same. That was the first thing: the thing in Garran's gut",
+          "suggestedFix": "It was the same: the thing in Garran's gut",
+          "reason": "Guide example verbatim ('That was the first thing').",
+          "pointsAt": "It was the same",
+          "newFact": "none",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G45",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "line": 715,
+          "severity": "MILD",
+          "text": "They never gave you the grammar. That was the whole point of the grille.",
+          "suggestedFix": "They never gave you the grammar; it stayed behind the grille.",
+          "reason": "'That was the whole point of' purpose caption; keep the fact that the grille kept the grammar back.",
+          "pointsAt": "They never gave you the grammar",
+          "newFact": "the grille keeps the grammar back",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G46",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "line": 771,
+          "severity": "MILD",
+          "text": "\"Nobody will.\" That was to Cyndia, who had already gone",
+          "suggestedFix": "\"Nobody will,\" Sylvanas said to Cyndia, who had already gone",
+          "reason": "Caption frame on a fact-bearing sentence (the addressee); fold the fact into the speech tag.",
+          "pointsAt": "Nobody will",
+          "newFact": "addressed to Cyndia",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G47",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "line": 823,
+          "severity": "MILD",
+          "text": "He was warm. That was what she hadn't been ready for.",
+          "suggestedFix": "He was warm, and she had not been ready for it.",
+          "reason": "Caption frame labelling the beat; keep the fact without the 'That was' frame.",
+          "pointsAt": "He was warm",
+          "newFact": "she was not ready for it",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G48",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "line": 863,
+          "severity": "MILD",
+          "text": "That was all she said. ",
+          "suggestedFix": "",
+          "reason": "Caption-only sentence after 'Then you have until cockcrow.'",
+          "pointsAt": "Sylvanas's line",
+          "newFact": "none",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G49",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "line": 899,
+          "severity": "MILD",
+          "text": "The wards were time. That was all they were.",
+          "suggestedFix": "The wards only bought time.",
+          "reason": "Thesis plus caption pair opening the paragraph.",
+          "pointsAt": "The wards were time",
+          "newFact": "none",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G50",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "line": 901,
+          "severity": "MILD",
+          "text": "That was the door shut from the other side, and it had taken",
+          "suggestedFix": "The door was being shut from the other side, and it had taken",
+          "reason": "Caption frame ('That was the door...') on a fact-bearing sentence; noun as subject keeps the fact.",
+          "pointsAt": "The bread was burning down there in a yard",
+          "newFact": "the door was being shut from the other side",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G51",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "line": 963,
+          "severity": "MILD",
+          "text": " That was all she could say for it.",
+          "suggestedFix": "",
+          "reason": "Caption-only closer after Garran's status.",
+          "pointsAt": "It was no further than it had been",
+          "newFact": "none",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G52",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "line": 997,
+          "severity": "MILD",
+          "text": "So that was the end of the third part, whatever it did.",
+          "suggestedFix": "So the third part had gone on the heap too, whatever it did.",
+          "reason": "Completion caption on Brask's report; noun as subject.",
+          "pointsAt": "Brask's account of the loft boards",
+          "newFact": "the third part was destroyed unread",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G53",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F14",
+          "line": 515,
+          "severity": "MILD",
+          "text": "Then she stopped a woman with a loaf under her arm, quite gently, a hand lifted, and the woman",
+          "suggestedFix": "Then she lifted a hand to stop a woman with a loaf under her arm, and the woman",
+          "reason": "', quite gently,' fenced manner adverb; the lifted hand is the act.",
+          "adverb": "quite gently",
+          "gloss": "none",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G54",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F14",
+          "line": 669,
+          "severity": "MILD",
+          "text": "by the bail, quite gently, as if he'd been holding it for her, wound the wick down",
+          "suggestedFix": "by the bail, wound the wick down",
+          "reason": "', quite gently,' plus 'as if' gloss (also F3 'as if'). Second F14 in the chapter; habit.",
+          "adverb": "quite gently",
+          "gloss": "as if he'd been holding it for her",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G55",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F14",
+          "line": 1041,
+          "severity": "MILD",
+          "text": "Jaina sat there shaking, very slightly, all over, as she'd shaken",
+          "suggestedFix": "Jaina sat there shaking all over, as she'd shaken",
+          "reason": "', very slightly,' fenced adverb; the night-watch memory after it carries a fact and stays.",
+          "adverb": "very slightly",
+          "gloss": "as she'd shaken after her first night watch (kept: fact-bearing)",
+          "toolSignal": "hedge_slightly",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G56",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F15",
+          "line": 1049,
+          "severity": "MILD",
+          "text": "They fell in behind her, the ruts going on ahead of them into the wet morning, south and west, toward wherever the young man with the cart had come from.",
+          "suggestedFix": "They fell in behind her, south and west, after the young man with the cart.",
+          "reason": "Chapter-final sentence ends on a landscape tail ('the ruts going on ahead of them into the wet morning'). The decision is the turn onto the grain road; end on it and its purpose.",
+          "features": "landscape tail / and-chained close",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        }
+      ],
+      "summaryCounts": {
+        "F10": 1,
+        "F11": 10,
+        "F12": 5,
+        "F13": 10,
+        "F14": 3,
+        "F15": 1,
+        "F2": 3,
+        "F3": 10,
+        "F4": 2,
+        "F6": 1,
+        "F7": 4,
+        "F8": 1,
+        "F9": 5
+      },
+      "f1Note": "No F1 kill. Sentence-length CV is 0.868 and openers vary; the tool telegram runs fall mostly in dialogue exchanges and deliberate deduction lists (L443-451, L475), not sustained same-shape narration.",
+      "f5Note": "No F5 kill: Brask yielding (B2), the shutdown on their word (B11) and the morning coda are plan beats, and the coda keeps Garran unresolved and the Millhaven doubt open."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 41,
+      "kills": 11,
+      "keeps": 30,
+      "severityMarkers": [
+        "Scene 1 SEVERE: 5 Tier A kills (L5, L15, L159, L167, L187)",
+        "Structural habit: which-tail verdicts (L5, L15, L167, L627, L901) across three scenes"
+      ],
+      "dominantPattern": "A1 (6)",
+      "findings": [
+        {
+          "id": "B-N01",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A1",
+          "tier": "A",
+          "line": 5,
+          "severity": "SEVERE",
+          "text": ", which had done nothing.",
+          "suggestedFix": ".",
+          "reason": "Which-tail verdict joke appended to a concrete beat. Scene 1 has 5 Tier A kills (cluster rule: scene SEVERE).",
+          "whoIsSaying": "narrator",
+          "povMismatch": "Jaina is riding into a sick village with copper on her tongue; the wry aside on the horse's innocence is the narrator's wit, not her attention.",
+          "confidence": "HIGH",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N02",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A1",
+          "tier": "A",
+          "line": 15,
+          "severity": "SEVERE",
+          "text": "It was quieter here, which was strange.",
+          "suggestedFix": "It was quieter here.",
+          "reason": "Which-tail verdict ('which was strange') captioning her own observation; the next sentences explain why. Scene 1 cluster.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "She goes straight on to work out why it is quieter; the label is a caption above that work.",
+          "confidence": "HIGH",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N03",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A1",
+          "tier": "A",
+          "line": 167,
+          "severity": "SEVERE",
+          "text": ", which could not have made them cleaner",
+          "suggestedFix": "",
+          "reason": "Which-tail verdict on Tobin's apron. Scene 1 cluster.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "Authorial wit appended to an action; the black apron is already on the page.",
+          "confidence": "HIGH",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N04",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A1",
+          "tier": "A",
+          "line": 541,
+          "severity": "MILD",
+          "text": " In that order.",
+          "suggestedFix": "",
+          "reason": "Verdict-tag fragment after the list; the list order already shows the threat-first scan.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "Caption nudging the reader to notice the order; Jaina is reading the scene, not annotating it.",
+          "confidence": "HIGH",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N05",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A1",
+          "tier": "A",
+          "line": 627,
+          "severity": "MILD",
+          "text": ", which was all the argument she had room for",
+          "suggestedFix": "",
+          "reason": "Which-tail verdict; the italic unspoken argument that follows already carries the point.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "Narrator gloss on her gesture in a scene where she is silent and tense.",
+          "confidence": "MODERATE",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N06",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A1",
+          "tier": "A",
+          "line": 901,
+          "severity": "MILD",
+          "text": ", which was all she had",
+          "suggestedFix": "",
+          "reason": "Which-tail verdict closing the paragraph.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "Self-pitying caption appended to an action already doing the work.",
+          "confidence": "HIGH",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N07",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A2",
+          "tier": "A",
+          "line": 397,
+          "severity": "MILD",
+          "text": "Contact got the cooper and lost Garran. The well got the lane and lost the lane. ",
+          "suggestedFix": "",
+          "reason": "Slogan pair compressing the analysis already shown at L389-395; the next sentence ('She had two answers that fitted half the room each') says it plainly.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "Epigram rhythm ('got X and lost Y' twice) above the evidence, not the working itself.",
+          "confidence": "HIGH",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N08",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A2",
+          "tier": "A",
+          "line": 519,
+          "severity": "MILD",
+          "text": "Jaina had been in here all afternoon with the bodies. Sylvanas had been out there with the money.\n\n",
+          "suggestedFix": "",
+          "reason": "Thesis-fragment pair that pins the chapter's 'bodies vs road' plan split over the scene, and repeats the L497 contrast ('Windrunner was out there with it, and Jaina was up here holding a doorframe') twenty lines later.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "A caption of the partnership arc, not something she thinks while watching through the glass.",
+          "confidence": "HIGH",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N09",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A2",
+          "tier": "A",
+          "line": 965,
+          "severity": "MILD",
+          "text": " On time, here in this room with these people, and it had held.",
+          "suggestedFix": "",
+          "reason": "The plan's arc phrase ('on time, and it holds') set over the scene as a verdict.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "Thematic summary of the chapter's win; she is checking foreheads, and the next action (back to Elsie) carries the relief.",
+          "confidence": "HIGH",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N10",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A7",
+          "tier": "A",
+          "line": 159,
+          "severity": "SEVERE",
+          "text": "He said it the way you'd name a town a long way off and somehow to blame.",
+          "suggestedFix": "He made it sound a long way off, and to blame.",
+          "reason": "Generic 'you' typification in narration. Same sentence as B-G04. Scene 1 cluster.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "Addresses an imagined reader instead of giving Tobin's tone.",
+          "confidence": "HIGH",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N11",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A7",
+          "tier": "A",
+          "line": 187,
+          "severity": "SEVERE",
+          "text": "Lyriel took it the way rangers held everything, ready for it to do something sudden:",
+          "suggestedFix": "Lyriel took it braced for it to do something sudden:",
+          "reason": "Generalizing construction ('the way rangers held everything') claims a category instead of this grip. Scene 1 cluster.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "A typification of all rangers; the colon list after it already gives Lyriel's actual grip.",
+          "confidence": "HIGH",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        }
+      ],
+      "povRegister": {
+        "character": "Jaina Proudmoore",
+        "summary": "Dalaran-trained scholar mage and Kul Tiran admiral's daughter. Thinks in method (Antonidas's rules, \"Slower\"), in sea and ship images, and in sardonic second-person self-address (\"Brilliant, Jaina\", \"Lovely, Jaina\"). Notices currents, smells and bodies before people; would not think in sociological typifications or epigrams about the partnership.",
+        "confidence": "HIGH"
+      },
+      "tierAKills": 11,
+      "tierBKills": 0
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 28,
+      "kills": 4,
+      "keeps": 24,
+      "severityMarkers": [
+        "Repeat stand-in: \"half\" (L497 kept as anchored, L535 killed)"
+      ],
+      "dominantPattern": "P5 (2)",
+      "findings": [
+        {
+          "id": "B-P01",
+          "guide": "phantom-concreteness-guide.md",
+          "pattern": "P3",
+          "line": 215,
+          "severity": "MILD",
+          "text": "and something heavier was there now that she did not want to name.",
+          "suggestedFix": "and in its place was something heavier, meat kept too long.",
+          "reason": "Placeholder 'something' standing in for the smell she gets off a man near death; the line works only because the reader supplies it.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the actual heavier smell",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-P02",
+          "guide": "phantom-concreteness-guide.md",
+          "pattern": "P5",
+          "line": 551,
+          "severity": "MILD",
+          "text": "She stopped. \"That's the body. I can't get further than that from in here.\"",
+          "suggestedFix": "She stopped. \"I can't get further than that from in here.\"",
+          "reason": "Planner shorthand ('That's the body' = the body-side half of the plan) as a status note; the second sentence already says where her evidence stops.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "none needed; the following sentence carries the claim",
+          "pairedWith": "B-G27",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-P03",
+          "guide": "phantom-concreteness-guide.md",
+          "pattern": "P2",
+          "line": 719,
+          "severity": "MILD",
+          "text": "Whoever had made this had made it as Antonidas built a ward, without one wasted turn.",
+          "suggestedFix": "Whoever had made this had made it as Antonidas built a ward.",
+          "reason": "Prestige abstraction ('without one wasted turn'; guide lists 'without waste'); the seams-and-planking read above is the evidence, and the Antonidas comparison already carries the skill.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "which turns, and how she could tell none was wasted",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-P04",
+          "guide": "phantom-concreteness-guide.md",
+          "pattern": "P5",
+          "line": 535,
+          "severity": "MILD",
+          "text": "walked down with her half of it.",
+          "suggestedFix": "walked down with Tobin's slate.",
+          "reason": "'her half of it' is plan note-speak (body half / road half). 'half' repeats as a stand-in at L497 and L535; cluster rule. The slate is the actual object holding her answer.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the slate with the names, bread counts and amounts",
+          "repeatStandIn": "half",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "verdict": "KILL"
+        }
+      ],
+      "note": "Keep rate is above the guide's 25% heuristic because most analytic narration is anchored: the deduction scenes put the slate, the bread counts and the light readings on the page before every compression. Each keep is defended in the scratchpad."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "severityMarkers": [],
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "8 translation exchanges audited: L375-379 (Tobin asks \"How much?\"; reply \"Small. Half a fist. A fist. Everywhere.\" is written straight onto the slate), L549 (prepared small-words version \"It's the bread. Stop them eating the bread.\" names target and action), L853-861 (Jaina hands the oven deadline to Sylvanas; \"Then you have until cockcrow\" gives the oven and the cockcrow threshold, and Brask's follow-up asks scope, not meaning), L867 (granary, bakehouse, every sack since the first load), L483, L529, L603 (no bread, own oats), L899 (\"say it plainly\": wards stop progress, remove nothing, the body does the rest), L759 (jar, floorboard, watch). Every reply names a usable target or threshold."
+    }
+  ],
+  "summary": {
+    "totalKills": 71,
+    "totalKeeps": 121,
+    "mildKills": 61,
+    "moderateOrSevereKills": 10,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 71,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "10 MODERATE/SEVERE kills (stacked filter L893; Scene 1 echo cluster; granary-loft F9 cluster; Scene 1 narrator-seep cluster of 5 Tier A kills) and 61 MILD kills. Dominant: F11 anaphoric runs and F13 \"That was\" captions (10 each), which-tail verdicts (6). Not verdict-affecting: structural texture deficit (score 78.9, below_target) and structural rhythm concerns (6 of 8 global metrics out of range).",
+    "pairedFixes": [
+      "B-G04 = B-N10 (same sentence, one fix)",
+      "B-G27 = B-P02 (same sentence, one fix)",
+      "B-G09 + B-G20 (same sentence, apply both)",
+      "B-G21 touches the same paragraph as pass A's \"She let that sit.\" kill; pass B only deletes the echoed \"Walked.\""
+    ],
+    "fixStrategy": "default (no prior iterationKillsB history)",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.789,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": 0.069,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.4,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "delta": 0.4,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.868,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.168,
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 42.2,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "delta": 7.2,
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 18.5,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "delta": 8.5,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.57,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "delta": -1.13,
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.2,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 9.2,
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.773,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "delta": -0.057,
+        "inRange": false
+      },
+      "note": "Structural rhythm concerns: sentence_length_cv, short_sentence_pct, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr outside range."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 78.9,
+      "participial_pct": 7.4,
+      "compound_pct": 12.2,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 1.5,
+      "short_pct": 52.5,
+      "verdict_reasons": [
+        "participial: 7.4% below target 12.0% (score 62/100)",
+        "compound: 12.2% above target 10.0% (score 80/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.4% → target 12.0% (score 62/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.2% → target 10.0% (score 80/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.1% → target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegram_run_count": 42,
+      "texture_desert_count": 32,
+      "note": "structural texture deficit. Several pass-B kills sit inside flagged zones (L683-733 granary loft, L789-819 cage, L899-901 vigil); the F11 merges add joining constructions there."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 123,
+        "total_violations": 7,
+        "overCapCategories": [
+          "filter_words",
+          "punctuation_tics",
+          "paragraph_structure",
+          "permission_tags"
+        ],
+        "passBMatches": "13 pass-B-mapped matches (hedging 9, vague_pointers 4); 6 killed (L9, L159, L533, L817, L981, L1041), 7 kept (L219, L221, L597, L501, L701, L805, L911). Zero ai_vocabulary, slopsquid, narrator_verdict, academic_register, dialogue_register, verbose_phrases, ambient_inversion matches."
+      }
+    }
+  }
+}

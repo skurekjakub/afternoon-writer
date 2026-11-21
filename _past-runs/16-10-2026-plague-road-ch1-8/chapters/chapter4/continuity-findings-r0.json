@@ -1,0 +1,104 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter4",
+  "iteration": 0,
+  "targetFile": "v0c.md",
+  "status": "fail",
+  "hardViolations": 3,
+  "softViolations": 2,
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "hard",
+      "category": "cross-chapter",
+      "location": "L91: \"A cradle in the end house with the blanket tucked in. No child in it.\"",
+      "description": "Sylvanas puts the empty cradle in the end house. In Ch3 the cradle was in a different house, and the end house is where the girl was found under the floor. Two lines later Sylvanas also tells Brask about 'a child left alive, shut in a cellar', so this line merges the empty cradle and the living child into one house. Sylvanas swept the village herself and would not mix them up.",
+      "evidence": "Ch3 final.md L98: Lyriel: \"There's a cradle in the house by the smithy with a blanket in it and no baby, Ranger-General. The blanket's been tucked.\" Ch3 L287-293: the end house is a one-room house with a box bed and the cellar hatch where Neral finds the girl. Memory locations/millhaven-end-house-cellar.",
+      "suggestedFix": "\"A cradle in the house by the smithy with the blanket tucked in. No child in it.\" (Or drop the location: \"A cradle with the blanket tucked in.\")"
+    },
+    {
+      "violationId": "V2",
+      "severity": "hard",
+      "category": "cross-chapter",
+      "location": "L39: \"The girl had said it into Neral's collar, in the dark of the inn at Millhaven.\" and L673: \"Sylvanas had stood half in the doorway at the inn while the girl talked.\"",
+      "description": "The prose sets the girl's interview at the inn. In Ch3 it took place in the end house, by lantern light, right after Neral carried her up from the cellar. Sylvanas stood half in the doorway of the end house. The party moved to the inn only afterwards, and the girl fell asleep on the way there. Jaina was present for the interview, so her memory of it is misplaced.",
+      "evidence": "Ch3 final.md L409-413: Neral sits on the edge of the box bed with the girl; \"Sylvanas put herself by the door, half in and half out\". L423, L435, L451: the well, pears and grain-seller lines are all spoken there. L549: \"They moved to the inn... by the inn sign her head went loose on Neral's shoulder.\" Memory threads/newer-grain-seller and survivor-girl-and-dispatch.",
+      "suggestedFix": "L39: \"The girl had said it into Neral's collar, in the end house at Millhaven, with the hatch still open beside her.\" (or \"...in the lantern light of the end house at Millhaven.\"). L673: \"Sylvanas had stood half in the doorway of the end house while the girl talked.\" The L163 and L671 references (\"in the dark at Millhaven\") need no change."
+    },
+    {
+      "violationId": "V3",
+      "severity": "hard",
+      "category": "physical",
+      "location": "L1059-1067: \"It's burned,\" she said. \"All of the granary. All of the bakehouse.\" ... \"And the loft?\" / \"Brask's man on the stair. Nobody's been up.\"  (against L689-691, L873, L1131, L1143)",
+      "description": "The chapter puts the supplier's tainted stock in the loft: 'Most of the last load... It's in the loft. The keeper showed me the sacks.' The pale new sacks are stacked behind the spill. In the night Sylvanas reports that all of the granary has burned and, in the same exchange, that nobody has been up to the loft. Both cannot be true. In the morning Sylvanas produces sacking she cut 'From the loft. His sacks... before they went in the fire', and Brask says the loft boards came down only at first light. If the loft sacks burned overnight, people went up, which contradicts 'Nobody's been up'. If they burned in the morning, then 'All of the granary' had not burned when she said it, and the stock that mattered most was still sitting in the loft. Cyndia's L1051 line, 'Brask's man came up from the loft', makes the movement on the stair unclear as well.",
+      "evidence": "L689-691: Cyndia: \"Most of the last load. It's in the loft.\" L747: the new pale sacks stacked to the roof-tree beside the lamp and the spill. L873: Sylvanas: \"Cyndia, the stair. Nobody comes up. Nobody touches that.\" L985: Brask orders all of it burned in Joss's yard. L1131: the loft boards come up at first light. L1143: \"From the loft. His sacks. I cut it before they went in the fire.\" Beat plan B11: the tainted stock burns in the granary yard during the night.",
+      "suggestedFix": "Make the loft guard about the shell, not the sacks. For example: \"And the loft?\" / \"His sacks came down round your ice, one at a time, with Brask's man calling the steps. Nobody's put a foot on it.\" Also change L1051 to \"Brask's man came up and took my place on the stair.\" This keeps 'All of the granary' true, lets Sylvanas have cut the sacking during the night carry-down, and leaves the boards and the shell for first light as L1131 already has it."
+    },
+    {
+      "violationId": "V4",
+      "severity": "soft",
+      "category": "physical",
+      "location": "L139: \"She had given her bow away, which had cost her nothing whatever with three more bows behind her.\"",
+      "description": "The riding party is exactly four: Sylvanas, Cyndia, Lyriel and Jaina, who carries a staff. With Sylvanas off her horse there are two bows behind her, not three. 'Three' implies a fourth archer and blurs the hard count in the constraints ('the party is exactly four'). Brask's boy holds the only other bow, and he is in front of her on the other side of the spear.",
+      "evidence": "Beat plan constraints: \"Neral and the fourth ranger are gone; the party is exactly four.\" Memory world/military and Ch3 L790: after the split, three rangers and the mage ride south.",
+      "suggestedFix": "\"...which had cost her nothing whatever with two more bows behind her.\""
+    },
+    {
+      "violationId": "V5",
+      "severity": "soft",
+      "category": "physical",
+      "location": "L711: \"She'd eaten nothing since the saddle at noon.\"",
+      "description": "The chapter places the arrival and the lane standoff before noon several times. L605 says 'Sylvanas had come into the village before noon'. L611 has 'Refile it, she'd told herself in the lane before noon'. L967 has 'as she had in the lane before noon'. The plan's time anchor for B1 and B2 is late morning, and B3 is midday into early afternoon in the infirmary. At noon Jaina was off the horse and in the chapel, so 'the saddle at noon' contradicts the chapter's own clock.",
+      "evidence": "Beat plan B1/B2 timeAnchor: \"Late morning, on arrival.\" / \"Late morning, in the lane.\" B3 timeAnchor: \"Midday into early afternoon, in the infirmary.\" Prose L605, L611, L967.",
+      "suggestedFix": "\"She'd eaten nothing since the saddle that morning.\""
+    }
+  ],
+  "advisories": [
+    {
+      "id": "A1",
+      "location": "L735: \"...the storehouse by the bridge... and she had stood in the door of it and told Sylvanas Windrunner that a store is where things end up.\"",
+      "note": "In Ch3 (L183-205) Jaina knelt in the middle of the storehouse floor, and Sylvanas was the one in the doorway. A small change would fix it: \"she had knelt in the middle of its floor and told...\" Not counted, because 'stood in the door of it' can be read loosely."
+    },
+    {
+      "id": "A2",
+      "location": "L99: \"She said the first thing she remembers is that everybody was coughing at the well.\"",
+      "note": "In Ch3 the girl's order was Missus Hale's baby, then Mister Pell, then everybody coughing at the well. Jaina's own memory at L39 has it right. Sylvanas could be simplifying for Brask on purpose, but she is usually exact. A version like \"She said it started with everybody coughing at the well\" would avoid the misquote."
+    },
+    {
+      "id": "A3",
+      "location": "L1147: \"Cyndia had said so last night.\"",
+      "note": "Cyndia's west-road report is in B7, late afternoon with the light going and before full dark. 'Last night' stretches that. \"yesterday\" or \"at the chapel\" would be exact."
+    },
+    {
+      "id": "A4",
+      "location": "L1159: \"The mage,\" he said. \"Jaina.\"",
+      "note": "No line on the page gives Brask her first name. She introduced herself to Tobin, and Lyriel says 'Jaina' in the loft before Brask comes up the stair. Tobin could have told him off-page, but the plan's ledger moment has him saying the names aloud and asking for the spelling. Having Jaina give the name, or having him ask for it, would close the gap."
+    },
+    {
+      "id": "A5",
+      "location": "L985 (\"down to the ford\"), L1131, L1145 (\"past the ford\")",
+      "note": "This is not a contradiction, but the memory-keeper should log it. Ch3 established a market ford in the valley a morning's drive south of Millhaven, where the carter came from. This village is two days south, so its ford must be a different, local one. Log it as distinct so later chapters do not merge them."
+    },
+    {
+      "id": "A6",
+      "location": "Whole chapter",
+      "note": "The old carter is never recalled, and the plan's carter guard holds: the supplier is a pattern match (young, civil, cheap, 'brown hair, he thinks. Or fair. A good horse.'), with nothing that matches the carter. Jaina and Sylvanas look at each other over 'one new man, selling cheap, at Millhaven and here' and say nothing (L673), which keeps it a resemblance. That passes. Do not strengthen it in revision."
+    },
+    {
+      "id": "A7",
+      "location": "New names for the memory-keeper",
+      "note": "The village stays unnamed, as required. New on-page names: Willem Brask; Tobin (the medic); Dickon; Tam (the initiate, who works Joss's hoist and came at the back end of summer); Joss (the granary keeper); Hob and Nan (the bakers; Nan is implied to be Ellen's mam); Ellen; Elsie (Ashby's dairymaid); Garran; Col (the smith's striker); Wenna and Hew Dunmore (the top farm); Mother Haw; Piers; Wat; the Aldon boys; the Hallams; Chapel Lane; Cooper's Lane; the cage by the pound. Andorhal is first named through a stencilled sack mark (a sheaf in a ring) and Brask: 'the big granaries... south and west, past the ford. Three days, with a cart.' Jaina's left palm has split at the heel (L807, L1039). Lyriel's bandage is the Farstrider knot."
+    }
+  ],
+  "cleanChecks": [
+    "The chapter opens from Ch3's close: two days on, the same four riders in the same order, two empty places at the back, hands wrapped, the staff pointing south.",
+    "The knowledge walls hold. Grain is first earned in B5 from the patient table. Bread smoke in B1 is ambient only, and the 'loaf' at L91 is a Millhaven callback, not a pointer. The B3 gut cluster narrows only to ingestion. Water is ruled out as the sorter, not as clean. The oats guard and the B5 callback to the storehouse refusal are present.",
+    "There is no cult proof before B8. 'On purpose' in B7 is an inference from timing and price. Nobody names Kel'Thuzad, a school or a cult. Jaina knows the field in broad Kirin Tor terms (the locked shelf, the grille, the signs) and lacks the grammar, which is correct.",
+    "No Barov connection, no carter identification, no open trust between Jaina and Sylvanas.",
+    "Narration name: 'Windrunner' through B5, then 'Sylvanas' from B6 (L591), settled by Scene 3. Jaina says 'Ranger-General' aloud throughout and never says 'Sylvanas' aloud. Lyriel moves from 'Lady Proudmoore' to 'Jaina' in the B4 knot lesson. Brask uses 'my lady', is corrected to 'Ranger-General', and calls Jaina 'Miss'.",
+    "Cast: custody by pairs (Lyriel with Jaina, Cyndia with Sylvanas). B6 limits Jaina to sight through the glass. The B7 join has Cyndia at Sylvanas's shoulder. Brask holds the lockup key. Brask's last appearance is the ledger scene, with names said aloud and spelled. He gives no blessing or ornate farewell. All four horses are present at the close.",
+    "Hands: the left is raw and, after the barrier, split at the heel. The right has been dead since the holly bend (memory: dead after the frost-sheet). The cost escalates and is never healed off-page. Body reads go through the staff and spell light, not the palm.",
+    "Ch2 and Ch3 callbacks are accurate: the doe through the heart at the holly bend, the frost on a wolf's hind legs, the well reading 'thinner than the doe', 'a store is where things end up', pears gone brown before the fever, Missus Hale, Mister Pell, 'cheaper than Mister Hollis', sixty up the cow way, the laid tables, the sickbed with its basin and cup, 'Mage. Up.'",
+    "Every beat lands its newOnPageInformation in order: B1-B11a, including the Andorhal source from an in-world object in B11a and Jaina tying the knot unaided at the close."
+  ]
+}

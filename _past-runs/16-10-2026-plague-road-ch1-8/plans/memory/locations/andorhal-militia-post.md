@@ -1,0 +1,5 @@
+# Andorhal militia post
+
+A squat stone house just inside the market gate on the left, past the granary lane, door open, lamp lit, a bench outside. Inside is one low room with a beaten earth floor and a lamp that smokes so that the smoke lies in a flat grey layer under the beams and stings the eyes. A canvas map of the granary district hangs behind the table, chalked and rubbed out so many times the streets have gone grey, with a line down Hurdle Lane worn pale. On the near corner of the table a hand-high stack of papers furred with dust is held down by a river stone cracked clean across and fitted back together: Corin's notices of flagged shipments, unread.
+
+Havel keeps twelve men between this gate and Mill Lane; the night men go out on the lanes at the Exchange bell. The post is where the chapter's two briefings and the final table scene happen: the street truth and the paper truth at first, then Jaina's column of Heavy and Clean laid beside Sylvanas's lead sketch of Fenner's yard and Kett's loft, and the capture plan pinned under her knife.

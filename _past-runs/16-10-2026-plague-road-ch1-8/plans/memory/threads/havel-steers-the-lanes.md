@@ -1,0 +1,5 @@
+# Havel steers the lanes
+
+Open. Havel is helpful and real, and every steer sits on the same side of the board. Corin's notices sit unread under the river stone. He walks Sylvanas down Hurdle Lane from behind 'so it's covered'. He calls the count 'four, all told' and had 'left out' Kett's and the malt-house at the post. He points past Tenter Row twice ('Kett shut his gate at noon'), and Kett's is where five masked men are sewing grain. He offers a ladder and a doorway. He wants a dawn arrest with the magistrate's clerk, redraws the same chalk line three times in the same groove, concedes the carts to Corin and proposes the same plan with spikes at the gate, and asks for the Hurdle Lane end of the raid for his lads.
+
+On the other side: his information is good, he arrested two loaders at midsummer and lost them to the magistrate by dinner, and Sylvanas admits she is sick of slow men. She says nothing she cannot prove and watches his routes. Do not narrate him as cult-paid; Ch8 reconciles.

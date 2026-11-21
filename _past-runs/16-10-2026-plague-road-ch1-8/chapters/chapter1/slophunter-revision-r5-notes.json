@@ -1,0 +1,59 @@
+{
+  "chapterId": "chapter1",
+  "mode": "revision",
+  "iteration": 5,
+  "changes": [
+    {
+      "feedbackRef": "A -> intent-smear-agency-laundering-guide.md -> IS-1",
+      "line": 195,
+      "before": "Rangers stood along the far wall, more of them than the hour called for.",
+      "after": "Rangers stood along the far wall, more of them than Cyndia kept on duty at that hour.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A -> recurring-prose-tics.md -> RT-1",
+      "line": 291,
+      "before": "close enough that the mage had to tip her head back to keep looking at her.",
+      "after": "close enough that the mage had to tip her head back.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r4-01",
+      "line": 131,
+      "before": "The patrol went quiet around her. Sylvanas went still in the saddle. \"Through the ring?\"",
+      "after": "The patrol went quiet around her. \"Through the ring?\" Sylvanas said.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r4-02",
+      "line": 81,
+      "before": "he put his own bare hand to the stone, briefly, palm flat.",
+      "after": "he laid his own bare palm flat on the stone and took it away again.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r4-03",
+      "line": 113,
+      "before": "\"Of course.\"",
+      "after": "\"Wouldn't miss it.\"",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r4-04",
+      "line": 175,
+      "before": "For a while she heard the patrol on the northern road, soft and shaded under the trees.",
+      "after": "For a while the patrol's hoofbeats came back to her off the northern road, soft under the trees.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r4-05",
+      "line": 157,
+      "before": "She caught herself liking that. Grinning over a breach, Ranger-General.",
+      "after": "Grinning over a breach, Ranger-General.",
+      "source": "gate-suggestion"
+    }
+  ],
+  "unfixable": [],
+  "selfAudit": "Changed passages re-checked. No new negation, intent-smear, narrator-seep or filter-word. No new eye/gaze beats; removing 'keep looking at her' (L291) brings Tic 5 from 5 to 4 (cap 4). 'Wouldn't miss it.' cashes out as Sylvanas's attendance at the Convocation, matching Lor'themar's line.",
+  "wordCount": { "before": 5155, "after": 5149 }
+}

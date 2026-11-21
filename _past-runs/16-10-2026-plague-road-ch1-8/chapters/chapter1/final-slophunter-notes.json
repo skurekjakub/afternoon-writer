@@ -1,0 +1,49 @@
+{
+  "chapterId": "chapter1",
+  "mode": "polish",
+  "changes": [
+    { "hunt": 3, "pattern": "counting-device", "before": "gave the order in two words", "after": "gave the order" },
+    { "hunt": 3, "pattern": "counting-device", "before": "Lor'themar lifted his rein hand and began counting off fingers.", "after": "(cut)" },
+    { "hunt": 3, "pattern": "counting-device", "before": "A magister would have a word for it, six words, a treatise.", "after": "A magister would have a word for it, a whole treatise." },
+    { "hunt": 4, "pattern": "planner-shorthand", "before": "The opening. She could tell him about the stone.", "after": "She could tell him about the stone." },
+    { "hunt": 4, "pattern": "narrator-filter / over-explanation", "before": "Under all of it she had already worked out that her Convocation bench would sit empty tomorrow.", "after": "Her Convocation bench would sit empty tomorrow." },
+    { "hunt": 4, "pattern": "simile-cap (like)", "before": "shadows out under her eyes until they looked like bruises", "after": "bruise-dark shadows under her eyes (like count 4 -> 3)" },
+    { "hunt": 4, "pattern": "claim-then-gloss", "before": "She meant to keep that chair until Sylvanas spoke first.", "after": "(cut)" },
+    { "hunt": 4, "pattern": "claim-then-gloss", "before": "Sylvanas didn't like that face any better on a human.", "after": "(cut)" },
+    { "hunt": 4, "pattern": "stepped-repetition", "before": "Sylvanas held her tongue and left the human to sit in the quiet. The human sat in it.", "after": "Sylvanas held her tongue and left the mage to sit in the quiet." },
+    { "hunt": 4, "pattern": "elegant-variation", "before": "left the human to sit", "after": "left the mage to sit" },
+    { "hunt": 4, "pattern": "stacked-descriptors", "before": "travelling robe of brown wool, kilted up for walking, worn shiny at the cuffs and elbows, the hem stiff with dried mud", "after": "travelling robe of brown wool, kilted up for walking, the hem stiff with dried mud" },
+    { "hunt": 4, "pattern": "stacked-descriptors", "before": "foam hanging off the bit in ropes, legs splayed, sides heaving", "after": "foam hanging off the bit in ropes, legs splayed" },
+    { "hunt": 4, "pattern": "stacked-descriptors", "before": "hair done up, clean hands folded, a face arranged into patient courtesy", "after": "hair done up, a face arranged into patient courtesy" },
+    { "hunt": 3, "pattern": "filler-action", "before": "ferns crushing under her boots; easing his weight off the stirrups; because the first had smeared it", "after": "(cut)" },
+    { "hunt": 3, "pattern": "filter / redundancy", "before": "until she felt it more than heard it; The road went on east under the amber light", "after": "(cut; hum image kept)" },
+    { "hunt": 3, "pattern": "redundant beat", "before": "Cyndia had rested her left hand near her quiver and kept it there; one of the horses blew; patrol hoofbeats came back off the northern road; Moss on the shoulder. Gold in the runes.; Big for an axethrower; The benches stood empty; A nuisance with a pedigree; Sun's sake, a fortnight; Maybe the cold had always been there...; the crystal shifted colour sentence; Sylvanas studied the drawing", "after": "(cut)" },
+    { "hunt": 3, "pattern": "compression", "before": "Cyndia expected merchants with the wrong papers out of the south... touched her stones or her riders", "after": "Cyndia expected only merchants with the wrong papers... came over her line" },
+    { "hunt": 3, "pattern": "compression", "before": "She had been up since the night watch, and it showed in the grey under her eyes and in her shoulders, held too square.", "after": "She had been up since the night watch: grey under her eyes, shoulders held too square." },
+    { "hunt": 3, "pattern": "compression", "before": "Behind Sylvanas the rangers held the doorway. They were waiting on her.", "after": "The rangers behind her were waiting." },
+    { "hunt": 3, "pattern": "compression", "before": "Rangers stood along the far wall... The rangers straightened as she came in, hands near their bows.", "after": "Rangers stood along the far wall... hands near their bows." }
+  ],
+  "flags": [
+    "Config styleTarget path style-samples/way-of-kings does not exist; editor-guide.md read from style-samples/. Calibrated on author-technique-anchors.md and existing prose voice.",
+    "Kept: 'Four on the ridge path, four down' (Lor'themar dialogue count, allowed once); 'three different hands' / 'three hands' (running joke, two uses in dialogue); 'Six riders with me' (dialogue count); 'a hundred of these' (hyperbole, not a tally).",
+    "Kept: like-similes at 3 (boot in mud, horse's flank, rider braced); as-if/as-though at 2.",
+    "Kept: 'the human'/'the mage' in Sylvanas's thought where it reflects her framing of Jaina before naming; one variation removed.",
+    "Eye/gaze beats unchanged and under cap (looking at her hand; looking at Sylvanas; looked her over).",
+    "Cut was kept near 5% floor on purpose: remaining texture (participials, em dashes, fragments) matches style target and was not stripped.",
+    "Facts, knowledge states and event order untouched: Jaina's name, ink, staff, map circle at the noon stone, Cyndia's report, Lor'themar's departure all preserved."
+  ],
+  "observationsCount": 31,
+  "violationTotalsByCategory": {
+    "counting-devices": "3 -> 0",
+    "planner-shorthand": "1 -> 0",
+    "claim-then-gloss / stepped repetition": "3 -> 0",
+    "simile-cap": "4 like -> 3",
+    "stacked-descriptors": "3 -> 0",
+    "elegant-variation": "1 -> 0",
+    "narrator-filter": "1 -> 0",
+    "dialogue-register": "0 found; all quoted lines checked against Lor'themar, Cyndia voice sheets and plain-language test",
+    "contact-verb-agency / permission-tags / abstract-noun-locomotion / negation-addiction / staged-ambience / actor-demotion": "0 found"
+  },
+  "flaggedForExpander": [],
+  "wordCount": { "before": 5198, "after": 4937 }
+}

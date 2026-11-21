@@ -1,0 +1,31 @@
+{
+  "chapterId": "chapter5",
+  "iteration": 2,
+  "globalRisks": ["unplaced-surface"],
+  "segments": {
+    "openingThird": { "risk": "low" },
+    "middleThird": { "risk": "low" },
+    "finalThird": { "risk": "low" }
+  },
+  "scenes": [
+    {
+      "sceneId": 3,
+      "title": "The Carters' Lodge at the Fork",
+      "riskTags": ["unplaced-wall"],
+      "biggestGap": "The watch-post wall was never established; reader could take it for the hut wall under the turf roof.",
+      "sourceBank": {
+        "geography": ["the fork", "King's road", "south road"],
+        "institutions": [],
+        "materials": ["dry-stone wall", "turf roof", "hearth stones", "bracken"]
+      },
+      "sceneContract": {
+        "placeAnchor": "carters' lodge in the angle of the fork, with a chest-high dry-stone wall between door and road",
+        "materialAnchor": "stone wall-top, knocking heels, wagon-board bench",
+        "povAnchor": "Sylvanas reads sentry geometry (who holds fork, wall, climbs wall in the dark)",
+        "dialogueAnchor": "candle, slips, staff on doorstone",
+        "exitAnchor": "smear low over the hills, moving"
+      },
+      "dialogueRuns": [{ "label": "slip-reading call and response", "risk": "low" }]
+    }
+  ]
+}

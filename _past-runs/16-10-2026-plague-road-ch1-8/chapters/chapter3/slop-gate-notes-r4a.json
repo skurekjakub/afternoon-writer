@@ -1,0 +1,251 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsA [49, 8, 12, 2]; latest 2 is below the prior minimum 8, so the conservative trigger is not met; fixes kept minimal and deletion-first anyway)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 41,
+      "kills": 3,
+      "keeps": 38,
+      "severity": "MILD",
+      "dominantPattern": "contrast pivot / chained negation where the positive half already carries the fact",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 269,
+          "text": "through the gates instead of over them and into the dark",
+          "pattern": "NEG-P1 inverted contrast pivot (Y instead of X)",
+          "deletionTest": "A great many of them had gone out on their own feet, empty-handed and at a walk, through the gates and into the dark.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 1. Nobody in the scene climbed or could have climbed 'over' the gates, so the rejected option is not a real alternative; the flattened gate at L233 already carries the image.",
+          "suggestedFix": "straight through the gates and into the dark",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-2",
+          "line": 654,
+          "text": "\"Nothing turned off, either. There's a gap in the bank back there, a track down to a farm. Not one of them went into it. And none came back down. Every mark in this cut goes the one way.\"",
+          "pattern": "NEG-P7 chained negation building to a positive summary",
+          "deletionTest": "\"There's a gap in the bank back there, a track down to a farm. Every mark in this cut goes the one way.\"",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 7. Three refusals ('Nothing turned off' / 'Not one of them went into it' / 'none came back down') lead up to 'Every mark in this cut goes the one way', and that last line already holds all three facts. 'Nothing turned off' and 'Not one of them went into it' repeat the same check. The deletion test survives, so the dialogue defense does not apply.",
+          "suggestedFix": "\"There's a gap in the bank back there, a track down to a farm. They went past it, every one. Every mark in this cut points uphill.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "fixNote": "Replace only the quoted speech that follows 'Cyndia's voice went lower, and more careful.' Keep the opening \"At least.\" 'points uphill' is literal toe direction, the same usage as L546 'the toes in the slot pointed north', so it is not intent smear. Cyndia still reports both checks: the farm track and the absence of any returning prints."
+        },
+        {
+          "id": "A-NEG-3",
+          "line": 818,
+          "text": "At noon they watered at a ford that was not the ford, a little gravel crossing where a stream came down under the road.",
+          "pattern": "NEG-P4 minimizer/self-correcting descriptor",
+          "deletionTest": "At noon they watered at a little gravel crossing where a stream came down under the road.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 4. The sentence names a ford and then takes the name back. The positive half ('a little gravel crossing where a stream came down under the road') already shows this is not the willow-lined river ford from L804, so cutting the negation loses nothing.",
+          "suggestedFix": "At noon they watered at a little gravel crossing where a stream came down under the road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "keepRateNote": "Keep rate 38/41 is above the guide 20% leniency line. All KEEPs were re-examined against self-check 1-5. The excess comes from candidates that are not contrast pivots: Step 1 imperatives (Not the hand / Not yet / Then don't guess / Don't), hard-constraint statements of what the mage or Sylvanas can and cannot read, and tracker evidence of absence feeding a live alive-or-dead and which-road decision. True pivot shapes whose positive half already carried the fact were killed."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 52,
+      "kills": 0,
+      "keeps": 52,
+      "severity": "NONE",
+      "dominantPattern": "none",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "Done as required: every sentence was re-read for inanimate or abstract subjects carrying agency, cognition, combustion or motion verbs. Checked: road and geography motion verbs (L109 'four roads running away', L231 'a lane ran', L634 'It ran north... went over a shoulder... bent away west', L802 'the road climbed... the country opened', L804, L836, L846 'the road came round'); receiver nouns with the actor demoted (L704 'The chamber would have this in its hands', L832 'the chamber would put its seal to'); body-part subjects (L153/L311/L654 voice manner, L237 'her eyes were a beat behind the light', L353 fingers on the string, L386 'the mage's elbow had it', L434/L466/L532/L726 the girl's face and shoulders, L492 fist, L598 hand on the string, L612 'This foot had never lifted', L744 'the rest of him caught up', L814 'Her head... caught itself'); abstract states settling into the body (L279 'Everything in her wanted', L780 'It had caught on her'); metaphor chains (L546 arm, toes and noon stone all 'pointed north'). No intent, command, judgment, deception or knowledge verb sits on an inanimate subject anywhere in the chapter, and the body-part subjects are all involuntary, observed motion, or a precise physical grip.",
+      "cleanReason": "52 candidates examined, 0 kills. Geography motion verbs are 'the road led'-class topography that the guide marks as fine. Physical agents (wind, frost, rain, water, mud, lantern light, sound) are literal, keep condition 3. The ward-stone 'would have told her by the cold under its warmth' (L15) and the staff pointing (L850) describe the chapter's in-world reading mechanism, so the subject-matter defense applies. The village as collective (L5, L285) refers to the villagers already established as having walked out, keep condition 1. Body-part subjects are involuntary (fatigue, flinch, nodding off, the dead foot that never lifts), which is the guide's Pattern 8 exception, or they are the observed motion of a hidden child. No permission tags: L414 'Neral let her keep it' and L814 'Sylvanas let her sleep' are physical allowing with a person and a result. No nominalized agents (no realization/decision/understanding subjects). The slop checker raised no inanimate_agency or abstract_locomotion hits.",
+      "findings": [],
+      "keepRateNote": "Keep rate 52/52 is above the guide 15% line because the mandated second P5/P6 sweep surfaces every inanimate subject with a motion verb, and almost all of them are literal physics (frost, wind, echo, lantern light, mud) or involuntary body motion. None carries an intention, command, judgment, deception or knowledge verb. Re-examined against self-check 1-5."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 19,
+      "kills": 0,
+      "keeps": 19,
+      "severity": "NONE",
+      "dominantPattern": "none",
+      "counts": {
+        "tic1_cornerOfMouth": 0,
+        "tic2_marked": "1 verb use (L285, mental); cap 2",
+        "tic3_tightened": 0,
+        "tic3_eased": "1 (L83 'She eased the string', physical); cap 2",
+        "tic4_shiftedFacial": "0 (L101 and L524 are physical weight/position)",
+        "tic5_eyeGazeEmotionalBeats": "4 at most (L43, L682, L742, L846); cap 4. Tactical watching (L13, L89, L129, L424, L732) is character-specific ranger scanning, and the eyes shut/open beats at L117, L822 and L826 belong to the mage's reading procedure",
+        "tic6_weightMetaphors": "0 (every 'heavy/heavier' is the in-world contamination reading; L420 'bore no weight' is literal)",
+        "tic7_nonSaidTags": "0 performance tags; L59 'she told the mage' is a plain speech verb; 'whisper' appears only as a noun for the child's actual whispering"
+      },
+      "cleanReason": "Every tic is at or under its hard cap, and no instance looks like something the slophunter introduced. Mapped tool signals are all under cap: filter_watched 3/3 (tactical, plus one literal line of dialogue), filler_nodded 2/4 (the child's wordless answer, and Neral acknowledging an order), bookism_hissed 1/2 (L341 is the lantern hissing, not a dialogue tag), simile_like 2/27 and simile_as_if 2/5 (concrete: bellows, post, harrow, a cob stopping), participial_trailing 17/54 (texture runs below the participial target, so these should stay), punct_semicolon 21/27 and punct_colon_narration 11/13 (under cap; semicolon texture is on target at 1.6%).",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 109,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 MILD kills, all negation-guide (L269 'instead of over them', L654 Cyndia's chained-negation report, L818 'a ford that was not the ford'), and 0 MODERATE/SEVERE kills. All 3 have drop-in fixes for downstream editors. Intent-smear and recurring-tics are clean. Structural rhythm concerns: sentence_length_cv, short_sentence_pct, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are outside their ranges. Structural texture deficit: texture is below_target at 74.9 (participial 4.4% against a 12% target).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.647,
+        "target": 0.72,
+        "delta": -0.073,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.7,
+        "target": 11.0,
+        "delta": 0.7,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.895,
+        "target": 0.7,
+        "delta": 0.195,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 42.8,
+        "target": 35.0,
+        "delta": 7.8,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 20.6,
+        "target": 10.0,
+        "delta": 10.6,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.38,
+        "target": 7.7,
+        "delta": -1.32,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 33.9,
+        "target": 19.0,
+        "delta": 14.9,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.765,
+        "target": 0.83,
+        "delta": -0.065,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "note": "Structural rhythm concerns: 6 of 8 metrics are outside range."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.9,
+      "participial_pct": 4.4,
+      "compound_pct": 12.8,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.1,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.8% above target 10.0% (score 74/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.8% -> target 10.0% (score 74/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 26,
+        "texture_desert": 24
+      },
+      "note": "Structural texture deficit. The worst zones are the cellar interview (sentences 422-463, a 42-sentence desert) and the night-watch and dispatch stretches. These are structural, not pass A pattern issues."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 65,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passAMapped": {
+          "punctuation_tics": "punct_semicolon 21/27, punct_colon_narration 11/13 (under cap)",
+          "participial_attachment": "participial_trailing 17/54 (under cap)",
+          "simile_overload": "simile_like 2/27, simile_as_if 2/5 (under cap)",
+          "filter_words": "filter_watched 3/3 (at cap, not over)",
+          "filler_actions": "filler_nodded 2/4",
+          "said_bookisms": "bookism_hissed 1/2 (L341 is the lantern, not a tag)",
+          "negation_addiction": "0",
+          "inanimate_agency": "0",
+          "abstract_locomotion": "0"
+        },
+        "unmapped": "contact_pressed 4/6 and contact_settled 1/6 are literal (heel, face, clay slot, wax ring, dust). hedge_might_have_been 1/1 maps to pass B."
+      }
+    }
+  }
+}

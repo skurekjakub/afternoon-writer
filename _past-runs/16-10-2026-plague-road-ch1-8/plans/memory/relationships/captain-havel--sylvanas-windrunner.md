@@ -1,0 +1,5 @@
+# Captain Havel and Sylvanas
+
+Havel stands for the Ranger-General, calls her 'Ranger-General' correctly without being told, and is useful: the street truth of Mill Lane, the yard-by-yard supplier history, the loaders who walk in pairs. She runs the questioning in short orders ('Why haven't you taken them?'), notes that he watched a summer and wrote it down where she would have shut the rope-walk the first night, and says so only to herself.
+
+What she watches is his hand. He walks her down Hurdle Lane from behind 'so it's covered'; he points past Tenter Row twice; he offers a ladder at Fenner's and a cooper's doorway to stand in; he redraws the same chalk line down Hurdle Lane three times in the same groove; he wants a dawn arrest with the magistrate's clerk and his own lads on the Hurdle Lane end. She holds that against him and holds her own bias against herself (the Convocation would love him; she is sick of slow men). She says nothing she cannot prove. When she finds Kett's she orders it for tonight; he agrees aloud and goes back to the canvas.

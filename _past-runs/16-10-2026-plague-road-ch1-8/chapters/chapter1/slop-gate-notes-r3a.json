@@ -1,0 +1,168 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsA trajectory 40 -> 16 -> 3 strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 20,
+      "kills": 1,
+      "keeps": 19,
+      "severity": "MILD",
+      "dominantPattern": "P1 direct contrast pivot (instead-of variant)",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "leniencyNote": "Keep rate is above the guide's 20% alarm. Re-examined all 19 KEEPs with the adversarial self-check. Most candidates are plain negative statements with no positive half to delete into, not pivot constructions: perception limits (L3, L177, L275, L277), free-indirect self-argument the plan asks for by name (L69, L107, L153, L283, L285), plot facts in dialogue (L133, L137, L201, L211). The only true pivot (an X-instead-of-Y construction that survives the deletion test) is killed below.",
+      "findings": [
+        {
+          "id": "r3a-neg-1",
+          "line": 51,
+          "text": "He knew it, and instead of arguing he'd let her do it and enjoy every hour.",
+          "pattern": "P1",
+          "patternName": "Direct contrast pivot (instead of X, Y)",
+          "deletionTest": "He knew it, and he'd let her do it and enjoy every hour.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 1. The sentence names the thing Lor'themar does not do (argue) before the thing he does. Nothing in the scene depends on the argue-or-not distinction, since there is no argument for the reader to expect, so the clause is scaffolding and the sentence survives without it.",
+          "suggestedFix": "He knew it, and he'd let her do it and enjoy every hour.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "No negation remains. 'let her do it' is physical allowing with a person object (the guide's 'She let him in' class), not a Pattern 11 permission tag. No tic words introduced."
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 30,
+      "kills": 1,
+      "keeps": 29,
+      "severity": "MILD",
+      "dominantPattern": "P5 abstraction given an agency verb with the real actor omitted",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "leniencyNote": "Keep rate is above the guide's 15% alarm. Re-examined every KEEP. Most survivors are literal physics or magic where the noun is the real agent (hum, light, smell, voice carrying), with no hidden human actor: topographic idiom, collective patrol actions with riders on page, and involuntary body responses where involuntariness is the point (L145/L205 fist closing 'without meaning to', L233 palm going cold). The stone-as-lame-horse motif (L63 'favouring a leg', 'caught itself'; L107 'limp'; L283 'limping') was checked as a metaphor chain. It is the POV's horsewoman idiom for the literal hitch in the hum, and no person is hidden behind it, so it stays.",
+      "secondSweep": {
+        "performed": true,
+        "scope": "Re-read all 295 lines for inanimate or abstract subjects carrying agency, desire, cognition, combustion, or physical-behaviour verbs; roads and geography with motion verbs; receiver nouns with demoted actors; body-part subjects with volition; abstract states settling into body parts; and repeated-subject metaphor chains.",
+        "result": "One additional kill surfaced (L7 'a fight turned on them'). Roads and tracks (L55, L117, L175) use only topographic extent verbs (bent, dropping, went on, climbing) and none carries orders, promises, or questions. No receiver noun takes a revision or cognition verb while its actor sits in an instrument phrase. The map (L283 'went south with her') names its carrier. Body-part subjects are all involuntary or sensory (L13, L63, L75, L145, L205, L233, L265). No abstract state is settled into a body part. The L275 plan anchor 'palm remembers' is already written as 'In her palm she remembered', with the character as the subject."
+      },
+      "findings": [
+        {
+          "id": "r3a-smear-1",
+          "line": 7,
+          "text": "They always went for water when a fight turned on them, as if running water had ever stopped an arrow.",
+          "pattern": "P5",
+          "patternName": "Abstraction given an agency verb (fight 'turned on' the trolls)",
+          "subject": "a fight",
+          "verb": "turned on",
+          "realAgent": "The Farstrider archers who are winning: the trolls are losing to Sylvanas's patrol.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 5. The abstraction 'fight' gets the verb of betrayal or attack while the real actors, the rangers killing them, are dropped. Calling it a common idiom is the guide's own named rationalization ('personification is normal'). The plain statement of the trolls' state does the same work and keeps the sardonic second half.",
+          "suggestedFix": "They always went for water when they were losing, as if running water had ever stopped an arrow.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "The trolls ('they') are now the subject. The kept 'as if ... had ever stopped' clause is literal physics in a negated hypothetical, not a pivot. No tic words introduced; simile_as_if count is unchanged at 1 of 5."
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 21,
+      "kills": 0,
+      "keeps": 21,
+      "severity": "none",
+      "dominantPattern": null,
+      "tallies": {
+        "tic1_cornerOfMouth": "0 / cap 1",
+        "tic2_marked": "2 / cap 2 (L229 x2, both literal marks on a map)",
+        "tic3_tightenedEased": "0 emotional; 1 physical 'easing his weight' (L29)",
+        "tic4_facialShifted": "0 / cap 1 (L51 mare, L225 body position, L241 crystal colour are all non-facial)",
+        "tic5_eyeGaze": "4 / cap 4 (L151, L265, L271, L291)",
+        "tic6_weightMetaphor": "0 / cap 2 (L9, L29, L197, L225 are all literal weight)",
+        "tic7_nonSaidTags": "0 performance tags (only 'called' at L15, which is a volume tag)"
+      },
+      "cleanReason": "Every tic is at or under its hard cap. Tic 5 is at its cap of 4: L151 Lor'themar looking at her hand, L265 the mage looking at Sylvanas instead of the door, L271 the mage sizing up bow, quiver and colours, and L291 'to keep looking at her'. All four carry a specific object or a power read. L273 (head turned toward the stone, head cocked like a hound at a rustle) is a listening beat carried through posture, the guide's recommended alternative, so it does not count. 'studied' at L81 and L241 is assessment of an object, not an emotional gaze beat. L291 is the weakest gaze beat and is the first to cut if a revision adds another. Tic 2's two 'marked' uses are both literal ink on a map. Slop-checker tool signals mapped to this guide are all under cap and were evaluated as KEEP (see analyticHints)."
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 69,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings. 2 MILD kills, both with low-difficulty drop-in fixes: L51 'instead of arguing' (negation P1) and L7 'a fight turned on them' (intent-smear P5). There are 0 MODERATE/SEVERE kills, which is under the 3-MILD threshold. Structural texture deficit: the texture verdict is below_target, with participial 6.0% against a 12% target and em-dash 1.1% against 4%, across 8 telegram runs and 11 texture deserts. Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct, opener_entropy and mattr are outside the style-guide range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.657, "target": 0.72, "delta": -0.063, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.2, "target": 11.0, "delta": 0.2, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.73, "target": 0.7, "delta": 0.03, "range": [0.6, 0.8], "inRange": true },
+      "short_sentence_pct": { "actual": 36.4, "target": 35.0, "delta": 1.4, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 17.0, "target": 10.0, "delta": 7.0, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.0, "target": 7.7, "delta": -1.7, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 24.7, "target": 19.0, "delta": 5.7, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.789, "target": 0.83, "delta": -0.041, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": ["long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 80.0,
+      "participial_pct": 6.0,
+      "compound_pct": 11.4,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 0.9,
+      "short_pct": 44.2,
+      "verdict_reasons": [
+        "participial: 6.0% below target 12.0% (score 55/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.0% -> target 12.0% (score 55/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 1.1% -> target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": { "telegram_run": 8, "texture_desert": 11 },
+      "killsInFlaggedZones": "Neither kill falls inside a flagged zone. The L7 and L51 fixes are drop-in and do not change sentence count."
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 31,
+      "total_violations": 1,
+      "overCap": [
+        { "pattern": "verdict_too_x_for", "category": "narrator_verdict", "line": 119, "text": "too even for anyone", "mappedGuide": "narrator-seep-guide.md (pass B)", "passAAction": "out of scope for pass A; left for pass B" }
+      ],
+      "passAMappedSignals": [
+        { "pattern": "punct_colon_narration", "count": 5, "cap": 5, "verdict": "KEEP all", "note": "At cap. L7, L153, L219, L251 and L271 each introduce an enumeration or list (two ways down; spy identity; staff description; imagined prisoner; order of the mage's look)." },
+        { "pattern": "punct_semicolon", "count": 4, "cap": 10, "verdict": "KEEP all" },
+        { "pattern": "participial_trailing", "count": 7, "cap": 20, "verdict": "KEEP all", "note": "Texture is below target on participials, so cutting these would make it worse." },
+        { "pattern": "simile_like", "count": 4, "cap": 10, "verdict": "KEEP all", "note": "L13 arrow impact, L61 horse-flank POV idiom, L81 dialogue, L279 rider in stirrups POV idiom." },
+        { "pattern": "simile_as_if", "count": 1, "cap": 5, "verdict": "KEEP" },
+        { "pattern": "simile_as_though", "count": 1, "cap": 3, "verdict": "KEEP" },
+        { "pattern": "filler_frowned", "count": 2, "cap": 4, "verdict": "KEEP", "note": "L273. The plan's Beat 9 requires the mage to frown at the stone each time." },
+        { "pattern": "filter_watched", "count": 2, "cap": 3, "verdict": "KEEP", "note": "L29 is dialogue; L245 deliberately turns 'A name worth watching' back on itself." }
+      ],
+      "unmappedSignals": "contact_found (3/6) and contact_pressed (1/6) are under cap and have no pass-A mapping. They are literal discovery and pressure."
+    }
+  }
+}

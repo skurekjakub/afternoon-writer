@@ -1,0 +1,349 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA [70, 13] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 28,
+      "kills": 6,
+      "keeps": 22,
+      "severityMarkers": {
+        "mild": 5,
+        "moderate": 1,
+        "severe": 0
+      },
+      "dominantPattern": "Pattern 2 fragment pivot / Pattern 5 preamble",
+      "clusterWarnings": "No page with 3+ kills. Narration pivot (L202) and dialogue pivot (L414) both present; both killed. Keep rate is above the guide's 20% heuristic because most surviving candidates are capability limits (condition 3), imperatives, or plain dialogue answers rather than contrast pivots; each is documented in the scratchpad.",
+      "findings": [
+        {
+          "id": "A-N1",
+          "line": 163,
+          "pattern": "Pattern 5 - preamble negation",
+          "text": "Jaina hadn't said a word since she sat down. She had been sitting with the staff between her boots and her eyes half shut.",
+          "deletionTest": "She had been sitting with the staff between her boots and her eyes half shut. Now she opened them. -- survives; her silence through Havel's talk is restated at L202.",
+          "severity": "mild",
+          "reason": "Opens on what Jaina did not do before the posture that carries the beat. Sits inside a flagged telegram_run / texture_desert (sentences 237-246); the fix merges two short sentences into one.",
+          "suggestedFix": "Since she sat down Jaina had kept the staff between her boots and her eyes half shut.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N2",
+          "line": 195,
+          "pattern": "Pattern 9 - contrastive tail",
+          "text": "Sylvanas would be a bow in a corridor there, and everyone in the building would turn round to look at her and none of them at Jaina.",
+          "deletionTest": "Sylvanas would be a bow in a corridor there, and everyone in the building would turn round to look at her. -- survives and is clearer; the 'none of them at Jaina' tail muddies the logic (it reads as if Sylvanas would be useful cover).",
+          "severity": "mild",
+          "reason": "Negated tail adds a contrast that does no work in the split decision.",
+          "suggestedFix": "Sylvanas would be a bow in a corridor there, and everyone in the building would turn round to look at her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N3",
+          "line": 202,
+          "pattern": "Pattern 2 - fragment pivot ('No.' retraction)",
+          "text": "Jaina had sat through all of Havel's talk without a word, and Sylvanas would have given a good deal to hear what she made of him. No. She wanted her where she could see her.",
+          "deletionTest": "Jaina had sat through all of Havel's talk without a word, and Sylvanas would have given a good deal to hear what she made of him. -- survives; the split order that follows carries the decision.",
+          "severity": "moderate",
+          "reason": "Narration plants a want, retracts it with 'No.', and lands on a stated feeling about Jaina. Condition 4 fails: the retraction does not complicate the thought, it swaps it for a reveal. The landing line also breaks the plan constraints 'She names no feelings' and 'Do not state the trust aloud; show it in the split'.",
+          "suggestedFix": "Jaina had sat through all of Havel's talk without a word, and Sylvanas would have given a good deal to hear what she made of him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N4",
+          "line": 143,
+          "pattern": "Pattern 1 variant - concessive pivot in dialogue ('I don't say X ... But Y')",
+          "text": "I don't say the lad's wrong. He's careful, I'll give him that.",
+          "deletionTest": "\"Forty-one,\" Havel said, \"out of how many thousand loads we've sent out since midsummer? He's careful, I'll give him that. But it's a crew in four yards that's filling those carts.\" -- survives; 'I'll give him that' already carries the concession.",
+          "severity": "mild",
+          "reason": "Double concession; the negated one is scaffolding before the real one. Sits inside a flagged telegram_run / texture_desert (sentences 207-218).",
+          "suggestedFix": "He's careful, I'll give him that.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N5",
+          "line": 414,
+          "pattern": "Pattern 2 - fragment pivot ('Not the sacks. ... The crock.')",
+          "text": "\"Not the sacks. Corin's already put those on the south road, and I've read enough of them tonight to know they'll tell you nothing about who filled them. The crock. Where is the crock by the time your clerk gets there?\"",
+          "deletionTest": "\"The crock. Where is the crock by the time your clerk gets there?\" -- survives; Corin's L396 already put the sacks on the first carts, Jaina's L364 already said the sacks don't name the hands, and her L434 'I've read enough sacks' repeats it again.",
+          "severity": "mild",
+          "reason": "Refuses the sacks before naming the crock; the refusal re-argues points two other lines already made.",
+          "suggestedFix": "\"The crock. Where is the crock by the time your clerk gets there?\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N6",
+          "line": 442,
+          "pattern": "Pattern 4 - minimizer ('nothing to show for it but')",
+          "text": "Without Jaina's frost they'd have a body by morning and nothing to show for it but another collar.",
+          "deletionTest": "Without Jaina's frost they'd have a body by morning and another collar. -- survives, and the whole sentence restates L438 ('Brask's boy had his death sewn into his collar').",
+          "severity": "mild",
+          "reason": "Minimizer negation on a sentence that only re-states the collar risk already given in dialogue. Deletion preferred: Sylvanas's orders at L444 show she has taken Jaina's offer.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. L440 runs straight into L444 ('Cyndia. The roofs over the back lane...').",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 37,
+      "kills": 2,
+      "keeps": 35,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "Pattern 8 body-part subject / Pattern 5 abstraction possessing a human thing",
+      "clusterFlags": "none",
+      "repeatNouns": "none",
+      "pattern4Alert": "no",
+      "secondSweep": "P5/P6 second sweep run sentence by sentence: body-part subjects (L11 pen hand shook, L31 muscle jumped, L173 fingertips went white, L265 hand had gone, L297 boots went off, L303 bitten fingers caught late, L328 elbow moved, L342 face gone grey), geography/route verbs (lanes 'ran', 'came in', 'opened out', 'bent' -- all spatial), receiver nouns with demoted actors (L212 staff took her weight, L420 lock went on from inside, L432 staff ground / stool scraped), abstractions settling into the body (none found), metaphor chains on one noun (none). Only L265 failed; the rest are involuntary, literal or perceptually restricted (see scratchpad).",
+      "keepRateNote": "Keep rate exceeds the 15% heuristic because the second sweep logs every inanimate subject, most of which are literal physics or spatial 'ran/came in' lane description. Re-examined: no keep rests on 'sounds good'.",
+      "findings": [
+        {
+          "id": "A-I1",
+          "line": 265,
+          "pattern": "Pattern 8 - body part acting independently",
+          "text": "\"Those are them.\" Havel's hand had gone to the truncheon.",
+          "subject": "Havel's hand",
+          "verb": "had gone to",
+          "realAgent": "Havel put his hand on the truncheon.",
+          "severity": "mild",
+          "reason": "The hand travels on its own; the involuntary exception does not apply because nothing in the sentence makes the reflex the point (L115 has him rest his hand there deliberately).",
+          "suggestedFix": "\"Those are them.\" Havel had his hand on the truncheon.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-I2",
+          "line": 261,
+          "pattern": "Pattern 5 - abstraction possessing a human thing (hybrid of 'the depot had fear on it')",
+          "text": "Whatever was killing Andorhal had sentries.",
+          "subject": "Whatever was killing Andorhal (the sickness)",
+          "verb": "had (sentries)",
+          "realAgent": "The people placing the eight men; L260 has already established 'Somebody had chosen every spot'.",
+          "severity": "mild",
+          "reason": "Gives the sickness ownership of human sentries one sentence after the narration names a human placer. One-word fix puts the actor back.",
+          "suggestedFix": "Whoever was killing Andorhal had sentries.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 22,
+      "kills": 1,
+      "keeps": 21,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "filter_watched over tool cap",
+      "tallies": {
+        "tic1_cornerOfMouth": 0,
+        "tic2_marked": "2 (L177 'marked with the bill' physical; L242 'marking the bend' mental) - at cap 2",
+        "tic3_tightenedEased": 0,
+        "tic4_facialShifted": "0 (L287 'shifted her bow hand' is physical)",
+        "tic5_eyeGazeReactionBeats": "4 (L57 'He looked up at that', L57 'Jaina looked back at him', L163 eyes half shut / opened, L462 'Sylvanas looked at him') - at cap 4; all other looks are tactical scanning",
+        "tic6_weightMetaphor": "0 (all 'weight' uses physical; 'Heavy' is Jaina's in-world reading term)",
+        "tic7_nonSaidTags": "0 (69 'said', no performance tags)",
+        "tool_filter_watched": "4 vs cap 3 - 1 excess killed",
+        "tool_filler_nodded": "3 vs cap 4 - kept",
+        "tool_participial_trailing": "13 vs cap 35 - kept",
+        "tool_simile_like_as_if": "1 + 1, under cap - kept"
+      },
+      "findings": [
+        {
+          "id": "A-T1",
+          "line": 195,
+          "pattern": "filter word over cap (watched)",
+          "toolSignal": "filter_watched",
+          "text": "Jaina couldn't tell a drilled man's walk from a tired one if she watched it till morning.",
+          "severity": "mild",
+          "reason": "filter_watched is 4 against a cap of 3. Of the four (L31, L115, L195, L420), this is the weakest: a generic hypothetical, where the others record Lyriel's guard duty, Havel's testimony and Cyndia's report.",
+          "suggestedFix": "Jaina couldn't tell a drilled man's walk from a tired one if she had all night to do it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 9,
+    "totalKeeps": 78,
+    "mildKills": 8,
+    "moderateOrSevereKills": 1,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 9,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "1 MODERATE kill (L202 'No.' retraction pivot landing on a stated feeling) and 8 MILD kills (>3). Down from 13 at iteration 1. All fixes are deletions or one-clause substitutions. Structural texture deficit (texture_score 88.7, below_target: compound high, em-dash low). Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct and mattr outside range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.684,
+        "target": 0.733,
+        "delta": -0.049,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.5,
+        "target": 12.412,
+        "delta": 0.088,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.761,
+        "target": 0.723,
+        "delta": 0.038,
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 35.6,
+        "target": 30.155,
+        "delta": 5.445,
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.6,
+        "target": 15.352,
+        "delta": 7.248,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.34,
+        "target": 6.637,
+        "delta": -0.297,
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 30.7,
+        "target": 21.378,
+        "delta": 9.322,
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.786,
+        "target": 0.848,
+        "delta": -0.062,
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 88.7,
+      "participial_pct": 6.7,
+      "compound_pct": 16.9,
+      "emdash_pct": 2.9,
+      "semicolon_pct": 1.1,
+      "short_pct": 45.0,
+      "verdict_reasons": [
+        "compound: 16.9% above target 14.135% (score 75/100)",
+        "emdash: 2.9% below target 5.119% (score 80/100)"
+      ],
+      "interpretation": "COMPOUND: 16.9% -> target 14.135% (score 75/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.9% -> target 5.119% (score 80/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 9,
+        "texture_desert": 10
+      },
+      "findingsInFlaggedZones": [
+        "A-N1 (sentences 237-246)",
+        "A-N4 (sentences 207-218)"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 41,
+        "total_violations": 2,
+        "overCap": [
+          {
+            "pattern": "filter_watched",
+            "count": 4,
+            "cap": 3,
+            "passOwner": "a",
+            "handled": "A-T1"
+          },
+          {
+            "pattern": "verdict_enough_for",
+            "count": 1,
+            "cap": 0,
+            "passOwner": "b",
+            "handled": "out of pass A scope (L222 'wide enough for one wagon')"
+          }
+        ],
+        "passAMappedUnderCap": [
+          "filler_nodded 3/4",
+          "participial_trailing 13/35",
+          "simile_like 1/17",
+          "simile_as_if 1/5",
+          "punct_semicolon 8/17",
+          "punct_colon_narration 6/8"
+        ]
+      }
+    }
+  }
+}

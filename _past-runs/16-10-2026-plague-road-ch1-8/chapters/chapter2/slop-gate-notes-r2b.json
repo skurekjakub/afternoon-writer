@@ -1,0 +1,222 @@
+{
+  "chapterId": "chapter2",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default",
+  "fixStrategyReason": "slopGateLoop.iterationKillsB = [32, 20] is strictly decreasing, so full rewrites were allowed (up to three attempts per fix). All six fixes are deletions or single-clause trims anyway.",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 58,
+      "kills": 6,
+      "keeps": 52,
+      "severity": {"mild": 6, "moderate": 0, "severe": 0},
+      "dominantPattern": "F7 / F12 (two each)",
+      "findings": [
+        {
+          "id": "B-GPT-1",
+          "pattern": "F12",
+          "line": 165,
+          "text": "Every horse in the line did the same, and not one ranger touched her reins.",
+          "issue": "Non-action beat at the end of a paragraph. Scene 1 already has its strongest non-action beat ('The Ranger-General didn't move.', L13), so this second one falls under the F12 'every one after the strongest' rule, and its paragraph-final position makes it a candidate under step 5. The rangers' calm can be shown by what they did with their reins.",
+          "expected": "yes (riders would normally steady a shying horse)",
+          "position": "paragraph-final",
+          "severity": "MILD",
+          "suggestedFix": "Every horse in the line did the same, and every ranger rode it out on a slack rein.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-2",
+          "pattern": "F7",
+          "subPattern": "metaphorical mystification (also narrator-seep B4 cross-ref, not double-killed)",
+          "line": 215,
+          "text": "After the Pass, with its white-blue lamps and its stone, all of it lay rumpled, a bed somebody had left in a hurry.",
+          "issue": "The paragraph's concrete list already shows the untidy, overgrown road (hawthorn and bramble grown thick, haws gone dark, blackberries gone over, deep ruts, old straw, a crow). The closing metaphor puts a vague 'all of it' and a mood image on top of that list and adds no new fact. The 'bed left in a hurry' also points ahead to the abandoned farms, so it serves the theme more than what Jaina sees in this moment.",
+          "couldEndAt": "A crow was complaining somewhere.",
+          "textureZone": "inside texture_desert sentences 309-318 (preview: 'The sky behind the hills had gone the colour of dishwater')",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixType": "deletion",
+          "fixNote": "Delete the sentence. The paragraph ends on 'A crow was complaining somewhere.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-3",
+          "pattern": "F12",
+          "line": 269,
+          "text": "Nobody stopped either of them.",
+          "issue": "A paragraph-final 'Nobody [verb].' non-action beat in a scene that already carries four other negated reaction beats (L185 'Nobody spoke.', L199 'Windrunner didn't turn her head.', L265 'said nothing', L323 'gave no sign of having heard a word'). The cluster is the habit, and this one is the most template-shaped. 'Lyriel came up with her' already shows the escort moving with her.",
+          "expected": "partly (the custody terms set up an expectation), but it is not the scene's strongest",
+          "position": "paragraph-final",
+          "textureZone": "inside telegram_run sentences 387-395 and texture_desert 387-397 (preview: 'Short. This soldier had just walked away from her in the road')",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixType": "deletion",
+          "fixNote": "Delete the sentence. The paragraph ends on 'Lyriel came up with her.' Optional texture repair for the flagged zone: join the two remaining sentences, e.g. 'When the mist began to lift she pushed the mare up to Windrunner's off-side quarter, a length behind, Lyriel coming up with her.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-4",
+          "pattern": "F14",
+          "line": 285,
+          "text": "to the Ranger-General of Quel'Thalas, slowly, the way she'd have explained tides to a child who had never seen the sea",
+          "adverb": "slowly",
+          "gloss": "the way she'd have explained tides to a child who had never seen the sea",
+          "issue": "Comma-fenced manner adverb followed by a 'the way' gloss that says the same thing (talking down). The gloss keeps the fact and her Kul Tiran sea idiom, so only the adverb goes. This is narrated speech, not a dialogue tag, so it stays in F14 and is not routed to adverb-on-tag.",
+          "severity": "MILD",
+          "suggestedFix": "to the Ranger-General of Quel'Thalas, the way she'd have explained tides to a child who had never seen the sea",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-5",
+          "pattern": "F4",
+          "subPattern": "also narrator-seep A6 and phantom P3 ('all that', 'someone'), recorded once here",
+          "line": 295,
+          "text": "And under all that, someone had kept up.",
+          "issue": "A one-sentence paragraph that restates what L285 ('with the map already read and Millhaven already in her pocket') and L293 ('talking down to a woman who was a mile ahead of her') already said in concrete terms. It turns that point into a softer, coy caption ('someone' for Windrunner, 'all that' for the list before it). Deleting it loses nothing, and L293 flows straight into her switch to the full register at L297.",
+          "whatItRestates": "L285 and L293: Windrunner had already read the map and was a mile ahead of her",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixType": "deletion",
+          "fixNote": "Delete the paragraph. L293 then leads directly into '\"Then the question is whether Millhaven is the source or the sink,\" she said.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-6",
+          "pattern": "F7",
+          "subPattern": "'and somehow that was worse' twist-closer, plus an F3 hedge ('rather')",
+          "line": 586,
+          "text": "She was glad of every one of them, too, and she hated that rather more.",
+          "issue": "The paragraph ends on an emotional summary capped with the 'and that was worse' twist from the F7 signature list, four lines after L580 has already analysed the same mixed feelings ('She wanted to go down, and very badly not to, and under both she wanted somebody else to choose.'). Two emotion-anatomy paragraphs in quick succession. The fix keeps the gladness, which is the arc turn toward needing the escort, and drops the twist cap and the hedge.",
+          "couldEndAt": "Jaina hated it exactly as much as she had at the Pass (merged with the gladness clause)",
+          "severity": "MILD",
+          "suggestedFix": "Jaina hated it exactly as much as she had at the Pass, and was glad of every one of them.",
+          "fixScope": "Replaces both sentences: 'Jaina hated it exactly as much as she had at the Pass. She was glad of every one of them, too, and she hated that rather more.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "modeSummary": {
+        "F1": "0 - telegram runs sit in dialogue Q&A, the post-fight roll-call and fight action; no sustained same-shape narration across 4+ paragraphs",
+        "F2": "0",
+        "F3": "0 standalone kills; 'rather' at L586 removed by the B-GPT-6 fix; all other hedges change the fact or carry genuine uncertainty",
+        "F4": "1",
+        "F5": "0",
+        "F6": "0",
+        "F7": "2",
+        "F8": "0",
+        "F9": "0",
+        "F10": "0",
+        "F11": "0",
+        "F12": "2",
+        "F13": "0",
+        "F14": "1",
+        "F15": "0"
+      }
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povRegister": "POV CHARACTER: Jaina Proudmoore. REGISTER SUMMARY: Kirin Tor prodigy and Antonidas's apprentice. She thinks faster than she talks and corrects herself mid-thought ('Caution, a good apprentice's caution - oh, Light, no.'), is dry and unfair about herself ('Brilliant, Jaina.'), swears by the Light, and uses technical magic terms (lattice, residue, resonance, drag in the pulse). Her analogies come from the Violet Citadel (benches, first-years, anatomy masters, the quartermaster) and, when tired, from her father's ships (amidships, hold, running rigging). In this chapter she deliberately condescends to 'soldiers'. She would NOT think in essay generalizations, mood labels, or military-analytic summaries. REGISTER CONFIDENCE: HIGH (voice sheet plus a long on-page sample).",
+      "totalCandidates": 31,
+      "kills": 0,
+      "keeps": 31,
+      "severity": {"mild": 0, "moderate": 0, "severe": 0},
+      "dominantPattern": "none",
+      "findings": [],
+      "crossReferencedNotRekilled": [
+        "L215 'all of it lay rumpled, a bed somebody had left in a hurry' - B4 (metaphor that serves the theme), killed under gpt-5 F7 (B-GPT-2)",
+        "L295 'And under all that, someone had kept up.' - A6 interpretive restatement, killed under gpt-5 F4 (B-GPT-5)"
+      ],
+      "cleanReason": "I swept every narration sentence against A1-A8 and B1-B4 after writing down Jaina's register. Verdict-tag fragments ('Still right, though.', 'Places, of course.', 'The obvious place to start. A soldier's choice.', 'Short.', 'A fair guess. No.') are her own muttered condescension and self-correction. The plan's arc deliberately has her misread Sylvanas as a blunt soldier until Beat 9, and each one passes the 'could she mutter it?' test. The generalizations ('Any farmwife in Lordaeron', 'Deer ran from horses.', 'A body that had simply died carried its own mark') are working inferences that drive her next conclusion. The only generic-you in narration ('you couldn't ride to everywhere', L191) appears once and is clearly hers. Atmospheric frames (L101 currents after the colon, L380 noise before the doe, L334 cow) either name the source at once or delay it because she really did perceive it that way. The tool-flagged narrator_verdict at L131 ('too smooth for any river') is a concrete physical description locked by Ch1 continuity. The two residual seep candidates were already killed under their child-guide codes."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 24,
+      "kills": 0,
+      "keeps": 24,
+      "severity": {"mild": 0, "moderate": 0, "severe": 0},
+      "dominantPattern": "none",
+      "findings": [],
+      "crossReferencedNotRekilled": [
+        "L295 'And under all that, someone had kept up.' - P3 stand-ins ('all that', 'someone'). The page supplies the cash-out (Windrunner, the map already read), and the line is killed under gpt-5 F4 (B-GPT-5) with a deletion fix"
+      ],
+      "cleanReason": "Candidates were the tool-flagged hedges and vague pointers (L179, L390, L418, L424, L472, L498), the decision fragments that read like note-speak ('The substance, then.', 'Smaller, then.', 'Short.', 'Millhaven, then.'), the stand-in nouns ('answer' L53/L205, 'shape' L35, 'the wrongness' L229/L570, 'the stuff' L496, 'costs' L257/L261, 'things' L504/L512), the tactical summaries (L155, L247, L424, L512) and the dialogue claims (L9, L25-27, L297-299, L514). Every note-speak fragment is followed in the next sentence by its concrete payload: the speech itself, the place/thing/working hypotheses, the cut-down river explanation, the crossroads questions. The stand-in nouns are anchored by local sensory carriers (coin taste, late drag, the circled stones, the cracked-crucible comparison). 'The wrongness' is Jaina's in-world name for the unnamed contamination, so the subject-matter defense applies. 'Something in there' (L472) compresses only after the heat has been shown, and the next sentences go and find it. The tactical reads (L424 calls, L512 'not one of them had said hurry') follow visible route and position evidence (L247, L510). No line needed offstage knowledge to cash out."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severity": {"mild": 0, "moderate": 0, "severe": 0},
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "There are three translation setups. (1) L23 'The short version; a soldier would want it short.' leads to L25-27. (2) L267 'built the explanation ... cutting it down. Short.' leads to the L275 river analogy. (3) L466 'Tell me what's in her.' leads to L514. In (1) and (2) the simplification fails on purpose, and the prose says so in so many words (L35 'She had cut out the lattice ... left what any village wisewoman might say'; L285 'A river over its banks. Damp up a wick ... Rot in a cellar.'). Windrunner's follow-ups ('Which stones read worst. Where.' / 'Your lines don't spread') are the scene's built-in 'which one?' that exposes the thinness, matching plan Beats 2 and 8-9 ('exposed by her own simplification'; 'misreads her audience again'). Killing these would erase the arc. (3) is a working plain answer with usable targets (blood, meat, liver worst, lungs, alive before the arrow). Windrunner's next question ('Is it in my horses?') opens a new line of enquiry, not a request to unpack the answer."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 110,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md"],
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "6 MILD kills (over the 3-MILD threshold) and 0 MODERATE/SEVERE. All six are gpt-5 tells: F12 non-action paragraph closers (L165, L269), F7 closers (L215 metaphor cap, L586 'hated that rather more' twist), an F14 fenced adverb (L285) and an F4 restating caption (L295). Every fix is a deletion or a one-clause trim. Down from 20 at iteration 1. Narrator seep, phantom concreteness and fake simplification are clean (their residual candidates were killed under F4/F7). Structural texture deficit: texture_score 74.1, below_target (participial 6.5% vs 12.0, compound 15.0% vs 10.0, em-dash 1.7% vs 4.0). Structural rhythm concerns: sentence_length_cv, one_sentence_paragraph_pct, long_sentence_pct, opener_entropy and mattr are outside their style-guide ranges. Formatting note outside the guide pack: L325 and L326 have no blank line between them, so the ford sentence and the first-farm paragraph render as one paragraph.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.823, "target": 0.72, "delta": 0.103, "range": [0.6, 0.85], "status": "within range"},
+      "sentence_length_cv": {"actual": 0.832, "target": 0.7, "delta": 0.132, "range": [0.6, 0.8], "status": "outside range - structural rhythm concern"},
+      "one_sentence_paragraph_pct": {"actual": 30.5, "target": 19.0, "delta": 11.5, "range": [15.0, 24.0], "status": "outside range - structural rhythm concern"},
+      "sentence_length_mean": {"actual": 12.6, "target": 11.0, "delta": 1.6, "range": [9.0, 13.0], "status": "within range"},
+      "short_sentence_pct": {"actual": 37.3, "target": 35.0, "delta": 2.3, "range": [28.0, 42.0], "status": "within range"},
+      "long_sentence_pct": {"actual": 22.3, "target": 10.0, "delta": 12.3, "range": [7.0, 14.0], "status": "outside range - structural rhythm concern"},
+      "opener_entropy": {"actual": 6.07, "target": 7.7, "delta": -1.63, "range": [7.2, 8.2], "status": "outside range - structural rhythm concern"},
+      "mattr": {"actual": 0.781, "target": 0.83, "delta": -0.049, "range": [0.8, 0.87], "status": "outside range - structural rhythm concern"}
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.1,
+      "verdict_reasons": [
+        "participial: 6.5% below target 12.0% (score 57/100)",
+        "compound: 15.0% above target 10.0% (score 60/100)",
+        "emdash: 1.7% below target 4.0% (score 79/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.5% -> target 12.0% (score 57/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 15.0% -> target 10.0% (score 60/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.7% -> target 4.0% (score 79/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "telegramRunCount": 11,
+      "textureDesertCount": 16,
+      "note": "structural texture deficit. Kills B-GPT-2 (L215) and B-GPT-3 (L269) sit inside flagged zones (desert 309-318; telegram 387-395 / desert 387-397). The B-GPT-3 fixNote gives an optional participial join for that zone."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 53,
+        "total_violations": 2,
+        "overCap": [
+          {"pattern": "punct_emdash_cluster", "count": 1, "cap": 0, "line": 550, "guide": "recurring-prose-tics (pass A) - not audited here"},
+          {"pattern": "verdict_too_x_for", "count": 1, "cap": 0, "line": 131, "guide": "narrator-seep (pass B) - KEEP: concrete physical description locked by the Ch1 continuity description of the sending stone ('too smooth for a riverbed')"}
+        ],
+        "passBMappedSignals": {
+          "narrator_verdict": "1 match (L131) - KEEP",
+          "hedging": "5 matches (L179 'might have been', L390/L418/L424 'almost', L498 'simply') - all KEEP; each hedge changes the fact or marks POV-knowledge uncertainty the plan requires",
+          "vague_pointers": "1 match (L472 'something in there') - KEEP; evidence-based inference after the heat carrier is shown",
+          "ai_vocabulary": "0",
+          "slopsquid": "0",
+          "clinical_anatomy": "0",
+          "verbose_phrases": "0",
+          "expression_decomposition": "0",
+          "academic_register": "0",
+          "dialogue_register": "0",
+          "ambient_inversion": "0"
+        }
+      }
+    }
+  }
+}

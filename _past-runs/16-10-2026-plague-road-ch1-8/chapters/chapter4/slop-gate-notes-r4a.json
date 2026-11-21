@@ -1,0 +1,266 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "fixStrategy": "conservative (iterationKillsA trajectory [55, 19, 5, 6]: latest 6 >= prior minimum 5). Every fix is a deletion or a minimal substitution.",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 31,
+      "kills": 3,
+      "keeps": 28,
+      "severityMarkers": {
+        "mild": 3,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "redundant negative tail next to a concrete restatement (P4/P5)",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "keepRateNote": "The keep rate is high because the chapter is a diagnostic procedural. Most candidates are negative findings that drive the differential (gut vs blood, water vs contact vs bread, oats vs flour), procedural orders, or Jaina's self-correction. Each keep was rechecked against self-check questions 1-5, and every keep is listed in the scratchpad with its condition.",
+      "findings": [
+        {
+          "id": "A-N1",
+          "line": 286,
+          "pattern": "negation-P4-redundant-constraint",
+          "severity": "MILD",
+          "text": "It was the first holding ward any apprentice learned in Dalaran, and no healing at all.",
+          "deletionTest": "It was the first holding ward any apprentice learned in Dalaran.",
+          "reason": "The negative tail defines the ward by what it is not. The very next sentence already gives the same limit in concrete form ('it did nothing to whatever was boiling inside'), and L354 pays it off, so 'and no healing at all' is scaffolding. The deletion test passes and none of the four keep conditions survives the redundancy.",
+          "suggestedFix": "It was the first holding ward any apprentice learned in Dalaran.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N2",
+          "line": 819,
+          "pattern": "negation-P5-preamble-reversal",
+          "severity": "MILD",
+          "text": "They had had him in the loft, frozen to the waist with an arrow through his sleeve, and nobody had told him what to say. Somebody had, months ago, with a needle and thread.",
+          "deletionTest": "They had had him in the loft, frozen to the waist with an arrow through his sleeve. Somebody had told him what to say months ago, with a needle and thread.",
+          "reason": "This is a 'nobody had X. Somebody had.' reversal, the same move as 'It should not have helped. It did.' The negative clause sets up the reveal and adds no fact, because 'And he hadn't' in the sentence before already says Tam kept his line. With the negative cut, the sentence states the real fact directly.",
+          "suggestedFix": "They had had him in the loft, frozen to the waist with an arrow through his sleeve. Somebody had told him what to say months ago, with a needle and thread.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N3",
+          "line": 869,
+          "pattern": "negation-P4-minimizer-comparative",
+          "severity": "MILD",
+          "text": "Every one of them had thinned, not as far as his, while she had been down in the dark with a jar and a boy.",
+          "deletionTest": "Every one of them had thinned while she had been down in the dark with a jar and a boy.",
+          "reason": "The negated comparative 'not as far as his' grades the other wards by what they are not. The next two sentences already grade them concretely ('holding by its corners', 'going at the middle, a worn sheet'), and L867 has already set Garran's ward as the worst ('a rag'). The interruption is scaffolding.",
+          "suggestedFix": "Every one of them had thinned while she had been down in the dark with a jar and a boy.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 34,
+      "kills": 1,
+      "keeps": 33,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P10 receiver noun with actor omitted (second sweep)",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "Done (P5/P6 plus motion, combustion, and physical-behaviour verbs on inanimate or abstract subjects, instrument-phrase demotion, body-part subjects, abstract states lodging in body parts, and metaphor chains). Found the one kill at L234. Most inanimate-subject verbs belong to the chapter's literal in-world mechanism (the drag, the crystal, the wards, the spell light, the staff dowsing toward the ruts), so the subject-matter defense keeps them. The body-part subjects are involuntary: Brask's thumb tell, Wenna going slack, the seizure, the knees buckling 'of their own accord'. No permission tags, discovery wrappers, or nominalized-realization subjects.",
+      "toolSignals": "No abstract_locomotion or inanimate_agency matches from the slop checker.",
+      "findings": [
+        {
+          "id": "A-I1",
+          "line": 234,
+          "pattern": "intent-smear-P10-receiver-noun-actor-omitted",
+          "severity": "MILD",
+          "text": "And the long cases went outward from there, out from the stomach into everything else, water spreading from where it was spilled.",
+          "subject": "the long cases",
+          "verb": "went outward",
+          "realAgent": "the brown contamination inside the long-ill patients (Garran), which spreads out of the gut",
+          "reason": "Found in the second P5/P6 sweep. The abstract noun 'cases' is given the spreading motion, and the thing actually moving (the brown, which Jaina has been tracking by spell light since L192) is left out. Putting the real mover in subject position keeps the meaning, so under Pattern 10 this is a KILL.",
+          "suggestedFix": "And in the long cases the brown went outward from there, out from the stomach into everything else, water spreading from where it was spilled.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 14,
+      "kills": 0,
+      "keeps": 14,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Every tic is under its cap. Tic 1 corner-of-mouth: 1 (L552 'One corner of her mouth went in.'; L1001 'tongue in the corner of his mouth' is a writing posture, not an expression), cap 1. Tic 2 'marked' as a verb: 0. Tic 3: 1 emotional 'tight' (L603 'The skin went tight across the back of Jaina's neck') and 0 'eased'; L787 'drawing up tight as a bowstring' is a physical seizure. Tic 4 facial 'shifted': 0 (L1019 and L1025 are physical). Tic 5 eye/gaze reaction beats: 4 (L88, L560, L727, L1009), cap 4, all character-specific. Plain object-attention 'looked at' lines (the knot, the slate, the glove) are not counted. Tic 6 emotional weight metaphors: at most 1 (L835 'his face gone heavy'). Every 'weight hung on the tail' and 'heavy' drag line is the literal in-world mechanism, and L526 'a weight at the end of her arm' is the numb hand. Tic 7: 96 'said' tags and 0 performance tags. 'Lyriel said quietly' (L194) is the only adverb tag, under cap 3. Mapped slop-checker signals were all audited and kept (see scratchpad): filter_watched 3/3, filter_decided 1/3, bookism_hissed 2/2 (geese and torch, not tags), bookism_conceded 1 (narration, not a tag), adverb_on_tag 1/3, breath_caught 2/3 (Garran's literal symptom motif), filler nodded/frowned 1/4 each, simile 3, participial 29/68, punctuation semicolons 21/34 and narration colons 17/17.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 75,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "4 MILD kills is more than the 3-MILD threshold, with 0 MODERATE/SEVERE. Kills: 3 negation (L286, L819, L869) and 1 intent-smear P10 (L234). All four have drop-in deletion or minimal-substitution fixes. Not affecting the verdict: structural texture deficit (texture_score 78.3, below_target; 36 telegram runs, 32 texture deserts) and structural rhythm concerns (5 metrics out of range).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.811,
+        "target": 0.72,
+        "delta": 0.091,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.6,
+        "target": 11.0,
+        "delta": 0.6,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.859,
+        "target": 0.7,
+        "delta": 0.159,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 41.0,
+        "target": 35.0,
+        "delta": 6.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 19.3,
+        "target": 10.0,
+        "delta": 9.3,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.58,
+        "target": 7.7,
+        "delta": -1.12,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.5,
+        "target": 19.0,
+        "delta": 9.5,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.773,
+        "target": 0.83,
+        "delta": -0.057,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "texture_score": 78.3,
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "participial_pct": 7.2,
+      "compound_pct": 12.4,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.4,
+      "short_pct": 51.2,
+      "verdict_reasons": [
+        "participial: 7.2% below target 12.0% (score 61/100)",
+        "compound: 12.4% above target 10.0% (score 78/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.2% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.4% -> target 10.0% (score 78/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 36,
+        "texture_desert": 32
+      },
+      "killsInFlaggedZones": "A-N2 (L819) falls in the 'He's a lookout' to cage texture desert run (24 sentences), and the fix shortens rather than chops. A-N3 (L869) and A-N1 (L286) are long-sentence trims and add no telegraphing."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 94,
+        "total_violations": 1,
+        "overCapCategories": [
+          "vague_pointers (4/3): pass B (phantom-concreteness) territory, not audited here"
+        ],
+        "passAMappedSignals": "None over cap. filter_words 4/7, said_bookisms 4/5, filler_actions 2/15, breath_tells 2/3, simile_overload 3, participial_attachment 29/68, punctuation_tics 38. Every one was audited under recurring-prose-tics.md and kept. No negation_addiction, abstract_locomotion, or inanimate_agency matches."
+      }
+    }
+  }
+}

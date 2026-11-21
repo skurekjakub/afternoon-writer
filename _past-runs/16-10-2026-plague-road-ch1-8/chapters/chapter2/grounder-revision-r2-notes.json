@@ -1,0 +1,45 @@
+{
+  "chapterId": "chapter2",
+  "iteration": 2,
+  "feedbackPath": ".afternoon/chapters/chapter2/grounding-gate-notes-r1.json",
+  "targetFile": "v2g-r1.md",
+  "touchedScenes": [2, 3],
+  "globalRisks": ["tail-risk", "dialogue-heavy"],
+  "sceneAudits": [
+    {
+      "scene": "Scene 2 - The Road to Millhaven (farm yard, line 341)",
+      "biggestGap": "G12-003: Cyndia held the bow in her left hand, contradicting her left-handed draw.",
+      "anchorsAdded": {
+        "place": [],
+        "material": ["bow in right hand (left-handed draw)"],
+        "dialogue": [],
+        "exit": []
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 3 - The Wildlife Attack (satchel stop, line 543)",
+      "biggestGap": "G4-004: Lyriel's position 'up on the road' was stale once Jaina left the ditch.",
+      "anchorsAdded": {
+        "place": ["Lyriel back by the ditch"],
+        "material": [],
+        "dialogue": ["bowstring beat now spatially legible against Jaina on the road"],
+        "exit": []
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": ["stale Lyriel position at satchel beat"],
+    "fixesApplied": ["Lyriel relocated to 'back by the ditch' at the satchel beat"],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": ["characters/cyndia"],
+    "materials": ["stories/the-plague-road/characters/cyndia.md", "stories/the-plague-road/characters/voice-sheets/cyndia-voice.md (as cited by the gate)"],
+    "unsourcedAdditions": []
+  },
+  "notes": "Both gate fixes applied verbatim as light swaps. No other lines changed. Other bow-hand mentions checked: Windrunner's bow in left hand (lines 245, 367) is not contradicted by sources; Cyndia's staged draw at line 415 already left-handed. Source files cited from the gate report, not re-read by the grounder."
+}

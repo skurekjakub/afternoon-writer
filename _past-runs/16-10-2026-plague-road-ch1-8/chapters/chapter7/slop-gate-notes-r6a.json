@@ -1,0 +1,160 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 6,
+  "targetFile": "v2-r6.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsA trajectory 70, 13, 9, 4, 3, 0 is strictly decreasing; no oscillation)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 34,
+      "kills": 0,
+      "keeps": 34,
+      "killRate": "0%",
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [],
+      "cleanReason": "34 contrast-shaped or contrast-adjacent candidates went through the four-step procedure, and about 30 more plain negative statements were screened out before it: one-word answers, physical facts like 'gave no light at all', commands at L443/L445, and POV perception limits like 'She couldn't hear a word'. The narration contains no Not-X-Y fragment pivots, no source-swaps, no count resets, no mundane reveal chains and no minimizer pivots. Every pivot-shaped line is either dialogue, where the negated item is a real in-world claim that matters to the plot, or Sylvanas arguing with herself under condition 4, where the next sentence undercuts it. Dialogue cases: 'Damp doesn't stop at a street corner. This does.' (L105) overturns the physicians' diagnosis, and 'There'd been no brawl' (L121) admits the charge Havel actually filed was false. Self-argument cases: 'If he had seen her, he would not stand at the window like that ... Unless he had been taught to' (L333) and 'She had no better reason to doubt him than...' (L405). The one chained negation, 'no wagon, no doorway deep enough to stand in, no turning' (L299), builds toward no destination noun. It lists the cover she is missing, and that absence is what sends her onto the roof (condition 3). The KEEP rate is above the guide's 20% heuristic because the candidate list is deliberately inclusive. None of the candidates repeats the AI pivot rhythm. Each KEEP rationale is in the scratchpad."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 25,
+      "kills": 0,
+      "keeps": 25,
+      "killRate": "0%",
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "findings": [],
+      "secondSweepP5P6": "Re-read every sentence for inanimate or abstract subjects carrying verbs of agency, cognition, desire, combustion or behaviour. Roads and geography only take path-geometry verbs ('Hurdle Lane ran along the backs', 'It ran straight for a stretch, then bent left', 'The lane opened out'), which the guide treats as acceptable ('the road led'). The map and the papers get no cognition or revision verbs. In 'chalked on and rubbed out so many times that the streets had gone grey' the chalk literally greys the canvas, and 'the sheet curled up on itself' is paper physics. No abstract state settles into a body part. No inanimate subject collects a chain of human verbs across consecutive sentences. Body-part subjects were examined separately (L9, L29, L173, L297, L303, L329, L379). Each is an involuntary tremor, an impairment, a colour change, a state-describing absolute phrase, or a synecdoche forced by the POV ('Through the spokes she could see his boots'). None gives the body part knowledge or volition that the character owns. Actor-demotion check: in 'the staff took most of her weight' (L213) and 'The heel of the staff ground on the earth floor and the stool scraped back' (L433) the verbs are literal load and sound, and the actor is named in the same or the preceding sentence. In 'the lock went on from inside' (L421) the agent cannot be seen by the men reporting it.",
+      "cleanReason": "25 candidates reached Step 2 or the body-part test. Zero kills. Institutional subjects appear only in dialogue, as ordinary metonymy that names its mechanism: the guard's 'Since the Exchange said' (L21), which the narration immediately questions with 'Which exchange? Who in it, and why this week?'; Havel's 'every street that buys its bread off the bakers' (L101) and 'Fenner's and the Exchange changed their suppliers' (L109); and Corin's 'the villages ... have written in' (L141) one sentence after 'the reeve writes in'. No infrastructure gives orders, asks questions or makes promises. No Pattern 4 self-deception, no nominalized agents, and no permission tags. 'let the wagon grind on without her' (L297) is the physical allowing of an object, which the guide excludes from Pattern 11. Neither slop-checker pattern mapped to this guide (abstract_locomotion, inanimate_agency) fired."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 38,
+      "kills": 1,
+      "keeps": 37,
+      "killRate": "2.6%",
+      "severityMarkers": ["MILD x1"],
+      "dominantPattern": "Tic 2: overloaded 'marked'",
+      "ticTallies": {
+        "tic1_cornerOfMouth": {"count": 0, "cap": 1},
+        "tic2_marked": {"verbUses": 2, "familyTokens": 16, "cap": 2, "note": "verb uses: L177 'marked with the bill' (literal label) and L243 'marking the bend' (mental). The other 14 tokens are the noun 'mark', the plot's term for a yard's seal sign and for the tally-man's chalk marks"},
+        "tic3_tightenedEased": {"tightened": 0, "eased": 0},
+        "tic4_facialShifted": {"count": 0, "cap": 1, "note": "L287 'shifted her bow hand' is a physical grip shift and does not count"},
+        "tic5_eyeGaze": {"emotionalOrReactionBeats": 3, "cap": 4, "beats": ["L55 'He looked up at that. Jaina looked back at him ... and waited him out.'", "L163 'her eyes half shut. Now she opened them.'", "L373 'Jaina looked at the ring ... then at her own word ... and back.'"], "note": "About 20 further looks are tactical surveillance in a chapter about sightlines (lookouts, tails, watchers) and are not counted as emotional gaze beats"},
+        "tic6_weightMetaphor": {"count": 0, "cap": 2, "note": "'Heavy' is Jaina's literal reading label, 'heavy and slow' describes the bell's sound, and four uses of 'weight' are physical load"},
+        "tic7_nonSaidTags": {"count": 0, "cap": 3}
+      },
+      "findings": [
+        {
+          "id": "A-RT-1",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "Tic 2: overloaded 'marked' (mental use)",
+          "line": 243,
+          "text": "She went on down Hurdle Lane at his side, marking the bend in Tenter Row as she passed it.",
+          "flaggedFragment": "marking the bend in Tenter Row as she passed it",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The 'mark' family appears 16 times in this chapter, well past the 4+ density at which the guide says the word stops meaning anything specific. Fourteen of those are the literal plot noun: a yard's seal sign ('Fenner's mark', 'copied marks') or the tally-man's chalk mark. L243 is the only mental use (marking = noticing). It sits a few paragraphs after literal chalk marking and while Havel chalks routes, so a reader can briefly take it as a physical mark. The literal uses carry the plot and cannot go. Under the guide's rule to keep literal uses over metaphorical ones, the mental use is the instance to cut. The verb count alone (2) is at the cap, so this is a density and ambiguity call, graded MILD.",
+          "ticCount": {"verbUses": 2, "familyTokens": 16, "cap": 2},
+          "textureZone": null,
+          "suggestedFix": "She went on down Hurdle Lane at his side and looked once more down Tenter Row to the bend as she passed it.",
+          "fixNote": "Drop-in replacement for the whole sentence. Sylvanas stays the agent and the mental 'marking' becomes a plain tactical look. She was already looking down the row at L243 ('where she was looking'), so 'once more' is accurate. 'as she passed it' now refers to Tenter Row, whose mouth she actually passes; she never passes the bend itself. The fix adds no new observation, and the later payoff ('She had seen it over the bend in Tenter Row', L307) still lands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "toolSignalAudit": {
+        "filter_watched": {"count": 3, "cap": 3, "verdict": "KEEP all", "lines": [29, 113, 421], "reason": "Each is another character's surveillance reported as an action (Lyriel covering the wall man, Havel staking out Fenner's gate, Havel's men watching the crew go in). None filters Sylvanas's own perception"},
+        "filler_nodded": {"count": 3, "cap": 4, "verdict": "KEEP all", "lines": [213, 247, 319], "reason": "L213 is Jaina's wordless acceptance of the split, the handoff the plan says to show rather than state. L247 is Havel nodding toward the cooper's door, a directional cue. At L319 Sylvanas, who cannot hear the masked man, sees his nod as the only sign of the exchange"},
+        "participial_trailing": {"count": 12, "cap": 34, "verdict": "KEEP all", "reason": "Under the cap, and texture participial_pct (6.5) is already below the human target range (7.23 to 10.23), so these constructions are wanted"},
+        "punct_semicolon": {"count": 7, "cap": 17, "verdict": "KEEP all", "reason": "Under the cap, and the voice sheet licenses semicolon clauses in Sylvanas's inner voice"},
+        "punct_colon_narration": {"count": 5, "cap": 8, "verdict": "KEEP all", "reason": "Under the cap. The colons introduce lists or specifications (yard names, the hook sign, the waybill column)"},
+        "simile_like": {"count": 1, "cap": 17, "verdict": "KEEP", "lines": [101], "reason": "'held flat together like a blade' is Havel's literal two-finger pointer"},
+        "simile_as_if": {"count": 1, "cap": 5, "verdict": "KEEP", "lines": [275], "reason": "'as if to steady himself' names the cover action the loader uses to hide the dead drop, which is the content of the beat"}
+      }
+    }
+  ],
+  "outOfPassToolHits": {
+    "verdict_enough_for": "L223 'wide enough for one wagon': narrator_verdict maps to pass B and was not audited here",
+    "contact_pressed": "4 of a cap of 6, not mapped to a pass A guide, under cap"
+  },
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 96,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": ["recurring-prose-tics.md"],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 1 MILD KILL and 0 MODERATE or SEVERE, under the 3-MILD threshold. Negation and intent-smear are clean on 34 and 25 candidates. The one recurring-tic kill is the mental 'marking' at L243, which collides with the literal plot noun 'mark' (16 tokens of the family). Structural texture deficit: texture score 89.4, below_target, with compound joins high (16.7%) and em-dashes low (3.0%), across 8 telegram runs and 7 texture deserts. Structural rhythm concerns: long_sentence_pct 22.8, one_sentence_paragraph_pct 32.5 and mattr 0.786 are out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.69, "target": 0.733, "delta": -0.043, "range": [0.613, 0.863], "inRange": true},
+      "sentence_length_mean": {"actual": 12.5, "target": 12.412, "delta": 0.088, "range": [10.412, 14.412], "inRange": true},
+      "sentence_length_cv": {"actual": 0.758, "target": 0.723, "delta": 0.035, "range": [0.623, 0.823], "inRange": true},
+      "short_sentence_pct": {"actual": 35.7, "target": 30.155, "delta": 5.545, "range": [23.155, 37.155], "inRange": true},
+      "long_sentence_pct": {"actual": 22.8, "target": 15.352, "delta": 7.448, "range": [12.352, 19.352], "inRange": false},
+      "opener_entropy": {"actual": 6.34, "target": 6.637, "delta": -0.297, "range": [6.137, 7.137], "inRange": true},
+      "one_sentence_paragraph_pct": {"actual": 32.5, "target": 21.378, "delta": 11.122, "range": [17.378, 26.378], "inRange": false},
+      "mattr": {"actual": 0.786, "target": 0.848, "delta": -0.062, "range": [0.818, 0.888], "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct above range", "one_sentence_paragraph_pct above range", "mattr below range"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 89.4,
+      "participial_pct": 6.5,
+      "compound_pct": 16.7,
+      "emdash_pct": 3.0,
+      "semicolon_pct": 1.0,
+      "short_pct": 44.6,
+      "verdict_reasons": [
+        "compound: 16.7% above target 14.135% (score 76/100)",
+        "emdash: 3.0% below target 5.119% (score 81/100)"
+      ],
+      "interpretation": "COMPOUND: 16.7% -> target 14.135% (score 76/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 3.0% -> target 5.119% (score 81/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 8,
+        "texture_desert": 7,
+        "zones": [
+          "s11-22 desert / s15-22 telegram (gate clerk, L7-L17)",
+          "s51-65 telegram + desert (clerk Q&A, L35-L55)",
+          "s155-164 desert / s156-164 telegram (rope-walk Q&A, L113-L121)",
+          "s230-238 telegram (Jaina asks Corin, L163-L167)",
+          "s290-299 telegram + desert (split handoff, L203-L211)",
+          "s375-384 desert (Fenner's yard read, L259-L269)",
+          "s534-547 desert / s537-544 telegram (Jaina's mechanism report, L365-L369)",
+          "s570-580 desert / s570-578 telegram (Havel on Kett's, L387-L391)",
+          "s665-672 telegram (Cyndia/Lyriel orders, L441-L445)"
+        ],
+        "killOverlap": "The single KILL (L243, sentence index 350) is outside every flagged zone"
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 37,
+        "total_violations": 1,
+        "overCap": ["narrator_verdict.verdict_enough_for (1 > cap 0, L223, pass B scope)"],
+        "passAMappedHits": "filter_watched 3/3, filler_nodded 3/4, participial_trailing 12/34, punct_semicolon 7/17, punct_colon_narration 5/8, simile_like 1/17, simile_as_if 1/5. None over cap, all adjudicated KEEP",
+        "passAMappedZeroHits": ["abstract_locomotion", "inanimate_agency", "negation_addiction", "said_bookisms", "adverb_on_tag", "breath_tells", "body_cliches", "temporal_padding", "paragraph_structure"]
+      }
+    }
+  }
+}

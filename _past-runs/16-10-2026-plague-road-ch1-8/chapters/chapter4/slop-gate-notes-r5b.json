@@ -1,0 +1,167 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsB [71, 26, 7, 6, 5] strictly decreasing)",
+  "povRegister": {
+    "povCharacter": "Jaina Proudmoore",
+    "registerSummary": "Educated, fast and exact, a Dalaran apprentice who reasons evidence -> belief -> next step and talks to herself in wry free-indirect asides ('Brilliant, Jaina.' 'Lovely.' 'Slower.'). Metaphors come from Kul Tiran ships, harbours, knots and her father's house, and from Dalaran lessons. She does not think in epigraphs, thematic summaries or cool narrator cadences.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 41,
+      "kills": 1,
+      "keeps": 40,
+      "severityMarkers": { "MILD": 1, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "id": "B-GPT-1",
+          "pattern": "F7",
+          "failureMode": "Closure Addiction",
+          "line": 819,
+          "text": "Jaina looked down at Tam. *I'm not to speak to you.* And he hadn't.",
+          "flaggedSpan": "And he hadn't.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "*I'm not to speak to you.*",
+          "issue": "The recalled line, with the dead boy on the floor, already carries the irony that he kept his order to the death. 'And he hadn't.' closes the loop for the reader. It also adds a non-action caption to a scene that already relies on Tam's silence.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina looked down at Tam. *I'm not to speak to you.*",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 34,
+      "kills": 1,
+      "keeps": 33,
+      "tierAKills": 0,
+      "tierBKills": 1,
+      "severityMarkers": { "MILD": 1, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": "B1",
+      "structuralHabit": "no",
+      "findings": [
+        {
+          "id": "B-NS-1",
+          "pattern": "B1",
+          "tier": "B",
+          "line": 787,
+          "text": "His face was perfectly calm, calmer than it had been all evening—and then it wasn't.",
+          "flaggedSpan": "—and then it wasn't",
+          "whoIsSayingThis": "narrator",
+          "povMismatch": "Jaina is staring at a boy with foam on his lip. The dash-turn 'and then it wasn't' is a writer's cadence that announces the change before the next sentence shows it ('His back arched.'). A person watching does not caption the turn first. Pass A also flags this span under negation. This is the separate pass B register finding, and the fix below works for both.",
+          "severity": "MILD",
+          "confidence": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "His face was perfectly calm, calmer than it had been all evening. Then his back arched.",
+          "fixNote": "Replace the two sentences 'His face was perfectly calm, calmer than it had been all evening—and then it wasn't. His back arched.' with the suggested text. Leave the rest of the paragraph ('His heels went out from under him...') unchanged.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 22,
+      "kills": 0,
+      "keeps": 22,
+      "severityMarkers": { "MILD": 0, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "I checked 22 candidates. Each abstraction is either cashed out on the page or is a deliberate unknown. 'In here it was whole. It had been built.' (691) and 'One part to keep. One part to wait.' (693) are anchored in the same paragraph by the seams, the planking simile and 'through a baker's oven and into a man's milk, and sat down in him and waited.' 'She had two answers' (386) points back to water and contact, both named. 'She had it.' and 'Oh, there it was.' (444-446) follow the five-line slate tally. 'Not grain, then. One flour.' (466) comes right after Mother Haw's oats. 'She had Windrunner down as maps' (118) is unpacked at once into ground, ambush angles and ears. The deliberate unknowns are 'There's something else in it too' (162), 'or something else' (486), 'by some road of her own' (506) and Tam's 'You don't know what you're keeping them from' (733). They are protected because the plan has no cult proof before the granary and the initiate gives 'no commander, no name, no cult name.' Narration at 737 also confirms that Tam does not know what is in the jar. Sylvanas's lines ('Either way, it's the road he drove.' 'Then you have until cockcrow.') name a concrete road and a concrete deadline. Tool hits something_vague at 490 (Wenna's sleep-talk about the hens, already set up at 274) and 683 ('something in the hand gave', which she cannot see under the linen, followed at once by 'a small tearing low down in the palm') are KEEPs with real perceptual limits. The same goes for there_was_something at 785, where she misreads foam as flour, and that misreading is the plot beat. No planner shorthand, P5, survived the cash-out test."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "severityMarkers": { "MILD": 0, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "I audited 5 translation setups as whole exchanges. (1) At 368, 'Small. Half a fist. A fist. Everywhere.' gives Tobin a four-step scale he can use on the slate at once, and he does. (2) At 534-536, the short version '*It's the bread. Stop them eating the bread.*' names a target (bread) and an action (stop eating). Jaina then gives the full evidence chain instead, so nothing needs a second unpacking. (3) At 833-841, Jaina's plain warning to Sylvanas names the oven and 'before light'. Sylvanas turns it into a usable threshold for Brask: 'Then you have until cockcrow.' Brask acts on it at once ('Tell me what to shut'), and Jaina's answer names granary, bakehouse and every sack since the first load. (4) At 879, 'made herself say plainly what the wards did' is unpacked into a mechanism in the same sentence ('nothing more could come in and nothing that was in could get any further'). (5) At 56, Jaina's scholar version for Antonidas is set up and never spoken, and Sylvanas's concrete Millhaven report (spoons, cradle, sixty prints) replaces it. Every translation in the chapter gives the listener a handle."
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 100,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md"
+    ],
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings. There are 2 MILD kills (F7 closure gloss at 819, B1 'and then it wasn't' cadence at 787) and 0 MODERATE/SEVERE, which is under the 3-MILD threshold. Both fixes are deletions or small trims. Structural rhythm concerns, which do not drive the verdict: sentence_length_cv 0.86 (range 0.6-0.8), long_sentence_pct 19.1 (range 7-14), opener_entropy 6.58 (range 7.2-8.2), one_sentence_paragraph_pct 28.8 (range 15-24) and mattr 0.774 (range 0.8-0.87). There is also a structural texture deficit: texture_score 79, below_target, participial 7.3% against a 12% target and em-dash 1.2% against a 4% target.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.807, "target": 0.72, "delta": 0.087, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.86, "target": 0.7, "delta": 0.16, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 41.1, "target": 35.0, "delta": 6.1, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 19.1, "target": 10.0, "delta": 9.1, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.58, "target": 7.7, "delta": -1.12, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 28.8, "target": 19.0, "delta": 9.8, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.774, "target": 0.83, "delta": -0.056, "range": [0.8, 0.87], "inRange": false },
+      "note": "Structural rhythm concerns: 5 metrics are outside their range (cv, long_pct, opener_entropy, one_sentence_paragraph_pct, mattr)."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 79.0,
+      "participial_pct": 7.3,
+      "compound_pct": 12.2,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.4,
+      "short_pct": 51.3,
+      "verdict_reasons": [
+        "participial: 7.3% below target 12.0% (score 61/100)",
+        "compound: 12.2% above target 10.0% (score 80/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.3% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.2% -> target 10.0% (score 80/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": { "telegram_run": 36, "texture_desert": 32 },
+      "note": "Structural texture deficit. Most of the long telegram runs are clipped dialogue exchanges: Tobin's intro around sentence 217, the slate instructions around 518, the cage and lookout exchange around 1066, and the cockcrow exchange around 1196. That is why no F1 kill was issued, since the narration rhythm varies. The B-NS-1 fix keeps one em-dash out of the count. If the slophunter wants to protect the em-dash rate, an alternative is 'His face was perfectly calm—calmer than it had been all evening. Then his back arched.'"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 93,
+        "total_violations": 1,
+        "overCapCategories": ["punct_colon_narration (17/16, pass A scope)"],
+        "passBMappedHits": {
+          "hedge_almost": "2 (lines 210, 212): both KEEP, they state quantity and extent ('almost none of it came back clean', 'almost to the fingers'), not a softened perception",
+          "hedge_perhaps": "1 (line 579): KEEP, Jaina in dialogue is honestly unsure how long the wards last",
+          "something_vague": "2 (lines 490, 683): KEEP, see the phantom-concreteness cleanReason",
+          "there_was_something": "1 (line 785): KEEP, the flour/foam misreading is the plot beat",
+          "narrator_verdict": "0",
+          "ambient_inversion": "0",
+          "slopsquid": "0",
+          "ai_vocabulary": "0"
+        }
+      }
+    }
+  }
+}

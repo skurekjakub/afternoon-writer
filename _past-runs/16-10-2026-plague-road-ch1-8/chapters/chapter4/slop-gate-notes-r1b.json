@@ -1,0 +1,719 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "povRegister": {
+    "povCharacter": "Jaina Proudmoore (limited third, absolute)",
+    "registerSummary": "Educated, exact, fast; warm and courteous, self-mocking in free indirect thought ('Brilliant, Jaina', 'Lovely, Jaina'), reaches for Kul Tiras ship/sea and Dalaran apprentice references, reasons evidence -> belief -> next step, and corrects herself with 'Slower.' She does not think in aphorisms, generic-you maxims, or narrator wordplay on the line before.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 79,
+      "kills": 20,
+      "keeps": 59,
+      "severityMarkers": {
+        "MILD": 20,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F4 (4 kills), then F3 and F12 (3 each)",
+      "f5Assessment": "No F5 kill. Brask yielding in the lane (B2) and agreeing to the shutdown (B11) are both plan-mandated. Each is earned by a concrete lever: the Millhaven account in the lane, and the cockcrow threshold at the cage. The cost stands, because the witness is dead and unspoken. The morning scene does not close Millhaven (L979), and Jaina and Sylvanas never reach open trust.",
+      "f1Assessment": "No F1 kill. No sustained stretch repeats one sentence shape across paragraphs. Short runs are dialogue or tactical cataloguing. The structural texture deficit (participial 7.3% vs 12% target, emdash 1.1% vs 4%) is reported in summary.textureMetrics for downstream joining work.",
+      "findings": [
+        {
+          "id": "B-GPT-01",
+          "pattern": "F8",
+          "severity": "MILD",
+          "line": 88,
+          "text": "\"Walked.\"",
+          "issue": "Echo exchange. Brask hands back 'walked' from Sylvanas's line and adds no fact. This is the third echo in the lane exchange after 'Ranger-General.' (he accepts the title, which is the turn) and 'Millhaven,' (required by the plan). This one is the only echo that does no work.",
+          "suggestedFix": "",
+          "fixNote": "Delete the line. 'She waited.' then follows Sylvanas's \"We counted their prints.\" directly, and the pause still lands.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "telegram_run (9) / texture_desert (17) starting at \"Then you'll turn round, my lady.\""
+        },
+        {
+          "id": "B-GPT-02",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 124,
+          "text": "Jaina would have explained, at length, in a voice that carried, and the egg woman would have had the word *necromancer* by heart before dinner.",
+          "issue": "Over-translation and restatement. Twenty lines earlier (L104) the reader already has 'Argued. Explained louder, with diagrams, while the egg woman listened to every word and went home and told her sister.' This sentence repeats that point as the paragraph's last word.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph then ends on Sylvanas's concrete behaviour.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-03",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 276,
+          "text": "Did thin put a fist of it under a dairymaid's ribs between one milking and the next? She didn't think so. She knew it was in a jug.",
+          "issue": "Restatement. L260 already asked and answered this ('Thin water didn't put a fist of it under a dairymaid's ribs between one evening's milking and the next morning'). Asking it again after the jug test adds nothing new. The filter verb 'knew' in the last sentence also pads (F3).",
+          "suggestedFix": "All she had was a jug that read thin.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-04",
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 280,
+          "text": "One hand gripped the hurdle's edge and the other clawed at her own collar as if it choked her.",
+          "issue": "Hedge 'as if'. Clawing at her collar already shows the choking. Deletion test: the sentence is stronger without the gloss.",
+          "suggestedFix": "One hand gripped the hurdle's edge and the other clawed at her own collar.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-05",
+          "pattern": "F2",
+          "severity": "MILD",
+          "line": 340,
+          "text": "Lyriel's eyebrows went up.",
+          "issue": "Generic reaction beat that any character could have. Jaina's 'Again' and the retry carry the moment on their own.",
+          "suggestedFix": "",
+          "fixNote": "Delete the line.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "texture_desert (12) starting at \"Loop over your thumb.\""
+        },
+        {
+          "id": "B-GPT-06",
+          "pattern": "F13",
+          "severity": "MILD",
+          "line": 350,
+          "text": "That was absurd.",
+          "issue": "Demonstrative caption. It labels the want that the sentence before already showed by setting a bandage knot against reading a man's liver by spell light. The later bookend (L969, 'It was a silly thing to want.') does the same job once, where it counts.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph goes straight to 'She was going to tie the next one on her own, if it took her all afternoon.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-07",
+          "pattern": "F14",
+          "severity": "MILD",
+          "line": 378,
+          "text": "He wrote in big square capitals, slowly, the tip of his tongue showing.",
+          "issue": "Fenced manner adverb. The tip of his tongue already shows the slow effort, so ', slowly,' fails the deletion test.",
+          "suggestedFix": "He wrote in big square capitals, the tip of his tongue showing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-08",
+          "pattern": "F14",
+          "severity": "MILD",
+          "line": 645,
+          "text": "He put the jar down on the boards beside the hole, gently, both hands,",
+          "issue": "Fenced manner adverb. 'Both hands' already carries the care, so ', gently,' only slows the moment down.",
+          "suggestedFix": "He put the jar down on the boards beside the hole with both hands,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-09",
+          "pattern": "F9",
+          "severity": "MILD",
+          "line": 693,
+          "text": "\"Jaina.\" Lyriel, at her side.",
+          "issue": "Name-only line standing in for a plea Lyriel could say. This is not the first-name event, which already landed at L346. Jaina's reply ('I'm all right. I'm reading it. Let me read it.') answers an unspoken 'stop'.",
+          "suggestedFix": "\"Jaina, leave it.\" Lyriel, at her side.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-10",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 715,
+          "text": "Nobody answered her.",
+          "issue": "Non-action beat as a paragraph of its own. Jaina made a statement, not a question, so the reader had no reason to expect an answer. The next paragraph (Brask's light on the stair) already breaks the silence.",
+          "suggestedFix": "",
+          "fixNote": "Delete the line.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-11",
+          "pattern": "F11",
+          "severity": "MILD",
+          "line": 747,
+          "text": "—and he didn't know. He didn't know what was in the jar any more than she had known what was in the reliquary.",
+          "issue": "Anaphoric run. 'He didn't know' is repeated for weight, and one clause carries the same fact and the reliquary comparison.",
+          "suggestedFix": "—and he didn't know what was in the jar, any more than she had known what was in the reliquary.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-12",
+          "pattern": "F10",
+          "severity": "MILD",
+          "line": 749,
+          "text": "That's all he's for.",
+          "issue": "Sign-off tag closing a speech. It repeats 'He's a lookout' as a closing caption.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The speech ends on 'told him to watch.' and 'She looked at Brask.' follows.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "texture_desert (26) / telegram_run (15) starting at \"He's a lookout,\""
+        },
+        {
+          "id": "B-GPT-13",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 769,
+          "text": "Overhead it was full dark. ",
+          "issue": "Restatement. Six lines earlier the reader has 'It was full dark in the lane.' The next clause, 'She had told Sylvanas full dark,' makes the link without it.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph opens on 'She had told Sylvanas full dark, or a little after, ...'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-14",
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 809,
+          "text": "and after that Jaina could hear the torch, and the blood in her own ears, and nothing else whatever.",
+          "issue": "Filter verb 'could hear' between the POV and the sound. Deletion test: the silence lands harder without it.",
+          "suggestedFix": "and after that there was the torch, and the blood in her own ears, and nothing else whatever.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-15",
+          "pattern": "F6",
+          "severity": "MILD",
+          "line": 839,
+          "text": "Brask was not a fool. He had a dead boy on the floor of his cage",
+          "issue": "Thesis-opening paragraph. A claim about the captain comes first and the evidence follows it. Starting on the evidence lets Jaina's read stand without the label.",
+          "suggestedFix": "Brask had a dead boy on the floor of his cage",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-16",
+          "pattern": "F6",
+          "severity": "MILD",
+          "line": 889,
+          "text": "The wards only bought time. She sat back on her heels between rounds with the staff across her knees, making herself say it plainly, because Antonidas would have.",
+          "issue": "Thesis-opening paragraph. The opening claim restates L362-364 ('The wards held the way the glass held... they were only slower about it'), and then the paragraph explains it again in the plain version.",
+          "suggestedFix": "She sat back on her heels between rounds with the staff across her knees and made herself say plainly what the wards did, because Antonidas would have.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-17",
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 933,
+          "text": "Sylvanas stayed a moment longer on the threshold. Then she went, and the doorway was dark again.",
+          "issue": "Temporal padding 'a moment longer'. Nothing happens in the held moment. The same 'stood ... a moment longer ... Then' shape already appears at L867, where the pause leads into 'Cover his face'. Here it only lingers.",
+          "suggestedFix": "Sylvanas went, and the doorway was dark again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "texture_desert (12) starting at \"It's burned,\""
+        },
+        {
+          "id": "B-GPT-18",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 979,
+          "text": "None of that was any different this morning because Elsie was cool. She tried to set the one against the other anyway, standing there in the wet, the cool forehead against the tucked blanket, and it wouldn't come out either way she ran it.",
+          "issue": "Over-translation that drifts into closure (F7 overlap). The cradle and cow-way images set against Elsie's cool forehead already say this, and the first sentence spells out what the juxtaposition means. The fix keeps her 'sums' idiom (L901) and drops the gloss.",
+          "suggestedFix": "She stood there in the wet and set the cool forehead against the tucked blanket, and it wouldn't come out either way she ran it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-19",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 1021,
+          "text": "Brask didn't write that.",
+          "issue": "Non-action beat. It is the second of three in the departure scene ('Brask didn't write that.', 'Nobody called a price.', 'Jaina didn't look.'). 'Jaina didn't look.' is the strongest and stays. 'He blew on the page and shut the book on it' already shows that Brask wrote nothing.",
+          "suggestedFix": "",
+          "fixNote": "Delete the line. The next paragraph's 'He' reads as Brask because he is the one holding the book.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "telegram_run (8) near \"The mage,\" he said. \"Jaina.\" Scratch."
+        },
+        {
+          "id": "B-GPT-20",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 1033,
+          "text": "The egg woman was setting out her trestle. Nobody called a price.",
+          "issue": "Non-action beat. It is the third in the departure scene, and the village's silence is reported as an absence. Giving the egg woman the action she takes instead keeps the callback.",
+          "suggestedFix": "The egg woman stopped setting out her trestle to watch them go by.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 22,
+      "kills": 3,
+      "keeps": 19,
+      "tierAKills": 2,
+      "tierBKills": 1,
+      "severityMarkers": {
+        "MILD": 3,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "A7 (generic-you narration)",
+      "structuralHabit": "Mild. Generic 'you' appears four times in narration (L292, L462, L474, L705). The two Dalaran-training recollections are clearly hers and are kept. The maxim and the reasoning instance are killed.",
+      "findings": [
+        {
+          "id": "B-NS-01",
+          "pattern": "A7",
+          "tier": "A",
+          "severity": "MILD",
+          "confidence": "HIGH",
+          "line": 462,
+          "text": "Rule out the comfortable answer before you build a house on it.",
+          "whoIsSaying": "Narrator. It is a generic-you maxim pinned over the scene, and 'the comfortable answer' is the beat plan's own wording for B5.",
+          "povMismatch": "Jaina has already said her method in her own idiom ('No. Slower.'), and L394 gives Antonidas's version. A second aphorism with an imperative and generic 'you' is the narrator stepping in. Her voice sheet bars aphorisms.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. 'No. Slower. She was running ahead of herself ... in Millhaven.' then runs straight into 'Oats were grain too, ...'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-NS-02",
+          "pattern": "A7",
+          "tier": "A",
+          "severity": "MILD",
+          "confidence": "HIGH",
+          "line": 474,
+          "text": "and the more you ate of it and the longer, the worse you were.",
+          "whoIsSaying": "Narrator, using generic 'you' to address the reader inside Jaina's deduction.",
+          "povMismatch": "She is reasoning about these specific patients. Generic 'you' turns her inference into a general rule, and she says that rule aloud later in dialogue (L544), where 'you' fits.",
+          "suggestedFix": "and the more of it they ate and the longer, the worse they were.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "texture_desert (13) starting at \"Col, two nights, a walnut.\""
+        },
+        {
+          "id": "B-NS-03",
+          "pattern": "B1",
+          "tier": "B",
+          "severity": "MILD",
+          "confidence": "MODERATE",
+          "line": 687,
+          "text": "slow nets laid down thread by thread; there was no afternoon here.",
+          "whoIsSaying": "Narrator. It is a pun on 'the whole afternoon' in the clause before.",
+          "povMismatch": "She is in the middle of an emergency with the spill running toward Sylvanas's boots. 'There wasn't time to do it properly' already gives her thought, and the wordplay on 'afternoon' is too polished for the moment.",
+          "suggestedFix": "slow nets laid down thread by thread.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 24,
+      "kills": 3,
+      "keeps": 21,
+      "severityMarkers": {
+        "MILD": 3,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P5 (planner shorthand)",
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": [],
+      "selfCheckNote": "The keep rate is above 25%. Seven keeps are deterministic tool hits ('almost' twice, 'perhaps', 'something' four times) and each has a concrete referent on the page. The chapter's analytic dialogue (L544, L554, L843, L857) names patients, prices, dates, ovens, and cockcrow, so no dialogue line failed the 'what specifically?' test.",
+      "findings": [
+        {
+          "id": "B-PC-01",
+          "pattern": "P5",
+          "severity": "MILD",
+          "line": 494,
+          "text": "That half would tell her whether this was one bad harvest gone wrong in a damp barn or something else, and it was down there in who sold what to whom. Windrunner was out there with it, and Jaina was up here holding a doorframe.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The actual question is who sold the keeper his flour, and since when. 'That half' and 'who sold what to whom' summarize the supply-side task like an ops-board note (the plan's 'body-side / road-side halves'), and 'out there with it' claims Sylvanas is on that task before Jaina has seen her at it (L504-514).",
+          "suggestedFix": "If she knew who had sold it to the keeper, and since when, she would know whether this was one bad harvest gone wrong in a damp barn or something else. Windrunner was down there among those people, and Jaina was up here holding a doorframe.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "note": "The fix keeps Jaina as the actor, so it also stays clear of the pass-A intent-smear shape ('X would tell her')."
+        },
+        {
+          "id": "B-PC-02",
+          "pattern": "P5",
+          "severity": "MILD",
+          "line": 673,
+          "text": "They had him alive and frightened, before anybody had told him what to say, along with the hole under the floor, the open sack and the jar.",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "This is a status note on the operation (witness secured before coaching, evidence intact) and could be lifted from the B8/B10 beat goals unchanged. The irony it sets up lands without it at L829 ('and nobody had told him what to say. Somebody had, months ago, with a needle and thread.').",
+          "suggestedFix": "He was alive, and frightened, and the hole under the floor and the open sack and the jar were all still there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-PC-03",
+          "pattern": "P3",
+          "severity": "MILD",
+          "line": 1001,
+          "text": "Jaina took the sacking in her left hand and held it, the clean pale weave smelling of sacking.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "This is a sensory stand-in that names nothing: sacking smells of sacking. The likely point is negative evidence, no brown-pear sweetness on the cut square, but the line does not say so. A one-word fix makes the absence readable without adding anything new.",
+          "suggestedFix": "Jaina took the sacking in her left hand and held it, the clean pale weave smelling only of sacking.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "brokenExchanges": [],
+      "cleanReason": "I audited eight setups where one line restates something in plainer or more usable speech: Tobin's 'Is it fever?' (L164-166), his 'Swallowing what?' (L252-254), his 'How much?' (L374-376), the small-words version Jaina rejects for Sylvanas and the full version she gives (L542-544), her 'say it plainly' account of the wards (L889), her oven briefing (L843) and Sylvanas's cockcrow threshold (L847-851), Brask's 'Tell me what to shut' (L855-857), and the bread instructions to Tobin and Elsie (L480, L524). Each reply names a usable target (bread, store flour, granary, bakehouse, every sack since the first load, oats grown at home) and, where timing matters, a visible threshold (cockcrow, full dark). Or the speaker honestly says she doesn't know ('I don't know.'), which is not a fake translation. The scale 'Small. Half a fist. A fist. Everywhere.' is the actual key Tobin writes on the slate. No reply needs a second round of unpacking.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 26,
+    "totalKeeps": 107,
+    "mildKills": 26,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 26,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "26 MILD kills (more than 3), 0 MODERATE/SEVERE. Every kill has a drop-in fix, and 13 of them are pure deletions. Not affecting the verdict: a structural texture deficit (score 78.7, below_target; participial 7.3% vs 12%, emdash 1.1% vs 4%, compound 12.2% vs 10%) and structural rhythm concerns (5 metrics out of range: sentence_length_cv, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr).",
+    "fixStrategy": "default (no iterationKillsB history in manifest)",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.803,
+        "target": 0.72,
+        "delta": 0.083,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.6,
+        "target": 11.0,
+        "delta": 0.6,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.861,
+        "target": 0.7,
+        "delta": 0.161,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 41.5,
+        "target": 35.0,
+        "delta": 6.5,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 19.0,
+        "target": 10.0,
+        "delta": 9.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.57,
+        "target": 7.7,
+        "delta": -1.13,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.5,
+        "target": 19.0,
+        "delta": 9.5,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.773,
+        "target": 0.83,
+        "delta": -0.057,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 78.7,
+      "participial_pct": 7.3,
+      "compound_pct": 12.2,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 1.5,
+      "short_pct": 51.8,
+      "verdict_reasons": [
+        "participial: 7.3% below target 12.0% (score 61/100)",
+        "compound: 12.2% above target 10.0% (score 80/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.3% → target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.2% → target 10.0% (score 80/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.1% → target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 36,
+        "texture_desert": 32
+      },
+      "note": "Structural texture deficit: 3 dimensions out of range (participial low, compound high, emdash low)."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 101,
+        "total_violations": 3,
+        "overCap": [
+          {
+            "category": "filter_words",
+            "pattern": "filter_watched",
+            "count": 4,
+            "cap": 3
+          },
+          {
+            "category": "paragraph_structure",
+            "pattern": "opener_consecutive_repeat",
+            "count": 1,
+            "cap": 0
+          }
+        ],
+        "passBMappedSignals": {
+          "hedging": [
+            {
+              "pattern": "hedge_almost",
+              "line": 216,
+              "text": "almost"
+            },
+            {
+              "pattern": "hedge_almost",
+              "line": 218,
+              "text": "almost"
+            },
+            {
+              "pattern": "hedge_perhaps",
+              "line": 587,
+              "text": "Perhaps"
+            }
+          ],
+          "vague_pointers": [
+            {
+              "pattern": "something_vague",
+              "line": 498,
+              "text": "something about the hens"
+            },
+            {
+              "pattern": "something_vague",
+              "line": 691,
+              "text": "something in the hand"
+            },
+            {
+              "pattern": "there_was_something",
+              "line": 795,
+              "text": "There was something"
+            },
+            {
+              "pattern": "there_was_something",
+              "line": 901,
+              "text": "there was something"
+            }
+          ]
+        },
+        "passBToolSignalResolution": "7 pass-B-mapped hits (hedging x3 -> phantom-concreteness, vague_pointers x4 -> phantom-concreteness), all KEEP with defenses in the scratchpad: 'almost none' / 'almost to the fingers' are measurements contrasted with Elsie's read; 'Perhaps a little after' is genuine uncertainty that drives Sylvanas's 'Then we're quick'; 'something about the hens' has an established referent (L280); 'something in the hand gave' is cashed out in the same sentence ('a small tearing low down in the palm'); 'There was something on his lip' delays identification deliberately (flour, then foam); 'there was something she could have done' is a genuinely indefinite action in counterfactual reasoning. No ai_vocabulary, slopsquid, narrator_verdict, ambient_inversion, verbose_phrases, academic_register or dialogue_register hits.",
+        "overCapNote": "Over-cap patterns (filter_watched, opener_consecutive_repeat) map to pass A, not audited here."
+      }
+    }
+  }
+}

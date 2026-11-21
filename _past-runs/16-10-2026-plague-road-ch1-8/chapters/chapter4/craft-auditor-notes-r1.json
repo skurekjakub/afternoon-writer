@@ -1,0 +1,125 @@
+{
+  "chapterId": "chapter4",
+  "iteration": 1,
+  "targetFile": "v0c.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "beat-fidelity",
+      "severity": "medium",
+      "location": "B9 to B11a. The shell is set at v0c.md line 803, given a limit at 875, and never mentioned again. Natural fix sites are 1059-1063 (Sylvanas's late visit) and 1117 or 1127 (the morning yard and Brask's report).",
+      "passage": "\"Mage. Will it hold?\" / Jaina looked at it. ... \"Until morning,\" she said. \"If nobody puts a foot on it.\"",
+      "problem": "The most dangerous object in the chapter is left unaccounted for. Jaina puts a time limit on the shell herself: until morning. Cyndia's report (1051) says Brask's man has the stair. Sylvanas's 'All of the granary' (1059) and the morning heap (1117) are about the sacks, and the building still stands. Then dawn comes, the shell lapses over a puddle of concentrate that 'ran' along the boards toward the sacks below, and Jaina, who in B9 paid with her palm to contain it, rides out without one thought for it. That is out of character for an exact, cost-aware investigator who says 'If nobody puts a foot on it' herself. B8's 'keep the evidence intact' and B9's containment set up a question the chapter never closes, and a careful reader will notice.",
+      "fix": "Add two or three lines and do not invent new plot. (a) At 1061-1063, after 'The houses?', have Jaina ask 'And the loft?', and give Sylvanas a clipped answer in her register: 'Brask's man on the stair. Nobody's been up.' Jaina's thought can turn to the shell lapsing at first light, and that worry can sit alongside the others. (b) In the morning, settle it on the page in one beat. Either Brask at 1127 reports that the loft boards came up and went on the fire with the rest ('The boards from the loft went on at first light, the mage's ice and all'), or Jaina sees charred planking on the heap at 1117 and has her own brief, dry reaction. Do NOT have Jaina keep a sample of the concentrate. No later outline uses one, and adding it would create a continuity obligation."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "medium",
+      "location": "Lines 31, 149, 157, 167, 331, 361, 431, 471, 573, 893, 907, 919, 995, 1041, 1131, 1145, 1173",
+      "passage": "She tied the mares to the yard rail, coming in after them. / He wiped the teeth off with his sleeve without a pang, fishing the slate pencil out of his apron. / Brask swung the door to and turned the key, stepping back. / Sylvanas put her hand into her coat, taking out something folded. / Sylvanas took the sacking back, folding it and putting it away in her coat. / The crystal ticked as the mare went past them, ticking again at the next stall",
+      "problem": "Participials rose from 2.4% to 11.1% in this revision, and texture is now 100/100. But some of the new ', Ving' phrases were attached to actions that happen in sequence, not at the same time. A trailing participle tells the reader the two actions overlap, so these sentences describe impossible or odd simultaneity: she can't tie the mares and come in at once, he can't wipe the slate and fish out the pencil at once, and Sylvanas can't take the sacking back and put it away at once. Line 31 tags a second tick onto the first, which reads as the metric showing through. About fifteen sentences do this. Together they are a mechanical tic, and the slop-gate will catch them as an AI rhythm.",
+      "fix": "Fix only the sequential ones. Leave the many good simultaneous participles alone (e.g. 29 'coughing into her mother's apron', 119 'letting out a long breath', 567 'knees cracking', 941 'wiping her fingers on her coat'). For each sequential case, either (a) go back to 'and' or a full stop ('She tied the mares to the yard rail and came in after them.' / 'He wiped the teeth off with his sleeve without a pang and fished the slate pencil out of his apron.' / 'Sylvanas took the sacking back. She folded it and put it away in her coat.'), or (b) make the participle truly simultaneous ('Brask swung the door to and turned the key, already stepping back from it' only works if he is). Line 31: 'The crystal ticked as the mare went past them, and again at the next stall, where there was no child at all...' Compound is at 9.1% against a 10% target, so there is room for about ten more ', and' joins. To keep the participial rate near 11-12%, add the same number of genuinely simultaneous participles where the prose has two simultaneous actions joined by 'and' or a full stop. Check with the scorer afterwards; anything at 90 or above passes."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Lines 1131 and 1175 (also 637)",
+      "passage": "She unfolded it and held it out, not to Brask, but to Jaina. / the woman in the blue apron put her hand up—not a wave, just a hand—and took it down again.",
+      "problem": "These are leftover 'not X, but/just Y' corrections in narration. Jaina's sheet rules the shape out of her lines ('Say the true thing first'), and the narration is her thinking. 'Not a wave, just a hand' is a well-known AI cadence, and it sits in the closing paragraph, where every sentence is weighed. Line 637 ('Not mud; it was paler than mud') is fine as Jaina ruling out a guess while she looks, so leave it.",
+      "fix": "1131: 'She unfolded it and held it out past Brask, to Jaina.' 1175: 'the woman in the blue apron put her hand up, flat, and held it there a moment before she took it down again.' Say what the hand does, and don't define it by what it isn't."
+    },
+    {
+      "check": "emotional-life",
+      "severity": "low",
+      "location": "Line 457",
+      "passage": "She had two answers that fitted half the room each, and she wanted very badly for one of them to fit the whole of it—which was exactly when you were meant to stop wanting.",
+      "problem": "The clause after the dash is a general rule in the second person. It reads as a maxim from the narrator, and Jaina's sheet bans aphorisms. The thought around it is very good: two answers that each fit half the room, and wanting one to fit all of it. The tag pulls the camera out to a lesson. Line 539 ('Rule out the comfortable answer before you go and build a house on it') is in her own scholar's idiom, close to Antonidas, and can stay.",
+      "fix": "Pin it to Antonidas or to her, so it becomes her memory and not the narrator's rule: '—and Antonidas would have told her that was exactly when to stop wanting.' Or cut the clause and let the next line ('I'm ruling out the comfortable answers first, Master. Very good. And then what?') make the point."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "'nothing at all' at lines 753, 783, 877, 1141 (plus 'at all' 15x overall); 'did something' at 665",
+      "passage": "His face did nothing at all for a moment. / went to nothing at all / saying nothing at all / smelling of nothing at all / Her mouth did something brief at one corner.",
+      "problem": "'Nothing at all' turns up four times in the second half and has become a reflex intensifier. 'Her mouth did something brief at one corner' is a stock evasion: it marks a reaction without letting Jaina see one.",
+      "fix": "Keep one 'nothing at all' (783, the hand going numb, is the strongest) and recast the rest: 753 'His face stayed blank a moment'; 877 'saying nothing'; 1141 'smelling of nothing but sacking'. 665: give Jaina what she actually sees, e.g. 'One corner of her mouth went in.'"
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "Line 739",
+      "passage": "Lyriel's hand found the small of her back and stayed there.",
+      "problem": "This gives agency to a body part when the real actor, Lyriel, is right there. It is a stock phrasing at a tense moment.",
+      "fix": "'Lyriel put a hand at the small of her back and kept it there.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Whole chapter (advisory, not a fail driver)",
+      "passage": "Dialogue words about 13% of the chapter (2,809 of 21,549).",
+      "problem": "The style guide's ratio for procedural chapters is 60:40. Last round asked for B5 to be dramatized, and that worked: the cooper's wife, Elsie, Hew Dunmore and Col now answer in their own voices (487-511) and Col's 'Tobin's an old woman' is direct (257). The share rose from 11.8% to 13.0%. The rest of the gap is structural: the loft, the cage and the vigil are mostly wordless, and padding them would hurt.",
+      "fix": "No action required this round. If anything changes in a future pass, B6 has room for one short exchange with Lyriel at the brazier (around line 625), and B11 for one with Tobin during the vigil. Do not add talk to the cage or the loft."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 100.0,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {"actual": 11.1, "target": 12.0, "score": 100.0},
+      "compound": {"actual": 9.1, "target": 10.0, "score": 100.0},
+      "emdash": {"actual": 4.0, "target": 4.0, "score": 100.0},
+      "semicolon": {"actual": 1.8, "target": 1.8, "score": 100.0}
+    },
+    "otherMetrics": {
+      "short_pct": 52.8,
+      "sentenceCount": 1870,
+      "meanSentenceLength": 11.5,
+      "paragraphOneSentencePct": 29.6,
+      "commaPeriodRatio": 0.738,
+      "dialogueWordShareApprox": 13.0
+    },
+    "interpretation": "Texture within target range. No structural changes needed. (Scorer.) Short sentences are 52.8%, under the 55% ceiling. Every dimension is inside its ±1-point tolerance. The only texture risk is the quality of the participials, not their number: see the rhythm-texture finding on sequential-action participles. If those are fixed, swap in real simultaneous participles so the participial rate doesn't fall more than about 1 point below 12%.",
+    "flaggedPassages": [
+      "telegram_run sentences 128-136: \"Then you'll turn round, my lady.\" \"Ranger-General.\" His thumb moved on the ash. (deliberate: Brask standoff, keep)",
+      "telegram_run sentences 146-153: \"They walked out of it,\" Windrunner said. \"Up the cow way above the village... (deliberate: Sylvanas's Millhaven account, keep)",
+      "telegram_run sentences 183-190: \"Willem Brask,\" he said. \"I've the militia here, such as it is.",
+      "telegram_run sentences 277-296: \"Willem sent you?\" \"Captain Brask, yes. I'm Jaina Proudmoore.\" ... \"Frost.\"",
+      "telegram_run sentences 427-434: \"In everyone who's newly ill, it's only there. In Garran it's everywhere now.",
+      "telegram_run sentences 581-588: \"Loop over your thumb. Like that. The linen went round. (deliberate: knot lesson, keep)",
+      "telegram_run sentences 797-804: Elsie. Porridge in the morning, bread at noon. A fist. (deliberate: slate tally, keep)",
+      "telegram_run sentences 809-817: In a room full of fevers. With Garran swallowing his sops. Lovely, Jaina.",
+      "texture_desert sentences 928-940: She knew it as she would have known a spell from the shape of somebody's hands... What does it cost. Who brings it.",
+      "telegram_run sentences 1263-1271: Her arm was ice from the fingers to the shoulder. She leaned on the staff because she needed to...",
+      "telegram_run sentences 1277-1284: And it was nothing like them. In the sick it was thin and smeared and everywhere. In here it was whole.",
+      "telegram_run sentences 1320-1327: At the frost. At the arrow in the post. At the hole in the floor.",
+      "telegram_run sentences 1513-1552: She turned to Sylvanas instead. \"Ranger-General.\" ... \"I'm sorry, Captain. Every house.\" (deliberate: the shutdown, keep)",
+      "telegram_run sentences 1687-1697: \"It's burned,\" she said. \"All of the granary.\"",
+      "telegram_run sentences 1829-1838: \"The mage,\" he said. \"Jaina.\" Scratch. (deliberate: ledger, keep)",
+      "(65 flagged runs/deserts in total. Almost all are dialogue exchanges or deliberate staccato. None needs work while the score is 100.)"
+    ]
+  },
+  "priorFindingsStatus": {
+    "rhythm-texture (64.2)": "resolved: 100.0/100",
+    "voice-register B5 reported speech": "resolved: B5 interviews now direct speech (487-511); Col's line direct at 257",
+    "limited-third thought tags / italic monologue": "resolved: 743, 757, 883, 1073, 355, 611 all now roman free indirect. Remaining italics are remembered speech (37, 163, 671, 947, 1033), rehearsed speech (63, 459, 643) or hand signals (725, 729), all acceptable",
+    "beat-fidelity carter edge B7": "resolved: carter removed; the unsaid 'it' is now explicitly 'one new man, selling cheap, at Millhaven and here' (673)",
+    "dialogue-register not-X-Y in Jaina's lines": "resolved in dialogue (829, 647, 553); two leftovers in narration (see low finding)",
+    "stock 'breath she didn't know' line": "resolved: 513 'Jaina stood still.'",
+    "'the way' tic (53x)": "resolved: 6 left, all literal or the Boralus reliquary memory",
+    "'the whole time' omniscience": "resolved: 835 now Jaina's inference",
+    "bread bin pre-signal": "resolved: 335 'salt box'",
+    "patient count drift": "resolved: Tobin says two of five in the cooper's house (253), the slate has six, and 885 says 'six wards'",
+    "Windrunner->Sylvanas slide": "resolved: first narration 'Sylvanas' at 591, in the moment she is seen working supply through the glass; 'Windrunner' alone does not appear after it"
+  },
+  "checkResults": {
+    "emotional-life": "pass. Jaina thinks in free indirect thought in every scene and argues with herself: question, fast answer, 'No. Slower', better answer (23, 289, 323, 447-459, 537-553, 609-611, 1029-1035). The curiosity-against-decency beat at 825-827 ('With Garran swallowing it in his sops. Lovely. Write that in the report.') is exactly what her sheet asks for. The registers are dry humour (143, 265, 289, 415, 533, 753), warmth (31, 401-403, 1053, 1107-1111), horror (913-931) and exhaustion (1003, 1023, 1103). The value shifts land on concrete moments: the grounded spear, Wenna going still, the slate tally, 'On purpose', the frost, the foam, the cold chimney, Elsie's cool forehead, the stencilled sacking. The one maxim-shaped clause is at 457.",
+    "voice-and-register": "pass with low notes. Dialogue tags are almost all 'said'. Paragraph shapes vary, and the narration stays Jaina's. Voices are distinct: Brask repeats 'Millhaven.' and closes with 'Tell me what to shut' and 'I'll answer for the flour'. Cyndia reports in event order and ends with one dry remark of her own ('He said so twice'; 'She wants the cloth back'). Lyriel teaches in imperatives and checks whether her joke landed on Cyndia. Sylvanas speaks in finished judgments ('Then you have until cockcrow'). Tobin is territorial and kind.",
+    "limited-third": "pass. Last round's thought tags and italic monologue are gone. B6 stays on what can be seen through the glass, and inferences are framed as hers (835, 863, 959). Only 739 'Lyriel's hand found' is left.",
+    "dialogue-register": "clean. No institutional or clinical words. Jaina downshifts for Tobin and Elsie ('Small. Half a fist. A fist. Everywhere.'), gives Sylvanas her whole reasoning in B7 without over-translating and then waits, and is polite but immovable with Brask ('I'm sorry, Captain. Every house.').",
+    "rhythm-texture": "pass on the number (100/100). There is a quality issue in about fifteen sequential-action participles.",
+    "beat-fidelity": "All twelve beats (B1-B11a) are dramatized. Fixed outline content is on the page: Lyriel's knot line is verbatim at 407, she switches to 'Jaina' at 395, and Brask asks for spelling with no blessing (1149-1167). Andorhal has an in-world source in the sacking stencil and Brask (1133-1139). Jaina says only 'Ranger-General' aloud. The open item is the B9 shell and spill, which are never resolved."
+  },
+  "summary": "A much stronger draft than v0. Texture went from 64.2 to 100, and every prior finding was fixed cleanly: B5 is now dramatized in the patients' own voices, the thought tags are gone, the carter edge is cut, and counts and the name slide are consistent. Two narrow medium items keep it from passing. The B9 concentrate under the 'until morning' shell is never accounted for before Jaina rides out, and about fifteen of the new participials attach sequential actions as if they were simultaneous. Both are surgical fixes. The reviser should touch only the cited lines and leave the rest of the chapter alone."
+}

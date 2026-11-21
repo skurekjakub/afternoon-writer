@@ -1,0 +1,488 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "pass",
+  "guidePack": [
+    "negation-addiction-hunting-guide.md",
+    "intent-smear-agency-laundering-guide.md",
+    "recurring-prose-tics.md"
+  ],
+  "fixStrategy": "default (iterationKillsA trajectory 40 -> 16, strictly decreasing)",
+  "toolSignalAudit": [
+    {
+      "toolPattern": "filter_watched",
+      "lines": [
+        29,
+        247
+      ],
+      "guide": "recurring-prose-tics.md",
+      "verdict": "KEEP",
+      "why": "Under cap. One is dialogue; one is a deliberate callback."
+    },
+    {
+      "toolPattern": "filler_frowned",
+      "lines": [
+        275,
+        275
+      ],
+      "guide": "recurring-prose-tics.md",
+      "verdict": "KEEP",
+      "why": "Under cap. The mage frowning at the stone is the chapter's plot tell."
+    },
+    {
+      "toolPattern": "simile_like/as_if/as_though",
+      "lines": [
+        7,
+        13,
+        61,
+        63,
+        81,
+        281
+      ],
+      "guide": "recurring-prose-tics.md",
+      "verdict": "KEEP",
+      "why": "All under cap. Concrete or rider-voice; line 81 is dialogue, not a narrative simile."
+    },
+    {
+      "toolPattern": "participial_trailing",
+      "lines": [
+        3,
+        7,
+        55,
+        93,
+        95,
+        189,
+        277
+      ],
+      "guide": "recurring-prose-tics.md",
+      "verdict": "KEEP",
+      "why": "7/20, and texture participial is below target."
+    },
+    {
+      "toolPattern": "punct_colon_narration",
+      "lines": [
+        7,
+        153,
+        221,
+        253,
+        273
+      ],
+      "guide": "recurring-prose-tics.md",
+      "verdict": "KEEP",
+      "why": "5/5 at cap, not over. Each introduces a concrete list or option set."
+    },
+    {
+      "toolPattern": "punct_semicolon",
+      "lines": [
+        103,
+        161,
+        231,
+        263
+      ],
+      "guide": "recurring-prose-tics.md",
+      "verdict": "KEEP",
+      "why": "4/10. Semicolon texture is within target."
+    },
+    {
+      "toolPattern": "contact_found/contact_pressed",
+      "lines": [
+        67,
+        133,
+        199,
+        209
+      ],
+      "guide": "intent-smear-agency-laundering-guide.md (closest mapping)",
+      "verdict": "KEEP",
+      "why": "Literal finding by the night watch (people) and a literal press of the palm. No discovery wrapper."
+    },
+    {
+      "toolPattern": "verdict_too_x_for / hedge_almost",
+      "lines": [
+        119,
+        275
+      ],
+      "guide": "pass B (narrator-seep / phantom-concreteness)",
+      "verdict": "NOT AUDITED",
+      "why": "Maps to the pass B guide pack. Outside this pass."
+    }
+  ],
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 16,
+      "kills": 3,
+      "keeps": 13,
+      "killRate": "18.75%",
+      "severityMarkers": {
+        "MILD": 3,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P4/P5 contrast scaffolding (one each), plus one P2-style reverse tag",
+      "clusterPages": [],
+      "clusterWarnings": [
+        "Line 107 has four negations in four consecutive sentences. Three are self-argument KEEPs under condition 4 or 3; the minimizer is killed (A-NEG-1) to break up the cluster.",
+        "'Fool' binary recurs at lines 231, 271, and 289. Only the line 289 restatement is killed."
+      ],
+      "screenedNonCandidates": "Plain factual negatives were swept and are not contrast constructions: lines 19, 43, 47, 83, 85, 93, 97, 99, 119, 123, 133, 145, 161, 179, 199, 203, 213, 265, 269, 271, 277, 279. These are answers, reported facts, perceptual limits, conditionals, and idioms. The scratchpad lists the ones closest to the pattern.",
+      "keepRateNote": "Keeps run above 20%, so every KEEP was re-run through the adversarial self-check. The survivors are Sylvanas's self-argument beats (lines 69, 107, 153, 231, 285, 287) or real perceptual/spatial and diagnostic lines (line 3 x2). That is the guide's condition 4 and conditions 1-2. Re-examination added A-NEG-1.",
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P4-minimizer-pivot",
+          "severity": "MILD",
+          "line": 107,
+          "text": "Even Cyndia, at the Pass with her full company and her careful reports, expected nothing from the south but merchants with the wrong papers and the odd human lordling who took a wrong turn hunting.",
+          "deletionTest": "Even Cyndia ... expected merchants with the wrong papers out of the south, and the odd human lordling who took a wrong turn hunting. The sentence survives: 'Even' plus the trivial list already carries the low expectation.",
+          "reason": "Pattern 4 minimizer ('nothing ... but'): it waves away a threat before naming the list. Not a binary diagnostic, spatial correction, world rule, or Sylvanas arguing with herself. It is also the first of four negations in four consecutive sentences in this paragraph (nothing/None/It hadn't/wasn't an army). The other three are self-argument and stay; cutting this one thins the cluster.",
+          "textureZone": "Inside texture_desert (sentences 151-170) and telegram_run (151-158). The fix adds a comma-joined clause.",
+          "suggestedFix": "Even Cyndia, at the Pass with her full company and her careful reports, expected merchants with the wrong papers out of the south, and the odd human lordling who took a wrong turn hunting.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "Negation: none remain in the sentence. Intent-smear: the subject is still Cyndia, a person. I rejected 'expected the south to send' because it would make geography the actor (P1/P3). Recurring-tics: I rejected 'looked south for' to avoid adding a look/gaze beat (Tic 5 is at its cap of 4). The fix adds no tic words."
+        },
+        {
+          "id": "A-NEG-2",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5-preamble-negation",
+          "severity": "MILD",
+          "line": 239,
+          "text": "You didn't circle a stone from Lordaeron. You came and put your hand on it, and nobody felt you cross.",
+          "deletionTest": "How? You came and put your hand on it, and nobody felt you cross. This survives, and the geography can move into the positive clause ('came north').",
+          "reason": "Pattern 5 preamble negation ('You didn't X. You Y.'), the same shape as 'She did not laugh. She smiled.' The refused option is not a live choice in the scene. It is scaffolding before the inference the paragraph needs: she must have come in person.",
+          "suggestedFix": "To circle that one, you came north and put your hand on it, and nobody felt you cross.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "Negation: 'nobody felt you cross' is a plain fact. It echoes the runner's and Cyndia's reports and is not a pivot. Intent-smear: the second-person 'you' is the actor and the hand is her instrument, with no body-part agency. Recurring-tics: no tic words. It reads cleanly between 'How?' and 'Or somebody told you which one to circle, and that was worse.'"
+        },
+        {
+          "id": "A-NEG-3",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P2-reverse-fragment-pivot (X. Not-Y tag)",
+          "severity": "MILD",
+          "line": 289,
+          "text": "She couldn't even do Sylvanas the courtesy of being a fool in silk.",
+          "deletionTest": "Delete it. The paragraph ends on 'Strong enough to cross the ring without a ripple, Antonidas's to the bone, Kirin Tor ink in the creases of her fingers.' It survives, and it lands on a concrete image instead of a negated label.",
+          "reason": "The sentence names what the mage is not after the paragraph has already said what she is. It repeats the 'fool in silk' contrast from line 271 ('A fool in silk she could have sent home...'). Adversarial self-check 1: deleting it loses no concrete fact. Condition 4 fails because the next sentence ('She stepped into the cell.') does not complicate it.",
+          "textureZone": "Inside texture_desert (sentences 457-467).",
+          "suggestedFix": "",
+          "fixAction": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "Deletion only. Nothing new is introduced under any pass A guide. 'without a ripple' at the end of the remaining paragraph is a fact, not a pivot."
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 27,
+      "kills": 0,
+      "keeps": 27,
+      "killRate": "0%",
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "clusterFlags": [],
+      "repeatNouns": [
+        "stone/ring + limp metaphor (lines 63, 107, 179, 285). It is one consistent horse-vocabulary metaphor for the in-world pulse, defined concretely at line 63. It is not a chain of different human verbs."
+      ],
+      "pattern4Alert": "no",
+      "cleanReason": "Primary sweep plus the dedicated P5/P6 second sweep over all 298 lines. Every candidate has a person subject, a literal physical verb on a non-human agent, or the chapter's own ward-stone mechanism. Candidates checked: 'The jays had forgotten her' (animals, literal), 'nothing else in the hollow had reason to keep that still' (the troll is the implied agent, not laundered), 'when a fight turned on them' (dead idiom, no intention verb), 'The smell reached her ... cutting through the resin' (physical), 'learning from her knees' (she is subject), 'The stones ... want looking at' (dialogue idiom = need), 'It said stable in three different hands' (the report names its writers), 'caught itself' and 'as though the stone were favouring a leg' (subject-matter: stone pulse), 'deep where her palm could only just reach' (the palm is the literal sensing instrument), 'exactly where the stone had put it' (the stone is the literal cause in-world), 'Her voice carried' (sound physics), 'it hit Sylvanas hard' (light), 'Sylvanas's right hand had closed again. She opened it.' (involuntary, contrasted with deliberate action: Pattern 8 exception), 'The lamplight went flat', 'the colour crawled in it and stilled' (damper physics), 'The bar came up, and the door swung in' (literal motion; the ranger is legible from the line before), 'The lamp dug the shadows out' (light is the real cause, no intention), 'The jaw clamped so hard...' (noun-phrase fragment in a face inventory, not an acting body part), 'the map went south with her' (literal, carrier named), 'The whole ring could be limping' (established in-world metaphor), plus collectives: 'the patrol drew in', 'The patrol went quiet', 'The night watch found her' x2, 'the chamber can have me' (dialogue metonymy). The 'let' sweep found only physical or interpersonal allowing (lines 39, 51, 153, 259) and no permission tags. Body-part and actor-demotion sweep: no 'eyes found', 'hands knew', or instrument-phrase demotions.",
+      "secondSweep": "Dedicated P5/P6 pass done. Roads and geography carry only spatial verbs ('fell away', 'running down', 'bent', 'dropping', 'climbing', 'went on'), with no fire, revision, or command verbs. Maps, reports, and files receive no cognition verbs; the map is always acted on by Sylvanas, Cyndia, or 'somebody' who pinned or drew it. Body parts: only the involuntary hand closing (lines 145, 207) and palm sensation (lines 75, 235). Abstract-into-body ('defeat settling into his mouth' type): none. Metaphor chains: only the limp/favouring-a-leg family on the stones, one verb family.",
+      "findings": []
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 20,
+      "kills": 0,
+      "keeps": 20,
+      "killRate": "0%",
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "counts": {
+        "tic1_cornerOfMouth": "0 / cap 1",
+        "tic2_marked": "2 / cap 2 (both line 231, survey/raider marking, literal)",
+        "tic3_tightened": "0 / cap 3",
+        "tic3_eased": "2 / cap 2 (both physical: line 29 'easing his weight off the stirrups', line 103 'easing a knee')",
+        "tic4_facialShifted": "0 / cap 1 (4 'shifted' hits are all physical: mare, Lor'themar in saddle, Sylvanas shifting at map, crystal colour)",
+        "tic5_eyeGaze": "4 / cap 4 (line 151 'He was looking at her hand', line 267 'This one was looking at Sylvanas, quiet and fixed', line 273 'The mage looked her over', line 293 'to keep looking at her'). Not counted: line 195 'narrow-eyed' (squint against ward-light, physical), lines 81/243 'studied' (object inspection), line 91 'one more look at the stone' (action)",
+        "tic6_weightHeaviness": "0 / cap 2 (all 'weight' hits are physical)",
+        "tic7_nonSaidTags": "0 / cap 3 ('called' at line 15 is volume, exempt)"
+      },
+      "cleanReason": "Every tic is at or under its hard cap. Where a cap is exactly met (marked 2/2, eased 2/2, eye/gaze 4/4), the instances are physical or character-specific. Tool signals mapped to this guide were all under cap and judged legitimate: filter_watched x2 (dialogue at line 29; 'Well, she'd watched' at line 247 calls back 'A name worth watching'), filler_frowned x2 (line 275, the mage's frown at the stone is the scene's plot tell), simile_like x4 / as_if x1 / as_though x1 (concrete or rider-voice comparisons), participial_trailing x7 (texture is BELOW its participial target, so none should be cut), punct_colon_narration 5/5 (at cap, not over), punct_semicolon 4/10.",
+      "nearCapWarning": "Eye/gaze is at cap (4/4) and colon narration is at cap (5/5). Revision for other findings must not add a look, gaze, or narration colon.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 60,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 MILD negation kills (at most 3 MILD and 0 MODERATE/SEVERE). The MILD findings stay here for downstream editors. Intent-smear and recurring-tics are clean. Structural rhythm concerns: long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr outside range. Structural texture deficit: texture below_target (participial 6.1% vs 12% target, em-dash 0.8% vs 4%), with 8 telegram runs and 10 texture deserts.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.644,
+        "target": 0.72,
+        "delta": -0.076,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.0,
+        "target": 11.0,
+        "delta": 0.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.736,
+        "target": 0.7,
+        "delta": 0.036,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 37.3,
+        "target": 35.0,
+        "delta": 2.3,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 16.7,
+        "target": 10.0,
+        "delta": 6.7,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.01,
+        "target": 7.7,
+        "delta": -1.69,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 25.2,
+        "target": 19.0,
+        "delta": 6.2,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.789,
+        "target": 0.83,
+        "delta": -0.041,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 81.6,
+      "participial_pct": 6.1,
+      "compound_pct": 11.0,
+      "emdash_pct": 0.8,
+      "semicolon_pct": 0.8,
+      "short_pct": 45.3,
+      "verdict_reasons": [
+        "participial: 6.1% below target 12.0% (score 56/100)",
+        "emdash: 0.8% below target 4.0% (score 71/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.1% → target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 0.8% → target 4.0% (score 71/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 8,
+      "textureDesertCount": 10,
+      "flaggedPassages": [
+        {
+          "type": "texture_desert",
+          "start": 48,
+          "end": 59,
+          "preview": "In the morning she would put on the formal greens and sit a  Men who had never drawn a bow"
+        },
+        {
+          "type": "telegram_run",
+          "start": 52,
+          "end": 59,
+          "preview": "Lor'themar let his horse drop its head to crop at a fern. \"Today?\" he said. \"The outer rin"
+        },
+        {
+          "type": "telegram_run",
+          "start": 93,
+          "end": 100,
+          "preview": "No. It was real. She knew stones."
+        },
+        {
+          "type": "texture_desert",
+          "start": 112,
+          "end": 132,
+          "preview": "\"The beat's uneven. There's cold under it.\" He studied the stone, his brow drawn down the "
+        },
+        {
+          "type": "telegram_run",
+          "start": 115,
+          "end": 122,
+          "preview": "Leaning out of the saddle, he put his own bare hand to the s \"Feels like a stone to me.\" \""
+        },
+        {
+          "type": "telegram_run",
+          "start": 151,
+          "end": 158,
+          "preview": "What do I tell them?\" The opening. She could tell him about the stone."
+        },
+        {
+          "type": "texture_desert",
+          "start": 151,
+          "end": 170,
+          "preview": "What do I tell them?\" The opening. She could tell him about the stone."
+        },
+        {
+          "type": "telegram_run",
+          "start": 185,
+          "end": 196,
+          "preview": "\"Skip the compliments. What.\" \"Intruder."
+        },
+        {
+          "type": "texture_desert",
+          "start": 185,
+          "end": 201,
+          "preview": "\"Skip the compliments. What.\" \"Intruder."
+        },
+        {
+          "type": "telegram_run",
+          "start": 203,
+          "end": 210,
+          "preview": "\"Papers. Any seal?\" \"No seal, no escort, no letter."
+        },
+        {
+          "type": "texture_desert",
+          "start": 203,
+          "end": 212,
+          "preview": "\"Papers. Any seal?\" \"No seal, no escort, no letter."
+        },
+        {
+          "type": "texture_desert",
+          "start": 214,
+          "end": 237,
+          "preview": "Sylvanas had closed her right hand into a fist without meani The cold was still there in t"
+        },
+        {
+          "type": "telegram_run",
+          "start": 225,
+          "end": 233,
+          "preview": "What spy, caught at a ward-stone, looks up at a Farstrider's One who wants to be caught. N"
+        },
+        {
+          "type": "telegram_run",
+          "start": 314,
+          "end": 325,
+          "preview": "Or she was right. \"Did she fight?\" \"No."
+        },
+        {
+          "type": "texture_desert",
+          "start": 314,
+          "end": 330,
+          "preview": "Or she was right. \"Did she fight?\" \"No."
+        },
+        {
+          "type": "texture_desert",
+          "start": 409,
+          "end": 425,
+          "preview": "Her travelling robe was brown wool, kilted up for walking, w Her boots were good boots, wa"
+        },
+        {
+          "type": "texture_desert",
+          "start": 436,
+          "end": 445,
+          "preview": "The stone hummed the way the roadside stones had hummed unde From a doorway, with the lamp"
+        },
+        {
+          "type": "texture_desert",
+          "start": 457,
+          "end": 467,
+          "preview": "She wasn't going to. She'd known it since the runner opened his mouth on the fore And had "
+        }
+      ],
+      "note": "structural texture deficit (participial and em-dash below target)"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 32,
+        "total_violations": 1,
+        "overCap": [
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0,
+            "routedTo": "pass B (narrator-seep guide)"
+          }
+        ]
+      }
+    }
+  }
+}

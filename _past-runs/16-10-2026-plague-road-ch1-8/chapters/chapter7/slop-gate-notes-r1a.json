@@ -1,0 +1,268 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA trajectory [70] -> 13 this sweep, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 18,
+      "kills": 7,
+      "keeps": 11,
+      "severity": "MILD",
+      "dominantPattern": "Pattern 5 preamble negation (state what did not happen, then what did)",
+      "clusterWarnings": "None at page level. L299, L311 and L323 sit in the same Tenter Row / rooftop pursuit (~730 words, about 2.5 pages), so no page reaches 2+ kills, but the pursuit is the densest zone.",
+      "keepRateNote": "Keep rate 61% is above the guide's 20% alarm. Re-examined: plain negated facts (capability limits, absent cover, imperatives) were excluded from the candidate count; the 11 contrast-shaped keeps survive on binary diagnostics in the Havel/Corin/Jaina argument scenes or on Sylvanas's self-argument (condition 4). See scratchpad.",
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 27,
+          "text": "So he was honest and worn out, but she still couldn't have told him from a man who was worn out and paid, not from the arch.",
+          "pattern": "NEG-P4 buried trailing negation (camouflage: after a comma)",
+          "deletionTest": "So he was honest and worn out, but she still couldn't have told him from a man who was worn out and paid.",
+          "reason": "The tacked-on 'not from the arch' is a negation qualifier in a paragraph already carrying 'nobody needed it' and 'Nobody could order'. The vantage limit can be stated positively.",
+          "severity": "MILD",
+          "suggestedFix": "So he was honest and worn out, though from the arch she couldn't have told him from a man who was worn out and paid.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-2",
+          "line": 85,
+          "text": "He wasn't tall, but broad and square, with the build of a man who had carried sacks before he ever carried a truncheon.",
+          "pattern": "NEG-P1 direct contrast pivot (not X but Y)",
+          "deletionTest": "He was broad and square, with the build of a man who had carried sacks before he ever carried a truncheon.",
+          "reason": "Textbook 'not X but Y'. The sentence works from 'broad and square'.",
+          "severity": "MILD",
+          "suggestedFix": "He was of middle height, broad and square, with the build of a man who had carried sacks before he ever carried a truncheon.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-3",
+          "line": 299,
+          "text": "She didn't hurry. The loader was well ahead of her and in no hurry himself, the leather pad on his shoulder showing pale in the dusk, walking up the middle of the lane.",
+          "pattern": "NEG-P5 preamble negation, mirrored ('didn't hurry' / 'in no hurry himself')",
+          "deletionTest": "The loader was well ahead of her, the leather pad on his shoulder showing pale in the dusk, walking up the middle of the lane.",
+          "reason": "Both her pace and his are given by what they were not doing, back to back. State the pace.",
+          "severity": "MILD",
+          "suggestedFix": "She matched the loader's pace. He was well ahead of her, walking easy up the middle of the lane, the leather pad on his shoulder showing pale in the dusk.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-4",
+          "line": 311,
+          "text": "The fingers Tam had bitten wouldn't close properly on it; they caught the edge late and held badly.",
+          "pattern": "NEG-P5 preamble negation (negative then the positive restatement)",
+          "deletionTest": "The fingers Tam had bitten caught the edge late and held badly.",
+          "reason": "The second clause already carries the damaged grip. The negative half is scaffolding.",
+          "severity": "MILD",
+          "suggestedFix": "The fingers Tam had bitten caught the edge late and held badly.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-5",
+          "line": 323,
+          "text": "On the side of the nearest she could make out a sheaf in a ring, stencilled, and letters under it that she didn't need to read.",
+          "pattern": "NEG-P4 minimizer (recognition stated as a need she did not have)",
+          "deletionTest": "On the side of the nearest she could make out a sheaf in a ring, stencilled, and letters under it.",
+          "reason": "The coy negation stands in for 'she recognised it'. The next sentence (her hand on the Brask sacking) carries the recognition.",
+          "severity": "MILD",
+          "suggestedFix": "On the side of the nearest she could make out a sheaf in a ring, stencilled, with lettering under it that she knew.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-6",
+          "line": 359,
+          "text": "At the top of the sheet, above where his hand began, were three lines that weren't his: blots, a stroke that had gone through the paper, a word she couldn't make out at all.",
+          "pattern": "NEG-P4 redundant negation (already implied by 'above where his hand began')",
+          "deletionTest": "At the top of the sheet, above where his hand began, were three lines: blots, a stroke that had gone through the paper, a word she couldn't make out at all.",
+          "reason": "Deletion test passes; 'above where his hand began' and Jaina's 'I tried' already say whose lines they are.",
+          "severity": "MILD",
+          "suggestedFix": "At the top of the sheet, above where his hand began, were three lines: blots, a stroke that had gone through the paper, a word she couldn't make out at all.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-7",
+          "line": 431,
+          "text": "The three from the gate didn't go in. They went up Hurdle Lane.",
+          "pattern": "NEG-P5 preamble negation (Cyndia's report)",
+          "deletionTest": "The three from the gate went up Hurdle Lane.",
+          "reason": "Deletion test passes. The contrast with the pair who 'went in last' survives without the negative sentence.",
+          "severity": "MILD",
+          "suggestedFix": "The three from the gate went up Hurdle Lane instead.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 21,
+      "kills": 3,
+      "keeps": 18,
+      "severity": "MILD",
+      "dominantPattern": "Second-sweep physical-behaviour cases (geography motion, body part as subject, abstraction given judgment); no Pattern 1-4 command/promise/self-deception smears found",
+      "patternFourAlert": "no",
+      "repeatNouns": "city/town (L267 'a town eating bad grain', L333 'The whole city breathed this stuff') - both literal collective physical acts with townspeople legible; kept, not intent verbs",
+      "secondSweep": "Re-read every sentence for inanimate or abstract subjects carrying agency, desire, cognition, combustion or physical behaviour. Caught L243 (geography 'came'), L311 ('the climb deserved'), L325 (hand as subject 'came out'). Examined and kept: grain/carts/wagons moving (L1, L73, L229), pen resting (L139), dust showing prints (L303), boots seen through spokes (L305), elbow slip (L337), glass reflecting (L341), crews answering the bell (L345), night air (L355, atmospheric, pass B remit), paper curling (L357, L473), hook recurring (L359), plague coat/body mechanism (L373, subject matter), horse knowing the way (L429), staff/stool noises (L443), 'two bows' synecdoche (L463). No instrument-phrase actor demotion ('under the quill' type) and no permission tags found.",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 243,
+          "text": "The mouth of Tenter Row came on the right, narrower than the rest.",
+          "pattern": "IS-P1 geography given a motion verb (second sweep)",
+          "subject": "the mouth of Tenter Row",
+          "verb": "came",
+          "realAgent": "Sylvanas and Havel walking down Hurdle Lane reached it",
+          "reason": "The lane mouth does the moving while the walkers drop out. A plain locative fixes it.",
+          "severity": "MILD",
+          "suggestedFix": "On the right was the mouth of Tenter Row, narrower than the rest.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-2",
+          "line": 311,
+          "text": "She put her weight on the other two and her forearm and went up anyway, lying flat on the slates at the top with grit in her cheek and her heart going harder than the climb deserved.",
+          "pattern": "IS-P5 abstraction given judgment ('the climb deserved')",
+          "subject": "the climb",
+          "verb": "deserved",
+          "realAgent": "Sylvanas's own body after a short climb; nothing judges anything",
+          "reason": "The climb is given a judgment verb. State the mismatch plainly.",
+          "severity": "MILD",
+          "suggestedFix": "She put her weight on the other two and her forearm and went up anyway, lying flat on the slates at the top with grit in her cheek and her heart going hard for so short a climb.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-3",
+          "line": 325,
+          "text": "He bent and put his gloved hand into it, and it came out full of something dark and thick that hung off his fingers like cold dripping.",
+          "pattern": "IS-P8 body part as subject ('it [the hand] came out')",
+          "subject": "his gloved hand",
+          "verb": "came out",
+          "realAgent": "the masked man drew his hand out",
+          "reason": "Put the character back in subject position and the sentence means the same. This is the deliberate act at the centre of the scene, so it should be his act.",
+          "severity": "MILD",
+          "suggestedFix": "He bent and put his gloved hand into it and drew it out full of something dark and thick that hung off his fingers like cold dripping.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 12,
+      "kills": 3,
+      "keeps": 9,
+      "severity": "MILD",
+      "dominantPattern": "Tic 5 eye/gaze repertoire (7 reaction/assessment gaze beats against a cap of 4)",
+      "ticCounts": {
+        "tic1_cornerOfMouth": 0,
+        "tic2_markedVerb": 2,
+        "tic3_tightened": 1,
+        "tic3_eased": 0,
+        "tic4_facialShifted": 0,
+        "tic5_eyeGazeBeats": 7,
+        "tic6_weightMetaphor": 0,
+        "tic7_nonSaidTags": 0
+      },
+      "tic5Inventory": "Reaction/assessment gaze beats: L57 (Jaina's level look at the clerk), L61 (clerk looks along the three and stops on her), L85 (Havel clocks her, Cyndia, the bows), L157 (Sylvanas looked from one to the other), L167 (Jaina opens her eyes and looks at the young man), L381 (Jaina looks from the crock ring to the first Heavy and back), L473 (Sylvanas looks at Corin: ink, satchel, bruised eyes). Functional reading (L19, L35, L177) and tactical scanning (L221, L241, L281, L283, L285, L309, L341) not counted. Survivors: L57, L85, L381, L473.",
+      "findings": [
+        {
+          "id": "A-TIC-1",
+          "line": 61,
+          "text": "\"Ranger-General.\" He looked along the three of them and stopped on her. \"Which—\"",
+          "pattern": "TIC-5 eye/gaze beat over cap (generic recognition look)",
+          "reason": "One of 7 gaze reaction beats against a cap of 4. His half-finished 'Which—' already shows him trying to work out which of them is the Ranger-General.",
+          "severity": "MILD",
+          "suggestedFix": "\"Ranger-General. Which—\"",
+          "fixNote": "Deletes the gaze sentence and merges the two quoted fragments.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-TIC-2",
+          "line": 157,
+          "text": "Sylvanas looked from one to the other.",
+          "pattern": "TIC-5 eye/gaze beat over cap (tennis-match reaction look)",
+          "reason": "The most generic gaze beat in the chapter. The next sentence ('Havel knew where the poison went into the sacks; Corin knew where the sacks went after.') already does her weighing of the two men.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixNote": "Deletion: replace the cited sentence with nothing; the paragraph opens on 'Havel knew where the poison went into the sacks;'.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-TIC-3",
+          "line": 167,
+          "text": "Now she opened them and looked at the young man.",
+          "pattern": "TIC-5 eye/gaze beat over cap (attention look before a line that names him)",
+          "reason": "Over the gaze cap, and her next line opens with 'Corin,' so the look is redundant. Keep the eyes opening, which is the physical change after she sat half asleep. This falls inside the telegram_run / texture_desert at L167-171.",
+          "severity": "MILD",
+          "suggestedFix": "Now she opened them.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    }
+  ],
+  "toolSignalAudit": {
+    "mappedToPassA": ["filter_watched", "filter_decided", "filler_nodded", "simile_like", "simile_as_if", "participial_trailing", "punctuation_tics"],
+    "result": "All tool-flagged pass A lines were audited and none became a KILL. filter_watched (4, cap 3, over): L31 Lyriel guarding, L117 and L431 in dialogue, L199 a hypothetical capability. None is a POV perception filter on Sylvanas, so all are kept. filter_decided L57 is description, not a filter. filler_nodded (3, cap 4): L217, L251 (a pointing nod) and L327 (seen from a distance with no sound) are kept. simile L105 and L283 ('as if to steady himself' is a deliberate feint) are kept. Participial (14/37) and punctuation (semicolon 9/18, colon 8/9) are under cap. narrator_verdict L227 is pass B and is not audited here.",
+    "killsWithToolSignal": 0
+  },
+  "summary": {
+    "totalKills": 13,
+    "totalKeeps": 38,
+    "mildKills": 13,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "guidesWithKills": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "killsWithFix": 13,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "13 MILD kills (more than 3 MILD-only), 0 MODERATE/SEVERE. The slophunter revision cut the pass A kill count from 70 to 13. What remains is local: 7 negation pivots (mostly preamble negations, three of them in the Tenter Row pursuit), 3 second-sweep agency slips (lane mouth 'came', 'the climb deserved', hand 'came out'), and 3 excess gaze beats (Tic 5 at 7 against a cap of 4). Every kill has a drop-in fix or a deletion. Structural texture deficit: texture score 88.6, below_target (compound 16.8% is above target, em-dash 2.8% is below). Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct and mattr are outside range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"measured": 0.685, "target": 0.733, "delta": -0.048, "inRange": true},
+      "sentence_length_mean": {"measured": 12.5, "target": 12.412, "delta": 0.088, "inRange": true},
+      "sentence_length_cv": {"measured": 0.767, "target": 0.723, "delta": 0.044, "inRange": true},
+      "short_sentence_pct": {"measured": 36.1, "target": 30.155, "delta": 5.945, "inRange": true},
+      "long_sentence_pct": {"measured": 22.6, "target": 15.352, "delta": 7.248, "inRange": false},
+      "opener_entropy": {"measured": 6.33, "target": 6.637, "delta": -0.307, "inRange": true},
+      "one_sentence_paragraph_pct": {"measured": 30.3, "target": 21.378, "delta": 8.922, "inRange": false},
+      "mattr": {"measured": 0.788, "target": 0.848, "delta": -0.06, "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct 22.6 above range [12.352, 19.352]", "one_sentence_paragraph_pct 30.3 above range [17.378, 26.378]", "mattr 0.788 below range [0.818, 0.888]"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "textureScore": 88.6,
+      "participial_pct": 6.7,
+      "compound_pct": 16.8,
+      "emdash_pct": 2.8,
+      "semicolon_pct": 1.2,
+      "short_pct": 45.6,
+      "verdict_reasons": ["compound: 16.8% above target 14.135% (score 76/100)", "emdash: 2.8% below target 5.119% (score 79/100)"],
+      "interpretation": "COMPOUND: 16.8% -> target 14.135% (score 76/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.8% -> target 5.119% (score 79/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "telegramRunCount": 9,
+      "textureDesertCount": 10,
+      "flaggedZonesApproxLines": "L9-19, L37-57 (gate interview), L109-127, L145-151, L167-171, ~L209-217, L269-277, L373-377, L397-401, L451-459",
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 46,
+        "total_violations": 2,
+        "overCap": ["filter_watched 4/3 (pass A - all kept, see toolSignalAudit)", "verdict_enough_for 1/0 at L227 (pass B remit, not audited here)"]
+      }
+    }
+  }
+}

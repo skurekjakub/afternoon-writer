@@ -1,0 +1,991 @@
+{
+  "chapterId": "chapter6",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 18,
+      "kills": 11,
+      "keeps": 7,
+      "mildKills": 7,
+      "moderateOrSevereKills": 4,
+      "dominantPattern": "P5-preamble-negation / P2-P3 pivots",
+      "findings": [
+        {
+          "line": 59,
+          "text": "Nothing she'd been taught. Nothing she'd ever made.",
+          "pattern": "P7-chained-negation-fragments",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Two stacked negative fragments with no positive landing; deletion of the scaffolding and a single positive comparative carries the same capability limit.",
+          "suggestedFix": "It was past anything she'd been taught or made.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Cut both fragments: 'In the loft she had never asked what kind of keeping survives a mill, an oven and a gut.' The limit survives in one positive line."
+        },
+        {
+          "line": 127,
+          "text": "He wasn't alone.",
+          "pattern": "P5-preamble-negation",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Coy reveal: the next paragraph opens with Arthas and the boy trotting behind him, so the negation only primes a reveal the prose then delivers. Delete the sentence and leave 'The boy came back down the lane.'",
+          "suggestedFix": "(delete 'He wasn't alone.'; keep 'The boy came back down the lane.')",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "'The boy came back down the lane.' then 'Arthas came between the tents...' survives intact."
+        },
+        {
+          "line": 153,
+          "text": "And the dead didn't stay down; they got up and walked north, sixty of them at least.",
+          "pattern": "P5-preamble-negation",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Dialogue pivot 'didn't stay down; they got up' - the positive half carries the fact; sits in the same speech block as the L157 count reset (narration and dialogue both using the pivot rhythm).",
+          "suggestedFix": "And the dead got up and walked north, sixty of them at least.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "'And the dead got up and walked north' - survives and is more direct."
+        },
+        {
+          "line": 157,
+          "text": "And it isn't one village. It's carts, depots, account books.",
+          "pattern": "P6-count-reset",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Count reset 'isn't one village. It's carts...' matches the calibration 'This was not one rush. Several passes.' Second pivot in one speech after L153.",
+          "suggestedFix": "And it's more than the one village. It's carts, depots, account books.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "'It's carts, depots, account books.' carries the scale; the rejected count is scaffolding."
+        },
+        {
+          "line": 217,
+          "text": "No. Whether the fences were right had never been the point.",
+          "pattern": "P3-source-swap",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "'X had never been the point' refuses one frame before the next sentence names the real one (his sureness). 'No.' is the self-argument; the second sentence is scaffolding.",
+          "suggestedFix": "No.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "'No. He'd been sure before they reached the fence and sure crawling back from it...' survives and improves."
+        },
+        {
+          "line": 233,
+          "text": "\"He's not a fool,\" she said. \"He's a good commander, ",
+          "pattern": "P2-fragment-pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "'Not a fool. A good commander.' fragment pivot in dialogue; under the cluster rule (dialogue pivots at L153/L157 plus narration pivots) it falls with the rest. The L239 callback ('a soldier who would think every prince a fool') still lands off 'a good commander'. Fix yields: \"He's a good commander,\" she said, \"with an enemy he can see and men who'd follow him into it.\"",
+          "suggestedFix": "\"He's a good commander,\" she said, \"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "'He's a good commander, with an enemy he can see...' carries Sylvanas's verdict."
+        },
+        {
+          "line": 273,
+          "text": "He laughed at that, not unkindly.",
+          "pattern": "P4-minimizer",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Litotes minimizer bats away 'unkind' to imply 'kind'; write the visible behaviour.",
+          "suggestedFix": "He laughed at that and shook his head.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "'He laughed at that.' survives; the friendliness is carried by his helpful answer."
+        },
+        {
+          "line": 291,
+          "text": "Jaina opened her mouth to say yes, of course. Nothing followed it.",
+          "pattern": "P5-preamble-negation",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Primes the expected answer, then lands on a negated non-event; state the physical stop.",
+          "suggestedFix": "Jaina started to say yes, of course, and stopped.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The blank is better carried by a positive action (she stopped)."
+        },
+        {
+          "line": 321,
+          "text": "It didn't come through the staff this time, or not only. It came in behind her eyes and pushed.",
+          "pattern": "P3-source-swap",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "'not from X, or not only. From Y.' source swap; the positive sentence carries the channel. Sits in the L313-L345 run with L325.",
+          "suggestedFix": "This time it came in behind her eyes as well as through the staff, and pushed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "'It came in behind her eyes and pushed.' survives."
+        },
+        {
+          "line": 325,
+          "text": "These didn't stand.",
+          "pattern": "P5-preamble-negation",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Prior case (ring stones: stood) set up only to be denied; the following sentences already show the horses crabbing and tossing. State what these horses did.",
+          "suggestedFix": "These went on shying.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "'Sylvanas talked to hers...' and 'the animals went on crabwise' carry it."
+        },
+        {
+          "line": 361,
+          "text": "They hadn't been chasing it. It had been here all along,",
+          "pattern": "P2-fragment-pivot",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "'hadn't been X. Y.' pivot at the chapter climax; delete the negative sentence and start at 'It had been here all along, running, while they read the roads that ran into it.'",
+          "suggestedFix": "It had been here all along,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "'It had been here all along, running, while they read the roads that ran into it.' survives and improves."
+        }
+      ],
+      "clusterWarnings": [
+        "L153+L157+L233: dialogue pivot rhythm in the Arthas/Sylvanas exchanges while narration pivots run at L217, L321, L325, L361 - cluster rule applied (narration and dialogue both pivoting).",
+        "L313-L361: four narration negation kills in the final third (L321, L325, L361 plus L291)."
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 41,
+      "kills": 15,
+      "keeps": 26,
+      "mildKills": 12,
+      "moderateOrSevereKills": 3,
+      "dominantPattern": "P10-receiver-noun / actor demotion",
+      "findings": [
+        {
+          "line": 3,
+          "text": "the light in it flinching each time the weight came up",
+          "pattern": "P5P6-sweep-physical-behaviour-on-inanimate",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Second-sweep catch: crystal light given a startle reflex verb ('flinching'). Real event: the light dims.",
+          "suggestedFix": "the light in it dipping each time the weight came up",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 3,
+          "text": "then went in behind her eyes and sat there",
+          "pattern": "P5P6-sweep-sensation-landing-verb",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Sensation given a posture/landing verb ('sat there'), matching calibration 'The old ache settled back into the joint'. Sentence becomes: 'It rose through the saddle into the staff where it lay in the crook of her dead arm, then on into the ache behind her eyes.'",
+          "suggestedFix": "then on into the ache behind her eyes",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 9,
+          "text": "harder each time the road gave its weight up through the staff",
+          "pattern": "P1-infrastructure-agency",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Road given an act of giving ('gave its weight up'); the drag rising through each hoof-fall is the mechanism already named at L3. Road is intent-smeared twice more (L81, L253) - repeat-noun rule.",
+          "suggestedFix": "harder each time the weight came up through the staff",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 9,
+          "text": "The left hand had the reins, wrapped in Lyriel's linen to the wrist with two fingertips bare, the palm throbbing in time with the mare's walk.",
+          "pattern": "P8-body-part-agent",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Body-part subject doing a volitional hold; character-as-subject test keeps the meaning. (The dead right arm holding the staff is kept: involuntary, the point of the line.)",
+          "suggestedFix": "She had the reins in her left hand, wrapped in Lyriel's linen to the wrist with two fingertips bare, the palm throbbing in time with the mare's walk.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 21,
+          "text": "a fever that liked villages because villages shared wells",
+          "pattern": "P5-object-wanting",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "Fever given a preference verb ('liked'); the real mechanism is transmission through shared wells, already named in the clause.",
+          "suggestedFix": "a fever that spread through villages because villages shared wells",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 21,
+          "text": "even after the slate in the chapel ruled it out",
+          "pattern": "P10-receiver-noun",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The slate is given the judgment ('ruled it out'); Jaina is the one who read it and ruled the fever out. Put her back in subject position.",
+          "suggestedFix": "even after she had read the slate in the chapel",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 39,
+          "text": "Lyriel's head came round at her knee.",
+          "pattern": "P8-body-part-agent",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Body-part subject for a volitional turn toward a speaker; Lyriel turned.",
+          "suggestedFix": "Lyriel turned round at her knee.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 75,
+          "text": "quicker than the court gave him credit for",
+          "pattern": "P4-institution-judgment",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Institution given a judging verb; the people doing the underrating are courtiers, not 'the court', and none are in scene to make it a collective actor.",
+          "suggestedFix": "quicker than the courtiers gave him credit for",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 81,
+          "text": "and it moved because the road under it was moving",
+          "pattern": "P10-receiver-noun",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Road given the motion that belongs to the wagons, horses and men on it (shown next paragraph). Fix keeps the reveal unspent. Road repeat-noun (L9, L253).",
+          "suggestedFix": "and it moved with whatever was moving on the road under it",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 219,
+          "text": "It had bought her a laugh and a supper.",
+          "pattern": "P10-receiver-noun",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Abstract 'it' (her name, the old footing) given a transaction verb; Arthas gave the laugh and the supper. Put the people back.",
+          "suggestedFix": "She had got a laugh out of him, and a supper.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 253,
+          "text": "The road came down out of the hills in the middle of the afternoon, and once it reached the flat it began to fill.",
+          "pattern": "P10-actor-demotion",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "The time phrase 'in the middle of the afternoon' exposes the omitted actor: the party came down at that hour, not the road. Third road agency instance in the chapter (L9, L81).",
+          "suggestedFix": "They came down out of the hills in the middle of the afternoon, and once the road reached the flat it began to fill.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 281,
+          "text": "He gave a small duck of his head that took in all four of them",
+          "pattern": "P10-receiver-noun",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Nominalized gesture ('a small duck of his head') given the verb 'took in'; he is the actor. Sentence continues '...and stepped back off the road to let them by.'",
+          "suggestedFix": "He ducked his head to all four of them",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 317,
+          "text": "and every breath had to be pulled in",
+          "pattern": "P10-actor-omitted-passive",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Passive omits the actor (Jaina) - camouflage form named in the guide.",
+          "suggestedFix": "and she had to work for every breath",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 339,
+          "text": "Her hand came over Jaina's on the reins and stayed there, steadying the mare.",
+          "pattern": "P8-body-part-agent",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Lyriel's hand given the volitional move and the steadying; character-as-subject test keeps the meaning.",
+          "suggestedFix": "She put her hand over Jaina's on the reins and kept it there, steadying the mare.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 363,
+          "text": "Dalaran didn't know where she was.",
+          "pattern": "P4-institution-cognition",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "reason": "City/institution given knowledge; the person who would know is her master (named at L71, L111, L315).",
+          "suggestedFix": "Antonidas didn't know where she was.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "repeatNouns": [
+        "the road (L9 gave its weight up, L81 was moving, L253 came down in the middle of the afternoon)"
+      ],
+      "pattern4Alert": "yes - L75 'the court gave him credit', L363 'Dalaran didn't know'",
+      "secondSweep": "P5/P6 sweep re-read every sentence for inanimate/abstract subjects with agency, cognition or physical-behaviour verbs. Added L3 'light ... flinching', L3 'sat there', L253 actor demotion via time phrase, L281 gesture 'took in', L317 passive breath. Body-part subjects: killed L9 left hand, L39 head, L339 hand; kept L9 dead arm, L63 stomach/hand (involuntary), L249 hands (Jaina handled), L277 shoulders (involuntary). Road topographic course verbs (climbed, went over, came out) and in-world drag verbs (came up, rose, read like) kept under subject-matter / literal-layout."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 46,
+      "kills": 16,
+      "keeps": 30,
+      "mildKills": 16,
+      "moderateOrSevereKills": 0,
+      "dominantPattern": "Tic 5 eye/gaze + punct_colon_narration over cap",
+      "findings": [
+        {
+          "line": 13,
+          "text": "so hard that the crystal guttered and Jaina's stomach dropped.",
+          "pattern": "body-cliche-stomach-dropped",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Stock dread cliche; L63 'Her stomach turned over' is the planned nausea anchor fifty lines later, so this is the generic duplicate. Next line 'She knew that drag.' carries the reaction.",
+          "suggestedFix": "so hard that the crystal guttered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "cliche_stomach_dropped"
+        },
+        {
+          "line": 51,
+          "text": "Sylvanas watched the road ahead,",
+          "pattern": "filter-watched-over-cap",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "filter_watched 7 vs cap 3; generic beat. Keeps L125 (Cyndia guarding hands), L199 (sees but cannot feel the grip), L249 (sergeant).",
+          "suggestedFix": "Sylvanas faced the road ahead,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filter_watched"
+        },
+        {
+          "line": 55,
+          "text": "Sylvanas looked at her a moment longer. \"He has orcs in his hills, Mage,\" she said,",
+          "pattern": "tic5-eye-gaze",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Generic 'looked at her a moment longer' hold beat; 'a moment longer' recurs at L141. Eye/gaze reaction beats ~10 vs cap 4.",
+          "suggestedFix": "\"He has orcs in his hills, Mage,\" Sylvanas said,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 103,
+          "text": "most men Jaina had watched her measure since the Pass",
+          "pattern": "filter-watched-over-cap",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "POV filter ('Jaina had watched her measure'); Sylvanas's measuring is the fact.",
+          "suggestedFix": "most men she had measured since the Pass",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filter_watched"
+        },
+        {
+          "line": 117,
+          "text": "The sergeant looked at her a while, leaning on his spear.",
+          "pattern": "tic5-eye-gaze",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Generic hold-look beat before an action; eye/gaze over cap.",
+          "suggestedFix": "The sergeant leaned on his spear a while.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 141,
+          "text": "He studied her a moment longer, then turned and gave Sylvanas",
+          "pattern": "tic5-eye-gaze",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Second 'a moment longer' look beat (L55); L137 already has him take in the wrapped hand. Eye/gaze over cap.",
+          "suggestedFix": "He turned and gave Sylvanas",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 145,
+          "text": "Sylvanas watched his face and then Jaina's, her own unchanged.",
+          "pattern": "tic5-eye-gaze",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Generic face-to-face watching beat; also counts toward filter_watched over cap.",
+          "suggestedFix": "Sylvanas stood as she had, her face still.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filter_watched"
+        },
+        {
+          "line": 155,
+          "text": "as she had seen him listen to a fencing master, his eyes on her face and his mouth pressed.",
+          "pattern": "tic5-eye-gaze",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The fencing-master simile carries the attention; 'his eyes on her face' is the generic gaze add-on. Eye/gaze over cap.",
+          "suggestedFix": "as she had seen him listen to a fencing master.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 193,
+          "text": "and watched every piece go in",
+          "pattern": "filter-watched-over-cap",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "POV filter with a figurative object; Arthas taking it in is the fact the paragraph turns on.",
+          "suggestedFix": "and he had taken in every piece",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filter_watched"
+        },
+        {
+          "line": 243,
+          "text": "He looked past her at the elves, opened his mouth, and shut it again.",
+          "pattern": "tic5-eye-gaze",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Stock look-and-hesitate beat (look past + opened mouth, shut it again). Eye/gaze over cap.",
+          "suggestedFix": "He hesitated, then stood aside for her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 75,
+          "text": "She would put all of it in front of Arthas: the slips,",
+          "pattern": "punct-colon-narration-over-cap",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "punct_colon_narration 13 vs cap 7; recap list. Em-dash also serves the texture deficit (emdash 0.7% vs 5.1% target).",
+          "suggestedFix": "She would put all of it in front of Arthas—the slips,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "line": 239,
+          "text": "Jaina waited for the rest of it: why he'd laughed,",
+          "pattern": "punct-colon-narration-over-cap",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Colon list over cap; fix sets up the next sentence 'Sylvanas didn't ask.' directly.",
+          "suggestedFix": "Jaina waited for her to ask why he'd laughed,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "line": 267,
+          "text": "then along the rest of them: the bows, the tall horses, Cyndia with her hand near her quiver, the staff in the crook of Jaina's arm.",
+          "pattern": "punct-colon-narration-over-cap",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Same 'looked along them: inventory' shape as L107; second instance is the weaker. Colon over cap.",
+          "suggestedFix": "then along the rest of them, at the bows and the tall horses, at Cyndia with her hand near her quiver and the staff in the crook of Jaina's arm.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "line": 293,
+          "text": "Whatever she'd felt off him had come off the road: no knot in him, no lateness of his own.",
+          "pattern": "punct-colon-narration-over-cap",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Colon over cap; content kept (the honest nothing is plan-required).",
+          "suggestedFix": "Whatever she'd felt off him had come off the road. There had been no knot in him, no lateness of his own.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "line": 321,
+          "text": "This was that: the weight of water",
+          "pattern": "punct-colon-narration-over-cap",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Colon over cap; simple simile join.",
+          "suggestedFix": "This was like that, the weight of water",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "line": 357,
+          "text": "She had braced for Millhaven all afternoon: the drag in the road, the frost on her fingers, the horses going wild.",
+          "pattern": "punct-colon-narration-over-cap",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Colon recap list over cap.",
+          "suggestedFix": "All afternoon, through the drag in the road, the frost on her fingers and the horses going wild, she had braced for Millhaven.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        }
+      ],
+      "ticCounts": {
+        "tic1_cornerOfMouth": 0,
+        "tic2_marked": 1,
+        "tic3_tightened": 0,
+        "tic3_eased": 2,
+        "tic4_facialShifted": 0,
+        "tic5_eyeGazeReactionBeats": 10,
+        "tic6_weightMetaphor": 0,
+        "tic7_nonSaidTags": 0,
+        "filter_watched": 7,
+        "punct_colon_narration": 13
+      },
+      "note": "Tic 6: every 'weight/heavy' use (L3, L9, L13, L123, L321, L341) is the literal in-world drag or literal weight; none is an emotional gravity metaphor. Participial_trailing 13/30, semicolons 14/15, similes under cap - no kills."
+    }
+  ],
+  "summary": {
+    "totalKills": 42,
+    "totalKeeps": 63,
+    "mildKills": 35,
+    "moderateOrSevereKills": 7,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 42,
+    "killsUnfixable": 0,
+    "fixStrategy": "default (no prior iterationKillsA history)",
+    "verdict": "fail",
+    "verdictReason": "7 MODERATE kills (negation pivots L157, L217, L321, L361; intent smear L21 fever 'liked', L253 road/actor demotion, L363 'Dalaran didn't know') plus 35 MILD kills. Over-cap tool signals filter_watched (7/3) and punct_colon_narration (13/7) resolved to cap. Structural texture deficit (below_target 86.9). Structural rhythm concerns: long_sentence_pct, opener_entropy, mattr outside range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "value": 0.766,
+        "target": 0.733,
+        "delta": 0.033,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "value": 12.3,
+        "target": 12.412,
+        "delta": -0.112,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "value": 0.757,
+        "target": 0.723,
+        "delta": 0.034,
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "value": 35.5,
+        "target": 30.155,
+        "delta": 5.345,
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "value": 21.6,
+        "target": 15.352,
+        "delta": 6.248,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "value": 6.03,
+        "target": 6.637,
+        "delta": -0.607,
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "value": 23.8,
+        "target": 21.378,
+        "delta": 2.422,
+        "inRange": true
+      },
+      "mattr": {
+        "value": 0.79,
+        "target": 0.848,
+        "delta": -0.058,
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct above range (21.6 vs 12.35-19.35)",
+        "opener_entropy below range (6.03 vs 6.137-7.137)",
+        "mattr below range (0.79 vs 0.818-0.888)"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 86.9,
+      "participial_pct": 5.4,
+      "compound_pct": 13.7,
+      "emdash_pct": 0.7,
+      "semicolon_pct": 2.3,
+      "short_pct": 44.0,
+      "verdict_reasons": [
+        "participial: 5.4% below target 7.23% (score 85/100)",
+        "emdash: 0.7% below target 5.119% (score 63/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.4% → target 7.23% (score 85/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 0.7% → target 5.119% (score 63/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 7,
+      "textureDesertCount": 12,
+      "flaggedPassages": [
+        {
+          "type": "texture_desert",
+          "sentences": [
+            15,
+            27
+          ],
+          "preview": "That arm she couldn't feel at all. It held the staff against her ribs, the one thing it wa"
+        },
+        {
+          "type": "telegram_run",
+          "sentences": [
+            53,
+            61
+          ],
+          "preview": "Oh, Light. \"Ranger-General.\" Sylvanas turned in the saddle."
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            71,
+            82
+          ],
+          "preview": "\"I can't tell you who. I can't tell you how it gets from a knot under a man's breas That's"
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            193,
+            204
+          ],
+          "preview": "Two officers on either side of a banner pole shouted at each A farrier hammered. Somewhere"
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            213,
+            222
+          ],
+          "preview": "He had got broader, a man now, with a hammer at his belt ins He stopped in the mud and lau"
+        },
+        {
+          "type": "telegram_run",
+          "sentences": [
+            215,
+            222
+          ],
+          "preview": "\"Jaina! He came on, the officers stepping quickly to keep up. \"Light's sake."
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            226,
+            241
+          ],
+          "preview": "He took in the wrapped hand, the right arm hanging with the  \"What happened to your hands?"
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            253,
+            263
+          ],
+          "preview": "The marks were there, her blots and Sylvanas's neat ones, th \"These came out of the stove "
+        },
+        {
+          "type": "telegram_run",
+          "sentences": [
+            273,
+            280
+          ],
+          "preview": "He let the slip slide back into the fold. \"Jaina. I don't doubt you.\""
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            273,
+            282
+          ],
+          "preview": "He let the slip slide back into the fold. \"Jaina. I don't doubt you.\""
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            383,
+            396
+          ],
+          "preview": "\"You were right,\" Jaina said. It came out more easily than she had expected. \"At the fork."
+        },
+        {
+          "type": "telegram_run",
+          "sentences": [
+            389,
+            396
+          ],
+          "preview": "\"He's not a fool,\" she said. \"He's a good commander, with an enemy he can see and men who "
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            477,
+            486
+          ],
+          "preview": "He had stood in the middle of all that drag, the same as the Whatever she'd felt off him h"
+        },
+        {
+          "type": "telegram_run",
+          "sentences": [
+            479,
+            486
+          ],
+          "preview": "And she couldn't read a man in any case. She had told Sylvanas so herself. Had she tried, "
+        },
+        {
+          "type": "telegram_run",
+          "sentences": [
+            490,
+            499
+          ],
+          "preview": "He was gone. \"Why? Jaina said."
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            490,
+            499
+          ],
+          "preview": "He was gone. \"Why? Jaina said."
+        },
+        {
+          "type": "telegram_run",
+          "sentences": [
+            501,
+            508
+          ],
+          "preview": "She had sat the mare that morning with her hands tucked unde \"It's a farewell,\" she said. "
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            557,
+            568
+          ],
+          "preview": "When the mare stopped fighting the bit, she let go. For most of the road she had read mark"
+        },
+        {
+          "type": "texture_desert",
+          "sentences": [
+            600,
+            610
+          ],
+          "preview": "And somebody in there kept it running, somebody who knew whi Nobody was coming down this r"
+        }
+      ],
+      "overlapNote": "Kills at L117-L155 (sergeant/Arthas arrival), L239-L243 and L291-L299 sit in flagged telegram/desert zones; the colon-to-dash fix at L75 and the participial-preserving fixes help emdash/participial gaps. Semicolon use is at the top of range (2.3 vs 2.31) - do not add semicolons in fixes."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 64,
+        "total_violations": 5,
+        "overCapPassA": [
+          "filter_watched 7/3 (4 killed: L51, L103, L145, L193)",
+          "punct_colon_narration 13/7 (6 killed: L75, L239, L267, L293, L321, L357)"
+        ],
+        "overCapOtherPasses": [
+          "something_vague 3/2 (pass B)",
+          "verdict_too_x_for 1/0 L29 (pass B)"
+        ],
+        "atCapAudited": [
+          "cliche_stomach_dropped 1/1 L13 - killed"
+        ],
+        "underCapAudited": [
+          "participial_trailing 13/30",
+          "punct_semicolon 14/15",
+          "simile_as_if 3/5",
+          "simile_as_though 1/3",
+          "filler_glanced 3/4",
+          "filler_nodded 1/4",
+          "filter_decided 1/3 (L135 kept)"
+        ]
+      }
+    }
+  }
+}

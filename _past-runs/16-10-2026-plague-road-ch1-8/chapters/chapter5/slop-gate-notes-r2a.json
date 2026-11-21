@@ -1,0 +1,326 @@
+{
+  "chapterId": "chapter5",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA [51, 18] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 27,
+      "kills": 2,
+      "keeps": 25,
+      "severity": {
+        "MILD": 2,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "Pattern 5 / Pattern 7 (one each)",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 263,
+          "text": "She had been born in a forest and had never thought of a wood as a bad place to be. She thought it now: both sides of the road and a roof over it, and four horses in a line down the middle making all the noise in the world.",
+          "pattern": "Pattern 5 - preamble negation",
+          "deletionTest": "Cutting the 'had never thought' half leaves 'She thought it now: both sides of the road...' which needs the negated antecedent, so the sentence has to be recast affirmatively. The facts (forest-born, the wood is bad tonight, the reasons) all survive the recast.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "'had never thought X. She thought it now' is the 'It should not have helped. It did.' reversal shape. The narrator sets up the old belief so the new one can land, rather than Sylvanas arguing with herself, so condition 4 does not apply.",
+          "suggestedFix": "She had been born in a forest, and tonight this wood was a bad place to be: both sides of the road and a roof over it, and four horses in a line down the middle making all the noise in the world.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-2",
+          "line": 499,
+          "text": "There had not been a name in any of this.",
+          "pattern": "Pattern 7 - chained negation hallway",
+          "deletionTest": "Read from the positive: 'A name. ... And now a house with a lord in it, a seat at court, a seal...' It survives. The lead sentence only frames the run of nameless items (said nothing / nobody could keep hold of / no name) that builds toward the noun.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 7. A negated frame opens a chain of refusals that leads to one noun (the name). The recap items under it are concrete facts and can stay. The frame sentence carries no fact of its own.",
+          "suggestedFix": "Every name so far had been a place.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "note": "Replace only the frame sentence. The recap items that follow it (boy in a loft, young man with a cart, *Own cart*) keep their factual negations."
+        }
+      ],
+      "auditNote": "There are many KEEPs because, after two revision rounds, most of the remaining negations are binary diagnostics in Jaina's readings (light/nothing, light/heavy, source/first), hard constraints (elves cannot feel the contamination, the books carry no carters' names), or Sylvanas's self-argument with an explicit undercut (overseer's stove, old carter). Each KEEP was re-run through self-check questions 1-5, and the full reasoning is in the scratchpad."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 31,
+      "kills": 0,
+      "keeps": 31,
+      "severity": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "First sweep plus the dedicated P5/P6 second sweep over all 696 lines. No infrastructure gets intention verbs: road, causeway, river and hedge verbs are directional or literal ('ran', 'went up', 'held nothing', 'fell back'). Spell-light and contamination behaviour ('The light leaned. It crowded to one side', 'the boards have it', 'one of them sick from end to end') is the in-world mechanism, kept under the subject-matter defense. Document verbs ('The slips said both roads', 'The square of sacking ... said Andorhal') are literal reading of text. Every body-part subject is involuntary or reflexive (knees set, teeth chattering, ears went red, clerk's head coming round to a draught, eyes came open on waking, overseer's hands pressed flat so they would not shake). There are no P9 nominalizations ('realization', 'decision', 'understanding' all absent) and no P11 permission tags (every 'let' is physical, with an animal or person object: 'let the mare have it', 'Sylvanas let Lyriel take him'). There are no P10 receiver-noun revisions: 'Millhaven went on the north road' and 'The fan kept widening' are placements or geometry, and the actor is named in the sentence before. Borderline idioms ('word didn't need a cob to carry it', 'the clock was running', 'every one pointing down this road') each have their human agents named within two paragraphs and carry no intention verb. No infrastructure noun is smeared more than once. PATTERN 4 ALERT: no.",
+      "secondSweep": "P5/P6 targeted re-read done: (a) roads/geography with motion or fire verbs - all spatial or literal, none intentional; (b) maps/answers/rooms with revision or cognition verbs plus an instrument-phrase demotion - none ('a line ... that sat differently on the page' is followed at once by the concrete hand difference, the smaller crooked writing); (c) body-part volition - none outside reflex; (d) abstract states settling into body parts - none ('she could feel every one of them in her eyes' is literal sleeplessness); (e) metaphor chains on one inanimate subject - none."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 27,
+      "kills": 4,
+      "keeps": 23,
+      "severity": {
+        "MILD": 4,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "Tic 5 - eye/gaze reaction beats",
+      "tallies": {
+        "tic1_corner_of_mouth": "0 / cap 1",
+        "tic2_marked": "0 / cap 2",
+        "tic3_tightened_eased": "0 tightened / cap 3, 0 eased / cap 2",
+        "tic4_facial_shifted": "0 / cap 1 ('She shifted the staff' is physical)",
+        "tic5_eye_gaze_reaction": "8 / cap 4 (L105, L131, L157, L195, L425, L545, L591, L607). Keep L105, L157, L425, L591; kill L131, L195, L545, L607. 'studied/studying' alone x5 (L121, L131, L195, L591, L607). Functional, tactical and motif looking (eyes shut for readings, eyes on the road for tracking, watching the trees or gate, the 'looked at her ears' motif, the overseer's swallow, L141/L495/L567 looking at the sheet mid-speech) are not counted as reaction beats.",
+        "tic6_weight_heaviness": "0 / cap 2 (every 'heavy' is Jaina's literal reading category; 'took her weight' and 'weighting one corner' are physical)",
+        "tic7_non_said_tags": "0 / cap 3"
+      },
+      "findings": [
+        {
+          "id": "A-TIC-1",
+          "line": 131,
+          "text": "Sylvanas studied the two thin strokes on the east road.",
+          "pattern": "Tic 5 - eye/gaze reaction beat (excess over cap)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "This is a 'studied' pause beat that routes Sylvanas's reaction to Cyndia's count through looking. The chapter has 8 reaction or connection gaze beats against a cap of 4, and 'studied/studying' alone occurs 5 times. It is among the most generic of them.",
+          "suggestedFix": "Nine loads on the east road, and two thin strokes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-TIC-2",
+          "line": 195,
+          "text": "The mage studied the mark.",
+          "pattern": "Tic 5 - eye/gaze reaction beat (excess over cap)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "This is a bare 'studied' pause beat before Jaina reasons aloud. It is the weakest gaze beat in the chapter and sits inside a rhythm-scorer telegram_run (the Hollow Green exchange). 'I heard it from the bottom of their lane' already makes the next paragraph's speaker clear.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "fixType": "deletion",
+          "textureZone": "telegram_run (sentences 298-306, Hollow Green exchange)"
+        },
+        {
+          "id": "A-TIC-3",
+          "line": 545,
+          "text": "Sylvanas looked up.",
+          "pattern": "Tic 5 - eye/gaze reaction beat (excess over cap)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A generic surprise beat routed through looking up, the same family as 'his eyes widened'. It is over the cap. The beat has to stay because it separates two Jaina paragraphs, so the fix swaps it for a hand or body action.",
+          "suggestedFix": "Sylvanas stopped, the slip still in her hand.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "textureZone": "telegram_run / texture_desert (sentences 813-824, slip-reading call and response); the replacement adds an absolute phrase"
+        },
+        {
+          "id": "A-TIC-4",
+          "line": 607,
+          "text": "Sylvanas studied the black mark she'd made, the black bar through Hollow Green on the other side of the sheet, and the moth, which was in the grease at the foot of the candle now, still moving.",
+          "pattern": "Tic 5 - eye/gaze reaction beat (excess over cap)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "This is the third 'Sylvanas studied' pause beat, and it is over the cap. The callbacks it carries (Ashford mark, Hollow Green bar, moth) can stand as plain observation without the looking verb. The fix also removes the back-to-back 'Sylvanas' paragraph openers after 'Sylvanas made it heavy.'",
+          "suggestedFix": "The new mark sat black on Ashford, across the sheet from the bar through Hollow Green. At the foot of the candle the moth was in the grease now, still moving.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "textureZone": "adjacent to telegram_run (sentences 904-911, Ashford correction)"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 79,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "6 MILD kills, which is more than the 3-MILD threshold; 0 MODERATE/SEVERE. Negation 2 (Pattern 5 reversal at L263, Pattern 7 frame at L499), intent-smear 0, recurring tics 4 (Tic 5 gaze/'studied' reaction beats over the cap of 4). Every fix is low difficulty, and one is a deletion. Also: structural texture deficit (texture below_target, score 72.9) and structural rhythm concerns (long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr outside range).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.832,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": 0.112,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.4,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "delta": 1.4,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.8,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.1,
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 35.9,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "delta": 0.9,
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.4,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "delta": 12.4,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.21,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "delta": -1.49,
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 29.0,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 10.0,
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.773,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "delta": -0.057,
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 72.9,
+      "participial_pct": 6.2,
+      "compound_pct": 14.7,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.5,
+      "short_pct": 46.1,
+      "verdict_reasons": [
+        "participial: 6.2% below target 12.0% (score 56/100)",
+        "compound: 14.7% above target 10.0% (score 61/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.2% → target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 14.7% → target 10.0% (score 61/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% → target 4.0% (score 74/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 11,
+        "texture_desert": 16
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 64,
+        "total_violations": 2,
+        "overCap": [
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "category": "paragraph_structure",
+            "pattern": "opener_consecutive_repeat",
+            "count": 1,
+            "cap": 0
+          }
+        ],
+        "passAMappedSignals": {
+          "punctuation_tics": "semicolon 16/26, colon_narration 13/13 (at cap, not over) - KEEP",
+          "participial_attachment": "participial_trailing 14/52 - KEEP",
+          "simile_overload": "like 5/26, as_if 4/5, as_though 1/3 - KEEP",
+          "filler_actions": "nodded 1/4 (L675), smiled 1/4 (L351) - KEEP",
+          "filter_words": "watched 1/3 (L363) - KEEP",
+          "said_bookisms": "bookism_breathed_tag L57 is a false positive ('He breathed through his mouth' is an action beat for a man with a cold, not a tag) - KEEP",
+          "paragraph_structure": "opener_consecutive_repeat L167-177 ('A mill... A shop... A carters' inn... A second depot...') - KEEP under the intentional-structure defense (itemized itinerary after 'The second day went in stops.')"
+        },
+        "passBMappedSignals": "verdict_too_x_for L695 ('too brown for mist') maps to narrator-seep (pass B) and is not audited here"
+      }
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB 47 -> 10, strictly decreasing)",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner",
+    "registerSummary": "Ranger-General: clipped, dry, exact. She thinks in ground, lines, cover, and horses. Her inner voice argues with itself: it asks a question, gives a bad answer, and overrules it. She swears by the sun and says 'damn'. She mocks herself in the second person ('Stalling, Ranger-General'). She would not think in epigraphs, domestic similes, or captions that sum up the moment.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 62,
+      "kills": 6,
+      "keeps": 56,
+      "severity": "MILD",
+      "dominantPattern": "F2 / F8 / F11 / F13 (one each beyond F2 x2)",
+      "summaryByMode": {
+        "F1": 0, "F2": 2, "F3": 1, "F4": 0, "F5": 0, "F6": 0, "F7": 0,
+        "F8": 1, "F9": 0, "F10": 0, "F11": 1, "F12": 0, "F13": 1, "F14": 0, "F15": 0
+      },
+      "selfCheckNote": "There are 6 kills, which is under the guide's 10-kill suspicion line. I re-read every scene ending, every exchange, and every paragraph closer. This is the third draft, after two slop-gate revision rounds, and the remaining candidates are defended in the scratchpad. I found no F5 or F7 kill. Scene 1 ends on a repeated action (the palm rub), and scene 2 ends on the outline-mandated line. Paragraph closers that resolve doubt ('No. It was real. She knew stones.' / 'One stone with a limp in it wasn't an army.') are the voice sheet's 'certain after the argument' move, and each one drives a decision.",
+      "findings": [
+        {
+          "id": "B-GPT-1",
+          "pattern": "F2",
+          "line": 103,
+          "text": "He'll bring a clerk.\" Lor'themar shifted in the saddle, easing a knee. \"They're going to ask",
+          "issue": "This is a generic dialogue beat ('shifted' plus a stock rider's ease) that any rider in the patrol could do. It repeats Lor'themar's L29 beat ('easing his weight off the stirrups'). It is only there to pace the speech and reveals nothing about him.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "textureZone": "Adjacent to texture_desert/telegram_run starting at sentence 151 ('What do I tell them?').",
+          "suggestedFix": "He'll bring a clerk.\" Lor'themar lifted his rein hand and began counting off fingers. \"They're going to ask",
+          "fixNote": "The beat now belongs to Lor'themar: he mimics the chamber's list. It also frames the 'Trolls are east. Humans are polite.' stack that follows as a mocking count, so the stack does not read as F10 briefing speech. Deleting the beat outright would merge seven short declaratives into one F10-shaped speech, so this fix replaces it. It removes one 'eased' use, which pass A reports at cap.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-2",
+          "pattern": "F2",
+          "line": 165,
+          "text": "teeth.\" He dropped the joke. \"Sylvanas. Send word",
+          "issue": "The dialogue beat labels his change of tone instead of showing it. The next words, the first time he uses her bare name, already carry the shift, so the beat is a subtitle.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "teeth. Sylvanas—send word",
+          "fixNote": "Cut the label and join the two quotes into one speech. The name followed by an em-dash makes the turn inside his own line, and adds one em-dash to a chapter whose texture is short of them (0.8% vs 4% target). The vocative stays: it is his first use of her name in the scene and marks the shift, which F9 exempts.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-3",
+          "pattern": "F3",
+          "line": 275,
+          "text": "She frowned, a small crease between the brows, gone almost at once.",
+          "issue": "'almost' is a hedge. Without it the sentence reads 'gone at once', which is more direct, and the uncertainty is not the point of the beat.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "toolSignal": "hedge_almost",
+          "suggestedFix": "She frowned, a small crease between the brows, gone at once.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-4",
+          "pattern": "F8",
+          "line": 167,
+          "text": "\"When I know.\"",
+          "issue": "This is an echo exchange. It hands back his 'when you know' with one word changed, and adds no new fact. It is the second echo in scene 1. The first, 'You'll be there to say it yourself, of course.' / 'Of course.', lands an irony and is kept. The next paragraph's two-finger salute already answers him.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixNote": "Delete the whole paragraph. Her reply becomes 'She lifted two fingers off the reins at him.', which directly follows his request.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-5",
+          "pattern": "F11",
+          "line": 231,
+          "text": "Because she was a fool. Because she wasn't.",
+          "issue": "This is an anaphoric run: same frame, same verb ('Because she was / Because she wasn't'). It is the second run in scene 2. The first, L209's 'Or ... Or she was right.', is kept because it lists the plan-mandated alternatives. The antithesis also reads as an authored epigram and leaves 'wasn't' to be decoded: she meant the map to be read. Narrator-seep A2 overlaps here, but the line is not re-killed there because the child guide already owns it.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Because she was a fool, or because she meant a ranger to read it.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-GPT-6",
+          "pattern": "F13",
+          "line": 239,
+          "text": "Or somebody told you which one to circle, and that was worse.",
+          "issue": "The clause tail ', and that was worse' is a demonstrative caption: it ranks the previous possibility instead of naming why it is worse. The fact behind it (an informant on the elven side) should take the place of the caption. The chapter has the same habit at L51 ('which was worse than arguing').",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Or somebody on this side of the line told you which one to circle.",
+          "fixNote": "Pass A separately targets L239's 'You didn't X. You Y.' preamble. This fix touches only the 'Or somebody...' sentence and leaves the generic-you idiom, which is kept as hers.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 28,
+      "kills": 3,
+      "keeps": 25,
+      "severity": "MILD",
+      "dominantPattern": "A1/A2/A7 (one each)",
+      "tierAKills": 3,
+      "tierBKills": 0,
+      "severePages": [],
+      "severeScenes": [],
+      "structuralHabit": "Minor: 'worse' verdict tails appear at L51 (killed here) and L239 (killed under F13).",
+      "deferredToChildGuides": ["L231 'Because she was a fool. Because she wasn't.' (A2 shape, killed as F11)", "L239 ', and that was worse' (A1 shape, killed as F13)"],
+      "selfCheckNote": "The guide asks for at least one kill per page, and this draft falls short of that. It is the third draft and is written in the voice sheet's free-indirect mode: self-questions, overrules, oaths, and second-person self-mockery. Every keep in the scratchpad has an affirmative 'this is how Sylvanas would think it' reason.",
+      "findings": [
+        {
+          "id": "B-NS-1",
+          "pattern": "A1",
+          "tier": "A",
+          "line": 51,
+          "text": "He knew it, and he'd let her do it anyway and enjoy every hour, which was worse than arguing.",
+          "whoIsSaying": "Narrator. A verdict tail appended to a complete beat.",
+          "issue": "', which was worse than arguing' has the calibration shape of 'Working, which was worse.' It is a judgment caption attached after the beat has landed. Her irritation is already carried by 'Stalling, Ranger-General.' and 'enjoy every hour'.",
+          "severity": "MILD",
+          "confidence": "HIGH",
+          "verdict": "KILL",
+          "suggestedFix": "He knew it, and instead of arguing he'd let her do it and enjoy every hour.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-NS-2",
+          "pattern": "A2",
+          "tier": "A",
+          "line": 157,
+          "text": "A stranger inside her border. Something wrong with her stones. And somewhere under all of it she had already worked out",
+          "whoIsSaying": "Narrator. A two-fragment recap pinned over the scene.",
+          "issue": "This is a thesis-fragment pair. It recaps what the reader already has (the mage inside the ring, the limping stone) in epigraph rhythm and would work unchanged as the chapter's tagline. 'Something' also stays vague when the previous paragraph has already named the cold and the limp. The sentence that follows does the real work: she is glad to miss the bench.",
+          "severity": "MILD",
+          "confidence": "HIGH",
+          "verdict": "KILL",
+          "textureZone": "Inside or adjacent to texture_desert 214-237 (L145-L157 region).",
+          "suggestedFix": "Under all of it she had already worked out",
+          "fixNote": "Also drops the soft locator 'somewhere'. The chapter uses 'somewhere' four times (L3, L157, L177, L253).",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-NS-3",
+          "pattern": "A7",
+          "tier": "A",
+          "line": 275,
+          "text": "Then she turned to the stone once more and frowned harder, the frown a person gives a noise in the next room that might be a mouse and might not.",
+          "whoIsSaying": "Narrator. A generic typification of 'a person's' frown.",
+          "issue": "This is a generalizing construction ('the frown a person gives...'). It describes a category of frown instead of the one Sylvanas is watching. The domestic image (a mouse in the next room) also falls outside her world of ground, horses, and hounds, which is a B4 overlap. The uncertainty in the image (might be, might not) is worth keeping, but it should come from her experience.",
+          "severity": "MILD",
+          "confidence": "HIGH",
+          "verdict": "KILL",
+          "suggestedFix": "Then she turned to the stone once more and frowned harder, head cocked, as Sylvanas had seen hounds cock theirs at a rustle in the bracken that might be a hare and might not.",
+          "fixNote": "Anchors the comparison in Sylvanas's own experience. This follows the chapter's own 'the way Sylvanas had seen it on rangers' construction at L265 and avoids a generic typification. It adds no eye/gaze words and no colon.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 16,
+      "kills": 0,
+      "keeps": 16,
+      "severity": "NONE",
+      "dominantPattern": null,
+      "cleanReason": "I examined 16 candidates: placeholder nouns ('work', 'one thing', 'the words'), note-speak fragments ('The opening.', 'These had roads.', 'Arrogance, then.', 'A name worth watching.', 'A nuisance with a pedigree.'), the planner-sounding 'The mage had to be exactly what the file said.', and inferential lines ('more of them than the hour called for', 'She meant to keep that chair until Sylvanas spoke first'). Each one is anchored in the same or the next line: 'The opening.' is cashed out by 'She could tell him about the stone.'; 'These had roads.' follows the described ruled lines that end at circled stones; the file line is cashed out by a three-item list of seen evidence (crossing without a ripple, the matching staff, ink in the creases). The inferences follow visible carriers (the ranger count, boots planted square, a fixed stare). The 'Something wrong with her stones' fragment at L157 is killed under narrator-seep A2 and is not re-killed here. The hedging tool signal (L275 'almost') was evaluated against this guide. It is a duration hedge, not abstract specificity, so it is killed under gpt-5 F3 instead.",
+      "findings": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 7,
+      "severity": "NONE",
+      "dominantPattern": null,
+      "brokenExchanges": [],
+      "cleanReason": "I examined 7 exchanges where one line asks for a plainer or shorter answer: 'Off how?' -> 'Off. ... The beat's uneven. There's cold under it.'; 'Skip the compliments. What.' -> 'Intruder. Outer ring, before dawn. Human. A woman. Mage.'; 'What do I tell them?' -> the trolls-count quip; 'Asked.' -> 'Argued. She said she needed a day with that stone...'; 'Her gear.' -> 'On the rack. Staff, satchel, the papers...'; 'Where is she?' -> 'End of the passage. Second door.'; and the imagined chamber exchange at L105 ('They would ask what she meant by cold. She would say cold.'). Every reply names a target or sign the listener uses at once. Lor'themar puts his own hand on the stone to feel for the beat, Lor'themar says 'I'll use that', and Sylvanas walks to the rack and then the door. The two places where the simplification deliberately fails (L79 and L105) are the plan's stated beat: she has no magister's vocabulary for the stone. The prose calls out that gap itself, so it is not passed off as plain speech."
+      ,
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 9,
+    "totalKeeps": 104,
+    "mildKills": 9,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "narrator-seep-guide.md"],
+    "killsWithFix": 9,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "There are 9 MILD kills, which is more than the 3-MILD pass threshold, and no MODERATE or SEVERE kills. They are small, local fixes: two generic Lor'themar dialogue beats, one hedge, one dialogue echo, one anaphoric antithesis, two 'worse' verdict tails, one recap fragment pair, and one generic-typification simile. Phantom concreteness and fake simplification are clean. Trajectory B: 47 -> 10 -> 9. Also flagged: a structural texture deficit (below_target, participial and em-dash) and structural rhythm concerns (one-sentence paragraphs, long sentences, opener entropy, and MATTR are outside range).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"measured": 0.644, "target": 0.72, "delta": -0.076, "range": [0.6, 0.85], "inRange": true},
+      "sentence_length_mean": {"measured": 11.0, "target": 11.0, "delta": 0.0, "range": [9.0, 13.0], "inRange": true},
+      "sentence_length_cv": {"measured": 0.736, "target": 0.70, "delta": 0.036, "range": [0.6, 0.8], "inRange": true},
+      "short_sentence_pct": {"measured": 37.3, "target": 35.0, "delta": 2.3, "range": [28.0, 42.0], "inRange": true},
+      "long_sentence_pct": {"measured": 16.7, "target": 10.0, "delta": 6.7, "range": [7.0, 14.0], "inRange": false},
+      "opener_entropy": {"measured": 6.01, "target": 7.7, "delta": -1.69, "range": [7.2, 8.2], "inRange": false},
+      "one_sentence_paragraph_pct": {"measured": 25.2, "target": 19.0, "delta": 6.2, "range": [15.0, 24.0], "inRange": false},
+      "mattr": {"measured": 0.789, "target": 0.83, "delta": -0.041, "range": [0.8, 0.87], "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 81.6,
+      "participial_pct": 6.1,
+      "compound_pct": 11.0,
+      "emdash_pct": 0.8,
+      "semicolon_pct": 0.8,
+      "short_pct": 45.3,
+      "verdict_reasons": [
+        "participial: 6.1% below target 12.0% (score 56/100)",
+        "emdash: 0.8% below target 4.0% (score 71/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.1% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 0.8% -> target 4.0% (score 71/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {"telegram_run": 8, "texture_desert": 10}
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 32,
+        "total_violations": 1,
+        "overCapCategories": ["narrator_verdict (verdict_too_x_for, L119, cap 0)"],
+        "passBToolSignals": [
+          {"pattern": "verdict_too_x_for", "line": 119, "text": "too fast and too even for anyone who meant to stop politely", "decision": "KEEP (narrator-seep; see scratchpad)"},
+          {"pattern": "hedge_almost", "line": 275, "text": "gone almost at once", "decision": "KILL under gpt-5 F3 (B-GPT-3)"}
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "chapterId": "chapter4",
+  "iteration": 2,
+  "targetFile": "v0c-r2.md",
+  "verdict": "pass",
+  "findings": [
+    {
+      "check": "rhythm-texture",
+      "severity": "low",
+      "location": "Scene 2, line 629 (advisory, not a fail driver)",
+      "passage": "She stayed where she was, going round again.",
+      "problem": "This participle contradicts the main clause. 'Stayed where she was' means she didn't move, and 'going round again' is her walking the ward round. Last round's sweep of sequential participials missed it. It closes the beat where she chooses the wards over going down to Sylvanas, so the reader stops on it.",
+      "fix": "Keep both halves but make the meaning clear: 'She stayed, and went round again.' Or keep the choice in the sentence: 'She didn't go down. She went round again.'"
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "low",
+      "location": "Scene 3, line 817 (advisory)",
+      "passage": "she came at it from one side and slid off, coming at it from another and sliding off again",
+      "problem": "This is a sequential participle. She tries the second side after sliding off the first, so the ', coming' wrongly makes the two attempts sound simultaneous. It is the same pattern r1 cleared everywhere else.",
+      "fix": "'she came at it from one side and slid off, and came at it from another and slid off again'. The repeated 'and' copies her repeated attempts and adds a compound join (compound is at 9.7%, so there is room)."
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "Scene 1, line 5 (advisory)",
+      "passage": "Lyriel's hand came across from the right and took the cheek-strap, Lyriel not so much as turning her head.",
+      "problem": "This gives agency to a body part when the real actor is in the sentence, and then names Lyriel a second time in a stiff trailing clause to fix it. It is the same pattern r1 fixed at 739, and here it is in the opening paragraph.",
+      "fix": "'Lyriel reached across from the right and took the cheek-strap without turning her head.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 1, line 149; Scene 3, lines 997 and 1003 (advisory)",
+      "passage": "She got down, doing it badly, as she did it every time / Her breath sobbing in her chest by the yew, she shouldered the chapel door open. / Every one of them had thinned—not as far as his, though every one, while she had been down in the dark with a jar and a boy.",
+      "problem": "Three clumsy sentences. At 149, 'doing it badly' repeats 'got down' and only adds a participle. At 997 the opening clause puts her sobbing breath at the yew, while the main verb happens at the door, so place and action don't line up. At 1003 the dash and 'though every one' make the reader parse it twice. At 1179, 'got up badly, as she always got up' is a deliberate echo of 149, and it lands better if 149 is just as clean.",
+      "fix": "149: 'She got down badly, as she did every time, the staff sliding...'. 997: 'By the yew her breath was sobbing in her chest. She shouldered the chapel door open.' 1003: 'Every one of them had thinned while she was down in the dark with a jar and a boy. None as far as his, but every one.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Lines 131 and 593 (advisory)",
+      "passage": "Cyndia a pace behind and to the left of them with her hand resting near her quiver. / Cyndia stood a pace behind her and to the left, where she had stood at Brask's shoulder in the lane, resting her hand near her quiver.",
+      "problem": "593 already points back to the lane, so it doesn't need to repeat the exact words 'resting ... near her quiver' as well. The r1 participial pass created this near-verbatim echo.",
+      "fix": "At 593 drop the trailing clause or change the detail: '...where she had stood at Brask's shoulder in the lane.' Sylvanas reads Cyndia's eyes going right (see the voice sheet), so 'her eyes going to the right and back' would fit if a detail is wanted."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Whole chapter (carried advisory, not a fail driver)",
+      "passage": "Dialogue words about 13.2% of the chapter (2,868 of 21,721).",
+      "problem": "This is far below the style guide's 60:40 ratio for procedural chapters. As in r1, the gap is structural: the loft, the cage and the vigil are mostly wordless, and padding them would hurt.",
+      "fix": "No action required. If a later pass wants more talk, B6 (Lyriel at the brazier, around 625) and B11 (Tobin during the vigil, around 1023) are the only places it would fit."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 97.9,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {"actual": 10.6, "target": 12.0, "score": 91.6},
+      "compound": {"actual": 9.7, "target": 10.0, "score": 100.0},
+      "emdash": {"actual": 3.9, "target": 4.0, "score": 100.0},
+      "semicolon": {"actual": 1.8, "target": 1.8, "score": 100.0}
+    },
+    "otherMetrics": {
+      "short_pct": 52.7,
+      "sentenceCount": 1881,
+      "meanSentenceLength": 11.5,
+      "paragraphOneSentencePct": 29.8,
+      "commaPeriodRatio": 0.74,
+      "mattr": 0.769,
+      "dialogueWordShareApprox": 13.2
+    },
+    "interpretation": "Texture within target range. No structural changes needed. (Scorer.) Participials are the only dimension below 100. They fell from 11.1% to 10.6% because the reviser correctly turned about fifteen sequential participials back into 'and' or full stops and added real simultaneous ones in their place. The 0.4 points beyond the ±1 tolerance cost 8 points on that one dimension, and that is not worth chasing. If the two advisory fixes (629, 817) are applied, take 817 to 'and' as suggested and leave the dimension alone. Short sentences are 52.7%, inside the 40-55 range but above the 48 target, driven by dialogue exchanges and deliberate staccato.",
+    "flaggedPassages": [
+      "texture_desert sentences 238-253: 'Ahead of them the hammer rang on its iron... The chapel stood at the top of the lane...' (scene-setting at the chapel approach; short declaratives fit, keep)",
+      "telegram_run/desert sentences 278-302: '\"Willem sent you?\" \"Captain Brask, yes. I'm Jaina Proudmoore.\"' (Tobin introduction dialogue, keep)",
+      "texture_desert sentences 1072-1089: 'How much of his flour is left?' exchange (dialogue, keep)",
+      "texture_desert sentences 1297-1313: 'They never gave you the grammar. That was the whole point of the grille.' (deliberate hammer beats at the reveal, keep)",
+      "texture_desert sentences 1363-1382: '\"Captain.\" \"The cage,\" he said.' (dialogue, keep)",
+      "telegram_run sentences 1514-1543: 'She turned to Sylvanas instead. \"Ranger-General.\"' (the shutdown, deliberate, keep)",
+      "texture_desert sentences 1819-1838: Brask on Andorhal and the ledger spelling (deliberate, keep)",
+      "(66 flagged runs and deserts in total. Nearly all are dialogue exchanges or deliberate staccato. None needs work at 97.9.)"
+    ]
+  },
+  "priorFindingsStatus": {
+    "beat-fidelity B9 shell and spill (medium)": "resolved. 1065-1067 add 'And the loft?' / 'Brask's man on the stair. Nobody's been up.' in Sylvanas's clipped register. 1073 puts the lapsing shell into Jaina's round. 1131 has Brask report the boards prised up and burned 'ice and all'. 1133 gives Jaina a brief, mixed reaction ('some small low part of her minded anyway') that pays off her curiosity-against-decency thread from 825-827 without keeping a sample. No continuity obligation created.",
+    "rhythm-texture sequential participials (medium)": "resolved for every cited line (31, 149, 157, 167, 331, 361, 431, 471, 573, 893, 907, 919, 995, 1041, 1137, 1151, 1179). The replacements (35, 155, 173, 235, 267, 369, 461, 555, 999, 1091) are truly simultaneous. Two pre-existing cases the r1 sweep missed remain (629, 817), both low.",
+    "voice-register not-X-but-Y at 1131/1175 (low)": "resolved: 1137 'held it out past Brask, to Jaina'; 1181 'put her hand up, flat, and held it there a moment before she took it down again'.",
+    "emotional-life aphorism at 457 (low)": "resolved: '—and Antonidas would have told her that was exactly when to stop wanting.' It is now her memory of her teacher, not a narrator's rule.",
+    "'nothing at all' tic and 'did something brief' (low)": "resolved: one 'nothing at all' left (783, the hand, as recommended). 753 'His face stayed blank a moment'. 665 'One corner of her mouth went in.'",
+    "limited-third 739 body-part agency (low)": "resolved: 'Lyriel put a hand at the small of her back and kept it there.' The same pattern remains at line 5 (see the low finding).",
+    "dialogue ratio (advisory)": "unchanged at 13.2%. No action required."
+  },
+  "checkResults": {
+    "emotional-life": "pass. Jaina thinks in free indirect thought in every scene and argues with herself unresolved: 23 (question, answer, 'Brilliant, Jaina'), 289 and 323 ('Did she know so? No. She knew it was in a jug.'), 447-459, 531-541 (the triumph cut short by 'Shall we have a prize-giving?' and then 'No. Slower.'), 609-611, 825-827, 1029-1035 (the counterfactual about the boy's jaw, caught as 'doing the sums backward'), 1099 and 1123 ('it wouldn't come out either way she ran it'). The new 1133 line adds one more small honest contradiction. Registers: dry humour (115, 145, 257-259, 415, 533, 1041, 1053), warmth (31, 381-403, 1111-1115), horror (761-783, 913-931), exhaustion (1003, 1023, 1107) and grief held off (1123). The value shifts land on concrete moments: the grounded spear, Wenna going still, the slate tally, 'On purpose', the frost, the foam, the cold chimney, Elsie's cool forehead, the knot tied first time, the stencilled sacking.",
+    "voice-and-register": "pass. Dialogue tags are almost all 'said'. Paragraph shapes vary from one-line hits to long compound observations, as in the anchor. The narration stays Jaina's, with Kul Tiran and Dalaran idiom (bailing with the plug out, silt in a harbour, the bowline at eight, the grille). The voices are distinct and match their sheets. Brask repeats 'Millhaven.', thumbs the shaft, and ends with 'Tell me what to shut' and 'I'll answer for the flour'. Sylvanas speaks in finished judgments and lets silence do the work ('Then you have until cockcrow.'). Cyndia reports in event order with one dry closer ('He said so twice'; 'She wants the cloth back'). Lyriel jokes, glances at Cyndia, and is satisfied anyway (1115, 1167). Tobin is territorial and kind. Five low polish notes, none structural.",
+    "limited-third": "pass with one low note (line 5). B6 stays on what can be seen through the window glass. Inferences are framed as hers (605, 835, 863, 959). Brask's loft report reaches her as his speech, not as narration.",
+    "dialogue-register": "clean. No institutional or clinical words in anyone's mouth. Jaina downshifts for Tobin and Elsie, gives Sylvanas her whole reasoning in B7 and then waits, and is polite but immovable with Brask ('I'm sorry, Captain. Every house.'). Brask's new loft report ('carried them down flat between two of us, like a door, faces turned away') is in his plain practical register.",
+    "rhythm-texture": "pass at 97.9/100. Every dimension is inside its tolerance except participial (10.6 against 12.0, dimension score 91.6). The quality problem from r1 is fixed, with two leftovers (629, 817).",
+    "beat-fidelity": "pass. All twelve beats (B1-B11a) are dramatized. The B9 thread that stayed open in r1 is now closed on the page across 1065-1073 and 1131-1133. The fixed outline content is unchanged: Lyriel's knot line at 407, 'Jaina' at 395, the one-handed knot tied first time at 1111, Brask's ledger with spelling and no blessing at 1155-1171, and Andorhal from an in-world source (the stencil and Brask). The factsNotEarned are respected: no Barov, no carter identity, and no open trust between Jaina and Sylvanas, only the shared unspoken look at 673."
+  },
+  "summary": "Pass. The reviser applied every r1 finding surgically and touched nothing else. The B9 shell is now settled on the page (Jaina asks after the loft, the shell is in her round, and Brask reports the boards burned 'ice and all', with a small honest pang from Jaina), and the sequential participials are gone. Texture is 97.9/100, with participials alone slightly under target. What remains is five low-severity polish notes (a contradictory participle at 629, a sequential one at 817, body-part agency at line 5, three clumsy sentences, and an echo). They can be fixed in passing downstream but do not block the chapter."
+}

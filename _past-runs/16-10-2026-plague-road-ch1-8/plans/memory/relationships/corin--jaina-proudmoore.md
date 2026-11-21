@@ -1,0 +1,3 @@
+# Corin and Jaina
+
+Corin asks Jaina at once whether she was sent about the shipments; she says 'No. Nobody sent me.' and he keeps his hand pressed on the satchel. Then she asks the questions nobody in Dalaran did: who did you write to, did anyone answer. He gives the Citadel inspection desk and the Archmage's secretary; the answer is no; her fingertips go white on the staff. He opens the sample room for her; she reads every shelf; she tries to write and produces blots and dictates while he writes. He told her to stop at the first shelf and she did not. He walks on her dead side with the satchel to his chest and one hand a finger's width from her sleeve. He calls her 'Lady Proudmoore'; she calls him 'Corin'.

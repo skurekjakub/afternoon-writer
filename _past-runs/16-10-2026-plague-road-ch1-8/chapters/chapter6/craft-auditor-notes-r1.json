@@ -1,0 +1,137 @@
+{
+  "chapterId": "chapter6",
+  "iteration": 1,
+  "targetFile": "v0c.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "L65, L71, L171, L201, L317, L365 (two chains), L383 (two chains)",
+      "passage": "L201: \"It stayed warm and low and kind, and that was worse.\" | L71: \"first-years got the warnings and the spines and nothing else.\" | L365: \"a jar under the boards and a sick man's gut and a line of loads in a clerk's book—all of it something she could hold at arm's length and turn over and think about.\" | L65: \"lift the keeping part away from the rest and turn it over and see how it was laid\" | L317: \"with bundles and sacks and baskets\" | L171: \"It's carts and depots and account books.\" | L383: \"under the bell and the dog and the singing\"",
+      "problem": "This was the r0 high finding, and it is not resolved. The reviser's status says every 'and, and, and' polysyndeton was removed except the Andorhal reveal. The reviser fixed the two quoted instances (the old L229 and L357), but the construction still appears about nine times. The anchor allows it once per chapter and never with a joke or sigh on the last item. L201 lands a sigh ('and that was worse') and L71 lands a joke ('and nothing else'), which are the two forbidden shapes. L365 has two chains in one sentence. L383 has two chains in one paragraph.",
+      "fix": "Keep exactly one: the L383 'the wagons were still going in full and the hoists were still taking up the sacks and the ovens were still baking' chain at the reveal. In the same paragraph, recast 'under the bell and the dog and the singing' as a single noun ('under all that noise'). L201: 'It stayed warm and low. Kind, even. That was worse.' Or just 'His voice didn't change. It stayed kind, and that was worse.' L71: 'first-years got the warnings and the spines, nothing more.' L365: reduce to two items or use commas ('a jar under the boards, a sick man's gut, a line of loads in a clerk's book'), and end with 'something she could hold at arm's length' (drop 'and turn over and think about', which also echoes L65). L65: 'so she could lift the keeping part away from the rest, turning it over to see how it was laid'. L317: 'with bundles, sacks, baskets'. L171 (dialogue): 'It's carts, depots, account books.'"
+    },
+    {
+      "check": "emotional-life",
+      "severity": "medium",
+      "location": "Scene 2, L229-L231 (beat b5 dilemma)",
+      "passage": "\"Perhaps the fences had been the right answer all along, and she'd been unfair to a boy for years over one night in the bracken.\n\nNo. That was the question she'd be asking if he'd listened badly, and he hadn't.\"",
+      "problem": "This is the hinge of the b5 dilemma ('was she unfair to him then, or is she now?'). The 'No' overrules the doubt, but the reason given doesn't follow. It's unclear why a careless hearing would make the fences question the right one, and how a careful hearing settles it. The reader feels the move ('No.') without getting the argument, so the self-correction comes across as a reflex instead of thought. The landing ('He'd been kind about it the whole time') is good, but it rests on a sentence that doesn't parse.",
+      "fix": "Replace the middle sentence with the actual reason she rejects the doubt, which is the plan's line: sure before the fence, sure after, and today slow and still sure. For example: 'No. Whether the fences were right was never the point. He'd been sure before they reached the fence and sure crawling back from it, and today he'd been sure before she reached the end of the slips.' Then keep 'He'd been kind about it. He'd been kind about it the whole time.' Leave the question of being unfair now with one honest flicker, e.g. 'Unfair now, then? She checked it twice and couldn't make it come out that way.'"
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "medium",
+      "location": "Scene 2, L237-L263 (beats b5 decision and b6)",
+      "passage": "\"An officer was picking his way toward them through the mud, the one Arthas had told to see them fed. Sylvanas looked at him once and turned her back.\n\n\"Andorhal,\" she said.\n\n\"Andorhal.\"\"",
+      "problem": "The b5 decision is 'She stops waiting for permission', with the value shift 'waiting for rescue -> acting alone'. In scene 2 Jaina only decides to say Sylvanas was right. Every act of leaving belongs to someone else: Sylvanas dismisses the officer, Sylvanas names Andorhal, Jaina echoes her, Lyriel lifts her up and Cyndia turns the horses. The decision is enacted later, in b8 (L367), but as written scene 2 shows Jaina deferring to a new authority rather than acting alone.",
+      "fix": "Give Jaina one act of her own here, and keep it brief because b6 is compressed. The best option is the supper officer. Jaina turns him away herself, using the voice sheet's refusal shape of an apology followed by a flat limit: 'Thank you, Lieutenant. Please thank His Highness. We won't be staying.' Sylvanas's 'Andorhal' then reads as agreement with a choice Jaina has already made. Alternatively, Jaina says 'Andorhal' first and Sylvanas answers it."
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "L27-L29, L73-L75, L115, L235, L377, L383-L387",
+      "passage": "L385: \"And somebody was keeping it running. Somebody in there knew which wagon went to which yard and which sacks went out on which road. Somebody kept the books for it.\" | L387: \"There was a captain's name a clerk had given them on the road. There was a gate, and the city.\" | L73-75: \"Somebody had gone past the spines. Somebody had been given a key... Somebody she might have passed on the library stair, then—somebody she'd borrowed a pen from.\"",
+      "problem": "Almost every major interior passage is built on an anaphoric run: 'One man' x5, 'Somebody' x4, 'right about' x3, 'Sylvanas had told her' x3, 'There was/They were all', 'still' x3, then 'Somebody' x3 and 'There was' x2. The last three paragraphs before the final exchange (L383, L385, L387) are each built this way, so at the climax the device becomes visible as a device. The L385 'Somebody' run repeats the scene 1 move for the same unknown. 'Somebody/somebody' appears 25 times in the chapter.",
+      "fix": "In L383-L387, keep the L383 chain (it is also the one allowed polysyndeton). Recast L385 as a single sentence with a single 'somebody': 'And somebody in there was keeping it running, somebody who knew which wagon went to which yard and kept the books for it.' Recast L387's closing pair: 'There was a captain's name from a clerk on the road, a gate, and the city behind it.' In scene 1, trim the L73-75 run by one (merge 'Somebody she might have passed on the library stair, then—somebody she'd borrowed a pen from' into 'Someone she might have borrowed a pen from on the library stair'). The 'One man' run at L27-29 earns its place as Jaina's hypothesis-and-rejection. Leave it."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 2, L207 vs L231; L213 vs L233",
+      "passage": "L207: \"He'd heard all of it, and he was standing exactly where he'd stood before she began, his face turned to the smoke.\" / L231: \"He'd listened slowly and politely, every word to the end, and been exactly as sure at the end as at the start.\" | L213: \"she watched his gauntlet close on her sleeve and felt nothing at all\" / L233: \"And a squeeze, on the arm she couldn't feel.\"",
+      "problem": "Two moments are told twice. L231 restates L207's insight (he heard all of it and didn't move) within 25 lines. L233 explains the gauntlet-on-the-dead-arm image that already worked without comment at L213. It also keeps a sigh at the end of a three-item list (laugh, supper, squeeze), the shape the r0 finding targeted.",
+      "fix": "Cut L233's last sentence and end the paragraph on 'It had bought her a laugh and a supper.' Once the L231 fix above is in, its 'He'd listened slowly and politely... start' sentence can go entirely, leaving the fence comparison and 'He'd been kind about it' to do the work. L207 stays as the in-scene beat."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "L93, L119, L275, L283",
+      "passage": "L93: \"the bows, the green cloaks, the staff\" | L119: \"the green cloaks, the bows, the elf ears, the staff, Jaina's wrapped hand on the reins\" | L275: \"Drivers saw the bows and the green cloaks coming\" | L283: \"the bows and the tall horses, Cyndia on the left with her hand resting near her quiver, the staff in the crook of Jaina's arm\"",
+      "problem": "The same beat appears four times: a stranger looks the party over and the narration lists bows, cloaks and staff. By the third time it reads as a template.",
+      "fix": "Keep L119 (the sergeant, the fullest and the one that sets up the gate exchange) and L283 (the clerk's half step back matters for b7). At L93 cut the list ('The driver looked at the four of them over his rag as he passed and didn't stop'). At L275, change what the drivers react to, e.g. the horses' size or Sylvanas not giving way."
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "L215, L253, L333",
+      "passage": "L215: \"putting his helmet on as he walked... She could see the gold of his hair for a few steps more between their shoulders\" | L253: \"Why he'd called her Jaina in front of four strangers and a sergeant.\" | L333: \"And a clerk wished them well on the road, and she twisted round as if somebody had loosed an arrow at her back.\"",
+      "problem": "These are staging slips. At L215 he puts the helmet on and the next sentence still has his gold hair visible. At L253 the count is off: three elves, two officers and a boy were present, so 'four strangers' doesn't add up. At L333 'she twisted round' is meant to be Sylvanas, but Jaina is the one who 'twisted round' at L319, so the pronoun misleads.",
+      "fix": "L215: track the helmet's crest or the shine of his pauldrons instead of his hair, or have him carry the helmet and put it on at the top of the lane. L253: 'in front of three elves and half his staff'. L333: name her: 'and Sylvanas turned in the saddle as if somebody had loosed an arrow at her back' (use 'turned' to avoid echoing L319)."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Scene 1, L51, L55",
+      "passage": "\"Somebody with training, a great deal of it—more than I have, I think, and more than one of them, if it's to run the way it's running.\" ... \"I can't tell you how it gets from a knot under a man's breastbone to his feet walking after he's dead, either; that's the part of the jar I couldn't read.\"",
+      "problem": "The r0 fix lengthened Jaina's answers and overshot into written prose. The line has a semicolon in speech, and 'if it's to run the way it's running' is a clumsy loop. L55's 'since he can't feel the rest' explains a point Sylvanas has just made. Jaina's spoken sentences should feel built, not padded.",
+      "fix": "L51: 'Somebody with training. More than I have, I think, and more than one of them, or it wouldn't run this smoothly.' Split the second half at the semicolon: '...after he's dead. That's the part of the jar I couldn't read.' L55: end on 'the map with your knife hole in it. Things he can hold.'"
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "low",
+      "location": "Scene 1, L65 (beat b2)",
+      "passage": "\"She wanted to know. She wanted it on a bench under a good lamp with nobody in the room, so she could lift the keeping part away from the rest and turn it over and see how it was laid—seam on seam, what held it, where the joins were.\"",
+      "problem": "The b2 continuityNote says Ch4 already staged her wanting to take the jar apart: 'Do not stage any of that as fresh.' L65 presents the want as if for the first time. The new step (a whole system, someone trained where she was) arrives at L71-75, so the escalation is there, but the want itself has no 'again'.",
+      "fix": "Add a single clause that marks it as a recurrence that has grown, e.g. 'She'd wanted the jar on a bench. Now she wanted the whole road there, under a good lamp...' This turns the repetition into escalation at no extra length."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "L47, L105, L131, L189; L1/L21; L89/L339; chapter-wide",
+      "passage": "\"her face quite still\" (L47), \"sat quite still\" (L105), \"could not seem to stop\" (L131), \"Sylvanas said behind her, quietly\" (L189) | \"every bend of it reading the same\" (L1) / \"the road reading the same the whole way\" (L21) | \"the way flour hangs over a mill floor\" (L89) / \"like flour left in a damp sack\" (L339)",
+      "problem": "This finding groups the residual tics. There are three DC-04 hedges and one adverb tag (DC-03). L1 and L21 echo each other, and L21 also repeats L19's 'the mare walked on' movement. The two flour similes for road dust weaken each other. 'the whole' appears 11 times and 'still' 21 times.",
+      "fix": "Cut 'quite' at L47 and L105 and 'seem' at L131 ('and would not stop'). Cut 'quietly' at L189; Sylvanas's register already carries it. Cut L21 entirely, or merge it into L19. Keep the L339 flour simile (it lands where the dust tastes sour) and change L89 to something non-grain, or simply 'It hung over the road, smoke going up into it.' Thin 'the whole' to about five."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "low",
+      "location": "L39-L41, L147-L153, L181-L189, L243-L251, L315-L327 (scorer flags)",
+      "passage": "texture_desert s444-457: \"At the fork. You said they'd put it after the orcs. And you called it in front of him before I'd finished.\" ... \"Is ours.\"",
+      "problem": "The scorer flags seven telegram runs or texture deserts, all in fast dialogue exchanges. Texture is 100/100 overall, and in most of these places clipped speech is right for the moment (b6 is marked compressed). This finding is advisory only.",
+      "fix": "No structural change is needed. If the L243-L251 exchange is touched for the b5 fix, one participial narration beat (Sylvanas's look up the hill, for instance) is enough to break the run."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 100.0,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {"actual": 7.8, "target": 8.5, "score": 100.0},
+      "compound": {"actual": 13.9, "target": 13.15, "score": 100.0},
+      "emdash": {"actual": 5.7, "target": 5.65, "score": 100.0},
+      "semicolon": {"actual": 2.4, "target": 1.75, "score": 100.0}
+    },
+    "otherMetrics": {
+      "sentenceCount": 714,
+      "meanSentenceLength": 12.6,
+      "shortPct": 44.1,
+      "paragraphOneSentencePct": 21.8,
+      "mattr": 0.781,
+      "wordCount": 9302
+    },
+    "interpretation": "Texture within target range. No structural changes needed. All four dimensions are within the ±1pt tolerance. Semicolon (2.4 vs 1.75) is the only one drifting high. Avoid adding semicolons in revision, and remove the one in Jaina's L51 dialogue.",
+    "flaggedPassages": [
+      "telegram_run s67-75: So she didn't. \"Ranger-General.\" Sylvanas turned in the saddle... (L37-L43)",
+      "telegram_run s261-268: \"Jaina!\" He came on, the officers stepping quickly to keep up. \"Light's sake.\" (L147-L149)",
+      "telegram_run s273-280: \"What happened to your hands?\" \"It's part of why I came.\" (L151-L155)",
+      "telegram_run + texture_desert s320-330: He let the slip slide back into the fold. \"Jaina. I don't doubt you.\" (L181-L189)",
+      "texture_desert s444-457 + telegram_run s447-456: \"At the fork. You said they'd put it after the orcs...\" through \"Is ours.\" (L243-L251)",
+      "telegram_run + texture_desert s565-574: He was gone. Jaina twisted round to face Sylvanas... \"Why?\" she said. (L317-L327)"
+    ]
+  },
+  "r0Resolution": {
+    "rhythm-texture (high)": "resolved: 62 -> 100",
+    "polysyndeton (high)": "partially resolved: the two quoted instances were fixed, but about 9 remain, including a sigh on the last item at L201 and a joke on the last item at L71",
+    "'the way X did' comparisons (medium)": "resolved: 2 remain (L89, L169)",
+    "'eyes went' (low)": "resolved: 1 remains (L185)",
+    "'a little' hedge (low)": "resolved: the 3 remaining are literal quantities",
+    "L155 staging slip (low)": "resolved at L159",
+    "Jaina warmth with Arthas (medium)": "resolved: L149 is warm and teases his rank, as in canon",
+    "Lyriel silent (low)": "resolved: the L269 apple joke and the L353-L359 nosebleed exchange are in her voice",
+    "L49-61 telegram exchange (low)": "resolved, slightly overshot (see the dialogue-register finding on L51)"
+  },
+  "summary": "A strong revision. Texture is now 100/100. Jaina thinks and argues with herself in every scene, the Arthas reunion has its warmth and the refusal still lands on 'He had never taken the paper,' Lyriel has her own voice, and all nine beats are dramatized. It fails narrowly on two counts. The 'and, and, and' polysyndeton the anchor limits to once a chapter still appears about nine times, contrary to the reviser's report, including a sigh on the last item at L201. And the b5 dilemma pivot at L231 ('No. That was the question she'd be asking if he'd listened badly') doesn't parse, while the b5 decision to stop waiting for permission has no act of Jaina's own in scene 2. All fixes are local sentence-level edits; no restructuring is needed."
+}

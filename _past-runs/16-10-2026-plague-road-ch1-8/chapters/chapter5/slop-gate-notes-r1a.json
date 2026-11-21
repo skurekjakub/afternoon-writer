@@ -1,0 +1,516 @@
+{
+  "chapterId": "chapter5",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "fixConvention": "suggestedFix of empty string means delete the cited text (see fixType: delete).",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 61,
+      "kills": 8,
+      "keeps": 53,
+      "severity": "MILD (cluster: 'and nothing else' x4 across chapter)",
+      "dominantPattern": "exclusion tail / minimizer pivot",
+      "clusterWarnings": [
+        "'X and nothing else' at L3, L209, L281, L429: repeated shape; L209 kept as hard constraint, others killed"
+      ],
+      "findings": [
+        {
+          "id": "A-N1",
+          "line": 3,
+          "text": "built for carts and nothing else.",
+          "pattern": "exclusion tail 'and nothing else' (repeated shape, cluster rule)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Deletion test: 'built for carts.' survives intact. Same 'X and nothing else' tail recurs at L209, L281, L429; repetition across the chapter makes every non-load-bearing instance a KILL.",
+          "suggestedFix": "built for carts.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "the road running straight and wide between the fields, built for carts."
+        },
+        {
+          "id": "A-N2",
+          "line": 281,
+          "text": "After that the night was the river road and nothing else.",
+          "pattern": "exclusion tail 'and nothing else' (repeated shape, cluster rule)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Deletion test survives; the exclusion tail is emphasis scaffolding and the third use of the same shape.",
+          "suggestedFix": "After that the night was the river road.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "After that the night was the river road."
+        },
+        {
+          "id": "A-N3",
+          "line": 429,
+          "text": "by Lyriel's arm and nothing else.",
+          "pattern": "exclusion tail 'and nothing else' (repeated shape, cluster rule)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Deletion test survives: 'came up again with the mage still on it, by Lyriel's arm.' carries the same fact. Fourth use of the shape.",
+          "suggestedFix": "by Lyriel's arm.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "came up again with the mage still on it, by Lyriel's arm."
+        },
+        {
+          "id": "A-N4",
+          "line": 361,
+          "text": "She lifted the staff off the floor. It was not much of a lift, the shaft in the crook of the dead arm and steadied by the two working fingers of the wrapped hand,",
+          "pattern": "Pattern 4 minimizer pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Bats away 'a lift' to land on the real description; deletion of 'It was not much of a lift' leaves the physical detail intact.",
+          "suggestedFix": "She lifted the staff a hand's height off the floor, the shaft in the crook of the dead arm and steadied by the two working fingers of the wrapped hand,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "She lifted the staff off the floor, the shaft in the crook of the dead arm and steadied by the two working fingers of the wrapped hand,"
+        },
+        {
+          "id": "A-N5",
+          "line": 495,
+          "text": "The mage did not have to think about it.",
+          "pattern": "Pattern 5 preamble negation",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Defines her response by the deliberation it lacks; the dialogue that follows already shows the quick answer. Start at the real reaction.",
+          "suggestedFix": "The mage answered at once.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "\"One of the old houses. A Lordaeron lord; he sits at the King's court.\" (dialogue alone carries it)"
+        },
+        {
+          "id": "A-N6",
+          "line": 559,
+          "text": "Not one heavy mark hung off the King's road.",
+          "pattern": "Pattern 2 fragment pivot (Not X. All of them Y.)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Deletion test: 'And the mage's marks sat on that same web of roads in clumps. All of them, every heavy one and every old one, sat on the south road...' survives and is more direct; the following sentence already rules the King's road out. Fix is deletion of the cited sentence.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "All of them, every heavy one and every old one, sat on the south road and the lanes that ran off it...",
+          "fixType": "delete"
+        },
+        {
+          "id": "A-N7",
+          "line": 595,
+          "text": "No *are you sure you don't want me to check it again*, not one glance up to see whether it had been good enough.",
+          "pattern": "Pattern 7 chained negation",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Two stacked refusals building toward the Kirin Tor beat; 'There was nobody to catch.' (kept, cond. 4) already lands the contradiction and L591 shows her 'studying the sheet'. Deletion test survives. Fix is deletion; the paragraph then opens 'A Kirin Tor mage, and Sylvanas had yet to meet one...'.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "A Kirin Tor mage, and Sylvanas had yet to meet one who could tell you the hour without wanting the sundial admired.",
+          "fixType": "delete"
+        },
+        {
+          "id": "A-N8",
+          "line": 619,
+          "text": "Her palm was bare, and the wood was not smooth under it.",
+          "pattern": "Pattern 4 minimizer (negated descriptor before the real one)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Names the texture by refusing 'smooth' before the next sentence supplies the real surface. State the texture positively.",
+          "suggestedFix": "Her palm was bare, and the wood under it was ridged.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Her palm was bare. The bench was made of wagon boards."
+        }
+      ],
+      "keepRateNote": "High keep share reflects that most candidates are plain negative facts (tracker absence evidence, dialogue diagnostics, hard constraints) rather than contrast pivots; each is documented in the scratchpad."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 48,
+      "kills": 6,
+      "keeps": 42,
+      "severity": "MILD",
+      "dominantPattern": "P8 body part / P10 actor demotion",
+      "secondSweep": "Re-read every sentence for inanimate/abstract subjects with agency, motion, cognition verbs. Caught L281 sky refusal, L287 yard turning carts, L307 'a hurry' as agent, L187 marks with Jaina demoted to possessive. Atmospheric 'The night came in' (L575) and 'the cold came in with her' (L83) are ambient inversions owned by pass B; logged, not judged here.",
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "findings": [
+        {
+          "id": "A-S1",
+          "line": 61,
+          "text": "when her finger stopped on it",
+          "pattern": "P8 body part acting for owner",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Real agent: Sylvanas stopped reading at the margin note. Putting her back in subject position keeps the meaning; the finger was holding her volition.",
+          "suggestedFix": "when she stopped with her finger on it",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "her finger",
+          "verb": "stopped",
+          "realAgent": "Sylvanas"
+        },
+        {
+          "id": "A-S2",
+          "line": 187,
+          "text": "The mage's marks went down over the top of all of it in black, heavy and light, clumsy.",
+          "pattern": "P10 receiver noun / actor demotion",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Jaina makes the marks (two fingers, slowly, established L115-117); the marks are given the motion and the actor is reduced to a possessive.",
+          "suggestedFix": "The mage put her marks down over the top of all of it in black, heavy and light, clumsy.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the mage's marks",
+          "verb": "went down",
+          "realAgent": "Jaina"
+        },
+        {
+          "id": "A-S3",
+          "line": 277,
+          "text": "Sylvanas heard her shift her grip, the wrapped hand taking up the rein and the staff dropping back into the crook of the dead arm.",
+          "pattern": "P8 body part acting for owner",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "'the wrapped hand taking up the rein' gives the hand the volitional act; Jaina takes up the rein. Subject swap keeps the meaning exactly.",
+          "suggestedFix": "Sylvanas heard her shift her grip, take up the rein in the wrapped hand and drop the staff back into the crook of the dead arm.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the wrapped hand",
+          "verb": "taking up",
+          "realAgent": "Jaina"
+        },
+        {
+          "id": "A-S4",
+          "line": 281,
+          "text": "against a sky that would not get any lighter.",
+          "pattern": "P5 object refusing",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "'would not' hands the sky stubborn refusal; the real thing is that dawn was hours off. Give the visible state.",
+          "suggestedFix": "against a sky only a shade lighter than they were.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "a sky",
+          "verb": "would not get lighter",
+          "realAgent": "time of night (no dawn yet)"
+        },
+        {
+          "id": "A-S5",
+          "line": 287,
+          "text": "a yard that would have taken twenty carts and turned them.",
+          "pattern": "P10 receiver noun doing the human work",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The yard is given 'turned them'; carters turn carts. Second-sweep catch: room/space noun receiving the actor's verb.",
+          "suggestedFix": "a yard with room for twenty carts to turn.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "a yard",
+          "verb": "turned",
+          "realAgent": "carters turning their carts"
+        },
+        {
+          "id": "A-S6",
+          "line": 307,
+          "text": "because a hurry leaves the corners.",
+          "pattern": "P9 nominalized verb given agency",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "'a hurry' is a nominalized state acting as the sweeper. Real agent: a hurried man with a broom. Concrete actor restores the tracker logic.",
+          "suggestedFix": "because a man in a hurry leaves the corners.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "a hurry",
+          "verb": "leaves",
+          "realAgent": "a hurried sweeper"
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 14,
+      "kills": 4,
+      "keeps": 10,
+      "severity": "MILD",
+      "dominantPattern": "Tic 5 eye/gaze over cap",
+      "tallies": {
+        "tic1_cornerOfMouth": 0,
+        "tic2_marked": 0,
+        "tic3_tightened": 0,
+        "tic3_eased": 0,
+        "tic4_facialShifted": 0,
+        "tic5_genericEyeGaze": 6,
+        "tic6_weightMetaphor": 1,
+        "tic7_nonSaidTags": 0
+      },
+      "findings": [
+        {
+          "id": "A-T1",
+          "line": 205,
+          "text": "Then Sylvanas looked at the table again.",
+          "pattern": "Tic 5 eye/gaze repertoire (over cap)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Six generic look/glance reaction beats (L105, L157, L205, L425, L467, L545) against a cap of 4; tactical looks (ears, hands, trees, road) not counted. This is the most generic: a transitional look into reflection. Replacement keeps Sylvanas as the clear subject so L207 'She had thought' does not drift onto the mage.",
+          "suggestedFix": "Sylvanas leaned over the table again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "count": 6,
+          "cap": 4
+        },
+        {
+          "id": "A-T2",
+          "line": 467,
+          "text": "Sylvanas looked up.",
+          "pattern": "Tic 5 eye/gaze repertoire (over cap)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Duplicate of the L545 'Sylvanas looked up.' reaction beat; here it only transitions to the staff detail. Deletion: the mage's line and 'The mage had the heel of the staff on the boards...' read straight on. Fix is deletion of the cited sentence only.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "count": 6,
+          "cap": 4,
+          "fixType": "delete"
+        },
+        {
+          "id": "A-T3",
+          "line": 363,
+          "text": "The overseer swallowed.",
+          "pattern": "paragraph opener repetition (3 consecutive 'The' paragraphs)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Paragraphs at L361/L363/L365 open 'The mage... / The overseer... / The crystal...'. Cheapest break is the middle one; the overseer is the only male in the room so 'He' is unambiguous.",
+          "suggestedFix": "He swallowed.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "opener_consecutive_repeat"
+        },
+        {
+          "id": "A-T4",
+          "line": 579,
+          "text": "The crystal lit slowly, a thread of gold in the dark,",
+          "pattern": "paragraph opener repetition (3 consecutive 'The' paragraphs)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Paragraphs at L575/L577/L579 open 'The night... / The mage... / The crystal...'. Front the adverb on the third to break the run without touching meaning.",
+          "suggestedFix": "Slowly the crystal lit, a thread of gold in the dark,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "opener_consecutive_repeat"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 18,
+    "totalKeeps": 105,
+    "mildKills": 18,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 18,
+    "killsUnfixable": 0,
+    "deletionFixes": [
+      "A-N6",
+      "A-N7",
+      "A-T2"
+    ],
+    "verdict": "fail",
+    "verdictReason": "18 MILD kills (more than 3). No MODERATE/SEVERE. Down from 51 at iteration 0. Structural texture deficit (texture_score 73.1, below_target). Structural rhythm concerns: sentence_length_cv, one_sentence_paragraph_pct, long_pct, opener_entropy.",
+    "fixStrategy": "default (iterationKillsA = [51], no oscillation)",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.824,
+        "target": 0.72,
+        "delta": 0.104,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.802,
+        "target": 0.7,
+        "delta": 0.102,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.4,
+        "target": 19.0,
+        "delta": 9.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "short_pct": {
+        "actual": 36.0,
+        "target": 35.0,
+        "delta": 1.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_pct": {
+        "actual": 22.2,
+        "target": 10.0,
+        "delta": 12.2,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.19,
+        "target": 7.7,
+        "delta": -1.51,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "one_sentence_paragraph_pct",
+        "long_pct",
+        "opener_entropy"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 73.1,
+      "participial_pct": 6.3,
+      "compound_pct": 14.6,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.5,
+      "short_pct": 46.3,
+      "verdict_reasons": [
+        "participial: 6.3% below target 12.0% (score 56/100)",
+        "compound: 14.6% above target 10.0% (score 62/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.3% → target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 14.6% → target 10.0% (score 62/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% → target 4.0% (score 74/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 10,
+      "textureDesertCount": 16,
+      "note": "structural texture deficit",
+      "overlapWithKills": "A-T3 (L363) sits near the S2 overseer interview; A-N7 (L595) and A-T4 (L579) fall in the fork-lodge scene; A-S6 (L307) sits inside the barn texture_desert (sentences 288-315). Revision of those lines can add a participial or em-dash join where natural."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 67,
+        "total_violations": 2,
+        "overCap": [
+          {
+            "category": "paragraph_structure",
+            "pattern": "opener_consecutive_repeat",
+            "count": 3,
+            "cap": 0
+          },
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0
+          }
+        ],
+        "passAMapped": "opener_consecutive_repeat (3; 2 KILL, 1 KEEP), filler_nodded (1 KEEP), filler_smiled (1 KEEP), filter_watched (1 KEEP), bookism_breathed_tag (1 KEEP, false positive), punct_semicolon/punct_colon_narration/participial_trailing/simile_* (all under cap, KEEP)",
+        "passBDeferred": "verdict_too_x_for L697 and something_vague L147 map to pass B guides; not audited here."
+      }
+    }
+  }
+}

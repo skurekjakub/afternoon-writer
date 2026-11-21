@@ -1,0 +1,217 @@
+{
+  "chapterId": "chapter8",
+  "iteration": 0,
+  "targetFile": "v0.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter. Worst concentrations: Scene 1 B1-B2 (lines 87-167), the B5 chase (lines 405-433), B6-B7 (lines 507-517, 609-621, 669)",
+      "passage": "Then his head went forward, and Sylvanas's hand came across the table and caught him by the shoulder before his face could go down onto the collar, and the stool knocked once on its short leg and was still.",
+      "problem": "Texture score 74.2/100 (pass is 90). Two dimensions pull in opposite directions. Compound joins are at 22.3% of sentences against a 14.1% target (score 47.5). Participial phrases are at 1.8% against 7.2% (score 57.7), about 17 in 924 sentences. Short sentences are also over the ceiling (49.4% against 48.6%). The prose almost never uses a trailing ', -ing' phrase; it joins every follow-on action with ', and'. Em-dash (4.2%, score 100) and semicolon (0.2%, score 91) are acceptable.",
+      "fix": "Convert, don't split. Splitting the compounds into separate sentences would push the short-sentence rate further over its ceiling. Turn the second or third ', and' clause into a participial or a subordinate clause instead. Rough budget: about 75 fewer compound sentences and about 50 more participials, and a single conversion often does both. Line 267: 'Then his head went forward. Sylvanas caught him by the shoulder across the table before his face could go down onto the collar, the stool knocking once on its short leg and going still.' Line 141: '...until his mouth came open on its own, a string of spit running down into his beard, and he worked his jaw from side to side...' Line 669: 'The lamp had burned down to a blue bead, a thread of smoke standing up off it.' Next targets: lines 93, 147, 167, 401, 415, 433, 507, 513, 517, 615. For semicolons, Jaina's calibration allows one or two a page for paired observations, so two or three in B6-B7 (for example lines 499 or 611) would lift that dimension without strain."
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "high",
+      "location": "Whole chapter. 35 sentences carry two or more ', and' joins, and lines 67, 81, 513, 615 and 669 carry three",
+      "passage": "They had been going out since midsummer, into bakehouses, and coming out of the ovens as loaves, and the loaves had been eaten, and some of the reeves had already sat down and written in. (615) / Sylvanas looked at the man, and down the lane at the yellow windows, and at Jaina. (115) / Sylvanas looked at the wall, and back at the lane mouth, and down. (345)",
+      "problem": "The 'X, and Y, and Z' chain is the chapter's default sentence engine, not an occasional effect. The rhythm anchor allows the 'and, and, and' list once a chapter at most; this chapter has about 35. It also flattens Jaina. Her voice sheet and calibration give her built syntax (claim, qualifier, consequence, with subordinate clauses that move the thought on). Here her narration mostly strings coordinate clauses, which sounds like a storyteller, not a quick mind. The triple-look sentence is used twice for Sylvanas (115, 345), and Cyndia's climb (325) repeats the shape.",
+      "fix": "Keep one deliberate polysyndeton. The best candidate is line 81, the take heard only as sound, where the rhythm is the event. Rebuild the rest with Jaina's connectives: 'until', 'so that', 'which meant', 'because', 'before', a colon or a participial. Line 615: 'They had been going out since midsummer into bakehouses, coming out of the ovens as loaves that had since been eaten; some of the reeves had already sat down and written in.' Line 513: '...and she hadn't known there was anything in him to lay it against. She ran it again anyway: ...'. For the two Sylvanas looks, turn one into a single physical action before the order (her hand on the granary's stone feet before 'Under.'), and cut the other to the order alone."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "medium",
+      "location": "Scene 2, B4-B5: lines 333, 337, 381, 405, 415, 433",
+      "passage": "At the next corner another came round into the lane in front of them and pulled up short, and an arrow came down out of the dark overhead and took him, and he folded over the shafts of a handcart and stayed there. (433, 43 words) / Then they were in the cart shed with the grease smell, and halfway through it the wet came up hard on her left, out of the dark at the back of the shed, so sudden it was like a hand laid over her face. (415, 44 words)",
+      "problem": "25 sentences run past 40 words, and nine of them are in the flight (B4-B5). The style guide's action standard asks for a 7-9 word mean in action, with at most one long sentence per action paragraph to stretch a critical half-second. B5 stacks several 40-50-word 'and' chains back to back, so the fastest stretch of the chapter reads slower than the interrogation. Sentence-length CV is 0.864 against a 0.623-0.823 range, because these sprawls sit beside runs of two-word lines.",
+      "fix": "In the B5 chase (lines 405-437), cap sentences at about 25 words, letting a participial carry the second action rather than adding a fresh 'and' clause. For example, 433: 'At the next corner another came round into the lane in front of them and pulled up short. An arrow out of the dark overhead took him, folding him over the shafts of a handcart.' Keep the long sentence only for the half-second that matters most, Havel going down at 405, and even there split it once: 'He took one more stride before his legs went out from under him.'"
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "medium",
+      "location": "Lines 459-463 (arrival in Corin's room); lines 393-397 (Havel's break); chapter-wide paragraph shape",
+      "passage": "Sylvanas went straight to the shutter, opened it a finger's width and stood there. / Corin lit a candle and set it on the floor behind the table, where its light wouldn't reach the gap. / Jaina sat down on the cot and leaned the staff against the wall beside her.",
+      "problem": "One-sentence paragraphs are 34.5% of the chapter against a 21.4% target (26.4% ceiling). The style guide allows no more than two single-sentence narration paragraphs in a row, and there are two runs of three. The 393-397 run ('Sylvanas began to turn.' / 'Havel went.') is a real turn and can stand. The 459-463 run is plain staging, three people taking positions, and the white space gives it weight it doesn't carry. The surplus one-liners are a large part of why the short-sentence rate is over its ceiling.",
+      "fix": "Merge 459-463 into one paragraph of positions in the room, carried by a participial ('...Corin lighting a candle and setting it on the floor behind the table, where its light wouldn't reach the gap'). Fold other staging one-liners into the paragraph next to them: 495 into 497 and 549 into 547. Keep the one-liners that are true turns: 'And a collar.', 'It was already finished.', 'Oh, Light.', 'Havel went.', 'She sat very still.', 'Who, then.'"
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "medium",
+      "location": "Scene 1, B2, lines 205-229 (Jaina's question run)",
+      "passage": "\"Does he tell them what's in it?\" / \"Nobody's told what's in it.\" He licked his lip. ... / \"It does what he says it'll do.\" / \"Does he know? The one with the crock?\" / \"More than me.\" The stool knocked. \"Not all of it. Nobody down here knows all of it.\"",
+      "problem": "Jaina's question run is nine volleys with two narration beats in it ('He licked his lip', 'The stool knocked'). The scorer flags it as the chapter's longest telegram run (17 sentences, 88% short) and a texture desert. It is also the question-and-answer list the plan's craft note warns against. No advantage changes hands between 'Who showed them how?' and Sylvanas sliding the collar at 229. The staff read set up at 169 ('If anything on him answered to anybody, it would come up the staff before it came out of his mouth') goes silent for the whole run, so Jaina's craft has nothing to do in the very stretch that tests it as the 'cleaner road'.",
+      "fix": "Put one narration beat of two or three sentences in the middle of the run, after 'It does what he says it'll do.' or after 'Nobody down here knows all of it.'. Jaina reads through the staff while he answers: his blood jumps on one question and not another, and still nothing is tied to him. Write it in her inference syntax with a subordinate clause and a participial. That gives her a small edge (she can tell which answer frightened him) and breaks up the telegram run. If length matters, cut the 'And once it's in the bread?' volley (219-221), since 'Nobody's told what's in it' and 'Nobody down here knows all of it' already carry that the lower ranks don't know the ritual."
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "medium",
+      "location": "Chapter-wide; Sylvanas reaction beats at 115, 345, 449, 665, 687; 'the wet' at 303-467",
+      "passage": "Sylvanas looked down at the east road on her sheet, where Corin's red ran out of the corner and up the margin, and said nothing. (665) / Sylvanas looked at her across the lamp and didn't ask. (687)",
+      "problem": "MATTR is 0.777 against a 0.818 floor. The vocabulary runs on a few verbs: 'came' 64, 'went' 59, 'looked' 37, 'stood' 34. 'Every' appears 43 times, 37 of them in 'every X' phrases, which dilutes the prisoner's 'Every yard. Every road out.', the motif B7 is built to land. There are twelve silence beats ('said nothing' six times, plus 'Nobody spoke', 'didn't answer', 'didn't ask', 'Nobody argued', 'Nobody said anything'). Sylvanas's reaction is nearly always 'looked ... and said nothing', the gaze-as-default-reaction the rhythm anchor tells writers to avoid. Her silence is her B2 tool, and it loses force as her resting state everywhere else. The sensing noun 'the wet' appears twelve times between lines 303 and 467.",
+      "fix": "Keep 'every' for the prisoner's phrase and its callbacks (239, 547, 607, 627) and cut it elsewhere (67, 365, 497, 499, 631). Move Sylvanas's reactions into her body, using her voice-sheet tells: a hand going to the bowstring, going still, looking past the speaker at the ground beyond. Do this especially at 449, 665 and 687, and keep 'said nothing' for the B2 interrogation, where silence is the tactic. On about half its uses, replace 'the wet' with Jaina's own word field (taint, residue, the loft taste) or with what it costs her (the cold in her back teeth). Swap a share of came/went/stood for exact verbs."
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "medium",
+      "location": "Scene 3, B9, final paragraph (line 701)",
+      "passage": "Where did he sit to write? How long had he been at it? Why had Antonidas said so little? And every seam she'd ever been proud of closing—how much of that had he known first?",
+      "problem": "The chapter ends on four stacked questions that copy the plan's B9 open-question list nearly item by item (his base, what he knew first, why Antonidas said so little). 'Why had Antonidas said so little?' repeats line 673, where Jaina has already asked the question and answered it in her own idiom ('Why hadn't she? Because it was the Council's business... No. Because...'). Ending a chapter on a stack of questions reads as mannered, and as a summary of unknowns rather than Jaina thinking. Line 699, with the dark crystal and the barley still working down her back, is a stronger concrete close than the list after it.",
+      "fix": "Cut the first three questions and end on the seam question alone. It is the personal one, in her scholar's idiom, and the only one she hasn't already asked. Or end on line 699's barley image, with the seam question placed just before it. A single question carries the open end better than four."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Scene 2, B6, line 505",
+      "passage": "\"Tam had his collar sewn before he ever saw us. The thing in that man was tied off long before tonight, with somebody else holding the end of it. The captain was bought at high summer. And the doors were picked out ahead of time, his doors, so that whoever found the loft would be walked into one of them.\"",
+      "problem": "Four parallel findings, delivered to a silent room ('Sylvanas said nothing.'), turn the speech into a detective's summing-up. 'The captain was bought at high summer' repeats what Corin said a few lines earlier. The content serves the plan's B6 outcome well. The problem is the shape, a list that nobody answers.",
+      "fix": "Cut the repeated Havel line. Let Sylvanas answer one item from her own ground so the speech becomes an exchange, or give Jaina her young-confidence marker on one item ('I believe...') so it stays her inference chain, not a verdict."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Lines 19, 57, 379",
+      "passage": "\"Right,\" Havel said quietly, and put the truncheon back through his belt. / \"There's a ward across the mouth of the lane,\" Jaina said, under her breath. / \"We'll go your way, then,\" he said, very low.",
+      "problem": "Three tags carry volume modifiers. The rhythm anchor and DC-03 call for a bare 'said' or an action beat. The situation already sets the volume each time (an ambush lane, crawling under a granary).",
+      "fix": "Drop 'quietly', 'under her breath' and 'very low'. At 379, Havel's mouth at her ear (already set at 361) does the work."
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "Scene 1, lines 145 and 267 (also 159)",
+      "passage": "It found his cut shirt and his own bare skin, and stopped there. (145) / Sylvanas's hand came across the table and caught him by the shoulder (267)",
+      "problem": "His chin (145) and Sylvanas's hand (267) act as agents when a real actor is present. At 267 this takes the move away from Sylvanas in the beat where the plan has her switch from questioner to rear guard.",
+      "fix": "145: 'He found cut shirt and his own bare skin there, and stopped.' 267: 'Sylvanas reached across the table and caught him by the shoulder...'. Line 159 ('The man's eyes went to Havel') is milder and can stay if the other two change."
+    },
+    {
+      "check": "clarity",
+      "severity": "low",
+      "location": "Scene 1, B1, line 77",
+      "passage": "The cold had gone sluggish again—no, that was the damper, still in the wall a stride from her knee. She moved her feet off it, and the ache came back under her nails sharp and clean.",
+      "problem": "Line 39 sets the damper in the mortar joint of the corner stone, low in the wall, so she can't be standing on it. 'Moved her feet off it' reads as a staging slip and briefly muddles where the slate is.",
+      "fix": "'She shifted a step along the boards, away from it, and the ache came back...'"
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "low",
+      "location": "Scene 1, B1, lines 105-133 (Cyndia's call through the arrival of Havel's lads at the Hurdle Lane end)",
+      "passage": "He left it. They went back along the wider street and into Tenter Row, Havel first, then Sylvanas with the man walking stiff-legged ahead of her and her knife at his back, then Jaina on the staff with Corin at her dead side.",
+      "problem": "B1 runs to about 2,100 words, the longest beat in the chapter. The plan says B1 runs fast and that B2 (about 1,400 words) is Scene 1's longest beat. Most of the overrun is the walk from the lane to the store, about 500 words of transit and marching order.",
+      "fix": "Compress 125-133 to a short paragraph. Keep 'Leave it. It's keeping the lane quiet.', Lyriel's cart-horse line (the warmth beat) and Havel's 'Nobody comes down after us, lads' (a second-read plant). Cut the marching order and the separate arrival at the lads."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 74.2,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {
+        "actual": 1.8,
+        "target": 7.23,
+        "score": 57.7
+      },
+      "compound": {
+        "actual": 22.3,
+        "target": 14.13,
+        "score": 47.5
+      },
+      "emdash": {
+        "actual": 4.2,
+        "target": 5.12,
+        "score": 100.0
+      },
+      "semicolon": {
+        "actual": 0.2,
+        "target": 1.61,
+        "score": 91.4
+      }
+    },
+    "shortPct": {
+      "actual": 49.4,
+      "ceiling": 48.577
+    },
+    "secondaryMetrics": {
+      "sentenceShortPct": {
+        "actual": 38.7,
+        "range": [
+          23.155,
+          37.155
+        ]
+      },
+      "oneSentenceParagraphPct": {
+        "actual": 34.5,
+        "range": [
+          17.378,
+          26.378
+        ]
+      },
+      "sentenceLengthCV": {
+        "actual": 0.864,
+        "range": [
+          0.623,
+          0.823
+        ]
+      },
+      "mattr": {
+        "actual": 0.777,
+        "range": [
+          0.818,
+          0.888
+        ]
+      },
+      "meanSentenceLength": {
+        "actual": 12.2,
+        "range": [
+          10.412,
+          14.412
+        ]
+      },
+      "commaPeriodRatio": {
+        "actual": 0.718,
+        "range": [
+          0.613,
+          0.863
+        ]
+      }
+    },
+    "interpretation": "PARTICIPIAL: 1.8% → target 7.23% (score 58/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 22.3% → target 14.135% (score 48/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | SHORT SENTENCES: 49.4% (ceiling: 48.577%). Too choppy. Combine adjacent shorts using constructions above. | AUDITOR NOTE: do not follow the scorer's 'break into separate sentences' advice for compounds here, because short_pct is already over its ceiling. Convert the compound joins into participials or subordinate clauses instead, which fixes both dimensions at once.",
+    "flaggedPassages": [
+      "telegram_run s26-33 (8 sentences) (87.5% short): \"Who hears?\" \"Whoever tied it. I can't tell you where he's sitting.\"",
+      "telegram_run s125-132 (8 sentences) (87.5% short): \"Ranger-General. Cyndia's voice came down low from the chimney stack across f \"Nobody came to the windows.",
+      "texture_desert s125-136 (12 sentences): \"Ranger-General. Cyndia's voice came down low from the chimney stack across f \"Nobody came to the windows.",
+      "texture_desert s142-159 (18 sentences): \"Lead,\" she said. Nobody argued. Jaina's teeth were going too hard for her to try.",
+      "telegram_run s150-157 (8 sentences) (75.0% short): The dye stink thickened toward the bend. Lyriel came out of the angle of a wall there with an arrow o \"Clear behind.",
+      "texture_desert s191-202 (12 sentences): The man said nothing. \"I'm the law on these lanes. You talk to me and you'll go up before a magistrate in dayli",
+      "telegram_run s249-256 (8 sentences) (75.0% short): \"They take their gloves off by the cuff, without touching th They wash to the elbow before they drink. Who showed them how?\"",
+      "telegram_run s258-274 (17 sentences) (88.2% short): \"Does he tell them what's in it?\" \"Nobody's told what's in it. He licked his lip.",
+      "texture_desert s258-275 (18 sentences): \"Does he tell them what's in it?\" \"Nobody's told what's in it. He licked his lip.",
+      "telegram_run s277-284 (8 sentences) (100.0% short): \"One,\" he said. \"There's one over all of it.\" \"One man,\" Jaina said.",
+      "texture_desert s277-288 (12 sentences): \"One,\" he said. \"There's one over all of it.\" \"One man,\" Jaina said.",
+      "telegram_run s361-369 (9 sentences) (88.9% short): \"Not the street,\" she said. \"There's more of what's on him out there. She tipped her head at the man on the floor.",
+      "texture_desert s361-370 (10 sentences): \"Not the street,\" she said. \"There's more of what's on him out there. She tipped her head at the man on the floor.",
+      "texture_desert s379-391 (13 sentences): Jaina's mouth was as dry as the cobbles. She looked at the cup and went past it. Cyndia dropped off the chandler's eaves into the yard and la",
+      "telegram_run s400-407 (8 sentences) (75.0% short): \"Up the lane's the worst of it,\" she said. \"Toward the post. It isn't moving.\"",
+      "telegram_run s551-559 (9 sentences) (88.9% short): \"It's behind us,\" she said. \"It isn't following.\" \"It will.",
+      "texture_desert s551-560 (10 sentences): \"It's behind us,\" she said. \"It isn't following.\" \"It will.",
+      "telegram_run s614-622 (9 sentences) (77.8% short): Pages of it. At high summer it was struck through. All of it, every line, in one hand, the same week Fenner's a",
+      "telegram_run s706-713 (8 sentences) (87.5% short): The copied bills, she supposed, road by road. Every yard. Every road out.",
+      "telegram_run s755-762 (8 sentences) (75.0% short): Then he carried on past them. \"We rode that. Sylvanas laid a finger on the road beside his hand and drew ",
+      "telegram_run s764-774 (11 sentences) (90.9% short): \"Keep going,\" Jaina said. \"Up the margin.\" He wrote the names sideways up the margin, small.",
+      "texture_desert s764-774 (11 sentences): \"Keep going,\" Jaina said. \"Up the margin.\" He wrote the names sideways up the margin, small.",
+      "texture_desert s828-837 (10 sentences): The face she had stopped at on the south road came up again. This time she didn't put it away. \"Lady Proudmoore.\"",
+      "telegram_run s829-837 (9 sentences) (77.8% short): This time she didn't put it away. \"Lady Proudmoore.\" Corin had stopped writing.",
+      "texture_desert s839-854 (16 sentences): There was a master put out of the Kirin Tor. He swallowed. \"The Archmage did it himself.",
+      "telegram_run s846-854 (9 sentences) (77.8% short): \"Kel'Thuzad,\" he said. It fit the face she had stopped at on the road. She had known it would.",
+      "telegram_run s915-922 (8 sentences) (75.0% short): \"The other two copies,\" he said. \"They'll be done before you go.\" Jaina got the staff into the crook of her dead arm."
+    ]
+  },
+  "checksPassed": {
+    "emotional-life": "Pass. Free indirect argument in every scene (43, 67-69, 147, 273-281, 365, 421, 497-513, 615-621, 673-675). Registers range across tension, dark humour (Lyriel's cart horse and magisters, the barley), warmth (Lyriel at the candle, Corin's 'I'll put it back in the morning'), exhaustion (the shivering on the cot), guilt and dread. Each value shift lands on a concrete moment.",
+    "limited-third": "Pass apart from the low body-part-agency items. The take is heard, not seen, the arrow is shown by its effect, Havel's tells are observed without being concluded, and the B3 'felt it too late' is grounded in the closed place under the loud residue.",
+    "dialogue-register": "Pass apart from the low items. The voices are distinct: Cyndia reports in event order with rank first, Lyriel's jokes have the right shape, Corin starts false and lands the fact, Havel offers again each time he's refused, and Jaina is courteous and asks her own questions. Address forms are all correct.",
+    "beat-plan-fidelity": "All nine beats are dramatized: cast budget held (one freeze, damper for the ward), bite logic, formation question placed once, coin/paid first in Corin's mouth, Cyndia sources the shelters, east sourced to Corin's inbound bills, Kel'Thuzad guardrails held, Jaina owns the turn east, stone silent."
+  },
+  "summary": "A strong, fully dramatized draft. All nine beats are on the page as scenes, the POV is clean throughout, Havel's fair-play arc lands, and Jaina argues with herself in her own idiom in every scene. It fails on texture (74.2/100). Polysyndeton ('X, and Y, and Z') is the default sentence engine, with compounds at 22.3% against 14.1% and participials at 1.8% against 7.2%, and it flattens Jaina's built syntax and slows the chase. Secondary fixes: too many one-sentence paragraphs, a thin vocabulary (came/went/looked/every), the telegram Q&A run in B2, and a four-question closing stack."
+}

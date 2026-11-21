@@ -1,0 +1,439 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "fixStrategy": "conservative: the iterationKillsB trajectory is [44, 32, 12, 8] and this run also finds 8, a plateau at the prior minimum. Fixes prefer deletion or a minimal word swap.",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner (limited third, absolute)",
+    "registerSummary": "She reads rooms and streets as ground: exits, sightlines, cover, gait, who is drilled and who is tired. Her free indirect thought argues with itself in short clauses (a question, a bad answer, an overrule, then an action) and is dry and unfair to slow humans and to the Convocation. She names no feelings, and she does not think in impersonal or atmospheric narrator phrasing.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 80,
+      "kills": 6,
+      "keeps": 74,
+      "severityMarkers": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F11",
+      "summaryByMode": {
+        "F1": 0,
+        "F2": 1,
+        "F3": 0,
+        "F4": 1,
+        "F5": 0,
+        "F6": 0,
+        "F7": 1,
+        "F8": 0,
+        "F9": 1,
+        "F10": 0,
+        "F11": 2,
+        "F12": 0,
+        "F13": 0,
+        "F14": 0,
+        "F15": 0
+      },
+      "selfCheckNote": "This run finds 6 kills, below the guide's 'under 10 means too lenient' line. The chapter is on its fifth gate pass (B trajectory 44, 32, 12, 8), and every scene ending, exchange and vocative was re-read. F13 and F14 have no narration hits. F12 has no negated reaction beats. F5: all three scenes keep Havel obstructive (route-pushing to the end, chalking Hurdle Lane again at L456), so no scene resolves softly.",
+      "findings": [
+        {
+          "id": "r4b-01",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F2",
+          "failureMode": "Dialogue-beat genericism",
+          "line": 121,
+          "text": "\"I took two.\" He said it flat. \"At midsummer, for brawling.",
+          "beat": "He said it flat.",
+          "issue": "Generic delivery label. It could belong to any speaker, and it restates the flatness the four-word line already carries. Havel's next sentences ('There'd been no brawl; I wanted them in a room with a lamp and a door I could shut.') show the unapologetic tone without the tag. The two sibling beats survive because each adds a specific: 'He said it fast, nodding before she'd finished.' (L177) and 'He said the rank carefully, getting all of it in.' (L133).",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "textureZone": "Inside texture_desert sentences 155-165 and telegram_run 156-165 (L113-L121). Joining the two quoted halves into one run of speech also removes one break from the run.",
+          "suggestedFix": "\"I took two. At midsummer, for brawling.",
+          "fixNote": "Drop the beat and close the quote gap so Havel's speech runs on unbroken.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "r4b-02",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "failureMode": "Anaphoric runs",
+          "line": 141,
+          "text": "Some of the villages on a copied mark have written in since. Some haven't yet.\"",
+          "repeatedOpener": "Some",
+          "issue": "An anaphoric pair inside one speech. The second 'Some' is there to land the dread on 'yet'. A merged sentence keeps the contrast and the 'yet', so the repeated frame carries nothing a merge would lose.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "textureZone": "Inside texture_desert sentences 205-214 and telegram_run 207-214 (L141-L147). The merge also adds one compound join to a flagged short run.",
+          "suggestedFix": "Some of the villages on a copied mark have written in since, and the rest haven't yet.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "r4b-03",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "failureMode": "Narrative over-translation",
+          "line": 321,
+          "text": "The masked ones worked the sacks up in the loft.",
+          "whatItRestates": "L317, two paragraphs earlier, where five masked men work the sacks in the loft (crock, arm in the sack, sewing, stacking). The contrast it sets up is already carried by 'kept his distance from the sacks' in the sentence before it, and Sylvanas says it aloud at L380 ('These stand sentry. ... This one carries word between the walls and the loft.').",
+          "issue": "If the sentence is deleted, the reader loses nothing they did not already have.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph then reads: 'The one she had followed carried word between cracks in walls and kept his distance from the sacks. Eight at Fenner's. Five here. How many more cracks in how many walls?'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "r4b-04",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F7",
+          "failureMode": "Closure addiction",
+          "line": 337,
+          "text": "By first light they would be on a wagon for some village baker, carrying a bill and a seal that would pass any table in the city.",
+          "location": "Paragraph-final, in the closing paragraph of the rooftop scene",
+          "couldEndAt": "In Kett's loft the masked men went on working the sacks.",
+          "issue": "After the concrete beat, the narration steps forward to say what it means: the sacks go out and pass every check. It also gives Sylvanas Kett's first-light dispatch before Corin produces it from Kett's bills at L396 ('Every bill on Kett's mark is written for the first carts out.'). That flattens the reveal and the 'Tonight' decision it drives.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence so the paragraph ends on 'In Kett's loft the masked men went on working the sacks.' Separately, line 337 and line 338 ('While the bell was still going she went back along the roof...') have no blank line between them, so they render as one paragraph. Restore the paragraph break.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "r4b-05",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "failureMode": "Anaphoric runs",
+          "line": 422,
+          "text": "Up the lane, toward the wall with the crack in it, toward Tenter Row.",
+          "repeatedOpener": "toward",
+          "issue": "A doubled clause opener inside one sentence, the guide's 'before the guard, before the feet' shape. The repeat adds cadence, not information. With one 'toward' the route reads the same and is more exact, since the three men would pass the crack on the way to the row.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Up the lane, past the wall with the crack in it, toward Tenter Row.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "r4b-06",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "failureMode": "Name-only lines and vocative tagging",
+          "line": 428,
+          "text": "Havel turned from the canvas. \"Ranger-General—\"",
+          "issue": "A name-only line standing in for a protest that could be said. His objection is already on the page: his plan at L390 depends on the magistrate's clerk standing at the bend. If the cut-off carries the first words of it, Sylvanas's override has something to land on.",
+          "standsInFor": "Havel's objection that a same-night move loses the magistrate's clerk his plan depends on",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Havel turned from the canvas. \"Ranger-General, the magistrate's clerk—\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 35,
+      "kills": 2,
+      "keeps": 33,
+      "severityMarkers": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "tierAKills": 2,
+      "tierBKills": 0,
+      "dominantPattern": "A7/A8",
+      "structuralHabit": "no",
+      "severePages": [],
+      "severeScenes": [],
+      "findings": [
+        {
+          "id": "r4b-07",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A7",
+          "tier": "A",
+          "line": 223,
+          "text": "The lane was in shadow from end to end, and the dust in it got into the mouth.",
+          "whoIsSayingThis": "An impersonal narrator. 'The mouth' means anyone's mouth, which is the definite-article form of generic 'you'. The lane is described for a notional passer-by instead of being tasted by Sylvanas, who is walking it.",
+          "povMismatch": "Sylvanas's ground-reading in this paragraph is first-hand (shadow, width, hoist beams). The dust clause slides to generic description. Compare L77 'a flat grey layer that stung the eyes', which is kept: there a relative clause states a property of the smoke in standard idiom, while here a generic event happens to no one.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "The lane was in shadow from end to end, and the dust in it got into her mouth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "r4b-08",
+          "guide": "narrator-seep-guide.md",
+          "pattern": "A8",
+          "tier": "A",
+          "line": 346,
+          "text": "The night came in through the gap, warm, and sweet with grain.",
+          "whoIsSayingThis": "The narrator, staging ambience. 'The night' stands in for the actual source, which is warm air off the street coming through the gap Lyriel left in the shutter.",
+          "povMismatch": "The paragraph is blocking (Lyriel at the shutter, Cyndia on the door). It closes on an atmosphere-noun as agent instead of the plain sensory fact Sylvanas would register. The source is simple and known, so the guide says to name it.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "confidence": "MODERATE",
+          "suggestedFix": "Warm air came in through the gap, sweet with grain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 18,
+      "kills": 0,
+      "keeps": 18,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": [],
+      "cleanReason": "18 inferential, tactical and dialogue-abstraction candidates were tested with 'what specifically / by what sign'. Every one cashes out from evidence already on the page. The tactical inferences (L25 wall vs clerk, L237, L261, L321 courier inference, L422) follow shown route behavior or posture. The split reasoning (L195, L199) names the sample-room door, the magister's ring, the bags, the corridors and the drilled-vs-tired gait. Jaina's mechanism line (L364) draws a real carrier-vs-payload distinction anchored by the hand-application step 'after the grain's dressed and before the sack's sewn up'. 'They think the city's theirs' (L430) is cashed out in the same line by 'one man coming and going alone through that door'. There is no planner shorthand: no line summarizes the split as 'street side / mage side'. The keep rate is above the guide's 25% alarm, so each keep's anchor is spelled out in the scratchpad.",
+      "findings": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "brokenExchanges": [],
+      "cleanReason": "The chapter has no explicit simplification setup ('plainly', 'short version', 'in streets'). Four implicit translation exchanges were audited as whole exchanges. In each, the reply hands the listener a usable target or trigger. L103-105 'Is it?' gets the widow and her sister buying from different ovens. L139-141 'How many?' gets forty-one, three named marks and three roads. In L364, Jaina's lay explanation names the packaging step (after dressing, before sewing) that Sylvanas immediately cashes out as 'I have the hands'. In L380, Sylvanas's sketch translation points at specific marks on the sheet.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 129,
+    "mildKills": 8,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md"
+    ],
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "8 MILD kills, over the 3-MILD pass threshold, with no MODERATE or SEVERE kills. GPT-5 guide: F2 L121, F11 L141 and L422, F4 L321, F7 L337, F9 L428. Narrator seep: A7 L223, A8 L346. Phantom concreteness and fake simplification are clean. All 8 have drop-in fixes (3 deletions, 5 minimal substitutions). Structural texture deficit: texture 89.9, below_target, with compound high and em-dash low. Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct and mattr are out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.685,
+        "target": 0.733,
+        "delta": -0.048,
+        "range": [
+          0.613,
+          0.863
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.5,
+        "target": 12.412,
+        "delta": 0.088,
+        "range": [
+          10.412,
+          14.412
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.759,
+        "target": 0.723,
+        "delta": 0.036,
+        "range": [
+          0.623,
+          0.823
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 35.6,
+        "target": 30.155,
+        "delta": 5.445,
+        "range": [
+          23.155,
+          37.155
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.8,
+        "target": 15.352,
+        "delta": 7.448,
+        "range": [
+          12.352,
+          19.352
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.31,
+        "target": 6.637,
+        "delta": -0.327,
+        "range": [
+          6.137,
+          7.137
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 32.5,
+        "target": 21.378,
+        "delta": 11.122,
+        "range": [
+          17.378,
+          26.378
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.786,
+        "target": 0.848,
+        "delta": -0.062,
+        "range": [
+          0.818,
+          0.888
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct above range",
+        "one_sentence_paragraph_pct above range",
+        "mattr below range"
+      ]
+    },
+    "textureMetrics": {
+      "participial_pct": 6.9,
+      "compound_pct": 16.5,
+      "emdash_pct": 3.0,
+      "semicolon_pct": 1.0,
+      "short_pct": 44.5,
+      "texture_score": 89.9,
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "compound: 16.5% above target 14.135% (score 78/100)",
+        "emdash: 3.0% below target 5.119% (score 81/100)"
+      ],
+      "interpretation": "COMPOUND: 16.5% → target 14.135% (score 78/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 3.0% → target 5.119% (score 81/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 9,
+      "textureDesertCount": 9,
+      "flaggedZonesByLine": [
+        "L7-L17",
+        "L35-L55",
+        "L113-L121",
+        "L141-L147",
+        "L163-L167",
+        "L203-L211",
+        "L259-L269",
+        "L364-L368",
+        "L386-L390",
+        "L440-L446"
+      ],
+      "note": "Structural texture deficit (below_target on 2 metrics). Kills r4b-01 (L121) and r4b-02 (L141) fall inside flagged zones."
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 39,
+      "total_violations": 2,
+      "overCap": [
+        {
+          "category": "narrator_verdict",
+          "pattern": "verdict_enough_for",
+          "count": 1,
+          "cap": 0,
+          "line": 223,
+          "passBDisposition": "KEEP: 'wide enough for one wagon and a man flat against the wall beside it' is a concrete physical width, the guide's purpose-clause and dimension exemption"
+        },
+        {
+          "category": "paragraph_structure",
+          "pattern": "opener_consecutive_repeat",
+          "count": 1,
+          "cap": 0,
+          "line": 319,
+          "passBDisposition": "pass A mapping (recurring tics), not audited here"
+        }
+      ],
+      "atCap": [
+        {
+          "pattern": "filter_watched",
+          "count": 3,
+          "cap": 3,
+          "mapping": "pass A"
+        }
+      ],
+      "passBMappedHits": [
+        "narrator_verdict L223 (KEEP)"
+      ],
+      "note": "No slopsquid, ai_vocabulary, verbose_phrases, academic_register, hedging, vague_pointers or ambient_inversion hits. The as-if hit at L275 (simile_as_if, mapped to pass A) was also checked under F3 and kept."
+    }
+  }
+}

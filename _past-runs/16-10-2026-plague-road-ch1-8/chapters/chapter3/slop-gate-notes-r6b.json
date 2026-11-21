@@ -1,0 +1,331 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 6,
+  "targetFile": "v2-r6.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative (iterationKillsB [56, 42, 15, 10, 4, 4]: latest 4 >= prior minimum 4, so the loop is oscillating). All fixes are deletions.",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner (limited third, absolute)",
+    "registerSummary": "Clipped, dry ranger-commander. She reads ground, tracks, cover and horses before she reads people. Her inner voice argues with itself: she asks a question, answers it badly and overrules it with an action ('Don't. A doe is a doe. Find out.'). She is short with magisters, humans and her own reflexes, and she swears by the sun or says 'damn'. She would not think in craft words (rhythm, cadence) or settle a moment with a summary verdict once the evidence has already done the work.",
+    "registerConfidence": "HIGH (voice sheet plus three scenes of established free indirect thought)"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 45,
+      "kills": 2,
+      "keeps": 43,
+      "severity": {
+        "mild": 2,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F4/F7 (a paragraph that glosses or answers what the evidence already showed)",
+      "findings": [
+        {
+          "id": "B6-GPT-1",
+          "pattern": "F4",
+          "failureMode": "Narrative Over-Translation (claim then gloss)",
+          "line": 762,
+          "scene": "scene3 (the old carter)",
+          "citedText": "Busy as you like, and smoke in every chimney. It was what she had wanted from him, given plainly, and it was no use to her at all. Millhaven had been busy as you like on market day.",
+          "whatItRestates": "The middle sentence states the verdict ('no use to her at all') that the last sentence already delivers by juxtaposition: Millhaven was busy on market day too, so a busy village proves nothing. Readers already have the carter's report and the market-day line. The verdict sentence is a subtitle between them.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Busy as you like, and smoke in every chimney. Millhaven had been busy as you like on market day.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "Deletion only. The first fragment is the carter's phrase echoed in her head (free indirect thought, not an A1 verdict tag), and the second sentence is a plain fact with no caption frame. No F13 'It was' caption remains, and there is no new hedge or abstraction."
+        },
+        {
+          "id": "B6-GPT-2",
+          "pattern": "F7",
+          "failureMode": "Closure Addiction (paragraph-final answer that closes an open question)",
+          "line": 660,
+          "scene": "scene3 (the drove way at dawn)",
+          "citedText": "Who drives sixty dead up a cow way in the dark? Nobody she could find.",
+          "couldEndAt": "Who drives sixty dead up a cow way in the dark?",
+          "whatItRestates": "'Nobody she could find' repeats the previous paragraph ('She found nothing on the bank, at the sides or ahead of the first of them. They had just gone, all together, uphill.'). The answer closes a question the plan wants left open (no proof of a command structure; whether the dead move with purpose is still unknown). The bare question is stronger and keeps the doubt alive.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Who drives sixty dead up a cow way in the dark?",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "Deletion only. Ending on an unanswered question is the guide's named non-kill ending. The question is in Sylvanas's idiom (her questions work as orders and as self-argument), so no narrator seep. 'Sixty dead' and 'cow way' are concrete referents, so no phantom concreteness."
+        }
+      ],
+      "summaryBlock": {
+        "F1": "0. No sustained narrative stretch of uniform shape. Short-line density sits in the child interview and the trance calls, where it is functional. See rhythmMetrics for the structural concerns.",
+        "F2": "0. L438, L442, L488 and L618 carry the answer itself or a specific physical sign.",
+        "F3": "0. 'a little' (L283, L524), 'nearly' (L133, L448) and 'might have been' (L626) measure physical degree or carry real uncertainty. The filter verbs in L13 and L129 are watch-duty actions, not perception scaffolding.",
+        "F4": "1",
+        "F5": "0. The houses-first and granary refusals stay unresolved in tone ('Damn her, then'), and the trail-versus-mage argument ends in self-deception, not harmony.",
+        "F6": "0",
+        "F7": "1",
+        "F8": "0. The echoes carry a new claim (L41, L205, L225) or draw out new testimony (L432, L444, L652). L436 is Neral's confirmation of the corrected order of illness, which is the plot event.",
+        "F9": "0. 'Ranger-General' vocatives are voice-sheet-mandated address for Jaina, Lyriel, Neral and Cyndia. The trance calls (L135-143, L195) are the summons the mage asked for.",
+        "F10": "0. L91 and L678 are reports where a report is due.",
+        "F11": "0",
+        "F12": "0. L145 and L372 are single scene-turning refusals. L426 and L584 have positive pivots, so they belong to pass A.",
+        "F13": "0. In L710 and L838 the evaluation is the scene's self-deception beat (plan B11), in her free indirect idiom.",
+        "F14": "0 for pass B. ', politely,' (L704) sits on a speech verb and is routed to pass A (adverb-on-tag).",
+        "F15": "0. The chapter ends on a living, barking dog (the counterpoint to dogless Millhaven). There is no duration phrase and no held object fading out.",
+        "worstFailureMode": "F4/F7 (tie, 1 each)",
+        "overallAssessment": "The chapter is close to clean for GPT-5 tells. Two paragraph-level glosses remain where the evidence already lands the point."
+      }
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 26,
+      "kills": 1,
+      "keeps": 25,
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "B1",
+      "tierAKills": 0,
+      "tierBKills": 1,
+      "severePages": [],
+      "severeScenes": [],
+      "structuralHabit": "no",
+      "findings": [
+        {
+          "id": "B6-NS-1",
+          "pattern": "B1",
+          "tier": "B",
+          "line": 462,
+          "scene": "scene2 (the survivor's testimony)",
+          "citedText": "The girl thought about it. She had some rhythm now that the first words were out.",
+          "whoIsSayingThis": "A narrator. 'Rhythm' is a writer's word for spoken cadence. It is not something Sylvanas would think while standing guard in a doorway listening to a witness.",
+          "povMismatch": "Sylvanas reads witnesses the way she reads tracks: by what they give and in what order. A craft label for how the child's speech flows is outside her word field, and the girl's next line, a three-item list in order, already shows the easier flow.",
+          "severity": "MILD",
+          "confidence": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "The girl thought about it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "Deletion only. 'The girl thought about it.' is the child's own visible beat before a considered answer, not a POV filter verb (F3 targets the POV character's perception scaffolding). No caption, abstraction or hedge remains."
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 15,
+      "kills": 0,
+      "keeps": 15,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": [
+        "things (L119, L169, L211: mage dialogue, each anchored by the cellar and store that follow)"
+      ],
+      "findings": [],
+      "cleanReason": "There were 15 candidates: 11 narration lines (P2/P3/P5 shapes such as 'so she made it better', 'Fine; the mage.', 'The hand.', 'She had sixty in a cow way.', 'Empty going up, full coming down.', 'The read was the trail', 'some shape in the air', 'the only clean track', 'three bows and a prisoner', 'the loudest thing', and the tool-flagged 'a long smear that might have been anything') and 4 mage dialogue lines ('some things a great deal more', 'Anywhere things are kept', the store speech, 'Wider. Spread out.'). Each one cashes out on the page. The handcart, gallery and smithy positions follow 'made it better'. 'Sixty' and 'cow way' are counted and walked. The wagon's bare boards and the 'I come up for the mill' line carry 'empty going up'. 'The read' is cashed by 'a click in a crystal, a human mage's face turning green' one sentence earlier. The smear's uncertainty is the scene's point, since eyes cannot sort the marks and the staff can (Cyndia: 'Could be a foot. Could be something pulled along.'). The keep rate is above the guide's 25% caution line. That is because six revision rounds have already removed the stand-in habit, not because of leniency, and each keep is anchored in the scratchpad.",
+      "toolSignalsReviewed": [
+        {
+          "toolSignal": "hedge_might_have_been",
+          "line": 626,
+          "text": "a long smear that might have been anything",
+          "decision": "KEEP",
+          "reason": "The uncertainty is the dramatic point: the staff, not the eye, classifies the smear as 'heavy' in the next sentence."
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "brokenExchanges": [],
+      "findings": [],
+      "cleanReason": "No line asks for plainer speech outright. Five question-and-answer exchanges were audited as implicit translation setups. 'Well?' (L151) gets ordered line-by-line lag data. 'Where's it worst?' (L165) gets the staff pointed at the bridge and mill plus 'a cellar under the inn', and Sylvanas goes straight there. 'Ask her how she knows which way' (L496) gets 'The little window' with a pointing hand, and the slot is found. 'Which is the north road?' (L532) gets a point at the back wall, 'Past Pell's. Up the cow way.', and the gate at the top of the lane is found. 'What's it like down there?' (L758) gets 'market at the ford yesterday... smoke in every chimney'. Every reply names a target another character acts on with no second unpacking."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 88,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 MILD kills (F4 L762, F7 L660, B1 L462), which is at the threshold of 3, and 0 MODERATE/SEVERE. All three have drop-in deletion fixes. Structural rhythm concerns: sentence_length_cv, short_sentence_pct, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are outside range. Structural texture deficit: texture below_target (score 74.9; participial 4.4% vs 12%). Out-of-scope observation: L357/L358 is missing a paragraph break between Sylvanas's italic thought and Neral's line ('...into the dark?' / '\"Your da was right,\" Neral said.').",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.647,
+        "target": 0.72,
+        "delta": -0.073,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.7,
+        "target": 11.0,
+        "delta": 0.7,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.895,
+        "target": 0.7,
+        "delta": 0.195,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 43.0,
+        "target": 35.0,
+        "delta": 8.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 20.5,
+        "target": 10.0,
+        "delta": 10.5,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.39,
+        "target": 7.7,
+        "delta": -1.31,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 34.1,
+        "target": 19.0,
+        "delta": 15.1,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.765,
+        "target": 0.83,
+        "delta": -0.065,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "short_sentence_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.9,
+      "participial_pct": 4.4,
+      "compound_pct": 12.8,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.1,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.8% above target 10.0% (score 74/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.8% -> target 10.0% (score 74/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 30,
+        "texture_desert": 26
+      },
+      "note": "Structural texture deficit. The flagged zones are mostly dialogue exchanges (the girl's testimony, the trance calls, the storehouse argument). None of the three kills sits in a zone where the deletion worsens texture."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 64,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passBMappedSignals": [
+          {
+            "pattern": "hedge_might_have_been",
+            "guide": "phantom-concreteness-guide.md",
+            "line": 626,
+            "decision": "KEEP"
+          }
+        ],
+        "passAMappedSignalsNotAudited": [
+          "punct_semicolon (21/26)",
+          "punct_colon_narration (11/13)",
+          "participial_trailing (17/53)",
+          "contact_pressed (4/6)",
+          "contact_settled (1/6)",
+          "simile_like (2/26)",
+          "simile_as_if (2/5)",
+          "filter_watched (3/3)",
+          "filler_nodded (1/4)",
+          "bookism_hissed (1/2)"
+        ]
+      }
+    }
+  }
+}

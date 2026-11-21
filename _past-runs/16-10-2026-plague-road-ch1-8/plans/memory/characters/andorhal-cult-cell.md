@@ -1,0 +1,7 @@
+# The Andorhal cult cell
+
+Never named and never speaking on the page. Havel calls them 'the loaders': hired in from outside the town at high summer when Fenner's and the Exchange changed suppliers, with later additions at Lammas; they walk in pairs, stop and start together, avoid the Wheatsheaf, and sleep behind Fenner's in an old rope-walk with a lock on each end.
+
+Sylvanas reads two layers. The outer one is eight men placed in Fenner's yard to hold it as a trained watch would (corner, trough, hoist platform, gate; weight square, hands empty, a foot off the wall; swapping places in silence). One of the eight, the big bearded loader with the leather pad, is the runner: he leaves a thing in a crack in the wall at hip height without a glance behind him and carries word to Kett's loft by Tenter Row. The inner layer is five masked men in Kett's upper floor: waxed cloths, long gloves, a crock of dark thick stuff worked into open sacks with the forearm, sewing, stacking. They peel gloves off without touching skin, wash to the elbow, and only then lower the cloth to drink. They guard themselves from the grain, not from dust. At the bell the Fenner's crew lock themselves into the rope-walk from inside, while three of the gate-sitters go up Hurdle Lane toward Kett's.
+
+The man at the window looks for a long time toward Sylvanas's roof, hands held out from his sides, then goes back to work. Whether she was seen is not known.

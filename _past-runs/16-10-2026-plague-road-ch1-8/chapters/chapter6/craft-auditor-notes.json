@@ -1,0 +1,118 @@
+{
+  "chapterId": "chapter6",
+  "iteration": 0,
+  "targetFile": "v0.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter (the main reason for the fail)",
+      "passage": "Texture score 62.0/100. compound 27.5% (target 13.15), participial 2.5% (target 8.5), em-dash 0.6% (target 5.65), semicolon 1.9% (target 1.75, on target).",
+      "problem": "The chapter leans almost entirely on ', and' joins. More than one sentence in four is a compound, which is twice the target. Participial phrases and em-dash pivots barely appear: there are 4 em-dashes in 9,400 words, all of them cut-off speech or thought. The result is a single long chaining rhythm. It also breaks Jaina's per-POV fingerprint, which calls for parenthetical em-dash asides and self-revision like 'No—the ward looked intact'.",
+      "fix": "Turn about half of the ', and' compounds into participial phrases or separate sentences, and add roughly 30 em-dash pivots, mostly in Jaina's thinking. Worked examples: L9 'a slow ache that climbed up from the back of her neck and settled behind her eyes and pressed outward' -> 'a slow ache climbing from the back of her neck to settle behind her eyes, pressing outward'. L97 'the ruts in it were so deep that the mare had to step down into them and climb out again, so that Jaina rocked' -> '...the mare stepping down into them and climbing out again, rocking Jaina at every other stride'. L211 'and the officers closed in round him, and she could see the gold of his hair for a few steps more between their shoulders, and then she couldn't' -> 'The officers closed in round him. She could see the gold of his hair for a few steps more between their shoulders—then she couldn't.' L75 'Somebody she might have passed on the library stair, then. Somebody she'd borrowed a pen from.' -> join them with an em-dash pivot. L303 'No knot in him that she could feel, no lateness that was his own.' is a natural em-dash aside. L341 'Both of them got their horses going again, and neither horse settled; they went on crabwise, tossing their heads' -> the participle is already there, so cut the 'and' join before it."
+    },
+    {
+      "check": "voice-register",
+      "severity": "high",
+      "location": "L229, L357, L259, L309, L371, L375 (plus L31, L263)",
+      "passage": "L357: \"and she could feel her own heart going against it, and the mare could feel it, and the mare had never read a book in her life.\" / L229: \"It had bought her a laugh, and supper, and a squeeze on an arm she couldn't feel.\" / L309: \"The wagon had come out of the rut, and the women had moved on, and the mules were past, and there were men on foot...\" / L259: \"as they rode down through the trampled grass to the road, and onto it, and south past the grey roofs of Strahnbrad\" / L371: \"Iron tyres on cobbles, and a bell somewhere, and a dog that wouldn't stop.\" / L375: \"the wagons were still going in full and the hoists were still taking up the sacks and the ovens were still baking.\"",
+      "problem": "The rhythm anchor allows the 'and, and, and' polysyndeton list once a chapter at most, and never to land a joke or a sigh on the last item. This chapter uses it at least eight times. L357 lands a joke on the last item ('never read a book in her life'). L229 lands a sigh ('an arm she couldn't feel'). Both are the forbidden shape. Used this often, it reads as a mannered tic, and it drives most of the compound overshoot.",
+      "fix": "Keep one: L375, the Andorhal reveal, where the piling-up is the point. Rewrite the rest. L357: 'Every breath of this dust had it in it. Her own heart was going against it—and so was the mare's, and the mare had never read a book in her life.' Better still, give the joke its own short sentence. L229: 'It had bought her a laugh and a supper. And a squeeze, on the arm she couldn't feel.' L309: break it into two or three sentences of different lengths. L259: 'They rode down through the trampled grass onto the road and south past the grey roofs of Strahnbrad, toward Andorhal.' L371: use asyndeton or a colon list instead."
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "Chapter-wide; densest at L161-L187 and L325-L327",
+      "passage": "\"the way he used to listen to a fencing master\" (L165) / \"the way men in Dalaran did when an elf told them their business\" ... \"the way he used to look at a boy across the practice yard\" (L187, twice in one paragraph) / \"the way she heard Cyndia out\" (L47) / \"the way she'd cut it down on the road\" (L161) / \"the way clerks did\" (L325) / \"the way she'd ask Cyndia how many sets of tracks\" (L327)",
+      "problem": "About 16 comparison clauses built on 'the way X did Y'. That is one of the narration's most visible fingerprints. L187 uses it twice in four lines, and L325 and L327 are back to back. The individual comparisons are good. The repeated frame is what tires the reader.",
+      "fix": "Cut the count to 5 or 6. Keep the ones that carry history (fencing master, practice yard: pick one of those two) and the flour-over-a-mill-floor image (L89). Turn the others into direct statements ('Sylvanas heard her out with her face quite still'), into 'like', or drop the comparison ('the way clerks did' -> cut; 'the way she'd cut it down on the road' -> 'So she gave it to him short.')."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "L45, L47, L105, L119, L147, L155, L181, L297, L299",
+      "passage": "\"Cyndia's eyes went to Lyriel\" / \"Her eyes went over Jaina once\" / \"Her eyes went across the camp\" / \"His eyes went along the four of them\" / \"His eyes went to the wrapped hand\" / \"Sylvanas's eyes had gone from his face to Jaina's\" / \"his eyes went past her shoulder\" / \"her eyes went past Jaina\" / \"Sylvanas's eyes came back to her\"",
+      "problem": "'Eyes went' appears 7 times, plus one 'eyes came back'. It is body-part agency with a real actor right there, and the repetition turns it into a tic.",
+      "fix": "Keep at most two (L181 earns its place, since it is the moment Arthas's attention leaves her). Give the rest to the person: 'Sylvanas looked across the camp from one end to the other', 'He looked along the four of them', 'He looked at the wrapped hand'. Some can simply go: L45 'Cyndia glanced at Lyriel, then back to the hedge.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Chapter-wide (12 instances); e.g. L61, L101, L263, L275, L285, L281",
+      "passage": "\"lifted her chin a little\" / \"He laughed a little at that\" / \"his shoulders came down a little\" / \"She let her grip go a little\" / \"moved the board a little\"",
+      "problem": "'A little' appears 12 times. The style guide's DC-04 treats it as a hedge. Each one softens a gesture that should be committed to.",
+      "fix": "Cut at least 8. 'Sylvanas lifted her chin toward the near side of the camp.' 'He laughed at that, not unkindly.' 'His shoulders came down.'"
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "Scene 2, L155",
+      "passage": "\"When he had said Jaina's name, Sylvanas's eyes had gone from his face to Jaina's and back. Her own face didn't change at all.\"",
+      "problem": "Sylvanas stepped back after handing over the map (L137), and at L185 she is 'behind her'. Jaina is facing Arthas, who has just walked up and laughed. As staged, Jaina cannot watch Sylvanas's eyes track between them. This is the Sylvanas-angle observation leaking into Jaina's POV.",
+      "fix": "Give Jaina a reason to see it, e.g. 'Jaina glanced back. Sylvanas was looking from his face to hers, and her own face didn't change at all.' Or cut it, and let the reader feel Sylvanas's read only through the L185 line."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "medium",
+      "location": "Scene 2, L147-L159",
+      "passage": "\"Did Antonidas finally throw you out?\" ... \"What happened to your hands?\" / \"It's part of what I've come about.\" ... \"Arthas. I need you to listen to me. All the way to the end.\"",
+      "problem": "Beat b3's value shift starts from 'hope in her history with him', and her voice sheet says her canon mode with Arthas is warm, teasing and aimed at his rank. On the page Jaina gives him nothing back: every line she speaks to him is business. L229 has her admit she 'counted on him saying her name the way he used to', but we never see the old familiarity running both ways, so the history has nothing to stand on and the loss is smaller than it should be. Her line 'It's part of what I've come about' also sounds stiff and slightly institutional for an old friend.",
+      "fix": "Give Jaina one warm or teasing return before she turns to business, e.g. an answer to 'Did Antonidas finally throw you out?' in her old register ('He'd have to find me first' or a jab at the polished armour), and only then the wrapped hand. Plain 'It's part of why I came.' reads more naturally than 'what I've come about'. One beat of the old ease makes his polite refusal cost more."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Scenes 1-3, all Lyriel lines (L345-L351) and the silent apple at L263",
+      "passage": "\"Get down a moment,\" Lyriel said. \"Sit on the wall. I'll hold her for you. She'd be glad of a rest even if you wouldn't.\"",
+      "problem": "Lyriel's voice sheet says she talks to anyone and jokes where Cyndia won't. In this chapter she is nearly silent: the lift-downs and the apple are wordless, and her one speaking beat is the wall line. Without voice cues she and Cyndia are hard to tell apart, which weakens the plan's need for the reader to like her without noticing her before Ch9.",
+      "fix": "Add one light Lyriel line on the quiet stretch below Strahnbrad, when she hands over the apple (L263): something brief and cheerful aimed at the mare, the camp or the mud. Keep Cyndia wordless, as she is now; the contrast does the work."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "low",
+      "location": "Scene 1 L49-L61; Scene 2 L169-L177; Scene 3 L273-L277, L309-L313 (scorer telegram runs)",
+      "passage": "\"Somebody,\" she said. / \"Somebody with training. A great deal of it.\" ... \"Paper. He'll have clerks for paper.\" / \"Then he can come with me to a granary and watch. I'll find him a jar.\"",
+      "problem": "The scorer flags these as telegram runs or texture deserts (75-100% short sentences across 8-10 sentences). The fast dialogue is mostly right for the moment. But the L49-L61 Sylvanas-Jaina exchange runs 13 lines with only one narration beat (L61), and Jaina's lines are as clipped as Sylvanas's. That flattens the voice contrast the per-POV calibration asks for: Jaina medium-to-long, Sylvanas 8-12 words.",
+      "fix": "In L49-L61, give one or two of Jaina's answers a built, longer sentence with a subordinate clause or an em-dash aside (her voice sheet: 'sentences run longer than Sylvanas's, but they should feel built'). Add one participial-led narration beat between L55 and L59 (e.g. Jaina shifting the staff, Sylvanas watching the road). Leave the Arthas and clerk runs mostly alone, and add one participle in each if it comes easily."
+    }
+  ],
+  "checkResults": {
+    "emotionalLife": "PASS. Every scene has free indirect self-argument left unresolved. S1: L25-L33 (luck -> one man -> 'No. Slower.' -> one thing) and L79-L81 ('Assessment... The rest was a lie'). S2: L225-L231 ('Was that fair?... No. That was the question she'd be asking if he'd listened badly'). S3: L305 ('Had she looked, though? Properly?'), L325-L327, L359 ('Stop, then... And then what?'). Registers: dark humour (L81 'She was running short of hands', L325 'till she was ninety', Arthas's 'He'd sue me'), warmth (Lyriel lifting her down, the apple, the hand over the reins at L355), exhaustion (L9, L263), horror (L67-L69, L375), shame (L229). The value shifts land on concrete moments: 'He had never taken the paper.' (L213), the white fingertips on the sheet (L215), the nosebleed and frost (L337-L343), 'People would eat that bread tonight' (L375).",
+    "voiceRegister": "Mostly matches: good, varied paragraph shapes, 'said' kept invisible, narration in Jaina's idiom (Boralus horseshoe, library grille, the biscuit). Fails on the anchor's polysyndeton limit and on the 'the way'/'eyes went'/'a little' tics.",
+    "limitedThird": "One low-severity staging slip (L155). No omniscient statements, labelling of others' emotions or author commentary found.",
+    "dialogueRegister": "No institutional or clinical language. Arthas fits his Stage-1 sheet: he grants the point, then decides, with names, reasons and the Light. Sylvanas is clipped and uses 'Mage'/'Proudmoore' correctly. The clerk has his own voice. Gaps: Jaina has no warmth with Arthas, and Lyriel is underused.",
+    "beatFidelity": "PASS. All 9 beats are dramatized. b1 L23-L51; b2 L63-L83 (craft fascination, the possible Dalaran author at L75, the plan to put the case to Arthas at L83); b3 L85-L159; b4 L161-L213 (Sylvanas's call at L185 comes before Jaina finishes; Arthas confirms it and walks away); b5 L219-L231; b6 L233-L259 (no history lesson, L249); b7 L269-L321 (Havel and the market gate, the blessing, 'Twice, it's wrong'); b8 L331-L361; b9 L363-L385."
+  },
+  "textureMetrics": {
+    "textureScore": 62.0,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {"actual": 2.5, "target": 8.5, "score": 55.2, "direction": "under"},
+      "compound": {"actual": 27.5, "target": 13.15, "score": 33.4, "direction": "over"},
+      "emdash": {"actual": 0.6, "target": 5.65, "score": 59.5, "direction": "under"},
+      "semicolon": {"actual": 1.9, "target": 1.75, "score": 100.0, "direction": "on target"}
+    },
+    "otherMetrics": {
+      "sentenceCount": 668,
+      "meanSentenceLength": 13.8,
+      "shortPct": 47.2,
+      "paragraphOneSentencePct": 20.7,
+      "mattr": 0.768
+    },
+    "interpretation": "PARTICIPIAL: 2.5% -> target 8.5% (score 55/100). Add ', Ving' phrases as connective tissue between actions. | COMPOUND: 27.5% -> target 13.15% (score 33/100). Too many ', and/but/yet' joins; break some into separate sentences or convert them to participials. | EMDASH: 0.6% -> target 5.65% (score 60/100). Use for mid-sentence pivots and Jaina's self-revision.",
+    "flaggedPassages": [
+      "telegram_run s79-86: \"Somebody,\" she said. \"Somebody with training. A great deal of it.\" (L49-L55)",
+      "texture_desert s79-95: same Sylvanas-Jaina exchange (L49-L61)",
+      "telegram_run s87-95: \"And when you say that to a man who can't feel any of it?\" \"I give him your slips. The sacking.\" (L53-L61)",
+      "texture_desert s294-307: He bent and looked. He didn't take the sheet. He put one gloved finger on the knife slit. (L169-L177)",
+      "telegram_run s300-307: \"That's Barov.\" \"It's on every sack in the south, good or bad.\" (L173-L175)",
+      "telegram_run s309-317: He let the slip go back. \"Jaina. I don't doubt you.\" (L177-L189)",
+      "telegram_run s478-485: \"This noon,\" he said. \"Yes, ma'am.\" (L275-L279)",
+      "telegram_run + texture_desert s537-546: He was gone. \"Why?\" Jaina said. (L309-L319)"
+    ]
+  },
+  "summary": "Strong draft on substance. Jaina thinks and argues with herself on the page in every scene, the Arthas refusal lands through concrete gesture ('He had never taken the paper'), the Andorhal reveal works, and all nine beats are dramatized. It fails on texture (62/100): compound joins are at twice the target, participials and em-dashes barely appear, and the 'and, and, and' list is used about eight times, twice with a joke or sigh on the last item, which the anchor forbids. Secondary fixes: thin out the 'the way'/'eyes went'/'a little' tics, give Jaina one warm beat with Arthas, give Lyriel one line, and fix the L155 staging slip."
+}

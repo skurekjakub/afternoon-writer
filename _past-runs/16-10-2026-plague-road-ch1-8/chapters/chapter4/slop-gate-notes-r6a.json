@@ -1,0 +1,118 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 6,
+  "targetFile": "v2-r6.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative (iterationKillsA [55, 19, 5, 6, 4, 6]: latest 6 >= prior minimum 4). No KILLs this sweep, so the strategy was not applied.",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 34,
+      "kills": 0,
+      "keeps": 34,
+      "severity": "NONE",
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "cleanReason": "Every not/n't/never/no/nothing/nobody/instead/without sentence was swept mechanically. All sentences with a pivot shape got the full procedure. There are no narrator captions (Not X. Y.), no source-swaps, no count resets, no mundane-reveal chains and no expression-decomposition negations. The pivot-shaped survivors each meet one closed-list condition. Binary diagnostic: line 466 'Not grain, then. One flour.' is the Mother Haw control case falsifying the 'oats were grain too' hypothesis, and it changes the order (oats allowed). Line 226 'I'm not sick... I'm tired' is the exact question under test. Line 536's elimination chain 'it doesn't sort them... Contact doesn't sort them either. What sorts them is bread.' is the plan's Snow-style control-group reasoning. Line 56's imagined 'not a fever' lecture is deliberately set against line 162's 'It's a fever. There's something else in it too.' Hard constraint: line 358 'only showed her where it was, not how it had got there' (the spell's limit drives the questioning), line 699 'read every letter of it and not one word', line 833 'I can ward a room. I can't ward a village.', lines 176, 286 and 879 (the hand-reading ban, the ward doing nothing to the contents, the wards holding without healing). Self-argument: lines 120, 378, 454 and 506. The rest are procedural imperatives (468, 472, 585, 675, 747, 847, 853) or plain factual absences that carry plot payoffs (39, 709, 757 set up the chewed-collar reveal at 811; 965 shows the shutdown with no bakehouse smoke). The softener sweep (just/only/enough) found no hidden minimizer pivots. The tool reported negation_addiction: 0 matches."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 41,
+      "kills": 0,
+      "keeps": 41,
+      "severity": "NONE",
+      "dominantPattern": null,
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "The dedicated P5/P6 sweep re-read every sentence for inanimate or abstract subjects carrying agency, desire, cognition, combustion or physical-behaviour verbs. Roads and geography: lane 5 'turned', road 1023 'split / went back north / went off south and west' and stair 623 'climbed' are literal route geometry with no agency or fire verbs. Receiver nouns with the actor demoted: none take revision or cognition verbs. Sacks 919 'came down... with Brask's man calling the steps' (in dialogue), loaf 548 'had gone up the lane' and flour 486 'had come into the bakehouse' are literal motion of goods along the supply route, which is the chapter's subject, and the people stay legible. Body-part subjects were enumerated: Brask's thumb (74, 78, 96, 713, 823, 843) is a voice-sheet tell ('His thumb moves on the shaft while he decides'). The other body-part subjects are involuntary: sleep (296, 302), seizure (787, 791), paralysis or numbness (683 'of their own accord', 721, 953), accident (641), relief (102, 306), failed parsing (693 'her eye had slid off'), or spatial precision where only the head clears the loft edge (627, 707). Abstract states settling into the body: 'the cold sat under her breastbone' (11), 'Old copper sat on the back of her tongue' (1) and 'the cold in her teeth' are literal sensations of Jaina's established necromancy-cold. They use a static location verb, not an agency or landing verb. Metaphor chains: the staff/crystal gets 'woke' twice (190, 615) and 'shifted... all on its own' (1025). Its autonomous detection is a named in-world mechanism (it ticks at necromancy at 1, 29 and 430; the plan's bridge has it pointing south), so the subject-matter defense applies. No chain hands a single inanimate subject successive human verbs.",
+      "cleanReason": "There is no Pattern 1-4 infrastructure or institutional smear, no Pattern 6-7 remembering walls or judging silences, no Pattern 9 nominalized agents (realization, decision, understanding, recognition: 0 hits) and no Pattern 11 permission tags. Every 'let' instance is physical release: 'let the light go' (198, 218), 'let it fall' (500), 'let her go' (504), 'let the hold go' (721). Magical-construct verbs are literal for the in-world mechanism: 'The drag hit the ward' and 'the ward took it and held' (290, 292), 'edges biting into the wood' (681), 'sat down in him and waited' (693, which follows the spell's own named 'One part to wait'). Analytic register in dialogue ('it doesn't sort them', 'It didn't explain Garran') is the scholar POV's literal explanatory sense, not cognition laundered onto an object. 'Every house in the village was sitting down to its dinner' (256, 280) is a household collective with the villagers established in the market lane. The tool reported abstract_locomotion and inanimate_agency: 0 matches."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 22,
+      "kills": 0,
+      "keeps": 22,
+      "severity": "NONE",
+      "dominantPattern": null,
+      "tallies": {
+        "tic1_cornerOfMouth": "1 (line 552 'One corner of her mouth went in.'), cap 1/chapter. Ch2 and ch3 final.md have 0 expression uses (ch3 has one literal 'dirt in the corners of her mouth'), so the 3-chapter count is 1 of 2.",
+        "tic2_marked": "0 verb uses ('teeth marks' 813 and 'a mark on it' 983 are physical nouns), cap 2",
+        "tic3_tightenedEased": "1 emotional ('skin went tight across the back of Jaina's neck' 603), 2 physical (15, 787), 0 eased. Caps 3 and 2.",
+        "tic4_facialShifted": "0 (all 'shifted' uses are physical: 1019 mare, 1025 staff), cap 1",
+        "tic5_eyeGaze": "4 generic emotional gaze beats (88 'kept her eyes on his face', 420 'answering without looking up', 819 'Jaina looked down at Tam', 1009 'glancing at Cyndia'), cap 4. The many other look/watch verbs are functional investigation perception or object-anchored, character-specific beats (332, 899 and 959 the knot motif; 534 the floury glove; 727 the reliquary).",
+        "tic6_weightHeaviness": "0 emotional. Every weight/heavy hit names the necromantic drag as sensed (13, 15, 264, 292, 615, 691), physical numbness (526) or smoke (871). Subject matter, not an emotional vehicle.",
+        "tic7_nonSaidTags": "1 performance tag ('Cyndia reported standing' 546, which suits the soldier's register). 'said quietly' (194) and 'said under her breath' (140) are volume-mode at a sickbed. Cap 3."
+      },
+      "cleanReason": "All seven tics are at or under their caps, so there are no excess instances to KILL. The pass-A-mapped slop-checker hits were each reviewed and kept (see the scratchpad). filter_words: 88, 446, 508, 601. said_bookisms: 5 and 799 are non-dialogue 'hissed', 120 is narration 'conceded', 194 is adverb_on_tag. breath_tells: 206 and 569, Garran's clinical wet catch, a symptom repeated deliberately (also 943). filler_actions: 232, 504. simile_overload: 1, 50, 446. participial_trailing: 29, under cap 67, and texture metrics want more participials, not fewer. punctuation_tics: semicolons 21 of 33, narration colons 16 of 16 (at cap, not over). No category is over cap."
+    }
+  ],
+  "summary": {
+    "totalKills": 0,
+    "totalKeeps": 97,
+    "mildKills": 0,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [],
+    "killsWithFix": 0,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass A, iteration 6: clean pass. 0 KILLs across negation, intent-smear (including the dedicated P5/P6 second sweep) and recurring tics. All pass-A-mapped slop-checker signals were reviewed and kept, and no pass-A pattern is over cap. These are reported but do not drive the verdict: there is a structural texture deficit (texture_score 79, below_target, with 36 telegram_run and 32 texture_desert zones) and structural rhythm concerns (sentence_length_cv, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are all outside range).",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.806, "target": 0.72, "delta": 0.086, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.864, "target": 0.7, "delta": 0.164, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 41.1, "target": 35.0, "delta": 6.1, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 18.9, "target": 10.0, "delta": 8.9, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.59, "target": 7.7, "delta": -1.11, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 28.8, "target": 19.0, "delta": 9.8, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.774, "target": 0.83, "delta": -0.056, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": ["sentence_length_cv", "long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 79.0,
+      "participial_pct": 7.3,
+      "compound_pct": 12.1,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 1.4,
+      "short_pct": 51.4,
+      "verdict_reasons": [
+        "participial: 7.3% below target 12.0% (score 61/100)",
+        "compound: 12.1% above target 10.0% (score 82/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.3% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.1% -> target 10.0% (score 82/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.1% -> target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": { "telegram_run": 36, "texture_desert": 32 },
+      "note": "structural texture deficit"
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 92,
+      "total_violations": 0,
+      "overCapCategories": [],
+      "passAMappedSignals": {
+        "filter_words": 4,
+        "said_bookisms": 4,
+        "breath_tells": 2,
+        "filler_actions": 2,
+        "simile_overload": 3,
+        "participial_attachment": 29,
+        "punctuation_tics": 37,
+        "negation_addiction": 0,
+        "abstract_locomotion": 0,
+        "inanimate_agency": 0
+      },
+      "passAMappedKilled": 0,
+      "passAMappedKept": 81
+    }
+  }
+}

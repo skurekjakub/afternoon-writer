@@ -1,0 +1,3 @@
+# Captain Havel and Corin
+
+Two local men, each failed by an institution. Havel is gruff and a little paternal ('Not now, lad.', 'Hear me out, lad.'); Corin is formal, apologetic and right. Corin brings flagged-shipment notices to the gate post himself, and Havel tells him to leave them with the others and says he will get to it; they sit under the cracked river stone. Havel's picture is 'a crew in four yards'; Corin's is 'it isn't four yards': forty-one copied marks, villages already sick. When Sylvanas finds Kett's, Corin reads Kett's bills (first carts out, nothing kept overnight) and argues speed against Havel's shift-change arrest. Havel concedes the carts ('The lad's right about the carts. Fair enough.') and proposes the same plan with spikes at the gate.

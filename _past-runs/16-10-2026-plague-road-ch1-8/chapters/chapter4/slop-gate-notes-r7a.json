@@ -1,0 +1,119 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 7,
+  "targetFile": "v2-r7.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 24,
+      "kills": 0,
+      "keeps": 24,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [],
+      "cleanReason": "Full sweep of every not/n't/no/never/nothing/nobody sentence (about 150 negation-bearing sentences). Most are plain factual absences ('no bell in it', 'The granary had no windows', 'No lock on the bar') or prohibitions ('Nobody comes in armed', 'No bread', 'Nobody bakes, nobody sells') and are not contrast constructions. The 24 real contrast-shaped candidates were run through the decision procedure. Each keep meets a listed condition. Binary diagnostic: L56 imagined 'not a fever. It is a contamination' (fever vs contamination is the live question Brask and Tobin answer with 'It's fever'), L230 and L310 localisation chains ('Nothing in the lungs, nothing in the blood'), L456 control-group criteria, L466 'Not grain, then. One flour.' (oats vs store flour changes what Tobin feeds them at L472), and L536 the water/contact/bread elimination. Hard constraint: L29, L176, L286, L322, L354, L358, L697, L831 'I can ward a room. I can't ward a village.', L901. Self-argument: L378 'So it wasn't the water. It might still be the water', L454 'No. Slower.', L877. Factual negations whose deletion would lose a plot fact: L45, L214, L506, L801. No pivot rhythm shared between narration and dialogue, and no clusters. The newly revised L286 ('She had put it round a hundred flasks and never once round a woman.') puts the positive half first. The negation is the payload: this is her first ward on a person, and the stakes beat at L300 depends on it. Keep rate is high because the remaining contrast shapes are diagnostic reasoning in an epidemiology chapter. Each keep was re-checked against the five adversarial self-check questions."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 31,
+      "kills": 0,
+      "keeps": 31,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "findings": [],
+      "secondSweepP5P6": "Re-read every sentence for inanimate or abstract subjects carrying verbs of agency, desire, cognition, combustion or physical behaviour, and for body-part subjects and demoted actors. Roads and geography: L621 'A stair ... climbed the inner wall' and L1021 'The other went off south and west' are fictive-motion path verbs of the 'the road led' kind, with no intent. L963 'The bakehouse sent none' is chimney emission, and the actor is not demoted because Brask's shutdown is already on the page. Receiver nouns or instrument phrases: L254, L270 and L378 'the jug had read thin' use mage measurement idiom for a sample, and Jaina is the on-page reader in every case. L548 'Ellen's loaf had gone up the lane' is goods-in-transit motion with no intent, and L400 names Ellen as sender. L536 'it doesn't sort them ... What sorts them is bread' is Jaina's spoken variable-explains-distribution idiom, backed in the same speech by named cases. No human sorter is displaced. Body-part subjects: L74/78/96/711/821/841 (Brask's thumb), L296, L302, L593, L601, L643, L681 'of their own accord', L691 'her eye had slid off', L719, L785 and L951 are all involuntary (nerves, sleep, seizure, nausea, cold, numbness), and the involuntariness is the point. L625 'Her head came up over the edge of the loft' is spatial: only her head has cleared the floor, and Tam sees it as 'a turnip' at L631. No abstract state settles into a body part. No metaphor chains give one inanimate subject a run of human verbs. Subject-matter mechanisms (currents, drag, wards, the staff crystal, the built construct with 'one part to wait') stay on literal in-world behaviour verbs.",
+      "cleanReason": "No Pattern 1-11 kills. There are no permission tags: every 'let' is physical letting go of an object or hold (L198, L218, L330, L719, L923). There are no nominalised agents apart from one Pattern 9 exception at L446 ('It went through her like the first warm swallow of wine'). The exception is allowed once per chapter for the moment the answer arrives, and this is the only use. Pattern 4 institutional self-deception: none. The slop checker raised no intent-smear tool signals (abstract_locomotion and inanimate_agency both zero). Magical-instrument and plague-mechanism verbs ('The crystal woke', 'The staff woke in her arm', 'the ward took it and held', 'sat down in him and waited', 'The staff shifted ... leaning toward the ruts') are kept under the subject-matter defense and keep condition 3, as literal behaviour of the chapter's named mechanisms. Full rationale is in the scratchpad."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 17,
+      "kills": 0,
+      "keeps": 17,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "tallies": {
+        "tic1_cornerOfMouth": {"count": 1, "cap": 1, "instances": ["L552 One corner of her mouth went in."], "note": "L999 'tongue in the corner of his mouth' is Brask's physical writing posture, not an emotion routed through the mouth corner. Chapters 2 and 3 final.md have zero corner-of-mouth beats, so the 3-chapter cap of 2 is not breached."},
+        "tic2_marked": {"count": 0, "cap": 2, "instances": [], "note": "Only nouns: L811 'teeth marks' and L981 'a mark on it in black'. Both are physical."},
+        "tic3_tightenedEased": {"tightenedEmotional": 1, "tightenedPhysical": 2, "eased": 0, "capTightened": 3, "capEased": 2, "instances": ["L601 The skin went tight across the back of Jaina's neck.", "L15 a knot pulled so tight it rang (physical/currents)", "L785 drawing up tight as a bowstring (seizure, physical)"]},
+        "tic4_facialShifted": {"count": 0, "cap": 1, "note": "L1017 'The mare shifted' and L1023 'The staff shifted' are physical."},
+        "tic5_eyeGaze": {"count": 4, "cap": 4, "instances": ["L88 She kept her eyes on his face", "L725 He looked past her at the blue shell ... the way the little ones ... used to look at the reliquary", "L987 Brask said, staring at the square of sacking", "L1007 glancing at Cyndia"], "note": "At cap, not over. Literal eyes open/shut, fume watering (L667), physical descriptions (L23, L725 'very pale'), and Sylvanas's tactical scanning (L528, L569, L907) are excluded or character-specific."},
+        "tic6_weightMetaphor": {"count": 0, "cap": 2, "note": "Weight and heaviness words describe the drag, which is the plague mechanism and literal subject matter (L13, L264, L292, L613, L689), the dead hand (L526, physical), smell and smoke (L206, L869), or the underlit face (L833). None is a weight metaphor for emotion."},
+        "tic7_nonSaidTags": {"count": 1, "cap": 3, "instances": ["L194 Lyriel said quietly"], "note": "'conceded' (L120) is narrated action, not a tag. 'hissed' (L5 geese, L797 torch) are not dialogue tags."}
+      },
+      "findings": [],
+      "cleanReason": "Every tic was counted across the whole chapter, and all are at or under the hard cap. Tic 1 is 1/1, Tic 2 0/2, Tic 3 1 emotional tightened of 3 and 0/2 eased, Tic 4 0/1, Tic 5 4/4, Tic 6 0/2, Tic 7 1/3. Slophunter r7 changes were checked for introduced tics: L158 'she laughed under her breath', L368 'She heard herself. Antonidas would have had a fit.', L286 and L695. None adds a tic word. Tool-signal lines mapped to this guide were all reviewed and kept (see analyticHints)."
+    }
+  ],
+  "summary": {
+    "totalKills": 0,
+    "totalKeeps": 72,
+    "mildKills": 0,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [],
+    "killsWithFix": 0,
+    "killsUnfixable": 0,
+    "fixStrategy": "conservative (iterationKillsA trajectory [55, 19, 5, 6, 4, 6, 0]; latest >= prior minimum). Not exercised, because there are no kills.",
+    "verdict": "pass",
+    "verdictReason": "Pass A clean on a fresh sweep: 0 KILLs across all three guides (negation 24 candidates, intent-smear 31 candidates plus the dedicated P5/P6 second sweep, recurring tics 17 tallied items). No MODERATE or SEVERE findings. Two things do not affect the verdict. First, there is a structural texture deficit: score 78.7, below_target, with participial 7.3% against a 12.0% target, compound 12.2% against 10.0%, em-dash 1.1% against 4.0%, and 36 telegram_run plus 32 texture_desert zones. Second, there are structural rhythm concerns, with five metrics outside range: sentence_length_cv 0.863, long_sentence_pct 19.0, opener_entropy 6.59, one_sentence_paragraph_pct 28.7 and mattr 0.774.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.808, "target": 0.72, "delta": 0.088, "range": [0.6, 0.85], "inRange": true},
+      "sentence_length_mean": {"actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true},
+      "sentence_length_cv": {"actual": 0.863, "target": 0.7, "delta": 0.163, "range": [0.6, 0.8], "inRange": false},
+      "short_sentence_pct": {"actual": 41.1, "target": 35.0, "delta": 6.1, "range": [28.0, 42.0], "inRange": true},
+      "long_sentence_pct": {"actual": 19.0, "target": 10.0, "delta": 9.0, "range": [7.0, 14.0], "inRange": false},
+      "opener_entropy": {"actual": 6.59, "target": 7.7, "delta": -1.11, "range": [7.2, 8.2], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 28.7, "target": 19.0, "delta": 9.7, "range": [15.0, 24.0], "inRange": false},
+      "mattr": {"actual": 0.774, "target": 0.83, "delta": -0.056, "range": [0.8, 0.87], "inRange": false},
+      "structuralRhythmConcerns": ["sentence_length_cv", "long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 78.7,
+      "participial_pct": 7.3,
+      "compound_pct": 12.2,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 1.4,
+      "short_pct": 51.2,
+      "verdict_reasons": [
+        "participial: 7.3% below target 12.0% (score 61/100)",
+        "compound: 12.2% above target 10.0% (score 80/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.3% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.2% -> target 10.0% (score 80/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.1% -> target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": {"telegram_run": 36, "texture_desert": 32},
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 92,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passAMappedSignalsReviewed": {
+          "punctuation_tics": "semicolon 21/33, narration colon 16/16 (at cap, not over). Kept.",
+          "participial_attachment": "participial_trailing 29/67. Kept.",
+          "filter_words": "watched 3/3 (L88 Brask watching the child cough is the action itself; L446 hypothetical; L599 Cyndia's eyewitness evidence), decided 1/3 (L508 reported arc decision). All kept.",
+          "said_bookisms": "hissed x2 (geese L5, torch L797, not dialogue tags), conceded x1 (L120 narrated action), adverb_on_tag x1 (L194 'said quietly', volume matters in a sickroom; 1/3 cap). All kept.",
+          "breath_tells": "breath_caught x2 (L206, L567): Garran's literal wet respiratory catch, a tracked symptom, not an emotional tell. Kept.",
+          "filler_actions": "nodded L504 (Sylvanas's dismissal, seen through glass, the only visible signal), frowned L232 (Col frowning at his own lit stomach). Kept.",
+          "simile_overload": "like x2, as if x1, under cap. Kept.",
+          "negation_addiction / abstract_locomotion / inanimate_agency": "zero matches"
+        },
+        "unmappedSignals": "contact_verbs (pressed x3, brushed x1, found x1) are under cap and not mapped to a pass A guide. L761 'Brask found the key by feel' is a person locating an object, not a discovery wrapper.",
+        "passBSignalsNotAudited": "hedging (almost x2, perhaps x1) and vague_pointers (something x2, there_was_something x1) belong to pass B"
+      }
+    }
+  }
+}

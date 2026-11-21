@@ -1,0 +1,185 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB 47 -> 10 -> 9 is strictly decreasing)",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner",
+    "registerSummary": "Ranger-General in absolute limited third. She reads ground, gait, fatigue, cover and gear first, and thinks in ranger idiom: horses, stones, lines, bows. Inside she argues with herself in short sardonic questions and overrules her own answers ('Stalling, Ranger-General.' 'No. It was real.'), swears by the sun, and is unfair to magisters and humans. She does not think in essay generalities, does not address an imagined reader, and does not decorate.",
+    "registerConfidence": "HIGH (voice sheet plus a full chapter of established inner voice)"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 34,
+      "kills": 4,
+      "keeps": 30,
+      "severity": { "mild": 4, "moderate": 0, "severe": 0 },
+      "dominantPattern": "mixed (F1, F2, F3, F7 one each)",
+      "findings": [
+        {
+          "id": "B-G1",
+          "pattern": "F1",
+          "line": 261,
+          "text": "Her hair had been braided once, fair, but most of it had come loose and hung down. Her travelling robe was brown wool, kilted up for walking, worn shiny at the cuffs and elbows, the hem stiff with dried mud.",
+          "issue": "Head-to-toe description march across L261-L263: 'Her hair... Her travelling robe... Her boots... Her hands...' Four subject-first 'Her [item] was' sentences in an 11-sentence run. Every item gets the same shape, so the description reads like a list. The rhythm scorer flags this as a texture_desert (sentences 402-418), so the run is also missing joining constructions.",
+          "severity": "MILD",
+          "textureZone": "texture_desert 402-418",
+          "suggestedFix": "Her hair had been braided once, fair, but most of it had come loose and hung down over a travelling robe of brown wool, kilted up for walking, worn shiny at the cuffs and elbows, the hem stiff with dried mud.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-G2",
+          "pattern": "F2",
+          "line": 187,
+          "text": "When she spoke, her voice was level.",
+          "issue": "Generic dialogue beat. 'Her voice was level' could belong to any speaker and does no physical work. Cyndia's effortful composure is already on the page in 'her shoulders, held too square', and her one-word 'Ranger-General.' shows it.",
+          "severity": "MILD",
+          "suggestedFix": "[delete the sentence; the paragraph ends on 'held too square.']",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-G3",
+          "pattern": "F3",
+          "line": 281,
+          "text": "They were waiting on her, and she knew what for.",
+          "issue": "Filter verb 'knew' used as a teaser. It delays the options, which follow at once ('Shut the door. ... Or go in.'). Deletion test: 'They were waiting on her.' followed by the options reads more directly and loses nothing.",
+          "severity": "MILD",
+          "suggestedFix": "They were waiting on her.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-G4",
+          "pattern": "F7",
+          "line": 177,
+          "text": "She listened past the hoofbeats for a limp in them. At a gallop she couldn't hear one, and whether that was because there was none, she didn't know.",
+          "issue": "Paragraph-final closure: the tail spells out what 'At a gallop she couldn't hear one' already implies. It also uses up the doubt early, which L277 delivers better ('She'd ridden past stone after stone since noon and couldn't swear to one of them.'). Second, smaller problem: 'a limp in them' grammatically refers to the hoofbeats, not the stones' hum.",
+          "severity": "MILD",
+          "suggestedFix": "She listened past the hoofbeats for a limp in the hum. At a gallop she couldn't hear one.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 25,
+      "kills": 2,
+      "keeps": 23,
+      "severity": { "mild": 2, "moderate": 0, "severe": 0 },
+      "tierA": 1,
+      "tierB": 1,
+      "dominantPattern": "none dominant (A7 one, B1 one)",
+      "structuralHabit": "no",
+      "findings": [
+        {
+          "id": "B-N1",
+          "pattern": "B1",
+          "tier": "B",
+          "line": 261,
+          "text": "Her boots were good boots, walked further than their maker ever expected, cracked across the toes.",
+          "whoIsSayingThis": "the narrator",
+          "povMismatch": "'Further than their maker ever expected' is a writerly turn that guesses at a cobbler's intentions. Sylvanas reads boots for wear and quality, not for what their maker hoped. The cracked toes already carry the evidence.",
+          "confidence": "MODERATE",
+          "severity": "MILD",
+          "suggestedFix": "Her boots were good boots, cracked across the toes.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-N2",
+          "pattern": "A7",
+          "tier": "A",
+          "line": 251,
+          "text": "the way the magisters arranged theirs in chamber when they meant to talk you into the floor",
+          "whoIsSayingThis": "the narrator, addressing an imagined reader",
+          "povMismatch": "This is the chapter's second generic 'you' in third-person narration. The first is L237 ('To circle that one, you came north...'), which is kept as her free-indirect reasoning. The guide allows one. Here the person being talked into the floor in chamber is Sylvanas herself, so the generic 'you' blurs a grievance that is specifically hers.",
+          "confidence": "HIGH",
+          "severity": "MILD",
+          "suggestedFix": "the way the magisters arranged theirs in chamber when they meant to talk the Ranger-General into the floor",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 12,
+      "kills": 0,
+      "keeps": 12,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "12 candidates examined for P1-P5. 'The opening.' (L105), 'These had roads.' (L229), 'A name worth watching.' (L243), 'A nuisance with a pedigree.' (L251), 'Antonidas's to the bone' (L287) and 'The mage had to be exactly what the file said.' (L287) are each anchored in the same or the next line: the stone she could tell him about, the thin ruled lines from the south edge, the Farstrider file text, the lord admiral's daughter, and the Kirin Tor ink in her creases. 'Tell them the trolls can count... bows before... coin' (L109) passes 'count what?' because bows and coin are its payload. Cyndia's 'sick from the inside' (L201) is reported speech whose vagueness the plan requires (no leyline explanation), and its second half draws an operational distinction: wardens read only the outsides. L265 'saying one thing since before dawn' and L279 'meant to keep that chair until Sylvanas spoke first' are evidence-based inferences from Cyndia's report and the planted boots. L195 'more of them than the hour called for', L3 'nothing else in the hollow had reason to keep that still' and L153 'without a ripple' all follow concrete carriers on the page. There is no planner note-speak or status shorthand in the narration. The keep rate is above the guide's 25% heuristic. Each keep was rechecked with the cash-out test against on-page evidence. This is the third revision round, and earlier rounds removed the abstract lines."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "The chapter has no 'smaller words', 'plainly' or 'in streets' setups. Five exchanges ask for a shorter or more specific answer, and each reply gives usable payload. 'Skip the compliments. What.' -> 'Intruder. Outer ring, before dawn. Human. A woman. Mage.' (place, time, target). 'Off how?' -> 'The beat's uneven. There's cold under it.' (a tactile field sign, which Lor'themar then tests with his own hand). 'Asked.' -> 'Argued. She said she needed a day with that stone and the next ones along the ring...' (a named stone and a named demand). 'Her gear.' -> 'On the rack. Staff, satchel, the papers.' (location and items). 'Where is she?' -> 'End of the passage. Second door.' (a route another character could walk). None needs a second round of unpacking."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 70,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "narrator-seep-guide.md"],
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "6 MILD kills, which is more than the 3-MILD threshold. There are 0 MODERATE/SEVERE kills. Every kill is a single-sentence lapse with a low-difficulty drop-in fix: F1 'Her...' description march (L261), F2 generic 'voice was level' beat (L187), F3 'she knew what for' teaser (L281), F7 closure tail plus an ambiguous 'them' (L177), narrator-seep B1 'walked further than their maker ever expected' (L261), and A7 second generic 'you' (L251). Phantom concreteness and fake simplification are clean. Structural texture deficit: participial 6.0% vs 12% target, em-dash 1.1% vs 4%. Structural rhythm concerns: one_sentence_paragraph_pct, long_sentence_pct, opener_entropy and mattr are outside their ranges.",
+    "adversarialSelfCheckNote": "The GPT-5 guide's under-10-kills warning was weighed. This is revision round 3 (B trajectory 47 -> 10 -> 9). Every F2/F3/F8-F15 trigger was swept, and the keeps are documented one by one in the scratchpad.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.657, "target": 0.72, "delta": -0.063, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_cv": { "actual": 0.73, "target": 0.70, "delta": 0.03, "range": [0.6, 0.8], "inRange": true },
+      "one_sentence_paragraph_pct": { "actual": 24.7, "target": 19.0, "delta": 5.7, "range": [15.0, 24.0], "inRange": false },
+      "sentence_length_mean": { "actual": 11.2, "target": 11.0, "delta": 0.2, "range": [9.0, 13.0], "inRange": true },
+      "short_sentence_pct": { "actual": 36.4, "target": 35.0, "delta": 1.4, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 17.0, "target": 10.0, "delta": 7.0, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.0, "target": 7.7, "delta": -1.7, "range": [7.2, 8.2], "inRange": false },
+      "mattr": { "actual": 0.789, "target": 0.83, "delta": -0.041, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": ["one_sentence_paragraph_pct", "long_sentence_pct", "opener_entropy", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 80.0,
+      "participial_pct": 6.0,
+      "compound_pct": 11.4,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 0.9,
+      "short_pct": 44.2,
+      "verdict_reasons": [
+        "participial: 6.0% below target 12.0% (score 55/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.0% -> target 12.0% (score 55/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 1.1% -> target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "telegramRunCount": 8,
+      "textureDesertCount": 11,
+      "killsInFlaggedZones": ["B-G1 (texture_desert 402-418)"]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 31,
+        "total_violations": 1,
+        "overCap": [
+          { "pattern": "verdict_too_x_for", "category": "narrator_verdict", "count": 1, "cap": 0, "line": 119, "mappedGuide": "narrator-seep-guide.md", "gateDecision": "KEEP (see scratchpad)" }
+        ],
+        "atCap": ["punct_colon_narration 5/5 (pass A domain)"],
+        "passBMappedSignals": "narrator_verdict only. No slopsquid, ai_vocabulary, clinical_anatomy, verbose_phrases, academic_register, dialogue_register, hedging, vague_pointers or ambient_inversion matches."
+      }
+    }
+  }
+}

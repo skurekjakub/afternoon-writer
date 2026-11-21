@@ -1,0 +1,31 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 1,
+  "globalRisks": ["cell-blocking-geometry", "compass-direction"],
+  "segments": {
+    "openingThird": { "risk": "low", "touched": false },
+    "middleThird": { "risk": "low", "touched": false },
+    "finalThird": { "risk": "medium", "touched": true }
+  },
+  "scenes": [
+    {
+      "sceneId": 2,
+      "title": "The Prisoner",
+      "riskTags": ["static-room", "blocking-contradiction"],
+      "biggestGap": "Ward-stone sat behind the seated mage but she turned her head sideways to see it (G4-001); letter direction wrong (G6-002).",
+      "sourceBank": {
+        "geography": ["Silvermoon", "Dalaran", "Thalassian Pass post"],
+        "institutions": ["Kirin Tor", "Farstriders"],
+        "materials": ["wooden chair", "iron pegs", "ward-stone at seated-head height", "ward-lamp"]
+      },
+      "sceneContract": {
+        "placeAnchor": "Second cell: door, chair facing it, ward-stone in the opposite wall behind the chair",
+        "materialAnchor": "chair, ward-stone, boots planted, lamp light",
+        "povAnchor": "Sylvanas reads the mage's turn toward the stone as a hound at a rustle; palm remembers moss",
+        "dialogueAnchor": "No Jaina dialogue; silent beat carried by twisting in the chair and Sylvanas on the threshold",
+        "exitAnchor": "stone humming behind the prisoner's head as Sylvanas stands over the chair; cup set down in the guardroom"
+      },
+      "dialogueRuns": []
+    }
+  ]
+}

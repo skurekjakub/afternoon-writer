@@ -1,0 +1,1003 @@
+{
+  "chapterId": "chapter5",
+  "stage": "standard",
+  "pass": "c",
+  "iteration": 101,
+  "targetFile": "v2-r101.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "mannered-prose-guide.md",
+      "totalCandidates": 64,
+      "kills": 17,
+      "keeps": 47,
+      "severity": {
+        "SEVERE": 0,
+        "MODERATE": 4,
+        "MILD": 13
+      },
+      "dominantPattern": "M9 - house wit (9 instances in narration against a cap of 2)",
+      "capCounts": {
+        "M5_maxim_narration": {
+          "count": 4,
+          "cap": 2,
+          "toolHits": 3,
+          "toolFalsePositives": [
+            255
+          ],
+          "keptLines": [
+            281,
+            528
+          ],
+          "killedLines": [
+            377,
+            479
+          ],
+          "note": "Line 255 is a spoken order, not a maxim. Kept: 281 (embedded premise; next sentence runs a finger down the gap) and 528's first clause (premise for trusting the destinations). Dialogue maxims: scene 2 has one, the toll-keeper's 'Grain pays.' (line 395), within the 1-per-scene cap."
+        },
+        "M9_house_wit_narration": {
+          "count": 9,
+          "cap": 2,
+          "keptLines": [
+            191,
+            477
+          ],
+          "killedLines": [
+            125,
+            125,
+            145,
+            213,
+            241,
+            269,
+            357
+          ],
+          "note": "Kept 191 (magisters vs Jaina's fast correction: plan B2, voice-sheet contempt for magisters) and 477 (connection-not-guilt argument: plan B6a). At 4.5x the cap, the weakest excess instance (241) is MODERATE."
+        },
+        "M12_self_imperative": {
+          "count": 1,
+          "cap": 2,
+          "keptLines": [
+            291
+          ]
+        },
+        "M12_hypothesis_ladder": {
+          "count": 1,
+          "cap": 1,
+          "keptLines": [
+            479
+          ],
+          "note": "Lines 479-481; after C-M5-3 it is a two-way 'because... or because' plus questions"
+        },
+        "M12_echo_compliance": {
+          "count": 2,
+          "cap": 0,
+          "keptLines": [],
+          "killedLines": [
+            47,
+            576
+          ]
+        },
+        "M12_then_fragment": {
+          "count": 0,
+          "cap": 0
+        },
+        "M12_second_guess_tag": {
+          "count": 0,
+          "cap": 0,
+          "note": "Line 113 ', or where she said it was' examined; it is POV discipline about the mage's claim, not self-doubt about perception. KEEP."
+        },
+        "M4_list_with_turn": {
+          "count": 2,
+          "cap": 0,
+          "killedLines": [
+            528,
+            611
+          ],
+          "polysyndeton": "15.5 per 10K against a soft cap of 3.9 (human rate 1.97). 17 narration sentences with 3+ 'and's checked; the rest are same-kind lists or compound clauses with no turn."
+        },
+        "M13_the_way_simile": {
+          "count": 0,
+          "cap": 0
+        },
+        "M7_self_monitoring": {
+          "count": 1,
+          "cap": 0,
+          "keptLines": [
+            570
+          ],
+          "note": "'She let the name stand.' is the plan's required B7 hinge (constraints + B7 interiority); intentional-structure defense"
+        },
+        "M1": 0,
+        "M2": 0,
+        "M3": 1,
+        "M6": 0,
+        "M8": 2,
+        "M10": 0,
+        "M11": 0
+      },
+      "findings": [
+        {
+          "id": "C-M12-1",
+          "line": 47,
+          "text": "He had.",
+          "pattern": "M12 - echo-compliance (narration one-liner answering the line just spoken)",
+          "test": "Test 3 (job): nothing new; Corley's next line carries the same fact",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Lyriel asks 'Did you hear about the village...?' and a one-line paragraph answers 'He had.' before Corley's next line shows he heard. The paragraph mirrors the dialogue and adds nothing.",
+          "suggestedFix": "",
+          "fixNote": "Delete the paragraph. Lyriel's line runs straight into '\"Fire,\" he said.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M5-1",
+          "line": 69,
+          "text": "It's the load I book, not the man. That's the rule. It's been the rule since my father had the book.",
+          "pattern": "M5 - dialogue overexplanation (answer + reason stack)",
+          "test": "Test 4 / dialogue rule: answer + four reasons where one is allowed",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Asked for the carters' names, Corley gives the answer ('I don't write it'), a reason ('The yard's paid at the gate'), then three more justifications ending on a family history. One particular reason is the limit. The tail also duplicates the overseer's 'since my father's time' (line 353); see C-R3-1.",
+          "suggestedFix": "",
+          "fixNote": "Delete the three sentences. The line ends: \"They give a name, I don't write it. The yard's paid at the gate.\" Line 473 still recalls the gate payment.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M8-1",
+          "line": 123,
+          "text": "Nine loads on the east road, and two thin strokes.",
+          "pattern": "M8 - interpreter gloss (recap one-liner of facts just given)",
+          "test": "Test 3 (job): sums up facts already on the page",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Cyndia has just read 'Nine since' for the east road, and line 113 already gave the mage's two thin strokes. The one-line paragraph puts the two facts side by side for effect, and the next paragraph's deduction ('So a month of carts showed as a thin stroke...') does the real work.",
+          "suggestedFix": "",
+          "fixNote": "Delete the paragraph. Cyndia's count runs straight into 'So a month of carts showed as a thin stroke...'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-1",
+          "line": 125,
+          "text": "The mage had got that off a mile-post in a field with her eyes shut.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count): 9 house-wit lines in narration, cap 2; restates an on-page image",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A mock-diminishing quip that restates where the read came from (the mile-post at the crossing, lines 15-21). M9 has 9 instances in narration against a cap of 2. This one restates an image already on the page and shares its paragraph with a second quip, so it does not survive the cap.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph reads: 'So a month of carts showed as a thin stroke, and a summer of them as a blot with a tail. She went looking for a mark that was wrong. She put her finger on the north road...' (with C-M9-2 applied).",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-2",
+          "line": 125,
+          "text": "Sylvanas would very much have liked one of the marks to be wrong.",
+          "pattern": "M9 - house wit (mock-precise understatement)",
+          "test": "Test 4 (count): guide-listed quip; two quips in one paragraph",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "This exact sentence is listed in the mannered guide as house wit. The plan's interiority (she would like the marks not to match) can survive as an action instead of a quip, which is also how her voice sheet ends an argument.",
+          "suggestedFix": "She went looking for a mark that was wrong.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-3",
+          "line": 145,
+          "text": "Thirty-one, out of one shed a day's ride from anywhere that mattered.",
+          "pattern": "M9 - house wit (comparative put-down) on a recap one-liner",
+          "test": "Test 4 (count): over the M9 cap; restates the count just given",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The paragraph repeats Cyndia's count and adds a sneer at the depot's location. The scale point is already carried by the next paragraph ('She had thought, in that village, that she was following one man... She could follow one man.').",
+          "suggestedFix": "",
+          "fixNote": "Delete the paragraph. Corley's 'I know where they all are.' runs into 'She had thought, in that village...'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-4",
+          "line": 213,
+          "text": "Terenas's boy, with an army and orcs to chase.",
+          "pattern": "M9 - house wit (dismissive aside restating the line before)",
+          "test": "Test 4 (count): over cap; restates an image already on the page",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The merchants have just said the prince has an army chasing orcs at Strahnbrad; the fragment repeats that with a sneer. Over the M9 cap. Her verdict on the army comes aloud at line 643, where it does work.",
+          "suggestedFix": "",
+          "fixNote": "Delete the fragment. The paragraph ends: 'She turned back to the table and smoothed the sheet flat.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-5",
+          "line": 241,
+          "text": "A free carter had bought back his own spoiled flour at a loss, out of the goodness of his heart, the day before four elves came asking.",
+          "pattern": "M9 - house wit (sarcastic restatement)",
+          "test": "Test 3 + Test 4: restates line 239; weakest instance of a pattern at 4.5x its cap",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Third telling of the buy-back (line 161, then line 239's 'The last four sacks, bought back at more than he'd been paid for them'), now as sarcasm. 'A quip that restates an image already on the page' is always KILL. M9 stands at 9 against a cap of 2 (over 3x), so the weakest excess instance is raised to MODERATE.",
+          "suggestedFix": "",
+          "fixNote": "Delete the paragraph. Line 239's paragraph runs into 'A day, every time.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-6",
+          "line": 269,
+          "text": "This was a town's worth of shed.",
+          "pattern": "M9 - house wit (exaggerated comparison)",
+          "test": "Test 4 (count): over cap; the description carries the scale",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A quip on scale. The sentence before ('She had pictured Corley's shed, larger.') and the description after (three barns, wharf, crane, a beam that could lift a wagon) already show it. Over the M9 cap.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. 'She had pictured Corley's shed, larger.' runs into 'Three long barns stood end to end...'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M8-2",
+          "line": 353,
+          "text": "It came out smooth as a ledger line, every name in its column.",
+          "pattern": "M8 - interpreter gloss (narration labelling the ready answer)",
+          "test": "Test 3 (job): translates the line the reader just read; duplicated by line 355",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The overseer's answer is on the page, and line 355 then states the tell plainly ('he had answered every question before she'd finished asking it'). The plan asks for the ready answer in plain sight without the narration pointing at it. Two glosses for one tell; this one goes.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence and join the two halves of his speech: \"...since my father's time. If you take the fork past the chapel...\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-7",
+          "line": 357,
+          "text": "Corley had run at the nose; this one went white.",
+          "pattern": "M9 - house wit (comparative put-down)",
+          "test": "Test 4 (count): over cap; 'this one went white' restates line 323",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A joke at Corley's expense (his nose ran from a cold, not fear) set beside a restatement of line 323's colourless face. Over the M9 cap, and it restates an on-page image.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph ends on 'Of a mage pointing a stick at his heart.', which line 359 picks up ('ask him which fear it was').",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M5-2",
+          "line": 377,
+          "text": "On clay a loaded wagon cuts deep.",
+          "pattern": "M5 - maxim",
+          "test": "Test 4 (count): 4 narration maxims, cap 2; weakest premise, restated two sentences later",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Four maxims in narration (lines 281, 377, 479, 528) against a cap of 2. This is the barest of them, a standalone rule of life in the present tense, and line 381 restates it as a particular deduction ('Six loaded wagons on this road after that rain would have cut through the slumped clay'). Lines 281 and 528 survive (see capCounts).",
+          "suggestedFix": "The wagons would show here.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "maxim"
+        },
+        {
+          "id": "C-M5-3",
+          "line": 479,
+          "text": "A frightened man doesn't pick what to put in the stove. He puts in the shelf. Or he does, if somebody told him what to pick.",
+          "pattern": "M5 - maxim (with a muddled counter-rule)",
+          "test": "Test 1 + Test 4: paraphrase contradicts 'He had burned everything'; over the maxim cap",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A rule of life followed by a counter-rule. The logic slips: the sentence before says he burned everything, so 'Or he does [pick]' has nothing on the page to stand on, and 'He puts in the shelf' is a bent way of saying he burned the whole shelf. The plain point is that Barov's name went in with the rest, so the burning does not single out Barov, and that either fear or an order did it, which leads into 'And who told him?'.",
+          "suggestedFix": "He had put Barov's name in with the rest, because he was frightened or because somebody had told him to.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "maxim"
+        },
+        {
+          "id": "C-M4-1",
+          "line": 528,
+          "text": "Barov's seal on half of it, his factor's name on more, his stores at the Andorhal end of every one.",
+          "pattern": "M4 - cadence list with a turn (escalating triplet)",
+          "test": "Test 1 + M4: the cadence's last item overstates Cyndia's count",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The rhythm builds half, then more, then every one, and the payoff claims more than the page shows. Cyndia counted Barov on 31 of the 53 slips (line 463), and Jaina said the family holds 'Most of the granaries, I think.' The plan forbids the narration blurring connection into anything bigger, and this cadence does.",
+          "suggestedFix": "Barov's name was on more than half of them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M12-2",
+          "line": 576,
+          "text": "Sylvanas inked over the mark.",
+          "pattern": "M12 - echo-compliance",
+          "test": "Test 4 (count): echo-compliance, cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "'Make it heavy.' followed by a one-line paragraph doing exactly that is the guide's own echo-compliance example, with the verb swapped. Line 578 ('The new mark sat black on Ashford...') already shows the result.",
+          "suggestedFix": "",
+          "fixNote": "Delete the paragraph. Jaina's 'Make it heavy.' runs into 'The new mark sat black on Ashford, across the sheet from the bar through Hollow Green.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M3-1",
+          "line": 582,
+          "text": "And at the top of it, a depot swept to the boards the night before they came, a stove crammed full, a man who had his answer ready before she asked the question. Before that, a free carter who bought his own flour back the day before.",
+          "pattern": "M3 - equative montage (verbless recap of on-page events)",
+          "test": "Test 3 (job): recaps a list of on-page images",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A list of images summing up events the reader has seen (the sweep, the stove, the ready answer, the buy-back: its third recap after lines 239 and 241). It sums up instead of narrating. 'Who told the overseer?' needs only the depot.",
+          "suggestedFix": "And at the top of it sat the river depot, swept to the boards the night before they came.",
+          "fixNote": "Replace both sentences with the one-sentence fix. Line 583 ('Who told the overseer?') should begin its own paragraph; it currently has no blank line before it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M4-2",
+          "line": 611,
+          "text": "and anyone with a pair of eyes and a destination would take it.",
+          "pattern": "M4 - cadence list with a turn (polysyndeton ending on a quip)",
+          "test": "M4: the polysyndetic list's last item is the payoff",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "'wide and pale and well-drained, the King's road, and anyone with a pair of eyes and a destination would take it' runs a polysyndetic list into a wry turn. Polysyndeton is at 15.5 per 10K against a soft cap of 3.9; of the 17 narration sentences with 3+ 'and's, this is the only one that ends on a turn. The B9 logic does not need the tail: Sylvanas states the King's road's features aloud at line 629.",
+          "suggestedFix": "",
+          "fixNote": "Delete the clause and the comma before it. The sentence ends: '...wide and pale and well-drained, the King's road.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "polysyndeton"
+        }
+      ]
+    },
+    {
+      "guide": "refrain-guide.md",
+      "totalCandidates": 49,
+      "kills": 17,
+      "keeps": 32,
+      "severity": {
+        "SEVERE": 0,
+        "MODERATE": 7,
+        "MILD": 10
+      },
+      "dominantPattern": "R3 - within-chapter repeats (8), then cross-chapter paraphrases the tool's 5-word floor missed (R1 x4)",
+      "capCounts": {
+        "family_subordinate_yardstick": {
+          "countHere": 2,
+          "toolCount": 1,
+          "windowTotal": 6,
+          "perWindow": 1,
+          "keptLines": [
+            397
+          ],
+          "killedLines": [
+            247
+          ],
+          "note": "397 is the single plan-licensed instance (B6). Line 599 ('She'd said it to rangers a hundred times') is the plan's B8 teaching memory, a different move, and is kept. The plan names the yardstick at both B6 and B6a."
+        },
+        "family_elf_ears_stare": {
+          "countHere": 1,
+          "windowTotal": 2,
+          "perWindow": 1,
+          "keptLines": [],
+          "killedLines": [
+            25
+          ]
+        },
+        "family_empty_places_at_back": {
+          "countHere": 1,
+          "windowTotal": 2,
+          "perWindow": 1,
+          "keptLines": [
+            227
+          ],
+          "note": "plan-licensed (constraints + B3 continuityNote: 'a callback, not a new image'); wording differs from ch4"
+        },
+        "family_no_sleep_sand_eyes": {
+          "countHere": 1,
+          "toolCount": 0,
+          "killedLines": [
+            465
+          ],
+          "note": "paraphrase the tool missed"
+        },
+        "family_short_surprised_laugh": {
+          "countHere": 1,
+          "toolCount": 0,
+          "keptLines": [
+            231
+          ],
+          "note": "plan-named B3 beat (Lyriel's handwriting joke, Jaina laughs, Cyndia on the trees); the reaction is new to this scene and no Lyriel-checks-Cyndia step follows"
+        },
+        "family_knees_set": {
+          "countHere": 1,
+          "windowTotal": 1,
+          "perWindow": 1,
+          "keptLines": [
+            5
+          ]
+        },
+        "family_pleased_with_herself": {
+          "countHere": 1,
+          "windowTotal": 1,
+          "perWindow": 1,
+          "keptLines": [
+            593
+          ]
+        }
+      },
+      "findings": [
+        {
+          "id": "C-R4-1",
+          "line": 25,
+          "text": "He looked at the bows, at Sylvanas's ears, back at the bows.",
+          "pattern": "R4 - family over budget (elf_ears_stare)",
+          "source": "chapter4/final.md lines 131, 147",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Humans looking at elves' ears: chapter 4 has Dickon 'looking at Lyriel's ears and trying not to' and Tobin 'taking in Lyriel's bow and Lyriel's ears'. The family is over budget (windowTotal 2, perWindow 1). The bows carry Corley's alarm without the ears.",
+          "suggestedFix": "He looked at the bows, at Sylvanas, back at the bows.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:elf_ears_stare"
+        },
+        {
+          "id": "C-R1-1",
+          "line": 39,
+          "text": "His shoulders came down.",
+          "pattern": "R1 - cross-chapter tag reuse (paraphrase-level; under the tool's 5-word floor)",
+          "source": "chapter4/final.md lines 103, 307; chapter3/final.md line 707",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "'Shoulders came down' is the book's release tag: chapter 3 line 707, chapter 4 line 103 (Brask, right before he gives his name) and line 307 (Jaina). Here it marks Corley softening right before he gives his name, the same small sequence as Brask at the spear. Not marked as a callback.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence and close up the speech: \"Of a morning. The mornings are cold now. And the kettle.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R3-1",
+          "line": 69,
+          "text": "It's the load I book, not the man. That's the rule. It's been the rule since my father had the book.",
+          "pattern": "R3 - within-chapter repeat (clerk invokes his father)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Corley's 'since my father had the book' and the overseer's 'They've bought from this yard since my father's time' (line 353) give two clerks the same family-history tag. Keep the overseer's, because his too-ready answer is plot (plan B5). Same edit as C-M5-1; apply once.",
+          "suggestedFix": "",
+          "fixNote": "Same deletion as C-M5-1: the line ends \"They give a name, I don't write it. The yard's paid at the gate.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R3-2",
+          "line": 205,
+          "text": "They looked at the bows against the wall.",
+          "pattern": "R3 - within-chapter repeat (strangers eye the bows before answering)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The same reaction beat appears three times: Corley (line 25), the merchants here, and the overseer (line 339). Line 339 carries plot (his attention goes to the mage), and line 25 comes first. This middle one only repeats the move, and with three uses the severity is MODERATE.",
+          "suggestedFix": "",
+          "fixNote": "Delete the paragraph. 'What army?' runs into '\"The prince's, my lady,\" the older one said.' The 'my lady' carries their wariness.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R4-2",
+          "line": 247,
+          "text": "It was what she would have told any ranger to do.",
+          "pattern": "R4 - family over budget (subordinate_yardstick, advice variant)",
+          "source": "chapter1/final.md, chapter3/final.md (family bookCounts)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Sylvanas measuring her own choice against what she would tell a ranger. The family is far over budget (windowTotal 6 against perWindow 1, ch1 2, ch2 1, ch3 5). The plan licenses one ranger yardstick at B6, which line 397 delivers, plus the B8 teaching memory at line 599. This unlicensed variant adds nothing: stopping at the Plough is plainly the sensible plan. Note for a human: the chapter plan names the yardstick at both B6 and B6a, so the plan keeps reseeding it.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. 'She had meant to stop at the Plough... with everyone rested.' runs into 'And they would come in at noon...'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:subordinate_yardstick"
+        },
+        {
+          "id": "C-R3-3",
+          "line": 393,
+          "text": "Lyriel got down and admired his beans and asked how long he'd kept the bar and then whether the grain came through this way to Brill.",
+          "pattern": "R3 - within-chapter repeat (Lyriel 'admired X and asked')",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Line 159: 'Lyriel admired the slate and asked after the young fellow with the cart.' Same verb, same move, same sentence frame. Her method can recur; the wording shouldn't.",
+          "suggestedFix": "Lyriel got down and asked about his beans, then how long he'd kept the bar, then whether the grain came through this way to Brill.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R4-3",
+          "line": 465,
+          "text": "She had been awake too many nights and on a horse through most of them, and she could feel every one in her eyes.",
+          "pattern": "R4 - family over budget (no_sleep_sand_eyes, paraphrased)",
+          "source": "chapter3/final.md (family bookCounts: 2)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "No sleep plus the eyes: the refrain guide's own example ('She had not slept since the night before... Her eyes were full of sand', ch3 x2). This paraphrase slipped past the tool's matcher, and a paraphrase keeps the refrain. Line 407 already says 'It was the second night without sleep'.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph reads: 'Sylvanas sat back too. Her knees were bad and her back was bad.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R3-4",
+          "line": 469,
+          "text": "She looked at the rows. \"If they hold the granaries, their name's on the grain.\"",
+          "pattern": "R3 - within-chapter repeat (the connection-not-guilt argument made twice)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Jaina says it here, and eight lines later Sylvanas reaches the same point in her head ('But if Barov held the granaries, his name was on every sack that went out of them...', line 477). The plan makes refusing to blur connection into guilt Sylvanas's decision (B6a) and keeps Jaina to placing the house. Keep Sylvanas's version.",
+          "suggestedFix": "",
+          "fixNote": "Delete the beat and the sentence. Jaina's speech ends: '...while my father pretended to listen.\"'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R3-5",
+          "line": 481,
+          "text": "Somebody had had the use of a boy in a loft since the back end of summer.",
+          "pattern": "R3 - within-chapter repeat ('since the back end of summer' and the planted boy)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Line 243 already has 'the boy had sat on it since the back end of summer'. Same beat, same phrase, here stacked on the 'had the use of' chain from the sentence before.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. 'Or whoever had the use of the lord's granaries, his seal, his sacks and his overseers?' runs into 'She did not know.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R1-2",
+          "line": 511,
+          "text": "She wiped the thumb on her breeches and left a print there too.",
+          "pattern": "R1 - cross-chapter reuse (paraphrased image)",
+          "source": "chapter4/final.md line 524",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Chapter 4 line 524: Sylvanas's grey glove 'smeared on the green of her cuff where she had wiped her hand and only made it worse.' Same small joke (she wipes the dirt off and only spreads it), reused in fresh words.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph ends: 'Sylvanas set the slip down and left her thumb's black print on its corner.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R3-6",
+          "line": 538,
+          "text": "\"Or it goes in on the road, or at the far end of the road, before it ever gets to Andorhal, and comes round the back of it.\"",
+          "pattern": "R3 - within-chapter repeat (verbatim echo exchange)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Jaina repeats Sylvanas's 'Or it goes in on the road.' word for word before extending it. That is the second echo exchange between them; the first, 'Or you're wrong.' / 'Or I'm wrong.' (lines 95-97), is the stronger and stays.",
+          "suggestedFix": "\"Or at the far end of the road, before it ever gets to Andorhal, and comes round the back of it.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "refrain:withinChapter"
+        },
+        {
+          "id": "C-R5-1",
+          "line": 550,
+          "text": "brightening, and then it did a thing she had not seen it do before. The light leaned. It crowded to one side of the stone, the staff standing straight under it, and the side it crowded to was the bend.",
+          "pattern": "R5 - recycled micro-scene (chapter 4's closing image)",
+          "source": "chapter4/final.md lines 1006-1010",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Chapter 4 closes on the road splitting, 'The staff shifted in the crook of her arm, all on its own, leaning toward the ruts', and Sylvanas turning onto that road. Chapter 5 closes on a fork, the staff's light leaning toward the bend, and Sylvanas turning onto the bending road. Sylvanas never saw the chapter-4 lean, but the reader did; 'a thing she had not seen it do before' does not mark it as a callback for the reader. The plan rests the B9 choice on Jaina's read, which she gives in words at line 556.",
+          "suggestedFix": "brightening.",
+          "fixNote": "Replace from 'brightening, and then it did...' through '...was the bend.' with 'brightening.' The paragraph continues 'The mage's jaw was working.' Apply C-R5-2 with it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R5-2",
+          "line": 572,
+          "text": "bending it as the light in the crystal had leaned,",
+          "pattern": "R5 - recycled micro-scene (dependent edit for C-R5-1)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "This refers back to the leaning light removed by C-R5-1 and repeats the lean as a drawing instruction.",
+          "suggestedFix": "",
+          "fixNote": "Delete the clause. The sentence reads: 'She drew the south road on down off the bottom of the sheet onto the boards of the bench, there being nowhere else to draw it, the ink soaking into the grain of the bench.' Line 623 still has the road 'bending' down the boards.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R1-3",
+          "line": 609,
+          "text": "asleep before she had finished pulling her cloak up.",
+          "pattern": "R1 - cross-chapter reuse (paraphrased comic beat)",
+          "source": "chapter3/final.md line 570",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Chapter 3 line 570, in the same watch-setting beat: Neral 'asleep before her head was all the way down.' Here a ranger is asleep before she finishes the motion. Same joke, fresh words, and within this chapter it also repeats the comic sleeping Lyriel of line 155.",
+          "suggestedFix": "her cloak pulled up to her chin.",
+          "fixNote": "The sentence reads: 'Lyriel came in off the wall and lay down on the bracken with her bow beside her, her cloak pulled up to her chin.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R3-7",
+          "line": 615,
+          "text": "I'd say they were army wagons, going up full and coming back empty.",
+          "pattern": "R3 - within-chapter repeat (inverted echo of a signature line)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Twenty-two lines after Sylvanas's italic memory '*Empty going up, full coming down.*' (line 593), Cyndia speaks its mirror image. It reads as a planted echo. The plan also keeps Cyndia off the carter thread in this chapter, and the echo pulls her toward it. 'The ones coming down sit lighter' already gives the evidence.",
+          "suggestedFix": "I'd say they were army wagons.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R3-8",
+          "line": 633,
+          "text": "Only the marks said south, Jaina's marks, off a staff Sylvanas could hold in her own hand and feel nothing from.",
+          "pattern": "R3 - within-chapter repeat (the staff she can hold and feel nothing from)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Line 195 already set up 'She had held the mage's staff once... and felt only a cold hum in her bones' together with riding on what she cannot check. B9 is the payoff, and the name 'Jaina' plus the plain stakes sentence carry it without restating the staff.",
+          "suggestedFix": "Only the marks said south, Jaina's marks.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-R1-4",
+          "line": 653,
+          "text": "I saved you the burnt end; it's the best bit, whatever Cyndia tells you.",
+          "pattern": "R1 - cross-chapter reuse (paraphrased line)",
+          "source": "chapter4/final.md line 421",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Chapter 4 line 421: Wenna Dunmore 'eats the heel standing up. Every loaf. Says it's the best of it.' The loaf-end-is-best line comes back in Lyriel's mouth, and Wenna ate the poisoned bread, so a reader may take it as an ominous callback the text never meant.",
+          "suggestedFix": "I saved you the burnt end.",
+          "fixNote": "Lyriel's line reads: '\"Breakfast. I saved you the burnt end.\" Jaina took the crust in her two fingers and ate it.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 34,
+    "totalKeeps": 79,
+    "mildKills": 23,
+    "moderateOrSevereKills": 11,
+    "severeKills": 0,
+    "guidesRun": [
+      "mannered-prose-guide.md",
+      "refrain-guide.md"
+    ],
+    "guidesWithKills": [
+      "mannered-prose-guide.md",
+      "refrain-guide.md"
+    ],
+    "killsWithFix": 34,
+    "killsUnfixable": 0,
+    "fixStrategy": "default (iterationKillsC history [89]; this run 34, strictly decreasing)",
+    "verdict": "fail",
+    "verdictReason": "FAIL: 34 KILLs (11 MODERATE, 0 SEVERE, 23 MILD). Mannered prose (17): house wit is the dominant habit, 9 instances in narration against a cap of 2 (7 killed, keeping L191 and L477); maxims 4 against 2; 2 echo-compliance one-liners; 2 recap glosses; 1 verbless montage; 2 cadence turns. No M2 sense failures, no M13 similes. Refrains (17): the closing recycles chapter 4's leaning-staff fork image; 'shoulders came down' before a name repeats Brask; paraphrased reuse of ch3's 'asleep before her head was all the way down', ch4's loaf-heel 'best of it' and cuff smear; the yardstick, ears-stare and no-sleep/eyes families over budget; 8 within-chapter repeats. Down from 89 kills at iteration 100. Structural rhythm concerns (not verdict inputs): long_sentence_pct, one_sentence_paragraph_pct, mattr outside range. Texture within_target (score 91.8), em-dash low.",
+    "applyTogether": [
+      [
+        "C-M5-1",
+        "C-R3-1"
+      ],
+      [
+        "C-R5-1",
+        "C-R5-2"
+      ],
+      [
+        "C-M9-1",
+        "C-M9-2"
+      ]
+    ],
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.801,
+        "target": 0.733,
+        "range": [
+          0.613,
+          0.863
+        ],
+        "delta": 0.068,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.1,
+        "target": 12.412,
+        "range": [
+          10.412,
+          14.412
+        ],
+        "delta": -0.312,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.796,
+        "target": 0.723,
+        "range": [
+          0.623,
+          0.823
+        ],
+        "delta": 0.073,
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 36.0,
+        "target": 30.155,
+        "range": [
+          23.155,
+          37.155
+        ],
+        "delta": 5.845,
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 20.8,
+        "target": 15.352,
+        "range": [
+          12.352,
+          19.352
+        ],
+        "delta": 5.448,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.16,
+        "target": 6.637,
+        "range": [
+          6.137,
+          7.137
+        ],
+        "delta": -0.477,
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 30.0,
+        "target": 21.378,
+        "range": [
+          17.378,
+          26.378
+        ],
+        "delta": 8.622,
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.774,
+        "target": 0.848,
+        "range": [
+          0.818,
+          0.888
+        ],
+        "delta": -0.074,
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "within_target",
+      "texture_score": 91.8,
+      "participial_pct": 6.3,
+      "compound_pct": 14.3,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.1,
+      "short_pct": 46.2,
+      "verdict_reasons": [
+        "emdash: 1.4% below target 5.119% (score 67/100)"
+      ],
+      "interpretation": "EMDASH: 1.4% → target 5.119% (score 67/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 13,
+        "texture_desert": 16
+      }
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 45,
+      "total_violations": 2,
+      "overCap": [
+        {
+          "category": "narrator_verdict",
+          "pattern": "verdict_too_x_for",
+          "count": 1,
+          "cap": 0,
+          "lines": [
+            661
+          ],
+          "ownedBy": "pass B"
+        },
+        {
+          "category": "paragraph_structure",
+          "pattern": "opener_consecutive_repeat",
+          "count": 1,
+          "cap": 0,
+          "lines": [
+            165
+          ],
+          "ownedBy": "pass A"
+        }
+      ],
+      "note": "No slop-checker pattern maps to the pass C guides; these hits are left to passes A and B."
+    },
+    "manneredChecker": {
+      "summary": {
+        "patternHits": 3,
+        "patternsOverCap": 1,
+        "codesOverCap": [
+          "M5"
+        ],
+        "crossChapterRuns": 4,
+        "voiceSheetRuns": 1,
+        "withinChapterRuns": 2,
+        "familiesOverBudget": 3,
+        "polysyndetonPer10k": 15.5
+      },
+      "calibration": {
+        "corpora": [
+          "style-samples/travel.md",
+          "style-samples/archmage"
+        ],
+        "recalibratedNow": false,
+        "stale": false
+      },
+      "patternsOverCap": [
+        {
+          "name": "maxim",
+          "code": "M5",
+          "count": 3,
+          "cap": 2,
+          "humanPer10k": 0.713
+        }
+      ],
+      "codesOverCap": {
+        "M5": {
+          "count": 3,
+          "cap": 2
+        }
+      },
+      "familiesOverBudget": [
+        {
+          "family": "subordinate_yardstick",
+          "countHere": 1,
+          "windowTotal": 6,
+          "perWindow": 1
+        },
+        {
+          "family": "elf_ears_stare",
+          "countHere": 1,
+          "windowTotal": 2,
+          "perWindow": 1
+        },
+        {
+          "family": "empty_places_at_back",
+          "countHere": 1,
+          "windowTotal": 2,
+          "perWindow": 1
+        }
+      ],
+      "polysyndeton": {
+        "per10k": 15.5,
+        "humanPer10k": 1.967,
+        "softCapPer10k": 3.9,
+        "overSoftCap": true
+      },
+      "gateVsTool": "The tool flagged 3 maxim hits (1 a dialogue false positive), 4 crossChapter runs, 1 voiceSheet run, 2 withinChapter runs and 3 over-budget families. The gate's reading found the rest: M9 house wit (no detector), echo-compliance with a swapped verb, an escalating triplet, a verbless montage, and cross-chapter paraphrases under the tool's 5-word floor."
+    }
+  },
+  "outOfScopeObservations": [
+    "L501 'already inked' on Jaina's fingers: the chapter plan reserves ink-stained fingers for clerks, Sylvanas and Cyndia (continuity, not pass C).",
+    "L527/L528 and L582/L583 run two paragraphs together with no blank line (formatting).",
+    "L661 'too brown for mist' is a narrator_verdict slop-checker hit owned by pass B."
+  ]
+}

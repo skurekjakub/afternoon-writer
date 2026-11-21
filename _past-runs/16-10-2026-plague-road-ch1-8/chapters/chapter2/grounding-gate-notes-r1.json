@@ -1,0 +1,41 @@
+{
+  "chapterId": "chapter2",
+  "iteration": 1,
+  "targetFile": "v2g-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 2,
+      "sceneTitle": "The Road to Millhaven",
+      "findingId": "G12-003",
+      "category": "G12",
+      "severity": "MILD",
+      "lines": "341",
+      "excerpt": "She walked up the yard with her bow in her left hand and an arrow on the string, checking the corners.",
+      "reason": "Cyndia draws left-handed. This is sourced in stories/the-plague-road/characters/cyndia.md ('left-handed draw') and voice-sheets/cyndia-voice.md ('Left-handed draw'), and memory characters/cyndia.md notes it as not yet shown. A left-handed archer holds the bow in her right hand. The chapter itself stages the draw correctly at line 415 ('drew left-handed and loosed almost straight down'), so line 341 contradicts both the materials and the chapter's own fight. This line predates the grounder pass, but it is a precise physical detail that contradicts the source sheet.",
+      "suggestedFix": "She walked up the yard with her bow in her right hand and an arrow on the string, checking the corners.",
+      "fixMode": "light-swap"
+    },
+    {
+      "sweep": "scene-grounding",
+      "sceneId": 3,
+      "sceneTitle": "The Wildlife Attack",
+      "findingId": "G4-004",
+      "category": "G4",
+      "severity": "MILD",
+      "lines": "543",
+      "excerpt": "Jaina stopped. Up on the road Lyriel had laid two fingers on her bowstring and left them there.",
+      "reason": "Lyriel's position goes stale at a pressure moment, when the rangers' suspicion of Jaina's hand in the satchel resurfaces. Lyriel was last placed 'on the road above Jaina's head' while Jaina was down in the ditch (507). By 523 Jaina has climbed out of the ditch and walked 'up the road to where Neral stood holding them', and Windrunner 'had come up behind her' (529). Jaina is now on the road, up-road of the ditch. 'Up on the road' still stages Lyriel as above Jaina in the ditch, so for one beat the reader loses where the threatening bow is relative to Jaina's hands.",
+      "suggestedFix": "Jaina stopped. Back by the ditch, Lyriel had laid two fingers on her bowstring and left them there.",
+      "fixMode": "light-swap"
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "mildKills": 2,
+    "moderateKills": 0,
+    "severeKills": 0,
+    "dominantFailures": ["G12", "G4"]
+  }
+}

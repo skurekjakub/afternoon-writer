@@ -1,0 +1,403 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 7,
+  "targetFile": "v2-r7.md",
+  "verdict": "fail",
+  "guidePack": [
+    "gpt-5-prose-issues.md",
+    "narrator-seep-guide.md",
+    "phantom-concreteness-guide.md",
+    "fake-simplification-guide.md"
+  ],
+  "fixStrategy": {
+    "trajectoryB": [
+      56,
+      42,
+      15,
+      10,
+      4,
+      4,
+      3
+    ],
+    "strategy": "default",
+    "reason": "Latest prior count (3) is below the minimum earlier count (4), so the loop is not oscillating. Every fix proposed is still a deletion or a minimal substitution."
+  },
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner",
+    "registerSummary": "A sleepless field commander who thinks in tracker and horse terms, gives herself fragment orders ('Don't.' 'Leave it.'), makes dry, unfair asides about magisters, the chamber and humans, and reasons from evidence to procedure. She does not think in thematic captions or literary epigrams.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 62,
+      "kills": 6,
+      "keeps": 56,
+      "severity": {
+        "mild": 6,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F4",
+      "modeSummary": {
+        "F1": "0 - no sustained template; texture deserts at L21-27 are orders and arrival staccato",
+        "F2": "1",
+        "F3": "0 - 19 filter/hedge candidates examined; all literal measures, guard acts, dialogue or a doubt that is the point (incl. tool signal hedge_might_have_been at L626)",
+        "F4": "2",
+        "F5": "0 - Sylvanas never warms (granary: 'Damn her, then'; ink: 'It's in your file'); Neral's push to ride at night is refused; Cyndia's bow stays up on the carter",
+        "F6": "0",
+        "F7": "1",
+        "F8": "0 - every repeat elicits new information or turns the word",
+        "F9": "0 - 'Ranger-General' fixed by voice sheets; summons calls are the plot event",
+        "F10": "0 - reports where reports are due; soothing speech to the child is the act",
+        "F11": "1",
+        "F12": "0 - each non-action beat withholds an expected reaction and turns the moment",
+        "F13": "1",
+        "F14": "0",
+        "F15": "0 - chapter ends on a live dog barking, inverting Millhaven's 'No dogs' (B11 close)"
+      },
+      "findings": [
+        {
+          "id": "B-r7-01",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "patternName": "Narrative over-translation (claim -> gloss)",
+          "severity": "MILD",
+          "line": 15,
+          "text": "Well; the horse had the better ears tonight. She would listen to the horse.",
+          "whatItRestates": "'She would listen to the horse' restates the decision the previous sentence already makes ('the horse had the better ears tonight'), and she has already been reading the mare's ears since L13 ('Sylvanas watched her own mare's ears.'). This is the guide's claim -> gloss shape ('She had no reason to trust a word the woman said. She would have to go and find one.').",
+          "issue": "The paragraph closes twice. The wry concession lands and then a gloss turns it into a stated decision.",
+          "textureZone": null,
+          "suggestedFix": "Well; the horse had the better ears tonight.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r7-02",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "patternName": "Narrative over-translation (gesture -> gloss)",
+          "severity": "MILD",
+          "line": 43,
+          "text": "Sylvanas turned away before she had to watch her decide not to argue.",
+          "whatItRestates": "The previous sentences already show the decision: 'The mage shut her mouth. She brought her left hand up off the stirrup, palm out, to begin some shape in the air for the slow soldier, then stopped and put it back down.' The clause 'before she had to watch her decide not to argue' labels a gesture the reader has just watched finish.",
+          "issue": "The gesture is followed by a subtitle naming what it meant. The positive action (turning away) is enough.",
+          "textureZone": null,
+          "suggestedFix": "Sylvanas turned away.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r7-03",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "patternName": "Anaphoric run (clause openers)",
+          "severity": "MILD",
+          "line": 51,
+          "text": "He had stopped in the middle of a spoke, in the middle of the day",
+          "repeatedOpener": "in the middle of",
+          "issue": "Clause anaphora for weight (guide step 3: 'before the guard, before the feet'). The merged form keeps every fact (mid-task, midday, good light), so the repeated frame adds drumbeat and nothing else.",
+          "textureZone": "texture_desert sentences 59-74 (opens at 'He had not come back for it.')",
+          "suggestedFix": "He had stopped halfway through a spoke, in the middle of the day",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r7-04",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F2",
+          "patternName": "Dialogue-beat genericism (bare pause beat)",
+          "severity": "MILD",
+          "line": 462,
+          "text": "The girl thought about it. \"Gran Ottley, to sit with Mam.",
+          "issue": "'The girl thought about it.' is a bare pause beat (the paused/hesitated family) with no physical detail. Any character could carry it. Her next pause (L508) does it properly: 'A small furrow came and went over the dirt between her eyebrows.' Two 'The girl thought' beats sit within fifty lines of each other, and the bare one adds nothing the reply does not already carry.",
+          "textureZone": "adjacent to telegram_run / texture_desert sentences 601-617 ('She put it at the back of her head. \"And then?\"')",
+          "suggestedFix": "\"Gran Ottley, to sit with Mam.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r7-05",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F7",
+          "patternName": "Closure addiction (paragraph-final implication, duplicated later in dialogue)",
+          "severity": "MILD",
+          "line": 634,
+          "text": "She and the dead had passed each other with the whole hill between.",
+          "couldEndAt": "The child had called it the north road, and so it was, to a child at the top of this lane.",
+          "issue": "The geography paragraph has already shown the cut bending east of north and the Pass road bending west 'further and further apart'. The closer then states the takeaway as an epigram. Thirty lines later the mage says the same realisation aloud ('We were the whole hill away.'), and Sylvanas confirms it ('Yes.'). The narration spends the beat before the dialogue earns it, and 'the whole hill' appears twice.",
+          "textureZone": null,
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph ends on 'to a child at the top of this lane.' and the mage's L668 line carries the realisation.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r7-06",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F13",
+          "patternName": "Demonstrative caption (fact-bearing)",
+          "severity": "MILD",
+          "line": 710,
+          "text": "That was true, and very convenient, which she would have pointed out to anyone else.",
+          "pointsAt": "Her stated reason for keeping the mage ('She had kept the mage because the mage was a prisoner, and you did not hand a Kirin Tor apprentice to a relay rider with a child on her saddle.').",
+          "newFact": "Her self-suspicion: the reason is convenient, and she would call it out in anyone else. Keep this fact and lose the 'That was true' caption frame.",
+          "issue": "'That was true' labels the previous sentence (completeness/validation caption). The guide's rule: kill the caption frame of a fact-bearing That-sentence and keep the fact. The ', which ...' tail also sits on the A1 verdict-tail shape.",
+          "textureZone": null,
+          "suggestedFix": "In anyone else she would have called that very convenient.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 24,
+      "kills": 0,
+      "keeps": 24,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "24 candidates examined across A1 verdict tags (cat aside, 'It meant nothing.', 'It would have to do.', 'which was likeliest'), A2 ('A doe was a doe. A wheelwright was something else.'), A5, A7 generalisations (village-hour baseline, horseshoe lore, 'People who flee take the coat', tracker toe-drag doctrine, the single generic 'you' at L710), A8 sound-first sentences (whisper under the floor, wagon behind the bridge hump) and B1-B4 register checks. Every one is either Sylvanas's own idiom at psychic distance 4-5 or a tactical generalisation that drives an inference or decision in the scene. The two sentences that leaned toward a caption register (L634 'passed each other with the whole hill between', L710 'That was true...') were killed under their child patterns in gpt-5 (F7, F13) and are not re-killed here.",
+      "findings": []
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 30,
+      "kills": 1,
+      "keeps": 29,
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P4",
+      "repeatStandIns": [],
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "keepRateNote": "The high keep rate is real. Most candidates were swept for diction alone, and in this chapter the tracking and magic inference sits beside its carrier (knuckle depth, the switch box, staff heavy/light, scrapes on the floor). 'Read' and 'trail' at L838 are anchored by the click-in-a-crystal paragraph directly above.",
+      "findings": [
+        {
+          "id": "B-r7-07",
+          "guide": "phantom-concreteness-guide.md",
+          "pattern": "P4",
+          "patternName": "Unanchored interpretive summary (support thinner than the claim)",
+          "severity": "MILD",
+          "line": 622,
+          "text": "Whatever made that was alive when it made it.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The staff reading 'light, as light as the bank' only shows that the maker was not carrying the contamination. It cannot show the maker was alive: Ch2's doe was alive and heavy ('it was in her while she lived'), the plan constraint says 'the sickness is active in living flesh before death', and the mage herself made the doe comparison in the lane (L265). The scene already has the right word: 'carrying' (L331 'carrying more of it than the ground does', L390 'Nothing that's been in here was carrying it').",
+          "issue": "Jaina, who has refused to overclaim all chapter ('I can't tell you that'), draws a conclusion her instrument cannot support. A reader could take it as 'only the dead carry it', which contradicts the Ch2 doe.",
+          "textureZone": "telegram_run / texture_desert sentences 811-822 ('\"That's heavy,\" she said. \"The first one. That one's light...')",
+          "suggestedFix": "Whatever made that wasn't carrying it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "The chapter has no explicit 'say it plainly / smaller words / short version' setup. I audited the five exchanges where Sylvanas forces a specialist answer into usable terms: 'Where's it worst?' (named bridge, mill, inn cellar), 'Which is it?' (honest 'I don't know' rather than a fake summary), 'How much is here, you've told me...' (yields the order 'Cyndia. Bring the lantern.'), 'Which is the north road?' (pointing plus the Pell's landmark, followed to the gate at first light), and 'Can you tell her which marks are which?' (a per-mark heavy/light call used for the count). Each reply gives a target another character acts on at once.",
+      "findings": []
+    }
+  ],
+  "crossPassObservations": [
+    "Not a pass-B finding, so recorded for pass A / slophunter attention only: the 'any ranger who X would Y' frame recurs five times (L15 'walk the outer ring for a month', L588 'had the hide off any ranger', L676 'a word to say to any ranger who waited to be told', L812 'flayed a ranger for that', L816 'sent rangers to their blankets for less'). This is a recurring-prose-tics candidate.",
+    "Not a pass-B finding: 'the way X' similes run to about 11 instances (L51, L179, L233, L305, L514, L556, L604, L638, L648, L656, L682). Each fits her domain, so B4 passes, but the density is a recurring-tics / simile question for pass A.",
+    "Formatting: L357-358 are missing the blank line between the italic thought paragraph and '\"Your da was right,\" Neral said.' The two paragraphs run together."
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 114,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "7 MILD kills (threshold is 3) and 0 MODERATE/SEVERE. Five are one-sentence deletions or few-word substitutions: two F4 glosses (L15, L43), one F11 clause anaphora (L51), one bare F2 beat (L462), one F7 closer duplicated by later dialogue (L634). One is an F13 caption frame (L710). One P4 overclaim (L622) contradicts the Ch2 doe canon ('alive' where the staff only shows 'not carrying'). Narrator seep and fake simplification are clean. Structural rhythm concerns: sentence_length_cv, one-sentence-paragraph %, short % and long % are above range, and opener entropy and MATTR are below range. Structural texture deficit: texture below_target (participial 4.4% vs 12% target).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.647,
+        "target": 0.72,
+        "delta": -0.073,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.7,
+        "target": 11.0,
+        "delta": 0.7,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.895,
+        "target": 0.7,
+        "delta": 0.195,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 43.1,
+        "target": 35.0,
+        "delta": 8.1,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 20.6,
+        "target": 10.0,
+        "delta": 10.6,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.39,
+        "target": 7.7,
+        "delta": -1.31,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 34.4,
+        "target": 19.0,
+        "delta": 15.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.765,
+        "target": 0.83,
+        "delta": -0.065,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "short_sentence_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "textureScore": 75.1,
+      "participial_pct": 4.4,
+      "compound_pct": 12.7,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.7,
+      "short_pct": 52.1,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.7% above target 10.0% (score 75/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.7% -> target 10.0% (score 75/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 29,
+        "texture_desert": 26
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 65,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passBMappedMatches": [
+          {
+            "pattern": "hedge_might_have_been",
+            "line": 626,
+            "text": "might have been",
+            "decision": "KEEP - the smear's illegibility is the problem the staff read solves (see scratchpad)"
+          }
+        ]
+      }
+    }
+  }
+}

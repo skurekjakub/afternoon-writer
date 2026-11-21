@@ -1,0 +1,82 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter1",
+  "iteration": 0,
+  "targetFile": "v0c.md",
+  "status": "fail",
+  "hardViolations": 1,
+  "softViolations": 3,
+  "truthSources": [
+    ".afternoon/plans/chapter1.json",
+    ".afternoon/outlines/chapter1.md",
+    ".afternoon/outlines/chapter2.md (forward continuity only)",
+    "stories/the-plague-road/characters/jaina.md",
+    "stories/the-plague-road/characters/cyndia.md",
+    "stories/the-plague-road/characters/sylvanas.md",
+    "stories/the-plague-road/characters/lorthemar.md",
+    "stories/the-plague-road/characters/antonidas.md",
+    "stories/the-plague-road/characters/voice-sheets/cyndia-voice.md (grep)",
+    "stories/the-plague-road/characters/voice-sheets/jaina-voice.md (grep)",
+    "stories/the-plague-road/characters/voice-sheets/dagny-voice.md (grep, lord admiral)",
+    "stories/the-plague-road/locations/silvermoon-and-quelthalas.md",
+    "stories/the-plague-road/locations/thalassian-horses.md",
+    "stories/the-plague-road/plans/kirin-tor-thread.md, silvermoon-thread.md, investigation-arc.md (grep)"
+  ],
+  "notes": "Chapter 1: no previous chapter and no .afternoon/plans/memory ledger exists, so cross-chapter checks were run against the story bible and the Chapter 2 outline (for forward hand-off) instead.",
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "hard",
+      "category": "physical",
+      "location": "L235: \"Her eye followed the outer ring east along the southern track, passing the ground she'd ridden that afternoon. Then came a bend round a shoulder of rock, the track dropping toward a dry creek bed. ... There was a dot at the bend.\"",
+      "description": "The map trace has the route in the wrong order. Scene 1 puts the noon stone at the bend first, and the whole afternoon ride goes EAST from it (L95 'the track ran east with the ward line'; L119 'The road went on east under the amber light'). So the afternoon ground lies east of the noon stone. If her eye moves east along the ring, it reaches the bend and the circled stone first, then the afternoon ground. The prose has her pass the afternoon ground first and then reach the bend, which would put the noon stone east of the afternoon ride. That contradicts the route she actually rode. It also matters for the plot: this is the Beat 7 payoff, where the circled dot has to be the stone her palm touched.",
+      "evidence": "Beat 2 (L57): 'A little before noon they found the first stone. The track bent there round a shoulder of rock, dropping toward a dry creek bed.' Beat 3 (L95): 'She turned the mare along the line... For a while the track ran east with the ward line.' Beat 7 plan: 'The stone Sylvanas checked this morning is circled' (intraChapterEcho to Beat 2).",
+      "suggestedFix": "Trace the route in the order she rode it. Option A, tracing west: 'Her eye found the ground she'd ridden that afternoon and followed the outer ring back west along the southern track, to a bend round a shoulder of rock, the track dropping toward a dry creek bed.' Option B, tracing east: 'Her eye followed the outer ring east along the southern track to a bend round a shoulder of rock... There was a dot at the bend. There was a ring of ink around the dot.' Then put the afternoon ground after it, e.g. 'Past it, the ring ran on east over the ground she'd ridden that afternoon.' Either way, the creek-dash and thumb-ring details stay as they are."
+    },
+    {
+      "violationId": "V2",
+      "severity": "soft",
+      "category": "physical",
+      "location": "L171: \"The patrol peeled off after him in pairs, back up the track toward the fork... Sylvanas watched them go until the last rider cleared the bend.\" / L179: \"They split at the fork. Behind her, the northern road ran soft... For a while she heard the patrol on it\"; also L55: \"Six riders with me... The rest finish here and follow.\"",
+      "description": "The parting is staged twice. At L171 the patrol rides off and is out of sight round the bend before Sylvanas and the runner move. At L179 'They split at the fork' reads as though both parties are at the fork together, and 'they' has no clear antecedent. One reading holds up: Sylvanas follows a little behind, reaches the fork, turns south, and can still hear the patrol. But the text as written shows two separation points, and the beat plan's sensory anchor ('horses separating at the fork') puts the actual separation at the fork. Second, smaller issue: at L55 the rest of the patrol was ordered to finish at the hollow and follow. They are never redirected, and Sylvanas and the runner, riding back toward the fork, would be riding toward them. castAndHandoffRules: 'Mounted patrol... leaves north with Lor'themar once the report lands.'",
+      "evidence": "Beat 5 sensoryAnchors: 'horses separating at the fork'. castAndHandoffRules: patrol leaves north with Lor'themar; runner rides south with Sylvanas.",
+      "suggestedFix": "Have them part only once, at the fork. For example, revise L171 so both groups ride back up the track together: 'The patrol fell in behind him in pairs, and she and the runner rode with them as far as the fork where the old road went north to Silvermoon.' Move 'Can he go on? / He'll go / Keep up' (L173-177) before that line, then keep L179 'They split at the fork...' as the single parting. Optionally, give Lor'themar half a clause covering the burning party (e.g. '...and I'll collect the others off the ridge on the way') to close the L55 loose end."
+    },
+    {
+      "violationId": "V3",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L225: the satchel 'turned out onto the shelf below and laid in rows' (ink tin, pens, field-book, stockings, bread, compass) plus the map and staff",
+      "description": "The kit inventory is written as complete: Cyndia laid everything out in rows. It does not include the paired sending stone, which Chapter 2 says was confiscated with her tools and is handed back with the staff. If Sylvanas looked at an exhaustive rack and saw no stone, Chapter 2 either has to produce an object she missed or contradict this scene. Sylvanas does not need to know what the object is. It only needs to be on the shelf.",
+      "evidence": ".afternoon/outlines/chapter2.md Beat 2: 'Her map and tools are confiscated. Among them is a paired sending stone to Antonidas.' Beat 6: 'Jaina gets her staff back, with the sending stone returned alongside it.' kirin-tor-thread.md Ch 2: 'she keeps the sending stone silent'. antonidas.md Ch 2: 'Jaina keeps her paired stone silent'.",
+      "suggestedFix": "Add one unexplained item to the L225 rows, seen only from outside and with no name and no magic read, e.g. 'A flat grey pebble, too smooth for a riverbed, one face cut with a single rune, wrapped in a twist of cloth.' Sylvanas should not identify it or think about Antonidas in connection with it, so Chapter 2's reveal (and Jaina's guilt about keeping it silent) stays intact."
+    },
+    {
+      "violationId": "V4",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L223: staff 'Pale wood, turned and polished. Silver wire wound up the grip in a pattern too even for a human hand to have managed without help. At the head sat a crystal the size of a hen's egg.'; L255: 'the polished silver wire'; secondary: L265 'Her coat was brown wool... The mud went to the knee on her trousers too.'",
+      "description": "The staff is described as polished and finely worked, and Sylvanas builds her picture of a court-polished mage partly from it (L255). The bible fixes Jaina's staff as 'plain and field-ready'. Since this is the staff's first appearance, it sets the object for every later chapter (Ch 2 return, Ch 2 B10 crystal, and onward). Secondary, lower priority: the bible gives her 'practical traveling robes', and the prose dresses her in a coat and trousers. That is practical and matches the beat plan's 'worn practical gear', but it does not match the bible's garment, and later chapters written from jaina.md will put her in robes.",
+      "evidence": "stories/the-plague-road/characters/jaina.md (Look): 'Twenty-three, blonde, blue-eyed, practical traveling robes, staff plain and field-ready.' Beat 7 only needs the staff's 'make' to match the Farstrider file, i.e. something distinctive. It does not need to be polished.",
+      "suggestedFix": "Keep the identifying features (wire grip, crystal) but make them plain and used: e.g. 'Plain ash, the grain dark where hands had worn it. Silver wire bound the grip in close, even turns, a binding rather than an ornament, rubbed bright on the inside of the wrap.' At L255, build the court-mage picture from the file and the ink rather than from 'the polished silver wire' (e.g. 'built the prisoner out of the file and the ink'). The B8 expectation-break still lands. Optional: make the coat read as a travelling robe ('a brown wool travelling robe, kilted up for walking, worn shiny at the cuffs'). Trousers underneath can stay."
+    }
+  ],
+  "verifiedClean": [
+    "Name rule: 'Jaina'/'Proudmoore' appears only in Cyndia's dialogue at L243. Sylvanas's narration and thought use 'the mage'/'the human' throughout. 'Antonidas's apprentice' in her thought is an epithet from the file, not the name.",
+    "No Jaina dialogue anywhere; Beat 9 stone-reading carried by eyes, frown, posture only (L281-287).",
+    "Knowledge walls held: no plague, no leyline-corruption explanation, no reason for Jaina's presence. Antonidas's role is kept as open questions (L297), matching B8 stillUnknownAfterBeat.",
+    "Only one physical sign of danger: the noon stone. Roadside stones (L181), cell stone (L283) and 'twenty stones since noon' (L285) all read as unconfirmed, not wrong.",
+    "Ring reconciliation: runner says outer ring, before dawn, 'through it' (L131-135). Cyndia says through the outer ring, found at first light at the second ring (L201). No contradiction.",
+    "Beat order: budget session set up at L37 and named in Beat 3 (L97); Cyndia planted at L109 before the runner; claim matched to the palm at L147/L155; split decision and interiority at L155-183; B6 facts in order; B7 map, circled stone, ink, staff match, name; B8 expectation built at L255 and broken at L263-277; B10 interiority and closing 'Start talking.' (L305).",
+    "Cast: Lor'themar and patrol exit north in Scene 1. Runner rides to the post and is seen only arriving (L187). Cyndia enters in Scene 2, left-handed (L205) and crisp. Rangers in the doorway, clearing a path at L301.",
+    "Arc: no trust or warmth. B8/B10 povNotes respected: the court-polish picture breaks (L267), and 'exactly what the file said' (L297) refers to file facts (strength, Antonidas, Kirin Tor ink), so the two do not contradict.",
+    "Physical tracking: right glove off and back on (L61, L81); the cold palm is carried through L119, L147, L183, L209 and L237. The staff is on the rack under the damper, so the cell pegs are empty (L261). The time markers (mid-morning kill, noon stone, afternoon runner, dusk arrival) fit 'this morning' in B7 and fit hours of detention.",
+    "Writer-invented details checked against the bible and found consistent: the ward-stones (warm, internal hum, gold runes, moss) match the silvermoon-and-quelthalas.md Thalassian Pass notes. The 'second ring' / 'split cap' stone matches the plan's ring reconciliation and cyndia-voice.md. Kirin Tor ink drying violet has no bible conflict and matches the ink on her fingers (L269). 'A lord admiral's daughter' is canon (Daelin Proudmoore) and the project already acknowledges it in dagny-voice.md L27. The mare is unnamed, and no bible or outline names Sylvanas's horse. The budget session being 'tomorrow' is consistent within the chapter (L37/L97/L159) and with silvermoon-thread.md ('Ch 1: Patrol budgets')."
+  ],
+  "advisories": [
+    "Not counted, Ch 2 planner: the Ch 2 outline has 'containment circle', 'warded floor' and Cyndia 'pulls the anchor stone'. Ch 1 (per its own beat plan) puts Jaina in a wooden chair in a cell with a loaf-sized ward-stone set in the wall. The Ch 2 plan should treat the wall stone as the anchor and the chair as where she sat, not invent a floor circle.",
+    "Not counted, Ch 2 planner: Ch 2 Beat 6's 'significantly worse than it was eight hours ago' does not fit Ch 1's timeline. She was taken at first light and Sylvanas arrives at the end of the light, so she has been in the cell for roughly 14+ hours before the interrogation even starts.",
+    "Not counted: the runner's spent horse makes the post-to-patrol trip in a morning plus most of the afternoon, then goes back from late afternoon to dusk. That can be read as the runner having to search for a patrol that had diverted east. The beat plan's 'an hour after her own palm' (B4 transition) is looser in the prose (noon stone, runner in amber afternoon light). It is acceptable but should not be compressed further.",
+    "Not counted: 'the stones were sick from the inside' (L205) is Jaina's reported claim, delivered secondhand. It matches B6 ('malfunctioning from something inside them') and gives Sylvanas no knowledge of the plague. Leave it, but do not echo 'sick' in Sylvanas's own thought this chapter."
+  ]
+}

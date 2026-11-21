@@ -1,0 +1,110 @@
+{
+  "chapterId": "chapter3",
+  "globalRisks": ["dialogue-heavy", "tail-risk", "over-grounding-risk", "pre-grounded-source"],
+  "exemplarMoves": [
+    "Swap the generic noun for the world-register noun only where the scene's engine uses it (chalk -> alchemical chalk, blue -> Dalaran blue).",
+    "Let the POV's trade pick the verbs and the nouns (a ranger reads dead ground, sightlines, spacing, tack).",
+    "Make a plain answer usable on the ground: streets, doors, ovens, carts, not category labels ('Say it in streets').",
+    "Keep cadence: substitute and lightly extend, never replace a clipped paragraph with a descriptive one.",
+    "Dialogue picks up local register and shared context; the world arrives in the beat between quotes, not inside the speech."
+  ],
+  "segments": {
+    "openingThird": { "risk": "low", "note": "Scene 1 is already richly anchored: inn sign, horseshoe, wheelwright, drawknife, well rope, windlass, storehouse. Surgical only." },
+    "middleThird": { "risk": "low-medium", "note": "Scene 2 cellar and interview already carry strong material (turnips, darn, shaving glass, cellar slot). Convocation interior is the thinnest register." },
+    "finalThird": { "risk": "medium", "note": "Ride south (human country, farm) leans on generic farmland nouns; carter's price is a generic 'penny'; Convocation chamber is unnamed." }
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "Millhaven (B1-B4)",
+      "riskTags": ["static-room-low", "dialogue-heavy"],
+      "biggestGap": "Millhaven's inhabitants are anchored but the storehouse (the loudest site) is thin on trade texture; one POV-law slip: bare palm on mud in B4 reads against 'bare-palm is for ward-stones only'; 'ranger' is generic where Farstrider is sourced.",
+      "sourceBank": {
+        "geography": ["Millhaven crossroads", "mill race", "stone bridge", "the Pass", "outer ring"],
+        "institutions": ["Farstriders", "Ranger-General", "Kirin Tor"],
+        "materials": ["slate roof", "thatch", "grain dust", "well rope", "windlass", "hazel", "clay", "lantern"],
+        "culture": ["horseshoe over lintel", "Thalassian spoken to horses", "Sun's sake"]
+      },
+      "sceneContract": {
+        "placeAnchor": "Crossroads, inn sign, bridge, mill and storehouse by the race, east lane behind the gardens",
+        "materialAnchor": "Cobbles ringing, drawknife grey with dust, windlass squeal, grain dust like ash in lantern gold, churned lane mud",
+        "povAnchor": "Ranger drill: sightlines, doorways, tracks; elf cannot feel it so horses and staff carry the wrongness",
+        "dialogueAnchor": "Mage/Sylvanas crossing argument carried by stirrup leather and staff crystal; granary argument by hand on boards and dust; track count by lantern slit and hazel switches",
+        "exitAnchor": "Whistle, rangers falling in behind lantern held low against her thigh"
+      },
+      "dialogueRuns": [
+        { "label": "crossing argument", "risk": "low" },
+        { "label": "sweep report", "risk": "low" },
+        { "label": "granary refusal", "risk": "medium" },
+        { "label": "lane count", "risk": "low" }
+      ],
+      "plannedEdits": [
+        "storehouse: sacks get tally chalk marks, a stencilled miller's mark; keep grain unnamed as carrier",
+        "B4: gloved palm on mud (POV-law fix)",
+        "'any ranger' -> 'any Farstrider' once"
+      ]
+    },
+    {
+      "sceneId": 2,
+      "title": "The Survivor and the Proof (B5-B6a)",
+      "riskTags": ["dialogue-heavy", "interview-run"],
+      "biggestGap": "Interview mid-run (grain seller / Gran Ottley exchange) has two beats where nothing physical happens; Convocation interior is generic ('the chamber').",
+      "sourceBank": {
+        "geography": ["Sunfury Spire", "Thalassian Pass"],
+        "institutions": ["Convocation", "Lor'themar"],
+        "materials": ["cellar slot", "turnip bin", "blue scrap", "water skin", "settle", "gallery", "mounting block", "linen strips"]
+      },
+      "sceneContract": {
+        "placeAnchor": "End house back wall onto the lane; inn yard, gallery over four roads",
+        "materialAnchor": "Hatch with iron ring, box bed scrapes, turnips, darned stocking, shaving glass",
+        "povAnchor": "Sylvanas holds the door and the bow; reads the cellar slot as a sightline; thinks in what a Convocation would hold up to the lamp",
+        "dialogueAnchor": "Neral's hands and water skin; girl's fist on the blue scrap; mage's raw hand",
+        "exitAnchor": "Her hand on the string and taking it off, gallery over the empty north road"
+      },
+      "dialogueRuns": [
+        { "label": "hatch coaxing", "risk": "low" },
+        { "label": "child interview", "risk": "medium" },
+        { "label": "horse check", "risk": "low" }
+      ],
+      "plannedEdits": [
+        "one beat in the household question run (Neral's thumb on the girl's knuckles / blanket over the bare foot)",
+        "name Sunfury Spire in the night-hold interior; the chamber becomes the Convocation chamber"
+      ]
+    },
+    {
+      "sceneId": 3,
+      "title": "The Old Carter on the Road (B7-B11)",
+      "riskTags": ["tail-risk", "plant-protection", "generic-farmland"],
+      "biggestGap": "The ride south uses 'human country', 'farm', 'farmland' without human-border texture; carter's price is 'a penny' (no sourced coin); Convocation chamber unnamed; dispatch text lacks the post name.",
+      "sourceBank": {
+        "geography": ["Thalassian Pass", "outer ring", "hawthorn hedge", "bramble", "ford", "willows"],
+        "institutions": ["Convocation", "Sunfury Spire", "Lor'themar", "wardens"],
+        "culture": ["Light shrine and candle on farm gateposts", "rowan at the gate", "farm fires banked at dawn", "Light keep you / Safe road"],
+        "materials": ["oiled paper", "red wax", "lead stub", "Kirin Tor violet ink", "dispatch tube", "stubble", "rooks", "mud"]
+      },
+      "sceneContract": {
+        "placeAnchor": "Cut behind the north gate; the bridge and crossing; the long valley to the ford; the farm above the road",
+        "materialAnchor": "Yellow clay grooves, hazel switches, ink tin, wax, iron tyres on bridge stones, stubble and rooks",
+        "povAnchor": "Ranger measures grooves against her knuckle; counts horses; notes exposure on open ploughland",
+        "dialogueAnchor": "Bows up, hat in hands, wagon boards, Cyndia's head turning after the wagon",
+        "exitAnchor": "Farm door shut, dog at the hedge, staff pointing south past a gatepost candle"
+      },
+      "dialogueRuns": [
+        { "label": "cut count", "risk": "low" },
+        { "label": "carter exchange", "risk": "plant-sensitive; do not add anything that comments on his eyes or Lyriel's answer" }
+      ],
+      "plannedEdits": [
+        "carter: 'a penny' -> 'a copper' (matches Sylvanas's own 'to the copper')",
+        "ride south: hawthorn hedges, stooks left standing, rowan and a gatepost candle at the farm",
+        "Sunfury Spire named in the dispatch aftermath thought"
+      ]
+    }
+  ],
+  "protections": [
+    "Plant protection: carter's eyes, Lyriel's reply, farewell wording, Cyndia's head-turn stay verbatim.",
+    "No grain-as-carrier language anywhere. 'Granary' stays only inside Sylvanas's mocking imagined magister.",
+    "No elf-feels-contamination. Added details must come through horses, staff, hand, silence.",
+    "Jaina stays 'the mage'.",
+    "Fourth ranger and Neral ungendered rules: Neral is female per voice sheet and prose; fourth ranger stays ungendered."
+  ]
+}

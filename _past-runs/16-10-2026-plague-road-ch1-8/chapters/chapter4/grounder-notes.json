@@ -1,0 +1,45 @@
+{
+  "chapterId": "chapter4",
+  "feedbackPath": ".afternoon/chapters/chapter4/grounding-gate-notes.json",
+  "targetFile": "v2g.md",
+  "touchedScenes": ["Scene 1 - lane arrival (line 5)", "Scene 3 - departure (line 970)"],
+  "globalRisks": ["over-grounding-risk", "canon-fidelity-horses"],
+  "sceneAudits": [
+    {
+      "scene": "Scene 1 - lane arrival",
+      "biggestGap": "G12-001: 'without a flicker' contradicted Ch3 and thalassian-horses.md (sidestep once at a stone, then calm).",
+      "anchorsAdded": {
+        "place": [],
+        "material": ["fitted leather creaking once (kept)"],
+        "dialogue": ["Lyriel takes the cheek-strap before 'Steady' (kept)"],
+        "exit": []
+      },
+      "fixApplied": "Applied suggested fix verbatim: removed the appositive and the 'neck gone rigid' absolute; sentence now 'The borrowed Thalassian mare flung her head up and blew at them, the fitted leather creaking once.' Kept 'Thalassian' as the one horse cue.",
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    },
+    {
+      "scene": "Scene 3 - departure",
+      "biggestGap": "G9-002: duplicated creak cue; 'light' ambiguous next to 'under the yew'.",
+      "anchorsAdded": {
+        "place": ["yew (kept)"],
+        "material": ["light Farstrider tack, girths (kept)"],
+        "dialogue": [],
+        "exit": ["Cyndia going round the girths without looking up (kept)"]
+      },
+      "fixApplied": "Applied suggested light-swap: 'The mares were saddled under the yew in their light Farstrider tack, Cyndia going round the girths without looking up.' Creak removed.",
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "finalThirdAudit": {
+    "risksFound": ["repeated tack-creak cue in departure line"],
+    "fixesApplied": ["removed duplicate creak; kept Farstrider tack noun and girth action"],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": ["threads/ward-stones-wrong", "stories/the-plague-road/locations/thalassian-horses.md"],
+    "materials": [],
+    "unsourcedAdditions": []
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "chapterId": "chapter6",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative (iterationKillsA = [42, 12, 6, 0]; latest 0 >= prior minimum 0, so the loop counts as oscillating; both fixes are deletions or minimal substitutions)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 18,
+      "kills": 1,
+      "keeps": 17,
+      "severity": "MILD",
+      "dominantPattern": "P5 preamble negation (isolated)",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 307,
+          "text": "There was no wind between the walls; the afternoon's heat lay in the road, and she had to work for every breath.",
+          "pattern": "P5 preamble negation",
+          "deletionTest": "Between the walls the afternoon's heat lay in the road, and she had to work for every breath.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The air between the walls is set up as not-wind before it is named as heat. The sentence before it already says the dust 'had nowhere to go' and 'hung at the height of a man's face', so the trapped air is on the page. 'No wind' adds no fact and fails self-check Q1. None of the four keep conditions applies.",
+          "suggestedFix": "Between the walls the afternoon's heat lay in the road, and she had to work for every breath.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "The fix adds no negation. 'Heat lay' is literal physics (intent-smear keep condition 3), it adds no weight metaphor (Tic 6), and it drops one semicolon (11 -> 10, cap 14)."
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 22,
+      "kills": 0,
+      "keeps": 22,
+      "severity": "NONE",
+      "dominantPattern": null,
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "findings": [],
+      "secondSweep": "A dedicated P5/P6 sweep re-read every sentence for inanimate or abstract subjects with agency verbs, roads or geography with motion verbs, receiver nouns with the actor demoted, body-part subjects, and states settling into the body. Roads ('climbed', 'went over the shoulder', 'came out from between the last two barns', 'brings you to the market gate') take literal route verbs. The weight/drag clauses (L3, L13, L249, L309, L311, L349) describe the chapter's magical-sensing mechanism and pass the subject-matter defense. The plague-as-subject clauses ('made to keep and made to wait' L19, 'built there meal after meal and waited' L27, 'it keeps in them and waits' L35, 'ran on flour and finished on its own' L65) describe the designed latency that this chapter is built to reveal (plan: 'ingestion, repeated exposure and body participation as a design'), so the subject-matter defense applies. Body-part subjects (stomach turned over L61, left hand had shut hard L61, chest loosened L163, face went hot L213, teeth began to chatter L311) are all involuntary physiology, the Pattern 8 exception. No Pattern 11 permission tags: 'she let go' at L329 is a literal release of her hand. No Pattern 4 institutional self-deception: the factors/guild/town at L263 are named groups of people in the clerk's dialogue.",
+      "cleanReason": "22 candidates were examined across both sweeps. Every grammatical non-person subject with an active verb is one of three things: literal physics or route geography (keep condition 3); a collective with its people visible ('the camp shouting round them' with the shouting men listed next, 'the carts ... took turns' with drivers established at L247 and L277, wagons 'waiting its turn'); or the chapter's literal subject, the designed plague and Jaina's sensing of it, which the subject-matter defense covers. The one non-body subject with a near-volitional sense, 'The old voice came out before she had decided on any voice at all' (L131), stays as an involuntary slip, and that involuntariness is the point of the sentence. See the scratchpad."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 31,
+      "kills": 1,
+      "keeps": 30,
+      "severity": "MILD",
+      "dominantPattern": "Tic 5 eye/gaze over cap",
+      "tallies": {
+        "tic1_cornerOfMouth": 0,
+        "tic2_marked": "1 verb ('marked' L349) plus 3 noun uses ('marks' L151, L199, L331), all literal ink or map marks",
+        "tic3_tightenedEased": "tightened 0; eased 2 (L61 grip, physical; L333 headache, physical); loosened 1 (L163 chest, emotional). Within cap.",
+        "tic4_shiftedFacial": "0 (all three 'shifted' are physical: staff L43, feet L121, board L201)",
+        "tic5_eyeGaze": "5 reaction/connection gaze beats (L39 Sylvanas looks Jaina over, L165 Arthas looks past her to the smoke, L171 he studied her, L201 one glanced at her, L271 the clerk looked up at Jaina) against a cap of 4. Tactical or search looks (L91, L95, L215, L289) are not counted.",
+        "tic6_weightEmotional": "0 (every 'weight'/'heavy' is the magical drag or a literal load)",
+        "tic7_nonSaidTags": "0 (every tag is 'said'; 'whispering' at L205 marks actual whispering and is exempt)"
+      },
+      "findings": [
+        {
+          "id": "A-TIC-1",
+          "line": 201,
+          "text": "One glanced at her and at the elves behind her and shifted the board so its corner wouldn't touch her staff.",
+          "pattern": "Tic 5 eye/gaze repertoire exhaustion",
+          "toolSignal": "filler_glanced",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Fifth reaction gaze beat in a chapter capped at 4, and the weakest: a generic glance by an unnamed officer. The board pulled away from her staff already carries his wariness. The other four (L39, L165, L171, L271) carry character or plot load.",
+          "suggestedFix": "One shifted the board so its corner wouldn't touch her staff.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "This is a pure deletion. 'wouldn't touch' is the original spatial purpose clause (negation keep condition 2). The officer stays the subject, so no agency moves. It brings the gaze count to 4/4."
+        }
+      ]
+    }
+  ],
+  "toolSignalAudit": {
+    "mappedToPassA": [
+      {"pattern": "filler_glanced", "line": 201, "verdict": "KILL", "findingId": "A-TIC-1"},
+      {"pattern": "filter_watched", "line": 121, "verdict": "KEEP", "reason": "Cyndia's guard action, not a filter on Jaina's perception"},
+      {"pattern": "filter_watched", "line": 193, "verdict": "KEEP", "reason": "The watching is the point: she sees the gauntlet close on the dead arm and feels nothing"},
+      {"pattern": "filter_decided", "line": 131, "verdict": "KEEP", "reason": "Not a perception filter; the sentence is about the register she hadn't chosen"},
+      {"pattern": "simile_as_if", "lines": [3, 203, 303], "verdict": "KEEP", "reason": "3/5 under cap; L3 is the old-under-new image that carries the mechanism, L203 characterizes Arthas, L303 is Jaina's judgment of Sylvanas"},
+      {"pattern": "simile_as_though", "line": 249, "verdict": "KEEP", "reason": "1/3 under cap; concrete"},
+      {"pattern": "participial_trailing", "count": 10, "cap": 28, "verdict": "KEEP", "reason": "Under cap; the texture scorer wants more participials, not fewer"},
+      {"pattern": "punct_semicolon", "count": 11, "cap": 14, "verdict": "KEEP", "reason": "Under cap"},
+      {"pattern": "punct_colon_narration", "count": 7, "cap": 7, "verdict": "KEEP", "reason": "At cap, not over; each colon opens a concrete list or inventory"}
+    ],
+    "notPassA": "hedge_perhaps L209, hedge_might_have_been L63, something_vague L113/L147 (pass B); contact_found L23 (unmapped; literal 'found a recipe')"
+  },
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 69,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 2 MILD kills (no MODERATE or SEVERE), within the 3-MILD threshold. A-NEG-1 (L307 'There was no wind between the walls;') and A-TIC-1 (L201 'One glanced at her and at the elves behind her and', gaze cap 5/4) are both cleared by deletion. Intent-smear is clean. Structural texture deficit: texture score 82.7, below_target. Structural rhythm concerns: long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are outside range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.826, "target": 0.733, "delta": 0.093, "range": [0.613, 0.863], "inRange": true},
+      "sentence_length_mean": {"actual": 13.1, "target": 12.412, "delta": 0.688, "range": [10.412, 14.412], "inRange": true},
+      "sentence_length_cv": {"actual": 0.736, "target": 0.723, "delta": 0.013, "range": [0.623, 0.823], "inRange": true},
+      "short_sentence_pct": {"actual": 31.9, "target": 30.155, "delta": 1.745, "range": [23.155, 37.155], "inRange": true},
+      "long_sentence_pct": {"actual": 24.1, "target": 15.352, "delta": 8.748, "range": [12.352, 19.352], "inRange": false},
+      "opener_entropy": {"actual": 6.03, "target": 6.637, "delta": -0.607, "range": [6.137, 7.137], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 28.3, "target": 21.378, "delta": 6.922, "range": [17.378, 26.378], "inRange": false},
+      "mattr": {"actual": 0.79, "target": 0.848, "delta": -0.058, "range": [0.818, 0.888], "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 82.7,
+      "participial_pct": 5.2,
+      "compound_pct": 16.0,
+      "emdash_pct": 0.9,
+      "semicolon_pct": 2.0,
+      "short_pct": 40.3,
+      "verdict_reasons": [
+        "participial: 5.2% below target 7.23% (score 82/100)",
+        "compound: 16.0% above target 14.135% (score 84/100)",
+        "emdash: 0.9% below target 5.119% (score 64/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.2% -> target 7.23% (score 82/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 16.0% -> target 14.135% (score 84/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 0.9% -> target 5.119% (score 64/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": {"telegram_run": 4, "texture_desert": 7},
+      "note": "structural texture deficit"
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 41,
+      "total_violations": 0,
+      "overCapCategories": [],
+      "atCap": ["punct_colon_narration (7/7)", "hedge_might_have_been (1/1, pass B)", "something_vague (2/2, pass B)"]
+    }
+  }
+}

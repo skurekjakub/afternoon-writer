@@ -1,0 +1,905 @@
+# Chapter 3: The Dead Village
+
+At the crossroads the inn sign creaked on its bracket, a dry complaint and a pause and the same complaint again, and nobody came out under it to see who had ridden in.
+
+Sylvanas held the mare to a walk. The hooves rang on the stone, the sound running on ahead of them between the houses and coming back off the walls, and under it there was nothing but the stream going over the race below the bridge. She had counted the chimneys from the crest and counted them again on the way down. It was the hour when a village this size should have been banking its fires and shouting its children in off the lanes, and every chimney was cold.
+
+The mare blew hard through her nose and went sideways.
+
+Sylvanas sat it, waiting for her to stand. A horse bred at the wards would sidestep once at a stone, think about it, and then stand like a post while her rider laid a bare hand on the rock; this mare had done it at a hundred stones without fuss. She did not stand now. She blew again with her ears pinned flat, backing a step on the cobbles. Sylvanas closed her legs and held her there by the knee and the mouth. Behind them a horse went up in front. Neral's voice came low and unhurried in Thalassian—*stand now, stand, you great fool*—the same voice she had used in the ditch over the doe. The spare grey answered her with a long rattling snort, like a bellows with a split in the leather.
+
+Cyndia's gelding threw its head, dancing on the spot. In the middle of them the mage's borrowed mare tried to turn for the hill. Lyriel leaned across and took her by the cheekpiece, bringing her round without a word, while the mage rode it out with her left hand wound in the mane and the staff jammed across the saddle-bow under her dead right one.
+
+Sylvanas looked at her own mare's ears.
+
+Horses, again. She had nothing in her own hand for this. A stone she could read—she had been putting her palm to the stones since she was a girl riding behind her mother's rangers—and a stone would have told her by the cold under its warmth that it was wrong. There was no stone here. There were cobbles and thatch and a crossroads, and the horses telling her what her hand could not. Taking her reports from a horse's ears, now. Any ranger who tried that at the Pass would be walking the outer ring for a month. Well; the horse had the better ears tonight. She would listen to the horse.
+
+The inn door stood open a hand's width. When the wind came down the east road the door swung in on it, knocking against the frame, and swung out again, and knocked, and swung. Someone had nailed a horseshoe over the lintel with the points down; humans hung them so when they wanted their luck to pour out over whoever walked in under it. It had not done the door much good.
+
+The wind brought her cold hearth-ash and wet thatch and, under them, from some kitchen, the thin sour smell of milk gone off in a crock. Nothing worse. She had braced for worse on the hill. It was not there, and she did not like that any better.
+
+She had not slept since the night before the troll hollow. Her eyes felt as though someone had gone over them with sand. Her breeches were still wet at the knees from the ditch, the cold in them working down to an ache. The doe's blood had dried brown in the creases of her knuckles where she had not troubled to wash it off.
+
+"Down," she said. "Neral, the horses into the inn yard and keep them there. Put them nose to the wall if they won't settle." She tipped her chin past the inn. "Bridge."
+
+The fourth ranger was already turning that way.
+
+"Nothing comes over it from either side till I call. Cyndia, Lyriel, the east side. Every house, cellar door to roof-tree. You go in together and you come out together, and nobody stands in a doorway with the light behind them."
+
+"Ranger-General."
+
+"Mage. With me."
+
+The mage had got down and stood holding the stirrup leather with her good hand, not ready yet to let go of it. Her face in the last of the light was the colour of tallow. She tipped the staff toward the middle of the crossing, the crystal shivering in its claws so fine and so fast that Sylvanas could see it blur from where she stood.
+
+"Ranger-General, it's right under us. If I put my hand down here now, before it's full dark—"
+
+"Houses first."
+
+"It's strongest *here*."
+
+"Then it will still be here when we've opened the doors."
+
+The mage's mouth shut. Her left hand had come up off the stirrup, palm out, beginning some shape she meant to draw in the air for the slow soldier. It stopped there and went back down. Sylvanas turned away before she had to watch her decide not to argue.
+
+The mage could tell her what lay in the ground under the crossing. She could not tell her who might be standing behind a pantry door with a billhook—and she had one hand that worked, and that one shaking. Houses first. Then the ground.
+
+She nocked an arrow, taking the west side.
+
+The first building past the inn was a wheelwright's, open-fronted, a half-built wheel lying flat on the bench with six spokes in the hub and the rest stacked by it. A seventh spoke was clamped in the vice, shaved round on one side and still square on the other, the drawknife lying across it with its two handles squared to the edge of the bench. Shavings curled on the floor where they had fallen, dried pale. Sylvanas drew one finger along the flat of the blade and it came away grey; dust lay on the steel as fine as flour, and on the bench, and on the handles where a man's palms should have kept them bright.
+
+He had not dropped it. He had stopped in the middle of a spoke, in the middle of the day with the light still good, laying the knife down straight, as a man lays down a tool he means to pick up again after he has eaten. And then he had not come back for it.
+
+She had a drill for a steading burned out by trolls, a drill for a raided post, a drill for a yard with the dead lying in it where they had fallen. She had walked into all three before she was the mage's age. What drill did she want, then, for a drawknife set down tidy?
+
+Open the doors.
+
+She opened the next door.
+
+The house behind the wheelwright's was one long room with a loft over it. The table was laid. Four bowls, a spoon in each, a loaf gone hard enough to ring if she knocked it, a wedge of cheese that had sweated and dried and cracked across the top. The pot on the hook over the hearth had a skin on whatever was in it, gone dark and leathery. Cyndia had stood at her stirrup on the road that afternoon, giving her a farmhouse in the same words: the door on the latch, the bowls on the table, a spoon in each. Here it was again with more chairs round it.
+
+"Stay at the door," she told the mage. "Where I can see your hands."
+
+The mage stood in the doorway with the staff in her left hand and her right tucked up into her armpit, breathing through her mouth. The blood from the doe had dried stiff on her sleeve to the elbow.
+
+Sylvanas went up the loft ladder with the bow across her back and her knife out, putting her head over the edge into the dark. Two straw pallets, the blankets folded square on them. A shutter stood open on the night air. The cold had come in and lain down on everything. Nobody.
+
+The next house had no supper on the table. It had a porridge pot by the hearth with a crust dried on it and one bowl scraped clean, the beds not made at all. The next had its shutters open in every room, in this cold—and a bed turned down, a basin on the floor beside it, a rag folded over the basin's rim, a cup with a little water still in it. Someone had sat by that bed. Someone had wrung that rag out and folded it and gone to fill the cup.
+
+She stood in that one longer than the others, counting.
+
+Every peg by every door had a coat on it. She went back and checked. The coats were on the pegs and the boots were gone. The bread was on the boards and the people were gone. Nobody had broken a door in. No blood on any threshold—and she had looked at every threshold as she looked at a trail, low, with the light slanting. No pile of them anywhere, burned or unburned. No dogs. In a village this size there should have been a dog in every third yard. She had not found one dog, not one chain with a dog gone off the end of it.
+
+After the Amani came through a steading you could read it from the gate: the door broken in, the thatch fallen, the people where they had stood to fight or turned to run. Where they lay told you how many trolls, and from which side, and which way they had gone with what they took. You could hate it and read it at the same time. This village had not been sacked. It had stopped, one house at breakfast and the next at supper and the next at a sickbed, as though everybody had got up from what they were doing at a different hour of a different day and gone out of the door and shut it.
+
+A village did not simply stop. So where had they gone?
+
+Fled, then. People who flee take the coat. They take the bread and the cow and the child's toy, leaving the door swinging and a trail a blind man could follow. Taken, then. Taken by whom, with not one broken door and not one hoofprint in the lanes she had walked but their own? Nobody here had fought anybody.
+
+Or they had got up and walked out.
+
+The doe had run on with Sylvanas's arrow through her heart. Sylvanas had felt the shot go home and seen the animal come on regardless, strings of blood from her nose—and had put that away to think about when there was time. There was no time. And the doe had been alive when she ran; the mage had said so, with her arm in the doe to the elbow, *it was in her while she lived*. A doe was a doe. A wheelwright was something else.
+
+Something moved at the corner of the lane.
+
+Her hand was on the string before she knew it. A cat came out from between two garden walls, a big brindled barn cat with its tail straight up, walking across the lane in front of her as though she were a post. It was thick through the shoulders and its coat was clean. It went up the step of the house with the basin and sat down, starting to wash a hind leg with its toes spread.
+
+She let the string go slack.
+
+The cat had stayed. The cat looked better fed than her rangers. The cat did not care in the least who had gone out of this village or how. There was nothing wrong with its eyes. She watched it for a moment, the pink tongue going along the leg, then looked away from it at the house behind. A cat, then, and no dogs. A coat on every peg and nobody to put one on. Four spoons, and nobody's hand on any of them. She was standing in the street counting what wasn't in it, like a quartermaster down the shelves after a bad winter.
+
+Under the table of the last house on the west side there was a wooden horse with a short leg, carved by somebody who had never looked closely at a horse. Sylvanas picked it up because things on floors get trodden on in the dark. She set it on the table between the bowls, already annoyed with herself for doing it.
+
+When she came back to the crossing it was nearly dark. Cyndia and Lyriel were waiting by the well with their bows in hand, watching the lanes.
+
+"Ranger-General." Cyndia stood with her weight even and her eyes on Sylvanas. "East side's clear. Fourteen houses and the smithy, and the inn's back rooms and loft. No one. No blood, no broken doors. Food on most tables. Beds made in most. Some shutters open. The smithy fire was out and the ash cold to the bottom." She paused. "I'd say they went a few at a time."
+
+"Coats?"
+
+"On the pegs."
+
+"Dogs?"
+
+"None. And no chains."
+
+Lyriel shifted her bow to the other hand. "There's a cradle in the house by the smithy with a blanket in it and no baby, Ranger-General. The blanket's been tucked." Her voice was quiet. She did not make anything of it, glancing across at Cyndia afterward, and Cyndia did not look back.
+
+Sylvanas stood at the well with the cold coming up through her wet knees. No bodies. Nothing to turn over, nothing to measure, no wound to tell her teeth or blade or fever. The village had given her its tables and its pegs and a cat. It had kept the rest.
+
+Nothing to read, then. Fine; the mage.
+
+The mage had sat down on the edge of the horse trough in the inn yard, resting the staff across her knees. When Sylvanas turned she was already getting up.
+
+"Now," Sylvanas said.
+
+She picked the ground first.
+
+The well stood at the dead middle of the crossing, four roads running away from it into the dark. She would not have chosen to stand there with a sick mage kneeling at her feet for any money in Silvermoon. So she made it better. She sent Lyriel up the outside stair of the inn to the gallery that ran along its front, where the roof would cover her back and she would have the north road and the west. Cyndia took the corner of the smithy wall, covering the east road and the lane behind it. A handcart lay on its side across the mouth of the south road where somebody had tipped it. Sylvanas set her shoulder to it, walking it back into the lane out of the line, so that the fourth ranger on the bridge could see straight up the road to the well and would not have to guess what was moving behind a cart. Then she came back and stood with her back to the well-head, her bow in her hand.
+
+"Here," she said.
+
+"Water first." The mage looked at the windlass, and then at her right hand, and then at Sylvanas. "Would you? I can't—"
+
+Slinging the bow, Sylvanas took the handle. The rope was damp all the way up and cold under her palm, slick with the green that grows on a well rope. When she leaned on the windlass it gave a long iron squeal, going out across the empty crossing and coming back off the inn front. She stopped. Nothing answered it. She wound on slowly, a quarter-turn at a time, bringing the bucket up out of the dark slopping over its lip. She set it on the well-stone.
+
+The mage put her left hand in to the wrist, shutting her eyes.
+
+"It's in the water." She opened them. "Thinner than in the doe. It's in everything here a little, I think, and some things a great deal more." She drew her hand out, wiping it on her robe, then went down on her knees on the cobbles beside the well and laid the hand flat between two stones. "The same as this morning, Ranger-General. If I don't come up—"
+
+"I'll call you."
+
+"Louder than last time, please. I went further than I meant to." The mage looked up at her, her face a pale smear in the dark. "I need to hear all of them at once. Every line coming in. That's further down than the culvert."
+
+"Then go."
+
+The mage bent her head and went.
+
+Sylvanas watched the roads. The north road, and Lyriel's shape against the gallery post above it; the east road, and Cyndia's elbow showing past the smithy wall; the bridge, the fourth ranger a dark notch against the white water on the race. Then the mage, kneeling with the staff laid across her thighs, and back to the roads again. She did not like having her back to the inn door. The inn door went on knocking.
+
+The crystal began to buzz. She heard it before she saw it—a fine high whine at the very top of her hearing, like a gnat at night—and when she looked down it had gone to a blur in its claws. Frost came out from under the mage's palm. It ran into the joints between the cobbles first, white threads, then up over the stones themselves, spreading a hand's width and then more than a hand's width, until it lay round the mage's hand on the road like a plate. In the inn yard a horse squealed, high and ugly, Neral's voice going on under it without a break.
+
+The mage was very still. Her breath had gone slow and shallow, the steam of it nearly stopped.
+
+"Mage."
+
+Nothing.
+
+"Proudmoore."
+
+Nothing. The frost crept another finger's width toward the well, whitening the cobbles as it came.
+
+"*Proudmoore!*"
+
+It cracked off the inn front and the smithy, ringing back across the crossing. The mage did not lift her head. Sylvanas went down on one knee, took her by the wrist and pulled the hand up off the road. It came with a small tearing sound. A grey print of skin stayed behind on the frosted stone, the shape of four fingertips and the heel of a palm, and the mage jerked upright with a gasp like someone hauled out of a river, doubling over her knees.
+
+"I'm—" She coughed. "Light. Yes. I'm here."
+
+Sylvanas let go of her wrist and stood up.
+
+The mage knelt there breathing for a while with her left hand held off the ground, palm up, shaking. The frost was a hand's width round the heel of it and up over the base of the thumb, grey at the edges. The skin had come away from the pads of three fingers, leaving them raw and shining.
+
+"Well?"
+
+"They're all heavy. Every line that comes in here." The mage's voice was scraped thin, but it came out in order. "If it were rising here, it would be thickest under the crossing and thin out along every line the same way, evenly, the further north it ran. It doesn't. Two of them are heavier a mile out than they are under us."
+
+"Then it's draining in."
+
+"Then they'd lag against each other. The drag would come in late on each line by how far it had travelled, and the far ones latest. The two from the north do. The east one doesn't lag at all. And the west one I couldn't hear properly for the noise under the crossing. It's so thick under there that it drowns the lines out."
+
+"Which is it?"
+
+"I don't know." The mage looked up at her. "I told you on the road I would. I'm sorry, Ranger-General. I can tell you there's more of it here than anywhere I've touched since Dalaran. I can't tell you which way it's running."
+
+Sylvanas looked at her for a moment. *I don't know.* It was a straight answer, at least, and she had not had many of those from a mage in her life.
+
+"Where's it worst?"
+
+The mage got the staff upright with her elbow and the heel of her bad hand and held it out, turning slowly on her knees from one road to the next. The crystal rattled. It rattled hardest toward the bridge and the mill.
+
+"Down there. And under us, somewhere. A cellar, there's bound to be one under the inn. Anywhere things are kept."
+
+The inn cellar was behind the bar, a trapdoor with an iron ring. Neral had found a lantern in the kitchen and lit it. Sylvanas took it, going down the ladder first with the knife in her other hand. The air came up to meet her warmer than the night, close and stale—the warmth of a place shut up with nobody opening the door—smelling of spilled beer gone sour and apples going soft in their straw and the cold earth walls. She held the lantern out along the barrels, going down the row and looking behind each one and into the dark under the stair. Nobody.
+
+"Come down."
+
+The mage tried the ladder with one hand round the staff and the other no use for anything. Sylvanas watched her try it, then went up two rungs, holding out her hand.
+
+"Give it here."
+
+The mage looked from the staff to her and handed it over.
+
+It buzzed. Sylvanas had not expected that. It was only ash and silver wire and a lump of crystal—and it buzzed in her fist like a comb held to a hive, a fine hard tremor going into the bones of her hand and up her wrist and not stopping. Her own palm told her nothing; it was a stick, and cold. The staff told her for it. She held it out from her body, keeping her eyes off it, while the mage came down the ladder on her elbows and her knees. She handed it back the moment the mage was at the bottom.
+
+The mage set the heel of it on the earth floor, leaning her ear close to the wood the way Sylvanas had once seen a horse-doctor lean to listen at a gut.
+
+"Worse than the well," she said. "Not the worst. Down by the mill."
+
+The storehouse stood on the near side of the bridge, beside the mill, a stone building with a slate roof and a door wide enough for a cart. Sylvanas called Cyndia off the smithy wall to the mill yard, putting Lyriel on the near end of the bridge beside the fourth ranger so the two of them had the race and the road between them. She propped the far door of the storehouse open with a sack, giving herself a clean line through the building to the water. Then she let the mage in.
+
+The dust came up as soon as they walked on it. It lay thick on every board, grain dust, pale and soft as ash, the lantern turning the air into a slow gold fog that went into her nose and the back of her throat and made her want to sneeze. Sacks stood stacked against the walls to the height of her shoulder. A bin of loose grain stood open by the door with the wooden scoop still in it, the handle standing up out of the heap. Somebody had been filling sacks.
+
+The mage went down on her knees in the middle of the floor.
+
+"Not the hand," Sylvanas said. "Use the staff."
+
+"The staff only tells me where it's loud. I need to hear what it's doing." The mage laid her left hand flat on the boards, raw fingers and all. Sylvanas saw her flinch before she bent her head.
+
+The crystal did not buzz this time. It rattled in its claws hard enough to knock, a dry clicking like a beetle in a box. The frost came out from under her palm across the boards, the dust taking it and going grey, spreading further than it had at the well, out past the mage's knee, toward the bin. Sylvanas stood in the doorway where she could see the mage and the yard and the far door all at once, her bow in her hand, sweeping the yard and coming back to the frost, sweeping the yard and coming back to it.
+
+"Mage."
+
+The mage lifted her head at once, white to the lips. She left skin on the boards again without seeming to notice.
+
+"This is the loudest place in Millhaven," she said. "Louder than the crossing. Louder than anything."
+
+"Then this is where it started."
+
+"I can't tell you that."
+
+"You can tell me it's loudest."
+
+"Yes."
+
+"The loudest place on your whole map, and you won't call it."
+
+"No." The mage sat back on her heels in the dust, holding her hand up in front of her. "Ranger-General, a store is where things end up. Everything a village has goes into a place like this sooner or later, and whatever's wrong with that village goes in with it. I can hear how much of it is here, and that's all I can hear. Which came first, I can't, not from this. If I tell you it started here and it came from a day's ride off, you'll ride the wrong way, and so will I."
+
+Sylvanas looked at her across the dust.
+
+Sun's sake. She had expected the mage to grab it with both hands. Any magister in Silvermoon would have had it on paper before the dust settled—*source of the contamination, the Millhaven granary*, signed, sealed, stable in three different hands. And here was the mage with her palm gone grey, kneeling in the middle of the loudest thing she had ever found, saying no to it. Caution, then? A show, for the Ranger-General in the doorway? Wasted on her; she had never said *sound judgment* of anyone in her life. No. It was the right answer, and that was the trouble. The ground in a clearing that was trampled deepest was where the herd had milled about, never where the herd came in. She had said as much to Cyndia when Cyndia was a recruit, walking her round the clearing again until she saw it.
+
+Damn her, then. She looked at the hand.
+
+"Close it."
+
+The mage tried. The fingers curled halfway and stopped, stiff as a dead bird's foot, refusing to go further. The right hand was still tucked up useless in her armpit. Two hands, and neither one would hold a cup.
+
+"You're done reading with those tonight."
+
+"I can still use the staff."
+
+"You can still hold the staff, which isn't the same." Sylvanas stepped back out of the doorway into the yard. "How much is here, you've told me. Which way it went, you can't."
+
+"No."
+
+"Then I'll find out which way it went. Cyndia. Bring the lantern."
+
+Behind the gardens on the west side a lane ran along the backs of the houses, between the garden walls and the first field. When Cyndia lowered the lantern to it Sylvanas stopped at the end and went no further.
+
+The lane was gone. Something had been over it the way cattle go over a gateway in a wet spring, again and again, until the mud stood in ridges and holes a boot deep from one wall to the other. Water had come up into the holes and lay there black, holding the lantern. Further along, a garden wall had lost its top course into the lane, the stones sunk where they fell. Past that a gate lay flat in the mud with its hinges still screwed to it and splinters of the post hanging off them. It had been pushed outward until the post gave. Nobody had lifted the latch.
+
+"Keep the light low," Sylvanas said. "Off the field."
+
+Cyndia hooded the lantern in a fold of her cloak until only a slit of light came out along the ground, then went down on her heels at the edge of the churn. Sylvanas crouched beside her, keeping her own shadow off the prints. Her knees reminded her about the ditch. She laid her right palm flat on the mud out of old habit. It was cold and wet and gritty and nothing else at all; a stone would have told her something, but mud told her only what her eyes did. Her eyes were a beat behind the light tonight, slow to take the edges.
+
+Cyndia moved the light a hand's width at a time, reading as she went.
+
+"Feet," she said. "Boots. Clogs. Bare, here." She held the slit over a print, long and flat, the toes spread, the heel pressed as deep as the ball. "Bare again here. This one drags the right toe. There's a furrow in front of every print; he never lifted it." She moved the light. "That's a longer drag. Could be a foot. Could be something pulled along. I can't tell you which."
+
+"Count."
+
+Cyndia was quiet for a while, the slit of light going down the lane and coming back.
+
+"I can't, Ranger-General. They're on top of each other three and four deep, and they've gone back over their own tracks, and there's been rain in them since. More than I can separate. I'd rather not give you a number and then take it back."
+
+Sylvanas did not push. She had put that answer into her herself, years ago, over a muddier ford than this.
+
+A little way down the lane something stood up out of the mud on its own. Sylvanas went to it, crouching again. It was a wooden clog, a man's, sucked down to the instep and standing upright where the foot had come out of it. The print after it was bare. So was the next one, and the one after that, on into the churn until she lost it under somebody else's.
+
+Nobody walks out of his clog in autumn mud and keeps going. Nobody with feeling in his feet. He stops, and swears, and hops back on one leg and digs for it with his fingers. This one had not stopped. He had stepped out of it and walked on barefoot, the cold coming up into him, not caring. Had not lifted his toe either, perhaps; she could not tell which prints were his after the third.
+
+The doe had not cared either. The doe had come on at her with a split heart. And the doe had been alive when she ran; the mage had said so, kneeling in the ditch with her arm red to the elbow. So were these alive, then, when they walked? A man walks out of his shoe if he's drunk. If he's mad. If he's—
+
+Don't. Don't make them into the doe because it's late and you want a shape to put on it. A doe was a doe. A man walking out of his clog was a man walking out of his clog.
+
+"Mage."
+
+The mage had been standing where Sylvanas had put her, at the corner of the wall with the staff hooked in the crook of her elbow. She came over slowly, picking her way round the holes.
+
+"The prints. Can you hear anything in them without your hands?"
+
+The mage set the heel of the staff in the bare print after the clog, bending her head to the wood. The crystal clicked in its claws. She lifted the staff and set it on the bank under the garden wall, where the mud was smooth and nobody had trodden, listening there before she went back to the print.
+
+"It's in the prints," she said. "Heavier where they stepped than in the ground round them. A good deal heavier. The way it was in the doe." She stopped, swallowing. Sylvanas watched her taste whatever it was she tasted. "The way it was in the doe, but there's no doe here to put a hand in. I'd want one of them. I'd want to know if they were—"
+
+"Yes."
+
+Sylvanas stood up, wiping her palm down her thigh. They had walked out. A great many of them, on their own feet, with their coats on the pegs and their spoons in their bowls, not running and not carrying anything, through the gates instead of over them, out into the field and the dark. A living man stops for his shoe.
+
+"They walked out," she said.
+
+Nobody answered. The slit of lantern light lay still on the mud.
+
+"Which way?" the mage said.
+
+Sylvanas looked at the lane. The churn ran north along the backs of the houses and south toward the stream, in through the broken gate and out across the field. Beyond the lantern the field was a black slope with nothing on it she could read at all. Three ways out of one lane, four if she counted the field, every one of them trodden over and then trodden again coming back, if anything had come back. Rain since. Full dark, and the lantern smearing gold over everything she tried to look at.
+
+North. Everything in her wanted to say north. Her line was north, and the stones were north—and the noon stone with the cold under its warmth that she had carried in her palm since yesterday. She could see them going north in the dark as plainly as if she had watched it. That was exactly why she would not say it. Call it north and be wrong, and she sent a rider to Silvermoon to turn every bow on the wall the wrong way. Call it anything and be wrong; her own four rode after nothing while the real thing went where it liked. And what would she be calling it on? A clog and a feeling.
+
+"I don't know," she said. "Not on this ground. Not in the dark."
+
+Cyndia let out a breath beside her, very small, lowering the lantern.
+
+"Not on this, Ranger-General."
+
+Somebody had seen it. Somebody had stood at a window or a door or a gap in a wall in this village while it went out of its gates, watching which way it turned at the end of the lane—and that somebody was the only clean track she was going to get.
+
+She put two fingers to her mouth and whistled, short, twice. Up at the crossing a horse whinnied and was hushed. After a moment boots came down the lanes between the gardens: Lyriel off the bridge with the fourth ranger behind, and Neral last, calling something soft over her shoulder to the horses she had left tied in the yard.
+
+"Back to the houses," Sylvanas said. "All of them, both sides. Every cellar, every loft. The bread ovens. Under the beds and inside the chests, and the space behind the chimney breast where they keep the hams."
+
+"We did the houses, Ranger-General," Lyriel said. Not arguing; asking.
+
+"You did the rooms. Now do the places a person would fold up small and keep quiet." Sylvanas held her hand out for the lantern, taking it from Cyndia. "Somebody in this village watched them go. Find them."
+
+She turned back up the lane toward the dark houses with the light held low against her thigh, hearing them come after her.
+
+Neral found it in the end house.
+
+The end house stood where the garden walls gave out, its back wall right on the lane. Sylvanas had been through it once already on the first sweep: one room, a box bed against the far wall, a hearth with the ash gone grey and settled, two bowls on the table and a third on the shelf over it. She was up a ladder in the loft of the house next door, holding the lantern out over the rafters with the smell of old thatch and mouse dirt in her nose, when Neral said her name through the wall.
+
+Not loud. Neral never said anything loud. "Ranger-General." Then, after a moment, in exactly the same voice: "In here, please."
+
+Sylvanas came down the ladder two rungs at a time, going round by the lane.
+
+Neral was kneeling on the floor of the end house with both hands spread flat on the boards in front of her, as she laid her hands on a horse's neck before she asked it for anything. The box bed had been pulled out from the wall. It stood skewed across the room on its short legs. Where it had stood there were two long pale scrapes in the floor and, between them, a square hatch set flush with the boards, an iron ring let into it.
+
+"It was over this," Neral said, not turning her head. "The bed. Somebody dragged it across from up here, you can see where the legs went. I tried the ring. It's bolted underneath."
+
+"Underneath."
+
+"And then I heard it." Neral's voice went lower still. "There's somebody breathing down there."
+
+Sylvanas set the lantern on the table, wedging it between the two bowls. Something had grown in the bottom of them, a soft grey fur over the dregs of whatever it was with a bruise-colour coming through it, a spoon standing up in the nearer one, stuck. Four days. Five. She looked at the bed and the scrapes in the floor and the hatch.
+
+Bolted underneath, and the bed dragged over it from above. Two hands, then—one down there to draw the bolt, and one up here to drag the bed across and walk away from it. Somebody had put somebody down that hole and shut the lid on them. And after five days in the dark, what was still down there breathing? She had shot the doe through the heart, and the doe had breathed. The doe had blown blood out of her nose in two long strings and come on at her anyway.
+
+Don't. A doe is a doe. Find out.
+
+She went to the door. Cyndia was in the lane, standing with her back to the wall and an arrow on the string. Sylvanas did not raise her voice.
+
+"Lyriel to the top of the lane. The fourth to the front, on the road. Then bring me the mage."
+
+Cyndia went. Sylvanas came back into the room, putting an arrow on her own string, and stood off from the hatch a long step back and to the side, where she could see the ring and the door and Neral's back all at once. Neral knew she was there. Neral did not look round, and her hands did not move on the boards.
+
+The mage came in with the staff hooked in the crook of her elbow, holding her bad hands up in front of her and off her clothes. Her face was the colour of the ash in the hearth.
+
+"There's somebody under the floor," Sylvanas said. "Is there anything else down there with them?"
+
+The mage looked at the hatch, then got down on her knees beside Neral, slowly, one knee and then the other, setting the heel of the staff against the boards. The crystal clicked in its claws. She bent her head to the wood. Sylvanas watched her mouth—the only part of her face that ever told you anything—and it pressed thin and stayed that way.
+
+"It's loud," the mage said. "The floor's loud. The whole street is. If there's something down there carrying more of it than the ground does, I can't pick it out through the boards." She lifted her head. "I'd have to be in there with it."
+
+"Not yet."
+
+Neral had begun to talk.
+
+She was talking to the hatch in Thalassian, very low, the long easy run of nothing that Sylvanas had heard her use on the bay in the ambush with a wolf under its feet. *Easy now. Easy. Stand. Nobody's going to hurt you. Stand, now.* The words did not matter, and Neral knew they did not matter; it was the sound that went down through the cracks, all warm, unhurried breath. After a while she changed to the common tongue without changing the voice at all.
+
+"We're not from here. We came down off the hill on horses. I've got water."
+
+Nothing came up. The lantern hissed on the table. Down in the lane the mill race went on and on.
+
+Then, from under the floor, so small that Sylvanas felt it more than heard it, a whisper scraped down to nothing at all:
+
+"Say it again."
+
+Neral said it again. The Thalassian first, and then the rest. *We came down off the hill. I've got water.*
+
+"You talk funny."
+
+"I do," Neral said.
+
+A long quiet. Sylvanas's fingers sat on the string. She made them lie still there.
+
+"Da said not to open it." The whisper broke in the middle and went on. "Not for anybody. Not if it was him."
+
+Neral's hands did not move on the boards. Sylvanas looked at the scrapes in the floor, at the bed skewed across the room, at the door the man had walked out of after he'd dragged it there. *Not if it was him.* What kind of man tells his child that and then goes out of his own door into the dark? A man who'd already seen something come back. A man who knew what was going to walk in.
+
+"Your da was right," Neral said.
+
+"Is he there?"
+
+Neral turned her head at last, looking at Sylvanas. Sylvanas shook her head, once.
+
+"There's nobody up here but us," Neral said to the floor. "Five of us, and a lady with a stick, and some horses. That's all."
+
+Kick it in, then. A boot heel would split that hatch on the first try; it was pine, and not new. And then what? A child in the black at the bottom of a hole, with the lid smashed in over her and a light in her eyes and an elf's boot coming down the ladder. She'd go back into the far corner like a fox into an earth, and you'd get nothing out of her but teeth. Sun's sake. Let Neral do it. Neral had never in her life had to kick anything in.
+
+Unstoppering the water skin, Neral tipped it, very slowly, onto the boards beside the hatch. The water ran along the floor to the crack round the lid, going down it with a small, quick trickling. Sylvanas heard it patter on something underneath.
+
+"That's water," Neral said. "There's more."
+
+Something moved under the floor. A scuffle, a stop. Then the bolt began to move, a long dry scrape of iron that stopped halfway, and a small sound like someone sobbing without the breath to do it properly, and the scrape again. The hands down there were too weak for it. Neral did not touch the ring. The bolt went back the last of the way with a clack.
+
+"I'm going to lift the lid now," Neral said. "Slowly. I'm going to put the light at the side, so it isn't in your eyes."
+
+She did it exactly as she had said. She lifted the hatch a finger's width and waited, then a hand's width, laying it back on its hinges against the box bed without a sound. She set the lantern on the floor at the side of the hole, sliding the shutter half across. Sylvanas brought the bow up, the point sitting low on the dark below the rim. If anything came up that ladder that should not, it would come up into Neral's face—and Neral was kneeling with her hands open and no weapon in either.
+
+The air came up out of the hole: cold earth and damp and piss and turnips, and under it the shut-in staleness of the inn cellar, but closer, smaller, breathed over and over. There was a ladder. At the bottom of the ladder the light caught a heap of something pale—turnips, she saw, a spilled bin of them—and a face behind the heap, ducking away from the light. A child's face, smeared, with a mouth too dark at the corners.
+
+"I'm going to come down the ladder now," Neral said. "I'm going to sit on the bottom of it. That's all."
+
+She went down backwards, slow, to sit on the bottom rung. The face did not come any closer and did not go any further back.
+
+Sylvanas let her breath out through her nose, keeping the point where it was.
+
+"Mage. Go down after her and tell me what else is in it."
+
+The mage looked at the ladder. Then she lay down on her stomach on the boards, putting her legs over the edge of the hole. She went down it on her elbows and the heel of her left hand and the toes of her boots, her face grey and her mouth shut tight, dropping the last of the way into the dirt. Sylvanas took the staff up by the very end of it. It buzzed in her fingertips the moment she touched it, that fine hard hive-hum going into the bones. She handed it down over the edge and let go as soon as the mage's elbow had it.
+
+The mage sat in the dirt at the foot of the ladder and set the heel of the staff in the earth floor, listening, moving it, listening again. Into one corner. Into the next. Into the spilled turnips. She did not go near the child. Sylvanas watched the dark round the edges of the lantern light, and the door at her own back, and the mage's bowed head.
+
+"Nothing down here but her," the mage said at last. Her voice came up hollow out of the hole. "It's in the ground, the same as everywhere. No more than that. Nothing that's been in here was carrying it."
+
+Nothing that's been in here. The man had not come back down to her, then. Whatever else he had done, he had kept that promise.
+
+Sylvanas lowered the bow.
+
+"Cyndia." Cyndia was in the doorway; she had been in the doorway, it seemed, for some time. "Your water."
+
+Cyndia unhooked her skin from her belt and put it in Sylvanas's hand. Sylvanas went down on one knee at the edge of the hole, holding it down at arm's length. The mage reached up for it with her left hand and got the strap across her fingers, but the fingers would not close on it. It slid. Neral took it out of the air under the mage's hand without looking, turning on the rung.
+
+"Small sips," Neral said into the dark. "There's more where that came from."
+
+A long time, it seemed, before the face came round the heap of turnips. It came on hands and knees. Sylvanas saw a thin arm, and a fist clenched round a scrap of blue cloth, and then two hands round the neck of the skin with Neral's hand under them both, holding the weight. She drank like a lamb at a bucket, too fast, coughing. Neral took the skin away and gave it back and took it away again, and said *small* in Thalassian every time.
+
+"Are they gone?" The whisper had a little more in it now, wet and hoarse.
+
+"Who?" Neral said.
+
+"All of them."
+
+Neral waited.
+
+"Mam died," the child said. "And then in the night she—"
+
+She stopped. She put her mouth back on the skin and would not take it away, and Neral let her keep it.
+
+Sylvanas sat back on her heel at the edge of the hatch. In the night she what? But that was the question with the teeth in it, and you didn't ask it of a child at the bottom of a hole with a lantern in her eyes. You asked it later, above ground—and you asked it of the ground as well.
+
+"I'm going to lift you up now," Neral said. "I'm going to carry you up the ladder, and there's a blanket up there. You can bring that." She meant the blue scrap. "You hold on to my neck."
+
+The child did. Neral came up the ladder one-handed with the girl's arms locked round her neck and the girl's face pressed into her collar. Sylvanas moved back out of the way, keeping her eyes on the dark of the hole until the mage had come up after them on her elbows. The girl weighed nothing. You could see that from how Neral carried her: the arm under her was the arm Neral would have used for a saddle, and it was bearing no weight at all. Eight years old, perhaps. Nine. Hair so matted it lay against her head like felt. One stocking on, the other foot bare and black to the ankle, and the stocking had a darn at the heel in a different wool from the rest—a brown in a grey, done close and neat by somebody who had cared about it.
+
+Neral sat down on the edge of the box bed with the girl in her lap, pulling the blanket off the bed round both of them. The girl turned her face into Neral's shoulder, hiding it from everyone else in the room. She did not let go of the blue scrap.
+
+Sylvanas put herself by the door, half in and half out, where she could see the lane both ways and the room at once, and let Neral have it.
+
+Neral asked her name first. The girl shook her head against Neral's collar, and Neral did not ask again. She gave her the skin, and took it back, and gave it her, letting the quiet sit in between. When she spoke again it was about something else entirely, something with a plain answer.
+
+"Who was sick first?"
+
+A long breath. "Mister Pell."
+
+"Mister Pell."
+
+"No." The girl's face came a little way out of the collar. "Missus Hale's baby. Then Mister Pell. Then everybody was coughing at the well, and Mam said don't stand near them."
+
+"The baby first," Neral said. "Then Mister Pell. Then everybody at the well."
+
+The girl nodded, her fist clenched round the scrap of blue so hard that the knuckles had gone white under the dirt, little white knobs in a row.
+
+"Did your mam get sick?"
+
+Another nod. "Her breath went sweet."
+
+"Sweet," Neral said.
+
+"Like pears when they've gone brown." The girl said it to Neral's shoulder, very matter of fact, as if it were the thing in all this that made the least sense to her. "She said she'd been at the pears. We didn't have any pears."
+
+On the floor by the hatch the mage lifted her head. She was sitting with her back to the wall, her hands upturned on her knees, so still that Sylvanas had nearly stopped counting her as part of the room.
+
+"Was it before she was ill, the sweetness?" The mage's voice was pitched down nearly as low as Neral's, and slower than she ever spoke on the road. "Or after?"
+
+The girl looked at Neral, not at the mage. Neral nodded.
+
+"Before," the girl said. "Before she was hot."
+
+The mage said nothing more. She did not write it down; she had nothing to write with, and no hand to write it with if she had. But Sylvanas watched her put it away somewhere, as Cyndia put a print away, before she looked down at her hands again.
+
+Sweet breath. A drinker's breath went sweet, and so did a dying man's sometimes, at the end, in the bad fevers. It meant nothing to her. It meant something to the mage, or it might, and that would have to do for now.
+
+"Who came to the door, the last days?" Neral said.
+
+The girl thought about it. She had some rhythm now, as children did once the first words were out. "Gran Ottley, to sit with Mam. The new grain man—Da had words with Mam about him, because he was cheaper than Mister Hollis. The tinker, for the pot."
+
+"What new grain man?" the mage said.
+
+"The new one." The girl's shoulder came up and went down under the blanket. That was all there was of it.
+
+Sylvanas turned it over once. A cheaper sack and a quarrel in a kitchen over the price of it. Every village south of the Pass had a new man with a cart once a season, and a husband and wife with words to say about him. It was the kind of thing you kept as you kept a hoofprint you couldn't place, at the back of your head with the others, and walked on. She walked on.
+
+"And then?" Neral said.
+
+"Mam died."
+
+The mage spoke before Neral could. "How did you know?"
+
+It was not a soft question, for all the voice was soft. Neral glanced across. Sylvanas let it stand.
+
+"Da held the glass to her mouth." The girl's voice did not change at all. "His shaving glass. It didn't go misty."
+
+"Thank you," the mage said quietly. She looked up past Neral and the child to the door, meeting Sylvanas's eyes and holding them a moment. Sylvanas understood her well enough. *That one's true.* A child's terror didn't come up with a shaving glass. That was a man sitting at his wife's bedside doing the one sensible thing left to do.
+
+"And then she got up," the girl said. She said it more quietly than anything yet. "In the dark. And Da put me down the cellar, and said bolt it. Not for anybody. Not for him."
+
+"And you did," Neral said.
+
+A nod.
+
+"What did you hear?"
+
+"Feet." The fist on the blue cloth clenched and unclenched. "Going past. And past. Dragging. Up the back."
+
+Sylvanas looked at the floor. The hole under the hatch was a cellar dug into clay, with a ladder and a turnip bin—nothing in it that she had seen to tell a child down there which way anything was going in the world above her. She spoke in Thalassian, to Neral, in her ordinary voice, so it would come to the girl as nothing but noise.
+
+"Ask her how she knows which way. She was under the floor."
+
+Neral asked her in the common tongue, slower.
+
+"The little window," the girl said, pointing down into the hole without looking at it.
+
+Sylvanas took the lantern from the floor and went down on one knee at the edge of the hatch, holding it down at arm's length. There on the far side, on the wall that was the house's back wall and stood on the lane, right up under the beams, was a slot. A hand high, perhaps, and two hands long, with three iron bars across it and a crust of dirt along the sill. A cellar light, to keep the turnips from going damp. From the top of the turnip bin a child could have got her face to it. From there she would have been looking out at the lane at the height of a dog's nose.
+
+Feet, then. She would have seen feet and nothing else. Feet going by in the dark, and whatever moon there was.
+
+"Which way were the toes pointing?" the mage said from the wall. "Toward the mill? Or away from it?"
+
+The girl thought. Sylvanas watched her think, the small furrow coming and going over the dirt between her eyebrows.
+
+"Away. Up toward Pell's."
+
+"How many?" Neral said.
+
+"All of them." The girl's voice cracked suddenly, wide open, and Sylvanas saw her pull it back together like a child pulls a coat shut. "Hundreds. All night. Every night."
+
+A few dozen houses, a mill and an inn. There had never been hundreds of anything in Millhaven but hens.
+
+"Every night," the mage said, "or one night?"
+
+The girl did not know. Sylvanas could see her not knowing. She had slept and woken, and slept and woken—when she woke it was dark, and when she slept it was dark, and the slot at the top of the wall had gone grey and gone black she did not know how many times. She had bitten turnips. She had licked the wet off the cellar wall, probably, before she bit the turnips. There was dirt in the corners of her mouth like a ring.
+
+"It was always dark," the girl said.
+
+"That's all right," Neral said. She shifted the girl a little on her lap, waiting, before she asked the next thing. "Which way did they go?"
+
+"Up the north road."
+
+Sylvanas went still in the doorway.
+
+The north road. She had ridden down the north road into this village not three hours ago at a walk, her bow in her hand, between the garden walls, with every ranger she had in a line round the mage. Nothing on it. Cyndia had gone down on her knees at the holly bend that afternoon, reading the bank: deer and wolves and not one human foot. A village's worth of dead walk up a road, they leave it looking like that lane. That road had been clean. So the child was wrong—or the child had seen the wrong night, or no night, or her own mother's feet over and over with her eyes shut; or—
+
+"Which is the north road?" Sylvanas said. She said it in the common tongue, flat, watching the girl's shoulders come up under the blanket at the sound of her. Too late to take it back. She didn't try.
+
+Neral put her hand on the back of the girl's head. "Which way is it? You can point."
+
+The girl took one arm out of the blanket, pointing without looking at the back wall of the house. Out at the lane. Up.
+
+"Past Pell's," she said. "Up the cow way."
+
+That was not the road down from the Pass. That was nowhere Sylvanas had been.
+
+"Cyndia." Cyndia was still in the lane behind her. "Did you see anything leave the top of the lane? North, out of the field?"
+
+"No, Ranger-General. The lane runs into the field at the top. I lost it there in the dark." A pause. "There was a gate at the top. I didn't go through it."
+
+Sylvanas looked at the back wall of the house.
+
+Everything she had pointed north. The girl's arm pointed north; the toes in the slot pointed north. The noon stone with the cold under its warmth, which she could feel in her palm still if she let herself, pointed north—because she wanted it to. That was what she did not like. She had a child's word, given through the bars of a cellar light, by a child who did not know one night from the next, about a road Sylvanas had never seen. She looked at the girl's fist on the blue scrap.
+
+"That's enough tonight," she said.
+
+Neral nodded. She had already started rocking a little, without seeming to know she was doing it. Over the girl's head she spoke in Thalassian, in the brisk voice she used for rangers and tack.
+
+"Give me the tube and the spare grey, Ranger-General. I'll change at the Pass and keep going."
+
+"At first light."
+
+Neral looked at her. Not arguing; Neral did not argue. Just looking, as she'd look at a horse that had refused a ditch, before she put it at the ditch again.
+
+"First light," Sylvanas said. "When I've seen the cow way."
+
+They moved to the inn. It had a yard with a wall round it and the horses already in it, a gallery over the door looking down on all four roads at once. The end house had a hole in the floor and a dead man's bed dragged across the room, and the girl was not going to sleep in it. Neral carried her up the lane wrapped in the blanket, the blue scrap still in her fist. The girl slept before they reached the crossroads. Sylvanas saw her head go loose on Neral's shoulder by the inn sign, all at once, between one step and the next.
+
+In the yard the mage stopped by the horse lines.
+
+"I said I'd look at them tonight."
+
+Sylvanas had nearly forgotten. That afternoon, with the doe still steaming in the ditch, the mage had said it, and Sylvanas had told her she would. That had been yesterday. No—today. The day had gone on so long it had folded over on itself.
+
+"Then look."
+
+She held the lantern, lifting it so the light ran down the line. The mage went along it with the staff in the crook of her elbow. At each horse she set the heel of it between the forefeet, leaning her cheek to the wood. Each horse put its ears back at the clicking and forward again before it stood. Neral's bay. Lyriel's, and Cyndia's. The grey, with the tooth-score on his near hock scabbed over black; the mage listened longest there, and then a little longer, before she moved on. The mage's own borrowed mare, who blew at her and tried to put her nose in the satchel. Sylvanas's mare last.
+
+"Clean," the mage said. "All of them. Tired horses, nothing else."
+
+"Mine."
+
+"Clean." The mage straightened up slowly, swaying, putting the staff down to stop herself. "Same as this afternoon. I don't understand it. They've walked through it all day and drunk out of the stream at the culvert, and it isn't in them." She put her bad hand up to her mouth, the back of it, then took it away. "I'll be glad of it, and not understand it."
+
+Sylvanas put her hand flat on her mare's neck. Warm and damp under the mane, the big slow pulse in it. Nothing else; her hands never told her anything about this, and she had stopped expecting them to.
+
+"Cyndia," she said. "Wrap the mage's hands."
+
+She set the watch. Lyriel and the fourth ranger first, the gallery and the yard gate; Cyndia and herself after; Neral not at all. Neral was to sleep. She lay down on the taproom settle with the girl against her chest and the blanket over both of them, asleep, as far as Sylvanas could tell, before her head was all the way down.
+
+Sylvanas did not sleep. She went up on the gallery with Lyriel when Lyriel's watch started and stayed after it ended. Cyndia came up and stood at the other corner, not asking her why.
+
+Nothing in the whole village had a light in it. Not one window down any of the four roads. She had seen dead villages before—troll country was full of them, cold hearths and the doors kicked in—but she had never sat in the middle of one in the dark and listened to it, and she had not known it would be so loud. The race. That was all of it. The water went on coming past the still wheel and down the race and under the bridge, white even now, on and on, never louder, never quieter, as if the whole village had been holding its breath for five days and this was the one sound it had kept.
+
+Two nights. She had been up since the troll sweep, and the cell, and the ride, and the ride; her eyes were full of sand and her knees ached where the ditch had had them, and her thoughts had gone very clear and very flat, like ice on a puddle, which was how she knew she was past tired. What she had to send north was a child's word, through a grating, in the dark. *Feet. Up the north road. Hundreds, every night.* She thought of the Spire, and the chamber, and the magister's nephew with his figures, and Lor'themar on the bench being charming for her. They'd pass it round. They'd hold it up to the lamp. *And the Ranger-General saw this herself?* No. She saw a clog in the mud. *And the child's account was confirmed by…?* By nothing. By the Ranger-General's feeling. By a stone that sounded wrong to the Ranger-General's hand.
+
+Damn the chamber. She'd have thrown it back at a ranger herself. She'd have had the hide off any ranger who sent a warning on that.
+
+But if it was true. If it was true, then every soul this village had held was walking toward her line in the dark this minute while she sat on a gallery waiting for the sun—every hour she waited, an hour nearer the stones. Neral could have been on the hill road by now with the whole night in hand. And say what? *North*. And they'd turn every bow on the wall to the Pass road—which was clean, which she had ridden down herself—while the thing came over the hills somewhere else, somewhere the child called the cow way.
+
+Send it. No. Send it with the cow way in it. You haven't seen the cow way. Then go and see it. In the dark, with no light, on ground that has been trodden to soup? Cyndia couldn't count the lane with a lantern. Her hand went to the string and sat there. She took it away again.
+
+Below her in the yard, by the horse lines, the mage sat on the mounting block with her back to the wall. Cyndia had wrapped her hands in strips of somebody's linen. She sat with them laid in her lap palm up, two white bundles, resting her head back against the stones. Her eyes were open. Every so often the steam of her breath went up past her face into the dark and was gone.
+
+She'd been awake as long as Sylvanas had. Longer. She'd crossed the rings on foot before dawn yesterday, and sat in a chair in a cell all day with a damper in the wall, and ridden all night on a borrowed mare she couldn't sit, and put her hands into the road and a dead deer and a storehouse floor. She hadn't asked to sleep. She hadn't asked for anything since the storehouse. She was sitting there with her eyes open as if she, too, was waiting for the sun to come up so she could go and look at something.
+
+Go to bed, mage. Sylvanas didn't say it. She looked at the north road, empty, and at the east road, empty, the race going on below the bridge. Her hand was on the string again. She took it off; she had not felt it go there.
+
+---
+
+The gate at the top of the lane was a five-barred field gate, oak gone silver, standing open.
+
+Not pushed. Not off its hinges like the one at the back of the gardens. Somebody had swung it back against the bank and dropped the loop of rope over the post to hold it, neat, as you'd hold a gate for cattle you meant to bring through. Sylvanas stood beside it in the first grey light with her breath going up white, looking at that loop of rope for a long moment. A man's hand. A living man's, some morning or other before all this—and it meant nothing. She went through.
+
+Behind the gate the ground fell away into a cut.
+
+It ran up out of the fold between two banks, a hollow way worn down by carts and cattle for longer than this village had had a name, so deep in places that the banks stood higher than her head, the hazel and the thorn on top of them meeting over it. Under the hazel it was still nearly night. Out at the mouth, where the light came in, the floor of the cut was yellow clay, scored from one bank to the other.
+
+Grooves. Long ones, side by side, running up the cut and on under the hazel into the dark, as if something had dragged a harrow up it with the tines set close. Dozens of them. Some ran straight. Some wandered and crossed each other and went on. Between them the clay was pocked with prints, the grooves running out of their toes.
+
+Sylvanas pulled the glove off her right hand with her teeth, going down on her heels at the edge of the nearest one.
+
+Cyndia came through the gate behind her, and then the mage, very slowly, with the staff in the crook of her elbow and her hands in their linen held up against her chest. Sylvanas did not look round. She laid two fingertips along the lip of the groove, drawing them up it.
+
+The edge had crumbled. Rain had been at it, at the top, rounding it off and leaving a little fringe of wet grains along both sides. But the bottom of the groove was smooth. Pressed smooth, glazed almost—a hard skin on the clay where a weight had gone over it and not let up. She put her finger into it, measuring the depth against her first knuckle, then moved up a pace and measured again. The same. And again. The same. A man drags his toe when he's tired, and the groove comes and goes as his foot lifts and drops. This foot had never lifted. It had come up the cut with the toe down in the clay and the weight on it the whole way, the next one beside it the same, a forearm's width off, and the next.
+
+"It's a drove way, Ranger-General." Cyndia had come down on her heels at Sylvanas's shoulder, her voice level and careful. "They'd bring the beasts up here to the hill grazing in spring, and down again about now. Half of this will be cattle. And the carts after them, and the dogs." She put her own finger near a print, not in it. "I can't tell you how much is people. I'd be guessing."
+
+"Then don't guess." Sylvanas looked up at the mage. "Mage. Can you tell her which marks are which?"
+
+The mage looked down at the cut. In the grey light her face had a greenish look round the mouth. Sylvanas watched her swallow, then swallow again.
+
+"It's loud here," she said. "Louder than the lane. The whole cut's soaked in it." She came down the bank on her heels and her backside, getting her feet under her at the bottom. "But it was heavier in the prints than the ground, in the lane. If it's the same here—" She set the heel of the staff into the toe of the nearest print, bending her cheek to the wood. The crystal clicked. She lifted it and set it a hand's width off, in a cloven slot pressed deep and clean into the clay, and listened there.
+
+"That's heavy," she said. "The first one. That one's light, as light as the bank. Whatever made that was alive when it made it."
+
+"A cow," Cyndia said.
+
+"A cow, then."
+
+The mage moved the staff along. Into a print, into a slot, into a wheel rut half full of water, into a long smear that might have been anything. "Heavy. Light. Light. Heavy." The rut was light. A dog's pad on the bank was light. The long smear was heavy, and so was every groove the staff went into—Sylvanas watched the mage try four, five of them, one after another, getting the same answer every time. She said each one aloud in a flat scraped voice, Cyndia's head turning to each mark as she said it, quick as it would turn to a bird on a branch.
+
+"Keep on," Sylvanas said. "Cyndia, count the heavy."
+
+Cyndia broke a hazel switch off the bank and stripped it with her thumbnail, laying it across the cut from bank to bank. Then she took one ordinary step up the cut, breaking a second switch and laying that across too, so the two of them made a box on the clay as wide as the cut and as long as a man's step. Every one of them that had walked up here would have put a foot down inside it once. The mage went along inside the box with the staff. Cyndia went behind her on her knees.
+
+Sylvanas stood up out of the way, watching the cut.
+
+It ran north. North and a little east, up out of the fold toward the hills, under the thorn and the hazel and out onto the hillside beyond, where she could see the line of it going on as a dark seam in the brown bracken until it went over a shoulder of the hill and out of sight. She turned and looked west. Over there, across two fields and a hedge, was the road. Their road, the one down from the Pass, a pale line coming down off the hills with the holly wood dark on it halfway up—where she had sat a horse yesterday afternoon and shot a doe through the heart. You could see the whole length of it from here. A long way off. Two fields and a hedge and more than two fields, further and further apart the higher they both went, the road bending away west toward the gate and the cut going on east of north, up and over toward the stones.
+
+The north road. The child had called it the north road, and so it was, to a child at the top of this lane; it went north, and it went somewhere. And Sylvanas had ridden down the other one all yesterday with her bow in her hand and her eyes on every hedge. They had passed each other in the dark with the whole hill between.
+
+Toward the line, then. Not the gate. The line, and the stones, and the long empty miles of ring between one post and the next, where there was nobody but a warden going round once a fortnight with a lens.
+
+Behind her Cyndia had stopped saying anything.
+
+Sylvanas looked round. Cyndia was still on her knees inside the box with the mage standing over her, one hand flat on her own thigh, looking at the clay without moving. She went that still when she counted.
+
+"Forty-one," Cyndia said. "Heavy. In the step." She did not look up. "That's the ones I can see. Some are under others."
+
+"Again. Further up."
+
+They went further up, into the dark under the hazel, where the cut narrowed between two old stones somebody had set up for a gatepost a hundred years ago and nobody had hung a gate on since. Cyndia laid the two switches again, kneeling between them. The mage went along with the staff, slower now, leaning on it.
+
+"Heavy. Heavy. Heavy. Light—that's a hare. Heavy."
+
+"Fifty-three," Cyndia said. "And they've bunched here, Ranger-General, where it narrows. They've walked on each other's heels. The clay's soft enough here to keep them all."
+
+"How long is it?"
+
+Cyndia stood and walked. She walked up past the stones and on up under the hazel, slowly, along the edge where the bank met the floor, her eyes on the clay and her lips moving, laying the switches once more where the hazel thinned and kneeling there a long while. Sylvanas went with her as far as the stones and stopped there to watch her go. She went a long way. Where the cut came out from under the hazel onto the open hill she stopped and stood, then came back down at the same pace, halting in front of Sylvanas with her weight even on both feet—she had stood so to give a report at the Pass since she was a recruit.
+
+"Sixty-two at the top, where it's softest. They walked close, closer than men would, four and five abreast, the whole width of the cut, and on each other's heels where it narrows." She stopped. "Sixty, Ranger-General. Sixty I'll put my name to. There'll be more. I can't separate the rest where they've gone over each other."
+
+"Sixty."
+
+"At least." Cyndia's voice did not go up. It went, if anything, a little lower and a little more careful. "Nothing turned off, either. There's a gap in the bank back there, a track down to a farm. Not one of them went into it. And none came back down. Every mark in this cut goes the one way."
+
+Sixty. A few dozen houses, and the farms round about, and whoever had been at the inn on the night it happened; that was sixty, and that was more than sixty. Every one of them up this cut in the dark with their toes down in the clay, shoulder to shoulder, the way sheep go through a gap. Sheep follow a bellwether. So what had they followed? Sylvanas went back down to the mouth of the cut and walked up it again on the edge, where the bank met the floor, slowly, looking for it. The one print that walked apart—the one that went up the bank to look ahead and came back down, the one that turned round and faced the rest. A drover's print; a horse's. Something that had done the driving.
+
+There was nothing. Nothing on the bank, nothing ahead of the first of them, nothing at the sides. Nothing had driven them. They had just gone—all of them, all together, uphill, the way water goes downhill. Water had a hill to go down. These had walked up one.
+
+So who drives sixty dead up a cow way in the dark? Nobody. Nobody she could find. Then what? Then she didn't know, and she was not going to stand in a hole in the ground in Lordaeron and make up an answer because she wanted one.
+
+The mage had sat down on the bank by the old stones. She had sat down all at once, without seeming to choose to, with the staff across her knees and her wrapped hands lying on it, looking up the cut at the grey light coming down under the hazel.
+
+"They didn't go up our road," the mage said. "Did they?"
+
+"No."
+
+"I thought we'd have seen something. All day, I kept thinking, if it's in the deer and the wolves and the hedges, there'll be something on the road—" She stopped. "We were the whole hill away."
+
+"Yes."
+
+The mage looked down at the clay between her boots, at the nearest groove, saying nothing more. Sylvanas watched her mouth press thin and stay that way.
+
+Sixty, at the least, walking north-northeast in a crush toward the stones, with a day and more's start on anyone who might go after them. And a child's word for it, and Cyndia's count, and the mage's staff putting each heavy mark apart from the light ones so the count was a count and not a guess—and the hill, and the road, and the cut going over the shoulder of it out of sight. It would hold now. The chamber could hold it up to the lamp as long as they liked.
+
+She pulled the glove back on over her dirty fingers.
+
+"Cyndia. The mage. Down." She was already on the way, out of the cut and through the open gate, the light coming up behind the hills on her left hand and the lane running down ahead of her between the garden walls toward the inn. She lifted her voice so it would carry the whole way down the lane and in at the yard gate. "*Neral!*"
+
+Neral was standing in the yard gate before Sylvanas was halfway down. Behind her in the grey light the bay and the grey stood saddled with their breath smoking, girths done up, stirrups run high on the leathers out of the way, a blanket roll and two full skins strapped across the grey's cantle. The fourth ranger was in the yard doing up a breastplate strap on their own horse, not looking round. Loaded, then, all three. Neral had been at it since before there was light to see the buckles by. Nobody had told her to—and Sylvanas would have had a word to say to any ranger who waited to be told.
+
+"Sixty," Sylvanas said. "At the least. Up the cow way, north-northeast, toward the outer ring east of the Pass. Not our road. They have a day's start, and more."
+
+Neral nodded once. "Tube's on the table, Ranger-General."
+
+The taproom smelled of cold ash and old beer and the tallow of the lantern they had let burn down in the night. Somebody had opened one shutter. The girl was on the settle where Neral had left her, sitting up inside the blanket with her knees drawn up and the blue scrap in her fist, watching Sylvanas come in the way a hare watches a hawk go over: without moving anything but her eyes. Sylvanas did not look at her. She sat down at the table under the window and opened the tube.
+
+Oiled paper, rolled tight. A stick of red wax. Her own stub of lead out of her belt pouch, worn down to the length of her thumbnail—when she set it to the paper it skated on the oil, leaving a grey smear she could barely read herself. She tried again, harder, and the point went to powder.
+
+Damn.
+
+Something knocked on the table by her elbow. The mage had come in behind her and put down a little squat ink bottle with a brass cap, a steel pen laid beside it. Now she stood over the table with her two linen-wrapped hands held against her chest. She bent, took the cap of the bottle in her teeth, unscrewed it with a twist of her head and set it down on the board, wet, beside the pen.
+
+Violet-black, when Sylvanas tipped the bottle to the window. Kirin Tor ink.
+
+"They'll know that in Silvermoon," the mage said.
+
+"They know it already. It's in your file."
+
+The mage's ears went red at the tips. She said nothing. She went and sat down on the far end of the settle from the girl, carefully, laying her hands in her lap.
+
+Sylvanas wrote. Thalassian, small, no greeting.
+
+*Lor'themar. Millhaven, first village south on the Pass road, is dead. All of it. Five days at the most. No bodies. Sixty and more of its dead walked out north-northeast by a drove way east of the road, toward the outer ring between the Pass and the eastern posts, a day and more ahead of this. Double the wardens on that stretch of the ring and put eyes on it from the high ground. The road from the Pass south is clear. The courier brings you a living witness, a human child, out of a cellar. She saw them go. I am going on south.*
+
+She stopped there with the pen lifted, the last line looking back up at her from the paper, wet.
+
+The chamber would have this in its hands by the end of the week. Lor'themar would carry it in, standing at the end of the long table under the lamps to read it to them in his pleasant voice. They would like him for it, as they always did. Then the magister's nephew would turn over a leaf of his figures and ask, politely, what the Ranger-General's escort had cost the season so far, and whether the Ranger-General had leave to send a ranger and two horses on a long ride back to the Pass with a human brat on the saddle-bow, at the patrol's expense. A ranger, the horses, the feed. The nephew would have it worked out to the copper by the time Lor'themar sat down.
+
+Let him. Let him count it. She had sixty in a cow way.
+
+She blew on the ink and rolled the paper, holding the stick of wax in the lantern flame until it dripped. It ran onto her thumb, hot, and she let it. She pressed her ring into it before it had properly pooled; the leaf-and-arrow came up blurred on one side where the wax had slid. It would have to do. She slid the roll into the tube, screwing the cap down.
+
+Three, then. Three rangers and a prisoner, south into human country, and the only one of the four who could say which way to ride was the prisoner. Was that why she'd kept the mage, and not sent her north in Neral's charge? No. She had kept the mage because the mage was a prisoner, and you did not hand a Kirin Tor apprentice to a relay rider with a child on her saddle and hard riding in front of her. That was true—and very convenient, which she would have pointed out to anyone else.
+
+The girl had not moved. Her eyes had gone from Sylvanas to the tube and stayed on it.
+
+And the child. Was she sending the child north to safety, or sending her north to be somebody else's problem? Both. The Pass was a squat tower on a saddle of rock full of rangers and saddlery and dried meat. Not one soul in it had ever plaited a human girl's hair or knew what she ought to eat. Somebody would think of something. Somebody who was not her. She heard it go through her head and did not like the sound of it—and did not take it back either.
+
+She stood up with the tube in her hand.
+
+"Mage. Put your cap back on your ink."
+
+Out in the yard Neral took the tube from her without a word, strapping it to the off side of the bay's saddle behind her own leg, where a hand could reach it at a gallop and a branch could not. She pulled the strap through the buckle hard enough to make the bay grunt, then took hold of the tube and tugged it twice—a girth-test, that tug—and only then let go.
+
+The fourth ranger brought the girl out.
+
+She came stiff-legged across the cobbles in somebody's cut-down cloak, the blanket left behind and the blue scrap still in her fist, stopping short of the horses as though there were a wall there. The bay put his head round to look at her. She went white round the mouth. Neral went down on her heels on the stones, keeping out of the bay's way, her hands on her knees where the child could see them.
+
+"This is my horse," Neral said, in the common tongue, low and slow. "He's big and he's stupid, and he's never stepped on anyone in his life. Look. He's asleep already. *Stand, you.* We're going to ride him a long way, you and me, up the road and over the hill to where my people are, and you're going to sit in front of me. You can hold his mane. You can pull it if you want. He won't mind."
+
+It was the voice she had used on the spare grey in the ditch, the same pitch, the same unhurried run of it. The bay's ears went back to her and stayed there, his lip dropping. The girl's shoulders came down a little way from her ears. Neral did not move. After a while the girl took one step, and another, and then she was standing against the bay's side with her cheek laid on the skirt of Neral's saddle and her free hand flat on the warm hide under it, her breath going in and out in little jerks that grew longer as Sylvanas watched, and slower.
+
+Sylvanas turned away from it.
+
+"Mount," she said. "Same as the crest. Cyndia, the left. Lyriel, the right. Mage, in the middle. I have the front."
+
+They walked the horses out of the yard and down to the well, turning them to face the south road. The mage got up onto her borrowed mare from the mounting block by the yard wall in three tries, Lyriel holding the far stirrup. Sylvanas sat her own mare at the head of the road, watching the bridge. The race went on under it, white, as it had gone on all night.
+
+She heard the wagon before she saw it. Iron tyres on stone, a long grinding rumble off the far end of the bridge, and under it the slow clop of one heavy horse and the snort it gave at the water. Lyriel's bow came up on the right. Cyndia's came up on the left. Sylvanas did not draw.
+
+"Hold."
+
+It came up over the hump of the bridge at a walk: a flat farm wagon with plank sides, one brown cob in the shafts with feathered legs caked in mud to the knee and a collar that somebody had patched with sacking and twine, and an old man on the box with a sack over his knees against the cold. He saw the bows first. He hauled back on the reins, and the cob stopped as if it had been hoping to, blowing, dropping its head.
+
+"Morning," the old man said, to the bows.
+
+Then he looked past them.
+
+It was a face she would not have known again in a crowd of three: weathered, stubbled grey, a nose that had been broken once a long time ago and set crooked. She watched the surprise come into it slowly, starting at the mouth. His eyes went past her mare to the well, and the inn, and the sign hanging still on its bracket, and on up the street to the houses where there was no smoke going up from any chimney in the cold morning, and nobody at any door. He took his hat off, seeming not to know he had done it.
+
+"Where's everybody?"
+
+"Dead," Sylvanas said. "Five days. Don't water your horse here, and don't touch the well."
+
+"Dead." He turned the hat round in his hands. "Millhaven? I was through here on market day. They were well enough then." He looked at the inn door again. "Well enough."
+
+The wagon was empty. She could see down into it over the side, leaning a little from the saddle: bare boards, a coil of rope, a folded sack, and old grain dust packed into the cracks between the planks and gone grey with weather. Empty going up, full coming down. She had seen the same thing on every cart that ever came up the Pass road to sell the garrison its oats.
+
+"Where have you come from this morning?"
+
+"The ford." He waved the hat back over his shoulder, south. "Down the valley."
+
+"What's it like down there? Who's still trading?"
+
+"All of them, far as I know." He put the hat back on. "They had the market at the ford yesterday, busy as you like. Smoke in every chimney the whole way up. Barley's up a penny, and they're crying about it, but they're buying." His eyes had gone past her again, up the street. "I'd not have thought it. Not Millhaven."
+
+Busy as you like, and smoke in every chimney, and the price of barley. Good. It was what she had wanted from him and he had given it to her plainly—and it was no use to her at all. Millhaven had been busy as you like on market day.
+
+"I come up for the mill every fortnight," the old man said. "Nothing for me here, then." He gathered the reins up off the cob's back, then stopped. "You'll not have passed a young fellow on the road? Coming down from your way, with a grain cart. New man. Sells cheaper than the rest of us. I've a mind to see what he looks like."
+
+Sylvanas had nothing to say to that, and did not say it. Lyriel did.
+
+"We passed nobody, friend. Not a living soul between here and the hills." She lowered her bow, tipping her head back toward the yard gate, where the girl stood leaning against Neral's saddle with her cheek on the leather. "The little one there talked about a new grain man, though, so we'll keep an eye out for him going south, and if we see him we'll tell him you're looking." She smiled at him. "You'll get a better price going home full than going home empty, mind."
+
+She glanced across at Cyndia. Cyndia's face did not move. Lyriel looked satisfied anyway.
+
+The old man laughed, short, through his nose. "That's the truth."
+
+His eyes went once along the line of horses, front to back: Sylvanas's mare, Cyndia's on the left, Lyriel's on the right, the mage's borrowed mare sitting between them in the gap. Then he slapped the reins down on the cob's back. The cob leaned into the collar, the wagon lurching and coming on.
+
+"May the stars keep your road," he said, going by.
+
+The iron tyres ground off the bridge stones onto the packed road. The wagon went past Sylvanas's knee close enough to touch, rattling on past the well, north, through the crossing and up the empty street beyond.
+
+Sylvanas sat and watched it go.
+
+Stars. Light keep you, the humans said, the few who came up the Pass road with a petition or a cartload of oats to sell; or Safe road; or nothing at all, which was likeliest. Not stars. Some hill saying, then. A carter's grandmother's. Why had it caught on her? It hadn't. It had. She had no room in her for an old man's goodbye this morning and she was not going to make any. On her left Cyndia had turned her head after the wagon, holding it there a moment before she turned it back to the road.
+
+Let it go. She let it go. It was a relief, almost, to have one thing this morning that did not need doing.
+
+Over by the yard gate Neral had the girl by the waist.
+
+"I'm going to lift you up now," Neral said.
+
+She lifted her. The girl went up onto the front of the saddle without a sound, stiff as a doll. Neral swung up behind her in one long movement, drawing her back against her own chest and putting the girl's hands into the bay's mane, one and then the other, the fist with the blue scrap in it too. The fourth ranger was up already, holding the spare grey's lead short round one hand. Neral looked across the cobbles at Sylvanas.
+
+"Ranger-General."
+
+"Don't stop at the Pass longer than it takes to change saddles. Put it in Lor'themar's hand yourself."
+
+"Yes, Ranger-General."
+
+That was all. Neral put her heel to the bay and the bay stepped out. The girl did not make a sound—she sat bolt upright against Neral with her two hands in the mane and her eyes on nothing—and the bay walked her up past the inn sign into the north road, swinging wide round the wagon, the fourth ranger and the grey coming on behind. Sylvanas watched them as far as the last of the houses. The bay broke into a trot there. The girl's head jolted once against Neral's collar and stayed there.
+
+Behind them the wagon was still rolling north up the street, slow, its tyres ringing on the stones.
+
+Sylvanas turned the mare's head away from it, facing the bridge.
+
+"South," she said.
+
+They crossed the bridge single file, the race roaring white under the arch, the mill on their right hand and the great wheel standing in it still, dripping, green weed already furring the paddles. Then the road climbed out of the fold between two banks of hawthorn, and over the lip of it, and the country opened.
+
+It opened all at once, like a door. The hedges stood further apart here, and the fields between them were bigger, long strips of ploughland turned brown and shining with wet, and stubble with the rooks walking up and down it, and here and there a stand of beech gone copper at the top of a slope. The road went down the middle of it all toward a long blue valley, and at the bottom of the valley there was a line of willows that would be the river and the ford. Human country. Fat and flat and wide open, with the wind coming across it from one side to the other and nothing to stop it, and nowhere at all for a ranger to stand that could not be seen from half a mile off.
+
+The road was worse than the one down from the Pass. Carts had been on it all autumn and the rain had got into the ruts. In the low places the mud came up over the mare's fetlocks, sucking at her feet when she pulled them out, so that the four of them went down the long slope to the valley floor with a noise like a dog drinking. Her mare hated it. Sylvanas could feel her hating it through the saddle, the little hitch she gave each time a hoof came free.
+
+Four horses. She had come down from the Pass with seven.
+
+She did not look round. She did not need to; she could hear it. Lyriel's mare on her right hand, Cyndia's on her left, the mage's borrowed mare behind and between, and then behind that, nothing. No bay, with Neral talking to it under her breath. No grey on the short lead, blowing at the mud. No fourth ranger at the tail, the one she had never once had to think about all down the hill road because they had always been exactly where they ought to be. Two empty places at the back of the line, the wind coming through them.
+
+She had put them there. Nobody else.
+
+Well, and what else should she have done? Sent the warning north with one rider and no spare, the child bouncing on the saddle-bow, and hoped nothing on the hill road had teeth? She'd have flayed a ranger for that. So she'd done it right, and now she had three bows and a prisoner, in the middle of a human ploughland with nothing to put her back against but rooks.
+
+By the middle of the morning the mage was asleep.
+
+Sylvanas saw it at a bend, out of the side of her eye: the mage's head going down by little jerks, catching itself, going down again, until her chin was on her chest and her body moved with the mare's walk like a sack of meal, her wrapped hands slack on the pommel with the reins gone loose under them. Lyriel had moved up to her knee without being told, hooking two fingers through the mare's cheek-strap. The mage did not wake. Sylvanas let her sleep. She'd had her eyes open on a mounting block half the night, and she'd want them later.
+
+Sylvanas was not far behind her. Her knees ached where the ditch had had them yesterday, an ache that had dug in for the day. Every so often the road in front of her went very flat and very bright, like a picture of a road, until she blinked and it came back. Twice she caught herself counting the same three hedges. Two nights. She had sent rangers to their blankets for less, and stood over them till they went.
+
+At noon they watered at a ford that was not the ford, a little gravel crossing where a stream came down under the road. The mage woke when the mare put her head down to drink and nearly went over it.
+
+She came down out of the saddle badly, standing with the stirrup leather in her fist until her legs were sure of her. Then she took the staff out of its loop and walked a few paces up the road onto the crown of it, where it was drier. She set the heel of the staff on the ground between her boots, leaning her cheek against the wood.
+
+The crystal clicked. It clicked fast, faster than Sylvanas had heard it go in the cut—no gaps left in it now, tick on tick so close that it nearly ran together into a hum. The mage stood listening with her eyes shut, her face going grey round the mouth, then greenish, as it had in the cut at dawn. She swallowed. Sylvanas watched her swallow twice.
+
+"Mage."
+
+"It's thicker." The mage did not open her eyes. "Ahead. It's not a knot, the way Millhaven was. It's—" She stopped. She lifted the staff and set it down again a pace to the left, listening again. "Wider. Spread out. Like a stain in a cloth that's been wet through, and not the one blot." She opened her eyes and looked down the valley at the willows, where the road went. "It's ahead of us, Ranger-General. All of it."
+
+Behind them at the water, Lyriel's mare threw up her head with the water running from her muzzle, standing to look south down the road with her ears pricked hard, and Cyndia's mare beside her did the same. Then both of them put their heads down and drank again.
+
+Sylvanas laid her hand on her own mare's neck. Warm. Wet with mud splash. Nothing else, nothing in the hide or the bones of her hand. There never was.
+
+The border was warned. Or it would be, by tomorrow night, with Neral changing saddles at the Pass and the tube strapped hard behind her leg—the wardens doubled on the eastern ring, somebody up on the high ground with a glass, and the magister's nephew counting the cost of it to the copper. That was her duty done. Done by any measure the chamber would put its seal to. A Ranger-General who turned round at this ford and rode home behind her warning would be thanked for it, and nobody would ask her a single question she could not answer.
+
+So why was she watering her horse in Lordaeron, facing south?
+
+The trail went south. Which trail? The dead had gone north; she had their toes in the clay to prove it. What went south was a click in a crystal—a human mage's face turning green—and she was following it, four of them in a line with two holes in the back of it, deeper and deeper into somebody else's kingdom. On a human's read. On a prisoner's.
+
+No. On the trail. The read was the trail; it was the only trail there was. That was not the same as following the mage.
+
+It was not the same.
+
+She took her hand off the mare's neck and gathered up the reins.
+
+"Up," she said. "Mage. Up."
+
+They rode the rest of the day down the long valley in the mud, flushing rooks off the stubble ahead that came down again behind them. Toward evening the road came round the shoulder of a low hill, and there was a farm below it, close by the road: a long low house and a barn and a midden steaming in the yard, smoke going up thin and blue out of the chimney into the still cold air. A dog came out from behind the barn and ran at the gate, barking, its hackles up and its tail going. A woman came to the door of the house with a bucket in her hand. She stood in the doorway and stared at the four of them going by on the road—the tall horses, the green and gold, the bows across the saddles, the young woman in the middle with her hands done up in white rags.
+
+Then she went back in and shut the door.
+
+The staff in the crook of the mage's elbow did not point at the farm. It pointed past it, down the valley, south, where the road went on.
+
+The dog followed them along the inside of the hedge as far as the end of the field and stood there, barking after them a long way down the road.

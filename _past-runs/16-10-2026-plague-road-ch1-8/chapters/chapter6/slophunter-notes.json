@@ -1,0 +1,49 @@
+{
+  "chapterId": "chapter6",
+  "mode": "revision",
+  "iteration": 4,
+  "changes": [
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r3-1",
+      "line": 97,
+      "before": "Facing the wrong way. The whole army, every man in it, facing the wrong way.",
+      "after": "(deleted; L95 now runs straight into 'But they were facing the smoke...')",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r3-2",
+      "line": 217,
+      "before": "Light, she would have liked the Ranger-General to be wrong about something. She was going to have to tell her so.",
+      "after": "Light, she would have liked the Ranger-General to be wrong about something.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r3-3",
+      "line": 355,
+      "before": "Antonidas didn't know where she was. She had a captain's name and a gate.",
+      "after": "Antonidas didn't know where she was.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> phantom-concreteness-guide.md -> B-r3-4",
+      "line": 355,
+      "before": "She had a captain's name and a gate.",
+      "after": "(same deletion as B-r3-3)",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A/B -> outOfScopeObservations -> L35 stray quote",
+      "line": 35,
+      "before": "...and it keeps in them and waits.\" It comes in on the wagons and walks out on its own feet.\"",
+      "after": "...and it keeps in them and waits. It comes in on the wagons and walks out on its own feet.\"",
+      "source": "orchestrator-mechanical-fix"
+    }
+  ],
+  "unfixable": [],
+  "flags": [
+    "Pass A had 0 KILLs. Pass B's out-of-scope note about L217 (picket read at the cut vs 'again at the hedge') was not touched: it is a continuity question, not a KILL, and it is outside this revision's mandate.",
+    "Pass A's note on the verbless fragment at L313 was not touched: not a KILL finding."
+  ],
+  "selfAudit": "All edits are deletions or a quote removal. No new words, no new eye/gaze beats, no new similes, glosses or maxims. Joins checked: L95 -> L99 reads straight; L217 and L355 paragraphs end on their prior sentences.",
+  "wordCount": { "before": 7088, "after": 7056 }
+}

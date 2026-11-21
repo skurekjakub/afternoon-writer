@@ -1,0 +1,276 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB [44, 32] -> 12, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 43,
+      "kills": 10,
+      "keeps": 33,
+      "severity": {"mild": 10, "moderate": 0, "severe": 0},
+      "dominantPattern": "F3 / F4 (two each)",
+      "findings": [
+        {
+          "id": "B-r2-01",
+          "line": 25,
+          "pattern": "F7",
+          "severity": "MILD",
+          "text": "Either fit, and she couldn't tell which from the queue.",
+          "issue": "False-ambiguity closer. The paragraph has already laid out both readings of the Exchange order ('It could be... It could as easily be...'); this last line restates that she can't choose. The next paragraph then closes on a second 'couldn't have told' ('from the arch she couldn't have told him from a man who was worn out and paid'), so the chapter's opening runs two can't-tell closers back to back.",
+          "couldEndAt": "...so he would know at once what came in that wasn't his.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph ends on the second hypothesis.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-02",
+          "line": 133,
+          "pattern": "F10",
+          "severity": "MILD",
+          "text": "\"Those are mine,\" he said. \"Notices. If an inspector flags a shipment, the notice comes to the gate post. That's the ordinance. So I bring them here.\"",
+          "issue": "Briefing stack ending on a sign-off ('So I bring them here.', the same shape as the guide's 'So I've asked.'). Corin is not giving a report anyone asked for. He is a nervous clerk explaining his own pile, and his nerves would run the clauses together, not stack them. Separate defect in the same paragraph: a second quoted speech ('These are copies of waybills, Ranger-General.') follows straight on with no beat or paragraph break, so it reads as one run-on quote.",
+          "suggestedFix": "\"Those are mine,\" he said. \"Notices. The ordinance sends a notice to the gate post whenever an inspector flags a shipment, so I bring them here myself.\"",
+          "fixNote": "Replace the cited speech. While editing, start the following '\"These are copies of waybills, Ranger-General.\"' as a new beat (for example after he turns to the new sheets), so the two quotes stop running together.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-03",
+          "line": 147,
+          "pattern": "F8",
+          "severity": "MILD",
+          "text": "\"Are gone. I can't arrest a village.\"",
+          "issue": "Echo exchange. Corin asks 'And the forty-one already gone?' and Havel hands back 'gone' as a rebuttal punchline ('Are gone.'). It is the third pass of the same words in four lines ('Forty-one' / 'Forty-one,' Havel said / 'the forty-one already gone'). The real answer is the second sentence.",
+          "suggestedFix": "\"I can't arrest a village.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-04",
+          "line": 191,
+          "pattern": "F9",
+          "severity": "MILD",
+          "text": "A moment, Lady Proudmoore.",
+          "issue": "Repeated vocative. This is Corin's second time addressing Jaina by title in the scene (after L167 'The inspection desk at the Citadel, Lady Proudmoore'), and L95 already made his recognition of her name the event. The title is tacked on and does no work.",
+          "suggestedFix": "A moment.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-05",
+          "line": 202,
+          "pattern": "F12",
+          "severity": "MILD",
+          "text": "Jaina had sat through all of Havel's talk without a word, and Sylvanas would have given a good deal to hear what she made of him.",
+          "issue": "Second non-action beat in the scene, reporting the same absence. L163 already says 'Jaina hadn't said a word since she sat down', so this restates her silence. Only the second clause (Sylvanas wanting her read on Havel) adds anything.",
+          "suggestedFix": "Sylvanas would have given a good deal to hear what Jaina made of Havel.",
+          "fixNote": "The following 'No. She wanted her where she could see her.' still parses: 'her' = Jaina. L201 and L202 have no blank line between them; add the paragraph break while editing.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-06",
+          "line": 252,
+          "pattern": "F4",
+          "severity": "MILD",
+          "text": "They had carried sacks all day, and they were going home.",
+          "issue": "Over-translation of the beat before it. 'got up with a hand on a knee and a wince, and one stood arching his back with his fists in it' already shows tired workers. This sentence names what the gestures showed, and the contrast with the sentries in the next paragraph works without it.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-07",
+          "line": 273,
+          "pattern": "F11",
+          "severity": "MILD",
+          "text": "He kept his face to the lane past the wagon, past her, past Havel, whom every other man in that yard had looked at at least once.",
+          "issue": "Anaphoric clause run ('past..., past..., past...') used as a drumbeat. The meaning is that he passed her and Havel without looking, and a merged clause keeps it. This is the first run in the scene; the yard list at L244 and the cover inventory at L299 are kept as tactical inventories.",
+          "suggestedFix": "He kept his face to the lane all the way past her and Havel, whom every other man in that yard had looked at at least once.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-08",
+          "line": 297,
+          "pattern": "F3",
+          "severity": "MILD",
+          "text": "She stopped at the corner while the wagon ground on without her, and waited a moment before she looked.",
+          "issue": "Temporal padding: 'waited a moment'. Deletion test: what makes the pause tactical is the wagon pulling clear, not how long it lasted.",
+          "deletionTest": "She stopped at the corner and let the wagon grind on without her before she looked.",
+          "suggestedFix": "She stopped at the corner and let the wagon grind on without her before she looked.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-09",
+          "line": 315,
+          "pattern": "F3",
+          "severity": "MILD",
+          "text": "On the side of the nearest she could make out a sheaf in a ring, stencilled, with lettering under it that she knew.",
+          "issue": "Filter/hedge drag: 'she could make out'. The sightline is already set by the knocked-out pane (L313), so the perception verb is scaffolding. 'that she knew' stays because the recognition is the event.",
+          "deletionTest": "On the side of the nearest was a sheaf in a ring, stencilled, with lettering under it that she knew.",
+          "suggestedFix": "On the side of the nearest was a sheaf in a ring, stencilled, with lettering under it that she knew.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-10",
+          "line": 384,
+          "pattern": "F4",
+          "severity": "MILD",
+          "text": "\"They know what it does,\" Jaina said. \"Whatever's on the outside of those gloves can kill the man inside them.\"",
+          "issue": "Over-translation of the gesture before it. Sylvanas has just mimed peeling off the glove at arm's length, and L323-325 already drew the scrubbed-arms contrast. 'They know what it does' puts the mime into words, so this is the point's third pass. The second sentence stays because it adds Jaina's own read (the crock-strength stuff can kill the handler), which Sylvanas cannot get herself.",
+          "suggestedFix": "\"Whatever's on the outside of those gloves can kill the man inside them,\" Jaina said.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "summaryBlock": {
+        "F1": "0 (telegram runs at L37-55 are gate interrogation; deliberate)",
+        "F2": 0,
+        "F3": 2,
+        "F4": 2,
+        "F5": 0,
+        "F6": 0,
+        "F7": 1,
+        "F8": 1,
+        "F9": 1,
+        "F10": 1,
+        "F11": 1,
+        "F12": 1,
+        "F13": 0,
+        "F14": 0,
+        "F15": 0,
+        "worstFailureMode": "F3 / F4",
+        "overallAssessment": "The remaining issues are small. They are local redundancies (restated silence, restated fatigue, a gesture put into words) and dialogue tics (echo, vocative, a sign-off stack). No scene-level softening, and no dying-fall endings."
+      }
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Ranger-General. She reads ground first: exits, sightlines, gait, who is drilled and who is tired, and politics turns into terrain in her head. Inside, she argues in short questions and semicolon clauses, answers herself badly and overrules herself, is openly unfair to slow humans and magisters, and names no feelings (fear comes out as irritation or a body fact). She would not think in epigraphs, habitual self-portraits or thematic punchlines.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 27,
+      "kills": 2,
+      "keeps": 25,
+      "severity": {"mild": 2, "moderate": 0, "severe": 0},
+      "dominantPattern": "A1 / A7 (one each)",
+      "findings": [
+        {
+          "id": "B-r2-11",
+          "line": 7,
+          "pattern": "A7",
+          "tier": "A",
+          "severity": "MILD",
+          "text": "She read the gate as she had read every gate since the Pass, for where it was weak and when.",
+          "whoIsSayingThis": "Narrator. It is a habitual self-portrait ('as she had read every gate since the Pass') placed over the scan as a thesis line.",
+          "povMismatch": "This pulls back from the present gate to a statement about her habits, at essay distance. 'and when' never pays off in the scan that follows. The next paragraph does the actual reading (chest-high wall, a tailboard for a ladder, the man on the walk with his back turned).",
+          "suggestedFix": "",
+          "fixNote": "Delete the one-sentence paragraph. L5 ('...it always did when she was quick.') runs straight into L9 ('The wall was field stone...').",
+          "fixDifficulty": "low",
+          "confidence": "HIGH",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-12",
+          "line": 261,
+          "pattern": "A1",
+          "tier": "A",
+          "severity": "MILD",
+          "text": "Whatever was killing Andorhal had sentries.",
+          "whoIsSayingThis": "Narrator. It is a punchline verdict pinned under the sentry inventory.",
+          "povMismatch": "The tactical reading is already finished in 'Somebody had chosen every spot as she would have chosen it herself.' This line adds no new fact (she has known since Brask's granary that men are behind the plague). It sums up the moment as an epigraph. It also sits on L261 with no blank line before it, so it reads as a pasted-on caption.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph ends on 'as she would have chosen it herself.' If pass A's fix for this line is also on the table, deletion covers both.",
+          "fixDifficulty": "low",
+          "confidence": "HIGH",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "summaryBlock": {
+        "tierAKills": 2,
+        "tierBKills": 0,
+        "severePages": [],
+        "severeScenes": [],
+        "structuralHabit": "no"
+      }
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 14,
+      "kills": 0,
+      "keeps": 14,
+      "severity": {"mild": 0, "moderate": 0, "severe": 0},
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "I examined 14 compressed or tactical lines in narration and dialogue: L153 Havel/Corin semicolon pair, L159 'whether that was all of it', L195 'Jaina could read the bags', L201 'what the mage came back with', L210 'That's mine.', L321 'two kinds of them / carried word between cracks', L364 'What it carries only wakes', L378 'alchemist's bench... Necromancy', L380 'These stand sentry', L404 'right every time he opened his mouth', L414 'Corin's already put those on the south road', L430 'They think the city's theirs', L438 'his death sewn into his collar', L452 'men who drilled at corners'. Each one can be cashed out from evidence already on the page: the four named yards and the south/weir/east roads, the split reasoning at L195, the crack and the loft conversation, the Brask collar at L256, Havel's account of the loaders stopping at corners, Corin's bills on the table. L364's withheld payload is required by the plan (the ladder rung stops at 'carrier layer applied at packaging, body finishes the work'). No planner shorthand or status-note lines were found. The split decision at L195-199 names the corridor, the bags, the lane and the drilled walk instead of summarizing them."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severity": {"mild": 0, "moderate": 0, "severe": 0},
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "There are no explicit 'plainly / short version / say it in streets' setups. I audited four implicit translation exchanges. (1) L105-107 'Is it?' / 'Damp doesn't stop at a street corner. This does.' answers with a widow on a named corner and separate ovens, a usable sign. (2) L360-364 Jaina's findings for Sylvanas: copied marks bad, true marks clean, hand-applied after dressing and before sewing. That is a target plus a visible stage. (3) L410-416 'what's left in the loft?' leads to the crock, washed out or in the weir, with Corin's first-cart timing, which is a threshold. (4) L400 'From Dalaran, I mean.' clarifies a named target. Each reply gives the listener something to act on, and none needs a second round of unpacking."
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 76,
+    "mildKills": 12,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "narrator-seep-guide.md"],
+    "killsWithFix": 12,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "12 MILD kills, over the 3-MILD pass threshold, with zero MODERATE/SEVERE. All are local fixes: 5 deletions or trims and 7 one-line substitutions. Kills fell from 32 at iteration 1 to 12. Structural texture deficit (texture_score 88.7, below_target: compound 16.9% too high, em-dash 2.9% too low). Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct and mattr outside range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.684, "target": 0.733, "delta": -0.049, "inRange": true},
+      "sentence_length_mean": {"actual": 12.5, "target": 12.412, "delta": 0.088, "inRange": true},
+      "sentence_length_cv": {"actual": 0.761, "target": 0.723, "delta": 0.038, "inRange": true},
+      "short_sentence_pct": {"actual": 35.6, "target": 30.155, "delta": 5.445, "inRange": true},
+      "long_sentence_pct": {"actual": 22.6, "target": 15.352, "delta": 7.248, "inRange": false},
+      "opener_entropy": {"actual": 6.34, "target": 6.637, "delta": -0.297, "inRange": true},
+      "one_sentence_paragraph_pct": {"actual": 30.7, "target": 21.378, "delta": 9.322, "inRange": false},
+      "mattr": {"actual": 0.786, "target": 0.848, "delta": -0.062, "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct 22.6 above range [12.35, 19.35]", "one_sentence_paragraph_pct 30.7 above range [17.38, 26.38]", "mattr 0.786 below range [0.818, 0.888]"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 88.7,
+      "participial_pct": 6.7,
+      "compound_pct": 16.9,
+      "emdash_pct": 2.9,
+      "semicolon_pct": 1.1,
+      "short_pct": 45.0,
+      "verdict_reasons": [
+        "compound: 16.9% above target 14.135% (score 75/100)",
+        "emdash: 2.9% below target 5.119% (score 80/100)"
+      ],
+      "interpretation": "COMPOUND: 16.9% -> target 14.135% (score 75/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.9% -> target 5.119% (score 80/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": {"telegram_run": 9, "texture_desert": 10},
+      "note": "Structural texture deficit. Kill B-r2-07 (L273) sits near the sentence-387 texture desert. The L25 and L384 deletions shorten zones already flagged as deserts (sentence 12, sentence 553)."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 41,
+        "total_violations": 2,
+        "overCap": ["filter_words/filter_watched (4 > 3, pass A)", "narrator_verdict/verdict_enough_for (1 > 0, pass B)"],
+        "passBMappedSignals": [
+          {"pattern": "verdict_enough_for", "line": 222, "text": "wide enough for one wagon and a man flat against the wall beside it", "decision": "KEEP", "reason": "Concrete physical measurement of lane width that she takes for cover. Not narrator editorializing."}
+        ]
+      }
+    }
+  }
+}

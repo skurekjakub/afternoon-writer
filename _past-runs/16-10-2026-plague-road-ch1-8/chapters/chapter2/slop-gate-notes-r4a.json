@@ -1,0 +1,283 @@
+{
+  "chapterId": "chapter2",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative",
+  "fixStrategyReason": "iterationKillsA = [51, 13, 4, 4]. The latest count (4) equals the minimum prior count (4), so the loop is oscillating and minimal-change fixes were preferred.",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 16,
+      "kills": 0,
+      "keeps": 16,
+      "killRate": "0%",
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [],
+      "cleanReason": "All 70+ negation-bearing sentences were swept (grep for not/n't/never/nothing/nobody/none/no/nor). Sixteen have a contrast or pivot shape, and each keeps under a numbered condition: hard constraint (L25 untrained in necromancy; L473/L477 no knife), binary diagnostic (L77 chair vs stone, which Windrunner's terms pick up at L85 and which recurs at L167; L277-281 'Your lines don't spread... They close.', which sets up source vs sink; L459 tracks spread for running vs moving together, answering L457), spatial precision (L57 'not touching it'; L391 'it wasn't hers' on a spinning mare), procedural or prohibitive (L89 terms; L117 'No. Again.'; L203 'Not on the hill.'), or self-argument that the next line complicates (L51, L207, L287, L347, L499 and L503). The rest are plain negative facts with no rejected X: absence used as evidence (no smoke L323/L561, Cyndia's farmhouse report L343, the silent wood L371, no dogs L571) and result statements (L209, L243, L121). None has the 'not X. Y.' reveal rhythm, and there is no narration and dialogue pivot cluster. The keep rate is high because three prior revision rounds already removed the decorative pivots. Every remaining negation either carries a scene fact or meets a numbered condition."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 46,
+      "kills": 1,
+      "keeps": 45,
+      "killRate": "2.2%",
+      "severityMarkers": {
+        "MILD": 1,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P10-actor-omission",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "A dedicated P5/P6 sweep went sentence by sentence through all 589 lines. Roads and tracks: ran, bent, went up, ran down, following the ring, met. These are literal route-geography verbs of the 'road led' class, and none of them is carried, lit, went hotter or turned. Maps and plans: L285 'with the map already read' keeps Windrunner as the clause subject, and L297 'the lines will disagree' is a technical readings-disagree idiom in Jaina's Antonidas-register dialogue. Body-part subjects: chin, hands, stomach, face, legs and forelegs appear only in involuntary contexts (dozing L213, startle freeze L279, numbness L255/L403/L467, nausea L485/L503, flush L287, death collapse L381/L417), plus one absolute phrase owned by the main subject (L79). No abstract state settles into a body part. Metaphor chains: the 'it' chain in the contamination passages (L173-175, L227-233, L453, L495) is the chapter's literal subject (plan: Jaina sees saturation, ingress and reanimation), so the subject-matter defense applies. Instrument demotion: the sweep found one actor omission, at L293. The 'the post' metonym at L7/L477 was kept as a garrison collective whose people are already in the scene (L33 'They had everything', L125 'Someone at the post').",
+      "findings": [
+        {
+          "id": "r4a-IS-1",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P10-actor-omission",
+          "severity": "MILD",
+          "line": 293,
+          "text": "The night watch at the split-cap stone, the post, Cyndia's pen, the porters at the Violet Gate, and—Light—half the people she had ever explained anything to, slowing down and smiling and picking the small words out for them.",
+          "subject": "the listed audiences (night watch, the post, Cyndia's pen, porters, half the people)",
+          "verb": "slowing down and smiling and picking the small words out",
+          "realAgent": "Jaina. She is the one who slowed down, smiled and picked small words for each of these listeners.",
+          "reason": "The verbless fragment drops Jaina, the real actor, and hangs her three actions on the list of listeners. Read as written, the night watch and 'Cyndia's pen' are the ones slowing down and picking out words 'for them', which turns the self-indictment backwards. 'Cyndia's pen' also stands in for Cyndia (an instrument in place of the person). Test: with 'she had slowed down...' as the subject, the sentence means the same thing, so it fails P10.",
+          "suggestedFix": "The night watch at the split-cap stone, the post, Cyndia with her pen, the porters at the Violet Gate, and—Light—half the people she had ever explained anything to. She had slowed down for every one of them, and smiled, and picked the small words out.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNotes": "Negation: the fix adds no negation. Intent-smear: Jaina is the explicit subject of every action verb, and Cyndia replaces the pen metonym. Recurring tics: no corner-of-mouth, gaze, tightened/eased, shifted, weight or tag tic is introduced, and 'smiled' is a full smile, not a micro-expression. Conservative strategy (trajectory 51,13,4,4 is oscillating): the fix keeps the list word for word apart from one noun swap and only turns the dangling participles into one short clause."
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 14,
+      "kills": 0,
+      "keeps": 14,
+      "killRate": "0%",
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "counts": {
+        "tic1_cornerOfMouth": {
+          "count": 0,
+          "cap": 1
+        },
+        "tic2_marked": {
+          "count": 0,
+          "cap": 2
+        },
+        "tic3_tightened": {
+          "count": 3,
+          "cap": 3,
+          "note": "all physical: L3 cord pulled tight, L183 back tight as a drumhead, L567 rigging drawn tight"
+        },
+        "tic3_eased": {
+          "count": 0,
+          "cap": 2
+        },
+        "tic4_facialShifted": {
+          "count": 0,
+          "cap": 1,
+          "note": "L117 'shifted her grip' is physical and exempt"
+        },
+        "tic5_eyeGazeEmotional": {
+          "count": 4,
+          "cap": 4,
+          "note": "L17, L213, L311, L319. Tactical scans at L185, L323, L535 and L563 are character-specific ranger/investigator looks with a concrete object, so they are not counted as emotional gaze beats."
+        },
+        "tic6_weightMetaphor": {
+          "count": 0,
+          "cap": 2,
+          "note": "every weight/heavy is physical: L15/L459 weight even, L551 weight forward, L227/L235 heavy clay"
+        },
+        "tic7_nonSaidTags": {
+          "count": 1,
+          "cap": 3,
+          "note": "L39 'began'. L183 'murmured to it in Thalassian' is narrated speech to a horse, not a dialogue tag."
+        }
+      },
+      "findings": [],
+      "cleanReason": "Every tic is at or under its cap, so the count-based procedure produces no excess instances to kill. Tic 5 is exactly at cap (4), and two of the four are Lyriel's tactful look-away (L213, L311), which is character-specific. All pass-A-mapped tool signals were reviewed and kept. punct_emdash_cluster at L547 (*liver—roots—alive—before*) is the literal text Jaina writes in her field-book, so the dashes are diegetic notation. Semicolons (9/20), narration colons (9/10), participial_trailing (15/40) and similes (like 3/20, as if 3/5, as though 1/3) are all under cap. filter_decided at L287 is the arc beat of Jaina pre-judging Windrunner, filter_watched at L323 is sustained looking at the evidence chimney, and bookism_murmured at L183 is not a dialogue tag."
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 75,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 1 MILD kill (P10 actor omission at L293) and 0 MODERATE/SEVERE, within the 3-MILD limit. Negation and recurring tics are clean. Structural rhythm concerns: sentence_length_cv, one_sentence_paragraph_pct, long_sentence_pct, opener_entropy and mattr are outside the style-guide ranges. Structural texture deficit: texture is below_target (score 73.4) because participials are low, compound joins are high and em-dashes are low. These are passed downstream and do not affect the pass-A verdict.",
+    "advisories": {
+      "note": "These repetitions are outside the pass-A guide catalogue, so they are not KILLs and do not affect the verdict. They are logged for downstream editors.",
+      "items": [
+        "'at/round the edges' x5: L243 'going grey at the edges', L421 'round the edges of her', L445 'go soft at the edges', L451 'cracked at the edges', L539 'went soft at the edges'",
+        "'set stiff' x2: L3 'Her neck had set stiff', L107 'had set her knees stiff'",
+        "cold-up-under-robe-to-knees image x2: L133, L211",
+        "'the way X' simile frame about 11 times (L17, L25, L27, L175, L209, L227, L231, L285, L421, L495, L503). The tool's simile counters do not cover it.",
+        "'quietly' on three speech beats: L121 'very quietly', L311 'said it quietly', L373 'quite quietly'"
+      ]
+    },
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.828,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": 0.108,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.7,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "delta": 1.7,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.826,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.126,
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 36.9,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "delta": 1.9,
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.8,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "delta": 12.8,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.04,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "delta": -1.66,
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 31.6,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 12.6,
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.781,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "delta": -0.049,
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 73.4,
+      "participial_pct": 6.4,
+      "compound_pct": 15.5,
+      "emdash_pct": 1.7,
+      "semicolon_pct": 1.1,
+      "short_pct": 45.7,
+      "verdict_reasons": [
+        "participial: 6.4% below target 12.0% (score 57/100)",
+        "compound: 15.5% above target 10.0% (score 57/100)",
+        "emdash: 1.7% below target 4.0% (score 79/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.4% → target 12.0% (score 57/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 15.5% → target 10.0% (score 57/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.7% → target 4.0% (score 79/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 10,
+        "texture_desert": 13
+      },
+      "note": "structural texture deficit"
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_words": 10232,
+      "total_matches": 54,
+      "total_violations": 2,
+      "overCap": [
+        {
+          "pattern": "punct_emdash_cluster",
+          "category": "punctuation_tics",
+          "line": 547,
+          "mappedGuide": "recurring-prose-tics.md",
+          "gateDecision": "KEEP (diegetic field-book notation)"
+        },
+        {
+          "pattern": "verdict_too_x_for",
+          "category": "narrator_verdict",
+          "line": 131,
+          "mappedGuide": "narrator-seep-guide.md (pass B)",
+          "gateDecision": "out of pass-A scope"
+        }
+      ],
+      "passAMappedSignals": "punctuation_tics, participial_attachment, simile_overload, filter_words and said_bookisms were all reviewed and kept (see recurring-prose-tics cleanReason). contact_verbs (found L145, settled L319, pressed L175) has no guide mapping. These were reviewed under intent-smear and kept. No abstract_locomotion, inanimate_agency, negation_addiction, breath_tells or body_cliches matches."
+    }
+  }
+}

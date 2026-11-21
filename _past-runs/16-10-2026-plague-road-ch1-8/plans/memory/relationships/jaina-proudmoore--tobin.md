@@ -1,0 +1,3 @@
+# Jaina and Tobin
+
+He says 'Dalaran' as if it were far away and to blame; offers to look at her hands (declined); treated every case as fever. She asks him for a slate (he has one on a nail inside the door) and he writes the names in big square capitals because she cannot hold chalk: name, how long ill, how much she found, which well. His knowledge of the village (who draws from which well, who is mean enough not to dig one, whose wife is gone) turns her readings into a pattern, and when she asks about Garran's food it is Tobin who is feeding him sops. 'Wait. Write that.' He tips the bowl into the slop bucket ('Ellen's a good girl.' 'I know she is. Please.') and later feeds Mother Haw's oatcakes. 'No bread. I heard you the first time.'

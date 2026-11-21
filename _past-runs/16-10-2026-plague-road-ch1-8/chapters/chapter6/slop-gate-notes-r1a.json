@@ -1,0 +1,276 @@
+{
+  "chapterId": "chapter6",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA = [42]; no oscillation)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 18,
+      "kills": 3,
+      "keeps": 15,
+      "killRate": "17%",
+      "severity": "MILD",
+      "dominantPattern": "Pattern 7 (chained negation) / repeated 'No.' self-rebuttal pivot",
+      "clusterPages": [],
+      "clusterWarnings": [
+        "'No.' self-rebuttal opener used four times in narration (L21, L25, L99, L214), twice within four lines in S1 (L21, L25). The L21 instance is killed to break the S1 cluster; L25, L99 and L214 survive under condition 4."
+      ],
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 21,
+          "text": "No. A fever didn't come in layers a fortnight apart, or keep to one road and leave the King's road clean beside it.",
+          "pattern": "Pattern 2 fragment pivot / cluster rule (same 'No.' shape repeated at L25 four lines later)",
+          "deletionTest": "She had held on to that one since Millhaven without saying it aloud ... A fever didn't come in layers a fortnight apart. The rebuttal survives without the 'No.' beat.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The 'No.' fragment is the same self-rebuttal pivot that opens L25 ('No. Slower.'); two in one thought-run is the pattern repeating. The fever sentence itself is a binary diagnostic and stays.",
+          "suggestedFix": "But a fever didn't come in layers a fortnight apart, or keep to one road and leave the King's road clean beside it.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-2",
+          "line": 123,
+          "text": "She reached up, took Jaina under the arms and lifted her down, as she had at every stop since the sick village, without being asked and without making anything of it.",
+          "pattern": "Pattern 7 chained negation (without X and without Y)",
+          "deletionTest": "She reached up, took Jaina under the arms and lifted her down, as she had at every stop since the sick village. Survives and lands harder; 'every stop' already carries the habit.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 7: Lyriel's action is characterized by two refusals that the action itself already shows.",
+          "suggestedFix": "She reached up, took Jaina under the arms and lifted her down, as she had at every stop since the sick village.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-3",
+          "line": 235,
+          "text": "Jaina had no wish to tell her about the bracken, the fence, the female humming by the hut; it wouldn't have changed a thing Sylvanas had read off him.",
+          "pattern": "Pattern 7 chained negation (Sylvanas didn't ask. / had no wish / wouldn't have changed)",
+          "deletionTest": "Cut the negated desire and the negated consequence: Jaina kept the memory to herself. The plan constraint (memory stays inside Jaina) survives intact.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Three negations in a row build a hallway to a non-event; the second clause also speculates about what Sylvanas read, which Jaina cannot know.",
+          "suggestedFix": "Jaina kept the bracken, the fence and the female humming by the hut to herself.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 27,
+      "kills": 5,
+      "keeps": 22,
+      "killRate": "19%",
+      "severity": "MILD",
+      "dominantPattern": "Pattern 10 actor omitted (reading handed to the road/prints) and Pattern 8 body-part/voice subjects",
+      "clusterFlags": [],
+      "repeatNouns": ["'read' handed to non-human subjects twice in S1 (L1 bend, L19 prints) while Jaina is the reader; L95 and L155 correctly give 'read' to Jaina"],
+      "pattern4Alert": "no",
+      "secondSweep": "P5/P6 sweep re-read every sentence for inanimate/abstract subjects with agency, motion, combustion or cognition verbs, body-part volition, states settling into body parts, and metaphor chains. The drag/weight sentences (L3, L13, L254, L288, L314-316, L354) are the chapter's literal in-world sensing and survive under subject-matter defense; no metaphor chain hands one inanimate subject a run of human verbs. New catches from the sweep: L9 sensation landing verb, L236 voice-as-subject, L244 hands-as-subject.",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 1,
+          "text": "The south road climbed under the hills in long bends between the hedges, each bend reading the same as the last.",
+          "pattern": "Pattern 10 receiver noun doing the human work (actor omitted)",
+          "subject": "each bend",
+          "verb": "reading",
+          "realAgent": "Jaina, reading the road through the staff (the chapter's own term: 'the road she had been reading all morning', L95)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 10: the reading is Jaina's act, and the opening sentence hands it to the bend and omits her.",
+          "suggestedFix": "The south road climbed under the hills in long bends between the hedges, and every bend Jaina read through the staff was the same as the last.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-2",
+          "line": 19,
+          "text": "And Millhaven's dead had got up out of their beds and walked north up the cow way, leaving prints in the lane that read like this road.",
+          "pattern": "Pattern 10 receiver noun doing the human work (actor omitted)",
+          "subject": "prints",
+          "verb": "read like",
+          "realAgent": "Jaina, who set the heel of the staff in a dead man's footprint at Millhaven (L15)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 10: the prints are given the reading Jaina did; L15 already carries the comparison, so the clause only needs to point back to her act.",
+          "suggestedFix": "And Millhaven's dead had got up out of their beds and walked north up the cow way, leaving the prints she had set the staff in.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-3",
+          "line": 9,
+          "text": "She had slept sitting against a stone block with her cheek on the end of a bench, and the cold had got into her right shoulder.",
+          "pattern": "Sensation given a landing verb (calibration: 'The old ache settled back into the joint.')",
+          "subject": "the cold",
+          "verb": "had got into",
+          "realAgent": "Her shoulder, stiff from a night against stone",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Sensation-as-agent entering the body; state the condition of the shoulder. Sits at the edge of texture_desert 15-27.",
+          "suggestedFix": "She had slept sitting against a stone block with her cheek on the end of a bench, and her right shoulder was stiff with cold.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-4",
+          "line": 236,
+          "text": "\"Thank you, Lieutenant. Please thank His Highness for us.\" Her voice held level. \"We won't be staying.\"",
+          "pattern": "Pattern 8 body part acting for its owner (voice as subject of 'held')",
+          "subject": "Her voice",
+          "verb": "held level",
+          "realAgent": "Jaina, keeping her voice level (L163 already gives the agentive version: 'She kept her voice level.')",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8: replace the voice with Jaina and the meaning is unchanged; the line delivery already shows the control. Inside telegram_run 373-380.",
+          "suggestedFix": "\"Thank you, Lieutenant. Please thank His Highness for us. We won't be staying.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-5",
+          "line": 244,
+          "text": "Lyriel was there, her hands going under Jaina's arms, and then Jaina was up in the saddle",
+          "pattern": "Pattern 8 body part acting for its owner (hands as subject of the lift)",
+          "subject": "her hands",
+          "verb": "going under",
+          "realAgent": "Lyriel, lifting Jaina",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8: Lyriel does the lift; the absolute phrase hands it to her hands.",
+          "suggestedFix": "Lyriel was there to lift her, and then Jaina was up in the saddle",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 22,
+      "kills": 4,
+      "keeps": 18,
+      "severity": "MILD",
+      "dominantPattern": "Tic 5 eye/gaze repertoire exhaustion (7 emotional/assessment gaze beats against a cap of 4)",
+      "ticCounts": {
+        "tic1_cornerOfMouth": 0,
+        "tic2_marked": 1,
+        "tic3_tightened": 0,
+        "tic3_eased": 2,
+        "tic4_shiftedFacial": 0,
+        "tic5_eyeGazeBeats": 7,
+        "tic6_weightMetaphor_emotional": 0,
+        "tic7_performanceTags": 0
+      },
+      "findings": [
+        {
+          "id": "A-TIC-1",
+          "line": 143,
+          "text": "Jaina glanced round. Sylvanas stood as she had, her face still.",
+          "pattern": "Tic 5 eye/gaze beat over cap (generic check-the-face glance; 'her face still' repeats L39)",
+          "toolSignal": "filler_glanced",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Weakest of seven gaze beats: a reaction check that yields nothing new. Inside texture_desert 211-226 and telegram_run 212-219; the deletion also lets the 'Your Highness' line run straight into Jaina's appeal.",
+          "suggestedFix": "",
+          "fixNote": "Delete both sentences. Sylvanas's level 'Your Highness' line is followed directly by Jaina's \"Arthas, I need you to listen to me, all the way to the end.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-TIC-2",
+          "line": 334,
+          "text": "Lyriel glanced at Sylvanas's back, then moved her own horse in until their knees touched.",
+          "pattern": "Tic 5 eye/gaze beat over cap (generic permission-check glance)",
+          "toolSignal": "filler_glanced",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Generic glance; the horse move and the hand on the reins carry Lyriel's choice.",
+          "suggestedFix": "Lyriel moved her own horse in until their knees touched.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-TIC-3",
+          "line": 227,
+          "text": "Sylvanas looked up the hill toward where the rider had gone, at the crowd round the big tent.",
+          "pattern": "Tic 5 eye/gaze beat over cap (look-away before a verdict line)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Third-weakest gaze beat; it stages a look before her assessment instead of letting the assessment answer Jaina directly.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence and name the speaker in the next paragraph: \"He's a good commander,\" Sylvanas said, \"with an enemy he can see and men who'd follow him into it. He'll fight that war, and likely win it.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-TIC-4",
+          "line": 153,
+          "text": "He was listening as she had seen him listen to a fencing master, his mouth pressed.",
+          "pattern": "Tic 3 family: mouth pressed as tension shorthand (second face beat in six lines after L147 'his face going serious')",
+          "toolSignal": "contact_pressed",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Generic mouth-tension beat stacked on L147's face beat; L147's folded arms are the concrete carrier already on the page.",
+          "suggestedFix": "He was listening as she had seen him listen to a fencing master, his arms still folded.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 55,
+    "mildKills": 12,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "guidesWithKills": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "killsWithFix": 12,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "12 MILD kills (more than 3 MILD-only), zero MODERATE/SEVERE. Negation 3 (chained negation L123/L235, repeated 'No.' pivot L21); intent smear 5 (reading handed to bend/prints L1/L19, cold landing in shoulder L9, voice and hands as subjects L236/L244); tics 4 (Tic 5 gaze beats 7 vs cap 4: L143/L227/L334; mouth pressed L153). Structural texture deficit (87.2, below_target: participial and em-dash low). Structural rhythm concerns: long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.797, "target": 0.733, "delta": 0.064, "inRange": true},
+      "sentence_length_mean": {"actual": 12.7, "target": 12.412, "delta": 0.288, "inRange": true},
+      "sentence_length_cv": {"actual": 0.747, "target": 0.723, "delta": 0.024, "inRange": true},
+      "short_sentence_pct": {"actual": 33.2, "target": 30.155, "delta": 3.045, "inRange": true},
+      "long_sentence_pct": {"actual": 22.7, "target": 15.352, "delta": 7.348, "inRange": false},
+      "opener_entropy": {"actual": 6.02, "target": 6.637, "delta": -0.617, "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 27.1, "target": 21.378, "delta": 5.722, "inRange": false},
+      "mattr": {"actual": 0.789, "target": 0.848, "delta": -0.059, "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "texture_score": 87.2,
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "verdict_reasons": [
+        "participial: 5.4% below target 7.23% (score 85/100)",
+        "emdash: 0.9% below target 5.119% (score 64/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.4% -> target 7.23% (score 85/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 0.9% -> target 5.119% (score 64/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "values": {"participial_pct": 5.4, "compound_pct": 14.8, "emdash_pct": 0.9, "semicolon_pct": 2.1, "short_pct": 42.4},
+      "flaggedPassages": {"telegram_run": 6, "texture_desert": 9},
+      "killsInFlaggedZones": ["A-TIC-1 (L143, texture_desert 211-226 / telegram_run 212-219)", "A-IS-4 (L236, telegram_run 373-380)", "A-IS-3 (L9, edge of texture_desert 15-27)"]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 46,
+        "total_violations": 1,
+        "overCap": ["vague_pointers.something_vague 3/2 (pass B, phantom-concreteness; not audited here)"],
+        "atCap": ["punctuation_tics.punct_colon_narration 7/7 (all list colons; KEEP)"],
+        "passAMappedSignals": "filler_glanced 3/4 (L143, L334 KILL; L205 KEEP), filter_watched 2/3 (KEEP), filter_decided 1/3 (KEEP), participial_trailing 11/29 (KEEP; texture wants more), simile_as_if 3/5 and simile_as_though 1/3 (KEEP), punct_semicolon 12/14 (KEEP), contact_pressed 1/6 (L153 KILL). No negation_addiction, abstract_locomotion, inanimate_agency, breath_tells, body_cliches or temporal_padding hits."
+      }
+    },
+    "incidentalObservations": [
+      "Paragraph breaks missing (outside pass A guides, flagged for the slophunter): L207/L208 ('Out of the camps...' runs into the flashback paragraph), L214/L215 ('He'd been kind about it, the whole time.' runs into 'And she had ridden down that hill...'), L235/L236 (Jaina's no-wish line runs into 'An officer was picking his way...'). In markdown these render as merged paragraphs."
+    ]
+  }
+}

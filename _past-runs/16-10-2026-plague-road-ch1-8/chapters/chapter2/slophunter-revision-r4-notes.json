@@ -1,0 +1,64 @@
+{
+  "chapterId": "chapter2",
+  "mode": "revision",
+  "iteration": 4,
+  "changes": [
+    {
+      "feedbackRef": "A → intent-smear-agency-laundering-guide.md → A-IS-1",
+      "line": 187,
+      "before": "A hand came over and took hold of her reins below the mare's chin. It was Lyriel. She held the reins in the starlight, then let go and dropped back to Jaina's knee.",
+      "after": "Lyriel leaned across and took hold of her reins below the mare's chin. She held them in the starlight, then let go and dropped back to Jaina's knee.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A → intent-smear-agency-laundering-guide.md → A-IS-2",
+      "line": 275,
+      "before": "Her hands were up, the right one still clumsy, laying the river out flat in the air between the mare's ears and spreading her fingers wide from it.",
+      "after": "She had her hands up, the right one still clumsy, and laid the river out flat in the air between the mare's ears, spreading her fingers wide from it.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A → intent-smear-agency-laundering-guide.md → A-IS-3",
+      "line": 359,
+      "before": "...as the road narrowed between the hedges, the end of whatever she'd meant to say going with her.",
+      "after": "...as the road narrowed between the hedges, and kept the rest of it to herself.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A → intent-smear-agency-laundering-guide.md → A-IS-4",
+      "line": 499,
+      "before": "Part of her sat up at it, a hound hearing its name, and she hated that, hated it with her hand in a dead doe to the wrist, while the same part was already drafting the next test.",
+      "after": "She came alert at it like a hound hearing its name, and hated that, hated it with her hand in a dead doe to the wrist, while she was already drafting the next test.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B → gpt-5-prose-issues.md → B-GPT5-1",
+      "line": 309,
+      "before": "She'd heard. Jaina was quite sure she'd heard.",
+      "after": "(paragraph deleted; the preceding paragraph now runs straight into Lyriel's line)",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B → narrator-seep-guide.md → B-SEEP-1",
+      "line": 503,
+      "before": "A deer drank from the stream, stripped bark, and lay down every night in the same hollow in the bracken, picking things up in a hundred places a mage had never thought to look.",
+      "after": "The doe could as easily have drunk it from the stream, or eaten it with the bark she stripped, or lain down in it in the bracken.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B → phantom-concreteness-guide.md → B-PC-1",
+      "line": 281,
+      "before": "The rest pass near enough to bend.",
+      "after": "The rest miss it by less than the width of your pen.",
+      "source": "gate-suggestion"
+    }
+  ],
+  "unfixable": [],
+  "selfAudit": "Micro-hunt on the 7 changed passages: no hitlist patterns, no new negation, no intent-smear (Lyriel, Jaina, Windrunner and the doe are actors), no eye/gaze beats added (chapter stays at 3/4), no new narrator-seep. Windrunner's replacement line cashes out to a measurable distance. Self-audit fixes needed: none.",
+  "flags": [
+    "references/slop-hitlist.md (config priming.antiSlop) does not exist at the expected path; self-audit was done against the gate guides and the revision brief only.",
+    "Advisory from pass A, not applied because the passage was not flagged as a kill: 'Light help her' at L331 could be thinned.",
+    "v2-r4.md was created by copying v2-r3.md and applying 7 Edit calls, to avoid retyping 53KB of prose."
+  ],
+  "wordCount": { "before": 10258, "after": 10237 }
+}

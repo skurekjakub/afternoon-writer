@@ -1,0 +1,435 @@
+{
+  "chapterId": "chapter5",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB [55, 17] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 41,
+      "kills": 8,
+      "keeps": 33,
+      "severityMarkers": {
+        "MILD": 8,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F4 / F9 (2 each)",
+      "modeCounts": {
+        "F1": 0,
+        "F2": 1,
+        "F3": 0,
+        "F4": 2,
+        "F5": 0,
+        "F6": 0,
+        "F7": 1,
+        "F8": 1,
+        "F9": 2,
+        "F10": 0,
+        "F11": 0,
+        "F12": 1,
+        "F13": 0,
+        "F14": 0,
+        "F15": 0
+      },
+      "notes": "F1: no sustained template stretch. Short-sentence runs are dialogue or tactical scans. The consecutive 'Sylvanas ...' paragraph openers at L601-607 are left to pass A (paragraph_structure, plus the pass A r2 kill on 'studied'). F5: the overseer's lie costs the day, Barov guilt stays unproven, and the Sylvanas/Jaina beat resolves to work-trust, not warmth, so nothing is softened. F15: every scene ends on action or a moving threat (L279 trot, L517 laying slips, L695 the moving brown smear).",
+      "findings": [
+        {
+          "id": "B-r2-01",
+          "pattern": "F4",
+          "failureMode": "Narrative over-translation (claim -> gloss)",
+          "line": 117,
+          "scene": "The Paper Trail",
+          "text": "Sylvanas did not offer to take it. She would have hated whoever did it.",
+          "whatItRestates": "The restraint already shows Sylvanas's practical respect for the mage's struggle. The second sentence explains the motive, which the reader already has from the shaking pen and the refusal to help. Deleting the gloss alone would leave a paragraph-final non-action beat (F12), so the fix turns the refusal into a positive act.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Sylvanas let her finish.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r2-02",
+          "pattern": "F8",
+          "failureMode": "Echo exchange",
+          "line": 249,
+          "scene": "The Paper Trail",
+          "text": "\"On the seven,\" Lyriel said, delighted, and turned to Cyndia.",
+          "echoes": "\"He put a loop on the seven,\" she said, when she could. \"On the seven.\"",
+          "repeatedWords": "On the seven",
+          "issue": "This is the second cross-speaker echo in the scene. The first is 'Or you're wrong.' / 'Or I'm wrong.' at L101-103, which is kept because it lands the mage's concession. Lyriel's reply repeats the mage's punchline and adds no fact. The laugh has already landed, and only the turn to Cyndia is needed to set up the contrast.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Lyriel turned to Cyndia.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r2-03",
+          "pattern": "F2",
+          "failureMode": "Dialogue-beat genericism",
+          "line": 351,
+          "scene": "The Cleaned Depot",
+          "text": "\"Last week. For the quarter.\" He smiled, a decent, apologetic smile. \"They go up every quarter",
+          "issue": "A generic beat verb ('smiled') padded with emotion labels ('decent, apologetic') and no physical detail. It also repeats the 'I'm sorry' two sentences later (F2 step 3). The pleasant mask is already on the page in 'Good morning', the broad pleasant face, and the apology.",
+          "toolSignal": "filler_smiled",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "\"Last week. For the quarter. They go up every quarter",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r2-04",
+          "pattern": "F9",
+          "failureMode": "Name-only line",
+          "line": 359,
+          "scene": "The Cleaned Depot",
+          "text": "\"Proudmoore,\" Sylvanas said.",
+          "standsIn": "An order to read the overseer with the staff. The mage is a step behind her at the sill, so this is not a call across distance. The name stands in for a sayable instruction.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "\"Proudmoore. Read him,\" Sylvanas said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r2-05",
+          "pattern": "F9",
+          "failureMode": "Repeated vocative",
+          "line": 407,
+          "scene": "The Cleaned Depot",
+          "text": "\"Nothing heavy since the rain, Ranger-General. Before it, plenty, but not lately.",
+          "standsIn": "Cyndia already addressed her by title once in this scene (L313, the hail before her yard report). This second vocative changes neither the addressee nor the register, so it is a tag only.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "\"Nothing heavy since the rain. Before it, plenty, but not lately.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r2-06",
+          "pattern": "F7",
+          "failureMode": "Closure addiction (paragraph-final verdict)",
+          "line": 419,
+          "scene": "The Cleaned Depot",
+          "text": "She had taken the skin off him for it in front of his post. The clock was always running.",
+          "couldEndAt": "She had taken the skin off him for it in front of his post.",
+          "issue": "An aphoristic closer that turns 'Because the clock was running' into a maxim and spells out the self-indictment. The image of her flaying the ranger in front of his post already carries the hypocrisy.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "She had taken the skin off him for it in front of his post.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r2-07",
+          "pattern": "F4",
+          "failureMode": "Narrative over-translation (decision gloss)",
+          "line": 667,
+          "scene": "The South Road",
+          "text": "She was going to put four horses on a road she could not check.\n\nThere was only the one road with the trail on it.",
+          "whatItRestates": "L663 already says 'she would watch the road the trail was on ... if anyone was waiting on a road, it was this one.' The decision is then shown by Sylvanas's 'No.' to Jaina's offer to re-read. The one-line paragraph glosses a decision the next action shows (guide calibration: 'Decision-forward' is not a keep reason).",
+          "textureZone": "Inside texture_desert sentences 1005-1016 ('The slips said both roads...'). That zone also needs joining constructions.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "She was going to put four horses on a road she could not check.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r2-08",
+          "pattern": "F12",
+          "failureMode": "Non-action beat (paragraph-final, second in scene)",
+          "line": 691,
+          "scene": "The South Road",
+          "text": "toward the front gate of Andorhal, and nobody looked at it.",
+          "expected": "Weakly. The scene's strongest non-action beat is 'The mage didn't look at the sheet.' at L539, which shows her reading from memory. This second one narrates a group non-event at a paragraph end, as a tidy closing grace note.",
+          "position": "paragraph-final",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "toward the front gate of Andorhal.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Ranger-General: clipped, tactical, contemptuous of human roads, magisters and Kirin Tor vanity. She thinks in field reads (ruts, dust in board gaps, ash), commander's maxims she has used on her own rangers, and dry unfair asides about her people (Lyriel, Cyndia). She reasons from evidence toward a decision. She does not produce essayistic typifications, reader-directed 'you', or thematic captions about what the moment means.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 24,
+      "kills": 2,
+      "keeps": 22,
+      "tierAKills": 2,
+      "tierBKills": 0,
+      "severityMarkers": {
+        "MILD": 2,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "A7",
+      "structuralHabit": "No. Gnomic-present tactical reasoning recurs (L299, L449, L505, L625) but each instance drives an inference. Only the two decorative typifications are killed.",
+      "toolSignalsReviewed": [
+        "narrator_verdict: verdict_too_x_for L695 'too brown for mist' -> KEEP (concrete physical discrimination; see scratchpad)"
+      ],
+      "findings": [
+        {
+          "id": "B-r2-09",
+          "pattern": "A7",
+          "tier": "A",
+          "line": 215,
+          "scene": "The Paper Trail",
+          "text": "At the next table two men in good brown coats were complaining about horses, the way men complain who have money and can't spend it.",
+          "whoIsSayingThis": "A narrator. The typification ('the way men complain who ...') is about a category of men. The inverted literary syntax is more polished than Sylvanas's clipped tactical register, and the aside does no tactical work. 'Good brown coats' already shows the men have money.",
+          "povMismatch": "Sylvanas's generalizations elsewhere drive a decision (dust in the board gaps, a frightened man and the stove). This one only decorates.",
+          "confidence": "MODERATE",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "At the next table two men in good brown coats were complaining about horses.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r2-10",
+          "pattern": "A7",
+          "tier": "A",
+          "line": 625,
+          "scene": "The South Road",
+          "text": "plain and polite and flat, a man telling you the weather.",
+          "whoIsSayingThis": "A narrator addressing the reader with a generic 'you'. It is the second generic 'you' in the scene; the first, L593 'could tell you the hour without wanting the sundial admired', is kept as Sylvanas's own sneer idiom. The guide allows one use.",
+          "povMismatch": "The second generic-you idiom in one scene turns her memory of a specific voice into an address to the reader.",
+          "confidence": "HIGH",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "plain and polite and flat, a man remarking on the weather.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 15,
+      "kills": 0,
+      "keeps": 15,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Examined 15 inferential, tactical-compression and abstract-dialogue candidates: L119, L153, L207, L259, L281, L307, L183/L165 (planner-shorthand check), L585, L611, L637, L657, L663, L677, L681-683. Every one cashes out from evidence already on the page. The 'day ahead' inference follows the miller's buyback and the Wick ostler. 'Somebody had had a night' follows the corner-swept barn and the 'night's work' sum. 'Three of them' follows the brown coats, toll-keeper and shoes. The mage's 'something new on top of the old' is an operational distinction inside her established heavy/light/old/starting channel. 'By late afternoon they had a table' and 'The second day went in stops' are literal or immediately itemized, not note-speak. There are no repeated placeholder stand-ins (work, shape, truth, pressure).",
+      "findings": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 9,
+      "kills": 0,
+      "keeps": 9,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "The chapter has no explicit 'plainly / smaller words / short version' setup. Nine implicit translation exchanges were audited as exchanges: L85-87 (expected lecture -> per-road heavy/light/old/starting), L67-69 ('own cart'), L61 ('And.'), L223-225 (Strahnbrad -> direction plus soldiers on every road), L231-233 (distance -> noon at first light, the Plough at halfway), L323-325 (books -> 'I can't hear paper'), L493-495 (Barov -> court seat, granaries round Andorhal), L569-585 (which road -> south road, heavy, old at the bottom, King's road thin), and L587-589 ('How sure?' -> 'As sure as Brent's', a threshold tied to the Hollow Green correction that matched the book). Each reply gives a usable road, place, distance or verified threshold, and no listener needs a second unpacking pass.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 79,
+    "mildKills": 10,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md"
+    ],
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "10 MILD kills (more than 3), 0 MODERATE/SEVERE. Down from 17 at iteration 1. All 10 have low-difficulty drop-in fixes, 4 of them deletions. Structural rhythm concerns: long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are out of range. Structural texture deficit: texture verdict below_target (score 72.9).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.832,
+        "target": 0.72,
+        "delta": 0.112,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.4,
+        "target": 11.0,
+        "delta": 1.4,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.8,
+        "target": 0.7,
+        "delta": 0.1,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true,
+        "note": "at upper bound"
+      },
+      "short_sentence_pct": {
+        "actual": 35.9,
+        "target": 35.0,
+        "delta": 0.9,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.4,
+        "target": 10.0,
+        "delta": 12.4,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.21,
+        "target": 7.7,
+        "delta": -1.49,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 29.0,
+        "target": 19.0,
+        "delta": 10.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.773,
+        "target": 0.83,
+        "delta": -0.057,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 72.9,
+      "participial_pct": 6.2,
+      "compound_pct": 14.7,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.5,
+      "short_pct": 46.1,
+      "verdict_reasons": [
+        "participial: 6.2% below target 12.0% (score 56/100)",
+        "compound: 14.7% above target 10.0% (score 61/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.2% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 14.7% -> target 10.0% (score 61/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots.",
+      "telegramRunCount": 10,
+      "textureDesertCount": 14,
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 64,
+        "total_violations": 2,
+        "overCap": [
+          "narrator_verdict.verdict_too_x_for (1/0, L695, pass B: KEEP)",
+          "paragraph_structure.opener_consecutive_repeat (1/0, L173, pass A)"
+        ],
+        "passBMappedSignals": [
+          "narrator_verdict L695 -> KEEP"
+        ],
+        "note": "Of the pass-A-mapped signals, filler_smiled at L351 is corroborated by the F2 kill B-r2-03."
+      }
+    }
+  }
+}

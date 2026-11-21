@@ -1,0 +1,41 @@
+{
+  "chapterId": "chapter2",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 2,
+      "sceneTitle": "The Road to Millhaven",
+      "findingId": "G12-001",
+      "category": "G12",
+      "severity": "MODERATE",
+      "lines": "211",
+      "excerpt": "The sweetness the Quel'Thalas air had carried even in the cell had gone with the last stone. What came up the slope now was her own side's smell, wet leaf and cattle and old woodsmoke.",
+      "reason": "This is the grounder's own addition, and it contradicts memory. locations/southern-ward-line says warmth and sweetness leave the air at the fork, on the switchback climb up to the Pass. The post and cell sit at the saddle, above that point. Neither locations/pass-holding-cell nor locations/thalassian-pass-post gives the cell a sweet air: it has the ward-lamp and the wall stone, and the alcove smells of lamp oil and cold iron. 'Even in the cell' and 'gone with the last stone' therefore move a sourced sensory boundary to the wrong place. The material's actual transition cue at the Pass is the border hum fading, and line 169 already handles that. The second half of the passage (Lordaeron smells of leaf, cattle and woodsmoke) is sourced in lordaeron-and-northrend.md and should stay.",
+      "suggestedFix": "What came up the slope out of the dark was her own side's smell, wet leaf and cattle and old woodsmoke.",
+      "fixMode": "substitute"
+    },
+    {
+      "sweep": "scene-grounding",
+      "sceneId": 3,
+      "sceneTitle": "The Wildlife Attack",
+      "findingId": "G4-002",
+      "category": "G4",
+      "severity": "MILD",
+      "lines": "397-401",
+      "excerpt": "The wolf's spine snapped under them.\n\nAnother wolf was coming for her, low along the ditch-side, head flat, filmed eyes fixed on the mare's hind legs and the soft place above the hock.",
+      "reason": "The previous paragraph ends on Neral as the active female subject, so 'coming for her' reads first as Neral, and Neral's horse has no stated sex, so 'the mare' doesn't settle it. The reader only finds out which body the wolf is going for when 'She swung the staff' arrives a paragraph later. This is Jaina's first instinctive cast, the B11 goal, at the fight's most positional moment, and the target is staged ambiguously.",
+      "suggestedFix": "Another wolf was coming for Jaina, low along the ditch-side, head flat, filmed eyes fixed on her mare's hind legs and the soft place above the hock.",
+      "fixMode": "light-swap"
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "mildKills": 1,
+    "moderateKills": 1,
+    "severeKills": 0,
+    "dominantFailures": ["G12", "G4"]
+  }
+}

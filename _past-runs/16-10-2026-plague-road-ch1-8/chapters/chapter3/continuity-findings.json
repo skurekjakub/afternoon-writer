@@ -1,0 +1,117 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter3",
+  "iteration": 1,
+  "targetFile": "v1.md",
+  "status": "pass",
+  "hardViolations": 0,
+  "softViolations": 1,
+  "truthSources": [
+    ".afternoon/config.json",
+    ".afternoon/plans/chapter3.json",
+    ".afternoon/chapters/chapter1/final.md",
+    ".afternoon/chapters/chapter2/final.md",
+    ".afternoon/plans/memory/characters/{sylvanas-windrunner,jaina-proudmoore,cyndia,lyriel,neral,lor-themar-theron}.json",
+    ".afternoon/plans/memory/world/{magic,geography,military,politics,timeline}.json",
+    ".afternoon/plans/memory/locations/{millhaven,thalassian-pass-post,southern-ward-line}.json",
+    ".afternoon/plans/memory/threads/convocation-budget-session.json",
+    ".afternoon/chapters/chapter3/continuity-findings-r0.json"
+  ],
+  "priorFindingsResolution": [
+    { "id": "V1", "status": "resolved", "note": "The lane is now behind the EAST-side gardens (L247), and Cyndia swept the end house (L319). The cut starts east of the Pass road and never crosses it. 'Looked west ... was the road' (L665) and 'the light coming up ... on her left hand' walking south down the lane (L717) are now consistent. Sylvanas is in the loft next door during the second, both-sides search (L309), which is legal." },
+    { "id": "V2", "status": "resolved", "note": "Cyndia's horse is a gelding at both L11 and L881." },
+    { "id": "V3", "status": "resolved", "note": "The ink is now the tin with a screwed lid and an oilcloth-wrapped pen (L731). Violet dried at the rim matches world/magic, and 'Put your lid back on your ink' (L761) matches." },
+    { "id": "V4", "status": "resolved", "note": "On the B6a watch Lyriel is given the girl's words 'all of them, in order' (L607). Either Cyndia (doorway witness) or Sylvanas could be the speaker; both were present for the testimony." },
+    { "id": "V5", "status": "resolved", "note": "The girl and the mage now say 'newer grain seller' / 'What grain seller?' (L485-487). The carter's 'sells cheaper' echo is gone (L809). Lyriel quotes the girl's wording (L813). See advisory A9 on the carter's exact phrase." },
+    { "id": "V6", "status": "resolved", "note": "'two rangers and three horses' / 'Two rangers, the horses, the feed' (L747)." }
+  ],
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L743 dispatch: 'Double the wardens on that stretch of the ring and put eyes on it from the high ground.' + L885 'the wardens doubled on the eastern ring' (+ L669 'a warden going round once a fortnight with a lens')",
+      "description": "Sylvanas's military warning asks Lor'themar to 'double the wardens'. Ch1 and memory consistently make wardens the magisters' stone inspectors: men with lenses and clerks with ledgers who ride the ring in spring and write 'stable'. Sylvanas holds them in open contempt. The chapter uses the word in that sense itself at L669 ('a warden ... with a lens'). The order therefore asks her ranger second to double a magisterial inspection corps he does not command, against sixty walking dead, when what she means is armed eyes on the ring. A reader of Ch1 will stumble on it. It is borderline because 'warden' could be read loosely as 'ward-watcher', but no chapter has ever used it that way.",
+      "evidence": "Ch1 final.md L45 (Lor'themar): 'The magisters' wardens rode it in the spring... It said stable in three different hands.' Ch1 L71 (Sylvanas): 'They sent wardens with lenses and clerks with ledgers.' Memory world/politics: 'Magisters send wardens with lenses and clerks with ledgers to inspect ward-stones.' Memory world/military: 'the night watch patrols the second ring'; the Pass is garrisoned by a ranger company. Memory sylvanas-windrunner beliefs: magisters' wardens are trusted over hands-on knowledge, which she rejects.",
+      "suggestedFix": "L743: 'Double the watch on that stretch of the ring and put eyes on it from the high ground.' (or 'Put rangers on that stretch of the ring'). L885: 'the watch doubled on the eastern ring'. L669 can stay as written, since it correctly describes the magisters' warden, but softening 'once a fortnight' to 'when the magisters remember' would also clear advisory A6."
+    }
+  ],
+  "advisories": [
+    {
+      "id": "A1",
+      "location": "L593 horse check",
+      "note": "Carried from r0, still open. The list has six horses: Neral's bay, Lyriel's, Cyndia's, the grey, the mage's mare and Sylvanas's. The fourth ranger's horse is missing, though L857 confirms seven. 'Clean. All of them.' covers it, so there is no contradiction. Adding 'the fourth's' would close the gap."
+    },
+    {
+      "id": "A2",
+      "location": "L599 'Same as this afternoon.'",
+      "note": "Carried from r0. In Ch2 (L507) only the grey was checked. This works as 'the same result as this afternoon'."
+    },
+    {
+      "id": "A3",
+      "location": "L9 'the same voice she had used in the ditch over the doe' / L771 'the voice she had used on the spare grey in the ditch'",
+      "note": "Carried from r0. In Ch2 (L475) Neral stood on the road and led the horses up and away from the ditch while talking to them; she was never in the ditch, and the grey was not in it. Read as a loose reference to 'the ditch episode' it stands. 'by the ditch' / 'on the horses by the ditch' would be exact."
+    },
+    {
+      "id": "A4",
+      "location": "L271 / L335 'come on at her'",
+      "note": "Carried from r0. In Ch2 (L397) the heart-shot doe charged the mage's mare. Sylvanas's heart arrow is confirmed (Ch2 L451 'That one had my arrow through the heart'). 'At the line' would be exact; as her loose memory it can stand."
+    },
+    {
+      "id": "A6",
+      "location": "L669 'a warden going round once a fortnight with a lens'",
+      "note": "Carried from r0. Canon has wardens riding in spring, and a fortnight is the response time to a reported fault (world/politics). A routine fortnightly round goes slightly beyond that. See V1."
+    },
+    {
+      "id": "A7",
+      "location": "B11 (L865-905)",
+      "note": "Carried from r0. B11's 'the ride south is the next two days' is never framed, and 'the next village is alive enough to misunderstand' comes only through the carter's report and one living farm. Nothing is contradicted. An optional single line (e.g. two days to the next village of any size) would make the Ch4 handoff explicit."
+    },
+    {
+      "id": "A8",
+      "location": "L795 'I was through here on market day. They were well enough then.' + L809 'every fortnight'",
+      "note": "Carried from r0. Leave it vague and do not tighten the dates. A sharper timeline could make the carter read as lying, which mustNotBeImpliedYet forbids."
+    },
+    {
+      "id": "A9",
+      "location": "L809 the carter: 'You'll not have passed a young fellow on the road? Coming down from your way, with a grain cart. New man.'",
+      "note": "New, introduced by the V5 fix. The plan names 'grain-man' as the carter's phrase (B9 plannerWarning; newOnPageInformation 'the young grain-man'). The carter now uses neither 'grain-man' nor 'grain seller'. The content is delivered intact (a young new man with a grain cart), and the two mentions stay separate, so this is not a violation. If the pipeline wants the exact designations for the Ch5/Ch15 echoes, a minimal fix is 'You'll not have passed the young grain-man on the road? Coming down from your way. New man.'"
+    },
+    {
+      "id": "A10",
+      "location": "L319 'Cyndia had been through it on the first sweep and called it empty. One room, a box bed against the far wall, a hearth ... two bowls on the table and a third on the shelf over it. She was up a ladder in the loft of the house next door...'",
+      "note": "New, introduced by the V1 fix. Sylvanas has not been inside the end house in this version, yet the narration lays out its interior, including the bed's original place against the far wall, which she never saw. That only works if the fragment is read as Cyndia's report, which matches her flat-list style. The next sentence's 'She' also follows Cyndia; L323 clears that up. A colon would make the sourcing explicit: 'Cyndia had been through it on the first sweep and called it empty: one room, a box bed against the far wall...', with 'Sylvanas was up a ladder...' in the next sentence."
+    },
+    {
+      "id": "A11",
+      "location": "L95 Cyndia's east-side report + L117 'Cyndia took the corner of the smithy wall, covering the east road and the lane behind it' vs L247-249 (the lane first seen churned, a garden wall's top course down, a gate pushed off its post)",
+      "note": "New, a side effect of moving the lane east. Cyndia swept the east side and then watched 'the lane behind' the smithy, yet she says nothing about the churned lane until Sylvanas walks her to it. The sweep was 'the rooms' (L313), done in near-dark through front doors, so this is plausible and not a contradiction. If wanted, one clause would cover it, e.g. Cyndia at L95: 'I didn't go out the backs.'"
+    },
+    {
+      "id": "A12",
+      "location": "L873 'standing with the stirrup leather in her fist' / L875 'took the staff out of its loop'",
+      "note": "The left hand would not close the night before (L235, L421). By noon the next day the mage grips the leather. Ch2 already shows a frost-dead hand coming back within hours ('pins first, then the burn'), so partial recovery overnight fits canon, and the hands stay wrapped and unusable for the dawn ink (L731). No violation. 'Hooked in her fingers' would avoid suggesting a full recovery."
+    }
+  ],
+  "verifiedClean": [
+    "Opening matches the Ch2 close: crossroads at a walk, the inn sign creaking, hooves ringing on stone, last of the light, the walk-in formation round the mage; POV handed to Sylvanas with no time skip; Neral and the grey behind, the fourth ranger at the rear",
+    "The mage is 'the mage' in all narration and 'Jaina' never appears; 'Proudmoore' only in Sylvanas's shouted call at the well (L147/L151), which memory allows; 'the young woman in the middle' at L899 is the farm woman's outside view",
+    "Elves do not feel the contamination. Every wrongness reaches Sylvanas through the horses, the silence, the staff's physical buzz, the mage's words or the frost. Her palm on the mud (L253) and on the mare (L601, L883) tells her nothing",
+    "Frost cost escalates without resetting: the right hand dead since the ambush; the left reads the well (frost a hand's width and more, a grey print of skin left on the stone) and the storehouse (skin left again, fingers will not close); 'done reading with those tonight'; staff only afterwards; hands wrapped from B6a",
+    "Source-or-sink payoff matches Ch2 L287 exactly (evenly thinning vs lagging lines). The result is mixed: two north lines lag, the east does not, the west is drowned out. The answer is an explicit 'I don't know', so the millhaven-source-or-sink thread stays open. 'Then I pick the ground' is paid by Sylvanas clearing sightlines at the well and the storehouse",
+    "Granary is loudest and the mage declines to crown it ('a store is where things end up'); Sylvanas registers that as method; grain is never named as the carrier anywhere; no 'bread' in B6; B11 has no grain mention",
+    "Grain-seller plant: the girl's 'newer grain seller' is weighed once and set aside (L491); the carter's young new man with a grain cart is a separate mention; Lyriel's answer has the voice-sheet shape (passed nobody, the girl spoke of a newer grain seller, will watch for him going south, better price going home full), warm and true; Lyriel's knowledge of the girl's words is now sourced (L607)",
+    "The carter reads ordinary and forgettable ('a face she would not have known again in a crowd of three'); his eyes go past them to Millhaven and once along the horse line, written without comment; the road order is Sylvanas front, Cyndia left, Lyriel right, the mage in the middle; Cyndia is within earshot and turns her head at the farewell; he comes up over the bridge from the south and rolls north without turning back",
+    "Farewell is exactly 'May the stars keep your road'; Sylvanas marks it odd against 'Light keep you' / 'Safe road' and lets it go; nobody answers with a road blessing",
+    "No commander and no cult: Sylvanas walks the cut looking for a drover's or horse's print and finds none (L695-699); 'rough formation' is a crowd press four and five abreast, 'the way sheep go through a gap'",
+    "Count is 'at least sixty', a floor (41, then 53, then 62 at the top, then 'Sixty I'll put my name to. There'll be more'), heading north-northeast toward the outer ring east of the Pass, not the gate. The geography is now internally consistent: an east-side lane, the cut east of the Pass road, the road visible to the west, 'the whole hill between' them",
+    "Route correction honoured: the girl's 'north road' is reconciled as her name for the cow way (L557-561, L667); the Pass road the party rode is clean (L551, L615, L743 'The road from the Pass south is clear')",
+    "The Ch2 doe boundary holds: Sylvanas's heart arrow is confirmed by Ch2 L451; the doe was alive when she ran ('it was in her while she lived', a verbatim callback); Sylvanas refuses three times to equate the doe with the villagers (L81, L273, L337)",
+    "Ch2 callbacks are accurate: the culvert read was this morning; the horses drank from the stream at the culvert; the grey has the tooth-score on his near hock; the wolf had the bay in the ambush; Cyndia read deer and wolf tracks at the holly that afternoon; the farm report came at the stirrup (the farm sits in the afternoon stretch); 'Neral, I'll change at the Pass and keep going'; the promise 'I want to check again tonight' / 'You will' is paid in B6a with the horses clean",
+    "Timeline: last light (B1), dark (B3), full dark (B4), night (B5-B6a), first light (B7), early morning (B8-B10), noon ford and evening farm (B11). 'Two nights' for both leads. The mage's history (rings crossed before dawn yesterday, a cell all day with the damper, the night ride) matches Ch1/Ch2 and memory. The noon stone is correctly 'since yesterday'",
+    "Cast handoffs: Neral rescues the girl, who trusts only her; Sylvanas stays above the hatch; the mage goes down; Lyriel and the fourth ranger hold the perimeter; 'Five of us, and a lady with a stick' is the correct headcount; Neral, the girl, the fourth ranger and the spare grey leave at B10 up the Pass road; seven horses become four; the southbound party is exactly Sylvanas, the mage, Cyndia and Lyriel; the fourth ranger is ungendered throughout ('their own horse', 'they had always been')",
+    "Convocation thread: the magister's nephew with his figures and Lor'themar carrying it in under the lamps match Ch1 memory; the dispatch goes to Lor'themar by Neral's hand; it does not mention the noon stone, the map circle or the mage",
+    "Established details hold: the Farstrider file on the mage ('It's in your file'); Kirin Tor ink dries violet; the ink tin and the oilcloth pens; the Pass as a squat tower on a saddle; palm-reading stones since girlhood behind her mother's rangers; green and gold; Sylvanas's mare, the mage's borrowed mare, Cyndia's gelding; the grey is male",
+    "Arc: no warmth. A professional concession in B3 ('It was the right answer, and that was the trouble'); she listens in B7 and credits the mage's staff for making the count a count; B8 'the only one of the four who could say which way to ride was the prisoner'; B11 lands the self-deception 'On the trail ... That was not the same as following the mage'"
+  ]
+}

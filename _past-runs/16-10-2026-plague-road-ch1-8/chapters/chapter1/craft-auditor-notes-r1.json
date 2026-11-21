@@ -1,0 +1,134 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 1,
+  "targetFile": "v0c.md",
+  "verdict": "fail",
+  "verdictNote": "Narrow fail. The only blocking item is one limited-third slip at L273, which the sentence-splitting pass introduced. It is a one-sentence fix. Everything else passes or is advisory. Recommend a targeted line edit, not a full rewrite: texture now passes at 93.1, and a broad rewrite could knock it back out of range.",
+  "priorFindingsResolution": {
+    "rhythm-texture / 25-word cap": "resolved. Only one sentence is over 25 words: L15, the troll's fall (40 words), which the iteration-0 notes sanctioned as the action scene's one long sentence.",
+    "rhythm-texture / polysyndeton": "resolved. Texture score went from 70.6 to 93.1. Compound is down from 17.5% to 8.4%, participial up from 3.3% to 10.1%. Polysyndeton is kept at L15 and L73, where it does deliberate work.",
+    "limited-third / L287 'same true thing' + stated fury": "partially resolved. 'true' is cut, and the fury is now read off the jaw (L273). But splitting the sentence created a new leak. See finding 1.",
+    "emotional-life / named emotions": "resolved. L161 'She caught herself liking that. Grinning over a breach, Ranger-General.' L297 'Her jaw ached from holding it.'",
+    "voice-register / simile density": "resolved. There are about 11 true figures in roughly 6,300 words (about 1.8 per 1,000), all from ranger, horse or field sources. None are stacked in consecutive sentences.",
+    "emotional-life / Lor'themar summary": "resolved. L119 is now a physical beat, 'the same half-length back he always rode. She didn't thank him for it. She never had.'",
+    "beat-fidelity / Beat 10 length": "resolved. L291-L299 is compressed to five paragraphs, and the rhythm tightens toward 'She stepped into the cell.'",
+    "voice-register / ward-hum exposition": "resolved. L59 has the hum as heard; L285 uses a different handle ('low and even').",
+    "dialogue-register / lockdown, credentials, 'I want it now'": "resolved (L221, L139, L191).",
+    "voice-register / 'agreed', 'particular patience', 'never had a name'": "resolved (L51, L41, L19).",
+    "beat-fidelity / scene break": "resolved. '###' is at L187."
+  },
+  "findings": [
+    {
+      "check": "limited-third",
+      "severity": "medium",
+      "location": "Scene 2, Beat 8, L273",
+      "passage": "And her face. Sylvanas had seen that face before, in polished bronze, after budget sessions. The face of someone who'd been saying the same thing since before dawn. Every listener had written it down and put it in a drawer.",
+      "problem": "Two problems, one of them new. (1) The iteration-0 sentence was split, and 'Every listener had written it down and put it in a drawer' is now a free-standing statement of fact. 'Since before dawn' matches the mage's timeline exactly (she was caught at first light), so the most natural reading is that the narration is reporting what the mage's listeners did. Sylvanas cannot know that. She only knows that Cyndia's rangers heard her out and carried her off. Before the split, the clause sat inside the 'face of someone who...' construction, which kept it as Sylvanas's reading of a type of face. (2) 'In polished bronze' is meant to be Sylvanas seeing her own face in a mirror, but nothing on the page marks it as a mirror. It reads just as easily as a statue or a coin, so the self-recognition that makes this beat land, and keeps the 'fury' as her inference, is lost.",
+      "fix": "Put the drawer clause back inside the 'face of someone who' frame, and make the mirror explicit. For example: 'And her face. Sylvanas knew that face. She'd met it in her own glass after budget sessions: the face of someone who'd been saying the same thing since before dawn, to people who wrote it down and put it in a drawer.' Keep each sentence under 25 words; the colon form above is 24 and 21. Leave the rest of L273 alone. The jaw and the 'gone past shouting into something quiet and fixed' material is good."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 2, L277",
+      "passage": "This was Antonidas's apprentice and a lord admiral's daughter, without a seal or a letter or a single guard. Frost-burned and filthy, she sat in an elven cell at the top of the Pass. She'd spent the day arguing with rangers about the stones.",
+      "problem": "The split left two flat recap sentences in the middle of Sylvanas's stake calculation. The reader already has the cell (L263-L267) and the day of arguing (Cyndia, L203-L217). Restated as plain declaratives, they slow the paragraph just before 'If she'd come to harm on the road...', the turn that matters.",
+      "fix": "Turn them into one clause that carries the stakes. For example: 'This was Antonidas's apprentice and a lord admiral's daughter, frost-burned and filthy in an elven cell, without a seal or a letter or a single guard.' Then go straight to 'If she'd come to harm on the road...'. Use a comma join or a participial so the compound and participial ratios don't drop."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 1, L29; Scene 2, L199; chapter-wide '-ing, she VERBed' openers",
+      "passage": "\"He slipped.\" She thumbed the edge out of habit, sheathing the knife. (L29)  /  After the long dusk on the switchbacks it hit Sylvanas's eyes hard. Narrowing them, she kept walking. (L199)",
+      "problem": "A few of the participial conversions read as mechanical. L29 runs two actions that can't happen together: you can't thumb an edge while it's going into the sheath. 'Narrowing them, she kept walking' (L199) is a clunky front-loaded participle, and its 'them' points awkwardly back to 'eyes' in the sentence before. The chapter now has about ten sentences that open with '-ing, she/he VERBed' (Ignoring them, Without looking, Dismounting, Pulling off, Leaning out, Rubbing, Seeing her x2, Narrowing them, Turning his horse). That opener pattern is starting to show as a tic.",
+      "fix": "L29: 'She thumbed the edge out of habit and sheathed the knife.' To keep the participial count, add a trailing participle somewhere else. L199: 'It hit Sylvanas's eyes hard, and she walked into it narrow-eyed.' Or cut it to 'She kept walking.' Change two or three of the remaining front-loaded '-ing,' openers to trailing participles ('She dismounted, handing the reins to the nearest rider...'). That keeps the participial % and breaks up the pattern."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 1, L19; Scene 2, L199",
+      "passage": "She got up, learning from her knees exactly how long she'd lain on them. (L19)  /  Her thighs had stiffened in the last hour of the climb. They told her so on the step down from the door; she let them. (L199)",
+      "problem": "The same joke appears twice: her body reports to her and she puts up with it. It works once. The second use makes it a device.",
+      "fix": "Keep L19, which is the better line. Make L199 plain: 'Her thighs had stiffened over the last hour of the climb, and the step down from the door found it out.' Or cut the thigh sentences, since the paragraph is already about the light."
+    },
+    {
+      "check": "emotional-life",
+      "severity": "low",
+      "location": "Scene 1, L119 and L173",
+      "passage": "She didn't thank him for it. She never had. (L119)  /  She did not thank him, and he didn't look as though he'd expected it. (L173)",
+      "problem": "The beat of her not thanking Lor'themar appears twice in 55 lines. L119 makes the point. L173 repeats it almost word for word, which takes force from both. At L173 the farewell ('Sylvanas. Send word when you know what she is.' / 'When I know.') already carries the relationship.",
+      "fix": "Cut the L173 sentence and open the paragraph at 'Turning his horse, he raised his arm.' Or replace it with a small physical beat that doesn't repeat L119, e.g. 'She gave him a nod, which was more than the chamber would get.'"
+    },
+    {
+      "check": "emotional-life",
+      "severity": "low",
+      "location": "Scene 1, L97 and L121 (cold-palm motif; 11 'palm' mentions chapter-wide)",
+      "passage": "Her right palm was still cold. She closed the hand on the reins, working it open again inside the glove. (L97)  /  Rubbing her thumb across the cold place in her palm, she said nothing about the stone. (L121)",
+      "problem": "The cold palm is the chapter's spine, and the plan wants it echoed through Beats 2, 3, 4, 5, 7 and 9. But L97 and L121 are only about 20 lines apart within Beat 3, and the motif also comes back at L77, L149, L185, L211, L239 and L285. Two hand-checks back to back in the same beat dull the payoffs at L149 (the fist when she hears 'the leylines are wrong') and L239 (the circled stone).",
+      "fix": "Keep L121, which ties the palm to the withheld secret, and cut L97 or reduce it to a clause on the reins. Keep L149, L185, L211, L239 and L285 as they are."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "low",
+      "location": "Scene 2: L229, L251, L269, L279, L299",
+      "passage": "And the map. (L229)  /  Well. (L251)  /  No violet. No gold. (L269)  /  Bad ground. (L279)  /  And Antonidas. (L299)",
+      "problem": "The style guide's emphasisRule allows at most three one- or two-word sentences per scene. Scene 2 has about six in narration. 'No violet. No gold. Nothing done up.' is a deliberate triad and earns its place. 'Well.' and 'And Antonidas.' are the cheapest. Each comes right after another short-sentence run, so it doesn't land after a long build-up the way the rule requires.",
+      "fix": "Fold 'Well.' into the next sentence ('Well, she'd watched it walk into her post.'). Fold 'And Antonidas.' into the first question ('And Antonidas: had he sent her?'). That leaves four, all earned."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 1, L69",
+      "passage": "maybe it had always been there, and she'd only now been rude enough to notice.",
+      "problem": "'notice' is on the style guide's AI-default-verb avoid list. It's minor here because it sits in free indirect thought, but it's the only one in the chapter and easy to swap.",
+      "fix": "'...and she'd only now been rude enough to press for it.' Or '...rude enough to feel for it.'"
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 93.1,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {"actual": 10.1, "target": 12.0, "score": 84.0, "direction": "under"},
+      "compound": {"actual": 8.4, "target": 10.0, "score": 88.2, "direction": "under"},
+      "emdash": {"actual": 4.5, "target": 4.0, "score": 100.0, "direction": "on-target"},
+      "semicolon": {"actual": 1.7, "target": 1.8, "score": 100.0, "direction": "on-target"}
+    },
+    "supportingRhythm": {
+      "sentence_count": 574,
+      "sentence_length_mean": 10.6,
+      "sentence_length_cv": 0.649,
+      "short_sentence_pct": 35.5,
+      "long_sentence_pct": 13.8,
+      "comma_period_ratio": 0.601,
+      "one_sentence_paragraph_pct": 23.7,
+      "mattr": 0.794,
+      "opener_entropy": 6.12,
+      "note": "All in or near range. Mean length, CV and long % moved into range from iteration 0. Comma/period ratio sits at the floor (0.60). MATTR is just under 0.80. Opener entropy is still low ('The' opens 78 sentences, 'She' 57)."
+    },
+    "interpretation": "Passes (93.1, at least 90). Participial (10.1%) and compound (8.4%) are both slightly under target, which is the overcorrection from fixing iteration 0's chains. Edits for the findings above should not reduce either. Where a sentence is folded or rewritten, prefer a trailing ', Ving' or a ', and' join over a full stop. The low-severity fixes for L29 and L277 are written to keep both ratios steady.",
+    "flaggedPassages": [
+      "telegram_run s66-73 (L41-L49, the 'The stones' exchange with Lor'themar): acceptable as banter; optional one connective beat",
+      "telegram_run + texture_desert s114-123 (L71-L73, 'No. It was real. She knew stones.'): a deliberate argument cadence; leave it",
+      "telegram_run s125-142 + texture_desert s144-155 (L73-L91, the stone exchange): dialogue-led; optional participial on Lor'themar's 'Feels like a stone to me' beat",
+      "telegram_run + texture_desert s222-239 (L131-L145, the runner's report): breathless shorthand fits Beat 4's sensory anchor; acceptable",
+      "telegram_run + texture_desert s270-282 (L157-L161, spy argument / 'Sun's sake'): FIT cadence; acceptable",
+      "texture_desert s292-301 (L173-L179, Lor'themar's departure)",
+      "telegram_run + texture_desert s322-331 (L193, Cyndia's 'It showed...' triad): deliberate anaphora; acceptable",
+      "texture_desert s355-383 (L207-L221, report through 'Her gear')",
+      "texture_desert s392-404 (L227, the satchel inventory list): list fragments by design",
+      "texture_desert s440-469 + telegram_run s451-462 (L245-L251, Cyndia's ID through the file recollection): the longest desert (30 sentences). The 'Well.' fold above and one participial in L249 would break it up",
+      "texture_desert s497-513 (L271-L273, the prisoner's hands and face): the L273 fix above adds connective texture here"
+    ]
+  },
+  "strengths": [
+    "Free indirect thought runs through both scenes in her idiom and stays unresolved where it should. At L69-L73 she asks whether it's real or an excuse, then turns to 'damn them, and damn her too'. At L239 'or she only thought it did; that was the trouble now. She couldn't tell' reopens what L71 had closed.",
+    "Voices are distinct: Lor'themar's mock-formal needling ('They like me better anyway; I don't make them look at the map'), Cyndia's event-order report with her one labelled opinion last (L217), and the runner's breathless fragments.",
+    "There are four or more emotional registers: deadpan wit ('which was only stupid', 'almost charming', 'sized up by trolls with less care'), warmth (L169), exhaustion (Cyndia, the prisoner) and alarm (the runner).",
+    "Value shifts land on concrete moments: the fist closing on the cold at 'the leylines are wrong' (L149), the finger beside, not on, the circled stone (L239), and 'No violet. No gold. Nothing done up.' (L269).",
+    "All 10 beats are dramatized with their plan sensory anchors. Constraints hold: 'Jaina' and 'Proudmoore' appear only in Cyndia's L245 line, there is no prisoner dialogue, no plague exposition, and the fixed last line 'Start talking.' is in place.",
+    "Only one sentence breaks the 25-word Sylvanas cap, and it's the sanctioned action half-second at L15."
+  ],
+  "summary": "The revision fixes nearly every iteration-0 problem. Texture is up from 70.6 to 93.1, the 25-word cap is met, named emotions are rendered as body and self-mockery, simile density is within calibration, Beat 10 is compressed, and the register slips are gone. The narrow fail is one limited-third slip the sentence-splitting created at L273: 'Every listener had written it down and put it in a drawer' now stands as fact about the mage, and the 'polished bronze' mirror is too obscure to carry the self-recognition. The other seven findings are low-severity polish: mechanical participles, repeated beats, short-sentence overuse in Scene 2, and one 'notice'. A targeted line edit will clear them without a full revision pass.",
+  "summaryCounts": {"high": 0, "medium": 1, "low": 7, "total": 8}
+}

@@ -1,0 +1,28 @@
+{
+  "chapterId": "chapter6",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "scene-grounding",
+      "sceneId": 2,
+      "sceneTitle": "Strahnbrad",
+      "findingId": "G11-001",
+      "category": "G11",
+      "severity": "MODERATE",
+      "lines": "81",
+      "excerpt": "Cyndia's eyes went down to the team's feet instead: wide flat shoes, heavy at the heel, the King's post-horse pattern she knew from the Pass.",
+      "reason": "This sentence is new in the grounding pass, and it breaks the plan's rule that the POV is limited third, absolute, Jaina only. 'The King's post-horse pattern she knew from the Pass' is Cyndia's memory and Cyndia's classification. Jaina never hears it on the page. In Ch5 Cyndia gave the post-horse/Pass report to Sylvanas outside the hut while Jaina was asleep (ch5 v2g-r2.md ~647-653). Jaina woke only when the candle was relit, and Sylvanas's later speech mentioned the army, not the shoes. Jaina can see Cyndia look down and can see the shoes. She cannot know where Cyndia learned the pattern or name it as the King's post-horse shoe. The shoe detail itself is sourced (plan scene 2, world/military). The problem is whose knowledge carries it.",
+      "suggestedFix": "Cyndia's eyes went down to the team's feet instead, to the wide flat shoes heavy at the heel, and stayed on them until the wagon was past.",
+      "fixMode": "substitute"
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "mildKills": 0,
+    "moderateKills": 1,
+    "severeKills": 0,
+    "dominantFailures": ["G11"]
+  }
+}

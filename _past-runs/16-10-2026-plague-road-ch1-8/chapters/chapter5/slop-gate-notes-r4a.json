@@ -1,0 +1,172 @@
+{
+  "chapterId": "chapter5",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsA trajectory 51 -> 18 -> 6 -> 3, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 34,
+      "kills": 1,
+      "keeps": 33,
+      "severity": "MILD",
+      "dominantPattern": "Pattern 5 (preamble negation)",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "keepRateNote": "KEEP rate is far above the guide's 20% heuristic. Re-examined every KEEP against the adversarial self-check. The survivors are hard capability limits the plan requires to be stated (elves cannot feel the contamination, Jaina cannot read paper), absence-as-evidence in an investigation chapter (swept gaps, no cut edges, no tracks on stone), dialogue answers to direct questions, or the POV's own self-argument. No narration-side 'Not X. Y.' pivot survives, so the narration and dialogue rhythms do not cross-contaminate.",
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 275,
+          "text": "The mage didn't ask how far.",
+          "pattern": "Pattern 5 - preamble negation",
+          "deletionTest": "Sylvanas heard the mage shift her grip, take up the rein in the wrapped hand and drop the staff back into the crook of the dead arm. The readiness action already carries her compliance with the night-ride order.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 5. The sentence names the objection she does not raise before giving the real response, which is the grip shift and the rein taken up in the next sentence. None of the four keep conditions applies: no in-scene binary choice, no spatial correction, no world limit, and it is narration rather than Sylvanas arguing with herself.",
+          "suggestedFix": "Sylvanas heard the mage shift her grip, take up the rein in the wrapped hand and drop the staff back into the crook of the dead arm.",
+          "fixNote": "Replace both sentences ('The mage didn't ask how far. Sylvanas heard her shift her grip, ...') with the single fixed sentence. 'her' becomes 'the mage' because the deleted sentence was the antecedent. Narration still uses 'the mage' here, as required before Beat 7.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 41,
+      "kills": 2,
+      "keeps": 39,
+      "severity": "MILD",
+      "dominantPattern": "Pattern 8 (body-part subject carrying volition)",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweepP5P6": "Re-read every sentence for inanimate or abstract subjects carrying agency, cognition, desire, combustion or physical-behaviour verbs, for receiver nouns with the actor buried in an instrument phrase, for body-part subjects, and for abstract states settling into the body. Road and geography verbs ('ran', 'went', 'fell back', 'opened', 'split', 'bending', 'came up out of it') are all fictive-motion description with no intent. Document verbs ('the sacking said Andorhal', 'the slips said so', 'only the marks said south') report written content literally. 'The fan kept widening at the top' describes the shape the data makes, not a change Sylvanas chose. The staff, crystal and contamination verbs ('the light leaned', 'crowded to one side', 'the boards have it', 'getting sicker the further south it ran') are the chapter's in-world mechanism, so the subject-matter defense applies. No abstract state settles into a body part, and there are no nominalized-verb agents. No noun takes a chain of different human verbs across consecutive sentences. There are two body-part 'stayed' constructions (L79, L391) where the character's deliberate control is handed to the voice or the head. Both are killed below. The other body-part subjects (L39 shoulders came down, L83 head coming round to an unexplained draught, L281 hand already at the bowstring on waking, L577 jaw working and teeth chattering with frost, L651 eyes came open at the light) are involuntary reflexes, and the involuntariness is the point of each sentence.",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 79,
+          "text": "Her voice stayed pleasant.",
+          "subject": "her voice",
+          "verb": "stayed (pleasant)",
+          "realAgent": "Lyriel, deliberately keeping a pleasant tone while delivering a count that shows the clerk's book is false",
+          "pattern": "Pattern 8 - body-part subject carrying volition",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8. Putting the character in subject position ('She kept her voice pleasant') keeps the meaning and gives the deliberate control back to Lyriel, which is the whole point of her charm-play with Corley. The voice is not acting involuntarily.",
+          "suggestedFix": "She kept her voice pleasant.",
+          "textureZone": "Inside texture_desert (sentences 119-132) and telegram_run (sentences 124-131). When applying the fix, the slophunter may join it to Lyriel's next beat or the surrounding short sentences to add structure, but should not add new content.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-IS-2",
+          "line": 391,
+          "text": "The mage's head stayed up.",
+          "subject": "the mage's head",
+          "verb": "stayed (up)",
+          "realAgent": "the mage, holding herself upright by effort on the long canter",
+          "pattern": "Pattern 8 - body-part subject carrying volition",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8. The sentence is about her endurance, and it gives that effort to her head. 'The mage kept her head up' means the same thing with the actor restored. Nothing involuntary is happening.",
+          "suggestedFix": "The mage kept her head up.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 52,
+      "kills": 0,
+      "keeps": 52,
+      "severity": "none",
+      "dominantPattern": "none",
+      "cleanReason": "All instances counted, and every tic is under its cap. Tic 1 corner-of-mouth: 0 of cap 1. Tic 2 'marked' verb: 0 of cap 2. Every 'mark' is the literal noun for the mage's ink marks on the map, which is the chapter's subject, plus one literal 'rope-marks'. Tic 3 tightened/eased: 0. Tic 4 facial 'shifted': 0; the 4 'shift' uses are all physical (grip, staff, planks, bench). Tic 5 eye/gaze: about 35 eye or look references, nearly all procedural or tactical (the mage shutting her eyes to read, rangers watching the treeline, Sylvanas reading the overseer's throat and hands, tracking with eyes on the road). The humans-stare-at-her-ears beat (L25, L217, L355, L611, L629) is a plot motif that sets up 'anyone could have told the overseer'. Generic emotional or connection gaze beats come to 3 (L105 Corley looking between them, L157 the mage watching her finger, L423 the mage looking at Sylvanas once across the gap), under cap 4. Tic 6 weight/heaviness emotional metaphor: 0. Every 'heavy' is Jaina's in-world reading term or a literal weight. Tic 7 non-said tags: 1 ('The mage answered at once', a speed beat), under cap 3. 'called' at L79 is literal volume and exempt. Pass-A tool signals were all reviewed (see toolSignalAudit); none is over cap except paragraph_structure, which is kept as an intentional travel-montage catalogue."
+    }
+  ],
+  "toolSignalAudit": [
+    { "toolSignal": "paragraph_structure/opener_consecutive_repeat", "line": 173, "overCap": true, "verdict": "KEEP", "reason": "L167/L173/L175/L177 open 'A mill...', 'A shop...', 'A carters' inn...', 'A second depot...' under the header sentence 'The second day went in stops.' It is a deliberate catalogue of the day's stops that compresses travel, as the plan asks. The parallel openers are the device, and breaking one would break the list." },
+    { "toolSignal": "said_bookisms/bookism_breathed_tag", "line": 57, "overCap": false, "verdict": "KEEP", "reason": "False positive. 'He breathed through his mouth a while' is a narration sentence, not a dialogue tag. Corley has a cold (L25), so the mouth-breathing is literal." },
+    { "toolSignal": "filler_actions/filler_nodded", "line": 671, "overCap": false, "verdict": "KEEP", "reason": "1 of cap 4. Jaina's single nod accepts Sylvanas's 'No.' and leads into her next action (getting the staff back into the crook of her arm)." },
+    { "toolSignal": "filter_words/filter_watched", "line": 361, "overCap": false, "verdict": "KEEP", "reason": "1 of cap 3. Sylvanas is reading a liar's swallow, so the watching is the deliberate act and not a filter on a perception." },
+    { "toolSignal": "participial_attachment/participial_trailing", "line": null, "overCap": false, "verdict": "KEEP", "reason": "14 of cap 51, and texture actually needs more participials (6.3% against a 12% target)." },
+    { "toolSignal": "punctuation_tics/punct_semicolon", "line": null, "overCap": false, "verdict": "KEEP", "reason": "16 of cap 25. The semicolon texture dimension scores 100." },
+    { "toolSignal": "punctuation_tics/punct_colon_narration", "line": null, "overCap": false, "verdict": "KEEP", "reason": "12 of cap 12, at cap but not over. Each colon introduces a concrete list (ledger columns, riding order, desk contents, waybill fields)." },
+    { "toolSignal": "simile_overload/simile_like, simile_as_if, simile_as_though", "line": null, "overCap": false, "verdict": "KEEP", "reason": "Under every cap (5/25, 3/5, 1/3). The vehicles are local and concrete (a child's stick, a bird's foot, a fought-over field, pipe smoke, breaking camp)." }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 124,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 MILD kills (at the 3-MILD threshold) and 0 MODERATE/SEVERE. The kills are one preamble negation (L275) and two body-part 'stayed' constructions (L79, L391), each with a one-line drop-in fix. recurring-prose-tics is clean. Structural texture deficit: texture is below_target (73.2). Structural rhythm concerns: long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.83, "target": 0.72, "delta": 0.11, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 12.4, "target": 11.0, "delta": 1.4, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.796, "target": 0.7, "delta": 0.096, "range": [0.6, 0.8], "inRange": true },
+      "short_sentence_pct": { "actual": 35.8, "target": 35.0, "delta": 0.8, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 22.2, "target": 10.0, "delta": 12.2, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.22, "target": 7.7, "delta": -1.48, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 28.3, "target": 19.0, "delta": 9.3, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.774, "target": 0.83, "delta": -0.056, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": ["long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "textureScore": 73.2,
+      "participial_pct": 6.3,
+      "compound_pct": 14.7,
+      "emdash_pct": 1.3,
+      "semicolon_pct": 1.5,
+      "short_pct": 45.9,
+      "verdictReasons": [
+        "participial: 6.3% below target 12.0% (score 56/100)",
+        "compound: 14.7% above target 10.0% (score 61/100)",
+        "emdash: 1.3% below target 4.0% (score 75/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.3% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 14.7% -> target 10.0% (score 61/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.3% -> target 4.0% (score 75/100). Use for mid-sentence pivots.",
+      "telegramRunCount": 11,
+      "textureDesertCount": 17,
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "totalMatches": 61,
+        "totalViolations": 2,
+        "overCap": [
+          { "pattern": "paragraph_structure/opener_consecutive_repeat", "line": 173, "pass": "a", "disposition": "KEEP (intentional montage catalogue)" },
+          { "pattern": "narrator_verdict/verdict_too_x_for", "line": 691, "pass": "b", "disposition": "out of scope for pass A" }
+        ]
+      }
+    }
+  }
+}

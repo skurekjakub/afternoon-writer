@@ -1,0 +1,438 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB [56, 42, 15] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 55,
+      "kills": 5,
+      "keeps": 50,
+      "severityMarkers": {
+        "MILD": 5,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F2",
+      "modeCounts": {
+        "F1": 0,
+        "F2": 3,
+        "F3": 0,
+        "F4": 2,
+        "F5": 0,
+        "F6": 0,
+        "F7": 0,
+        "F8": 0,
+        "F9": 0,
+        "F10": 0,
+        "F11": 0,
+        "F12": 0,
+        "F13": 0,
+        "F14": 0,
+        "F15": 0
+      },
+      "note": "Scene-level F5: no kill. The granary concession is the planned arc turn (plan B3) and Sylvanas's distrust persists into the final scene. F1: the telegram_run flags fall almost entirely on dialogue exchanges and procedural callouts (heavy/light reads, interview Q&A), not on sustained narrative monotony. F9: the rangers' 'Ranger-General' is military address, and the mage's is the voice-sheet's 'a little too correct' title use. F3: 'a little' and 'nearly' measure physical degree, not epistemic hedging.",
+      "findings": [
+        {
+          "id": "B-G1",
+          "line": 101,
+          "pattern": "F2",
+          "severity": "MILD",
+          "text": "Her voice was quiet.",
+          "context": "\"There's a cradle in the house by the smithy with a blanket in it and no baby, Ranger-General. The blanket's been tucked.\" Her voice was quiet.",
+          "issue": "Generic beat that could belong to any speaker; it adds nothing the tucked-blanket line has not already carried.",
+          "suggestedFix": "(delete the sentence; Lyriel's paragraph ends on \"The blanket's been tucked.\")",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixDifficulty": "low",
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G2",
+          "line": 265,
+          "pattern": "F2",
+          "severity": "MILD",
+          "text": "She swallowed.",
+          "context": "\"A good deal heavier. The way it was in the doe.\" She swallowed. \"But there's no doe here to put a hand in.",
+          "issue": "Bare kill-list beat ('swallowed') with no further specificity. The mage's nausea is carried elsewhere with real carriers (the green round the mouth in the cut); here it is just a stall between two halves of one speech.",
+          "suggestedFix": "(delete \"She swallowed.\" so the speech runs: \"...The way it was in the doe. But there's no doe here to put a hand in. ...\")",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixDifficulty": "low",
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G3",
+          "line": 329,
+          "pattern": "F2",
+          "severity": "MILD",
+          "text": "She pressed her lips thin.",
+          "context": "The mage got down on her knees beside Neral and set the heel of the staff against the boards and bent her head to the wood. She pressed her lips thin.",
+          "issue": "Generic face beat that could belong to anyone in the room; it labels strain rather than showing anything only the mage would do.",
+          "suggestedFix": "(delete the sentence; the paragraph ends on \"bent her head to the wood.\")",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixDifficulty": "low",
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G4",
+          "line": 291,
+          "pattern": "F4",
+          "severity": "MILD",
+          "text": "\"We did the houses, Ranger-General,\" Lyriel said. She was asking.",
+          "issue": "Dialogue followed by a gloss that tells the reader how to take it. The line itself should carry the question.",
+          "whatItRestates": "Lyriel's line, translated from a possible protest into a question.",
+          "suggestedFix": "\"We did the houses already, Ranger-General?\" Lyriel said.",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixDifficulty": "low",
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-G5",
+          "line": 458,
+          "pattern": "F4",
+          "severity": "MILD",
+          "text": "It might mean something to the mage.",
+          "context": "Sweet breath. A drinker's breath went sweet, and so did a dying man's sometimes, in the bad fevers. It might mean something to the mage.",
+          "issue": "Restates what the page has just shown: the mage lifted her head at 'Her breath went sweet' and asked before-or-after. The sentence also hedges ('might') onto a placeholder ('something').",
+          "whatItRestates": "The mage's head-lift and her question at L448-450.",
+          "suggestedFix": "(delete the sentence; the paragraph ends on \"in the bad fevers.\")",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixDifficulty": "low",
+          "verdict": "KILL"
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 30,
+      "kills": 3,
+      "keeps": 27,
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "A dry, proud field commander who thinks in tracker evidence (prints, depths, ash temperature) and in orders. She talks herself down in the second person ('Don't.'), swears briefly ('Damn.' 'Sun's sake.') and takes sardonic swipes at humans, magisters and the Convocation. She does not think in thematic summaries, and she does not presume to know other people's interiors beyond what tone and action show.",
+      "registerConfidence": "HIGH",
+      "tierA": 2,
+      "tierB": 1,
+      "severityMarkers": {
+        "MILD": 3,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "A6/A7 (one each)",
+      "structuralHabit": "no",
+      "findings": [
+        {
+          "id": "B-N1",
+          "line": 69,
+          "pattern": "A7",
+          "tier": "A",
+          "severity": "MILD",
+          "confidence": "HIGH",
+          "text": "After the Amani came through a steading you could read it from the gate:",
+          "whoIsSaying": "Narrator addressing an imagined reader with a generic 'you'.",
+          "povMismatch": "Generic 'you' in third-person narration. The chapter's one licensed use of the rule-voice 'you' is L708 ('you did not hand a Kirin Tor apprentice to a relay rider'), which is a rule she applies to a decision. Here it is description, so it should go through her.",
+          "suggestedFix": "After the Amani came through a steading she could read it from the gate:",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixDifficulty": "low",
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N2",
+          "line": 446,
+          "pattern": "A6",
+          "tier": "A",
+          "severity": "MILD",
+          "confidence": "MODERATE",
+          "text": "very matter of fact, the one thing in all this that made no sense to her.",
+          "context": "\"Pears gone brown.\" The girl said it to Neral's shoulder, very matter of fact, the one thing in all this that made no sense to her. \"She said she'd been at the pears. We didn't have any pears.\"",
+          "whoIsSaying": "A narrator glossing the child's interior ahead of her own words.",
+          "povMismatch": "Sylvanas can hear the flat tone. She cannot know that this was 'the one thing in all this' that puzzled the child. The girl's next line ('We didn't have any pears.') carries the puzzlement on its own, so the gloss both reaches past the POV and translates the line before it arrives.",
+          "suggestedFix": "very matter of fact.",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixDifficulty": "low",
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-N3",
+          "line": 480,
+          "pattern": "B1-pov-attribution",
+          "tier": "B",
+          "severity": "MILD",
+          "confidence": "MODERATE",
+          "text": "\"Thank you,\" the mage said. *That one's true.* A frightened child didn't make up a shaving glass.",
+          "whoIsSaying": "It is ambiguous. The italic thought sits in the mage's paragraph, directly after her tag, so it reads as the mage's head.",
+          "povMismatch": "In this chapter italic echoes are Sylvanas's and get their own paragraph (L163, L357). Putting one inside the mage's speech paragraph is a head-hop under limited-third-absolute. The credibility grading is Sylvanas's tracker habit and should stay hers.",
+          "suggestedFix": "\"Thank you,\" the mage said.\n\nA shaving glass. A frightened child didn't make that up.",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixDifficulty": "low",
+          "verdict": "KILL"
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 24,
+      "kills": 2,
+      "keeps": 22,
+      "killRate": "8%",
+      "severityMarkers": {
+        "MILD": 1,
+        "MODERATE": 1,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P3",
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": [],
+      "note": "The keep rate is above the guide's 25% heuristic. Every keep is anchored by an adjacent concrete carrier: staff reads, prints and depths, the cellar light, the dispatch text. This is a third-revision draft. The two kills are the only lines whose noun or pronoun cannot be cashed out from the page.",
+      "findings": [
+        {
+          "id": "B-P1",
+          "line": 468,
+          "pattern": "P3",
+          "severity": "MODERATE",
+          "text": "She put it at the back of her head with the hoofprints she couldn't place.",
+          "failedQuestion": "What specifically? Which hoofprints?",
+          "missingPayload": "No unplaced hoofprints appear anywhere in this chapter, in the Ch2 final prose, or in the Millhaven memory file. L73 says the opposite: 'no hoofprint in the lanes but their own'. The line puts a phantom second clue next to the grain-seller plant and contradicts the sweep.",
+          "reason": "P3: the concrete-sounding noun has no referent on the page. It sounds like an established clue but cannot be cashed out, and it sets up a second unresolved lead that the plan does not ask for.",
+          "suggestedFix": "She put it at the back of her head.",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixDifficulty": "low",
+          "verdict": "KILL"
+        },
+        {
+          "id": "B-P2",
+          "line": 810,
+          "pattern": "P3",
+          "severity": "MILD",
+          "text": "She had put them there.",
+          "context": "...and behind that, nothing: no bay with Neral talking to it under her breath, no grey blowing at the mud on the short lead, no fourth ranger at the tail... / She had put them there.",
+          "failedQuestion": "Put whom where?",
+          "missingPayload": "'Them' has no clean antecedent. The previous sentence ends on 'nothing' and a list of absences, so 'put them there' reads as putting the absent riders 'there'. The line is planner phrasing ('the empty places in the line, and she put them there') carried into prose without its noun.",
+          "reason": "P3/P5: placeholder pronoun from the beat card. The concrete act is that she sent Neral, the fourth ranger and the grey back up the road.",
+          "suggestedFix": "She had sent them back up the road herself.",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixDifficulty": "low",
+          "verdict": "KILL"
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Eight plain-answer setups examined: 'Which is it?' (L159), 'Where's it worst?' (L165), 'How much is here... Which way it went' (L225), 'Ask her how she knows which way' (L494), 'Can you tell her which marks are which?' (L614), 'How long is it?' (L644), 'What's it like down there? Who's still trading?' (L756) and 'Well?' (L822). Each reply names a usable target or sign: the crystal rattling toward the bridge and mill plus 'a cellar under the inn'; per-mark heavy/light calls; the cellar light slot; 'Sixty... four and five abreast... none came back down'; 'market at the ford yesterday... smoke in every chimney'; 'ahead of us... down the road' with the staff turned toward the willows. The one honest non-answer ('I don't know') does not claim to simplify.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 10,
+    "totalKeeps": 107,
+    "mildKills": 9,
+    "moderateOrSevereKills": 1,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 10,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "1 MODERATE kill (L468 phantom 'hoofprints she couldn't place', which has no referent and contradicts L73) plus 9 MILD kills: three generic dialogue beats (F2), two glosses (F4), a generic-'you' line (A7), a reach into the child's interior (A6), an italic thought that head-hops into the mage's paragraph, and a placeholder pronoun from the beat card (P3). All have drop-in fixes, mostly deletions. Structural rhythm concerns: sentence_length_cv, short_sentence_pct, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr. Structural texture deficit: texture below_target at 74.9.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.647,
+        "target": 0.72,
+        "delta": -0.073,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.7,
+        "target": 11.0,
+        "delta": 0.7,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.894,
+        "target": 0.7,
+        "delta": 0.194,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 42.8,
+        "target": 35.0,
+        "delta": 7.8,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 20.6,
+        "target": 10.0,
+        "delta": 10.6,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.37,
+        "target": 7.7,
+        "delta": -1.33,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 33.7,
+        "target": 19.0,
+        "delta": 14.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.766,
+        "target": 0.83,
+        "delta": -0.064,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "short_sentence_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.9,
+      "participial_pct": 4.4,
+      "compound_pct": 12.8,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.1,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.8% above target 10.0% (score 74/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% → target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.8% → target 10.0% (score 74/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% → target 4.0% (score 76/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 30,
+        "texture_desert": 26
+      },
+      "note": "structural texture deficit"
+    },
+    "outOfScopeObservations": [
+      "L357-358: no blank line between the italic thought paragraph ('*Not if it was him.* What kind of man...') and Neral's '\"Your da was right,\" Neral said.' In markdown the dialogue joins Sylvanas's thought paragraph. This is formatting, not a pass-B finding."
+    ]
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 67,
+      "total_violations": 0,
+      "overCapCategories": [],
+      "passBMappedSignals": {
+        "hedge_might_have_been": {
+          "line": 624,
+          "text": "might have been anything",
+          "guide": "phantom-concreteness-guide.md",
+          "decision": "KEEP",
+          "reason": "The uncertainty is the point. The mark cannot be identified by eye, and the staff then calls it heavy, so the hedge sets up the read."
+        }
+      },
+      "note": "No narrator_verdict, slopsquid, ai_vocabulary, academic_register, verbose_phrases, ambient_inversion or vague_pointers matches. hedge_might_have_been (1) is the only pass-B-mapped signal."
+    }
+  }
+}

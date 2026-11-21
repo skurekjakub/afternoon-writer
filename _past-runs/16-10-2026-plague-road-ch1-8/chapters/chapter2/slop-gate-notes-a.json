@@ -1,0 +1,1183 @@
+{
+  "chapterId": "chapter2",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (manifest has no slopGateLoop.iterationKillsA history for chapter2)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 63,
+      "kills": 29,
+      "keeps": 34,
+      "killRate": "46%",
+      "severityMarkers": {
+        "MILD": 17,
+        "MODERATE": 12,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P5 preamble negation / repeated agency-denial and \"didn't need to\" afterthoughts",
+      "clusterPages": [
+        "L5-L17 (5 kills: opening interrogation)",
+        "L333-L375 (4 kills: farm-to-ambush approach)",
+        "L539-L595 (6 kills: doe read to Millhaven arrival)"
+      ],
+      "clusterWarnings": [
+        "Agency-denial afterthought \"X happened. She hadn't [caused] it.\" x3 (L333, L367, L375)",
+        "\"didn't need/have to hunt\" x3 (L539, L575, L577)",
+        "Shout/voice-rise negations x3 in the opening (L15 twice, L91)"
+      ],
+      "keepRateNote": "The keep rate is above the 20% guide threshold because many keeps are not contrast pivots. They are dialogue diagnostics (Windrunner: \"They don't fan out. They close.\"; Cyndia's track read), self-argument in free indirect thought (\"No. Slower.\"), procedural commands (\"Not on the hill.\"), and evidence-by-absence in the abandoned-farm and Millhaven sequences (no smoke, no tracks, no dogs). Every keep was re-checked against self-check items 1-5.",
+      "findings": [
+        {
+          "id": "NEG-01",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P4 minimizer pivot",
+          "severity": "MODERATE",
+          "line": 5,
+          "text": "a flat hand, never pushing, only there, cutting short every breath she drew toward her magic.",
+          "verdict": "KILL",
+          "reason": "Bats away \"pushing\" to land on \"only there\"; deletion test survives. Part of a 5-kill cluster in the opening 15 lines.",
+          "suggestedFix": "a flat hand, cutting short every breath she drew toward her magic.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "All day the ward had lain on her chest, a flat hand, cutting short every breath she drew toward her magic."
+        },
+        {
+          "id": "NEG-02",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 preamble negation",
+          "severity": "MODERATE",
+          "line": 11,
+          "text": "She didn't clear her throat. Let the elf hear it.",
+          "verdict": "KILL",
+          "reason": "The refused action primes the real beat; \"Let the elf hear it\" already carries the choice. Opening-page cluster.",
+          "suggestedFix": "Let the elf hear it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Her voice came out scraped thin from talking since the dark. Let the elf hear it."
+        },
+        {
+          "id": "NEG-03",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P4 minimizer pivot",
+          "severity": "MODERATE",
+          "line": 15,
+          "text": "The night watch had shouted, not cruelly, the way people shout at a dog that has got into the larder.",
+          "verdict": "KILL",
+          "reason": "The dog-in-the-larder simile already sets the register; \"not cruelly\" is scaffolding. Opening-page cluster.",
+          "suggestedFix": "The night watch had shouted the way people shout at a dog that has got into the larder.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The night watch had shouted the way people shout at a dog that has got into the larder."
+        },
+        {
+          "id": "NEG-04",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 preamble negation",
+          "severity": "MODERATE",
+          "line": 15,
+          "text": "The ranger in the doorway hadn't shouted at all.",
+          "verdict": "KILL",
+          "reason": "The third shout-negation in two paragraphs (braced for a shout / not cruelly / hadn't shouted). The cluster rule downgrades this to KILL.",
+          "suggestedFix": "The ranger in the doorway had kept quiet.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "(sentence introduces the ranger, so it gets an affirmative rewrite instead of a deletion)"
+        },
+        {
+          "id": "NEG-05",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P7 chained negation / contrastive cataloging",
+          "severity": "MODERATE",
+          "line": 17,
+          "text": "Her attention never went to the door, the stone in the wall, or Jaina's hands. It stayed on Jaina's mouth,",
+          "verdict": "KILL",
+          "reason": "Lists three places the attention did not go, then lands on the mouth. The hunter simile that follows carries the point.",
+          "suggestedFix": "She kept her eyes on Jaina's mouth,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "It stayed on Jaina's mouth, the way a hunter watches a gap in the brush for whatever is about to come out of it."
+        },
+        {
+          "id": "NEG-06",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 preamble negation (double)",
+          "severity": "MILD",
+          "line": 91,
+          "text": "Windrunner's voice didn't rise. It hadn't risen once.",
+          "verdict": "KILL",
+          "reason": "Two stacked negations with no positive half. This repeats the scene's shout-negation shape (L13, L15).",
+          "suggestedFix": "Windrunner kept the same level voice she had used since the door opened.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-07",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P3 source-swap pivot",
+          "severity": "MILD",
+          "line": 113,
+          "text": "The staff came into her grip with a weight that had nothing to do with the ash, a deep thrum running up through the bones of her wrist.",
+          "verdict": "KILL",
+          "reason": "Rejects the wood as the source before naming the thrum; the thrum is the real content.",
+          "suggestedFix": "A deep thrum ran up from the staff through the bones of her wrist.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The staff came into her grip with a deep thrum running up through the bones of her wrist."
+        },
+        {
+          "id": "NEG-08",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 preamble negation",
+          "severity": "MILD",
+          "line": 115,
+          "text": "She didn't wait to be told she could. She set the heel of the staff on the flags and listened down it.",
+          "verdict": "KILL",
+          "reason": "The refused waiting is set up before the real action; the action carries the defiance.",
+          "suggestedFix": "Without asking, she set the heel of the staff on the flags and listened down it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-09",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P1 direct contrast pivot",
+          "severity": "MILD",
+          "line": 135,
+          "text": "Her robe was cut for walking, not for this.",
+          "verdict": "KILL",
+          "reason": "The next sentence shows the cold getting under the hem, so \"not for this\" is dead weight.",
+          "suggestedFix": "Her robe was cut for walking.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Her robe was cut for walking."
+        },
+        {
+          "id": "NEG-10",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 preamble negation",
+          "severity": "MILD",
+          "line": 165,
+          "text": "Windrunner didn't slow. She rode at the gap",
+          "verdict": "KILL",
+          "reason": "The \"easy walk she'd kept all the way down\" already says she did not slow. The negation only primes the beat.",
+          "suggestedFix": "Windrunner rode at the gap",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Windrunner rode at the gap between the last two stones at the easy walk she'd kept all the way down from the gate"
+        },
+        {
+          "id": "NEG-11",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P2 fragment pivot",
+          "severity": "MILD",
+          "line": 173,
+          "text": "It didn't fall away behind them the way a sound falls behind a rider. It stopped clean, a door slammed on a crowded room,",
+          "verdict": "KILL",
+          "reason": "Rejects a fade before naming the clean cut. \"Stopped clean\" plus the door simile carries the physical distinction.",
+          "suggestedFix": "It cut off clean behind them, a door slammed on a crowded room,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "It stopped clean, a door slammed on a crowded room, everything else rushing into the space where it had been."
+        },
+        {
+          "id": "NEG-12",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P2 fragment pivot",
+          "severity": "MILD",
+          "line": 177,
+          "text": "Out here there was nothing to follow at all. It pressed in from every side at once,",
+          "verdict": "KILL",
+          "reason": "The thread-to-cable progression lands on \"every side\" either way; \"nothing to follow\" is the refused half.",
+          "suggestedFix": "Out here it pressed in from every side at once,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Out here it pressed in from every side at once, the way a hold fills when the hull's stove in."
+        },
+        {
+          "id": "NEG-13",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P2 fragment pivot",
+          "severity": "MILD",
+          "line": 231,
+          "text": "The wrongness lay in it thick, and it wasn't staying in. It was coming up out of the line,",
+          "verdict": "KILL",
+          "reason": "\"Wasn't staying in\" is the negative half of the discovery; \"coming up out of the line\" carries the full fact, and \"It had left the lines\" repeats it two paragraphs on.",
+          "suggestedFix": "The wrongness lay in it thick, and it was coming up out of the line,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-14",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P7 chained negation",
+          "severity": "MILD",
+          "line": 275,
+          "text": "Windrunner didn't turn round. She didn't say *go on*, either. Jaina went on.",
+          "verdict": "KILL",
+          "reason": "Two refusals form a hallway to \"Jaina went on\". This sits in a rhythm-scorer texture_desert (sentences 412-423).",
+          "suggestedFix": "Windrunner rode on with her back to her. Jaina went on.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "textureZone": "texture_desert 412-423 / telegram_run 412-421"
+        },
+        {
+          "id": "NEG-15",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P1 direct contrast pivot",
+          "severity": "MILD",
+          "line": 293,
+          "text": "Millhaven, then, and not just the nearest place on the road worth stopping.",
+          "verdict": "KILL",
+          "reason": "The revision of her earlier \"soldier's choice\" read is already carried by the preceding paragraphs; the negated half is scaffolding.",
+          "suggestedFix": "Millhaven, then.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Millhaven, then. A crossroads, a market, carts going in every direction."
+        },
+        {
+          "id": "NEG-16",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P4 minimizer pivot (trailing)",
+          "severity": "MILD",
+          "line": 311,
+          "text": "and Windrunner's back, straight and green and gold, no different from how it had been.",
+          "verdict": "KILL",
+          "reason": "A trailing \"no different\" emphasises a lack of reaction that the next line (\"She'd heard.\") already resolves.",
+          "suggestedFix": "and Windrunner's back, straight and green and gold.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-17",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 agency-denial afterthought (repeated shape)",
+          "severity": "MODERATE",
+          "line": 333,
+          "text": "Jaina had the staff upright in her fist. She hadn't decided to pick it up.",
+          "verdict": "KILL",
+          "reason": "This is the first of three \"X happened. [Agent] hadn't caused it.\" beats within 45 lines (L333, L367, L375). The repeated shape makes every instance a KILL.",
+          "suggestedFix": "Jaina had the staff upright in her fist before she knew she'd picked it up.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-18",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 agency-denial afterthought (repeated shape)",
+          "severity": "MODERATE",
+          "line": 367,
+          "text": "She hadn't called on it.",
+          "verdict": "KILL",
+          "reason": "Second instance of the repeated agency-denial shape. The following clause already states that the staff is humming by itself.",
+          "suggestedFix": "(delete the sentence; \"the humming going on and on by itself\" in the next sentence carries it)",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-19",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P4 trailing negation",
+          "severity": "MODERATE",
+          "line": 373,
+          "text": "She had no attention for the staff or for Jaina.",
+          "verdict": "KILL",
+          "reason": "The preceding sentence already fixes her bow, hand and mare's ears on the holly. The negation restates it by absence, inside the L333-L375 cluster.",
+          "suggestedFix": "(delete the sentence)",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-20",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 agency-denial afterthought (repeated shape)",
+          "severity": "MODERATE",
+          "line": 375,
+          "text": "Jaina's mare had stopped too. Nobody had asked her to.",
+          "verdict": "KILL",
+          "reason": "Third instance of the repeated agency-denial shape.",
+          "suggestedFix": "Jaina's mare had stopped too, on her own.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-21",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P1 direct contrast pivot",
+          "severity": "MILD",
+          "line": 403,
+          "text": "Neral didn't fight her horse; she rode it, sitting deep",
+          "verdict": "KILL",
+          "reason": "Classic \"didn't X; Y\" pivot. The riding is the content.",
+          "suggestedFix": "Neral rode it out, sitting deep",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "She rode it, sitting deep through every buck with the grey's lead rope still wrapped round her fist"
+        },
+        {
+          "id": "NEG-22",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 preamble negation + gloss",
+          "severity": "MILD",
+          "line": 405,
+          "text": "Jaina didn't think. There was nothing in her to think with.",
+          "verdict": "KILL",
+          "reason": "A negation followed by a claim-then-gloss restatement. The instinctive action in the next paragraph carries the beat.",
+          "suggestedFix": "(delete both sentences; \"She swung the staff down across her body.\" carries the reflex)",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-23",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P1 direct contrast pivot (\"not only\")",
+          "severity": "MILD",
+          "line": 499,
+          "text": "so thick with the stuff that she could nearly feel it with her fingers and not only with the craft;",
+          "verdict": "KILL",
+          "reason": "\"Not only with the craft\" is a softened contrast; \"bare fingers\" carries the physical-versus-magical distinction.",
+          "suggestedFix": "so thick with the stuff that she could nearly feel it with her bare fingers;",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-24",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 preamble negation (repeated \"didn't need to hunt\" shape)",
+          "severity": "MODERATE",
+          "line": 539,
+          "text": "She didn't need to hunt for that one.",
+          "verdict": "KILL",
+          "reason": "Repeats at L575 (\"She didn't have to hunt for them.\") and L577 (\"She didn't need to.\"). The repeated shape makes every instance a KILL.",
+          "suggestedFix": "(delete the sentence)",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-25",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P4 minimizer pivot",
+          "severity": "MILD",
+          "line": 551,
+          "text": "Up on the road Lyriel's hand had gone to her bowstring, not drawing, only resting there.",
+          "verdict": "KILL",
+          "reason": "\"Not drawing, only resting\" is the minimizer shape; the affirmative position carries the threat level.",
+          "suggestedFix": "Up on the road Lyriel had laid two fingers on her bowstring and left them there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-26",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P4 minimizer pivot",
+          "severity": "MILD",
+          "line": 567,
+          "text": "the paddles dripping, not turning.",
+          "verdict": "KILL",
+          "reason": "\"Its wheel still\" in the previous sentence already states that the wheel is not turning.",
+          "suggestedFix": "the paddles dripping.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-27",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5 preamble negation (repeated \"didn't need to hunt\" shape)",
+          "severity": "MODERATE",
+          "line": 575,
+          "text": "She didn't have to hunt for them. They were all here,",
+          "verdict": "KILL",
+          "reason": "Second instance of the hunt-negation shape (L539, L575, L577).",
+          "suggestedFix": "They were all here,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-28",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P7 chained negation + claim-then-gloss",
+          "severity": "MODERATE",
+          "line": 577,
+          "text": "She didn't turn to Windrunner. She didn't need to.",
+          "verdict": "KILL",
+          "reason": "Two stacked negations, the second glossing the first. Third instance of the \"didn't need to\" shape.",
+          "suggestedFix": "(delete both sentences; the italic callback line carries the beat)",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "NEG-29",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P7 chained negation",
+          "severity": "MILD",
+          "line": 595,
+          "text": "No dog answered it, no voice, no door.",
+          "verdict": "KILL",
+          "reason": "A triple refusal that builds a hallway to nothing. \"No dog\" is already established at L579.",
+          "suggestedFix": "(delete the sentence; \"came back off the walls\" already ends on the echo, and the next paragraph asks \"Was there anyone?\")",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 53,
+      "kills": 14,
+      "keeps": 39,
+      "killRate": "26%",
+      "severityMarkers": {
+        "MILD": 12,
+        "MODERATE": 2,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P8 body-part/attention subjects and P10 receiver nouns with the actor demoted",
+      "clusterFlags": [
+        "L55-L57 (answer came out / the stones might)",
+        "L329 (farm caught her / hedge took it away)"
+      ],
+      "repeatNouns": [
+        "attention (L17, L259)",
+        "the cold (L135, L213: the same cold-to-the-knees image)"
+      ],
+      "pattern4Alert": "no",
+      "secondSweep": "Dedicated P5/P6 sweep done. Body-part subjects checked: hands stopped L49/L281, a hand came over L189, chin hit L215, hand came back L269, face hot L289, fingers L497, Lyriel's hand L551, stomach L491/L509. Abstract-into-body settling: none found. Road/geography motion verbs checked (road ran L163/L595, road went up L563, road bent L359, hedges closing in): all standard path verbs, kept. Metaphor chains: the staff (hummed, gave it back, rose, shivered) and the contamination \"it\" (travels, seeps, pressed in, leaning, working) both receive repeated verbs. Both are literal in-world mechanisms and were kept on the subject-matter defense, except \"nowhere to hide\", which assigns intent. Receiver nouns: answer L55, stones L57, things in the satchel L127, farm L329 were killed.",
+      "keepRateNote": "The keep rate is above the 15% guide threshold because the chapter's subject is a sensed magical contamination moving through leylines, ward-stones, soil, water and flesh. Most inanimate-subject sentences describe that literal in-world mechanism (subject-matter defense) or involuntary bodily reactions (Pattern 8 exception).",
+      "findings": [
+        {
+          "id": "INT-01",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P8 body-part/attention as agent",
+          "severity": "MODERATE",
+          "line": 17,
+          "text": "Her attention never went to the door, the stone in the wall, or Jaina's hands. It stayed on Jaina's mouth,",
+          "verdict": "KILL",
+          "reason": "The abstract \"attention\" is given motion and staying verbs; Windrunner is the one looking. The same noun is smeared again at L259, which triggers the repeat-noun rule.",
+          "suggestedFix": "She kept her eyes on Jaina's mouth,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "attention",
+          "verb": "went / stayed",
+          "realAgent": "Windrunner, looking"
+        },
+        {
+          "id": "INT-02",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P10 receiver noun doing the work",
+          "severity": "MILD",
+          "line": 55,
+          "text": "She ran it again from the first bad stone south of the border to the one humming at her back, and the answer came out the same.",
+          "verdict": "KILL",
+          "reason": "Jaina reasons and \"the answer\" gets the verb. Putting her back as subject keeps the meaning.",
+          "suggestedFix": "She ran it again from the first bad stone south of the border to the one humming at her back, and got the same answer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the answer",
+          "verb": "came out",
+          "realAgent": "Jaina, re-running her reasoning"
+        },
+        {
+          "id": "INT-03",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P10/P2 evidence as agent, actor demoted",
+          "severity": "MILD",
+          "line": 57,
+          "text": "The stones might.",
+          "verdict": "KILL",
+          "reason": "The stones are given the power to free her; the real agent is Jaina proving her claim at a stone. This sits in rhythm-scorer texture_desert 108-117.",
+          "suggestedFix": "She might manage it at a stone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the stones",
+          "verb": "(would get her out)",
+          "realAgent": "Jaina demonstrating at a stone",
+          "textureZone": "texture_desert 108-117"
+        },
+        {
+          "id": "INT-04",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P5 emotion given speech intent",
+          "severity": "MILD",
+          "line": 93,
+          "text": "Her pride had more to say than that. She kept it behind her teeth.",
+          "verdict": "KILL",
+          "reason": "Pride is given its own speech intention. Under the Step 4 check this is not a no-agency emotional metaphor.",
+          "suggestedFix": "She had a good deal more to say than that, and kept it behind her teeth.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "her pride",
+          "verb": "had more to say",
+          "realAgent": "Jaina"
+        },
+        {
+          "id": "INT-05",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P8 body part with cognition verb",
+          "severity": "MILD",
+          "line": 109,
+          "text": "Her knees had forgotten how. A day in the chair had set them stiff as wet rope dried in a knot.",
+          "verdict": "KILL",
+          "reason": "Knees cannot forget. The stiffness simile carries the physical fact. This sits in rhythm-scorer texture_desert 183-192.",
+          "suggestedFix": "A day in the chair had set her knees stiff as wet rope dried in a knot.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "her knees",
+          "verb": "had forgotten",
+          "realAgent": "stiffness from sitting (physical)",
+          "textureZone": "texture_desert 183-192"
+        },
+        {
+          "id": "INT-06",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P10 actor omitted, objects move themselves",
+          "severity": "MILD",
+          "line": 127,
+          "text": "The things in it had gone back in a different order from the one Jaina kept them in.",
+          "verdict": "KILL",
+          "reason": "The objects are given the motion while the searchers who repacked the satchel are omitted.",
+          "suggestedFix": "Someone at the post had packed the things in it back in a different order from the one Jaina kept them in.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the things",
+          "verb": "had gone back",
+          "realAgent": "whoever at the post searched and repacked the satchel"
+        },
+        {
+          "id": "INT-07",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P6/P10 geography granting passage",
+          "severity": "MILD",
+          "line": 229,
+          "text": "The packed top gave under her, letting her through into the clay beneath,",
+          "verdict": "KILL",
+          "reason": "The soil is given the permission verb; Jaina is the one pushing her reading down.",
+          "suggestedFix": "The packed top gave under her, and she went through into the clay beneath,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the packed top",
+          "verb": "letting her through",
+          "realAgent": "Jaina, reading downward"
+        },
+        {
+          "id": "INT-08",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P1-style weather pursuit (repeat noun \"the cold\")",
+          "severity": "MILD",
+          "line": 213,
+          "text": "The cold off the heights followed them down and got in under her robe to her knees.",
+          "verdict": "KILL",
+          "reason": "The cold is given a pursuit verb, and this restages the same cold-to-the-knees image from L135.",
+          "suggestedFix": "The air stayed cold all the way down and got in under her robe to her knees.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the cold",
+          "verb": "followed",
+          "realAgent": "air temperature (physics)"
+        },
+        {
+          "id": "INT-09",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P8 body-part/attention as agent (repeat noun)",
+          "severity": "MODERATE",
+          "line": 259,
+          "text": "Windrunner's attention went round the ring of her people:",
+          "verdict": "KILL",
+          "reason": "Second time \"attention\" is smeared with a motion verb (first at L17). The repeat-noun rule applies.",
+          "suggestedFix": "Windrunner checked the ring of her people one by one:",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "attention",
+          "verb": "went round",
+          "realAgent": "Windrunner"
+        },
+        {
+          "id": "INT-10",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P5/P10 object catching attention",
+          "severity": "MILD",
+          "line": 329,
+          "text": "The first farm caught her by its chimney: a long low house",
+          "verdict": "KILL",
+          "reason": "The farm is given the act of catching her; Jaina is the one noticing. The fix also removes one excess narration colon.",
+          "suggestedFix": "The first farm was a long low house",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the first farm",
+          "verb": "caught",
+          "realAgent": "Jaina, noticing"
+        },
+        {
+          "id": "INT-11",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P10 receiver noun doing the work",
+          "severity": "MILD",
+          "line": 329,
+          "text": "until the hedge took it away",
+          "verdict": "KILL",
+          "reason": "The hedge is given \"took away\", a removal by an actor. The real cause is the riders moving past it, and \"hid\" is the literal occlusion.",
+          "suggestedFix": "until the hedge hid it",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the hedge",
+          "verb": "took it away",
+          "realAgent": "the riders moving past; the hedge occludes"
+        },
+        {
+          "id": "INT-12",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P5 object given intent to hide",
+          "severity": "MILD",
+          "line": 479,
+          "text": "only here it had nowhere to hide.",
+          "verdict": "KILL",
+          "reason": "The contamination is given the intention to hide, beyond the subject-matter defense. The fact is proximity with no clay between. This sits near rhythm-scorer texture_desert 697-707.",
+          "suggestedFix": "only here it lay close under the skin.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "it (the contamination)",
+          "verb": "hide",
+          "realAgent": "none: physical proximity"
+        },
+        {
+          "id": "INT-13",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P8 body part as agent",
+          "severity": "MILD",
+          "line": 497,
+          "text": "Her fingers went in past the wrist before they reached the liver.",
+          "verdict": "KILL",
+          "reason": "Calibration match for \"Her fingers found the bowstring\". She is the one reaching.",
+          "suggestedFix": "She pushed in past the wrist to reach the liver.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "her fingers",
+          "verb": "went in / reached",
+          "realAgent": "Jaina"
+        },
+        {
+          "id": "INT-14",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P8 body part as agent",
+          "severity": "MILD",
+          "line": 551,
+          "text": "Up on the road Lyriel's hand had gone to her bowstring, not drawing, only resting there.",
+          "verdict": "KILL",
+          "reason": "The hand is given the deliberate move to the bowstring; Lyriel chose it. This is a separate finding from the negation KILL on the same sentence, with one shared fix.",
+          "suggestedFix": "Up on the road Lyriel had laid two fingers on her bowstring and left them there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "Lyriel's hand",
+          "verb": "had gone to",
+          "realAgent": "Lyriel"
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 30,
+      "kills": 8,
+      "keeps": 22,
+      "killRate": "27%",
+      "severityMarkers": {
+        "MILD": 8,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "narration colon-reveal excess (tool: punct_colon_narration 16/10)",
+      "tallies": {
+        "Tic1 corner-of-mouth": "0 / cap 1",
+        "Tic2 marked": "2 (noun \"mark\", L501, death-signature) / cap 2",
+        "Tic3 tightened/eased": "4 \"tight\", all physical (neck cord, horse back, rigging, grip); 0 eased / caps 3 emotional, 2 eased",
+        "Tic4 shifted (facial)": "0 (one physical \"shifted her grip\", L119)",
+        "Tic5 eye/gaze": "6 / cap 4: 2 killed (L95, L259)",
+        "Tic6 weight/heaviness metaphor": "0 emotional (staff weight L113 is magical-physical, clay \"heavy\" is literal)",
+        "Tic7 non-said tags": "2 (\"began\" L41, \"murmured\" L185, which is not a tag) / cap 3",
+        "colon narration (tool)": "16 / cap 10: 6 killed. The INT-10 fix removes one more colon (L329), leaving 9"
+      },
+      "findings": [
+        {
+          "id": "TIC-01",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "Tic 5 eye/gaze excess (generic assessment)",
+          "severity": "MILD",
+          "line": 95,
+          "text": "Windrunner took in the cracked boots, the hair coming out of its braid. \"No,\" she said.",
+          "verdict": "KILL",
+          "reason": "Eye/gaze assessment beats run to 6 against a cap of 4 (L17, L95, L259, L325, L329, L571). This is the most generic: a \"searched his face\" assessment beat. The dialogue carries the judgment.",
+          "suggestedFix": "\"No,\" Windrunner said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "TIC-02",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "Tic 5 eye/gaze excess (generic once-over)",
+          "severity": "MILD",
+          "line": 259,
+          "text": "Windrunner's attention went round the ring of her people:",
+          "verdict": "KILL",
+          "reason": "Excess eye/gaze beat (generic once-over). The fix turns the look into an action, which brings the count to 4. This is a separate finding from the intent-smear KILL on the same text.",
+          "suggestedFix": "Windrunner checked the ring of her people one by one:",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "TIC-03",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "colon-reveal narration excess",
+          "severity": "MILD",
+          "line": 169,
+          "text": "So that was what the stones were to Windrunner: a gate, and a horse's manners at the gate.",
+          "verdict": "KILL",
+          "reason": "Narration colons run to 16 against a cap of 10, so the 6 weakest drumroll colons are killed. This one is a verdict-reveal colon.",
+          "suggestedFix": "So to Windrunner the stones were a gate, and a horse's manners at the gate.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "id": "TIC-04",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "colon-reveal narration excess",
+          "severity": "MILD",
+          "line": 217,
+          "text": "There were hedges: real Lordaeron hedges, hawthorn and bramble grown thick along both sides of the road,",
+          "verdict": "KILL",
+          "reason": "A drumroll colon that delays the noun it already named. This sits in rhythm-scorer texture_desert 332-341.",
+          "suggestedFix": "There were real Lordaeron hedges now, hawthorn and bramble grown thick along both sides of the road,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration",
+          "textureZone": "texture_desert 332-341"
+        },
+        {
+          "id": "TIC-05",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "colon-reveal narration excess",
+          "severity": "MILD",
+          "line": 297,
+          "text": "And under all that, small and warm and entirely unasked for: someone had kept up.",
+          "verdict": "KILL",
+          "reason": "A drumroll colon in front of the emotional payoff.",
+          "suggestedFix": "And under all that, small and warm and entirely unasked for, she was glad someone had kept up.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "id": "TIC-06",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "colon-reveal narration excess",
+          "severity": "MILD",
+          "line": 367,
+          "text": "Jaina felt it first in the bones of her wrist and then saw it: the crystal at the head, pale in the grey light, buzzing in its silver claws, a struck wire.",
+          "verdict": "KILL",
+          "reason": "A reveal colon (\"saw it: the crystal\").",
+          "suggestedFix": "Jaina felt it first in the bones of her wrist, then saw the crystal at the head buzzing in its silver claws, pale in the grey light, a struck wire.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "id": "TIC-07",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "colon-reveal narration excess",
+          "severity": "MILD",
+          "line": 561,
+          "text": "It rose as they went, so slowly that she couldn't have said when it changed: a thin high note in the crystal that she felt in the roots of her teeth, climbing, a kettle that never quite comes to the boil.",
+          "verdict": "KILL",
+          "reason": "A reveal colon that delays the note.",
+          "suggestedFix": "It rose as they went, a thin high note in the crystal that she felt in the roots of her teeth, climbing so slowly she couldn't have said when it changed, a kettle that never quite comes to the boil.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "id": "TIC-08",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "colon-reveal narration excess",
+          "severity": "MILD",
+          "line": 575,
+          "text": "coming in through its blocks: from everywhere, to one place, drawn tight there.",
+          "verdict": "KILL",
+          "reason": "The colon introduces a gloss of the rigging simile it follows.",
+          "suggestedFix": "coming in through its blocks, drawn tight to one place.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 51,
+    "totalKeeps": 95,
+    "mildKills": 37,
+    "moderateOrSevereKills": 14,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 51,
+    "killsUnfixable": 0,
+    "sharedTextFindings": "NEG-05/INT-01, NEG-25/INT-14 and INT-09/TIC-02 cite the same text with identical fixes. Apply each fix once.",
+    "verdict": "fail",
+    "verdictReason": "14 MODERATE kills, mostly negation clusters: the opening interrogation (L5-L17), a repeated agency-denial afterthought (L333/L367/L375), and a repeated \"didn't need to hunt\" shape (L539/L575/L577). Two intent-smear kills are MODERATE because \"attention\" is smeared twice (L17, L259). There are 37 further MILD kills. Structural rhythm concerns: sentence_length_cv, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr. Structural texture deficit: texture 75.1 below_target, with participial and em-dash under target and compound over.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.795,
+        "target": 0.72,
+        "delta": 0.075,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": false
+      },
+      "sentence_length_mean": {
+        "actual": 12.3,
+        "target": 11.0,
+        "delta": 1.3,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "outsideRange": false
+      },
+      "sentence_length_cv": {
+        "actual": 0.833,
+        "target": 0.7,
+        "delta": 0.133,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 38.4,
+        "target": 35.0,
+        "delta": 3.4,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "outsideRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 21.7,
+        "target": 10.0,
+        "delta": 11.7,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "outsideRange": true
+      },
+      "opener_entropy": {
+        "actual": 6.04,
+        "target": 7.7,
+        "delta": -1.66,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "outsideRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 27.4,
+        "target": 19.0,
+        "delta": 8.4,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "mattr": {
+        "actual": 0.782,
+        "target": 0.83,
+        "delta": -0.048,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "outsideRange": true
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "textureScore": 75.1,
+      "participial_pct": 6.2,
+      "compound_pct": 13.7,
+      "emdash_pct": 1.5,
+      "semicolon_pct": 1.1,
+      "short_pct": 47.9,
+      "verdict_reasons": [
+        "participial: 6.2% below target 12.0% (score 56/100)",
+        "compound: 13.7% above target 10.0% (score 67/100)",
+        "emdash: 1.5% below target 4.0% (score 77/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.2% → target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 13.7% → target 10.0% (score 67/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.5% → target 4.0% (score 77/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 12,
+      "textureDesertCount": 20,
+      "note": "structural texture deficit"
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 63,
+      "total_violations": 3,
+      "overCap": [
+        {
+          "category": "punctuation_tics",
+          "pattern": "punct_colon_narration",
+          "count": 16,
+          "cap": 10
+        },
+        {
+          "category": "punctuation_tics",
+          "pattern": "punct_emdash_cluster",
+          "count": 1,
+          "cap": 0
+        },
+        {
+          "category": "narrator_verdict",
+          "pattern": "verdict_too_x_for",
+          "count": 1,
+          "cap": 0
+        }
+      ],
+      "passAMappedSignals": {
+        "punct_colon_narration (16/10)": "6 KILL (TIC-03..08), 1 more removed by the INT-10 fix, 9 KEEP",
+        "punct_emdash_cluster (1/0)": "KEEP: L555 \"*liver—roots—alive—before*\" is Jaina's field-book shorthand, an in-world written artifact",
+        "participial_trailing (16/43)": "under cap, all KEEP",
+        "simile_as_if / simile_like / simile_as_though": "under cap, all KEEP",
+        "filter_decided (2/3), filter_watched (1/3)": "under cap. L333 \"hadn't decided\" is killed under negation NEG-17; L289 and L329 KEEP",
+        "bookism_murmured (1/2)": "KEEP: L185 Neral murmuring to a horse in Thalassian, not a dialogue tag",
+        "contact_verbs (pressed/settled/found)": "KEEP: literal contamination pressure L177, physical seat L325, a person finding a stirrup L147"
+      },
+      "passBSignalsNotAudited": "narrator_verdict L133 (over cap), hedging, and vague_pointers belong to pass B"
+    }
+  }
+}

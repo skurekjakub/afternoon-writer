@@ -1,0 +1,608 @@
+{
+  "chapterId": "chapter2",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB = [32]; no oscillation yet)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 66,
+      "kills": 15,
+      "keeps": 51,
+      "severity": {
+        "MILD": 15,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F4/F7 glosses and closers; F11/F12 per-scene repeats",
+      "summaryByMode": {
+        "F1": 0,
+        "F2": 1,
+        "F3": 2,
+        "F4": 3,
+        "F5": 0,
+        "F6": 0,
+        "F7": 2,
+        "F8": 0,
+        "F9": 1,
+        "F10": 1,
+        "F11": 2,
+        "F12": 2,
+        "F13": 1,
+        "F14": 0,
+        "F15": 0
+      },
+      "notes": "F1: telegram/texture-desert zones checked; the short stretches are interrogation dialogue (partly caught as F10 at L43) and the post-fight roll call (procedure), not sustained same-shape monotony. F5: scene 2 Lyriel exchange examined and kept under intentional-structure (plan casts Lyriel as the one ranger who jokes; Windrunner gives no praise). F14 candidates at L123/L379 are adverb-on-tag and belong to pass A. F15: all three scene endings end on action, dialogue, or an open question.",
+      "findings": [
+        {
+          "id": "B-GPT-01",
+          "pattern": "F7-closure-addiction",
+          "line": 21,
+          "text": "She hated not being able to tell.",
+          "issue": "Paragraph-final emotional summary. 'Her own pulse, then, with no sleep behind it.' already lands the uncertainty; the closer names the feeling.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixNote": "Delete the sentence; paragraph ends on 'Her own pulse, then, with no sleep behind it.'"
+        },
+        {
+          "id": "B-GPT-02",
+          "pattern": "F4-over-translation",
+          "line": 39,
+          "text": "The elf had stepped over the whole of it and gone straight for the one place Jaina had hoped she wouldn't go.",
+          "issue": "Gloss on 'Why alone?'. The question and Jaina's broken-off 'The Kirin Tor-' plus 'The honest end of that sentence was worse...' already carry that this is her sore point.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixNote": "Delete the whole one-sentence paragraph; 'Why alone?' runs straight into 'The Kirin Tor-' Jaina began."
+        },
+        {
+          "id": "B-GPT-03",
+          "pattern": "F10-briefing-stack",
+          "line": 43,
+          "text": "\"I left a note on my master's desk. Archmage Antonidas. He'll have read it by now. Or he will soon.\"",
+          "issue": "Stack of four short declaratives/fragments in Jaina's mouth (8/2/6/4 words). Her voice sheet wants built sentences with one snapped-wire short line, not a report stack. Sits in a telegram_run + texture_desert zone (sentences 76-87).",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "\"I left a note on my master's desk—Archmage Antonidas—and he'll have read it by now, or he will soon.\"",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "telegram_run + texture_desert (sentences 76-87)"
+        },
+        {
+          "id": "B-GPT-04",
+          "pattern": "F3-hedge",
+          "line": 55,
+          "text": "would get a healer and a blanket. Probably she'd get this chair back.",
+          "issue": "Hedge 'Probably'. The sentence is already framed as the elf's-eye hypothetical ('From where the elf stood... would get'); the hedge pads it.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "would get a healer and a blanket, or this chair back.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-05",
+          "pattern": "F7-closure-addiction",
+          "line": 297,
+          "text": "Jaina put that where useful things went and left it there.",
+          "issue": "Decorative metaphor capping the realization 'someone had kept up'. The next action (she says the rest 'the way she'd have said it to Antonidas') already shows the shift; this closer only tidies the feeling away.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixNote": "Delete; keep 'And under all that, someone had kept up.' as the paragraph."
+        },
+        {
+          "id": "B-GPT-06",
+          "pattern": "F2-dialogue-beat-label",
+          "line": 325,
+          "text": "Lyriel settled back in her saddle, entirely pleased.",
+          "issue": "Beat ends on an emotion label. Lyriel checking whether Cyndia heard already shows the joke's pleasure.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Lyriel settled back in her saddle.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-07",
+          "pattern": "F11-anaphoric-run",
+          "line": 335,
+          "text": "It was in the furrows. It was in the cabbages, Light help her, as it had been in the hawthorn.",
+          "issue": "Second 'It was in...' drumbeat run in scene 2 (the culvert read at L229-233 is the first, kept as same-content). Second run is the habit.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "It was in the furrows and the cabbages, Light help her, as it had been in the hawthorn.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-08",
+          "pattern": "F9-name-only-line",
+          "line": 343,
+          "text": "\"Ranger-General.\"",
+          "issue": "Neral's name-only protest stands in for a sayable line (she wants to strip the cow). Also her second vocative in the scene after L339.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "\"I'd be quick.\"",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-09",
+          "pattern": "F13-demonstrative-caption",
+          "line": 393,
+          "text": "That was Lyriel, somewhere behind Jaina's right shoulder, in a voice Jaina had never heard her use, flat, with no laugh left in it.",
+          "issue": "Caption frame 'That was...' on a fact-bearing sentence (who spoke). Keep the fact, drop the frame.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Lyriel had said it from somewhere behind Jaina's right shoulder, in a voice Jaina had never heard her use, flat, with no laugh left in it.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-10",
+          "pattern": "F3-filter-verb",
+          "line": 403,
+          "text": "Jaina heard the spine go.",
+          "issue": "Filter verb 'heard'. Deletion test passes: the stomp is already seen; the spine breaking can be stated directly.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "The wolf's spine snapped under them.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-11",
+          "pattern": "F4-over-translation",
+          "line": 449,
+          "text": "It was ridiculous. She said it anyway.",
+          "issue": "Gloss after the line is already spoken. 'I'm-yes. Clear.' shows the stumble into ranger protocol; the follow-up labels it and re-narrates an act already done. In texture_desert zone (sentences 632-644).",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixNote": "Delete both sentences; paragraph ends on the dialogue.",
+          "textureZone": "texture_desert (sentences 632-644)"
+        },
+        {
+          "id": "B-GPT-12",
+          "pattern": "F12-non-action-beat",
+          "line": 467,
+          "text": "Windrunner took that without a word.",
+          "issue": "Non-action beat; Windrunner speaks in the very next line, so the silence is not an event. Second non-action beat in scene 3 after the strongest ('not one of them had said hurry', L515). In texture_desert zone (sentences 649-664).",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Windrunner looked down into the ditch.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "texture_desert (sentences 649-664)",
+          "fixNote": "Positive replacement keeps the speaker attribution clear for the next line ('That one had my arrow through the heart,' she said), which would otherwise follow Cyndia's speech."
+        },
+        {
+          "id": "B-GPT-13",
+          "pattern": "F11-anaphoric-run",
+          "line": 507,
+          "text": "A deer drank from the stream. A deer stripped bark and lay down every night in the same hollow in the bracken, picking things up in a hundred places a mage had never thought to look.",
+          "issue": "'A deer... A deer...' anaphora. Second run in scene 3 after the kept 'She'd want jars. She'd want a great many jars' escalation (L503).",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "A deer drank from the stream, stripped bark, and lay down every night in the same hollow in the bracken, picking things up in a hundred places a mage had never thought to look.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-14",
+          "pattern": "F4-over-translation",
+          "line": 571,
+          "text": "The houses sat in the dusk with their windows black, the light going out of the sky fast.",
+          "issue": "Restates the previous sentence ('There were no lights in the windows, either.'). Only the failing light is new.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "The sky was darkening fast.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT-15",
+          "pattern": "F12-non-action-beat",
+          "line": 587,
+          "text": "Windrunner sat her horse above the village, her face doing nothing at all.",
+          "issue": "Non-action beat ('her face doing nothing at all'), third in scene 3 after the strongest (L515). Her shut face is already a chapter motif (L19, L57).",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Windrunner sat her horse above the village.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 22,
+      "kills": 4,
+      "keeps": 18,
+      "severity": {
+        "MILD": 4,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Educated, fast, self-correcting scholar who builds claims, qualifies, then concludes; reaches for bench/test/first-year idiom, Kul Tiran sea images (hold, ballast, rigging, deck) and 'Light' oaths; early in the chapter she is unfairly condescending about soldiers, and her free-indirect asides carry that. She would not think in aphorisms, detached genre images of herself, or a narrator's generic 'you'.",
+      "registerConfidence": "HIGH",
+      "dominantPattern": "A7 generic-you",
+      "structuralHabit": "no",
+      "notes": "Tool signal narrator_verdict (verdict_too_x_for, L133 'too smooth for any river') reviewed and kept: concrete physical description that matches the Ch1 description of the pebble. Tier A tally 3, Tier B 1. No severe pages or scenes.",
+      "findings": [
+        {
+          "id": "B-SEEP-01",
+          "pattern": "A7-generic-you",
+          "line": 125,
+          "text": "Jaina could not tell whether she'd heard a warning or just the sort of thing a mage says once you've handed her back her staff.",
+          "issue": "Generic 'you' plus 'the sort of thing' typification in third-person narration. The chapter's single allowed free-indirect generic 'you' is L193 ('you couldn't ride to everywhere, or take it apart on a bench'), which is more plainly hers. Who is saying this: a narrator addressing the reader. Pass A also flagged L125 for a different pattern; this fix is meant to be compatible.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina could not tell whether she'd heard a warning or only a mage fussing over the staff she'd just been handed back.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "confidence": "HIGH"
+        },
+        {
+          "id": "B-SEEP-02",
+          "pattern": "A7-generic-you",
+          "line": 283,
+          "text": "in the voice she used for the horses, the voice for telling you where the far gate was.",
+          "issue": "Generic 'you' in narration describing Windrunner's voice. Who is saying this: a narrator. The horse comparison already does the work.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "in the voice she used for the horses.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "confidence": "HIGH"
+        },
+        {
+          "id": "B-SEEP-03",
+          "pattern": "B1-too-polished",
+          "line": 285,
+          "text": "Jaina's hands were still up, holding nothing, a woman waiting for a basket somebody had set down elsewhere.",
+          "issue": "Psychic-distance jump: Jaina seen from outside as 'a woman' in a composed image while she is mid-humiliation. Who is saying this: a narrator with a camera on her. POV mismatch: in this beat her thought is hot and self-accusing (L287-289), not composing a genre image of herself.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Jaina's hands were still up, holding nothing.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "B",
+          "confidence": "MODERATE"
+        },
+        {
+          "id": "B-SEEP-04",
+          "pattern": "A5-scene-state-declaration",
+          "line": 327,
+          "text": "By the time the sun had worked round over the right-hand hedge the country had changed. Jaina couldn't have said where it started.",
+          "issue": "Scene-state declaration ('the country had changed') posted before the concrete change. The next paragraphs (no chimney smoke, rotting cabbages, uncut beans) do the work; the declaration is a topic sentence from above.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "confidence": "HIGH",
+          "fixNote": "Delete both sentences; the paragraph ends on 'that Lyriel passed across without comment.' The afternoon time marker survives in the next paragraph ('The afternoon was raw and grey')."
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 16,
+      "kills": 1,
+      "keeps": 15,
+      "severity": {
+        "MILD": 1,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P5",
+      "repeatStandIns": "'wrongness' (L231, L575) and 'it' for the contamination: anchored every time by the coin taste, cold, and late drag in the pulse already on the page.",
+      "notes": "Tool hedging/vague_pointers hits (almost x3, might have been, something in there) all reviewed and kept as measured or anchored; see scratchpad. Keep rate is above the guide's 25% warning because the chapter's tactical and analytic lines are mostly anchored to stones, the creek bend, map lines, and organ-by-organ findings shown on the page. Each keep is justified individually in the scratchpad.",
+      "findings": [
+        {
+          "id": "B-PHC-01",
+          "pattern": "P5-planner-shorthand",
+          "line": 157,
+          "text": "The Ranger-General had her stones now, and her bends and distances, and a mage on a borrowed horse to point at things.",
+          "issue": "Status-note summary of the interrogation. 'Stones' and 'bends' are anchored (circled stones, creek bend) but 'distances' never cashed out: Jaina told Windrunner 'I'd need the map' when asked how far east. The tally overclaims what was extracted.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "The Ranger-General had her circled stones now, and her creek bend, and a mage on a borrowed horse to point at things.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severity": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "cleanReason": "Four exchanges audited: the cell 'short version' (L23 setup -> L25-27), the river explanation (L269 'Short.' -> L277), the full-register restatement (L301), and the doe report after 'Tell me what's in her' (L469 -> L517). The two simplified explanations do fail the 'Which one?' test (Windrunner asks 'Which stones read worst. Where.' and later corrects the river picture), but that failure is the planned beat: plan B2 value shift 'confident explainer -> exposed by her own simplification', arc 'she talks smaller than she really thinks', and the narration diagnoses the thinness itself at L35 and L287. Rewriting them to carry full payload would delete the chapter's arc turn. L301 and L517 give usable targets (thickest at the crossing vs. lines disagreeing by weight and lag; blood, meat, liver worst, then lungs).",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 20,
+    "totalKeeps": 88,
+    "mildKills": 20,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 20,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "20 MILD kills (more than 3), 0 MODERATE/SEVERE. Down from 32 at iteration 0. Structural rhythm concerns: sentence_length_cv, long_sentence_pct, one_sentence_paragraph_pct, opener_entropy and mattr are outside their style-guide ranges. Structural texture deficit: texture verdict below_target (participial low, compound high, em-dash low).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.81,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": 0.09,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.5,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "delta": 1.5,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.833,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.133,
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 37.6,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "delta": 2.6,
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.3,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "delta": 12.3,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.1,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "delta": -1.6,
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 30.2,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 11.2,
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.781,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "delta": -0.049,
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv above range",
+        "long_sentence_pct above range",
+        "one_sentence_paragraph_pct above range",
+        "opener_entropy below range",
+        "mattr below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.5,
+      "participial_pct": 6.3,
+      "compound_pct": 14.3,
+      "emdash_pct": 1.6,
+      "semicolon_pct": 1.1,
+      "short_pct": 46.8,
+      "verdict_reasons": [
+        "participial: 6.3% below target 12.0% (score 56/100)",
+        "compound: 14.3% above target 10.0% (score 64/100)",
+        "emdash: 1.6% below target 4.0% (score 78/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.3% → target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 14.3% → target 10.0% (score 64/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.6% → target 4.0% (score 78/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 12,
+      "textureDesertCount": 18,
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 52,
+        "total_violations": 2,
+        "overCap": [
+          "punctuation_tics/punct_emdash_cluster (L555, pass A domain)",
+          "narrator_verdict/verdict_too_x_for (L133 'too smooth for any river', KEEP in pass B)"
+        ],
+        "passBMappedSignals": "narrator_verdict x1 (KEEP), hedging x4 (KEEP), vague_pointers x1 (KEEP); no ai_vocabulary, slopsquid, verbose_phrases, academic_register, dialogue_register, clinical_anatomy or ambient_inversion matches"
+      }
+    }
+  }
+}

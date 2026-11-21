@@ -1,0 +1,607 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 22,
+      "kills": 6,
+      "keeps": 16,
+      "severity": {
+        "MILD": 6,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P1/P7 'not one ...' tail negation (L124, L891) and P4 minimizers (L294, L775)",
+      "findings": [
+        {
+          "id": "A-N01",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P7-chained-negation",
+          "line": 124,
+          "text": "and told him about a cradle and a spoon in a bowl and a child coughing at the well, not one word about currents, and never once pointed.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "deletionTest": "and told him about a cradle and a spoon in a bowl and a child coughing at the well -- the next sentence ('Jaina would have explained, at length, in a voice that carried') already carries the currents contrast.",
+          "reason": "Pattern 7: two refusals in a row ('not one word about currents, and never once pointed') build a hallway to nothing. The 'not one X' tail repeats at L891, so the cluster rule applies. The fix states the positive physical fact, which matches the L845 callback ('hands at her sides and nothing in them, as she had in the lane before noon').",
+          "textureZone": "inside or next to texture_desert sentences 147-165 (Brask's surrender to Jaina's reassessment)",
+          "suggestedFix": "and told him about a cradle and a spoon in a bowl and a child coughing at the well, and kept her hands at her sides.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N02",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P4-minimizer-pivot",
+          "line": 294,
+          "text": "The light that came down out of the crystal was blue, not gold, a cold clean blue",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "deletionTest": "The light that came down out of the crystal was blue, a cold clean blue, the shadow side of snow -- survives intact.",
+          "reason": "Pattern 4: it rules out 'gold' before giving the real colour. The colour change is already clear from 'a cold clean blue', so the rejected descriptor is scaffolding.",
+          "suggestedFix": "The light that came down out of the crystal was blue, a cold clean blue",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N03",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P5-preamble-negation",
+          "line": 699,
+          "text": "the same heaviness hung on the back of every beat. And it was nothing like them. In the sick it was thin",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "deletionTest": "...the same heaviness hung on the back of every beat. In the sick it was thin and smeared and everywhere. In here it was whole. -- survives and the contrast lands on concrete terms.",
+          "reason": "Pattern 5: a 'same, and nothing like' paradox caption primes the reveal. The next two sentences (thin and smeared vs whole) carry the actual difference.",
+          "suggestedFix": "the same heaviness hung on the back of every beat. But in the sick it was thin",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N04",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P4-minimizer-litotes",
+          "line": 775,
+          "text": "Lyriel set him down on the bench, not ungently, and came out.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "deletionTest": "Lyriel set him down on the bench and came out. -- survives. The litotes describes the manner by negating its opposite.",
+          "reason": "Pattern 4: 'not ungently' bats away a descriptor to land on a softer one. Name the manner directly.",
+          "suggestedFix": "Lyriel set him down on the bench, gently enough, and came out.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N05",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P1-direct-contrast-pivot",
+          "line": 833,
+          "text": "He was looking at Tam, not at them, his thumb going up and down the torch handle.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "deletionTest": "He was looking at Tam, his thumb going up and down the torch handle. -- the image is unchanged.",
+          "reason": "Pattern 1: the 'not at them' adds nothing to the physical picture. 'Looking at Tam' already places his attention, and the cut changes no action or placement, so this does not qualify as spatial precision.",
+          "suggestedFix": "He was looking at Tam, his thumb going up and down the torch handle.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-N06",
+          "guide": "negation-addiction-hunting-guide.md",
+          "pattern": "P1-tail-negation-repeat",
+          "line": 891,
+          "text": "it had taken Sylvanas and a man with a torch and a heap of burning sacks to shut it, and not one single thing she knew.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "deletionTest": "...it had taken Sylvanas and a man with a torch and a heap of burning sacks to shut it. So she held the door from this side. -- survives. 'So' still follows.",
+          "reason": "Pattern 1 tail ('X, and not Y') used as a self-verdict punchline. It repeats the 'not one ...' shape from L124, so the cluster rule applies. The scene loses no concrete fact. It also contradicts the chapter, because her bread finding is what got the granary shut.",
+          "suggestedFix": "it had taken Sylvanas and a man with a torch and a heap of burning sacks to shut it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "clusterWarnings": [
+        "'not one ...' tail shape repeats L124 / L707 / L891; L707 kept as a hard constraint (she can read the signs but not the grammar), the other two killed"
+      ],
+      "keepRateNote": "The keep rate is above 20% because the chapter's subject is diagnosis and hard limits: wards hold and do not heal (L292, L889), the reading light shows location and not route (L366), clean vs not-clean light readings (L196), and the banned grammar (L705/L707). Each keep is justified in the scratchpad."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 32,
+      "kills": 6,
+      "keeps": 26,
+      "severity": {
+        "MILD": 6,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P8 body-part / sub-self agency and P10 instrument communication verbs",
+      "findings": [
+        {
+          "id": "A-I01",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P3-instrument-prediction",
+          "line": 11,
+          "text": "Now the cold sat under her breastbone, exactly where the staff had said it would be, and under the hammer",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "subject": "the staff",
+          "verb": "had said (predicted)",
+          "realAgent": "the crystal's ticking reading, or Jaina's own earlier read of it",
+          "reason": "Pattern 3/10: an instrument is made to predict, and Jaina as reader is left out. The clause is vague about what the staff indicated. Deleting it keeps the cold and the drag.",
+          "suggestedFix": "Now the cold sat under her breastbone, and under the hammer",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-I02",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P10-receiver-noun-communication",
+          "line": 366,
+          "text": "The light only told her where it was, not how it had got there.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "subject": "the light",
+          "verb": "told",
+          "realAgent": "Jaina, reading the patient with the spell light",
+          "reason": "Pattern 10: the diagnostic light gets a communication verb and the reader (Jaina) is left out. 'Showed' is the literal verb for light. The 'not how' constraint is kept (negation guide condition 3).",
+          "suggestedFix": "The light only showed her where it was, not how it had got there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-I03",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P8-body-part-agency",
+          "line": 428,
+          "text": "His thumb moved over her knuckles.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "subject": "his (Hew's) thumb",
+          "verb": "moved",
+          "realAgent": "Hew Dunmore",
+          "reason": "Pattern 8: the sentence works with Hew as subject. Unlike Brask's thumb tell (kept, see scratchpad), the point here is tenderness, not an involuntary tic. It also echoes Brask's motif on a second character and blurs that motif.",
+          "suggestedFix": "He rubbed his thumb over her knuckles.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-I04",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P2-evidence-telling",
+          "line": 494,
+          "text": "That half would tell her whether this was one bad harvest gone wrong in a damp barn or something else, and it was down there in who sold what to whom.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "subject": "that half (the supply-side information)",
+          "verb": "would tell",
+          "realAgent": "Jaina learning it from the granary keeper, the baker and the trail of sales",
+          "reason": "Pattern 2/10: an abstraction (the other 'half' of the problem) is given a communication verb. The fix puts Jaina back as the subject.",
+          "suggestedFix": "She would only learn whether this was one bad harvest gone wrong in a damp barn or something else from that half of it, and that half was down there in who sold what to whom.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-I05",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P9-nominalized-thought-agent",
+          "line": 709,
+          "text": "The thought was out before she could stop it, clean and hot.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "subject": "the thought",
+          "verb": "was out (escaped)",
+          "realAgent": "Jaina, thinking it",
+          "reason": "Pattern 9: the guide allows the involuntary-mental-event exception at most once per chapter. L895 ('He came anyway, between Wenna and Garran') is the stronger use and is kept, so this second use dies. Put Jaina back as the thinker.",
+          "suggestedFix": "She thought it, clean and hot, before she could stop herself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-I06",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "pattern": "P8-sub-self-agency",
+          "line": 987,
+          "text": "and some small low part of her minded anyway.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "subject": "some small low part of her",
+          "verb": "minded",
+          "realAgent": "Jaina",
+          "reason": "Pattern 8 variant: a split-off 'part of her' carries the feeling, so she does not have to own it. Making her the subject keeps 'small' and 'low' as her own judgment.",
+          "suggestedFix": "and she minded anyway, a little, which was low of her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "secondSweepP5P6": "Done. Inanimate subjects with agency verbs were checked sentence by sentence: the staff/crystal (said, woke, shifted on its own), wards (held, bought time, let go), cold/frost/drag (crept, climbed, ran, sat), roads and stairs (split, went off, climbed), houses and lanes as households, meals and bread (laying more on top, gone up the lane), glass (bent her), bakehouse (sent none), and body-part subjects (Brask's thumb x6, Hew's thumb, Wenna's hand, knees of their own accord, eye slid off). Kills: L11 'staff had said', L366 'light told', L494 'half would tell', L428 Hew's thumb, L709 'thought was out', L987 'part of her minded'. No Pattern 4 institutional self-deception. No permission tags (Pattern 11): every 'let' is physical with an object.",
+      "repeatNouns": [
+        "the staff/crystal: 'said' (L11) killed; 'woke' (L194, L623) and 'shifted ... all on its own' (L1037) kept as the established magical detector behaviour"
+      ],
+      "patternFourAlert": "no"
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 24,
+      "kills": 7,
+      "keeps": 17,
+      "severity": {
+        "MILD": 7,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "Tic 5 eye/gaze reaction beats (9 vs cap 4)",
+      "findings": [
+        {
+          "id": "A-T01",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "tic5-eye-gaze-over-cap",
+          "line": 204,
+          "text": "When she let the light go the girl's skin went dark and ordinary. Elsie stared up at her.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "tic": "Tic 5: Eye/Gaze Repertoire Exhaustion",
+          "count": 9,
+          "cap": 4,
+          "reason": "Generic reaction stare. The line of dialogue that follows ('What's in me?') carries the reaction. One of the five weakest of nine eye/gaze reaction beats.",
+          "textureZone": "telegram_run / texture_desert sentences 295-306",
+          "suggestedFix": "When she let the light go the girl's skin went dark and ordinary.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T02",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "tic5-eye-gaze-over-cap",
+          "line": 360,
+          "text": "The boy stared at her, round-eyed. \"Did you just *bite* my bandage?\" he said",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "tic": "Tic 5: Eye/Gaze Repertoire Exhaustion",
+          "count": 9,
+          "cap": 4,
+          "reason": "Generic surprise beat (round eyes). The question and 'a voice of deep respect' already carry it.",
+          "suggestedFix": "\"Did you just *bite* my bandage?\" the boy said",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T03",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "tic5-eye-gaze-over-cap",
+          "line": 617,
+          "text": "Sylvanas held it, her mouth going thin, and pointed again, at the ground behind her own heels.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "tic": "Tic 5: Eye/Gaze Repertoire Exhaustion",
+          "count": 9,
+          "cap": 4,
+          "reason": "Generic held-gaze standoff ('held it'). The thinned mouth and the second point carry the concession.",
+          "suggestedFix": "Sylvanas's mouth went thin. She pointed again, at the ground behind her own heels.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T04",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "tic5-eye-gaze-over-cap",
+          "line": 949,
+          "text": "Elsie looked back at her, puzzled. \"Is there?\" she said again",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "tic": "Tic 5: Eye/Gaze Repertoire Exhaustion",
+          "count": 9,
+          "cap": 4,
+          "reason": "Generic look-back reaction. It shares a page with A-T05.",
+          "suggestedFix": "\"Is there?\" Elsie said again, puzzled",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T05",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "tic5-eye-gaze-over-cap",
+          "line": 959,
+          "text": "\"Jaina.\" Lyriel was watching her from the brazier.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "tic": "Tic 5: Eye/Gaze Repertoire Exhaustion",
+          "count": 9,
+          "cap": 4,
+          "reason": "Generic watching beat. Lyriel's line ('the same as she was the last time. And the time before') already shows she has been watching.",
+          "textureZone": "next to texture_desert / telegram_run sentences 1378-1387",
+          "suggestedFix": "\"Jaina,\" Lyriel said from the brazier.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T06",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "filter-watched-over-cap",
+          "line": 657,
+          "text": "She had watched Sylvanas put an arrow through a running doe's heart at the holly bend.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "tic": "filter word 'watched' over chapter cap (tool: 4 vs cap 3)",
+          "count": 4,
+          "cap": 3,
+          "toolSignal": "filter_watched",
+          "reason": "This is the only POV-filter use of the four 'watched' hits. The others are Brask's in-scene watching (L92), Antonidas supervising in a hypothetical (L454) and Cyndia's report in dialogue (L609). Cutting the filter brings the count to the cap.",
+          "suggestedFix": "Sylvanas had put an arrow through a running doe's heart at the holly bend.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T07",
+          "guide": "recurring-prose-tics.md",
+          "pattern": "paragraph-opener-repeat",
+          "line": 671,
+          "text": "The cold came back up the staff as it always came back, into her left hand, turning the linen hard as card.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "tic": "consecutive paragraph opener repeat (4x 'The' at L671/673/675/677)",
+          "count": 4,
+          "cap": 0,
+          "toolSignal": "opener_consecutive_repeat",
+          "reason": "Four paragraphs in a row open on 'The' (The cold / The boy knelt / The jar. / The smell). 'The jar.' is a deliberate one-word beat and stays. Changing the first opener breaks the run without an ambient inversion.",
+          "suggestedFix": "As it always did, the cold came back up the staff into her left hand, turning the linen hard as card.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "tallies": {
+        "tic1_corner_of_mouth": "1 (L560), cap 1; 0 in ch2/ch3 finals; kept",
+        "tic2_marked": "0 verb uses",
+        "tic3_tightened_eased": "1 emotional ('skin went tight' L611), 0 eased; under cap",
+        "tic4_facial_shifted": "0 (L1031 mare and L1037 staff are physical)",
+        "tic5_eye_gaze": "9 reaction/connection beats (L92, L204, L360, L568, L617, L737, L797, L949, L959); kept the 4 most functional (L92, L568, L737, L797); killed 5",
+        "tic6_weight_emotional": "0; every 'weight/heaviness' hit is the drag mechanism (subject matter) or a literal numb hand",
+        "tic7_non_said_tags": "0 performance tags",
+        "filter_watched": "4 vs cap 3; killed the POV-filter use at L657"
+      }
+    }
+  ],
+  "summary": {
+    "totalKills": 19,
+    "totalKeeps": 59,
+    "mildKills": 19,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 19,
+    "killsUnfixable": 0,
+    "fixStrategy": "default (manifest slopGateLoop has no iterationKillsA history)",
+    "verdict": "fail",
+    "verdictReason": "19 MILD kills (more than 3), 0 MODERATE/SEVERE. Negation 6 (the 'not one ...' tail repeats, minimizers, a paradox preamble), intent-smear 6 (instrument/abstraction communication verbs, body-part and sub-self agency, a second Pattern-9 exception), recurring tics 7 (5 eye/gaze beats over cap, 1 filter 'watched' over cap, 1 paragraph-opener run). All fixes are drop-in. Not affecting the verdict: structural texture deficit (texture score 78.7, below_target: participial and em-dash low, compound high) and structural rhythm concerns (sentence_length_cv, one_sentence_paragraph_pct, long_sentence_pct, opener_entropy, mattr out of range).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.803,
+        "target": 0.72,
+        "delta": 0.083,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.861,
+        "target": 0.7,
+        "delta": 0.161,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.5,
+        "target": 19.0,
+        "delta": 9.5,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "sentence_length_mean": {
+        "actual": 11.6,
+        "target": 11.0,
+        "delta": 0.6,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 41.5,
+        "target": 35.0,
+        "delta": 6.5,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 19.0,
+        "target": 10.0,
+        "delta": 9.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.57,
+        "target": 7.7,
+        "delta": -1.13,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.773,
+        "target": 0.83,
+        "delta": -0.057,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "one_sentence_paragraph_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 78.7,
+      "participial_pct": 7.3,
+      "compound_pct": 12.2,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 1.5,
+      "short_pct": 51.8,
+      "verdict_reasons": [
+        "participial: 7.3% below target 12.0% (score 61/100)",
+        "compound: 12.2% above target 10.0% (score 80/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.3% → target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.2% → target 10.0% (score 80/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.1% → target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 36,
+        "texture_desert": 32
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 101,
+        "total_violations": 3,
+        "overCap": [
+          {
+            "category": "filter_words",
+            "pattern": "filter_watched",
+            "count": 4,
+            "cap": 3
+          },
+          {
+            "category": "paragraph_structure",
+            "pattern": "opener_consecutive_repeat",
+            "count": 1,
+            "cap": 0
+          }
+        ],
+        "passAMappedSignals": {
+          "filter_watched": "over cap 4/3; L657 killed (A-T06), the rest kept",
+          "filter_decided": "1/3; L516 kept, a literal past decision",
+          "said_bookisms": "hissed x2 are geese/torch, not dialogue tags; 'conceded' L124 is narration; kept",
+          "adverb_on_tag": "1/3; L200 'said quietly' kept, real volume control at a sickbed",
+          "breath_tells": "2/3 (plus L953 untagged); Garran's literal clinical symptom motif; kept",
+          "filler_actions": "nodded L512 and frowned L238 kept (functional dismissal, character beat)",
+          "simile_overload": "4 total, under caps; kept",
+          "participial_attachment": "31/69 under cap; kept",
+          "punctuation_tics": "semicolons 23/34, narrative colons 17/17, at or under cap; kept",
+          "paragraph_structure": "opener_consecutive_repeat at L671; killed (A-T07)",
+          "negation_addiction / abstract_locomotion / inanimate_agency": "no tool matches; the guide sweeps were run manually"
+        }
+      }
+    }
+  }
+}

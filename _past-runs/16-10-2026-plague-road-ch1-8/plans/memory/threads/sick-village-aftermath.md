@@ -1,0 +1,3 @@
+# The sick village after the party
+
+At dawn: Elsie is cool, the cooper's boy wants bread, Col is well and starving, Wenna sleeps, Garran is unchanged. The granary and bakehouse are burned and most houses cleared of flour; Brask is still going round; the ford cart was caught and burned. Brask means to question Joss and go through the loft in daylight (though the boards are already burned) and has written four names in his ledger so the story can be told right. Open: whether any flour remains in houses, whether Mag and the others are sick, and what Joss knows. Brask returns only as a sworn letter in Chapter 23.

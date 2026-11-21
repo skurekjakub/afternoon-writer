@@ -1,0 +1,294 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA [55,19,5,6,4]; latest 4 is below prior minimum 5, so not oscillating). Fixes kept minimal anyway: 2 deletions, 1 punctuation swap, 1 sentence restructure shared by 2 findings (727), 1 short restructure (560).",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 36,
+      "kills": 2,
+      "keeps": 34,
+      "severity": "MILD",
+      "dominantPattern": "Pattern 5 (preamble negation / reversal)",
+      "clusterPages": [],
+      "clusterWarnings": [
+        "The 'speech ready, then withheld' motif repeats three times (lines 56-62, 534-536, 829-831). It is kept as intentional arc structure (Jaina learns to stop lecturing). The doubled 'instead' at 534/536 is the only line-level stutter, killed below."
+      ],
+      "keepRateNote": "Keep rate is high because most candidates are hard constraints the plot runs on: the ward holds but does not cure, the light shows where but not how, she can read the letters but not the grammar, she can ward a room but not a village. These are condition 3 (hard constraint) or condition 4 (self-argument) keeps, each justified in the scratchpad.",
+      "findings": [
+        {
+          "line": 787,
+          "text": "His face was perfectly calm, calmer than it had been all evening—and then it wasn't.",
+          "pattern": "P5-reversal-negation",
+          "deletionTest": "His face was perfectly calm, calmer than it had been all evening. The following sentence 'His back arched.' carries the change on its own.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 5 preamble/reversal: 'and then it wasn't' negates the state it just set up instead of letting the seizure in the next sentence do the work. It meets none of the four keep conditions.",
+          "suggestedFix": "His face was perfectly calm, calmer than it had been all evening.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 536,
+          "text": "\"It starts in the gut,\" she said instead.",
+          "pattern": "P5-redundant-contrast-marker",
+          "deletionTest": "\"It starts in the gut,\" she said. The previous sentence ('She looked at the grey glove instead.') already sets the rejected small-words version against what she does. A second 'instead' one sentence later restates the same contrast.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 5 residue: a contrast marker repeated in consecutive sentences against the same rejected alternative. The first 'instead' (line 534) is kept as the arc beat, and the second adds no fact.",
+          "suggestedFix": "\"It starts in the gut,\" she said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 46,
+      "kills": 1,
+      "keeps": 45,
+      "severity": "MILD",
+      "dominantPattern": "Pattern 8 (body-part subject)",
+      "clusterFlags": [],
+      "repeatNouns": [
+        "staff/crystal 'woke' (lines 190, 615): kept, because the staff's crystal literally activating and reacting to the drag is established in-world mechanism (it ticks against its claws from line 1)"
+      ],
+      "pattern4Alert": "no",
+      "secondSweep": "Dedicated P5/P6 pass on every sentence with an inanimate or body-part subject. Checked roads and geography (1023 'the road split... went off south and west', 623 'A stair... climbed the inner wall'): fictive-motion idiom, no intent. Receiver nouns (548 'Ellen's loaf had gone up the lane', 919 'His sacks came down round your ice', 965 'The bakehouse sent none'): motion or idiomatic verbs, actors named nearby or the line is dialogue, so kept. Body-part subjects (100, 102, 296, 302, 306, 563, 627, 641, 683, 693, 705, 713, 721, 787, 791, 823, 843, 953): all involuntary, reflexive, seizure, or numbness, where the involuntariness is the point, except 727, which is killed. Sensations in body parts (11 'the cold sat under her breastbone', 198 'The cold crept up', 583 'the cold had climbed past her elbow'): this is the literal magical cost of the staff, which is subject matter. Contamination given motion or waiting (17, 466, 693): subject matter, since the built construct literally has 'one part to wait'. Wards and shell 'holding', 'thinning', 'letting go': literal in-world mechanism. Permission-tag sweep: 'let the light go' (198, 218) and 'let the hold go' (721) are releases of a spell with a result, not willpower tags. No P11 hits.",
+      "findings": [
+        {
+          "line": 727,
+          "text": "In the torchlight his eyes were very pale and very young, on her, then past her at the blue shell on the floor and the black stuff lying under it. He looked at it the way",
+          "pattern": "P8-body-part-gaze",
+          "subject": "his eyes",
+          "verb": "(were) on her, then past her at — directional looking",
+          "realAgent": "Tam. He looked at her, then past her. The next sentence then makes him look at the shell a second time.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8: the eyes are given the looking ('on her, then past her at'), which is the 'her gaze settled on him' shape. Putting Tam back as subject keeps the meaning, and it also removes the doubled look at the shell.",
+          "suggestedFix": "In the torchlight his eyes were very pale and very young. He looked past her at the blue shell on the floor and the black stuff lying under it, the way",
+          "fixNote": "The cited span ends mid-sentence at 'He looked at it the way'. Replace exactly that span. The rest of the sentence ('the little ones in the cathedral at Boralus used to look at the reliquary...') continues unchanged.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 28,
+      "kills": 3,
+      "keeps": 25,
+      "severity": "MILD",
+      "dominantPattern": "Tic 5 (eye/gaze repertoire)",
+      "ticCounts": {
+        "tic1_cornerOfMouth": "1 (552 'One corner of her mouth went in.'). Cap 1 per chapter. Ch3 final.md 509 is a physical ring at the mouth corners, so the 3-chapter cap of 2 is met. KEEP.",
+        "tic2_marked": "0",
+        "tic3_tightenedEased": "tight x2 (603 skin went tight on the neck, emotional; 787 drawing up tight as a bowstring, physical seizure). Cap 3. KEEP.",
+        "tic4_facialShifted": "0 facial (1019 mare shifted and 1025 staff shifted are physical)",
+        "tic5_eyeGaze": "6 emotional/reaction/connection eye-gaze beats: 88 'He watched that a long while', 560 mutual look, 727a eyes on her/past her, 727b reliquary look, 959 'She looked at it anyway', 1021 'Jaina didn't look.' Tactical scanning (88 Sylvanas kept her eyes on his face, 528 looked round the room as over a wood, 571 looking past Jaina toward the granary) is character-specific perception and not counted. Cap 4, so 2 kills (the most generic: 727a and 560).",
+        "tic6_weightMetaphor": "0 emotional. The 'weight hung on the tail of the beat' / 'heaviness' language (13, 15, 264, 292, 615, 691) is the chapter's consistent term for the necromantic drag Jaina senses, which is subject matter. 526 'Her left hand was a weight' is physical numbness.",
+        "tic7_nonSaidTags": "0 performance tags (194 'said quietly' is said plus an adverb, within the adverb_on_tag cap; 585/847 'told' is said-equivalent)",
+        "toolPunctuationColon": "punct_colon_narration 17 vs cap 16 (over_cap). 1 excess killed (180), choosing the colon that does the least work (a plain comma join)."
+      },
+      "findings": [
+        {
+          "line": 727,
+          "text": "In the torchlight his eyes were very pale and very young, on her, then past her at the blue shell on the floor and the black stuff lying under it. He looked at it the way",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Tic 5 is over cap (6 vs 4). This is the most generic beat in the chapter, eyes-as-agent sweeping on her and then past her, and it is immediately duplicated by the reliquary look in the same span. Merging the two cuts the eye-beat count by one. Same span and fix as the intent-smear P8 finding.",
+          "suggestedFix": "In the torchlight his eyes were very pale and very young. He looked past her at the blue shell on the floor and the black stuff lying under it, the way",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 560,
+          "text": "Jaina looked at her, one new man selling cheap at Millhaven and here, and Sylvanas looked back, and neither of them said it.",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Tic 5 is over cap. 'Looked at her... looked back, and neither of them said it' is the generic connection beat ('their eyes met'). The shared inference does not need the look: the previous sentence puts Sylvanas in the doorway at Millhaven, so she heard the girl.",
+          "suggestedFix": "One new man, selling cheap at Millhaven and here. Neither of them said it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 180,
+          "text": "Lyriel took it braced for it to do something sudden: one hand under the crystal and one round the silver wire.",
+          "pattern": "punctuation-colon-over-cap",
+          "toolSignal": "punct_colon_narration",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The slop checker counts narration colons at 17 against a cap of 16. Of the 17, this one does the least work: the colon only joins a manner detail that a comma carries just as well. The others introduce real lists or reveals (35, 142, 528, 615, 641, 697, 983). The line sits inside a flagged telegram_run (176-180, 11 sentences), so the comma join also gives that zone a little connective tissue.",
+          "suggestedFix": "Lyriel took it braced for it to do something sudden, one hand under the crystal and one round the silver wire.",
+          "fixDifficulty": "low",
+          "textureZone": "telegram_run + texture_desert starting 'The staff, then. She turned to Lyriel.'",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 104,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "distinctLinesToEdit": 5,
+    "verdict": "fail",
+    "verdictReason": "6 MILD kills (over the 3-MILD threshold), 0 MODERATE/SEVERE. They fall on 5 distinct spans, because line 727 carries both a P8 and a Tic 5 kill with one shared fix. All 6 fixes are low difficulty: 2 deletions (787 'and then it wasn't', 536 the second 'instead'), 1 comma-for-colon swap (180, which clears the punct_colon_narration over-cap), and 2 short restructures that remove eye/gaze beats (727, 560). Structural rhythm concerns: sentence_length_cv, one_sentence_paragraph_pct, long_sentence_pct, opener_entropy and mattr are outside their ranges. Structural texture deficit: texture below_target (score 79; participial and emdash low, compound high). Rhythm and texture are reported only and did not drive the verdict.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.807,
+        "target": 0.72,
+        "delta": 0.087,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "status": "in range"
+      },
+      "sentence_length_mean": {
+        "actual": 11.6,
+        "target": 11.0,
+        "delta": 0.6,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "status": "in range"
+      },
+      "sentence_length_cv": {
+        "actual": 0.86,
+        "target": 0.7,
+        "delta": 0.16,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "status": "OUT OF RANGE (high) - structural rhythm concern"
+      },
+      "short_sentence_pct": {
+        "actual": 41.1,
+        "target": 35.0,
+        "delta": 6.1,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "status": "in range (near ceiling)"
+      },
+      "long_sentence_pct": {
+        "actual": 19.1,
+        "target": 10.0,
+        "delta": 9.1,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "status": "OUT OF RANGE (high) - structural rhythm concern"
+      },
+      "opener_entropy": {
+        "actual": 6.58,
+        "target": 7.7,
+        "delta": -1.12,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "status": "OUT OF RANGE (low) - structural rhythm concern"
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.8,
+        "target": 19.0,
+        "delta": 9.8,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "status": "OUT OF RANGE (high) - structural rhythm concern"
+      },
+      "mattr": {
+        "actual": 0.774,
+        "target": 0.83,
+        "delta": -0.056,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "status": "OUT OF RANGE (low) - structural rhythm concern"
+      }
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 79.0,
+      "participial_pct": 7.3,
+      "compound_pct": 12.2,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.4,
+      "short_pct": 51.3,
+      "verdict_reasons": [
+        "participial: 7.3% below target 12.0% (score 61/100)",
+        "compound: 12.2% above target 10.0% (score 80/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.3% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.2% -> target 10.0% (score 80/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 33,
+        "texture_desert": 30
+      },
+      "note": "Structural texture deficit. Flagged zones are spread across the whole chapter, and many sit in dialogue runs (Brask at the spear, Tobin's intake, the knot lesson, the slate questioning, the cage). Pass A kill 180 is inside one of them."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_words": 17378,
+        "total_matches": 93,
+        "total_violations": 1,
+        "overCap": [
+          "punctuation_tics.punct_colon_narration: 17 vs cap 16 (pass A, recurring-tics) - addressed by kill at line 180"
+        ],
+        "passAMappedHitsReviewed": "filter_words (watched x3, decided x1; within cap, all literal perception or decision), said_bookisms (hissed x2 = geese and torch, not tags; conceded = narration verb, not a tag; 'said quietly' within adverb cap), breath_tells (breath caught x2, Garran's literal symptom), filler_actions (nodded, frowned, 1 each, within cap), simile_overload (3, within cap), participial_trailing (29, within cap 67), punct_semicolon (21, within cap 33). The only over-cap hit is addressed. All other pass-A-mapped hits are KEEP, recorded in the scratchpad."
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# Captain Havel (militia, Andorhal)
+
+Chapter 6: a name only. A tally-man on the road sends the party to the militia post just inside the market gate for Captain Havel, who 'knows the granary district better than anybody'.
+
+Chapter 7: first on the page. Middle height, broad and square, a former sack-carrier's build; iron-grey cropped hair; the backs of both hands seamed with old white scars; a truncheon with a worn pale grip. He stands at once for the Ranger-General (and says her rank correctly without being told), tells Jaina to sit ('You look done in'), and says 'they do send them to me. I'm cheaper than a factor, and I'm still here after dark.'
+
+He talks streets and yards, points with two fingers held flat like a blade, and says 'we' early. His information is true and useful: Mill Lane's sickness, the same-week supplier change at Fenner's and the Exchange at high summer, drilled loaders who walk in pairs and sleep behind Fenner's in a locked rope-walk, the magistrate who freed the two he arrested by dinner. He has twelve men and a pile of Corin's notices he has not read.
+
+What to watch on a second read, all of it low-key: he walks Sylvanas down Hurdle Lane from behind 'so it's covered'; he points past Tenter Row twice ('Kett shut his gate at noon'); he calls the count 'four, all told' and had 'left out' Kett's and the malt-house at the post; he offers Simmons's ladder; he wants the arrest at the shift change with the magistrate's clerk; he redraws the same chalk line down Hurdle Lane three times in the same groove; he wants his lads on the Hurdle Lane end of the raid. Sylvanas holds only that his help bends toward the lanes he controls, and she sets it beside a bias she admits (she is sick of slow men). He agrees aloud every time he is overruled. The narration does not say he is cult-paid.

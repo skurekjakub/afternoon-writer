@@ -1,0 +1,178 @@
+{
+  "chapterId": "chapter8",
+  "iteration": 2,
+  "targetFile": "v0c-r2.md",
+  "verdict": "pass",
+  "verdictNote": "Pass. All ten r1 findings were applied, and the diff shows each one surgically with no collateral damage. Emotional life, voice, limited third, dialogue and beat fidelity all pass, and texture is 100. The six findings below are all low severity. None is substantive enough to justify another revision loop, so they go forward as carry-forward line edits for the slophunter/slop-gate pass. Finding 1, the 'first ward' contradiction, is the only one that touches the chapter's logic. It is a one-phrase fix, and it should not be lost downstream.",
+  "findings": [
+    {
+      "check": "clarity",
+      "severity": "low",
+      "location": "Scene 2/B6 line 443 against Scene 3/B8 line 555 (and line 9)",
+      "passage": "If she'd had a ward on him. The holding ward, the first one anybody learns, laid over him in the lane and fed in rounds all the way to the store. (443) / The thread across the mouth of Kett's lane had been the first ward any student learned to tie, the one for a doorway, its ends sunk and closed as neatly as any examiner could ask. (555)",
+      "problem": "Jaina gives the title 'the first one anybody learns' to two different wards: the holding ward at 443 and the doorway thread at 555. The B8 Dalaran inference depends on the second claim, together with line 9's 'first-year work'. A ward-trained POV would not mix up which ward is first, and an attentive reader who reaches 555 will remember 443 and stumble at the exact sentence that has to land the inference. It is new to this audit; earlier audits missed it.",
+      "fix": "At 443, delete 'the first one anybody learns,' so the line reads 'The holding ward, laid over him in the lane and fed in rounds all the way to the store.' Leave 555 and line 9 as they are. Texture impact is negligible (one comma pair)."
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "low",
+      "location": "Scene 3/B7, lines 523, 543, 547 (with the 407 echo)",
+      "passage": "Jaina counted the rings as he made them, and after a while she stopped counting. (523) / Four loads had filled Tobin's chapel. She started the sum for forty-one and left it half done. (543) / Instead she had a sheet that ran off its own edges, a count she couldn't finish and nothing anywhere on it that said who. (547) / She couldn't stop it, and after a while she gave up trying. (407)",
+      "problem": "The abandoned count appears three times in 25 lines. 543 is the strong one: Tobin's chapel times forty-one is the B7 dread, and the sum left half done lands it. 523 uses the same move first, so 543 arrives already spent, and 547 restates it a third time as the middle item of a tricolon. 523 also nearly lifts the style guide's own contrastive exemplar ('she stopped counting after that'). Its frame, ', and after a while she [stopped/gave up] X-ing', repeats the 407 shivering sentence, and 'after a while' is temporal padding (DC-09). This is the same kind of refrain dilution r1 flagged on the 'every yard' motif, but smaller in scope.",
+      "fix": "At 523, keep the counting and drop the abandonment: 'Now and then he made a ring, and Jaina kept count of them.' She can count what's on the paper and can't finish the sum for what's beyond it, which sharpens 543. At 547, cut the middle item: 'Instead she had a sheet that ran off its own edges and nothing anywhere on it that said who.' Leave 543 untouched. The 523 rewrite keeps its ', and' compound, so compound_pct does not move."
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "low",
+      "location": "Staging-beat refrains: Sylvanas 265/389/425/435; Lyriel 415/531/597; Corin 247/419/469/559",
+      "passage": "Sylvanas didn't turn from the shutter. (265) / Sylvanas didn't look round from the yard gate. (389) / At the shutter, without turning round, Sylvanas said, (425) / \"Into the first of them,\" Sylvanas said, without turning from the gap. (435) / Lyriel said from the door (415, 531, 597) / Corin had gone white to the lips. (247) / He'd gone paler, but the letters were coming out level now (469) / the colour had gone out of his face again, right down to the lips. (559)",
+      "problem": "Three stock staging beats repeat enough to be noticed. Sylvanas speaks 'without turning' four times, twice within ten lines (425 and 435). Lyriel's tag frame 'said from the door' appears three times. Corin goes pale four times. Three of those are plan-mandated (B3 white, B6 pale before 'He was paid', B8 the name), so 469 is the extra one, and 559's 'right down to the lips' echoes 247's 'white to the lips'. Each beat is in character, but repetition turns them into stage directions.",
+      "fix": "425: 'At the shutter Sylvanas said, \"He told me Kett shut his gate at noon.\"' (435 keeps 'without turning from the gap'.) 531: '\"Seven,\" Lyriel said, without taking her eye from the crack.' 469: 'The letters were coming out level now, one line under the next.' 559: 'and the colour had gone out of his face again.'"
+    },
+    {
+      "check": "clarity",
+      "severity": "low",
+      "location": "Scene 2/B5, lines 371-377 (the wicket gate)",
+      "passage": "Lyriel brought up the rear, walking backward with an arrow on the string. Jaina felt it come up behind her, close and fast, on the right. / \"Down—\" / ... / \"By the hoist. Down.\" She ducked through the wicket and shut it and dropped the bar on their side.",
+      "problem": "This is the same kind of slip r1 fixed at 'Now—'. There are three snags in four lines. (1) 'it' in 371 has no antecedent in the paragraph; the reader has to supply 'the wet'. (2) Two unattributed 'Down' lines four lines apart mean different things: Jaina's warning at 373 and Lyriel's report that the man is down at 377. (3) 'She ducked through' follows an untagged line, so the reader has to work out that the speaker and the actor are Lyriel. The ', and ... and' chain in the last sentence also adds to the chapter's polysyndeton count.",
+      "fix": "371: 'Jaina felt the wet come up behind them, close and fast, on the right.' 377: put Lyriel's name in the action beat and break the double 'and': '\"By the hoist. Down.\" Lyriel ducked through the wicket, shut it and dropped the bar on their side.' Keep Lyriel's combat shape (direction, then target)."
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "low",
+      "location": "Mannered checker cap-0 hits: lines 193, 419, 611; polysyndeton over soft cap (lines 17, 459)",
+      "passage": "letting the sheet roll up round Kett's of its own accord (611) / one quick hard jump, the way it hadn't for the crock or the gloves (193) / He patted it once, the way he did before he answered anything, and then he said it. (419) / only the lamplight and the white dust and the barred door opposite (17) / columns and questions and what to test first (459)",
+      "problem": "tools/mannered_checker reports M7 involuntary_action at 1 (cap 0) and M13 the_way_simile at 2 (cap 0). Neither was raised at r1. The checker may have recalibrated since then; these lines were already in v0c. Polysyndeton is 9.2/10k against a soft cap of 3.9. 611 is a literal sheet curling, but 'of its own accord' is stock, and 485 has already shown the sheet rolling itself up. 419's habit gloss tells the reader what the pat means when the voice-sheet tell can stand alone. The noun-list polysyndetons at 17 and 459 are ordinary lists that need no 'and' chain. Line 65's take-as-sound chain is the chapter's one allowed clause polysyndeton, and it stays.",
+      "fix": "611: 'letting the sheet curl back round Kett's.' 193: 'one quick hard jump. It hadn't jumped for the crock or the gloves.' 419: 'He patted it once, and then he said it.' 17: 'only the lamplight, the white dust and the barred door opposite'. 459: 'columns, questions, what to test first'. Note for the slop gate: the cross-chapter run at 593 ('to see the keeping part work, just once', from Ch6) is the plan's intended callback (B9 memoryRef: 'frame it as known to her'). KEEP it."
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "low",
+      "location": "Scene 3/B9, lines 589, 593, 617 (optional)",
+      "passage": "telling him to close his seams first in the same dry voices they'd used on her. (589) / ...was already wondering how he'd closed the seam between the keeping and the waiting— (593) / And every seam she'd ever been proud of closing—how much of that had he known first? (617)",
+      "problem": "Optional. The seam image is the chapter's thematic line (209, 233, 555), and the last line turns it on Jaina herself, which works. The word appears three times in the last 30 lines, though, and 593 uses the same verb ('closed the seam'), so the final question's key noun arrives slightly worn.",
+      "fix": "Vary 593 only: '...was already wondering how he'd joined the keeping to the waiting—'. Leave 589 and 617 as they are."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 100.0,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {
+        "actual": 7.5,
+        "target": 7.23,
+        "score": 100.0
+      },
+      "compound": {
+        "actual": 13.3,
+        "target": 14.135,
+        "score": 100.0
+      },
+      "emdash": {
+        "actual": 5.2,
+        "target": 5.119,
+        "score": 100.0
+      },
+      "semicolon": {
+        "actual": 1.4,
+        "target": 1.61,
+        "score": 100.0
+      }
+    },
+    "shortPct": {
+      "actual": 47.2,
+      "ceiling": 48.577
+    },
+    "secondaryMetrics": {
+      "sentenceShortPct": {
+        "actual": 36.5,
+        "range": [23.155, 37.155],
+        "status": "in range"
+      },
+      "sentenceLongPct": {
+        "actual": 19.7,
+        "range": [12.352, 19.352],
+        "status": "0.35 above ceiling (advisory). 27 narration sentences run past 32 words. The longest are 261 (50), 333 (48), 541 (47), 537 (46) and 5 (45). Most are Jaina's hypothesis chains or travel compression, which the Archmage anchor allows. Do not split them to chase this number."
+      },
+      "oneSentenceParagraphPct": {
+        "actual": 25.2,
+        "range": [17.378, 26.378],
+        "status": "in range"
+      },
+      "sentenceLengthCV": {
+        "actual": 0.792,
+        "range": [0.623, 0.823],
+        "status": "in range"
+      },
+      "meanSentenceLength": {
+        "actual": 12.0,
+        "range": [10.412, 14.412],
+        "status": "in range"
+      },
+      "commaPeriodRatio": {
+        "actual": 0.679,
+        "range": [0.613, 0.863],
+        "status": "in range"
+      },
+      "openerEntropy": {
+        "actual": 6.31,
+        "range": [6.137, 7.137],
+        "status": "in range"
+      },
+      "mattr": {
+        "actual": 0.789,
+        "range": [0.818, 0.888],
+        "status": "below floor (advisory, unchanged from r1). 'put' fell from 30 to 15. 'came' (30), 'still' (30), 'went' (28), 'stood' (21) and 'took' (21) are the remaining drag. Do not churn synonyms to chase it."
+      }
+    },
+    "interpretation": "Texture is within target, and all four dimensions score 100. No structural changes are needed. The fixes above barely affect texture: 523 keeps its compound, 193 adds one short sentence, and 17 and 459 lose an 'and' each. The scorer's telegram and texture-desert flags sit in dialogue volleys (the B2 interrogation, the B4 sensing calls, Cyndia's reports, Corin's dictation and the B8 name exchange), where the style guide asks for short volleys. Do not chase them.",
+    "flaggedPassages": [
+      "texture_desert s110-128 (19 sentences): Under the sweat on his neck was the loft... She kept her fingertips where they were.",
+      "telegram_run s119-128 (10 sentences, 80% short): \"Done.\" Jaina took her fingers away... \"Ranger-General.",
+      "texture_desert s139-150 (12 sentences): At the corner Corin stooped for the slate wedge. \"Leave it,\"...",
+      "telegram_run s140-148 (9 sentences, 77.8% short): \"Leave it,\" Jaina said through her teeth...",
+      "texture_desert s182-193 (12 sentences): The man kept his mouth shut. \"I'm the law on these lanes...",
+      "telegram_run s238-245 (8 sentences, 75% short): \"They take their gloves off by the cuff...",
+      "telegram_run s247-259 (13 sentences, 84.6% short): \"Does he tell them what's in it?\"...",
+      "texture_desert s247-261 (15 sentences): \"Does he tell them what's in it?\"...",
+      "texture_desert s264-282 (19 sentences): \"Then who does?\" He looked at the collar and didn't answer...",
+      "telegram_run s267-277 (11 sentences, 81.8% short): He jerked back from it so hard... \"One,\" he said.",
+      "telegram_run s352-360 (9 sentences, 88.9% short): \"Not the street,\" she said...",
+      "texture_desert s352-361 (10 sentences): \"Not the street,\" she said...",
+      "texture_desert s373-382 (10 sentences): \"Ranger-General. The lamp at the Bell Street corner went out...",
+      "texture_desert s389-398 (10 sentences): Behind them, past the shop, the Bell Street lot were still moving...",
+      "telegram_run s390-397 (8 sentences, 75% short): \"Up the lane's the worst of it,\" she said...",
+      "telegram_run s540-548 (9 sentences, 88.9% short): The wet was behind them now... \"It's behind us,\" she said.",
+      "texture_desert s540-551 (12 sentences): The wet was behind them now and spread out...",
+      "texture_desert s575-584 (10 sentences): Lyriel held the hand a while... Lyriel opened it a crack with her knife out, then wider.",
+      "telegram_run s603-611 (9 sentences, 77.8% short): Pages of it. At high summer it was struck through...",
+      "texture_desert s633-642 (10 sentences): \"Tam had his collar sewn before he ever saw us...",
+      "telegram_run s693-703 (11 sentences, 90.9% short): \"I'll make two,\" he said... \"Three.",
+      "texture_desert s693-703 (11 sentences): \"I'll make two,\" he said...",
+      "telegram_run s747-754 (8 sentences, 75% short): \"To there. Not this one...",
+      "texture_desert s824-834 (11 sentences): There was a master put out of the Kirin Tor. He swallowed..."
+    ]
+  },
+  "resolvedFromIteration1": {
+    "motifRefrain": "Resolved. 477 now ends at 'road by road.', 'Who, then.' is cut, 551 is trimmed to the new information only, and 567 reads 'It fit. She had known it would.' 'Every yard. Every road out.' now appears only at the source (207) and the payoff (533), with one short B6 recall (449). The payoff lands.",
+    "thenFragments": "Resolved. All six narration 'X, then.' fragments are gone (M12 then_fragment count 0). Havel keeps his four (51, 123, 267, 331) as his tic. Sylvanas's close is now 'Before light. The horses are outside the wall, and the captain's paymaster can watch the gates all he likes.'",
+    "dashGlosses": "Resolved. 'She stopped that.' and '; she let the thought go unfinished' are both cut.",
+    "refrainBeats": "Resolved. 'pleased_with_herself' and 'cyndia_weight_even' are now at 1 each (within budget), and the closing staff line is varied ('tucked the staff under her dead arm').",
+    "wardExplainedThrice": "Resolved. The definitional aside and line 11 are cut, so dialogue at 15 carries who hears.",
+    "clarity": "Resolved. 5 now reads 'Sylvanas's sheet... Jaina had not expected'. 77 is 'Tam's collar'. 355 is 'somebody up the street called, \"Now—\"'. 409 is 'the edge of the linen round the two bare fingertips'.",
+    "corinConnection": "Resolved. 553 is 'Learned where you were.' alone, so Corin's observation at 559 is his.",
+    "lyrielLift": "Resolved. Voice-sheet lifts are at 0, and the joke keeps its shape.",
+    "dalaranInference": "Resolved. 555 now reads 'Somebody who worked in the order Dalaran taught, every seam closed before the ward was fed'.",
+    "sylvanasEdge": "Resolved (optional item). 609 gives her a finished, edged prediction that names the enemy by his deed, and 'put' fell from 30 to 15."
+  },
+  "checksPassed": {
+    "emotional-life": "Pass. Jaina argues with herself in free indirect thought in every scene. Scene 1: 35 (will he hear it go quiet?), 55-57 (a man had a mouth / and a collar), 117, 173, 193, 223, 237 (a faster ward / she'd had nothing up / a ward against what?). Scene 2: 319 (twice he'd pointed / so that was nothing / or it was—), 367 ('Later.'), 427-431 ('She should have seen it... No. She had seen it.'), 437-443. Scene 3: 541-547, 569-573, 591 ('Why hadn't she? Because... No. Because...'), 593. Registers include tension, dry humour (the steaming cart horse, barley, 'teeth were going too hard for her to try', the magister line), warmth (Lyriel holding the hand, Corin's 'Sorry—sorry'), exhaustion (shivering on the cot), guilt and gladness (437), dread (the unfinished sum) and the shamed want (593). Every value shift lands on a concrete moment.",
+    "voice-and-register": "Pass, apart from the low items above. The rhythm matches the anchor: long built sentences carrying a mid-thought dash, short landings, one-line turns ('Oh, Light.', 'It was already finished.', 'Havel went.'), and deliberation followed by a decision (591 to 607). Tags are almost all 'said'. The single creative tag is 'called' at 355, where direction matters. Narration stays in Jaina's idiom: the sums, the lattice, first-year work, the examiner, the warden's inspection.",
+    "limited-third": "Pass. The take is heard, not seen. The arrow is shown by its effect. Havel's tells (sweat at the collar, the held smile, the look at the yard door, the two-finger point) are observed without a verdict until Corin says 'paid'. The curse is felt 'a breath too late' and is grounded in the closed place under the loud loft residue. Inferences about others are framed as hers ('Jaina would have looked at him too'). Earlier 'coin' at 75 is the established residue taste from Ch2 ('old-coin taste'), not a payment hint, so 'coin' and 'paid' as payment still first arrive in Corin's mouth.",
+    "dialogue-register": "Pass. No institutional or clinical vocabulary. Voices are swap-proof. Sylvanas gives commands and predictions. Havel's register is procedure, 'we' and 'lads', with the formation question once and unremarked, and his 'then' tic. Corin starts false, lands the fact and says the name alone. Cyndia reports rank first, in event order, with her remark last. Lyriel makes one joke, then works. The prisoner is thick and partial, and his half-sentence carries the shape of a name. Jaina is courteous ('Would you write for me? Please.'), uses 'I believe' and asks her own kind of question.",
+    "beat-plan-fidelity": "Pass. All nine beats are dramatized, and the r2 cuts removed no beat content. The cast budget holds (one freeze, with the damper taking the ward). Bite logic holds. Havel's question comes once in B1. The held point in cover is under the granary. Havel breaks for his route with a shout and dies by the arrow, with no confession. Cyndia's roof report sources the shelters. 'Northern Lordaeron' is squared with the Ch7 roads. 'East' is sourced to Corin's inbound bills. The Kel'Thuzad guardrails hold (name, Kirin Tor, put out by Antonidas, necromancy, east). Jaina owns the turn east. The stone stays silent, and Lyriel is alive and unwounded."
+  },
+  "summary": "Pass. All ten r1 findings were applied cleanly. Texture is 100, and emotional life, voice, POV, dialogue and all nine beats hold. Six low-severity line edits carry forward. The one that matters most is a small contradiction: the holding ward at 443 and the doorway thread at 555 are both called 'the first one anybody learns', and the B8 Dalaran inference depends on the second. The others are an abandoned-count refrain (523/543/547), repeated staging beats, a clarity snag at the wicket gate, cap-0 mannered-checker hits for the slop gate, and an optional 'seam' variation before the last line."
+}

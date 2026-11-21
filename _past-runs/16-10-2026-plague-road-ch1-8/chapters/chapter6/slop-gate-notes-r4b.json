@@ -1,0 +1,155 @@
+{
+  "chapterId": "chapter6",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "fixStrategy": "default (B trajectory 37 -> 15 -> 11 -> 4, strictly decreasing); fixes kept minimal anyway",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 41,
+      "kills": 2,
+      "keeps": 39,
+      "severity": {"mild": 2, "moderate": 0, "severe": 0},
+      "dominantPattern": "F4 / F8 (one each)",
+      "findings": [
+        {
+          "id": "B-GPT-1",
+          "pattern": "F4",
+          "line": 35,
+          "text": "\"It's one thing,\" Jaina said. \"The flour, the jar, Millhaven. Somebody built it to ride in the grain, so people eat it in their bread a little every day, and it keeps in them and waits. It comes in on the wagons and walks out on its own feet.\"",
+          "issue": "The spoken line re-runs the mechanism the narration delivered eight lines earlier (L27: 'the people to eat it a little at a time... The jar's keeping part kept it whole inside them, and it built there meal after meal and waited'). 'a little every day' / 'keeps in them and waits' gives the reader the same payload twice in a row, and 'a little' becomes the third use of the phrase in the opening section. The line Sylvanas needs is the conclusion plus 'Somebody built it'. She answers 'Somebody,' and the ingestion mechanism is told again, to a new listener, at L147.",
+          "whatItRestates": "L27 narration paragraph ('It was one thing, made in parts...')",
+          "severity": "MILD",
+          "suggestedFix": "\"It's one thing,\" Jaina said. \"The flour, the jar, Millhaven. Somebody built it to come in on the wagons and walk out on its own feet.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+          "crossCheckNotes": "The speech has three sentences and ends on a long one, so it is not an F10 stack. 'Somebody built it' stays, so Sylvanas's 'Somebody,' still has its hook. 'It' is anchored by flour, jar and Millhaven (phantom P3 passes)."
+        },
+        {
+          "id": "B-GPT-2",
+          "pattern": "F8",
+          "line": 155,
+          "text": "\"That's you. And this road runs on into Andorhal by the back gate.\"",
+          "issue": "This is an echo frame. Arthas says 'That's us.', Jaina hands it back with one word changed, 'That's you.', and two lines later Arthas uses the same frame again, 'That's Barov.' That makes three 'That's X' lines in four exchanges. Her echo adds no fact. The fact she brings is the road running on to Andorhal.",
+          "repeatedWords": "That's [us -> you]",
+          "severity": "MILD",
+          "suggestedFix": "\"And this road runs on past you into Andorhal by the back gate.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+          "crossCheckNotes": "'past you' keeps her distinction between his camp and her road. The fix is one sentence, so F10 cannot apply. It is concrete (road, Andorhal, back gate). His 'That's Barov.' is now the only repeat of 'That's'. It names a new referent, so it stands."
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povRegister": {
+        "povCharacter": "Jaina Proudmoore",
+        "registerSummary": "Antonidas's apprentice: exact, fast, courteous, quick to infer. She reasons from evidence to belief to the next step. Her private vocabulary is magical-technical (drag, lateness, keeping part, seams, wards), drawn from Dalaran classrooms and her Boralus childhood. She swears by the Light, teases, and second-guesses herself in questions. She would not pin thematic arc statements or epigraph-style captions over her own experience.",
+        "registerConfidence": "HIGH"
+      },
+      "totalCandidates": 34,
+      "kills": 1,
+      "keeps": 33,
+      "tierAKills": 0,
+      "tierBKills": 1,
+      "severity": {"mild": 1, "moderate": 0, "severe": 0},
+      "dominantPattern": "B3",
+      "structuralHabit": "no",
+      "findings": [
+        {
+          "id": "B-NS-1",
+          "pattern": "B3",
+          "tier": "B",
+          "line": 331,
+          "text": "For most of the road she had read marks on a sheet, heavy and light, old and new, all of it held at arm's length. Now the drag was in her teeth, in every breath of this dust, her heart going hard against it.",
+          "whoIsSayingThis": "the narrator",
+          "povMismatch": "The 'For most of the road... at arm's length. Now...' frame is an arc statement about her passage from abstract to embodied. It gives the moment's thematic shape rather than what she feels. It is also wrong on the chapter's own terms: she has read the road through the staff since the first line ('the road she had been reading all morning', L95) and has not been reading marks on a sheet. She would not mutter this. The second sentence is her body and stands on its own.",
+          "severity": "MILD",
+          "confidence": "MODERATE",
+          "suggestedFix": "The drag was in her teeth now, in every breath of this dust, her heart going hard against it.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+          "crossCheckNotes": "The fix is the paragraph's own concrete half. It has no hedge or filter (F3) and does not restate anything (F4). 'the drag' is the chapter's established, anchored term (phantom passes). The next paragraph still carries the sheet-of-paper image ('waiting for a man to take a sheet of paper out of her hand')."
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 18,
+      "kills": 0,
+      "keeps": 18,
+      "severity": {"mild": 0, "moderate": 0, "severe": 0},
+      "cleanReason": "Every candidate cashes out from text already on the page. The two tool-flagged vague pointers keep: 'something in his ear' (L113) is speech Jaina cannot hear, so the gap is the POV limit, and 'something in the flour' (L147) is anchored by its appositive 'a made thing, a necromancer's work'. The hedges 'Perhaps' (L209) and 'It might have been her' (L63) name concrete claims. Jaina's coined terms ('the drag', 'lateness', 'the keeping part', 'old under new') are each defined by the staff reading or the jar before they are used as shorthand. Inferences such as 'or it wouldn't run this smoothly' (L43), 'Whoever had built this had been taught in Dalaran' (L65) and 'somebody who knew which wagon went to which yard' (L351) follow evidence already shown: the layered loads, the swept depot and the closed-seam ward method. No P5 planner shorthand was found. 'They rode in the old order' (L11) is unpacked in the next sentence. The 18 keeps are above the 25% leniency line. That is because this is the fourth revision and most candidates are coined terms that have been anchored and used again.",
+      "findings": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severity": {"mild": 0, "moderate": 0, "severe": 0},
+      "cleanReason": "There are three translation setups. (1) Sylvanas asks 'Make it short.' (L53), and Jaina gives Arthas the short version (L145-167). It names grain, flour, mills and bread, sixty dead walking north from Millhaven, the slips running to Andorhal, and a concrete ask: men to shut the Andorhal granaries. It also sets a threshold: people are eating it this morning. That is a usable target, trigger and action. (2) 'And when you say that to a man who can't feel any of it?' (L45) is answered with the slips, the sacking and the map with the knife hole, all objects in Sylvanas's coat. (3) 'We need somebody who knows the yards' (L265) gets the clerk's route: keep to this road, ignore the left fork to the yards, the market gate, the militia post on the left with a bench, Captain Havel. Every reply passes the 'Which one? / How do I tell?' test.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 93,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "narrator-seep-guide.md"],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 MILD kills (F4 dialogue re-running the L27 mechanism, an F8 'That's us / That's you' echo, a B3 arc-frame sentence at L331) and no MODERATE or SEVERE kills. Each has a drop-in fix. Structural texture deficit (score 82.7, below_target). Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct, opener_entropy and mattr are outside range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.826, "target": 0.733, "delta": 0.093, "inRange": true},
+      "sentence_length_mean": {"actual": 13.1, "target": 12.412, "delta": 0.688, "inRange": true},
+      "sentence_length_cv": {"actual": 0.736, "target": 0.723, "delta": 0.013, "inRange": true},
+      "short_sentence_pct": {"actual": 31.9, "target": 30.155, "delta": 1.745, "inRange": true},
+      "long_sentence_pct": {"actual": 24.1, "target": 15.352, "delta": 8.748, "inRange": false},
+      "opener_entropy": {"actual": 6.03, "target": 6.637, "delta": -0.607, "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 28.3, "target": 21.378, "delta": 6.922, "inRange": false},
+      "mattr": {"actual": 0.79, "target": 0.848, "delta": -0.058, "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "textureScore": 82.7,
+      "participial_pct": 5.2,
+      "compound_pct": 16.0,
+      "emdash_pct": 0.9,
+      "semicolon_pct": 2.0,
+      "short_pct": 40.3,
+      "verdictReasons": [
+        "participial: 5.2% below target 7.23% (score 82/100)",
+        "compound: 16.0% above target 14.135% (score 84/100)",
+        "emdash: 0.9% below target 5.119% (score 64/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.2% -> target 7.23%. Add ', Ving' phrases as connective tissue between actions. | COMPOUND: 16.0% -> target 14.135%. Too many ', and/but/yet' joins; break some into separate sentences. | EMDASH: 0.9% -> target 5.119%. Use em-dashes for mid-sentence pivots.",
+      "flaggedPassages": {"telegram_run": 4, "texture_desert": 7},
+      "overlapWithKills": "None of the three kills sits inside a flagged zone. The L155 echo is next to the telegram_run/texture_desert around sentences 240-249 (L161-163), and trimming the echo does not deepen that run."
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 41,
+      "total_violations": 0,
+      "overCapCategories": [],
+      "passBMappedSignals": {
+        "hedging": "hedge_perhaps L209, hedge_might_have_been L63. Both KEEP (phantom-concreteness): concrete claims, and the uncertainty is the point.",
+        "vague_pointers": "something_vague L113, L147. Both KEEP (phantom-concreteness): a POV hearing limit, and an anchored appositive.",
+        "narrator_verdict": "0 matches",
+        "ambient_inversion": "0 matches",
+        "slopsquid": "0 matches",
+        "ai_vocabulary": "0 matches",
+        "verbose_phrases / academic_register / dialogue_register / expression_decomposition / clinical_anatomy": "0 matches"
+      }
+    }
+  }
+}

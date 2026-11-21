@@ -1,0 +1,216 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 24,
+      "kills": 1,
+      "keeps": 23,
+      "severity": "MILD",
+      "dominantPattern": "Pattern 5 - preamble negation",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "note": "Keep rate is high because most surviving negations are diagnostic findings (L194, L232, L312, L538), hard constraints on the ward or spell (L288, L356, L360, L701, L881), imperatives (L474, L749, L849), or Jaina arguing with herself (L380, L456, L821). Each keep is recorded in the scratchpad with its condition.",
+      "findings": [
+        {
+          "id": "A-N1",
+          "line": 647,
+          "text": "She never saw the arrow go. She heard it, a hard flat smack, a shutter slammed in a wind.",
+          "pattern": "Pattern 5 - preamble negation",
+          "deletionTest": "She heard it, a hard flat smack, a shutter slammed in a wind.",
+          "severity": "MILD",
+          "reason": "Pattern 5. It says what she did not do (see the arrow) before what she did (hear it). The speed fact fits in one positive sentence. None of the four keep conditions applies: no in-scene decision turns on it, it corrects no placement, and it sets no world rule.",
+          "suggestedFix": "She only heard the arrow, a hard flat smack, a shutter slammed in a wind.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "fixNote": "L653 'Jaina hadn't seen her cross it either.' still reads correctly, because 'only heard' implies she did not see the arrow. Uses a comma, not a colon, because punct_colon_narration is already at its cap of 17."
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 31,
+      "kills": 1,
+      "keeps": 30,
+      "severity": "MILD",
+      "dominantPattern": "Pattern 10 - receiver noun with perception verb",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "Re-read every sentence for an inanimate or abstract subject carrying a verb of agency, desire, cognition, combustion or physical behaviour. Roads and geography: 'the lane turned between two cottages' (L5) and 'One way went back north' (L1025) are spatial-route verbs, the same family as 'the road led'. Receiver nouns: 'the street could see it' (L605) is the one live smear. 'a whole lane drew one bucket' (L380) and 'every house ... sitting down to its dinner' (L258, L282) are household metonymy, and the residents are named on Tobin's slate. Body-part subjects: Brask's thumb (L74, L78, L98, L715, L825, L845) is his involuntary tell, read on purpose and paid off at L845. Other body-part subjects are reflex or collapse: L298, L304, L643, L685 'of their own accord', L723, L789 heels, L793 teeth. Abstract states settling into the body: 'Old copper sat on the back of her tongue' (L1) and 'the cold sat under her breastbone' (L11) use stative verbs with no landing or settling motion. The cold climbing the staff (L200, L294, L585, L665, L685) is the established frost-cost mechanic. Metaphor chains: the staff and crystal (ticked, woke, shifted and leaning) is the focus's defined reactive behaviour, carried in from the Ch3 close where it points south. Only L605 failed the sweep.",
+      "findings": [
+        {
+          "id": "A-I1",
+          "line": 605,
+          "text": "Whoever was in there had come in some other way, and wanted no light where the street could see it.",
+          "pattern": "Pattern 10 - receiver noun with perception verb",
+          "subject": "the street",
+          "verb": "could see",
+          "realAgent": "anyone passing in the street at dusk; no passers-by are set up in the scene",
+          "severity": "MILD",
+          "reason": "Pattern 10 (with Pattern 5/6). Geography is given sight while the real watchers are left out. No people are set up in the street at this point, so the collective-actor keep does not apply.",
+          "suggestedFix": "Whoever was in there had come in some other way, and wanted no light where anyone in the street could see it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 22,
+      "kills": 4,
+      "keeps": 18,
+      "severity": "MILD",
+      "dominantPattern": "Tic 5 - eye/gaze repertoire exhaustion",
+      "ticCounts": {
+        "tic1_cornerOfMouth": "2 near-smile mouth beats (L554 'One corner of her mouth went in', L338 'Lyriel's mouth twitched'); cap 1. Chapters 2 and 3 final.md have 0, so the 3-chapter window is fine.",
+        "tic2_marked": "0 (L985 'a mark on it in black' is a literal noun)",
+        "tic3_tightenedEased": "1 emotional ('The skin went tight across the back of Jaina's neck', L605). Physical: L15 knot, L789 body drawing up tight. 0 eased.",
+        "tic4_facialShifted": "0 (L1021 the mare shifted and L1027 the staff shifted are both physical)",
+        "tic5_eyeGaze": "Before fixes, 9 expressive gaze beats against a cap of 4: L90, L562, L729, L789, L815, L859, L991, L1011, L1023. Plain functional looks such as 'looked at the slate' are not counted. The Tam death scene has 4 look-at-the-boy beats in about 45 lines (L815, L821, L825, L859).",
+        "tic6_weight": "1 emotional (L837 'his face gone heavy'). The drag-as-weight lines (L13, L15, L266, L294, L617, L693) describe the magical sense, not an emotion. L528 is the literal dead hand.",
+        "tic7_nonSaidTags": "0 performance tags. Narration uses 'told' and 'reported' for function. 'said quietly' (L196, L859) marks real volume."
+      },
+      "findings": [
+        {
+          "id": "A-T1",
+          "line": 338,
+          "text": "She said a word she had learned from the gunners, and Lyriel's mouth twitched.",
+          "pattern": "Tic 1 - corner-of-mouth / suppressed micro-smile",
+          "severity": "MILD",
+          "reason": "Second near-smile mouth beat in the chapter (L554 Sylvanas 'One corner of her mouth went in' is the first and survives, since it is character-specific for Sylvanas's restraint). Lyriel laughs and grins elsewhere (L9, L963), so a suppressed twitch is the generic default. Per the guide, let her react fully.",
+          "suggestedFix": "She said a word she had learned from the gunners, and Lyriel snorted.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T2",
+          "line": 789,
+          "text": "His pale eyes were on her, his face perfectly calm, calmer than it had been all evening—and then it wasn't.",
+          "pattern": "Tic 5 - eye/gaze repertoire exhaustion",
+          "severity": "MILD",
+          "reason": "Over the gaze cap. This repeats the L729 image ('his eyes were very pale and very young, on her') and comes straight after 'He looked up.' (L785). The calm face carries the beat, so the eyes add nothing.",
+          "suggestedFix": "His face was perfectly calm, calmer than it had been all evening—and then it wasn't.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T3",
+          "line": 815,
+          "text": "Two of them had deep teeth marks. She looked at the boy.",
+          "pattern": "Tic 5 - eye/gaze repertoire exhaustion",
+          "severity": "MILD",
+          "reason": "Over the gaze cap, and the first of four look-at-the-boy beats in the death scene (L815, L821, L825, L859). It is a pause beat whose only job is to route a reaction through a look. The teeth marks and her next line carry it.",
+          "suggestedFix": "Two of them had deep teeth marks.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-T4",
+          "line": 859,
+          "text": "Brask stood in the door a moment longer, looking at the boy.",
+          "pattern": "Tic 5 - eye/gaze repertoire exhaustion",
+          "severity": "MILD",
+          "reason": "Over the gaze cap. It is Brask's second look at Tam in the same scene (L825 'He was looking at Tam' survives, because there the thumb carries the emotion). 'a moment longer' and 'Cover his face, somebody' carry the grief. The fix keeps a trailing phrase because the chapter is short of participials (7.3% against a 12% target), and the torch is already established at L819 and L837.",
+          "suggestedFix": "Brask stood in the door a moment longer, the torch held low.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 71,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "fixStrategy": "default (iterationKillsA trajectory 55 -> 19 -> 5, strictly decreasing)",
+    "verdict": "fail",
+    "verdictReason": "6 MILD kills, which is more than the 3-MILD threshold. 0 MODERATE/SEVERE. Every kill has a drop-in fix of one sentence or less, and 4 of the 6 are deletions or one-word swaps. Most of the surplus is Tic 5 gaze beats clustered in the Tam death scene. Not affecting the verdict: structural texture deficit (below_target) and structural rhythm concerns (sentence_length_cv, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are out of range).",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.812, "target": 0.72, "delta": 0.092, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.859, "target": 0.7, "delta": 0.159, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 41.2, "target": 35.0, "delta": 6.2, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 19.3, "target": 10.0, "delta": 9.3, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.58, "target": 7.7, "delta": -1.12, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 28.4, "target": 19.0, "delta": 9.4, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.773, "target": 0.83, "delta": -0.057, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": ["sentence_length_cv", "long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 78.2,
+      "participial_pct": 7.3,
+      "compound_pct": 12.5,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.5,
+      "short_pct": 51.4,
+      "verdict_reasons": [
+        "participial: 7.3% below target 12.0% (score 61/100)",
+        "compound: 12.5% above target 10.0% (score 77/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.3% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.5% -> target 10.0% (score 77/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": { "telegram_run": 36, "texture_desert": 32 }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 96,
+        "total_violations": 1,
+        "overCapCategories": ["vague_pointers (4/3, maps to pass B phantom-concreteness)"],
+        "passATagged": {
+          "punctuation_tics": "22 semicolons (cap 34), 17 narration colons (cap 17, at cap, so fixes must not add a colon)",
+          "participial_attachment": "30 trailing (cap 68); all kept, and the chapter is short of participials",
+          "filter_words": "watched x3 (L90, L448, L603), decided x1 (L510); all kept as literal action or a real decision",
+          "said_bookisms": "hissed x2 (L5 geese, L801 torch) are literal sounds, not dialogue tags; conceded (L122) is narration, not a tag; adverb_on_tag 'said quietly' (L196) marks real volume",
+          "breath_tells": "breath caught x2 (L208, L571) are Garran's clinical wet-catch symptom; kept",
+          "simile_overload": "like x2, as if x1, all under cap; kept",
+          "filler_actions": "nodded (L506), frowned (L234), both under cap; kept"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA history [49]; this run's 8 continues a strictly decreasing trajectory)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 38,
+      "kills": 5,
+      "keeps": 33,
+      "severityMarkers": {
+        "clusterPages": [],
+        "clusterWarnings": [
+          "Pattern 5 (preamble negation, 'X did not V. X V2.') recurs across three scenes: L557, L597, L803, L817 killed. L249 and L429 have the same surface shape but were kept under condition 1 (scratchpad)."
+        ]
+      },
+      "keepRateNote": "Most keeps are step-1 imperatives or prohibitions (L191, L257, L319, L357/L485, L617, L755), dialogue binaries that the characters act on (L541, L667, L685, L833), and absence inventories that are the evidence the scene is about (L67, L103, L657, L661, L817 'No bay...'). The pivot-shaped narration candidates were killed.",
+      "dominantPattern": "Pattern 5 - preamble negation",
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 557,
+          "text": "Neral did not argue.",
+          "context": "Neral did not argue. She waited, the way she would wait on a horse that had refused a ditch before she put it at the ditch again.",
+          "pattern": "N5-preamble-negation",
+          "deletionTest": "Neral waited, the way she would wait on a horse that had refused a ditch before she put it at the ditch again.",
+          "severity": "MILD",
+          "reason": "Pattern 5. The positive sentence already carries the non-argument and the intent to try again, so the negated half is scaffolding.",
+          "suggestedFix": "Neral waited, the way she would wait on a horse that had refused a ditch before she put it at the ditch again.",
+          "fixScope": "Replace the two-sentence span 'Neral did not argue. She waited, the way she would wait on a horse that had refused a ditch before she put it at the ditch again.' with the fix.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-2",
+          "line": 587,
+          "text": "never louder, never quieter",
+          "context": "The water went on coming past the still wheel and under the bridge, white even now, never louder, never quieter.",
+          "pattern": "N7-chained-negation",
+          "deletionTest": "The water went on coming past the still wheel and under the bridge, white even now.",
+          "severity": "MILD",
+          "reason": "Pattern 7. Two chained refusals stand in for one positive fact (a steady sound). The same paragraph already has three other negations ('Nothing in the whole village', 'had never sat', 'had not known').",
+          "suggestedFix": "The water went on coming past the still wheel and under the bridge, white even now, the same pitch hour after hour.",
+          "fixScope": "Replace the full sentence beginning 'The water went on coming past the still wheel'.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-3",
+          "line": 597,
+          "text": "She had not asked to sleep.",
+          "context": "She had not asked to sleep. She sat there with her eyes open, waiting for the sun like Sylvanas, so she could go and look at something.",
+          "pattern": "N5-preamble-negation",
+          "deletionTest": "She sat there with her eyes open, waiting for the sun like Sylvanas, so she could go and look at something.",
+          "severity": "MILD",
+          "reason": "Pattern 5. It sets up the reaction she did not have (asking to sleep) so that the real one (sitting up awake) can follow. The next sentence shows the same discipline on its own.",
+          "suggestedFix": "",
+          "fixScope": "Delete the sentence 'She had not asked to sleep.' The paragraph then runs '...and a storehouse floor. She sat there with her eyes open...'.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-4",
+          "line": 803,
+          "text": "The girl did not make a sound; she sat bolt upright",
+          "context": "The girl did not make a sound; she sat bolt upright against Neral with her two hands in the mane and her eyes on nothing, and the bay walked her up past the inn sign into the north road, swinging wide round the wagon, the fourth ranger and the grey coming on behind.",
+          "pattern": "N5-preamble-negation",
+          "deletionTest": "She sat bolt upright against Neral with her two hands in the mane and her eyes on nothing...",
+          "severity": "MILD",
+          "reason": "Pattern 5. L795 already says she 'went up onto the front of the saddle without a sound', so the negated half repeats a fact the reader has, as a lead-in to the posture.",
+          "suggestedFix": "The girl sat bolt upright against Neral with her two hands in the mane and her eyes on nothing, and the bay walked her up past the inn sign into the north road, swinging wide round the wagon, the fourth ranger and the grey coming on behind.",
+          "fixScope": "Replace the full sentence starting 'The girl did not make a sound;'.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-5",
+          "line": 817,
+          "text": "She did not look round.",
+          "context": "She did not look round. She could hear it. Lyriel's mare on her right hand, Cyndia's on her left...",
+          "pattern": "N5-preamble-negation",
+          "deletionTest": "She could hear it.",
+          "severity": "MILD",
+          "reason": "Pattern 5. The refused action (looking back) is named first so the sensory substitute (hearing) can land. The beat survives as a positive physical fact.",
+          "suggestedFix": "She kept her face to the road.",
+          "fixScope": "Replace only 'She did not look round.'; keep 'She could hear it.' and the rest of the paragraph.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 38,
+      "kills": 2,
+      "keeps": 36,
+      "severityMarkers": {
+        "clusterFlags": [],
+        "repeatNouns": [],
+        "pattern4Alert": "no"
+      },
+      "keepRateNote": "Most candidates are literal non-human action (frost spreading under the mage's palm, sound echoing off walls, lantern light, wind, cold through wet cloth), road 'ran/climbed' geography that the guide's camouflage note treats as fine, involuntary body events (flinch, voice cracking, sleep-jerk, fingers that will not close), and the in-world reading mechanism (palm on ward-stone, staff 'loud/heavy'). The full list is in the scratchpad.",
+      "secondSweep": "Dedicated P5/P6 sweep done sentence by sentence over all 859 lines. Checked: roads and geography with motion verbs (L637, L809, L811, L823, L843; all literal extent or fatigue perception), receiver nouns with the actor in an instrument phrase (L155 'voice ... came out in order', L677/L711/L839 'the chamber'; kept, people named in the next sentences), body-part volition (L179, L239, L331, L355, L375, L389, L401, L599, L613, L751, L821; all involuntary, perception-limited or literal grip), abstract states settling into the body (none found; L103/L253 'cold coming up' is literal conduction), and metaphor chains on one inanimate subject (none). Permission-tag sweep over every 'let': one kill (L429). L547 'if she let herself' and L821 'Sylvanas let her sleep' were kept. Second-sweep addition: L659 'the one print that walked apart'.",
+      "dominantPattern": "P11 permission tag / P10 receiver noun doing the human work (one each)",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 429,
+          "text": "letting the quiet sit between",
+          "context": "She gave her the skin, took it back, gave it her, letting the quiet sit between.",
+          "pattern": "P11-permission-tag",
+          "subject": "the quiet",
+          "verb": "sit (granted by 'letting')",
+          "realAgent": "Neral, keeping quiet between offers of the water skin",
+          "severity": "MILD",
+          "reason": "Pattern 11. The tag gives the verb to the silence and reduces Neral to granting permission. State what she did.",
+          "suggestedFix": "She gave her the skin, took it back, gave it her, keeping quiet in between.",
+          "fixScope": "Replace the full sentence 'She gave her the skin, took it back, gave it her, letting the quiet sit between.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-2",
+          "line": 659,
+          "text": "hunting the one print that walked apart, that went up the bank to look ahead and came back down, that turned round and faced the rest",
+          "context": "Sylvanas went back down to the mouth of the cut and walked up it again along the edge, hunting the one print that walked apart, that went up the bank to look ahead and came back down, that turned round and faced the rest.",
+          "pattern": "P10-receiver-noun-agency",
+          "subject": "the one print",
+          "verb": "walked apart / went up the bank to look ahead / turned round and faced",
+          "realAgent": "a leader or drover among the walkers, whose print she is looking for",
+          "severity": "MILD",
+          "reason": "Pattern 10. A print is given intention ('to look ahead') and three walking verbs while the person who would have made it is left out. Putting the walker back in subject position keeps the meaning, and the tracking voice survives.",
+          "suggestedFix": "hunting the print of the one walker who had gone apart from the rest, up the bank to look ahead and back down, or turned round to face them",
+          "fixScope": "Replace the cited participial span only; keep the rest of the sentence and the following 'A drover's print; a horse's.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 16,
+      "kills": 1,
+      "keeps": 15,
+      "ticCounts": {
+        "tic1_cornerOfMouth": {"count": 0, "cap": 1, "note": "L381 and L521 'corners of her mouth' are physical (dark/dirt), not expressions"},
+        "tic2_marked": {"count": 1, "cap": 2, "note": "L287 'marked which way it turned' (verb). The 'mark' nouns at L617/L629/L657/L677 are physical track marks and do not count"},
+        "tic3_tightened": {"count": 0, "cap": 3},
+        "tic3_eased": {"count": 1, "cap": 2, "note": "L83 'She eased the string.' is physical"},
+        "tic4_facialShifted": {"count": 0, "cap": 1, "note": "L101 and L525 'shifted' are physical (bow, girl on lap)"},
+        "tic5_eyeGaze": {"count": 5, "cap": 4, "instances": ["L689 hare-and-hawk watching", "L777 'She glanced at Cyndia.'", "L787 Cyndia turning her head after the wagon", "L803 'her eyes on nothing'", "L853 farmwife 'stared at the four of them'"], "note": "Functional looking (L13/L131/L599 sentry watching, L115 glance at the windlass and hand, L829/L833 eyes shut while reading) is not counted"},
+        "tic6_weightHeaviness": {"count": 0, "cap": 2, "note": "Every 'heavy' is the mage's in-world reading scale (subject-matter); L423/L613 'weight' are physical"},
+        "tic7_nonSaidTags": {"count": 0, "cap": 3, "note": "No performance tags. L343 'The lantern hissed' is a sound, not a tag"}
+      },
+      "dominantPattern": "Tic 5 - eye/gaze repertoire (1 over cap)",
+      "findings": [
+        {
+          "id": "A-TIC-1",
+          "line": 777,
+          "text": "She glanced at Cyndia.",
+          "context": "She glanced at Cyndia. Cyndia's face did not move. Lyriel looked satisfied anyway.",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "toolSignal": "filler_glanced",
+          "severity": "MILD",
+          "reason": "Tic 5 is one over its cap (5 emotional or reactive gaze beats against a cap of 4). This is the most generic of them, a check-in glance for approval. The next two sentences carry the exchange without it.",
+          "suggestedFix": "",
+          "fixScope": "Delete 'She glanced at Cyndia.' The paragraph becomes 'Cyndia's face did not move. Lyriel looked satisfied anyway.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 84,
+    "mildKills": 8,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "guidesWithKills": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "8 MILD-only kills, over the 3-MILD threshold, and no MODERATE or SEVERE kills. Negation: 5 (four Pattern 5 preamble negations at L557, L597, L803 and L817, plus one Pattern 7 chain at L587). Intent smear: 2 (P11 permission tag at L429, P10 receiver-noun print at L659). Recurring tics: 1 (Tic 5 gaze over cap, L777). Every kill has a drop-in fix, and an empty-string fix means delete. Separately: 6 rhythm metrics are outside the style-guide ranges (structural rhythm concerns), and texture is below_target, a structural texture deficit.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.66, "target": 0.72, "delta": -0.06, "range": [0.6, 0.85], "inRange": true},
+      "sentence_length_mean": {"actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true},
+      "sentence_length_cv": {"actual": 0.893, "target": 0.7, "delta": 0.193, "range": [0.6, 0.8], "inRange": false},
+      "short_sentence_pct": {"actual": 43.1, "target": 35.0, "delta": 8.1, "range": [28.0, 42.0], "inRange": false},
+      "long_sentence_pct": {"actual": 20.5, "target": 10.0, "delta": 10.5, "range": [7.0, 14.0], "inRange": false},
+      "opener_entropy": {"actual": 6.36, "target": 7.7, "delta": -1.34, "range": [7.2, 8.2], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 32.4, "target": 19.0, "delta": 13.4, "range": [15.0, 24.0], "inRange": false},
+      "mattr": {"actual": 0.766, "target": 0.83, "delta": -0.064, "range": [0.8, 0.87], "inRange": false},
+      "structuralRhythmConcerns": ["sentence_length_cv high", "short_sentence_pct high", "long_sentence_pct high", "opener_entropy low", "one_sentence_paragraph_pct high", "mattr low"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 75.2,
+      "participial_pct": 4.8,
+      "compound_pct": 12.7,
+      "emdash_pct": 1.3,
+      "semicolon_pct": 1.7,
+      "short_pct": 52.0,
+      "verdict_reasons": [
+        "participial: 4.8% below target 12.0% (score 51/100)",
+        "compound: 12.7% above target 10.0% (score 75/100)",
+        "emdash: 1.3% below target 4.0% (score 75/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.8% -> target 12.0% (score 51/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.7% -> target 10.0% (score 75/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.3% -> target 4.0% (score 75/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {"telegram_run": 28, "texture_desert": 29},
+      "fixNote": "The A-IS-1 fix (L429) swaps a participial for a participial, so texture holds. The A-NEG-1/3/5 fixes shorten or delete short sentences, which nudges short_pct down."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 76,
+        "total_violations": 1,
+        "overCap": ["filter_watched (4 vs cap 3)"],
+        "atCap": ["filler_nodded (4 vs cap 4)"],
+        "passAMappedSignalsAudited": "filter_watched x4 (kept: L295 is dialogue, so 3 narration instances, which is at cap, and all are literal sentry watching), filler_nodded x4 (kept: at cap, recurring-tics has no nod tic; 6 nod beats in total once 'A nod.' and 'Another nod.' are counted, most of them the mute child's answers in the cellar), filler_glanced x2 (L777 killed via Tic 5, L115 kept), punct_semicolon 22/27 and punct_colon_narration 11/13 (under cap, kept), participial_trailing 18/55 (under cap, kept), simile_like 2 and simile_as_if 2 (under cap, kept), bookism_hissed L343 (a lantern sound, not a tag, kept), adverb_on_tag L483 'said quietly' (1 of cap 3, kept). Pass-B-mapped signals (hedging) were not audited here."
+      }
+    }
+  }
+}

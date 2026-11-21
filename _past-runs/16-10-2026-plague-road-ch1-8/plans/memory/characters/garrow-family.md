@@ -1,0 +1,3 @@
+# The Garrow family
+
+Old Garrow, his daughter and her two boys held a farm in the hills near Strahnbrad. Arthas ate supper at their table on his way up (the boys wanted to hold his hammer) and helped carry them out yesterday. A band of orcs out of the camps, with axes, burned the farm. Its roof was still coming down under a thread of orange on the eastern hill when Jaina made her case. This is the one specific, human, nameable reason Arthas gives for choosing the orc war: 'I can see that from my tent door. I can't see your grain.' Treat the dead as real; the plan requires Arthas not be flattened into a villain.

@@ -1,0 +1,194 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB [71, 26, 7, 6] strictly decreasing); fixes kept minimal anyway: three deletions, two short substitutions",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 58,
+      "kills": 3,
+      "keeps": 55,
+      "severityMarkers": { "MILD": 3, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "id": "r4b-01",
+          "pattern": "F4",
+          "guide": "gpt-5-prose-issues.md",
+          "line": 819,
+          "text": "They had had him in the loft, frozen to the waist with an arrow through his sleeve, and nobody had told him what to say. Somebody had, months ago, with a needle and thread.",
+          "issue": "Narrative over-translation. Sylvanas has just said it four lines up: \"Somebody taught him that. They sewed it in for him and told him when.\" Jaina's paragraph says it again (\"Somebody had, months ago, with a needle and thread\"), and the loft recap before it is something the reader just watched. The new information, that his refusal line had been coached, already lands on \"*I'm not to speak to you.* And he hadn't.\"",
+          "whatItRestates": "Sylvanas's line at 815 plus the loft scene at 657-665",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixNote": "Delete both sentences. The paragraph then reads: \"Jaina looked down at Tam. *I'm not to speak to you.* And he hadn't.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "r4b-02",
+          "pattern": "F7",
+          "guide": "gpt-5-prose-issues.md",
+          "line": 881,
+          "text": "The door was being shut from the other side, and it had taken Sylvanas and a man with a torch and a heap of burning sacks to shut it.",
+          "issue": "Closure addiction, in the metaphorical-mystification form. \"The bread was burning down there in a yard\" already ends the paragraph on a concrete image. This sentence repeats that image as a door metaphor, then states the chapter's partnership theme outright: it took Sylvanas and Brask, and Jaina could not have done it.",
+          "couldEndAt": "The bread was burning down there in a yard.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph becomes the single line \"The bread was burning down there in a yard.\" The \"held the door\" phrase in the paragraph before still stands on its own.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "r4b-03",
+          "pattern": "F7",
+          "guide": "gpt-5-prose-issues.md",
+          "line": 969,
+          "text": "She stood there in the wet and set the cool forehead against the tucked blanket, and it wouldn't come out either way she ran it.",
+          "issue": "Closure addiction, in the false-ambiguity form. The three Millhaven fragments (smoke, cradle, sixty pairs of feet) and Elsie's cool forehead a page earlier already set the comparison up. This sentence then says outright that she is comparing them (\"set the cool forehead against the tucked blanket\") and caps it with a statement that she can't resolve it. That is restraint written as a caption.",
+          "couldEndAt": "Sixty pairs of feet in a cow way.",
+          "severity": "MILD",
+          "textureZoneNote": "Probably inside the texture_desert that starts at sentence 1367 (\"It was a silly thing to want...\"). The replacement keeps one joined clause.",
+          "suggestedFix": "She stood there in the wet with the cool of Elsie's forehead still on her cheek.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "summaryBlock": {
+        "F1": "0 (fragment runs at 432-440, 464 and 506 are slate-cataloguing and imagined questions, so not F1; the rhythm and texture tools flag structural zones separately)",
+        "F2": 0, "F3": 0, "F4": 1, "F5": 0, "F6": 0, "F7": 2, "F8": 0, "F9": 0, "F10": 0, "F11": 0, "F12": 0, "F13": 0, "F14": 0, "F15": 0,
+        "worstFailureMode": "F7",
+        "overallAssessment": "The prose is clean at the sentence level. What remains is two paragraph-final closers that spell out a juxtaposition or theme the concrete beat already carried, and one paragraph that repeats a line Sylvanas has just spoken."
+      }
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 24,
+      "kills": 0,
+      "keeps": 24,
+      "severityMarkers": { "MILD": 0, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": null,
+      "povRegister": {
+        "povCharacter": "Jaina Proudmoore",
+        "registerSummary": "Kul Tiran admiral's daughter and Dalaran apprentice. She thinks in method and self-correction (\"Slower.\", \"Wrong, then.\", \"So it went in by the mouth.\") and in Antonidas-shaped standards. She mocks herself (\"Brilliant, Jaina.\", \"Lovely, Jaina. Shall we have a prize-giving?\"). Her metaphors come from ships, harbours, knots and the household: planking, silt in a harbour, reefs off Tiragarde, lamps and tapers. She would not produce detached sociological summary or epigraph-style captions.",
+        "registerConfidence": "HIGH"
+      },
+      "findings": [],
+      "cleanReason": "24 candidates checked: A1 verdict tails and fragments (\"Quite still.\", \"Wrong, then.\", \"Through the sleeve.\", \"A person made a different sound.\", \", which was low of her\", \"smaller without it, and barer\"); A2 fragment pairs (\"Quieter because it was still moving. Because it still had somewhere warm to go.\", \"In here it was whole. It had been built.\"); A7 generalizers (\"Children coughed for any reason...\", \"as they did it in every village in Lordaeron and every port in Kul Tiras\", \"Every apprentice in Dalaran knew that much.\", \"as damp is everywhere in a cellar\", the generic \"you put it round a flask\"); A8 candidates (\"Somewhere in the rounds the smell came in...\", \"The smell came out through the open door.\"); and Tier B lines (508 \"In the lane before noon she had decided she was wrong about Sylvanas\", 891 \"doing the sums backward\", 699 \"This was written in the grammar\"). Each one is either Jaina's own idiom (she could mutter it), a sensory beat whose source she has not identified yet, or a generalization that drives her next decision. No Tier A verdict caption or staged-ambience inversion survives. The one thematic closer (881) was killed under F7 and is not counted twice here."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 22,
+      "kills": 2,
+      "keeps": 20,
+      "severityMarkers": { "MILD": 2, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "id": "r4b-04",
+          "pattern": "P3",
+          "guide": "phantom-concreteness-guide.md",
+          "line": 697,
+          "text": "the work that ties a thing to the body past the body's end",
+          "failedQuestion": "What specifically? What is tied, and what does it do?",
+          "missingPayload": "What necromancy actually does: a dead body made to get up and move. The plan says Jaina is never clueless about the field, and she already thought the word *Necromantic* in the lane. So the gloss hides behind two stand-ins, \"the work\" and \"a thing\", when she knows the plain answer.",
+          "severity": "MILD",
+          "suggestedFix": "the craft that makes a corpse get up and walk",
+          "fixNote": "Replace only the appositive. The sentence becomes: \"...from the ships that hadn't come home: the death-currents, the craft that makes a corpse get up and walk.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "r4b-05",
+          "pattern": "P3",
+          "guide": "phantom-concreteness-guide.md",
+          "line": 891,
+          "text": "because if it was her fault there was something she could have done",
+          "toolSignal": "there_was_something",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "The vague \"something\" stands in for what was concretely hers to stop: Tam's death. This line also puts vague_pointers over its combined cap (4 against a cap of 3), the chapter's only slop-checker violation.",
+          "severity": "MILD",
+          "textureZoneNote": "Inside the texture_desert that starts at sentence 1280 (\"He'd been waiting for months. Slower...\").",
+          "suggestedFix": "because if it was her fault, it had been hers to stop",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "summaryBlock": {
+        "killRate": "9%",
+        "dialogueClusters": [],
+        "narrationClusters": [],
+        "repeatStandIns": ["something (vague_pointers x4; three kept as anchored or as a deliberate delayed identification)"]
+      }
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 7,
+      "severityMarkers": { "MILD": 0, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "7 translation setups were audited as full exchanges: \"Is it fever?\" leading to \"It's a fever... There's something else in it too\" (162); \"What is it?\" leading to \"It starts in the stomach...\" (240-244); \"How much?\" leading to \"Small. Half a fist. A fist. Everywhere.\" (366-368, a usable scale Tobin writes on the slate); the unspoken \"in small words, fit for Brask: *It's the bread...*\" (534, which the prose rejects in favour of the full reasoning); Jaina's \"The baker lights his oven before light...\" to Sylvanas becoming Sylvanas's \"Then you have until cockcrow\" to Brask (833-841: visible trigger and threshold); \"Tell me what to shut\" leading to \"The granary. The bakehouse. Tonight, now... Nobody bakes, nobody sells, nobody carries a sack out of either\" (845-847: named targets, timing, actions, which Brask acts on at once); and \"made herself say plainly what the wards did\" (879, cashed out immediately as no further intake and no further spread). Each reply gives a usable target, a trigger, or a mechanism without needing a second round of unpacking."
+    }
+  ],
+  "outOfScopeObservations": [
+    "Continuity/craft, not a pass-B finding: line 356 says that under the wards \"the brown went on spreading, only slower\", but line 879 says the wards stop it outright (\"nothing that was in could get any further\"), and the morning scene (943) agrees with 879. Route this to continuity or craft if it matters.",
+    "Pass-A territory, not audited here: line 857 \"Then he said, quite quietly,\" is an adverb on a speech tag. Lines 256 and 280 both use the phrase \"every house in the village ... sitting down to its dinner\"."
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 106,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "phantom-concreteness-guide.md"],
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "5 MILD kills, which is more than the 3 MILD-only threshold. There are no MODERATE or SEVERE kills. All five have low-difficulty drop-in fixes: 3 deletions and 2 short substitutions. Also: structural texture deficit (texture below_target), and structural rhythm concerns (sentence_length_cv, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are outside range).",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.811, "target": 0.72, "delta": 0.091, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.859, "target": 0.7, "delta": 0.159, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 41.0, "target": 35.0, "delta": 6.0, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 19.3, "target": 10.0, "delta": 9.3, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.58, "target": 7.7, "delta": -1.12, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 28.5, "target": 19.0, "delta": 9.5, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.773, "target": 0.83, "delta": -0.057, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": ["sentence_length_cv high", "long_sentence_pct high", "opener_entropy low", "one_sentence_paragraph_pct high", "mattr low"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 78.3,
+      "participial_pct": 7.2,
+      "compound_pct": 12.4,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.4,
+      "short_pct": 51.2,
+      "verdict_reasons": [
+        "participial: 7.2% below target 12.0% (score 61/100)",
+        "compound: 12.4% above target 10.0% (score 78/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.2% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.4% -> target 10.0% (score 78/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots.",
+      "flaggedPassages": { "telegram_run": 36, "texture_desert": 32 },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 94,
+        "total_violations": 1,
+        "overCapCategories": ["vague_pointers (combined 4 / cap 3)"],
+        "passBMappedSignals": {
+          "vague_pointers": "4 matches (lines 490, 683, 785, 891). Line 891 killed (r4b-05). Lines 490, 683 and 785 kept (see scratchpad).",
+          "hedging": "3 matches (lines 210, 212, 579). All kept (see scratchpad)."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Andorhal market gate and the carter's yard
+
+The smaller gate on the south road. Wagons queue back up the road past the first houses and stop one at a time under the arch while a clerk writes each into a book. The wall is chest-high field stone with no ward-stone in it: a boy could go over it with a tailboard. Two militiamen in the arch spike every sack (grain runs out of the holes and trickles into cobbles already pale with it), a third leans on the wall above with his back half turned, two more sit by the trough inside. Just inside the arch a young bald clerk with a shaking pen hand holds each bill beside a board of wax seals (a yard's name inked under each) before he writes.
+
+The party enters on foot. The Thalassian horses stand in a carter's yard outside the wall. Sylvanas's cover is a pass written on a feed-bin lid and sealed with her leaf-and-arrow. Jaina answers the clerk flat; the clerk records 'Escort, Farstriders, three' and copies Sylvanas's name into a book anyone can read. A little further in, a man on a barrel chalks a mark for every wagon that turns down the granary lane. A second count on top of the gate's.

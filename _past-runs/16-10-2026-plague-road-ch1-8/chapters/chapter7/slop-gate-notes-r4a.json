@@ -1,0 +1,161 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsA [70, 13, 9, 4] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 21,
+      "kills": 0,
+      "keeps": 21,
+      "killRate": "0%",
+      "severity": {"mild": 0, "moderate": 0, "severe": 0},
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [],
+      "cleanReason": "Swept every not / n't / no / never / nobody / nothing / none / neither / without / rather than / instead / only / just / than construction in v2-r4.md (about 75 hits). Most are plain negative facts or measurements with no contrast pivot (L7 'no higher than a man's chest', L69 'could not see whether that mark was for them', L348 'no good for reading') and are not candidates. The 21 contrast-shaped or pivot-adjacent lines all hold a closed-list keep condition. There are four imperatives (Step 1: L127, L191, L442, L446). Five are binary diagnostics that change what characters do (L105 damp vs bread line, L121 false brawling charge that drives Havel's later witness plan, L125/L129 'It isn't four yards', L241 Havel steering off Tenter Row, L277 'nothing to hide, or had somebody else to do his looking', which makes her look up). Three are hard constraints (L209 'I won't know who put it there', L458 'tag won't open it, but'). Three give spatial precision (L91 'rather than the chair' corrects the 'sat back down' reading, L299 no-cover inventory that forces the climb, L319 'no mask at all' / 'no nearer the sacks', the two-layer plot fact). The rest are POV self-argument with an undercut (L25 nib, L159 chalked wall, L333 'would not stand at the window... Unless he had been taught', L404 'no better reason to doubt him than'). Narration has no 'Not X. Y.' fragment pivot, no source-swap, no count reset and no triple chain toward a noun. No page clusters. On the self-check: every KEEP loses a concrete fact or a plot-driving distinction if deleted. The 100% keep rate reflects four slophunter iterations of negation removal; it is not leniency. Each KEEP is defended in slop-gate-scratchpad-r4a.md."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 28,
+      "kills": 2,
+      "keeps": 26,
+      "killRate": "7%",
+      "severity": {"mild": 2, "moderate": 0, "severe": 0},
+      "dominantPattern": "P10 receiver-noun / second-sweep inanimate motion verb",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "Re-read every sentence for inanimate or abstract subjects carrying agency, desire, cognition, combustion or physical-behaviour verbs, body-part subjects, and actor demotion into instrument phrases. Caught L217 (sound given a pursuit verb) and L325 (city given breathing and eating). No body-part volition survives: L9 pen hand shook, L29 muscle jumped, L173 fingertips went white, L303 bitten fingers caught late and held badly, and L329 elbow moved all describe involuntary or impaired action, and that involuntariness is the point. Geography verbs are route geometry only (L239 ran/bent, L297 met, L305 ran into one another). There are no nominalized agents and no permission tags. L297 'let the wagon grind on without her' is a physical allowing with an object and a result. Institutional subjects appear only in dialogue or reported speech (L21, L101, L109, L133, L151, L229, L390), and at L21 the narration itself asks 'Which exchange? Who in it'.",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "pattern": "P10 / second-sweep: inanimate sound given pursuit verb",
+          "line": 217,
+          "text": "The staff knocked on the cobbles, the knock following the three of them up the street under the noise of the wheels.",
+          "subject": "the knock",
+          "verb": "following",
+          "realAgent": "Jaina planting the staff as she walks. The sound travels with the three of them, so it cannot follow them.",
+          "verdict": "KILL",
+          "reason": "An abstract noun (a sound) gets a pursuit verb. The image contradicts itself, because the knock is made by one of the three it is said to follow. The staff striking the cobbles is the literal source, and it is already the subject of the first clause.",
+          "severity": "MILD",
+          "suggestedFix": "The staff knocked on the cobbles all the way up the street, under the noise of the wheels.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+          "fixNote": "The staff stays the subject of a literal strike verb. The three walkers are already named in the two sentences before it."
+        },
+        {
+          "id": "A-IS-2",
+          "pattern": "P10 receiver noun (city) doing the human work",
+          "line": 325,
+          "text": "The whole city breathed this stuff and ate it baked.",
+          "subject": "the whole city",
+          "verb": "breathed / ate",
+          "realAgent": "The people of Andorhal: the hoist men, the gate guard, and every household on the bread line.",
+          "verdict": "KILL",
+          "reason": "Pattern 10. The city gets the bodily verbs that belong to its people, and those people are inferred rather than visible in the scene. Putting the people back in subject position keeps the meaning.",
+          "severity": "MILD",
+          "suggestedFix": "Everyone in Andorhal breathed the dust and ate the grain baked.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+          "fixNote": "The fix also replaces the vague pointer 'this stuff' with the two referents the paragraph already established (the dust the hoist men worked in, the grain on the guard's spike), so pass B has nothing new to catch."
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 9,
+      "kills": 1,
+      "keeps": 8,
+      "killRate": "11%",
+      "severity": {"mild": 1, "moderate": 0, "severe": 0},
+      "dominantPattern": "paragraph-opener repetition (tool-mapped)",
+      "tallies": {
+        "tic1_cornerOfMouth": {"count": 0, "cap": 1},
+        "tic2_marked_verb": {"count": 2, "cap": 2, "note": "L177 'marked with the bill' (literal), L243 'marking the bend' (mental). The noun 'mark' (forged yard mark) is the chapter's subject matter and is not the tic."},
+        "tic3_tightened_eased": {"count": 0, "cap": "3 / 2"},
+        "tic4_facial_shifted": {"count": 0, "cap": 1, "note": "L287 'shifted her bow hand' is physical and not counted"},
+        "tic5_eye_gaze_beats": {"count": 2, "cap": 4, "note": "L55 'He looked up at that. Jaina looked back at him... and waited him out' and L163 'her eyes half shut. Now she opened them.' Every other look in the chapter is a tactical or functional sightline."},
+        "tic6_weight_metaphor": {"count": 0, "cap": 2, "note": "every 'weight' is physical (staff, stance, climb); '*Heavy*' is Jaina's reading term"},
+        "tic7_non_said_tags": {"count": 0, "cap": 3}
+      },
+      "findings": [
+        {
+          "id": "A-RT-1",
+          "pattern": "paragraph-opener repetition (3 consecutive paragraphs open 'The')",
+          "toolSignal": "opener_consecutive_repeat",
+          "line": 323,
+          "text": "The man nearest the window finished his sack, peeled his gloves off one at a time without letting them touch his skin, and dropped them into a bucket by the wall.",
+          "context": "L319 'The man she had followed came up the stair...', L321 'The one she had followed carried word...', L323 'The man nearest the window finished his sack...'",
+          "verdict": "KILL",
+          "reason": "The slop checker reports paragraph_structure over its cap of 0: three consecutive paragraphs in the Kett's-loft surveillance open with 'The man / The one / The man'. This is the third paragraph in the run, and a word-order change there breaks the run without touching the two earlier sentences.",
+          "severity": "MILD",
+          "suggestedFix": "Nearest the window, a man finished his sack, peeled his gloves off one at a time without letting them touch his skin, and dropped them into a bucket by the wall.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+          "fixNote": "Downstream references still resolve: L331 'the man at the window' and L333 'He stood...' point to the same man. 'without letting them touch his skin' is a physical avoidance, not a permission tag."
+        }
+      ],
+      "toolSignalKeeps": "filter_watched 3/3 (L29 Lyriel's perimeter action; L113 and L420 in dialogue), filler_nodded 3/4 (L213 acceptance beat, L247 directional nod, L319 the only signal visible from the roof), simile_like 1/17 (L101 'held flat together like a blade'), simile_as_if 1/5 (L275 'as if to steady himself', POV reading a cover gesture), participial_trailing 13/34, punct_semicolon 7/17 (voice-sheet semicolon interiority), punct_colon_narration 5/8. All are under cap and concrete. KEEP rationale is in the scratchpad."
+    }
+  ],
+  "toolSignalAudit": {
+    "mappedToPassA": ["participial_attachment", "punctuation_tics", "filler_actions", "filter_words", "simile_overload", "paragraph_structure"],
+    "overCapMappedToPassA": ["paragraph_structure.opener_consecutive_repeat -> KILL A-RT-1"],
+    "notPassA": ["narrator_verdict.verdict_enough_for L223 'wide enough for one wagon' (pass B narrator-seep)", "contact_verbs.contact_pressed 4/6 (unmapped; under cap; all literal: wax, seals, satchel, sheet)"],
+    "inanimateAgencyOrAbstractLocomotionHits": 0
+  },
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 55,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "guidesWithKills": ["intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings. There are 3 MILD kills and no MODERATE or SEVERE ones, which is at the pass threshold of 3 or fewer MILD. Intent smear has 2 isolated P10 / second-sweep instances (L217 sound 'following' its own source, L325 'the whole city breathed... and ate'). Recurring tics has 1 tool-backed paragraph-opener run (L319-L323). Negation is clean. Every kill has a one-sentence drop-in fix, cross-checked against all three pass A guides. There is a structural texture deficit (texture_score 89.9, below_target: compound joins above target, em-dashes below). Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct and mattr are out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.685, "target": 0.733, "delta": -0.048, "inRange": true},
+      "sentence_length_mean": {"actual": 12.5, "target": 12.412, "delta": 0.088, "inRange": true},
+      "sentence_length_cv": {"actual": 0.759, "target": 0.723, "delta": 0.036, "inRange": true},
+      "short_sentence_pct": {"actual": 35.6, "target": 30.155, "delta": 5.445, "inRange": true},
+      "long_sentence_pct": {"actual": 22.8, "target": 15.352, "delta": 7.448, "inRange": false},
+      "opener_entropy": {"actual": 6.31, "target": 6.637, "delta": -0.327, "inRange": true},
+      "one_sentence_paragraph_pct": {"actual": 32.5, "target": 21.378, "delta": 11.122, "inRange": false},
+      "mattr": {"actual": 0.786, "target": 0.848, "delta": -0.062, "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct above range (22.8 vs max 19.35)", "one_sentence_paragraph_pct above range (32.5 vs max 26.38)", "mattr below range (0.786 vs min 0.818)"]
+    },
+    "textureMetrics": {
+      "texture_score": 89.9,
+      "verdict": "below_target",
+      "verdict_reasons": ["compound: 16.5% above target 14.135% (score 78/100)", "emdash: 3.0% below target 5.119% (score 81/100)"],
+      "interpretation": "COMPOUND: 16.5% -> target 14.135% (score 78/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 3.0% -> target 5.119% (score 81/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "participial_pct": 6.9,
+      "compound_pct": 16.5,
+      "emdash_pct": 3.0,
+      "semicolon_pct": 1.0,
+      "short_pct": 44.5,
+      "flaggedPassages": {"telegram_run": 9, "texture_desert": 9},
+      "note": "structural texture deficit. None of the 3 kills sit inside a flagged zone, so the fixes are not asked to add joining constructions."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 39,
+        "total_violations": 2,
+        "overCap": ["paragraph_structure.opener_consecutive_repeat (1, cap 0) -> pass A KILL A-RT-1", "narrator_verdict.verdict_enough_for (1, cap 0) -> pass B scope, not audited here"]
+      }
+    },
+    "outOfScopeObservations": [
+      "L337/L338: missing paragraph break. 'While the bell was still going she went back along the roof...' runs straight on from '...pass any table in the city.' with no blank line. This is a formatting defect, not a pass A pattern.",
+      "L319/L321: 'The man she had followed' / 'The one she had followed' is a within-chapter echo in consecutive paragraphs (pass C refrain scope).",
+      "L295: 'the day's cloth hung on the tenter frames... hanging slack' repeats hung/hanging inside one sentence (slophunter hitlist / pass C scope)."
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+# The river-depot overseer's lie
+
+A pleasant, white-faced man with five matched pens sends Sylvanas north on the Brill road after six wagons that were never there. The cost is a day. The ruts on the clay hill and the toll-keeper's book prove there was no grain on that road; the stove at the depot, fresh ash with an orange curl still going black, was the real clue and she read it as Corley's kettle. They ride back through a second sleepless night to a padlocked gate and an abandoned house (a shawl on the stair, the washing on the line); the bridge-keeper saw him and his weeping wife go south at a trot. Lie exposed; man gone. Do not bring him back.

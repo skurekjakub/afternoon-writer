@@ -1,0 +1,205 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB [44, 32, 12] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 31,
+      "kills": 7,
+      "keeps": 24,
+      "severity": "MILD",
+      "dominantPattern": "F4",
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "line": 23,
+          "pattern": "F11",
+          "text": "It could be the town's own officers looking at their grain at last, after a summer of burying people. It could as easily be somebody inside who wanted every load counted and every seal matched, so he would know at once what came in that wasn't his.",
+          "issue": "Anaphoric run. Two consecutive sentences open on 'It could ... be'. The repeated frame only marks the alternation, which a single 'Or' carries without the drumbeat.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "targetText": "It could as easily be somebody inside who wanted every load counted and every seal matched, so he would know at once what came in that wasn't his.",
+          "suggestedFix": "Or somebody inside wanted every load counted and every seal matched, so he would know at once what came in that wasn't his.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "line": 24,
+          "pattern": "F4",
+          "text": "This gate had a weak place a child could find, and nobody needed it, because they had a man with a book.",
+          "issue": "Over-translation. L7 already showed the weak place ('A boy could have gone over it with a tailboard for a ladder'). This line restates it, and 'nobody needed it' has no clear referent: needed to mend it, or needed to climb it? The only new fact is that the control sits with the clerk.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "note": "Formatting: L23 and L24 sit on adjacent lines with no blank line between them, so they render as one paragraph. The same happens at L252/253 and L323/324. Out of pass scope, but the slophunter should restore the paragraph breaks or deliberately merge the paragraphs.",
+          "suggestedFix": "Nobody had bothered to raise the wall, because every cart still had to stop at the man with the book.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "line": 152,
+          "pattern": "F4",
+          "text": "Havel knew where the poison went into the sacks; Corin knew where the sacks went after. Neither had a name for whoever stood the loaders in a yard and drilled them.",
+          "issue": "Interpretive restatement. A balanced semicolon summary of the argument the reader just heard from both men. It also overclaims: Havel does not know where the poison goes in (he suspects the crew, and L307 proves him wrong about Kett's). The second sentence adds the real gap (the drillmaster) and stays.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Neither man had a name for whoever stood the loaders in those yards and drilled them.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "line": 200,
+          "pattern": "F7",
+          "text": "Did she trust the mage? She trusted what the mage came back with.",
+          "issue": "Closure addiction. Her question gets a tidy maxim answer that closes the loop. The plan and the voice sheet (outline chapter 7) have her decline to sort out whether she trusts the mage or only the mage's results. Leaving the question unanswered is the legitimate ending.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Did she trust the mage, or only what the mage came back with?",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "line": 291,
+          "pattern": "F4",
+          "text": "Tenter Row, where Havel had pointed past. She went after him.",
+          "issue": "Over-translation. L242 already marked Havel pointing her away from Tenter Row ('He had pointed her away from where she was looking at the post, and now again'), and L386 repeats it in scene 3. This third flag adds nothing and leans on the fair-play plant the plan wants low-key.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "targetText": "Tenter Row, where Havel had pointed past.",
+          "suggestedFix": "She went after him.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "line": 319,
+          "pattern": "F6",
+          "text": "So there were two kinds of them. One carried word between cracks in walls and kept his distance from the sacks. The others worked the sacks up in the loft.",
+          "issue": "Essay brain. A thesis sentence opens the paragraph ('two kinds of them', which also trips the A7 'two kinds of' trigger) before the evidence. The two sentences after it carry the inference on their own.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "targetText": "So there were two kinds of them. One carried word between cracks in walls and kept his distance from the sacks. The others worked the sacks up in the loft.",
+          "suggestedFix": "The one she had followed carried word between cracks in walls and kept his distance from the sacks. The masked ones worked the sacks up in the loft.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "line": 402,
+          "pattern": "F4",
+          "text": "She held that against him. It wasn't fair, and she kept it anyway.",
+          "issue": "Claim then gloss. The paragraph has already said her only reason to doubt him is that 'he was slow and she was sick to death of slow men', and 'She held that against him' lands the unfairness. 'It wasn't fair, and she kept it anyway' explains the joke a second time and nearly quotes the voice sheet ('she keeps the opinion anyway').",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "targetText": "It wasn't fair, and she kept it anyway.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph runs '...a letter about her manners. She held that against him. And the Dalaran boy had been right every time he opened his mouth.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povRegister": "POV CHARACTER: Sylvanas Windrunner. REGISTER SUMMARY: Reads ground first: exits, sightlines, gait, drilled versus tired men. Her inner voice asks itself questions, gives a bad answer and overrules it in short semicolon clauses, and she is dry and openly unfair to slow humans. She names no feelings. She would not think in thematic captions, epigraph slogans or verdicts that close the moment. REGISTER CONFIDENCE: HIGH.",
+      "totalCandidates": 22,
+      "kills": 1,
+      "keeps": 21,
+      "severity": "MILD",
+      "dominantPattern": "B3",
+      "structuralHabit": "no",
+      "findings": [
+        {
+          "line": 334,
+          "pattern": "B3",
+          "tier": "B",
+          "text": "A guard could spike every one of them and see nothing in the groove but good grain.",
+          "whoIsSaying": "narrator",
+          "povMismatch": "From the roof Sylvanas has watched something 'dark and thick' worked into the grain. She has no basis yet to know a spike would show nothing; Jaina only supplies that ('A coat, too thin to see', L362) in scene 3. The line is a thematic callback to the gate spikes in scene 1 that closes the scene's loop with knowledge the POV doesn't have yet. Jaina's L362 already sets up why Havel's gate-spike plan at L400 fails, so cutting this loses nothing.",
+          "severity": "MILD",
+          "confidence": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph ends '...carrying a bill and a seal that would pass any table in the city.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 14,
+      "kills": 0,
+      "keeps": 14,
+      "severity": "none",
+      "dominantPattern": null,
+      "repeatStandIns": [],
+      "findings": [],
+      "cleanReason": "I examined 14 inferential, tactical and summarising lines in both narration and dialogue. Each one cashes out from the page. L158 'whether that was all of it' is anchored by the sentence before it (a captain who likes strangers on his own streets). L194-198 are the split reasoning and name the door, the magister's ring, the bags and the lane. L259 'Somebody had chosen every spot...' and L319's inference both follow shown placements and route behaviour. L376 'Necromancy. Both.' is an operational distinction Jaina makes from her own read (the frost on her fingers, the 'Heavy' column). L420 'walking her own way' is anchored by 'Up the lane, toward the wall with the crack in it, toward Tenter Row'. L422 'a cold stove and a smiling overseer' points to real events in ch5/ch6 final.md. L428 'They think the city's theirs' is anchored by 'one man coming and going alone through that door'. L448 'men who drilled at corners' is anchored by Havel's corner testimony at L112. No P5 planner shorthand: the split (L194-206) names the sample room, the ring door and Hurdle Lane rather than 'the mage side' or 'the street shape'."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 5,
+      "kills": 0,
+      "keeps": 5,
+      "severity": "none",
+      "dominantPattern": null,
+      "brokenExchanges": [],
+      "findings": [],
+      "cleanReason": "No speaker in the chapter asks for plainer speech. I audited the five places where a line restates technical material for a listener as implicit translations. L136 'Somebody's copying the mark.' follows the shown hook stroke and the cracked-axle day. L358 'Every bag on one of Corin's copied marks is bad...' is backed by the bill-numbered Heavy/Clean column on the table. L366-368 'I have the hands' is followed by Kett's, the upper floor, the crock and the arm to the elbow. L394 Corin's 'Look at the days on them' names the first carts, the south road and the weir road. L412 'Where is the crock by the time your clerk gets there?' names an object and a threshold. Each gives the listener a target or trigger they can act on without a second unpacking."
+    }
+  ],
+  "summary": {
+    "totalKills": 8,
+    "totalKeeps": 64,
+    "mildKills": 8,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "narrator-seep-guide.md"],
+    "killsWithFix": 8,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "8 MILD-only KILLs, over the 3-MILD pass threshold (down from 12 at r2). Most are restatement or closure: F4 x4 (L24, L152, L291, L402), F11 x1 (L23), F7 x1 (L200), F6 x1 (L319), B3 x1 (L334). There are no MODERATE/SEVERE kills, no phantom-concreteness or fake-simplification kills, and the tool-flagged L222 'wide enough for one' is a KEEP. Every fix is a deletion or a one-sentence drop-in. Structural texture deficit (texture 89.7, below_target: compound high, em-dash low). Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct and mattr are out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.685, "target": 0.733, "delta": -0.048, "inRange": true},
+      "sentence_length_mean": {"actual": 12.5, "target": 12.412, "delta": 0.088, "inRange": true},
+      "sentence_length_cv": {"actual": 0.759, "target": 0.723, "delta": 0.036, "inRange": true},
+      "short_sentence_pct": {"actual": 35.3, "target": 30.155, "delta": 5.145, "inRange": true},
+      "long_sentence_pct": {"actual": 22.8, "target": 15.352, "delta": 7.448, "inRange": false},
+      "opener_entropy": {"actual": 6.3, "target": 6.637, "delta": -0.337, "inRange": true},
+      "one_sentence_paragraph_pct": {"actual": 31.4, "target": 21.378, "delta": 10.022, "inRange": false},
+      "mattr": {"actual": 0.786, "target": 0.848, "delta": -0.062, "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct above range", "one_sentence_paragraph_pct above range", "mattr below range"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 89.7,
+      "participial_pct": 6.8,
+      "compound_pct": 16.6,
+      "emdash_pct": 3.0,
+      "semicolon_pct": 1.1,
+      "short_pct": 44.7,
+      "verdict_reasons": [
+        "compound: 16.6% above target 14.135% (score 77/100)",
+        "emdash: 3.0% below target 5.119% (score 81/100)"
+      ],
+      "interpretation": "COMPOUND: 16.6% -> target 14.135% (score 77/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 3.0% -> target 5.119% (score 81/100). Use for mid-sentence pivots.",
+      "telegramRunCount": 8,
+      "textureDesertCount": 9,
+      "note": "structural texture deficit. The fixes here avoid adding ', and' joins (the L23 fix uses 'Or' and starts a new sentence instead of compounding)."
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 40,
+      "total_violations": 1,
+      "overCap": [
+        {"pattern": "verdict_enough_for", "category": "narrator_verdict", "line": 222, "text": "wide enough for one wagon and a man flat against the wall beside it", "passBDecision": "KEEP: a concrete physical width that also sets up the lane's tactical constraint (no room to pass unseen)"}
+      ],
+      "passBMappedSignals": "narrator_verdict (1, KEEP). No slopsquid, ai_vocabulary, clinical_anatomy, verbose_phrases, academic_register, dialogue_register, hedging, vague_pointers or ambient_inversion hits.",
+      "otherPassSignals": "punct_semicolon 8/17, punct_colon_narration 6/8, participial_trailing 13/35, contact_pressed 4/6, filler_nodded 3/4, filter_watched 3/3, simile_like 1/17, simile_as_if 1/5: all under cap and owned by pass A."
+    }
+  }
+}

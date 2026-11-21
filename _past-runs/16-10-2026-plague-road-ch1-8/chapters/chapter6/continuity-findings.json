@@ -1,0 +1,61 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter6",
+  "iteration": 2,
+  "targetFile": "v1.md",
+  "status": "pass",
+  "hardViolations": 0,
+  "softViolations": 0,
+  "priorFindingsPath": ".afternoon/chapters/chapter6/continuity-findings-r1.json",
+  "diffScope": "A word-level diff of v0c.md against v1.md shows exactly seven edits. Four answer the r0 findings (Lyriel's linen at L9, the oven anchor at L63, the Garrow farm at L227, and an earlier roads line). Three answer the r1 findings (L113, L165, L169). No other text changed, so the r1 verifiedClean list still applies to everything outside those sites.",
+  "priorFindingsResolved": [
+    {
+      "id": "V1 (r1, hard)",
+      "resolution": "Resolved. L113 now reads 'Sylvanas had been right about Brask, and about most men Jaina had watched her measure since the Pass.' The overseer reversal is gone. 'Right about Brask' fits Ch4: Sylvanas's read of Tam as a lookout (Ch4 L730) and her handling of Brask. 'Most men' leaves room for the overseer miss, and the line does not re-explain the lost day."
+    },
+    {
+      "id": "V2 (r1, soft)",
+      "resolution": "Resolved. L165 now reads 'It rides in the flour and goes through the mills with it.' This states the carrier, not an insertion point, so it no longer contradicts Ch5 L545 ('I can't tell you which from here') or the Ch4 granary-loft jar. The mill appears only as something the flour passes through, which the r1 gate already accepted for L29 and L63."
+    },
+    {
+      "id": "V3 (r1, soft)",
+      "resolution": "Resolved. L169 now reads 'Every road I've read heavy south of the Pass runs to Andorhal. This one worst of all, old under new.' It no longer claims the poison is on every grain road, so it does not conflict with the King's road reading 'Nothing' (Ch5 L525, L563). Checked against Ch5 L83: the heavy north and west roads at Corley's crossing carry loads that 'settle at Andorhal' (Ch5 L77), and every readable slip has Andorhal at one end (Ch5 L533), so the claim holds. 'This one worst of all, old under new' matches Ch5 L563."
+    }
+  ],
+  "findings": [],
+  "advisories": [
+    {
+      "id": "A1",
+      "note": "Carried from r0 and r1, not counted. L17 merges two Ch3 moments. The switches were laid out in the cow-way cut, not the lane, and Jaina walked the box rather than kneeling. This reads as a blurred memory; 'in the cut' would be the exact wording."
+    },
+    {
+      "id": "A2",
+      "note": "Carried, not counted. The plan's knowledgeLedger.povKnowsAtOpen says the old carter is 'an unresolved road clue in her mind', but the B7 continuityNote and the Ch3 record (Sylvanas POV) say Jaina has no memory of the phrase. The prose (L327) follows the beat note. The ledger line should be fixed by the plan owner."
+    },
+    {
+      "id": "A3",
+      "note": "Carried, not counted. L165: 'burned every sack of flour in it in one night' is hyperbole spoken under pressure. Ch4 L904 has the round as 'Most of them', with the cart not back."
+    },
+    {
+      "id": "A4",
+      "note": "Carried, not counted. L315: 'She had told Sylvanas that herself' faintly echoes the Ch5 overseer read ('Nothing on him... No more than on you') without naming the overseer. Jaina draws no explicit parallel. 'She'd never been able to' would remove the echo if a later pass wants it gone."
+    },
+    {
+      "id": "A5",
+      "note": "Carried, not counted. L281: the tally-man has 'ink at the edge of one cuff', and the Ch5 overseer had ink-stained cuffs. It is shown, not inferred, so it stands as a fair reader-level plant. Later passes should not make the echo louder."
+    },
+    {
+      "id": "A6",
+      "note": "Carried, not counted. L129 and L267 have a shouted 'Dace' with no rank or role, so it does not break the no-named-officers constraint. L257 'Lieutenant' is Jaina's guess at a rank, not a name."
+    },
+    {
+      "id": "A7",
+      "note": "Carried, not counted. L147's 'Your Highness' is teasing. The yards fork at L297 is consistent with the wagon line going down to the gate at L381."
+    }
+  ],
+  "verifiedClean": [
+    "The r1 verifiedClean list is carried forward without change, because the text outside the three edit sites is byte-identical to the version audited in r1. It covers: the opening state matching the Ch5 close, body and cost markers, evidence custody (Sylvanas's coat to Jaina at L133-135, never taken by Arthas at L171/175/215, back to Sylvanas at L241), the knowledge ladder stopping short of undeath, no Mal'Ganis or Kel'Thuzad, Barov as connection only, Arthas's real reasons, the B4 prediction kept distinct from the B6 verdict, name usage, Dalaran not knowing where she is, the tally-man plant and farewell, Cyndia and Lyriel staying silent, the horse ladder, and Andorhal alive with Havel as a name only.",
+    "Rechecked independently in r2. 'Sixty of them at least' (L165) matches Ch3 L632/L660. 'Four and five abreast' up the cow way (L21) matches Ch3 L632. The swept depot and stuffed stove (L27) match Ch5 L283-293 and L435. Lyriel lifting Jaina down at stops (L137) matches Ch5 L175. 'The first bridge' (L5) matches Ch5 L515 and L623. The right hand tucked away at Millhaven (L327) matches Ch3 L213. The carter on the bridge going north (L325) matches Ch3 L751-760."
+  ],
+  "summary": "PASS: 0 hard and 0 soft violations, with 7 advisories that are not counted. All three r1 findings are resolved by edits confined to their own lines (L113, L165, L169), and none of the new wording opens a fresh contradiction. The diff confirms that no other text changed since r1."
+}

@@ -1,0 +1,319 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 7,
+  "targetFile": "v2-r7.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative (iterationKillsB 71,26,7,6,5,2,6: latest 6 >= prior minimum 2; prefer deletion and minimal merges)",
+  "povRegister": {
+    "povCharacter": "Jaina Proudmoore",
+    "registerSummary": "Dalaran-trained scholar-mage and Kul Tiran admiral's daughter. She thinks in currents, wards, method steps and Antonidas's standards, reaches for ship, harbour and alchemy-room comparisons, and runs a self-mocking inner voice ('Brilliant, Jaina.' 'Lovely, Jaina.') with argument-in-progress self-correction ('No. Slower.'). She would not think in sociological or thematic summary, and she does not narrate the significance of the moment.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 43,
+      "kills": 3,
+      "keeps": 40,
+      "severity": {
+        "MILD": 3,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F11 (anaphoric run)",
+      "findings": [
+        {
+          "id": "B-GPT5-1",
+          "pattern": "F11",
+          "severity": "MILD",
+          "line": 354,
+          "location": "Scene 2 (B4), chapel, after the knot lesson",
+          "text": "The wards held, all of them, all the way round, and nobody in the room was any better.\n\nThe wards held the way the glass held. Under them",
+          "repeatedOpener": "The wards held",
+          "issue": "Two consecutive sentences open 'The wards held' as a drumbeat. This is the first weight-run in scene 2 that is not procedure (the 'Then the cooper's boy. Then Garran.' rounds and the knot steps are procedural). Merging the two loses nothing: the glass callback (L286 flask ward that does nothing to what boils inside) fits into the first sentence.",
+          "suggestedFix": "The wards held, all of them, all the way round, the way the glass held, and nobody in the room was any better.\n\nUnder them",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixNote": "Replace the cited span exactly. The next paragraph then opens 'Under them the brown went on spreading, only slower.' The fix adds no new content and no hedge. The flask-ward callback stays anchored by L286."
+        },
+        {
+          "id": "B-GPT5-2",
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 735,
+          "location": "Scene 3 (B8/B9), loft, after 'I'm not to speak to you'",
+          "text": "He had been told to keep it, and to keep it dark, and he had kept it.",
+          "couldEndAt": "and he didn't know what was in the jar, any more than she had known what was in the reliquary.",
+          "issue": "A paragraph-final tricolon closer that sums up a beat the page already carried ('I'm not to speak to you' plus the hidden lamp). Sylvanas's next line, 'Someone gave him a jar and a floorboard and told him to watch.', gives the same inference in plain words, so the narration closes the loop one beat early and then repeats it. The paragraph is stronger if it ends on the reliquary comparison. (Narrator-seep B1 overlap: the cadence is more polished than Jaina's thought at this moment. Not counted twice.)",
+          "suggestedFix": "",
+          "fixAction": "delete the cited sentence, including its leading space; the paragraph ends on '...what was in the reliquary.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT5-3",
+          "pattern": "F11",
+          "severity": "MILD",
+          "line": 831,
+          "location": "Scene 3 (B11), at the cage, Jaina to Sylvanas",
+          "text": "The whole village will have it for breakfast. I can ward a room. I can't ward a village.",
+          "repeatedOpener": "I can / I can't",
+          "issue": "A can/can't antithesis run in speech that ends the speech like a slogan. It comes after the scene's first run (L651 'He was coming loose. He was going to come loose...'), so the guide kills every run after the first. The 'whole village' / 'one room' contrast already carries the point, so merging loses nothing. It also takes one short declarative off a four-sentence stack (F10 pressure).",
+          "suggestedFix": "The whole village will have it for breakfast, and I can ward one room.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "fixNote": "No negation is introduced, so pass A's negation guide gets nothing new. The fix keeps the concrete scope claim (the ward covers one room) and the usable trigger the speech already gives (baker lights his oven before light)."
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 27,
+      "kills": 0,
+      "keeps": 27,
+      "severity": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Swept all short narration fragments (script-listed, roughly 150 sentences of 4 words or fewer) for A1/A2 verdict tags. Swept 'which' tails, 'the kind of'/'something about'/'every' generalizers, prepositional-front sentences for A8, and paragraph and scene endings for B1-B4. Every candidate either passes the 'could she mutter it' test as Jaina's free indirect idiom ('Wrong, then.' 'Herself, obviously.' 'Well. Here was where it ended up.' 'which was low of her') or is concrete perception or operational inference: 'Mother Haw, of course.', 'as they did it in every village in Lordaeron' driving the oven-deadline decision, and 'Every apprentice in Dalaran knew that much.' as training fact. The A8 candidates ('Under the sweetness something thin and sharp...', 'Somewhere in the rounds the smell came in...', 'And a sound... somebody prising a lid off a box') each delay the source because Jaina cannot yet name it, which is the keep condition. The one B1-flavoured close at L735 is killed under F7 in the gpt-5 guide and is not re-killed here. Details are in the scratchpad."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 16,
+      "kills": 0,
+      "keeps": 16,
+      "severity": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Checked stand-in nouns chapter-wide: shape, pressure, truth, work, answer and cost have no abstract stand-in uses. The 'something' cluster (15 hits, including tool vague_pointers L490, L681, L783) is POV-limited unknowns, not prestige abstraction. Jaina cannot hear Sylvanas through the glass (a plan mandate for B6), cannot see inside her own torn palm, and mistakes the foam for flour. In every case the line either names the sign it has (hens, tearing low in the palm, white then bubbling) or admits the gap honestly. The tactical and inferential lines all cash out on the page: 'One part to keep. One part to wait.' is anchored by 'through a baker's oven and into a man's milk, and sat down in him and waited'; 'She had Windrunner down as maps' expands at once into ground, ambush angles, ears and the map read backward; 'He was alive, and frightened, and the hole under the floor and the open sack and the jar...' names the objects. Dialogue: 'You don't know what you're keeping them from' is kept as a recited catechism whose emptiness the next paragraph exposes, and the plan forbids naming the cult here. 'There's something else in it too' is kept as deliberate withholding after the lane lesson about saying 'necromantic' in front of the street. 'or something else' at L486 is kept because B7 owns the 'on purpose' reveal. No P5 note-speak was found."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "severity": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Six translation setups were audited as exchanges. (1) 'How much?' -> 'Small. Half a fist. A fist. Everywhere.' is a four-step scale Tobin writes on the slate at once. (2) Jaina's held-back small-words version 'It's the bread. Stop them eating the bread.' names a usable target. (3) 'Captain... Your baker lights his oven before dawn?' -> 'Then you have until cockcrow.' gives a visible threshold, matching the calibration KEEP. (4) 'Tell me what to shut' -> 'The granary. The bakehouse. Tonight, now... nobody carries a sack out of either' gives named targets plus a timing trigger. (5) Brask's 'That's the big granaries. Down the grain road, south and west, past the ford. Three days, with a cart.' gives route, direction and distance. (6) 'made herself say plainly what the wards did' -> 'They held the door, so that nothing more could come in and nothing that was in could get any further. What was in was in, and the body would do the rest or it wouldn't.' cashes the metaphor out in the same sentence. Out of scope: L877 contradicts L356, which says the brown 'went on spreading, only slower' under the wards. See summary.outOfScopeObservations."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 89,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 MILD kills, all in gpt-5-prose-issues.md (two F11 anaphoric runs, one F7 paragraph-final closer), and 0 MODERATE/SEVERE. Narrator seep, phantom concreteness and fake simplification are clean. The remaining MILD findings are kept here for downstream editors. Not verdict-driving: a structural texture deficit (below_target, score 78.7) and structural rhythm concerns (cv_length, long_pct, one_sentence_paragraph_pct, opener entropy and mattr are outside the style-guide ranges).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.808,
+        "target": 0.72,
+        "delta": 0.088,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.6,
+        "target": 11.0,
+        "delta": 0.6,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.863,
+        "target": 0.7,
+        "delta": 0.163,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 41.1,
+        "target": 35.0,
+        "delta": 6.1,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 19.0,
+        "target": 10.0,
+        "delta": 9.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.59,
+        "target": 7.7,
+        "delta": -1.11,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.7,
+        "target": 19.0,
+        "delta": 9.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.774,
+        "target": 0.83,
+        "delta": -0.056,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv above range",
+        "long_sentence_pct above range",
+        "opener_entropy below range",
+        "one_sentence_paragraph_pct above range",
+        "mattr below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 78.7,
+      "participial_pct": 7.3,
+      "compound_pct": 12.2,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 1.4,
+      "short_pct": 51.2,
+      "verdict_reasons": [
+        "participial: 7.3% below target 12.0% (score 61/100)",
+        "compound: 12.2% above target 10.0% (score 80/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.3% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.2% -> target 10.0% (score 80/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.1% -> target 4.0% (score 73/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 36,
+        "texture_desert": 32,
+        "total": 68
+      },
+      "note": "Structural texture deficit. Most telegram runs sit in dialogue exchanges (Tobin's intake, the slate interviews, the cage questioning), where short lines are speech register. The B-GPT5-3 fix sits inside the telegram_run at sentences 846-854 and joins two sentences."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 92,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passBMappedSignals": [
+          {
+            "pattern": "hedge_almost",
+            "line": 210,
+            "verdict": "KEEP",
+            "reason": "quantity of the diagnostic read, not a hedge"
+          },
+          {
+            "pattern": "hedge_almost",
+            "line": 212,
+            "verdict": "KEEP",
+            "reason": "spatial extent: the threads stop short of the fingers"
+          },
+          {
+            "pattern": "hedge_perhaps",
+            "line": 577,
+            "verdict": "KEEP",
+            "reason": "genuine uncertainty about ward duration that sets the time pressure; called back at L757"
+          },
+          {
+            "pattern": "something_vague",
+            "line": 490,
+            "verdict": "KEEP",
+            "reason": "sleep-talk about the hens, a callback to L274"
+          },
+          {
+            "pattern": "something_vague",
+            "line": 681,
+            "verdict": "KEEP",
+            "reason": "an interior injury she cannot see; the tearing and the palm location follow"
+          },
+          {
+            "pattern": "there_was_something",
+            "line": 783,
+            "verdict": "KEEP",
+            "reason": "a misperception beat: white, taken for flour, then it bubbles"
+          }
+        ],
+        "noHitsIn": [
+          "slopsquid",
+          "narrator_verdict",
+          "ambient_inversion",
+          "ai_vocabulary",
+          "clinical_anatomy",
+          "academic_register",
+          "dialogue_register",
+          "verbose_phrases",
+          "expression_decomposition"
+        ]
+      }
+    },
+    "outOfScopeObservations": [
+      "Mechanism contradiction (continuity/craft, not pass B): L877 says the wards 'held the door, so that nothing more could come in and nothing that was in could get any further', but L356 says 'Under them the brown went on spreading, only slower', and the B4 plan has the wards as time bought, not a seal.",
+      "Formatting: missing blank paragraph breaks before L46 ('Then the horses stopped.') and before L563 ('\"Somebody is selling it to them,\" Jaina said.').",
+      "Recurring tic (pass A territory): 'without looking' appears 7 times (L23, L64, L82, L420, L675, L969, L1007), and 'Lovely, Jaina'/'With Garran swallowing his sops' recurs at L448 and L701."
+    ]
+  }
+}

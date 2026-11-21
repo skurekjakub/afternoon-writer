@@ -1,0 +1,41 @@
+{
+  "chapterId": "chapter5",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 1,
+      "sceneTitle": "The Paper Trail",
+      "findingId": "G12-001",
+      "category": "G12",
+      "severity": "MODERATE",
+      "lines": "181",
+      "excerpt": "The mares stood to the staff's cold without a flick of the ear, as they had stood to the ward-stones below the Pass; it was the carters' cobs that shied, and were cursed for it.",
+      "reason": "Grounder-added sentence contradicts memory on two counts. (1) 'The mares' makes all four horses mares, but characters/cyndia (Ch3) has Cyndia riding a gelding. (2) 'without a flick of the ear' overstates the sourced horse behaviour: world/geography says ward-raised horses 'sidestep once, then stand calm beside a stone', and threads/south-settlements-alive (Ch3) has Lyriel's and Cyndia's horses 'prick up hard facing south' at a reading crossing. The ward-stone comparison is sound and the cob contrast is good ranger noticing; only the two unsupported specifics need to go.",
+      "suggestedFix": "The Thalassian horses sidestepped once at the staff's cold and stood, as they had stood to the ward-stones below the Pass; it was the carters' cobs that shied, and were cursed for it.",
+      "fixMode": "light-swap"
+    },
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 2,
+      "sceneTitle": "The Cleaned Depot",
+      "findingId": "G12-002",
+      "category": "G12",
+      "severity": "MILD",
+      "lines": "407",
+      "excerpt": "Sylvanas sat the mare in the hedge-shadow, the mare blowing and shaking her bridle, the foam from the morning's gallop long dried to a crust on her chest.",
+      "reason": "Grounder-added clause names a gait the page does not support. Line 387 says she 'put the mare into a canter and kept her in it', and line 389 says she let the mare have the causeway. Nothing on the page says they galloped. The crust detail is good (it shows a horse that has been pushed hard for hours); only the gait word is wrong.",
+      "suggestedFix": "Sylvanas sat the mare in the hedge-shadow, the mare blowing and shaking her bridle, the foam from the morning's canter long dried to a crust on her chest.",
+      "fixMode": "substitute"
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "mildKills": 1,
+    "moderateKills": 1,
+    "severeKills": 0,
+    "dominantFailures": ["G12"]
+  }
+}

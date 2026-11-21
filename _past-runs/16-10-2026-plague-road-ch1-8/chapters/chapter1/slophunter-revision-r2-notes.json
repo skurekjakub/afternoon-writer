@@ -1,0 +1,45 @@
+{
+  "chapterId": "chapter1",
+  "mode": "revision",
+  "iteration": 2,
+  "changes": [
+    {"feedbackRef": "A -> negation -> A-N1", "line": 5, "before": "an arrow on the string, not drawing.", "after": "an arrow on the string.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> negation -> A-N2", "line": 93, "before": "until she stopped hearing it and only felt it.", "after": "until she felt it more than heard it.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> negation -> A-N3", "line": 115, "before": "She didn't thank him for it. She never had.", "after": "(deleted)", "source": "gate-suggestion-adjusted", "note": "Deleted per B-r1-04 instead of A's replacement 'She took it as her due', because one deletion clears both findings and avoids adding interior commentary."},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-r1-04", "line": 115, "before": "the same half-length back he always rode. She didn't thank him for it. She never had.", "after": "the same half-length back he always rode.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> negation -> A-N4", "line": 117, "before": "She said nothing about the stone, rubbing her thumb across the cold place in her palm.", "after": "She rubbed her thumb across the cold place in her palm.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> negation -> A-N5", "line": 177, "before": "soft and shaded under the trees, and then she didn't.", "after": "soft and shaded under the trees.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> negation -> A-N6", "line": 181, "before": "through the glove, and it didn't help.", "after": "through the glove.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> negation -> A-N7", "line": 265, "before": "No violet. No gold.", "after": "(paragraph deleted)", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> intent-smear -> A-I1", "line": 189, "before": "Her voice, when it came, was level.", "after": "When she spoke, her voice was level.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> intent-smear -> A-I2", "line": 253, "before": "held back until it would do the most harm.", "after": "held back until she could do the most harm with it.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> intent-smear -> A-I3", "line": 275, "before": "Sylvanas's face came last.", "after": "She came to Sylvanas's face last.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> intent-smear -> A-I4", "line": 277, "before": "A small frown came between her brows and went.", "after": "She frowned, a small crease between the brows, gone almost at once.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> intent-smear -> A-I5 / A-I6 and B -> B-r1-08", "line": 277, "before": "A moment later her head turned to the stone once more, and the frown came back deeper, the frown a person gives a noise...", "after": "Then she turned to the stone once more and frowned harder, the frown a person gives a noise...", "source": "gate-suggestion-adjusted", "note": "Combined sentence fix; 'A moment later' replaced with 'Then' to keep the beat-to-beat link after the dropped temporal padding (B-r1-08 suggested bare deletion; 'Then' also follows the preceding 'Then the mage turned her head left', so opener repetition is acknowledged)."},
+    {"feedbackRef": "A -> intent-smear -> A-I7", "line": 297, "before": "Sylvanas let the silence run and left the human to sit in it.", "after": "Sylvanas held her tongue and left the human to sit in the quiet.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> recurring-prose-tics -> A-T1", "line": 23, "before": "stopped a length away, out of the smell, and looked at the body and then at her.", "after": "stopped a length away, out of the smell.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> recurring-prose-tics -> A-T2", "line": 105, "before": "She would say cold, and they would look at each other.", "after": "She would say cold.", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-r1-01", "line": 39, "before": "He'd served under her long enough to know when she'd decided something before she said it.", "after": "(deleted)", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-r1-02", "line": 57, "before": "She heard it before she was off the horse, a low hum more in the teeth than the ear.", "after": "The stone was humming before she was off the horse, low, more in the teeth than the ear.", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-r1-03", "line": 91, "before": "Any rider would have passed it at a trot.", "after": "(deleted)", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-r1-05", "line": 209, "before": "Sylvanas didn't much care for that one either.", "after": "(deleted)", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-r1-06", "line": 229, "before": "From the bottom edge of the sheet, from the south, from Lordaeron, thin ruled lines ran up toward the border,", "after": "Thin ruled lines ran up from the bottom edge of the sheet, the Lordaeron side, toward the border,", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-r1-07", "line": 231, "before": "Sylvanas had no idea which.", "after": "(deleted)", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-r1-09", "line": 295, "before": "The mage did.", "after": "(deleted)", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> narrator-seep-guide.md -> B-r1-10", "line": 237, "before": "And somewhere south of here, days ago or weeks, by lamplight in some tower room, a human had drawn a circle round it.", "after": "And days ago or weeks, a human south of the border had drawn a circle round it.", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> outOfScopeObservations (L197 antecedent)", "line": 197, "before": "The benches stood empty. They straightened as she came in", "after": "The benches stood empty. The rangers straightened as she came in", "source": "gate-suggestion-adjusted", "note": "Gate flagged this as out-of-scope clarity; repaired the antecedent only."}
+  ],
+  "unfixable": [],
+  "selfAudit": [
+    "Changed passages re-checked against hitlist: no new negation, intent-smear, narrator-seep, or filter-word introduced.",
+    "L277 now has 'frowned' twice plus 'the frown' noun in the simile (three frown tokens in one paragraph, all with the mage as actor or as simile object); kept for the combined fix's meaning.",
+    "Eye/gaze beats: two removed (L23, L105); none added. Chapter now at 4 reaction beats by the gate's count (cap 4).",
+    "No narrative colons added (punct_colon_narration stays at cap). No dialogue changed except the L105 interior hypothetical, which is narration."
+  ],
+  "flags": [
+    "Continuity, not fixed (substance): L209 says the prisoner 'had sat down in front of a drawn bow', but Cyndia's report at L199 has her stepping away and showing her hands. Gate noted the mismatch; needs a continuity or writer decision, not a style edit.",
+    "Texture: gate asked deletions inside texture_desert zones to be paired with joining constructions (participial / em-dash). Not added; revision mode forbids touching unflagged passages and zero net expansion.",
+    "L5-L277 paragraphs ending: scene 2 still ends several paragraphs on short Sylvanas verdicts (L271, L275, L291) that the gate kept."
+  ],
+  "wordCount": { "before": 5306, "after": 5213 }
+}

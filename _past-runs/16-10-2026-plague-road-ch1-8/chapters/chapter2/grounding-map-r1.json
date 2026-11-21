@@ -1,0 +1,94 @@
+{
+  "chapterId": "chapter2",
+  "globalRisks": ["dialogue-heavy-opening", "travel-compression", "tail-risk-final-image", "unsourced-specificity", "counted-time-in-voice"],
+  "exemplarMoves": [
+    "Substitute generic nouns for world nouns only where the scene engine leans on them (wall, stones, lamps -> ward-stone, ward-lamp, slate plate).",
+    "Let the POV's trade filter the noun: Jaina hears currents, lattice, pulse; she does not read tactics.",
+    "Dialogue picks up local register through objects and posture between lines, never through lore in speech.",
+    "Ground exits in a physical thing (sign, hoof-ring, lamp) rather than abstraction.",
+    "Protect rhythm: prose is already fragment-and-turn; add by swapping a word, not by adding a paragraph."
+  ],
+  "segments": {
+    "openingThird": { "risk": "low", "note": "Cell, rack alcove, ward cutoff already carry ward-lamp, wall stone, slate plate, wedge anchor stone. Weak spots: 'hours' as counted time, 'stable' generic, unnamed Farstrider frame." },
+    "middleThird": { "risk": "medium", "note": "Road, culvert, farms. Lordaeron-vs-Quel'Thalas contrast is under-played right after the ward cutoff (location notes require immediate contrast). One unsourced name ('Violet Gate')." },
+    "finalThird": { "risk": "medium", "note": "Fight and autopsy are well embodied. Final image of Millhaven ends on an abstract question; needs one world-bound exit anchor from the established village furniture (hanging sign, race, hooves on stone)." }
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "title": "The Interrogation (B1-B6)",
+      "riskTags": ["static-room", "dialogue-heavy", "counted-time"],
+      "biggestGap": "Room is anchored but unnamed in institution (Farstrider / post), the opening's 'hours' is counted time, and the stable/yard departure is thinner than the cell.",
+      "sourceBank": {
+        "geography": ["Thalassian Pass", "Quel'Thalas", "Lordaeron", "Dalaran", "split-cap stone", "high road", "second ring", "outer ring", "dry creek bend", "Millhaven"],
+        "institutions": ["Kirin Tor", "Violet Citadel", "Farstriders", "Antonidas"],
+        "materials": ["ward-lamp white-blue", "loaf-sized ward-stone", "slate dampening plate", "silver-wire grip", "hen's-egg crystal", "ash staff", "lead weights", "rune pebble in cloth", "Thalassian horses", "kilted robe", "cracked boots"]
+      },
+      "sceneContract": {
+        "placeAnchor": "One-chair cell, wall ward-stone behind her head, ward-lamp throwing white-blue, Cyndia at the threshold (all already on page; add Farstrider frame).",
+        "materialAnchor": "Wedge anchor stone, slate plate, silver wire grip, satchel stockings and pebble, Thalassian mare, gate lamps.",
+        "povAnchor": "Jaina hears currents and pulse through the staff and floor; reads Sylvanas by colours and rank, not tactics.",
+        "dialogueAnchor": "Knuckles on knees, hands drawing lines in air, Sylvanas's palm by the stone, Cyndia pulling the anchor, staff haft passed over.",
+        "exitAnchor": "Riding out under gate lamps and through the ward line; hum cutting off like a door slammed."
+      },
+      "dialogueRuns": [
+        { "label": "warning and why-alone", "risk": "medium", "beats": ["knuckles", "air-drawing", "ward hum into the gap"] },
+        { "label": "which stones read worst", "risk": "medium", "beats": ["palm flat on wall", "hair pushed back"] },
+        { "label": "terms of release", "risk": "low", "beats": ["Cyndia pulling anchor stone"] }
+      ]
+    },
+    {
+      "sceneId": 2,
+      "title": "The Road to Millhaven (B7-B10)",
+      "riskTags": ["travel-texture", "explanation-dialogue", "border-contrast"],
+      "biggestGap": "The step from ward air to human air is felt only as the taste; the Lordaeron side needs an immediate smell/texture contrast with Eversong. 'Violet Gate' unsourced.",
+      "sourceBank": {
+        "geography": ["Lordaeron farm country", "Millhaven crossroads", "Violet Citadel"],
+        "institutions": ["Kirin Tor", "Violet Citadel"],
+        "materials": ["hawthorn", "bramble", "culvert", "mist", "rooks", "mud and packed earth"]
+      },
+      "sceneContract": {
+        "placeAnchor": "Lordaeron border road: hedges, culvert and stream, farms with cold chimneys.",
+        "materialAnchor": "Packed road under bare palm, frost fern on the ruts, tack creak, water skin.",
+        "povAnchor": "Jaina sinks through road, clay, water, hedge roots, line (a mage's descent); explains with a river.",
+        "dialogueAnchor": "Hands up between mare's ears, tack creak, mud sucking at hooves; Lyriel at the right knee.",
+        "exitAnchor": "Staff humming, the road bending, the cow's bawl thinning behind."
+      },
+      "dialogueRuns": [
+        { "label": "river explanation then Sylvanas cut", "risk": "medium", "beats": ["hands in air", "tack creak", "Jaina's hands stopped"] },
+        { "label": "source or sink", "risk": "medium", "beats": ["waiting for approval", "saddles creaking"] }
+      ]
+    },
+    {
+      "sceneId": 3,
+      "title": "The Wildlife Attack (B11-B13)",
+      "riskTags": ["tail-risk", "action-through-non-combatant", "final-image"],
+      "biggestGap": "Final image closes on an abstract question; Millhaven's hanging sign, mill race and stone-ringing hooves are available but the last beat does not use them.",
+      "sourceBank": {
+        "geography": ["Millhaven crossroads, mill, inn or tavern with hanging sign, stone bridge, thatched houses"],
+        "institutions": ["Farstriders", "Kirin Tor"],
+        "materials": ["holly", "antlers", "frost sheet on road", "arrow fletched in green", "knife", "ditch water", "dead doe", "field-book", "ink tin"]
+      },
+      "sceneContract": {
+        "placeAnchor": "Open road at a holly wood bend; ditch; later the rise above Millhaven.",
+        "materialAnchor": "Ice over the wolf's hind legs, antlers ploughing the road, steaming belly, red to the elbow.",
+        "povAnchor": "Jaina sees only Sylvanas's calls and her own ice; reads liver, lungs, blood as a mage and anatomy student.",
+        "dialogueAnchor": "Clear-calls roll; knife over knee; Neral soothing horses; Cyndia's 'Slowly' with Lyriel's fingers on string.",
+        "exitAnchor": "Hooves ringing on stone toward dark houses, add the sign creaking on its bracket before the closing question."
+      },
+      "dialogueRuns": [
+        { "label": "clear-call roll", "risk": "low", "beats": ["nobody lowered a bow"] },
+        { "label": "autopsy report", "risk": "medium", "beats": ["knife over knee", "Windrunner waiting", "ring of rangers"] }
+      ]
+    }
+  ],
+  "plannedEdits": [
+    "S1 open: 'hours ago' (counted time) -> event marker tied to the midday bowl.",
+    "S1: name the Farstrider frame once on Cyndia/post; seal the post as the rangers' own.",
+    "S1: yard departure gets the squat tower.",
+    "S1: 'fine-boned mare' -> fine-boned Thalassian mare.",
+    "S2: add the human-air contrast after the ward cutoff on the ride down.",
+    "S2: replace unsourced 'Violet Gate' with Violet Citadel.",
+    "S3: add hanging sign creak to the closing approach."
+  ]
+}

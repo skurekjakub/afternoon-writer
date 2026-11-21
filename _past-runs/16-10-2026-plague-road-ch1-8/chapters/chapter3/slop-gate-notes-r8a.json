@@ -1,0 +1,133 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 8,
+  "targetFile": "v2-r8.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative (iterationKillsA [49, 8, 12, 2, 3, 1, 13, 1]: latest 1 >= prior minimum 1; minimal substitution preferred)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 24,
+      "kills": 0,
+      "keeps": 24,
+      "severity": "none",
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "24 negation candidates examined (L15, L19, L45, L67, L103, L153, L157, L177, L189, L211, L213, L225, L233, L251, L255/L317, L281, L339, L355/L484, L540, L678, L710, L810, L830, L838-840). Every one is a procedural imperative (Step 1: 'Not the hand... Use the staff', 'Don't. A doe is a doe. Find out.', 'Not yet', the child's quoted 'Not for anybody'), a hard capability limit tied to the plan's rule that elves cannot feel the contamination (L15 'what her hand could not', L177 'She could read nothing in it with her own palm', L830 'There never was'), a binary diagnostic that changes what the party does (L45 houses-first vs crossing, L213 'never where the herd came in' = loudest is not the source, L540 cow way vs Pass road, L678 'Not our road' which drives where the wardens are doubled), tactical absence inventory (L67 coats/blood/dogs, L810 the missing riders), or self-argument in free indirect thought that the next line undercuts (L710 'No. She had kept the mage because...' undercut by 'very convenient'; L838-840 'That was not the same... It was not the same.'). No fragment pivots, source-swaps, minimizer pivots, count resets or mundane reveal chains remain. No cluster pages. The keep rate is above the guide's 20% heuristic because, after eight revision rounds, the contrast-pivot shapes have already been removed and the surviving negations are instructions, constraints and diagnostics."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 41,
+      "kills": 1,
+      "keeps": 40,
+      "severity": "MILD",
+      "dominantPattern": "P5/P9 internal-state subject carrying the POV character's desire",
+      "secondSweep": "Done. Re-read every sentence for inanimate or abstract subjects with agency, cognition, combustion or physical-behaviour verbs, and for body-part subjects and instrument-phrase actor demotion. Roads, routes and grooves (L109, L608, L634, L804, L836) carry only the literal extension verbs ('ran', 'went on', 'bent away'). Frost, sound, light, water and wax (L5, L131, L141, L145, L185, L233, L337, L368, L708, L806) carry literal physics. Body-part subjects (L191, L219, L237, L353, L355, L378/L382, L398, L492, L532, L560, L598, L696, L744, L814) are involuntary (injury, flinch, exhaustion, sleep, shock), or the restraint or restricted sight is the point of the beat. 'The chamber' (L704, L832) is a collective actor whose people (Lor'themar, the magister's nephew) are named in the same paragraph. No permission tags: the 'let' uses are physical allowing with an object (L414, L814) or imperatives about people (L366, L706). No actor-demotion into instrument phrases. One kill: L279.",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 279,
+          "text": "Everything in her wanted to say north.",
+          "pattern": "P5-internal-state-wanting",
+          "subject": "Everything in her",
+          "verb": "wanted",
+          "realAgent": "Sylvanas. She wanted to say north.",
+          "severity": "MILD",
+          "reason": "Pattern 5 / Pattern 9 shape: the POV character's desire is handed to 'everything in her', a stock intensifier abstraction. The subject-replacement test passes cleanly ('She wanted to say north.' means the same), so the abstraction is taking the verb that belongs to her. Condition 2 does not save it: the line does not describe how the wanting feels; it only swaps the subject for a totality phrase. The next sentences ('Her line was north, and the stones were north... So she would not say it.') already carry the strength of the pull.",
+          "suggestedFix": "She wanted to say north.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 16,
+      "kills": 0,
+      "keeps": 16,
+      "severity": "none",
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "All counts are at or below their caps. Tic 1 (corner of mouth): 0, because 'corners' at L378 and L520 describe dirt and staining, not expressions. Tic 2 (marked): 1 mental use (L285), cap 2; the other 'mark' hits are nouns (tracks, market). Tic 3: 0 tightened; 1 eased, and it is physical (L83 'She eased the string'). Tic 4 (facial shifted): 0; L101 and L524 shift a bow and a child physically. Tic 5 (eye/gaze): 4 reaction beats (L594 'Her eyes were open', L682 hare-and-hawk, L742 'looked past them', L846 'stared'), which is at the cap of 4. The other eye mentions are fatigue (L21, L237, L814), procedure (L117, L822, L826) or the ranger's tactical watching (L13, L129, L293, the tool's filter_watched hits, 3 against a cap of 3). Tic 6 (weight metaphor): 0; 'heavy' is the mage's literal staff-reading term and L420 and L612 are literal weight. Tic 7 (non-said tags): 0; the tool's bookism_hissed (L341) is the lantern, not a dialogue tag. Slop-checker participial_trailing (17/53), simile (4), semicolon (20/26), colon narration (11/13), nodded (1/4) and shrugged (1/4) are all under cap and in context; the texture deficit asks for more participials, not fewer."
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 80,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 1 MILD kill (intent-smear L279 'Everything in her wanted to say north.'), 0 MODERATE/SEVERE, under the 3-MILD threshold. Negation and recurring-tics sweeps are clean. Structural rhythm concerns: sentence CV, short-sentence %, long-sentence %, one-sentence-paragraph % and opener entropy are outside the style-guide ranges. Structural texture deficit: texture below_target (participial 4.5% vs 12%).",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.647, "target": 0.72, "delta": -0.073, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.897, "target": 0.7, "delta": 0.197, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 43.3, "target": 35.0, "delta": 8.3, "range": [28.0, 42.0], "inRange": false },
+      "long_sentence_pct": { "actual": 20.7, "target": 10.0, "delta": 10.7, "range": [7.0, 14.0], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 34.4, "target": 19.0, "delta": 15.4, "range": [15.0, 24.0], "inRange": false },
+      "opener_entropy": { "actual": 6.4, "target": 7.7, "delta": -1.3, "range": [7.2, 8.2], "inRange": false },
+      "mattr": { "actual": 0.765, "target": 0.83, "delta": -0.065, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv above range",
+        "short_sentence_pct above range",
+        "long_sentence_pct above range",
+        "one_sentence_paragraph_pct above range",
+        "opener_entropy below range",
+        "mattr below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 75.2,
+      "participial_pct": 4.5,
+      "compound_pct": 12.7,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.4,
+      "verdict_reasons": [
+        "participial: 4.5% below target 12.0% (score 50/100)",
+        "compound: 12.7% above target 10.0% (score 75/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.5% -> target 12.0% (score 50/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.7% -> target 10.0% (score 75/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots.",
+      "flaggedPassages": { "telegram_run": 29, "texture_desert": 26 }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 64,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "atCap": ["filter_watched 3/3"],
+        "passAMappedSignalsReviewed": [
+          "punctuation_tics (semicolon 20/26, colon_narration 11/13)",
+          "participial_attachment (participial_trailing 17/53)",
+          "simile_overload (like 2/26, as_if 2/5)",
+          "filter_words (watched 3/3)",
+          "filler_actions (nodded 1/4, shrugged 1/4)",
+          "said_bookisms (hissed 1/2, a lantern, not a dialogue tag)"
+        ],
+        "unmappedOrOtherPass": [
+          "hedging (might_have_been 1/1) -> pass B",
+          "contact_verbs (pressed 4/6, settled 1/6) -> unmapped"
+        ]
+      }
+    }
+  }
+}

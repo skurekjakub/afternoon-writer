@@ -1,0 +1,359 @@
+{
+  "chapterId": "chapter5",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB [55, 17, 10] strictly decreasing; this run 7)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 31,
+      "kills": 7,
+      "keeps": 24,
+      "severityMarkers": {
+        "MILD": 7,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F4",
+      "perModeSummary": {
+        "F1": "0 - telegram_run/texture_desert zones are mostly dialogue exchanges and tactical catalog fragments (heavy/light reads, stop list); no sustained same-shape monotony across paragraphs",
+        "F2": "1 (L211)",
+        "F3": "0",
+        "F4": "3 (L399, L417, L371)",
+        "F5": "0",
+        "F6": "1 (L375)",
+        "F7": "0",
+        "F8": "0 (one turn-landing echo per scene kept)",
+        "F9": "0",
+        "F10": "1 (L673)",
+        "F11": "0 (first runs per scene carry meaning)",
+        "F12": "1 (L387)",
+        "F13": "0",
+        "F14": "0",
+        "F15": "0"
+      },
+      "findings": [
+        {
+          "id": "B-r3-01",
+          "line": 399,
+          "pattern": "F4",
+          "code": "F4 Narrative Over-Translation",
+          "text": "A light cart, once, narrow, empty by the depth of it. Nothing heavy since the rain.",
+          "whatItRestates": "Sylvanas's narrated verdict 'Nothing heavy since the rain.' is handed back word for word as the first sentence of Cyndia's report four lines later (L405: \"Nothing heavy since the rain. Before it, plenty, but not lately.\"). Either line can carry it. The narration copy is the redundant one because the list of tracks before it already shows the absence, and Cyndia's report is what confirms it.",
+          "suggestedFix": "A light cart, once, narrow, empty by the depth of it.",
+          "fixNote": "End the paragraph on the last track. Leave Cyndia's L405 report unchanged so the verdict lands once, in her mouth.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r3-02",
+          "line": 417,
+          "pattern": "F4",
+          "code": "F4 Narrative Over-Translation",
+          "text": "Because the clock was running. She had heard that excuse",
+          "whatItRestates": "The fragment restates the because-clause right before it ('because the wagons were getting further off with every breath she spent on him'). It is a claim-then-gloss pair. 'The clock was running' also reads as plan wording copied into the prose (chapter plan scene 2 arcPressure: 'takes an answer because the clock is running'). A clock idiom is out of register for a Thalassian ranger on a pre-industrial road.",
+          "suggestedFix": "She had heard that excuse",
+          "fixNote": "Delete only the fragment. 'That excuse' then points back at the because-clause in the preceding sentence.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r3-03",
+          "line": 371,
+          "pattern": "F4",
+          "code": "F4 Narrative Over-Translation",
+          "text": "and in the way he had answered every question before she'd finished asking it, as if he'd had the answers ready since she walked in.",
+          "whatItRestates": "The 'as if' tail glosses the behavior just shown ('answered every question before she'd finished asking it'). It also states the plain-sight clue outright, though the plan says the ready answer should appear without comment (scene 2 enrichment: 'write them without comment'). It pre-empts her later realization at L609 ('a man who had his answer ready before she asked the question').",
+          "suggestedFix": "and in the way he had answered every question before she'd finished asking it.",
+          "fixNote": "Cut the as-if tail. The behavior stays on the page as a clue, and L609 keeps the realization.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r3-04",
+          "line": 375,
+          "pattern": "F6",
+          "code": "F6 Essay Brain (claim-evidence-restatement)",
+          "text": "If she stood here asking a frightened man why he was frightened, the wagons would be in Brill by tomorrow",
+          "whatItRestates": "The paragraph opens with 'She could stand here and ask him which fear it was', gives the evidence (six wagons, clay road, two days out, horses can close it, every breath a furlong), and then returns to the opening premise in near-identical terms before giving the consequence. The conditional clause is the restatement. The consequence after it (Brill, a dozen bakers, six more roads) is the new material and stays.",
+          "suggestedFix": "Another question, and the wagons would be in Brill by tomorrow",
+          "fixNote": "Change only the opening clause. The rest of the sentence ('with their sacks off and sold on to a dozen bakers, and she would have six more roads to follow instead of one.') stays as written.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r3-05",
+          "line": 673,
+          "pattern": "F10",
+          "code": "F10 Briefing-Stack Dialogue (sign-off tag)",
+          "text": "\"Don't expect them to listen to us. Expect them to get in the way.\"",
+          "issue": "This is a sign-off maxim pair that closes the speech after the knife-pull. Its first half restates what the speech already said ('they'll put the flour after the orcs, and after the horses, and after the quartermaster's supper'), set in a slogan rhythm (Don't X. Expect Y.). Only the second half adds new information: active obstruction, which the brown-coat merchants planted at L219 ('You can't get a cart on the hill roads for soldiers'). Pass A flagged the same line for negation, so this fix should match pass A's.",
+          "suggestedFix": "\"Expect them to get in the way.\"",
+          "fixNote": "Keep only the half that adds information. Jaina's reply ('Then I'll have to show it to them.') still follows, because the speech has already set up 'a bag of flour and a story'.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r3-06",
+          "line": 211,
+          "pattern": "F2",
+          "code": "F2 Dialogue-Beat Genericism",
+          "text": "Lyriel blew out a breath. \"And that's the ones that kept a book.\"",
+          "issue": "The whole beat is one generic kill-list verb ('let out a breath' family) with nothing specific to Lyriel. Any character at the table could own it, and the dialogue already carries the dismay.",
+          "suggestedFix": "\"And that's the ones that kept a book,\" Lyriel said.",
+          "fixNote": "Drop the generic beat and keep the speaker attribution.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r3-07",
+          "line": 387,
+          "pattern": "F12",
+          "code": "F12 Non-Action Beats",
+          "text": ", Lyriel's hands under her boot and her teeth set, not asking how far it was this time, either.",
+          "expected": "No. The beat reports an absence the scene has already established (L275 'The mage didn't ask how far.'). The 'either' marks it as a repeat. This is scene 2's third non-action beat, after the stronger L355 ('He had not asked who she was') and L429 ('Sylvanas did not stop.'). 'Her teeth set' already shows the endurance.",
+          "position": "paragraph-sentence tail, mid-paragraph",
+          "suggestedFix": ", Lyriel's hands under her boot and her teeth set.",
+          "fixNote": "Cut the non-action tail, then continue the paragraph with 'Sylvanas took the mare out of the gate...' unchanged.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "A Farstrider commander. She reads ground, tracks, ledgers and people for tells, and she thinks in field terms: ruts, arrowheads, fletcher's benches, ranger discipline, furlongs. Her interior voice is dry, contemptuous of humans and the Kirin Tor, and self-mocking ('Damn the paper.' 'Sun's sake'). She keeps a running list of evidence and does pursuit arithmetic. She would not think in thematic captions or soft emotional summaries. Her wit arrives as sneer or deflection ('Jaina, then. It was shorter.').",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 21,
+      "kills": 0,
+      "keeps": 21,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Candidates checked: A1 fragments (L131 'Nine loads on the east road, and two thin strokes.', L153 'Thirty-one, out of one shed...', L495 'A name.', L597 'It was shorter.', L635 'An empty wagon, going the wrong way.', L307 'Not yet... Start there.'). A7 generalizers (L255 'a slow hunt always runs a day behind', L297 'where a grain store's dust sifts down and stays', L303 'A barn was never quiet.', L393 'On clay a loaded wagon cuts deep.', L447 'the way paper goes when a man crams in too much', L591 generic 'you' in 'tell you the hour', L629 'Everybody stares at elves too long.'). A8 ambience (L283 'Grey came up over the water', L573 'The night came in.'). B1/B4 (L205 'Every human road in Lordaeron she had ever sneered at...', L279 'After that the night was the river road.', L375 'Every breath she spent in this room was a furlong.', L369 'smooth as a ledger line', L415 'The sun went down behind them...'). Also the tool signal narrator_verdict at L691 ('too brown for mist'). Every one survives on the KEEP conditions: in-character tactical generalization driving a decision, POV internal-monologue fragments, the ambience source named in the same clause, field-domain similes, or Sylvanas's own idiom used once. See the scratchpad for each defense. The narration redundancies that do exist (L399, L417, L371) were killed under gpt-5 F4 and are not re-killed here (A6 cross-reference rule).",
+      "findings": []
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 15,
+      "kills": 0,
+      "keeps": 15,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "Candidates checked: P3/P5 summary lines (L65 'a line at midsummer that sat differently on the page', L119 'two pictures on one sheet, and they did not sit together', L165 'The second day went in stops.', L183 'By late afternoon they had a table.', L153 'anywhere that mattered', L257 'shutting doors', L429 'thinking about the stove', L497 'Every name so far had been a place.', L507 'a day less to do anything with it', L577 'did a thing she had not seen it do before', L655 'Three of them, and every one pointing down this road.', L661 'clean was no use to her' / 'whatever was putting the sickness into the grain'). Dialogue checked: L141 'or it started there first. That's not the same', L583 'something new on top of the old', L587 'As sure as Brent's', L659 'a lord's door and a lord's sacks', L673 'a bag of flour and a story'. Each one cashes out in the same line or the next: the crooked short rate, the stop list, the table inventory, the stroke-and-blot legend, Brent's correction, the three named sources (brown coats, toll-keeper, Cyndia's shoes). The rest are operational distinctions inside the established heavy/light/old/new reading vocabulary. The L661 'whatever' is genuine uncertainty that the plan requires (no Mal'Ganis/Kel'Thuzad naming). No line needs offstage knowledge to cash out.",
+      "findings": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "The chapter has no 'plainly / short version / say it in streets' setup. The narrowing-request exchanges were still audited as candidates: L15 'Can you read from the crossing?' -> 'Yes. It's better there than in a yard...'; L123 'Count the short-rate lines by road' -> per-road numbers; L145 'How many places... Every name once.' -> 'Thirty-one'; L493 'Proudmoore. Barov.' -> house, land round Andorhal, granaries, seal; L567 'Which road it's on. Can you tell me that?' -> 'The south road. Heavy, as far down it as I can hear...'; L585 'How sure?' -> 'As sure as Brent's.' Each reply gives a target or threshold the listener can act on right away (a named road, counts, a calibration point verified on the page). None of them needs a second unpacking.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 66,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md"
+    ],
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "7 MILD kills, all in gpt-5-prose-issues.md (F4 x3, F6, F10, F2, F12), above the 3-MILD threshold. 0 MODERATE/SEVERE. Every kill has a low-difficulty drop-in fix, mostly deletions. The narrator-seep, phantom-concreteness and fake-simplification guides are clean. The count is down from 10 at iteration 2. Not verdict-affecting: there is a structural texture deficit (texture_score 73.0, below_target) and structural rhythm concerns (long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, sentence_length_cv and mattr are out of range).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.828,
+        "target": 0.72,
+        "delta": 0.108,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.801,
+        "target": 0.7,
+        "delta": 0.101,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 35.9,
+        "target": 35.0,
+        "delta": 0.9,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.2,
+        "target": 10.0,
+        "delta": 12.2,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.22,
+        "target": 7.7,
+        "delta": -1.48,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.0,
+        "target": 19.0,
+        "delta": 9.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.774,
+        "target": 0.83,
+        "delta": -0.056,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 73.0,
+      "participial_pct": 6.2,
+      "compound_pct": 14.6,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.5,
+      "short_pct": 46.2,
+      "verdict_reasons": [
+        "participial: 6.2% below target 12.0% (score 56/100)",
+        "compound: 14.6% above target 10.0% (score 62/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.2% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 14.6% -> target 10.0% (score 62/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 11,
+        "texture_desert": 17
+      },
+      "note": "structural texture deficit. Kills B-r3-01 (L399), B-r3-02 (L417) and B-r3-04 (L375) fall in narration near flagged desert zones. They are deletions or trims only and add no new joins."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 63,
+        "total_violations": 3,
+        "overCap": [
+          "punct_colon_narration (13/12, pass A)",
+          "verdict_too_x_for (1/0, pass B: KEEP, L691 concrete perceptual discrimination)",
+          "opener_consecutive_repeat (1/0, pass A)"
+        ],
+        "passBMappedSignals": [
+          {
+            "pattern": "verdict_too_x_for",
+            "category": "narrator_verdict",
+            "line": 691,
+            "text": "too brown for mist",
+            "decision": "KEEP"
+          }
+        ]
+      }
+    }
+  }
+}

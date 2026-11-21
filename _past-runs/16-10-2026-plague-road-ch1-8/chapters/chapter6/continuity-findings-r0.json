@@ -1,0 +1,80 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter6",
+  "iteration": 0,
+  "targetFile": "v0c.md",
+  "verdict": "fail",
+  "hardViolations": 0,
+  "softViolations": 4,
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L169: \"Every road I've read south of the Pass is carrying it, old under new, and every one of them runs to Andorhal.\"",
+      "description": "Jaina's case to Arthas misstates her own Ch5 reads. She has read roads south of the Pass that were clean or only starting. The Ch5 route choice depended on that difference. The case Arthas hears is supposed to be exactly what she has (B4 continuityNote), and Jaina's established habit is to claim no more than she read.",
+      "evidence": "Ch5 final L521-525: Elm Ferry on the King's road read 'Nothing. Not light. Nothing... it was a road.' Ch5 L575: 'The King's road's thin... Nothing's ever sat on it.' Memory characters/jaina-proudmoore (Ch5): at the mile-post 'east light and only starting'. Memory threads/south-road-army-and-jaina-read: 'The King's road is straight, drained and clean.' Ch5 L589: 'Two roads into Andorhal, and one of them sick from end to end.' Plan B4 continuityNote: 'Her case is what she has: grain as the carrier, repeated meals, an organized network, the roads converging on Andorhal.'",
+      "suggestedFix": "Limit the claim to the grain roads. For example: \"Every grain road I've read south of the Pass is carrying it, and every one of them runs to Andorhal. This one worst of all, old under new.\" Or: \"Every road the grain comes up is carrying it...\" Do not say that every road she read is contaminated."
+    },
+    {
+      "violationId": "V2",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L63: \"One part to keep. In the sick village she had taken that to mean the stuff kept in the jar, in the damp under the boards. No—it had to keep through far more than a damp floor. It went through a mill. It went into a bakehouse oven...\"",
+      "description": "This passage says that at the sick village Jaina took the 'keep' part to mean only that the substance stayed good in the jar, and it stages its survival through the oven and into the eater as a new step. In Ch4, during the same reading, she already recognised that it had gone through a baker's oven and into a man and waited there. The beat plan forbids staging Ch4 material as fresh.",
+      "evidence": "Ch4 final L686: 'One part to keep. One part to wait... And it had gone into a sack of flour and through a baker's oven and into a man's milk, and sat down in him and waited.' Plan B2 continuityNote: 'Do not stage any of that as fresh. The new step: the craft is now a whole system...' Constraint: 'Give the Ch4 material brief anchors only.'",
+      "suggestedFix": "Cut the sentence 'In the sick village she had taken that to mean the stuff kept in the jar, in the damp under the boards.' and the 'No—' correction after it. Rebuild the thought as a return to something she already knew: in the loft she had known it went through an oven and into Garran, but she had not stopped to ask what kind of keeping survives a mill, an oven and a gut. Keep 'What kept through an oven? Nothing she'd ever been taught.' The newness belongs in the question about craft, not in the fact."
+    },
+    {
+      "violationId": "V3",
+      "severity": "soft",
+      "category": "physical",
+      "location": "L101 ('somebody's roof was coming down under that orange flicker while she sat here'), L199 ('That's the Garrow farm... Yesterday I helped carry them out.'), L227 ('the band that had burned the Garrows' roof today')",
+      "description": "Within the chapter, the timing of the Garrow farm burning is inconsistent. Arthas places the attack and the dead at least a day back ('Yesterday I helped carry them out'). Jaina's B5 interior says the band burned the Garrows' roof 'today'. A fire set yesterday can still be smouldering, so this can be reconciled, but 'burned... today' contradicts Arthas's account.",
+      "evidence": "Prose L199 vs L227. Section 3e of the audit spec requires physical states to be tracked consistently from beat to beat.",
+      "suggestedFix": "At L227, change 'the band that had burned the Garrows' roof today' to 'the band that had burned the Garrows' roof over their heads' or 'the band that had fired the Garrow farm'. Optionally, at L101, keep the roof 'still coming down' rather than implying a fresh attack. Do not change Arthas's line."
+    },
+    {
+      "violationId": "V4",
+      "severity": "soft",
+      "category": "physical",
+      "location": "L9: \"The left hand had the reins, wrapped in Cyndia's linen to the wrist with two fingertips left bare\"",
+      "description": "The current wrapping on Jaina's left hand is Lyriel's. Cyndia wrapped both hands in Ch3, but in Ch4, after the palm tore at the jar, the hand was rewrapped, and Ch4 names it as Lyriel's linen.",
+      "evidence": "Ch3 final L568: 'Cyndia... Wrap the mage's hands.' Ch4 final L936: 'the long split in the heel of the palm throbbing under Lyriel's linen.' Ch4 L940: 'the fingers poking out of the new wrapping'. Ch5 gives no other attribution.",
+      "suggestedFix": "Change 'wrapped in Cyndia's linen' to 'wrapped in Lyriel's linen', or leave the owner out: 'wrapped in linen to the wrist'."
+    }
+  ],
+  "advisories": [
+    {
+      "id": "A1",
+      "note": "There is a tension inside the plan, not in the prose. knowledgeLedger.povKnowsAtOpen says 'The old carter from the Millhaven road is still an unresolved road clue in her mind', but the B7 continuityNote says Jaina has no on-page memory of the phrase, and nothing in Ch4 (Jaina POV) touches the carter. The prose at L327 ('a picture of a wagon on the bridge and voices, and nothing at all of what had been said') follows the beat note and the on-page record. Not counted. The plan owner may want to fix the ledger line."
+    },
+    {
+      "id": "A2",
+      "note": "L17 merges two Ch3 moments. Jaina read prints 'in the lane' with the staff heel, and Cyndia's hazel-switch box was laid later in the cow-way cut, with Cyndia, not Jaina, on her knees (Ch3 L604-622). This is acceptable as blurred recollection. 'kneeling in the cut' would be the more exact wording. Not counted."
+    },
+    {
+      "id": "A3",
+      "note": "L147: Jaina calls Arthas 'Your Highness' once, as old banter. The name-usage constraint gives 'Arthas' as her habit. Read as teasing, it does not break continuity. Not counted."
+    },
+    {
+      "id": "A4",
+      "note": "L297 vs L381: the tally-man says carts bear off left for the yards before the market gate, yet the wagon line on this road is seen going down 'to the gate the clerk had told them of'. Both can be true: the line reaches the gate area before the fork to the yards. Not counted."
+    }
+  ],
+  "verifiedClean": [
+    "Opening matches the Ch5 close: same morning, same four riders in the old order, the brown smear resolves into army dust plus burned-farm smoke (L87, L101), Jaina slept against the stone block, Lyriel's burnt crust.",
+    "Evidence custody: the sheet, slips and sacking come from Sylvanas's coat into Jaina's two bare fingertips before B4 (L133-135), Arthas never takes them (L171, L215), and they go back to Sylvanas's coat (L241). Jaina writes no new notes.",
+    "Knowledge ladder: built weapon, formal training, body as part of the mechanism, and the locked line at L41. She cannot explain how sickness becomes undeath (L49). No 'answering chamber' or fidelity model.",
+    "No Mal'Ganis or Kel'Thuzad naming. The suspect is an unnamed face ('stopped at the third', L73).",
+    "Barov is connection, not guilt: 'I'm saying nothing about Lord Barov' (L177). 'On every sack... good or bad' matches the Ch5 barov-name-on-the-paper memory.",
+    "Arthas is not cruel and the orc war is real: Garrow farm, men's families on the farms, 'out of the camps' (L199). He grants the point before he decides (L179-207). No named officers other than Arthas.",
+    "Sylvanas's B4 prediction ('write to his father... back up that hill', L187) comes before Arthas confirms it. The B6 verdict ('a good commander, with an enemy he can see', L247) is distinct, and Jaina says 'You were right' aloud (L243).",
+    "The internment-camp flashback stays inside Jaina, and Sylvanas is not told (L253).",
+    "Name usage holds throughout: Ranger-General/Arthas from Jaina, Jaina/Ranger-General from Arthas, Proudmoore in front of others and Mage otherwise from Sylvanas, 'Your Highness' from Sylvanas to Arthas, 'Jaina' from Lyriel, and no address from Cyndia.",
+    "The tally-man does not resemble the carter (on foot, clean-shaven, satchel strap, no grain dust). His glance back and his look over the party are written as ordinary behaviour. Jaina's 'Nothing... a tired clerk' is honest. She does not draw the overseer parallel. He is gone before Sylvanas looks back. 'Twice, it's wrong. That's as far as it goes yet.'",
+    "Cyndia shows no reaction to the farewell. Lyriel connects nothing. No party member gives a farewell. Neral is absent.",
+    "Horse ladder (ring stones: sidestep then stand; here: never settle) and cost ladder (chattering teeth, frost on the bare fingertips, crystal dimming) both escalate correctly. Jaina refuses Lyriel's offer to stop.",
+    "Andorhal is alive and working. Captain Havel at the militia post by the market gate is the only lead, and he is a name only. The arrival is by the back way, with the King's road and the bigger gate seen separately. Jaina turns to face the city, landing arc bullet 4."
+  ]
+}

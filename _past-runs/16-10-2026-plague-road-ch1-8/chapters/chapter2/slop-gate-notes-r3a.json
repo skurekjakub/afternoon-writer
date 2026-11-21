@@ -1,0 +1,175 @@
+{
+  "chapterId": "chapter2",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA [51, 13, 4] strictly decreasing before this run)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 26,
+      "kills": 0,
+      "keeps": 26,
+      "severity": "none",
+      "dominantPattern": null,
+      "cleanReason": "Swept every not/n't/no/nobody/nothing/none/never/without sentence (about 120 raw hits). Most are plain negated facts with no positive half, so they are not contrast constructions. 26 contrast-shaped or borderline candidates were evaluated. Each one meets a keep condition: a procedural or prohibition line (L89 terms, L203 'Not on the hill.'), spatial precision (L57 'not touching it'), a hard constraint (L25, L41, L191, L475, L479, L459 'Deer don't run at horses'), a binary diagnostic (L77 chair vs stone, L277-281 'don't spread' vs 'They close', L351, L357, L461, L471 'nothing clean' set against L527 'Clean blood'), or self-argument in free indirect thought (L51 'oh, Light, no', L287 'A fair guess. No.', L349 'Nobody. So...', L501, L505 'Except she wasn't anywhere on her own any more.'). The absence observations at L325, L345, L563-565 and L573 (no smoke, no tracks, no dogs) are the chapter's evidence, not pivots. No 'not X but Y', fragment-pivot, source-swap, count-reset or chained-negation shapes remain. Tool signal: negation_addiction had 0 matches.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 34,
+      "kills": 4,
+      "keeps": 30,
+      "severity": "mild",
+      "dominantPattern": "P8 body-part / P9-P10 actor demotion",
+      "secondSweep": "Ran the dedicated P5/P6 sweep sentence by sentence. Roads and geography (L161 'The road ran straight at them', L355 'the road bent', L557, L589 'narrowing as it went') carry only path-geometry verbs ('led'-class), so they are keeps. No maps, plans or cities take revision or cognition verbs. The one map-like case, L297 'the lines will disagree', is dialogue in a technical idiom and the colon names the concrete signs right after it. Body-part subjects: L187 (hand) and L275 (hands) are volitional, so they are kills. L41, L213, L279, L287, L383, L487 and L505 are involuntary (blush, dozing chin, startle-freeze, shot legs, nausea), so they are keeps. Abstract-subject cases: L359 (unsaid words 'going with her') and L499 ('Part of her ... drafting') are kills. L25 'The word stuck', L541 'the read went soft' and L107 'A day in the chair had set her knees' are keeps. The contamination ('it') takes agency verbs throughout (L27, L229, L455, L497, L569). That is the chapter's literal subject (subject-matter defense), and the human agent is unknown to the POV.",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "pattern": "P8 body-part acting independently",
+          "severity": "MILD",
+          "line": 187,
+          "text": "A hand came over and took hold of her reins below the mare's chin. It was Lyriel.",
+          "subject": "A hand",
+          "verb": "came over and took hold of",
+          "realAgent": "Lyriel, who reached across from her horse",
+          "verdict": "KILL",
+          "reason": "Pattern 8: a disembodied hand takes the volitional action, and the actor is held back for a two-word reveal ('It was Lyriel.'). Putting Lyriel in subject position keeps every fact.",
+          "suggestedFix": "Lyriel leaned across and took hold of her reins below the mare's chin.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-IS-2",
+          "pattern": "P8 body-part acting independently",
+          "severity": "MILD",
+          "line": 275,
+          "text": "Her hands were up, the right one still clumsy, laying the river out flat in the air between the mare's ears and spreading her fingers wide from it.",
+          "subject": "Her hands",
+          "verb": "laying the river out ... spreading",
+          "realAgent": "Jaina, gesturing through a rehearsed explanation",
+          "verdict": "KILL",
+          "reason": "Pattern 8: the hands carry a deliberate demonstrative gesture that belongs to Jaina. Unlike L27 ('before she meant to') this gesture is rehearsed, so the involuntary exception does not apply. The follow-ups at L279 (startle-freeze) and L283 (state) stay.",
+          "suggestedFix": "She had her hands up, the right one still clumsy, and laid the river out flat in the air between the mare's ears, spreading her fingers wide from it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-IS-3",
+          "pattern": "P5/P10 abstraction given motion verb (actor demotion)",
+          "severity": "MILD",
+          "line": 359,
+          "text": "She dropped back behind Jaina's right shoulder as the road narrowed between the hedges, the end of whatever she'd meant to say going with her.",
+          "subject": "the end of whatever she'd meant to say",
+          "verb": "going with her",
+          "realAgent": "Lyriel, who chose not to finish the sentence",
+          "verdict": "KILL",
+          "reason": "The unsaid words get the motion verb, and Lyriel's choice to stop talking is pushed into an absolute phrase. Making Lyriel the agent states the same fact directly.",
+          "suggestedFix": "She dropped back behind Jaina's right shoulder as the road narrowed between the hedges, and kept the rest of it to herself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-IS-4",
+          "pattern": "P9 split-self / internal fraction given cognition verb",
+          "severity": "MILD",
+          "line": 499,
+          "text": "Part of her sat up at it, a hound hearing its name, and she hated that, hated it with her hand in a dead doe to the wrist, while the same part was already drafting the next test.",
+          "subject": "Part of her / the same part",
+          "verb": "sat up ... was already drafting the next test",
+          "realAgent": "Jaina herself, whose scholarly curiosity is planning the next experiment",
+          "verdict": "KILL",
+          "reason": "'Part of her' is handed a cognitive act (drafting a test), which goes past feeling into intention, so keep condition 2 fails. The next sentences ('She'd want jars') show Jaina doing the planning herself, and the self-disgust survives with her as subject.",
+          "suggestedFix": "She came alert at it like a hound hearing its name, and hated that, hated it with her hand in a dead doe to the wrist, while she was already drafting the next test.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 14,
+      "kills": 0,
+      "keeps": 14,
+      "severity": "none",
+      "dominantPattern": null,
+      "cleanReason": "Counts against caps. Tic 1 corner-of-mouth: 0/1. Tic 2 'marked': 0/2 (L497 'mark' x2 is a noun, the literal death-mark). Tic 3 tightened/eased: 3 'tight', all physical (L3 cord, L183 drumhead, L569 rigging), 0 'eased' (only 'Easy' in Neral's dialogue). Tic 4 facial 'shifted': 0/1 (L117 'shifted her grip' is physical). Tic 5 eye/gaze: 3 beats/4, all character-specific (L17 hunter's watch, L321 Cyndia watching the hedge, L325 Jaina watching the chimney). Shut eyes and the filmed animal eyes are actions or evidence, not emotional gaze. Tic 6 weight metaphors: 0 abstract. L5 'a flat hand' on her chest is the literal ward suppression, and L175 'pressed in' is the literal contamination field. Tic 7 non-said tags: 1/3 performance ('Neral murmured to it in Thalassian' L183, an actual low voice to a horse, not a dialogue tag). 'began' L39 is an interruption. Tool signals mapped to this guide are all under cap: semicolon 9/20, colon 9/10, participial 15/41, as-if 3/5, like 2/20, as-though 1/3, filter_watched 1/3, filter_decided 1/3, bookism_murmured 1/2. The one over-cap signal, punct_emdash_cluster at L549 '*liver—roots—alive—before*', is a keep because it is the literal text Jaina inks into her field-book. Advisory only (not a kill): the 'Light' oath appears 10 times and 'Light help her' 3 times (L33, L331, L547). Jaina's voice sheet sanctions the oath and the guide sets no cap, but slophunter may thin L331 if it touches that paragraph.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 70,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "4 MILD kills, 0 MODERATE/SEVERE. That is over the 3-MILD threshold. All 4 are intent-smear actor-demotion cases (body-part subjects at L187 and L275, an abstraction at L359, split-self 'Part of her' at L499). Each has a one-sentence drop-in fix. Negation and recurring tics are clean. There is also a structural texture deficit (texture below_target, score 73.8) and 5 rhythm metrics outside the style-guide ranges.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.826, "target": 0.72, "delta": 0.106, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 12.7, "target": 11.0, "delta": 1.7, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.829, "target": 0.7, "delta": 0.129, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 37.2, "target": 35.0, "delta": 2.2, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 22.7, "target": 10.0, "delta": 12.7, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.05, "target": 7.7, "delta": -1.65, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 31.5, "target": 19.0, "delta": 12.5, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.781, "target": 0.83, "delta": -0.049, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": ["sentence_length_cv", "long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 73.8,
+      "participial_pct": 6.5,
+      "compound_pct": 15.2,
+      "emdash_pct": 1.7,
+      "semicolon_pct": 1.1,
+      "short_pct": 46.0,
+      "verdict_reasons": [
+        "participial: 6.5% below target 12.0% (score 57/100)",
+        "compound: 15.2% above target 10.0% (score 59/100)",
+        "emdash: 1.7% below target 4.0% (score 79/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.5% -> target 12.0% (score 57/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 15.2% -> target 10.0% (score 59/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.7% -> target 4.0% (score 79/100). Use for mid-sentence pivots.",
+      "flaggedPassages": { "telegram_run": 5, "texture_desert": 7 },
+      "note": "structural texture deficit. Fixes A-IS-2 and A-IS-3 keep or add a trailing participial/compound join and do not cut texture."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 53,
+        "total_violations": 2,
+        "overCap": [
+          { "pattern": "punct_emdash_cluster", "line": 549, "mappedGuide": "recurring-prose-tics.md", "disposition": "KEEP: literal field-book notation" },
+          { "pattern": "verdict_too_x_for", "line": 131, "mappedGuide": "narrator-seep-guide.md (pass B)", "disposition": "out of pass A scope" }
+        ],
+        "passAMappedSignals": "punctuation_tics, participial_attachment, simile_overload, filter_words, said_bookisms: all under cap and all KEEP. negation_addiction, abstract_locomotion, inanimate_agency, breath_tells, body_cliches, temporal_padding, paragraph_structure: 0 matches."
+      }
+    }
+  }
+}

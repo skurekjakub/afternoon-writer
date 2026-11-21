@@ -1,0 +1,104 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter7",
+  "iteration": 1,
+  "targetFile": "v1.md",
+  "status": "pass",
+  "hardViolations": 0,
+  "softViolations": 1,
+  "verdictRule": "Any hard violation, or 3 or more soft violations, is a fail. This pass has 0 hard and 1 soft.",
+  "priorFindingsPath": ".afternoon/chapters/chapter7/continuity-findings-r0.json",
+  "priorFindingsResolution": [
+    {
+      "violationId": "r0-V1",
+      "status": "resolved",
+      "note": "Ashby's became Kett's, Pell's became Garside's, Dunmore became Tarrant and Hollin's became Holt's, consistently at every occurrence (diffed v0c against v1). A grep of plans/memory and the Ch1-6 final.md files finds no canon collision for Kett, Garside, Tarrant, Holt, Fenner, Simmons, Tenter Row, Hurdle Lane, the Wheatsheaf or Corin. 'Kett' matches only 'Kettle' (Corley's kettle) and 'Hurdle' only the sheep hurdle, which are not names."
+    },
+    {
+      "violationId": "r0-V2",
+      "status": "resolved",
+      "note": "L151 now reads 'some out on the weir road and the east road too', and 'Most' is now 'Some'. Corin's line no longer takes in the King's road. See V1 below for a separate line of Havel's (L161) that still does."
+    },
+    {
+      "violationId": "r0-V3",
+      "status": "resolved",
+      "note": "L417 now matches Ch5. At Corley's the two pictures did not sit together until Cyndia counted the book (Ch5 L100-135). The moved mark was Hollow Green, at the inn on the south road (Ch5 L183-197), and it was Jaina's mark. L397 now says 'since the south road, with Jaina's blots over her own lines', which matches Ch5 L197 ('Every blot over her lines') and the sheet carried through Ch6."
+    }
+  ],
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L161: \"You're asking me to go into the Exchange with a pile of copies and tell the guild it's been sending poison down the King's road under somebody else's seal.\"",
+      "description": "Havel says the tainted copied-mark loads have gone down the King's road. Ch5 and Ch6 lock the King's road as clean by Jaina's read. Jaina in Ch6 L21 says the poison would not 'keep to one road and leave the King's road clean beside it'. Corin's evidence, given ten lines earlier, names only the south road, the weir road and the east road. The r0 V2 fix took the King's road out of Corin's line, but this line, already in v0c and missed in r0, puts it back. Havel can be read as using 'the King's road' loosely for 'the highway', but the phrase is the proper name of a specific road in canon. A reader who remembers the clean read will see a contradiction, or will see an unintended Havel tell. It also leans on the lock 'No proof that the wider spread is already complete'.",
+      "evidence": "Ch5 final L637-639 ('it's clean... The King's road was clean'); Ch6 final L21; memory threads/flour-supply-chain-and-andorhal.json (Ch5 clue: 'the King's road is clean; the east road is only starting'); threads/south-road-army-and-jaina-read.md ('The King's road is straight, drained and clean'); world/geography.md (King's road enters Andorhal by the front gate, the south road by the back/market gate). v1 L143 and L151 name only the south, weir and east roads for Corin's copied marks.",
+      "suggestedFix": "Change 'down the King's road' to 'down the south road', or to 'out of its own gates'. Example: \"...and tell the guild it's been sending poison down the south road under somebody else's seal.\""
+    }
+  ],
+  "advisoriesNotCounted": [
+    {
+      "id": "A1",
+      "category": "cross-chapter",
+      "location": "L281 ('a boy on a hoist at Brask's granary'), L343 ('the square she had cut from Brask's loft'), L345 ('the jar under Brask's floor'), L477 ('Brask's boy had his death sewn into his collar')",
+      "note": "Carried from r0, unchanged. In canon the granary and loft belong to Joss, Tam 'works the hoist for Joss', and Brask is the village's militia captain. As Sylvanas's shorthand for the village, 'Brask's' can stand. The spoken line at L477 can be read as 'Brask's son', which Ch4 contradicts (Tam 'sat next to my youngest'). Optional: 'The boy in Brask's village had his death sewn into his collar.' L281 'bitten open his own collar' is a fair compression of Tam biting the poison from his sewn-in collar hem."
+    },
+    {
+      "id": "A2",
+      "category": "physical",
+      "location": "L79 (the carts bear off left twenty paces inside the gate)",
+      "note": "Carried from r0. Ch6 (the tally-man) puts the carts' left turn for the yards at the bottom of the hill, outside the gate. Ch6's crest view also shows a wagon line on this road running down to the market gate, so some carts go through, and the two can be reconciled. Not counted."
+    },
+    {
+      "id": "A3",
+      "category": "cast",
+      "location": "L227, L371-377 (S3 at the militia post)",
+      "note": "Carried from r0. The militia post is Havel's public duty post, not a shelter he offers, so the plan's guard against using one of Havel's shelters holds. For the Ch8 planner: S3 takes place on Havel's ground, he knows the post emptied at the bell, he holds the chalk, and his lads are posted at the Hurdle Lane end (L493-497)."
+    },
+    {
+      "id": "A4",
+      "category": "arc",
+      "location": "L261 ('Kett shut his gate at noon. You'll get nothing there tonight'), L337, L419 ('I'd have sworn to it')",
+      "note": "Carried from r0 with the new name. It is a spoken claim that proves wrong at the cult site, and both readings survive it: Havel himself volunteered Kett's as a new-factor yard at L253, and the narration never states his guilt. For the Ch8 planner, this plant is on the page."
+    },
+    {
+      "id": "A5",
+      "category": "cross-chapter",
+      "location": "L5, L67-73",
+      "note": "Carried from r0. The gate book holds 'Proudmoore, Dalaran, Kirin Tor' and Windrunner's name from late on day 5. Ch8 should treat that as canon."
+    },
+    {
+      "id": "A6",
+      "category": "cross-chapter",
+      "location": "L469, L501-503 (knife through the sheet into the table; candle pinched out); L379, L429 (a moth at the candle)",
+      "note": "Carried from r0. This repeats Ch5's closing business (Ch5 L585 moth in the candle grease, L637 knife into the bench, L659 candle pinched out). It contradicts no facts and is recorded only because the plan guards against re-staging Ch5's shapes."
+    },
+    {
+      "id": "A7",
+      "category": "physical",
+      "location": "L253 ('Kett's on Tenter Row'), L261 ('Kett's at the bottom'), L323-335 (the actual route), L423 (Havel's ring 'at the foot of Tenter Row'), L487 (Lyriel at 'the bend in Tenter Row')",
+      "note": "New, for the Ch8 planner and the memory-keeper. On the page, Tenter Row runs straight from Hurdle Lane, bends, and meets a wider street running down toward the weir. The loader follows that street to a corner and turns left into a long back lane with lamps at both ends, and Kett's is the last door on the left. So Kett's is not literally on Tenter Row. It is reached through it, and its hoist beam shows over the bend. Havel's speech and chalk treat Kett's as standing at the foot of Tenter Row. This is consistent as a local's loose description, or as part of the fair-play route plant, but Ch8's ambush geography must use the walked route: Tenter Row, then the bend, then the weir street, then the back lane. Cyndia's post is the roof by the chimney across from the loft, over the back lane. Lyriel's post is the bend in Tenter Row."
+    },
+    {
+      "id": "A8",
+      "category": "physical",
+      "location": "L391 ('bags on true marks are clean'), L365 ('a bill and a seal that would pass any table'), L429 ('Every bill on Kett's mark is written for the first carts out')",
+      "note": "New, for the Ch8 planner. Jaina reads every bag on a copied mark as bad and every bag on a true mark as clean. Kett's is the treatment site. Corin uses Kett's own-mark bills only to show that Kett ships everything on the first carts. The prose leaves open whether treated sacks leave under Kett's true mark or under copied Fenner's/Exchange/Garside's marks (L365 implies copied). No contradiction on the page. If Ch8 shows treated sacks leaving under Kett's own mark, it must explain why no Kett's-mark bag read heavy on Jaina's shelves (for example, none had been flagged)."
+    }
+  ],
+  "verifiedClean": [
+    "Ch6 handoff: low sun, the mare shying down the hill, four Thalassian horses stabled outside the wall in a carter's yard, Lyriel lifting Jaina down, the linen reddened at the knuckles from the hill, the crystal dim at the staff head.",
+    "Cover pass: Sylvanas writes it, sealed with the leaf-and-arrow, wax run on one side (Ch3). Jaina signs nothing. The clerk logs both names (A5).",
+    "Militia post: just inside the market gate on the left, with a bench by the door and the tally-man's referral stated as plain fact (L85, L99). The farewell is not mentioned, and Sylvanas makes no Havel-tally-man link.",
+    "Knowledge ledger: B1 to B8 new information lands in order. Havel's street truth (clusters, the three-month supplier change, drilled loaders), Corin's paper truth (copied marks, weeks of unanswered letters to Dalaran), the split, the eight at Fenner's counted by Cyndia, the dead drop without a glance back, the masked and gloved loft crew, the two layers, the packaging carrier coat with the body finishing the work, Havel's dawn and proper-arrest steer, and the same-night capture at the secondary granary (Kett's).",
+    "mustNotBeImpliedYet: no Kel'Thuzad, no Barov named at all, no carter or grain-man resolution, no warm trust language (the reliance shows in the split and in Jaina coming round the table, L471-475), and Havel never narrated as cult-paid. His tell stays in route-pointing (L171, L263, L421, L441) with Sylvanas's admitted bias against slow men beside it. On the spread-complete lock, see V1.",
+    "Address: aloud Sylvanas says 'Proudmoore' (L219, L503) and 'Captain', and thinks 'Jaina' or 'the mage'. Havel says 'Ranger-General' unprompted and 'my lady'. Corin says 'Ranger-General' carefully and 'Lady Proudmoore'. Cyndia says 'Ranger-General'. Lyriel does not call Jaina by name here, which breaks no rule.",
+    "Jaina's body: dead right arm with the staff in its crook, two bare left fingertips, blots on paper and Corin's hand at her dictation (L381-383), frost on the fingertips and grey to the lips at S3, reads grain not paper.",
+    "Sylvanas's body: Tam's two bitten fingers purple at the middle joint and slow on the climb (L331), not disabling.",
+    "Weather and clock: warm, dry and windless with no wet streets. Sun down behind the roofs at the split, lamps lit at Fenner's yard, the Exchange bell as the event-set rendezvous (L227, L365), full dark at S3.",
+    "Cast placement: Lyriel with Jaina and Corin, Cyndia with Sylvanas and Havel. Havel is left with Cyndia and never near Kett's. Neral is correctly recalled as sent north with the child (L491). Close cast is all six. Perimeter: Cyndia on the roofs and Lyriel at the Tenter Row bend, one-word acknowledgements, orders by event ('until I call').",
+    "Mechanism rung: carrier coat applied by hand at packaging, the body finishes the work, alchemy plus necromancy. No answering chamber, no fidelity talk, no source named, nothing about undeath. Jaina's plan to freeze the jaw (L479) does not pre-empt Ch8. The outline's witness still dies to the remote death-curse, and 'whether the cult can kill from a distance' stays unknown.",
+    "Cross-chapter callbacks: 'a day behind them since the miller's buy-back... a cold stove and a smiling overseer' (L463) matches Ch5 (the buy-back, the stove cold on the return, the pleasant overseer with ready answers). 'Jaina at the crossing with her mile-post' (L213) matches Ch5 L17. The ANDORHAL sheaf-in-a-ring stencil matches Ch4. The waxed cloth over the jar's mouth matches memory characters/tam.md.",
+    "Timeline: autumn on day 5. 'Three months back', midsummer, high summer and Lammas fit the harvest canon and the Ch4-5 chronology."
+  ]
+}

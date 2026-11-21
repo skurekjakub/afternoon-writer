@@ -1,0 +1,85 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter5",
+  "iteration": 1,
+  "targetFile": "v1.md",
+  "status": "pass",
+  "hardViolations": 0,
+  "softViolations": 1,
+  "priorFindingsResolved": [
+    {
+      "id": "V1 (r0, hard)",
+      "resolution": "L159 now reads \"in that village, in the loft, on her knees in that cage\". The list now holds only Ch4 moments. Ch4 L540 (Cyndia's cart-man report) comes before the loft (L614+) and the cage (L782), so she could think 'one man with a cart' at each point named. Resolved."
+    },
+    {
+      "id": "V2 (r0, soft)",
+      "resolution": "L217 'since summer's end', L275 'since the back end of summer', and L537 'since the back end of summer' all agree with Ch4 L706 (Brask: 'He came looking for work at the back end of summer'). Resolved."
+    },
+    {
+      "id": "V3 (r0, soft)",
+      "resolution": "L141 now reads 'Millhaven taking its first short-rate load at midsummer'. This agrees with L65, L149 and L569, and with Ch4 L540's 'three months ago'. Resolved."
+    },
+    {
+      "id": "V4 (r0, soft)",
+      "resolution": "L661 now names 'the ostler at the Plough with his lantern' (L297). He saw the party on the night before the depot, so he can be a source of warning. The chapel-step woman, who only saw them on day 3, is gone from the list. Resolved. See advisory A3 on how close the timing is."
+    }
+  ],
+  "violations": [
+    {
+      "violationId": "V1",
+      "severity": "soft",
+      "category": "physical",
+      "location": "L537: \"She had a name on fifty-three pieces of paper, and the paper said the grain had gone through his hands.\" Also L595: \"Barov's seal on half of it, his factor's name on more, his stores at the Andorhal end of every one.\"",
+      "description": "The narration puts the Barov name on more paper than the chapter's own count allows. Cyndia's count (L501, L515) is 53 readable slips, all with Andorhal at one end, and Barov on 31 of them plus the parchment. The name was not on 53 pieces. At L537 'a name' means the lord's name ('his hands'), and the line gives it all 53 slips. L595 puts 'his stores' at the Andorhal end of 'every one'. In iteration 0, L595 alone was advisory A2. With L537 it is now a repeated overstatement. Both lines sit in the beats whose job is to keep Barov at 'connection, not guilt', and the B6a plannerWarning says the narration must not blur that. Turning 31 slips into all 53 is the kind of inflation the guard is there to stop. This does not give a guilt verdict, so it is not hard.",
+      "evidence": "L501 Cyndia: 'Fifty-three. Every one of them has Andorhal at one end.' L515 Cyndia: 'Barov on thirty-one of them. And on the parchment.' Beat plan B6a newOnPageInformation: 'The Barov name is on the paper again and again: proof of connection, not proof of guilt'. B6a plannerWarning: 'Narration must not blur connection into guilt either.'",
+      "suggestedFix": "L537: \"She had a name on thirty-one pieces of paper and a lord's seal, and the paper said the grain had gone through his hands.\" L595: \"Barov's seal on some of it, his factor's name on more, his stores at the Andorhal end of most of them.\""
+    }
+  ],
+  "advisories": [
+    {
+      "advisoryId": "A1",
+      "location": "L567: \"the two working fingers out of the linen and already inked\"",
+      "note": "Carried over from r0. Plan constraint 33 gives 'ink-stained fingers' to clerks, Sylvanas or Cyndia. The ink is physically consistent here, because she held the pen in those two fingers at L117 and L209. Optional tweak: 'black at the tips from Corley's pen'. Not counted."
+    },
+    {
+      "advisoryId": "A2",
+      "location": "L601: \"Two roads out of the one gate\"; L653: \"One gate. Two roads.\" against L715: King's road 'into Andorhal by the front gate', south road 'into Andorhal by the back', and L745: 'toward the front gate of Andorhal'.",
+      "note": "'One gate' at L601 and L653 is meant as a figure for Andorhal and its granaries as the single source. But a few lines later Sylvanas states the literal geography: two roads, two entrances, front and back. Read literally, the two clash. Optional: L601 'Two roads out of the one town' and L653 'One hub. Two roads.' Not counted."
+    },
+    {
+      "advisoryId": "A3",
+      "location": "L661: \"the ostler at the Plough with his lantern\"",
+      "note": "This fix is better than the chapel-step woman, but the Plough ostler saw them only a few hours before they reached the depot. The innkeeper puts the Plough at the halfway mark, and they left it at once and rode through the night. Word from him could explain the last-minute stuffing of the stove (L473: 'like a man breaking camp with riders on the ridge'). It could not explain a sweep of three barns that took a night (L323). The line is Sylvanas's loose 'Anyone' list, and every other name on it saw them on day 0 to day 2, so it can stand. Not counted."
+    },
+    {
+      "advisoryId": "A4",
+      "location": "L53: \"A carter's boy came through at dawn for the smith.\"",
+      "note": "Carried over from r0 A3. It is tight against the party's own dawn-to-afternoon ride. 'came through this morning' removes the strain. Not counted."
+    },
+    {
+      "advisoryId": "A5",
+      "location": "L65: \"if she'd ever thought about grain in her life, which she had not.\"",
+      "note": "Carried over from r0 A4. She spent Ch4 on the granary and the bakehouse. Optionally add '...before this week'. Not counted."
+    },
+    {
+      "advisoryId": "A6",
+      "location": "whole chapter",
+      "note": "The r0 A5 memory-keeper notes still apply (Corley, Coldwell, Wick, Hollow Green, Brent's, Elm Ferry, Ashford, the Plough, the river depot, the overseer fled south over the bridge alive with his wife, Barov placed by Jaina, the King's road against the south road, knife-hole at Strahnbrad). Add the following. The sick village is placed where Corley's west road bends round to meet the north road (L113), which matches Ch4's cart man coming 'from the west road'. Sylvanas recalls holding the staff on the Millhaven inn-cellar ladder (L219, matching Ch3 L169-171). She recalls a ranger she flayed at the Pass after a troll band came through a gap he was watching (L441, new backstory)."
+    }
+  ],
+  "verifiedClean": [
+    "All four r0 fixes landed exactly as specified, with no collateral change (diff v0c to v1: six lines modified, nothing added or removed).",
+    "Opening matches Ch4 close: same day after the pre-dawn rain (Ch4 L918), ford by noon, same riding order with two empty places, the ANDORHAL square in her coat, Tam's bite on two bare right-hand fingers (Ch4 L782/L804), left glove grey with flour (Ch4 L524).",
+    "Name walls: narration says 'the mage' up to L639 and 'Jaina' from L641 onward, with no slips in either direction (grep-verified). Aloud Sylvanas says only 'Mage' or 'Proudmoore'. Lyriel says 'Jaina' (L257).",
+    "Elves cannot feel contamination. Every reading comes through Jaina's staff. The cellar-ladder memory (L219) matches Ch3 L171 ('the staff buzzed... She could read nothing in it'). L719 'feel nothing from' is consistent.",
+    "Jaina's hands: the right arm is dead and holds the staff in its crook. Only the two left fingertips work. Pen marks are clumsy. There is no hand-reading.",
+    "Knowledge: 'or where he wanted us to think it came from' (L509) was said aloud in Sylvanas's presence (Ch4 L976). 'Brask had said Andorhal' matches Ch4 L972. The cart man is 'from the west road' (Ch4 L540), which fits the placement at L113.",
+    "Rut and rain logic: no rain after Ch4. The overseer's 'two days ago' falls on day 1, after the rain. Cyndia confirms nothing heavy since the rain. The toll-keeper has seen no grain for a month. The overseer is alive, fled the morning of day 3 per the bridge-keeper, and is never on the page after B6.",
+    "Sleep and day counts hold: 'not slept since the night before the village' (L7), the loft watches (L169), 'second night without sleep' for the horses (L451), 'up three nights' (L517), 'four days' with a bow (L709).",
+    "Barov: the narration holds 'Connected... It did not tell her who had driven the cart.' There is no guilt verdict. The only issue is the count overstatement in V1.",
+    "Carter callback (B8) matches the Ch3 page (L719-759): bridge hump, brown cob, plank wagon with grey dust in the cracks, 'Empty going up, full coming down', 'every fortnight', 'Nothing for me here, then', 'well enough' on market day, north through the crossing and up the empty street, 'New man. I've a mind to see what he looks like.' He is not conflated with the cart man. Lyriel's Ch3 answer is not linked to the leak. Neither Cyndia nor Jaina raises him. Cyndia's Ch3 head-turn is not mentioned.",
+    "Arthas and Strahnbrad have three on-page sources before B9 (L233, L437, L701). The army appears only as dust. The B9 choice rests on Jaina's read ('No' to a re-read). The warning is a plain assessment.",
+    "No Mal'Ganis, no Kel'Thuzad, no designer named. Neral is absent, and the two empty places are a callback. The sick village is never named.",
+    "castKnowsLeavingChapter is fully established: live network a day ahead (B3), Andorhal hub, Barov connection without guilt, the overseer's lie costing a day with him alive and gone, the south road through Arthas's war near Strahnbrad, the carter carried as an unplaced snag, and the army ranking the grain below the orcs (L731)."
+  ]
+}

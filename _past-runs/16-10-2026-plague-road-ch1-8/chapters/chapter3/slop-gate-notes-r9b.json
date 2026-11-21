@@ -1,0 +1,369 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 9,
+  "targetFile": "v2-r9.md",
+  "verdict": "fail",
+  "fixStrategy": {
+    "mode": "conservative",
+    "trajectoryB": [
+      56,
+      42,
+      15,
+      10,
+      4,
+      4,
+      3,
+      7,
+      5
+    ],
+    "reason": "The latest count (5) is at or above the minimum prior count (3), so the loop is oscillating. Fixes prefer deletion or a minimal word change, with a two-attempt ceiling. This did not change what was flagged."
+  },
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner",
+    "registerSummary": "She is the Ranger-General: a tracker and border commander running on no sleep. She thinks in tracks, horses, ward-stones, recruits and watch drills. Her humour is dry and her swearing is clipped ('Sun's sake', 'Damn'). She asks herself hard questions and gives herself one-word orders ('Don't.', 'Leave it.'). She generalizes only from field experience (how a man drags a toe, what fleeing people take). She would not reach for thematic summaries or ornate abstractions.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 58,
+      "kills": 5,
+      "keeps": 53,
+      "severityMarkers": {
+        "MILD": 5,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F4 / F11 (2 each)",
+      "modeSummary": {
+        "F1": 0,
+        "F2": 0,
+        "F3": 0,
+        "F4": 2,
+        "F5": 0,
+        "F6": 0,
+        "F7": 0,
+        "F8": 0,
+        "F9": 1,
+        "F10": 0,
+        "F11": 2,
+        "F12": 0,
+        "F13": 0,
+        "F14": 0,
+        "F15": 0
+      },
+      "toolSignalsAudited": [
+        {
+          "toolSignal": "hedge_might_have_been",
+          "line": 625,
+          "text": "into a long smear that might have been anything",
+          "decision": "KEEP",
+          "reason": "This is the F3 uncertainty exception. The point of the passage is that the mark cannot be identified, which is why the staff has to sort it ('The long smear was heavy')."
+        }
+      ],
+      "findings": [
+        {
+          "id": "r9b-01",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "patternName": "Anaphoric run",
+          "severity": "MILD",
+          "line": 45,
+          "text": "The mage could tell her what lay in the ground under the crossing. She could not tell her who might be standing behind a pantry door with a billhook, and she had one hand that worked, and that one shaking.",
+          "repeatedOpener": "The mage could tell her / She could not tell her",
+          "issue": "This is the first anaphoric run in the crossing scene. Both sentences use the same 'could tell her' frame, and the second one negates it, which makes the reader stop on the billhook. The guide only spares a first run when merging the sentences would lose meaning. Here a single sentence with 'but not' keeps the whole contrast.",
+          "verdict": "KILL",
+          "suggestedFix": "The mage could tell her what lay in the ground under the crossing, but not who might be standing behind a pantry door with a billhook, and she had one hand that worked, and that one shaking.",
+          "fixDifficulty": "low",
+          "fixAction": "replace",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "gpt-5: there is no repeated frame now, no hedge and no filter verb. narrator-seep: it is the same tactical reasoning in her register. phantom: the ground, the pantry door, the billhook and the hand are all still named. fake-simplification: not applicable. The word change is minimal, as the conservative strategy requires."
+        },
+        {
+          "id": "r9b-02",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F9",
+          "patternName": "Vocative tagging",
+          "severity": "MILD",
+          "line": 161,
+          "text": "I'm sorry, Ranger-General.",
+          "issue": "This is the mage's second time calling Sylvanas by rank in the crossing scene. The first is at line 35, \"Ranger-General, it's right under us.\" She is a prisoner, so she is not in Sylvanas's chain of command, and the procedure exception that covers the rangers' rank address does not apply to her. It is a vocative after the speaker's first in the scene, and it does not change who she is talking to.",
+          "standsIn": "Formal deference that the apology already carries.",
+          "verdict": "KILL",
+          "suggestedFix": "I'm sorry.",
+          "fixDifficulty": "low",
+          "fixAction": "replace",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "gpt-5: no vocative and no echo, and it does not create a briefing stack (the speech still mixes long and short sentences). narrator-seep: dialogue, not applicable. phantom: the apology is attached to the concrete 'I can't tell you which way it's running'. fake-simplification: not applicable. Minimal deletion."
+        },
+        {
+          "id": "r9b-03",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "patternName": "Narrative over-translation (claim gloss)",
+          "severity": "MILD",
+          "line": 213,
+          "text": "It was the right answer.",
+          "whatItRestates": "The mage refuses to call the granary the source. The next sentence (the herd mills where the ground is trampled deepest, never where it came in) gives the tracker's reason she is right, and the next paragraph ('Damn her, then.') gives Sylvanas's grudging concession. The verdict sentence only labels a beat that both of those already carry.",
+          "issue": "F4 deletion test: without the sentence, the reader loses nothing they do not already have. It captions the arc pivot instead of letting the herd image and 'Damn her, then' land it.",
+          "textureZone": "Inside a texture_desert of 23 sentences (scorer sentences 267-289) that starts on this exact sentence. Deleting it also takes one flat declarative out of that run.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "fixAction": "delete",
+          "fixNote": "Delete the sentence. The paragraph then runs '...saying no to it. The ground in a clearing that was trampled deepest was where the herd had milled about, never where the herd came in. She had walked Cyndia round a clearing again and again, as a recruit, until she saw it.'",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "gpt-5: no new gloss or caption, and the paragraph ends on the recruit memory, which is a concrete image. narrator-seep: removes a verdict-shaped sentence and adds nothing. phantom: the herd and clearing reasoning stays as the evidence-based carrier. fake-simplification: not applicable. Deletion is preferred under the conservative strategy."
+        },
+        {
+          "id": "r9b-04",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F4",
+          "patternName": "Narrative over-translation (gloss before self-command)",
+          "severity": "MILD",
+          "line": 779,
+          "text": "It had caught on her, and she had no room this morning for an old man's goodbye.",
+          "whatItRestates": "The paragraph already shows the farewell catching on her: she spends four clauses sorting 'Stars' against what humans usually say and files it as 'Some hill saying, a carter's grandmother's'. The standalone line 'Leave it.' (781) then dismisses it. This sentence names the snag and the dismissal between the two beats that already show both.",
+          "issue": "Claim-and-gloss shape. Cut it and the reader still has everything. Cutting it also keeps the Beat 9 plant quieter, which fits the plan's rule that the prose must not explain the second read.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "fixAction": "delete",
+          "fixNote": "Delete the sentence. The paragraph then runs '...or nothing at all, which was likeliest. Some hill saying, a carter's grandmother's. On her left Cyndia had turned her head after the wagon and held it there a moment before she turned it back to the road.', followed by 'Leave it.'",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "gpt-5: 'held it there a moment' becomes the paragraph-final beat. Its duration is the point (Cyndia's attention is the plant), so the F3 exception applies, and it is not an F15 scene ending. narrator-seep: removes the self-labelling sentence, and 'Some hill saying...' stays as her active explaining-away. phantom: no stand-ins introduced. fake-simplification: not applicable."
+        },
+        {
+          "id": "r9b-05",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "patternName": "Anaphoric run (doubled denial)",
+          "severity": "MILD",
+          "line": 839,
+          "text": "It was not the same.",
+          "repeatedOpener": "That was not the same as following the mage. / It was not the same.",
+          "issue": "This is the second run in the final scene. The first is 'On a human's read. On a prisoner's.' (835), which was kept because its frame sets up the 'On the trail.' answer. This doubled denial matches the guide's own calibration example ('There was nothing wrong with it. There was nothing wrong with any of it.' becomes one sentence). The guide's rule is to kill every run after the first in a scene. The single denial at 837 already plays the protest-too-much irony.",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "fixAction": "delete",
+          "fixNote": "Delete the one-line paragraph. Line 837 ('...That was not the same as following the mage.') runs straight into 'She took her hand off the mare's neck and gathered up the reins.'",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "gpt-5: 837 is a claim, not a caption, so it does not become an F13 demonstrative caption, and the paragraph after it opens on action. narrator-seep: 837 stays as free indirect self-argument in her idiom. phantom: 'the read' is still anchored by 'a click in a crystal, a human mage's face turning green' at 835. fake-simplification: not applicable. Deletion is preferred under the conservative strategy."
+        }
+      ],
+      "overallAssessment": "There are five residual MILD gloss and repetition tics: two claim-glosses (213, 779), two anaphoric frames (45, 839) and one repeated prisoner vocative (161). No scene-level F5, F6, F7 or F15 failures were found."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 24,
+      "kills": 0,
+      "keeps": 24,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "tierAKills": 0,
+      "tierBKills": 0,
+      "findings": [],
+      "cleanReason": "24 candidates were examined: A1 verdict-tag shapes (17, 19, 105, 481, 603, 829), A2 fragment pairs (77, 835-837), A7 generalizations including 'every village south of the Pass' (467), the trackers' rules (73, 251, 611, 655), the fever lore (457), the chamber projection (831) and the one narration generic-you (709), A8 sound-before-source (341, 733), and B-tier checks on similes and the closing self-argument. Each one either fits her established idiom (something she could mutter), is an active tactical or witness-reliability judgment driving a decision, or is field knowledge applied to evidence in front of her. The one-word close at 839 was killed under gpt-5 F11 and is not double-counted here. No scene-state mood labels, no thematic-awareness lines and no out-of-domain metaphors were found."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 18,
+      "kills": 0,
+      "keeps": 18,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "18 candidates were examined: the mage's magical analysis lines (119, 123, 153-157, 211, 329, 619-621, 825), Cyndia's 'a few at a time' (91), the tactical summaries 'Three rangers and a prisoner...' (709) and 'three bows and a prisoner' (811), 'the only clean track' (285), 'A clog and a feeling' (279), 'a child's word, through a grating' (587), 'Her duty was done' (831), 'The read was the trail' (837), and the dispatch and briefing (677, 699). Each one either names a concrete carrier on the page (roads as lines with lag and thickness signs, the herd and the store logic, the staff clicks and the green face, the clog, the noon stone) or draws an operational distinction that changes the action (rising or draining, how much against which way, heavy or light marks). The 'Three rangers and a prisoner' line echoes the planner interiority note, but it keeps a concrete count and a dependency the staff readings have already shown, so it is evidence-based inference rather than P5 note-speak. There are no repeated stand-in nouns. The keep rate is above 25% because this is the tenth sweep of a heavily revised draft. Each keep has its condition documented in the scratchpad."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 7,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "brokenExchanges": [],
+      "findings": [],
+      "cleanReason": "7 exchanges were examined where one speaker asks for a usable answer: 'Where's it worst?' (165-169), 'We did the houses already?' (291-293), 'Ask her how she knows which way' (495-501), 'Which is the north road?' (531-537), 'Can you tell her which marks are which?' (615-625), 'What's it like down there? Who's still trading?' (757-759), and the noon 'Well?' (823-825). Every reply gives a target or field sign someone can act on at once: the crystal rattling toward the bridge and mill, the inn cellar, the hiding places listed in the preceding order, the cellar window slot, a pointed arm toward 'Past Pell's, up the cow way', heavy or light per mark, smoke in every chimney and the ford market, and 'ahead of us, down the road' with a turn toward the willows. None of them needed a second translation pass."
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 102,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md"
+    ],
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "There are 5 MILD kills and 0 MODERATE or SEVERE ones. More than 3 MILD-only kills means a fail. All 5 are in gpt-5-prose-issues.md (F4 x2, F11 x2, F9 x1). Three of the fixes are plain deletions and two are minimal word changes. Narrator seep, phantom concreteness and fake simplification are clean. These do not affect the verdict, but downstream agents should know about them: a structural texture deficit (texture score 74.9, below_target; participial 4.4% against a 12% target; 29 telegram runs and 26 texture deserts) and structural rhythm concerns, with six metrics outside their style-guide range (sentence_length_cv, short%, long%, opener entropy, one-sentence paragraphs, mattr).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.648,
+        "target": 0.72,
+        "delta": -0.072,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.6,
+        "target": 11.0,
+        "delta": 0.6,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.898,
+        "target": 0.7,
+        "delta": 0.198,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 43.4,
+        "target": 35.0,
+        "delta": 8.4,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 20.6,
+        "target": 10.0,
+        "delta": 10.6,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.39,
+        "target": 7.7,
+        "delta": -1.31,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 34.6,
+        "target": 19.0,
+        "delta": 15.6,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.765,
+        "target": 0.83,
+        "delta": -0.065,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "note": "Structural rhythm concerns: six of eight metrics are outside their range. Sentence length is polarized, with too many short and too many long sentences, and one-sentence paragraphs are heavy."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.9,
+      "participial_pct": 4.4,
+      "compound_pct": 12.8,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.4,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.8% above target 10.0% (score 74/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.8% -> target 10.0% (score 74/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 29,
+        "texture_desert": 26
+      },
+      "note": "Structural texture deficit. Kill r9b-03 sits inside a 23-sentence texture desert at the storehouse (scorer sentences 267-289). Most telegram runs fall in the cellar interview, where short child dialogue is appropriate."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 63,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passBMappedHits": [
+          {
+            "pattern": "hedge_might_have_been",
+            "count": 1,
+            "cap": 1,
+            "line": 625,
+            "decision": "KEEP"
+          }
+        ],
+        "note": "There were no narrator_verdict, slopsquid, ai_vocabulary, verbose_phrases, academic_register, dialogue_register, ambient_inversion or vague_pointers hits. Every other match maps to pass A."
+      }
+    }
+  }
+}

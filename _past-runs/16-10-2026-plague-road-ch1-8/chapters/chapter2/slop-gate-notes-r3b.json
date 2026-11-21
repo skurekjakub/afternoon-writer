@@ -1,0 +1,362 @@
+{
+  "chapterId": "chapter2",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsB 32 -> 20 -> 6, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 48,
+      "kills": 1,
+      "keeps": 47,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F7",
+      "findings": [
+        {
+          "id": "B-GPT5-1",
+          "pattern": "F7",
+          "patternName": "Closure addiction (paragraph-final insistence after a scene beat that already landed)",
+          "line": 309,
+          "text": "She'd heard. Jaina was quite sure she'd heard.",
+          "location": "standalone paragraph, Scene 2, after Jaina waits for praise that does not come",
+          "couldEndEarlierAt": "and Windrunner's back, straight and green and gold.",
+          "issue": "Paragraph 307 already shows the silence and Jaina waiting for a 'better'. The follow-on paragraph restates it twice, the second time with 'quite sure', closing the beat Lyriel's next line ('She does that to everyone, Lady Proudmoore.') already answers. Deleting it loses no fact.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixAction": "delete the whole one-line paragraph; paragraph 307 then runs straight into Lyriel's line",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povRegister": {
+        "povCharacter": "Jaina Proudmoore",
+        "registerSummary": "Exact, fast, educated scholar-mage. Thinks in leylines, lattice, resonance, residue, and in sea and ship images from her father's fleet. Self-corrects mid-thought ('oh, Light, no', 'A fair guess. No.'), swears by the Light, and makes wry, unfair asides about soldiers and the Kirin Tor. She would not use detached essay generalizations about creatures or people at large, and would not caption a moment's thematic meaning.",
+        "registerConfidence": "HIGH"
+      },
+      "totalCandidates": 26,
+      "kills": 1,
+      "keeps": 25,
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "tierACount": 1,
+      "tierBCount": 0,
+      "dominantPattern": "A7",
+      "structuralHabit": "no",
+      "findings": [
+        {
+          "id": "B-SEEP-1",
+          "pattern": "A7",
+          "tier": "A",
+          "line": 503,
+          "text": "A deer drank from the stream, stripped bark, and lay down every night in the same hollow in the bracken, picking things up in a hundred places a mage had never thought to look.",
+          "whoIsSayingThis": "the narrator, with a general claim about deer",
+          "povMismatch": "Jaina has her hand in this doe and is reasoning about where this doe picked it up. The line pulls back to a field-guide statement about deer in general and ends on a vague mage-versus-world gloss ('things', 'a hundred places'). That gloss is the third time the chapter makes the point that mages name what the world carries (see 349, 455).",
+          "severity": "MILD",
+          "confidence": "HIGH",
+          "verdict": "KILL",
+          "suggestedFix": "The doe could as easily have drunk it from the stream, or eaten it with the bark she stripped, or lain down in it in the bracken.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "Stays on this doe (no A7). 'it' points to the contaminant from 501 (no P3 stand-in). 'as easily' is a comparison, not an F3 hedge. Does not name grain or any carrier (chapter constraint). No anaphoric opener."
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 19,
+      "kills": 1,
+      "keeps": 18,
+      "killRate": "5%",
+      "severityMarkers": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P1",
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": [],
+      "keepRateNote": "The keep rate is above the guide's 25% warning. Each keep has a closed-list reason in the scratchpad. Most candidates are Jaina's self-direction fragments ('Smaller, then.', 'Millhaven, then.', 'Places, of course.'), and in each case the next sentence names the concrete payload.",
+      "findings": [
+        {
+          "id": "B-PC-1",
+          "pattern": "P1",
+          "line": 281,
+          "text": "The rest pass near enough to bend.",
+          "speaker": "Windrunner",
+          "failedQuestion": "What does this cash out to? Bend how, and by how much?",
+          "missingPayload": "The measurable miss: how close the remaining ruled lines come to the crossroads on Jaina's map.",
+          "issue": "The line sounds clipped and tactical, but 'near enough to bend' gives no distance or map sign Jaina could check. The sentence before it ('within a mile of the Millhaven crossroads') is concrete. This one hands the listener an idiom in its place.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "The rest miss it by less than the width of your pen.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "Concrete map-scale payload Jaina can check against her own ruled lines (P1 cleared). Keeps Windrunner's short declarative register. Does not echo Jaina's words (F8), add a hedge (F3), or start a briefing stack (F10, since it is two sentences in a speech that is already a report)."
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "killRate": "0%",
+      "severityMarkers": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "brokenExchanges": [],
+      "cleanReason": "There are six translation exchanges. Two are deliberate failed simplifications. The 'short version' at 23 -> 25-27 and the river analogy at 267 -> 275 are both built as the plan's arc beat: Jaina talks down to Sylvanas and pays for it. The prose then exposes each failure on the page, through Windrunner's 'Which stones read worst. Where.' and 'Your lines don't spread', and through Jaina's own self-indictment at 35 and 285. The intentional-structure defense applies. The other four replies carry usable payload. 61-73 names the second ring either side of the high road and the outer-ring creek bend east past the track. 297 gives a source-vs-sink test with field signs (even thinning and the same resonance, or different weights and lags). 513-521 places it in the blood, meat and organs, worst in the liver, and says it was there before death. 535 points the staff at the crossing. Windrunner acts on 297, 513 and 535 without a follow-up unpacking question.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 96,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings. There are 3 MILD kills (F7 at 309, A7 at 503, P1 at 281) and no MODERATE or SEVERE kills, which is within the 3-MILD limit. Every kill has a low-difficulty drop-in fix. There are also structural rhythm concerns (sentence_length_cv, one_sentence_paragraph_pct, long_sentence_pct, opener_entropy and mattr are outside their style-guide ranges) and a structural texture deficit (texture verdict below_target, score 73.8: participial low, compound high, em-dash low). These do not affect the pass-B verdict and are passed downstream for the style and texture stages.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.826,
+        "target": 0.72,
+        "delta": 0.106,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.829,
+        "target": 0.7,
+        "delta": 0.129,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 31.5,
+        "target": 19.0,
+        "delta": 12.5,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "sentence_length_mean": {
+        "actual": 12.7,
+        "target": 11.0,
+        "delta": 1.7,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 37.2,
+        "target": 35.0,
+        "delta": 2.2,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.7,
+        "target": 10.0,
+        "delta": 12.7,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.05,
+        "target": 7.7,
+        "delta": -1.65,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.781,
+        "target": 0.83,
+        "delta": -0.049,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv above range",
+        "one_sentence_paragraph_pct above range",
+        "long_sentence_pct above range",
+        "opener_entropy below range",
+        "mattr below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "textureScore": 73.8,
+      "participial_pct": 6.5,
+      "compound_pct": 15.2,
+      "emdash_pct": 1.7,
+      "semicolon_pct": 1.1,
+      "short_pct": 46.0,
+      "verdict_reasons": [
+        "participial: 6.5% below target 12.0% (score 57/100)",
+        "compound: 15.2% above target 10.0% (score 59/100)",
+        "emdash: 1.7% below target 4.0% (score 79/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.5% -> target 12.0% (score 57/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 15.2% -> target 10.0% (score 59/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.7% -> target 4.0% (score 79/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "telegramRunCount": 10,
+      "textureDesertCount": 13,
+      "note": "This is a structural texture deficit. No pass-B kill falls inside a flagged zone (the kills are at scorer sentences 404, 442 and 696). Many flagged runs are dialogue Q&A (113-137), the fight roll call (589-608) and Cyndia's report (481-489), where clipped speech is register-appropriate.",
+      "flaggedZones": [
+        "telegram_run 57-64",
+        "texture_desert 106-122",
+        "telegram_run 113-122",
+        "texture_desert 124-137",
+        "telegram_run 130-137",
+        "texture_desert 216-225",
+        "texture_desert 261-274",
+        "telegram_run 280-287",
+        "texture_desert 280-291",
+        "telegram_run 342-349",
+        "texture_desert 342-352",
+        "texture_desert 445-466",
+        "telegram_run 481-489",
+        "texture_desert 491-505",
+        "telegram_run 574-581",
+        "texture_desert 574-586",
+        "texture_desert 588-610",
+        "telegram_run 589-608",
+        "texture_desert 612-622",
+        "texture_desert 627-642",
+        "telegram_run 662-669",
+        "telegram_run 726-735",
+        "texture_desert 726-737"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_words": 10253,
+        "total_matches": 53,
+        "total_violations": 2,
+        "overCap": [
+          {
+            "pattern": "punct_emdash_cluster",
+            "count": 1,
+            "cap": 0,
+            "line": 549,
+            "mappedGuide": "recurring-prose-tics.md (pass A)",
+            "note": "Field-book note '*liver-roots-alive-before*'. Not audited in pass B."
+          },
+          {
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0,
+            "line": 131,
+            "mappedGuide": "narrator-seep-guide.md (pass B)",
+            "passBDecision": "KEEP. 'too smooth for any river' is a concrete physical description: the pebble is worked, not water-worn. It is not an abstract verdict."
+          }
+        ],
+        "passBToolSignalsAudited": [
+          {
+            "pattern": "verdict_too_x_for",
+            "line": 131,
+            "decision": "KEEP"
+          },
+          {
+            "pattern": "hedge_almost",
+            "line": 389,
+            "decision": "KEEP"
+          },
+          {
+            "pattern": "hedge_almost",
+            "line": 417,
+            "decision": "KEEP"
+          },
+          {
+            "pattern": "hedge_almost",
+            "line": 423,
+            "decision": "KEEP"
+          },
+          {
+            "pattern": "hedge_simply",
+            "line": 497,
+            "decision": "KEEP"
+          },
+          {
+            "pattern": "hedge_might_have_been",
+            "line": 179,
+            "decision": "KEEP"
+          },
+          {
+            "pattern": "something_vague",
+            "line": 471,
+            "decision": "KEEP"
+          }
+        ],
+        "slopsquidMatches": 0,
+        "aiVocabularyMatches": 0
+      }
+    }
+  }
+}

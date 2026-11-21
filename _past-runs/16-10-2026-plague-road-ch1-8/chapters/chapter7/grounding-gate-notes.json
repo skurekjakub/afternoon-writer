@@ -1,0 +1,28 @@
+{
+  "chapterId": "chapter7",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 3,
+      "sceneTitle": "The Full Picture (post room, Havel's dawn plan)",
+      "findingId": "G10-001",
+      "category": "G10",
+      "severity": "MILD",
+      "lines": "403",
+      "excerpt": "He ran the chalk down Hurdle Lane again, top to bottom, in the same groove, and the canvas went on grey beneath it where a hundred other lines had been rubbed out.",
+      "reason": "This clause was added by the grounder and restates canvas wear the chapter has already shown. Line 77 has the map 'chalked on and rubbed out so many times that the streets had gone grey', and line 391, twelve lines earlier, has 'along a line already worn pale into the canvas'. Adding it a third time does not make the room any more physical (G9). It also lands on the beat where the plan plants Havel's redrawing, the low-key tell that should be 'findable on a second read'. Sylvanas's suspicion in line 405 answers 'in the same groove'. With the clause in place, the sentence ends on scenery instead, which blunts the tell's cadence and muddies it (D6). 'A hundred other lines' turns the groove into general wear, not Havel tracing his lane again. 'Went on grey beneath it' is also an unclear image. Room texture in the final third is already carried by the lamp smoke at 347, the chalk-holder and worn line at 391, the chalk squeak at 455, the knife and the candle, so cutting this clause does not reopen the G7 gap the grounder was closing.",
+      "suggestedFix": "He ran the chalk down Hurdle Lane again, top to bottom, in the same groove.",
+      "fixMode": "delete"
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "mildKills": 1,
+    "moderateKills": 0,
+    "severeKills": 0,
+    "dominantFailures": ["G10", "G9"]
+  }
+}

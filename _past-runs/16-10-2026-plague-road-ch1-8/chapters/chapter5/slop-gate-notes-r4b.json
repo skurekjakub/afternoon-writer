@@ -1,0 +1,279 @@
+{
+  "chapterId": "chapter5",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsB 55 -> 17 -> 10 -> 7, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 52,
+      "kills": 3,
+      "keeps": 49,
+      "severityMarkers": {
+        "MILD": 3,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F4/F9/F11 (one each)",
+      "findings": [
+        {
+          "id": "B-r4-1",
+          "pattern": "F4",
+          "failureMode": "Narrative over-translation",
+          "line": 91,
+          "text": "Sylvanas had braced for the rest of it.",
+          "whatItRestates": "Line 85 already has 'Sylvanas waited for the lecture.' Line 89 already shows the lecture not coming: 'She leaned on the doorframe, waiting to be asked.' This one-sentence paragraph tells the reader the same expectation a second time, six lines later.",
+          "severity": "MILD",
+          "zone": "Overlaps the telegram_run that starts 'Sylvanas had braced for the rest of it. \"East,\" she said.'",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "companionEdit": {
+            "line": 93,
+            "from": "\"East,\" she said.",
+            "to": "\"East,\" Sylvanas said.",
+            "reason": "Once line 91 is gone, the last named subject before 'she said' is the mage (line 89), so the speaker needs her name."
+          },
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r4-2",
+          "pattern": "F9",
+          "failureMode": "Name-only lines and vocative tagging (repeated vocative)",
+          "line": 365,
+          "text": "\"Nothing on him, Ranger-General. No more than on you.\"",
+          "issue": "The mage's second 'Ranger-General' in the depot scene, said to the same listener (the first is line 323, 'I can't hear paper, Ranger-General.'). It does not change who she is talking to. 'No more than on you' already shows who she is answering.",
+          "standsIn": "Nothing; the title is a tic tagged onto a report line.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "\"Nothing on him. No more than on you.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r4-3",
+          "pattern": "F11",
+          "failureMode": "Anaphoric run",
+          "line": 609,
+          "text": "Before that, a free carter who bought his own flour back the day before. Before that, a boy in a loft with a fold of paper sewn into his collar, who had been told when.",
+          "repeatedOpener": "Before that,",
+          "issue": "Two sentences in a row open with 'Before that,' as a drumbeat to make the recap feel weighty. The reader already has all three items (lines 253-257 and 505-507). This is the lodge scene's only anaphoric run, but one merged sentence keeps the backward chain, so the repeated frame carries no meaning of its own.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Further back down the road, a free carter who bought his own flour back the day before, and a boy in a loft with a fold of paper sewn into his collar, who had been told when.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ],
+      "sceneVerdicts": {
+        "F5": "No kill. Corley gives way only under leverage (fever line plus sacking). The overseer lies and the trap costs a day. In the lodge, the warming between Sylvanas and Jaina is the plan's intended arc (scene-2 goal), and two open threats undercut it: the army in the way and a road Sylvanas cannot check.",
+        "F7": "No kill. Every scene ends on an action or an image: line 161 pen, line 235 order, line 385 exit, line 515 slips laid, line 691 the moving brown smear.",
+        "F15": "No dying-fall codas."
+      }
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 27,
+      "kills": 0,
+      "keeps": 27,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "povRegister": "POV CHARACTER: Sylvanas Windrunner. REGISTER: Ranger-General. Dry, impatient, contemptuous of humans and the Kirin Tor. She reasons like a tracker from ruts, ash, dust and absence, and compares things to her own field (the Pass, troll bands, arrowheads off a field, fletcher's bench, cliff paths, rangers back from a first sweep). Her free indirect asides are profane or sour ('Damn the paper.' 'Sun's sake'). She would not think in sociological or thematic abstractions. REGISTER CONFIDENCE: HIGH.",
+      "findings": [],
+      "toolSignalsAudited": [
+        {
+          "toolSignal": "narrator_verdict",
+          "pattern": "verdict_too_x_for",
+          "line": 691,
+          "text": "It was too brown for mist, and it was moving.",
+          "verdict": "KEEP",
+          "reason": "This is a concrete colour check she makes after first taking the smear for mist. It corrects a misperception and the moving dust is the chapter's final image. It is not abstract editorializing."
+        }
+      ],
+      "cleanReason": "I examined 27 candidates: verdict-tag fragments (L131, L153, L257, L439, L495, L597 'It was shorter.', L635), generalizing constructions (L217 'the way everyone did', L255, L303, L393, L397, L441, L447, L503, L623, L629, L641, generic-you L143/L591), polished or aphoristic lines (L205 closer, L279, L375 'a furlong', L661 'clean was no use to her'), scene-state and atmosphere candidates (L573 'The night came in.', L213 fronted locative), and the moth and wasp cut-ins (L129, L553, L605). Each one is either Sylvanas's own sour idiom, a tracker's generalization that drives the read in front of her, or a literal event already set up in the room. No A8 inversion delays a source she can already name. The single narrator_verdict tool hit is a concrete colour discrimination."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 15,
+      "kills": 0,
+      "keeps": 15,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "I examined 15 candidates: L65 'sat differently on the page', L119 'they did not sit together', L165 'The second day went in stops.', L183 'they had a table', L523 'Cyndia had the fork... Lyriel had the wall', L555 'Andorhal's grain had gone everywhere.', L577 'a thing she had not seen it do before', L583 'something new on top of the old', L587 'As sure as Brent's.', L607 'It was a good map.', L659 'it's clean' / 'a lord's door and a lord's sacks', L661 'clean was no use to her', L375 'Every breath she spent in this room was a furlong.', and the 'told him when' stand-in at L257/L507/L609/L661. Each cashes out in the same line or the next one. Sylvanas's ledger lines, the mage's marks, Cyndia's counts, the Brent's correction at L199/L207 and the stove at L507 are all on the page. 'Told him when' is a callback to the Chapter 4 line 'They sewed it in for him and told him when' and is cashed out locally at L507 ('when to light his stove'). There are no tool hits for hedging or vague_pointers. No planner-shorthand status lines were found: watch assignments name the fork, both roads and the wall."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "No line explicitly asks for plainer speech ('say it plainly' or 'short version'). I audited 6 exchanges where one speaker asks for translation or calibration: L61 (And. means Andorhal), L67-69 ('What's own cart?' gets free carters who buy in the yard and sell where they like), L491-493 ('Proudmoore. Barov.' gets the house, the land round Andorhal and the granaries), L567-583 ('Which road it's on' gets the south road, heavy, old at the bottom), L585-587 ('How sure?' gets 'As sure as Brent's', anchored to the checked correction), and L313-315 / L647-649 (wheel tracks, 'Going up where?'). Every reply names a usable target or a calibrated threshold, and none needs a second round of unpacking."
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "totalKeeps": 97,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 MILD kills (F4 L91, F9 L365, F11 L609) and 0 MODERATE/SEVERE, which is at the 3-MILD threshold. narrator-seep, phantom-concreteness and fake-simplification are clean. Structural texture deficit: texture is below_target (score 73.2; participial 6.3% vs 12%, compound 14.7% vs 10%, emdash 1.3% vs 4%). Structural rhythm concerns: one_sentence_paragraph_pct 28.3 (range 15-24), long_sentence_pct 22.2 (range 7-14), opener_entropy 6.22 (range 7.2-8.2), mattr 0.774 (range 0.80-0.87). These are for downstream editors and do not change the verdict.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.83,
+        "target": 0.72,
+        "delta": 0.11,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.796,
+        "target": 0.7,
+        "delta": 0.096,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.3,
+        "target": 19.0,
+        "delta": 9.3,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "sentence_length_mean": {
+        "actual": 12.4,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 35.8,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.2,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.22,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.774,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "note": "Structural rhythm concerns: one_sentence_paragraph_pct, long_sentence_pct, opener_entropy and mattr are outside their ranges."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 73.2,
+      "verdict_reasons": [
+        "participial: 6.3% below target 12.0% (score 56/100)",
+        "compound: 14.7% above target 10.0% (score 61/100)",
+        "emdash: 1.3% below target 4.0% (score 75/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.3% → target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 14.7% → target 10.0% (score 61/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.3% → target 4.0% (score 75/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassageCounts": {
+        "telegram_run": 11,
+        "texture_desert": 17
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 61,
+        "total_violations": 2,
+        "overCap": [
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "category": "paragraph_structure",
+            "pattern": "opener_consecutive_repeat",
+            "count": 1,
+            "cap": 0
+          }
+        ],
+        "passBMappedSignals": "narrator_verdict L691 'too brown for mist' was audited under narrator-seep and kept as a concrete colour check. There were no slopsquid, ai_vocabulary, clinical_anatomy, hedging, vague_pointers, ambient_inversion, verbose_phrases, academic_register or dialogue_register hits. The over-cap paragraph_structure signal (L173) maps to pass A."
+      }
+    }
+  }
+}

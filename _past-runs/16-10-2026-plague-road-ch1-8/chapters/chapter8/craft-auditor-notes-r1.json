@@ -1,0 +1,199 @@
+{
+  "chapterId": "chapter8",
+  "iteration": 1,
+  "targetFile": "v0c.md",
+  "verdict": "fail",
+  "verdictNote": "Close to a pass. Every craft check passes except voice-and-register, which has two medium findings (motif refrain dilution and the ', then.' deduction tic) plus a handful of low line-level items. All fixes are surgical line edits: no restructuring, no re-pacing, no new texture work. Texture is 99.8 and must stay at 90 or above; the edits below shift it negligibly (they mostly remove short fragments). If these are addressed as written, the next audit should pass.",
+  "findings": [
+    {
+      "check": "voice-and-register",
+      "severity": "medium",
+      "location": "Lines 209, 211, 453, 481, 537, 557 (the 'written down / every yard, every road out' motif); lines 211, 563, 573 ('the face she had stopped at')",
+      "passage": "The copied bills, she supposed, road by road. Every yard. Every road out. Who had sat over a map like that one before the thaw and written all of it down? (481) / Who, then. / Somebody had sat at a table before the thaw and written all of this down, every yard and every road out, and then waited for the spring. (555-557) / The face she had stopped at on the south road came up again. (563) ... It fit the face she had stopped at on the road. (573)",
+      "problem": "The prisoner's 'Every yard. Every road out.' is the motif B7 is built to land, and it lands at 537, when Corin writes it across the head of the sheet. But after the prisoner says it (209), the chapter recites it again at 453, 481, 537 and 557. The image of 'somebody sat at a table and wrote it all down' appears three times in near-identical wording (211, 481, 557). By the time Corin's pen puts it on the sheet, the phrase has already been repeated twice, and it is repeated again twenty lines after the payoff, so the payoff reads as one more recital. The same thing happens in B8: 'the face she had stopped at on the (south) road' at 563 and again at 573, ten lines apart. The mannered checker flags both as within-chapter refrains ('He had it written down before any of' at 209/453/537; 'the face she had stopped at on the road' at 563/573). Line 555's 'Who, then.' also repeats the last word of 551 ('nothing anywhere on it that said who').",
+      "fix": "Keep the motif at 209 (source), 211 (her lattice reaction and the face flicker), 453 (short B6 recall) and 537 (the payoff on the sheet). At 481, end the paragraph at 'road by road.' and cut 'Every yard. Every road out. Who had sat over a map like that one before the thaw and written all of it down?'; her next line ('Corin... The map.') carries the turn without it. Cut line 555 ('Who, then.'), because 551 already ends on 'who'. Trim 557 to its new information only, without re-quoting or re-staging the table: something like 'Somebody had laid all of it out before the thaw and then waited for the spring.' At 573, drop the repeated phrase, since 563 named the face ten lines earlier: 'It fit. She had known it would.'"
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "medium",
+      "location": "Narration lines 9, 63, 141, 545, 555, 591; dialogue line 615",
+      "passage": "A tell, then. (9) / The middle, then. (63) / Let Sylvanas have his eyes, then. (141) / Shut Kett's, then. (545) / Who, then. (555) / East of Andorhal, then. (591)",
+      "problem": "Jaina's narration uses the 'X, then.' deduction fragment six times. The house mannered guide (resources/mannered-prose-guide.md, M12) caps this shape at 0 per chapter, because the human reference corpora use it at about 0.01 per 10K words. The checker catches only two of the six (63, 555), so most would survive the slop gate. It also blurs voices. Havel's agreeable 'then' is his verbal habit when he is overruled ('Stay close on her, then.', 'The yard, then.', 'We'll go your way, then.'), and it works as his tell. When Jaina's inner voice shares the tic, and Sylvanas closes the chapter with 'Before light, then.' (615), three people end their thoughts the same way. Note: my iteration-0 notes listed 'Who, then.' among the turn lines to keep. That was wrong against the house cap, and it is corrected here.",
+      "fix": "Convert all six narration instances. 9: fold it into the next sentence ('It was a tell, first-year work, but whoever had tied this one...'). 63: cut 'The middle, then.' and go straight to 'She listened to his boots come on.' 141: 'Sylvanas could have his eyes.' 545: 'She could shut Kett's.' 555: cut (see the refrain finding). 591: 'East of Andorhal. Somewhere in the Eastweald, off the paper.' Keep Havel's four 'then's, which are his. At 615, give Sylvanas the practical line without Havel's tic: 'Before light. The horses are outside the wall.'"
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "low",
+      "location": "Lines 211 and 321; context lines 239, 371, 597, 599",
+      "passage": "...the way she would lay out the lattice for a ward, seam by seam— She stopped that. The face she'd stopped at on the road surfaced... (211) / So that was nothing. Or it was— The barley had worked down to the small of her back and the cold had her by the jaw, while up the lane the taint sat and waited; she let the thought go unfinished. (321)",
+      "problem": "Six of Jaina's narration thoughts break off on an em-dash (211, 239, 321, 371, 597, 599), plus the two 'They called him—' recalls. The cut-off sentence is the chapter's central device, because the prisoner dies mid-word, and the self-interruptions start to crowd it. Two of them also gloss their own cut. 'She stopped that.' and 'she let the thought go unfinished' tell the reader what the dash has just shown, which is the interpreter-gloss pattern (mannered guide M8, cap 0). At 211 'stopped' also lands twice in adjacent sentences ('She stopped that. The face she'd stopped at').",
+      "fix": "At 211, finish the sentence at 'seam by seam.' and delete 'She stopped that.'; the face surfacing and being put down does the stopping. At 321, keep the dash, because the plan wants the thought left unfinished, but end that sentence at 'sat and waited.' and delete '; she let the thought go unfinished'. Leave 239, 371, 597 and 599 as they are. They are the strongest cuts: the ward hindsight, Corin pulling her on, the 'No.' correction and the want she won't finish."
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "low",
+      "location": "Lines 239/549, 275/415, 257/621",
+      "passage": "been pleased with herself all the way here (239) / been pleased with herself about that (549) / She stood with her weight even (275) / took her place before the shutter with her weight even (415) / Jaina got the staff into the crook of her dead arm (257, 621)",
+      "problem": "These are signature beats repeated within the chapter. The mannered checker's refrain families put 'pleased_with_herself' and 'cyndia_weight_even' over budget (2 here against a budget of 1, and the Cyndia tell was also used in the previous two chapters). The ten-word staff line repeats at 257 and at the chapter's last image, so the close sounds like a reused stage direction.",
+      "fix": "549: end at 'the whole way here.' and drop 'and been pleased with herself about that' (239 keeps it). 415: drop 'with her weight even' (275 keeps it, where she is actually reporting). 621: vary the staff action ('Jaina tucked the staff under her dead arm, its crystal dark.' or similar) so the close isn't a copy of 257."
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "low",
+      "location": "Scene 1, B1, lines 9, 11, 17",
+      "passage": "It was first-year work—a thread across a doorway, so that whoever tied it would know when somebody crossed who wasn't keyed in—but whoever had tied this one... (9) / It would let the big loader walk through. Anybody else would set it off, and whoever was listening at the other end... would hear it go. (11) / \"If anyone but him walks through it, somebody hears.\" (17)",
+      "problem": "The ward's mechanics are explained three times in nine lines: a definitional em-dash aside, a narration paragraph, then Jaina briefing Sylvanas. The style guide's exposition filter says Jaina explains nothing about ward mechanics to herself, and briefing another character is the permitted delivery. Line 11 also pre-answers Sylvanas's 'Who hears?' at 21.",
+      "fix": "Cut the definitional aside at 9 and keep 'first-year work', which 561 pays off ('the first ward any student learned to tie, the one for a doorway'). For example: 'It was first-year work, but whoever had tied this one had sunk both ends into the mortar...'. Cut line 11, or reduce it to 'It would let the big loader walk through.' Let the dialogue at 17 carry who hears. Removing one em-dash pair leaves em-dash at about 5.2%, still on target."
+    },
+    {
+      "check": "clarity",
+      "severity": "low",
+      "location": "Lines 5, 79, 359, 413",
+      "passage": "It looked exactly as she had drawn it, which Jaina had not expected (5) / The one in the dead boy's collar at Brask's had been empty. (79) / \"Now—\" (359) / Frost crusted the linen over the two bare fingertips (413)",
+      "problem": "5: 'she' points to Jaina by default in her POV, but the drawer is Sylvanas, so the sentence corrects itself only at 'which Jaina'. 79: the dead boy at Brask's is Tam (Ch4), who is named at 47 and again at 119; the descriptive phrase in between reads as a second dead boy. 359: 'Now—' has no speaker. It could be Jaina's warning or a signal from the doorways, and the reader can't tell which. 413: the fingertips are bare, so linen cannot be over them.",
+      "fix": "5: 'as Sylvanas had drawn it'. 79: 'The one in Tam's collar had been empty.' 359: attribute it. If it is the cult's signal, 'Somebody up the street called, \"Now—\"'; if it is Jaina, give it a tag or an action beat. 413: 'Frost crusted the linen round the two bare fingertips' (or 'the fingertips and the edge of the linen')."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Scene 3, B8, lines 559 and 565",
+      "passage": "Learned where you were. The loader had been looking at her staff when he said it. (559) / \"In the store. He said learned where you were. He was looking at your staff.\" (565)",
+      "problem": "The narration makes Corin's connection six lines before Corin makes it, so his line arrives as an echo instead of his contribution. The plan gives Corin the name-bearing knowledge in B8.",
+      "fix": "Cut 'The loader had been looking at her staff when he said it.' from 559 and leave 'Learned where you were.' on its own. Corin's observation at 565 then lands as his."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Scene 2, B6, line 419",
+      "passage": "\"In Silvermoon, at least, the magisters write first,\" Lyriel said from the door. \"Three pages before they try to kill you, and they expect an answer.\"",
+      "problem": "The joke has the right shape and is plan-mandated, but it lifts the voice sheet's paraphrase word for word ('In Silvermoon, at least, the magisters' and 'before they try to kill you'). The plan says the writer finds the words, and the mannered checker flags both runs as voice-sheet lifts.",
+      "fix": "Keep the content and the shape (a plain observation, then one flat exaggerated comparison) and change the frame, e.g. 'Silvermoon's magisters would have written first,' Lyriel said from the door. 'Three pages before the knife, and they'd want an answer.'"
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "low",
+      "location": "Scene 3, B8, line 561",
+      "passage": "Who bought a captain a season before he needed him? Somebody who'd been taught to close a ward at each seam before he ever fed it—first term, the same as anyone who had sat a bench in Dalaran, her included.",
+      "problem": "The answer jumps a step. The question is about planning ahead (buying Havel early), and the answer is a ward-craft habit. The bridge between them, doing the whole job in Dalaran's order so that everything is sealed before it is powered, stays in Jaina's head, so on a first read it looks like a non sequitur at the moment the Dalaran inference has to land.",
+      "fix": "Add the one missing clause that makes the analogy explicit in her idiom. For example: 'Somebody who worked in the order Dalaran taught: every seam closed before the ward was fed—first term, the same as anyone who had sat a bench there, her included.'"
+    },
+    {
+      "check": "voice-and-register",
+      "severity": "low",
+      "location": "Chapter-wide (advisory, optional)",
+      "passage": "\"Yard.\" / \"Under.\" / \"Through the yards.\" / \"Lyriel. The captain.\" / \"Show me.\" / \"Yes.\"",
+      "problem": "Advisory only. Sylvanas has about 35 lines, and nearly all are one to four words. Most of that is earned: it's a night operation, and her voice sheet says pressure in a room makes her quieter. The best lines are strong ('They'll hear that you didn't.', 'Every door the captain had, they'll have.', 'Into the first of them. I said lead.'). But she gets no flat wit or pride anywhere in a Ch 1-8 chapter, which edges toward the voice-sheet red flag ('a stack of monosyllables and clipped confirmations'). MATTR is also still below its floor (0.789 against 0.818). The generic verbs put (30), came (34), went (28), stood (21) and took (21) are the main drag, although they are much reduced from iteration 0.",
+      "fix": "Optional, and not required to pass. If a natural spot turns up during the fixes above, give Sylvanas one finished, edged sentence instead of a logistics word, in the shape of naming an enemy by his deed or a prediction stated as fact. In passing, swap five or six 'put' and 'came' uses for exact verbs. Don't chase MATTR with synonym churn."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 99.8,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {
+        "actual": 7.4,
+        "target": 7.23,
+        "score": 100.0
+      },
+      "compound": {
+        "actual": 13.1,
+        "target": 14.135,
+        "score": 99.1
+      },
+      "emdash": {
+        "actual": 5.3,
+        "target": 5.119,
+        "score": 100.0
+      },
+      "semicolon": {
+        "actual": 1.5,
+        "target": 1.61,
+        "score": 100.0
+      }
+    },
+    "shortPct": {
+      "actual": 47.3,
+      "ceiling": 48.577
+    },
+    "secondaryMetrics": {
+      "sentenceShortPct": {
+        "actual": 36.9,
+        "range": [23.155, 37.155],
+        "status": "in range"
+      },
+      "oneSentenceParagraphPct": {
+        "actual": 25.3,
+        "range": [17.378, 26.378],
+        "status": "in range"
+      },
+      "sentenceLengthCV": {
+        "actual": 0.798,
+        "range": [0.623, 0.823],
+        "status": "in range"
+      },
+      "mattr": {
+        "actual": 0.789,
+        "range": [0.818, 0.888],
+        "status": "below floor (advisory)"
+      },
+      "meanSentenceLength": {
+        "actual": 12.0,
+        "range": [10.412, 14.412],
+        "status": "in range"
+      },
+      "commaPeriodRatio": {
+        "actual": 0.68,
+        "range": [0.613, 0.863],
+        "status": "in range"
+      }
+    },
+    "interpretation": "Texture within target range. No structural changes needed. Every dimension scores 99 or above. The scorer's remaining telegram and texture-desert flags sit almost entirely in dialogue volleys (the B2 interrogation, the B4 sensing calls, Corin's dictation), where the style guide asks for short volleys. Do not chase them. The fixes in this round mostly delete short fragments, which lowers short_pct slightly and leaves the four texture dimensions within tolerance.",
+    "flaggedPassages": [
+      "texture_desert s114-132 (19 sentences): Under the sweat on his neck was the loft... She kept her fingertips where they were.",
+      "telegram_run s123-132 (10 sentences, 80% short): \"Done.\" Jaina took her fingers away... \"Ranger-General.",
+      "texture_desert s143-154 (12 sentences): At the corner Corin stooped for the slate wedge. \"Leave it,\" ...",
+      "telegram_run s144-152 (9 sentences, 77.8% short): \"Leave it,\" Jaina said through her teeth...",
+      "texture_desert s186-197 (12 sentences): The man kept his mouth shut. \"I'm the law on these lanes...",
+      "telegram_run s242-249 (8 sentences, 75% short): \"They take their gloves off by the cuff...",
+      "telegram_run s251-263 (13 sentences, 84.6% short): \"Does he tell them what's in it?\" ...",
+      "texture_desert s251-265 (15 sentences): \"Does he tell them what's in it?\" ...",
+      "texture_desert s268-285 (18 sentences): \"Then who does?\" He looked at the collar and didn't answer...",
+      "telegram_run s271-281 (11 sentences, 81.8% short): He jerked back from it so hard... \"One,\" he said.",
+      "telegram_run s356-364 (9 sentences, 88.9% short): \"Not the street,\" she said...",
+      "texture_desert s356-365 (10 sentences): \"Not the street,\" she said...",
+      "texture_desert s377-386 (10 sentences): \"Ranger-General. The lamp at the Bell Street corner went out...",
+      "texture_desert s393-402 (10 sentences): Behind them, past the shop, the Bell Street lot were still moving...",
+      "telegram_run s394-401 (8 sentences, 75% short): \"Up the lane's the worst of it,\" she said...",
+      "telegram_run s545-553 (9 sentences, 88.9% short): ...None of it was coming on. \"It's behind us,\" she said.",
+      "texture_desert s545-556 (12 sentences): The wet was behind them now and spread out...",
+      "texture_desert s580-589 (10 sentences): Lyriel held the hand a while... Someone scratched at the door.",
+      "telegram_run s608-616 (9 sentences, 77.8% short): Pages of it. At high summer it was struck through...",
+      "texture_desert s638-647 (10 sentences): \"Tam had his collar sewn before he ever saw us...",
+      "telegram_run s698-707 (10 sentences, 90% short): \"I'll make two,\" he said... \"Three.",
+      "texture_desert s698-711 (14 sentences): \"I'll make two,\" he said...",
+      "telegram_run s755-762 (8 sentences, 75% short): \"To there. Not this one...",
+      "texture_desert s834-844 (11 sentences): There was a master put out of the Kirin Tor. He swallowed..."
+    ]
+  },
+  "resolvedFromIteration0": {
+    "texture": "Resolved. 74.2 to 99.8. Participial 1.8% to 7.4%, compound 22.3% to 13.1%.",
+    "polysyndetonEngine": "Resolved. Only the line-67 take-as-sound polysyndeton survives as a clause chain. The checker's ten 3-'and' sentences are now mostly noun lists ('dust and chaff and old cobweb'), so no action is needed.",
+    "chaseSentenceLength": "Resolved. No B5 sentence (lines 343-391) runs past 30 words.",
+    "oneSentenceParagraphs": "Resolved. 25.3%, with no run of three single-sentence narration paragraphs.",
+    "b2TelegramRun": "Resolved. The staff-read beat at 195 gives Jaina an edge (she reads which answer frightened him), and it plants the closed place she misses at 235.",
+    "sylvanasReactions": "Resolved. 'Said nothing' is used once, at the B2 table. Her reactions are now bodily (cord grip, hand on the footing, 'went still', hand to the bowstring).",
+    "closingQuestionStack": "Resolved. The chapter ends on the seam question alone.",
+    "b6SummingUp": "Resolved. 'I believe' is added, the Havel repeat is cut, and Sylvanas answers 'Into the first of them. I said lead.'",
+    "tagsAndAgency": "Resolved. The volume adverbs are gone, the chin and hand agency are fixed, and the damper staging is fixed.",
+    "b1Length": "Resolved. The walk to the store is compressed, keeping the three plants."
+  },
+  "checksPassed": {
+    "emotional-life": "Pass. Jaina argues with herself in her own idiom in every scene. Scene 1: 37, 57, 119, 175, 195, 225, 239. Scene 2: 321, 371, 411, 433, 441, 447. Scene 3: 545-551, 575-579, 597-599. Seven registers appear: tension, dry humour (cart horse, barley, 'Nobody argued, and Jaina's teeth were going too hard for her to try'), warmth (Lyriel holding the hand, Corin's 'Sorry—sorry'), exhaustion (shivering on the cot), guilt ('She'd been glad'), dread (the unfinished sum for forty-one) and the shamed want (599). Every value shift lands on a concrete moment: the frost click, the lips shaped for the word, the candle laid flat, the two-finger point, the arrow, 'He was paid', the red running off the sheet's edges, 'Kel'Thuzad.', and her white fingertips on the east road.",
+    "limited-third": "Pass. The take is heard, not seen. Havel's tells are observed without a verdict until Corin's coin. The arrow is shown by its effect. The curse is felt 'a breath too late' and grounded in the closed place under the loud loft residue. Inferences about others are framed as hers.",
+    "dialogue-register": "Pass, apart from the low items. The voices are distinct and swap-proof. Cyndia reports rank first, in event order, with her remark last ('They didn't search.'). Lyriel's jokes fit her shape. Corin starts false and lands the fact, and says the name alone. Havel's register is procedure, 'we' and 'lads', with the formation question placed once, unremarked. The prisoner is thick, frightened and partial. Jaina is courteous and asks her own kind of question.",
+    "beat-plan-fidelity": "Pass. All nine beats are dramatized. The cast budget holds (one freeze, with the damper taking the ward). The bite logic holds (the collar comes off before the cold lets go). The held point in cover is under the granary. 'Coin' and 'paid' arrive first in Corin's mouth. Cyndia's roof report sources the shelters. 'Northern Lordaeron' is squared with the Ch7 roads. 'East' is sourced to Corin's inbound bills. The Kel'Thuzad guardrails hold, Jaina owns the turn east, and the stone stays silent."
+  },
+  "summary": "A strong, near-final revision. Texture went from 74.2 to 99.8, every iteration-0 finding is resolved, and the emotional life, POV discipline, character voices and all nine beats hold up. It fails narrowly on voice-and-register. The prisoner's 'Every yard. Every road out.' and the 'somebody sat at a table and wrote it down' image are recited so often that the B7 payoff, when Corin writes the phrase across the sheet, and the B8 face payoff arrive pre-spent. Jaina's narration also uses the 'X, then.' deduction fragment six times (house cap 0, and it borrows Havel's verbal tic). The remaining items are line-level: two dash glosses, three refrain beats, the ward explained three times, four clarity slips, a voice-sheet lift in Lyriel's line and one skipped step in the Dalaran inference. All are surgical edits that leave the texture intact."
+}

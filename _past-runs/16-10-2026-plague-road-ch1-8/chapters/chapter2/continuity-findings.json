@@ -1,0 +1,82 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter2",
+  "iteration": 1,
+  "targetFile": "v1.md",
+  "status": "pass",
+  "hardViolations": 0,
+  "softViolations": 2,
+  "truthSources": [
+    ".afternoon/config.json",
+    ".afternoon/plans/chapter2.json",
+    ".afternoon/chapters/chapter1/final.md",
+    ".afternoon/plans/memory/locations/{pass-holding-cell,thalassian-pass-post,southern-ward-line}.json",
+    ".afternoon/plans/memory/characters/{jaina-proudmoore,cyndia,antonidas,lor-themar-theron}.json",
+    ".afternoon/plans/memory/relationships/{jaina-proudmoore--sylvanas-windrunner,lor-themar-theron--sylvanas-windrunner}.json",
+    ".afternoon/plans/memory/threads/{leylines-wrong-claim,jaina-purpose-and-antonidas,jaina-map-circled-stone,ward-stones-wrong,unfelt-ring-crossing}.json",
+    ".afternoon/plans/memory/world/{magic,geography,military,timeline}.json",
+    ".afternoon/plans/series-meta.md (Ch3 handoff lines only)",
+    ".afternoon/chapters/chapter2/continuity-findings-r0.json (prior iteration, to verify fixes)"
+  ],
+  "priorFindingsResolved": [
+    "r0 V1 (hard): RESOLVED. Lyriel is silent at B6 (L161) and B7 (L211). Jaina learns her name from 'Lyriel, her right' (L171). Her first line is B9's fixed line (L347).",
+    "r0 V2 (hard): RESOLVED. L533 now reads 'the post would have kept it back when they handed her the rest', so the stockings stay in the satchel.",
+    "r0 V3 (soft): RESOLVED. L323 now reads 'Windrunner had had the map. Of course she'd read it.' The 'all day' claim is gone.",
+    "r0 V4 (soft): RESOLVED. L195 keeps the source in the lines. L243 puts the coin taste in her mouth, not in the land's smell. 'It had left the lines' (L261) is now the first time it reaches ground.",
+    "r0 V5 (soft): RESOLVED. L387 ranks the kitchen 'as bad as the field' and no longer 'worse'.",
+    "r0 V6 (soft): RESOLVED. The ambush is now at 'a bend ahead' (L413), separate from the Millhaven rise (L397, L621)."
+  ],
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "soft",
+      "category": "knowledge",
+      "location": "L173 (B6): \"They knew her name, then, and she knew one of theirs.\"",
+      "description": "This line was added in the r0 fix. It says Jaina knows only one ranger's name, but by this point she knows four. She has used 'Windrunner' since L13, learned Cyndia's name at L15, and heard Windrunner name Neral at L153, two paragraphs earlier. Only Lyriel's name is new at L171.",
+      "evidence": "v1 L13 ('Windrunner'), L15 ('Cyndia, someone in the passage had called her'), L153 ('\"Neral,\" Windrunner said'), L171 ('Lyriel, her right').",
+      "suggestedFix": "Make it 'one more of theirs', or cut the clause: 'They knew her name, then. Jaina didn't yet know whether that helped her.'"
+    },
+    {
+      "violationId": "V2",
+      "severity": "soft",
+      "category": "knowledge",
+      "location": "L587 (B12): \"Jaina hadn't thought of the horses.\"",
+      "description": "Earlier the same morning Jaina did think about the horses taking it in. At B8 she watched the grey drink from the stream she had just found the wrongness in and 'thought of the little salt and said nothing, because she didn't know what a little did. That was the next test' (L295). Saying she 'hadn't thought of the horses' contradicts her own earlier thought.",
+      "evidence": "v1 L255-259 (it is in the stream water and 'a little' in everything living) and L295 (the grey drinking from that stream; Jaina thinks of the little salt and calls it the next test).",
+      "suggestedFix": "Point it back to L295 instead of denying it: 'Jaina had thought of the horses once, at the culvert, watching the grey drink, and then put it away.' Or: 'Jaina had left the horses for later, for a bench and a lamp.' Then the reading follows."
+    }
+  ],
+  "verifiedClean": [
+    "Opening: same room and moment as the Ch1 close, with Jaina's head tipped back, the wall stone behind her and Cyndia at the threshold. 'Start talking' is not replayed (L3-15).",
+    "Ch1 capture details match: the night watch at the split-cap stone with an arrow on the string, Cyndia taking the claim down by pen, talking since before dawn (L3, L7, L15).",
+    "Jaina knowing the name 'Windrunner' comes from rank cues and Kirin Tor sessions, which fits Ch1's 'the one he brings to council'. Whether Sylvanas knows Jaina stays open until 'Proudmoore' at B6 (L171-173). Jaina never told the watch her name in Ch1, so 'They knew her name' is consistent.",
+    "Cell geometry: one chair, wall ward-stone at seated head height, a room barely wider than its door. The removable wedge anchor (L105) sits alongside the wall stone, as the B5 correction requires.",
+    "The noon stone and the map circle stay hidden from Jaina. Sylvanas's sharper questions (L67-81) are misread as a soldier wanting coordinates (L85). The B9 inference rests on the map only (L323).",
+    "The map answer matches Ch1: circled stones and ruled lines from the Lordaeron side, the dry-creek bend stone on the outer ring east along the track, the creek drawn as dashes, the split-cap stone near the high road (L69-73).",
+    "The sending stone is the Ch1 rune pebble (flat, grey, one rune, cloth). It is silent by choice, its twin is in Antonidas's study, and it is returned at B6 (L35, L57, L141-147).",
+    "Satchel contents match the Ch1 inventory: ink tin, oilcloth pens, field-book, hard heel of bread, darned stockings, pebble (L141). The staff sits on two hooks under the slate plate, its crystal bruise-violet (L121), as in Ch1.",
+    "B3: no invented colleagues, Antonidas is not dismissive, the Council is slow. Whether he has read the note is left open (L47-57).",
+    "The arc holds: the 'soldier wants it short' read stays through B1-B8 (L25, L85, L189, L231, L301) and breaks at B9 (L311-329). Sylvanas says nothing about the change in register (L343). The 'small pleasure, filed under useful' interiority follows the B9 plan line. No trust or warmth.",
+    "Address rules: Sylvanas says only 'Mage' or 'Proudmoore'. Jaina says 'Ranger-General'. Lyriel says 'Lady Proudmoore' (L347, L499). Neral says 'My lady' once (L159). Cyndia says 'Ranger-General'. No one says 'Jaina' in dialogue.",
+    "Lyriel speaks to Jaina for the first time at B9 (L347). Her B7 check is wordless (L209-211).",
+    "B5-B7 each add something different: the raw sense muffled by the rings (L111-115), the staff's reading against the split-cap reading (L127), then the full scale once the stones are crossed (L191-201). The elves' reaction is read only through the horses (L205-207).",
+    "Timeline: they leave at night (L149), Jaina dozes until a dishwater sky (L237-239), the culvert halt at dawn, sunrise (L299), the noon ford (L359), the grey afternoon, and Millhaven in fading light (L629-633). Jaina rides a borrowed post horse and came north on foot (L101, L175).",
+    "B8: ground, water, roots and a living thing in the clay. The frost-burn mechanism matches Ch1's look (L263-271). The rangers cover her and Jaina sees only the result (L275-277). Sylvanas's liability look is shown (L287).",
+    "No grain, bread or flour is named or implied as the carrier. The crops are cabbage, beans and turnips. The kitchen is 'as bad as the field', not worse. 'Who else had eaten from those fields' stays a question and is undercut at once (L559-561).",
+    "B11: the doe is wounded and still on her feet, not reanimated. Cyndia makes the killing shot to the head. Lyriel takes the stag. Neral's horse tramples a wolf. The unnamed ranger stays in the background. There is no organized column.",
+    "B12: the agent is in blood, meat and organs and was active before death. Jaina says 'I don't know how yet' about the mechanism, and the entry method is still unknown. Sylvanas holds the company for the read (L567-571). The horses shy from the blood (L543).",
+    "B13: no smoke, no lights, no dogs. The lines knot under the crossroads, which confirms Sylvanas's pinch-point read without anyone saying so. Custody still chafes (L605-609, L653). Arrival only, with no interior. All six riders are present at the close. This matches the Ch3 handoff (fading light, the full party, an evening arrival).",
+    "Jaina does not mention her crossing being unfelt and gives no explanation of how she crossed the rings."
+  ],
+  "advisories": [
+    "A1 (carried from r0, not counted): The grey's sex is still ambiguous. 'Take her.' (L157) follows Neral's line about the grey, but the grey is 'he/his' at L587 and L601.",
+    "A2 (carried from r0, not counted): L73 ('she'd wanted to find the place again') and L323 ('kneeling beside a stone' for every ruled line) place Jaina at the far-east dry-creek stone in person. This can be squared with a single pre-dawn crossing (L29) only if she read the outer-ring stones from the Lordaeron side. Keep it that way so the map-circle thread (surveyor or insider) stays open.",
+    "A3 (carried from r0, not counted): L127 has her last act at the split-cap stone as a staff reading with both hands on the wood. Ch1's report has her hands on the stone. The two can coexist.",
+    "A4 (carried from r0, not counted): L119 'Sitting since first light'. She was found at first light and then walked to the post.",
+    "A5 (carried from r0, not counted): Cyndia's shared-track read (L515) hints at a common drive behind the animals. Ch3+ planners should keep it short of an 'organized column'.",
+    "A6 (carried from r0, not counted): Jaina's right hand has been numb since the B11 cast (L451, L523, L615, L661), yet L587 and L603 use it as her 'clean hand' for the horse read and the satchel. Ch3 should carry the numb hand forward or show it recovering.",
+    "A7 (new, not counted): L637 'every ruled line on her map' knots under the crossroads, while Windrunner at L315 says only 'most' cross within a mile and 'the rest pass near enough to bend'. This is fine as Jaina's impression from the crest. Keep 'most' as the canonical count for Ch3.",
+    "A8 (new, for memory-keeper): New facts established on page. Lor'themar is called 'the Ranger-Lord' with captains and patrols of his own; Sylvanas corrected him over a map at midsummer (L353). Jaina has attended King Terenas's autumn hunts (L459). Jaina estimates the contamination has been in the deer 'a whole season', longer than the fields have been rotting (L551, L581); this is her guess, not confirmed. Jaina ate from her own bread heel at L179; downstream planners should check this against the grain-carrier reveal.",
+    "A9 (new, not counted): L181 says 'outer stones' at the Pass saddle. This repeats Ch1's own wording (final.md L181), so it is consistent with Ch1, but the B7 plan note asked the writer to avoid naming rings. Ch1 memory still has the ring order muddled (geography: outer ring north of the second, yet she crossed the outer ring first)."
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (manifest slopGateLoop carries no iterationKillsA trajectory)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 24,
+      "kills": 2,
+      "keeps": 22,
+      "killRate": "8%",
+      "severity": "MILD",
+      "dominantPattern": "Pattern 5 - preamble negation",
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "findings": [
+        {
+          "line": 194,
+          "text": "Under the ribs it did not come back clean.",
+          "pattern": "N5-preamble-negation",
+          "deletionTest": "Delete the sentence. The next paragraph opens 'There was a place just below the breastbone ... where the light went in on the beat and came out after it late and dragging, and the wrong colour', then closes on 'And nowhere else: the heart clean, the lungs clean'. It gives all the information, so the one-line drumroll adds nothing.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 5. This one-sentence paragraph names what the reading did not do before the next paragraph says what it did. It fails the deletion test, and the clean/unclean distinction is already stated positively in L196.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence and its paragraph. L192 ends '...before it came back.' and L196 'There was a place just below the breastbone...' follows directly.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 883,
+          "text": "They took nothing out of anybody. They held the door, so that nothing more could come in and nothing that was in could get any further.",
+          "pattern": "N5-preamble-negation",
+          "deletionTest": "'They held the door, so that nothing more could come in and nothing that was in could get any further. What was in was in, and the body would do the rest or it wouldn't.' The limit that the wards do not cure is still fully carried by 'What was in was in'.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 5 ('They did not X. They Y.'). It fails the deletion test. It is also the third time the chapter says the wards do not heal (after L290 'no healing at all ... did nothing to whatever was boiling inside' and L358-360 'nobody in the room was any better'), so condition 3 cannot hold for this restatement.",
+          "suggestedFix": "They held the door, so that nothing more could come in and nothing that was in could get any further.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 26,
+      "kills": 2,
+      "keeps": 24,
+      "killRate": "8%",
+      "severity": "MILD",
+      "dominantPattern": "P9/P5 abstract noun or geography carrying physical behaviour",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweepPerformed": true,
+      "secondSweepNotes": "Every sentence was re-read for inanimate or abstract subjects carrying agency, cognition, combustion or physical-behaviour verbs, for actors demoted into instrument phrases, and for body-part subjects. The crystal and staff verbs (ticked, woke, shifted all on its own), the drag, the cold and frost travelling up the ash, the wards holding and thinning, and the construct's 'one part to wait' are all in-world mechanics. They fall under the subject-matter defense, so they are documented as KEEPs. Brask's moving thumb (L74, L78, L98, L717, L827, L847) is an involuntary tell that Windrunner and Jaina read, so it falls under the Pattern 8 involuntary exception. The sweep found two kills: an abstract 'price' doing the physical travelling of the frost (L687) and the village 'wearing' a haze (L969).",
+      "findings": [
+        {
+          "line": 687,
+          "text": "The price came up the staff after.",
+          "pattern": "P9-nominalized-abstraction-agent",
+          "subject": "the price",
+          "verb": "came up (and, in the next sentence, 'It went into the left hand')",
+          "realAgent": "The frost backlash, the cold coming back up the ash. The chapter names it concretely everywhere else (L296, L587, L667).",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 9. An abstraction ('price') carries the physical travel of the cold up the staff and into the hand, while the concrete agent, the cold, has been pushed out of subject position. The zone overlaps a telegram_run flagged by the texture scorer, around 'Her arm was ice from the fingers to the shoulder'.",
+          "suggestedFix": "The cold came up the staff after, the price of it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "line": 969,
+          "text": "The bakehouse sent none, and the village lay under the morning without the brown haze it had worn when she rode in, smaller without it, and barer.",
+          "pattern": "P6-geography-physical-behaviour",
+          "subject": "the village",
+          "verb": "had worn (the haze)",
+          "realAgent": "The bakehouse smoke (L488 'its smoke brown and warm and lying along the lane'; L5 'Bread smoke lay over all of it'). The haze hung over the village. The village did nothing.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Geography is given a clothing verb ('worn'), which dresses the place up instead of saying where the haze was. The chapter has already set the haze up literally as smoke lying over the lane. 'The bakehouse sent none' is kept as a literal chimney-emission idiom, and only the 'worn' clause needs to change.",
+          "suggestedFix": "The bakehouse sent none, and the village lay under the morning without the brown haze that had hung over it when she rode in, smaller without it, and barer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 33,
+      "kills": 1,
+      "keeps": 32,
+      "severity": "MILD",
+      "dominantPattern": "paragraph-opener repeat (tool signal)",
+      "ticCounts": {
+        "tic1_cornerOfMouth": "1 (L556 'One corner of her mouth went in.'). L1005 'tongue in the corner of his mouth' is a physical placement and does not count. Ch3 final has only a physical 'dirt in the corners of her mouth', so this is within the 3-chapter cap of 2.",
+        "tic2_marked": "0",
+        "tic3_tightenedEased": "tightened-type 1 emotional (L607 'The skin went tight across the back of Jaina's neck') and 2 physical (L15 knot, L791 bowstring); eased 0. Under cap.",
+        "tic4_facialShifted": "0 (L1023 mare and L1029 staff are physical)",
+        "tic5_eyeGaze": "4 generic or connection gaze beats (L90, L564, L731, L791). At cap, not over. Other eye mentions are physical or clinical (fever-bright eyes, eyes not opening, eyes half open in death, eyes running with fumes).",
+        "tic6_weightHeaviness": "At most 1 emotional (L839 'his face gone heavy'). The repeated 'weight hung on the tail of the beat' and 'heaviness' (L13, L15, L268, L296, L695) are the defined in-world drag sensation, so the subject-matter defense applies.",
+        "tic7_nonSaidTags": "2 (L550 'Cyndia reported', L909 'She reported'), both character-specific report register. Under cap."
+      },
+      "findings": [
+        {
+          "line": 669,
+          "text": "The boy knelt in the frost with his arm nailed up behind him, his face turned away.",
+          "pattern": "paragraph-opener-repeat",
+          "toolSignal": "opener_consecutive_repeat",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Three consecutive paragraphs open on 'The' (L669 'The boy knelt', L671 'The jar.', L673 'The smell came up'). The tool cap is 0 and the count is over it. The fix belongs at L669 because 'The jar.' is a deliberate isolating beat and L673 begins the sensory payload. The boy is the only male referent in the scene, so 'He' is unambiguous.",
+          "suggestedFix": "He knelt in the frost with his arm nailed up behind him, his face turned away.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 78,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "5 MILD kills and 0 MODERATE/SEVERE, which exceeds the 3-MILD threshold. Negation 2/24: L194 one-line 'did not come back clean' drumroll and L883 'They took nothing out of anybody. They held the door'. Intent smear 2/26: L687 'The price came up the staff' and L969 village 'had worn' the haze. Tics 1/33: L669 third consecutive 'The' paragraph opener (tool signal). All five fixes are small drop-in substitutions or deletions. Not affecting the verdict: structural texture deficit (78.6, below_target) and structural rhythm concerns (5 metrics out of range: sentence_length_cv, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr).",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "measured": 0.807, "target": 0.72, "delta": 0.087, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "measured": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "measured": 0.859, "target": 0.7, "delta": 0.159, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "measured": 41.1, "target": 35.0, "delta": 6.1, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "measured": 19.1, "target": 10.0, "delta": 9.1, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "measured": 6.57, "target": 7.7, "delta": -1.13, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "measured": 28.2, "target": 19.0, "delta": 9.2, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "measured": 0.773, "target": 0.83, "delta": -0.057, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 78.6,
+      "participial_pct": 7.2,
+      "compound_pct": 12.3,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.5,
+      "short_pct": 51.4,
+      "verdict_reasons": [
+        "participial: 7.2% below target 12.0% (score 61/100)",
+        "compound: 12.3% above target 10.0% (score 79/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.2% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.3% -> target 10.0% (score 79/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": { "telegram_run": 36, "texture_desert": 32 },
+      "note": "structural texture deficit"
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 97,
+      "total_violations": 2,
+      "overCap": [
+        "vague_pointers (combined 4 / cap 3) - pass B, not audited here",
+        "paragraph_structure.opener_consecutive_repeat (1 / cap 0) - pass A, KILLED at L669"
+      ],
+      "passASignalsAudited": {
+        "filter_words": "4 (watched L90, L450, L605; decided L512): all KEEP",
+        "said_bookisms": "4 (hissed L5 geese, L803 torch; conceded L122 narration verb; adverb_on_tag L198 'said quietly'): all KEEP",
+        "filler_actions": "2 (nodded L508, frowned L236): KEEP",
+        "breath_tells": "2 (breath caught L210, L573 - clinical symptom of the dying man): KEEP",
+        "simile_overload": "3 (L1, L450, L50), under cap: KEEP",
+        "participial_attachment": "30 trailing, under cap 68: KEEP (texture is below target on participials)",
+        "punctuation_tics": "22 semicolons (cap 34), 17 narration colons (cap 17, at cap): KEEP",
+        "paragraph_structure": "opener_consecutive_repeat L669: KILL",
+        "abstract_locomotion / inanimate_agency": "0 tool matches"
+      },
+      "unmappedSignals": "contact_verbs (pressed x3, brushed, found): not mapped to any guide; all literal physical contact"
+    }
+  }
+}

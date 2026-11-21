@@ -1,0 +1,270 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA [49, 8] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 31,
+      "kills": 2,
+      "keeps": 29,
+      "severity": {"mild": 2, "moderate": 0, "severe": 0},
+      "dominantPattern": "Pattern 7 / Pattern 5 (one each)",
+      "clusterPages": [],
+      "clusterWarnings": ["'nothing/nobody but X' exclusive idiom appears 7 times (L5, L365, L391, L515, L635, L683, L813). Each one is kept because the exclusion is the observed fact, but downstream editors should not add more."],
+      "keepRateNote": "Keep rate is above the guide's 20% alarm. I checked every KEEP again. After two revision rounds the true pivots are gone. What is left is imperatives, dialogue diagnostics, evidence-bearing absences in Sylvanas's tactical inventory, and condition-4 self-argument the plan asks for (L711, L839-841).",
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 103,
+          "pattern": "negation-P7-chained-negation",
+          "severity": "MILD",
+          "text": "No bodies. Nothing to turn over, nothing to measure, no wound to tell her teeth or blade or fever.",
+          "deletionTest": "'No bodies' already carries the fact. 'Nothing to turn over, nothing to measure' adds two refusals that lead into 'no wound'. With L105 'Nothing to read, then' that makes four negations in a row before 'Fine; the mage.'",
+          "reason": "A chain of refusals leading to one decision. The repeated 'nothing to X, nothing to Y' is decoration and adds no new fact.",
+          "textureZone": "inside texture_desert sentences 109-128",
+          "suggestedFix": "No bodies, so no wound to show her teeth or blade or fever.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-NEG-2",
+          "line": 459,
+          "pattern": "negation-P5-preamble-negation",
+          "severity": "MILD",
+          "text": "It meant nothing to Sylvanas. It might mean something to the mage.",
+          "deletionTest": "'Sweet breath. A drinker's breath went sweet, and so did a dying man's sometimes, in the bad fevers. It might mean something to the mage.' still holds. Her list of ordinary causes already shows she can make nothing of it.",
+          "reason": "The shape is 'X meant nothing / X might mean something', the same as 'It should not have helped. It did.' The negative half is scaffolding.",
+          "suggestedFix": "It might mean something to the mage.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 52,
+      "kills": 6,
+      "keeps": 46,
+      "severity": {"mild": 6, "moderate": 0, "severe": 0},
+      "dominantPattern": "Pattern 8 (body-part subject) x4, Pattern 11 (permission tag) x2",
+      "clusterFlags": ["Cellar and interview scene L403-L469: 3 intent-smear kills (L403, L427, L469). With A-NEG-2 L459 and A-RT-1 L481 the scene has 5 pass-A kills in about 80 lines."],
+      "repeatNouns": ["The mage's mouth as the subject twice (L43, L329)."],
+      "pattern4Alert": "no",
+      "secondSweepP5P6": "I read every sentence again for inanimate or abstract subjects with verbs of agency, desire, cognition, fire or motion. Roads and routes (L109, L633, L803, L847) take only path verbs like ran, went, climbed and came round, which the guide allows ('the road led'). Light, water, frost, wind, sound and mud (L5, L19, L131, L141, L185, L233, L277, L337, L343, L807) behave as physics. Staff and crystal verbs (buzz, rattle, click, point) are the literal in-world reading device. 'The village ... went out of its gates' (L285) and 'a village ... banking its fires' (L5) are kept as collective actors whose people are the subject of the scene. 'The chamber would have this in its hands' (L705) and 'the chamber would put its seal to' (L833) are kept as a formal body acting, with Lor'themar and the magister's nephew named in the same passages. No actor is demoted into an instrument phrase (under the quill, on the page). No abstract state settles into a body part. I found no metaphor chains. The body-part subjects caught in this sweep are the four Pattern 8 kills below. Every other body-part subject is involuntary: L191 arm flinched, L219 fingers curled and stopped, L237 eyes a beat behind, L399 fingers would not close, L491 fist clenched, L531 shoulders came up, L559 head went loose, L597 hand on string 'she had not felt it go there', L697 ears went red, L745 mouth went slack, L815 head caught itself.",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 43,
+          "pattern": "intent-smear-P8-body-part-agency",
+          "severity": "MILD",
+          "text": "The mage's mouth shut.",
+          "subject": "the mage's mouth",
+          "verb": "shut",
+          "realAgent": "The mage. She chose to stop arguing.",
+          "reason": "The mouth is acting for her. 'The mage shut her mouth' means the same thing. This is the same case as the guide's 'His jaw set itself.'",
+          "suggestedFix": "The mage shut her mouth.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-2",
+          "line": 177,
+          "pattern": "intent-smear-P8-body-part-agency",
+          "severity": "MILD",
+          "text": "Her own palm told her nothing; it was a stick, and cold.",
+          "subject": "her own palm",
+          "verb": "told",
+          "realAgent": "Sylvanas, reading with her palm as she reads ward stones.",
+          "reason": "A sense organ is made the teller ('her nose told her'). Elven palm-reading is a real in-world sense, but the verb still takes the reading away from her. The fix keeps her reading verb and does not contradict the tremor she felt in the sentence before.",
+          "suggestedFix": "She could read nothing in it with her own palm; it was a stick, and cold.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-3",
+          "line": 329,
+          "pattern": "intent-smear-P8-body-part-agency",
+          "severity": "MILD",
+          "text": "Her mouth pressed thin and stayed that way.",
+          "subject": "her mouth",
+          "verb": "pressed / stayed",
+          "realAgent": "The mage, holding her lips shut while she listens hard.",
+          "reason": "'She pressed her lips thin' means the same thing, so the body part was taking her agency. This is the second mage-mouth subject in the chapter (see L43).",
+          "toolSignal": "contact_pressed",
+          "textureZone": "inside telegram_run 426-437 / texture_desert 426-463",
+          "suggestedFix": "She pressed her lips thin.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-4",
+          "line": 403,
+          "pattern": "intent-smear-P8-body-part-agency",
+          "severity": "MILD",
+          "text": "It was a long time before the face came round the heap of turnips, on hands and knees.",
+          "subject": "the face",
+          "verb": "came round ... on hands and knees",
+          "realAgent": "The child.",
+          "reason": "At L379 and L383 the face is a fair perceptual stand-in, because only the face is visible behind the heap. Here the whole child crawls out, and the face is given hands and knees.",
+          "suggestedFix": "It was a long time before the child came round the heap of turnips, on hands and knees.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-5",
+          "line": 427,
+          "pattern": "intent-smear-P11-permission-tag",
+          "severity": "MILD",
+          "text": "The girl shook her head against Neral's collar, and Neral let the name go.",
+          "subject": "the name",
+          "verb": "(let) go",
+          "realAgent": "Neral, who stopped asking.",
+          "reason": "'let X go' is in the closed set. The tag narrates Neral's willpower instead of what she did. It is the only record of her action, so it is replaced with the action, not deleted.",
+          "suggestedFix": "The girl shook her head against Neral's collar, and Neral did not ask again.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-IS-6",
+          "line": 469,
+          "pattern": "intent-smear-P11-permission-tag",
+          "severity": "MILD",
+          "text": "She put it at the back of her head with the hoofprints she couldn't place, and let it lie.",
+          "subject": "it (the grain-seller mention)",
+          "verb": "(let) lie",
+          "realAgent": "Sylvanas, setting the clue aside.",
+          "reason": "'let it lie' belongs to the closed-set family (let it settle, let it pass). Deleting the tag loses no fact, because 'put it at the back of her head' already records what she did.",
+          "suggestedFix": "She put it at the back of her head with the hoofprints she couldn't place.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 30,
+      "kills": 4,
+      "keeps": 26,
+      "severity": {"mild": 4, "moderate": 0, "severe": 0},
+      "dominantPattern": "Tic 5 eye/gaze repertoire (3) plus adverb on tag (1)",
+      "ticCounts": {
+        "tic1_cornerOfMouth": "0 expression uses (L379 and L519 are dirt at the corners of a mouth, which is physical)",
+        "tic2_marked": "1 (L285, mental use); cap 2",
+        "tic3_tightened_eased": "tightened 0; eased 1 (L83 'She eased the string', physical); caps 3/2",
+        "tic4_facialShifted": "0 (L101 and L523 are physical shifts)",
+        "tic5_eyeGaze": "about 8 reaction or vigil beats (L43, L113, L593, L595, L597, L683, L743, L797, L847) against a cap of 4, not counting the plain sentry-watch beats. The 3 weakest or repeated are killed. The rest are character-specific or carry the plot.",
+        "tic6_weightHeaviness": "0 emotional uses. Every 'heavy/light' is the literal staff read, and 'weight' at L403, L421 and L611 is physical.",
+        "tic7_nonSaidTags": "0 performance tags; 1 adverb-on-said (L481)"
+      },
+      "findings": [
+        {
+          "id": "A-RT-1",
+          "line": 481,
+          "pattern": "tic7-adverb-on-tag",
+          "severity": "MILD",
+          "text": "\"Thank you,\" the mage said quietly.",
+          "reason": "The adverb is the tag doing stage direction. L451 already sets her voice 'pitched down nearly as low as Neral's', and L483 uses 'more quietly than anything yet' for the girl two lines later, so this 'quietly' dulls the girl's beat.",
+          "toolSignal": "adverb_on_tag",
+          "textureZone": "inside texture_desert 613-626",
+          "suggestedFix": "\"Thank you,\" the mage said.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-RT-2",
+          "line": 597,
+          "pattern": "tic5-eye-gaze / filter-watched-over-cap",
+          "severity": "MILD",
+          "text": "She watched the north road, empty, and the east road, empty, the race going on below the bridge.",
+          "reason": "filter_watched is 4 against a cap of 3. This is the weakest instance: it repeats the sentry-watch beat from L129 and runs the scene through her looking. L13 (horse's ears as the sensor), L129 (scan during the read) and L293 (dialogue about a witness) do work this one does not.",
+          "toolSignal": "filter_watched",
+          "suggestedFix": "The north road lay empty, and the east road, the race going on below the bridge.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-RT-3",
+          "line": 595,
+          "pattern": "tic5-eye-gaze",
+          "severity": "MILD",
+          "text": "She sat there with her eyes open, waiting for the sun like Sylvanas, so she could go and look at something.",
+          "reason": "This repeats the 'Her eyes were open' beat from L593, two sentences earlier, and pushes the chapter's eye/gaze count over the cap. The first instance carries the image.",
+          "suggestedFix": "She sat there waiting for the sun like Sylvanas, so she could go and look at something.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "id": "A-RT-4",
+          "line": 797,
+          "pattern": "tic5-eye-gaze",
+          "severity": "MILD",
+          "text": "with her two hands in the mane and her eyes on nothing, and the bay walked her",
+          "reason": "'eyes on nothing' is the stock shock-stare. 'sat bolt upright' and the head jolting against Neral's collar already carry her state. This is the most generic gaze beat in the chapter.",
+          "suggestedFix": "with her two hands in the mane, and the bay walked her",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 12,
+    "totalKeeps": 101,
+    "mildKills": 12,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "guidesWithKills": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "killsWithFix": 12,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "12 MILD kills, which is over the 3-MILD pass threshold. There are no MODERATE or SEVERE kills. Every fix is a one-sentence drop-in, and most are deletions or one-word swaps. The kills cluster in the cellar and interview scene (L403-L481, 5 kills). Structural rhythm concerns: sentence_length_cv, one_sentence_paragraph_pct, short_sentence_pct, long_sentence_pct, opener_entropy and mattr are outside the style-guide ranges. Structural texture deficit: texture is below_target (74.9; participial 4.7% against a 12% target), with 27 telegram runs and 26 texture deserts.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.655, "target": 0.72, "delta": -0.065, "range": [0.6, 0.85], "inRange": true},
+      "sentence_length_mean": {"actual": 11.7, "target": 11.0, "delta": 0.7, "range": [9.0, 13.0], "inRange": true},
+      "sentence_length_cv": {"actual": 0.889, "target": 0.7, "delta": 0.189, "range": [0.6, 0.8], "inRange": false},
+      "short_sentence_pct": {"actual": 42.7, "target": 35.0, "delta": 7.7, "range": [28.0, 42.0], "inRange": false},
+      "long_sentence_pct": {"actual": 20.8, "target": 10.0, "delta": 10.8, "range": [7.0, 14.0], "inRange": false},
+      "opener_entropy": {"actual": 6.38, "target": 7.7, "delta": -1.32, "range": [7.2, 8.2], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 34.0, "target": 19.0, "delta": 15.0, "range": [15.0, 24.0], "inRange": false},
+      "mattr": {"actual": 0.766, "target": 0.83, "delta": -0.064, "range": [0.8, 0.87], "inRange": false},
+      "note": "Structural rhythm concerns: 6 metrics are outside range. Short and long sentences are both over target, so the prose swings between staccato and long run-ons with little in between."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.9,
+      "verdict_reasons": [
+        "participial: 4.7% below target 12.0% (score 50/100)",
+        "compound: 12.9% above target 10.0% (score 73/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.7% → target 12.0% (score 50/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.9% → target 10.0% (score 73/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% → target 4.0% (score 76/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {"telegram_run": 27, "texture_desert": 26},
+      "note": "Structural texture deficit. Kills A-NEG-1, A-IS-3 and A-RT-1 sit inside flagged zones. When revising those lines, add joining constructions nearby where it can be done without padding."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 72,
+        "total_violations": 1,
+        "overCap": [{"pattern": "filter_watched", "count": 4, "cap": 3, "disposition": "1 kill (A-RT-2 L597); L13, L129 and L293 kept"}],
+        "passAToolSignalsAudited": {
+          "filter_watched": "4 matches: 1 KILL, 3 KEEP",
+          "filler_nodded": "2 matches (L439, L549): KEEP. Both are the child's or Neral's answer beats, under cap 4.",
+          "filler_glanced": "1 match (L113): KEEP. It shows why she cannot work the windlass.",
+          "adverb_on_tag": "1 match (L481): KILL A-RT-1",
+          "bookism_hissed": "1 match (L341): KEEP. The lantern hisses; this is not a dialogue tag.",
+          "simile_like / simile_as_if": "4 matches (L9 x2, L607, L739): KEEP. Each is specific and under cap.",
+          "participial_trailing": "18 matches against cap 54: KEEP. The texture deficit points the other way.",
+          "punct_semicolon / punct_colon_narration": "21/27 and 11/13, both under cap: KEEP. Interjection-semicolons 'Well;' (L15) and 'Fine;' (L105) noted as a mild shape repeat.",
+          "contact_pressed": "5 matches against cap 6. L329 corroborates kill A-IS-3. The rest are physical (heel, face into collar, cloven slot, ring into wax): KEEP.",
+          "contact_settled": "1 match (L213 'before the dust settled'): KEEP. An idiom with a literal grain-dust echo, not a weight metaphor.",
+          "negation_addiction / abstract_locomotion / inanimate_agency": "0 matches"
+        }
+      }
+    }
+  }
+}

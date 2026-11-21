@@ -1,0 +1,211 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB trajectory [71, 26] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 41,
+      "kills": 6,
+      "keeps": 35,
+      "severity": "MILD",
+      "dominantPattern": "F4/F7 paragraph glosses and second-in-scene repeats (F9, F11, F12)",
+      "findings": [
+        {
+          "id": "B-r2-01",
+          "pattern": "F12",
+          "severity": "MILD",
+          "line": 480,
+          "text": "\"I know she is.\" She didn't know what else to say about Ellen. \"Please.\"",
+          "issue": "Non-action beat. The scene already has its strongest non-action beat (\"neither of them said it\", line 564). This one says she had nothing to say, and the short \"I know she is\" / \"Please\" already shows that. It splits one speech into two quotations.",
+          "suggestedFix": "\"I know she is. Please.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-02",
+          "pattern": "F11",
+          "severity": "MILD",
+          "line": 496,
+          "text": "Then the cooper's wife. Then the boy, asleep with his lopsided bandage and his mouth open. Then Wenna, then Col, who didn't need it and got it anyway because he was there. Then Elsie, last, on the door-bed under the window.",
+          "issue": "Anaphoric run. This is the second \"Then X. Then Y.\" round run in the infirmary scene; the first, at line 312, set up the rhythm of the rounds. Repeating the frame shows the template. Merging the list loses nothing, and the added joins help the participial/compound texture deficit.",
+          "suggestedFix": "After him came the cooper's wife, the boy asleep with his lopsided bandage and his mouth open, Wenna, and Col, who didn't need it and got it anyway because he was there. Elsie came last, on the door-bed under the window.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-03",
+          "pattern": "F9",
+          "severity": "MILD",
+          "line": 747,
+          "text": "\"Captain. Somewhere that locks.\"",
+          "issue": "Repeated vocative. Sylvanas already said \"Captain. Is there somewhere here that locks?\" four lines earlier to the same listener. The second \"Captain\" is the habit, not a new summons, and the line repeats the question in note form.",
+          "suggestedFix": "\"Somewhere that locks,\" Sylvanas said.",
+          "fixDifficulty": "low",
+          "textureZoneNote": "Inside texture_desert 1074-1098 / telegram_run 1075-1088 (loft, after the lookout line).",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-04",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 847,
+          "text": "The rest he worked out himself, as he had worked out his own street. His thumb stopped.",
+          "issue": "Over-translation. \"His thumb stopped\" and his next line, \"Tell me what to shut,\" already show that Brask has worked it out. The thumb is the same tell as in the lane (\"The thumb stopped.\" at the word Millhaven), so the callback works without the gloss.",
+          "suggestedFix": "His thumb stopped.",
+          "fixDifficulty": "low",
+          "textureZoneNote": "Inside telegram_run / texture_desert 1209-1223 (cage, cockcrow exchange).",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-05",
+          "pattern": "F7",
+          "severity": "MILD",
+          "line": 885,
+          "text": "and it had taken Sylvanas and a man with a torch and a heap of burning sacks to shut it. So she held the door from this side.",
+          "issue": "Closure line at the end of the paragraph. It restates the door image from the paragraph before (\"They held the door\") and wraps the metaphor up neatly. The next paragraph, where she lays her cheek to the foreheads, already shows her holding on.",
+          "suggestedFix": "and it had taken Sylvanas and a man with a torch and a heap of burning sacks to shut it.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r2-06",
+          "pattern": "F3",
+          "severity": "MILD",
+          "line": 981,
+          "text": "and she minded anyway, a little, which was low of her.",
+          "issue": "Hedge. \"a little\" softens the admission. The deletion test passes: \"she minded anyway, which was low of her\" is more direct, and the uncertainty is not the dramatic point.",
+          "suggestedFix": "and she minded anyway, which was low of her.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "summaryByMode": {
+        "F1": "0 (rounds and slate catalogs are deliberate; telegram runs are mostly in dialogue)",
+        "F2": 0,
+        "F3": 1,
+        "F4": 1,
+        "F5": "0 scenes (the spear yield, Brask's shutdown and the clean win are intended by the plan; Tam's death is no-and)",
+        "F6": 0,
+        "F7": 1,
+        "F8": 0,
+        "F9": 1,
+        "F10": "0 (stacked speeches are reports or orders the scene asks for)",
+        "F11": 1,
+        "F12": 1,
+        "F13": 0,
+        "F14": 0,
+        "F15": "0 (the scene closes on a forward image and an action)"
+      }
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Bright, quick, courteous Kirin Tor prodigy who reasons claim, then qualifier, then consequence, and corrects herself as she goes ('No. Slower.'). She mocks herself in free indirect thought ('Brilliant, Jaina.', 'Lovely, Jaina.', 'Herself, obviously.'), and her images come from Kul Tiran ships, harbours, her nurse, Boralus and the Dalaran workrooms. She would not think in sociological abstractions, epigrams or the narrator's 'you'.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 15,
+      "kills": 1,
+      "keeps": 14,
+      "severity": "MILD",
+      "dominantPattern": "A7",
+      "findings": [
+        {
+          "id": "B-r2-07",
+          "pattern": "A7",
+          "tier": "A",
+          "severity": "MILD",
+          "line": 701,
+          "text": "Every apprentice in Dalaran knew that much. They walked you past the locked shelf in your first year and gave you the signs so you'd know it if you met it. They never gave you the grammar; it stayed behind the grille.",
+          "whoIsSayingThis": "A narrator speaking to the reader with the generic 'you' (four times)",
+          "povMismatch": "This is the chapter's second generic-'you' passage. Line 290 ('you put it round a flask') already used the one allowed instance of her idiom. Here the narration lectures the reader on Dalaran custom instead of staying in her memory of her own first year.",
+          "confidence": "HIGH",
+          "suggestedFix": "Every apprentice in Dalaran knew that much. In her first year they had walked her past the locked shelf and given her the signs, so she would know it if she met it. They had never given her the grammar; it stayed behind the grille.",
+          "fixDifficulty": "low",
+          "textureZoneNote": "Directly before texture_desert 1027-1038 ('This was written in the grammar...').",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "tierSummary": {
+        "tierAKills": 1,
+        "tierBKills": 0,
+        "severePages": [],
+        "severeScenes": [],
+        "structuralHabit": "no; free indirect self-mockery stays in Jaina's idiom throughout"
+      }
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 16,
+      "kills": 0,
+      "keeps": 16,
+      "severity": "NONE",
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "Checked 16 candidates: all 7 pass-B tool signals (hedging: almost at lines 214 and 216, perhaps at 583; vague_pointers: lines 494, 687, 789, 895) plus 9 abstract-noun and shorthand lines ('had Windrunner down as maps', 'by some road of her own', 'One part to keep. One part to wait.', 'the work that ties a thing to the body', 'The price came up the staff', 'or something else', 'it wouldn't come out either way she ran it', 'The door was being shut from the other side', Tam's 'You don't know what you're keeping them from'). Each one either has its concrete payload in the same line or the next one (the knot-tearing palm, the oven and the milk, the cool forehead set against the tucked blanket, the burning sacks), or marks honest not-knowing where the plan forbids the answer (cult, method, origin). The reasoning lines name the actual evidence: the slate, the wells, the oats, the glove, the sacking stencil. The keep rate is above 25% because this revision's narration does name its evidence; each keep is listed with its condition in the scratchpad.",
+      "repeatStandIns": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "severity": "NONE",
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "Checked 8 setup/reply exchanges: the small-words version for Brask (line 538, 'It's the bread. Stop them eating the bread.'); 'Small. Half a fist. A fist. Everywhere.' for Tobin's slate (372); the imagined 'There, it's the flour. Now find me who.' (526); Jaina's short version for Sylvanas at the cage (837, with the oven before light and breakfast as the threshold); 'Then you have until cockcrow.' (845); 'Tell me what to shut' answered by 'The granary. The bakehouse. Tonight, now...' (849-851); the 'say plainly what the wards did' passage (883, which unpacks to 'nothing more could come in and nothing that was in could get any further'); and Brask's plain account of Andorhal (993). Each simplified reply gives a usable target (bread, oven, granary, bakehouse, sacks in houses) and, where timing matters, a visible threshold (before light, cockcrow, full dark). No reply needs a second round of unpacking.",
+      "brokenExchanges": []
+    }
+  ],
+  "summary": {
+    "totalKills": 7,
+    "totalKeeps": 73,
+    "mildKills": 7,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "narrator-seep-guide.md"],
+    "killsWithFix": 7,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "7 MILD kills (more than 3), with 0 MODERATE or SEVERE: one each of F12, F11, F9, F4, F7 and F3, plus one A7 generic-you passage. All are local fixes, mostly deletions or merges. Also note a structural texture deficit (participial 7.2% against a 12% target, em-dash 1.2% against 4%, compound 12.3% against 10%) and structural rhythm concerns (sentence_length_cv, long_sentence_pct, one_sentence_paragraph_pct and opener entropy are all outside their ranges).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.807, "target": 0.72, "delta": 0.087, "range": [0.6, 0.85], "inRange": true},
+      "sentence_length_mean": {"actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true},
+      "sentence_length_cv": {"actual": 0.859, "target": 0.7, "delta": 0.159, "range": [0.6, 0.8], "inRange": false},
+      "short_sentence_pct": {"actual": 41.1, "target": 35.0, "delta": 6.1, "range": [28.0, 42.0], "inRange": true},
+      "long_sentence_pct": {"actual": 19.1, "target": 10.0, "delta": 9.1, "range": [7.0, 14.0], "inRange": false},
+      "opener_entropy": {"actual": 6.57, "target": 7.7, "delta": -1.13, "range": [7.2, 8.2], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 28.2, "target": 19.0, "delta": 9.2, "range": [15.0, 24.0], "inRange": false},
+      "structuralRhythmConcerns": ["sentence_length_cv above range", "long_sentence_pct above range", "opener_entropy below range", "one_sentence_paragraph_pct above range"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 78.6,
+      "participial_pct": 7.2,
+      "compound_pct": 12.3,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.5,
+      "short_pct": 51.4,
+      "verdict_reasons": [
+        "participial: 7.2% below target 12.0% (score 61/100)",
+        "compound: 12.3% above target 10.0% (score 79/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.2% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.3% -> target 10.0% (score 79/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": {"telegram_run": 36, "texture_desert": 32, "total": 68},
+      "note": "Structural texture deficit. Most telegram runs fall in dialogue exchanges (the spear, Tobin, the slate interviews, the cage). Kills B-r2-03 and B-r2-04 sit inside flagged zones."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 97,
+        "total_violations": 2,
+        "overCap": ["vague_pointers combined 4 > cap 3 (all four audited under phantom-concreteness and kept)", "paragraph_structure opener_consecutive_repeat 3x 'The' at line 669 (pass A)"],
+        "passBMappedSignals": {"hedging": 3, "vague_pointers": 4, "narrator_verdict": 0, "ambient_inversion": 0, "slopsquid": 0, "ai_vocabulary": 0, "academic_register": 0, "dialogue_register": 0, "verbose_phrases": 0, "expression_decomposition": 0, "clinical_anatomy": 0},
+        "passBToolSignalKills": 0
+      }
+    }
+  }
+}

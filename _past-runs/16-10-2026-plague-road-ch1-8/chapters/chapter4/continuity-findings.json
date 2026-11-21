@@ -1,0 +1,80 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter4",
+  "iteration": 1,
+  "targetFile": "v1.md",
+  "status": "pass",
+  "hardViolations": 0,
+  "softViolations": 0,
+  "findings": [],
+  "priorFindingsResolved": [
+    {
+      "id": "V1 (r0, hard)",
+      "resolution": "L91 now reads \"A cradle in the house by the smithy\". This matches Ch3 L98 (Lyriel's report), and the cradle and the cellar child are separate again."
+    },
+    {
+      "id": "V2 (r0, hard)",
+      "resolution": "L39 now has \"in the end house at Millhaven, with the hatch still open beside her\" and L673 has \"half in the doorway of the end house\". This matches Ch3 L365, L411-413: the hatch was laid back against the box bed and Sylvanas stood half in and half out of the door. L163's \"by the inn lantern\" refers to Jaina's attempt to write that night, after the move to the inn (Ch3 L549, L664), and is consistent with Ch3 L445, where she has nothing to write with during the interview."
+    },
+    {
+      "id": "V3 (r0, hard)",
+      "resolution": "L1067 now reads \"His sacks came down round your ice, one at a time, with Brask's man calling the steps. Nobody's put a foot on it.\" and L1051 reads \"Brask's man came up and took my place on the stair.\" Sylvanas's \"All of the granary\" at L1059 is now true. Her sacking cut \"before they went in the fire\" (L1143) fits the night carry-down. The boards and shell coming up at first light (L1131) and Jaina's picture of the shell thinning with a man on the stair below (L1073) also line up. The fix introduces no new contradiction."
+    },
+    {
+      "id": "V4 (r0, soft)",
+      "resolution": "L139 now says \"two more bows behind her\". This matches Ch3's close, where Sylvanas counts \"three bows and a prisoner\"."
+    },
+    {
+      "id": "V5 (r0, soft)",
+      "resolution": "L711 now says \"since the saddle that morning\". This is consistent with the late-morning arrival (L605, L611, L967)."
+    },
+    {
+      "id": "A1-A3 (r0 advisories)",
+      "resolution": "Fixed. L735 has \"knelt in the middle of its floor\" (Ch3 L205). L99 has \"She said it started with everybody coughing at the well\". L1147 has \"Cyndia had said so at the chapel\"."
+    }
+  ],
+  "advisories": [
+    {
+      "id": "A1",
+      "location": "L1159: \"The mage,\" he said. \"Jaina.\" Scratch. \"Proudmoore. Spell that for me.\"",
+      "note": "Carried from r0 A4 and not fixed. Brask is never present on the page when Jaina's name is spoken. She introduces herself only to Tobin (L177). Lyriel says 'Jaina' in the chapel (L395, L1103) and in the loft before Brask reaches the stair (L809). Brask addresses her only as 'Miss'. An off-page source exists: Tobin and Brask are on first-name terms ('Willem sent you?'), and Brask could have learned it in the afternoon. So it is not counted. Having him ask outright would close the gap, for example \"The mage,\" he said. \"What do I put?\" / \"Jaina Proudmoore.\" / \"Jaina.\" Scratch. \"Proudmoore. Spell that for me.\" That would also strengthen the say-it-aloud ledger gesture his Ch23 letter depends on."
+    },
+    {
+      "id": "A2",
+      "location": "L91: \"We came into it at dusk.\"",
+      "note": "In Ch3 L519 Sylvanas's own POV has the party riding into Millhaven 'an hour before dusk'. Spoken to Brask, this reads as a fair approximation, since the sweep ran into dusk, so it is not counted. 'Near dusk' would be exact if anyone touches the line."
+    },
+    {
+      "id": "A3",
+      "location": "L605: \"She had gone straight to the long stone building anyway, by some road of her own.\"",
+      "note": "Jaina did not see Sylvanas's afternoon route. She first sees her at the granary through the window in B6, so 'straight' is an inference stated as fact. This is allowed as limited-third inference and not counted. 'She had found her way to the long stone building anyway' would remove the overreach."
+    },
+    {
+      "id": "A4",
+      "location": "L45: Cyndia: \"Middle of the day.\"",
+      "note": "This is not a contradiction with the late-morning anchor. Cyndia means the shutters are closed in daytime. It is logged only because the chapter elsewhere fixes the arrival 'before noon'."
+    },
+    {
+      "id": "A5",
+      "location": "L659, L1145-1147, L1183",
+      "note": "Geography for the memory-keeper. The supplier came 'from the west road' (Cyndia) and the keeper pointed 'away west along the road'. Brask puts Andorhal 'down the grain road, south and west, past the ford', and the party leaves on a south-west fork below the brook. The prose treats these as one road. Log it that way: the village's local ford sits on the grain road south-west, and it is distinct from the Ch3 market ford north of here. Also log that Joss's cart went 'down to the ford' with flour 'for the Hallams and the alehouse'. The alehouse where the supplier first bought the keeper a jug (L665) is not placed on the page."
+    },
+    {
+      "id": "A6",
+      "location": "New on-page facts for the memory-keeper",
+      "note": "Jaina's left palm is split at the heel (L807, L1039) and freshly bound in a Farstrider knot by Lyriel. Sylvanas has deep teeth marks in two fingers of her bare right hand (L941). The concentrate shell and the loft boards were burned at first light with the ice (L1131). The Andorhal sacking square, a stencilled sheaf in a ring, is in Sylvanas's coat (L1151). The dead initiate Tam had capture-poison sewn into his collar in waxed paper. The supplier is young, civil, with brown or fair hair and a good horse, nothing that matches the old carter. Garran is not improved by morning, only no worse. The cart from the ford was caught and turned back. Brask's ledger records all four names, and Lyriel's knot quip was not written down."
+    }
+  ],
+  "cleanChecks": [
+    "Opening against Ch3's close: same four riders in order (Sylvanas front, Cyndia left, Lyriel right, Jaina middle on the mare), two empty places at the back, two nights on the ground since the saddle-sleep, staff pointing south. The Neral turn at L43 matches Neral's position behind the mage in Ch3.",
+    "Knowledge walls. Before B5 the only food or grain references are ambient bread smoke (L5, L31) and the Millhaven loaf callback (L91; Ch3 L56 has the loaf). B3 narrows only to ingestion, with water, food and contact all open (L289-295). B4's 'in somebody's kitchen' fits B4's turn toward diet and routine. Grain is earned at L513-553 from the slate, and the oat-eater control group (Col, Mother Haw) narrows it to one flour, not grain in general. Water is ruled out as the sorter, not as clean (L449). The storehouse-refusal callback is at L539.",
+    "There is no cult proof before B8. 'On purpose' (L677-681) is inference from timing and price. From B8 on, Jaina has the field in broad Kirin Tor terms (locked shelf, grille, signs, 'death-currents') but not the grammar. Nobody names Kel'Thuzad, a school or a cult. There is no Barov reference, the old carter is never mentioned, and the supplier description holds nothing that matches the carter.",
+    "B6 POV: Jaina sees Sylvanas and Cyndia at the granary and bakehouse through the one unshuttered pane and hears none of it. The questions ('What does it cost. Who brings it...') are framed as her inference. The supplier details land in B7 from Cyndia and Sylvanas.",
+    "Names and address. Narration uses 'Windrunner' through B5 (L539, L577) and 'Sylvanas' from L591, settled by Scene 3. Jaina says only 'Ranger-General' aloud. Lyriel says 'Lady Proudmoore' at L145 and L207 and 'Jaina' first at L395 in the knot lesson. Brask moves from 'my lady' to 'Ranger-General' and calls Jaina 'Miss'.",
+    "Cast and custody. The pairs hold (Lyriel with Jaina at L127, L697 and L995; Cyndia with Sylvanas in B6 and B7). Cyndia guards the stair until relieved. Brask owns the cage key. He appears last at the ledger with no blessing or farewell, and Andorhal comes from an in-world object (stencilled sacking) plus Brask. All four horses are present at the close.",
+    "Hands. The right has been dead since the holly-bend frost-sheet (Ch2 L389-391). The left is raw from the Millhaven well (Ch3 L139-143) and splits at the heel after the barrier. The hand-reading ban is honoured, with reads done through the staff and cheek. The cost escalates through the vigil and nothing heals off-page.",
+    "Ch2 and Ch3 callbacks check out: drag through the cell floor (Ch2 L21, L97), the doe in the ditch read bare-handed (Ch2 L455), the arrow through the lead doe at the holly bend, frost on a wolf's hind legs, the map read backward, the Millhaven well reading 'thinner than the doe', 'a store is where things end up' while kneeling, the girl's order of Missus Hale's baby, Mister Pell, then the well, 'pears gone brown' and 'before she was hot', 'cheaper than Mister Hollis' with the quarrel and the visit, the sickbed basin and cup, sixty up the cow way, and 'Mage. Up.'",
+    "Physical tracking within the chapter is consistent: six warded patients; the loft sacks, shell and boards; the lamp from Sylvanas to Lyriel; the cage at the foot of Chapel Lane, with the walk down and the run back up; the bakehouse oven raked at dusk and cold through night and morning; the cart from the ford out at night and back by morning; the rain before dawn and the heap re-lit.",
+    "Every beat lands its newOnPageInformation in order (B1 to B11a), with the stillUnknownAfterBeat items still open. The faster-barrier self-reproach sits in B11 (L1029), not B10."
+  ]
+}

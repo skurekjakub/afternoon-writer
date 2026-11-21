@@ -1,0 +1,1233 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 39,
+      "kills": 17,
+      "keeps": 22,
+      "severityMarkers": {
+        "mild": 16,
+        "moderateOrSevere": 1
+      },
+      "dominantPattern": "P5 preamble negation / P4 minimizer pivot in narration",
+      "clusterWarnings": [
+        "L273: two kills in one paragraph (A-N06, A-N07)",
+        "'had done X before / never Y' shape repeats at L223, L295, L679",
+        "'nothing in / nowhere else' exclusion repeats L201, L239, L243"
+      ],
+      "keepRateNote": "Keep rate ~56% exceeds the 20% guide heuristic. Re-examined: the surviving keeps are elimination steps in a contrast-group outbreak deduction (plan: Snow/Broad Street method), dialogue prohibitions, hard capability limits of the ward/light, and explicit free-indirect self-argument. See scratchpad.",
+      "findings": [
+        {
+          "id": "A-N01",
+          "line": 29,
+          "text": "and again at the next stall, where there was no child at all, only a man selling salt herring out of a barrel.",
+          "pattern": "P4-minimizer-pivot",
+          "severity": "MILD",
+          "reason": "Deletion test: 'where a man was selling salt herring out of a barrel' still tells the reader the tick is not coming from a sick child. The 'no X at all, only Y' sort is scaffolding.",
+          "suggestedFix": "and again at the next stall, where a man was selling salt herring out of a barrel.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "and again at the next stall, where a man was selling salt herring out of a barrel."
+        },
+        {
+          "id": "A-N02",
+          "line": 69,
+          "text": "She said it low, for him and not for the egg stall.",
+          "pattern": "P1-direct-contrast-pivot",
+          "severity": "MILD",
+          "reason": "'for him' already excludes the crowd; the next sentence (he had to lean to hear) proves the pitch. The 'and not for' half is dead weight.",
+          "suggestedFix": "She said it low, for him alone.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "She said it low, for him."
+        },
+        {
+          "id": "A-N03",
+          "line": 83,
+          "text": "Windrunner's voice did not change, going on at the same level, a woman telling him how far it was to the next ford.",
+          "pattern": "P5-preamble-negation",
+          "severity": "MILD",
+          "reason": "Primes a change that never happens, then delivers the real fact. Start at the level voice.",
+          "suggestedFix": "Windrunner's voice went on at the same level, a woman telling him how far it was to the next ford.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Windrunner's voice went on at the same level, a woman telling him how far it was to the next ford."
+        },
+        {
+          "id": "A-N04",
+          "line": 151,
+          "text": "Someone else said *Mam, Mam, Mam* in a flat voice, over and over, not loud.",
+          "pattern": "P4-minimizer-pivot",
+          "severity": "MILD",
+          "reason": "Trailing 'not loud' bats away a descriptor nobody offered. Name the real volume.",
+          "suggestedFix": "Someone else said *Mam, Mam, Mam* in a small flat voice, over and over.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Someone else said *Mam, Mam, Mam* in a flat voice, over and over."
+        },
+        {
+          "id": "A-N05",
+          "line": 243,
+          "text": "Every one of them, at the start, in the gut and nowhere else.",
+          "pattern": "P2-fragment-pivot-repeat",
+          "severity": "MILD",
+          "reason": "Repeats the exclusion the previous paragraph already made ('Nothing in the lungs, nothing in the blood...'). Third 'nowhere else / nothing in' exclusion in forty lines; the repeat instance is the cluster casualty.",
+          "suggestedFix": "Every one of them, at the start, in the gut.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Every one of them, at the start, in the gut."
+        },
+        {
+          "id": "A-N06",
+          "line": 273,
+          "text": "Water did not glow like a body.",
+          "pattern": "P5-preamble-negation",
+          "severity": "MILD",
+          "reason": "Preamble that tells us what the reading is not before giving it. The following sentence carries the actual reading. Paired with A-N07 (same paragraph, page-level cluster). Fix: delete; A-N07's fix names the water so the referent survives.",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The light went in and lay there, dull gold...",
+          "pairedWith": "A-N07"
+        },
+        {
+          "id": "A-N07",
+          "line": 273,
+          "text": "The light went in and lay there, dull gold, holding no pulse but the slow pulse of the currents coming up through the floor.",
+          "pattern": "P1-direct-contrast-pivot",
+          "severity": "MILD",
+          "reason": "'no pulse but the slow pulse' refuses one pulse to land on another. State the pulse that is there. Apply together with A-N06.",
+          "suggestedFix": "The light went into the water and lay there, dull gold, beating with the slow pulse of the currents coming up through the floor.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The light went in and lay there, dull gold, with the slow pulse of the currents coming up through the floor.",
+          "pairedWith": "A-N06"
+        },
+        {
+          "id": "A-N08",
+          "line": 319,
+          "text": "Not Garran. The rest were early.",
+          "pattern": "P2-fragment-pivot",
+          "severity": "MILD",
+          "reason": "Two-beat fragment pivot; 'The rest were early' also restates 'Most of them were early' from the paragraph's first sentence. Name the exception directly.",
+          "suggestedFix": "Only Garran was late.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "The rest were early."
+        },
+        {
+          "id": "A-N09",
+          "line": 497,
+          "text": "and it wasn't in the chapel or on Tobin's slate. It was down there in who sold what to whom.",
+          "pattern": "P3-source-swap-pivot",
+          "severity": "MILD",
+          "reason": "Refuses the wrong location before naming the right one. 'down there in who sold what to whom' carries the whole claim; the chapel/slate refusal is scaffolding.",
+          "suggestedFix": "and it was down there in who sold what to whom.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "That half would tell her whether this was one bad harvest gone wrong in a damp barn or something else, and it was down there in who sold what to whom."
+        },
+        {
+          "id": "A-N10",
+          "line": 615,
+          "text": "and at first there was nothing, only the dark wall and the beam, and then a line of yellow under the high door, thin as a thread.",
+          "pattern": "P4-minimizer-pivot",
+          "severity": "MILD",
+          "reason": "'nothing, only X' rejects a blank to land on the wall and beam, which are not nothing. Start with what she sees.",
+          "suggestedFix": "and at first there was the dark wall and the beam, and then a line of yellow under the high door, thin as a thread.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "and at first there was the dark wall and the beam, and then a line of yellow..."
+        },
+        {
+          "id": "A-N11",
+          "line": 633,
+          "text": "It didn't tick here. It ground.",
+          "pattern": "P5-preamble-negation",
+          "severity": "MILD",
+          "reason": "Classic 'She did not laugh. She smiled.' shape on the staff. 'Here' carries the contrast with the lanes on its own.",
+          "suggestedFix": "Here it ground.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "It ground."
+        },
+        {
+          "id": "A-N12",
+          "line": 679,
+          "text": "Never to a person.",
+          "pattern": "P2-fragment-pivot",
+          "severity": "MILD",
+          "reason": "'once before ... to a wolf's hind legs' already establishes the wolf was the only time; the fragment then sets up 'A person made a different sound.' Same 'had done X / never Y' shape also appears at L223 and L295 (kept there as hard-fact first-times); this third repeat is the cut.",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "She had done this once before, on the road at the holly bend, to a wolf's hind legs. A person made a different sound."
+        },
+        {
+          "id": "A-N13",
+          "line": 689,
+          "text": "and the puddle would not stay a puddle.",
+          "pattern": "P5-preamble-negation",
+          "severity": "MILD",
+          "reason": "Negated preamble before 'It ran along the grain...' which carries the motion. Also gives the puddle a refusal verb. State the spreading.",
+          "suggestedFix": "and the puddle was already spreading.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "It had come out of the broken jar in a puddle no bigger than a dinner plate. It ran along the grain of the boards..."
+        },
+        {
+          "id": "A-N14",
+          "line": 777,
+          "text": "She didn't look.",
+          "pattern": "P5-preamble-negation",
+          "severity": "MILD",
+          "reason": "Preamble to 'She watched the sky instead.' ('instead' already carries the refusal). Delete; see A-W03 for the paired sky line.",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Crying again. She couldn't hear it. She watched the sky instead.",
+          "pairedWith": "A-W03"
+        },
+        {
+          "id": "A-N15",
+          "line": 823,
+          "text": "No drag, no weight, no knot under the ribs; he had never eaten one mouthful of what he kept under that floor.",
+          "pattern": "P7-chained-negation",
+          "severity": "MODERATE",
+          "reason": "Triple refusal hallway ('No drag, no weight, no knot') building to 'just a boy, stopped.' Give the reading positively; the inference clause after the semicolon survives.",
+          "suggestedFix": "The light came back clean from his gut; he had never eaten one mouthful of what he kept under that floor.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "he had never eaten one mouthful of what he kept under that floor. There was just a boy, stopped."
+        },
+        {
+          "id": "A-N16",
+          "line": 849,
+          "text": "and wanting his night more, not less.",
+          "pattern": "P1-direct-contrast-pivot",
+          "severity": "MILD",
+          "reason": "'more, not less' is emphatic scaffolding; nobody proposed 'less'.",
+          "suggestedFix": "and wanting his night all the more.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "and wanting his night more."
+        },
+        {
+          "id": "A-N17",
+          "line": 891,
+          "text": "Smoke, but not wood smoke; heavier, and sour, with a scorch in it,",
+          "pattern": "P4-minimizer-pivot",
+          "severity": "MILD",
+          "reason": "Rejects wood smoke to land on the real smoke; the bread-in-the-oven simile that follows identifies the source without the refusal.",
+          "suggestedFix": "Smoke, heavy and sour, with a scorch in it,",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Smoke, heavier, and sour, with a scorch in it, bread left in the oven while somebody stood talking at the door."
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 57,
+      "kills": 19,
+      "keeps": 38,
+      "severityMarkers": {
+        "mild": 18,
+        "moderateOrSevere": 1
+      },
+      "dominantPattern": "P8 body-part agency (hands/eyes/head carrying deliberate action)",
+      "secondSweep": "P5/P6 second sweep run sentence by sentence over all 1049 lines. Added A-I01 (village came), A-I05 (smell came out to meet), A-I06 (beds waiting), A-I09 (window looking), A-I11 (wire printed itself), A-I14 (planks talked), A-I18 (bars breathed), A-I08 (building got it). Body-part sweep added A-I02, A-I04, A-I07, A-I12, A-I13, A-I15, A-I16, A-I17, A-I19. No abstract states settling into body parts beyond the literal frost-cost mechanism (kept, subject matter). No receiver noun revised 'under the quill/on the page'. No metaphor chain across consecutive sentences except the staff (tick/woke/ground/shifted), kept as the chapter's established dowsing mechanism.",
+      "clusterFlags": [
+        "L633-L657 granary approach: 5 kills (A-I13, A-I14, A-I15, A-I16 plus A-N11) - smart-POV high-risk zone"
+      ],
+      "repeatNouns": [
+        "eyes (L633, L753, L863)",
+        "hand (L5, L589, L643, L657)"
+      ],
+      "pattern4Alert": "no",
+      "findings": [
+        {
+          "id": "A-I01",
+          "line": 1,
+          "text": "The taste came before the village did.",
+          "pattern": "P10-geography-locomotion",
+          "severity": "MILD",
+          "reason": "Real agent: the riders came into the village; the village does not arrive. Pass A sweep target (geography with a motion verb).",
+          "suggestedFix": "The taste came before she saw the village.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the village",
+          "verb": "came (did)",
+          "realAgent": "Jaina and the riders arriving"
+        },
+        {
+          "id": "A-I02",
+          "line": 5,
+          "text": "and Lyriel's hand came across from the right and took the cheek-strap, Lyriel not so much as turning her head.",
+          "pattern": "P8-body-part-agency",
+          "severity": "MILD",
+          "reason": "Hand carries the volition; trained reflex is still Lyriel's act, not involuntary. Test: 'Lyriel reached across' keeps the meaning.",
+          "suggestedFix": "and Lyriel reached across from the right and took the cheek-strap without turning her head.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "Lyriel's hand",
+          "verb": "came across / took",
+          "realAgent": "Lyriel"
+        },
+        {
+          "id": "A-I03",
+          "line": 91,
+          "text": "She let that sit.",
+          "pattern": "P11-permission-tag",
+          "severity": "MODERATE",
+          "reason": "Closed-set permission tag ('let that sit'); slop checker cap 0. Sylvanas does one thing: she pauses.",
+          "suggestedFix": "She waited.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "permission_tag_she_let_it",
+          "subject": "that (the word)",
+          "verb": "let ... sit",
+          "realAgent": "Sylvanas pausing"
+        },
+        {
+          "id": "A-I04",
+          "line": 93,
+          "text": "His head turned to the pump, where the two women stood with their buckets, and then, slower, to the stall.",
+          "pattern": "P8-body-part-agency",
+          "severity": "MILD",
+          "reason": "Brask is deliberately looking at his own street; the head is not acting on its own. Test passes with Brask as subject.",
+          "suggestedFix": "He turned his head to the pump, where the two women stood with their buckets, and then, slower, to the stall.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "his head",
+          "verb": "turned",
+          "realAgent": "Brask"
+        },
+        {
+          "id": "A-I05",
+          "line": 137,
+          "text": "The smell came out to meet them.",
+          "pattern": "P5-object-intent",
+          "severity": "MILD",
+          "reason": "'to meet' gives the smell purpose. Real agent: air through the opened door.",
+          "suggestedFix": "The smell came out through the open door.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the smell",
+          "verb": "came out to meet",
+          "realAgent": "air moving through the door Dickon opened"
+        },
+        {
+          "id": "A-I06",
+          "line": 149,
+          "text": "Some beds were still empty, made up and waiting.",
+          "pattern": "P5-object-intent",
+          "severity": "MILD",
+          "reason": "Beds 'waiting' carries the expectation that belongs to Tobin, who keeps them for the next sick.",
+          "suggestedFix": "Some beds were still empty, made up for whoever came in next.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "beds",
+          "verb": "waiting",
+          "realAgent": "Tobin, who keeps a bed for each expected case"
+        },
+        {
+          "id": "A-I07",
+          "line": 347,
+          "text": "the thumb refusing to bend enough to hold it.",
+          "pattern": "P8-body-part-agency",
+          "severity": "MILD",
+          "reason": "The stiffness is involuntary, but 'refusing' hands the thumb a will. Keep the limitation, drop the refusal verb.",
+          "suggestedFix": "the thumb too stiff to bend far enough to hold it.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the thumb",
+          "verb": "refusing",
+          "realAgent": "frost-damaged joint (physical stiffness)"
+        },
+        {
+          "id": "A-I08",
+          "line": 497,
+          "text": "and the long stone building had got it from somewhere, from somebody.",
+          "pattern": "P10-actor-demotion",
+          "severity": "MILD",
+          "reason": "A building does not acquire flour; whoever keeps it bought it. Real actor omitted.",
+          "suggestedFix": "and whoever kept the long stone building had got it from somewhere, from somebody.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the long stone building",
+          "verb": "had got",
+          "realAgent": "the granary keeper"
+        },
+        {
+          "id": "A-I09",
+          "line": 505,
+          "text": "each with a bubble in it, looking down the lane.",
+          "pattern": "P6-architecture-perceiving",
+          "severity": "MILD",
+          "reason": "The window does not look; it faces.",
+          "suggestedFix": "each with a bubble in it, facing down the lane.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the round window",
+          "verb": "looking",
+          "realAgent": "the window's orientation"
+        },
+        {
+          "id": "A-I10",
+          "line": 513,
+          "text": "The ward on Elsie wanted feeding.",
+          "pattern": "P5-object-wanting",
+          "severity": "MILD",
+          "reason": "Ward given desire. Real state: the ward had thinned and needed renewing.",
+          "suggestedFix": "The ward on Elsie needed feeding.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the ward",
+          "verb": "wanted",
+          "realAgent": "Jaina's spell thinning on its own schedule"
+        },
+        {
+          "id": "A-I11",
+          "line": 587,
+          "text": "that the silver wire had printed itself through her bodice.",
+          "pattern": "P5-reflexive-object-agency",
+          "severity": "MILD",
+          "reason": "Reflexive 'printed itself' gives the wire agency; Jaina's grip pressed it in.",
+          "suggestedFix": "that she could feel the silver wire printed through her bodice.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the silver wire",
+          "verb": "printed itself",
+          "realAgent": "Jaina gripping the staff"
+        },
+        {
+          "id": "A-I12",
+          "line": 589,
+          "text": "Sylvanas's hand had gone to the string of her bow.",
+          "pattern": "P8-body-part-agency",
+          "severity": "MILD",
+          "reason": "Matches calibration 'Her fingers found the bowstring before she had decided to reach for it' (KILL).",
+          "suggestedFix": "Sylvanas had put her hand to the string of her bow.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "Sylvanas's hand",
+          "verb": "had gone to",
+          "realAgent": "Sylvanas"
+        },
+        {
+          "id": "A-I13",
+          "line": 633,
+          "text": "before her eyes made out anything at all.",
+          "pattern": "P8-body-part-agency",
+          "severity": "MILD",
+          "reason": "Eyes carry the perceptual act. Test: 'before she could make out anything at all' means the same.",
+          "suggestedFix": "before she could make out anything at all.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "her eyes",
+          "verb": "made out",
+          "realAgent": "Jaina"
+        },
+        {
+          "id": "A-I14",
+          "line": 643,
+          "text": "The planks talked under her boots on every step.",
+          "pattern": "P5-object-speech",
+          "severity": "MILD",
+          "reason": "Speech verb on planks. Physical fact: they creaked.",
+          "suggestedFix": "The planks creaked under her boots on every step.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the planks",
+          "verb": "talked",
+          "realAgent": "her weight on loose boards"
+        },
+        {
+          "id": "A-I15",
+          "line": 643,
+          "text": "because Lyriel's hand at her back pushed her.",
+          "pattern": "P8-body-part-agency",
+          "severity": "MILD",
+          "reason": "Lyriel pushed her; the hand is an instrument.",
+          "suggestedFix": "because Lyriel pushed her on with a hand at her back.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "Lyriel's hand",
+          "verb": "pushed",
+          "realAgent": "Lyriel"
+        },
+        {
+          "id": "A-I16",
+          "line": 657,
+          "text": "And then his hand went past the jar for the lamp.",
+          "pattern": "P8-body-part-agency",
+          "severity": "MILD",
+          "reason": "Deliberate lunge for the lamp, not a reflex. Tam is the actor.",
+          "suggestedFix": "And then he reached past the jar for the lamp.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "his hand",
+          "verb": "went for",
+          "realAgent": "Tam"
+        },
+        {
+          "id": "A-I17",
+          "line": 753,
+          "text": "His eyes came back to her.",
+          "pattern": "P8-body-part-agency",
+          "severity": "MILD",
+          "reason": "Eyes as agent. Also an over-cap gaze beat (see A-T05). The repeated line of dialogue carries the moment; delete.",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "his eyes",
+          "verb": "came back",
+          "realAgent": "Tam",
+          "pairedWith": "A-T05"
+        },
+        {
+          "id": "A-I18",
+          "line": 799,
+          "text": "Close to, the bars breathed cold into her face.",
+          "pattern": "P5-object-respiration",
+          "severity": "MILD",
+          "reason": "Iron given breath. Physical fact: cold came off the bars.",
+          "suggestedFix": "Close to, cold came off the bars into her face.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "the bars",
+          "verb": "breathed",
+          "realAgent": "cold iron radiating"
+        },
+        {
+          "id": "A-I19",
+          "line": 863,
+          "text": "His eyes went up the lane toward the bakehouse.",
+          "pattern": "P8-body-part-agency",
+          "severity": "MILD",
+          "reason": "Eyes as agent; also an over-cap gaze beat (see A-T06). 'The rest he worked out himself' plus 'His thumb stopped' already carry Brask's realisation; delete.",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "subject": "his eyes",
+          "verb": "went up",
+          "realAgent": "Brask",
+          "pairedWith": "A-T06"
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 50,
+      "kills": 19,
+      "keeps": 31,
+      "severityMarkers": {
+        "mild": 19,
+        "moderateOrSevere": 0
+      },
+      "dominantPattern": "Tic 5 eye/gaze beats (12 against cap 4)",
+      "tallies": {
+        "tic1CornerOfMouth": "1 (L569) - at cap; ch3 final has 1 'corners of her mouth' (L509) - within 2-per-3-chapters",
+        "tic2Marked": 0,
+        "tic3TightenedEased": "tight x3 (L15 physical, L621 skin went tight - emotional, L807 physical seizure); eased 0 - under cap",
+        "tic4ShiftedFacial": "0 (2 physical: mare, staff)",
+        "tic5EyeGaze": "12 emotional eye/look beats; kept 4 (L93, L577, L747, L807), killed 8",
+        "tic6Weight": "0 emotional weight metaphors; all 'weight/heaviness' uses describe the in-world drag mechanism or physical mass",
+        "tic7Tags": "1 non-said performance tag ('said quietly', L203) - under cap; 'conceded' L125 is narration, 'hissed' x2 are geese and torch",
+        "filterWatched": "8 against cap 3; 4 killed, 4 kept (testimony/memory/hypothetical/plot-critical)",
+        "colonNarration": "21 against cap 17; 4 killed",
+        "paragraphOpeners": "3 consecutive-repeat runs + 1 She-density run; 3 kills clear all four"
+      },
+      "findings": [
+        {
+          "id": "A-T01",
+          "line": 175,
+          "text": "hair stuck to her forehead in dark points, eyes clear and frightened.",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "severity": "MILD",
+          "reason": "Eye/gaze emotional beats: 12 counted against cap 4. Generic 'frightened eyes' is the weakest; her line 'I'm warm now' and plucking the blanket carry the fear.",
+          "suggestedFix": "hair stuck to her forehead in dark points.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "tic": "Tic 5",
+          "count": 12,
+          "cap": 4
+        },
+        {
+          "id": "A-T02",
+          "line": 531,
+          "text": "Elsie looked up at the window over her head, the lane she couldn't see from where she lay, and said nothing.",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "severity": "MILD",
+          "reason": "Emotion (guilt) routed through looking; over cap. Use the hands she was already using two lines up.",
+          "suggestedFix": "Elsie twisted the edge of the blanket and said nothing.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "tic": "Tic 5",
+          "count": 12,
+          "cap": 4
+        },
+        {
+          "id": "A-T03",
+          "line": 555,
+          "text": "Sylvanas looked at her a moment. Then at the slate in Tobin's hand, with its square capitals. Then back.",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "severity": "MILD",
+          "reason": "Three-beat look sequence as reaction; over cap. 'Then she waited.' flows straight into 'How sure?'.",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "tic": "Tic 5",
+          "count": 12,
+          "cap": 4
+        },
+        {
+          "id": "A-T04",
+          "line": 873,
+          "text": "He looked at her for the first time since the loft. Then at the boy on the floor.",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "severity": "MILD",
+          "reason": "Look-as-reaction beat; over cap. The dialogue 'Burn it, then' carries his decision.",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "tic": "Tic 5",
+          "count": 12,
+          "cap": 4
+        },
+        {
+          "id": "A-T05",
+          "line": 753,
+          "text": "His eyes came back to her.",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "severity": "MILD",
+          "reason": "Over-cap gaze beat; same sentence as A-I17, same fix (delete).",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "tic": "Tic 5",
+          "count": 12,
+          "cap": 4,
+          "pairedWith": "A-I17"
+        },
+        {
+          "id": "A-T06",
+          "line": 863,
+          "text": "His eyes went up the lane toward the bakehouse.",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "severity": "MILD",
+          "reason": "Over-cap gaze beat; same sentence as A-I19, same fix (delete).",
+          "suggestedFix": "",
+          "fixType": "delete",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "tic": "Tic 5",
+          "count": 12,
+          "cap": 4,
+          "pairedWith": "A-I19"
+        },
+        {
+          "id": "A-T07",
+          "line": 943,
+          "text": "Sylvanas looked at her a moment longer.",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "severity": "MILD",
+          "reason": "Generic lingering-look beat; over cap.",
+          "suggestedFix": "Sylvanas stayed a moment longer on the threshold.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "tic": "Tic 5",
+          "count": 12,
+          "cap": 4
+        },
+        {
+          "id": "A-T08",
+          "line": 1031,
+          "text": "Brask looked at her. He didn't write that.",
+          "pattern": "Tic5-eye-gaze-over-cap",
+          "severity": "MILD",
+          "reason": "Look-as-reaction; over cap. The refusal to write carries the joke.",
+          "suggestedFix": "Brask didn't write that.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "tic": "Tic 5",
+          "count": 12,
+          "cap": 4
+        },
+        {
+          "id": "A-W01",
+          "line": 241,
+          "text": "He watched the light go in and out of his own stomach through his open shirt, frowning down at it.",
+          "pattern": "filter-watched-over-cap",
+          "severity": "MILD",
+          "reason": "filter_watched 8 against cap 3. Perception filtered through 'watched'; put the frown first and show the light.",
+          "suggestedFix": "He frowned down through his open shirt at the light going in and out of his own stomach.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filter_watched"
+        },
+        {
+          "id": "A-W02",
+          "line": 413,
+          "text": "Jaina watched the spoon go to the old man's mouth.",
+          "pattern": "filter-watched-over-cap",
+          "severity": "MILD",
+          "reason": "Filter verb plus demoted actor (the spoon 'goes'; Tobin feeds him). Name the actor.",
+          "suggestedFix": "Tobin put the spoon to the old man's mouth.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filter_watched"
+        },
+        {
+          "id": "A-W03",
+          "line": 779,
+          "text": "She watched the sky instead. Full dark.",
+          "pattern": "filter-watched-over-cap",
+          "severity": "MILD",
+          "reason": "Filter verb; apply with A-N14 (deleting 'She didn't look.').",
+          "suggestedFix": "Overhead it was full dark.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filter_watched",
+          "pairedWith": "A-N14"
+        },
+        {
+          "id": "A-W04",
+          "line": 789,
+          "text": "and watched him a while.",
+          "pattern": "filter-watched-over-cap",
+          "severity": "MILD",
+          "reason": "Filter verb; the stance (arms at her sides, a step back) already shows the attention.",
+          "suggestedFix": "and stood there a while.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "filter_watched"
+        },
+        {
+          "id": "A-C01",
+          "line": 609,
+          "text": "Close to, it was worse: a long blind wall of fieldstone going up into the dusk,",
+          "pattern": "colon-narration-over-cap",
+          "severity": "MILD",
+          "reason": "punct_colon_narration 21 against cap 17; reveal-colon after a verdict ('it was worse') is the weakest use.",
+          "suggestedFix": "Close to, it was a long blind wall of fieldstone going up into the dusk,",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "id": "A-C02",
+          "line": 699,
+          "text": "A bowl dropped over a candle: a shell of blue,",
+          "pattern": "colon-narration-over-cap",
+          "severity": "MILD",
+          "reason": "Over-cap colon; a comma does the same apposition.",
+          "suggestedFix": "A bowl dropped over a candle, a shell of blue,",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "id": "A-C03",
+          "line": 701,
+          "text": "and something in the hand gave: a small tearing, low down in the palm,",
+          "pattern": "colon-narration-over-cap",
+          "severity": "MILD",
+          "reason": "Over-cap reveal colon; comma apposition carries it.",
+          "suggestedFix": "and something in the hand gave, a small tearing low down in the palm,",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "id": "A-C04",
+          "line": 709,
+          "text": "It was the same. That was the first thing: the thing in Garran's gut",
+          "pattern": "colon-narration-over-cap",
+          "severity": "MILD",
+          "reason": "Setup-colon ('That was the first thing:') announces instead of stating. Over cap.",
+          "suggestedFix": "It was the same thing that was in Garran's gut",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        },
+        {
+          "id": "A-O01",
+          "line": 241,
+          "text": "The young man by the door had the smallest knot of all, no bigger than a walnut.",
+          "pattern": "paragraph-opener-repeat",
+          "severity": "MILD",
+          "reason": "Third consecutive paragraph opening 'The' (L239-243); cap 0.",
+          "suggestedFix": "By the door, the young man had the smallest knot of all, no bigger than a walnut.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "opener_consecutive_repeat"
+        },
+        {
+          "id": "A-O02",
+          "line": 329,
+          "text": "She tried to tuck the end under, and it slid out.",
+          "pattern": "paragraph-opener-repeat",
+          "severity": "MILD",
+          "reason": "Three consecutive 'She' paragraph openers (L325-331) and 4/6 'She' density from L321; cap 0. This fix clears both.",
+          "suggestedFix": "The end slid out when she tried to tuck it under.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "opener_consecutive_repeat"
+        },
+        {
+          "id": "A-O03",
+          "line": 621,
+          "text": "The bar was on the outside.",
+          "pattern": "paragraph-opener-repeat",
+          "severity": "MILD",
+          "reason": "Third consecutive paragraph opening 'The' (L617-621); cap 0.",
+          "suggestedFix": "But the bar was on the outside.",
+          "fixType": "replace",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "opener_consecutive_repeat"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 55,
+    "totalKeeps": 91,
+    "mildKills": 53,
+    "moderateOrSevereKills": 2,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 55,
+    "killsUnfixable": 0,
+    "fixStrategy": "default (no iterationKillsA history in manifest)",
+    "applyNotes": "fixType 'delete' means remove the cited text (and the following space). Paired findings (pairedWith) target adjacent or identical text and must be applied together: A-N06+A-N07, A-N14+A-W03, A-I17=A-T05, A-I19=A-T06.",
+    "verdict": "fail",
+    "verdictReason": "2 MODERATE kills (P7 chained negation at L823; P11 permission tag 'She let that sit.' at L91, a cap-0 slop-checker violation) plus 53 MILD kills. Dominant problems: body-part agency (9), narrated preamble negations (17), eye/gaze beats at 3x cap. Structural rhythm concerns: sentence_length_cv, one_sentence_paragraph_pct, short_sentence_pct, long_sentence_pct, opener_entropy, mattr. Structural texture deficit (texture below_target, score 78.9).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.789,
+        "target": 0.72,
+        "delta": 0.069,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.868,
+        "target": 0.7,
+        "delta": 0.168,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.2,
+        "target": 19.0,
+        "delta": 9.2,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 42.2,
+        "target": 35.0,
+        "delta": 7.2,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 18.5,
+        "target": 10.0,
+        "delta": 8.5,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.57,
+        "target": 7.7,
+        "delta": -1.13,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.773,
+        "target": 0.83,
+        "delta": -0.057,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "one_sentence_paragraph_pct",
+        "short_sentence_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 78.9,
+      "verdict_reasons": [
+        "participial: 7.4% below target 12.0% (score 62/100)",
+        "compound: 12.2% above target 10.0% (score 80/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.4% → target 12.0% (score 62/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.2% → target 10.0% (score 80/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.1% → target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "participial_pct": 7.4,
+      "compound_pct": 12.2,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 1.5,
+      "short_pct": 52.5,
+      "telegram_run_count": 42,
+      "texture_desert_count": 32,
+      "note": "structural texture deficit (participial and em-dash below target, compound above). Pass A kills overlapping flagged zones: A-N08/A-O02 (infirmary rounds), A-N11/A-I13-I16 (granary approach), A-N15 (cage), A-T04 (cage door). Revision should add joining constructions there rather than more fragments."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 123,
+        "total_violations": 7,
+        "overCap": [
+          {
+            "pattern": "filter_watched",
+            "count": 8,
+            "cap": 3,
+            "category": "filter_words"
+          },
+          {
+            "pattern": "punct_colon_narration",
+            "count": 21,
+            "cap": 17,
+            "category": "punctuation_tics"
+          },
+          {
+            "pattern": "opener_consecutive_repeat",
+            "count": 3,
+            "cap": 0,
+            "category": "paragraph_structure"
+          },
+          {
+            "pattern": "opener_she_density",
+            "count": 1,
+            "cap": 0,
+            "category": "paragraph_structure"
+          },
+          {
+            "pattern": "permission_tag_she_let_it",
+            "count": 1,
+            "cap": 0,
+            "category": "permission_tags"
+          }
+        ],
+        "passAMapped": "filter_words, said_bookisms, breath_tells, filler_actions, simile_overload, participial_attachment, punctuation_tics, paragraph_structure, permission_tags audited here. Pass-B categories (vague_pointers, hedging) left to pass B."
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "chapterId": "chapter7",
+  "iteration": 0,
+  "targetFile": "v0.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter; worst in S2 yard/tail narration and S3 table business",
+      "passage": "At the bottom he said something to the pair at the shed corner, and one of them answered, and he walked across the yard toward the lane alone, round the tail of the wagon and past Sylvanas so close that she could have put out her hand and taken his sleeve. || He put the ring of brass tags on one corner of it and the cracked river stone on the other, and a moth came in through the gap in the shutter and landed on the paper, and he moved it off with the back of his inky hand without looking. || He brought out a ring of tags on a cord, each one stamped with a mark, and turned them to the light one after another and put the ring back and went in again, for a small leather pouch this time. || Cyndia got up when she saw her coming, and Havel took his thumbs out of his belt, and before Sylvanas reached them the knock of the staff came down the street from the other end.",
+      "problem": "Texture score is 68.8/100, well under the 90 pass line. Compound joins are at 24.1% against a 14.1% target, so the narration runs on ', and ... , and ... , and' chains: polysyndeton is the default action syntax rather than an occasional effect. Participial phrases are almost absent (1.4% against 7.23%), and em-dash asides are at half the target rate (2.6% against 5.1%). The result reads as one long run-on cadence, not the anchor's mix of a long sentence with a mid-thought aside followed by a short beat. The anchor caps the 'and, and, and' list at once a chapter, and this chapter has more than a dozen.",
+      "fix": "Break the double and triple ', and' chains. For each chain, (a) turn one action into a trailing participial ('turning them to the light one after another before he put the ring back'; 'Lyriel lifting Jaina down there, in the straw'; 'brushing it off with the back of his inky hand'), (b) cut one link into its own short sentence ('One of them answered. He walked across the yard alone...'), or (c) move a qualifying detail into an em-dash aside. Other chains to treat the same way: the gate-spike sentence ('drove the spikes ... drew them out and looked'), the lamplighter in the yard ('and one by one the faces came out yellow under them, and when the lamp over the trough was lit...'), Corin setting off up the street ('set off up the street too fast, stopped, came back, and set off'), and the rooftop crock sentence in the loft. Aim for about 30 fewer compound joins across the chapter, 40 to 50 new participials and 15 to 20 more em-dashes. Semicolons are on target (1.5%), so leave them alone."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "medium",
+      "location": "Scorer deserts: S2 Fenner's yard ('This wasn't a sickness, then' through 'Who's their gaffer?'); S3 Cyndia's rope-walk report through the perimeter orders ('Then I'll take his jaw first' through 'Mine.')",
+      "passage": "One, then. It had to be one man, taken quietly at Ashby's door, with Jaina standing near enough to freeze his jaw and Sylvanas near enough to put him on the ground. Without Jaina's frost they'd have a body by morning and nothing to show for it but another collar. Without Sylvanas, Jaina was a woman with a staff in a white lane between two lamps. It needed both of them there at once.",
+      "problem": "The scorer flags 11 telegram runs and 10 texture deserts. Leave the gate interrogation volley ('Dalaran.' / 'Yes.' / 'Business in the city?') as it is: the clipped run there is the point. The deserts that matter are on the narration side, where Sylvanas's interior lands decisions in a row of plain declaratives with no aside and no connective. The anchor wants a long deliberative sentence carrying an em-dash pivot, then fragments to land the decision.",
+      "fix": "In each flagged S2/S3 interior paragraph, put one em-dash aside into the longest sentence, where her argument turns, for example 'It had to be one man—one, taken quietly at Ashby's door—with Jaina standing near enough...'. Give the yard-count paragraph ('Eight. Eight men in one yard...') a participial connective. Keep the dialogue volleys short. Texture belongs in the narration between the lines."
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "medium",
+      "location": "Scene 3, B6, Jaina's two explanation turns",
+      "passage": "\"Whoever filled that crock knows his way round an alchemist's bench, and round the other craft as well. Both. That isn't something you'd teach a loader.\"",
+      "problem": "B6's newOnPageInformation requires 'a necromantic carrier layer' and 'skilled alchemical and necromantic hands'. The word, or any plain equivalent, never appears in the chapter (0 hits for 'necroman'). 'The other craft' is the writer avoiding the word, and it does not fit Jaina's voice: she names things, 'necromancer' is in her default word field, and her canon line is 'I believe that the robed man was a necromancer.' Her horror tell is a hitch before the worst word, not a euphemism in place of it. The result is that the plan's mechanism fact (necromancy at packaging) is only implied.",
+      "fix": "Have Jaina say it, with her hitch: e.g. 'knows his way round an alchemist's bench, and round—' a beat '—necromancy. Both.' Or give the coat sentence its nature: 'A coat, too thin to see. Necromantic; I'd know that weight anywhere now.' One plain naming is enough. Stay on the Ch7-8 rung: no source and nothing about undeath."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "medium",
+      "location": "Scene 3, B6, Sylvanas's report beside the sheet",
+      "passage": "\"They don't teach the loaders.\" ... \"This one\"—she touched the single stroke she'd put halfway up the lane—\"carries word. He pushed something into that crack with his thumb and walked to Ashby's and went up the stair, and never came a stride nearer the sacks than the top of it. The masked ones never come down. The man at the window washed to the elbow before he'd put a jug to his mouth, and put his cloth back up before he touched a fresh pair of gloves.\"",
+      "problem": "Together with the earlier 'Ashby's. Upper floor. Five men in waxed cloths...' speech, Sylvanas re-narrates the B5 rooftop scene to the reader almost word for word, a few hundred words after we watched it: 'to the elbow', 'the jug', 'cloth back up', 'top of the stair'. The plan says to keep the exchange to a few lines and let the marks lying side by side carry the fit. Here the speech carries it instead, and 'to the elbow' now appears 8 times in the chapter.",
+      "fix": "Cut the second speech down to the sentry and runner strokes ('These stand sentry. This one carries word, and never goes near a sack.') and drop the washing and jug sentences. Jaina's 'Then they know what it does' can answer a single gesture: Sylvanas mimes peeling a glove, or taps the crock ring. Keep 'With his arm.' / 'To the elbow.' as the one echo, and trim 'to the elbow' in the loft paragraph and in the 'Every hoist man at Fenner's' paragraph so the echo lands."
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "Scene 3, B6 and B8 Jaina/Sylvanas volleys",
+      "passage": "\"Then I'll take his jaw first,\" Jaina said. / \"Before he gets a hand to his collar.\" / \"Before he knows he's been taken.\" Jaina's two white fingertips were flat on the staff, very still. \"I can do one. Not two.\"",
+      "problem": "The two women finish each other's sentences twice in S3 ('With his arm.' / 'To the elbow.' / 'Then that's where it goes on.', and the jaw/collar exchange above). The B6 continuity notes forbid reusing Ch4's sentence-finishing ('On purpose.') as a device, and the B8 run is that device again. It also flattens Jaina into Sylvanas's register. Jaina's sheet has her building sentences (claim, qualifier, consequence) at greater length than Sylvanas, but across S3 her lines are as clipped as Sylvanas's: 'Then they know what it does.' 'Then that's where it goes on.' 'Then I'll take his jaw first.' Line for line, the two could trade.",
+      "fix": "Keep the B6 elbow volley, which carries the fit. Break the B8 one: give Jaina a single built sentence of her own reasoning in place of 'Before he knows he's been taken', e.g. 'Before he knows he's been taken. If the cold reaches his jaw before the thought reaches his hand, he can't bite down on anything; but I need my fingers on his skin, and I can only do it once tonight.' Then 'Give me one man close enough to touch' can stand alone. Leave Sylvanas the short lines."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Throughout: POV interior and dialogue",
+      "passage": "Drilled, then. / A captain who liked strangers kept on his own streets, then. / Lyriel, then. / \"Four, then.\" / This wasn't a sickness, then. / One, then. / Morning, then, with the magistrate's clerk... / \"Keep them there, then.\" / and the 'Then that's...', 'Then they know...', 'Then I'll...' line openings",
+      "problem": "'X, then.' is the chapter's main pivot for landing a deduction, and it appears about nine times. Sylvanas, Havel and Jaina all use it, so it is a writer tic rather than one character's habit. Where it is used, the mannered_checker and slop gate will count it as a refrain.",
+      "fix": "Keep two: 'Drilled, then.' and 'This wasn't a sickness, then. It had sentries.' are the best. Recast the rest: 'Lyriel would watch the corridors.' (drop the opener), 'One man.' (not 'One, then.'), 'Morning. With the magistrate's clerk...', and have Havel take 'Four' with a nod in place of Sylvanas's 'Four, then.'"
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Scene 2, B4, Fenner's yard",
+      "passage": "\"Who's their gaffer?\"",
+      "problem": "'Gaffer' is English working-man's slang. It suits Havel, but it is wrong in the mouth of a Thalassian aristocrat whose voice sheet says she 'sounds aristocratic because she never needs to prove her rank'. She would not borrow a local word.",
+      "fix": "\"Who runs them?\" or \"Who stands over them in the yard?\" Havel can say 'yard-reeve' in his answer, which already does the local-colour work."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 1, B2, Havel's first speeches at the post",
+      "passage": "\"I took two.\" ... \"I've twelve men between this gate and the mill lane. When I take that crew, I want the whole of it at once, and I want it done so the magistrate can't open the door the same afternoon.\"",
+      "problem": "The B2 castFunction and Havel's voice sheet both say he 'says \"we\" early and often, and treats the party as his to look after'. In B2 he says 'I' throughout. His only 'we' is an aside ('loads we've sent out'), and the inclusive 'we' first arrives in S3 ('Now we do it properly'). That loses part of the warm first-read Havel and blunts the S3 contrast.",
+      "fix": "Put one inclusive 'we' into B2, aimed at the party: e.g. 'When we take that crew, we want the whole of it at once', or in the Hurdle Lane offer, 'We'll come at it from the back.' One is enough."
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "Scenes 1-2, Havel's pointing",
+      "passage": "His two fingers slid along the grey lane and stopped where a cross street met it. / His two flat fingers left the mill lane and went down a narrower street behind it. / His two fingers went down it. / His fingers went past it and pointed on down Hurdle Lane.",
+      "problem": "Havel's fingers are the subject of the action four times, though Havel is right there to be the actor. The pointing is a deliberate fair-play motif, and that is good, but repeating body-part agency makes it read as a device.",
+      "fix": "Make Havel the subject in at least two of the four: 'He ran two fingers down the narrower street behind it', 'He pointed past it, on down Hurdle Lane.' Keep 'two fingers held flat' as the image, once fully described."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scattered repeated tells",
+      "passage": "He rubbed the back of one scarred hand with the thumb of the other. (S1) / he rubbed the back of one scarred hand with the thumb of the other. (S3) / Corin: 'His face had gone red to the ears' / 'went red again' / 'his ears went red' / 'went white round the mouth' / 'gone pale again'",
+      "problem": "Havel's hand-rub repeats word for word, and that reads as copy-paste rather than motif. Corin flushes or blanches five times. His sheet gives him 'goes pale before he says the worst thing', so the colour change is meant to mark one moment, not every line. Repeated this often, it starts to play his nerves for comedy, which his red flags rule out.",
+      "fix": "Vary the second hand-rub's wording, or replace it with a different Havel tell (thumbs in his belt is already in use). Cut Corin's colour changes to two: one red, after Havel's 'in a box' put-down, and one pale, before 'And there's nobody else.' Give the others a different physical beat, such as the hand on the satchel or the strap in his fist."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 1, B1, gate interior",
+      "passage": "She had come down that hill meaning to read Andorhal better than the people who lived in it. Sun's sake. Half the ground in this town was ink.",
+      "problem": "'Sun's sake.' is the opening of a shape example on Sylvanas's voice sheet ('Sun's sake. The mage was right again...'), and the sheet says never to reuse a shape example's wording. The mannered_checker flags lifts.",
+      "fix": "Use a different sun oath or a flat 'Damn.', or drop the oath and let 'Half the ground in this town was ink.' land alone. That line is strong enough without it."
+    },
+    {
+      "check": "emotional-life",
+      "severity": "low",
+      "location": "Scene 3, B8, the 'one man' paragraph, and the 'a day behind' paragraph",
+      "passage": "It needed both of them there at once. || She'd been a day behind them since the miller's buy-back. The depot had been swept before she reached it and the stove stuffed with its own books, and the overseer had smiled and sent her up the wrong road. Every door on the way south had been shut the night before she got there.",
+      "problem": "Both paragraphs end on narrator summary. 'It needed both of them there at once' states the arc's thesis after the previous two sentences have already shown it, so it tells what was just shown. The 'day behind' paragraph spends three sentences recapping earlier chapters, and Scene 1 already made the same point ('For most of a week she had found every door shut just before she reached it'). Recap is not argument.",
+      "fix": "Cut 'It needed both of them there at once.' The two 'Without...' sentences carry it, or end on something in her idiom that she refuses to finish. Compress the recap to one concrete image ('a cold stove and a smiling overseer') and go straight to the question she argues ('Was that why she wanted it tonight?'). That part is good."
+    },
+    {
+      "check": "beat-plan-fidelity",
+      "severity": "low",
+      "location": "Scene 3, B8 perimeter paragraph vs. Scene 1 opening",
+      "passage": "She had sent Neral north with the child, and three horses back up the road, and now she was spreading what she had left of the detail so thin she could see light through it",
+      "problem": "The opening paragraph puts 'four tall Thalassian animals' in the ostler's yard. 'Three horses back up the road' contradicts that, or at least reads as a contradiction, and makes the reader stop and count.",
+      "fix": "Use 'four horses' or 'the horses', or reword so the count matches the stabling in the opening paragraph."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 68.8,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {"actual": 1.4, "target": 7.23, "score": 55.9},
+      "compound": {"actual": 24.1, "target": 14.135, "score": 42.5},
+      "emdash": {"actual": 2.6, "target": 5.119, "score": 76.9},
+      "semicolon": {"actual": 1.5, "target": 1.61, "score": 100.0}
+    },
+    "otherMetrics": {
+      "sentenceCount": 882,
+      "meanSentenceLength": 13.2,
+      "shortPct": 47.7,
+      "oneSentenceParagraphPct": 27.6,
+      "mattr": 0.778,
+      "words": 12020
+    },
+    "interpretation": "PARTICIPIAL: 1.4% -> target 7.23% (score 56/100). Add ', Ving' phrases as connective tissue between actions. | COMPOUND: 24.1% -> target 14.135% (score 42/100). Too many ', and/but/yet' joins; break some into separate sentences or convert to participials. | EMDASH: 2.6% -> target 5.119% (score 77/100). Use for mid-sentence pivots. | SEMICOLON: on target.",
+    "flaggedPassages": [
+      "telegram_run s20-27: \"His pen hand shook. The nib chattered on the paper... 'Whose yard?' he said to the barley man.\"",
+      "telegram_run + texture_desert s73-89: \"'Dalaran,' he said. 'Yes.' 'Business in the city?'\" (deliberate clerk volley; leave mostly as is)",
+      "telegram_run + texture_desert s162-172: \"'Were you sent? About the shipments?' 'No,' Jaina said.\"",
+      "telegram_run + texture_desert s201-210: \"'Where do they sleep, Captain?' Cyndia said from the window. 'Behind Fenner's.'\"",
+      "texture_desert s240-252: \"The inspection office keeps the second copy of every bill... He turned one round to face her\"",
+      "texture_desert + telegram_run s256-268: \"I put them beside the bills... Some haven't. Yet.' 'Forty-one,' Havel said\"",
+      "telegram_run s295-302: \"Now she opened her eyes and looked at the young man. 'Corin,' she said.\"",
+      "telegram_run + texture_desert s373-382: \"Corin held up a brass tag... 'Proudmoore,' Sylvanas said.\"",
+      "telegram_run + texture_desert s385-394: \"Lyriel was still at Jaina's elbow... 'Back here,' Sylvanas said.\"",
+      "telegram_run + texture_desert s484-497: \"This wasn't a sickness, then. It had sentries. 'Are those your loaders, Captain?'\"",
+      "telegram_run s757-764: \"'I'd not call that nothing, lad.' 'And there's nobody else.'\"",
+      "telegram_run + texture_desert s789-798: \"'Not the sacks. Corin's put the sacks on the south road.' She didn't look at Corin.\"",
+      "texture_desert s800-813: \"Cyndia came in two steps from the door. 'Ranger-General. The rope-walk.'\"",
+      "telegram_run + texture_desert s843-861: \"'Then I'll take his jaw first,' Jaina said... It needed both of them there at once. 'Cyndia. The roofs...'\""
+    ]
+  },
+  "summary": "A strong draft on everything except texture. Sylvanas thinks and argues with herself in every scene in her own idiom (the clerk's nib, Havel's twelve men, the trust/results split, the crack in the wall, the chalk redrawn on Hurdle Lane). POV is clean. All eight beats are dramatized, and the Havel fair-play plant sits where the plan wants it. It fails on rhythm (texture 68.8: heavy ', and' chaining, almost no participials, too few em-dash asides). It also has three medium craft problems in Scene 3: necromancy is never named in B6, Sylvanas's report re-narrates the rooftop scene almost word for word, and the Jaina/Sylvanas sentence-finishing device returns in B8 and flattens Jaina's voice into Sylvanas's."
+}

@@ -1,0 +1,5 @@
+# Sylvanas and Brask
+
+The spear scene is the whole relationship. Brask bars the lane; Sylvanas gets down without hurry, hands her bow to Cyndia, walks up to the shaft empty-handed ('She was taller than he was and made nothing of it') and says low, 'You're right to stop us.' He calls her 'my lady'; she says 'Ranger-General' twice, and he repeats it. She tells him Millhaven in objects: laid tables, the spoon in every bowl, the cradle with the blanket tucked, sixty prints, a child alive in a cellar who said it started with everybody coughing at the well. His thumb stops. She offers a test of her mage by dark, and then: 'Your people are watching you, Captain. Keep your spear. Walk with me. I'd like to see your village, and I'd like them to see me with you.'
+
+By night, after Tam, Brask wants the morning. Sylvanas stands with her hands at her sides and says, in the same voice, 'Your baker lights his oven before dawn?... Then you have until cockcrow.' 'Tell me what to shut.' She goes after him without waiting to see it done. In the morning he gives her the cart's news and names her in his ledger, getting the middle of 'Sylvanas' wrong, then right.

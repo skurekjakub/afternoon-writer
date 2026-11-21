@@ -1,0 +1,63 @@
+{
+  "chapterId": "chapter3",
+  "mode": "revision",
+  "iteration": 5,
+  "changes": [
+    {
+      "feedbackRef": "A -> negation-addiction-hunting-guide.md -> A-NEG-1",
+      "line": 269,
+      "before": "through the gates instead of over them and into the dark.",
+      "after": "straight through the gates and into the dark.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A -> negation-addiction-hunting-guide.md -> A-NEG-2",
+      "line": 654,
+      "before": "\"Nothing turned off, either. There's a gap in the bank back there, a track down to a farm. Not one of them went into it. And none came back down. Every mark in this cut goes the one way.\"",
+      "after": "\"There's a gap in the bank back there, a track down to a farm. They went past it, every one. Every mark in this cut points uphill.\"",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A -> negation-addiction-hunting-guide.md -> A-NEG-3",
+      "line": 818,
+      "before": "At noon they watered at a ford that was not the ford, a little gravel crossing",
+      "after": "At noon they watered at a little gravel crossing",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-GPT5-01",
+      "line": 382,
+      "before": "The face came no closer and went no further back.",
+      "after": "The face stayed where it was, behind the turnips.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-GPT5-02",
+      "line": 478,
+      "before": "The girl's voice did not change at all.",
+      "after": "The girl's voice stayed flat.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-GPT5-03",
+      "line": 770,
+      "before": "Cyndia's bow stayed up. Lyriel looked satisfied anyway.",
+      "after": "Cyndia's bow stayed up.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-GPT5-04",
+      "line": 826,
+      "before": "The mage did not open her eyes.",
+      "after": "The mage kept her eyes shut.",
+      "source": "gate-suggestion"
+    }
+  ],
+  "unfixable": [],
+  "flags": [
+    "L357-358 (out-of-scope observation from gate B): italic thought and 'Your da was right,' Neral said. have no blank line between them. Not touched because it was not a KILL finding; formatting fix left for the orchestrator or a later pass.",
+    "Self-audit: all changed passages re-checked against hitlist, negation, intent-smear, narrator-seep. No new violations. Eye/gaze count unchanged (one eyes beat swapped for another at L826; no new gaze beats added). L654 'points uphill' is literal toe direction, same usage as L546.",
+    "Working copy of v2-r4.md was created with cp before the Edits (not Write plus appends) to guarantee unflagged passages stayed byte-identical."
+  ],
+  "wordCount": { "before": 13544, "after": 13513 }
+}

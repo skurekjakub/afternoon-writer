@@ -1,0 +1,118 @@
+{
+  "chapterId": "chapter6",
+  "iteration": 2,
+  "targetFile": "v0c-r2.md",
+  "verdict": "pass",
+  "findings": [
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "L23, L25-27, L63, L81, L111, L229, L231, L371",
+      "passage": "L23: \"Bad luck, then. ... No. A fever didn't come in layers\" | L25-27: \"One man, then. ... No. Slower.\" | L63: \"No—it had to keep through far more than a damp floor.\" | L81: \"Arthas, then.\" | L111: \"No—that wasn't fair.\" | L229: \"No. Whether the fences were right had never been the point.\" | L231: \"Unfair to him now, then?\" | L371: \"Stop, then.\"",
+      "problem": "Jaina argues with herself in every scene, which is what the chapter needs. The problem is that the arguing nearly always takes the same form: an 'X, then.' fragment and a 'No.' pivot. There are five of each. mannered_checker flags then_fragment at 4 against a cap of 1, and slop-gate pass C will catch it. The voice sheet limits 'the hypothesis she shoots down' to once every few chapters. L23 and L25 put two 'X, then. ... No.' cycles in consecutive paragraphs, and that doubling is where a reader starts to hear the device.",
+      "fix": "Keep two cycles: L25-27 ('One man, then... No. Slower.', the sheet's sanctioned b1 method) and L229 (the b5 hinge). Recast the others without changing what they mean. L23: 'It could still be bad luck. A wet harvest...' and change 'No. A fever didn't' to 'But a fever didn't'. L63: 'It had to keep through far more than a damp floor, though.' L81: 'She'd put all of it in front of Arthas, said as plainly...' (this also fixes the next finding). L111: 'That wasn't fair, though.' L231: 'Unfair to him now?' L371: 'She could stop. Sit on Lyriel's wall...'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "L53 vs L81 (also L21, L135, L205, L369)",
+      "passage": "L53: \"I give him your slips, the sacking, the map with your knife hole in it.\" | L81: \"She'd put all of it in front of him: the slips, the sacking, the map with the hole in it, the road under them, the shape of it from the cart to the cow way\"",
+      "problem": "The evidence is listed six times in this chapter. Most of the lists do separate work: L135 shows how little the sheet weighs, L205 is the order she told it in, L369 is the arm's length. L81, though, repeats L53's list almost word for word only 28 lines later. Coming that soon, it reads as the narration copying itself, not as Jaina rehearsing.",
+      "fix": "Drop the list at L81: 'She'd put all of it in front of Arthas, said as plainly as she'd just said it to Sylvanas.' The paragraph's real content, that he is quick and hates being told a thing can't be done, starts right after it."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "L225",
+      "passage": "\"Jaina had lain in her blankets till morning thinking that he couldn't see what was in front of him, and she'd never said so to him. She'd been rather pleased with herself for knowing it.\"",
+      "problem": "This is the 'pleased with herself' refrain (an old thought she was proud of, now deflated). It was already used in ch2 and ch5, and mannered_checker reports it over its budget of 1 per 3 chapters. The vanity point is also made at L233: 'That was the part that made her face hot.'",
+      "fix": "Cut the sentence and end the paragraph on 'and she'd never said so to him.' L233 carries the self-reproach."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "L199, L79 vs L235, L243",
+      "passage": "L199: \"It stayed warm and low. Kind, even. That was worse.\" | L79: \"She'd have given a hand to see the keeping part work just once.\" / L235: \"Light—she'd have given a good deal for the Ranger-General to be wrong once.\" | L243: \"It came out more easily than she had expected. She'd been dreading it since the officers moved in, and then it was said.\"",
+      "problem": "L199 fixed the r1 polysyndeton, but 'Kind... That was worse' is the same move as a Sylvanas voice-sheet shape example ('polite enough to say nothing, which was worse'), and the sheets say their wording and moves are not to be reused. L235 repeats L79's 'she'd have given a ___ ... once' frame, which takes the edge off L79's joke ('She was running short of hands'). L243 says three times, in two sentences, that the admission came easily.",
+      "fix": "L199: 'It stayed warm and low, kind even, and it was still no.' Or end on the image: 'Kind, even. She'd have liked him better shouting.' L235: 'Light—she had wanted the Ranger-General wrong, just once.' L243: keep 'It came out more easily than she had expected.' Cut 'She'd been dreading it... and then it was said.'"
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "L203-207",
+      "passage": "\"I know you can. And I believe you.\" ... \"He'll put it in front of the council, and they'll listen to you a good deal sooner than they listen to me. As soon as these hills are quiet, I'll ride to Andorhal myself, and you can show me what you've found.\"",
+      "problem": "Arthas's refusal follows his voice sheet's 'Sample shapes' almost line by line ('I believe you', 'They'll listen to you sooner than to me', 'I'll ride to Andorhal myself'). mannered_checker flags 'I'll ride to Andorhal myself' as a 5-word lift from arthas-voice.md. The lines are in character and the beat works. Only the wording is borrowed.",
+      "fix": "Keep the shape and change the words. For example: 'As soon as these hills are quiet I'll come down to Andorhal, and you can walk me round it yourself.' Optionally vary 'they'll listen to you a good deal sooner than they listen to me' to 'they'll hear you out faster than they ever hear me.'"
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "L183, L189, L275, L277",
+      "passage": "L183: \"Then his eyes went past her shoulder, over the camp, to the far hills and the smoke.\" | L189: \"Arthas looked at Sylvanas. ... He looked at Sylvanas for a long, steady moment, as he might have looked at a boy ... Then he looked at the hills again.\" | L275: \"Jaina ate half of it in small bites, pinning it to the pommel with her two fingers\" | L277: \"with every mile since the bridge\"",
+      "problem": "These are small residues. L183 is body-part agency, which the anchor's 'gaze as default reaction' rule covers, and it was the one r1 left in place. L189 uses 'looked' four times in one paragraph, and the chapter has 29. L275 is a staging puzzle: she can't bite an apple she is pinning to the pommel. L277's 'the bridge' is ambiguous because several crossings appear in the chapter (L5's 'first bridge', the culvert, Strahnbrad's stream).",
+      "fix": "L183: 'Then, past her shoulder, he was watching the far hills and the smoke.' L189: 'Arthas turned to Sylvanas... He held her eye for a long, steady moment, as he might have held a boy's across the practice yard who had read his feint. Then he turned back to the hills.' L275: 'holding it in her two bare fingertips and ducking her head to it'. L277: 'since Strahnbrad'."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "low",
+      "location": "L41-49, L145-155, L179-185, L199, L243-251, L321-329, L369, L381 (scorer flags)",
+      "passage": "telegram_run s687-694: \"There were more further round, to the west... They were all waiting their turn. They were all full.\"",
+      "problem": "This finding is advisory. Texture is 98.8/100, and every dimension is in range. Em-dash is the only one below target (5.0 vs 6.2, score 95.2). The flagged runs are nearly all fast dialogue (b4/b6) or deliberate landing fragments (L369 'It was gone now. It was in her teeth.'), which is the register those beats call for.",
+      "fix": "No structural change is needed. If any of the passages above are touched, an em-dash aside is the cheapest way to raise the em-dash rate. One candidate is L381's last two sentences: 'They were all waiting their turn—every one of them full.'"
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 98.8,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {"actual": 7.9, "target": 7.417, "score": 100.0},
+      "compound": {"actual": 14.1, "target": 14.269, "score": 100.0},
+      "emdash": {"actual": 5.0, "target": 6.213, "score": 95.2},
+      "semicolon": {"actual": 2.2, "target": 1.73, "score": 100.0}
+    },
+    "otherMetrics": {
+      "sentenceCount": 722,
+      "meanSentenceLength": 12.5,
+      "shortPct": 44.2,
+      "paragraphOneSentencePct": 21.6,
+      "mattr": 0.784,
+      "wordCount": 9319
+    },
+    "interpretation": "Texture within target range. No structural changes needed. Em-dash is the only dimension below its target (-1.2 pts, just outside the ±1 tolerance), so it is the one that pulls the score down. Participial, compound and semicolon are on target. The style-guide baselines have been recalibrated since r1, so the r1 targets don't compare directly.",
+    "flaggedPassages": [
+      "telegram_run s65-73: So she didn't. \"Ranger-General.\" Sylvanas turned in the saddle... (L35-L41)",
+      "texture_desert s85-96: \"I can't tell you who. I can't tell you how it gets...\" (L49-L59)",
+      "telegram_run s262-269: \"Jaina!\" He came on, the officers stepping quickly to keep up. \"Light's sake.\" (L145-L149)",
+      "telegram_run s274-281: \"What happened to your hands?\" \"It's part of why I came.\" (L149-L155)",
+      "telegram_run + texture_desert s321-331: He let the slip slide back into the fold. \"Jaina. I don't doubt you.\" (L179-L185)",
+      "telegram_run s351-358: Yesterday I helped carry them out. His voice didn't change. It stayed warm and low. (L199)",
+      "texture_desert s448-461 + telegram_run s451-460: \"At the fork. You said they'd put it after the orcs...\" through \"Is ours.\" (L243-L251)",
+      "telegram_run + texture_desert s576-585: He was gone. Jaina twisted round to face Sylvanas... \"Why?\" she said. (L321-L325)",
+      "telegram_run s587-594: She had sat the mare that morning... \"It's a farewell,\" she said. (L327-L331)",
+      "texture_desert s658-668: She'd been glad of the arm's length, if she was honest. It was gone now. It was in her teeth. (L369)",
+      "telegram_run s687-694: There were more further round, to the west... They were all full. (L381)"
+    ]
+  },
+  "manneredCheckerCorroboration": {
+    "overCap": ["M12 then_fragment: 4 (cap 1)"],
+    "refrainsOverBudget": ["pleased_with_herself: ch2, ch5, ch6 L225 (budget 1 per 3 chapters)"],
+    "voiceSheetLifts": ["L207 'I'll ride to Andorhal myself' (arthas-voice.md)", "L305 'May the stars keep your road' is the plan's locked line; expected"],
+    "polysyndetonPer10k": 3.3,
+    "note": "Polysyndeton is now within budget: the one surviving 'and... and... and' chain is the L387 Andorhal reveal, as intended."
+  },
+  "r1Resolution": {
+    "polysyndeton (medium)": "resolved: only the L387 reveal chain remains; L199, L69, L369, L63, L321, L169 and L383 are all recast",
+    "b5 dilemma pivot (medium)": "resolved: L229 now gives the real reason (sure before, sure after, sure today) and L231 adds the honest flicker on 'unfair now'",
+    "b5 decision / Jaina's own act (medium)": "resolved: L255-263, Sylvanas waits for her, Jaina turns away the lieutenant with apology + flat limit and names Andorhal first",
+    "anaphoric runs (medium)": "resolved: L389 and L391 are single sentences, L73 is merged; 'somebody/someone' is down to 19",
+    "told-twice moments (low)": "resolved: L231 restatement and L233 squeeze cut",
+    "bows/cloaks lists (low)": "resolved: L91 and L279 recast",
+    "staging slips (low)": "resolved: helmet carried then donned at L213, 'three elves and half his staff' at L253, Sylvanas named at L337",
+    "dialogue overshoot L49/L53 (low)": "resolved",
+    "b2 recurrence marker (low)": "resolved at L63",
+    "residual tics (low)": "resolved apart from L183 'his eyes went' (carried into the limited-third finding above)"
+  },
+  "summary": "Pass. Every r1 finding is resolved. The polysyndeton is down to the single reveal chain. The b5 hinge now argues properly, and Jaina makes the b5 decision herself by turning away the lieutenant and naming Andorhal first. All nine beats are dramatized, POV is clean, the voices are distinct, and texture is 98.8/100. What remains is low-severity frequency polish: the 'X, then. / No.' self-argument pattern is overused (mannered_checker then_fragment is over cap), the L53/L81 evidence list repeats, the 'pleased with herself' refrain is over its budget, and Arthas's lines are lifted from his sheet. Slop-gate pass C will catch most of these. They can be fixed there or in a light touch-up, and none of them blocks the chapter."
+}

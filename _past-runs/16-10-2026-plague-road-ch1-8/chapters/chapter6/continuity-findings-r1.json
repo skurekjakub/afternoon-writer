@@ -1,0 +1,103 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter6",
+  "iteration": 1,
+  "targetFile": "v1.md",
+  "status": "fail",
+  "hardViolations": 1,
+  "softViolations": 2,
+  "priorFindingsResolved": [
+    {
+      "id": "V1 (r0, soft)",
+      "resolution": "Partly resolved. L169 now reads 'Every grain road I've read south of the Pass is carrying it ... This one worst of all, old under new.' That still overstates. See the new V3, which narrows it further."
+    },
+    {
+      "id": "V2 (r0, soft)",
+      "resolution": "Resolved. L63 now reads 'In the loft she had known it went through an oven and into Garran, but she had not stopped to ask what kind of keeping survives a mill, an oven and a gut.' This matches Ch4 L684 ('through a baker's oven and into a man's milk'). The new step is the question about craft, not the fact."
+    },
+    {
+      "id": "V3 (r0, soft)",
+      "resolution": "Resolved. L227 now reads 'the band that had fired the Garrow farm'. It no longer conflicts with Arthas's 'Yesterday I helped carry them out' (L199). L101's roof still coming down under the flicker can stand, because Arthas calls it 'the one that's still burning' (L195)."
+    },
+    {
+      "id": "V4 (r0, soft)",
+      "resolution": "Resolved. L9 now reads 'wrapped in Lyriel's linen', which matches Ch4 L936."
+    }
+  ],
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "hard",
+      "category": "cross-chapter",
+      "location": "L113: \"Sylvanas had been right about Brask, right about the overseer, right about most men Jaina had watched her measure since the Pass.\"",
+      "description": "Jaina's interior lists the river-depot overseer as a man Sylvanas read correctly. On the page, Sylvanas did the opposite. She took the overseer's story about six wagons on the Brill road, led the party north on it, found no ruts and no wagons, and turned back. That cost the day. Jaina was there for all of it: she read the overseer ('Nothing on him'), rode the Brill road, and turned her mare back with them. The plan lists the lost day to the overseer's lie as something Jaina knows at the open. Calling Sylvanas 'right about the overseer' reverses a Ch5 event and the reason the day was lost.",
+      "evidence": "Ch5 final L341-371: the overseer says 'North, on the Brill road. Six wagons', and Sylvanas answers 'North. The Brill road.' and leaves. Ch5 L395-409: Cyndia finds 'Nothing heavy since the rain', the toll-keeper says 'Grain don't come this way now', and 'No wagons. There had never been any wagons. She had taken a frightened man's word in a warm room'. Then 'Back,' and 'The mage looked at Sylvanas once across the gap between their horses... then turned her mare.' Plan knowledgeLedger.povKnowsAtOpen: 'They lost a day to a depot overseer's lie.' Plan constraint: 'Do not re-explain the Barov name or the lost day; they are callbacks.'",
+      "suggestedFix": "Replace 'right about the overseer' with something Jaina saw Sylvanas get right. For example: 'Sylvanas had been right about Brask, right about Corley, right about most men Jaina had watched her measure since the Pass.' Or just cut the clause: 'Sylvanas had been right about Brask, and about most men Jaina had watched her measure since the Pass.' Do not add anything that re-explains the lost day."
+    },
+    {
+      "violationId": "V2",
+      "severity": "soft",
+      "category": "knowledge",
+      "location": "L165: \"It goes in at the mills. People eat it in their bread, a little at every meal.\"",
+      "description": "Jaina tells Arthas, as fact, where the poison is put into the food chain: at the mills. She does not know that. In Ch4 the jar was hidden in a village granary loft, among flour sacks, and a lookout boy kept it. That is not a mill. At the Ch5 fork she said outright that she cannot tell where it goes in. Her case to Arthas is supposed to be exactly what she has. Her interior at L29 ('the mills and bakehouses to put it into bread') and L63 ('survives a mill, an oven and a gut') describe the mill as something the poison passes through, which is fine. The spoken line turns that into an insertion point she has not established.",
+      "evidence": "Ch5 final L541-545: 'It isn't in the granaries... Or it isn't in all of them.' / 'Or it goes in on the road.' / 'Or it goes in on the road, or at the far end of the road, before it ever gets to Andorhal, and comes round the back of it... I can't tell you which from here.' Ch4 final L614-622 and L660-684: the jar is under the boards of the granary loft, among new flour sacks. Plan B4 continuityNote: 'Her case is what she has: grain as the carrier, repeated meals, an organized network, the roads converging on Andorhal.'",
+      "suggestedFix": "Make it a statement about the carrier, not the insertion point. For example: \"It rides in the grain and goes through the mills with it.\" or \"It's in the flour. People eat it in their bread, a little at every meal.\""
+    },
+    {
+      "violationId": "V3",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L169: \"Every grain road I've read south of the Pass is carrying it, and every one of them runs to Andorhal. This one worst of all, old under new.\"",
+      "description": "The r0 fix narrowed 'every road' to 'every grain road', but the claim is still false by Jaina's own reads. Andorhal grain went down the King's road (the Elm Ferry slip, 'Twenty sacks, King's road'). Jaina stood in that road and read it 'Nothing', and at the fork she called the King's road thin with 'Nothing's ever sat on it.' The point of Ch5 was that the poison is not in all the Andorhal grain, only on the south road and its lanes. The r0 gate suggested 'grain road' wording, so this tightens the gate's own earlier fix; it does not fault the continuity-writer.",
+      "evidence": "Ch5 final L519-525: 'Elm Ferry, harvest. Twenty sacks, King's road.' / 'Nothing... Not light. Nothing. I stood in that road while you watered the horses, and it was a road.' Ch5 L537: every heavy and old mark 'sat on the south road and the lanes that ran off it'. Ch5 L541: 'It isn't in the granaries... Or it isn't in all of them.' Ch5 L563: 'The King's road's thin... Nothing's ever sat on it.' Ch5 L641: 'The slips said both roads. Only the marks said south.'",
+      "suggestedFix": "Use her actual marks, not the grain. For example: \"Every road I've read heavy south of the Pass runs to Andorhal. This one worst of all, old under new.\" This is true: every readable slip had Andorhal at one end, and the heavy marks sat on those roads."
+    }
+  ],
+  "advisories": [
+    {
+      "id": "A1",
+      "note": "Carried from r0 A2, not counted. L17 ('kneeling in the lane with the heel of the staff set down in a dead man's footprint while Cyndia laid her hazel switches out a step apart') merges two Ch3 moments. The switches were laid in the cow-way cut, not the lane, and in the cut Cyndia knelt while Jaina walked inside the box with the staff (Ch3 L610-622). This works as blurred memory. 'in the cut' would be the exact wording."
+    },
+    {
+      "id": "A2",
+      "note": "Carried from r0 A1, not counted. knowledgeLedger.povKnowsAtOpen says 'The old carter from the Millhaven road is still an unresolved road clue in her mind', but the B7 continuityNote and the on-page record say Jaina has no memory of the phrase. The prose (L327) follows the beat note. The plan owner should fix the ledger line."
+    },
+    {
+      "id": "A3",
+      "note": "Not counted. L165: 'if we hadn't burned every sack of flour in it in one night'. Ch4 L900-904 has the granary and bakehouse burned, but the house-to-house round is only 'Most of them' and the ford cart is 'not back'. This is acceptable as hyperbole in speech, made under pressure."
+    },
+    {
+      "id": "A4",
+      "note": "Not counted. L315: 'And she couldn't read a man in any case. She had told Sylvanas that herself.' Nowhere on the page does Jaina tell Sylvanas, in general terms, that she cannot read people. The closest is the overseer read in Ch5 L353, 'Nothing on him... No more than on you.' The line is a faint, unnamed nod to the overseer moment, and the plan says Jaina does not draw that parallel. It does not name the overseer, so it stays an advisory. 'She'd never been able to' would remove the nod."
+    },
+    {
+      "id": "A5",
+      "note": "Not counted. L281: the tally-man has 'ink at the edge of one cuff'. The Ch5 overseer had ink-stained cuffs (Ch5 L327). The detail is shown, not inferred, and Jaina draws no link, so it reads as a fair plant at the reader level. It is flagged only so that later passes do not make the echo louder."
+    },
+    {
+      "id": "A6",
+      "note": "Not counted. L129 and L267: a man in the horse lines bellows for 'somebody called Dace'. The constraint says no named army officers besides Arthas. Dace is a name shouted across the camp, with no rank or role, so it does not break the constraint."
+    },
+    {
+      "id": "A7",
+      "note": "Carried from r0 A3 and A4, not counted. L147: Jaina's single 'Your Highness' is teasing. L297 vs L381: the carts bear off left for the yards before the gate, which is consistent with the wagon line seen going down toward the gate."
+    }
+  ],
+  "verifiedClean": [
+    "Opening matches the Ch5 close. It is the same morning, and the four ride in the old order (Sylvanas front, Cyndia left, Lyriel right at the knee, two empty places at the back). Jaina slept against the stone block with her head on the bench end, and Lyriel's burnt crust is there. The 'old at the bottom, thin and new on top' read was said at the fork with chattering teeth. The brown smear resolves into army dust with burned-farm smoke rising into it (L87, L101).",
+    "Body: right arm dead, the staff in its crook. The left hand is wrapped in Lyriel's linen with two bare fingertips and a split palm. There are no white knuckles and no new note-writing. Frost and chattering teeth appear in B8, and the crystal dims through the day.",
+    "Evidence custody: the sheet with slips and sacking passes from Sylvanas's coat to Jaina's two fingertips before the audience (L133-135). Arthas never takes it (L171, L175, L215). It goes back into Sylvanas's coat (L241).",
+    "Knowledge ladder: built weapon, formal training, body as the last working part, and the locked line verbatim at L41. She cannot explain how a knot under the breastbone becomes walking dead (L49). Forbidden Kirin Tor theory about keeping a body useful after death sits behind the grille (L69), consistent with Ch4 L688. The fear has no name ('stopped at the third'). There is no answering-chamber or fidelity model.",
+    "Ch4 facts cited correctly: two coppers under, four loads, the last a fortnight before (Ch4 L540); Garran's sops in milk twice a day; the jar under the loft boards, made to keep and wait (Ch4 L684); the slate ruling out the well; the poison fold sewn into the collar (Ch4 L798-800); the young man with the cart.",
+    "No Mal'Ganis, no Kel'Thuzad. Barov is a seal and a name on every sack, 'good or bad' ('I'm saying nothing about Lord Barov', L177). There is no certainty of Barov guilt.",
+    "Arthas is warm and courteous, with real reasons: the Garrow farm, orcs 'out of the camps', men whose families are on the farms. He grants the point and then decides. There is no cruelty. The Silver Hand appears only as plate and tabards. No officer besides Arthas is named.",
+    "Sylvanas's B4 prediction (L187, addressed as 'Proudmoore' in front of others) comes before Arthas confirms it. The B6 verdict (L247) is distinct. Jaina says 'You were right' aloud (L243). The flashback stays interior, and Sylvanas does not ask (L253).",
+    "Name usage: Jaina says 'Ranger-General' and 'Arthas'. Arthas says 'Jaina' and 'Ranger-General'. Sylvanas says 'Proudmoore' before others, 'Mage' otherwise, and 'Your Highness' to Arthas. Lyriel says 'Jaina'. Cyndia speaks no address. The narration uses 'Sylvanas'.",
+    "Dalaran does not know where Jaina is (L391), consistent with Ch2 L41.",
+    "Tally-man: on foot, clean-shaven, middle-aged, satchel strap, no grain dust. He does not resemble the Ch3 carter. He glances back toward the granaries and looks the party over, both written as ordinary behaviour. The farewell is verbatim. Sylvanas asks for a read, and Jaina gives an honest 'Nothing... A tired clerk.' He is gone before Sylvanas looks back. 'Twice, it's wrong. That's as far as it goes yet.' Sylvanas's Ch3 recollection (bridge, old carter going north) matches Ch3 L737-759. Jaina's memory of the moment is blank, per the plan.",
+    "Cyndia shows no reaction to the farewell. Lyriel connects nothing. No party member gives a road blessing. Neral is absent.",
+    "Horse ladder: at the ring stones they sidestepped once and stood. At Millhaven the mare backed. Here they back and sidestep and never settle (L353). Sylvanas and Cyndia work the horses. Jaina refuses Lyriel's offer to stop.",
+    "Andorhal: alive and trading, with active granaries and wagon lines. The King's road comes in to a bigger gate, separate from the back way. The only lead is Havel at the market-gate militia post, as a name. The chapter closes on Jaina facing the gate."
+  ],
+  "summary": "FAIL: 1 hard and 2 soft violations. All four r0 findings were applied; three are fully resolved and one (V1, roads) needs one more tightening. New hard V1 (L113): Jaina's interior says Sylvanas was 'right about the overseer'. In Ch5, Sylvanas took the overseer's lie and the party lost a day on the Brill road, with Jaina there. Soft V2 (L165): 'It goes in at the mills' claims an insertion point that Jaina said at the fork she cannot name, and Ch4 put the jar in a granary loft. Soft V3 (L169): 'Every grain road I've read... is carrying it' is still contradicted by her clean read of the King's road, which carried Andorhal grain at Elm Ferry. All three are one-line fixes."
+}

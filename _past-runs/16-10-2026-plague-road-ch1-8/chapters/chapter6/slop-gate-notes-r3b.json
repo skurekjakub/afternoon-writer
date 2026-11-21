@@ -1,0 +1,182 @@
+{
+  "chapterId": "chapter6",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB 37 -> 15 -> 11 is strictly decreasing)",
+  "povRegister": {
+    "povCharacter": "Jaina Proudmoore",
+    "registerSummary": "Educated, exact, fast scholar-mage, Antonidas's apprentice, Kul Tiran by birth (Boralus sea memories). Thinks in evidence -> belief -> conclusion chains, reads the plague through staff pressure, drag and lateness, and uses kitchen words for horror around non-mages. Teases warmly, is self-mocking about her hands, and is courteous by habit. She would not think in epigraphs, slogans or detached thematic summaries, and she cannot read people.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 41,
+      "kills": 3,
+      "keeps": 38,
+      "severity": "MILD",
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "id": "B-r3-1",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 97,
+          "text": "Facing the wrong way. The whole army, every man in it, facing the wrong way.",
+          "whatItRestates": "Paragraph L95 already shows it concretely: the pickets 'every man looking at the far hills', the archers with 'their backs to the road', and 'Nobody in the camp turned round to see what was in them.'",
+          "issue": "Image -> interpretation. The doubled fragment adds only the label 'wrong way' and an intensifier ('The whole army, every man in it') to what L95 already put in front of the reader. The L99 self-correction ('But they were facing the smoke') reads cleanly straight off L95's last sentence.",
+          "suggestedFix": "",
+          "fixNote": "Delete the whole paragraph (L97). L95 ends 'Nobody in the camp turned round to see what was in them.' and L99 follows with 'But they were facing the smoke, and the smoke was real; ...'.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r3-2",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 217,
+          "text": "She was going to have to tell her so.",
+          "whatItRestates": "The decision is shown eight lines later when Jaina says it: '\"You were right,\" Jaina said. \"At the fork. ...\"' (L225).",
+          "issue": "Decision-forward gloss (a claim followed by a gloss). It announces an action the next exchange performs. The guide says outright that 'decision-forward' is not a reason to keep a line. The reluctance is already carried by 'Light, she would have liked the Ranger-General to be wrong about something.'",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph ends on 'Light, she would have liked the Ranger-General to be wrong about something.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r3-3",
+          "pattern": "F4",
+          "severity": "MILD",
+          "line": 355,
+          "text": "She had a captain's name and a gate.",
+          "whatItRestates": "The choice shown two lines later: 'Sylvanas turned to her and waited.' / 'Jaina wiped her lip with the back of the linen. \"The market gate,\" she said.' (L357-359).",
+          "issue": "A gloss of the 'Which left going in herself.' kind, the exact shape of the guide's calibration example. It closes the stocktake paragraph by stating the option she is about to pick, so 'The market gate' arrives already explained. The rhythm scorer also puts L353-355 inside a texture_desert (sentences 533-542).",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph ends on 'Antonidas didn't know where she was.' and Sylvanas's wait and the 'market gate' line carry the choice. This is the same deletion as B-r3-4: apply it once.",
+          "fixDifficulty": "low",
+          "textureZone": "texture_desert sentences 533-542",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "summaryByCode": {
+        "F1": 0, "F2": 0, "F3": 0, "F4": 3, "F5": 0, "F6": 0, "F7": 0, "F8": 0,
+        "F9": 0, "F10": 0, "F11": 0, "F12": 0, "F13": 0, "F14": 0, "F15": 0
+      },
+      "overallAssessment": "Residual decision-forward and image glosses sit at paragraph ends. The dialogue echoes, vocatives and report-shaped speeches all have a defence (the plan's name rule, Sylvanas's tactical read, the 'make it short' setup) and are recorded as keeps in the scratchpad."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 23,
+      "kills": 0,
+      "keeps": 23,
+      "severity": null,
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Ran Tier A and Tier B over every paragraph against the register above. A1 candidates ('A roof.' L89, 'A clerk.' L307, 'A turn of phrase.' L305, 'Study.' L69, 'Short.' L55, 'Old at the bottom...' L5) are active identifications or Jaina's own self-argument, the kind of thing she could mutter, not captions. A7 candidates (fevers and shared wells L21, 'as men in Dalaran did when an elf told them their business' L173, 'Country people have dozens of them.' L299) are tactical generalisations she uses to predict or argue. A8 openers (L7, L89, L117, L347) either name the source (the mule, the bake ovens) or delay it because she cannot yet know it (the smear, the smoke before 'A roof.'). B1/B3 candidates (L11, L121, L133, L333, L351 'It was working. Oh, it was working.', L101, L209) are in her idiom and tied to physical evidence on the page. No A2 slogan stacks or A5 mood labels remain. The prose is at iteration 3, and the one leftover paragraph-final gloss was killed under F4 in gpt-5-prose-issues.md (narrator-seep defers A6 to F4).",
+      "summary": {"tierAKills": 0, "tierBKills": 0, "severePages": [], "severeScenes": [], "structuralHabit": "no"}
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 17,
+      "kills": 1,
+      "keeps": 16,
+      "severity": "MILD",
+      "dominantPattern": "P5",
+      "findings": [
+        {
+          "id": "B-r3-4",
+          "pattern": "P5",
+          "severity": "MILD",
+          "line": 355,
+          "text": "She had a captain's name and a gate.",
+          "failedQuestion": "What specifically? The line says 'a captain's name' and 'a gate' instead of Havel and the market gate.",
+          "missingPayload": "Captain Havel and the militia post inside the market gate, both named on the page at L269-271. The line steps back from them into a status tally.",
+          "issue": "Planner shorthand. With 'Arthas was on his hill... His letter would go north tonight... Antonidas didn't know where she was.', it reads as a beat-card stocktake ('Assets: a name, a gate') rather than something she sees or handles. It would fit unchanged in an outline.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. This is the same deletion as B-r3-3: apply it once.",
+          "fixDifficulty": "low",
+          "textureZone": "texture_desert sentences 533-542",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "summary": {
+        "killRate": "6%",
+        "dialogueClusters": [],
+        "narrationClusters": [],
+        "repeatStandIns": ["clean/cleanly/smoothly/properly (L43, L65, L69, L73): each is anchored in the same line or the one next to it (the depot floor swept and the overseer's answers ready at L25, 'ran on flour and finished on its own', 'strengths in one column and faults in the other', the listed slips/sacking/map)"],
+        "keepRateNote": "The keep rate is above 25% because most candidates are magical readings ('drag', 'lateness', 'knot', 'keeping part') that this chapter defines through the staff, the crystal and the jar. That is a subject-matter defence. Each keep's anchor is recorded in the scratchpad."
+      }
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severity": null,
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Audited each setup and reply as an exchange. (1) 'Make it short.' (L53) / 'So she gave it to him short.' (L147) -> L149-169: names the flour, the mills and the bread, a field sign (the dead got up and walked north, sixty of them), a counter-measure that worked (every sack burned), the route (slips -> Andorhal, 'this road runs on into Andorhal by the back gate'), and an order Arthas could give: 'I need men to shut the Andorhal granaries'. (2) L35, the plain version for Sylvanas: flour, jar, Millhaven, wagons in and feet out. The voice sheet licenses Jaina over-translating for Sylvanas early on, and Sylvanas acts on it ('Things he can hold' -> the slips, the sacking, the map). (3) 'Who runs the granaries?' (L263) -> the clerk's joke about factors, guild and town, then Jaina's sharper 'somebody who knows the yards' (L267) -> Havel, the militia post just inside the market gate on the left with a bench outside, and the instruction to keep straight on where the carts bear left. That is a usable route and target. (4) 'The market gate,' (L359): the target was already given at L269."
+    }
+  ],
+  "outOfScopeObservations": [
+    "L35 has a stray closing quote after 'waits.' ('...and it keeps in them and waits.\" It comes in on the wagons...'). This leaves the locked plague line outside the quotation marks. It is a mechanical fix for the slophunter: delete the stray quote mark.",
+    "L217 says Sylvanas told her 'again at the hedge, just by watching which way the pickets faced', but the picket read happens at the top of the cut (L85-93), before they ride down to the hedge. This is a possible continuity slip, not a pass-B finding."
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 81,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "phantom-concreteness-guide.md"],
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "distinctSentencesAffected": 3,
+    "verdict": "fail",
+    "verdictReason": "4 MILD kills (more than 3), and no MODERATE or SEVERE kills. The kills fall on 3 sentences: L97 F4 image gloss, L217 F4 decision-forward gloss, and L355 F4 + P5 stocktake closer (one sentence, two guides, recorded twice by rule). Every fix is a deletion: 3 cuts clear all 4 findings. Structural texture deficit: texture score 83.7, below_target on participial, compound and em-dash. Structural rhythm concerns: long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.824, "target": 0.733, "delta": 0.091, "range": [0.613, 0.863], "inRange": true},
+      "sentence_length_mean": {"actual": 13.1, "target": 12.412, "delta": 0.688, "range": [10.412, 14.412], "inRange": true},
+      "sentence_length_cv": {"actual": 0.736, "target": 0.723, "delta": 0.013, "range": [0.623, 0.823], "inRange": true},
+      "short_sentence_pct": {"actual": 31.9, "target": 30.155, "delta": 1.745, "range": [23.155, 37.155], "inRange": true},
+      "long_sentence_pct": {"actual": 23.9, "target": 15.352, "delta": 8.548, "range": [12.352, 19.352], "inRange": false},
+      "opener_entropy": {"actual": 6.03, "target": 6.637, "delta": -0.607, "range": [6.137, 7.137], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 28.2, "target": 21.378, "delta": 6.822, "range": [17.378, 26.378], "inRange": false},
+      "mattr": {"actual": 0.789, "target": 0.848, "delta": -0.059, "range": [0.818, 0.888], "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 83.7,
+      "participial_pct": 5.3,
+      "compound_pct": 15.8,
+      "emdash_pct": 0.9,
+      "semicolon_pct": 2.0,
+      "short_pct": 40.3,
+      "verdict_reasons": [
+        "participial: 5.3% below target 7.23% (score 84/100)",
+        "compound: 15.8% above target 14.135% (score 87/100)",
+        "emdash: 0.9% below target 5.119% (score 64/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.3% -> target 7.23% (score 84/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 15.8% -> target 14.135% (score 87/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 0.9% -> target 5.119% (score 64/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": {"telegram_run": 4, "texture_desert": 8}
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 41,
+      "total_violations": 0,
+      "overCapCategories": [],
+      "passBMappedSignals": {
+        "hedge_perhaps": {"count": 1, "cap": 6, "lines": [211], "verdict": "KEEP (F3: the uncertainty is the dramatic point, Jaina questioning her old judgment of Arthas)"},
+        "hedge_might_have_been": {"count": 1, "cap": 1, "lines": [63], "verdict": "KEEP (F3: genuine uncertainty that implicates her as the flippant first-year)"},
+        "something_vague": {"count": 2, "cap": 2, "lines": [115, 149], "verdict": "KEEP (L115: she could not hear what the sergeant said; L149: specified at once in dialogue as 'a made thing, a necromancer's work')"}
+      },
+      "toolBackedKills": 0
+    }
+  }
+}

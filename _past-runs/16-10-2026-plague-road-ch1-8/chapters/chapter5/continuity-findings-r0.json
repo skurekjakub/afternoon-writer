@@ -1,0 +1,90 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter5",
+  "iteration": 0,
+  "targetFile": "v0c.md",
+  "status": "fail",
+  "hardViolations": 1,
+  "softViolations": 3,
+  "violations": [
+    {
+      "violationId": "V1",
+      "severity": "hard",
+      "category": "cross-chapter",
+      "location": "L159: \"She had thought—at the Pass, in Millhaven, on her knees in that cage with the boy's teeth in her hand—that she was following one man. A young man with a cart.\"",
+      "description": "The narration gives Sylvanas a belief about the young man with the cart at a time when she could not have held it. At the Pass (Ch1-2) no grain man existed in her knowledge; she first hears of a 'newer grain seller' and the carter's 'young fellow with a grain cart' in Ch3 Millhaven. In Millhaven she explicitly dismissed him. The 'one man' judgment was reached with Jaina in Ch4, in the sick village.",
+      "evidence": "Ch3 final L457: 'Every village south of the Pass had a new man with a cart once a season, and a husband and wife with words to say about him. She put it at the back of her head.' Beat plan knowledgeLedger.povKnowsAtOpen: the girl's newer grain seller and the young man with the cart 'are, she and Jaina judged in Ch4, one man.' Ch4 is where the cart man becomes the trail (Cyndia's report L540; the closing line 'after the young man with the cart').",
+      "suggestedFix": "Limit the list to Ch4 moments, e.g. \"She had thought—in that village, in the loft, on her knees in that cage with the boy's teeth in her hand—that she was following one man. A young man with a cart.\" (L215's hedged 'when she'd thought at all' and L527's 'since the Pass' are vague enough to leave.)"
+    },
+    {
+      "violationId": "V2",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L275: \"the boy had sat on it all summer.\" Also L217: \"Tam in the loft with his chin on his collar for a summer\" and L537: \"the way they'd had the use of a boy in a loft for a summer\"",
+      "description": "Tam was not in the village all summer. Brask said he arrived at the back end of summer, and Sylvanas was in the loft when he said it. Three lines in her narration stretch his time in place to a whole summer.",
+      "evidence": "Ch4 final L706 (Sylvanas present, gives orders at L710): 'He came looking for work at the back end of summer. Joss took him on.' Memory characters/tam.json: 'took on at \"the back end of summer\"'. threads/tam-and-the-collar-poison: 'a hoist hand taken on \"at the back end of summer\"'.",
+      "suggestedFix": "L275: \"and the boy had sat on it since the back end of summer.\" L217: \"Tam in the loft with his chin on his collar since summer's end\". L537: \"the use of a boy in a loft for a season\" (or \"since the back end of summer\")."
+    },
+    {
+      "violationId": "V3",
+      "severity": "soft",
+      "category": "physical",
+      "location": "L141: \"Millhaven taking its first short-rate load in the first week of the summer\" versus L65 (\"Then a line at midsummer ... Own cart. Millhaven.\") and L149 (\"Short rate. Since midsummer.\")",
+      "description": "The chapter dates Millhaven's first short-rate load two ways. Sylvanas reads the first Millhaven own-cart line at midsummer (L65), then Cyndia's dating puts it in the first week of summer (L141). The count at L149 is 'since midsummer', which would leave out a load from the first week of summer. Ch4 has the cart man reaching the sick village 'three months ago' from an autumn present, which fits midsummer and not early summer.",
+      "evidence": "Internal: L65 / L141 / L149. Ch4 final L540: 'Three months ago a new man came through with a cart'. Ch3 and Ch5 set the present in autumn (Ch3 'autumn mud'; Ch5 L319 swallows gone south; L39 'The mornings are cold now').",
+      "suggestedFix": "L141: \"North was earliest by a fortnight on the rest, Millhaven taking its first short-rate load at midsummer.\""
+    },
+    {
+      "violationId": "V4",
+      "severity": "soft",
+      "category": "knowledge",
+      "location": "L661: \"Anyone. Brask, Corley, the miller, the ostler at Wick, the woman sweeping the chapel step.\"",
+      "description": "Sylvanas is asking 'Who told the depot?', meaning who warned the depot before the party arrived. The woman sweeping the chapel step only saw them on day 3, after they had reached the depot, as they rode north on the overseer's lie (L409). By then the depot had already been swept. Sylvanas has fixed that order herself: L323 has the sweeping done overnight, and L655, a few lines earlier, says 'swept to the boards the night before they came'. Naming that woman as a possible source breaks the timeline she has just worked out.",
+      "evidence": "L409 (the chapel-step woman is seen on the morning of day 3, outbound north). L323 and L655 (the depot was swept the night before they arrived). Beat plan B8 stillUnknownAfterBeat: 'How the depot knew to expect them'. This is a question about warning in advance.",
+      "suggestedFix": "Replace her with someone who saw them before the depot, e.g. \"Brask, Corley, the miller, the ostler at Wick, the ostler at the Plough with his lantern.\" (The Plough ostler saw them on the night of the sweep, L297.)"
+    }
+  ],
+  "advisories": [
+    {
+      "advisoryId": "A1",
+      "location": "L567: \"the two working fingers out of the linen and already inked\"",
+      "note": "Plan constraint 33 says 'ink-stained fingers' belong to clerks, Sylvanas or Cyndia, and not to Jaina. Here the ink is physically consistent: her marks went down with a pen held in those two fingers (L117, L209). Optional tweak: \"black at the tips from Corley's pen\". Not counted."
+    },
+    {
+      "advisoryId": "A2",
+      "location": "L595: \"Barov's seal on half of it, his factor's name on more, his stores at the Andorhal end of every one.\"",
+      "note": "'Every one' goes beyond the paper. Cyndia counts Barov on 31 of 53 slips (L515). This is a connection claim, not a guilt claim, so it does not breach the Barov guard, but the narration should not overstate the paper either. Suggest \"his stores at the Andorhal end of most of them.\" Not counted."
+    },
+    {
+      "advisoryId": "A3",
+      "location": "L53: \"A carter's boy came through at dawn for the smith.\"",
+      "note": "The party needed dawn to mid-afternoon on the same road, with a noon ford. A boy who reached the depot at dawn with news of the granary fire and Tam's death would have had to leave the village around midnight. That is plausible but tight. 'came through this morning' removes the strain. Not counted."
+    },
+    {
+      "advisoryId": "A4",
+      "location": "L65: \"if she'd ever thought about grain in her life, which she had not.\"",
+      "note": "Sylvanas spent all of Ch4 on the granary and the bakehouse. This reads as hyperbole about the grain trade. Optionally qualify it: '...in her life before this week'. Not counted."
+    },
+    {
+      "advisoryId": "A5",
+      "location": "whole chapter",
+      "note": "Facts introduced in this chapter, for the memory-keeper: Corley (clerk at the first depot crossing, kettle stove, 'And.' margins); Coldwell, Wick (carters' inn and stable book), Hollow Green (own mill, no book), Brent's farm, Elm Ferry (King's road, read 'nothing'), Ashford (south road, revised to heavy); the Pennocks' tally stick; the Plough (halfway inn); the river depot (three tiled barns, wharf, crane, weigh-house, brick office). The overseer is about fifty, pale, and named Tolliver and Sons of Brill as buyer. He fled south over the bridge with his wife in a trap on the morning of day 3 and is alive. A bridge-keeper and a toll-keeper on the Brill road. Arthas, Strahnbrad and the army have three on-page sources: the brown-coated merchants (L233), the toll-keeper's company of the King's foot (L437), and Cyndia's army-shod wagons on the south road (L701). Jaina places Barov (court lord; holds the land and most of the granaries round Andorhal; a Boralus dinner when she was small). The midnight fork has a carters' lodge whose bench is made of wagon boards. The King's road runs south-west to Andorhal's front gate and reads clean; the south road bends through the hills past Strahnbrad to Andorhal's back and reads heavy. The sheet has a knife-hole at Strahnbrad. Sylvanas has been up three nights."
+    }
+  ],
+  "verifiedClean": [
+    "Opening matches Ch4 close: same day, after the pre-dawn rain, past the ford by noon, same riding order with two empty places, ANDORHAL square in her coat, Tam's bite on two bare right-hand fingers, left glove grey with flour.",
+    "Name walls: narration says 'the mage' through L637 and 'Jaina' from L641 onward, with no slips in either direction. Aloud Sylvanas says 'Mage' and 'Proudmoore' only. Lyriel says 'Jaina' (L257).",
+    "Elves cannot feel contamination. Every reading comes through Jaina's staff (heavy/light/old/starting/thin/nothing). The cold Sylvanas feels at L85 is Jaina's frost, not the sickness.",
+    "Jaina's hands: right arm dead, staff in its crook. Pen held in the two left fingertips, marks clumsy (blot with a tail, bird's foot). No hand-reading.",
+    "B2 Hollow Green correction is quick and without pride. Cyndia counts in B1, B2 and B6a. Lyriel handles the talkers and the toll-keeper.",
+    "B3 shows the live network (bought back yesterday; left before light). Lyriel's loop joke and Jaina's laugh while Cyndia watches the trees. Evening damp, no rain.",
+    "Rut logic: no rain on the page after Ch4. The overseer's 'two days ago' falls on day 1, after the rain. Cyndia confirms no heavy ruts since then. The toll-keeper has had no grain in a month.",
+    "B5 plain-sight clues (fresh ash, inked cuffs, ready answer, pale face, tidy desk) are shown and filed under the empty depot. Jaina finds 'nothing on him'. Sylvanas takes his word under the clock.",
+    "The overseer is gone, alive (bridge-keeper), house emptied, depot locked, and never on the page after B6.",
+    "Barov: Sylvanas holds the line ('Connected... It did not tell her who had driven the cart'). No guilt verdict in narration or dialogue.",
+    "The carter callback matches the Ch3 page: brown cob, empty plank wagon with grey dust in the cracks, 'Empty going up, full coming down', 'I come up for the mill every fortnight', 'Nothing for me here, then', 'well enough' on market day against five days dead, drove north up the dead street, 'New man. I've a mind to see what he looks like.' He is not conflated with the cart man. Lyriel's Ch3 answer is not linked to the leak. Cyndia does not raise him.",
+    "Arthas and Strahnbrad have on-page sources before B9. The army appears only as dust and rumour. The B9 choice rests on Jaina's read ('No' to a re-read). The warning is a plain assessment.",
+    "No Mal'Ganis, no Kel'Thuzad, no designer named. Neral and the fourth ranger appear only as the two empty places. The sick village is never named.",
+    "The B7 'older the further down the south road' gradient is consistent with B1's Millhaven-first dating: the trunk road carried every load from the start ('It started there, or it started there first')."
+  ]
+}

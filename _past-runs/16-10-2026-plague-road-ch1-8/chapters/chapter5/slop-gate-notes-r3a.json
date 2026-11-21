@@ -1,0 +1,174 @@
+{
+  "chapterId": "chapter5",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsA trajectory [51, 18, 6] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 44,
+      "kills": 2,
+      "keeps": 42,
+      "severityMarkers": {
+        "clusterPages": [],
+        "clusterWarnings": [],
+        "notes": "No page holds 2+ kills. The two kills are in the same scene (fork lodge, L611 and L673) but use different shapes (source-swap vs imperative antithesis), so the repeat-shape rule does not fire."
+      },
+      "dominantPattern": "P3 source-swap / P5 preamble pivot (one each)",
+      "findings": [
+        {
+          "id": "r3a-neg-1",
+          "verdict": "KILL",
+          "pattern": "P3-source-swap-pivot",
+          "line": 611,
+          "text": "Four elves on Thalassian horses, asking for books from the brook to the river: nobody needed to send a rider. Anyone could stand in a doorway after they'd gone by and tell the next man who came along.",
+          "deletionTest": "Four elves on Thalassian horses, asking for books from the brook to the river. Anyone could stand in a doorway after they'd gone by and tell the next man who came along.",
+          "reason": "Pattern 3. It rules out the courier ('nobody needed to send a rider') before naming the real channel (doorway gossip). The deletion test survives: 'anyone could stand in a doorway... and tell the next man' already rules out a rider, and the later callback at L631 ('She'd said so herself') still has its referent.",
+          "severity": "MILD",
+          "suggestedFix": "Four elves on Thalassian horses, asking for books from the brook to the river. Anyone could stand in a doorway after they'd gone by and tell the next man who came along.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "relatedFindings": ["r3a-tic-1"],
+          "fixNote": "Same replacement text as r3a-tic-1. Apply once. The fix also takes the narration-colon count from 13 to 12, back under the cap."
+        },
+        {
+          "id": "r3a-neg-2",
+          "verdict": "KILL",
+          "pattern": "P5-preamble-negation (imperative antithesis)",
+          "line": 673,
+          "text": "\"Don't expect them to listen to us. Expect them to get in the way.\"",
+          "deletionTest": "\"Expect them to get in the way.\"",
+          "reason": "Pattern 5 in the imperative mood: 'Don't expect X. Expect Y.' Step 1 (procedural command) does not apply. This is a rhetorical contrast pivot, not an instruction like 'Do not touch the ward-stone'. Its negative half repeats the sentence before it ('they'll put the flour after the orcs, and after the horses, and after the quartermaster's supper'). The deletion test survives, and Jaina's reply ('Then I'll have to show it to them.') still follows.",
+          "severity": "MILD",
+          "suggestedFix": "\"Expect them to get in the way.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "fixNote": "Replace only the closing two-sentence couplet of Sylvanas's speech. Keep everything before it ('The army is up there for the orcs. ... with orcs in my hills.' plus the knife action) as it is."
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 31,
+      "kills": 0,
+      "keeps": 31,
+      "severityMarkers": {
+        "clusterFlags": [],
+        "repeatNouns": [],
+        "pattern4Alert": "no"
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "First sweep (closed verb list for human intention): no road, depot, map, room, institution or abstraction carries an intention, command, promise, memory, judgment or deception verb. Pattern 11 sweep: the 13 uses of 'let' are all physical allowing with a person or animal object and a result ('let the mare choose her own feet', 'let her horse drift in', 'Sylvanas let Lyriel take him', 'let herself down'), so none is a permission tag. No nominalization acts as an agent (searched realization, understanding, recognition, decision, fear, doubt, settle, lodge). Second P5/P6 sweep, checked sentence by sentence: (a) Geography with motion verbs is perspective or extent idiom with no agency: 'the hedges fell back', 'The wood went by', 'the depot came up out of it', 'the road ran on under it'. (b) Light, cold, damp, sound and dust are literal physics: 'the cold came in with her' (her magic's cold), 'The night came in' (the door is opened and the next fragment names the cold and the damp edge), 'in the wood it carried', 'The light went', 'dust sifts down and stays', 'the candle was putting it there'. (c) The staff light 'leaned' and 'crowded' (L577) and the roads/boards that are 'heavy'/'sick'/'have it' are the chapter's literal in-world mechanism (subject-matter defense). (d) Documents 'saying' things are literal text content: 'Cyndia's book said', 'The square of sacking said Andorhal' (stencilled), 'The slips said both roads'. (e) Body-part subjects are involuntary or stative only: 'His shoulders came down', 'his ears went red', 'his voice gone small', 'The mage's jaw was working. Her teeth had begun to go', 'Jaina's eyes came open at the light' (waking), 'the hooves came on' (auditory, heard in the dark), 'Her voice stayed pleasant' and 'The mage's head stayed up' (stative 'stayed', perceived state, no agentive or cognitive verb). (f) Animals are real agents: the wasp, the moth, 'the horses knew it' (fatigue, shown in the next sentence by the shortened stride), 'let the mare choose her own feet'. (g) Receiver nouns: 'The fan kept widening' (Sylvanas is the named actor in the sentence before), 'A cup... stood on one corner to keep it flat' (weight function, not intent), 'they blacked everything they touched' (gloves as literal contact medium). No KEEP sits near 2+ KILLs. Smart-POV analytical passages (L205, L503-505, L607-633) carry no infrastructure-intent verbs."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 30,
+      "kills": 1,
+      "keeps": 29,
+      "severityMarkers": {
+        "tic1_cornerOfMouth": "0 / cap 1",
+        "tic2_marked": "0 / cap 2",
+        "tic3_tightenedEased": "0 tightened / cap 3; 0 eased / cap 2",
+        "tic4_facialShifted": "0 / cap 1 (4 'shift' uses, all physical: grip, staff, planks, bench)",
+        "tic5_eyeGaze": "3 generic reaction/connection beats / cap 4 (L105 Corley looked between them, L157 the mage was watching her finger, L423 the mage looked at Sylvanas once). The other look/watch uses are tactical scanning, tracking, interrogation tells, the plan's 'looked at her ears' motif, or reading procedure (eyes shut).",
+        "tic6_weightMetaphor": "0 / cap 2 ('heavy' is the in-world reading vocabulary, a subject-matter defense)",
+        "tic7_nonSaidTags": "0 / cap 3",
+        "toolCaps": "punct_colon_narration 13 / cap 12 (OVER by 1); semicolon 16/25; participial_trailing 14/51; simile_like 5/25; simile_as_if 4/5; simile_as_though 1/3; opener_consecutive_repeat 1/0 (kept, see scratchpad)"
+      },
+      "dominantPattern": "punctuation_tics / narration colon over cap",
+      "findings": [
+        {
+          "id": "r3a-tic-1",
+          "verdict": "KILL",
+          "pattern": "punctuation-tic: narration colon over cap (13/12)",
+          "toolSignal": "punct_colon_narration",
+          "line": 611,
+          "text": "Four elves on Thalassian horses, asking for books from the brook to the river: nobody needed to send a rider.",
+          "reason": "The chapter has 13 colons in narration against a cap of 12. I killed the weakest one. The other 12 introduce concrete lists (the out-book columns, the riding order, the overseer's desk, the waybill fields, the burned papers) or a physical explanation. This one introduces an inferential conclusion, and the same sentence is already a negation kill (r3a-neg-1). Ending the setup clause with a period removes the colon and the source-swap together.",
+          "severity": "MILD",
+          "suggestedFix": "Four elves on Thalassian horses, asking for books from the brook to the river. Anyone could stand in a doorway after they'd gone by and tell the next man who came along.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "relatedFindings": ["r3a-neg-1"],
+          "fixNote": "The replacement covers both sentences at L611 ('Four elves... rider. Anyone could... came along.') and is identical to r3a-neg-1. Apply once."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 3,
+    "uniqueEditSites": 2,
+    "totalKeeps": 102,
+    "mildKills": 3,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 3,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 3 MILD kills (at the threshold of 3), 0 MODERATE/SEVERE, 2 edit sites (L611 carries one negation kill and one colon-cap kill under a single shared fix, plus L673). Intent-smear is clean after a full second P5/P6 sweep. Structural rhythm concerns (not verdict-bearing): long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are out of range, and sentence_length_cv is at the ceiling. Structural texture deficit: texture verdict below_target (score 73.0), with participial and em-dash below target and compound above.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.828, "target": 0.72, "delta": 0.108, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 12.4, "target": 11.0, "delta": 1.4, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.801, "target": 0.7, "delta": 0.101, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 35.9, "target": 35.0, "delta": 0.9, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 22.2, "target": 10.0, "delta": 12.2, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.22, "target": 7.7, "delta": -1.48, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 28.0, "target": 19.0, "delta": 9.0, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.774, "target": 0.83, "delta": -0.056, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": ["sentence_length_cv (marginally over)", "long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 73.0,
+      "participial_pct": 6.2,
+      "compound_pct": 14.6,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.5,
+      "short_pct": 46.2,
+      "verdict_reasons": [
+        "participial: 6.2% below target 12.0% (score 56/100)",
+        "compound: 14.6% above target 10.0% (score 62/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.2% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 14.6% -> target 10.0% (score 62/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots.",
+      "flaggedPassages": { "telegram_run": 12, "texture_desert": 16 },
+      "note": "Structural texture deficit. Neither kill site is fixed by adding texture. The L611 fix shortens one joined sentence, which is neutral for compound_pct."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 63,
+        "total_violations": 3,
+        "overCap": [
+          "punctuation_tics/punct_colon_narration (13/12): pass A, killed at L611",
+          "paragraph_structure/opener_consecutive_repeat (1/0): pass A, kept as a deliberate stop catalog, L167-177",
+          "narrator_verdict/verdict_too_x_for (1/0, L691 'too brown for mist'): pass B guide, not audited here"
+        ],
+        "passAMappedMatchesAudited": "punct_colon_narration 13, punct_semicolon 16, participial_trailing 14, simile_like 5, simile_as_if 4, simile_as_though 1, bookism_breathed_tag 1, filter_watched 1, filler_nodded 1, opener_consecutive_repeat 1. Only the colon cap produced a kill. The rest are under cap or are false positives (see scratchpad)."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "chapterId": "chapter3",
+  "mode": "revision",
+  "iteration": 4,
+  "changes": [
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-G1", "line": 101, "before": "The blanket's been tucked.\" Her voice was quiet.", "after": "The blanket's been tucked.\"", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-G2", "line": 265, "before": "The way it was in the doe.\" She swallowed. \"But there's", "after": "The way it was in the doe. But there's", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-G3", "line": 329, "before": "bent her head to the wood. She pressed her lips thin.", "after": "bent her head to the wood.", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-G4", "line": 291, "before": "\"We did the houses, Ranger-General,\" Lyriel said. She was asking.", "after": "\"We did the houses already, Ranger-General?\" Lyriel said.", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> gpt-5-prose-issues.md -> B-G5", "line": 458, "before": "in the bad fevers. It might mean something to the mage.", "after": "in the bad fevers.", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> narrator-seep-guide.md -> B-N1", "line": 69, "before": "you could read it from the gate", "after": "she could read it from the gate", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> narrator-seep-guide.md -> B-N2", "line": 446, "before": "very matter of fact, the one thing in all this that made no sense to her.", "after": "very matter of fact.", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> narrator-seep-guide.md -> B-N3", "line": 480, "before": "\"Thank you,\" the mage said. *That one's true.* A frightened child didn't make up a shaving glass.", "after": "\"Thank you,\" the mage said.\\n\\nA shaving glass. A frightened child didn't make that up.", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> phantom-concreteness-guide.md -> B-P1", "line": 468, "before": "at the back of her head with the hoofprints she couldn't place.", "after": "at the back of her head.", "source": "gate-suggestion"},
+    {"feedbackRef": "B -> phantom-concreteness-guide.md -> B-P2", "line": 810, "before": "She had put them there.", "after": "She had sent them back up the road herself.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> recurring-prose-tics.md -> r3a-T5-01", "line": 758, "before": "but they're buying.\" He was looking past her again, up the street. \"I'd not have thought it.", "after": "but they're buying. I'd not have thought it.", "source": "gate-suggestion"},
+    {"feedbackRef": "A -> recurring-prose-tics.md -> r3a-T5-02", "line": 113, "before": "\"Water first.\" The mage glanced at the windlass, at her right hand, at Sylvanas. \"Would you?", "after": "\"Water first,\" the mage said. \"Would you?", "source": "gate-suggestion"}
+  ],
+  "unfixable": [],
+  "flags": [
+    "Self-audit: no new eye/gaze beats added; Tic 5 count drops from 6 to 4 (cap 4). One new plain 'said' tag at L113 (Tic 7 safe). B-N3 fix puts the credibility grading in its own Sylvanas paragraph, matching L163/L357 italic-echo convention but without italics per the gate's suggested text.",
+    "Out of scope, not touched: L357-358 missing blank line between Sylvanas's italic thought and Neral's dialogue (pass B formatting observation). L632 'passed each other with the whole hill between' antecedent ambiguity (pass A observation, for continuity).",
+    "L810 now reads 'sent them back up the road herself' ahead of 'Sent the warning north with one rider'; both kept as gate-fixed, mild echo only."
+  ],
+  "wordCount": { "before": 13598, "after": 13544 }
+}

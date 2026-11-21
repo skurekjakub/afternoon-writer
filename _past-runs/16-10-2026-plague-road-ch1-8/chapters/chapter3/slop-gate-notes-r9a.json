@@ -1,0 +1,89 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 9,
+  "targetFile": "v2-r9.md",
+  "verdict": "pass",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 30,
+      "kills": 0,
+      "keeps": 30,
+      "severity": "NONE",
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Swept every negation-bearing sentence (about 150 lines with not/n't/no/never/nothing/nobody/without) and isolated 30 that have a contrast or pivot shape. None fails the decision procedure. Procedural or imperative: L189 'Not the hand,' L255 and L315 'Don't.', L331 'Not yet.', L353/L483 'Not for anybody.' (the girl's father's order, quoted). Hard constraint (elves can't feel the contamination, plan constraint 13; the mage's limits): L45 'She could not tell her who might be standing behind a pantry door', L177 'She could read nothing in it with her own palm; it was a stick, and cold.', L211 'Which came first, I can't, not from this.', L225 'which isn't the same', L265 'there's no doe here to put a hand in', L281 'Not on this ground. Not in the dark.', L829 'Nothing in the hide or the bones of her hand. There never was.' Binary diagnostic that drives the next decision: L213 'never where the herd came in' (milled vs entry: why she won't call the granary the source), L233 'Nobody had lifted the latch.', L251 'Nobody with feeling in his feet walks out of his clog' (feeling vs unfeeling walker, which leads to 'Were these alive when they walked?'), L337 'We're not from here.', L539 'It was not the road down from the Pass' (the plot turn), L657 'She found nothing on the bank' (driven vs undriven, which leads to 'Who drives sixty dead'), L677 'Not our road.' Spatial or physical precision: L365 'pine and not new', L371 'Neral did not touch the ring.', L613 'near a print, not in it', L733 'Sylvanas did not draw.' (two bows up and hers down, which the carter beat uses). Self-argument in free indirect thought (condition 4): L109 'She would not have put a sick mage on her knees there ... so she made it better.' (she does put her there), L279 'So she would not say it.', L587 'No. She saw a clog in the mud.', L709 'Was that why she had kept the mage...? No.', L835-L839 'No. On the trail. ... It was not the same.' (the repetition undercuts the denial). Absence inventories (L67, L91, L809) list missing concrete things as evidence and do not pivot to a reveal noun. No cluster of pivot rhythm in narration or dialogue. No negation_addiction slop-checker matches."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 41,
+      "kills": 0,
+      "keeps": 41,
+      "severity": "NONE",
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "First pass covered every non-person subject with a verb. Literal physics or the in-world mechanism (condition 3 / subject-matter defense): sound and echo (L3 inn sign 'complaint', L5, L115, L145, L335), frost spreading from the read (L131, L141, L193), crystal buzzing and rattling (L131, L167, L177, L821), wind and smell (L19, L171), water reflecting and draining (L233, L367), clay keeping prints (L643), mud sucking (L805). Collective or institutional actor with people legible: L703 'The chamber would have this in its hands' and L831 'the chamber would put its seal to' (members are named around both: Lor'themar, the magister's nephew; the verbs are possession and formal sealing, not intent). Perception order with the actor genuinely unseen: L341 'a whisper scraped down to nothing', L371 'the bolt began to move ... The hands down there were too weak', L377/L381 'a face ... ducking' / 'The face stayed where it was' (from above the hatch only the face is lit), L733 'Iron tyres on stone'. L287 'Boots came down the lanes' names the rangers after the colon in the same sentence, so no actor is demoted. Second P5/P6 sweep (roads, plans, body parts, settling states, metaphor chains): geography verbs are static extension only (L109 'four roads running away', L231 'a lane ran', L605 'the ground fell away', L633 'It ran north ... It bent away west', L803 'The road went down', L835 'The trail went south'), which the guide treats as fine ('the road led'). No plan, map, answer or room takes a revision or cognition verb. Body-part subjects are involuntary, and the involuntariness is the point (exception to Pattern 8): L191 'Her whole arm flinched', L219 'The fingers curled halfway and stopped', L237 'her eyes were a beat behind the light' (no sleep), L397 'the fingers would not close', L491 'The fist ... clenched and unclenched', L513 'voice cracked', L531/L725 shoulders, L559/L795/L813 heads going loose or nodding, L695 ears reddening, L743 'His mouth went slack first, and then the rest of him caught up'. Where a body part rests in a state (L351 'Sylvanas's fingers sat on the string. She made them lie still there.', L597 'Her hand was on the string again. She took it off.'), the next clause gives the action back to her. L313 'Two hands: one down there ... one up here to drag the bed across and walk away' uses 'hands' to mean persons (as in farm hands), not body parts. No abstract state settles into a body part. Same-subject chains (frost, crystal) are literal. Pattern 11 sweep: L413 'let her keep it', L813 'let her sleep', L705 'Let him count it' are physical or interpersonal allowing with an object. L425 'Neral let the name go' means she stopped asking, not an emotion tag. L545 'if she let herself' is conditional and the sentence names the real agent ('because she wanted it to'). No Pattern 4. No abstract_locomotion or inanimate_agency slop-checker matches."
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 22,
+      "kills": 0,
+      "keeps": 22,
+      "severity": "NONE",
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Counted every instance of each tic. Tic 1 corner-of-mouth: 0 (L519 'dirt in the corners of her mouth' is physical dirt, not an expression). Tic 2 'marked' as a verb: 1 (L285), under the cap of 2; L615/L625/L653 'mark(s)' are nouns for physical tracks. Tic 3 tightened 0 and eased 1 (L83 'She eased the string.', physical). Tic 4 facial 'shifted': 0 (L101 bow and L523 the girl's position are physical). Tic 5 eye/gaze: 2-3 emotional beats (L681 the girl watching 'without moving anything but her eyes', hare-and-hawk specific; L845 the farm woman 'stared'), under the cap of 4. The other eye mentions are fatigue (L21, L237, L813) or the mage shutting her eyes to read (L117, L821, L825). Tic 6 weight metaphor: 0 emotional. 'heavy/heavier' is the mage's in-world read vocabulary, and 'weight' at L91/L401/L419/L611/L647 is physical. Tic 7 non-said performance tags: 0. Tool-signal hits mapped to this guide, all under cap and all kept: punct_semicolon 20/26, punct_colon_narration 10/13, participial_trailing 17/53, simile_like 2/26, simile_as_if 2/5, filter_watched 3/3 (L13 reading the mare's ears, L129 sentry sweep, L293 dialogue), filler_nodded 1 (L437, the girl answering a question without speaking), filler_shrugged 1 (L465, an answer gesture), bookism_hissed 1 (L339, the lantern hissing, not a dialogue tag)."
+    }
+  ],
+  "summary": {
+    "totalKills": 0,
+    "totalKeeps": 93,
+    "mildKills": 0,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [],
+    "killsWithFix": 0,
+    "killsUnfixable": 0,
+    "fixStrategy": "conservative (iterationKillsA [49, 8, 12, 2, 3, 1, 13, 1, 1]: latest 1 >= prior minimum 1); no kills required fixes",
+    "verdict": "pass",
+    "verdictReason": "Pass A clean: 0 kills across negation, intent-smear (including the dedicated P5/P6 actor-demotion and body-part sweep) and recurring tics. Structural texture deficit and structural rhythm concerns are noted below for downstream editors; they do not affect the pass-A verdict.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.648, "target": 0.72, "delta": -0.072, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.898, "target": 0.7, "delta": 0.198, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 43.4, "target": 35.0, "delta": 8.4, "range": [28.0, 42.0], "inRange": false },
+      "long_sentence_pct": { "actual": 20.6, "target": 10.0, "delta": 10.6, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.39, "target": 7.7, "delta": -1.31, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 34.6, "target": 19.0, "delta": 15.6, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.765, "target": 0.83, "delta": -0.065, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": ["sentence_length_cv", "short_sentence_pct", "long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 74.9,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.8% above target 10.0% (score 74/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.8% -> target 10.0% (score 74/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots.",
+      "flaggedPassages": { "telegram_run": 29, "texture_desert": 26 }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 63,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passAMappedSignals": "punct_semicolon 20/26, punct_colon_narration 10/13, participial_trailing 17/53, simile_like 2/26, simile_as_if 2/5, filter_watched 3/3, filler_nodded 1/4, filler_shrugged 1/4, bookism_hissed 1/2; all audited and kept",
+        "unmappedSignals": "contact_pressed 4/6, contact_settled 1/6 (no guide mapping); hedge_might_have_been 1/1 is pass B"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# The built contamination
+
+Under the loft floor: a clay jar with waxed cloth over the mouth. Broken, its contents run 'in thin dark fingers' toward the sacks; Jaina claps a blue shell over it and reads through the shell. It is the same stuff as in Garran, the doe and the Millhaven well, but whole and built: a stack of spells laid like planking on a hull with every seam caulked. One part to keep, one part to wait, one part she cannot follow at all. She knows what it is from the first-year warnings, the death-currents craft that raises a corpse, signs but never the grammar, which 'stayed behind the grille'. 'She could read every letter of it and not one word.' And it is beautiful. 'It's made. Somebody very good made this.'
+
+The loft boards, ice and all, are burned at dawn. The third part is lost unread.
+
+## Chapter 6: advanced
+On the south road the same late hitch comes up through the mare and staff, and Jaina matches it to Millhaven. She fits Corley's book, the slips, Garran's bread and the jar into one reading: not luck, not a fever, not one clever man with a cart. 'It's one thing, made in parts, every part with a job.' She says it to Sylvanas ('It comes in on the wagons and walks out on its own feet') and admits the gap: how a knot under the breastbone becomes walking feet is the part she could not read. The system is built the way Dalaran taught her to lay a ward, with the death-currents craft from behind the locked grille; she runs down faces of masters and students and stops at one she does not name. She is sick over the saddle at wanting to see it work once. No Kel'Thuzad, no Mal'Ganis, no answering-chamber model.
+
+Chapter 7: Jaina's reading of the sample room and Sylvanas's sight of Kett's loft give the packaging step: a thin carrier coat applied by hand to grain after dressing and before sewing; alone it does little, and what it carries wakes in whoever eats the bread. Skilled alchemical and necromantic hands, protective gloves and cloths, a crock of dark thick stuff. Ch7-8 rung only.

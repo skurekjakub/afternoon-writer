@@ -1,0 +1,3 @@
+# The Brill road
+
+North out of the river depot's little town, past a chapel and a stone at the fork: first a lord's causeway of stone and packed gravel over water-meadows (flat, fast, empty), then yellow clay and slumped ruts between hedges, then a toll-bar with a stone hut and good beans. The overseer sent the party here. It held no wagons: the ruts are soft at the shoulder from a night's rain, the toll-keeper's day-book shows no grain for over a month, and the only recent heavy traffic is a company of the King's foot cutting across for the hill road. The day lost here is Sylvanas's mistake (she took a frightened man's word because every breath was a furlong). The ride back at night over the causeway ends with Jaina's mare going down on its knees.

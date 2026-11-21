@@ -1,0 +1,359 @@
+The south road climbed under the hills in long bends between the hedges, and every bend Jaina read through the staff was the same as the last.
+
+The weight came up through the Thalassian mare every time a forefoot came down, a dull drag under the road, as if the road had been laid over something heavier than itself. It rose through the saddle into the staff where it lay in the crook of her dead arm, then on into the ache behind her eyes. The crystal rode a hand's width from her cheek. In Dalaran it had been a good clear gold. This morning it was the colour of straw left in the rain, the light in it dipping each time the weight came up.
+
+Old at the bottom. Thin and new on top, going the same way. She had said so at the fork with her teeth chattering. It had been true at the first bridge, and it was true now, a long way up the climb, with mist lying in the road to the mare's knees and the fields and the bracken on the banks gone grey on either side.
+
+Above the mist the brown smear lay along the slope of the hills. It had been there since first light. It was wider now, or they were closer to it.
+
+Her head had ached since the fork, a slow pressure from the back of her neck to behind her eyes, harder each time the weight came up through the staff. She had slept sitting against a stone block with her cheek on the end of a bench, and her right shoulder was stiff with cold. That arm she couldn't feel at all. It held the staff against her ribs, the one thing it was still good for. She had the reins in her left hand, wrapped in Lyriel's linen to the wrist with two fingertips bare, the palm throbbing in time with the mare's walk. Lyriel's burnt crust was still in her back teeth.
+
+They rode in the old order. Sylvanas went in front with her back straight and her bow across the saddle. Cyndia had the left of the road and Lyriel the right, her knee nearly touching Jaina's. Behind them were the two places nobody filled.
+
+The road dipped. At the bottom a stream ran under it through a culvert, the mare's hooves going hollow on the stones overhead. The weight came up through them so hard that the crystal guttered.
+
+She knew that drag. The beat of it came late, the same small hitch behind every pulse. She had felt exactly this at Millhaven, kneeling in the lane with the heel of the staff set down in a dead man's footprint while Cyndia laid her hazel switches out along the ground.
+
+She went still in the saddle while the mare walked on, out of the dip and up the far side.
+
+A young man with a cart had sold flour two coppers cheaper on the measure at the sick village, four loads of it, the last a fortnight before they came. Corley's book had loads like it going out on every road from his crossing, and every slip in Sylvanas's coat had Andorhal at one end. Garran had eaten bread sops in milk twice a day all summer. The jar under the loft boards had been made to keep and made to wait. And Millhaven's dead had got up out of their beds and walked north up the cow way, leaving the prints she had set the staff in.
+
+It could be bad luck: a wet harvest, a mould in the stores, a fever that spread through villages because villages shared wells. She had held on to that one since Millhaven without saying it aloud, even after she had read the slate in the chapel. But a fever didn't come in layers a fortnight apart, or keep to one road and leave the King's road clean beside it.
+
+Or one man, one clever, bitter man with a cart and a grudge, who had found a necromancer's recipe in an old book and—
+
+One man couldn't drive every load in Corley's book and also have swept the depot floor, stuffed the stove, kept the overseer's answers ready, stitched paper into a boy's collar and set the day for him. And a man good enough to build that jar wouldn't sell flour cheap at a village market with his own two hands, unless somebody else had told him to.
+
+It was one thing, made in parts, every part with a job: the carts to carry it, the mills and bakehouses to put it into bread, the people to eat it a little at a time, morning and evening. The jar's keeping part kept it whole inside them, and it built there meal after meal and waited. At the end, when enough of it had gathered in them, they died, and then their bodies got up and walked.
+
+Oh, Light.
+
+"Ranger-General."
+
+Sylvanas turned in the saddle.
+
+"It's one thing," Jaina said. "The flour, the jar, Millhaven. Somebody built it to ride in the grain, so people eat it in their bread a little every day, and it keeps in them and waits. It comes in on the wagons and walks out on its own feet."
+
+Lyriel turned round at her knee.
+
+Sylvanas heard her out with her face still, as she heard Cyndia out. She looked Jaina over once, the crystal, the hand on the reins, and came back to her face.
+
+"Somebody," she said.
+
+"Somebody with training. More than I have, I think, and more than one of them, or it wouldn't run this smoothly." Jaina shifted the staff against her ribs, wincing as the ash knocked the bone. "I can't tell you who, or how it gets from a knot under a man's breastbone to his feet walking after he's dead. That's the part of the jar I couldn't read."
+
+"And when you say that to a man who can't feel any of it?"
+
+"I give him your slips, the sacking, the map with your knife hole in it. Things he can hold."
+
+Sylvanas faced the road ahead, the bow lying easy across her saddle. "Paper. He'll have clerks for paper."
+
+"Then he can come with me to a granary and watch. I'll find him a jar."
+
+"He has orcs in his hills, Mage," Sylvanas said. "Make it short."
+
+Short. Jaina began cutting it down in her head, the slips first, then the road, then the jar, and stuck on the jar.
+
+What kind of keeping could survive a mill, an oven and a gut? It was past anything she'd been taught or made. At the sick village she had wanted the jar on a bench; now she wanted the whole road there, under a good lamp with nobody in the room, so she could lift the keeping part away from the rest and turn it over, seam on seam, to see where the joins were.
+
+And Garran had been eating it out of a bowl with a spoon.
+
+Her stomach turned over, sour spit running under her tongue. She leaned out to the left, away from Lyriel, and spat into the mist, then wiped her mouth on her own shoulder because she had no hand to spare. Her left hand had shut hard on the reins, the split in the palm pulling under the linen. She eased her grip, and the mare tossed her head and went quiet.
+
+There were books on the death-currents in Dalaran, behind the grille at the top of the library stair. First-years got the warnings and the spines. In her first year a master had stood under that shelf and told the room, in the voice he used for the fire rules, that the whole of that art came down to keeping a body useful after the person in it had gone, and that this was why the grille was locked. Somebody at the back had laughed. It might have been her.
+
+Somebody had gone past the spines, with a key or on a day the grille stood open, read those books to the end and gone further, then laid the work out so cleanly that it ran on flour and finished on its own. She had been taught to lay a ward that way, every seam closed, nothing loose for the next spell to catch on. Whoever had built this had been taught in Dalaran.
+
+Someone she might have borrowed a pen from on the library stair. She started down the faces in her head, masters, senior students, the ones who'd left and never written, and stopped at one. She made herself look at the road.
+
+Study. That was all it was. A piece of work looked at properly, strengths in one column and faults in the other, as she'd write it up for Antonidas. She needed it. She couldn't take apart a thing she refused to look at, and nobody else on this road could look at it at all.
+
+She wanted more than a write-up for Antonidas. She'd have given a hand to see the keeping part work just once. She was running short of hands.
+
+She would put all of it in front of Arthas—the slips, the sacking, the map with the hole in it, the road under them, the whole run from the cart to the cow way. He had always been quick, quicker than the courtiers gave him credit for, and he hated more than anything to be told a thing couldn't be done. Lay it out clean and he would move, and move before Andorhal went the way Millhaven had.
+
+At the next bend the road climbed out of the mist.
+
+One moment the mare was wading in grey; the next her legs were clear, wet and dark to the knee, the hedges standing up sharp on either side with the sun on them and the bracken rusting on the banks behind. Jaina squinted. The air was warmer. It smelled of woodsmoke, and under the woodsmoke of horses, a great many, more than any farm kept.
+
+The brown smear hung over the shoulder of the hill ahead. It was dust, with smoke going up into it from somewhere behind the hill, and it moved with whatever was moving on the road under it.
+
+A wagon came down out of it, iron tyres grinding on the stones, two big heavy-footed horses in the shafts. The bed was empty but for a few wisps of straw, and a man walked at the horses' heads with a rag over his nose and mouth. Far up the hill behind him a horn blew and men shouted. Sylvanas put her horse onto the verge to let the wagon by, Cyndia and Lyriel closing in on Jaina. The driver looked at the four of them over his rag as he passed and didn't stop. Cyndia's eyes went down to the team's feet instead, to the wide flat shoes heavy at the heel, and stayed on them until the wagon was past.
+
+Jaina put her heels to the mare and rode up after Sylvanas, into the dust. It hung at head height, tasting of dung. The road went over the shoulder of the hill in a cut between two banks, the ruts so deep the mare had to step down into them and climb out again, rocking Jaina in the saddle while the staff knocked her ribs. More wagons came down past them, empty. One went up loaded high under a roped tarpaulin, its team blowing, a man at the tailboard shoving with his shoulder.
+
+At the top of the cut Sylvanas stopped her horse. Jaina came up beside her and saw the army.
+
+It covered the whole long slope below them, running down to a huddle of grey roofs where the road crossed a stream. Tents stood in rows across what had been pasture, brown canvas and white, the lanes between them trodden to soup. Horses stood along the hedges in lines, hundreds of them. Cookfire smoke went up out of the camp and flattened under the dust. Above the biggest tents banners cracked on their poles, blue and white with the King's gold. Near the stream a knot of men in heavy plate walked their horses, the sun on their white tabards and the silver hand stitched on each.
+
+Across the valley, on the hills to the east, other smoke rose dark and thick at the root, leaning together as it climbed. At the foot of one column was a very small orange flicker. A roof.
+
+Sylvanas sat still and read the camp from one end to the other. Jaina followed her look and was slower.
+
+"The big tent's his," Sylvanas said. "Riders go out from it east and come back east. Pickets on the east edge, doubled." She lifted her chin toward the near side of the camp, where the road came in. "On this side, one sergeant and a hedge."
+
+The pickets stood along the eastern edge in a line, every man looking at the far hills. The archers on the earth bank above the stream had their backs to the road. And up the road at their backs, the road she had been reading all morning, the wagons came in one after another and turned in behind the cook-tents. Nobody in the camp turned round to see what was in them.
+
+But they were facing the smoke, and the smoke was real; somebody's roof was coming down under that orange flicker while she sat here. They'd been sent to fight orcs, and they were looking where the orcs were. The other thing was coming up the road behind them in sacks, with nobody to tell them so. Well. She had come to tell them.
+
+Sylvanas had said at the fork that they'd put the flour after the orcs. She had been right about Brask, and about most men she had measured since the Pass. But she had never met Arthas. He'd look at the sheet with the knife hole in it, and then, because it was Jaina holding it, he'd look again, harder. For once the Ranger-General would turn out to have been too hard on a prince.
+
+Sylvanas put her horse down the slope at a walk, the rest of them following in the old order.
+
+The sergeant at the gap in the hedge had a spear and a beard grey with dust. He stepped into the road with the spear held crossways, more to stop the horses than to threaten anyone, and looked along the four of them: the Farstrider green cloaks, the bows, the elf ears, the staff, Jaina's wrapped hand on the reins.
+
+"Hold there. Who's this?"
+
+"Jaina Proudmoore, of Dalaran." The dust had got into her throat, and she swallowed, trying to get some voice behind it. "Apprentice to the Archmage Antonidas. I've come to see Prince Arthas. He knows me."
+
+"Everybody knows him, miss."
+
+"Ranger-General Sylvanas Windrunner," Sylvanas said, "of Quel'Thalas. Proudmoore rides under my escort."
+
+The sergeant leaned on his spear a while. Then he bawled for a boy, said something in his ear when one came running from between the tents, and sent him off up the lanes, splashing.
+
+They waited at the hedge, the camp shouting round them. A man walked up and down the horse lines bellowing for somebody called Dace, and nobody answered him. Two officers on either side of a banner pole shouted at each other about a ford. A farrier hammered. Somewhere a mule had begun to bray and would not stop.
+
+Sylvanas got down from her horse. At Jaina's stirrup she took the map sheet out of her coat, folded small, the Barov slips and the square of sacking tucked inside the fold. She held it up.
+
+Jaina let go of the reins and took it in the two bare fingertips of her left hand. It weighed nothing. All of Corley's book, the river depot's stove, the jar, Garran, the cow way, folded into one sheet no thicker than a letter. Sylvanas gave the mare's rein to Cyndia and stepped back.
+
+Lyriel was already off her horse. She reached up, took Jaina under the arms and lifted her down, as she had at every stop since the sick village. Jaina's boots went into mud to the ankle, cold, pulling at her when she shifted her feet. Cyndia drew the four horses in close and watched the soldiers' hands.
+
+The boy came back down the lane.
+
+Arthas came between the tents at a long stride, the boy trotting behind him and two officers behind the boy, still talking to one of them over his shoulder when he saw her. He carried his helmet in one hand. His hair was dark with sweat at the temples and gold everywhere else, longer than she remembered. Somebody polished his armour for him; the crest of Lordaeron shone on the breastplate, and from the knee down his greaves were plastered brown. He had got broader, a man now, with a hammer at his belt instead of a practice sword.
+
+He stopped in the mud and laughed out loud.
+
+"Jaina!" He came on, the officers stepping quickly to keep up. "Light's sake. Jaina Proudmoore, on my hill. Did Antonidas finally throw you out?"
+
+"He'd have to find me first." The old voice came out before she had decided on any voice at all. "Look at you, though. They've given you a whole hill, Your Highness, and somebody to polish you."
+
+He laughed again. Then he was close enough to see properly, and the grin thinned. He took in the wrapped hand, the right arm hanging with the staff caught in its crook. "What happened to your hands?"
+
+"It's part of why I came."
+
+He turned and gave Sylvanas a small, correct bow from the neck. "Ranger-General. You're a long way from home."
+
+"Your Highness," Sylvanas said, the two words perfectly level.
+
+"Arthas, I need you to listen to me, all the way to the end."
+
+"I always listen to you all the way to the end. It's the only way to get a word in afterwards." But he folded his arms and set his weight, his face going serious. "Go on."
+
+So she gave it to him short.
+
+"It's in the grain. There's something in the flour, a made thing, a necromancer's work, I believe, or so near it I can't tell you the difference. It rides the flour through the mills and into the bread, a little at every meal. It stays in them and builds. Millhaven's dead, the whole village. And the dead got up and walked north, sixty of them at least. There's a village south of Millhaven that would have gone the same way, if we hadn't burned every sack of flour in it in one night."
+
+He was listening as she had seen him listen to a fencing master, his arms still folded.
+
+"And it's more than the one village. It's carts, depots, account books." She shook the sheet open against the staff, pinning the bottom edge to the ash with her thumb's knuckle so that it hung flat. The marks were there, her blots and Sylvanas's neat ones, the slit where the knife had gone through at Strahnbrad. "These came out of the stove at a depot on the river road. Andorhal's at one end of every slip, and every road I've read heavy south of the Pass runs there, this one worst of all, old under new."
+
+He bent to look, the sweat-dark hair falling over his brow. He left the sheet in her hand and put one gloved finger on the knife slit. "That's us."
+
+"That's you. And this road runs on into Andorhal by the back gate."
+
+He drew one of the slips half out of the fold with the same finger, turning it to read the seal. "That's Barov."
+
+"It's on every sack in the south, good or bad. It's his granaries." She kept her voice level. "I'm saying nothing about Lord Barov, only that the grain goes through Andorhal."
+
+"Good. He'd sue me for the rest of it, and he'd talk for an hour first." He let the slip slide back into the fold. "Jaina. I don't doubt you."
+
+Her chest loosened. She'd known he would.
+
+Then he looked past her shoulder, over the camp, to the far hills and the smoke.
+
+She talked faster. "Then you see why it can't wait. If it's in the granaries there, it's in every loaf in the city and everything that goes out of it. People are eating it this morning. I need men to shut the Andorhal granaries before—"
+
+"He's going to write to his father, Proudmoore," Sylvanas said behind her, "and then he's going back up that hill."
+
+Arthas turned to Sylvanas. Jaina thought he'd laugh at her or snap, say something to put her in her place, as men in Dalaran did when an elf told them their business. He studied her, long and steady, as he might have a boy across the practice yard who had read his feint. Then he turned to the hills again.
+
+"Yes," he said. "I am."
+
+"But the granaries—"
+
+"Come here a moment." He put his hand on her shoulder and turned her gently to face the valley. "You see that? The one that's still burning?"
+
+The little orange flicker under the column of smoke.
+
+"That's the Garrow farm. Old Garrow, his daughter, her two boys. I ate supper at their table on the way up here; the boys wanted to hold my hammer. Yesterday I helped carry them out." His voice stayed warm and kind. "They came out of the camps, Jaina. A whole band of them, with axes. They know these hills better than my scouts do. Every farm between here and the river is waiting to be next, and I've got men in this camp whose families are on those farms. I can see that from my tent door. I can't see your grain."
+
+"I can."
+
+"I believe you."
+
+He did. She had put it in front of him in order, the flour, the dead, the slips, the roads, and he had taken in every piece. He was still standing exactly where he'd stood before she began, his face turned to the smoke.
+
+"So write it down. All of it, just as you've told me. I'll send it to my father tonight with my own rider. He'll put it in front of the council, and they'll listen to you a good deal sooner than they listen to me. As soon as these hills are quiet I'll be in Andorhal, and you can show me what you've found."
+
+"By the time these hills are quiet—"
+
+"I know." He squeezed her arm. It was the right arm, and she watched his gauntlet close on her sleeve and felt nothing at all. "I'm sorry. I am. Get something to eat before you go; you look like you haven't eaten since Dalaran." He turned his head to the nearer of his officers. "See they're fed, and the horses watered."
+
+A rider was coming down through the lanes from the east at a hard canter, spattering men right and left, and a voice up by the big tent was already shouting the prince's name. Arthas let go of her arm. He gave Sylvanas the same small bow from the neck, then went up the hill to meet the rider, the helmet in his hand, the officers closing in round him. She could see the gold of his hair a few steps more between their shoulders, and then, at the top of the lane, he put the helmet on and she couldn't.
+
+He had never taken the paper.
+
+She was still holding it up. The sheet hung open against the staff, her knuckle pinning the bottom edge, the marks turned toward the place where he had stood. The bare fingertips on the corner had gone white with gripping. Her mouth tasted of sour metal. She ran her tongue round the inside of her cheek; the skin was whole.
+
+Two officers stepped into the space he'd left, carrying a board with a map pinned to it, still at their argument about the ford. One glanced at her and at the elves behind her and shifted the board so its corner wouldn't touch her staff. Then they had their backs to her.
+
+Out of the camps. He'd said it as if it explained everything.
+
+The year she went to Dalaran, the escort had stopped for the night within sight of one. After the fire was banked Arthas had come and scratched at the wall of her tent, whispering that she'd never seen an orc, had she, nor had he, not up close, and there was a gap in the bracken under the watchtower that nobody was looking at. She said no. He said she was frightened. She went. They crawled the last of it on their elbows through wet fern, Arthas whispering all the way, very sure of what they'd see: beasts, Jaina, you'll see, that's why there are fences. At the fence she put her face to the gap between two stakes. Orcs lay by fires gone out, great grey shoulders under blankets. Against the wall of a hut, close enough to hit with a stone, a female sat with an infant on her lap. It had hold of one of her tusks with its whole small fist. She was rocking it and humming something low, and she didn't look up.
+
+All the way back through the fern, and at the tent door with the wet still on their knees, he had been just as sure. Jaina had lain in her blankets till morning thinking that he couldn't see what was in front of him, and she had never said so to him.
+
+Was that fair? She'd been a child, and so had he. And the band that had fired the Garrow farm had come out of those same camps, with axes. Perhaps the fences had been the right answer all along, and she'd been unfair to a boy for years over one night in the bracken.
+
+No. He'd been sure before they reached the fence and sure crawling back from it, and today he'd been sure before she reached the end of the slips, and kind about it the whole time.
+
+And she had ridden down that hill counting on him. Her face went hot with it. She had counted on him saying her name as he used to say it, and on that being worth a second look at the paper. She had got a laugh out of him, and a supper.
+
+Sylvanas had told her at the fork. She had told her again at the hedge, just by watching which way the pickets faced, and a third time to his face, while he could still have turned round and proved her wrong. Light, she would have liked the Ranger-General to be wrong about something.
+
+The officers moved off with their board. Sylvanas stepped round and took the place where Arthas had stood.
+
+"Give it here, Mage."
+
+Jaina let the sheet fall closed against the staff and tried to fold it again with her two fingers, the slips sliding half out. Sylvanas held out her hand, pushed the slips back in, folded the sheet small, and put it away inside her coat.
+
+"You were right," Jaina said. "At the fork. You said they'd put it after the orcs. And you called it in front of him before I'd finished."
+
+"He's a good commander," Sylvanas said, "with an enemy he can see and men who'd follow him into it. He'll fight that war, and likely win it."
+
+"And the other one?"
+
+"Is ours."
+
+Jaina waited for her to ask why he'd laughed, why he'd used her name in front of three elves and half his staff, and kept the bracken, the fence and the female humming by the hut to herself.
+
+An officer was picking his way toward them through the mud, the one Arthas had told to see them fed. Jaina stepped out to meet him before he could speak. "Thank you, Lieutenant. Please thank His Highness for us. We won't be staying."
+
+He stood aside for her.
+
+"Andorhal," Jaina said.
+
+Sylvanas gave her a short nod and turned to her horse.
+
+Lyriel was there to lift her, and then Jaina was up in the saddle, the staff back in the crook of her dead arm and the reins wound round her wrapped hand. Cyndia was already turning the horses. They went out through the gap in the hedge past the sergeant with his spear.
+
+They came down out of the hills in the middle of the afternoon, and once the road reached the flat it began to fill.
+
+Below Strahnbrad there had been nobody on it but an army wagon going up and a boy with a switch driving geese, and Jaina had ridden that stretch half asleep. Somewhere along it Lyriel had dug an apple out of her saddlebag and held it up. "Half for you and half for her," she'd said, nodding at the mare's ears. "She's walked through more mud today than a Silvermoon gardener sees in his life."
+
+Now there were carts. They came in from the farm lanes on either hand, heaped with sacks and roped down, turning onto the road ahead of the horses. Others came the other way empty and rattling, the drivers sitting sideways on the boards. A cart of empty hen crates passed so close that a drift of small white feathers came off it and caught in the linen on Jaina's hand. She blew at them. Most went. One stayed, stuck in the weave over her knuckles.
+
+Every lane that came in added to the drag, a fresh thread of lateness under the road where each farm track met it. Her head ached steadily. Sylvanas rode through it as though the carts weren't there, and drivers took one look at her tall Thalassian horse and pulled onto the verge.
+
+A man was coming toward them on the verge, on foot, walking out of Andorhal while everything else went in. A leather satchel hung at his hip, the flap buckled down over the bulk of a ledger. The strap had worn a long pale stripe across the front of his coat, shoulder to hip. He was a clean-shaven man in his middle years, going grey above the ears, with ink at the edge of one cuff.
+
+Sylvanas put her horse across his path and stopped.
+
+"You've come from Andorhal."
+
+He stopped too and looked up at her, then along the rest of them, at the bows and the tall horses, at Cyndia with her hand near her quiver and the staff in the crook of Jaina's arm. He took a half step back onto the grass.
+
+"This noon," he said, putting his hand over the buckle of his satchel. "Yes, ma'am. Can I help you?"
+
+"Who runs the granaries?"
+
+He laughed at that and shook his head. "Depends who you ask. The factors say it's the factors, the corn guild says the guild, the town says the town, and all three will sit you on a bench in the hall till they light the lamps."
+
+"We need somebody who knows the yards," Jaina said, leaning forward over the mare's neck. "Somebody who'll walk us round them today, if he can. It's important, or we wouldn't stop you on the road."
+
+His shoulders came down. "Then you want Captain Havel. He's militia. Keep to this road all the way in; at the bottom of the hill the carts bear off left for the yards, but you keep straight on, and it brings you to the market gate. There's a militia post just inside it on the left, with a bench outside the door. Ask there for Captain Havel." He looked back over his shoulder toward the granaries, though from here there was nothing to see but the rise ahead and the dust hanging over it. "He knows the granary district better than anybody. Better than the factors do, and they'd sooner not hear it."
+
+"Captain Havel," Jaina said. "At the market gate. Thank you, sir. You've been very kind."
+
+He ducked his head to all four of them and stepped back off the road to let them by. Sylvanas went on. Cyndia went by him on the left, then the mare drew level, and he looked up at Jaina as she passed.
+
+"May the stars keep your road," he said, and walked on.
+
+Ahead of her, Sylvanas turned in the saddle.
+
+She turned all the way, one hand flat on her horse's rump, past Jaina and past Lyriel to the road behind them. It was full. A carter stood up on his board cursing at a wheel that had dropped into a rut. Two women with baskets had stopped to talk in the middle of the road, a string of pack mules edging round them.
+
+"Mage," Sylvanas said. "Did you read anything off him?"
+
+Jaina started to say yes, of course, and stopped.
+
+She had been listening to the road all the while he talked; it came up through the mare and the staff whether she asked for it or not. He had stood in the middle of all that drag, the same as the carters, the women, the mules. Whatever she'd felt off him had come off the road. There had been no knot in him, no lateness of his own. And she couldn't read a man in any case. She had told Sylvanas so herself.
+
+Had she tried, though? She hadn't turned the staff toward him. He was a clerk with ink on his cuff who had told them the way.
+
+"Nothing but a tired clerk," she said.
+
+Sylvanas looked back again, and Jaina with her. The wagon was out of the rut and the mules were past. Men on foot lined the verge with bundles and baskets, and none of them wore a pale strap across his coat. He was gone.
+
+"Why?" Jaina said. "What was it?"
+
+"The blessing." Sylvanas faced forward again. "I had the same one at Millhaven, from an old carter going north over the bridge."
+
+Millhaven. Jaina remembered a wagon on the bridge and voices, and nothing of what had been said. She had sat the mare that morning with her hands tucked under her arms, the stream under the bridge loud in her ears.
+
+"It's a farewell," she said. "Country people have dozens of them."
+
+"Once, it's a farewell." Sylvanas put her heel to her horse. "Twice, it's wrong. That's as far as it goes yet."
+
+She rode on. Cyndia had already taken the left of the road again, watching the traffic ahead. Lyriel came back to Jaina's knee.
+
+A turn of phrase. Sylvanas had stood behind Jaina in the mud and told the prince what he was going to do before he knew it himself, without raising her voice. A clerk wished them well on the road, and she turned in the saddle as if someone had loosed an arrow at her back.
+
+But Sylvanas had asked her, and Jaina had come up empty. She had hated that in her first year, on her feet in front of a master with the question asked and her mouth open, and she hated it now on a horse. She went back over him once more: the strap, the ink, the hand on the buckle, the look over his shoulder at the dust. A clerk. She'd have said the same if Antonidas had asked her.
+
+Past the next farm the road went in between walls, orchard walls at first, old stone with moss along the coping, then the backs of barns and long low sheds built right up to the road's edge, where the carts going in and the carts coming out took turns at the narrow places. Lyriel dropped back behind Jaina where there wasn't room. The dust from the loaded carts had nowhere to go. It hung at the height of a man's face, fine and pale, and stuck in Jaina's mouth, sour, like flour left in a damp sack. There was no wind between the walls; the afternoon's heat lay in the road, and she had to work for every breath.
+
+Then the drag came up all at once.
+
+This time it came in behind her eyes as well as through the staff, and pushed. She had dived off the end of the quay at Boralus once on a dare, as deep as she could go after a coin a sailor had thrown. Now the same weight of water closing on her head from every side, her ears hurting with it. Her teeth began to chatter here in the heat, sweat running down her back under her coat. The bare fingertips of her left hand had gone white with frost, the rime creeping out over the edge of the linen. The crystal by her cheek sank and sank until she could look straight into it and see the grain of the stone.
+
+Sylvanas's horse stopped dead.
+
+It threw its head up and went sideways into the wall, scraping Sylvanas's boot along the stones. Cyndia's went the other way, half round, ears flat. The mare backed under Jaina, a few short hard steps, then sidestepped toward the ditch. At the ring stones on the border the horses had done this once and then stood, ears forward, like animals that knew what wards were for. These went on shying. Sylvanas talked to hers, low and steady in Thalassian, her hand flat on its neck. Cyndia leaned down and spoke into her horse's ear. Both got them moving again, but the animals went on crabwise, tossing their heads, the whites of their eyes showing. Behind them a carter shouted at them to make up their minds.
+
+Something warm ran over Jaina's lip.
+
+"Jaina." Lyriel had come up at her knee again. "Your nose."
+
+"I know."
+
+She wiped it with the back of her wrapped hand. The linen came away red, and the feather with it.
+
+"Get down a moment," Lyriel said. "Sit on the wall. I'll hold her for you. She'd be glad of a rest even if you wouldn't."
+
+"No."
+
+Lyriel moved her own horse in until their knees touched. She put her hand over Jaina's on the reins and kept it there, steadying the mare. When the mare stopped fighting the bit, she let go.
+
+For most of the road she had read marks on a sheet, heavy and light, old and new, all of it held at arm's length. Now the drag was in her teeth, in every breath of this dust, her heart going hard against it.
+
+She could stop. Sit on Lyriel's wall in the dust with her head between her knees until it eased. And then what? Wait for a letter to go north, a council to read it, the hills to be quiet? She had already stood in the mud on that hill waiting for a man to take a sheet of paper out of her hand.
+
+She put her heels to the mare. The mare went, sideways and unwilling, but she went forward.
+
+The walls ended.
+
+The road came out from between the last two barns onto open ground at the top of a long low rise. The dust thinned. Sylvanas pulled up on the crest with her horse dancing under her, Cyndia beside her. Jaina brought the mare up between them with Lyriel at her knee, and there was Andorhal.
+
+It filled the shallow valley below the rise from one side to the other, a long low grey wall with the roofs packed in close behind it and chimney smoke going up from all of them. Above the roofs stood the granaries: tall square timber buildings on stone feet, each with a hoist beam jutting out under the gable. On the nearest a sack was going up on its rope while a man leaned out of the loft door to take it. There were more beyond it, and more beyond those, a whole quarter of them. Grain dust lay over that quarter in a haze, the low sun turning it gold.
+
+Wagons stood in lines on the roads in. One line on this road, below her, went down to the gate the clerk had told them of. A longer one on a broad straight road to the right ran in to a bigger gate; that must be the King's road. More ran round to the west, past where she could see the ends of them. Every one of them was full and waiting its turn.
+
+The noise came up the hill: iron tyres on cobbles, a bell, a dog that wouldn't stop, a hammer, a mill wheel, and under the dog a man singing a song she half knew, a rude one, badly. The warm air carried the smell of bake ovens through the dust.
+
+All afternoon, through the drag in the road, the frost on her fingers and the horses going wild, she had braced for Millhaven. She had expected an empty street at the bottom of this hill, doors standing open, nobody to answer.
+
+It was working. Oh, it was working. Every road she'd marked on Sylvanas's sheet came in here. Down there the wagons were still going in full and the hoists were still taking up the sacks and the ovens were still baking. People would eat that bread tonight. They'd break it at supper and give the crusts to the children. And under all that noise, bright and busy, a whole city's worth, the drag beat on, slow and late, so much bigger than it had been all morning that she could feel it in the roots of her teeth.
+
+And somebody in there kept it running, somebody who knew which wagon went to which yard and kept the books for it.
+
+Arthas was on his hill with his helmet on. His letter would go north tonight and a council would sit and hear it read. Antonidas didn't know where she was.
+
+Sylvanas turned to her and waited.
+
+Jaina wiped her lip with the back of the linen. "The market gate," she said.
+
+Sylvanas put her horse down the hill. Jaina followed, the mare going sideways every few strides, her face turned toward the gate.

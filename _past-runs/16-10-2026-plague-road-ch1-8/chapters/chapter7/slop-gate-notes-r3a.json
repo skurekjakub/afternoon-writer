@@ -1,0 +1,163 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA trajectory [70, 13, 9] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 27,
+      "kills": 0,
+      "keeps": 27,
+      "severity": "none",
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "cleanReason": "27 negation candidates examined, from the dialogue answers to the narrated absence lists. Every one passed under one of the four keep conditions. Hard constraints that drive plot: L146 'I can't arrest a village.', L194 'Jaina couldn't tell a drilled man's walk from a tired one', L208 'I won't know who put it there.', L334 'see nothing in the groove but good grain' (this sets up why Havel's spike-at-the-gate plan at L400 fails), L394 'Kett keeps nothing overnight.', L436 'They don't talk,', L438 'he can't bite down on anything' / 'I can only do it once tonight', L456 'The inspection office's tag won't open it, but I know the kind of lock'. Binary diagnostics acted on in scene: L104 'Damp doesn't stop at a street corner. This does.', L124 'It isn't four yards', L240 'You'll get nothing there tonight, and you'll get Fenner's crew', L275 'had nothing to hide, or had somebody else to do his looking for him' (she looks up because of it), L317 'no mask at all' / 'came no nearer the sacks than that' (the evidence for L319's two kinds of men), L330 'If he had seen her, he would not stand at the window like that' (the next line, 'Unless...', complicates it), L396 'I'd not call that nothing.' Self-argument in free indirect thought: L24 'Nobody could order a man's nib to chatter...', L402 'She had no better reason to doubt him than...' / 'It wasn't fair, and she kept it anyway.' Spatial precision or tactical absence inventory: L224 'couldn't see a stride into any of them', L236 'Nobody she couldn't account for.', L297 'no wagon, no doorway deep enough to stand in, no turning' (no 'but Z' landing; the missing cover is why she goes up on the roofs). The keep rate is above 20%, so every keep was rechecked against the adversarial self-check. None of the 27 has the not-X-then-Y shape. Each one states a limit, a piece of evidence or a binary choice that the scene acts on. No pivot rhythm repeats anywhere in the chapter."
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 32,
+      "kills": 3,
+      "keeps": 29,
+      "severity": "MILD",
+      "dominantPattern": "Pattern 10 (receiver noun / instrument doing the human work)",
+      "clusterFlags": ["L130-L180 (Corin's office-procedure speech): 2 independent KILLs (L130, L180), and the borderline L176 was downgraded to KILL under the cluster rule"],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "Dedicated P5/P6 sweep done sentence by sentence. Checked: roads and lanes with motion verbs (L158, L222, L224, L238, L244, L295, L303 are all static-extent 'ran/came in/bent/met', with no fire, carry or cognition verbs); receiver nouns with the actor pushed into an instrument phrase (found L130 'The ordinance sends', L176 'Every flagged load leaves a bag', L180 'The sample room wants'); body-part subjects (L9 'pen hand shook', L28 'a muscle jumped', L172 'fingertips went white', L301 'The fingers Tam had bitten caught the edge late and held badly', L326 'Her elbow moved on the slates' are all involuntary, injured or physiological, so they meet the exception; L295 'the boots went off to the left' is perceptual synecdoche framed by the line before, 'Through the spokes she could see his boots'); abstract states settling into the body (none); metaphor chains with one inanimate subject taking repeated human verbs (none); permission tags (L295 'let the wagon grind on without her' is physical allowing with a result, the wagon being her lost cover, and is not in the closed tag set; L450 'let my lads have' is literal).",
+      "findings": [
+        {
+          "line": 130,
+          "text": "The ordinance sends a notice to the gate post whenever an inspector flags a shipment, so I bring them here myself.",
+          "pattern": "intent-smear P10 (receiver noun doing the human work / actor demoted)",
+          "subject": "the ordinance",
+          "verb": "sends",
+          "realAgent": "the inspector who flags the shipment (and Corin, who carries the notices himself, as the same sentence admits)",
+          "severity": "MILD",
+          "reason": "A law is given the physical act of sending while the people who actually send and carry the notice sit in a subordinate clause. With the inspector put back as subject the meaning is unchanged, so the actor was demoted.",
+          "suggestedFix": "When an inspector flags a shipment, he has to send a notice to the gate post. I bring them here myself.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "line": 176,
+          "text": "Every flagged load leaves a bag in the sample room.",
+          "pattern": "intent-smear P10 (receiver noun doing the human work / actor demoted)",
+          "subject": "every flagged load",
+          "verb": "leaves",
+          "realAgent": "the inspector or office clerk who draws and seals the sample bag",
+          "severity": "MILD",
+          "reason": "The load is given the act of depositing a sealed, labelled sample, work a person does. This was borderline on its own, but it sits between the L130 and L180 KILLs in the same stretch of Corin's speech, so the cluster rule ('A KEEP that appears near 2+ KILLs -> downgrade to KILL') makes it a KILL.",
+          "suggestedFix": "The inspector takes a bag off every flagged load for the sample room.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        },
+        {
+          "line": 180,
+          "text": "The sample room wants a magister's ring on the door.",
+          "pattern": "intent-smear P5 (object wanting)",
+          "subject": "the sample room",
+          "verb": "wants",
+          "realAgent": "the door's lock, which opens only to a magister's ring (the magisters who set that rule)",
+          "severity": "MILD",
+          "reason": "A room is given desire ('wants'), which matches the calibration example 'the city wanted something from her'. The real constraint is a lock and the person who holds the ring. The fix avoids the narration's wording at L194 ('a door that opened to a magister's ring') so it doesn't create an echo.",
+          "suggestedFix": "You need a magister's ring for the sample room door.",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 19,
+      "kills": 1,
+      "keeps": 18,
+      "severity": "MILD",
+      "dominantPattern": "Tic 5 (eye/gaze repertoire exhaustion)",
+      "ticCounts": {
+        "tic1_cornerOfMouth": 0,
+        "tic2_marked": "2 (L176 'marked with the bill' literal; L242 'marking the bend in Tenter Row' mental) = cap 2",
+        "tic3_tightenedEased": 0,
+        "tic4_facialShifted": "0 (L285 'shifted her bow hand' is physical and does not count)",
+        "tic5_eyeGaze": "5 reaction/assessment beats (L54, L80, L162, L370, L458) against a cap of 4. Tactical scanning and surveillance looks (L28, L68, L216, L271, L273, L275, L330) are character-specific to a ranger tail/surveillance chapter and are preferred under the guide, so they were not counted against the emotional-routing cap",
+        "tic6_weightMetaphor": "0 (L212, L253, L301 and L340 'weight' are all physical load; 'Heavy' is Jaina's in-world reading label)",
+        "tic7_nonSaidTags": "0 (L58 'said under his breath' is 'said' plus volume; 'Cyndia, low,' / 'Cyndia, very low.' are tagless attributions)"
+      },
+      "findings": [
+        {
+          "line": 458,
+          "text": "Sylvanas looked at him: the ink, the satchel, the bruised eyes. Then she pulled her knife out of the table",
+          "pattern": "tic5-eye-gaze-excess",
+          "severity": "MILD",
+          "toolSignal": "punct_colon_narration",
+          "reason": "This is the fifth reaction or assessment eye beat in the chapter, one over the cap of 4, and it is the weakest of the five: a generic look-before-verdict that re-lists Corin's established tags (ink, satchel, bruised eyes) and adds nothing. Her decision is carried by the next line, 'Stay behind Proudmoore'. L54's stand-off has the dried blood, L80 shows Havel clocking the bows, L162 is Jaina's fatigue waking to attention, and L370 makes the crock-to-'Heavy' link visible without narration, so each of those does more work.",
+          "suggestedFix": "Sylvanas pulled her knife out of the table",
+          "fixDifficulty": "low",
+          "crossChecked": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 74,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["negation-addiction-hunting-guide.md", "intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "guidesWithKills": ["intent-smear-agency-laundering-guide.md", "recurring-prose-tics.md"],
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "4 MILD-only KILLs, one over the 3-MILD pass threshold. Three are intent-smear kills clustered in Corin's office-procedure speech (L130 'The ordinance sends', L176 'Every flagged load leaves a bag', L180 'The sample room wants'). The fourth is a Tic 5 eye-beat excess at L458. Negation is clean. Every fix is a drop-in sentence swap or a deletion. Structural texture deficit (score 89.7, below_target: compound high, em-dash low). Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct and mattr are out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.685, "target": 0.733, "delta": -0.048, "range": [0.613, 0.863], "inRange": true},
+      "sentence_length_mean": {"actual": 12.5, "target": 12.412, "delta": 0.088, "range": [10.412, 14.412], "inRange": true},
+      "sentence_length_cv": {"actual": 0.759, "target": 0.723, "delta": 0.036, "range": [0.623, 0.823], "inRange": true},
+      "short_sentence_pct": {"actual": 35.3, "target": 30.155, "delta": 5.145, "range": [23.155, 37.155], "inRange": true},
+      "long_sentence_pct": {"actual": 22.8, "target": 15.352, "delta": 7.448, "range": [12.352, 19.352], "inRange": false},
+      "opener_entropy": {"actual": 6.3, "target": 6.637, "delta": -0.337, "range": [6.137, 7.137], "inRange": true},
+      "one_sentence_paragraph_pct": {"actual": 31.4, "target": 21.378, "delta": 10.022, "range": [17.378, 26.378], "inRange": false},
+      "mattr": {"actual": 0.786, "target": 0.848, "delta": -0.062, "range": [0.818, 0.888], "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct above range", "one_sentence_paragraph_pct above range", "mattr below range"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 89.7,
+      "participial_pct": 6.8,
+      "compound_pct": 16.6,
+      "emdash_pct": 3.0,
+      "semicolon_pct": 1.1,
+      "short_pct": 44.7,
+      "verdict_reasons": [
+        "compound: 16.6% above target 14.135% (score 77/100)",
+        "emdash: 3.0% below target 5.119% (score 81/100)"
+      ],
+      "interpretation": "COMPOUND: 16.6% -> target 14.135% (score 77/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 3.0% -> target 5.119% (score 81/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": {"telegram_run": 9, "texture_desert": 9},
+      "note": "Structural texture deficit. None of the four pass A kills falls inside a flagged telegram_run or texture_desert, so the fixes need no extra joining work."
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 40,
+      "total_violations": 1,
+      "overCap": [
+        {"category": "narrator_verdict", "pattern": "verdict_enough_for", "count": 1, "cap": 0, "line": 222, "text": "wide enough for one wagon and a man flat against the wall beside it", "ownedBy": "pass B (narrator-seep guide); not audited in pass A"}
+      ],
+      "passAMappedUnderCap": {
+        "punct_semicolon": "8/17. All KEEP: the voice sheet licenses short semicolon clauses in Sylvanas's inner argument, and L120 and L416 are dialogue",
+        "punct_colon_narration": "6/8. KEEP except L458, which is killed under Tic 5 with this signal as corroboration",
+        "participial_trailing": "13/35. All KEEP: participial texture is on target (6.8 vs 7.23)",
+        "filler_nodded": "3/4. All KEEP: L212 is Jaina's assent, L246 is a directional nod across the yard, L317 is the only readable signal in a silent observed exchange",
+        "filter_watched": "3/3. All KEEP: L28 is Lyriel's tactical watch, L112 and L418 are dialogue reports of surveillance",
+        "contact_pressed": "4/6. All KEEP: literal wax, seals, hand on satchel, paper",
+        "simile_like": "1/17. KEEP",
+        "simile_as_if": "1/5. KEEP: L273 'as if to steady himself' frames the loader's feint and is precise"
+      }
+    }
+  }
+}

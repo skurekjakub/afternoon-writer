@@ -1,0 +1,5 @@
+# Hurdle Lane and the loading lanes
+
+The back way through Andorhal's granary district: wide enough for one wagon and a man flat against the wall, in shadow from end to end, with the granaries standing over it on stone feet and their hoist beams hanging slack ropes overhead. Every few yards a loading lane joins it from one side or the other, and every one is blind: the walls run to the corner, so Sylvanas cannot see a stride into any of them until she stands in the mouth. Wagons back out of them without warning. The dust gets into her mouth.
+
+Havel walks her down it from the post, naming yards (Holt's, Garside's back gate, then out at the rope-walk end of Fenner's) and telling her it is covered by his lads. At the mouth of the first loading lane, where the mortar has gone soft, there is a crack at hip height: a dead drop, used by the runner. The mouth of Tenter Row opens on the right, narrower than the rest, with a granary gable and a ropeless hoist beam over its bend. Havel points past it.

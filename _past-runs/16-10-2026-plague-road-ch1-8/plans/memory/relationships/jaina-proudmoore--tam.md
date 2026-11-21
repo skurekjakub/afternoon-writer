@@ -1,0 +1,3 @@
+# Jaina and Tam
+
+She pins him to the loft floor with frost, the first time she has done it to a person ('A person made a different sound'). He will say only 'I'm not to speak to you... You don't know what you're keeping them from.' She thinks of the Boralus reliquary. At the cage she speaks gently ('Tam. Look at me. Slowly. Nobody is going to hurt you.') and he looks up with white on his lip; he dies within minutes. She kneels beside him, warm through his smock, and reads his gut: clean, he had never eaten what he guarded. That night she holds a private question: she had looked at a crying boy; if she had frozen his jaw... and answers herself that he'd have waited.

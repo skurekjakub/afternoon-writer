@@ -1,0 +1,187 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 6,
+  "targetFile": "v2-r6.md",
+  "verdict": "pass",
+  "fixStrategy": {
+    "strategy": "default",
+    "trajectory": [44, 32, 12, 8, 8, 5],
+    "reason": "Latest prior count (5) is below the minimum of earlier counts (8), so the loop is not oscillating. Full rewrites are allowed, with up to three attempts."
+  },
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner (limited third, absolute)",
+    "registerSummary": "Reads streets and rooms as ground: exits, sightlines, gait, drilled against tired. Inside she argues in short questions and blunt answers, is knowingly unfair to slow humans (Havel), mocks herself drily and ends the argument with an action. She names no feelings and would not think in thematic summaries.",
+    "registerConfidence": "HIGH",
+    "defenseSources": [
+      ".afternoon/plans/chapter7.json constraints and arcPosition",
+      "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md Inner voice section (Trust against results, outline chapter 7; unfair to Havel, outline chapters 7 and 13)"
+    ]
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 47,
+      "kills": 1,
+      "keeps": 46,
+      "mildKills": 1,
+      "moderateOrSevereKills": 0,
+      "severityMarkers": [],
+      "dominantPattern": "F10",
+      "modeSummary": {
+        "F1": 0, "F2": 0, "F3": 0, "F4": 0, "F5": 0, "F6": 0, "F7": 0,
+        "F8": 0, "F9": 0, "F10": 1, "F11": 0, "F12": 0, "F13": 0, "F14": 0, "F15": 0
+      },
+      "findings": [
+        {
+          "id": "r6b-gpt5-01",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F10",
+          "subPattern": "speech-final sign-off tag (a 'That's...' caption inside dialogue; F13 step 4 routes it to F10)",
+          "severity": "MILD",
+          "line": 365,
+          "scene": "chapter7-s3 (The Full Picture), Jaina's report at the post",
+          "citedText": "\"That's what's on the shelves. It doesn't tell me whose hands.\"",
+          "issue": "Jaina's explanation has already ended on its fact ('What it carries only wakes once the bread's eaten, inside whoever ate it.'). 'That's what's on the shelves.' then sums up the speech, which is a completeness caption like 'That's all.' The reader learns nothing new: the shelves are where the readings came from. The working half of the close, the limit ('whose hands'), sets up Sylvanas's 'I have the hands', but it hangs on a vague 'It' only because the caption sits in front of it.",
+          "deletionTest": "\"It doesn't tell me whose hands.\" (the caption goes; 'It' would then have no clear referent, so the fix makes the noun the subject)",
+          "suggestedFix": "\"The shelves don't tell me whose hands.\"",
+          "fixNote": "Replace the whole quoted close after 'She put the fingertips back on the staff.' Keep the beat before it. The noun-subject version keeps the setup for Sylvanas's 'I have the hands' at L369.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "gpt-5: one sentence and no sign-off (F10), no caption frame (F13), and no echo of the previous speaker (F8). The negated verb is a fact about the evidence in speech, so it is not a non-action beat (F12). narrator-seep: dialogue only, no narration added. phantom-concreteness: 'whose hands' is anchored by 'Somebody puts it on by hand' two sentences earlier. fake-simplification: it names her limit plainly, so Sylvanas can act on it at once.",
+          "texture": "Inside the texture_desert at sentences 534-547 and the telegram_run at 537-544, which the rhythm scorer previews with exactly this close. The fix is the same length or shorter, so it does not deepen the run."
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 28,
+      "kills": 0,
+      "keeps": 28,
+      "mildKills": 0,
+      "moderateOrSevereKills": 0,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "tierAKills": 0,
+      "tierBKills": 0,
+      "structuralHabit": "no",
+      "cleanReason": "28 candidates were examined across Tier A and Tier B. A1: the colon verdict at L197 ('an honest man, or a very patient one') meets the keep condition because it is an assessment inside the decision to send Jaina with Corin, and the next sentence acts on it. L237, L309, L327 and L349 are a tactical scan result, a sardonic recall, a self-correction and a practical fact. A2: 'Leave it in the wall. Take the man.' is a decision followed at once by the action. A5: every ambience line names a source. A7: the typifications at L159, L243 and L277 each feed an immediate action or doubt. 'Everyone in Andorhal' (L325) generalizes from two observations already on the page. A8: sound comes before sight only where she truly hears first (L305 on the roof, L341 the staff), and the source is named at once. Tier B: the self-questions at L201 and L425 and the unfairness paragraph at L405 are planned in the voice sheet's ch7 inner-argument notes and pass the mutter test. The only tool hit (narrator_verdict at L223, 'wide enough for one wagon and a man flat against the wall') is a physical clearance measure. There are no zoom-outs to essay distance."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 21,
+      "kills": 0,
+      "keeps": 21,
+      "mildKills": 0,
+      "moderateOrSevereKills": 0,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "dialogueClusters": [],
+      "narrationClusters": [],
+      "repeatStandIns": [],
+      "cleanReason": "21 candidates were tested with the cash-out test, and all of them meet a closed-list condition with the carrier cited from the page. Tactical inferences come after their evidence: positions at L255/L259 lead to L261, the face kept to the lane at L273 leads to L277, the nib at L9/L25 leads to 'worn out and paid', and the slate man at L69 leads to L71. Task-split lines name their payload ('read the bags' against 'a drilled man's walk'), so none is note-speak like 'She had the street shape.' Jaina's mechanism lines (L365, L379) stay at the plan-mandated Ch7 level (carrier coat, payload wakes after eating, alchemy plus necromancy) and are anchored by the crock and the arm-in-the-sack report. Callbacks at L425 (cold stove, smiling overseer, the miller's buy-back) were checked against chapter5 final.md and are real events. No stand-in noun ('shape', 'work', 'truth', 'pressure') repeats. The 100% keep rate is above the guide's 25% warning. The explanation is that this is the seventh B sweep of a text revised six times, and every keep cites its local carrier in the scratchpad."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 7,
+      "mildKills": 0,
+      "moderateOrSevereKills": 0,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "brokenExchanges": [],
+      "cleanReason": "The chapter has no explicit translation setup ('plainly', 'short version', 'smaller words', 'say it in streets'). The seven nearest exchanges were audited whole: Jaina's reading at L361/L365, Sylvanas's sketch gloss at L381, Corin's 'From Dalaran, I mean' at L401, the crock reframe at L411-L417, the wet-loft threshold at L435, the jaw-and-touch requirement at L441, and Havel's sickness map at L101/L105. Each gives a usable target (copied marks, the crock, one man close enough to touch, the mill lane and its ovens) and, where timing matters, a visible threshold: after dressing and before sewing, the clerk's arrival, gloves burned and boards swilled. No exchange needs a second round of unpacking."
+    }
+  ],
+  "toolSignalAudit": {
+    "passBMappedPatterns": ["verbose_phrases", "expression_decomposition", "academic_register", "dialogue_register", "ai_vocabulary", "clinical_anatomy", "hedging", "vague_pointers", "ambient_inversion", "slopsquid", "narrator_verdict"],
+    "hits": [
+      {
+        "pattern": "verdict_enough_for",
+        "category": "narrator_verdict",
+        "line": 223,
+        "text": "wide enough for one wagon and a man flat against the wall beside it",
+        "cap": 0,
+        "overCap": true,
+        "guide": "narrator-seep-guide.md",
+        "decision": "KEEP",
+        "reason": "A concrete physical clearance measure for the lane where she later tails the loader. It is not an abstract narrator verdict. The full rationale is in the scratchpad."
+      }
+    ],
+    "unmappedNote": "The other 36 checker matches (participial_trailing, punctuation, contact_pressed, filler_nodded, filter_watched, simile) map to pass A guides and are all under cap. F3 checked the three filler_nodded lines (L213, L247, L319) and the filter_watched lines independently, and all were KEEP."
+  },
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 102,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": ["gpt-5-prose-issues.md"],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 1 MILD kill (F10 sign-off in Jaina's report at L365) and no MODERATE or SEVERE kills. Narrator seep, phantom concreteness and fake simplification are clean on 56 candidates. The one over-cap checker hit (narrator_verdict at L223) is a physical measure and is KEEP. There is a structural texture deficit (score 89.4, below_target; em-dash 3.0% below range; 8 telegram runs and 7 texture deserts). Structural rhythm concerns: one_sentence_paragraph_pct 32.5, long_sentence_pct 22.8 and mattr 0.786 are outside range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.69, "target": 0.733, "delta": -0.043, "range": [0.613, 0.863], "inRange": true },
+      "sentence_length_mean": { "actual": 12.5, "target": 12.412, "delta": 0.088, "range": [10.412, 14.412], "inRange": true },
+      "sentence_length_cv": { "actual": 0.758, "target": 0.723, "delta": 0.035, "range": [0.623, 0.823], "inRange": true },
+      "short_sentence_pct": { "actual": 35.7, "target": 30.155, "delta": 5.545, "range": [23.155, 37.155], "inRange": true },
+      "long_sentence_pct": { "actual": 22.8, "target": 15.352, "delta": 7.448, "range": [12.352, 19.352], "inRange": false },
+      "opener_entropy": { "actual": 6.34, "target": 6.637, "delta": -0.297, "range": [6.137, 7.137], "inRange": true },
+      "one_sentence_paragraph_pct": { "actual": 32.5, "target": 21.378, "delta": 11.122, "range": [17.378, 26.378], "inRange": false },
+      "mattr": { "actual": 0.786, "target": 0.848, "delta": -0.062, "range": [0.818, 0.888], "inRange": false },
+      "structuralRhythmConcerns": ["long_sentence_pct above range", "one_sentence_paragraph_pct above range", "mattr below range"]
+    },
+    "textureMetrics": {
+      "texture_score": 89.4,
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "verdict_reasons": [
+        "compound: 16.7% above target 14.135% (score 76/100)",
+        "emdash: 3.0% below target 5.119% (score 81/100)"
+      ],
+      "interpretation": "COMPOUND: 16.7% -> target 14.135% (score 76/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 3.0% -> target 5.119% (score 81/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "participial_pct": 6.5,
+      "compound_pct": 16.7,
+      "emdash_pct": 3.0,
+      "semicolon_pct": 1.0,
+      "short_pct": 44.6,
+      "flaggedPassages": {
+        "telegram_run": 8,
+        "texture_desert": 7,
+        "zones": [
+          "sentences 11-22 (gate clerk intro; desert + telegram 15-22)",
+          "sentences 51-65 (gate Q&A; desert + telegram)",
+          "sentences 155-164 (Havel on the rope-walk; desert + telegram)",
+          "sentences 230-238 (Jaina asks Corin; telegram)",
+          "sentences 290-299 (the split order; desert + telegram)",
+          "sentences 375-384 (Cyndia's count of eight; desert)",
+          "sentences 534-547 (Jaina's report; desert + telegram 537-544, contains r6b-gpt5-01)",
+          "sentences 570-580 (Havel 'Kett shut his gate'; desert + telegram)",
+          "sentences 665-672 (Jaina's jaw plan into the orders; telegram)"
+        ]
+      }
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 37,
+        "total_violations": 1,
+        "overCapCategories": ["narrator_verdict (verdict_enough_for at L223, cap 0): adjudicated KEEP as a physical measure"],
+        "passBMappedHits": 1,
+        "passAMappedHits": 36
+      }
+    }
+  }
+}

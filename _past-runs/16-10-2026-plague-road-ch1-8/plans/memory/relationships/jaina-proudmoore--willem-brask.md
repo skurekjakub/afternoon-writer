@@ -1,0 +1,3 @@
+# Jaina and Brask
+
+Brask says 'Miss' to Jaina as an afterthought and sends her off with Dickon. She stops herself from lecturing him on necromancy in front of a child and thanks him in a voice too high. At night, with Tam dead on the cage floor, she looks at Brask's heavy grey face and decides not to explain the stack and the seams and the third part; she goes to Sylvanas. She tells him what to shut and says 'I'm sorry, Captain. Every house.' He says 'Burn it, then.' At dawn he reports having burned the loft boards, her ice and all; she thanks him though she minds. He asks her to spell Proudmoore and writes 'The mage. Jaina.' first.

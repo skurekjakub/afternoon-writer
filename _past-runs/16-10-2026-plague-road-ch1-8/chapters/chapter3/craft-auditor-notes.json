@@ -1,0 +1,190 @@
+{
+  "chapterId": "chapter3",
+  "iteration": 0,
+  "targetFile": "v0.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter; worst in narration paragraphs at v0.md lines 5, 9, 11, 117, 123, 445, 597, 781, 847, 855-859",
+      "passage": "The mage went down the line with the staff in the crook of her elbow, and at each horse she set the heel of it against the ground between the forefeet and leaned her cheek to the wood and listened, and the horse put its ears back at the clicking and then forward again, and stood.",
+      "problem": "Texture score is 62.3/100 (pass is 90). Two dimensions cause most of it. Participial phrases are at 1.9% against a 12% target: the scorer finds almost no ', Ving' connective tissue anywhere in 18k words. Compound joins are at 21.3% against 10%: the default way to string actions together is ', and ... , and ... , and', often three or four times in one sentence (about 46 sentences carry three or more and/but joins). The Sanderson anchor uses polysyndeton for one atmosphere set-piece per scene, but here it is the resting gear for every action sequence.",
+      "fix": "Convert some of the and-chains into participial joins, without adding words. Examples: line 597 -> 'At each horse she set the heel of it between the forefeet, leaning her cheek to the wood, and the horse put its ears back at the clicking before it stood.' Line 123 -> 'She wound on slowly, a quarter-turn at a time, the bucket coming up out of the dark slopping over its lip.' Line 847 -> 'the bay walked her up past the inn sign into the north road, swinging wide round the wagon.' Line 859 -> 'the mud came up over the mare's fetlocks, sucking at her feet when she pulled them out.' Line 11 -> 'Lyriel leaned across and took her by the cheekpiece, bringing her round without a word.' Leave the polysyndeton on the opening crossroads (line 5), the night race (613) and the country opening (857), where it does atmosphere work. Cut it from procedure and movement. Aim for roughly 150-200 converted joins across the chapter. That moves both dimensions at once."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "medium",
+      "location": "Narration throughout; em-dashes mostly appear only as dialogue cut-offs",
+      "passage": "\"Ranger-General, it's right under us. If I put my hand down here now, before it's full dark—\"",
+      "problem": "Em-dash use is 1.2% against a 4.0% target (score 74). Of the 16 dashes, nearly all are speech broken off ('I can't—', 'If I don't come up—', 'If he's—'). Narration has almost none of the mid-sentence pivots the anchor uses ('Even if he'd given up everything else—even if all had been taken from him'). The style guide also gives Sylvanas em-dashes for clipped self-correction.",
+      "fix": "Add mid-sentence pivots in Sylvanas's interior arguments, where they belong in her voice. Candidates: line 299 ('Her line was north, and the stones were north—and the noon stone with the cold under its warmth...'); line 553 ('So the child was wrong—or the child had seen the wrong night'); line 699 ('The one print that walked apart—the one that went up the bank to look ahead'); line 757 ('That was true—and very convenient'); line 893 ('What went south was a click in a crystal—a human mage's face turning green'). Roughly 25-35 more dashes across the chapter will reach target. Use them in place of some semicolons and ', and' joins, not on top of them."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "low",
+      "location": "Scorer telegram runs: Cyndia's report (line 95), girl interview (lines 453-547), cut count (679-697), dispatch (745-747)",
+      "passage": "\"Ranger-General.\" Cyndia stood with her weight even and her eyes on Sylvanas. \"East side's clear. Fourteen houses and the smithy, and the inn's back rooms and loft. No one. No blood, no broken doors. Food on most tables.\"",
+      "problem": "Most of the 30 telegram-run and texture-desert flags fall inside dialogue that is short on purpose. These are Cyndia's event-order reports, the child's fragments and the dispatch in Sylvanas's own hand, and they are correct for those voices. The runs that are narration are worth fixing: line 287-289 ('Sylvanas stood up. They had walked out.') and the Neral/hatch run at 329-337.",
+      "fix": "Do not break Cyndia's report or the child's lines to satisfy the scorer. Get the texture from the narration paragraphs between exchanges (see the first finding). At lines 287-289, join the stand-up to the thought: 'Sylvanas stood up, wiping her palm down her thigh. They had walked out.'"
+    },
+    {
+      "check": "beat-fidelity",
+      "severity": "high",
+      "location": "Scene 2, B6, girl's testimony, lines 485-493",
+      "passage": "\"When did your mam get sick?\" said Neral. / \"After the new grain man.\" ... \"Because he was cheaper than Mister Hollis, and Da said why wouldn't you, and Mam said cheap is dear. And then she was hot.\" / \"What new grain man?\" said the mage. ... her mouth moved as if she were going to ask the next thing; and then she looked at her hands again and didn't.",
+      "problem": "The plan wants the grain seller 'heard once, not connected,' a weak clue 'odd enough to keep, not enough to follow,' with no grain-carrier reading (constraints, B6 plannerWarning, mustNotBeImpliedYet). The prose wires it straight to cause. It comes up as the direct answer to 'When did your mam get sick?', it is followed by 'And then she was hot', and it sits under the adage 'cheap is dear'. The storehouse full of grain was the loudest place in Millhaven an hour earlier. On top of that, the mage nearly asks a follow-up and visibly stops, so the scene spends a second beat on the clue. Per the plan's craft research, a planted clue should get no more dwell than the details around it. Sylvanas's 'turned it over once' paragraph (493) is the right weight. The way the line arrives undoes it.",
+      "fix": "Cut the temporal link. Have the grain man come up as a side memory, not as the answer to when she got sick. Example: Neral asks a household question ('Who was in your house, the last days? Who came to the door?') and the girl lists them: Missus Hale, the man from the mill, 'the new grain man, Da had words with Mam about him because he was cheaper'. Then the list moves on. Drop 'cheap is dear' and 'And then she was hot' from that answer, and let the mage's 'What new grain man?' get the shrug without the almost-asked follow-up. Keep Sylvanas's single turn-it-over paragraph as written."
+    },
+    {
+      "check": "limited-third",
+      "severity": "medium",
+      "location": "Scene 3, B9, line 823",
+      "passage": "His eyes went once along the line of horses, front to back: Sylvanas's mare, Cyndia's on the left, Lyriel's on the right, the mage's borrowed mare sitting between them in the gap. Humans always looked at the horses.",
+      "problem": "The plan's rule for the carter is 'write the glance and never comment on it' and 'the narration does not look twice at the carter.' 'Humans always looked at the horses' is a second look. Sylvanas stops to explain the glance away, and that makes it stand out. It also reads as a narrator's general rule tacked on, not something she does.",
+      "fix": "Cut the sentence. Keep the glance and the inventory of positions. If Sylvanas needs a reaction, make it physical and about something else, such as her mare shifting under her or her eyes going to the bridge."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Scene 3, B9, Lyriel's answer, line 817",
+      "passage": "\"You'll get a better price going home full than going home cross, mind. That wagon of yours rattles like a magister's promise.\"",
+      "problem": "The voice sheet says Lyriel 'makes one joke and then gets back to work'. This turn stacks two: the 'full/cross' turn and the magister simile. The magister joke is a Silvermoon in-joke told to a Lordaeron carter who has no reason to know what a magister's promise is worth. The carter then laughs 'That's the truth' as if he got it. The answer itself is warm, true and not careless, which is what the plan needs.",
+      "fix": "Keep one joke. Either drop the magister line or turn it into something a carter would know (a road, a toll, a miller). For example, end on 'You'll get a better price going home full than going home empty, mind,' and let the carter's short laugh answer that."
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "Whole chapter; clusters at lines 575-603 and 691-743",
+      "passage": "the way you shift on your feet next to a tired horse / the way she'd look at a horse that had refused a ditch / the way a child's does / the way an old woman straightens from a garden bed",
+      "problem": "'The way X does Y' is the chapter's default simile frame. About 30 of the 42 'the way' hits are this construction, often two or three per page (four in lines 575-603, five in lines 691-743). Each is concrete and in Sylvanas's idiom, but read in a row they become a template. The style guide sets her metaphor density at 0-1 per 1000 words, and the chapter runs at roughly double that, almost all through this one frame.",
+      "fix": "Cut about half. Where the action is already clear, delete the simile clause ('Neral nodded once.' does not need the horse-price comparison; the mage 'sat down carefully' does not need 'the way you sit when your back has set'). Keep the ones that do POV work (193 horse-doctor at a gut, 249 cattle over a gateway, 699 sheep through a gap, 729 hare watching a hawk). Of the survivors, recast a few as plain apposition or as a separate short sentence so the frame stops repeating."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Repeated images and refrains across all three scenes",
+      "passage": "'her eyes felt full of sand' (21) / 'her eyes felt full of sand' (253) / 'her eyes like sand' (297) / 'her eyes were full of sand' (615) / 'Sylvanas's own eyes were full of sand' (873)",
+      "problem": "Several images recur often enough to read as tics rather than motifs. Sand in the eyes appears five times. 'She'd have had X's hide' or 'flayed a ranger' appears four times (15, 229, 617, 867). The voice sheet gives it as a shape, not a refrain. 'Like a beetle in a box' is used twice for the crystal (207, 879). 'Trodden to soup' appears twice (297, 621). Personified knees or legs come up four times ('her knees agreed to take her weight' 33, 'Her knees reminded her about the ditch' 253, 'faster than her knees wanted' 325, 'until her legs were sure of her' 877). 'Neral never argued' comes three times (323, 583, 609). The doe refrain ('A doe was a doe') at 81, 273 and 339 is deliberate and can stay.",
+      "fix": "Keep sand at 21 and 615 and replace the others with different fatigue signals (a missed step, a sentence she has to read twice, the lantern light smearing). Keep the hide line at 617 and 867 only, and rephrase 15 and 229. Find a new sound for the crystal at 879 (it is meant to be faster than before, so name the difference). Cut one 'trodden to soup' and two of the knee personifications. Keep one 'Neral never argued' note."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 2, B5-B6 especially (lines 431-547)",
+      "passage": "\"When did your mam get sick?\" said Neral. ... \"Then what happened?\" said Neral. ... \"And you did,\" said Neral. ... \"How many?\" said Neral.",
+      "problem": "The inverted tag 'said Neral' / 'said the mage' is used 12 times, most of them in the girl's interview. It gives the scene a storybook cadence and draws attention to the tag, where a 'said' tag should be invisible. The anchor uses 'Kaladin said' order.",
+      "fix": "Normalize most to 'Neral said', or drop the tag where the speaker is clear from alternation. Neral and the mage take turns, and each has a distinct question style, so several tags can go."
+    },
+    {
+      "check": "emotional-life",
+      "severity": "low",
+      "location": "Scene 1, B3, line 229; Scene 2, B7, line 701",
+      "passage": "\"Caution, then? Or a show for the Ranger-General in the doorway, so the Ranger-General would go home and say *sound judgment*? Who did she think the Ranger-General said it to? Nobody.\" / \"They had just gone. All of them, all together, uphill, the way water goes downhill. And water didn't go uphill.\"",
+      "problem": "Both are good self-arguments that blur at the turn. At 229, 'Who did she think the Ranger-General said it to? Nobody.' takes a second read to parse (the point is that Sylvanas praises no one to anyone, so a performance would be wasted). At 701 the water image contradicts itself on purpose but lands as a muddle, not a sharp bad answer that gets overruled.",
+      "fix": "At 229, make the overrule plain and in her idiom: 'A show, then, for the Ranger-General? Wasted on her; she'd never said sound judgment of anyone in her life.' At 701, either cut the water sentences or give the bad answer and overrule it in one move: 'the way water goes downhill. Water had a hill to go down. These had walked up one.'"
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 62.3,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {
+        "actual": 1.9,
+        "target": 12.0,
+        "score": 42.2
+      },
+      "compound": {
+        "actual": 21.3,
+        "target": 10.0,
+        "score": 39.4
+      },
+      "emdash": {
+        "actual": 1.2,
+        "target": 4.0,
+        "score": 74.3
+      },
+      "semicolon": {
+        "actual": 3.1,
+        "target": 1.8,
+        "score": 93.4
+      }
+    },
+    "otherMetrics": {
+      "short_pct": 54.4,
+      "sentenceCount": 1416,
+      "meanSentenceLength": 12.7,
+      "paragraphOneSentencePct": 32.8,
+      "commaPeriodRatio": 0.728
+    },
+    "interpretation": "PARTICIPIAL: 1.9% → target 12.0% (score 42/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 21.3% → target 10.0% (score 39/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% → target 4.0% (score 74/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+    "pullingDown": [
+      "participial UNDER (1.9 vs 12.0, score 42): almost no ', Ving' joins anywhere",
+      "compound OVER (21.3 vs 10.0, score 39): ', and ... , and ...' chains are the default action syntax",
+      "emdash UNDER (1.2 vs 4.0, score 74): dashes used only for broken-off speech"
+    ],
+    "flaggedPassages": [
+      "telegram_run s143-156: No one. No blood, no broken doors. Food on most tables.",
+      "texture_desert s143-158: No one. No blood, no broken doors. Food on most tables.",
+      "telegram_run s193-202: \"I'll call you.\" \"Louder than last time, please. I went further than I meant to.",
+      "texture_desert s193-202: \"I'll call you.\" \"Louder than last time, please. I went further than I meant to.",
+      "telegram_run s241-249: The two from the north do. The east one doesn't lag at all. And the west one I couldn't hear properly for the noise unde",
+      "texture_desert s241-251: The two from the north do. The east one doesn't lag at all. And the west one I couldn't hear properly for the noise unde",
+      "telegram_run s298-308: \"Mage.\" The mage lifted her head at once, white to the lips. She left skin on the boards again.",
+      "texture_desert s298-308: \"Mage.\" The mage lifted her head at once, white to the lips. She left skin on the boards again.",
+      "telegram_run s337-346: \"You're done reading with those tonight.\" \"I can still use the staff.\" \"You can still hold the staff, which isn't the sa",
+      "texture_desert s337-346: \"You're done reading with those tonight.\" \"I can still use the staff.\" \"You can still hold the staff, which isn't the sa",
+      "telegram_run s360-367: Cyndia moved the light a hand's width at a time. \"Feet,\" she said. \"Boots.",
+      "telegram_run s369-377: She moved the light. \"That's a longer drag. Could be a foot.",
+      "telegram_run s420-429: \"Yes.\" Sylvanas stood up. They had walked out.",
+      "texture_desert s420-429: \"Yes.\" Sylvanas stood up. They had walked out.",
+      "telegram_run s475-484: \"It was over this,\" Neral said. She did not turn her head. \"The bed.",
+      "texture_desert s475-485: \"It was over this,\" Neral said. She did not turn her head. \"The bed.",
+      "telegram_run s517-524: \"It's loud,\" the mage said. \"The floor's loud. The whole street is.",
+      "texture_desert s517-528: \"It's loud,\" the mage said. \"The floor's loud. The whole street is.",
+      "texture_desert s565-574: Sun's sake. Let Neral do it. Neral had never in her life had to kick anything in.",
+      "texture_desert s609-618: \"Nothing down here but her,\" the mage said at last. Her voice came up hollow out of the hole. \"It's in the ground, the s",
+      "telegram_run s611-618: \"It's in the ground, the same as everywhere. No more than that. Nothing that's been in here was carrying it.\"",
+      "telegram_run s662-669: \"Who was sick first?\" A long breath. \"Mister Pell.\"",
+      "telegram_run s671-680: \"The baby first,\" Neral said. \"Then Mister Pell. Then everybody at the well.\"",
+      "texture_desert s671-684: \"The baby first,\" Neral said. \"Then Mister Pell. Then everybody at the well.\"",
+      "telegram_run s715-727: She walked on. \"Then what happened?\" said Neral. \"Mam died.\"",
+      "texture_desert s715-727: She walked on. \"Then what happened?\" said Neral. \"Mam died.\"",
+      "telegram_run s734-745: Not for anybody. Not for him.\" \"And you did,\" said Neral.",
+      "texture_desert s734-745: Not for anybody. Not for him.\" \"And you did,\" said Neral.",
+      "telegram_run s761-769: \"Which way were the toes pointing?\" said the mage from the w \"Toward the mill? Or away from it?\"",
+      "telegram_run s771-778: \"Hundreds. All night. Every night.\"",
+      "telegram_run s798-807: Too late to take it back. She didn't try. Neral put her hand on the back of the girl's head.",
+      "texture_desert s798-821: Too late to take it back. She didn't try. Neral put her hand on the back of the girl's head.",
+      "telegram_run s809-819: That was nowhere Sylvanas had been. \"Cyndia. Cyndia was still in the lane behind her.",
+      "texture_desert s823-834: The noon stone with the cold under its warmth, which she cou That was what she did not like. She had a child's word, giv",
+      "telegram_run s902-909: Neral could have been on the hill road by now with the whole And say what? *North*. And they'd turn every bow on the wal",
+      "texture_desert s902-911: Neral could have been on the hill road by now with the whole And say what? *North*. And they'd turn every bow on the wal",
+      "telegram_run s965-972: She put her own finger near a print, not in it. \"I can't tell you how much is people. I'd be guessing.\"",
+      "telegram_run s982-995: \"That's heavy,\" she said. \"The first one. That one's light, as light as the bank.",
+      "texture_desert s982-995: \"That's heavy,\" she said. \"The first one. That one's light, as light as the bank.",
+      "texture_desert s1002-1014: Every one of them that had walked up here would have put a f The mage went along inside the box with the staff. Cyndia w",
+      "telegram_run s1023-1030: \"Forty-one,\" Cyndia said. \"Heavy. In the step.",
+      "texture_desert s1023-1032: \"Forty-one,\" Cyndia said. \"Heavy. In the step.",
+      "telegram_run s1051-1058: She stopped. \"Sixty, Ranger-General. Sixty I'll put my name to.",
+      "texture_desert s1051-1065: She stopped. \"Sixty, Ranger-General. Sixty I'll put my name to.",
+      "telegram_run s1141-1148: Sylvanas wrote. Thalassian, small, no greeting. *Lor'themar.",
+      "texture_desert s1141-1156: Sylvanas wrote. Thalassian, small, no greeting. *Lor'themar.",
+      "telegram_run s1235-1242: \"Dead. He turned the hat round in his hands. \"Millhaven?",
+      "telegram_run s1244-1253: Empty going up, full coming down. She had seen the same thing on every cart that ever came up  \"Where have you come from",
+      "texture_desert s1244-1255: Empty going up, full coming down. She had seen the same thing on every cart that ever came up  \"Where have you come from",
+      "telegram_run s1278-1285: She smiled at him. \"You'll get a better price going home full than going home c That wagon of yours rattles like a magis",
+      "texture_desert s1278-1287: She smiled at him. \"You'll get a better price going home full than going home c That wagon of yours rattles like a magis"
+    ]
+  },
+  "checkResults": {
+    "emotionalLife": "Pass. Sylvanas thinks on the page in every scene, in her own idiom, with question / bad answer / overrule: the drawknife drill (53), fled/taken/walked out (75-79), the granary 'Caution, then? Or a show' (229), 'Don't. A doe is a doe' (273, 339), kick-it-in (389), the night hold (615-621), the bellwether search (699-703), the child 'Both.' (761), the farewell (831), 'It was not the same.' (893-897). Registers vary: dark humour ('There had never been hundreds of anything in Millhaven but hens', 'The cat looked better fed than her rangers', 'Mage. Put your cap back on your ink'), warmth (Neral at the hatch, the darned stocking), and real exhaustion (613-627, 871-873). Value shifts land on concrete moments (the drawknife laid square, the clog standing in the mud, 'Mage. Can you tell her which marks are which?', the switch box, the farm door shutting).",
+    "voiceDistinctness": "Pass. Neral (one question, says it back, warns before acting), Cyndia (event-order reports, opinion last: 'I'd rather not give you a number and then take it back'), Lyriel (asks, warm, joking), the mage (courteous, a qualifier then a consequence, 'I'll be glad of it, and not understand it'), the girl (fragments, 'We didn't have any pears'), and the carter (prices, places, weather) cannot trade lines.",
+    "limitedThird": "Pass apart from one comment on the carter's glance (finding 5). Inferences about other characters are framed as Sylvanas's reads ('Sylvanas understood her well enough', 'without seeming to know'). No elf-sensing of the contamination: the horses, the staff buzz in her fist, the frost and the mage's face carry it, and her palm on the mud and the mare reads nothing. Jaina stays 'the mage' in narration.",
+    "dialogueRegister": "Pass. No institutional or clinical speech. The dispatch is terse field Thalassian, as it should be.",
+    "beatFidelity": "All 12 beats are dramatized, including B6a (the hold, the promised horse check paid off, the girl asleep on Neral, the race as the only sound, the wrapped hands). The B7 route correction is handled on the page: Sylvanas sees the Pass road two fields off and works out that they passed in the dark. 'No commander' is shown through her search for a lead print. The only fidelity problem is that the grain-man plant is too strong (finding 4)."
+  },
+  "summary": "A very strong draft. Interiority runs through every scene in Sylvanas's own arguing voice, each supporting character sounds like themselves, POV is clean, and every beat including the night hold and the cut count is dramatized through concrete action. It fails on texture: 62.3/100, with participials nearly absent (1.9% vs 12%) and ', and' polysyndeton doubled (21.3% vs 10%). It also fails on one plant: the grain seller is wired to the onset of illness and gets two beats of dwell when it should get one. The rest is low-to-medium polish: the 'the way X does' simile frame, five 'eyes full of sand', and one sentence explaining away the carter's glance."
+}

@@ -1,0 +1,288 @@
+{
+  "chapterId": "chapter2",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 2,
+  "targetFile": "v2-r2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA [51, 13] -> 4, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 21,
+      "kills": 3,
+      "keeps": 18,
+      "severity": "MILD",
+      "dominantPattern": "fragment / preamble pivot stacked onto an already-delivered point",
+      "clusterWarnings": [
+        "Room-vs-stone pivot leaks across the voice boundary: narration L55 ('Nothing she said in this room would get her out of it. She would have to do it at a stone.') pre-runs dialogue L77 ('I can't prove it to you from a chair, Ranger-General. I can prove it at a stone.'). Killing L55 resolves the leak; the dialogue line is kept as a binary diagnostic.",
+        "Voice-surprise negations six lines apart in the ambush (L384 'Jaina had not known Windrunner's voice could go that loud', L390 'a voice Jaina had never heard her use ... with no laugh left in it'). L390 is the weaker one and is killed."
+      ],
+      "findings": [
+        {
+          "id": "A-NEG-1",
+          "line": 55,
+          "text": "Nothing she said in this room would get her out of it. She would have to do it at a stone.",
+          "pattern": "P5 preamble negation (claim-then-gloss shape)",
+          "deletionTest": "...giving back nothing Jaina could put a hand on. She would have to prove it at a stone. Outside, with the elf standing beside her.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The previous clause already says talking gets nothing back ('giving back nothing Jaina could put a hand on'), so 'Nothing she said in this room would get her out of it' is a second refusal before she gets to the real move, the stone. It is the same shape as the guide's replacement-trap example ('She would get none standing in the doorway.'), and it says the chair-vs-stone pivot in narration before she says it aloud at L77. None of conditions 1-4 applies, because the decision is made in the next sentence and in the dialogue.",
+          "textureZone": "Inside a flagged texture_desert (10 sentences, preview 'Nothing she said in this room would get her out of it...'). When applying the fix, consider joining the stone sentence and 'Outside, with the elf standing beside her.' into one clause to add connective tissue.",
+          "suggestedFix": "She would have to prove it at a stone.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-2",
+          "line": 390,
+          "text": "in a voice Jaina had never heard her use, flat, with no laugh left in it",
+          "pattern": "P4 minimizer pivot (voice defined by what it lacks)",
+          "deletionTest": "Lyriel had said it from somewhere behind Jaina's right shoulder, flat and clipped.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Two absences ('never heard her use', 'no laugh left in it') are set around the one positive descriptor, 'flat'. Lyriel's joking is already established at L313-321, and the spoken line 'Stag. Taking him.' already shows the clipped combat register. This repeats the 'Jaina had not known Windrunner's voice could go that loud' beat six lines earlier, so the negated-voice shape appears twice on one page.",
+          "suggestedFix": "flat and clipped",
+          "fixNote": "Replace only the cited fragment, so the sentence reads: 'Lyriel had said it from somewhere behind Jaina's right shoulder, flat and clipped.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-3",
+          "line": 504,
+          "text": "No. Slower. A deer drank from the stream,",
+          "pattern": "P2 fragment pivot (stacked self-correction)",
+          "deletionTest": "A deer drank from the stream, stripped bark, and lay down every night in the same hollow in the bracken, picking things up in a hundred places a mage had never thought to look.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The paragraph before it already makes the self-correction ('She didn't know a thing yet except that one deer was full of it, and one deer was one deer.'). 'No. Slower.' adds a second refusal on top of that, so condition 4 fails because the complication has already been delivered. This is also the fourth 'No.'-fragment self-correction in the chapter (L51, L117, L287, L504). The deer-habits sentence carries the slowing-down on its own.",
+          "suggestedFix": "A deer drank from the stream,",
+          "fixNote": "Delete 'No. Slower. ' and start the paragraph at 'A deer drank from the stream'.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 31,
+      "kills": 1,
+      "keeps": 30,
+      "severity": "MILD",
+      "dominantPattern": "P8 body-part subject",
+      "secondSweep": "Ran the P5/P6 second sweep sentence by sentence. Geography with motion verbs (L65 track 'runs'/'drops', L161 'The road ran straight at them', L356 'the road bent', L370 'a wood ... came down to the road', L558 'The road went up', L590 'The road ran down') uses standard topographic verbs with no intent, fire, or cognition. Receiver nouns: L542 'before the read went soft at the edges' is a memory-fade metaphor with no intent verb and no demoted actor. Body-part subjects checked: L3 neck, L47 hands (KILL), L187 'A hand came over', L213 chin, L267 hand, L279 hands, L287 face, L406 right hand, L420 legs, L488 and L506 stomach. Abstract-state-into-body checks: L107 'A day in the chair had set her knees stiff' is plain physical causation. The contamination/ward/stone/staff verbs (L5, L21, L97, L101, L115, L173-179, L227-235, L291, L332, L348, L404, L456, L498, L570) are the chapter's literal in-world mechanism, so the subject-matter defense applies. No metaphor chain gives one inanimate noun several different human verbs.",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "line": 47,
+          "text": "Her hands had stopped. They lay on her knees with the split knuckles up,",
+          "pattern": "P8 body part acting independently",
+          "subject": "Her hands",
+          "verb": "had stopped",
+          "realAgent": "Jaina. She had already put her hands back on her knees at L29 ('She put them back on her knees.'), so they had nothing left to stop doing.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Pattern 8 test: putting Jaina in the subject slot keeps the meaning, and continuity makes 'had stopped' an empty beat because the gesturing already ended at L29. The involuntary exception does not apply because the hands are not doing anything at this point. Only the resting position carries information.",
+          "suggestedFix": "Her hands lay on her knees with the split knuckles up,",
+          "fixNote": "The full sentence becomes: 'Her hands lay on her knees with the split knuckles up, and the ward-stone hummed into the gap she'd left.'",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 14,
+      "kills": 0,
+      "keeps": 14,
+      "severity": "none",
+      "dominantPattern": "none over cap",
+      "tickCounts": {
+        "tic1_cornerOfMouth": 0,
+        "tic2_marked": 1,
+        "tic3_tightened": 0,
+        "tic3_eased": 0,
+        "tic4_shiftedFacial": 0,
+        "tic5_eyeGazeBeats": 1,
+        "tic6_weightMetaphor": 0,
+        "tic7_nonSaidTags": 1
+      },
+      "cleanReason": "Every tic is under its hard cap. Tic 1: no corner-of-mouth beats. Tic 2: one 'mark', the literal noun at L498 ('carried its own mark'). Tic 3: every 'tight' is physical (L3 cord, L183 horse's back, L570 rigging), with no 'tightened' or 'eased'. Tic 4: the only 'shifted' is physical (L117 'shifted her grip'). Tic 5: one character-specific gaze beat (L17, Windrunner's hunter watch). L323, L326 and L566 are task looking (sentry, chimney smoke, chimney search), and the eye mentions on the animals are physical description of the film. Tic 6: no emotional weight metaphors. The ward-hand and contamination 'pressed in' are the literal magical sensation, and the 'heavy' clay is literal. Tic 7: one performance tag, 'Jaina began' (L39). 'Neral murmured to it in Thalassian' (L183) has no quoted speech and only names how she talked to a frightened horse. The pass-A tool signals were all audited and kept (see scratchpad): the emdash cluster at L550 is Jaina's field-book notation, and every participial, semicolon, colon, simile, contact-verb and filter-word count is under cap."
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 62,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "4 MILD kills, which is more than the 3-MILD pass threshold, and 0 MODERATE/SEVERE. Negation has 3 (L55 room-vs-stone preamble, L390 negated voice description, L504 'No. Slower.' stacked correction) and intent-smear has 1 (L47 'Her hands had stopped.'). Each fix is a one-line deletion or substitution. Structural texture deficit: texture is below_target (score 74.1, with participial 6.5% against a 12% target and compound 15.0% against a 10% target). Structural rhythm concerns: sentence_length_cv, long_sentence_pct, one_sentence_paragraph_pct, opener_entropy and mattr are outside their style-guide ranges.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.823,
+        "target": 0.72,
+        "delta": 0.103,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.6,
+        "target": 11.0,
+        "delta": 1.6,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.832,
+        "target": 0.7,
+        "delta": 0.132,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 37.3,
+        "target": 35.0,
+        "delta": 2.3,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.3,
+        "target": 10.0,
+        "delta": 12.3,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 30.5,
+        "target": 19.0,
+        "delta": 11.5,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.07,
+        "target": 7.7,
+        "delta": -1.63,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.781,
+        "target": 0.83,
+        "delta": -0.049,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "long_sentence_pct",
+        "one_sentence_paragraph_pct",
+        "opener_entropy",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 74.1,
+      "participial_pct": 6.5,
+      "compound_pct": 15.0,
+      "emdash_pct": 1.7,
+      "semicolon_pct": 1.1,
+      "short_pct": 46.3,
+      "verdict_reasons": [
+        "participial: 6.5% below target 12.0% (score 57/100)",
+        "compound: 15.0% above target 10.0% (score 60/100)",
+        "emdash: 1.7% below target 4.0% (score 79/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.5% -> target 12.0% (score 57/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 15.0% -> target 10.0% (score 60/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.7% -> target 4.0% (score 79/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 11,
+        "texture_desert": 16
+      },
+      "killsInFlaggedZones": [
+        "A-NEG-1 (L55, texture_desert)"
+      ]
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 53,
+        "total_violations": 2,
+        "overCap": [
+          {
+            "pattern": "punct_emdash_cluster",
+            "count": 1,
+            "cap": 0,
+            "line": 550,
+            "guide": "recurring-prose-tics.md (pass A)",
+            "disposition": "KEEP - Jaina's italic field-book notation '*liver—roots—alive—before*', a literal written note"
+          },
+          {
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0,
+            "line": 131,
+            "guide": "narrator-seep-guide.md (pass B)",
+            "disposition": "out of scope for pass A"
+          }
+        ],
+        "passAMappedSignals": "participial_trailing 15/41, punct_semicolon 9/20, punct_colon_narration 9/10, simile_as_if 3/5, simile_like 2/20, simile_as_though 1/3, contact_pressed/settled/found 1 each/6, filter_watched 1/3, filter_decided 1/3, bookism_murmured 1/2. All were audited and kept (see scratchpad)."
+      }
+    }
+  }
+}

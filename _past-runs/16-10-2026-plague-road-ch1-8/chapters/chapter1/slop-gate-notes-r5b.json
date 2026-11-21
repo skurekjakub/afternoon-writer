@@ -1,0 +1,286 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsB 47 -> 10 -> 9 -> 6 -> 5 strictly decreasing)",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner (limited third, absolute)",
+    "registerSummary": "Clipped, dry, tactical; thinks in ground, range, horses, stones and riders; contemptuous of magisters, lenses and clerks; inner voice argues with itself in questions, curses (Sun's sake, Damn) and self-reproach. Would not think in thematic summaries, essay generalities, or magister vocabulary.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 45,
+      "kills": 1,
+      "keeps": 44,
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "id": "B-r5-01",
+          "pattern": "F4",
+          "failureMode": "Narrative over-translation (claim -> gloss restating an earlier beat)",
+          "line": 285,
+          "text": "She wasn't going to. She'd known it since the runner opened his mouth on the forest road.",
+          "whatItRestates": "Line 157 already gave this exact beat: 'Under all of it she had already worked out that her Convocation bench would sit empty tomorrow.' The second sentence re-delivers the same knowledge (she decided the moment the runner spoke) as a paragraph-final gloss on 'She wasn't going to.' Deletion test: the reader loses nothing; the decision is shown by 'She stepped into the cell.' two paragraphs later.",
+          "severity": "MILD",
+          "textureZoneNote": "Falls inside rhythm-scorer texture_desert (sentences 447-456). Fix is a deletion; it does not add joining constructions, so downstream texture work in this zone is still wanted.",
+          "verdict": "KILL",
+          "suggestedFix": "She wasn't going to.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNote": "Paragraph now ends on the decision. F12: a single refusal the scene turns on, positively pivoted by 'She stepped into the cell.' F7: ends on decision, no emotional summary. Narrator seep / phantom: no new abstraction introduced."
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 33,
+      "kills": 0,
+      "keeps": 33,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Swept Tier A (A1 verdict tags, A2 slogan pairs, A5 scene-state, A7 generalizations, A8 atmospheric inversions) and Tier B (polish, compression, thematic awareness, off-domain metaphor). The single tool hit (narrator_verdict, line 119 'too fast and too even for anyone who meant to stop politely') is anchored on heard hoofbeats and drives the fist-raise and nocking in the same paragraph: an in-character tactical read, kept. Verdict fragments ('Big for an axethrower.', 'Arrogance, then.', 'These had roads.', 'A nuisance with a pedigree.') are active assessments or mutterable free-indirect thought tied to on-page evidence. Category generalizations (trolls go for water, a spy ran, a surveyor marked every stone, frightened people looked at the door) each feed a live judgment in the scene; 'Frightened people looked at the door' tests and eliminates the 'frightened' hypothesis raised at line 207. Similes stay in her horse/hunting domain. Atmospheric fronting (lines 23, 143, 175, 293) names the source immediately. No sentence zooms to essay distance. All keeps are logged in the scratchpad."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 15,
+      "kills": 1,
+      "keeps": 14,
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "P4",
+      "findings": [
+        {
+          "id": "B-r5-02",
+          "pattern": "P4",
+          "failureMode": "Unanchored interpretive summary inside an evidence list",
+          "line": 287,
+          "text": "Strong enough to cross the ring without a ripple, Antonidas's to the bone, Kirin Tor ink in the creases of her fingers.",
+          "failedQuestion": "By what sign?",
+          "missingPayload": "The sentence lists evidence that the mage is 'exactly what the file said'. Items one and three are anchored: the runner's 'Nobody felt her cross' and the ink seen at lines 239 and 263. 'Antonidas's to the bone' is the odd one out. It claims bone-deep allegiance with nothing in the cell or on the rack to show it. The file only says she is the archmage's favourite, which is his regard for her, not her loyalty to him. And the paragraph has just asked whether Antonidas even knows where she is, which is the very thing this phrase takes for granted. The on-page carrier that does exist is Cyndia's match of the staff to the file, 'the wire and the crystal both' (line 239).",
+          "severity": "MILD",
+          "textureZoneNote": "Falls inside rhythm-scorer texture_desert (sentences 447-456). The suggested fix keeps the participial/appositive list shape, so texture is unchanged.",
+          "verdict": "KILL",
+          "suggestedFix": "Strong enough to cross the ring without a ripple, her staff a match for the file down to the silver wire, Kirin Tor ink in the creases of her fingers.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNote": "Replacement uses only on-page evidence (silver wire at line 219, Cyndia's file match at line 239). There are no hedges or filter verbs (F3) and no anaphora (F11). The 'file' echo of the preceding sentence is the claim being evidenced, not an F8 dialogue echo. There is no generalization or caption (narrator seep) and no new abstraction (phantom). Fake simplification does not apply."
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 3,
+      "kills": 0,
+      "keeps": 3,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Three translation setups were audited as exchanges. (1) 'Off how?' gets 'Off. ... The beat's uneven. There's cold under it.' That is a usable field sign, and Lor'themar acts on it at once by putting his own palm to the stone. The missing magister vocabulary is the plan's intended beat. (2) 'Skip the compliments. What.' gets the runner's 'Intruder. Outer ring, before dawn. Human. A woman. Mage.', which gives place, time and identity and needs no second unpacking. (3) 'What do I tell them?' gets 'Tell them the trolls can count, and they'll count our bows before they count our coin.' The request was for a line to use in the chamber, not for a field handle, and the reply is that line ('I'll use that'). Its claim cashes out plainly: raiders gauge the border by the number of bows. There are no broken exchanges."
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 94,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 2 MILD kills (F4 restatement at line 285, P4 unanchored evidence item at line 287), zero MODERATE/SEVERE. Both sit in the same texture_desert near the chapter close. Structural texture deficit: texture verdict below_target (score 81.7; participial 6.1% vs 12% target, em-dash 1.1% vs 4%). Structural rhythm concerns: one-sentence paragraphs 24.7% (range 15-24), long sentences 17.1% (range 7-14), opener entropy 6.01 (range 7.2-8.2), MATTR 0.789 (range 0.80-0.87).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.646,
+        "target": 0.72,
+        "delta": -0.074,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.2,
+        "target": 11.0,
+        "delta": 0.2,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.741,
+        "target": 0.7,
+        "delta": 0.041,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 36.7,
+        "target": 35.0,
+        "delta": 1.7,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 17.1,
+        "target": 10.0,
+        "delta": 7.1,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 24.7,
+        "target": 19.0,
+        "delta": 5.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.01,
+        "target": 7.7,
+        "delta": -1.69,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false,
+        "note": "Chapter-length sample (461 sentences) vs a corpus baseline; part of the gap may be sample size."
+      },
+      "mattr": {
+        "actual": 0.789,
+        "target": 0.83,
+        "delta": -0.041,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct above range",
+        "one_sentence_paragraph_pct above range",
+        "opener_entropy below range",
+        "mattr below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "textureScore": 81.7,
+      "participial_pct": {
+        "actual": 6.1,
+        "target": 12.0
+      },
+      "compound_pct": {
+        "actual": 11.1,
+        "target": 10.0
+      },
+      "emdash_pct": {
+        "actual": 1.1,
+        "target": 4.0
+      },
+      "semicolon_pct": {
+        "actual": 0.9,
+        "target": 1.8
+      },
+      "short_pct": {
+        "actual": 44.5,
+        "target": 48.0
+      },
+      "verdict_reasons": [
+        "participial: 6.1% below target 12.0% (score 56/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.1% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 1.1% -> target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 8,
+        "texture_desert": 12
+      },
+      "note": "structural texture deficit. Most telegram runs sit in dialogue exchanges (runner report, Lor'themar banter, Cyndia report), where short lines are register. The narration deserts at sentences 214-234 (post-runner deliberation), 400-415 (prisoner description) and 447-456 (decision paragraph, which holds both kills) are the best targets for joining constructions."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 31,
+        "total_violations": 1,
+        "overCapCategories": [
+          "narrator_verdict (verdict_too_x_for, cap 0, count 1)"
+        ],
+        "passBMappedSignals": [
+          {
+            "pattern": "verdict_too_x_for",
+            "line": 119,
+            "text": "too even for anyone",
+            "decision": "KEEP",
+            "reason": "Concrete auditory evidence (hoofbeat tempo) driving an in-character tactical read; see scratchpad."
+          }
+        ],
+        "passBMappedCategoriesClean": [
+          "hedging",
+          "vague_pointers",
+          "verbose_phrases",
+          "expression_decomposition",
+          "academic_register",
+          "dialogue_register",
+          "ai_vocabulary",
+          "clinical_anatomy",
+          "slopsquid",
+          "ambient_inversion"
+        ]
+      }
+    }
+  }
+}

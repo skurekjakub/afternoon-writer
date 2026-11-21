@@ -1,0 +1,30 @@
+{
+  "chapterId": "chapter7",
+  "iteration": 1,
+  "feedbackPath": ".afternoon/chapters/chapter7/grounding-gate-notes.json",
+  "targetFile": "v2g.md",
+  "touchedScenes": ["Scene 3 - The Full Picture (line 403)"],
+  "globalRisks": ["tail-risk"],
+  "sceneAudits": [
+    {
+      "scene": "Scene 3 - The Full Picture",
+      "biggestGap": "G10-001: redundant canvas-wear clause after 'in the same groove'.",
+      "anchorsAdded": { "place": [], "material": [], "dialogue": [], "exit": [] },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true
+    }
+  ],
+  "fixesApplied": [
+    "G10-001: deleted ', and the canvas went on grey beneath it where a hundred other lines had been rubbed out' so the sentence ends on 'in the same groove', restoring the Havel redrawing tell."
+  ],
+  "finalThirdAudit": {
+    "risksFound": ["G10 redundant canvas-wear at 403"],
+    "fixesApplied": ["clause removed"],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [],
+    "materials": [],
+    "unsourcedAdditions": []
+  }
+}

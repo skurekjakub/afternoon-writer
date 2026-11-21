@@ -1,0 +1,29 @@
+{
+  "chapterId": "chapter5",
+  "mode": "revision",
+  "iteration": 101,
+  "retroactive": true,
+  "passes": "C only (A and B feedback were orchestrator stubs with no findings)",
+  "changes": [
+    { "feedbackRef": "C -> mannered-prose-guide -> C-M1-1, C-M1-2, C-M1-3", "note": "L1 pick her footing; L439 lowered herself onto the hearth-step; L575 got to her feet the moment she was asked", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M2-1..5", "note": "L5 foam/legs, L109 meant for a cross (also resolves C-R1-3), L223 fold line, L415 All the way back, L479 So far she'd had places", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M3-1, C-R1-1", "note": "L7 two-sentence opener deleted together", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M3-2, C-M3-3, C-M3-4", "note": "L127 stroke/blot; L267 kept to the river road all night; L363 furlong sentence deleted", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M4-1..4", "note": "L147, L149, L481, L651 cadence lists trimmed", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M5-1..9, C-M12-1 (applyTogether L245)", "note": "L17, L245 (one particular-past sentence), L291, L293, L385, L603, L607, L609 maxims cut or made particular", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M6-1, C-M7-1 + C-R4-5", "note": "L25 stayed standing with pen; L69 blush deleted and speech merged; L361 red-to-the-ears dropped", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M8-1..5", "note": "L81, L261, L297, L359, L633 glosses cut", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M9-1..12, C-R3-2", "note": "house wit trimmed at L61, 149, 175, 195, 215, 231 (with C-R2-1), 397, 409, 503, 529, 531, 561, 571", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M10-1..4", "note": "wasp paragraph, sunset paragraph, both moth lines deleted", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M11-1..5, C-M12-2..5", "note": "L175, L197, L285, L525, L639; then-fragments L425, L577; L507 second-guess; L583 echo-compliance", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> C-M13-1..9", "note": "the-way similes at L385, 427, 433, 435, 441, 469, 487 (with C-R4-7), 569, 579 removed or rephrased", "source": "gate-suggestion" },
+    { "feedbackRef": "C -> refrain-guide C-R1-2, C-R3-1, C-R3-3..8, C-R4-1..9, C-R5-1, C-R2-1", "note": "boot simile cut; L195 duplicate realization cut; horn comparison, slab, collar/told-when (L589, L639), folded-wrong, Cyndia girth, knees set (L279, L631), ears stares (L207, L343), yardstick (L403, L487), laugh micro-scene (L235) and Lyriel-checks-Cyndia (L237), closing line-of-march recital (L665), paid-by-the-loop all fixed", "source": "gate-suggestion" },
+    { "feedbackRef": "outOfScope -> L537 continuity", "line": 537, "before": "All of them, every heavy one and every old one, sat on the south road and the lanes that ran off it,", "after": "All of them, every heavy one and every old one, sat on the north, west and south roads and the lanes that ran off them,", "source": "orchestrator-instruction" }
+  ],
+  "selfAuditAdjustments": [
+    "C-R4-6: first edit was mis-scoped and corrected so L403 reads 'She had heard that excuse from a ranger once, at the Pass.'",
+    "C-R3-5: removed trailing space left after deleting the sentence"
+  ],
+  "unfixable": [],
+  "wordCount": { "before": 12351, "after": 11623 }
+}

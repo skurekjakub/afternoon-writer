@@ -1,0 +1,133 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 2,
+  "targetFile": "v0c-r2.md",
+  "verdict": "pass",
+  "verdictNote": "Clean pass. All eight iteration-1 findings are resolved. Texture rose from 93.1 to 98.4. There are no POV leaks, no institutional dialogue, and no skipped or summarized beats. The findings below are all low severity and optional. They are staging and line-polish notes for a later pass (slophunter, grounder or final polish) and should not trigger another craft-revision loop. Two of them (F1 fork staging, F2 map geography) are partly continuity questions and are worth handing to the continuity gate.",
+  "priorFindingsResolution": {
+    "limited-third / L273 face + drawer clause": "resolved at L271. 'Sylvanas knew that face. She'd met it in her own glass after budget sessions. The face of someone who'd been saying one thing since before dawn, to people who wrote it down and put it in a drawer.' The mirror is explicit and the drawer clause is back inside the 'face of someone who' frame, so it reads as her typing of the face, not a fact about the mage's listeners.",
+    "voice-register / L277 recap sentences": "resolved at L275. It is now one clause: 'This was Antonidas's apprentice, a lord admiral's daughter, frost-burned and filthy in an elven cell without a seal or a letter or a guard.' It goes straight into the harm/Dalaran/Kul Tiras turn.",
+    "voice-register / mechanical participles (L29, L199, '-ing,' openers)": "resolved. L29 reads 'thumbed the edge out of habit and sheathed the knife'. L197 reads 'and she walked into it narrow-eyed'. Front-loaded '-ing,' openers are down to four (L19, L83, L125, L187), plus two free-indirect self-address uses (L53 'Stalling', L159 'Grinning'), which are voice, not tic.",
+    "voice-register / repeated 'body reports to her' joke": "resolved. L197 thighs are now plain: 'the step down from the door jarring both of them.'",
+    "emotional-life / repeated not-thanking Lor'themar": "resolved. L171 reads 'She gave him a nod, which was more than the chamber would get.'",
+    "emotional-life / back-to-back palm checks in Beat 3": "resolved. The L97 palm check is reduced to 'her right hand shut on the reins' (L95). L119 carries the withheld-secret beat alone.",
+    "rhythm-texture / 'Well.' and 'And Antonidas.'": "resolved. Both are folded (L249, L297).",
+    "voice-register / 'notice'": "resolved. L69 now reads '...rude enough to feel for it.' A scan finds no avoid-list verbs (noticed, observed, realized, registered, assessed) anywhere in the chapter."
+  },
+  "findings": [
+    {
+      "check": "beat-fidelity",
+      "severity": "low",
+      "location": "Scene 1, Beat 5, L171 and L179",
+      "passage": "The patrol peeled off after him in pairs, back up the track toward the fork where the old road went north to Silvermoon. Sylvanas watched them go until the last rider cleared the bend. ... They split at the fork.",
+      "problem": "The plan's sensory anchor for Beat 5 is 'horses separating at the fork'. The prose separates the two groups at L171: the patrol rides off and Sylvanas watches the last rider clear the bend. Then L179 says 'They split at the fork', but by then the patrol has already gone, so 'they' has no clear referent and the split seems to happen twice. 'For a while she heard the patrol on it' still works, because elven hearing carries, but the reader has to rebuild the staging.",
+      "fix": "Choose one place for the split. Option A: at L171, have both groups ride back to the fork together and peel apart there ('At the fork he turned north with the patrol...'). Then cut the first sentence of L179 and open on 'Behind her, the northern road ran soft...'. Option B: keep L171 as it is and change L179's opener to 'At the fork she took the southern track.' Either way, keep a trailing participial or a ', and' join so compound and participial ratios hold."
+    },
+    {
+      "check": "beat-fidelity",
+      "severity": "low",
+      "location": "Scene 2, Beat 7, L235 (map geography; flag for continuity gate)",
+      "passage": "Her eye followed the outer ring east along the southern track, passing the ground she'd ridden that afternoon. Then came a bend round a shoulder of rock, the track dropping toward a dry creek bed.",
+      "problem": "This is inferred from the Scene 1 staging and is not certain. In Scene 1, Sylvanas checks the stone at the bend 'a little before noon' (L57), then rides east along the ward line for the afternoon (L95), then turns back west to the fork when the runner arrives. On the map, tracing east from the Pass, she should reach the noon stone before the ground she rode that afternoon. The prose has the reverse: she passes the afternoon ground first, then reaches the bend. The circled-stone payoff still lands, but a careful reader tracking the route may stumble here.",
+      "fix": "Drop the 'passing the ground she'd ridden that afternoon' clause, or reverse the order: 'Her eye followed the outer ring east along the southern track to a bend round a shoulder of rock, short of the ground she'd ridden that afternoon.' Let the continuity gate confirm the route."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 2, Beat 8, L255",
+      "passage": "A morning lost to apologies, an escort to the border—and a sharp letter north from Silvermoon that would take a month to answer itself.",
+      "problem": "Silvermoon is north and Dalaran is south, so a letter from Silvermoon to Dalaran goes south. 'North from Silvermoon' points the wrong way. 'Take a month to answer itself' is also a little opaque: it is unclear whether the letter answers itself or whether the reply takes a month.",
+      "fix": "'...and a sharp letter south from Silvermoon that would take a month to get an answer.' Or 'a sharp letter from Silvermoon, and a month waiting on Dalaran's reply.'"
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 2, Beat 9, L281 and L287",
+      "passage": "It was the frown a person gives a noise in the next room that might be a mouse and might not. (L281)  /  Her boots were planted square on the floor, heels and toes both, like someone braced on a deck in a swell. (L287)",
+      "problem": "The metaphor policy says Sylvanas's figures come from rangecraft, forestry, predator behaviour and military logistics. These two similes, three paragraphs apart, come from the household (a mouse in the next room) and the sea (a deck in a swell). Every other figure in the chapter is horse, field or ranger, which is why it holds together. The deck may be a deliberate nod to the lord admiral's daughter, but nothing in Sylvanas's narration signals that, so it reads as the writer's image rather than hers.",
+      "fix": "Recast both in her domain. L281: 'It was the frown a scout gives a sound in the brush that might be a bird and might not.' L287: 'like a ranger set for a charge she didn't mean to give ground to.' Or cut the simile and keep the planted heels and toes, which already do the work. If you want to keep the deck as a Kul Tiras nod, make it Sylvanas's inference ('the way she'd seen sailors stand on the Silvermoon quays')."
+    },
+    {
+      "check": "emotional-life",
+      "severity": "low",
+      "location": "Scene 1 L69 and L159; Scene 1 L155 and Scene 2 L211",
+      "passage": "That was the kind of excuse she'd have flayed a ranger for. (L69)  /  She'd have had any ranger of hers mucking stalls till midsummer for less. (L159)  ...  One who's mad, then. Possibly. Or one who put her hand on a stone and felt what Sylvanas had felt at noon. (L155)  /  Or she was right. Sylvanas didn't much care for that one either. (L211)",
+      "problem": "The free indirect thought is strong throughout. Two of its moves repeat, though. (a) 'I'd punish a ranger for this' closes a self-reproach at L69 and again 90 lines later at L159. Both are good, but the second reads as a device the reader has already seen. (b) The spy-or-right argument runs twice to the same ending: options listed, then 'or she's right'. That happens at L155 in Scene 1 and again at L211 in Scene 2. L211 adds new evidence (she asked to be tied to the stone; arrogance or fear), but it lands on the same 'she's right' card L155 already played. The style guide says scenes escalate through complication, not repetition.",
+      "fix": "(a) Keep L69. At L159, swap the ranger-punishment beat for a different self-jab, e.g. 'Grinning over a breach, Ranger-General. Lor'themar would dine on that for a year.', or just cut the sentence. (b) At L211, let the last option move forward instead of repeating. Since L155 already landed 'she felt what I felt', L211 can end on what 'right' would cost: 'Or she was right, and every stable in three hands was a lie with a magister's seal on it.' Keep it short and unresolved."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 1, L61 (and L35)",
+      "passage": "She pulled off her right glove, laying her bare palm flat against the rune face. (L61)  /  Sylvanas pulled her arrow out of the troll, turning the head to the light. (L35)",
+      "problem": "A trailing participle implies the two actions happen together, but these are steps in sequence. She can't lay a bare palm on the stone while the glove is still coming off. This is the same pattern iteration 1 fixed at L29. L61 matters most because it is the chapter's key tactile moment.",
+      "fix": "L61: 'She pulled off her right glove and laid her bare palm flat against the rune face.' L35 can stay or become 'pulled her arrow out of the troll and turned the head to the light.' To hold the participial ratio, add a true simultaneous participle elsewhere in Scene 1. Participial is at 11.0% (score 100) and has room to lose one or two."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Scene 2, Beat 7, L247",
+      "passage": "She knew the file. ... She'd read it like every file on human mages near her border, filing it under people who'd one day be a nuisance. ... Gifted beyond her years, a Farstrider had written, in a flat hand that didn't hand out words like gifted.",
+      "problem": "One paragraph has 'file / file / filing' within two sentences and 'hand / hand out' in one. The second could be deliberate wordplay, but next to the 'file' echo it reads as an accident.",
+      "fix": "'She'd read it like every report on human mages near her border, putting it with the ones who'd one day be a nuisance.' Keep 'hand / hand out' only if 'file' is fixed. Otherwise use 'in a flat hand that didn't spend words like gifted.'"
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "low",
+      "location": "Chapter-wide (advisory)",
+      "passage": "Scene 2 one- and two-word narration sentences: 'Arrogance, then.' (L211), 'How?' / 'Or—' (L241), 'Antonidas's apprentice.' (L247), 'A bucket.' (L261), 'No violet.' / 'No gold.' (L267), 'Bad ground.' (L277), 'No.' (L293)",
+      "problem": "The emphasisRule caps deliberate emphasis sentences at three per scene. Most of the hits above are free-indirect argument fragments or inventory, which the voice sheet allows, so they don't really break the rule. Only three are true emphasis landings, 'No violet. No gold.' and 'Bad ground.', and all three are earned. This is advisory only. Supporting metrics: opener entropy is 6.05 against a range of 7.2-8.2 ('The' opens 78 sentences, 'She' 59), and MATTR is 0.794 against a floor of 0.80. Neither is part of the texture score.",
+      "fix": "No action required. If a later polish pass touches L241 or L293, varying a few 'The ...' and 'She ...' openers there would help opener entropy without changing the texture score."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 98.4,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {"actual": 11.0, "target": 12.0, "score": 100.0, "direction": "on-target (within 1pt tolerance)"},
+      "compound": {"actual": 8.7, "target": 10.0, "score": 93.4, "direction": "slightly under"},
+      "emdash": {"actual": 4.6, "target": 4.0, "score": 100.0, "direction": "on-target"},
+      "semicolon": {"actual": 1.6, "target": 1.8, "score": 100.0, "direction": "on-target"}
+    },
+    "supportingRhythm": {
+      "sentence_count": 566,
+      "sentence_length_mean": 10.7,
+      "sentence_length_cv": 0.652,
+      "short_sentence_pct": 35.5,
+      "long_sentence_pct": 14.8,
+      "comma_period_ratio": 0.615,
+      "one_sentence_paragraph_pct": 23.8,
+      "mattr": 0.794,
+      "opener_entropy": 6.05,
+      "over_25_words_narration": "1 (L15, the troll's fall at 40 words, sanctioned as the action scene's one long sentence)",
+      "note": "Mean, CV, short %, comma/period and one-sentence paragraph % are all in range. Long % is 14.8, just over the 14.0 ceiling. Opener entropy (6.05) and MATTR (0.794) are still below range, as in iteration 1."
+    },
+    "interpretation": "Texture within target range (98.4, at least 90). Compound at 8.7% is the only dimension below 100, and it is 1.3pt under target. Any polish edits should prefer ', and' joins over full stops.",
+    "flaggedPassages": [
+      "telegram_run s66-73 (L41-L49, the 'The stones' banter with Lor'themar): dialogue-led banter; acceptable",
+      "telegram_run s114-121 + texture_desert s114-123 (L71-L73, 'No. It was real. She knew stones.' / 'Off. Late. Cold.'): deliberate self-argument cadence; leave it",
+      "telegram_run s125-132, s134-142 + texture_desert s144-155 (L73-L91, the stone exchange): dialogue-led; acceptable",
+      "telegram_run s220-232 + texture_desert s220-237 (L129-L143, the runner's report): breathless shorthand is Beat 4's anchor; acceptable",
+      "telegram_run s268-276 + texture_desert s268-280 (L155-L159, the spy argument / 'Sun's sake'): FIT cadence; see finding 5 on repetition, not texture",
+      "telegram_run s320-327 + texture_desert s320-329 (L191, Cyndia's 'It showed...' triad): deliberate anaphora; acceptable",
+      "telegram_run s363-378 + texture_desert s363-379 (L211-L221, the end of the spy argument through 'Show me. Then her.'): dialogue-led; acceptable",
+      "texture_desert s388-400 (L225, the satchel inventory): list fragments by design",
+      "texture_desert s436-445 (L243, Cyndia's ink/staff ID): her report voice; acceptable",
+      "telegram_run s447-457 + texture_desert s447-464 (L247-L251, the file recollection): the longest remaining desert. The 'filing it' fix in finding 7 can carry a participial or ', and' join to break it up",
+      "texture_desert s492-506 (L269-L271, the prisoner's hands and face): descriptive; acceptable"
+    ]
+  },
+  "strengths": [
+    "The iteration-1 limited-third fix lands well. 'She'd met it in her own glass after budget sessions' makes the mage's anger Sylvanas's reading, and it sets up L273 ('Sylvanas didn't like that face any better on a human') and the mirrored jaw at L295 ('Her jaw ached from holding it').",
+    "Free indirect thought runs through every beat in her idiom. It argues, gives bad answers and corrects them, and stays open: L69-L73 (real or excuse, then 'damn her too'), L181 ('whether that was because there was none, she didn't know'), L237 ('that was the trouble now. She couldn't tell'), and L285 ('Or was it sound?').",
+    "The voices are distinct. Lor'themar uses mock-formal needling and drops to her name when it's serious (L167). Cyndia reports in event order and puts her one labelled opinion last (L215). The runner speaks in breathless fragments.",
+    "There are at least four emotional registers: deadpan wit ('which was only stupid', 'almost charming', 'sized up by trolls with less care', 'it would also take a night'), warmth (the Lor'themar farewell), exhaustion (Cyndia's shoulders, the prisoner), and alarm (the runner).",
+    "Value shifts land on concrete moments: the fist closing on the cold (L147), Lor'themar 'looking at her hand' (L153), the finger beside, not on, the circled stone (L237), 'No violet. No gold. Nothing done up.' (L267), and the mage tipping her head back to hold Sylvanas's eyes (L301).",
+    "Constraints hold. 'Jaina' and 'Proudmoore' appear only in Cyndia's line at L243. Sylvanas's narration uses 'the mage', 'the human' and 'the prisoner'. The mage has no dialogue, there is no plague or leyline exposition, and 'Start talking.' is the final line.",
+    "All 10 beats are dramatized with their plan sensory anchors, including the cell stone's hum (L283) and the empty pegs (L261)."
+  ],
+  "summary": "Iteration 2 clears every iteration-1 finding. The mirror and drawer limited-third fix is clean, the recap sentences are folded, and the mechanical participles, doubled jokes and stray 'notice' are gone. Texture is 98.4, with participial, emdash and semicolon on target and compound 1.3pt under. The chapter passes. The eight remaining notes are low-severity polish: fork staging, a reversed map route, a wrong-way letter, two out-of-domain similes, two repeated self-argument moves, one sequential participle, and a 'file' echo. They can go to a downstream polish pass rather than another craft-revision loop.",
+  "summaryCounts": {"high": 0, "medium": 0, "low": 8, "total": 8}
+}

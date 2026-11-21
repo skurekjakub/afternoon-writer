@@ -1,0 +1,7 @@
+# Jaina Proudmoore and Prince Arthas
+
+They are old friends, and Chapter 6 puts that friendship on the page for the first time and tests it. He greets her with a delighted laugh and her full name ('Jaina Proudmoore, on my hill'), teases about Antonidas, and notices her wrapped hand and dead arm at once. She answers in the old voice, then drops it: 'Arthas, I need you to listen to me, all the way to the end.' He does. He puts a finger on the knife slit and a Barov seal, jokes about Barov, says 'I don't doubt you', and then keeps looking past her at the smoke.
+
+The refusal is gentle and sincere. He turns her by the shoulder to face the valley and names the Garrow farm, where he ate supper and helped carry out four bodies. 'I can see that from my tent door. I can't see your grain.' 'I believe you.' He wants it written down for his father. He squeezes the arm she cannot feel, apologises, tells her to eat, and goes up the lane to a rider with the helmet on. He never takes the paper.
+
+Jaina's reading of him runs through the memory of the orc internment camp: his certainty before the fence and after it. She asks herself whether she was unfair to him for years, notes that the band that burned the farm came out of those same camps, and answers 'No': he was sure before she finished the slips, and kind about it. She counted on her name being worth a second look and got a laugh and a supper.

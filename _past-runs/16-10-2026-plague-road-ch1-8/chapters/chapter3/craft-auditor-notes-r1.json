@@ -1,0 +1,108 @@
+{
+  "chapterId": "chapter3",
+  "iteration": 1,
+  "targetFile": "v0c.md",
+  "verdict": "pass",
+  "findings": [
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "Whole chapter; clusters at v0c.md lines 67, 71, 81 (scene 1 sweep), 397-399 (hatch), 713 and 719 (cut and yard), 753 and 757 (dispatch)",
+      "passage": "\"The next had its shutters open in every room, in this cold—and a bed turned down\" / \"No blood on any threshold—and she had looked at every threshold as she looked at a trail\" / \"strings of blood from her nose—and had put that away to think about\" / \"it would come up into Neral's face—and Neral was kneeling with her hands open\" / \"Nobody had told her to—and Sylvanas would have had a word to say\" / \"That was true—and very convenient\" / \"did not like the sound of it—and did not take it back either\"",
+      "problem": "The revision raised em-dashes from 1.2% to 3.9% mostly by turning ', and' into '—and'. v0c has 22 '—and' pivots, a third of its 69 dashes; v0 had one. The dimension now scores 100, but the dashes all have the same shape: a clause, a dash, 'and', then a counter-clause. Lines 67, 71 and 81 put three in a row in the first sweep, and the dispatch scene has two in five paragraphs. The anchor uses dashes for asides inside a sentence ('Even if he'd given up everything else—even if all had been taken from him'). This chapter's best example is line 349: 'Sylvanas watched her mouth—the only part of her face that ever told you anything—and it pressed thin.' A reader will start to hear the '—and' turn as a tic.",
+      "fix": "Keep about 10 of the 22. For the rest, either end the sentence and start the counter-clause fresh ('Nobody had told her to. Sylvanas would have had a word...'; 'That was true. It was also very convenient, which she would have pointed out to anyone else.'), or rewrite it as an aside inside the sentence. Don't put the commas back: compound joins are on target at 9.8% and would climb. Keep at least 45 dash sentences in the chapter so the dimension stays at or above 2.5%."
+    },
+    {
+      "check": "rhythm-texture",
+      "severity": "low",
+      "location": "v0c.md lines 47, 105, 123, 153, 313, 557",
+      "passage": "\"The girl took one arm out of the blanket, pointing without looking at the back wall of the house.\" / \"She did not make anything of it, glancing across at Cyndia afterward\" / \"the mage jerked upright with a gasp like someone hauled out of a river, doubling over her knees\" / \"She nocked an arrow, taking the west side.\" / \"bringing the bucket up out of the dark slopping over its lip\" / \"Sylvanas held her hand out for the lantern, taking it from Cyndia.\"",
+      "problem": "About 130 ', Ving' phrases were added to raise participials from 1.9% to 10.7%. Most read naturally. Six of them break a sentence. At line 557 the comma that v0 had ('pointed, without looking, at the back wall') is gone, so the sentence now says the girl didn't look at the wall. That is a misreading at the beat where the direction is fixed. At line 105, 'glancing ... afterward' joins a participle, which means 'at the same time', to 'afterward'. At line 153 she jerks upright and doubles over at the same moment. At line 47 nocking and taking the west side are two separate steps. At line 123, 'the dark slopping over its lip' reads as if the dark is slopping. At line 313, holding out a hand and taking the lantern say the same thing twice.",
+      "fix": "557: 'The girl took one arm out of the blanket and pointed, without looking, at the back wall of the house.' 105: 'She did not make anything of it. Afterward she glanced across at Cyndia, and Cyndia did not look back.' 153: '...and the mage jerked upright with a gasp like someone hauled out of a river, then doubled over her knees.' 47: 'She nocked an arrow and took the west side.' (The scorer can spare these.) 123: '...bringing the bucket up out of the dark, slopping over its lip.' 313: 'Sylvanas took the lantern from Cyndia.' Together these fixes cost less than half a point of participial share."
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "Scene 3, B9, v0c.md lines 789 and 819",
+      "passage": "\"It was a face she would not have known again in a crowd of three: weathered, stubbled grey...\" / \"His eyes went once along the line of horses, front to back: Sylvanas's mare, Cyndia's on the left, Lyriel's on the right, the mage's borrowed mare sitting between them in the gap.\"",
+      "problem": "Cutting 'Humans always looked at the horses' fixed the main problem. Two smaller second looks remain. 'Would not have known again in a crowd of three' is the narration telling the reader the carter is forgettable, and a reader who is told a minor figure is forgettable remembers him. 'In the gap' points at the spacing. The plan wants that spacing visible for the Ch 9 ward, but the listed order already shows it. The plan's povNote says 'the narration does not look twice at the carter.'",
+      "fix": "Line 789: drop the framing clause and give the face as plain detail ('He was weathered and stubbled grey, with a nose that had been broken once a long time ago and set crooked.'). Line 819: end the list at '...the mage's borrowed mare between them.' Keep 'once' and keep the left-right order. Those carry the plant."
+    },
+    {
+      "check": "dialogue-register",
+      "severity": "low",
+      "location": "Scene 2, B5-B6, v0c.md lines 449-511",
+      "passage": "\"When she spoke again it was about something else entirely, something with a plain answer. / 'Who was sick first?'\" ... \"'Who came to the door, the last days?' Neral said.\"",
+      "problem": "Neral's voice sheet says 'Do not let her lead the questioning. She gets facts out of the girl and hands them on to the leads.' Here Neral picks every topic of the interview herself. Sylvanas steers only once, with the Thalassian aside at line 517, and the mage cuts in with her own follow-ups. Neral's lines are all in her register: one question at a time, saying the answer back. But she sets the agenda, and Sylvanas spends this part of the beat in the doorway with nothing to do.",
+      "fix": "Use the Thalassian-aside device from line 515 once more, before 'Who was sick first?'. One low line from Sylvanas to Neral would do it, for example 'Who fell ill first. Then which way.' in Thalassian, which the girl hears as noise. Neral then carries out the leads' questions in her own voice, and Sylvanas gets one active choice in the interview. No other change is needed."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Repeated phrases across scenes: lines 81/273/337, 349/711, 611/869, 747/885, and 15/613/719/863/869",
+      "passage": "\"A doe was a doe. A wheelwright was something else.\" (81) / \"A doe was a doe. A man walking out of his clog was a man walking out of his clog.\" (273) / \"Sylvanas watched her mouth press thin and stay that way.\" (711, echoing 349) / \"Her knees ached where the ditch had had them yesterday\" (869, echoing 611) / \"the magister's nephew counting the cost of it to the copper\" (885, echoing 747 'worked out to the copper')",
+      "problem": "The worst tics from iteration 0 are gone: sand is down to 2 and 'the way X does' to 7. A few smaller repeats remain. Lines 81 and 273 use the same doe sentence shape in the same scene. The third doe line ('Don't. A doe is a doe. Find out.') works, but only because it is the third. The nephew counting 'to the copper' runs as a full paragraph at 747 and is called back at 885 with the same phrase. Sylvanas measures herself against how she would treat a ranger five times (15, 613, 719, 863, 869). The voice sheet gives that as a shape, and five uses make it a refrain.",
+      "fix": "Change the wording at 273 and keep 'Don't': 'Don't. Don't make them into the doe because it's late and you want a shape to put on it. A man walking out of his clog was a man walking out of his clog.' (Cut 'A doe was a doe.' there.) At 711, replace 'mouth press thin and stay that way' with another tell, or with nothing. At 869, cut 'where the ditch had had them yesterday'. At 885, keep the nephew but drop 'to the copper'. Cut one of 719 and 869 so the ranger-punishment measure appears at most three times."
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "Scene 3, B8 and B11, v0c.md lines 753, 863, 889",
+      "passage": "\"the only one of the four who could say which way to ride was the prisoner\" / \"now she had three bows and a prisoner\" / \"On a human's read. On a prisoner's.\"",
+      "problem": "The plan's validation warns that 'B8 outline interiority uses \"prisoner\" for Jaina; narration must still call her \"the mage\".' At 753 and 889 'prisoner' is the point of the argument. Sylvanas is testing whether the prisoner's status is her real reason, so the word should stay there. At 863 it is only a label for the mage and breaks the marker for nothing.",
+      "fix": "863: 'now she had three bows and the mage'. Keep 753 and 889 as they are."
+    }
+  ],
+  "checkResults": {
+    "emotionalLife": "Pass. Sylvanas argues with herself in her own idiom in every scene, and the arguments stay open: the drill for a drawknife (53), fled, taken or walked (75-79), caution or performance at the granary (229), kicking the hatch in or letting Neral do it (387), the night hold (611-617), what drove sixty (695-699), why she kept the mage, which she admits is convenient (753), sending the child north versus making her somebody else's problem (757), the trail versus the mage (887-893). The chapter has at least four registers: dry humour (the horseshoe, the cat better fed than her rangers, 'nothing to put her back against but rooks'), warmth (Neral and the girl, the wooden horse, the darned stocking), exhaustion (the night hold, the road gone flat and bright), and dread (the clog, the cut). Each value shift lands on a concrete moment: 'Damn her, then. She looked at the hand.'; the glove going back on; 'It was not the same.'; the farm wife shutting her door.",
+    "voiceAndRegister": "Pass, with the em-dash shape note above. Sentence lengths vary well against the anchor. 'Said' tags are invisible, and the iteration-0 inverted tags are gone. Paragraph shape follows the style guide: 3.3 sentences per paragraph on average and never three one-sentence paragraphs in a row. The narration reads as Sylvanas.",
+    "limitedThird": "Pass. No omniscient lines, no subtext translation, no author commentary. Every read of the contamination reaches Sylvanas through the horses, the staff, the frost or what the mage says, and her bare palm is kept for stones (15, 253, 601, 883). Inferences are marked ('probably', 'as if', 'seeming not to know'). The two carter phrasings above are small.",
+    "dialogueRegister": "Pass. No institutional or clinical speech. Cyndia reports in event order with her own view last ('I'd say they went a few at a time'). The mage apologises and then holds her limit ('I'm sorry, Ranger-General... I can't tell you which way it's running'). Lyriel's carter answer now has one joke, is true and kind, and checks Cyndia afterwards. Neral talks to the child and the horse in the same voice. The carter is plain and brief.",
+    "beatFidelity": "Pass. All twelve beats (B1-B11 with B6a) are dramatized. The iteration-0 grain-seller problem is fixed: the grain man now comes up as one of several visitors in answer to 'Who came to the door, the last days?', which is after the illness started, so nothing ties him to cause. Sylvanas weighs it once and walks on (491). The granary is loudest and the mage refuses to name it the source (225). The cut count is built from the mage's heavy and light reads together with Cyndia's step-box, and nothing drives the dead (697). The farewell gets one paragraph of dwell, and Cyndia is shown turning her head after it."
+  },
+  "textureMetrics": {
+    "textureScore": 98.4,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "within_target",
+    "dimensions": {
+      "participial": {"actual": 10.7, "target": 12.0, "score": 93.4},
+      "compound": {"actual": 9.8, "target": 10.0, "score": 100.0},
+      "emdash": {"actual": 3.9, "target": 4.0, "score": 100.0},
+      "semicolon": {"actual": 2.4, "target": 1.8, "score": 100.0}
+    },
+    "otherMetrics": {
+      "sentenceCount": 1486,
+      "meanSentenceLength": 11.7,
+      "short_pct": 52.6,
+      "paragraphOneSentencePct": 31.0,
+      "commaPeriodRatio": 0.66,
+      "mattr": 0.762
+    },
+    "interpretation": "Texture within target range. No structural changes needed. (Scorer.) Participial is the only dimension below 100. It sits 1.3 points under target and inside the ±1pp tolerance band's log decay, so it is not pulling the score down in any meaningful way. Auditor's note: compound and em-dash both hit target because the revision swapped ', and' for '—and', which shows up as a style tic rather than in the score (see finding 1).",
+    "pullingDown": [
+      "participial slightly UNDER (10.7 vs 12.0, score 93): minor; do not add more grafted ', Ving' tails to close it"
+    ],
+    "flaggedPassages": [
+      "texture_desert s35-47 (line 21): 'She had not slept since the night before the troll hollow. Her eyes felt as though someone had gone over them with sand.' A fatigue inventory, short on purpose. Acceptable.",
+      "texture_desert s75-84 (lines 51-53): 'And then he had not come back for it. She had a drill for a steading burned out by trolls...' A deliberate list rhythm. Acceptable.",
+      "telegram_run s156-169 (line 95): Cyndia's event-order report 'No one. No blood, no broken doors. Food on most tables.' Matches her voice sheet. Leave it.",
+      "texture_desert s308-322 (lines 197-199): storehouse setup 'Then she let the mage in. The dust came up as soon as they walked on it.' Fine.",
+      "texture_desert s452-463 (line 287): 'They had walked out. A great many of them, on their own feet...' Lands a beat. Fine.",
+      "telegram_run s575-591, s707-728, s759-791 (lines 365-375, 451-469, 493-513): the cellar whispers and the girl's interview. Short child fragments, correct for the voice.",
+      "telegram_run s852-869 (lines 557-561): 'Out at the lane. Up. \"Past Pell's,\" she said.' Correct. Fix the misparse at 557 (finding 2).",
+      "telegram_run s957-965 (line 617): 'Send it. No. Send it with the cow way in it.' Sylvanas's inner argument in its intended clipped form. Leave it."
+    ]
+  },
+  "priorFindingsResolved": {
+    "rhythm-texture (participial/compound/emdash)": "Resolved: 62.3 -> 98.4. The em-dash fix came with a tic; see finding 1.",
+    "beat-fidelity (grain seller wired to onset)": "Resolved.",
+    "limited-third (carter glance explained)": "Resolved: 'Humans always looked at the horses' is cut. Small leftovers in finding 3.",
+    "dialogue-register (Lyriel double joke)": "Resolved.",
+    "voice-register ('the way X does' frame)": "Resolved: about 30 down to 7.",
+    "voice-register (refrains)": "Mostly resolved; smaller repeats in finding 5.",
+    "voice-register (inverted tags)": "Resolved: 0 instances.",
+    "emotional-life (blurred turns at 229, 701)": "Resolved: 229 now turns on 'Wasted on her', and the water image at 697 lands."
+  },
+  "summary": "A pass. The chapter is dense with interiority, every supporting voice is distinct, POV is clean, all twelve beats are dramatized, and every iteration-0 finding is resolved, with texture up from 62.3 to 98.4. The leftover findings are polish, one medium and five low. The medium one is that the em-dash target was met mainly by swapping ', and' for '—and' 22 times. The low ones are a misparse at line 557 and a few other grafted participles, two small second looks at the carter, Neral setting the interview agenda, a handful of repeated phrases, and one stray 'prisoner' at 863. All of them can be fixed with line edits, at this stage or by the slophunter."
+}

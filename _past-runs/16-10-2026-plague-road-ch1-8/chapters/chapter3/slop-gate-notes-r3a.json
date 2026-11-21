@@ -1,0 +1,279 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative",
+  "fixStrategyReason": "iterationKillsA = [49, 8, 12]; latest (12) >= minimum prior (8), so the loop is oscillating. Both fixes are deletions with a minimal tag merge.",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 41,
+      "kills": 0,
+      "keeps": 41,
+      "severity": "none",
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "cleanReason": "41 negation-bearing lines checked: every not/no/nothing/nobody/never clause from a full-text sweep, in narration and dialogue. No live Not X. Y. pivots, source-swaps, count resets or mundane-reveal chains are left. The remaining negations fall into four groups. (1) Tracker diagnostics that drive the next action, under condition 1: L213 'never where the herd came in', L233 'Nobody had lifted the latch', L251 the clog test, L538 'It was not the road down from the Pass', L610 'This foot had never lifted', L676 'Not our road'. (2) Hard constraints, under condition 3: L15, L45, L177 and L828 (elves cannot feel the contamination, per the plan constraint); L211; L281. (3) Spatial precision, under condition 2: L612 'near a print, not in it' and L816 'a ford that was not the ford', which keeps it apart from the river ford named at L802. (4) Self-argument in Sylvanas's free indirect thought, under condition 4: L279, L586, L708, L834-838. Absence inventories (L67, L91, L808) carry the plan's core facts (no bodies, no forced entry, the party cut down to four), and no positive noun sits at the end of them. Dialogue commands and prohibitions (L189, L333, L355, L482) pass at step 1. Two borderline lines are kept, with reasons in the scratchpad: L742 'a face she would not have known again in a crowd' is the plan's own sensory anchor for the carter ('surprise breaking across a forgettable face'), and L824 'It's not a knot, the way Millhaven was' is the mage's binary diagnosis (concentrated vs spread). The second case sets up the plan fact that the settlements ahead are alive and hide the pattern. The tool reports zero negation_addiction matches.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 44,
+      "kills": 0,
+      "keeps": 44,
+      "severity": "none",
+      "dominantPattern": null,
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "A dedicated P5/P6 sweep re-read every sentence for inanimate or abstract subjects carrying agency, desire, cognition, combustion or physical-behaviour verbs. It also covered body-part subjects, abstract states settling into the body, actors demoted into instrument phrases, and metaphor chains across consecutive sentences. Geography verbs (L231 lane 'ran', L606 grooves 'running', L632 cut 'ran/went on/went over', L800 road 'climbed' and country 'opened', L844 road 'came round') are standard path idiom with no intention, in the guide's 'the road led' class. Light and reflection verbs (L185 lantern 'turning the air into a slow gold fog', L233 water 'holding the lantern', L277 lantern 'smearing gold') name the real physical cause. Every body-part subject is involuntary, which is the Pattern 8 exception: L191 arm flinched, L219 and L398 injured fingers, L237 eyes 'a beat behind the light' from fatigue, L353 and L596 the hand drifting to the string, L490 fist clenching, L530 and L724 shoulders, L558 and L794 the girl's head, L742 the carter's mouth going slack, L812 the mage nodding off. A few are POV-limited synecdoche where Sylvanas cannot yet see the person: L372 'The hands down there', L378 and L382 'a face'. Abstract or internal subjects (L279 'Everything in her wanted', L544 the noon stone 'pointed north, because she wanted it to', L778 'It had caught on her') are condition-2 POV states with no command, judgment or deception, and L544 hands the agency back to Sylvanas inside the same sentence. 'The chamber' (L702, L830) is a collective actor whose members are named in the same passage (Lor'themar, the magister's nephew). No permission tags remain: L414 'Neral let her keep it' is physical allowing with an object, and L544 'if she let herself' is outside the closed tag set.",
+      "cleanReason": "44 candidates checked across the main sweep and the dedicated P5/P6 sweep (details in secondSweep). No infrastructure orders, questions or promises were found, and no institutional self-deception, scenery memory, silence with verbs, nominalized agents, receiver-noun laundering or permission tags. The in-world contamination is the literal subject of the chapter, so the mage's readings ('it drowns the lines out', 'the whole cut's soaked in it', 'heavy/light') and the ward-stone 'telling' at L15 are kept under the subject-matter defense. Animals (horses, the cat, the cob 'as if it had been hoping to') are real agents, not candidates. The tool reports zero inanimate_agency and abstract_locomotion matches.",
+      "findings": []
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 22,
+      "kills": 2,
+      "keeps": 20,
+      "severity": "MILD",
+      "dominantPattern": "Tic 5: eye/gaze repertoire exhaustion",
+      "ticCounts": {
+        "tic1_cornerOfMouth": {
+          "count": 0,
+          "cap": 1,
+          "note": "L378 'a mouth too dark at the corners' and L518 'dirt in the corners of her mouth' are physical dirt, not micro-expressions"
+        },
+        "tic2_marked": {
+          "count": 1,
+          "cap": 2,
+          "note": "L285 'marked which way it turned' (mental). L614, L624 and L652 'mark/marks' are track nouns (physical)"
+        },
+        "tic3_tightenedEased": {
+          "tightened": 0,
+          "eased": 1,
+          "cap": "3 / 2",
+          "note": "L83 'She eased the string' is physical"
+        },
+        "tic4_facialShifted": {
+          "count": 0,
+          "cap": 1,
+          "note": "L101 and L522 'shifted' are physical (bow, the girl on her lap)"
+        },
+        "tic5_eyeGaze": {
+          "count": 6,
+          "cap": 4,
+          "instances": [
+            "L113 mage glanced at windlass/hand/Sylvanas",
+            "L680 girl watching 'the way a hare watches a hawk go over'",
+            "L740 carter 'looked past them'",
+            "L758 carter 'looking past her again, up the street'",
+            "L772 carter 'took in the line of horses once'",
+            "L844 farm woman 'stared at the four of them'"
+          ],
+          "excluded": "Tactical watching (L13, L89, L129, L424, L730), fatigue eyes (L21, L237, L592, L812), the mage's reading with eyes shut (L117, L820, L824), task studying (L602, L616), head-turns (L362, L476, L778) and dialogue idiom (L293, L698, L766)"
+        },
+        "tic6_weightHeaviness": {
+          "count": 0,
+          "cap": 2,
+          "note": "every heavy/heavier is the mage's literal reading term (L153, L265, L618-640). Every weight is physical (L91, L402, L420, L610, L646). Every settle is the taproom bench or the horses"
+        },
+        "tic7_nonSaidTags": {
+          "count": 0,
+          "cap": 3,
+          "note": "64 'said' tags. L341 'hissed' is the lantern, not a tag"
+        }
+      },
+      "findings": [
+        {
+          "id": "r3a-T5-01",
+          "pattern": "tic5-eye-gaze-overcap",
+          "severity": "MILD",
+          "line": 758,
+          "text": "He was looking past her again, up the street.",
+          "reason": "The chapter has 6 emotional/reaction gaze beats against a cap of 4. This one repeats L740 'Then he looked past them' and is the weakest. The plan asks for one glance past them to Millhaven and one along the horses ('write the glance and never comment on it'). L740 and L772 already carry both, so this is a third carter gaze beat with no new content.",
+          "suggestedFix": "Replace `but they're buying.\" He was looking past her again, up the street. \"I'd not have thought it.` with `but they're buying. I'd not have thought it.`",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNote": "This is a pure deletion with a quote merge. The existing 'I'd not have thought it. Not Millhaven.' is in-voice dialogue and was already reviewed under the negation guide. The fix adds no new negation, no agency transfer and no tag."
+        },
+        {
+          "id": "r3a-T5-02",
+          "pattern": "tic5-eye-gaze-overcap",
+          "severity": "MILD",
+          "line": 113,
+          "text": "The mage glanced at the windlass, at her right hand, at Sylvanas.",
+          "toolSignal": "filler_glanced",
+          "reason": "This is the second excess gaze beat over the cap of 4, and the slop checker flagged it as filler_glanced. The glance chain stages the request that the next line already makes in words ('Would you? I can't—'). The dead right hand is established at L11, L33 and L45, so the reason she can't work the windlass still reads. The other remaining gaze beats are kept: L680 is a character-specific simile, L740 and L772 are plan-mandated carter plants, and L844 is the only living-human reaction in the closing image.",
+          "suggestedFix": "Replace `\"Water first.\" The mage glanced at the windlass, at her right hand, at Sylvanas. \"Would you?` with `\"Water first,\" the mage said. \"Would you?`",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "crossCheckNote": "This deletes the gaze beat and adds a plain 'said' tag (Tic 7 safe). 'I can't—' is pre-existing dialogue with no contrast pivot. No agency transfer is introduced."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 105,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 2 MILD kills (both Tic 5 gaze-beat overage, both with drop-in deletion fixes) and no MODERATE or SEVERE kills. Negation and intent-smear sweeps are clean. Structural rhythm concerns: sentence_length_cv, short_sentence_pct, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are outside range. Structural texture deficit: texture is below_target at 74.9, with participial at 4.4% against a 12% target.",
+    "observations": [
+      "Not a guide tic, so not killed: 11 'the way X' comparisons (L51, L179, L233, L305, L512, L554, L602, L636, L646, L654, L680). The slop checker's simile counter does not count this shape. Downstream editors may want to vary a few.",
+      "Not a guide tic, so not killed: 'the noon stone with the cold under its warmth' recurs verbatim 3 times (L15, L279, L544). It may be a deliberate motif.",
+      "Outside pass A scope: at L632, 'They had passed each other with the whole hill between' has an ambiguous antecedent (the two routes, or the party and the dead). If it means the party and the dead, it may conflict with the dead having days of start. This is flagged for continuity and was not judged here."
+    ],
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.647,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": -0.073,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.7,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "delta": 0.7,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.894,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.194,
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 42.8,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "delta": 7.8,
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 20.6,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "delta": 10.6,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.37,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "delta": -1.33,
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 33.7,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 14.7,
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.766,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "delta": -0.064,
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "short_sentence_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "texture_score": 74.9,
+      "verdict": "below_target",
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.8% above target 10.0% (score 74/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.8% -> target 10.0% (score 74/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots.",
+      "semicolon_pct": 1.6,
+      "short_pct": 52.1,
+      "flaggedPassages": {
+        "telegram_run": 30,
+        "texture_desert": 26
+      },
+      "note": "Structural texture deficit. Neither kill falls inside a flagged zone."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 67,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passAToolSignals": {
+          "filter_watched": "3/3 (L13, L129, L293): KEEP, tactical reading, guard watch and dialogue",
+          "filler_nodded": "2/4 (L438, L548): KEEP, a non-verbal answer and assent to an order",
+          "filler_glanced": "1/4 (L113): KILL r3a-T5-02",
+          "simile_like": "2/27 (L9 x2): KEEP",
+          "simile_as_if": "2/5 (L606, L736): KEEP",
+          "participial_trailing": "17/54: KEEP, below the texture target",
+          "punct_semicolon": "21/27: KEEP",
+          "punct_colon_narration": "11/13: KEEP",
+          "bookism_hissed": "1/2 (L341): KEEP, the lantern hissing, not a dialogue tag",
+          "negation_addiction": "0",
+          "inanimate_agency": "0",
+          "abstract_locomotion": "0"
+        },
+        "unmappedOrOtherPass": "contact_pressed 5/6 and contact_settled 1/6 are not mapped to a pass A guide. hedge_might_have_been 1/1 (L624) maps to pass B."
+      }
+    }
+  }
+}

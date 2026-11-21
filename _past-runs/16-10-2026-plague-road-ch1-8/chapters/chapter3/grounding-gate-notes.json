@@ -1,0 +1,41 @@
+{
+  "chapterId": "chapter3",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 3,
+      "sceneTitle": "The Old Carter on the Road (B7-B11): ride south",
+      "findingId": "G9-001",
+      "category": "G9",
+      "severity": "MILD",
+      "lines": "801-803",
+      "excerpt": "Then they climbed out of the fold between two banks of hawthorn and over the lip of it, into open country. / The hawthorn hedges stood further apart here, the bramble in them gone red, ...",
+      "reason": "The grounder added 'hawthorn' to line 803, but line 801 already names the hedges as hawthorn in the sentence just before. The second use adds no information. It is a noun echo across two consecutive sentences, the kind of over-grounding that reads as labelling and not noticing. The new 'bramble gone red', 'barley stubble' and 'late stooks' already carry the human-border texture, so the repeated noun is pure surplus.",
+      "suggestedFix": "The hedges stood further apart here, the bramble in them gone red, and the fields between were bigger, long strips of ploughland turned brown and shining with wet, and barley stubble with a few late stooks left standing and the rooks walking up and down it.",
+      "fixMode": "delete"
+    },
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 3,
+      "sceneTitle": "The Old Carter on the Road (B7-B11): farm exit",
+      "findingId": "G12-002",
+      "category": "G12",
+      "severity": "MILD",
+      "lines": "843",
+      "excerpt": "A rowan stood at the gate with a stub of candle burning in the niche of the gatepost, the humans' little shrine to the Light, no bigger than a nesting box.",
+      "reason": "The added image contradicts itself. A candle 'in the niche of the gatepost' puts it in a hollow cut into the post, but 'no bigger than a nesting box' describes a separate box. The niche also departs from the established form. Memory (world/culture) and chapter 2 (v3.md line 331) give 'a little wooden shrine to the Light nailed to the gatepost'. The appositive 'the humans' little shrine to the Light' then explains the image instead of letting it land. It stalls the clipped closing paragraph between the dog charging the gate and the woman coming to the door (minor G8/G10 pressure). The payload is worth keeping: a candle burning here, against chapter 2's burnt-down stub at the abandoned farm, marks a living farm. Only the rendering needs fixing.",
+      "suggestedFix": "A rowan stood at the gate, and in the wooden Light shrine nailed to the gatepost, no bigger than a nesting box, a stub of candle was burning.",
+      "fixMode": "substitute"
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "mildKills": 2,
+    "moderateKills": 0,
+    "severeKills": 0,
+    "dominantFailures": ["G9", "G12"]
+  }
+}

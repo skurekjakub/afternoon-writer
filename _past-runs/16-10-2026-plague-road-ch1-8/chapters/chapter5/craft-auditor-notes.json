@@ -1,0 +1,142 @@
+{
+  "chapterId": "chapter5",
+  "iteration": 0,
+  "targetFile": "v0.md",
+  "verdict": "fail",
+  "findings": [
+    {
+      "check": "rhythm-texture",
+      "severity": "high",
+      "location": "Whole chapter; worst concentrations at lines 5, 121, 137, 161, 199, 221, 255, 297, 401, 443, 569, 629, 667, 709",
+      "passage": "It was the second night without sleep, and the horses knew it, even these horses; she felt the mare's stride shorten on the long hill and lengthen again when she sat down into it, and somewhere on the causeway, in the black, with the water-meadows smoking pale on either side, the mage's mare went down on its knees and came up again with the mage still on it, by Lyriel's arm and nothing else.",
+      "problem": "Texture score 63.6/100 (fail; threshold 90). Compound joins are at 22.7% against a 10% target (score 36), participials at 2.5% against 12% (score 44), em-dashes at 1.2% against 4% (score 74). Semicolons are on target. The chapter's default long-sentence engine is polysyndeton: ', and ... , and ... , and'. There are 365 ', and' joins in 15.6k words, and 181 narration sentences run past the 25-word Sylvanas ceiling (the longest are 74, 64, 61 and 59 words, at lines 443, 681, 491 and 401). That one construction is causing both the compound overshoot and the participial deficit.",
+      "fix": "One mechanical pass fixes both dimensions. In each long and-chain, (a) turn one ', and [verb]' clause about simultaneous physical action into a participial phrase (', and she put her hand flat to the front of her coat' becomes ', putting her hand flat...'; ', and Corley's kettle began to tick' can stay, but 'went down the page with one finger and her lips moving very slightly, and turned the page, and went down it' becomes 'went down the page with one finger, lips moving, turning back once to check'), and (b) cut the chain into two sentences at its second 'and'. Aim to remove about 150 ', and' joins and add about 120 ', Ving' phrases. Do this in narration only and leave the dialogue alone. Em-dashes: Sylvanas's voice sheet calls for them in clipped self-correction, and the chapter currently uses periods there. Convert some of those breaks: 'Who had told them to— No. Not yet.' already works; do the same at 'Fifty-three slips in a dead man's stove. No. Not dead.' (line 493), 'Then the King's road. No;' (line 687), 'Bad luck, then.' / 'Yes; and a free carter...' (line 271), and in mid-sentence asides such as 'she had picked it up off the overseer's kitchen floor—half his wife's dresser drawer spilled round it—' (line 545). Target about 40 more em-dashes chapter-wide."
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "40 paragraphs over 100 words; largest at lines 575 (170w), 221 (164w), 297 (155w), 483 (151w), 497 (151w), 255 (146w), 5 (144w), 385 (143w), 311 (142w), 443 (140w)",
+      "passage": "Andorhal's grain had gone everywhere. The slips said so, fifty-three of them and the nine with their ends burned off, and they did not lie about where a load went, because that was the column a carter got paid by. Up the King's road to the river and the ferry towns. ... and they got older the further down the south road she put her finger.",
+      "problem": "The style guide caps paragraphs at 7 sentences / 100 words except for briefing blocks, with 3-4 sentences (40-60 words) as the baseline. This draft has 40 paragraphs over 100 words, so the page reads as a run of solid blocks between short hits, and the anchor's long/short alternation inside a paragraph turns into alternation between whole paragraphs. Many of these blocks hold two moves. For example, line 221 is the scale realisation followed by the 'every human road' verdict, and line 575 is the paper result followed by the mage's marks result.",
+      "fix": "Split each of these at its natural pivot. Line 221: break before 'No. One man with a cart didn't sell grain short...'. Line 575: break before 'And the mage's marks sat on that same web of roads', and let 'Not one.' end a paragraph. Line 297: break before 'Sylvanas slept once in the saddle'. Line 5: break before 'Her eyes felt as if somebody had rubbed sand into them'. Line 385: break before 'Frightened of what?' so the self-argument gets its own paragraph. Line 443: break before 'After that Lyriel rode with her knee against the mage's knee'. Leave the B6a ash-pit inventory paragraphs (457, 469) long if they are needed as working blocks, but every paragraph should come in under about 120 words."
+    },
+    {
+      "check": "emotional-life",
+      "severity": "high",
+      "location": "Lines 97-103, 217, 439, 479, 505, 569, 591, 609-615, 627 (and the repeated magister comparison at 217 and 613)",
+      "passage": "No argument that the farm and the green were the same thing if you looked at it a certain way. No word about the lines bending in valleys. (217) / ...and that was the end of it; no guess, no *it ought to be*, no lines bending in valleys. (569) / No *it was the wind at the crossing*. No *I couldn't have known*. (627)",
+      "problem": "The beat 'Sylvanas braces for the mage's lecture or softness, and it doesn't come' is played about nine times. The phrase 'lines bending in valleys' appears verbatim twice. The comparison to Silvermoon magisters at council tables appears twice (217, 613). The plan has this land once in B1 as setup, once in B2 as the quick-correction arc requirement, and once in B7 as the payoff where she stops waiting and thinks 'Jaina'. Because the same move recurs in B4 ('I can't hear paper'), B6 (439), B6a (479, 505), B7 (569, 591, 627) and B9 (697), the B7 hinge at 609-619 arrives already spent. The reader has watched her notice the absent lecture so often that 'There was nobody to catch' is no longer news.",
+      "fix": "Keep three instances: line 97-103 (B1 setup), line 217 (B2 Hollow Green correction, keeping the magister comparison here), and 609-619 (B7 payoff). Cut the 'No X. No Y.' list from 569 (end that sentence at 'that was the end of it'). Cut the absence list from 591 ('She did not say *give me a moment*...'); just have her get up. Cut the second magister comparison from 613 and keep only 'A Kirin Tor mage.' plus the sundial joke if it is rewritten so it doesn't echo 217. At 627 keep 'Jaina had been wrong at a crossing in the afternoon and she was right at a door at midnight' and drop the two italic No-lines in front of it. At 479 and 505 keep the action (she reads the paper, says her piece, stops) and drop Sylvanas's meta-observation that nothing more came. B7 will then land as the first time she stops waiting, not the ninth time she notices."
+    },
+    {
+      "check": "beat-fidelity",
+      "severity": "medium",
+      "location": "Scene 3, B9, lines 685-689",
+      "passage": "\"Anyone looking for us would look on it first. It's the road you take when you don't know there's anyone looking.\" ... The road she'd pick, if she were the one hunting four elves on Thalassian horses? The one the trail was on. So, the south road was the one to watch, if they had any sense, and they'd shown a good deal of sense. Then the King's road. No; the King's road was the clean one, and clean was no use to her.",
+      "problem": "Aloud, Sylvanas says watchers would look on the King's road first. In her head one paragraph later, she concludes the south road is the one they'd watch. These are opposite claims, and the reader cannot tell whether the south road was chosen because it is safer or in spite of being watched. The plan's interiority is the second reading: the south road is the road she would pick, so it may be watched, and there is no better one. The spoken line undercuts that. The arc landing ('the choice rests on Jaina's read') is also only implicit. 'The one with the trail on it' never says that the trail on the south road exists only in Jaina's marks, which she cannot check (the point made at line 223).",
+      "fix": "Make the spoken assessment match the interior one. Either cut 'Anyone looking for us would look on it first. It's the road you take when you don't know there's anyone looking' and have her say only that the King's road is clean and goes to the front gate, or keep the line and have the interior paragraph knowingly overturn it ('That was what she'd told the mage. It was wrong. If she were hunting four elves she'd sit on the south road...'). Then add one clause in 687-689 tying the trail to Jaina's read, e.g. that the paper says both roads and only the mage's marks say south, and she is going to put four horses on marks she cannot check. 'No.' at 695 then pays off visibly as taking the read without proof."
+    },
+    {
+      "check": "beat-fidelity",
+      "severity": "medium",
+      "location": "Lines 237-241, 429, 681 (Strahnbrad sourcing)",
+      "passage": "\"Prince Arthas. He has them up at Strahnbrad. ... You can't get a cart on the north roads for soldiers.\" (237) / \"a company of the King's foot, a week gone, going east for the prince\" (429) / she dipped the pen and wrote at the edge of the sheet, where the road left it ... *Strahnbrad*. The men in brown coats at the inn had said it. (681)",
+      "problem": "The three road-talk sources that set up B9 point three ways. The inn men say the army is on the 'north roads'. The toll-keeper on the north Brill road has troops going 'east'. Cyndia finds army wagons on the south road. Sylvanas then pins Strahnbrad at the south edge of the map and cites the first two sources as if they agreed. B9's decision (the southern road runs through the army) depends on this geography, and as written a careful reader will see the north-road soldiers and ask why she turns south.",
+      "fix": "Change the inn man's line to put the soldiers on the roads into the hills to the south, e.g. 'You can't get a cart on the hill roads for soldiers', together with 'Up toward the hills' (which can mean up-country in any direction). Change the toll-keeper's company to 'going down to the prince' or 'cutting across for the hill road'. Then the recap at 681 genuinely lines up three sources."
+    },
+    {
+      "check": "beat-fidelity",
+      "severity": "medium",
+      "location": "B1 (lines 1-179) vs B5 (lines 355-399)",
+      "passage": "\"Your weights,\" she said. \"Twelve sacks at the beam, here. What does the gate slate say for that day?\" ... So the weights were whatever the carters said, and the days were whatever day the clerk had got round to it, and the names were nothing at all.",
+      "problem": "Beat weights are inverted. B1 is marked 'standard' and runs about 3,300 words, the longest beat in the chapter. B5 is marked 'heavy' (the chapter's main stance test) and runs about 830 words, the shortest scene beat. All the B5 components are present and good (cuffs, ready answer, ash, Jaina's null read, the self-argument at 385-389), but the decision passes quickly, and the reader has less time to sit in the room with the clues than the plan intends. In B1, the slate-and-scale subplot (lines 77-91) makes a point (the books disagree) that the narration then states outright at line 89.",
+      "fix": "Trim B1 by 600-900 words. Compress the slate/chalk exchange at 77-89 to one Lyriel report and Corley's 'They tell me twenty. I write twenty.' Cut the restatement at 89, because 'Fine. Where, then. She could work with where.' already lands the point. Shorten the sleep paragraph at 179. Give B5 one more turn of pressure, without commenting on the clues: one more pleasant, ready, over-complete answer from the overseer (the Brill factor's house named too fluently, or the trough offered a third time) while Sylvanas counts wagon-hours in her head. The reader then sees her choose the clock over the room a second time, and the 'two days' lie gets more space."
+    },
+    {
+      "check": "voice-register",
+      "severity": "medium",
+      "location": "Whole chapter; especially the B2 stops montage (183-193) and the bridge-keeper (449)",
+      "passage": "A mill down a side road past Coldwell, where the miller had flour in his eyebrows and a slate on the wall, and told Lyriel the young fellow with the cart had come back only yesterday for the last four sacks of his own load. Paid full rate for them, too, more than he'd sold them for. Said the damp had got into them on the road...",
+      "problem": "Dialogue is about 15% of the chapter's words. The style guide's target for procedural chapters 1-8 is 60:40 dialogue-to-narration, relaxed to 30:70 for solo road riding. Parts of this chapter are solo riding, but the office scenes, the table, the depot and the midnight hut are all multi-character procedural rooms. Several useful voices are reported instead of heard: the miller, the hamlet woman, the ostler (who gets one line), and the bridge-keeper. This also keeps Lyriel's 'keeps clerks talking' function mostly offstage in B2.",
+      "fix": "Don't add length. Convert some reported speech into direct speech. In B2, give the miller two lines of his own (his 'thirty years' outrage in his voice), with Lyriel prompting him, and let the hamlet woman name one debtor aloud while Lyriel admires the sticks. Then cut the narrated equivalents. At 449, let the bridge-keeper say the trot and the crying wife himself. At the table (B2) and in the ash-pit beat (B6a), let Cyndia's counts come as short spoken reports rather than narrated tallies where possible."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Lines 411, 459, 639, 357, 549",
+      "passage": "would have cut through that slumped clay like a knife through cheese (411) / then he had stuffed his stove like a cook with the guests at the door (459) / a rust-stain round each hole like a ring on a table ... it came out in a little curl, like wax off a candle (639)",
+      "problem": "Sylvanas's simile ceiling is about 0-1 per 1,000 words, drawn from rangecraft, predators, forestry and military logistics. The chapter has about 20 similes, and several come from the kitchen or the dinner table (cutlery, cook, cheese, ring on a table, wax off a candle). 'Knife through cheese' is a stock phrase. Line 639 stacks two similes in one paragraph, which breaks the one-per-paragraph rule.",
+      "fix": "Cut or re-source about 5 of them. 411: drop the simile ('would have cut through that slumped clay and left the edges standing sharp') or use a ranger image. 459: replace the cook with a field image (a camp breaking in a hurry, a fire kicked over a cache), or cut the simile and keep the contrast plain. 639: keep one of the two; the ring-on-a-table can go. Keep the good in-domain ones: 'on clay a loaded wagon writes its name', 'like crows on a field', the field after the battle at 201."
+    },
+    {
+      "check": "limited-third",
+      "severity": "low",
+      "location": "Line 443; lines 179, 643",
+      "passage": "She could not have said, later, what she thought about on that road, except that every time she thought about anything she found she was thinking about the stove. (443) / the way you'd hold a cup you didn't want to spill (179) / the way you're pleased when a stranger fits the shape you've made for him (643)",
+      "problem": "'She could not have said, later' steps out of the present moment to a narrator who knows her future recollection, which is a small break in camera-behind-the-eyes. The generic-'you' comparisons at 179 and 643 read slightly more like a narrator's aside than Sylvanas's own idiom. 643 is the closer of the two to her voice.",
+      "fix": "443: render it in-moment, e.g. 'Every time she thought about anything on that road, she was thinking about the stove.' 179: make it concrete to her ('the way a ranger holds a cut hand off the ground') or cut it. 643 may stay if 179 goes."
+    },
+    {
+      "check": "voice-register",
+      "severity": "low",
+      "location": "Lines 101, 217, 479, 657, 661, 697; 465 & 603; 511 & 613; 119, 183, 311",
+      "passage": "That was all. (x6) / let herself down ... in pieces (x2) / Sun's sake (x2) / spoiled stuff (x2), Damn the stuff",
+      "problem": "Verbal tics recur. 'That was all' closes a beat six times. Jaina lowers herself 'in pieces' twice. 'Sun's sake' is used twice, which flattens Sylvanas's oath. 'Stuff' is on the style guide's avoid list for narration.",
+      "fix": "Keep 'That was all' at most twice; most instances vanish anyway once the absent-lecture beats are cut (see the emotional-life finding). Keep one 'in pieces' (line 465). Keep 'Sun's sake' at 511 (the Barov temptation) and change or cut it at 613. Replace 'spoiled stuff' with 'spoiled sacks' / 'spoiled flour'. 'Damn the stuff' at 119 can stay as her spoken-register curse, or become 'Damn the paper'."
+    }
+  ],
+  "textureMetrics": {
+    "textureScore": 63.6,
+    "target": 100,
+    "passingThreshold": 90,
+    "verdict": "below_target",
+    "dimensions": {
+      "participial": {"actual": 2.5, "target": 12.0, "score": 43.7, "direction": "under"},
+      "compound": {"actual": 22.7, "target": 10.0, "score": 36.5, "direction": "over"},
+      "emdash": {"actual": 1.2, "target": 4.0, "score": 74.3, "direction": "under"},
+      "semicolon": {"actual": 2.3, "target": 1.8, "score": 100.0, "direction": "on target"}
+    },
+    "otherStats": {
+      "sentences": 1215,
+      "meanSentenceLength": 12.8,
+      "shortPct": 51.9,
+      "paragraphs": 359,
+      "oneSentenceParagraphPct": 24.8,
+      "narrationSentencesOver25Words": 181,
+      "paragraphsOver100Words": 40,
+      "dialogueWordPct": 15.5,
+      "totalWords": 15598
+    },
+    "interpretation": "PARTICIPIAL: 2.5% -> target 12.0% (score 44/100). Add ', Ving' phrases as connective tissue between actions. | COMPOUND: 22.7% -> target 10.0% (score 36/100). Too many ', and/but/yet' joins; break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots and clipped self-correction. The two main problems share a cause: polysyndetic ', and [verb]' chains. Converting one 'and'-clause per chain into a participial and splitting the chain once fixes both.",
+    "flaggedPassages": [
+      "telegram_run s13-20: opening orders at Corley's yard ('Cyndia. The yard and the gate.') -- deliberate command shorthand, acceptable",
+      "texture_desert/telegram s22-32: Jaina dismounting / 'Where do you want me?' / 'Can you read from the crossing?' -- add one participial into the dismount narration (line 11)",
+      "telegram_run s62-70: Lyriel/Corley kettle exchange -- dialogue ping-pong, acceptable",
+      "texture_desert s90-113 + telegram s99-106: the out-book reading (lines 59-75) -- vary with one longer clause-built sentence about her finger moving down the page",
+      "telegram_run s207-214: east-road strokes / 'Cyndia,' Sylvanas said, not loudly. The door was open. (129-133)",
+      "telegram_run s233-240: 'All right. She could see it.' (147) -- deliberate emphasis; keep but check the paragraph before is long enough to earn it",
+      "texture_desert + telegram s250-259: 'That was the trouble. There was nothing in them that made them Millhaven's.' (157) -- merge two of the short sentences",
+      "telegram_run s274-281: 'The mage was watching her finger... Fine. One map.' (171-173) -- deliberate landing, acceptable",
+      "texture_desert s295-305: the miller's yard read 'Heavy. Old.' (183)",
+      "texture_desert s378-387: 'Forty-seven' / Lyriel's breath / 'Nobody answered her.' (225-229)",
+      "texture_desert s468-480: 'We don't stop at the Plough' (283-291) -- decision beat, mostly acceptable",
+      "telegram_run s571-579: 'She had not seen the smoke from the gate. Somebody had stayed, then.' (343-345)",
+      "texture_desert + telegram s600-613: overseer's ready answer (367-371) -- his speech is deliberately smooth; texture the surrounding narration instead",
+      "telegram + texture_desert s684-693: 'There were no cut edges... Nothing heavy since the rain.' (413) -- deliberate staccato; acceptable as the beat's hit",
+      "telegram_run s717-725: toll-keeper 'Grain don't come this way now. I'd know.' (429) -- character voice, acceptable",
+      "texture_desert s771-780: 'Cyndia. She did not look round. There'll be an ash pit...' (461)",
+      "texture_desert s812-823: slip names 'Wick. Coldwell. Corley's yard...' (483) -- list, acceptable",
+      "telegram + texture_desert s942-954: B7 call-and-response 'Coldwell... Heavy. Old.' (551-561) -- deliberate working rhythm; keep",
+      "telegram + texture_desert s1039-1048: 'The *wasn't that something*. The little hand held out for it. She was waiting for it now.' (613-615) -- trim per the emotional-life finding",
+      "telegram + texture_desert s1051-1060: 'There.' / Ashford (623-625) -- acceptable"
+    ]
+  },
+  "strengths": [
+    "POV interiority in every scene is strong, in her own idiom, and argues with itself: 'Bad luck, then... Yes; and a free carter buys back his own spoiled flour' (271), 'Frightened of what?' (385-389), the Barov temptation and refusal (509-525), the carter self-argument 'That settled it. / It didn't settle anything.' (657-659).",
+    "Voices are distinct. Cyndia reports in event order with her own opinion last and labelled ('I'd say that was on purpose'). Lyriel's jokes follow the voice-sheet shape (the loop joke, the marrow, the burnt crust). Corley, the overseer and the toll-keeper each have their own cadence.",
+    "Emotional registers vary: humour (kettle, marrow, Lyriel's loop joke and Jaina's laugh, the Barov dinner, the sundial), warmth (Lyriel holding Jaina on the horse, Corley's cup), exhaustion, cold self-directed anger.",
+    "The value shifts land on concrete objects: the finger along the spokes ('Fine. One map.'), 'We don't stop at the Plough', ruts with no cut edges, the ANDORHAL sacking at the top of the fan, 'Jaina. Well. It was shorter.', the knife through Strahnbrad, the brown dust on the hills.",
+    "Every planned beat is dramatized. The mage-to-Jaina switch is clean: no 'Jaina' in narration before line 617 and no 'the mage' after it. Connection versus guilt is held in both narration and thought. The carter handles come from the page and are not conflated with the grain-man."
+  ],
+  "summary": "A strong draft. Every beat is dramatized, and the interiority argues with itself in Sylvanas's own idiom in every scene. The voices are distinct, and the Jaina name-switch and the connection-not-guilt line are handled cleanly. It fails on texture (63.6/100: compound joins at 22.7% against a 10% target, participials at 2.5% against 12%, both driven by polysyndetic and-chains and 40 paragraphs over 100 words). It also replays the 'braced for a lecture that doesn't come' beat about nine times, which blunts the B7 payoff. Smaller fixes: the watched-road logic in B9 contradicts itself, the Strahnbrad sources point north and east before the army turns up on the south road, and the B1/B5 beat weights are inverted."
+}

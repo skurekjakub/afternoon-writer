@@ -1,0 +1,174 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative",
+  "fixStrategyReason": "slopGateLoop.iterationKillsA = [40, 16, 3, 2, 2]; latest count (2) >= minimum prior count (2), so the loop is oscillating. Fixes prefer deletion and minimal substitution.",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 20,
+      "kills": 0,
+      "keeps": 20,
+      "severity": "none",
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "cleanReason": "20 candidates examined (every not/n't/no/none/nothing/nobody/never/without hit plus implied two-sentence norm contrasts). The draft has no 'not X but Y', fragment pivot, source-swap, minimizer, count-reset, chained or mundane-reveal shapes. Survivors fall into four groups: (a) answers to direct yes/no questions in dialogue ('No. She talked the whole way up.', 'No seal, no escort, no letter.'); (b) Sylvanas arguing with herself in free indirect thought, each undercut by the next beat (L69 'No. It was real.', L107 'None of it was hers... It hadn't. One stone with a limp in it wasn't an army.', L153 'No, nonsense.', L283 'No.'); (c) hard perception limits that matter to the plot (L177 'At a gallop she couldn't hear one.', L275 'she couldn't hear anything wrong in it', L263 frost-nip clue); (d) implied norm contrasts that test a live hypothesis in scene (L207 spy-runs test, L229 surveyor-vs-raider map test, L265 frightened-people-look-at-the-door test closing the L207 fright hypothesis). The KEEP rate is above the 20% warning line, so every KEEP was re-run through the five adversarial self-check questions; each one either holds a concrete fact or is a real in-scene binary that changes Sylvanas's next call. Full rationale is in the scratchpad.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 26,
+      "kills": 1,
+      "keeps": 25,
+      "severity": "MILD",
+      "dominantPattern": "P8 discovery wrapper (body-part informant)",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "Dedicated P5/P6 sweep done sentence by sentence. Roads and geography: 'the slope fell away', 'The track bent... dropping', 'the track ran east', 'The road went on east', 'the southern track turned... climbing' all use literal topographic verbs, with no fire, intent or cognition verbs. Maps, reports and plans: 'It said stable in three different hands' and 'it says so in three hands' name the real writers (the wardens' hands); the map sentences ('Each was a small neat dot', 'These had roads', 'Thin ruled lines ran up') carry no revision or cognition verb, and the human drawer is named ('Whoever had drawn it', 'somebody had held the sheet down'). Body-part subjects: L13 dying legs (involuntary), L63 palm reach (the palm is the sensing organ), L93 and L205 hand closing (involuntary motif, made explicit by 'without meaning to' at L145 and 'She opened it.' at L205), L265 jaw (noun-phrase fragment in a face catalog) were all kept; L17 'learning from her knees' was killed as a discovery wrapper. Abstract states in body parts: the palm cold (L75, L145, L205, L233) is the literal sensation the chapter is about (subject-matter defense), not an emotion landing. Metaphor chains: the stone-as-lame-horse image (L63 'favouring a leg' to L107 'a limp in it' to L177 'a limp in the hum' to L283 'the whole ring could be limping') is one sustained metaphor in Sylvanas's horsewoman vocabulary. L71 sets it up as her substitute for the magister word she lacks. It is not one subject collecting different human verbs.",
+      "findings": [
+        {
+          "id": "r5a-IS-1",
+          "pattern": "P8-discovery-wrapper",
+          "severity": "MILD",
+          "line": 17,
+          "text": "She got up, learning from her knees exactly how long she'd lain on them, and went down the slope, ferns crushing under her boots.",
+          "flagged": "learning from her knees exactly how long she'd lain on them",
+          "subject": "her knees (as informant/teacher)",
+          "verb": "learning from (discovery frame)",
+          "realAgent": "Sylvanas, stiff from lying in the damp bracken; the knees supply a sensation the sentence never names",
+          "reason": "Pattern 8 / discovery-wrapper calibration ('He tried to salute and found his hand still wrapped in the reins'). The body part becomes the source of knowledge and the clause performs discovery instead of stating the physical fact. L3 already established the long, damp lie at both knees, so the clause adds wry framing and no new fact.",
+          "suggestedFix": "She got up and went down the slope, ferns crushing under her boots.",
+          "fixDifficulty": "low",
+          "fixNote": "Conservative strategy: deletion. L3 ('long enough for the damp to soak through her leathers at both knees') already carries the duration fact.",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 34,
+      "kills": 0,
+      "keeps": 34,
+      "severity": "none",
+      "dominantPattern": null,
+      "ticCounts": {
+        "tic1_cornerOfMouth": "0 / cap 1",
+        "tic2_marked": "2 / cap 2 (both literal map-marking, L229)",
+        "tic3_tightenedEased": "0 tightened / cap 3; 0 eased / cap 2",
+        "tic4_facialShifted": "0 / cap 1 (3 physical 'shifted' uses at L51 mare, L225 Sylvanas, L241 crystal do not count)",
+        "tic5_eyeGaze": "3 reaction/assessment gaze beats (L151, L265, L271) / cap 4; plus 1 physical light reaction (L193 'narrow-eyed')",
+        "tic6_weightHeaviness": "0 / cap 2 (L9 'all that weight', L29 'easing his weight' are literal body weight)",
+        "tic7_nonSaidTags": "0 performance tags / cap 3 ('she called' at L15 is volume-exempt)"
+      },
+      "cleanReason": "All seven listed tics are at or under their caps, and the only capped-out tic (Tic 2, 'marked' x2) is two literal uses of map-marking in one diagnostic sentence pair. All 26 slop-checker matches mapped to this guide (punct_colon_narration 5/5 at cap, punct_semicolon 4/10, participial_trailing 7/20, simile_like 4/10, simile_as_if 1/5, simile_as_though 1/3, filler_frowned 2/4, filter_watched 2/3) were audited individually and kept. Each colon introduces a concrete list or specification, the participials are action carriers in a chapter the texture scorer marks as participial-deficient, the similes are concrete and character-sourced (horse, boot in mud, rider in stirrups), the two frowns are a deliberate escalation of Jaina hearing the bad stone, and both 'watched' hits are dialogue or a callback to 'A name worth watching'. Non-listed repetition advisories (not KILLs) are in the scratchpad: the 'Generic X does A. This one did B.' baseline template (L63, L207, L265), six 'the way X' comparisons, and 'without a ripple' x2 (L153, L287).",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 79,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 1 MILD kill (intent-smear P8 discovery wrapper at L17), 0 MODERATE/SEVERE. Pass A guide pack is otherwise clean. Structural rhythm concerns (not verdict-affecting): long_sentence_pct 17.1 (range 7-14), one_sentence_paragraph_pct 24.7 (range 15-24), opener_entropy 6.01 (range 7.2-8.2), mattr 0.789 (range 0.80-0.87). Structural texture deficit: texture verdict below_target (score 81.7; participial 6.1% vs 12.0% target, em-dash 1.1% vs 4.0% target), with 8 telegram runs and 12 texture deserts. Out-of-pass tool violation left for pass B: narrator_verdict 'too fast and too even for anyone who meant to stop politely' (L119).",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.646, "target": 0.72, "delta": -0.074, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.2, "target": 11.0, "delta": 0.2, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.741, "target": 0.7, "delta": 0.041, "range": [0.6, 0.8], "inRange": true },
+      "short_sentence_pct": { "actual": 36.7, "target": 35.0, "delta": 1.7, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 17.1, "target": 10.0, "delta": 7.1, "range": [7.0, 14.0], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 24.7, "target": 19.0, "delta": 5.7, "range": [15.0, 24.0], "inRange": false },
+      "opener_entropy": { "actual": 6.01, "target": 7.7, "delta": -1.69, "range": [7.2, 8.2], "inRange": false },
+      "mattr": { "actual": 0.789, "target": 0.83, "delta": -0.041, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct above range",
+        "one_sentence_paragraph_pct marginally above range",
+        "opener_entropy below range",
+        "mattr marginally below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 81.7,
+      "participial_pct": 6.1,
+      "compound_pct": 11.1,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 0.9,
+      "short_pct": 44.5,
+      "verdict_reasons": [
+        "participial: 6.1% below target 12.0% (score 56/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.1% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 1.1% -> target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "structuralNote": "structural texture deficit",
+      "flaggedPassages": {
+        "telegram_run": 8,
+        "texture_desert": 12,
+        "zones": [
+          "s48-59 (Convocation dread / 'Today?' exchange)",
+          "s93-100 ('No. It was real. She knew stones.')",
+          "s112-132 (Lor'themar at the stone)",
+          "s139-149 (budget banter)",
+          "s158-170 (Cyndia / south-of-the-wards paragraph)",
+          "s185-201 (runner report)",
+          "s203-212 (seal / Cyndia exchange)",
+          "s214-234 (fist / spy reasoning)",
+          "s254-264 (switchback ride)",
+          "s307-323 ('Or she was right.' / 'Did she fight?')",
+          "s400-415 (mage description)",
+          "s426-439 (cell listening beat)",
+          "s447-456 (hand-off decision)"
+        ]
+      },
+      "killOverlap": "The single KILL (L17) sits before the first flagged zone; the deletion fix does not reduce participial density further in a flagged zone."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 31,
+        "total_violations": 1,
+        "overCapCategories": [
+          "narrator_verdict (verdict_too_x_for 1/0, L119; maps to pass B narrator-seep, out of pass A scope)"
+        ],
+        "atCap": [
+          "punct_colon_narration 5/5"
+        ],
+        "passAMappedSignals": {
+          "punct_colon_narration": 5,
+          "punct_semicolon": 4,
+          "participial_trailing": 7,
+          "simile_like": 4,
+          "simile_as_if": 1,
+          "simile_as_though": 1,
+          "filler_frowned": 2,
+          "filter_watched": 2
+        },
+        "passAMappedKills": 0,
+        "passAMappedKeeps": 26,
+        "unmapped": [
+          "contact_found 3/6",
+          "contact_pressed 1/6"
+        ]
+      }
+    }
+  }
+}

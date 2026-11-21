@@ -1,0 +1,103 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter2",
+  "iteration": 0,
+  "targetFile": "v0c.md",
+  "status": "fail",
+  "hardViolations": 2,
+  "softViolations": 4,
+  "truthSources": [
+    ".afternoon/config.json",
+    ".afternoon/plans/chapter2.json",
+    ".afternoon/chapters/chapter1/final.md",
+    ".afternoon/plans/memory/locations/{pass-holding-cell,thalassian-pass-post,southern-ward-line}.json",
+    ".afternoon/plans/memory/characters/{jaina-proudmoore,sylvanas-windrunner,cyndia,antonidas,lor-themar-theron}.json",
+    ".afternoon/plans/memory/relationships/jaina-proudmoore--sylvanas-windrunner.json",
+    ".afternoon/plans/memory/threads/{leylines-wrong-claim,jaina-purpose-and-antonidas,jaina-map-circled-stone,ward-stones-wrong,unfelt-ring-crossing}.json",
+    ".afternoon/plans/memory/world/{magic,geography,military,timeline}.json",
+    ".afternoon/plans/series-meta.md (Ch2 section, for handoff only)"
+  ],
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "hard",
+      "category": "beat-sequence",
+      "location": "L161-171 (B6, yard): \"Lady Proudmoore.\" She made a small bow over the reins ... \"never bitten a single one of them, which makes her the most patient creature in Quel'Thalas.\" ... The ranger laughed, a short real laugh ... \"Lyriel,\" she said, as if Jaina had asked. Also L217-223 (B7): \"Lady Proudmoore?\" Lyriel said.",
+      "description": "Lyriel speaks to Jaina, jokes with her, laughs, introduces herself by name and checks on her at B6 and B7. Jaina also jokes back (L169). This uses up B9's relational first early: B9 is where Lyriel is supposed to become the first ranger to talk to Jaina as anything other than a prisoner, and her first spoken line in the chapter.",
+      "evidence": "Plan B9 newOnPageInformation: 'Lyriel is the first ranger to talk to Jaina as anything but a prisoner'. B9 continuityNote: 'Lyriel is new on page as a speaker.' B6 continuityNote: 'Lyriel and Neral are new on page here' (they are present, not yet speaking). The B6 plannerWarning ('Lyriel calls Jaina Lady Proudmoore, mock-solemn, never Jaina') is the chapter-wide address rule. It does not license a B6 conversation.",
+      "suggestedFix": "B6: keep Lyriel present and physical but silent or strictly custodial. She leads the horse up and boosts Jaina into the saddle without the joke, the bow, the laugh or the self-introduction. Jaina can learn her name when someone else says it (for example, Windrunner placing the escort: 'Lyriel, her right'). Cut Jaina's reply at L169 and rework L167 ('They all knew her name, then') so it hangs on Windrunner's 'Proudmoore rides in the middle' (L181). B7 L217-223: make the check wordless (Lyriel takes the reins below the mare's chin, looks, lets go). The first 'Lady Proudmoore' and the first warmth then land at L357. The B10/B11 Lyriel lines after B9 are fine as written."
+    },
+    {
+      "violationId": "V2",
+      "severity": "hard",
+      "category": "physical",
+      "location": "L543 (B12): \"She didn't have a knife. ... And if she had, it would be lying on a shelf at the Pass with her stockings.\"",
+      "description": "The narration puts Jaina's stockings on a shelf at the Pass. They were returned to her in the repacked satchel at B6. The same chapter confirms they are with her both before and after this line.",
+      "evidence": "L141: 'Her stockings had been folded with the darned heels outward...' (satchel handed back by Cyndia). L147: she pushes the pebble 'under the stockings' in the satchel. L619: 'come out of her bag with a knife from between her stockings.' Ch1 final.md L219: the stockings were part of the satchel contents laid in rows on the rack shelf. Plan B6: kit is returned.",
+      "suggestedFix": "Keep the joke but point it at an item that stayed at the Pass, or at the act of confiscation. For example: 'And if she had, the post would have kept it back when they handed her the rest.' Or: '...it would still be lying on Cyndia's shelf at the Pass, in a row of its own.'"
+    },
+    {
+      "violationId": "V3",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L333 (B9): \"Windrunner had had the map all day. Of course she'd read it.\"",
+      "description": "Free-indirect narration states as fact that Windrunner had the map all day. Ch1 has Sylvanas reaching the Pass at dusk and seeing the map for the first time in the rack alcove just before she enters the cell. Jaina could hold this as a wrong assumption, but the line reads as narration of fact. It also comes close to the plan's instruction not to have narration explain how Sylvanas knows.",
+      "evidence": "Ch1 final.md L181 ('came into sight at the end of the light') and L221-235 (first sight of the map). memory/world/timeline: 'Dusk: Sylvanas reaches the Pass, reads Cyndia's report, inspects the gear and map'. Plan B6 continuityCorrections: 'Do not have the narration explain how Sylvanas knows.' B9 plannerWarning: 'Let the map be enough.'",
+      "suggestedFix": "Drop the time claim and keep it to the map: 'Windrunner had read the map before she ever opened the cell door.' Or simply: 'Windrunner had had the map. Of course she'd read it.'"
+    },
+    {
+      "violationId": "V4",
+      "severity": "soft",
+      "category": "beat-sequence",
+      "location": "L203 (B7): \"It came from everywhere: out of the road under the hooves, out of the black slope below, out of fields and woods she couldn't see and the lines running beneath them.\" Also L253 (pre-B8, dawn): \"It smelled of leaf mould and sheep and, under that, faint and steady, of the coins.\"",
+      "description": "Before the B8 reading, Jaina already perceives the wrongness coming out of the road surface, the slope and the fields themselves, and smells it in the land's air. This partly gives away B8's finding that the wrongness has left the lines and entered ground and water. L227-229 then has her still unsure whether it is a place, an object or an ongoing working, so the earlier lines blur what the B8 reading turns up.",
+      "evidence": "Plan B8 newOnPageInformation: 'The wrongness has left the leylines and entered ground and water'; 'It is taking root in living systems'. B7 newOnPageInformation is limited to the wards masking the scale and the pressure being far worse out here. B7 stillUnknownAfterBeat: whether the source is a place, an object or an ongoing event. povDoesNotKnowAtOpen: 'What the contamination is doing to the physical ground beyond the leylines'.",
+      "suggestedFix": "L203: keep the source in the lines. For example: 'It came from everywhere: up out of the lines under the road, under the black slope below, under fields and woods she couldn't see.' L253: give the coin taste to the leyline pressure she feels (in her mouth, as in B5 and B7), not to the smell of the land. 'It had left the lines' (L271) is then the first time it reaches ground, water and roots."
+    },
+    {
+      "violationId": "V5",
+      "severity": "soft",
+      "category": "knowledge",
+      "location": "L397 (B10): \"Through the staff, without even trying, she could feel the kitchen. It was as bad as the field. Worse, maybe—the cold of it came out of that doorway and across the yard at her.\"",
+      "description": "The reading is set beside the bowls on the table (L395) and ranks the kitchen as worse than the rotting field. That points the reader at something stored or eaten in the house as a concentrated source. It is a short step from there to food, and so toward the grain carrier the chapter must not imply.",
+      "evidence": "knowledgeLedger.mustNotBeImpliedYet: 'Grain as the carrier'. chapterClose.factsNotEarned: 'Grain as the weapon and carrier'. B10 plannerWarning: 'Keep the rot generic (fields, crops, kitchens as an observation Jaina makes of what is wrong, not a cause).'",
+      "suggestedFix": "Keep the kitchen as equal to the rest, not a gradient: 'It was as bad as the field, the cold of it coming out of that doorway and across the yard at her.' Cut 'Worse, maybe'."
+    },
+    {
+      "violationId": "V6",
+      "severity": "soft",
+      "category": "physical",
+      "location": "L407, L423, L605, L623-631 (B10-B13 road geography)",
+      "description": "The ambush is set just below 'the top of the rise, where the hedges gave out at last and a wood came down to meet the road on the left', with the lead doe 'a stone's throw ahead' (L423, L433). Millhaven is 'past the next rise' (L407), and after the read the staff points 'toward the top of the rise and whatever lay past it' (L605). So the crest should be close. Yet the party then gallops a long way between hedges ('The hedges went past in a long brown smear'; the staff note rising 'so slowly that she couldn't have said when it changed'), and only then do 'the hedges [drop] away ... as they came over the top of the rise' (L631). Either this is a different rise, or the hedges and the distance contradict the ambush site.",
+      "evidence": "Internal geography of L407/L423/L433/L453 (hedge on the right, wood on the left at the ambush) against L627-631.",
+      "suggestedFix": "Make the ambush rise distinct from the Millhaven crest. At L423, change 'the top of the rise' to 'a bend ahead, where the hedge on the left gave out and a wood came down to the road', and keep 'the next rise' for Millhaven. Or cut the long hedge-lined gallop to a short climb from the wood to the crest."
+    }
+  ],
+  "verifiedClean": [
+    "Opening: picks up at the Ch1 close (head tipped back, wall stone behind her head, Cyndia at the threshold), with no replay of 'Start talking' (L3-15).",
+    "Cell geometry: one chair, wall ward-stone at seated head height, room barely wider than its door. The removable anchor (L105) is a second wedge stone set below the wall stone, which agrees with the B5 correction.",
+    "Jaina does not learn that Sylvanas felt the noon stone or saw the circle. Sylvanas's sharper questions are misfiled as a soldier wanting coordinates (L65-85). Jaina's B9 inference rests on the map only.",
+    "The sending stone is the Ch1 rune pebble (flat, grey, one rune, cloth). It is silent by choice, its twin is with Antonidas, and it is returned at B6 (L35, L57, L141-147).",
+    "B3: no invented colleagues, and Antonidas is not dismissive. The Council is slow. Whether he has read the note is left open (L47-55).",
+    "No counted time. 'Eight hours' is rendered as an event marker: 'this morning, when your watch found me' (L127, L137).",
+    "Address rules: Sylvanas uses only 'Mage' or 'Proudmoore' and never 'Jaina'. Jaina says 'Ranger-General'. Lyriel says 'Lady Proudmoore'. Neral says 'My lady' once. Cyndia says 'Ranger-General'.",
+    "Night departure. The night-to-day passage is marked by the doze, the dishwater sky, sunrise, the noon ford and the fading light at Millhaven.",
+    "Jaina rides a post horse. She came north on foot (L101).",
+    "Ring names avoided, apart from the Ch1 phrase 'outer stones' at the Pass saddle. The horses' one sidestep is called back. The elves' reaction is read only through the horses (L213-215).",
+    "B8: frost-burn is tied to overstrain and its look matches Ch1. The rangers cover her and Jaina sees only the result. Sylvanas registers the liability with a visible look.",
+    "B9: Jaina's read of Sylvanas breaks here and not before. Lyriel's line is the fixed content. Sylvanas says nothing about the change in Jaina's register.",
+    "No grain, bread or flour is named as a cause. 'Who ate from these fields' stays a question and is undercut at once (L569-571).",
+    "B11: the doe is wounded and still on her feet, not reanimated. Cyndia makes the killing shot. Lyriel and Neral each do clean work. The unnamed ranger stays in the background.",
+    "B12: the agent is in blood, meat and organs, active before death. The mechanism ('I don't know how yet') and the entry method remain unknown. Sylvanas holds the company for the read.",
+    "B13: no smoke, no lights, the lines knot at the crossing, and Sylvanas's pinch-point read is confirmed without anyone saying so. Custody still chafes (L663). Arrival only. All six riders are present at the close.",
+    "Jaina does not mention her crossing being unfelt and gives no explanation of how she crossed the rings."
+  ],
+  "advisories": [
+    "A1 (not counted): The grey's sex is ambiguous. Windrunner's 'Take her.' (L157) most naturally refers to the grey, but later the grey is 'he/his' (L597, L611). Pick one.",
+    "A2 (not counted): L73 'because she'd wanted to find the place again' and L333 'kneeling beside a stone' suggest Jaina was physically at the creek-bend stone (far east on the outer ring) before. That leans toward an earlier undetected crossing, which bears on the open map-circle thread (surveyor or insider). Consider 'because she'd wanted to be able to find it' to keep it neutral.",
+    "A3 (not counted): L127 has Jaina's last act at the split-cap stone as a staff reading, 'both hands on the wood'. Ch1's report has her found with both hands on the stone. The two can coexist (the staff reading after she stepped away), but the writer may want to keep to the Ch1 image.",
+    "A4 (not counted): L119 'Sitting since first light'. In Ch1 she was found at first light and then walked up to the post. 'Since the watch brought her in' would be exact.",
+    "A5 (not counted): L525 Cyndia's track read (deer and wolves on one path, nothing chasing) hints at a shared drive behind the animals. It is acceptable for B11, but Ch3+ planners should note it so it is not escalated toward an 'organized column' early.",
+    "A6 (not counted, for the Ch3 planner): Jaina's right hand is numb from the B11 cast through the close (L461, L625, L671). L597 and L613 call it her 'clean hand' and use it for a horse read and for the satchel. Ch3 should carry the numb hand forward, or show it recovering."
+  ]
+}

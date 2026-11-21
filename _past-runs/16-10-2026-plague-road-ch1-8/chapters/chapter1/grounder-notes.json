@@ -1,0 +1,38 @@
+{
+  "chapterId": "chapter1",
+  "mode": "revision",
+  "iteration": 1,
+  "feedbackPath": ".afternoon/chapters/chapter1/grounding-gate-notes.json",
+  "targetFile": "v2g.md",
+  "touchedScenes": [2],
+  "globalRisks": ["cell-blocking-geometry"],
+  "sceneAudits": [
+    {
+      "scene": "Scene 2 - The Prisoner (cell)",
+      "biggestGap": "Ward-stone location contradicted the mage's sideways head turn.",
+      "anchorsAdded": {
+        "place": ["stone placed 'behind the chair' in the cell description", "Dalaran named as the letter's destination"],
+        "material": [],
+        "dialogue": [],
+        "exit": ["stone humming behind the prisoner's head at the close now geometrically consistent"]
+      },
+      "dialogueGroundingApplied": true,
+      "finalBeatChecked": true,
+      "fixesApplied": [
+        "G4-001: 'turned her head left, toward the ward-stone in the wall' became 'twisted round in the chair toward the ward-stone behind her head'; follow-on turns changed to 'twisted back' and 'went round to the stone once more'; cell description now says 'behind the chair'.",
+        "G6-002: 'a sharp letter north from Silvermoon' became 'a sharp letter from Silvermoon to Dalaran'."
+      ]
+    }
+  ],
+  "dialogueRerun": "Touched passage is silent (no Jaina dialogue permitted). Cyndia/Sylvanas dialogue runs untouched.",
+  "finalThirdAudit": {
+    "risksFound": ["blocking contradiction at the silent stone beat"],
+    "fixesApplied": ["consistent chair/stone geometry", "corrected compass of the letter"],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": [],
+    "materials": ["plan scene2 enrichment (Dalaran, Antonidas, Kirin Tor)", "gate suggestedFix text"],
+    "unsourcedAdditions": []
+  }
+}

@@ -1,0 +1,5 @@
+# Andorhal gate and yard people
+
+At the market gate: a bald, ink-cuffed young clerk whose pen hand shakes at the start of every line and steadies by the end (tired, or told to look tired; Sylvanas cannot tell), five militia watchers (two with grain spikes in the arch, one on the wall, two by the trough), and wagons of grain spiked sack by sack 'since the Exchange said'. The clerk reads the pass, asks about granary business, copies Jaina's and Sylvanas's names into a book that sits open in a gate. A man in a brown coat on a barrel at the head of the granary lane chalks a tally of every wagon that turns down it.
+
+Offstage names from Havel: Holt's (the old man's boy; 'leave it out'), Fenner's (yard-reeve Coll Simmons, frightened), Garside's (yard-reeve Tarrant, drinks at the Wheatsheaf, 'too good a price'), Kett's on Tenter Row and the old weir-end malt-house (the two Havel 'left out at the post'), the Exchange granary, the factor whose name nobody at the Exchange has shaken hands with, and the magistrate who frees Havel's prisoners by dinner.

@@ -1,0 +1,198 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "fixStrategy": "default",
+  "fixStrategyBasis": "slopGateLoop.iterationKillsB [56, 42, 15, 10] is strictly decreasing",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 41,
+      "kills": 4,
+      "keeps": 37,
+      "severityMarkers": {
+        "F12": "MILD: three non-action reaction beats survive behind the strongest one in their scenes (scene 2: L382, L478 behind L372; scene 3: L826 behind L734)",
+        "F2": "MILD: one generic emotion-label beat (L770)"
+      },
+      "dominantPattern": "F12",
+      "findings": [
+        {
+          "id": "B-GPT5-01",
+          "line": 382,
+          "pattern": "F12",
+          "severity": "MILD",
+          "text": "The face came no closer and went no further back.",
+          "issue": "Non-action beat. The child's reaction to Neral sitting on the ladder is written as two movements she did not make, and no positive action follows. In scene 2 (cellar through night hold) the strongest non-action beat is L372 'Neral did not touch the ring.', where the scene turns on letting the child draw the bolt herself. This one comes after it and does less work. The guide says to KILL every non-action beat after the strongest one in a scene.",
+          "expected": "yes",
+          "position": "paragraph-final",
+          "suggestedFix": "The face stayed where it was, behind the turnips.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT5-02",
+          "line": 478,
+          "pattern": "F12",
+          "severity": "MILD",
+          "text": "The girl's voice did not change at all.",
+          "issue": "Non-action beat. The girl's flat affect as she describes her mother's death is reported as something her voice did not do. It is the third non-action reaction beat in scene 2, after L372 (strongest) and L382. The flat voice matters because it feeds Sylvanas's next judgment ('A frightened child didn't make that up.'), so keep the fact and state it positively.",
+          "expected": "yes",
+          "position": "mid-paragraph (beat after dialogue)",
+          "suggestedFix": "The girl's voice stayed flat.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT5-03",
+          "line": 770,
+          "pattern": "F2",
+          "severity": "MILD",
+          "text": "Lyriel looked satisfied anyway.",
+          "issue": "Generic emotion-label beat. 'Looked satisfied' names a mood and shows no physical act, so it could belong to any character. 'Anyway' is a narrator nudge that sets Lyriel against Cyndia's raised bow. The plan says Lyriel's answer to the carter must be warm and true and must not sound careless, and a self-satisfied look leans toward careless. Lyriel has already lowered her bow in her own line, so the beat adds nothing physical. Cut it and let the paragraph end on Cyndia's bow.",
+          "fullParagraph": "Cyndia's bow stayed up. Lyriel looked satisfied anyway.",
+          "suggestedFix": "Cyndia's bow stayed up.",
+          "fixScope": "Replace the full two-sentence paragraph with the suggestedFix, which deletes the second sentence.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-GPT5-04",
+          "line": 826,
+          "pattern": "F12",
+          "severity": "MILD",
+          "text": "The mage did not open her eyes.",
+          "issue": "Non-action beat set between two pieces of Jaina's answer at the ford. Scene 3 (dispatch, carter, ride south) already has its strongest non-action beat at L734 'Sylvanas did not draw.', where the restraint matters because both rangers have their bows up. This second one only says the mage keeps listening, which a positive verb says just as well. The later 'She opened her eyes and turned toward the willows' still works with the fix.",
+          "expected": "weak",
+          "position": "mid-paragraph (beat inside dialogue)",
+          "suggestedFix": "The mage kept her eyes shut.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Ranger-General, tracker and field commander. She thinks in ground, prints, sightlines, drills and horses. Her inner voice argues with itself: questions answered badly and overruled ('Don't. A doe is a doe. Find out.'), dry contempt for humans and magisters, self-mockery in terms of the ranger she would flay, oaths by the sun and 'Damn'. She would not think in thematic captions, essay generalities about villages or plague, or polished epigrams about meaning.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 34,
+      "kills": 0,
+      "keeps": 34,
+      "severityMarkers": {},
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Swept every paragraph ending, scene transition, generalizing construction and verdict-shaped fragment. Candidates: A7 generalizations (L5 village-hour, L9 ward horses, L17 horseshoe, L51 'the way a man lays down a tool', L73 'People who flee', L251 clog, L468 'Every village south of the Pass', L710 the only generic 'you'). A1 verdict tails and fragments (L19, L57, L163, L482, L532, L604, L708, L780, L830). A2 slogan pairs (L77, L317 'A doe was a doe'). B1 polish (L586, L596, L634, L744, L762). A8 sound openers (L19, L341, L734). Each generalization is a working rule she uses to rule a hypothesis in or out, or to decide what to do next, which is the A7 keep condition. Each fragment is something she would say under her breath, in the self-arguing idiom on her voice sheet. Each sound opener either names its source in the same clause, or she hears the sound before she sees the source and the delay matters (L734, the wagon on the bridge before it crests the hump). The slop checker found no narrator_verdict or ambient_inversion matches. The one generic-emotion beat that sits next to seep (L770) is killed under GPT-5 F2, so it is not killed again here, per the guide's relationship rules."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 17,
+      "kills": 0,
+      "keeps": 17,
+      "severityMarkers": {},
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Tested every tactical shorthand and stand-in noun with the 'what specifically / by what sign' cash-out. Candidates: L105 'Nothing to read, then. Fine; the mage.', L109 'so she made it better', L215 'Damn her, then. The hand.', L279 'A clog and a feeling.', L285 'the only clean track she was going to get', L313 'Five days at the most.', L596 'go and look at something', L604 'It meant nothing.', L656 'A drover's print; a horse's.', L706 'She had sixty in a cow way.', L752 'Empty going up, full coming down.', L838 'The read was the trail'. Dialogue candidates: L211 Jaina's store argument, L225 'How much is here... Which way it went', L331 and L620 'It's loud', L826 'A stain in a cloth'. Every one is anchored in the same or the next line: the well read deferred at L37-41 and carried out right after L105; the gallery, smithy-corner and handcart placements right after L109; 'Close it.' after L215; the window/door witness logic in L285 itself; fur on the dregs before L313; the cow way at first light set at L558 and L592; the grain dust in the wagon cracks before L752; 'a click in a crystal, a human mage's face turning green' in L836 before L838. The plan's B11 beat has her telling herself it is the trail and not the mage, so L838 is planned self-deception and carries its own payload. 'Loud' is the chapter's defined magical measure and is calibrated against the bank, the prints and the hare. The slop checker's hedging/vague_pointers matches map here: one match (L626), which was a KEEP under the F3 uncertainty exception. See the scratchpad."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 7,
+      "severityMarkers": {},
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "There is no explicit plain-speech setup in the chapter ('say it plainly', 'smaller words', 'short version'). Audited the closest disambiguation exchanges as candidates. 'Which is the north road?' leads to a point at the back wall, then 'Past Pell's. Up the cow way.', a usable target that Sylvanas then walks at first light. 'Ask her how she knows which way' leads to 'The little window', which Sylvanas finds as a barred cellar light at dog's-nose height. 'Can you tell her which marks are which?' leads to staff calls of heavy and light, mark by mark, that Cyndia can count inside her switch box. 'Where's it worst?' leads to the staff swung toward the bridge and mill and to the inn cellar. 'Which is it?' leads to an honest 'I don't know' with the lag evidence. 'Well?' at the ford leads to 'It's ahead of us, Ranger-General. Down the road.' with the staff turned to the willows. 'What's it like down there?' leads to the carter's ford market and chimneys. The plan wants that answer to be real and useless to her, and her next line says so. Every reply names a place, object or field sign the listener acts on without asking again."
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 95,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md"
+    ],
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "4 MILD kills, which is over the 3-MILD pass ceiling. There are no MODERATE or SEVERE kills. Three are F12 non-action reaction beats left behind the strongest one in their scene (L382, L478, L826), and one is an F2 generic emotion-label beat (L770). Each has a one-line drop-in fix. Narrator seep, phantom concreteness and fake simplification are clean. Structural rhythm concerns: short_pct, long_pct, cv_length, opener_entropy, one_sentence_paragraph_pct and mattr are outside their ranges. Structural texture deficit: texture_score is 74.9 (below_target), driven mainly by participial_pct of 4.4% against a 12% target.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.647, "target": 0.72, "delta": -0.073, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.7, "target": 11.0, "delta": 0.7, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.895, "target": 0.7, "delta": 0.195, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 42.8, "target": 35.0, "delta": 7.8, "range": [28.0, 42.0], "inRange": false },
+      "long_sentence_pct": { "actual": 20.6, "target": 10.0, "delta": 10.6, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.38, "target": 7.7, "delta": -1.32, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 33.9, "target": 19.0, "delta": 14.9, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.765, "target": 0.83, "delta": -0.065, "range": [0.8, 0.87], "inRange": false },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "short_sentence_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.9,
+      "participial_pct": 4.4,
+      "compound_pct": 12.8,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.1,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.8% above target 10.0% (score 74/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.8% -> target 10.0% (score 74/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "flaggedPassages": { "telegram_run": 30, "texture_desert": 26 },
+      "note": "structural texture deficit. Most telegram runs fall in dialogue exchanges (well read, cellar interview, carter). The L382 and L478 fixes sit inside cellar-interview texture deserts, and the slophunter can join each fixed beat to its neighbour with a participial clause where it reads naturally."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 65,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passBMappedSignals": [
+          { "pattern": "hedge_might_have_been", "line": 626, "guide": "phantom-concreteness-guide.md / gpt-5 F3", "decision": "KEEP", "reason": "Genuine uncertainty is the point: the eye cannot classify the smear and the staff then calls it heavy, which is the scene's turn from physical read to magical read." }
+        ],
+        "note": "There were no ai_vocabulary, slopsquid, narrator_verdict, ambient_inversion, verbose_phrases, expression_decomposition, academic_register, dialogue_register or clinical_anatomy matches. The remaining tool matches map to pass A guides."
+      }
+    },
+    "outOfScopeObservations": [
+      "L357-358: the italic thought '*Not if it was him.* What kind of man tells his child that...' runs straight into the dialogue line '\"Your da was right,\" Neral said.' with no blank line between them, so the two paragraphs render as one. This is a formatting fix, not a pass B finding."
+    ]
+  }
+}

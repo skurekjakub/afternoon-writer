@@ -1,0 +1,434 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 6,
+  "targetFile": "v2-r6.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA [49,8,12,2,3,1]: latest 1 < prior minimum 2, so not oscillating)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 39,
+      "kills": 5,
+      "keeps": 34,
+      "severity": {
+        "MILD": 5,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "Pattern 2/5 - fragment pivot and preamble negation",
+      "clusterPages": [],
+      "clusterWarnings": [
+        "The pivot rhythm shows up in narration (A-N1, A-N3) and dialogue (A-N5), so the cluster rule applies to A-N5."
+      ],
+      "selfCheckNote": "About 95 sentences contain a negation word. 39 were contrast or pivot candidates. The other ~56 are commands, absence reports in dialogue, or plain negated facts with no Y half, and aren't contrast constructions. The keep rate (87%) is above the guide's 20% heuristic. I re-checked every keep against self-check items 1-5. Those that remain are world-rule constraints (elves can't read contamination: L177, L830), Sylvanas arguing with herself (L588, L710, L838-840), binary tracking or decision calls (L213, L233, L251-253, L540, L658-660, L678, L734), or dialogue diagnostics. These are post-iteration-5 prose, where the heuristic overstates leniency.",
+      "findings": [
+        {
+          "id": "A-N1",
+          "line": 584,
+          "text": "Sylvanas did not sleep. She went up on the gallery",
+          "pattern": "Pattern 5 - preamble negation",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Deletion test: the next clause (up on the gallery for Lyriel's watch, stayed after it ended, Cyndia's watch follows) already carries the fact that she stayed awake. The negation only sets up the action. Keep the name in subject position so 'She' doesn't read as Neral, who falls asleep in the line before.",
+          "suggestedFix": "Sylvanas went up on the gallery",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Sylvanas went up on the gallery with Lyriel when Lyriel's watch started and stayed after it ended. (No fact is lost.)"
+        },
+        {
+          "id": "A-N2",
+          "line": 586,
+          "text": "She had seen dead villages before, cold hearths and the doors kicked in, but she had never sat in the middle of one in the dark and listened to it, and she had not known it would be so loud.",
+          "pattern": "Pattern 7/8 - chained negation building to a reveal",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Two negations ('had never sat... had not known') lead up to the ordinary noun in the next fragment ('The race.'). None of the four keep conditions applies: this is narration of her experience, not a binary call, a spatial correction, a world rule, or her arguing with herself.",
+          "suggestedFix": "She had seen dead villages before, cold hearths and the doors kicked in, but this was the first she had sat in through the dark and listened to, and it was loud.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "Cutting both negations loses 'loud', so a positive restatement is required rather than a plain deletion."
+        },
+        {
+          "id": "A-N3",
+          "line": 612,
+          "text": "This foot had never lifted. It had come up the cut",
+          "pattern": "Pattern 2 - fragment pivot (Not X. Y.)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The positive sentence ('with the toe down in the clay and the weight on it the whole way') already sets this walker against the tired man whose foot 'lifts and drops'. 'Never lifted' repeats it in the negative. Deletion test passes, so KILL at Step 2.",
+          "suggestedFix": "This foot had come up the cut",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "deletionTest": "This foot had come up the cut with the toe down in the clay and the weight on it the whole way... (Same facts.)"
+        },
+        {
+          "id": "A-N4",
+          "line": 744,
+          "text": "It was a face she would not have known again in a crowd:",
+          "pattern": "Pattern 5 - negation-led definition before the description",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "The line describes the face by an act she would not perform, and only then lists the features. The fix keeps the forgettability the plan calls for (constraint 5, the B9 plant) and states it positively. It adds no attention to the carter. The punct_colon_narration hit on this line is under cap, so the colon stays.",
+          "suggestedFix": "It was a face she would forget in any crowd:",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration",
+          "deletionTest": "Deleting the clause loses the forgettability note the plan needs, so restate it positively."
+        },
+        {
+          "id": "A-N5",
+          "line": 826,
+          "text": "It's not a knot, the way Millhaven was. It's—",
+          "pattern": "Pattern 2 - fragment pivot (It's not X. It's Y.), cluster rule: narration and dialogue both use the pivot",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Dialogue would normally be defended here as the mage's diagnosis. The cluster rule applies, though, because narration in this run uses the pivot rhythm too (A-N1, A-N3), and the knot/spread comparison is easy to state positively. The fix keeps the Millhaven reference and the break before 'Wider. Spread out.'",
+          "suggestedFix": "Millhaven was a knot. This is—",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "textureZone": "telegram_run (sentences 1104-1111)"
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 50,
+      "kills": 8,
+      "keeps": 42,
+      "severity": {
+        "MILD": 8,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P8 body-part subjects (girl interview) and P1/P10 road/village receiving the actors' motion",
+      "clusterFlags": [
+        "Girl interview (L434-L546): three P8 kills",
+        "Road south (L802, L846): road given the riders' motion twice"
+      ],
+      "repeatNouns": [
+        "village (L5, L285)",
+        "road (L802, L846)"
+      ],
+      "pattern4Alert": "no",
+      "secondSweep": "Second P5/P6 sweep done sentence by sentence for inanimate or abstract subjects carrying agency, cognition, combustion, or physical-behaviour verbs, plus body-part subjects with ordinary volition and actors pushed into instrument phrases. It found A-I1, A-I3, A-I7, A-I8 (village/road), A-I2 (voice ordering), and A-I4, A-I5, A-I6 (body parts). Keeps include: literal physics (wind brought smell, frost crept, sound echoed, mud sucked, water ran under the hatch); magic behaving as described in the chapter (staff buzz, contamination drowning lines); static topography seen from one point (four roads running away, the cut ran north, the road went down the middle); sound-first perception in the dark (boots came down the lanes, whisper scraped, face ducking in an unseen hole); involuntary body events (arm flinched, fingers would not close, shoulders came up at her voice, head jolted, mouth went slack); and the 'Stars' saying that 'caught on her' (an involuntary snag the plan wants as a plant, dismissed with 'Leave it').",
+      "findings": [
+        {
+          "id": "A-I1",
+          "line": 5,
+          "text": "It was the hour when a village this size should be banking its fires and shouting its children in off the lanes, and every chimney was cold.",
+          "pattern": "P10 / collective actor with people not legible (repeat noun: village)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Real agent: the villagers. 'Village' does the human work (banking fires, shouting children in) while its people are absent from the scene, so the collective-actor keep fails. 'Village' is smeared again at line 285, so the repeat-noun rule makes both instances KILLs.",
+          "suggestedFix": "It was the hour when people in a village this size should be banking their fires and shouting their children in off the lanes, and every chimney was cold.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-I2",
+          "line": 153,
+          "text": "The mage's voice was scraped thin, but it came out in order.",
+          "pattern": "P8 - body part / voice given cognitive work",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Real agent: the mage, who orders her report. 'Came out in order' gives the organising to her voice. That is the discipline Sylvanas is starting to notice (B3 arc), so the credit belongs with the mage. Compare 'Cyndia's voice went lower' (L654), which is pitch and was kept.",
+          "suggestedFix": "The mage's voice was scraped thin, but she kept the words in order.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "textureZone": "texture_desert (sentences 192-207)"
+        },
+        {
+          "id": "A-I3",
+          "line": 285,
+          "text": "in this village while it went out of its gates and marked which way it turned at the end of the lane",
+          "pattern": "P10 - receiver noun (village) does the walking; repeat noun: village",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Real agent: the villagers (the walking dead). The village 'went out of its gates' and 'turned' while the people are left out. This is the second smear of 'village' (see A-I1). The fix gives the verbs to the people and keeps 'Somebody... marked' as the observer. One mental-use 'marked' stays, under the Tic 2 cap.",
+          "suggestedFix": "in this village while its people went out of the gates, and marked which way they turned at the end of the lane",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-I4",
+          "line": 434,
+          "text": "The girl's face came a little way out of the collar.",
+          "pattern": "P8 - body part acting for its owner",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Body-part test: with the character as subject the meaning is unchanged, and the girl is choosing to move so she can correct Neral. That isn't involuntary, so the P8 exception doesn't apply. Contrast with 'a face behind the heap ducking away' (L378), which was kept: there the child is unseen and only a face is visible.",
+          "suggestedFix": "The girl lifted her face a little way out of the collar.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "textureZone": "telegram_run (sentences 557-564)"
+        },
+        {
+          "id": "A-I5",
+          "line": 466,
+          "text": "The girl's shoulder came up and went down under the blanket.",
+          "pattern": "P8 - body part acting for its owner",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Body-part test: this is a voluntary shrug answering the mage's question, and with the girl as subject the meaning is the same. The flinch at L532 and the easing at L726 are involuntary and were kept.",
+          "suggestedFix": "The girl shrugged under the blanket.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-I6",
+          "line": 546,
+          "text": "The girl's arm pointed north;",
+          "pattern": "P8 - body part performing the owner's communicative act",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Real agent: the girl, who pointed at L536. Making the arm the subject passes her gesture to the limb. The rest of the triad stays as it is: 'the toes in the slot pointed north' is literal orientation, and the noon stone 'pointed north, because she wanted it to' gives the agency to Sylvanas.",
+          "suggestedFix": "The girl had pointed north;",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_semicolon",
+          "textureZone": "texture_desert (sentences 696-707)"
+        },
+        {
+          "id": "A-I7",
+          "line": 802,
+          "text": "Then the road climbed out of the fold between two banks of hawthorn, and over the lip of it, and the country opened.",
+          "pattern": "P1/P10 - road and geography carrying the riders' motion (repeat noun: road)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Real agent: the riders. 'Then' marks this as a travel event, so the climb belongs to them, and 'the country opened' is their view widening as they crest. Static geography seen from one place (L634, L804) was kept. 'Road' carries the party's motion again at L846.",
+          "suggestedFix": "Then they climbed out of the fold between two banks of hawthorn and over the lip of it, into open country.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-I8",
+          "line": 846,
+          "text": "Toward evening the road came round the shoulder of a low hill above a farm:",
+          "pattern": "P1/P10 - road carrying the riders' motion (repeat noun: road)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "reason": "Real agent: the four riders. Set against 'Toward evening', the road's 'came round' is the party's arrival, and the colon list is what they see. 'They' follows from the previous sentence ('They rode the rest of the day'). The punct_colon_narration hit is under cap, so the colon stays.",
+          "suggestedFix": "Toward evening they came round the shoulder of a low hill above a farm:",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "toolSignal": "punct_colon_narration"
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 17,
+      "kills": 0,
+      "keeps": 17,
+      "severity": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none over cap",
+      "cleanReason": "Every tic is at or under cap. Tic 1 corner-of-mouth: 0 expression uses (L378 and L520 'corners of her mouth' describe dirt, not expression). Tic 2 'marked': 1 mental use (L285), under cap 2. Tic 3: 'eased' 1, physical ('She eased the string', L83); 'tightened' 0. Tic 4 facial 'shifted': 0 (L101 and L524 are physical). Tic 5 eye/gaze reaction beats: 4, at cap (L682 hare/hawk watch, L742+L744 carter looks past and takes in the village as one beat, L774 carter takes in the line, L846 woman stares). Sylvanas's 'watched' (L13, L129) is ranger scanning, and the mage's eyes shut/open (L117, L822, L826) are reading procedure, so neither counts. Tic 6 weight/heaviness: 0 emotional uses. 'Heavy/light' is the mage's literal reading term (subject-matter defense), and L402, L420, L612 are physical weight. Tic 7 performance tags: 0. Slop-checker signals mapped to this guide: all keeps. filter_watched x3 (L13, L129, L293 are action or dialogue, at cap 3). filler_nodded x1 (L438, a real answer). bookism_hissed x1 (L341, the lantern's sound, not a dialogue tag). Similes x4 (L9 x2, L608, L738, concrete, well under caps). participial_trailing x17 (under cap 53; texture says participials are under target). punct_semicolon 21/26 and punct_colon_narration 11/13 (under cap, though close).",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 13,
+    "totalKeeps": 93,
+    "mildKills": 13,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md"
+    ],
+    "killsWithFix": 13,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "13 MILD kills (above the 3-mild threshold), 0 MODERATE/SEVERE. Kills are 5 negation pivots and 8 agency-laundering lines (3 body-part subjects in the girl interview, 2 'village' and 2 'road' receiver-noun smears, 1 voice given the ordering work). Every kill has a drop-in fix. Structural rhythm concerns: sentence_length_cv, short_sentence_pct, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr. Structural texture deficit: texture below_target (score 74.9).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.647,
+        "target": 0.72,
+        "delta": -0.073,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "outsideRange": false
+      },
+      "sentence_length_mean": {
+        "actual": 11.7,
+        "target": 11.0,
+        "delta": 0.7,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "outsideRange": false
+      },
+      "sentence_length_cv": {
+        "actual": 0.895,
+        "target": 0.7,
+        "delta": 0.195,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "outsideRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 43.0,
+        "target": 35.0,
+        "delta": 8.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "outsideRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 20.5,
+        "target": 10.0,
+        "delta": 10.5,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "outsideRange": true
+      },
+      "opener_entropy": {
+        "actual": 6.39,
+        "target": 7.7,
+        "delta": -1.31,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "outsideRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 34.1,
+        "target": 19.0,
+        "delta": 15.1,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "outsideRange": true
+      },
+      "mattr": {
+        "actual": 0.765,
+        "target": 0.83,
+        "delta": -0.065,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "outsideRange": true
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "short_sentence_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.9,
+      "participial_pct": 4.4,
+      "compound_pct": 12.8,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.1,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.8% above target 10.0% (score 74/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% → target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.8% → target 10.0% (score 74/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% → target 4.0% (score 76/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 30,
+      "textureDesertCount": 26,
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 64,
+        "total_violations": 0,
+        "overCapPatterns": [],
+        "passAMappedSignals": {
+          "filter_watched": "3/3 - all KEEP",
+          "filler_nodded": "1/4 - KEEP",
+          "bookism_hissed": "1/2 - KEEP (lantern sound, not a tag)",
+          "simile_like/simile_as_if": "2/26, 2/5 - all KEEP",
+          "participial_trailing": "17/53 - all KEEP",
+          "punct_semicolon": "21/26 - KEEP; L546 line carries kill A-I6 for agency, not the semicolon",
+          "punct_colon_narration": "11/13 - KEEP; L744 and L846 lines carry kills A-N4 and A-I8 for other reasons"
+        },
+        "unmappedOrOtherPass": [
+          "hedge_might_have_been (pass B)",
+          "contact_pressed/contact_settled (unmapped)"
+        ]
+      }
+    }
+  }
+}

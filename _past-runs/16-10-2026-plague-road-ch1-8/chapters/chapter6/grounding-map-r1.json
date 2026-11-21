@@ -1,0 +1,32 @@
+{
+  "chapterId": "chapter6",
+  "iteration": 1,
+  "mode": "revision",
+  "globalRisks": ["pov-leak"],
+  "segments": {
+    "openingThird": { "risk": "low" },
+    "middleThird": { "risk": "low" },
+    "finalThird": { "risk": "low" }
+  },
+  "scenes": [
+    {
+      "sceneId": 2,
+      "title": "Strahnbrad",
+      "riskTags": ["pov-knowledge-leak"],
+      "biggestGap": "G11-001: Cyndia's classification of the post-horse shoe pattern was narrated in Jaina's limited POV.",
+      "sourceBank": {
+        "geography": ["Strahnbrad"],
+        "institutions": ["King's army"],
+        "materials": ["wide flat shoes heavy at the heel", "iron tyres", "rag over nose"]
+      },
+      "sceneContract": {
+        "placeAnchor": "Hill road into the Strahnbrad camp, wagons coming down out of the dust",
+        "materialAnchor": "Iron tyres on stones, wide flat heavy-heeled shoes on the team",
+        "povAnchor": "Jaina sees Cyndia's eyes drop to the hooves; she sees the shoes, not Cyndia's memory of them",
+        "dialogueAnchor": "No dialogue in the touched passage",
+        "exitAnchor": "Jaina rides up into the dust after Sylvanas"
+      },
+      "dialogueRuns": []
+    }
+  ]
+}

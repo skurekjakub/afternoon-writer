@@ -1,0 +1,50 @@
+{
+  "chapterId": "chapter3",
+  "mode": "revision",
+  "iteration": 6,
+  "changes": [
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r5-1",
+      "line": 546,
+      "before": "pointed north, because she wanted it to. She had a child's word, given through the bars of a cellar light, by a child who did not know one night from the next, about a road Sylvanas had never seen.",
+      "after": "pointed north, because she wanted it to.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r5-2",
+      "line": 550,
+      "before": "Neral nodded. She had already started to rock the girl.",
+      "after": "Neral had already started to rock the girl.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> phantom-concreteness-guide.md -> B-r5-4",
+      "line": 590,
+      "before": "while the thing came over the hills somewhere else",
+      "after": "while the dead came over the hills somewhere else",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "B -> gpt-5-prose-issues.md -> B-r5-3",
+      "line": 596,
+      "before": "and put her hands into the road and a dead deer and a storehouse floor. She sat there waiting for the sun like Sylvanas, so she could go and look at something.",
+      "after": "and put her hands into the road and a dead deer and a storehouse floor.",
+      "source": "gate-suggestion"
+    },
+    {
+      "feedbackRef": "A -> intent-smear-agency-laundering-guide.md -> A-IS-1",
+      "line": 634,
+      "before": "They had passed each other with the whole hill between.",
+      "after": "She and the dead had passed each other with the whole hill between.",
+      "source": "gate-suggestion"
+    }
+  ],
+  "unfixable": [],
+  "flags": [
+    "Self-audit: all five changed passages re-checked against hitlist, negation, intent-smear, narrator-seep. No new violations. No eye/gaze beats added; two deletions, one noun swap, one phrase insert.",
+    "L546 deletion removes the explicit recap of the child's word; L588 still carries the weighing, per gate note.",
+    "Out-of-scope observations from the gate (not touched, not KILL findings): L357-358 missing paragraph break; L456 vs L688 ink tin and pen continuity; L155-157 'two from the north' vs one north road at L109; L672 glove antecedent ambiguity.",
+    "Working copy v2-r6.md was created with cp from v2-r5.md before the Edits (as in prior iterations) so unflagged passages stay byte-identical; this departs from the Write-plus-append method."
+  ],
+  "wordCount": { "before": 13513, "after": 13465 }
+}

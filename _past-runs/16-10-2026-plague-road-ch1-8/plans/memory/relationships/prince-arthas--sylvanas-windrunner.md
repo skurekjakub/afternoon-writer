@@ -1,0 +1,3 @@
+# Prince Arthas and Sylvanas Windrunner
+
+Two commanders who exchange almost nothing and understand each other at once. He bows from the neck, correct and small, and greets her as Ranger-General; she says 'Your Highness' with perfect levelness. Behind Jaina, while he could still prove her wrong, Sylvanas tells Jaina what he will do. He studies her the way he might look at a boy across the practice yard who had read his feint, and says 'Yes. I am.' Nobody is rude. After he leaves, Sylvanas tells Jaina what he is: a good commander with an enemy he can see and men who'd follow him into it, who will fight that war and likely win it. The plague is 'ours'.

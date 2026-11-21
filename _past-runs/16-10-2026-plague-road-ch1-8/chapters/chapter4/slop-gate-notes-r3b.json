@@ -1,0 +1,202 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 3,
+  "targetFile": "v2-r3.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB 71 -> 26 -> 7, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 58,
+      "kills": 6,
+      "keeps": 52,
+      "severity": { "mild": 6, "moderate": 0, "severe": 0 },
+      "dominantPattern": "F4",
+      "findings": [
+        {
+          "id": "B-r3-01",
+          "line": 80,
+          "text": "\"Millhaven,\" he said.",
+          "pattern": "F8",
+          "patternName": "Echo exchange",
+          "severity": "MILD",
+          "issue": "Brask's whole reply hands back Sylvanas's 'We've come from Millhaven.' It adds no fact, joke or turn. The turn is already carried by 'The thumb stopped.' This is the second echo in the lane scene: 'Ranger-General.' / 'Ranger-General.' (L72-74) is the first, and that one lands his acceptance of the title.",
+          "repeatedWords": "Millhaven",
+          "textureZone": "Inside the telegram_run / texture_desert starting '\"Then you'll turn round, my lady.\"' (L70-90).",
+          "suggestedFix": "",
+          "fixAction": "delete the whole one-line paragraph; 'The thumb stopped.' now leads straight into '\"We came into it at dusk...\"' and 'it' still refers back to Sylvanas's 'Millhaven'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r3-02",
+          "line": 218,
+          "text": "The same. Light help her, it was the same, alive in him, and him still alive round it.",
+          "pattern": "F4",
+          "patternName": "Narrative over-translation",
+          "severity": "MILD",
+          "issue": "Restates L216, which already says she had seen this before in the doe and had not seen it in a man who was still breathing. 'The same ... the same' and 'him still alive round it' repeat both clauses of L216. Delete test: going from L216 to 'She let the light go and stood up' loses nothing except the exclamation.",
+          "whatItRestates": "She had seen this before, in a doe in a ditch below the Pass ... She had not seen it in a man who was still breathing.",
+          "suggestedFix": "Light help her.",
+          "fixAction": "replace the whole sentence; it keeps Jaina's exclamation and drops the restatement",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r3-03",
+          "line": 358,
+          "text": "Garran was exactly as sick as when she knelt down, and so was everyone else; they were only slower about it.",
+          "pattern": "F4",
+          "patternName": "Narrative over-translation",
+          "severity": "MILD",
+          "issue": "Restates the paragraph just before it: 'The wards held, all of them, all the way round, and nobody in the room was any better.' 'Exactly as sick ... and so was everyone else' is 'nobody was any better' said again. Only 'slower' is new information.",
+          "whatItRestates": "nobody in the room was any better (L356)",
+          "suggestedFix": "Under them the brown went on spreading, only slower.",
+          "fixAction": "replace the cited sentence; keep 'The wards held the way the glass held.' before it and 'Whatever had put a fist in Elsie overnight...' after it. 'The brown' is the contamination as she sees it on the page (L194, L290)",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r3-04",
+          "line": 651,
+          "text": "This one had gone through cloth.",
+          "pattern": "F4",
+          "patternName": "Narrative over-translation",
+          "severity": "MILD",
+          "issue": "This is the third time the passage says the arrow went through the sleeve. L649: 'The arrow had gone through the loose sleeve of his smock'. L651 opens 'Through the sleeve.' The contrast with the doe's heart already shows that Sylvanas chose not to hit him. This closer explains a point the contrast has already made, and it ends the paragraph.",
+          "whatItRestates": "The arrow had gone through the loose sleeve of his smock (L649); Through the sleeve. (L651)",
+          "suggestedFix": "",
+          "fixAction": "delete the sentence; the paragraph ends on 'Sylvanas had put an arrow through a running doe's heart at the holly bend.'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r3-05",
+          "line": 805,
+          "text": "There was just a boy, stopped.",
+          "pattern": "F7",
+          "patternName": "Closure addiction",
+          "severity": "MILD",
+          "issue": "An emotional summary as the last sentence of the paragraph. The read has already landed: 'The light came back clean from his gut; he had never eaten one mouthful of what he kept under that floor.' The closer wraps that clean reading in an elegiac caption ('just a boy, stopped'). The paragraph is stronger ending one sentence earlier.",
+          "couldEndEarlierAt": "The light came back clean from his gut; he had never eaten one mouthful of what he kept under that floor.",
+          "suggestedFix": "",
+          "fixAction": "delete the sentence",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r3-06",
+          "line": 1011,
+          "text": "glancing at Cyndia, who didn't look round.",
+          "pattern": "F12",
+          "patternName": "Non-action beat",
+          "severity": "MILD",
+          "issue": "A second non-action reaction beat in the morning scene. The strongest is 'Jaina didn't look.' (L1023, the cage). The same sentence has already given Cyndia's non-reaction: 'Then Cyndia, from the far side of her horse, without looking up from the girth.' So 'who didn't look round' reports the same absence again.",
+          "expected": "yes (Lyriel is teasing her)",
+          "position": "paragraph-final",
+          "suggestedFix": "glancing at Cyndia.",
+          "fixAction": "replace the cited clause; Cyndia's non-reaction is still carried by 'without looking up from the girth'",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Jaina Proudmoore",
+      "registerSummary": "Young Kul Tiran mage trained in Dalaran under Antonidas. She thinks in steps and procedures (gut first, then who, then how much) and catches herself running ahead ('No. Slower.'). Her asides mock herself in her own idiom ('Brilliant, Jaina', 'Lovely, Jaina', 'Oh, Light'). Her metaphors come from ships, harbours and gunners, alchemy-room glassware, and the apprentice's locked shelf. She notices the currents (taste, drag, crystal tick) before bodies and objects. She would NOT think in sociological generalities, epigraph slogans, or story-level comments about the moment's significance.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 31,
+      "kills": 0,
+      "keeps": 31,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Swept for Tier A shapes: ', which' tails (L9, L122, L200, L338, L665, L765, L823, L979), 'too X for' and 'enough' verdicts, That/This captions (L19, L701), generic 'you' in narration (L288 only), category claims (L29, L272, L699, L829), and staged-ambience inversions (L48, L599, L625, L709, L873). The slop checker found no narrator_verdict, ambient_inversion, verbose_phrases, expression_decomposition, academic_register or dialogue_register hits. Every candidate is either Jaina's own idiom (self-mockery or self-correction she could mutter, like L19 and L979 'which was low of her'), a working conclusion that drives a decision (L29, L272, L829), or a perceptual delay that matters to the moment (L48 spear, L599 lamp line, L625 prising sound). Tier B candidates (L701, L883, L893, L971) use her own established metaphors (grammar behind the grille, the door the wards hold, doing the sums) and are anchored by concrete carriers in the same or the next sentence. The two strongest seep-adjacent closers (L218, L805) were killed under gpt-5 F4/F7 and are not re-killed here. Full KEEP rationale is in the scratchpad."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 22,
+      "kills": 0,
+      "keeps": 22,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "All tool-signal lines were evaluated. vague_pointers (combined 4 against a cap of 3, so the run's one violation): L492 'said something about the hens' names its topic; L685 'something in the hand gave' is cashed out at once as 'a small tearing low down in the palm'; L787 'There was something on his lip. White.' is a deliberate perceptual delay resolved in the next three sentences (flour, then it bubbled); L893 'there was something she could have done' is backed by the concrete alternatives in L889-891 (quicker shell, freezing his jaw). hedging: L212 and L214 'almost' are measured extents, and L581 'Perhaps a little after' is real timing uncertainty that drives the time pressure. Narration candidates for P2-P5 (L282 'the one thing', L388 'two answers', L448 'She had it', L488 'or something else', L508 'by some road of her own', L693 'It had been built', L695 'One part to keep. One part to wait.', L699 'the work that ties a thing to the body', L701, L883, L947, L971) are each anchored by the adjacent concrete payload (the holding ward, water/contact, the slate tally, the seams and the oven, the Millhaven dead walking) or mark a gap Jaina really cannot see past. Dialogue (L554, L741, L817, L835, L843, L997) names objects, routes and thresholds (jar, floorboard, oven before light, cockcrow, the grain road). No planner shorthand found. The chapter has almost no abstract argument in dialogue, so zero dialogue kills is justified."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "severity": { "mild": 0, "moderate": 0, "severe": 0 },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Every translation setup was audited across the whole exchange. L56 vs L82: Jaina's prepared Antonidas-register speech is never said; Sylvanas's plain account replaces it with tables, spoons, a cradle and counted prints. L368-370 'How much?' gets a usable four-step scale Tobin can write down. L536 'in small words, fit for Brask' gives 'It's the bread. Stop them eating the bread.', which names a target and an action. L831-843 is a three-stage simplification (Jaina explains, Jaina tells Sylvanas, Sylvanas tells Brask) that ends in a field threshold Brask can act on ('Then you have until cockcrow'), followed by a shut-list of named targets (L849). L881 'say plainly what the wards did' is unpacked in the same sentence (nothing more in, nothing further spread, no cure). L991 Brask's Andorhal answer gives a road, a direction, a landmark and a travel time. No reply needs a second round of unpacking."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 111,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md"],
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "6 MILD kills, which is more than the 3-MILD threshold, and 0 MODERATE/SEVERE. All six are in gpt-5-prose-issues.md: 3 x F4 over-translation (L218, L358, L651), 1 x F7 closure (L805), 1 x F8 second echo in a scene (L80), 1 x F12 second non-action beat in a scene (L1011). All six have drop-in fixes, and 4 of them are deletions or near-deletions. Narrator seep, phantom concreteness and fake simplification are clean. Not affecting the verdict: structural texture deficit (texture_score 78.2, below_target; 36 telegram runs, 32 texture deserts); structural rhythm concerns, with 5 metrics out of range (sentence_length_cv, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr).",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.812, "target": 0.72, "delta": 0.092, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.6, "target": 11.0, "delta": 0.6, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.859, "target": 0.7, "delta": 0.159, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 41.2, "target": 35.0, "delta": 6.2, "range": [28.0, 42.0], "inRange": true },
+      "long_sentence_pct": { "actual": 19.3, "target": 10.0, "delta": 9.3, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.58, "target": 7.7, "delta": -1.12, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 28.4, "target": 19.0, "delta": 9.4, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.773, "target": 0.83, "delta": -0.057, "range": [0.8, 0.87], "inRange": false },
+      "note": "Structural rhythm concerns: 5 metrics out of range (sentence_length_cv, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr)."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 78.2,
+      "participial_pct": 7.3,
+      "compound_pct": 12.5,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.5,
+      "short_pct": 51.4,
+      "verdict_reasons": [
+        "participial: 7.3% below target 12.0% (score 61/100)",
+        "compound: 12.5% above target 10.0% (score 77/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.3% -> target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.5% -> target 10.0% (score 77/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% -> target 4.0% (score 74/100). Use for mid-sentence pivots: 'The door - the same one she'd slammed - stood open.'",
+      "telegramRunCount": 36,
+      "textureDesertCount": 32,
+      "note": "Structural texture deficit. Kill B-r3-01 (L80) falls inside a flagged telegram_run / texture_desert (the spear exchange, L70-90)."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_words": 17104,
+        "total_matches": 96,
+        "total_violations": 1,
+        "overCapCategories": ["vague_pointers (combined 4 / cap 3)"],
+        "passBMappedSignals": {
+          "vague_pointers": "4 matches (L492, L685, L787, L893); all KEEP, anchored, see phantom-concreteness cleanReason",
+          "hedging": "3 matches (L212, L214, L581); all KEEP, measured extents or real timing uncertainty",
+          "slopsquid": "0",
+          "narrator_verdict": "0",
+          "ambient_inversion": "0",
+          "ai_vocabulary": "0",
+          "clinical_anatomy": "0",
+          "verbose_phrases": "0",
+          "expression_decomposition": "0",
+          "academic_register": "0",
+          "dialogue_register": "0"
+        }
+      }
+    }
+  }
+}

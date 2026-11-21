@@ -1,0 +1,3 @@
+# Corley (crossroads depot clerk)
+
+A narrow, sniffling clerk in sleeve-guards, with a chewed pen and ink to the second knuckle, minding the yard while the master is in Andorhal. He refuses the books ('They're the yard's books, not mine') until Lyriel jokes about his stove and Sylvanas offers the burned-village sacking. Then he opens the out-book, goes red to the ears when he realises the yard has never written down a carter's name ('It's the load I book, not the man'), and is the first to say 'It started there.' He copies out every short-rate line with dates for Sylvanas. His fear is honest and red; the overseer's will be white. He keeps a fire lit on a warm day because the ink thickens in the morning. He is also a quiet kindness: a cup from his kettle for the mage.

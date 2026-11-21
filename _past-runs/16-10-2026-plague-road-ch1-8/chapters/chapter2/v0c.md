@@ -1,0 +1,671 @@
+# Chapter 2: The Mage
+
+Jaina kept her head tipped back. She had been talking since before dawn; she could talk a while longer. Her neck had set stiff in the chair hours ago. Holding it like this pulled a cord tight from her ear down into her shoulder, and she was not going to mention it to the elf's belt buckle.
+
+Behind her skull the wall stone hummed. All day the ward had sat on her like a hand laid flat on a chest, never pushing, only there, cutting short every breath she drew toward her magic. She had stopped reaching for anything around midday. Reaching only told her where the hand was.
+
+She let go of everything she had meant to say first: the courtesies, the apology for the trouble, *Ranger-General, I quite understand the position I've put you in.* The night watch had had all of that at the split-cap stone, with an arrow on the string. The post had had it again, someone writing every word of it into a book and shutting the book.
+
+"There's something necromantic in your leylines," she said. "It's in your ward-stones. It's moving north, and it's getting worse while I sit in this chair."
+
+Her voice came out rough, scraped thin from talking since the dark. She didn't clear her throat. Let the elf hear it.
+
+The Ranger-General didn't move. The ward-lamp hung behind her, laying her shadow down over Jaina's knees and boots and most of the floor so that Jaina sat inside it, the green and gold at the elf's shoulder gone dark with the light at her back. Quel'Thalas had one Ranger-General. Anyone who had sat at the back of a Kirin Tor session while the northern border came up knew her name. Windrunner. Jaina had pictured someone older, and louder. She had been braced for a shout since the bar came off the door.
+
+The night watch had shouted, not cruelly, the way people shout at a dog that has got into the larder. The ranger in the doorway had not shouted at all. Cyndia, someone in the passage had called her. She had listened to every word by lamplight, her face set perfectly polite and her pen moving, then gone out. Nothing had come of it all day. She stood at the threshold now with her weight even on both feet, as still as the frame, one hand resting near her quiver.
+
+Windrunner listened differently. It took Jaina a moment to see how. She hadn't glanced at the door, or at the stone in the wall, or at Jaina's hands; she was watching Jaina's mouth, like a hunter watching a gap in the brush for whatever was about to come out of it.
+
+"Go on," Windrunner said.
+
+Nothing else. No nod, nothing in her face to say she believed a word of it, or that one word had gone in.
+
+Behind Jaina's head the stone went on humming, low and even. Twice today she had twisted round in the chair to listen to it, and twice she'd thought she caught something under the hum—a drag at the tail of each pulse, as if the stone were answering something a long way off and answering late. Each time she listened straight at it, it was gone. Her own pulse, then, loud in her ears with no sleep behind it. Or the stone was keyed into the ring like all the others, carrying a little of what the ring carried. She couldn't tell. She hated not being able to tell.
+
+The substance, then. The short version; a soldier would want it short.
+
+"I study leylines," she said. "The currents magic runs along under the ground. I've been following something wrong in them, south of your border, in Lordaeron. A residue. It reads like death. It reads like—" The word stuck where it always stuck. She pushed it out. "Necromancy. Nobody in Dalaran is taught it, and I haven't been either, but I know what it feels like. The way you'd know rot in a cellar without anyone teaching you rot."
+
+She was drawing it in the air before she meant to, both hands up, laying the lines out as she'd laid them on the map, thin and branching, running up out of the south. "It travels along the lines the way damp creeps up a wick. Then it turned up in your ward-stones. The same residue, the same drag in the pulse. Your stones are tied into the currents, they'd have to be or they couldn't hold anything, so whatever is in the lines is in the stones. I crossed over to make sure. I was sure at the first one I put my hands on."
+
+The lamp caught her knuckles, red and split and peeling at the creases where the cold had come back up her own hands the last time she'd pushed too hard and too long at a stone. She put her hands back on her knees.
+
+"It's all on my map," she said. "Your rangers have my map."
+
+They had everything. Her staff lay on its hooks somewhere down the passage under whatever they'd put over it; she had felt it go dull through the walls like a tooth going numb. Her ink, her pens, her field-book. Her stockings, Light help her. And the pebble in its twist of cloth, lying in whatever row they'd laid it in, as quiet as it had been since Dalaran. Its twin sat in Antonidas's study. She had kept hers wrapped all the way north.
+
+Cyndia hadn't moved. Jaina could see the edge of her past Windrunner's arm, eyes on Jaina, hand still near the quiver.
+
+Then Jaina heard what she'd just said. It was thin. Something wrong in the lines. Damp up a wick. She had cut the lattice out of it, and the order of the drag in each pulse, and the way the residue held its shape across whole leagues of open line as though someone had taught it to travel—leaving something that could have come out of any village wisewoman with a bad dream. She'd have sent a first-year back to his bench for it.
+
+"Why alone?" Windrunner said.
+
+Not the lines. Not the stones. The elf had stepped over the whole of it like a puddle, going straight for the one place Jaina had hoped she wouldn't look.
+
+"The Kirin Tor—" Jaina began, and stopped. The honest end of that sentence was worse than any she could make up, and she was too tired to make one up.
+
+"Nobody sent me," she said. "The Kirin Tor don't know I'm here. I have no seal and no letter, and nobody to vouch for me but me." Her ears were going hot. She kept her voice level over it. "I left a note on my master's desk. Archmage Antonidas. He'll have read it by now. Or he will soon."
+
+"And the rest of your Kirin Tor?"
+
+"Would have sent someone." She heard how that sounded. "Eventually. Once they'd agreed what to call it."
+
+Her hands had stopped. She hadn't felt them stop. They lay on her knees with the split knuckles up, the ward-stone humming behind her head into the gap she'd left. Nobody filled it.
+
+Had he read it? He read everything on that desk eventually, between three other things, a pen in one hand and a cup gone cold at his elbow—and it was the *eventually* she hadn't been able to stand. Too slow. He was always too slow, until it turned out he'd been right to be slow. He would turn out right this time too, and she would still have gone.
+
+And the stone. All the way north she'd told herself she kept it wrapped so as not to wake him for nothing. Caution, a good apprentice's caution—oh, Light, no. One word through it and he'd have told her to come home, kindly, the way he said everything, and then she would have had to decide whether to go. So she hadn't let him say it.
+
+Would she believe herself, from where the elf stood? A girl with no seal and mud to the knee, frost-burned, talking about death in the stones to the first officer who'd stand still long enough? She'd send for a healer and a blanket. Probably she would put herself right back in this chair.
+
+Still right, though. She was. She ran it again from the first bad stone south of the border to the one humming at her back, the answer coming out the same. The elf went on looking at her.
+
+She could keep talking. She could start over from the beginning, the long version this time—lattice and sequence and pulse—and the elf would stand there with that same face, taking in every word and still having nothing she could put a hand on. Jaina was so tired her eyes ached in their sockets. It came out plain, like a sum at the foot of a long column: nothing she said in this room was going to get her out of it. The stones might. Outside, under the elf's own eyes.
+
+Windrunner moved first. She took a half step in, which in that room brought her close enough that Jaina could smell horse on her, and cold air, and something green and crushed like fern. She set her right hand flat on the wall beside Jaina's head, a hand's breadth from the ward-stone, not touching it. Soldiers were taught to keep their hands off wards; Jaina had watched the city guard in Dalaran walk round the glyphs in the paving as though the glyphs might bite.
+
+"Which stones read worst," Windrunner said. "Where."
+
+Jaina had to haul her mind round to it, off the argument and onto the facts. "Where my lines end. I ruled a line on the map for each current I followed up from the south, and every one of them ends on a stone. The ones I circled are bad. The ones I circled twice are worse. Most of those are on your second ring, either side of the high road, near where your watch found me."
+
+"Most."
+
+"There's one on the outer ring. East, along a track that runs beside the stones. There's a bend where the track goes round a shoulder of rock and drops toward a dry creek bed." She could see it on the page, the creek she'd put in as a line of dashes because she'd wanted to find the place again. "That one's bad."
+
+Windrunner had been still since she walked in, a soldier's waiting stillness. This was narrower. Her hand stayed flat on the wall by Jaina's ear, her eyes never leaving Jaina's face.
+
+"How far east of the high road?"
+
+"I'd need the map." Jaina pushed the loose hair off her forehead with the heel of her hand. "Past where the track starts following the ring. Your rangers will know it better than I do."
+
+"And south of it. Where do your lines come up from?"
+
+"Out of Lordaeron. The farm country under the hills." She nearly started on how they thinned and branched as they came north, and didn't. "I followed them up. I haven't followed them back."
+
+That was what the elf wanted from her, of course—places. Which stones, which bends, how far off the road; somewhere to send a patrol, marks for a map with Jaina's own ink on it. A soldier would want ground to stand on before she'd want a reason to stand there.
+
+"Then take me to one," Jaina said. "The creek bend, the high road, I don't mind which. I can't prove it to you from a chair, Ranger-General. I can prove it at a stone."
+
+Windrunner took her hand off the wall, straightening. Jaina watched her come up off her heels and turn her chin a fraction toward the door, like a slack line coming taut on a cleat.
+
+"Cyndia."
+
+"Ranger-General."
+
+"Horses." And to Jaina, without looking down: "You'll show me, Mage. On the ground. If you can't, you come back to this chair, and you wait in it for a magister and whatever the magisters decide you are."
+
+"Yes."
+
+"I haven't given you the terms." Windrunner's voice didn't rise. It hadn't risen once. "You ride inside my escort. Your hands stay where a ranger can see them, waking or sleeping. You don't step off the road unless I put you off it, and you don't touch a stone until I tell you to. Wander once and you'll make the rest of the trip tied across a saddle."
+
+"Yes," Jaina said again. Her pride had a good deal more to say than that. She let it say it to itself. "All of it. And I'll want your rangers, Ranger-General. I won't pretend otherwise. I came north alone on foot, and I was lucky to get here. I don't think I'd be lucky twice."
+
+Windrunner looked down at her then, a short look, from the cracked boots up to the hair coming out of its braid. "No," she said. "You wouldn't."
+
+Cyndia came in past her. There was barely room; she had to turn sideways to get round the chair, her braid swinging close enough to brush Jaina's shoulder. Below the big ward-stone, low in the wall behind the chair back, a smaller stone sat in a notch cut to fit it, wedge-shaped, one rune on its face picked out in gold. Jaina had felt it against her spine all day without once seeing it. Cyndia worked her fingers round it and pulled it free.
+
+The hum dropped. The big stone went on, lower and emptier, but the hand came off Jaina's chest all at once, her first breath going in so deep it hurt her ribs.
+
+And the noise came in.
+
+It came up through the floor and the chair legs and the soles of her boots, through the walls, out of the mountain under the post: the currents, all of them, loud as surf after a day with her ears stopped. Every line in the Pass was going at once.
+
+Under all of it ran the sour drag she had followed north, so thick now she could taste it at the back of her throat, a mouthful of old coins. Even so it reached her muffled. The rings were still out there across the saddle of the pass, cupped over the noise like a hand over an ear. She was hearing it through their fingers.
+
+Through their fingers—and it was still this loud. It had been doing this the whole time she sat here.
+
+"Up," Windrunner said.
+
+Jaina got up. Her knees had forgotten how. Sitting since first light had set them like wet rope left to dry in a knot, the first step grinding up both thighs. She caught the chair back and let go of it again before anyone could see her need it, which was pointless, with two rangers in a room the size of a wardrobe and both of them watching her.
+
+The passage was full of rangers, standing back against the walls to let the three of them by. In a stone alcove off the passage the lamplight went flat and grey a hand's width from a slate plate carved in close lines. Beneath it her staff lay across two hooks with its crystal gone the colour of a bruise. Cyndia lifted it down, holding it out to her haft first.
+
+Jaina closed her hand on the silver wire. The staff came into her grip with a weight that had nothing to do with the ash, a deep thrum running straight up through the bones of her wrist like taking hold of a sheet with the wind already in the sail. The violet drained out of the crystal as she watched, leaving its own pale colour behind.
+
+She didn't wait to be told she could. She set the heel of the staff on the flags, listening down it.
+
+At first light at the split-cap stone she had done exactly this, both hands on the wood, the last thing before the watch made her lay it down in the grass. The drag had been there then, a thread of cold at the tail of every pulse, so fine she'd had to hold her breath to follow it. It wasn't a thread now. The staff gave it back to her thick and steady, a cable where there'd been a thread, a cold sitting in the line instead of running along it.
+
+No. Again. She shifted her grip, clearing her head as Antonidas had drilled into her over cold benches, and listened again.
+
+The same.
+
+"Oh, Light," she said, very quietly.
+
+Windrunner was watching her. So was Cyndia. Jaina lifted the staff off the floor, holding it now in both hands like a rail on a pitching deck.
+
+"It's worse," she said. "Than at your stone this morning, when your watch found me. A great deal worse." She heard how small it came out and couldn't make it any bigger.
+
+Windrunner said nothing to that, looking down the passage toward the guardroom where the light was. Jaina could not tell whether she'd heard it as a warning or as the sort of thing a mage would naturally say once you'd handed her back her staff.
+
+Cyndia had her satchel. The things in it had gone back in a different order from the one Jaina kept them in: the ink tin on top with its lid screwed down, the pens in their oilcloth, the field-book, the hard heel of bread. Her stockings had been folded with the darned heels outward, so that the whole post could admire her mending. On top of the stockings, in its twist of cloth, lay the pebble.
+
+"Ranger-General," Cyndia said. "She left the bowl the watch brought her at midday. She's eaten nothing since we took her off the stone."
+
+"Then she eats in the saddle."
+
+Jaina took the pebble out of the satchel. It was cool and flat and too smooth for any river, the rune pressing up under her thumb through the cloth. Quiet. It would stay quiet as long as she left the cloth on it. She pushed it down to the bottom of the satchel, under the stockings, under the field-book, and buckled the flap over it, and did not ask herself why the bottom.
+
+Outside, the night had come down hard and clear. The sky over the peaks was black and thick with stars, the gate lamps burning white-blue at the end of the yard, the wind coming over the saddle of the pass with snow somewhere in it. Her robe was cut for walking, not for this. The cold came straight up under the kilted hem to her knees.
+
+Horses were coming out of the stable, their breath smoking. A ranger with a long, plain face led a bay and a grey together, the grey on a short lead, stopping in front of Windrunner without being called.
+
+"Neral," Windrunner said. "You're relay, if word has to go north."
+
+"Then I'll keep the grey on the lead, Ranger-General. Fresh legs for the climb back. I'll change horses at the Pass on the way through and keep going."
+
+"Take her."
+
+Neral passed behind Jaina's horse on her way to her own, put a hand under its girth, gave the strap one hard tug, and said, "My lady," without looking up. That was all she said.
+
+Another ranger came round the horse's head with the reins in her hand, smiling before she got there.
+
+"Lady Proudmoore." She made a small bow over the reins, solemn all the way up to her eyes and not one bit further. "Your horse. She's carried magisters to the Pass and back and never bitten a single one of them, which makes her the most patient creature in Quel'Thalas."
+
+She glanced across at Cyndia. Cyndia was checking her own girth and didn't look round. The ranger seemed perfectly satisfied with that.
+
+They all knew her name, then. Jaina didn't yet know whether that helped her.
+
+"Then I'll try very hard not to be the first," she said.
+
+The ranger laughed, a short real laugh, setting her hands on Jaina's boot and boosting her up before Jaina had properly found the stirrup, quick and sure, letting go the moment she was seated. "Lyriel," she said, as if Jaina had asked, and went to her own horse.
+
+A fourth ranger Jaina hadn't heard named swung up at the back without a word.
+
+Windrunner mounted last, onto a fine-boned mare that tossed its head at the cold, gathering her reins without looking round at any of them.
+
+"Millhaven," she said.
+
+Millhaven. Jaina had passed the name on her own road maps coming north: the first village of any size below the hills, where the road down from the Pass met the farm roads. Somewhere with a crossroads and people to ask. The obvious place to start, the nearest place on the south road worth stopping. A soldier's choice.
+
+"Proudmoore rides in the middle."
+
+They fell in around Windrunner without another word from her, as if the shape had been agreed before Jaina ever left the cell: Cyndia at Windrunner's shoulder, Neral behind with the grey on its lead, the nameless one at the rear, Lyriel at Jaina's right knee close enough to reach her reins. Jaina sat in the middle of it like a crate lashed down amidships. Cargo. The Ranger-General had her stones now, her bends and her distances from the road, and a mage on a borrowed horse to point at things. Jaina could see no sign she meant to make any other use of either.
+
+Fine. Let her. Get her to one stone, only one, and see what use she made of it then.
+
+Getting the heel of bread out of the satchel, she bit into it. It was like biting a boot.
+
+The gate rangers dragged the bar back. They rode out under the white-blue lamps and down, the switchbacks dropping away into the dark, the outer stones standing below them in their line on the saddle of the pass, grey on grey. With every turn of the road their hum came up louder through the hooves, through the saddle, into the staff across Jaina's knees.
+
+The switchbacks gave out where the saddle flattened, and the road ran straight at the stones.
+
+Jaina had her bends and her distances ready. She had the creek bed and the split-cap stone and the order she meant to take them in. She had the first sentence built: *put your palm here, Ranger-General, below the third rune, and wait for the pulse to come round.* Windrunner didn't slow. She rode at the gap between the last two stones at the same easy walk she'd kept all the way down from the gate, the others going with her, Jaina going with the others because the mare did.
+
+The stones stood up out of the dark on either side, taller than the riders, the gold in their runes no brighter than a scratch on slate. Their hum came into Jaina's teeth. The mare laid her ears back and took one neat step sideways, as if making room for someone on a stair, then walked on. Every horse in the line did it, the same single sidestep and the same walking on, not one ranger moving a hand on her reins.
+
+So that was what the stones were to Windrunner: a gate, and a horse's manners at the gate. Jaina had promised to prove it at a stone. Here was one close enough to spit on, and the Ranger-General went by it like a milestone.
+
+Then they were through, and the hum stopped.
+
+It didn't fall away behind them as a sound falls behind a rider. It stopped clean, like a door slammed on a crowded room, everything else rushing into the space where it had been.
+
+It hit her in the breastbone. She folded over the front of the saddle, the staff jammed crosswise into her stomach and both fists knotted in the mare's mane, the old-coin taste coming up into her mouth so thick she gagged on it. It came from everywhere: out of the road under the hooves, out of the black slope below, out of fields and woods she couldn't see and the lines running beneath them.
+
+She had followed it north as a thread. In the passage at the post the staff had given it back to her as a cable. Out here there was nothing to follow at all. It pressed in from every side at once, the way a hold fills when the hull's stove in.
+
+Light. Oh, Light.
+
+She had sat in that chair all day with the ward cupped over her ears, thinking she was hearing it loud. Every stone in the rings was a hand over an ear. Every elf behind them might have been sitting in a quiet room with this leaning on the door, and never known it.
+
+And how much of it was the stones, and how much was the days since? She'd come up through these hills by the sheep paths with her lines when it was fine as a hair, so fine she'd had to stand still in the heather to feel it at all, with no stone cupping her ears. So it had grown. It had grown this much while she walked north and sat in a chair and argued with a book. Or the wards had been—no. She couldn't sort it. She couldn't sort anything with her stomach up under her ribs.
+
+The mare had bunched under her. Jaina felt it through her knees before she understood it, the long loose walk gone short and choppy, the back tight as a drumhead. Ahead, Windrunner's fine-boned mare had dropped its head and was leaning on the bit, Windrunner sitting deeper in the saddle without any change in the line of her shoulders. Behind, Neral's grey threw its head against the lead rope, Neral saying something low to it in Thalassian. All the horses had gone stiff-legged at once, as if the road had iced over under them.
+
+Did the elves feel it? Jaina looked from back to back. Cyndia's head turned once to the left, at the dark slope, and once to the right, at the dark slope across the road, before coming forward again. Nobody spoke. If they felt it, they felt it through their horses, as her father's crews knew weather by the gulls going inland.
+
+A hand came over and took hold of her reins below the mare's chin.
+
+"Lady Proudmoore?" Lyriel said.
+
+"Yes." Jaina sat up, the staff leaving a bar of ache across her middle. "I'm—yes. Thank you."
+
+Lyriel looked at her a moment longer in the starlight, then let go of the reins and dropped back to her knee.
+
+Jaina swallowed, the taste going down and coming straight back up. She got the staff upright, holding its heel off the saddle to listen down it. It was the same. It would be the same however many times she listened. Everywhere—it was everywhere, and you couldn't ride to everywhere. You couldn't take everywhere apart on a bench.
+
+Smaller, then. What was it? If it was a place, it would be thicker toward that place, letting her walk it down like a dowser with a hazel fork. If it was a thing—something carried, something left—it would be worst wherever it had been set down and along wherever it had gone by. If it was still happening, some working going on right now under somebody's hands, then it would pulse, or build, or—she didn't know what it would do. She didn't know enough to guess. She couldn't hear past it from up here, through a staff, on a horse that wanted to bolt.
+
+She needed her hand on it—on the ground, under all this, where it had to be coming from. The road was the ground. Nobody could say she'd stepped off the road.
+
+"Ranger-General," she said. "I need to stop."
+
+Windrunner didn't turn her head. "Why."
+
+"I need to put my hand on the road. Only the road. I won't leave it."
+
+"Not on the hill."
+
+The fine-boned mare went on down into the dark, the others after it, Jaina sitting in the middle of them with her mouth full of pennies and her whole answer built and nobody to give it to.
+
+Not on the hill. Why not on the hill? Because the hill wasn't Millhaven, presumably—Millhaven was where the Ranger-General had decided they were going, and a mage on her knees in the road would put them behind. Jaina's jaw ached. She made herself unclench it, and a little further down she had to make herself do it again.
+
+They rode down out of the hills in the dark, through birch rattling its last leaves at them and then through bracken gone brown and broken, the taste staying in her mouth the whole way. It didn't get worse. She kept testing for worse anyway, every few strides, like tonguing a bad tooth.
+
+The cold off the heights followed them down, getting in under her robe and settling in her knees. The mare's shoulders rocked under her, long and even now that the horses had got used to whatever they'd got used to. Jaina watched the back of Cyndia's head, and then she was watching nothing.
+
+Her chin hit her chest. She jerked upright with her heart slamming and grabbed for the staff. It was still across her knees, Lyriel riding at her right hand and looking carefully at the road.
+
+The sky behind the hills had gone the colour of dishwater. There were hedges.
+
+She hadn't seen a hedge since she left the farm country at the bottom of the sheep paths. Here they were again, real Lordaeron hedges, hawthorn and bramble grown up thick along both sides of the road, the haws gone dark red and the blackberries gone over. The road had turned to mud at the edges and packed earth down the middle, rutted deep, old straw trodden into the ruts. A wood stood grey-green beyond the hedge on the left, low and wet-looking. Somewhere a crow was complaining.
+
+After the Pass with its white-blue lamps and its stone, all of it looked rumpled to her, like a bed someone had got out of in a hurry. It smelled of leaf mould and sheep and, under that, faint and steady, of the coins.
+
+Where a stream came out of the wood and ran under the road through a stone culvert, Windrunner reined in.
+
+"Here," she said. "Water them. Proudmoore. You wanted the road."
+
+Jaina got down, hanging off the saddle a moment with her cheek against the mare's warm wet neck until the ground stopped tilting. Then she walked out to the crown of the road between the ruts, where it was hardest and oldest and nobody's cart wheel had cut it up, and knelt.
+
+The cold came through her robe at once. She laid the staff down in the road beside her where she could put her other hand on it, setting her right palm flat.
+
+Grit. A small stone pressing into the heel of her hand. The dried ridge of a rut under her fingertips, the night's damp in the dirt, the hard skin of the road packed down by every hoof and wheel and boot that had ever come this way. She shut her eyes and went down through it.
+
+It was easy at first. It always was. The packed top gave under her, letting her through into the clay beneath, cold and heavy and close-packed, holding water. The water was moving. She went with it, slow as it went, sideways through the clay toward the stream. It was in the water, all through it, the way tea sits in water once it's steeped, with no thread anywhere to pull. She followed the water up into the hedge roots. It was in the roots too, and in the living wood of the hawthorn, threaded up through the grain.
+
+Deeper. She made herself go deeper, past the clay into stone, toward the line she could feel running far down under the road, broad and old. The wrongness lay in it thick. And it wasn't staying in. It was coming up out of the line, seeping into the stone and out of the stone into the clay, into the water, into the roots, into whatever touched the line and whatever touched what touched it.
+
+Something small moved against her in the clay, a worm or a root-tip pushing; something alive. It was in that too. Not much. A little, the way a little salt is in everything that grows near the sea.
+
+It had left the lines.
+
+She couldn't feel her hand. She knew she had a hand somewhere above her, flat on a road. She couldn't find it. The cold had come up into her wrist and was working at her elbow, the clay very quiet and very heavy, the line far down under it pulling and pulling, late, late, late. She thought: up, now. She thought it again, and it was a long way to go.
+
+"Mage."
+
+From a great way off. She went toward it.
+
+"*Mage.*"
+
+She came up all at once, her mouth full of iron. She tasted it right to the back of her throat, sick and metallic, as if she'd been sucking a nail. She spat into the road and spat again. It didn't help. When she lifted her right hand off the dirt the skin stuck and peeled. There was frost on the road where it had been, a white fern of it spread a hand's width out into the ruts and already going grey at the edges.
+
+Windrunner stood over her, her bow in her left hand and an arrow on the string, the point toward the ground. That made twice now that Jaina had had to look up at her.
+
+Past her, up the road toward the hills, Lyriel stood with her back to them both and her bow half drawn, watching the way they'd come. Down the road, the other way, Neral had left the grey with someone and stood the same, watching south. Cyndia was at the gap in the hedge where the stream came out, facing the wood. The nameless ranger was in the stream with every horse they had, holding the reins in a bunch.
+
+They had put themselves round her while she was down there. She hadn't heard any of them move.
+
+"Three times," Windrunner said.
+
+"What?"
+
+"I called you three times."
+
+"I didn't—" Jaina wiped her mouth on the back of her wrist. Her right hand wouldn't close properly; she tucked it into her armpit. "I was a long way down."
+
+Windrunner looked at her a moment more. Then she looked up the road at Lyriel's back, down it at Neral's, across at the wood where Cyndia stood, and down again at Jaina on her knees in the crown of the road. Jaina knew that sort of look. The quartermaster at the Violet Citadel gave it to cracked crucibles: a thing that was going to cost more than it ought to, and would have to be paid for anyway.
+
+"Mount up," Windrunner said, turning away.
+
+Fine. Let her count her costs. Jaina had what she'd knelt down for.
+
+Cyndia came back from the hedge and stopped beside Windrunner. "Ranger-General. The frost went a hand's width out round her hand. It went grey when she lifted it." Then, to Jaina, holding out a water skin: "Drink. Then mount from this side."
+
+The water tasted of the post's cistern, cold and stony. Jaina drank half of it, still tasting the nail. Out in the stream the grey lifted its dripping muzzle and blew, the water running off its whiskers and back into the stream. Jaina thought of the little salt and said nothing, because she didn't know what a little did. That was the next test—a test for a bench and a lamp and a quiet room, and she had a horse to get onto.
+
+She got onto it at the second try, the mare sidling.
+
+The sun came up while they rode, low and watery behind a skin of cloud, the mist lying in the fields beyond the hedges in flat white sheets with the tops of fence posts standing up out of it. Jaina's hand came back slowly. First the pins, then the burn, then an ache in every knuckle as if she'd punched a wall. She flexed it on her thigh, in and out, building the explanation while it hurt.
+
+She tried it under her breath twice, cutting it down both times. Short. A soldier would want it short, and this soldier had just walked away from her in the road.
+
+When the mist began to lift she pushed the mare up, settling her at Windrunner's off-side quarter a length behind. Lyriel came up with her. Nobody stopped either of them.
+
+"Ranger-General. What I found back there."
+
+Windrunner didn't look round. She didn't say *go on*, either. Jaina went on.
+
+"You'll have seen a river come over its banks. When it goes down again the fields stay wet. The water's gone into the ground, and it stays in the ground, and everything that grows there drinks it." Her hands were up, the right one still clumsy, laying the river out flat in the air between the mare's ears and spreading her fingers wide from it. "The lines are the river. What I've been following has come over the banks. It's in the ground under the road, and the water, and the roots of the hedges. It's left the lines, and it's soaking out into everything that—"
+
+"Your lines don't spread," Windrunner said.
+
+Jaina's hands stopped where they were, out on either side of the mare's neck with the fingers spread.
+
+"Lay a rule along each of them and run it south, off the edge of your paper. They don't fan out. They close." Windrunner said it without turning in the saddle, in the voice she'd used for the horses, as someone tells you where the far gate is. "Most of them cross within a mile of the Millhaven crossroads. The rest pass near enough to bend."
+
+The tack creaked, the mare walking on. Jaina's hands were still up, holding nothing, like a woman waiting for a basket that somebody had set down somewhere else. She put them down.
+
+A river over its banks. Damp up a wick, in the cell, to this woman's face. Rot in a cellar. *The currents magic runs along under the ground*—she had actually said that, to the Ranger-General of Quel'Thalas, slowly, as you'd explain tides to a child who had never seen the sea, and the Ranger-General had stood there and let her. With the map already read. With Millhaven already in her pocket. The whole road, every word since the chair.
+
+Her face had gone hot, the heat climbing from her collar to her ears. She was furious with it for climbing. It had been a fair guess. Soldiers wanted the short version; every soldier Jaina had ever met had wanted the short version, saying so and looking pained when they didn't get it. It had not been a fair guess. She'd looked at a bow and a pair of boots and decided what was behind the eyes—the exact thing she couldn't stand in half the Kirin Tor when they looked at her.
+
+And she'd ruled those lines herself. Every one of them, kneeling beside a stone with the straightedge out of her satchel and the ink thickening in the pen, never once turning the rule round. *I followed them up. I haven't followed them back.* She'd said it in the cell, out loud, like an excuse. Windrunner had had the map all day. Of course she'd read it.
+
+Millhaven, then—not the nearest place on the road worth stopping. And why there? Most of them within a mile, the rest bending toward it. A crossroads, a market, carts and people going in every direction. Was something there pulling the lines in? Or was it all coming out from there—and she'd been tracing the spokes back to the wrong end of the wheel?
+
+Who else? The night watch at the split-cap stone; she'd given them the short version too, and the post, and Cyndia's pen, and the porters at the Violet Gate, and—Light—probably half the people she had ever explained anything to, slowing down and smiling and picking the small words out for them. Brilliant, Jaina. Antonidas's prize student, the best in her year, talking down to a woman who was a mile ahead of her.
+
+Under all of that, small and warm and entirely unasked for, was something else: someone had kept up. Someone had gone on ahead with the sums and been waiting at the bottom of the column. That was useful. It was a useful thing to know about the Ranger-General, and Jaina put it where useful things went and left it there.
+
+"Then the question is whether Millhaven is the source or the sink," she said.
+
+She didn't stop to pick smaller words. "If it's rising there, the residue ought to be thickest at the crossing and thin out evenly along every line going north, at the same rate, with the same resonance in each, because it all began in one place. If it's draining there, coming in from somewhere else and pooling, the lines will disagree with one another. Different weights, different lags in the pulse, depending on where each one picked it up and how far it's carried it. I couldn't read a direction under the road this morning; it was too thick, the whole lattice was soaked with it. At the crossing I'll have every line together and I can set them against each other. I believe that's the only way to know. I'll need my hand on the ground there, and I'll need to go deeper than I did this morning."
+
+Windrunner rode on for a few strides.
+
+"How much deeper?"
+
+"A good deal."
+
+"Then I pick the ground."
+
+She didn't look round. She didn't say *better*, or *that's more like it*, or any of the things a tutor says when a student finally stops wasting everyone's time; Jaina waited for one and none came. There was the creak of the saddles, the mare's hooves sucking in and out of the mud at the road's edge, and Windrunner's back, straight and green and gold, not one degree different from how it had been.
+
+She'd heard. Jaina was quite sure she'd heard.
+
+"She does that to everyone, Lady Proudmoore."
+
+Lyriel said it quietly, riding close at Jaina's right knee, looking straight ahead between her horse's ears.
+
+"Does she?"
+
+"She did it to the Ranger-Lord at midsummer. In front of his own captains, over a map of his own patrols." Lyriel touched the tip of one long ear with a finger, eyes still on the road. "He went red right up to here. He took it a great deal worse than you."
+
+Jaina laughed before she could help it, a short surprised sound that hurt her stomach where the staff had caught it. "Then I'll try to go on taking it better than a Ranger-Lord. It seems the least I can do for Quel'Thalas."
+
+Lyriel glanced across at Cyndia. Cyndia was watching the hedge and gave no sign of having heard a word. Lyriel looked entirely pleased with that, settling back in her saddle.
+
+They watered the horses again at a ford near noon and ate in the saddle after, a heel of hard cheese and a strip of something smoked that Lyriel passed across without comment. By the time the sun had worked round over the right-hand hedge the country had changed. Jaina couldn't have said where it started.
+
+The first farm caught her eye by its chimney. It was a long low house set back off the road behind a muddy yard, a stone chimney at the gable end with no smoke coming out of it. The afternoon was raw and grey, the wind carrying a wet edge. Any farmwife in Lordaeron would have had her fire banked up since dawn. Jaina looked at the chimney until the hedge took it away, telling herself the family had gone to market.
+
+The next farm had no smoke either. Nor the one after.
+
+Then the fields. A cabbage field ran right up to the hedge on the left, row after row, the heads split and slumped and gone soft and black, the smell coming over the hedge at the horses thick and sweet and wrong, the smell of a cellar where something has been forgotten for a season.
+
+Beyond it, beans hung black and shrivelled on their poles. Nobody had cut them. Nobody had lifted the cabbages, either, or the turnips in the next field, whose leaves had gone to a grey-green slime lying flat on the furrows. Everything was still standing where it had been planted, rotting where it stood, the rooks walking up and down between the rows and not bothering to take off when the horses went by.
+
+Jaina had the staff upright in her fist. She hadn't decided to pick it up.
+
+It was here. Coming up off the fields like ground-mist, the same coin-taste, the same late dragging pulse she'd had her hand in at the culvert, only nearer the surface here and thicker, so near that she hardly had to listen for it. It was in the furrows. It was in the cabbages, Light help her, as it had been in the hawthorn.
+
+Somewhere off to the right a cow was bawling. It went on and on, a long hoarse complaint with a crack in the middle of it, coming from a byre behind the next farmhouse, a whitewashed place with a rowan by the gate and a little wooden shrine to the Light nailed to the gatepost, its candle stub burnt right down. The candle had run and set. Nobody had come to scrape it off.
+
+"That cow wants stripping, Ranger-General," Neral said from behind. "She's been at it since the last farm. Her bag'll be hard as a stone."
+
+"Leave her."
+
+"Ranger-General."
+
+"Cyndia."
+
+Cyndia was off her horse before her name was finished. She walked up the yard to the house with her bow in her left hand and an arrow on the string, her eyes going right and right again. The door gave when she pushed it. She stood on the step and looked in, not going in. Then she came back down the yard at the same pace, stopping at Windrunner's stirrup to report it to her face.
+
+"Door was on the latch. Bowls on the table, a spoon in each. Nobody ate out of them. The hearth's cold right to the back stone. There's a child's coat on the peg by the door." She paused for exactly as long as it took to look across the yard. "No tracks out but the cart's. The cart's gone. Its ruts go south, and they're full of rain. I'd say they meant to come back to it."
+
+Jaina had the doorstep in her eye from where she sat: the scrubbed sill, the door standing a hand's breadth open, the dark beyond. Through the staff, without even trying, she could feel the kitchen. It was as bad as the field. Worse, maybe—the cold of it came out of that doorway and across the yard at her.
+
+She'd come north hunting it in stones and currents, in things a mage had names for. Lattice, resonance, residue. And here it was in a bean row, in a kitchen with the bowls laid out. Where were they? Gone south in a cart, Cyndia said, with the dinner on the table and the child's coat on the peg, the cow left to bawl. Who goes to market without a coat in this wind? Nobody. So they'd gone somewhere close, somewhere they meant to come back from. To Millhaven, along those ruts.
+
+Or they hadn't gone anywhere they could come back from.
+
+She ran the sums again: a cart, a latch, rain in the ruts. That was what there was. The column wouldn't carry any further from the back of a horse.
+
+"On," Windrunner said.
+
+They went on. The cow went on bawling behind them for a long time. Then the road bent, the hedges closing in high on both sides, taller than a rider, and the sound went thin and stopped. Millhaven lay somewhere past the next rise. Jaina couldn't see a roof of it yet, or a thread of smoke against the cloud, though she looked for both.
+
+"Nobody leaves a good milk cow to bawl like that," Lyriel said, close at her knee, low. "Not unless they mean to be home by milking, or else they—"
+
+She was gone in the middle of it, dropping back behind Jaina's right shoulder as the road narrowed between the hedges, the end of whatever she'd meant to say going with her.
+
+###
+
+The staff hummed.
+
+Jaina felt it first in the bones of her wrist and then saw it: the crystal at the head, pale in the grey light, buzzing in its silver claws like a struck wire, steady and fine. She hadn't called on it. She hadn't asked it for anything all day. She closed her hand on the haft until the silver wire bit into her palm, the humming going on and on, all by itself.
+
+"Ranger-General." It came out too high. She tried again. "Ranger-General, my staff is—"
+
+Windrunner had already stopped.
+
+She sat her horse in the middle of the road with her head turned toward the top of the rise, where the hedges gave out at last and a wood came down to meet the road on the left: oak and ash, with a dark mass of holly growing thick underneath them. She wasn't looking at the staff. She wasn't looking at Jaina at all. Her bow was off her shoulder and in her left hand, her right gone back to the quiver to rest on the fletching without drawing anything, her fine-boned mare standing with both ears pricked hard at the holly.
+
+Jaina's mare had stopped too. Nobody had asked her to. She stood with her legs braced, shivering, a fine fast shudder running right through her barrel and up into Jaina's seat. When Jaina laid a hand on her neck the hair was wet.
+
+There were no birds. There had been rooks all afternoon. There had been a cow. Now there was the wind in the hedge-tops and the tack creaking and the mare's breath going in and out of her, short and loud, and nothing in the wood at all.
+
+"Close up," Windrunner said, quite quietly.
+
+The holly burst open.
+
+It came out as noise first, a long ripping crash of branches, then as a brown blur, and then it was a deer, a doe, on the road a stone's throw ahead and coming down it at a dead run. Another came behind her. Then a young stag with his antlers laid back, and another doe, more crashing in the holly behind them, and they weren't swerving. Deer ran from horses. Every child in Lordaeron knew that much. These came straight down the crown of the road at the riders with their heads low. Even at that distance Jaina could see their eyes: white, filmed over, like the skin on boiled milk.
+
+"*Front!*"
+
+Jaina had not known Windrunner's voice could go that loud. It cracked off the hedges and the trees and came back, and before it had finished coming back she had drawn and loosed. The lead doe's forelegs folded under her, pitching her down nose-first in a long slide.
+
+"Lyriel, the stag! Cyndia, hold the left!"
+
+"Stag. Taking him."
+
+That was Lyriel, somewhere behind Jaina's right shoulder, in a voice Jaina had never heard her use—flat, without any laugh left in it. A bowstring slapped a bracer. The stag went down at full stretch. His antlers caught the road and ploughed it, scoring two long furrows through the dirt and the wet stones, and his body came sliding on behind them, legs still running, until he stopped almost under the hooves of Jaina's mare.
+
+The mare went up.
+
+Jaina had no warning and no grip worth the name. The sky swung over, the hedge swinging after it. She dropped the reins and took two fistfuls of mane, the staff jammed under her arm, hanging on while the mare came down stiff-legged and spun, and spun again, the road and the wood and the green backs of the rangers wheeling past her in pieces. Somebody was shouting. Somebody was always shouting. A horse screamed—a real scream, high and furious—and it wasn't hers.
+
+"Right side! *Right!*"
+
+Hauling the mare's head round, she was in time to see them come out of the ditch.
+
+Wolves. Three of them, maybe four, grey and rack-thin, so thin she could count ribs under the patchy coats, coming up out of the ditch under the right-hand hedge and going straight in at the horses' legs without a sound. One had Neral's bay by the hock. The bay lashed out and missed. Neral didn't fight her horse; she rode it, sitting deep through every buck with the grey's lead rope still wrapped round her fist, and when the bay spun she spun it a full turn further and put both its forefeet down on the wolf's back. Jaina heard the spine go.
+
+Another wolf was coming for her.
+
+It came low along the ditch-side, head flat, filmed eyes fixed on the mare's hind legs and the soft place above the hock. Jaina didn't think. There wasn't anything in her to think with.
+
+She swung the staff down across her body. The cold went out of her in one hard rush, pouring through the crystal and down onto the road in a white sheet that cracked and spread and went glassy before it had finished spreading. The wolf's front feet skated. Its back feet stuck. It went down on its chin on the ice with its hind legs frozen to the road to the hocks, still trying to reach the mare, scrabbling at the ice with its forefeet and snapping at the empty air, when Lyriel's arrow went into its eye.
+
+Her right hand had gone. Just like that, the whole hand, as it had gone in the road that morning; she could see her fingers on the staff and couldn't feel them.
+
+"Mage! Stay on that horse!"
+
+She was staying on it. She was trying to.
+
+The doe came at her out of the left side of her eye.
+
+It was the second doe, the one that had been behind the leader, an arrow in her already, fletched in green, sunk to the feathers just behind the shoulder. Jaina had once seen a hart shot like that on one of King Terenas's autumn hunts in the hills above Lordaeron. It had dropped where it stood like a sack of meal off a cart. This one hadn't dropped. Blood was coming out of her nose in two long strings, her legs going wrong under her, wobbling, crossing—but she was still coming, the milky eyes on the mare. Another arrow took her in the neck. She stumbled. She came on.
+
+Light, why won't she go down?
+
+"Cyndia. Head."
+
+Cyndia was already moving. She put her horse across the road between the doe and Jaina's mare—close, closer than Jaina would have dared go near those feet—drawing left-handed and loosing almost straight down. The arrow went into the doe's skull with a thud like a mallet on a tent peg.
+
+The doe folded. Her legs went out from under her all at once, tipping her sideways into the right-hand ditch, where she lay with her head in the water and her hind legs still kicking slowly at the air. Then they stopped.
+
+Then it was quiet.
+
+Jaina sat in the middle of the road on a horse blowing hard under her and couldn't for the moment remember how she'd got there. The whole thing had been about as long as it took to say the Kirin Tor's long grace, and she'd seen almost none of it. She'd seen a doe and a stag and a wolf and her own ice. She'd seen Neral's back.
+
+Everything else had happened round the edges of her, inside the sound of Windrunner's voice—and it had happened the way Windrunner said it would, in the order she said it. *Front. The stag. The left. Right side. Head.* Jaina could have drawn it from those five words like a mage drawing a ward from its key runes. That was the only reason she knew what had been going on at all.
+
+"Hold," Windrunner said, in her ordinary voice.
+
+Everyone held. Nobody lowered a bow.
+
+"Cyndia."
+
+"Clear."
+
+"Lyriel."
+
+"Clear, right side."
+
+"Neral."
+
+"Clear. Grey's got a cut on the near hock. Shallow. Bay's sound."
+
+The nameless ranger, from the rear: "Clear."
+
+"Mage."
+
+Jaina opened her mouth, the coin taste filling it again. She swallowed it. "I'm—yes. Clear." It was ridiculous. She said it anyway.
+
+Lyriel swung down and walked to the wolf in the ice, putting her boot on its neck and working her arrow out of its eye with a little twist of the wrist. The ice had begun to go soft at the edges, pink where the blood had got into it. She looked at it, and at Jaina, and back at it.
+
+"I've crossed the Pass in midwinter with less ice under me, Lady Proudmoore."
+
+Cyndia was already on foot at the edge of the wood, crouched over the churned ground where the holly had broken.
+
+Jaina tried to say something back and had nothing, her eyes on the road.
+
+She looked at it properly now that it had stopped moving. The lead doe lay where she'd slid, her neck bent back and her eyes open, the film over them thick and yellowish up close and cracked at the edges like varnish on an old door. The stag's antlers had dug in so deep that his head was held up off the road by them, as if he'd lain down to rest with his chin on a fence rail. The wolves' coats were coming away in patches, the skin showing through grey and scabbed. The one Neral's bay had trodden on lay folded the wrong way in the middle.
+
+*Death-aligned.* She'd written that in her field-book and underlined it twice. She'd sat up night after night in her room in the Violet Citadel with the lamp turned down so the night porter wouldn't see the light under the door, turning the hitch in the lines over and over until she had words for it. She'd been pleased with those words. A death-aligned signature in the lattice. Necromantic residue.
+
+And all that time it had been out here doing this—putting milk in a doe's eyes and strings of blood down her nose, sending her at a line of horses with a Farstrider arrow through her heart. Was this what it had always been for? Had it been doing this the whole time she'd been reading it off stones, as tidy as an inventory?
+
+Windrunner rode slowly along the road from one end of the dead to the other, stopping at each animal to look down at it: the doe, the stag, the second doe, the wolves. Jaina watched her do it and couldn't tell what she was looking for. Coming back, she stopped her horse beside the ditch and looked down at the doe lying in it.
+
+"Deer don't run at horses," she said, to no one in particular. "And wolves don't hunt beside deer."
+
+"Ranger-General." Cyndia had come back from the wood edge, standing at Windrunner's stirrup with her weight even and her eyes up. "They came out on the one path. Deer slots and wolf pads in the same track, one on top of the other, as far back into the holly as I could see. None of the wolf tracks are spread for running. Nothing was chasing anything."
+
+Windrunner took that without a word, still looking at the doe.
+
+"That one had my arrow through the heart," she said. Then she looked up at Jaina. "Mage. Off the road. Tell me what's in her."
+
+*Off the road.* Jaina heard the shape of it before she heard the sense. *You don't step off the road unless I put you off it.* So this was being put.
+
+She got down and stepped into the ditch, cold water coming in over her boot tops, crouching by the doe's back. Up close the deer smelled of wet hide and blood and something sweetish underneath: the cabbage-field smell, the cellar smell. Jaina's right hand still wasn't hers. She tucked the staff into the crook of her elbow and put her left hand flat on the doe's flank, bare, below the ribs.
+
+The hide was warm. That was right; she hadn't been dead long enough to be anything else. But the warmth sat in the wrong places. The doe's shoulder under the heel of Jaina's hand had already begun to cool as a body ought to, from the outside in. Her belly was hot, hotter than living, hot the way the middle of a dung heap is hot when you push a spade into it on a frosty morning, a close damp heat with nothing clean in it. It came up through the hide into Jaina's palm as if the doe were still busy at something in there, without her.
+
+Jaina shut her eyes and went in after it.
+
+It was there at once, the coin taste flooding her mouth, the late dragging beat coming up under her hand as it had through the clay that morning, only here it had nowhere to hide. It was in the blood. She could feel the blood, thick and slow under the hide, the thing all through it. It was in the meat too, deeper than the blood, more of it further in. She couldn't reach the bottom of it through the hide.
+
+"I need her open," she said. "Below the ribs on this side, from the last rib back. Could someone—"
+
+She didn't have a knife. She'd never carried one; she'd never needed one. And if she had, it would be lying on a shelf at the Pass with her stockings.
+
+Windrunner came down off her horse. Drawing the knife from her belt, she stepped into the ditch on the far side of the doe and knelt in the water as if it weren't there, setting the point against the hide.
+
+"Where?"
+
+"There. Back from there. A hand's length."
+
+Windrunner cut. It was one stroke, long and smooth, the hide parting behind the knife and the belly coming open, a breath of steam rising out of it into the cold air with the smell after it. Jaina's stomach rolled over.
+
+Behind her the mare snorted, a long hard blast. Hooves sounded on the road, backing. Someone's horse squealed. "Easy," Neral was saying, low and steady, "easy, stand now, stand, you great fool, it's only blood." The hooves went on backing anyway. Jaina heard Neral take them up the road away from the ditch, all of them, talking the whole time in that same voice.
+
+She put her hand in.
+
+It was hot inside, hotter even than the belly had been through the hide, and wet. Her fingers went in past the wrist before they reached the liver. It was swollen, too big and too soft, giving under her fingertips like an overripe plum. Holding her hand there inside the doe, the blood coming up round her wrist, she went after it again.
+
+It was everywhere. The liver was the worst, so thick with the stuff that she could nearly feel it with her fingers and not only with the craft; then the lungs, then the blood, and the meat between.
+
+Death left its own mark when it came, flat and cold, settling over a body from the outside. Jaina knew that mark from every carcass the anatomy masters had ever laid out for her on a slab. This lay underneath it. It ran through the doe like roots through a pot when a plant has been left in it too long, threaded through everything, grown into everything—and roots took a whole season to grow like that.
+
+It had been in her while she was alive. It had been in her while she grazed and slept and ran, working away at her from the inside, a long time before any arrow.
+
+Light. That was the interesting part.
+
+It was the most interesting thing she'd found since the first stone. Some part of her sat up at it like a hound hearing its name, and she hated that—hated it with her hand in a dead doe to the wrist—while the same part was already drafting the next test. A wolf, to see whether it read the same in a meat-eater as in a grazer. Something from north of the Pass to set against it, if anything north of the Pass was still clean. Heart against liver. Blood taken warm against blood taken cold. She'd want jars. She'd want a great many jars, and a bench, and a lamp, and nobody knocking.
+
+The doe had been grazing somewhere. Deer came out of woods at dusk into fields like those back there, the cabbages going black in their rows, eating whatever stood in them. Who else had eaten from those fields—the cow in the byre, whoever milked her? How long ago? She didn't know. She didn't know a thing yet except that one deer was full of it, and one deer was one deer.
+
+No. Slower. A deer drank from the stream. A deer stripped bark and lay down every night in the same hollow in the bracken, picking things up in a hundred places a mage had never thought to look.
+
+Her stomach had been turning over ever since the knife went in. She told it to wait. She could be sick after the read, behind the hedge, on her own—except that she wouldn't be on her own, because she wasn't anywhere on her own any more—but after the read, anyway. She said it to herself quite firmly, as if her stomach were a first-year student and would take no for an answer.
+
+She drew her hand out. It came out red to the elbow and steaming in the cold. She sat back on her heels in the ditch water, looking across the doe at Windrunner.
+
+Windrunner was still kneeling where she'd knelt, the knife across her knee, waiting.
+
+Jaina looked past her, then. Cyndia stood at the edge of the wood with an arrow on the string, facing into the holly. The nameless ranger was at the rear of the road, facing back toward the cow and the farms. Neral had the horses bunched upwind with her body between them and the ditch. Lyriel was on the road above Jaina's head with her bow in her hand, watching the far hedge, the wolf's eye-blood still on her arrow. The light was going yellow along the hedge-tops.
+
+They'd been stopped here on an open road beside a wood with things in it for as long as it had taken her to go down into the doe and come back up, and not one of them had said hurry. Here, at least, they could see the wood. Last night on the hill there had been nothing to see at all—black slope falling away on every side—and she'd wanted to kneel in the middle of it with her eyes shut.
+
+"It's in her blood," Jaina said. "And in the meat, and all the organs. The liver worst, then the lungs. It's grown right through her. It was in her while she lived, Ranger-General, and it was working in her while she lived. Whatever it's been doing to her, it kept her on her feet after your arrow should have had her down. I don't know how yet."
+
+"Before she died."
+
+"Yes. Long before."
+
+"How long?"
+
+"I can't tell you. Longer than the fields back there have been rotting, I think. I'd need the wolf, and something healthy to set against them both, and a table."
+
+Windrunner looked at her for a moment, then up the road at the horses.
+
+"Is it in my horses?"
+
+Jaina hadn't thought of the horses. She got up out of the ditch, wet to the shins and red to the elbow, going up the road to where Neral stood holding them. Neral watched her come, holding the grey's head without a word. The cut on his near hock was shallow, a wolf's tooth-score through the hair and just into the skin, already crusting. Jaina put her clean hand on the leg above it, going down into him to listen.
+
+Hot horse. Tired horse. Clean blood.
+
+"Nothing I can feel," she said. "I want to look again tonight."
+
+"You will." Windrunner had come up behind her. "Where's it strongest?"
+
+She didn't need to go looking for that one. The staff had been humming in the crook of her arm the whole time, steady and fine. It hummed louder when she turned it south, down the road toward the top of the rise and whatever lay past it. She held it out that way, letting Windrunner see the crystal shiver in its claws.
+
+"There. Toward the crossing."
+
+Windrunner looked down the road, then up at the sky over the wood, where the light was going thin and brown. She wiped the knife on the verge grass, once and then once more, and put it away.
+
+"Mount. We ride hard. Neral, keep the grey with you, and if he goes lame, cut him loose." She swung up. "Mage, you're in the middle. If your horse goes down, you stay with it. Lyriel comes back for you."
+
+Jaina's field-book was in her satchel. She wanted it now, before the read went soft at the edges as reads did—the liver, the roots, the warmth sitting in the wrong places—and she reached in for it with her clean hand.
+
+"Slowly," Cyndia said.
+
+Jaina stopped. Up on the road Lyriel's hand had gone to her bowstring, not drawing, only resting there, her eyes on Jaina's hand in the satchel and nowhere else.
+
+Light help her. She'd just been to the elbow in a dead deer for these people, and they still thought she might come out of her bag with a knife from between her stockings.
+
+She took the field-book out with two fingers, as slowly as she'd ever done anything, holding it up where they could all see it was a book. Then she got the lid off the ink tin with her teeth and wrote *liver—roots—alive—before* across the top of a clean page, her fingers sticking to the paper and the ink going muddy where it met the blood, and put it all back, and went to find her mare.
+
+They rode hard.
+
+Jaina had never been much of a rider, and never anything at all at this pace. The mare went into a gallop the moment Windrunner's horse did, without asking her. All Jaina could do was get her weight forward and her knees in and her left hand wound into the mane, letting the staff ride across the saddle-bow under her dead right hand where it banged her thigh at every stride.
+
+The hedges went past in a long brown smear. Lyriel was at her knee, close enough to touch. Every so often Jaina felt her look across at the mare's stride, at Jaina's seat, at her hands, before she turned back to the hedge.
+
+The staff hummed the whole way. It rose as they went, so slowly that she couldn't have said when it changed, only that it had: a thin high note in the crystal that she felt in the roots of her teeth and the bones of her wrists, climbing, climbing, like a kettle that never quite comes to the boil.
+
+The road went up. The hedges dropped away on either side as they came over the top of the rise into the open, Windrunner pulling her horse up short on the crest, everyone stopping behind her.
+
+Millhaven lay below them.
+
+It sat at the bottom of a long, shallow fold of land where two roads crossed, theirs coming down from the north and another running east to west across it, a stream running along the bottom of the fold under a stone bridge. The mill stood by the bridge, its wheel still. The water went on pouring past it down the race, white in the last of the light, the wheel standing in it with its paddles dripping, not turning.
+
+There was a long building at the crossing with a yard and a hanging sign; an inn, or a tavern. Around it there were houses, a few dozen at most, low and thatched, with gardens behind them and walls between the gardens and lanes running off between the walls.
+
+There was no smoke.
+
+Jaina looked for it. She looked at every chimney she could see, one after another, then went back to the first and looked at them all again. There was not one thread of smoke going up into the evening from any of them. It was the hour for supper. It was cold enough for a fire at noon. Nobody in that whole village had lit one, or if they had, they'd let it go out.
+
+There were no lights in the windows, either. The houses sat in the dusk with their windows black, the light going out of the sky fast. Soon they'd be only dark shapes against a darker field.
+
+And the lines.
+
+She didn't have to go looking for them. They were all here, every ruled line on her map, coming in to that crossing out of the north and the east and the west like the running rigging on her father's flagship coming in through its blocks: from everywhere, to one place, drawn tight there. The wrongness lay along them. Here, at the end of them, it was knotted up in one hard lump under the crossroads, pulling at her, pulling at the staff in her hand.
+
+*Most of them cross within a mile of the crossroads.* She didn't look at Windrunner. She didn't need to.
+
+Nobody said anything. Jaina waited for a dog. Every village she had ever ridden into had dogs, every one of them barking at riders on the hill, at strangers, at horses, at nothing. She sat on the crest with her mare blowing under her, waiting for one to start. None did. There was the water going over the race, small and far off. There was the creak of leather and somebody's horse shaking its head, the bit jingling.
+
+The doe's eyes. The bowls on the table, with a spoon in each. The child's coat on its peg.
+
+They could wait for morning. That was the sensible thing. A ranger company on a hilltop in the dark, with sick wolves in the woods and nothing known of what was down there; Antonidas would have said wait for the light, and he'd have been right, and she'd have hated him for it. And if there was someone down there behind one of those black windows—somebody who had sat through how many nights already, listening for a horse on the road—and they waited on the hill till sunrise because it was sensible?
+
+She wanted to go down. She wanted, very badly, not to. She wanted somebody else to choose between them. She was angry with herself for wanting that, and it was a long way from the first time today.
+
+Windrunner sat her horse and looked down at the village. Her face did nothing at all.
+
+"Bows in hand," she said. "We walk them in. Cyndia, the left. Lyriel, the right. Mage, in the middle, and you stay there."
+
+In the middle. Cargo again, lashed down amidships with a ranger on every side of her. Jaina hated it exactly as much as she had at the Pass. She was glad of every one of them, too, and she hated that rather more.
+
+They went down at a walk.
+
+The road ran down off the open hillside toward the first garden walls, narrowing as it went, the verges closing in until the riders were knee to knee, Lyriel's horse at the mare's right shoulder, Cyndia's a length ahead on her left. The hooves went loud on the packed road. They went louder still where the road turned to stone at the bottom of the hill, a ringing clatter that went out ahead of them toward the dark houses and came back off the walls. Nothing else answered it. Not a dog. Not a voice. Not a door.
+
+Was there anyone? One person, anywhere in all those houses?
+
+She held the staff tight in her numb hand, the crystal humming, as the mare walked on down toward Millhaven.

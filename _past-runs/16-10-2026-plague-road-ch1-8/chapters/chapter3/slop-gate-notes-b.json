@@ -1,0 +1,1242 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (manifest has no slopGateLoop.iterationKillsB history)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 105,
+      "kills": 48,
+      "keeps": 57,
+      "severity": {
+        "MILD": 46,
+        "MODERATE": 1,
+        "SEVERE": 1
+      },
+      "killsByCode": {
+        "F2": 3,
+        "F3": 7,
+        "F4": 4,
+        "F6": 1,
+        "F7": 3,
+        "F8": 1,
+        "F11": 5,
+        "F12": 12,
+        "F13": 7,
+        "F14": 4,
+        "F15": 1
+      },
+      "dominantPattern": "F12 (non-action beats, 12 kills) followed by F13 (demonstrative captions, 7 kills)",
+      "structuralHabits": [
+        "F12: 12 non-action beats killed. Six of them sit in the hatch/interview sequence (L321-L479), including the near-verbatim repeat \"hands did not move on the boards\" (L325/L359). The strongest beat in each section is kept: L147, L375, L741.",
+        "F13: 7 \"That was...\" caption sentences across all three movements (L281, L419, L469, L483, L547, L803, L839).",
+        "F11: 5 anaphoric runs (Someone/Nobody/A man who/That was/Somebody).",
+        "F14: \"very slowly\"/\"slowly\"/\"carefully\" fenced adverbs used as a habit in the dawn section (3 kills under the habit rule)."
+      ],
+      "sceneLevel": {
+        "F1": "No sustained mechanical sameness. The staccato runs are dialogue-led (the child interview, the field reports) and vary in shape. The structural texture deficit is reported separately in summary.textureMetrics.",
+        "F5": "No kill. Sylvanas never concedes to the mage in the granary or at the cut. The rescue is earned through Neral's procedure. The carter leaves Sylvanas uneasy. The chapter ends on an unresolved self-argument (L841-L847)."
+      },
+      "findings": [
+        {
+          "id": "B-01",
+          "pattern": "F2",
+          "line": 91,
+          "text": "The smithy fire was out and the ash cold to the bottom.\" She paused. \"I'd say they went a few at a time.\"",
+          "issue": "Generic beat: \"She paused.\" is the whole beat between two parts of Cyndia's report and does no physical work. The same pause tic comes back at L545 (\"A pause.\").",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "The smithy fire was out and the ash cold to the bottom. I'd say they went a few at a time.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-02",
+          "pattern": "F2",
+          "line": 545,
+          "text": "I lost it there in the dark.\" A pause. \"There was a gate",
+          "issue": "Generic beat: \"A pause.\" is the whole beat. It is the second time Cyndia pauses before tacking on a remark (see L91).",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "I lost it there in the dark.\" Then: \"There was a gate",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-03",
+          "pattern": "F2",
+          "line": 775,
+          "text": "you're looking.\" She smiled at him. \"You'll get a better price",
+          "issue": "Generic beat: \"She smiled at him.\" is a bare label between Lyriel's lines. Her warmth is already in the line itself (\"friend\", \"mind\").",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "you're looking. You'll get a better price",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-04",
+          "pattern": "F3",
+          "line": 303,
+          "text": "Then, after a moment, in exactly the same voice:",
+          "issue": "Temporal padding: \"after a moment\". The point is that the voice is the same, and how long the gap was does not matter. The deletion test passes. (Possible overlap with the pass A recurring-tics temporal finding; apply once.)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Then, in exactly the same voice:",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "toolSignal": "temporal_after_moment"
+        },
+        {
+          "id": "B-05",
+          "pattern": "F3",
+          "line": 399,
+          "text": "Cyndia was in the doorway; she had been there, it seemed, for some time.",
+          "issue": "Hedge \"it seemed\". The deletion test passes. Sylvanas can infer how long Cyndia has been there from where she is standing, and the voice sheet says Sylvanas \"rarely qualifies\".",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Cyndia was in the doorway; she had been there for some time.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "toolSignal": "hedge_seemed"
+        },
+        {
+          "id": "B-06",
+          "pattern": "F3",
+          "line": 483,
+          "text": "Sylvanas understood her well enough. *That one's true.*",
+          "issue": "Filter verb \"understood\" placed between the POV and the free-indirect thought. Deleting it leaves the italic thought standing on its own.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "*That one's true.*",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-07",
+          "pattern": "F3",
+          "line": 613,
+          "text": "but the bottom was smooth, glazed almost, a hard skin on the clay",
+          "issue": "Hedge \"almost\". The next phrase (\"a hard skin on the clay\") already gives the exact texture, so the hedge only softens it. The deletion test passes.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "but the bottom was smooth and glazed, a hard skin on the clay",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "toolSignal": "hedge_almost"
+        },
+        {
+          "id": "B-08",
+          "pattern": "F3",
+          "line": 657,
+          "text": "It went, if anything, a little lower and more careful.",
+          "issue": "Stacked hedges in one sentence: \"if anything\" plus \"a little\". Under the stacking rule this is SEVERE.",
+          "severity": "SEVERE",
+          "verdict": "KILL",
+          "suggestedFix": "It went lower, and more careful.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-09",
+          "pattern": "F3",
+          "line": 741,
+          "text": "She heard the wagon before she saw it.",
+          "issue": "Filter verbs \"heard\"/\"saw\". The next sentence already gives the sound before the sight (iron tyres, rumble, clop), so this stock frame duplicates it. Deleting the sentence loses nothing.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-10",
+          "pattern": "F3",
+          "line": 789,
+          "text": "It was almost a relief to have one thing this morning that did not need doing.",
+          "issue": "Hedge \"almost\". The deletion test passes, and the relief is clearer without the hedge.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "It was a relief to have one thing this morning that did not need doing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "toolSignal": "hedge_almost"
+        },
+        {
+          "id": "B-11",
+          "pattern": "F4",
+          "line": 45,
+          "text": "Houses first. Then the ground.",
+          "issue": "Claim then gloss. The paragraph has already given the reasoning (pantry door, billhook, one shaking hand), the order was already spoken (\"Houses first.\"), and the next action (\"She nocked an arrow and took the west side.\") shows the decision. This repeats it as a slogan.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-12",
+          "pattern": "F4",
+          "line": 221,
+          "text": "Two hands, and neither one would hold a cup.",
+          "issue": "Restates the two sentences before it (fingers stopped halfway; right hand useless in the armpit) as a summary at the end of the paragraph.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-13",
+          "pattern": "F4",
+          "line": 271,
+          "text": "A living man stops for his shoe.",
+          "issue": "Repeats the L253 inference (\"He stops, and swears, and hops back on one leg and digs for it\") as an aphorism at the end of the paragraph. It adds no new fact.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-14",
+          "pattern": "F4",
+          "line": 423,
+          "text": "done close and neat by somebody who had cared about it.",
+          "issue": "The image (\"done close and neat\") already shows the care. \"by somebody who had cared about it\" puts a label on it.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "done close and neat.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-15",
+          "pattern": "F6",
+          "line": 379,
+          "text": "She did it exactly as she had said.",
+          "issue": "Thesis opener: the paragraph opens by saying what it is about, then shows it step by step (finger's width, hand's width, lantern at the side).",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-16",
+          "pattern": "F7",
+          "line": 103,
+          "text": "The village had given her its tables and its pegs and a cat. It had kept the rest.",
+          "issue": "Metaphorical mystification. The concrete list (\"No bodies. Nothing to turn over, nothing to measure, no wound...\") has done the work, and this closer repeats it as a neat figure. (The village-as-agent part is pass A ground and may also be flagged there; apply one fix.)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-17",
+          "pattern": "F7",
+          "line": 395,
+          "text": "Whatever else he had done, he had kept that promise.",
+          "issue": "Emotional summary at the end of the paragraph. The paragraph should stop at the inference (\"The man had not come back down to her, then.\") and leave the reader to finish the thought.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-18",
+          "pattern": "F7",
+          "line": 817,
+          "text": "Two empty places at the back of the line, the wind coming through them.",
+          "issue": "Metaphorical mystification. The list of absences (No bay... No grey... No fourth ranger...) has already done the work, and this closer folds it into an image.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-19",
+          "pattern": "F8",
+          "line": 285,
+          "text": "Cyndia lowered the lantern a little. \"Not on this, Ranger-General.\"",
+          "issue": "Echo exchange: Cyndia gives back Sylvanas's \"Not on this ground\" as agreement and adds no fact.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Cyndia lowered the lantern a little.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-20",
+          "pattern": "F11",
+          "line": 63,
+          "text": "Someone had sat by that bed. Someone had wrung that rag out and folded it and gone to fill the cup.",
+          "issue": "Anaphoric run \"Someone had... Someone had...\". This is the guide's own \"Somebody had swept the floor. Somebody had put...\" shape. It is the first run in the scene, and merging the two sentences loses nothing.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Someone had sat by that bed, and wrung that rag out and folded it, and gone to fill the cup.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-21",
+          "pattern": "F11",
+          "line": 253,
+          "text": "Nobody walks out of his clog in autumn mud and keeps going. Nobody with feeling in his feet.",
+          "issue": "Anaphoric run \"Nobody... Nobody...\", the second in the scene after L63. The second fragment only adds the qualifier, and merging keeps it.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Nobody with feeling in his feet walks out of his clog in autumn mud and keeps going.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-22",
+          "pattern": "F11",
+          "line": 359,
+          "text": "A man who'd already seen something come back. A man who knew what was going to walk in.",
+          "issue": "Anaphoric run \"A man who... A man who...\". It repeats a frame for weight inside the answer to a rhetorical question.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "A man who'd already seen something come back, and knew what was going to walk in.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-23",
+          "pattern": "F11",
+          "line": 541,
+          "text": "That was not the road down from the Pass. That was nowhere Sylvanas had been.",
+          "issue": "Anaphoric run \"That was... That was...\". Both sentences are also demonstrative-caption shaped.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "It was not the road down from the Pass, and Sylvanas had never been up it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-24",
+          "pattern": "F11",
+          "line": 719,
+          "text": "Somebody would think of something. Somebody who was not her.",
+          "issue": "Anaphoric run \"Somebody... Somebody...\". This is the first run in the second section. One word (\"else\") does the second fragment's job.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Somebody else would think of something.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-25",
+          "pattern": "F12",
+          "line": 101,
+          "text": "Her voice was quiet. She did not make anything of it, and Cyndia did not answer.",
+          "issue": "Two non-action beats ending the paragraph. The reader had no reason to expect Lyriel to \"make something\" of it or Cyndia to answer. (Position: paragraph-final.)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Her voice was quiet.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-26",
+          "pattern": "F12",
+          "line": 275,
+          "text": "Nobody answered. The slit of lantern light lay on the mud.",
+          "issue": "Non-action beat. \"They walked out\" is a statement, not a question, so an answer was not expected. The image that follows shows the silence by itself.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "The slit of lantern light lay on the mud.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-27",
+          "pattern": "F12",
+          "line": 321,
+          "text": "Sylvanas did not raise her voice.",
+          "issue": "The first of six non-action beats in the hatch sequence (L321-L479). The strongest one in the sequence, \"Neral did not touch the ring.\" (L375), is kept. This one reports an absence where the positive act is easy to state.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Sylvanas kept her voice down.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-28",
+          "pattern": "F12",
+          "line": 325,
+          "text": "Neral knew she was there. She did not turn, and her hands did not move on the boards.",
+          "issue": "Non-action beat, a double absence. Part of the hatch-sequence cluster.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Neral knew she was there, and kept her back to her and her hands flat on the boards.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-29",
+          "pattern": "F12",
+          "line": 359,
+          "text": "Neral's hands did not move on the boards.",
+          "issue": "Non-action beat that repeats L325 (\"her hands did not move on the boards\") almost word for word, 34 lines later. Hatch-sequence cluster. Marked MODERATE because the beat is a verbatim repeat. (Pass A may flag the same repeat; apply once.)",
+          "severity": "MODERATE",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-30",
+          "pattern": "F12",
+          "line": 391,
+          "text": "She did not go near the child.",
+          "issue": "Non-action beat. Hatch-sequence cluster. The positive placement is already on the page (the heap of turnips sits between them).",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "She kept the turnips between herself and the child.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-31",
+          "pattern": "F12",
+          "line": 425,
+          "text": "She did not let go of the blue scrap.",
+          "issue": "Non-action beat ending the paragraph. Hatch-sequence cluster.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "The blue scrap stayed in her fist.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-32",
+          "pattern": "F12",
+          "line": 479,
+          "text": "Neral turned her head. Sylvanas said nothing.",
+          "issue": "Non-action beat ending the paragraph. Nobody asked Sylvanas anything, so her silence is not news. Hatch-sequence cluster.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Neral turned her head.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-33",
+          "pattern": "F12",
+          "line": 675,
+          "text": "The mage studied the clay between her boots and said nothing more.",
+          "issue": "Non-action beat ending the paragraph. It also repeats the wording of L459 (\"The mage said nothing more.\").",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "The mage studied the clay between her boots.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-34",
+          "pattern": "F12",
+          "line": 703,
+          "text": "The mage's ears went red at the tips. She said nothing.",
+          "issue": "Non-action beat. The red ears already show the reaction, and the next action (moving to the settle) carries the silence.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "The mage's ears went red at the tips.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-35",
+          "pattern": "F12",
+          "line": 719,
+          "text": "She did not like the sound of that, and did not take it back either.",
+          "issue": "Two non-action beats ending the paragraph. The paragraph lands harder on \"Somebody... who was not her.\" \"take it back\" also repeats the L533 beat (\"Too late to take it back. She didn't try.\").",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-36",
+          "pattern": "F12",
+          "line": 773,
+          "text": "Sylvanas had nothing to say to that, and did not say it. Lyriel did.",
+          "issue": "Non-action beat. In the carter section the strongest refusal is \"Sylvanas did not draw.\" (L741), which is kept. This one reports an absence and then hands the turn to Lyriel.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "It was Lyriel who answered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-37",
+          "pattern": "F13",
+          "line": 281,
+          "text": "That was exactly why she would not say it.",
+          "issue": "Demonstrative caption that carries a fact: the frame labels the reason, and the fact is the decision. Keep the fact and drop the frame.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "So she would not say it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-38",
+          "pattern": "F13",
+          "line": 419,
+          "text": "That was the question with the teeth in it, and you didn't ask it of a child at the bottom of a hole with a lantern in her eyes.",
+          "issue": "Demonstrative caption: \"That was the question with the teeth in it\" labels and ranks the question just asked.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "You didn't ask a child that at the bottom of a hole with a lantern in her eyes.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-39",
+          "pattern": "F13",
+          "line": 469,
+          "text": "That was all there was of it.",
+          "issue": "Caption-only \"That was\" sentence. The shrug before it already shows that the girl has nothing more to say.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-40",
+          "pattern": "F13",
+          "line": 483,
+          "text": "That was a man sitting at his wife's bedside doing the one sensible thing left to do.",
+          "issue": "Demonstrative caption with a fact. Make the noun the subject.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "A man at his wife's bedside had done the one sensible thing left to do.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-41",
+          "pattern": "F13",
+          "line": 547,
+          "text": "That was what she did not like.",
+          "issue": "Caption-only \"That was\" sentence. The next sentence (\"She had a child's word...\") already carries the unease.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-42",
+          "pattern": "F13",
+          "line": 803,
+          "text": "That was all. Neral put her heel",
+          "issue": "Caption-only \"That was all.\" It marks the exchange as complete. The structural habit continues: this is the 7th \"That was/That's\" caption in the chapter.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Neral put her heel",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-43",
+          "pattern": "F13",
+          "line": 839,
+          "text": "That was her duty done, by any measure the chamber would put its seal to.",
+          "issue": "Demonstrative caption declaring completeness. Keep the fact and drop the frame.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Her duty was done, by any measure the chamber would put its seal to.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-44",
+          "pattern": "F14",
+          "line": 371,
+          "text": "tipped it, very slowly, onto the boards",
+          "issue": "Fenced manner adverb \"very slowly\". The deletion test passes. The trickle that follows already shows how gently the water is poured.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "tipped it onto the boards",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-45",
+          "pattern": "F14",
+          "line": 611,
+          "text": "and then the mage, very slowly, with the staff in the crook of her elbow",
+          "issue": "Fenced manner adverb \"very slowly\", the first of three in the cut/inn section, so all three are killed. Her fatigue is already shown by the hands held to her chest and later by the green face.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "and then the mage, with the staff in the crook of her elbow",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-46",
+          "pattern": "F14",
+          "line": 651,
+          "text": "on under the hazel, slowly, her lips moving,",
+          "issue": "Fenced manner adverb \"slowly\", followed by a gloss (\"her lips moving\") that already shows the careful counting. Second in the section.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "on under the hazel with her lips moving,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-47",
+          "pattern": "F14",
+          "line": 703,
+          "text": "from the girl, carefully, and laid her hands in her lap.",
+          "issue": "Fenced manner adverb \", carefully,\". Third in the section, so the habit rule applies.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "from the girl and laid her hands in her lap.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-48",
+          "pattern": "F15",
+          "line": 859,
+          "text": "as far as the end of the field and stood there, barking after them a long way down the road.",
+          "issue": "Dying-fall coda at the end of the chapter. It ends on a distance tail (\"a long way down the road\") after the last real event (L857, the staff pointing south). Keep the live-dog image but cut the fading tail.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "as far as the end of the field, barking.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povCharacter": "Sylvanas Windrunner",
+      "registerSummary": "Clipped, dry, exact field commander. Her inner voice argues with itself in free indirect thought: self-orders (\"Open the doors.\"), curses (\"Damn her, then.\"), tactical generalizations from long experience (herds, clogs, toe-drags), and contempt for the chamber. She notices exits, cover, prints, and horses before social meaning. She would not think in neat paradoxes, puns on her own similes, or captions of what she herself is doing.",
+      "registerConfidence": "HIGH",
+      "totalCandidates": 39,
+      "kills": 8,
+      "keeps": 31,
+      "tierAKills": 6,
+      "tierBKills": 2,
+      "severity": {
+        "MILD": 8,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "killsByCode": {
+        "B1": 2,
+        "A1": 2,
+        "A2": 1,
+        "A7": 3
+      },
+      "dominantPattern": "A7 (generic \"you\" / \"as children did\" generalizations, 3 kills)",
+      "structuralHabit": "Mild. Aphoristic closers at the ends of paragraphs (L215, L587, L661) recur once per movement. Generic \"you\" appears 6+ times; only the non-free-indirect uses are killed.",
+      "severePages": [],
+      "severeScenes": [],
+      "findings": [
+        {
+          "id": "B-49",
+          "pattern": "B1",
+          "line": 85,
+          "text": "She was standing in the street counting what wasn't in it, like a quartermaster down the shelves after a bad winter.",
+          "issue": "Psychic-distance jump (level 4 to level 2). The camera pulls back to caption what Sylvanas has spent two paragraphs doing, which repeats the inventory as a self-portrait. Who is saying this: the narrator.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "B",
+          "confidence": "MODERATE"
+        },
+        {
+          "id": "B-50",
+          "pattern": "A1",
+          "line": 215,
+          "text": "It was the right answer, and that was the trouble.",
+          "issue": "Verdict-tag tail (\"and that was the trouble\") summing up the moment in a tidy paradox. The herd-in-the-clearing analogy that follows does the real thinking. Who is saying this: the narrator.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "It was the right answer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "confidence": "HIGH"
+        },
+        {
+          "id": "B-51",
+          "pattern": "A2",
+          "line": 257,
+          "text": "A man walking out of his clog was a man walking out of his clog.",
+          "issue": "Tautology slogan. It is the second \"X was X\" in the chapter (L77 \"A doe was a doe\", later L319 \"A doe is a doe\"), and the refrain turns into a caption pinned over the scene. L77 and L319 are kept as the refrain. (Pass A may flag the same tautology; apply once.)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "confidence": "HIGH"
+        },
+        {
+          "id": "B-52",
+          "pattern": "A7",
+          "line": 331,
+          "text": "Her mouth, the only part of her face that ever told you anything, pressed thin and stayed that way.",
+          "issue": "Generic \"you\" in third-person narration, used here to describe Jaina's face, so it is not Sylvanas's own idiom in free indirect thought. Generic \"you\" appears 6+ times in the chapter, and this use is the least clearly hers.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Her mouth pressed thin and stayed that way.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "confidence": "HIGH"
+        },
+        {
+          "id": "B-53",
+          "pattern": "A7",
+          "line": 465,
+          "text": "She had some rhythm now, as children did once the first words were out.",
+          "issue": "Generalizing construction (\"as children did\") that pulls out to a claim about children in general. It drives no decision.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "She had some rhythm now that the first words were out.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "confidence": "HIGH"
+        },
+        {
+          "id": "B-54",
+          "pattern": "A1",
+          "line": 587,
+          "text": "never louder, never quieter, the one sound the village had kept.",
+          "issue": "Verdict-tag tail (\"the one sound the village had kept\") added to a concrete sound description. It echoes the L103 \"It had kept the rest\" closer. (The village-as-agent part is pass A ground; apply one fix.)",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "never louder, never quieter.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "confidence": "HIGH"
+        },
+        {
+          "id": "B-55",
+          "pattern": "A7",
+          "line": 605,
+          "text": "neat, the way you hold a gate for cattle you mean to bring through.",
+          "issue": "Generic \"you\" in descriptive narration addresses an imagined reader. Keep the drover image and drop the \"you\".",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "neat, the way a drover holds a gate for cattle he means to bring through.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "A",
+          "confidence": "HIGH"
+        },
+        {
+          "id": "B-56",
+          "pattern": "B1",
+          "line": 661,
+          "text": "Water had a hill to go down. These had walked up one.",
+          "issue": "Pun on the line before it (\"the way water goes downhill\"). An authored flourish at the end of the paragraph, too polished for a ranger reading clay at dawn. Who is saying this: the narrator.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "tier": "B",
+          "confidence": "MODERATE"
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 21,
+      "kills": 0,
+      "keeps": 21,
+      "severity": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "21 candidates examined, including all 6 slop-checker hedging hits (hedging maps to this guide). Every tactical or inferential line in the narration cashes out on the page: the coats on the pegs, bowls and dust behind \"they went a few at a time\" (L91); the lag-by-line magic read (L155-L159); the toe-down glazed groove behind \"This foot had never lifted\" (L613); grain dust in the wagon cracks behind \"Empty going up, full coming down.\" (L759); the click in the crystal and the green face behind \"the read was the trail\" (L843-L845). P5 note-speak candidates (\"Fine; the mage.\" L105, \"She picked the ground first.\" L109) are both followed at once by the concrete action they compress. The tool hedges are concrete descriptions, not phantom specificity. Four of them (L399 seemed, L613 almost, L789 almost, and the related stacked hedge at L657) are killed under gpt-5 F3, which is the guide that owns the padding. L315/L423 \"perhaps\" are real estimates tied to observed mould and the child's body, and L629 \"might have been anything\" is resolved by the staff in the same paragraph. No dialogue uses sloganized abstraction: the mage's speeches name lines, lag, prints and lanes. The keep rate is high because the narration is evidence-first, and each keep is listed in the scratchpad.",
+      "findings": []
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 10,
+      "kills": 0,
+      "keeps": 10,
+      "severity": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": null,
+      "cleanReason": "There is no explicit \"plainly / smaller words / short version\" setup in the chapter. 10 implicit translation exchanges were audited, where one character asks another to turn a specialist read into something usable: \"Which is it?\" (L161), \"Then this is where it started.\" -> the store explanation (L213), Sylvanas's restatement (L227), \"Can you hear anything in them without your hands?\" (L263), \"Is there anything else down there with them?\" (L329), \"Ask her how she knows which way.\" (L497), \"Which way were the toes pointing?\" (L507), \"Which way is it? You can point.\" (L535), \"Can you tell her which marks are which?\" (L617), and the noon report \"Mage.\" -> \"It's thicker... ahead... All of it.\" (L831-L833). Every reply names a usable target or field sign (heavier in the prints than in the ground, the cellar light, away toward Pell's, pointing at the back wall, heavy/light per mark, ahead toward the willows) or gives an honest \"I can't, not from this\". None needs a second round of unpacking. The carter's \"smoke in every chimney\" (L767) is explicitly marked useless in the narration (L769), so it does not pass itself off as payload.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 56,
+    "totalKeeps": 119,
+    "mildKills": 54,
+    "moderateOrSevereKills": 2,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md"
+    ],
+    "killsWithFix": 56,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "56 kills (2 MODERATE/SEVERE: stacked hedges at L657, verbatim non-action repeat at L359; 54 MILD). Structural habits: F12 non-action beats (12), F13 \"That was\" captions (7), F11 anaphoric runs (5). Phantom-concreteness and fake-simplification are clean. Structural rhythm concerns: sentence_length_cv, short_sentence_pct, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr outside the style-guide range. Structural texture deficit (texture_score 76.1, participial 4.6% vs 12%).",
+    "applyNotes": [
+      "An empty-string suggestedFix means delete the cited text, including the space before it.",
+      "L703 has two independent kills (F12 \"She said nothing.\" and F14 \", carefully,\"). They touch different spans and can both be applied.",
+      "L719 has two adjacent kills (F11 \"Somebody... Somebody...\" and F12 \"She did not like the sound of that...\"). Apply both; the paragraph then ends \"Somebody else would think of something.\"",
+      "Possible overlap with pass A on the same spans: L103 (village gave/kept), L257 (tautology), L303 (after a moment), L359 (hands did not move), L587 (the one sound the village had kept). Apply one fix per span."
+    ],
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.658,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": -0.062,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.5,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "delta": 0.5,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.898,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.198,
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 43.3,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "delta": 8.3,
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 20.0,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "delta": 10.0,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.32,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "delta": -1.38,
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 30.8,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 11.8,
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.766,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "delta": -0.064,
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "short_sentence_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 76.1,
+      "participial_pct": 4.6,
+      "compound_pct": 12.3,
+      "emdash_pct": 1.3,
+      "semicolon_pct": 1.8,
+      "short_pct": 52.5,
+      "verdict_reasons": [
+        "participial: 4.6% below target 12.0% (score 50/100)",
+        "compound: 12.3% above target 10.0% (score 79/100)",
+        "emdash: 1.3% below target 4.0% (score 75/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.6% → target 12.0% (score 50/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.3% → target 10.0% (score 79/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.3% → target 4.0% (score 75/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 31,
+      "textureDesertCount": 32,
+      "note": "structural texture deficit",
+      "killOverlap": "Most pass B kills are deletions. The F12/F13/F7 cuts in the interview (L419-L483) and hatch sequence (L321-L425) fall inside flagged telegram runs and texture deserts. When applying them, the slophunter should also join adjacent short sentences with participial or em-dash constructions (participial 4.6% vs 12% target) rather than leave the stretch choppier."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 93,
+        "total_violations": 3,
+        "overCap": [
+          {
+            "category": "filter_words",
+            "pattern": "filter_watched",
+            "count": 6,
+            "cap": 3
+          },
+          {
+            "category": "paragraph_structure",
+            "pattern": "opener_consecutive_repeat",
+            "count": 3,
+            "cap": 0
+          },
+          {
+            "category": "permission_tags",
+            "pattern": "permission_tag_let_it_settle",
+            "count": 1,
+            "cap": 0
+          }
+        ],
+        "passBMappedSignals": {
+          "hedging": "6 matches (L315 perhaps, L399 seemed, L423 perhaps, L613 almost, L629 might have been, L789 almost). Killed under gpt-5 F3: L399, L613, L789. Kept with rationale: L315, L423, L629.",
+          "verbose_phrases/expression_decomposition/academic_register/dialogue_register/ai_vocabulary/clinical_anatomy/slopsquid/narrator_verdict/ambient_inversion": "0 matches"
+        },
+        "note": "The over-cap patterns (filter_watched, opener_consecutive_repeat, permission_tag_let_it_settle) map to pass A guides. temporal_after_moment (L303) maps to pass A but is also killed here under gpt-5 F3, so apply that fix once."
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 5,
+  "targetFile": "v2-r5.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB [56, 42, 15, 10, 4] strictly decreasing)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 52,
+      "kills": 3,
+      "keeps": 49,
+      "severityMarkers": { "MILD": 3, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": "F6/F7 paragraph-final restatement (2 of 3 kills)",
+      "findings": [
+        {
+          "id": "B-r5-1",
+          "pattern": "F7",
+          "patternName": "Closure Addiction (paragraph-final recap)",
+          "severity": "MILD",
+          "line": 546,
+          "text": "pointed north, because she wanted it to. She had a child's word, given through the bars of a cellar light, by a child who did not know one night from the next, about a road Sylvanas had never seen.",
+          "location": "paragraph-final",
+          "couldEndEarlierAt": "The noon stone with the cold under its warmth, which Sylvanas could feel in her palm still if she let herself, pointed north, because she wanted it to.",
+          "issue": "The closing sentence recaps evidence the reader already holds (the cellar light at L502, the child not knowing one night from the next at L520, the road Sylvanas has never seen at L540). The paragraph has its sting at 'because she wanted it to', and the recap comes after it. L588 then restates the same weighing almost word for word ('a child's word, through a grating, in the dark'), so L546's version is the redundant one. Plain deletion; L588 still carries the thought.",
+          "suggestedFix": "pointed north, because she wanted it to.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r5-2",
+          "pattern": "F2",
+          "patternName": "Dialogue-Beat Genericism (bare nod)",
+          "severity": "MILD",
+          "line": 550,
+          "text": "Neral nodded. She had already started to rock the girl.",
+          "issue": "'Neral nodded.' is a whole sentence of beat made of one kill-list verb with nothing else in it. The next sentence already shows that Neral accepts the stop: she is rocking the girl. The nod labels agreement that the rocking already shows.",
+          "toolSignal": "filler_nodded",
+          "suggestedFix": "Neral had already started to rock the girl.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r5-3",
+          "pattern": "F6",
+          "patternName": "Essay Brain (claim, evidence, restatement)",
+          "severity": "MILD",
+          "line": 596,
+          "text": "and put her hands into the road and a dead deer and a storehouse floor. She sat there waiting for the sun like Sylvanas, so she could go and look at something.",
+          "issue": "The paragraph opens on a claim ('She had been awake as long as Sylvanas had. Longer.'), gives the evidence list (rings on foot, the cell with its damper, the night ride, the road, the deer, the storehouse floor) and then closes by restating the parity ('like Sylvanas'). The waiting is already on the page in L594: eyes open, head back, breath steaming. The close also leans toward the warmth the plan rules out ('she does not grow warm'). Ending on the storehouse floor leaves the tally to speak, and 'Go to bed, mage.' answers it directly.",
+          "suggestedFix": "and put her hands into the road and a dead deer and a storehouse floor.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 27,
+      "kills": 0,
+      "keeps": 27,
+      "severityMarkers": { "MILD": 0, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": null,
+      "povRegister": "POV CHARACTER: Sylvanas Windrunner. REGISTER: aloud clipped and finished; inside she argues with herself in short turning clauses, asks a question and overrules the answer, swears by the sun, is unfair to magisters, humans and the chamber, and flays herself by the standard she would apply to a ranger. She reads ground, cover, gait and tracks before social meaning, and does not name feelings outright. REGISTER CONFIDENCE: HIGH (voice sheet plus the chapter's own established inner voice).",
+      "findings": [],
+      "cleanReason": "27 candidates examined across A1 (L163, L482, L752, L604), A2 (L77, L836), A5 (L586), A7 generalizations (L17 horseshoe, L51, L87, L213 herd/magisters, L251, L253, L458, L468, L612, L656, L704, L710 generic 'you'), A8 inversions (L3, L19, L131, L341, L734), B1/B2/B3/B4 (L297, L462, L566, L634, L804, field-domain similes). Every A7 generalization is tracker, horse-handler or field knowledge put to work on a read or a decision in the scene, or it is her stated unfairness to humans and the chamber, which the voice sheet prescribes. Every A8 frame names its source at once, or (L734) the sound comes before the sight while she cannot yet see the wagon. The verdict-shaped lines pass the mutter test and end in an action or a decision. L596's restatement is killed under gpt-5 F6 and is not re-killed here. L634's missing actor was handled by pass A."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 23,
+      "kills": 1,
+      "keeps": 22,
+      "severityMarkers": { "MILD": 1, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "id": "B-r5-4",
+          "pattern": "P3",
+          "patternName": "Placeholder-noun stand-in",
+          "severity": "MILD",
+          "line": 590,
+          "text": "while the thing came over the hills somewhere else",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "The walkers. The same paragraph opens on 'every soul who had lived in Millhaven was walking toward her line', and Sylvanas has already thought of them as dead ('A village's worth of dead walk up a road', L530). 'The thing' swaps the concrete subject for an ominous placeholder. It also hints at a single entity or something organized, which the plan rules out ('dead moving north is a direction, not a command structure').",
+          "issue": "A placeholder noun stands in where the concrete referent is on the page one sentence earlier.",
+          "suggestedFix": "while the dead came over the hills somewhere else",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "keepRateNote": "Keep rate is 96%, far above the guide's 25% warning line. That is justified here: the chapter's inferences (tracks, frost, the staff's heavy and light reads, dust on the drawknife, mould in the bowls) are shown before they are compressed. The keeps meet evidence-based inference or anchored shorthand, and each is documented in the scratchpad."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 8,
+      "kills": 0,
+      "keeps": 8,
+      "severityMarkers": { "MILD": 0, "MODERATE": 0, "SEVERE": 0 },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "There is no explicit 'plainly' or 'smaller words' setup in the chapter. Eight 'give me the bottom line' exchanges were audited as translation setups: 'Which is it?' (L159), 'Where's it worst?' (L165), the call/refusal at the storehouse (L199-211), 'Can you hear anything in them without your hands?' (L261), 'Can you tell her which marks are which?' (L616), 'Ask her how she knows which way' (L496), 'Which way is it? You can point.' (L534), and 'Well?' at the noon crossing (L824). Every reply gives a usable handle: the bridge, the mill and the inn cellar; a heavy or light call per mark, which Cyndia counts at once; the cellar light; a pointing arm; 'ahead of us, down the road'. Where the reply is a refusal (L161, L211), the refusal is the operative payload and comes with a concrete reason ('a store is where things end up'). None needs a second unpacking."
+    }
+  ],
+  "summary": {
+    "totalKills": 4,
+    "totalKeeps": 106,
+    "mildKills": 4,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md", "phantom-concreteness-guide.md"],
+    "killsWithFix": 4,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "4 MILD kills (more than 3 MILD) and 0 MODERATE/SEVERE. Three are paragraph-level redundancy or bare-beat issues (F7 L546, F2 L550, F6 L596) and one is a placeholder noun (P3 L590). All four have drop-in fixes: two deletions and two one- or two-word substitutions. Structural texture deficit: below_target (74.7). Structural rhythm concerns: sentence_length_cv, short_sentence_pct, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are outside range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": { "actual": 0.649, "target": 0.72, "delta": -0.071, "range": [0.6, 0.85], "inRange": true },
+      "sentence_length_mean": { "actual": 11.7, "target": 11.0, "delta": 0.7, "range": [9.0, 13.0], "inRange": true },
+      "sentence_length_cv": { "actual": 0.894, "target": 0.7, "delta": 0.194, "range": [0.6, 0.8], "inRange": false },
+      "short_sentence_pct": { "actual": 43.0, "target": 35.0, "delta": 8.0, "range": [28.0, 42.0], "inRange": false },
+      "long_sentence_pct": { "actual": 20.6, "target": 10.0, "delta": 10.6, "range": [7.0, 14.0], "inRange": false },
+      "opener_entropy": { "actual": 6.38, "target": 7.7, "delta": -1.32, "range": [7.2, 8.2], "inRange": false },
+      "one_sentence_paragraph_pct": { "actual": 34.1, "target": 19.0, "delta": 15.1, "range": [15.0, 24.0], "inRange": false },
+      "mattr": { "actual": 0.765, "target": 0.83, "delta": -0.065, "range": [0.8, 0.87], "inRange": false },
+      "note": "Structural rhythm concerns: cv, short/long pct, opener entropy, one-sentence paragraphs, mattr. These do not affect the verdict and are for downstream editors."
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.7,
+      "participial_pct": 4.4,
+      "compound_pct": 12.9,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.6,
+      "short_pct": 52.0,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.9% above target 10.0% (score 73/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0%. Add ', Ving' phrases as connective tissue between actions. | COMPOUND: 12.9% -> target 10.0%. Too many ', and/but/yet' joins; break some into separate sentences. | EMDASH: 1.4% -> target 4.0%. Use for mid-sentence pivots.",
+      "flaggedPassages": { "telegram_run": 30, "texture_desert": 26 },
+      "note": "Structural texture deficit. Most telegram runs sit in dialogue exchanges (the interrogation at L428-524, the storehouse exchange, the staff reads at the cut). None of the four kills sits in a narration desert where adding joins would be part of the fix. Both deletions (L546, L596) remove compound-heavy sentences, which nudges compound_pct toward target."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 65,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passBMappedSignals": [
+          { "pattern": "hedge_might_have_been", "line": 626, "text": "a long smear that might have been anything", "decision": "KEEP", "reason": "Uncertainty is the dramatic point: the eye cannot read the smear, which is why the staff read decides it. Payload follows at once ('The long smear was heavy')." }
+        ],
+        "corroboratingSignals": [
+          { "pattern": "filler_nodded", "line": 550, "usedBy": "B-r5-2" }
+        ]
+      }
+    },
+    "outOfScopeObservations": [
+      "L357-358: paragraph break missing between Sylvanas's italic thought and \"Your da was right,\" Neral said. (formatting)",
+      "L456 says the mage 'had nothing to write with', but at L688 she produces an ink tin and a steel pen from her own kit (continuity; possibly the kit was on the horse, but nothing on the page says so)",
+      "L155-157: the mage reads 'two from the north', but the crossing has only one north road (L109). This only works if 'lines' are not the roads (continuity/clarity)",
+      "L672: 'She pulled the glove back on' follows the mage's dialogue, so the antecedent is ambiguous (Sylvanas is meant)"
+    ]
+  }
+}

@@ -1,0 +1,939 @@
+{
+  "chapterId": "chapter7",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 0,
+  "targetFile": "v2.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB empty, no trajectory)",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner",
+    "registerSummary": "She reads ground first: exits, cover, sightlines, gait, who is trained and who is tired. Her inner voice asks itself questions and answers badly, is unfair to slow humans and knows it, and stays dry and concrete. She names no feelings and does not think in thematic summaries of the partnership or her own arc.",
+    "registerConfidence": "HIGH"
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 65,
+      "kills": 40,
+      "keeps": 25,
+      "dominantPattern": "F9",
+      "severityMarkers": [
+        "F9 SEVERE: scene 1 (3 kills: L135, L149, L231) and scene 3 (4 kills: L373, L413, L435, L477)",
+        "F12 habit: 5 kills across all three scenes; each scene keeps one strongest beat (L201, L289, L407)",
+        "F13: 3 'That was/That counted' captions",
+        "F7 deferral-tag habit in scene 1 (let it lie / could wait / left it alone)",
+        "F1 clean: no sustained same-shape stretch found",
+        "F5 clean: Havel/Corin conflict and Havel's route-pull stay unresolved; Havel defers and keeps chalking his own lane",
+        "F15 clean: all three scene endings land on an action or a line of dialogue"
+      ],
+      "findings": [
+        {
+          "verdict": "KILL",
+          "pattern": "F2",
+          "line": 31,
+          "text": "Sylvanas nodded.",
+          "issue": "Generic beat: the whole paragraph is a bare nod after Cyndia's report. Nothing here only Sylvanas would do.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post",
+          "toolSignal": "filler_nodded"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F2",
+          "line": 159,
+          "text": "The young man shut his mouth.",
+          "issue": "Stock beat that could belong to anyone. Havel's cut-off already shows Corin has been shut down. The same 'shut his mouth' beat comes back for Havel at L437.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F2",
+          "line": 401,
+          "text": "Jaina watched her do it. \"They know what it does,\" she said.",
+          "issue": "Generic look-beat before a line, adding nothing beyond 'she was looking'. Only the dialogue carries content.",
+          "severity": "MILD",
+          "suggestedFix": "\"They know what it does,\" Jaina said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night",
+          "toolSignal": "filter_watched"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F2",
+          "line": 421,
+          "text": "Then he nodded.",
+          "issue": "Bare nod as the whole beat, straight before the line 'The lad's right about the carts', which already says he concedes.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night",
+          "toolSignal": "filler_nodded"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F2",
+          "line": 437,
+          "text": "Havel opened his mouth and shut it again.",
+          "issue": "Stock no-answer beat (open mouth, shut it). It could belong to any character, and Corin's answer on the next line already shows Havel has none.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F3",
+          "line": 67,
+          "text": "He wrote. Sylvanas watched the pen go:",
+          "issue": "Filter verb. 'Sylvanas watched the pen go' routes the entries through her looking. Deletion test: 'He wrote: *Proudmoore...*' carries the same thing more directly.",
+          "severity": "MILD",
+          "suggestedFix": "He wrote:",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post",
+          "toolSignal": "filter_watched"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F3",
+          "line": 237,
+          "text": "talking the whole way, easy and a little proud.",
+          "issue": "Hedge 'a little' softens a committed read of Havel's manner.",
+          "severity": "MILD",
+          "suggestedFix": "talking the whole way, easy and proud.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s2-hurdle-lane-and-kett"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F3",
+          "line": 263,
+          "text": "She could see it in how the men sat and how they stood up again:",
+          "issue": "Filter scaffold 'She could see it in'. The evidence after the colon is direct perception and needs no frame.",
+          "severity": "MILD",
+          "suggestedFix": "It showed in how the men sat and how they stood up again:",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s2-hurdle-lane-and-kett"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F3",
+          "line": 395,
+          "text": "Jaina was quiet a moment. \"So it goes on in the loft, by hand,",
+          "issue": "Temporal padding 'a moment' as a lead-in beat. The pause does no work. Her reasoning in the line is the event.",
+          "severity": "MILD",
+          "suggestedFix": "\"So it goes on in the loft,\" Jaina said, \"by hand,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F3",
+          "line": 421,
+          "text": "Havel looked at him for a while.",
+          "issue": "Temporal padding 'for a while'. Nobody in the scene acts on the length of the pause.",
+          "severity": "MILD",
+          "suggestedFix": "Havel looked at him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F3",
+          "line": 455,
+          "text": "Sylvanas heard the heel of the staff grind on the earth floor and the stool scrape back.",
+          "issue": "Filter verb 'heard'. Deletion test: 'The heel of the staff ground on the earth floor and the stool scraped back' is more direct and still sits in her hearing.",
+          "severity": "MILD",
+          "suggestedFix": "The heel of the staff ground on the earth floor and the stool scraped back.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F3",
+          "line": 485,
+          "text": "Sylvanas looked at him for a moment:",
+          "issue": "Temporal padding 'for a moment' in front of a look-inventory that carries the beat on its own.",
+          "severity": "MILD",
+          "suggestedFix": "Sylvanas looked at him:",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F4",
+          "line": 269,
+          "text": "They were waiting, all of them, and none of them was tired.",
+          "issue": "Glosses the paragraph before it. L265 ('Some of them weren't.') and L267's square-footed pairs and stalled hoist man already show it, and Cyndia's count follows straight after.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s2-hurdle-lane-and-kett"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F6",
+          "line": 161,
+          "text": "One man had the yards, the other the roads.",
+          "issue": "Thesis opener. The paragraph states its chiasmus as a claim and then restates it at once ('Havel knew where the poison went into the sacks; Corin knew where the sacks went after'). The second sentence is the concrete one.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F7",
+          "line": 25,
+          "text": "Either fit, and the gate couldn't tell her which.",
+          "issue": "Paragraph-final closer that sums up the two 'It could be' options the reader has just read. The paragraph lands harder on the second option.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F7",
+          "line": 167,
+          "text": "She couldn't tell from a chalked wall whether that was all of it, and she let it lie.",
+          "issue": "Deferral tag 'and she let it lie' closes the beat by cadence. The scene uses this tag three times (L167, L209 'could wait for a night', L211 'she left it alone'). Keep the uncertainty and drop the tag.",
+          "severity": "MILD",
+          "suggestedFix": "She couldn't tell from a chalked wall whether that was all of it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F8",
+          "line": 155,
+          "text": "\"I'm not asking you to arrest a village, I'm asking you to—\"",
+          "issue": "Echo exchange. Corin hands back Havel's 'arrest a village' as a rebuttal and adds no fact before he is cut off. This is the second echo in the run (after 'Are gone'), and Havel's 'You're asking me' echoes it again.",
+          "severity": "MILD",
+          "suggestedFix": "\"Then read them before you—\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F8",
+          "line": 225,
+          "text": "\"When it rings.\"",
+          "issue": "Echo reply. Jaina hands back Sylvanas's 'When the Exchange rings' as an acknowledgment and adds no fact. Corin setting off on the next line already answers it.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F8",
+          "line": 397,
+          "text": "\"They don't teach the loaders.\"",
+          "issue": "Echo reply. Sylvanas hands back Jaina's 'You wouldn't teach that to a loader' as agreement. The next sentences ('These stand sentry... This one carries word') carry the actual new fact.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F9",
+          "line": null,
+          "text": "\"Lad.\"\n\n\"Sorry. Captain.",
+          "issue": "Name-only line standing in for a sayable rebuke ('Not now'). It is the first of three F9 kills in scene 1.",
+          "severity": "SEVERE",
+          "suggestedFix": "\"Not now, lad.\"\n\n\"Sorry. Captain.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F9",
+          "line": 149,
+          "text": "I don't say the lad's wrong, Ranger-General.",
+          "issue": "Havel's second rank vocative to Sylvanas in scene 1 (first: L89 greeting). The address adds nothing.",
+          "severity": "SEVERE",
+          "suggestedFix": "I don't say the lad's wrong.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F9",
+          "line": 231,
+          "text": "\"Hurdle Lane, Captain.\"",
+          "issue": "Sylvanas's second 'Captain' vocative in scene 1 (first: L105). The line is a place name plus a title standing in for the order.",
+          "severity": "SEVERE",
+          "suggestedFix": "\"Show me Hurdle Lane.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F9",
+          "line": 297,
+          "text": "\"Captain,\" she said. \"Show my ranger",
+          "issue": "Sylvanas's second 'Captain' vocative in scene 2 (first: L279 'Are those your loaders, Captain?').",
+          "severity": "MILD",
+          "suggestedFix": "She turned to Havel. \"Show my ranger",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s2-hurdle-lane-and-kett"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F9",
+          "line": null,
+          "text": "\"Corin.\"\n\nHe stopped.",
+          "issue": "Name-only line used as a rebuke. It stands in for 'That'll do'. Scene 3 has four F9 kills.",
+          "severity": "SEVERE",
+          "suggestedFix": "\"That'll do.\"\n\nHe stopped.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F9",
+          "line": null,
+          "text": "\"Lad.\"\n\n\"No, I— sorry, Captain,",
+          "issue": "Name-only rebuke, and the second time the chapter uses Havel's bare 'Lad.' (L135). It stands in for 'Hear me out' or 'Leave it'.",
+          "severity": "SEVERE",
+          "suggestedFix": "\"Hear me out, lad.\"\n\n\"No, I— sorry, Captain,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F9",
+          "line": 435,
+          "text": "The crock, Captain. Where is the crock",
+          "issue": "Jaina's second 'Captain' in the exchange. L427 '\"Captain,\" Jaina said.' was the summons.",
+          "severity": "SEVERE",
+          "suggestedFix": "The crock. Where is the crock",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F9",
+          "line": 477,
+          "text": "\"At least let my lads have the Hurdle Lane end, Ranger-General,\" Havel said.",
+          "issue": "Havel's second rank vocative to Sylvanas in scene 3 (first: L451 'Ranger-General—').",
+          "severity": "SEVERE",
+          "suggestedFix": "\"At least let my lads have the Hurdle Lane end,\" Havel said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F10",
+          "line": 147,
+          "text": "Some haven't. Yet.\"",
+          "issue": "Fragment sign-off. 'Yet.' is split off to close Corin's speech on a dramatic tag.",
+          "severity": "MILD",
+          "suggestedFix": "Some haven't yet.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F11",
+          "line": 377,
+          "text": "\"Every bag on one of Corin's copied marks is bad, Ranger-General. Every one. The bags on true marks are clean.\"",
+          "issue": "Anaphoric run 'Every bag... Every one.' The repeat adds weight and no fact.",
+          "severity": "MILD",
+          "suggestedFix": "\"Every bag on one of Corin's copied marks is bad, Ranger-General, and the bags on true marks are clean.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F11",
+          "line": 409,
+          "text": "They come out tired, and they come out together.",
+          "issue": "Clause anaphora 'they come out... they come out' repeated for weight inside one sentence.",
+          "severity": "MILD",
+          "suggestedFix": "They come out tired, and all together.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F12",
+          "line": 139,
+          "text": "He didn't look at Havel.",
+          "issue": "Non-action beat in scene 1 (L201's not-sitting is the scene's strongest). The reader had no set-up to expect a look, and the next lines show the tension.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F12",
+          "line": 221,
+          "text": "Jaina nodded once and asked nothing, though she could barely stand.",
+          "issue": "Non-action beat ('asked nothing') on a bare nod. Nothing prompted a question, so the absence is not news.",
+          "severity": "MILD",
+          "suggestedFix": "Jaina could barely stand.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post",
+          "toolSignal": "filler_nodded"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F12",
+          "line": 291,
+          "text": "He never looked round.",
+          "issue": "Second non-action beat on the loader. L289 ('He did not look at the wagon, or at her, or at Havel') is the strongest and the one the scene turns on, and L293 picks up the idea again.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s2-hurdle-lane-and-kett"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F12",
+          "line": 435,
+          "text": "She didn't look at Corin.",
+          "issue": "Non-action beat inside Jaina's speech. Scene 3 already turns on L407 ('She didn't say so.'), and this beat has no set-up.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F12",
+          "line": 459,
+          "text": "Sylvanas had been about to ask. Jaina had come round the table first, and Sylvanas said nothing about it.",
+          "issue": "Non-action beat that ends the paragraph ('said nothing about it') after narration that repeats the L455 staging. Plan: reliance is shown in the handoff and not narrated.",
+          "severity": "MILD",
+          "suggestedFix": "Sylvanas had been about to ask.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F13",
+          "line": 211,
+          "text": "That was a different matter, and she left it alone.",
+          "issue": "Demonstrative caption that labels the thought before it, followed by a deferral exit. The paragraph should end on 'She wanted her where she could see her.'",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F13",
+          "line": 403,
+          "text": "Sentries in a yard, a runner working the walls, five men upstairs who never set foot in the lane. That was a company, and somebody had raised it.",
+          "issue": "'That was a company' captions the list. The fact worth keeping is that somebody raised it, so the noun becomes the subject.",
+          "severity": "MILD",
+          "suggestedFix": "Somebody had raised a company: sentries in a yard, a runner working the walls, five men upstairs who never set foot in the lane.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F13",
+          "line": 425,
+          "text": "That counted against him.",
+          "issue": "Demonstrative caption on the Convocation aside. It labels the beat and adds no fact.",
+          "severity": "MILD",
+          "suggestedFix": "She held it against him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F14",
+          "line": 381,
+          "text": "rubbed them together, slowly.",
+          "issue": "Fenced manner adverb on a small act. It fails the deletion test.",
+          "severity": "MILD",
+          "suggestedFix": "rubbed them together.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "F14",
+          "line": 463,
+          "text": "Her two white fingertips lay flat on the staff, very still.",
+          "issue": "Fenced ', very still' on a resting hand; 'lay flat' already says it. This is the second fenced manner word in scene 3, so both go.",
+          "severity": "MILD",
+          "suggestedFix": "Her two white fingertips lay flat on the staff.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night"
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 24,
+      "kills": 2,
+      "keeps": 22,
+      "dominantPattern": "B3",
+      "severityMarkers": [
+        "Arc and partnership summaries pinned at paragraph ends (L27, L403). No Tier A seep found; the 'A man who X would Y' generalizations (L167, L253, L293, L425) are tactical, so they are KEEPs, but the repeated frame is a refrain for pass C"
+      ],
+      "findings": [
+        {
+          "verdict": "KILL",
+          "pattern": "B3",
+          "line": 27,
+          "text": "She had come down that hill meaning to read Andorhal better than the people who lived in it.",
+          "issue": "Arc-thesis coda. The narrator states the chapter's arc premise as the paragraph's last line. L7 ('She read the gate as she had read every gate since the Pass') already shows the method in action. WHO IS SAYING THIS: the narrator. Tier B, MODERATE confidence.",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post",
+          "tier": "B",
+          "whoIsSaying": "narrator",
+          "confidence": "MODERATE"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "B3",
+          "line": 403,
+          "text": "At Corley's their two pictures hadn't sat together until Cyndia counted the book. Here nothing needed moving. Her crock sat beside Jaina's word, and the two sheets read as one.",
+          "issue": "Thematic summary of the partnership ('the two sheets read as one'), pinned over the scene. Plan: the reliance is growing 'and neither woman bothers to name it'. L389 already shows the fit as Jaina looks from the ring to her own *Heavy*. WHO IS SAYING THIS: the narrator. 'Here nothing needed moving' is also a P3/P5 stand-in.",
+          "severity": "MODERATE",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night",
+          "tier": "B",
+          "whoIsSaying": "narrator",
+          "confidence": "MODERATE"
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 20,
+      "kills": 2,
+      "keeps": 18,
+      "dominantPattern": "P5",
+      "severityMarkers": [
+        "No dialogue or narration cluster"
+      ],
+      "findings": [
+        {
+          "verdict": "KILL",
+          "pattern": "P5",
+          "line": 203,
+          "text": "The bags were Jaina's work.",
+          "issue": "Planner shorthand. 'Jaina's work' splits the task from above like a beat card. FAILED QUESTION: what specifically? MISSING PAYLOAD: she can read contamination by touching the sealed bags.",
+          "severity": "MILD",
+          "suggestedFix": "Jaina could read the bags.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s1-gate-and-post",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "Jaina reads contamination by putting her fingers to the sealed sample bags"
+        },
+        {
+          "verdict": "KILL",
+          "pattern": "P4",
+          "line": 461,
+          "text": "These will have the same, or worse.",
+          "issue": "'or worse' is an unanchored escalation. FAILED QUESTION: worse how? Nothing on the page says what the worse thing is.",
+          "severity": "MILD",
+          "suggestedFix": "These will have the same.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "scene": "s3-post-at-night",
+          "failedQuestion": "Worse how?",
+          "missingPayload": "no named threat beyond the collar poison"
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "dominantPattern": null,
+      "severityMarkers": [],
+      "findings": [],
+      "cleanReason": "No line in the chapter sets up a plainer restatement ('say it plainly', 'short version', 'what does that mean here'). Four near-translation replies were tested: Havel's 'Damp doesn't stop at a street corner' (L111), Jaina's mechanism report (L381), Jaina's 'So it goes on in the loft...' restatement (L395) and 'When your men close the row, what's left in the loft?' (L431). All carry usable handles (street corner and ovens, by hand after dressing before sewing, the loft, the crock) and need no second unpacking."
+    }
+  ],
+  "summary": {
+    "totalKills": 44,
+    "totalKeeps": 69,
+    "mildKills": 36,
+    "moderateOrSevereKills": 8,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 44,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "44 KILLs (8 MODERATE/SEVERE, 36 MILD). F9 vocative and name-only lines reach SEVERE in scenes 1 and 3. F12 non-action beats and F13 'That was' captions recur, and the narrator states the partnership theme at L403 (MODERATE B3). Structural texture deficit (score 88.4, below_target). Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct and mattr are out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.678,
+        "target": 0.733,
+        "delta": -0.055,
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.775,
+        "target": 0.723,
+        "delta": 0.052,
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.3,
+        "target": 12.412,
+        "delta": -0.112,
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 36.8,
+        "target": 30.155,
+        "delta": 6.645,
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.0,
+        "target": 15.352,
+        "delta": 6.648,
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.36,
+        "target": 6.637,
+        "delta": -0.277,
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 30.3,
+        "target": 21.378,
+        "delta": 8.922,
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.789,
+        "target": 0.848,
+        "delta": -0.059,
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct above range",
+        "one_sentence_paragraph_pct above range",
+        "mattr below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 88.4,
+      "participial_pct": 6.8,
+      "compound_pct": 16.8,
+      "emdash_pct": 2.7,
+      "semicolon_pct": 1.2,
+      "short_pct": 46.4,
+      "verdict_reasons": [
+        "compound: 16.8% above target 14.135% (score 76/100)",
+        "emdash: 2.7% below target 5.119% (score 78/100)"
+      ],
+      "interpretation": "COMPOUND: 16.8% -> target 14.135% (score 76/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 2.7% -> target 5.119% (score 78/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 9,
+        "texture_desert": 11
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 55,
+        "total_violations": 5,
+        "overCap": [
+          "filter_watched 8/3",
+          "filler_nodded 5/4",
+          "verdict_enough_for 1/0",
+          "opener_consecutive_repeat 1/0"
+        ],
+        "passBMapped": "narrator_verdict L233 'wide enough for one wagon' was audited and kept as a literal width. No ai_vocabulary, slopsquid, verbose_phrases, academic_register, dialogue_register, hedging, vague_pointers or ambient_inversion hits. Filter and filler hits that overlap F2 and F3 are cited as toolSignal on the matching kills."
+      }
+    }
+  }
+}

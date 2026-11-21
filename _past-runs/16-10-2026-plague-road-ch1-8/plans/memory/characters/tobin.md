@@ -1,0 +1,5 @@
+# Tobin
+
+The village's medic, such as it is ('I do teeth and bones, mostly. Births.'). Small, bald as an egg, apron black down the front, hands scrubbed red and split at every knuckle with goose grease in the cracks. He runs the chapel infirmary: every cot, box bed, truckle bed and door-on-trestles in the village crowded round a brazier with the benches stacked outside under the yew. Willow bark, vinegar cloths, warmth, and (until Garran) bleeding. 'It comes on like fever. They burn like fever.' He suspects the water; he is the one who keeps the slate and writes for Jaina.
+
+He is dry and reluctant ('Dalaran.' said 'as if it were a long way off, and to blame'). He offers to look at Jaina's frost-burned hands and is refused. He knows who draws from which well and whose teeth are whose, which is why the slate works. When Jaina says 'No bread' he says 'Ellen's a good girl' and then tips Garran's bowl of sops into the slop bucket, and later feeds Garran Mother Haw's oatcakes soaked in milk. 'No bread. I heard you the first time.'

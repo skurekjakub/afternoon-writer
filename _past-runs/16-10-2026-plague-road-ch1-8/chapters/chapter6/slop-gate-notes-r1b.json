@@ -1,0 +1,476 @@
+{
+  "chapterId": "chapter6",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB history [37]; no oscillation)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 57,
+      "kills": 12,
+      "keeps": 45,
+      "severity": "MILD",
+      "dominantPattern": "F11",
+      "findings": [
+        {
+          "line": 53,
+          "pattern": "F2",
+          "text": "\"He has orcs in his hills, Mage,\" Sylvanas said, turning forward again.",
+          "issue": "Generic stage-direction beat. ', turning forward again' could belong to anyone and contradicts the beat four lines up, where Sylvanas has already 'faced the road ahead'. The beat does no character work.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "\"He has orcs in his hills, Mage,\" Sylvanas said.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "toolSignal": "participial_trailing",
+          "issueType": "interchangeable beat"
+        },
+        {
+          "line": 69,
+          "pattern": "F13",
+          "text": "That much was true.",
+          "issue": "Demonstrative caption. Labels the truth status of the self-justification that just ran (study, needing it, nobody else can look) instead of letting the next paragraph's turn do it. Closes a claim-evidence-restatement paragraph (F6 overlap).",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "pointsAt": "the 'Study. That was all it was.' justification",
+          "newFact": "none",
+          "fixNote": "Delete the sentence; the paragraph ends on 'nobody else on this road could look at it at all.'"
+        },
+        {
+          "line": 71,
+          "pattern": "F4",
+          "text": "The rest was a lie, and she knew it for one even while she told it.",
+          "issue": "Over-translation. 'and she knew it for one even while she told it' explains her self-awareness before the next sentence ('She'd have given a hand to see the keeping part work just once.') shows it. The gloss adds nothing the concrete admission does not carry.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "The rest was a lie.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "restates": "She'd have given a hand to see the keeping part work just once."
+        },
+        {
+          "line": 155,
+          "pattern": "F11",
+          "text": "Every slip with Andorhal on it at one end. Every road I've read heavy south of the Pass runs to Andorhal. This one worst of all, old under new.",
+          "issue": "Anaphoric run in speech: 'Every slip... Every road...' drumbeat, first run in the Strahnbrad scene. The repeated frame carries nothing a merged sentence loses.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "Andorhal's at one end of every slip, and every road I've read heavy south of the Pass runs there, this one worst of all, old under new.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "repeatedOpener": "Every"
+        },
+        {
+          "line": 163,
+          "pattern": "F11",
+          "text": "I'm saying nothing about Lord Barov. I'm saying the grain goes through Andorhal.",
+          "issue": "Second anaphoric run in the same scene ('I'm saying... I'm saying...'). The guide kills every run after the first; the merged form keeps her careful route-not-guilt distinction intact.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "I'm saying nothing about Lord Barov, only that the grain goes through Andorhal.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "repeatedOpener": "I'm saying"
+        },
+        {
+          "line": 179,
+          "pattern": "F9",
+          "text": "\"Arthas—\"",
+          "issue": "Name-only line standing in for a sayable protest, and Jaina's second vocative to Arthas in the scene (first at 'Arthas, I need you to listen to me'). The intent is the granaries; write it.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "\"But the granaries—\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "standsInFor": "a protest that the granaries cannot wait"
+        },
+        {
+          "line": 214,
+          "pattern": "F11",
+          "text": "No. He'd been sure before they reached the fence and sure crawling back from it, and today he'd been sure before she reached the end of the slips. He'd been kind about it, the whole time.",
+          "issue": "Third anaphoric run in the Strahnbrad scene: 'He'd been sure... He'd been kind...'. The second sentence is a drumbeat tail; folding it in keeps the fact (kindness alongside certainty) without the repeated frame. Note also the missing blank line between this paragraph and the next (L214/L215).",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "No. He'd been sure before they reached the fence and sure crawling back from it, and today he'd been sure before she reached the end of the slips, and kind about it the whole time.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "repeatedOpener": "He'd been"
+        },
+        {
+          "line": 246,
+          "pattern": "F15",
+          "text": "Behind them the camp went on shouting. The noise thinned at their backs as they rode down through the trampled grass onto the road and south past the grey roofs of Strahnbrad, toward Andorhal.",
+          "issue": "Dying-fall coda closing the Strahnbrad scene: carry-on verb ('went on shouting'), sound fading 'at their backs', and a long and-chained landscape tail ('toward Andorhal'). Nothing changes; the scene already turned on 'Andorhal,' and the exit through the hedge. Strahnbrad is already placed by the knife slit on the map and by the next scene's 'Below Strahnbrad'.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "features": [
+            "carry-on verb",
+            "fading look back",
+            "landscape tail"
+          ],
+          "couldEndAt": "They went out through the gap in the hedge past the sergeant with his spear.",
+          "fixNote": "Delete the paragraph."
+        },
+        {
+          "line": 298,
+          "pattern": "F10",
+          "text": "\"The blessing.\" Sylvanas faced forward again. \"I've had it once before. At Millhaven, on the bridge. An old carter going north.\"",
+          "issue": "Briefing stack: four verbless or short declaratives, one fact each, when she is answering a question rather than delivering a report. Sylvanas's voice sheet warns against reducing her to a stack of clipped confirmations. Followed immediately by a second stacked speech ('Once, it's a farewell... Twice, it's wrong...'), so the habit shows.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "\"The blessing.\" Sylvanas faced forward again. \"I had the same one at Millhaven, from an old carter going north over the bridge.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 310,
+          "pattern": "F11",
+          "text": "She hated that. She had hated it in her first year, on her feet in front of a master with the question asked and her mouth open, and she hated it now on a horse.",
+          "issue": "Anaphoric run: 'She hated that. She had hated it... and she hated it now'. Drumbeat to fake weight; the merged sentence keeps the first-year memory and the horse.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "She had hated that in her first year, on her feet in front of a master with the question asked and her mouth open, and she hated it now on a horse.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "repeatedOpener": "She hated / She had hated"
+        },
+        {
+          "line": 356,
+          "pattern": "F4",
+          "text": "It had been here all along, running, while they read the roads that ran into it.",
+          "issue": "Over-translation. Restates the previous paragraph ('It was working... Every road she'd marked on Sylvanas's sheet came in here... the drag beat on') in summary terms. The next sentence ('somebody in there kept it running...') carries the only new inference.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "restates": "It was working. Oh, it was working. Every road she'd marked on Sylvanas's sheet came in here.",
+          "fixNote": "Delete the sentence; the paragraph opens on 'And somebody in there kept it running...'."
+        },
+        {
+          "line": 358,
+          "pattern": "F6",
+          "text": "Nobody was coming down this road behind her.",
+          "issue": "Thesis opener. The paragraph states its subject as a claim, then supports it item by item (Arthas on his hill, the letter, the council, Antonidas). The items already say nobody is coming.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "issueType": "thesis opening",
+          "fixNote": "Delete the sentence; the paragraph opens on 'Arthas was on his hill with his helmet on.'"
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 14,
+      "kills": 0,
+      "keeps": 14,
+      "severity": "none",
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "POV: Jaina, limited third absolute; register HIGH confidence (educated, fast, courteous, self-correcting, kitchen-plain with soldiers). Candidates examined: L97 'Facing the wrong way.' fragment pair (A2), L11 'the two places nobody filled' (B1), L5 'Old at the bottom. Thin and new on top' (A2), L9 'the one thing it was still good for' (A1), L101 'For once the Ranger-General would turn out to have been too hard on a prince' (B3), L121 'folded into one sheet no thicker than a letter' (B1), L175 'as men in Dalaran did when an elf told them their business' (A7), L207 'as if it explained everything' (A6), L308 'A turn of phrase.' and L310 'A clerk.' (A1), L336 'held at arm's length... It was gone now' (B1/A5), L1 'each bend reading the same as the last', L354 'It was working.', L89 smoke frame (A8). All are free indirect thought she could mutter (L97 is an unfair aside she corrects one line later with 'No, unfair.'), concrete perception in plain order, or cross-chapter callbacks. The child-pattern residue (L69 caption, L71 and L356 restatements, L358 thesis opener) was killed under gpt-5-prose-issues.md and is not re-killed here per the guide's run-order rule. L11 and L121 are refrain or montage material and sit in pass C's scope. No A8 inversions: every sound and smell sentence names its source in subject position."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 18,
+      "kills": 3,
+      "keeps": 15,
+      "severity": "MILD",
+      "dominantPattern": "P3",
+      "findings": [
+        {
+          "line": 23,
+          "pattern": "P3",
+          "text": "who had found something in an old book and",
+          "issue": "Placeholder 'something'. She is a Dalaran mage hypothesising about a necromantic plague and already uses 'a necromancer's work' aloud later; the line dodges the noun she would reach for. The slop checker's something_vague pattern is over cap (3 against a cap of 2), and this is the weakest of the three hits.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "who had found a necromancer's recipe in an old book and",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "toolSignal": "something_vague",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the kind of thing found (a necromantic recipe or working)"
+        },
+        {
+          "line": 27,
+          "pattern": "P3",
+          "text": "At the end, when the bread had done its work, their own bodies did the last of it.",
+          "issue": "Placeholder stand-ins ('done its work', 'did the last of it') close the mechanism paragraph on a weighty euphemism. The payload is already on the page (Millhaven's dead got up and walked) but the line will not name it. 'work' recurs as a stand-in across S1 (cluster rule).",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "At the end, when enough of it had built up in them, they died, and then their bodies got up and walked.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "the villagers dying and their bodies rising"
+        },
+        {
+          "line": 65,
+          "pattern": "P2",
+          "text": "She knew that cleanness.",
+          "issue": "Tactical-prestige compression, the guide's own calibration shape ('She knew that shape.'). 'cleanness' is a prestige abstraction pinned over the inference; the carrier is the sentence after it (wards laid with every seam closed), which works without it.",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "failedQuestion": "By what sign?",
+          "missingPayload": "the seamless construction itself, which the next sentence already gives",
+          "fixNote": "Delete the sentence; 'She had been taught to lay a ward that way' then points back to 'laid the work out so cleanly'."
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 1,
+      "kills": 0,
+      "keeps": 1,
+      "severity": "none",
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "One translation setup in the chapter: Sylvanas's 'Make it short.' (L53), picked up at L55 and L149 ('So she gave it to him short.'). The reply exchange (L151-L171) names the carrier (flour through mills into bread, a little at every meal), a field count (Millhaven, sixty walked north), the converging route (every slip and the marked road into Andorhal by the back gate) and an order another person could issue at once ('I need men to shut the Andorhal granaries'). Usable target and action are present and Arthas asks no second unpacking question; his refusal is a choice, not confusion. No other 'plainly / smaller words / short version' setups appear. KEEP."
+    }
+  ],
+  "summary": {
+    "totalKills": 15,
+    "totalKeeps": 75,
+    "mildKills": 15,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 15,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "15 MILD kills, above the 3-MILD threshold; no MODERATE or SEVERE. Dominant: F11 anaphoric runs (4, three of them in the Strahnbrad scene), then phantom P3 stand-ins (2). Structural texture deficit (texture_score 87.2, below_target: participial and em-dash low). Structural rhythm concerns: long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr outside range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.797,
+        "target": 0.733,
+        "delta": 0.064,
+        "range": [
+          0.613,
+          0.863
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.7,
+        "target": 12.412,
+        "delta": 0.288,
+        "range": [
+          10.412,
+          14.412
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.747,
+        "target": 0.723,
+        "delta": 0.024,
+        "range": [
+          0.623,
+          0.823
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 33.2,
+        "target": 30.155,
+        "delta": 3.045,
+        "range": [
+          23.155,
+          37.155
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.7,
+        "target": 15.352,
+        "delta": 7.348,
+        "range": [
+          12.352,
+          19.352
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.02,
+        "target": 6.637,
+        "delta": -0.617,
+        "range": [
+          6.137,
+          7.137
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 27.1,
+        "target": 21.378,
+        "delta": 5.722,
+        "range": [
+          17.378,
+          26.378
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.789,
+        "target": 0.848,
+        "delta": -0.059,
+        "range": [
+          0.818,
+          0.888
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 87.2,
+      "participial_pct": 5.4,
+      "compound_pct": 14.8,
+      "emdash_pct": 0.9,
+      "semicolon_pct": 2.1,
+      "short_pct": 42.4,
+      "verdict_reasons": [
+        "participial: 5.4% below target 7.23% (score 85/100)",
+        "emdash: 0.9% below target 5.119% (score 64/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 5.4% → target 7.23% (score 85/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 0.9% → target 5.119% (score 64/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 6,
+        "texture_desert": 9
+      },
+      "note": "structural texture deficit"
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 46,
+      "total_violations": 1,
+      "overCap": [
+        {
+          "category": "vague_pointers",
+          "pattern": "something_vague",
+          "count": 3,
+          "cap": 2,
+          "passBDisposition": "L23 KILL (P3); L115 KEEP (POV cannot hear the sergeant's words); L151 KEEP (dialogue, specified at once by 'a made thing, a necromancer's work', the voice sheet's hitch-before-the-frightening-word move). The kill brings the pattern to cap."
+        }
+      ],
+      "passBMappedHits": {
+        "hedge_perhaps": "L212 KEEP (genuine weighing of fairness is the beat)",
+        "hedge_might_have_been": "L63 KEEP (the uncertainty is the admission)",
+        "ai_vocabulary": 0,
+        "slopsquid": 0,
+        "narrator_verdict": 0,
+        "ambient_inversion": 0,
+        "verbose_phrases": 0,
+        "academic_register": 0,
+        "dialogue_register": 0,
+        "clinical_anatomy": 0
+      }
+    }
+  },
+  "incidental": "Paragraph breaks are missing at L207/L208, L214/L215 and L235/L236 (two paragraphs run together on adjacent lines). Formatting only; outside the pass B guide pack."
+}

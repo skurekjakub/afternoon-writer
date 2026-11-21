@@ -1,0 +1,260 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 10,
+  "targetFile": "v2-r10.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative",
+  "fixStrategyReason": "slopGateLoop.iterationKillsB = [56, 42, 15, 10, 4, 4, 3, 7, 5, 5]; latest (5) >= minimum prior (3), so the loop is oscillating. Deletion preferred, two-attempt unfixable threshold.",
+  "povRegister": {
+    "povCharacter": "Sylvanas Windrunner",
+    "registerSummary": "Ranger-General, proud, dry, exact. Thinks in ground, tracks, sightlines, drills and horses; swears by the sun ('Sun's sake', 'Damn'); contemptuous of magisters, the chamber and human custom. Her inner voice asks itself a question, gives a bad answer and overrules it, and per the voice sheet it ends the argument with an action, not a stated conclusion. She would not think in thematic epigraphs, psychological labels, or tidy summaries of what she has just decided.",
+    "registerConfidence": "HIGH",
+    "sources": [
+      "stories/the-plague-road/characters/voice-sheets/sylvanas-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/neral-voice.md",
+      "stories/the-plague-road/characters/voice-sheets/cyndia-voice.md",
+      ".afternoon/plans/chapter3.json"
+    ]
+  },
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 45,
+      "kills": 1,
+      "keeps": 44,
+      "severity": {
+        "mild": 1,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": "F13",
+      "findings": [
+        {
+          "id": "B-GPT5-01",
+          "pattern": "F13",
+          "failureMode": "Demonstrative caption (also F4 claim-to-gloss)",
+          "line": 837,
+          "text": "That was not the same as following the mage.",
+          "context": "No. On the trail. The read was the trail; it was the only trail there was. That was not the same as following the mage.",
+          "pointsAt": "Following the staff's read south, which the previous sentence has already named as 'the trail'.",
+          "newFact": "none",
+          "issue": "This is a caption sentence beginning with 'That was'. It labels the decision the two sentences before it already made ('No. On the trail. The read was the trail'). The paragraph ends on a stated conclusion when the next paragraph already shows it in action ('She took her hand off the mare's neck and gathered up the reins.'). The voice sheet says Sylvanas ends an inner argument with an action, not a conclusion, and that she declines to sort out whether she trusts the mage or only the mage's results. This line sorts it out for her, out loud, as a caption.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "textureZone": null,
+          "fixType": "delete",
+          "suggestedFix": "",
+          "suggestedFixNote": "Delete the sentence. The paragraph becomes: 'No. On the trail. The read was the trail; it was the only trail there was.' The next paragraph's action ('She took her hand off the mare's neck and gathered up the reins.') closes the argument.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "crossCheckNotes": "After the deletion the paragraph ends on her overruling answer, which is the voice-sheet method of question, bad answer, replacement. F7: there is no emotional summary left. F13: there is no caption left. Narrator seep: no verdict tag and no scene-state line is created. Phantom concreteness: 'the read' is anchored by the staff clicks and the mage's face in L821-835. Fake simplification: not applicable, since this is not dialogue translation."
+        }
+      ],
+      "failureModeSummary": {
+        "F1": 0,
+        "F2": 0,
+        "F3": 0,
+        "F4": 0,
+        "F5": 0,
+        "F6": 0,
+        "F7": 0,
+        "F8": 0,
+        "F9": 0,
+        "F10": 0,
+        "F11": 0,
+        "F12": 0,
+        "F13": 1,
+        "F14": 0,
+        "F15": 0
+      },
+      "selfCheckNote": "Fewer than 10 kills across the fifteen modes. This was re-read with the self-check. The remaining candidates are defended by the voice sheets: Neral 'says it back in plain words' (F8), rangers address Sylvanas by rank (F9 procedure), and Sylvanas's inner voice works by question and overrule (F1/F11). Reports are delivered where a report is due (F10). None of the non-action beats reports an unexpected absence (F12). No scene fades out on a held object (F15). F5: the granary disagreement stays unresolved ('you won't call it'), Cyndia's bow stays up through the carter exchange, and the chapter closes on a door shut against them and a dog barking. Nothing is softened."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 19,
+      "kills": 0,
+      "keeps": 19,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Candidates examined: the A1 verdict-tag fragments (L15 'Well; the horse had the better ears tonight.', L105 'Fine; the mage.', L311 'Five days at the most.', L481 'A frightened child didn't make that up.', L531 'Too late to take it back.', L751 'Empty going up, full coming down.'); the A7 generalizers (L5, L17, L251, L467, L611, L655 'Sheep follow a bellwether.', L709 generic 'you', L831); the A8 sound-first frames (L19, L733); and the B1 polish candidates (L513, L545 'because she wanted it to', L77 'A doe was a doe.'). Every one either feeds a live decision (witness credibility, the hunt for a lead walker, dismissing the grain-seller plant) or is her own muttered idiom. Her voice sheet documents the dry asides, the self-reproach, and 'her duty is done by any measure the Convocation would sign'. The A8 lines name the source as soon as she can know it: the wagon is heard before it crests the bridge, and she cannot tell which kitchen the milk smell comes from. The voice holds at psychic distance 4-5 throughout. The one closure caption (L837) is killed under gpt-5 F13 and is not re-killed here."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 13,
+      "kills": 0,
+      "keeps": 13,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "Candidates examined: L77 'A wheelwright was something else.' (P3), L109 'so she made it better' (P3), L161 'I told you on the road I would.', L211 the mage's 'whatever's wrong with that village goes in with it' (P1), L225, L285 'the only clean track she was going to get', L603 'before all this', L625 'a long smear that might have been anything' (toolSignal hedge_might_have_been), L699 'put eyes on it from the high ground', L705 'She had sixty in a cow way.' (P5), L751, L825 'Millhaven was a knot... Wider. Spread out.', and L837 'The read was the trail'. Each one cashes out from the page. Some are anchored shorthand: the sentry positions follow 'made it better', the count of sixty is established, and the grain dust is in the wagon cracks. Some draw an operational distinction: how much is in the store against which way it came, a knot against a spread. Some are evidence-based inferences: the gate swung back with its rope loop, the staff readings. L77 and L211 are left deliberately unnamed because the plan forbids naming the carrier and wants the explanation withheld, so the intentional-structure and subject-matter defenses apply. No tactical line summarizes a split task from above the way planner note-speak does. The street, cut, box count and gate are named each time."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "severity": {
+        "mild": 0,
+        "moderate": 0,
+        "severe": 0
+      },
+      "dominantPattern": null,
+      "findings": [],
+      "cleanReason": "The chapter has no explicit 'say it plainly' or 'smaller words' setup. The closest translation exchanges were audited as full chains. L495-499: 'Ask her how she knows which way' gets 'The little window', which is then shown as a barred slot at a dog's-nose height. L505-509: the toes question gets 'Away. Up toward Pell's.' L531-537: 'Which is the north road?' gets a pointed arm, then 'Past Pell's. Up the cow way.' L615-625: 'Can you tell her which marks are which?' gets heavy and light readings per mark, which Cyndia counts at once. L165-169: 'Where's it worst?' gets the crystal pointing at the bridge and mill and 'a cellar under the inn'. L823-825: 'Well?' gets 'Down the road' toward the willows. Every reply gives a target the listener acts on in the next beat, so none needs a second unpacking pass."
+    }
+  ],
+  "toolSignalAudit": [
+    {
+      "toolSignal": "hedge_might_have_been",
+      "mappedGuide": "phantom-concreteness-guide.md",
+      "line": 625,
+      "text": "into a long smear that might have been anything",
+      "verdict": "KEEP",
+      "reason": "Operational distinction. The point of the beat is that the eye cannot classify the smear and the staff can ('The long smear was heavy'). The uncertainty is the scene's argument, not padding."
+    }
+  ],
+  "crossPassObservations": [
+    "Not killed here because it is outside the pass-B pack: narration carries about 18 self-directed rhetorical questions (L53, L71, L73, L253, L279, L313, L355, L365, L415, L589, L591, L655, L659, L709, L711, L811, L833, L835). The voice sheet documents this as Sylvanas's inner method, but the density belongs to recurring-prose-tics (pass A) if anyone wants to trim it."
+  ],
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 82,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md"
+    ],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 1 MILD kill (F13 caption at L837, fix is deletion) and 0 MODERATE or SEVERE, which is within the 3-MILD threshold. Not affecting the verdict: there is a structural texture deficit (texture score 75.1 against a 90 floor; participial and em-dash outside range; 29 telegram runs and 26 texture deserts, concentrated in the cellar and interview stretch, sentences 418-678). There are also structural rhythm concerns, with 6 of 8 rhythm metrics outside their range: sentence-length CV, short%, long%, opener entropy, one-sentence-paragraph%, and MATTR.",
+    "rhythmMetrics": {
+      "source": "tools/rhythm_scorer/score.py vs .afternoon/style-guide.json rhythmMetrics.global",
+      "comma_period_ratio": {
+        "actual": 0.65,
+        "target": 0.72,
+        "delta": -0.07,
+        "range": [0.6, 0.85],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.7,
+        "target": 11.0,
+        "delta": 0.7,
+        "range": [9.0, 13.0],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.899,
+        "target": 0.7,
+        "delta": 0.199,
+        "range": [0.6, 0.8],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 43.4,
+        "target": 35.0,
+        "delta": 8.4,
+        "range": [28.0, 42.0],
+        "inRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 20.7,
+        "target": 10.0,
+        "delta": 10.7,
+        "range": [7.0, 14.0],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.4,
+        "target": 7.7,
+        "delta": -1.3,
+        "range": [7.2, 8.2],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 34.7,
+        "target": 19.0,
+        "delta": 15.7,
+        "range": [15.0, 24.0],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.765,
+        "target": 0.83,
+        "delta": -0.065,
+        "range": [0.8, 0.87],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "short_sentence_pct",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 75.1,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.7% above target 10.0% (score 75/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "outsideRange": [
+        "participial_pct (4.4 vs range 12.0-15.0)",
+        "emdash_pct (1.4 vs range 2.5-5.5)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.7% -> target 10.0% (score 75/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 29,
+        "texture_desert": 26,
+        "largestZones": [
+          "texture_desert sentences 418-459 (42 sentences, hatch opening through the girl's account)",
+          "texture_desert sentences 901-926 (26 sentences, dispatch writing)",
+          "texture_desert sentences 153-177 (25 sentences, well reading)",
+          "telegram_run sentences 596-612 (17 sentences, 94% short, the girl's 'And then?' testimony)"
+        ]
+      },
+      "note": "Structural texture deficit. The B kill at L837 is not inside a flagged zone."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 63,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "atCap": [
+          "filter_watched 3/3 (pass A mapping)"
+        ],
+        "passBMappedMatches": [
+          "hedging: hedge_might_have_been L625 (KEEP, see toolSignalAudit)"
+        ],
+        "zeroToleranceHits": "none (no ai_vocabulary, slopsquid, narrator_verdict, academic_register, dialogue_register, verbose_phrases, expression_decomposition, clinical_anatomy, ambient_inversion)"
+      }
+    }
+  }
+}

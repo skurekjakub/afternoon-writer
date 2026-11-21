@@ -1,0 +1,140 @@
+{
+  "chapterId": "chapter3",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 7,
+  "targetFile": "v2-r7.md",
+  "verdict": "pass",
+  "fixStrategy": "conservative (iterationKillsA [49, 8, 12, 2, 3, 1, 13]: latest 13 >= prior minimum 1; deletion preferred)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 33,
+      "kills": 0,
+      "keeps": 33,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "cleanReason": "Swept every sentence containing not/no/never/nothing/nobody/none/n't plus only/just/rather/enough softeners (approx. 140 hits). None of the narration lines uses the 'Not X. Y.', 'not X but Y', source-swap, count-reset or mundane-reveal shapes. The pivot-shaped lines that remain all pass the guide: they are imperatives or reported prohibitions ('Not the hand,' L189; 'Not for anybody. Not if it was him.' L355/L484); binary diagnostics that change what someone does next ('never where the herd came in' L213; 'Nobody had lifted the latch.' L233; 'It was not the road down from the Pass' L540; 'Not our road.' L678; 'Sylvanas did not draw.' L734); spatial precision ('near a print, not in it' L614); hard constraints, including the plan's rule that elves cannot feel contamination ('She could read nothing in it with her own palm' L177; 'Not on this ground. Not in the dark.' L281); or Sylvanas arguing with herself in free indirect thought, where the next line undercuts her ('No. She saw a clog in the mud.' L588; 'It meant nothing.' L604; 'No. She had kept the mage because...' L710; 'That was not the same as following the mage. / It was not the same.' L838-840, which is the planned 'she tells herself it is the trail, not the mage' beat). The absence lists in the house sweep (L67, L91-L105, L810) are a ranger taking a tactical inventory of absences, and those absences are the chapter's evidence. No page holds 2 or more kills, and the pivot rhythm does not carry across narration and dialogue. Full KEEP rationales are in the scratchpad.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 27,
+      "kills": 1,
+      "keeps": 26,
+      "severityMarkers": ["MILD"],
+      "dominantPattern": "P8 body-part agency (discovery/involuntary wrapper)",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "Re-read every sentence for inanimate or abstract subjects with agency, cognition, motion or fire verbs; for receiver nouns with the real actor demoted to an instrument phrase; for body-part subjects; and for abstract states settling into the body. Roads, cuts and lanes take only extent verbs (ran, went on, bent away, narrowed; L109, L634, L640, L804), which is the guide's 'the road led' (fine) case. Light and water verbs are optics (L185 lantern turning the air to gold fog, L233 water holding the lantern, L277 lantern smearing gold). Frost, mud and clay verbs are physical (L131, L141, L644, L806). No plan, map, answer or room receives a revision or cognition verb, and no abstract state settles into a body part. The institution lines (L704 'The chamber would have this in its hands', L832 'the chamber would put its seal to') are possession and a formal institutional act, with the actors (Lor'themar, the magister's nephew) named in the next sentence; neither is self-deception or command. Body-part subjects are involuntary (L219, L398, L492, L514, L532, L560, L696, L726, L796, L814), sound (Neral's voice L9/L131/L311), or the limited-third view of an unseen child (L372, L378, L382). Permission-tag closed set: the four 'let' lines (L366, L414, L706, L814) are physical allowing with an agent and a result, not willpower tags. One kill, at L598, which is the calibration twin of 'Her fingers found the bowstring before she had decided to reach for it.'",
+      "findings": [
+        {
+          "id": "A-IS-1",
+          "pattern": "P8",
+          "line": 598,
+          "scene": "scene2 (gallery watch, end of night)",
+          "text": "Her hand was on the string again. She took it off; she had not felt it go there.",
+          "subject": "it (her hand), in the clause 'she had not felt it go there'",
+          "verb": "go (moved to the string by itself)",
+          "realAgent": "Sylvanas. She put her hand on the string without noticing.",
+          "verdict": "KILL",
+          "reason": "Pattern 8 discovery wrapper. 'Her hand was on the string again' is the guide's approved form, but the trailing clause brings back the hand-moved-by-itself framing that the calibration table kills ('...before she had decided to reach for it'). 'again' and 'She took it off' already show that the reach was unconscious.",
+          "severity": "MILD",
+          "suggestedFix": "Her hand was on the string again. She took it off.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "fixNote": "Deletion only, per the conservative strategy. The fix removes one negation and adds no body-part verb, tic word or new semicolon."
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 18,
+      "kills": 0,
+      "keeps": 18,
+      "severityMarkers": [],
+      "dominantPattern": null,
+      "tallies": {
+        "tic1_cornerOfMouth": "0 counted (L378 'a mouth too dark at the corners' and L520 'dirt in the corners of her mouth' are physical dirt and staining, not micro-expressions); cap 1",
+        "tic2_marked": "1 (L285 'marked which way they turned'); cap 2",
+        "tic3_tightened_eased": "tightened 0; eased 1, physical (L83 'She eased the string.'); caps 3/2",
+        "tic4_shiftedFacial": "0 facial (L101 'shifted her bow' and L524 'shifted the girl' are physical); cap 1",
+        "tic5_eyeGaze": "4 emotional or reaction beats (L594 'Her eyes were open.', L682 'without moving anything but her eyes', L742 'Then he looked past them.', L846 'stared ... longest at the mage's hands'). Cap 4, not exceeded. Ranger scanning (L13, L129) and eyes shut or open for the magic procedure (L117, L822, L826) are character-specific or procedural and not counted",
+        "tic6_weightHeaviness": "0 emotional ('heavy' is the mage's in-world reading term; L420 'bore no weight' and L612 'a weight had gone over it' are physical); cap 2",
+        "tic7_nonSaidTags": "0 performance tags; cap 3"
+      },
+      "toolSignalsAudited": [
+        {"pattern": "filter_watched", "count": 3, "cap": 3, "verdict": "KEEP all", "lines": [13, 129, 293]},
+        {"pattern": "filler_nodded", "count": 1, "cap": 4, "verdict": "KEEP", "lines": [438]},
+        {"pattern": "filler_shrugged", "count": 1, "cap": 4, "verdict": "KEEP", "lines": [466]},
+        {"pattern": "bookism_hissed", "count": 1, "cap": 2, "verdict": "KEEP (false positive: the lantern hisses; this is not a dialogue tag)", "lines": [341]},
+        {"pattern": "simile_like", "count": 2, "cap": 26, "verdict": "KEEP", "lines": [9, 9]},
+        {"pattern": "simile_as_if", "count": 2, "cap": 5, "verdict": "KEEP", "lines": [608, 738]},
+        {"pattern": "participial_trailing", "count": 17, "cap": 53, "verdict": "KEEP all (texture is below target on participials)"},
+        {"pattern": "punct_semicolon / punct_colon_narration", "count": 32, "cap": "26 / 13", "verdict": "KEEP all (21/26 and 11/13, both under cap)"}
+      ],
+      "cleanReason": "Every tic was counted across the whole chapter (narration and interiority), and none is over its cap. The only 'marked' is a single mental use (cap 2). The only 'eased' is physical. Every 'shifted' is physical. There is no emotional weight metaphor and no performance dialogue tag. Emotional eye and gaze beats sit at the cap (4) and are spread across scenes, not clustered in dialogue. All pass-A tool signals are under cap and were checked line by line (see toolSignalsAudited and the scratchpad).",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "totalKeeps": 77,
+    "mildKills": 1,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": ["intent-smear-agency-laundering-guide.md"],
+    "killsWithFix": 1,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 1 MILD kill (P8 body-part wrapper at L598, fixed by deleting the clause) and no MODERATE or SEVERE kills. Structural rhythm concerns: sentence-length CV, one-sentence paragraph %, long-sentence % and opener entropy are outside their style-guide ranges. Structural texture deficit: texture verdict below_target (participial 4.4% vs 12.0% target; em-dash 1.4% vs 4.0%; compound 12.7% vs 10.0%), with 29 telegram runs and 26 texture deserts.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.647, "target": 0.72, "delta": -0.073, "range": [0.6, 0.85], "inRange": true},
+      "sentence_length_mean": {"actual": 11.7, "target": 11.0, "delta": 0.7, "range": [9.0, 13.0], "inRange": true},
+      "sentence_length_cv": {"actual": 0.895, "target": 0.7, "delta": 0.195, "range": [0.6, 0.8], "inRange": false},
+      "short_sentence_pct": {"actual": 43.1, "target": 35.0, "delta": 8.1, "range": [28.0, 42.0], "inRange": false},
+      "long_sentence_pct": {"actual": 20.6, "target": 10.0, "delta": 10.6, "range": [7.0, 14.0], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 34.4, "target": 19.0, "delta": 15.4, "range": [15.0, 24.0], "inRange": false},
+      "opener_entropy": {"actual": 6.39, "target": 7.7, "delta": -1.31, "range": [7.2, 8.2], "inRange": false},
+      "mattr": {"actual": 0.765, "target": 0.83, "delta": -0.065, "range": [0.8, 0.87], "inRange": false},
+      "structuralRhythmConcerns": ["sentence_length_cv", "short_sentence_pct", "long_sentence_pct", "one_sentence_paragraph_pct", "opener_entropy", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 75.1,
+      "participial_pct": 4.4,
+      "compound_pct": 12.7,
+      "emdash_pct": 1.4,
+      "semicolon_pct": 1.7,
+      "short_pct": 52.1,
+      "verdict_reasons": [
+        "participial: 4.4% below target 12.0% (score 49/100)",
+        "compound: 12.7% above target 10.0% (score 75/100)",
+        "emdash: 1.4% below target 4.0% (score 76/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 4.4% -> target 12.0% (score 49/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.7% -> target 10.0% (score 75/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.4% -> target 4.0% (score 76/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": {"telegram_run": 29, "texture_desert": 26},
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_words": 13400,
+        "total_matches": 65,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passAMappedSignals": "filter_watched 3/3, filler_nodded 1/4, filler_shrugged 1/4, bookism_hissed 1/2, simile_like 2/26, simile_as_if 2/5, participial_trailing 17/53, punct_semicolon 21/26, punct_colon_narration 11/13. All audited, all KEEP. No abstract_locomotion, inanimate_agency or negation_addiction matches."
+      }
+    }
+  }
+}

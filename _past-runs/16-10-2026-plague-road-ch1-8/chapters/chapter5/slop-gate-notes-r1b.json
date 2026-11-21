@@ -1,0 +1,563 @@
+{
+  "chapterId": "chapter5",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB history [55]; no oscillation)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 52,
+      "kills": 9,
+      "keeps": 43,
+      "severityMarkers": {
+        "MILD": 9,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F4 (over-translation): 3 kills. F2 and F12 have 2 each. The Beat 7 run at L591-597 is the densest zone.",
+      "modeSummary": {
+        "F1": 0,
+        "F2": 2,
+        "F3": 0,
+        "F4": 3,
+        "F5": 0,
+        "F6": 0,
+        "F7": 1,
+        "F8": 0,
+        "F9": 0,
+        "F10": 0,
+        "F11": 0,
+        "F12": 2,
+        "F13": 1,
+        "F14": 0,
+        "F15": 0
+      },
+      "notes": "F3 has no kills. The hedge and filter hits are all similes, physical sensation (touch/cold), or the planted 'as if he'd had the answers ready' clue. F5 has no kills: each conflict resolves on evidence or stays open (the overseer). F15: every scene ends on an action or event. F9: the name-only orders ('Cyndia.', 'Proudmoore.') are kept on character-voice grounds (the voice sheet calls for command shorthand to rangers by name). F11's 'At the end of...' pair is fixed through the F4 kill at L665.",
+      "findings": [
+        {
+          "line": 91,
+          "text": "Sylvanas had braced for the rest of it. Nothing came, and she had to put the bracing down.",
+          "pattern": "F7",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Paragraph-final emotional summary. The prior paragraph already shows the mage stopping ('She leaned on the doorframe, waiting to be asked.'); 'Nothing came, and she had to put the bracing down' finishes the feeling for the reader.",
+          "couldEndAt": "Sylvanas had braced for the rest of it.",
+          "suggestedFix": "Sylvanas had braced for the rest of it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 99,
+          "text": "from a mile-post.\" The mage's voice had sharpened. \"I can't tell you",
+          "pattern": "F2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Beat labels the tone the next quoted line already carries ('I can't tell you what's in a book, Ranger-General.'). Restates dialogue emotion.",
+          "fixNote": "Merge the two quoted halves into one speech; speaker alternation already marks the mage.",
+          "suggestedFix": "from a mile-post. I can't tell you",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 103,
+          "text": "She didn't move off the doorframe.",
+          "pattern": "F12",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Non-action beat reporting an absence. Scene 1 already turns on a stronger refusal ('Sylvanas did not offer to take it.'); this one is surplus. Doorframe position matters for L115, so give the positive state.",
+          "expected": "no",
+          "position": "mid-paragraph",
+          "suggestedFix": "She stayed against the doorframe.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 351,
+          "text": "He smiled, a decent smile, apologetic, the smile of a man who would have helped if he could.",
+          "pattern": "F2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Generic 'smiled' beat padded with a typifying gloss ('the smile of a man who would have helped if he could') that restates what his next lines say ('I'm sorry. If you'd come at midsummer...'). Keep 'decent' so Sylvanas's misread stays on the page.",
+          "suggestedFix": "He smiled, a decent, apologetic smile.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 389,
+          "text": "Sylvanas did not tell her. She took the mare out of the gate",
+          "pattern": "F12",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Non-action beat narrating a non-event: the mage did not ask, so the reader had no reason to expect Sylvanas to tell. Scene 2's strongest non-action ('He had not asked who she was') is already on the page.",
+          "expected": "no",
+          "position": "mid-paragraph",
+          "suggestedFix": "Sylvanas took the mare out of the gate",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 553,
+          "text": "she said, \"I haven't been there,\" and that was the end of it.",
+          "pattern": "F13",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Clause-tail caption ', and that was the end of it' labels completeness of a beat the next sentence already shows (Sylvanas setting those slips aside).",
+          "suggestedFix": "she said, \"I haven't been there.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 593,
+          "text": "There was nobody to catch.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "One-line paragraph that glosses the previous one ('And the mage had sat down without being told.'). The cliff-path hand image already carried it.",
+          "fixNote": "Delete the paragraph.",
+          "suggestedFix": "",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 597,
+          "text": "She was still waiting for it. And the woman was picking frost off her finger, reading the map upside down.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "'She was still waiting for it' restates the paragraph before ('She had been waiting since the village for the bit at the end.'). Combined with L593, the Beat 7 turn gets explained three times before 'Jaina' lands.",
+          "suggestedFix": "And the woman was picking frost off her finger, reading the map upside down.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 665,
+          "text": "The King's road was clean, and clean was no use to her. At the end of it were a front gate and a lord's name on a lord's sacks.",
+          "pattern": "F4",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Narration restates what Sylvanas has just said aloud (L663: 'it goes into Andorhal by the front gate, and it's clean. It goes to a lord's door and a lord's sacks.'). Removing it also breaks the 'At the end of... At the end of...' anaphoric pair (F11).",
+          "suggestedFix": "The King's road was clean, and clean was no use to her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 36,
+      "kills": 5,
+      "keeps": 31,
+      "severityMarkers": {
+        "MILD": 5,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "registerSummary": "POV: Sylvanas Windrunner (register confidence HIGH). She is a Ranger-General: clipped, dry, contemptuous of human roads and of Kirin Tor vanity. She reads ground, horses, absence and people's hands. Her inner voice argues, sneers unfairly and draws tactical maxims from experience. She would not reach for thematic irony, essay generalisations aimed at the reader, or writerly conceits.",
+      "dominantPattern": "Tier A 3 (A1, A2, A7) and Tier B 2 (B1). There is no structural habit. The tool's narrator_verdict hit ('too brown for mist') is kept as a perceptual correction.",
+      "findings": [
+        {
+          "line": 207,
+          "text": "Every human road in Lordaeron she had ever sneered at for its ruts was down there under the ink with a cart on it, doing what it was built to do.",
+          "pattern": "B1",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Tier B. The tail 'doing what it was built to do' is a thematic flourish (roads built for carts = plague vector) laid over Sylvanas's sneer. It reads as authored, not thought.",
+          "tier": "B",
+          "whoIsSaying": "narrator",
+          "confidence": "MODERATE",
+          "povMismatch": "Sylvanas thinks in ruts, carts and contempt; the closing irony about what the roads were 'built to do' is the author's thematic caption.",
+          "suggestedFix": "Every human road in Lordaeron she had ever sneered at for its ruts was down there under the ink with a cart on it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 209,
+          "text": "It held. They had all held.",
+          "pattern": "A1",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Tier A. Verdict-tag fragments closing the paragraph. 'They had all held' is a caption over evidence that the page only partly shows, and it sits right after 'She could not check one mark on that sheet.' Replace with the plain claim the evidence supports.",
+          "tier": "A",
+          "whoIsSaying": "narrator",
+          "confidence": "HIGH",
+          "suggestedFix": "So far, every mark she could lay against a book had matched it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 611,
+          "text": "One gate. Two roads. One of them sick from end to end, getting sicker the further south it ran.",
+          "pattern": "A2",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Tier A. Thesis-fragment stack pinned over the map like a caption. 'One gate' also contradicts L663, where the two roads enter Andorhal by the front gate and by the back.",
+          "tier": "A",
+          "whoIsSaying": "narrator",
+          "confidence": "HIGH",
+          "suggestedFix": "Two roads into Andorhal, and one of them sick from end to end, getting sicker the further south it ran.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 615,
+          "text": "you didn't need to send a rider. You needed only to stand in your doorway when they'd gone by and say so to the next man who came along.",
+          "pattern": "A7",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Tier A. Generic 'you' twice in a row in third-person narration. Scene 3 already spends its one idiomatic 'you' on the sundial aside (L595). The inference is good tactical thought; only the reader-address goes.",
+          "tier": "A",
+          "whoIsSaying": "narrator",
+          "confidence": "HIGH",
+          "suggestedFix": "nobody needed to send a rider. Anyone could stand in a doorway after they'd gone by and tell the next man who came along.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 637,
+          "text": "with the candle for giving her too little light to see her own thought by.",
+          "pattern": "B1",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Tier B. 'too little light to see her own thought by' is a writerly conceit, more polished than her dry irritation. Keep the unfair blame of the candle and drop the conceit.",
+          "tier": "B",
+          "whoIsSaying": "narrator",
+          "confidence": "MODERATE",
+          "povMismatch": "Her humour is flat and dismissive; a conceit about seeing a thought by candlelight is the author decorating her frustration.",
+          "suggestedFix": "with the candle for giving her too little light.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 20,
+      "kills": 3,
+      "keeps": 17,
+      "severityMarkers": {
+        "MILD": 3,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P5 planner shorthand (2). The tool's vague_pointer hit at L147 is killed as P3.",
+      "clusters": {
+        "dialogue": [],
+        "narration": [],
+        "repeatStandIns": []
+      },
+      "notes": "The keep rate is high because most compressions in this chapter come after the evidence is already on the page (counts, dates, ruts, slips). Each keep names its anchor in the scratchpad.",
+      "findings": [
+        {
+          "line": 147,
+          "text": "Corley put a cup of something in front of the mage",
+          "pattern": "P3",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Vague pointer. 'something' dodges a referent already on the page: Corley's own kettle, which has been ticking on the stove since L125.",
+          "toolSignal": "something_vague",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "what is in the cup (from Corley's kettle)",
+          "suggestedFix": "Corley put a cup from his kettle in front of the mage",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 255,
+          "text": "The east road at Corley's, light, starting.",
+          "pattern": "P5",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Planner shorthand. It compresses the mage's reading and Cyndia's count into a beat-card note and leaves the reader to rebuild the inference (the operation is active on the east road now).",
+          "failedQuestion": "What does this cash out to?",
+          "missingPayload": "Cyndia's count (one load before the last month, nine since) that makes 'starting' evidence of a live operation",
+          "suggestedFix": "The east road at Corley's, light and only starting, with nine of its short-rate loads gone out in the last month.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "line": 611,
+          "text": "One gate. Two roads.",
+          "pattern": "P5",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "issue": "Tactical note-speak summarising the map from above. 'One gate' names nothing on the sheet and conflicts with the front gate and back entry in L663.",
+          "failedQuestion": "What specifically?",
+          "missingPayload": "the destination (Andorhal) and the two named roads (King's road, south road)",
+          "fixNote": "Same span as the narrator-seep A2 finding. Apply the A2 full-sentence fix; it covers both.",
+          "suggestedFix": "Two roads into Andorhal,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 7,
+      "kills": 0,
+      "keeps": 7,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "cleanReason": "There is no explicit 'plainer / smaller words / short version' setup in the chapter. Seven implicit translation exchanges were audited: 'What's own cart?' -> the free-carter definition (L67-69); 'How sure?' -> 'As sure as Brent's.' (L587-589); 'Proudmoore. Barov.' -> the house, its court seat and the granaries round Andorhal (L493-495); 'Which road it's on. Can you tell me that?' -> 'The south road...' (L569-585); the narrated gloss of Cyndia's 'Road's good' (L275); 'Going up where?' -> 'Into the hills. The road climbs past the bridge.' (L651-653); and the overseer's directions to Tolliver's (L369-371). Every reply names a usable target (a road, a mark already verified against a book, a named house and its granaries, a fork and chapel), and none needs a second round of unpacking.",
+      "findings": []
+    }
+  ],
+  "summary": {
+    "totalKills": 17,
+    "totalKeeps": 98,
+    "mildKills": 17,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md"
+    ],
+    "killsWithFix": 17,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "17 MILD kills and 0 MODERATE/SEVERE. That is more than 3 MILD, so the pass fails. This is down from 55 at iteration 0. The residue is mostly small glosses and over-explanation, concentrated in the Beat 7 run (L591-597), plus one planner-shorthand line and one map caption at L611. Structural rhythm concerns: sentence_length_cv, long_sentence_pct, opener_entropy, one_sentence_paragraph_pct, mattr. Structural texture deficit (texture below_target, score 73.1).",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.824,
+        "target": 0.72,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "delta": 0.104,
+        "outOfRange": false
+      },
+      "sentence_length_cv": {
+        "actual": 0.802,
+        "target": 0.7,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "delta": 0.102,
+        "outOfRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.4,
+        "target": 11.0,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "delta": 1.4,
+        "outOfRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 36.0,
+        "target": 35.0,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "delta": 1.0,
+        "outOfRange": false
+      },
+      "long_sentence_pct": {
+        "actual": 22.2,
+        "target": 10.0,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "delta": 12.2,
+        "outOfRange": true
+      },
+      "opener_entropy": {
+        "actual": 6.19,
+        "target": 7.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "delta": -1.51,
+        "outOfRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.4,
+        "target": 19.0,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "delta": 9.4,
+        "outOfRange": true
+      },
+      "mattr": {
+        "actual": 0.773,
+        "target": 0.83,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "delta": -0.057,
+        "outOfRange": true
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 73.1,
+      "participial_pct": 6.3,
+      "compound_pct": 14.6,
+      "emdash_pct": 1.2,
+      "semicolon_pct": 1.5,
+      "short_pct": 46.3,
+      "verdict_reasons": [
+        "participial: 6.3% below target 12.0% (score 56/100)",
+        "compound: 14.6% above target 10.0% (score 62/100)",
+        "emdash: 1.2% below target 4.0% (score 74/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.3% → target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 14.6% → target 10.0% (score 62/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.2% → target 4.0% (score 74/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 10,
+      "textureDesertCount": 16,
+      "note": "Structural texture deficit (3 dimensions outside range). Several of the flagged zones are deliberate call-and-response procedure (the slip-reading at the lodge, the Corley ledger exchange). Downstream joining work should add participial and em-dash constructions there rather than shorten anything further."
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 67,
+        "total_violations": 2,
+        "overCap": [
+          {
+            "category": "paragraph_structure",
+            "pattern": "opener_consecutive_repeat",
+            "count": 3,
+            "cap": 0
+          },
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0
+          }
+        ],
+        "passBSignals": [
+          {
+            "pattern": "something_vague",
+            "line": 147,
+            "guide": "phantom-concreteness-guide.md",
+            "decision": "KILL (P3)"
+          },
+          {
+            "pattern": "verdict_too_x_for",
+            "line": 697,
+            "guide": "narrator-seep-guide.md",
+            "decision": "KEEP: 'too brown for mist' is a concrete perceptual correction (colour), and it is the chapter's closing reveal"
+          }
+        ],
+        "nonPassBNote": "opener_consecutive_repeat (paragraph_structure) belongs to pass A recurring tics."
+      }
+    },
+    "outOfPassObservations": [
+      "Pass A territory, not scored here: the 'looked at her ears' motif recurs five times (L219, L259, L357, L615, L633), and 'the way a man...' typifications cluster in L443-451.",
+      "Continuity, not scored here: at L681 'Jaina ran a thumb over the little hole' conflicts with the hand constraint (right hand dead, left wrapped with only two fingertips free). L615 says 'from the brook to the river', but earlier the chapter uses 'the ford'."
+    ]
+  }
+}

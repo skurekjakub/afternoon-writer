@@ -1,0 +1,94 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter7",
+  "iteration": 0,
+  "targetFile": "v0c.md",
+  "status": "fail",
+  "hardViolations": 0,
+  "softViolations": 3,
+  "verdictRule": "3 or more soft violations = fail",
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L111, L249, L253 and on (Pell's / Dunmore / Ashby's); L253, L261, L335-337, L401, L419, L429, L469 (Ashby's)",
+      "description": "Three of the new Andorhal names are already in canon for other people and places on the plague route. 'Ashby's' (Andorhal's secondary granary, the treatment site, which Ch8 is set at) is already a farm in the Ch4 sick village. Its hands ate the village's bread and drew water from the brook, and Elsie worked there ('Porridge at Ashby's in the morning'). 'Pell's' (an Andorhal granary that took the new factor's grain) collides with Mister Pell, Millhaven's second plague victim, and with 'Pell's', the Millhaven landmark the dead walked past (Ch3 survivor girl: 'Past Pell's. Up the cow way.'). 'Dunmore' (Pell's yard-reeve) collides with Wenna and Hew Dunmore of the sick village's top farm (Ch4 infirmary). All three earlier names sit in plague-hit settlements. Reusing them for Andorhal grain entities suggests links the plan does not intend, such as the sick village's Ashby's being tied to the Andorhal cell, or Millhaven's Pell to Pell's yard. It also creates duplicate entries in the memory ledger. Lesser: 'Hollin's' sits close to Millhaven's 'Mister Hollis', the seller the cart man undercut.",
+      "evidence": "Ch4 final L375 ('Elsie's at Ashby's, and Ashby's draws from the brook') and L419; memory world/geography.json and world/economy.json ('Ashby's buys bread and cheese for the hands'); Ch3 final L423 and memory characters/survivor-girl.json ('Missus Hale's baby. Then Mister Pell.' / 'Past Pell's'); memory locations/millhaven.json ('the drove way past Pell's'); memory characters/sick-village-villagers.md and locations/sick-village-chapel-infirmary.json (Wenna and Hew Dunmore). Beat plan constraint: 'No suggestion that the old carter or the newer grain-man clue is solved.' Implied links between sick-village or Millhaven households and the Andorhal cell are not earned.",
+      "suggestedFix": "Rename the Andorhal entities with names not yet in canon, consistently everywhere they appear. Ashby's (granary, plus 'Ashby' the owner at L261, L337, L419) could become e.g. 'Kett's' or 'Marrow's'. Pell's could become e.g. 'Garside's', with 'Pell' at L253 ('the old malt-house at the weir end that Pell leases') renamed to match. Dunmore could become e.g. 'Tarrant'. Optionally move 'Hollin's' further from 'Hollis' (e.g. 'Holt's'). Check Tenter Row, Fenner's, Simmons, the Wheatsheaf and Corin against the memory _index files before keeping them (current grep finds no collision for these)."
+    },
+    {
+      "violationId": "V2",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L151: \"And it isn't only the south road—there are some out on every road from the city.\" ... \"Most of the villages on a copied mark have written in since.\"",
+      "description": "Corin says copied-mark (tainted) loads go out on every road from Andorhal and that the villages on them are sick. 'Every road' includes the King's road. Ch5 locked the King's road as clean by Jaina's read, and Sylvanas built the route choice on that ('it's clean... clean was no use to her'). Ch6 kept it, and the Ch6 gate tracked it as canon (status r2: 'the clean King's road'). Taken literally, Corin's line contradicts that read. It also pushes toward the chapter's lock 'No proof that the wider spread is already complete', which Ch8's final turn needs ('the grain is already shipped, Andorhal was only the hub').",
+      "evidence": "Ch5 final L637: 'The King's road is straight, and drained, and it goes into Andorhal by the front gate, and it's clean.' L639: 'The King's road was clean, and clean was no use to her.' Memory threads/flour-supply-chain-and-andorhal.json (Ch5): 'the King's road is clean; the east road is only starting.' Beat plan knowledgeLedger.mustNotBeImpliedYet: 'No proof that the wider spread is already complete.' Beat plan B2 newOnPageInformation only needs 'Tainted shipments carry copied route marks'.",
+      "suggestedFix": "Name the roads instead of 'every road' and leave the King's road out, e.g. \"And it isn't only the south road. There are some out on the weir road and the east road too.\" Optionally soften the follow-up to \"Some of the villages on a copied mark have written in since. Some haven't. Yet.\" so the reports read as a pattern, not a census."
+    },
+    {
+      "violationId": "V3",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L417: \"At Corley's she and Jaina had drawn two pictures on one sheet, arguing over them half the night till Cyndia counted the book and one of them had to be moved.\" Related: L397 \"the one she'd carried since Corley's, with Jaina's blots down one side and her own names down the other.\"",
+      "description": "This misremembers Ch5, which was Sylvanas's own POV. At Corley's the two pictures were drawn in the afternoon at the depot counter, with Corley's kettle ticking. They did not sit together until Cyndia counted the short-rate lines by road, and then they matched. Nothing was moved, there was no argument ('Sylvanas would very much have liked one of the marks to be wrong'), and none of it ran 'half the night'. The only moved mark in Ch5 is Hollow Green, which Jaina barred the next afternoon at a different table, an inn on the south road, after Cyndia's list. L417 merges the two stops into one night-long argument. The contrast the line draws ('Here nobody had moved a mark') then rests on a scene that did not happen that way. L397 is a smaller mismatch. Jaina's marks were laid over Sylvanas's road lines on the same roads, not 'down one side', and the sheet Sylvanas carries out of Ch5 is the bigger redrawn sheet from the south-road inn and the fork.",
+      "evidence": "Ch5 final L100-135 (Corley's counter: 'two pictures on one sheet, and they did not sit together'; Cyndia counts; the marks match; 'It started there, or it started there first'). Ch5 final L179-197 ('By late afternoon they had a table. It was in the front room of an inn on the south road'; Hollow Green barred and moved after Cyndia's list). Ch5 L223 and L659 (the sheet folded and carried). Memory relationships/jaina-proudmoore--sylvanas-windrunner.json, Ch5 events 23-24.",
+      "suggestedFix": "L417: \"At Corley's she and Jaina had drawn two pictures on one sheet that would not sit together till Cyndia counted the book; at the inn on the south road one of Jaina's marks had still had to be moved.\" Or simply: \"At Corley's their two pictures had not sat together till Cyndia counted the book.\" Drop 'arguing over them half the night'. L397: \"the one she'd carried since the south road, with Jaina's blots over her own lines\" (or keep 'since Corley's' and change only 'down one side... down the other' to 'over her own lines')."
+    }
+  ],
+  "advisoriesNotCounted": [
+    {
+      "id": "A1",
+      "category": "cross-chapter",
+      "location": "L281 ('a boy on a hoist at Brask's granary'), L343 ('the square she had cut from Brask's loft'), L345 ('the jar under Brask's floor'), L477 ('Brask's boy had his death sewn into his collar')",
+      "note": "In canon the granary, loft and yard belong to Joss, the keeper. Tam 'works the hoist for Joss', and Brask is the village's militia captain. As shorthand for an unnamed village in Sylvanas's interior, 'Brask's' can stand. Spoken aloud at L477, though, 'Brask's boy' can read as Brask's son, which contradicts Ch4 ('He sat next to my youngest'). Optional fix for L477: 'The boy in Brask's village had his death sewn into his collar' or 'The boy at Joss's granary...'."
+    },
+    {
+      "id": "A2",
+      "category": "physical",
+      "location": "L79 (carts bear off left twenty paces inside the gate) vs Ch6 tally-man directions",
+      "note": "Ch6 (memory locations/andorhal-approach-road) puts the carts' left turn for the yards 'at the bottom of the hill', before the market gate. Here yard-bound wagons queue at the market gate and turn left inside it. This can be reconciled: Ch6's crest view also shows a wagon line on this road down to the market gate, so some carts go through. Not counted. A half-clause at L3 would close it (e.g. most carts having borne off left outside the wall at the bottom of the hill, the rest queuing here)."
+    },
+    {
+      "id": "A3",
+      "category": "cast",
+      "location": "L227 ('Back here'), L371-377 (S3 at the militia post)",
+      "note": "The S3 guard says the meeting point must not be 'one of Havel's shelters', because his reach for shelters he controls is Ch8's escalation. The militia post is his public duty post, where the party met him on the tally-man's referral, not a shelter he offers. Accepted. Flag for the Ch8 planner: S3 happens on Havel's ground, he knows the post emptied at the bell, and he holds the chalk."
+    },
+    {
+      "id": "A4",
+      "category": "arc",
+      "location": "L261 ('Ashby shut his gate at noon. You'll get nothing there tonight') and L419 ('I'd have sworn to it')",
+      "note": "The verifier note says Havel's tell should sit in where his routes point and not in his voice. This is a spoken claim that turns out wrong at the exact cult site. Both readings still survive: Havel himself volunteered Ashby's as a new-factor yard at L253, a shut gate can be literally true while the loft works behind it, and the narration never states guilt. Not counted. The Ch8 planner should know this plant is on the page."
+    },
+    {
+      "id": "A5",
+      "category": "cross-chapter",
+      "location": "L5, L67-73 (pass and gate book)",
+      "note": "The pass names 'Jaina Proudmoore of Dalaran', and the clerk copies both her name and 'Windrunner, Ranger-General' into the gate book. That fits the constraint (a Farstrider pass under Sylvanas's seal) and the plan's B1 goal (hide the purpose, not the identity), and Sylvanas notes the exposure. The plan validation suggested keeping the cover name vague. Ch8 should treat it as canon that the gate book holds both names from late on day 5."
+    },
+    {
+      "id": "A6",
+      "category": "cross-chapter",
+      "location": "L469, L501-503 (knife through the sheet into the table, pulled; candle pinched out to close)",
+      "note": "This repeats Ch5's closing business: knife through the sheet into the bench at L637, 'She folded the sheet... Then she pinched the candle out' at L659. It is not a fact contradiction. Recorded only because the plan guards against re-staging Ch5's shapes in this chapter."
+    }
+  ],
+  "verifiedClean": [
+    "Ch6 handoff: low sun, Jaina's mare shying down the hill, horses stabled outside the wall (four Thalassian mounts), Lyriel lifting Jaina down, linen reddened from wiping her lip on the hill, the crystal dim.",
+    "Cover pass: Sylvanas writes it, sealed with the leaf-and-arrow, wax run on one side (Ch3). Jaina signs nothing.",
+    "Jaina's body: staff in the crook of the dead right arm, two bare fingertips on the left, cannot write neatly (Corin's hand at her dictation, three lines of her blots on top), frost on the fingertips, grey face, drained at S3.",
+    "Jaina reads grain, not paper ('can't hear paper' held): sample-room bags are read by touch, and Corin carries the bills.",
+    "Address forms: Sylvanas aloud says 'Proudmoore' and 'Captain', thinks 'Jaina' (plus 'the mage' a few times). Havel says 'Ranger-General' unprompted on first sight, unremarked, and 'my lady'. Corin says 'Ranger-General' carefully and 'Lady Proudmoore'. Cyndia says 'Ranger-General'.",
+    "Tally-man referral stated as a plain fact (L99). The farewell is not mentioned. No Havel-tally-man link. Cyndia's turned head is not staged.",
+    "Havel is never narrated as cult-paid. Sylvanas's unease rests on route-pointing (L171, L263, L421, L441), with her bias against slow humans set beside it (L441).",
+    "B3 placement: Lyriel with Jaina and Corin, Cyndia with Sylvanas and Havel. The rendezvous is set by event (the Exchange bell). The split is framed as an evolution of Corley's (L213).",
+    "B4: at least eight men, counted by Cyndia, read by Sylvanas. The Tam callback is one clause (L281).",
+    "B5: Havel is left with Cyndia and never near the secondary granary. Three streets. Dead drop into a wall crack without a glance back. The ANDORHAL stencil is recognised and the Ch4 square of sacking is carried. The bitten fingers are purple and slow on the climb. Dry, warm, windless (no wet streets). Whether she was spotted is left open.",
+    "B6 stays on the Ch7-8 rung: a carrier coat applied by hand at packaging, the body finishes the work, alchemy plus necromancy. No answering chamber, no fidelity talk, no source named, nothing about undeath.",
+    "mustNotBeImpliedYet: no Kel'Thuzad, no Barov at all, no carter or grain-man resolution, no warm trust language, Havel not narrated guilty.",
+    "Timeline: midsummer, three months back, and high summer match Joss (Ch4), Corley's book (Ch5) and harvest canon.",
+    "Neral absent and correctly recalled as sent north with the child. Lyriel alive and given perimeter competence. Corin earns his place (L441, L499).",
+    "Close: all six of the active cast at close are present. The same-night capture at the secondary granary is ordered by event ('until I call'). Cyndia and Lyriel each acknowledge in one word. Ch8 opens minutes later."
+  ]
+}

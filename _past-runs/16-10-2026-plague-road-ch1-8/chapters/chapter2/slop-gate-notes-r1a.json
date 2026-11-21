@@ -1,0 +1,484 @@
+{
+  "chapterId": "chapter2",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 1,
+  "targetFile": "v2-r1.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsA trajectory [51] -> 13, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 20,
+      "kills": 6,
+      "keeps": 14,
+      "severityMarkers": {
+        "MILD": 6,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P5 preamble / P2-P3 pivots",
+      "clusterPages": [],
+      "clusterWarnings": [
+        "Deer-fight scene repeats P5 preamble shape twice (L383, L415).",
+        "Chair-vs-stone pivot used in narration (L57) and dialogue (L79); narration instance killed."
+      ],
+      "keepRateNote": "14 keeps of 20 contrast-shaped candidates exceeds the 20% advisory. Re-examined: 6 are condition-4 self-argument ('No. Again.', 'A fair guess. No.', 'No. Slower.', 'oh, Light, no', 'Nobody.' reasoning chain, 'Except she wasn't anywhere on her own any more'); the rest are binary diagnostics driving action (L79, L279, L355, L465), spatial precision (L59, L397), and one deletion-test failure carried by self-argument (L211). Factual absence observations (no smoke, no dogs, nobody ate) are scene evidence, not contrast pivots, and were not counted as candidates.",
+      "findings": [
+        {
+          "id": "A-NEG-01",
+          "line": 57,
+          "pattern": "negation-P3-source-swap (cluster: narration+dialogue pivot)",
+          "severity": "MILD",
+          "text": "Nothing she said in this room would get her out of it. She might manage it at a stone. Outside, with the elf standing beside her.",
+          "deletionTest": "She might manage it at a stone. Outside, with the elf standing beside her.",
+          "reason": "Pattern 3 source-swap (not in this room / at a stone). The same chair-vs-stone pivot reappears in dialogue at L79 ('I can't prove it to you from a chair... I can prove it at a stone'); cluster rule (narration and dialogue both using the pivot rhythm) kills the narration pre-echo. The dialogue line carries the binary and is kept.",
+          "textureZone": "texture_desert (10 sentences) beginning 'Nothing she said in this room would get her out of it.'",
+          "suggestedFix": "She would have to do it at a stone. Outside, with the elf standing beside her.",
+          "guide": "negation-addiction-hunting-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-02",
+          "line": 117,
+          "pattern": "negation-P1-contrast-pivot (instead of)",
+          "severity": "MILD",
+          "text": "a cable where there'd been a thread, a cold sitting in the line instead of running along it.",
+          "deletionTest": "a cable where there'd been a thread, a cold sitting in the line.",
+          "reason": "Pattern 1. 'a cable where there'd been a thread' already carries the then/now comparison; the 'instead of running along it' tail is a second contrast restating it. Deletion survives.",
+          "suggestedFix": "a cable where there'd been a thread, the cold lying still in the line.",
+          "guide": "negation-addiction-hunting-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-03",
+          "line": 229,
+          "pattern": "negation-P4-appended-minimizer",
+          "severity": "MILD",
+          "text": "It was in the water, all through it, the way tea sits in water once it's steeped, with no thread anywhere to pull.",
+          "deletionTest": "It was in the water, all through it, the way tea sits in water once it's steeped.",
+          "reason": "Pattern 4-style appended negative descriptor. The steeped-tea image already says the contamination is diffuse; 'with no thread anywhere to pull' re-states it by negation. Deletion survives with no fact lost (the no-direction point is made explicitly at L301).",
+          "suggestedFix": "It was in the water, all through it, the way tea sits in water once it's steeped.",
+          "guide": "negation-addiction-hunting-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-04",
+          "line": 283,
+          "pattern": "negation-P2-fragment-pivot (dialogue)",
+          "severity": "MILD",
+          "text": "They don't fan out. They close.",
+          "deletionTest": "They close.",
+          "reason": "Pattern 2 fragment pivot. Windrunner's opening 'Your lines don't spread' (L279) is the kept binary correction; 'They don't fan out.' repeats the same negation before landing on 'They close.' Dialogue defense does not save a second consecutive refusal of the same option.",
+          "suggestedFix": "They close.",
+          "guide": "negation-addiction-hunting-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-05",
+          "line": 383,
+          "pattern": "negation-P5-preamble",
+          "severity": "MILD",
+          "text": "Then a young stag with his antlers laid back, and another doe, more crashing in the holly behind them, and they weren't swerving.",
+          "deletionTest": "Then a young stag with his antlers laid back, and another doe, more crashing in the holly behind them. Deer ran from horses. These came straight down the crown of the road at the riders...",
+          "reason": "Pattern 5 preamble negation. 'Deer ran from horses. These came straight down the crown of the road at the riders' states the anomaly positively two sentences later; the 'weren't swerving' clause primes it by negation. Same-scene repeat of the shape with A-NEG-06.",
+          "suggestedFix": "Then a young stag with his antlers laid back, and another doe, more crashing in the holly behind them.",
+          "guide": "negation-addiction-hunting-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-NEG-06",
+          "line": 415,
+          "pattern": "negation-P5-preamble",
+          "severity": "MILD",
+          "text": "This one hadn't dropped. Blood ran from her nose in two long strings",
+          "deletionTest": "Blood ran from her nose in two long strings, her legs wobbling, crossing, but she kept coming.",
+          "reason": "Pattern 5 preamble. 'but she kept coming', 'She stumbled. She came on.' and 'Light, why won't she go down?' all carry the doe's refusal to drop; the negated sentence is the first of four statements of it. Fix keeps the hart/doe distinction by naming the doe.",
+          "textureZone": "adjacent to telegram_run (8) / texture_desert (13) 'Another arrow took her in the neck. She stumbled. She came on.'",
+          "suggestedFix": "This doe bled from the nose in two long strings",
+          "guide": "negation-addiction-hunting-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 35,
+      "kills": 5,
+      "keeps": 30,
+      "severityMarkers": {
+        "MILD": 5,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "P5 abstraction-as-agent; P8 body-part subject",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "Dedicated P5/P6 sweep re-read every sentence for inanimate/abstract subjects with agency, desire, cognition, combustion or physical-behavior verbs. Added A-INT-01 (Reaching told), A-INT-04 (Finding out wanted), A-INT-05 (Death left/came). Road/geography verbs (ran, went up, met, bent, gave out, came down to) are literal path-geometry idiom with no intent. Contamination/ward/line verbs (travels, seeping, pressed in, pulling, working at, sending) are the chapter's literal in-world mechanism (subject-matter defense). No permission tags found ('Let the elf hear it' and 'Let her count her costs' are imperatives about a person, outside the closed tag set). Body-part subjects that are involuntary (chin hit her chest, stomach rolled over, ears going hot, hand wouldn't close, hands stopping mid-gesture after 'before she meant to') kept under the P8 reflex exception.",
+      "findings": [
+        {
+          "id": "A-INT-01",
+          "line": 5,
+          "pattern": "intent-smear-P5 (gerund subject with cognition verb 'told')",
+          "severity": "MILD",
+          "text": "Reaching only told her where the hand was.",
+          "subject": "Reaching",
+          "verb": "told",
+          "realAgent": "Jaina, who felt the ward each time she reached",
+          "reason": "Pattern 5. An abstraction (the act of reaching) is given a communication verb; the real actor is Jaina feeling the ward.",
+          "suggestedFix": "Each time she reached, she only felt the hand again.",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-INT-02",
+          "line": 125,
+          "pattern": "intent-smear-P8 (body-part subject)",
+          "severity": "MILD",
+          "text": "Windrunner's face had turned down the passage toward the guardroom. Jaina could not tell whether she'd heard",
+          "subject": "Windrunner's face",
+          "verb": "had turned",
+          "realAgent": "Windrunner, who turned her head",
+          "reason": "Pattern 8. The face is given the turn; character-as-subject reads identically. Same sentence also killed under recurring-prose-tics Tic 5 (A-TIC-01); one fix resolves both.",
+          "suggestedFix": "Jaina could not tell whether Windrunner had heard",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-INT-03",
+          "line": 187,
+          "pattern": "intent-smear-P8 (body-part subject)",
+          "severity": "MILD",
+          "text": "Cyndia's head turned once to the dark slope on the left and once to the dark slope across the road.",
+          "subject": "Cyndia's head",
+          "verb": "turned",
+          "realAgent": "Cyndia, scanning the slopes",
+          "reason": "Pattern 8. The head is the grammatical actor of a deliberate tactical scan; 'Cyndia turned her head' means the same. Not an involuntary reflex.",
+          "textureZone": "texture_desert (14) 'All the horses had gone stiff-legged at once. Did the elves feel it? Cyndia's head turned...'",
+          "suggestedFix": "Cyndia turned her head once to the dark slope on the left and once to the dark slope across the road.",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-INT-04",
+          "line": 267,
+          "pattern": "intent-smear-P5 (abstraction 'wanted')",
+          "severity": "MILD",
+          "text": "Finding out wanted a bench and a lamp and a quiet room, and she had a horse to get onto.",
+          "subject": "Finding out",
+          "verb": "wanted",
+          "realAgent": "Jaina, who would need the bench and lamp",
+          "reason": "Pattern 5. A gerund abstraction carries 'wanted'; the person who needs the bench is Jaina. (Neral's dialogue 'That cow wants stripping' at L339 is idiom in speech and is kept.)",
+          "suggestedFix": "To find out she would need a bench and a lamp and a quiet room, and she had a horse to get onto.",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-INT-05",
+          "line": 501,
+          "pattern": "intent-smear-P5 (personified abstraction 'Death left... when it came')",
+          "severity": "MILD",
+          "text": "Death left its own mark when it came, flat and cold, laid over a body from the outside.",
+          "subject": "Death",
+          "verb": "left / came",
+          "realAgent": "the ordinary dying of a body, which carries a flat cold signature",
+          "reason": "Pattern 5. Death is personified as an arriving agent leaving a mark; the concrete thing is the signature an ordinarily dead body carries, which is what Jaina compares against the anatomy-slab carcasses.",
+          "suggestedFix": "A body that had simply died carried its own mark, flat and cold, laid over it from the outside.",
+          "guide": "intent-smear-agency-laundering-guide.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 17,
+      "kills": 2,
+      "keeps": 15,
+      "severityMarkers": {
+        "MILD": 2,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "Tic 5 eye/gaze/looking beats",
+      "tallies": {
+        "Tic1_cornerOfMouth": 0,
+        "Tic2_marked_verb": 0,
+        "Tic3_tightened_emotional": 0,
+        "Tic3_eased": 0,
+        "Tic4_shifted_facial": 0,
+        "Tic5_emotionalLookingBeats": 6,
+        "Tic5_tacticalLookingBeats_notCounted": 5,
+        "Tic6_weightMetaphor_emotional": 0,
+        "Tic7_nonSaidTags": 2
+      },
+      "findings": [
+        {
+          "id": "A-TIC-01",
+          "line": 125,
+          "pattern": "Tic5-eye-gaze-repertoire (excess over cap)",
+          "severity": "MILD",
+          "text": "Windrunner's face had turned down the passage toward the guardroom. Jaina could not tell whether she'd heard",
+          "count": 6,
+          "cap": 4,
+          "reason": "Six emotion/reaction/connection looking beats (L17, L125, L215, L317, L329, L527) against a cap of 4. This is the most generic: a reaction head-turn whose only job is to be read; Jaina's uncertainty in the next clause carries the beat. Also A-INT-02.",
+          "suggestedFix": "Jaina could not tell whether Windrunner had heard",
+          "guide": "recurring-prose-tics.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        },
+        {
+          "id": "A-TIC-02",
+          "line": 527,
+          "pattern": "Tic5-eye-gaze-repertoire (excess over cap)",
+          "severity": "MILD",
+          "text": "Windrunner turned her head up the road toward the horses.",
+          "count": 6,
+          "cap": 4,
+          "reason": "Second-weakest looking beat: a generic head-turn that pre-announces the next line ('Is it in my horses?'), which carries the beat alone. The exchange alternates cleanly Windrunner/Jaina, so no attribution is lost. Sits 16 lines before a second 'Windrunner turned her head' (L543), which is kept as tactical.",
+          "textureZone": "near telegram_run (10) / texture_desert (12) 'The cut on the grey's near hock was a shallow tooth-score...'",
+          "suggestedFix": "",
+          "guide": "recurring-prose-tics.md",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ],
+          "fixNote": "Delete the whole paragraph (L527). Empty string = deletion."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 13,
+    "totalKeeps": 59,
+    "mildKills": 13,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 13,
+    "killsUnfixable": 0,
+    "sharedFixes": [
+      "A-INT-02 and A-TIC-01 cite the same L125 text and share one fix; apply once."
+    ],
+    "verdict": "fail",
+    "verdictReason": "13 MILD kills (over the 3-MILD pass threshold), 0 MODERATE/SEVERE: 6 negation pivots, 5 agency-laundering subjects, 2 Tic 5 looking-beat excesses. Down from 51 at iteration 0. All kills have drop-in fixes. Structural texture deficit (texture score 74.5, below_target) and structural rhythm concerns (cv, long%, one-sentence paragraphs, opener entropy, MATTR outside range) noted for downstream.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.81,
+        "target": 0.72,
+        "delta": 0.09,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.5,
+        "target": 11.0,
+        "delta": 1.5,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.833,
+        "target": 0.7,
+        "delta": 0.133,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 37.6,
+        "target": 35.0,
+        "delta": 2.6,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.3,
+        "target": 10.0,
+        "delta": 12.3,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 30.2,
+        "target": 19.0,
+        "delta": 11.2,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.1,
+        "target": 7.7,
+        "delta": -1.6,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.781,
+        "target": 0.83,
+        "delta": -0.049,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv above range",
+        "long_sentence_pct above range",
+        "one_sentence_paragraph_pct above range",
+        "opener_entropy below range",
+        "mattr below range"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 74.5,
+      "participial_pct": 6.3,
+      "compound_pct": 14.3,
+      "emdash_pct": 1.6,
+      "semicolon_pct": 1.1,
+      "short_pct": 46.8,
+      "verdict_reasons": [
+        "participial: 6.3% below target 12.0% (score 56/100)",
+        "compound: 14.3% above target 10.0% (score 64/100)",
+        "emdash: 1.6% below target 4.0% (score 78/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.3% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 14.3% -> target 10.0% (score 64/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.6% -> target 4.0% (score 78/100). Use for mid-sentence pivots.",
+      "flaggedPassages": {
+        "telegram_run": 12,
+        "texture_desert": 18
+      },
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 52,
+        "total_violations": 2,
+        "overCap": [
+          {
+            "pattern": "punct_emdash_cluster",
+            "count": 1,
+            "cap": 0,
+            "guide": "recurring-prose-tics.md",
+            "line": 555,
+            "gateDecision": "KEEP - dashes are the transcribed text of Jaina's field-book note (*liver—roots—alive—before*), in-world notation, not narrative punctuation"
+          },
+          {
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0,
+            "guide": "narrator-seep-guide.md (pass B)",
+            "line": 133,
+            "gateDecision": "not audited - pass B scope"
+          }
+        ],
+        "passAMappedSignalsAudited": [
+          "punctuation_tics",
+          "participial_attachment",
+          "simile_overload",
+          "filter_words",
+          "said_bookisms"
+        ],
+        "passAMappedSignalKills": 0,
+        "unmappedSignalsReviewed": [
+          "contact_verbs (found L147, settled L325, pressed L177) reviewed under intent-smear: all KEEP"
+        ],
+        "passBSignalsNotAudited": [
+          "hedging",
+          "narrator_verdict",
+          "vague_pointers"
+        ]
+      }
+    }
+  }
+}

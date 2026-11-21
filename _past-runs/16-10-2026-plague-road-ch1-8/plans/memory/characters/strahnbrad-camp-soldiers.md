@@ -1,0 +1,3 @@
+# Strahnbrad camp soldiers
+
+Nameless, on purpose. A dusty bearded sergeant at a gap in a hedge who holds his spear crossways to stop horses and sends a boy splashing up the lanes; two officers who argue about a ford over a banner pole and later carry a mapboard into the space Arthas leaves; a lieutenant sent to feed the party; Silver Hand riders in plate and white tabards near the stream, with the silver hand stitched on each; wagoners with rags over their faces. The whole camp faces east to the smoke. The road side is one sergeant and a hedge, and the wagons filing in behind the cook-tents are not looked into. No Uther, no Falric, no named officers.

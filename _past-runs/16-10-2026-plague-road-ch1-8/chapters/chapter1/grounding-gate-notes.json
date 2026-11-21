@@ -1,0 +1,41 @@
+{
+  "chapterId": "chapter1",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "scene-grounding",
+      "sceneId": 2,
+      "sceneTitle": "The Prisoner",
+      "findingId": "G4-001",
+      "category": "G4",
+      "severity": "MODERATE",
+      "lines": "257, 271-273",
+      "excerpt": "Across from the door, a ward-stone the size of a loaf was set into the wall at the height of a seated head ... Then the mage turned her head left, toward the ward-stone in the wall.",
+      "reason": "The cell blocking contradicts itself at the chapter's main silent beat. Line 257 puts the stone in the wall opposite the door, at seated-head height, so it sits behind the chair. The mage is facing Sylvanas in the doorway (line 265: 'looking at Sylvanas'). A sideways turn to the left can't bring a stone behind her head into view. The reader loses track of where the stone is just as the stone is doing the plan's Beat 9 work (Jaina reacting to it with no dialogue). The fix keeps the existing geometry, which also strengthens the closing image of the stone humming right behind the prisoner's head as Sylvanas stands over her.",
+      "suggestedFix": "Then the mage twisted round in the chair toward the ward-stone behind her head.",
+      "fixMode": "light-swap"
+    },
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 2,
+      "sceneTitle": "The Prisoner",
+      "findingId": "G6-002",
+      "category": "G6",
+      "severity": "MILD",
+      "lines": "251",
+      "excerpt": "A morning lost to apologies, an escort to the border, and a sharp letter north from Silvermoon.",
+      "reason": "The geography is wrong. Within the chapter, Silvermoon is north of the Pass ('the fork where the old road went north to Silvermoon'), and the plan's Thalassian Pass enrichment puts Lordaeron, and Dalaran with it, south of the Pass. A protest letter from Silvermoon about Antonidas's apprentice would go south. As written, 'north from Silvermoon' sends it the wrong way, or nowhere specific. Naming where it goes ties the institution down and fixes the compass error in the same clause, with no added length.",
+      "suggestedFix": "A morning lost to apologies, an escort to the border, and a sharp letter from Silvermoon to Dalaran.",
+      "fixMode": "substitute"
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "mildKills": 1,
+    "moderateKills": 1,
+    "severeKills": 0,
+    "dominantFailures": ["G4", "G6"]
+  }
+}

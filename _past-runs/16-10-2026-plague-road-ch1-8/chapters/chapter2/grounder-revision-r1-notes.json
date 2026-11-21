@@ -1,0 +1,37 @@
+{
+  "chapterId": "chapter2",
+  "iteration": 1,
+  "feedbackPath": ".afternoon/chapters/chapter2/grounding-gate-notes.json",
+  "targetFile": "v2g.md",
+  "touchedScenes": ["Scene 2 - Road to Millhaven (B10 descent)", "Scene 3 - Wildlife attack (B11 wolf cast)"],
+  "fixesApplied": [
+    {
+      "findingId": "G12-001",
+      "line": 211,
+      "action": "Removed the unsourced claim that Quel'Thalas sweetness persisted in the cell and left at the last stone. Kept the sourced Lordaeron smell (wet leaf, cattle, old woodsmoke). Transition cue at the Pass remains the border hum cutoff.",
+      "after": "What came up the slope out of the dark was her own side's smell, wet leaf and cattle and old woodsmoke."
+    },
+    {
+      "findingId": "G4-002",
+      "line": 399,
+      "action": "Named the wolf's target: Jaina and her mare, so the first instinctive cast is staged unambiguously.",
+      "after": "Another wolf was coming for Jaina, low along the ditch-side, head flat, filmed eyes fixed on her mare's hind legs and the soft place above the hock."
+    }
+  ],
+  "dialogueRerun": "No dialogue runs touched.",
+  "finalThirdAudit": {
+    "risksFound": ["G4 target ambiguity in wolf staging (fixed)"],
+    "fixesApplied": ["wolf target named"],
+    "residualConcerns": []
+  },
+  "sourceAudit": {
+    "memoryFiles": ["locations/southern-ward-line", "locations/pass-holding-cell", "locations/thalassian-pass-post"],
+    "materials": ["stories/the-plague-road/locations/lordaeron-and-northrend.md"],
+    "unsourcedAdditions": []
+  },
+  "preexistingFlagsForOtherAgents": [
+    "'Ranger-Lord' (Lyriel line) comes from the Lyriel voice sheet; not confirmed in a location or memory file.",
+    "Neral says 'My lady' to Jaina; the voice sheet allows title only."
+  ],
+  "processNote": "I read the gate's evidence (the gate's reading of memory) from its notes and did not re-open the memory files. I applied the gate's suggested fixes verbatim."
+}

@@ -1,0 +1,283 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "a",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "pass",
+  "fixStrategy": "default (iterationKillsA 40 -> 16 -> 3 -> 2, strictly decreasing)",
+  "audits": [
+    {
+      "guide": "negation-addiction-hunting-guide.md",
+      "totalCandidates": 14,
+      "kills": 0,
+      "keeps": 14,
+      "severity": "none",
+      "dominantPattern": null,
+      "clusterPages": [],
+      "clusterWarnings": [],
+      "cleanReason": "Every negation token in v2-r4.md was swept (about 45 sentences). Most are plain factual negatives with no positive pivot ('Men who had never drawn a bow', 'managed neither', 'without a ripple', 'No seal, no escort, no letter.' answering a direct question). Fourteen had a contrast or pivot shape and were run through the decision procedure. All fourteen survive. 'a stream she could hear and not see' is spatial precision (condition 2). 'nothing else in the hollow had reason to keep that still' is the binary she acts on, wind or a hiding troll (condition 1). 'At a gallop she couldn't hear one.' and 'she couldn't hear anything wrong in it' are hard perceptual limits that drive the cell beat (condition 3). 'Nothing on the road last night had come near cold enough for that.' turns the frost-nip into a clue (condition 3). 'No. It was real.' (L69), 'No, nonsense.' (L153), 'No. Hold her for a magister' (L283), the L107 run 'None of it was hers... It hadn't. One stone with a limp in it wasn't an army.', and 'She wasn't going to.' (L285) are all Sylvanas arguing with herself in free indirect thought, and the next beat undercuts each one (condition 4). None is a narrator caption. 'she didn't run when they came up on her' is the spy-or-not diagnostic that Sylvanas reasons from at L207 (condition 1). 'Frightened people looked at the door. This one was looking at Sylvanas' is an implicit contrast that reads fear against anger, which is how she judges the prisoner (condition 1). No Not-X-Y fragment pivots, source swaps, count resets, or mundane reveal chains remain. No permission-tag or claim-then-gloss replacement traps were found.",
+      "findings": []
+    },
+    {
+      "guide": "intent-smear-agency-laundering-guide.md",
+      "totalCandidates": 24,
+      "kills": 1,
+      "keeps": 23,
+      "severity": "mild",
+      "dominantPattern": "P10/P5 abstraction-with-demand-verb (actor omitted)",
+      "clusterFlags": [],
+      "repeatNouns": [],
+      "pattern4Alert": "no",
+      "secondSweep": "Dedicated P5/P6 second sweep done over every sentence. It looked for inanimate or abstract subjects with agency, desire, cognition, combustion, or physical-behavior verbs, actor demotion into instrument phrases, body-part subjects, abstract states settling into body parts, and metaphor chains. Results: geography verbs ('the slope fell away', 'the track bent', 'the track ran east', 'the southern track... climbing') are stock topographic idiom, not intent. The stone/hum/beat verbs ('hitched', 'came through wrong', 'caught itself', 'the stone had put it') describe the chapter's literal ward phenomenon (subject-matter defense). The horse-gait chain ('favouring a leg' L63, 'a limp in it' L107, 'a limp in the hum' L177, 'The whole ring could be limping' L283) is Sylvanas's own horsewoman vocabulary standing in for the magister word she lacks, which is the planned point of Beat 2, so it is POV voice on the in-world subject and not an intent smear on a noun. Body-part subjects: 'Sylvanas's right hand had closed again. She opened it.' is involuntary and the involuntariness is the point (P8 exception). 'The jaw clamped' is an observed tension state, not a find/know/carry volition. 'her palm could only just reach' uses the palm as the literal sensing surface. No abstract-state-settles-into-body constructions. The second sweep found one new kill: 'more of them than the hour called for' (L195).",
+      "findings": [
+        {
+          "id": "IS-1",
+          "line": 195,
+          "text": "Rangers stood along the far wall, more of them than the hour called for.",
+          "pattern": "P10 actor omitted / abstraction given a demand verb",
+          "subject": "the hour",
+          "verb": "called for",
+          "realAgent": "Cyndia, or whoever sets the duty roster at the Pass. The surplus is extra rangers crowding in on the prisoner's account.",
+          "severity": "MILD",
+          "reason": "A time-word is given the verb of demand while the person who actually sets how many rangers stand duty is left out. Putting that actor back in subject position keeps the meaning, so this fails the P10 test.",
+          "suggestedFix": "Rangers stood along the far wall, more of them than Cyndia kept on duty at that hour.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "recurring-prose-tics.md",
+      "totalCandidates": 7,
+      "kills": 1,
+      "keeps": 6,
+      "severity": "mild",
+      "dominantPattern": "Tic 5 eye/gaze repertoire exhaustion",
+      "ticCounts": {
+        "tic1_cornerOfMouth": {
+          "count": 0,
+          "cap": 1
+        },
+        "tic2_marked": {
+          "count": 2,
+          "cap": 2,
+          "note": "both L229, surveyor/raider marking stones on a map; literal ink use"
+        },
+        "tic3_tightenedEased": {
+          "count": 0,
+          "cap": "3/2",
+          "note": "'easing his weight off the stirrups' L29 is physical"
+        },
+        "tic4_facialShifted": {
+          "count": 0,
+          "cap": 1,
+          "note": "three 'shifted' uses (mare L51, Sylvanas's body L225, crystal colour L241) are all physical"
+        },
+        "tic5_eyeGaze": {
+          "count": 5,
+          "cap": 4,
+          "instances": [
+            "L91 one more look at the stone",
+            "L151 He was looking at her hand.",
+            "L265 This one was looking at Sylvanas, quiet and fixed",
+            "L271 The mage looked her over...",
+            "L291 ...to keep looking at her."
+          ],
+          "excludedAsNonEmotional": [
+            "L7 watching the gap (tactical aim)",
+            "L81 He studied the stone (object inspection)",
+            "L193 narrow-eyed (physical squint at lamplight)",
+            "L241 Sylvanas studied the drawing (verification)",
+            "L21 troll's eyes half open (description)"
+          ]
+        },
+        "tic6_weightHeaviness": {
+          "count": 0,
+          "cap": 2
+        },
+        "tic7_nonSaidTags": {
+          "count": 0,
+          "cap": 3,
+          "note": "'she called across the hollow' L15 is a volume tag and exempt"
+        }
+      },
+      "findings": [
+        {
+          "id": "RT-1",
+          "line": 291,
+          "text": "Sylvanas crossed the floor and stopped in front of the chair, close enough that the mage had to tip her head back to keep looking at her.",
+          "targetFragment": "to keep looking at her",
+          "pattern": "Tic 5 eye/gaze beat over cap (5 of 4)",
+          "severity": "MILD",
+          "reason": "This is the fifth emotional or connection gaze beat in the chapter and the third on the mage-to-Sylvanas axis inside the cell, after L265 and L271. It is the most generic of the five, a plain staring-contest hold. 'tip her head back' already does the physical power-staging. It sits at or near the texture_desert the rhythm scorer flags across sentences 448-457, but the fix is a deletion and does not need new joining construction.",
+          "suggestedFix": "Sylvanas crossed the floor and stopped in front of the chair, close enough that the mage had to tip her head back.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "negation-addiction-hunting-guide.md",
+            "intent-smear-agency-laundering-guide.md",
+            "recurring-prose-tics.md"
+          ]
+        }
+      ],
+      "toolSignalAudit": "Every slop_checker match that maps to this guide was reviewed. None is over cap. punct_colon_narration 5/5 (L7, L153, L219, L251, L271): all are list or inventory colons, at cap and not over, KEEP. punct_semicolon 4/10, KEEP. participial_trailing 7/20, KEEP; texture wants more of these, not fewer. simile_like 4/10, simile_as_if 1/5, simile_as_though 1/3: under cap, KEEP (see scratchpad for an uncapped 'the way X' observation). filler_frowned 2/4 (both L273): a deliberate escalation, frown then frown harder, that sets up the stone-hearing beat, KEEP. filter_watched 2/3 (L29 dialogue; L245 'Well, she'd watched' answering 'A name worth watching'), KEEP. contact_found 3/6 and contact_pressed 1/6 are unmapped and under cap, KEEP."
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "totalKeeps": 43,
+    "mildKills": 2,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "negation-addiction-hunting-guide.md",
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "guidesWithKills": [
+      "intent-smear-agency-laundering-guide.md",
+      "recurring-prose-tics.md"
+    ],
+    "killsWithFix": 2,
+    "killsUnfixable": 0,
+    "verdict": "pass",
+    "verdictReason": "Pass with warnings: 2 MILD kills (threshold is 3) and 0 MODERATE/SEVERE. IS-1 L195 'the hour called for' leaves out the actor. RT-1 L291 is the fifth gaze beat against a cap of 4. Negation is clean. Both fixes are low-difficulty drop-ins for downstream editors. Also flagged: a structural texture deficit (texture score 82.3, below target; participial 6.1% vs 12%, em-dash 1.1% vs 4%; 8 telegram runs, 12 texture deserts), and structural rhythm concerns where one_sentence_paragraph_pct, long_sentence_pct, opener_entropy and mattr fall outside their style-guide ranges.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.649,
+        "target": 0.72,
+        "delta": -0.071,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.1,
+        "target": 11.0,
+        "delta": 0.1,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.741,
+        "target": 0.7,
+        "delta": 0.041,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 36.8,
+        "target": 35.0,
+        "delta": 1.8,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 16.9,
+        "target": 10.0,
+        "delta": 6.9,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.0,
+        "target": 7.7,
+        "delta": -1.7,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 24.7,
+        "target": 19.0,
+        "delta": 5.7,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.788,
+        "target": 0.83,
+        "delta": -0.042,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 82.3,
+      "participial_pct": 6.1,
+      "compound_pct": 11.0,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 0.9,
+      "short_pct": 44.6,
+      "verdict_reasons": [
+        "participial: 6.1% below target 12.0% (score 56/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.1% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 1.1% -> target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": {
+        "telegram_run": 8,
+        "texture_desert": 12
+      }
+    }
+  },
+  "analyticHints": {
+    "slopChecker": {
+      "total_matches": 31,
+      "total_violations": 1,
+      "overCap": [
+        {
+          "pattern": "verdict_too_x_for",
+          "category": "narrator_verdict",
+          "count": 1,
+          "cap": 0,
+          "line": 119,
+          "text": "too fast and too even for anyone who meant to stop politely",
+          "ownedBy": "pass B (narrator-seep guide); not audited in pass A"
+        }
+      ],
+      "passAMappedCategories": {
+        "punctuation_tics": 9,
+        "participial_attachment": 7,
+        "simile_overload": 6,
+        "filler_actions": 2,
+        "filter_words": 2
+      },
+      "unmapped": {
+        "contact_verbs": 4
+      }
+    }
+  }
+}

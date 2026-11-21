@@ -1,0 +1,137 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter8",
+  "iteration": 0,
+  "targetFile": "v0c.md",
+  "status": "fail",
+  "hardViolations": 2,
+  "softViolations": 4,
+  "verdictRule": "Any hard violation, or 3 or more soft violations, is a fail. This pass has 2 hard and 4 soft.",
+  "findings": [
+    {
+      "violationId": "V1",
+      "severity": "hard",
+      "category": "cross-chapter",
+      "location": "L493: 'Sylvanas had drawn the roads in lead at Corley's and lettered the names along them ... All the roads on the sheet ran down to Andorhal at the bottom, the blots getting thicker the closer they came. There was a slit through the paper at Strahnbrad ... Under Andorhal lay a thumb's width of clean paper, then the edge.' The B7 plotting depends on this layout: L505-509 (the weir road on Sylvanas's sheet, 'a line without a single blot', followed 'down until he ran out of paper'), L523 (the east road 'out of the other bottom corner'), L537 ('Her blots closed in on Andorhal from the top. Corin's red left it at the bottom'), L583 and L605 (the east road running off the edge).",
+      "description": "The prose puts Andorhal on Sylvanas's sheet near the bottom edge, with every road on the sheet running down into it. Canon says otherwise. Andorhal has never been on that sheet. The south road runs off the bottom edge at Strahnbrad, and the rest of the road to Andorhal was drawn only on the boards of the inn bench. The sheet itself is laid out around Corley's crossing with roads going out from it (Millhaven on the north road near the top), so the roads do not all run down to Andorhal. Two smaller errors sit in the same sentence. The sheet Sylvanas carries is the big one she redrew at the inn on the south road, not the Corley's sheet. And the Corley's sheet was drawn in Corley's ink because her lead skated on the glazed paper, so 'in lead at Corley's' is wrong on both counts. Because B7's plotting (the weir and east roads going down off the paper, red leaving Andorhal 'at the bottom') rests on the wrong layout, the beat's geometry contradicts Ch5 and Ch6.",
+      "evidence": "Ch5 final L101 ('Her stub of lead skated on the glaze ... She held out her hand, and Corley put his pen in it'); L103 ('A dot in the middle for the depot. Four lines out, north, west, south, east'); L105 ('Millhaven went on the north road near the top of the sheet'); L179-181 (at an inn on the south road: 'She had drawn the roads again on a bigger sheet'); L545 ('the south road where it ran off the bottom edge with nothing under it'); L579 ('She drew the south road on down off the bottom of the sheet onto the boards of the bench, there being nowhere else to draw it'); L631-635 ('wrote at the edge of the sheet where the road left it ... Strahnbrad', then the knife goes through the word into the bench). Ch6 final L151-155 (Arthas puts a finger on the knife slit: 'That's us.' / 'That's you. And this road runs on into Andorhal by the back gate.'). Ch7 final L361 (the sheet 'she'd carried since the south road'). Memory world/geography.md, Chapter 5: 'the south road bends under the hills, past a bridge, past Strahnbrad, and into Andorhal by the back.'",
+      "suggestedFix": "Rewrite L493 to match canon. Sylvanas redrew the roads on the big sheet at the inn on the south road, with Corley's crossing near the middle and the roads going out from it. Jaina's blots lie over them, thickening down the south road, and the south road runs off the bottom edge at the knife slit through 'Strahnbrad' with nothing under it. Andorhal was never on the paper. Then use Corin's printed map of the roads round Andorhal, which is already on the page at L477-481, to supply the city. Have him lay it against the bottom edge so that his south road meets hers at the slit. His red goes out of Andorhal on his map, comes back up the south road through the slit onto her sheet, over her blots ('His first dots landed on top of her blots. Then he carried on past them' still works), and on past Corley's crossing into the north. That also squares the plan's 'northern Lordaeron' note with L537. The weir and east roads go out across his printed map and off its edges and margins. Adjust L507-509, L523, L537 (for example, 'Her blots came down to the slit at Strahnbrad. Corin's red came back up through it ...'), L583 and L605 (the east road is on Corin's map) to fit. L611 can stay as written (the sheet rolls round Kett's sketch)."
+    },
+    {
+      "violationId": "V2",
+      "severity": "hard",
+      "category": "cross-chapter",
+      "location": "L545: 'Below Strahnbrad, where the road had filled up with grain carts, she'd pulled the mare onto the verge a dozen times to let them by. How many of those had been coming the other way?'",
+      "description": "Jaina's memory of the Ch6 ride gets two on-page facts wrong. First, Jaina never pulled over. The drivers pulled onto the verge for Sylvanas's horse while Sylvanas rode straight through. Second, Ch6 says the carts coming the other way, out of Andorhal, were 'empty and rattling'. Her question suggests that loaded outbound carts carrying treated grain passed her on that road, but what she saw that afternoon were empty ones. This is the beat that confirms the grain is beyond recall, so a hindsight line built on a wrong memory weakens it. Readers who remember Ch6 will catch it.",
+      "evidence": "Ch6 final L245 ('Below Strahnbrad there had been nobody on it but an army wagon going up and a boy with a switch driving geese'); L247 ('Now there were carts. They came in from the farm lanes on either hand, heaped with sacks ... Others came the other way empty and rattling'); L249 ('Sylvanas rode straight through, and drivers took one look at her tall Thalassian horse and pulled onto the verge'). Ch6 L83 ('More wagons came down past them, empty'). Memory world/geography.md, Chapter 6: 'Below it the south road runs nearly empty, then fills with farm-lane carts'. Ch7 L391 (Kett's bills are for the first carts out; Kett keeps nothing overnight).",
+      "suggestedFix": "Keep the dread and fix the memory. For example: 'Below Strahnbrad the carts had pulled onto the verge for Sylvanas's horse, loaded ones turning in from the farm lanes and empty ones rattling back out, and she had read the road under every wheel and never once thought about the empty ones. Kett's went out on the first carts. Where had those carts been at first light?' Any version works if the outbound carts she saw stay empty and the drivers, not Jaina, are the ones who pull over."
+    },
+    {
+      "violationId": "V3",
+      "severity": "soft",
+      "category": "physical",
+      "location": "L9: 'Her own wards had always hummed like that, low and warm from the inside. It was a tell, first-year work'. L555: 'The thread across the mouth of Kett's lane had been the first ward any student learned to tie, the one for a doorway'. Compare L443: 'The holding ward, the first one anybody learns'.",
+      "description": "The chapter names two different wards as the first one a Dalaran student learns: the doorway alarm at L555 and the holding ward at L443. L443 agrees with canon and L555 contradicts it. L9 also says Jaina's own wards 'always' hummed 'warm from the inside'. That is the ward-stones' signature from Ch1. Jaina's wards on the page in Ch4 are a cold blue mesh that feels like 'a wet sheet', and the cold is what they cost her. The L555 line also carries weight in the B8 inference ('first term, the same as anyone who had sat a bench there').",
+      "evidence": "Ch4 final L287 ('It was the first holding ward any apprentice learned in Dalaran. They taught it in the alchemy rooms for the glass'); L293 and L309 (the ward takes the drag and the cold comes up the ash; Elsie: 'It's a wet sheet'); L572 ('the blue mesh over every bed'). Memory world/magic.json, Ch4 holding-ward fact ('the first ward an apprentice learns ... a cold clean blue mesh, the shadow side of snow'); Ch1 ward-stone fact ('hum low ... warm from the inside'). v0c L443.",
+      "suggestedFix": "At L555, drop the word 'first': 'had been a doorway ward any student learned to tie in his first term, its ends sunk and closed as neatly as any examiner could ask.' At L9, drop 'her own' and 'always'. For example: 'She had tied wards that hummed like that in her first year, before anyone taught her to keep them quiet. It was a tell, first-year work, but ...'"
+    },
+    {
+      "violationId": "V4",
+      "severity": "soft",
+      "category": "cross-chapter",
+      "location": "L525-529: '\"Kett's,\" she said. \"Tonight's.\" / \"All of them for the first carts out.\" He didn't look up. \"I'd be guessing at the roads.\" / \"Then leave them off.\"'",
+      "description": "In Ch7 Corin named the roads for Kett's bills: all of them go on the first carts out, on the south road and the weir road. 'I'd be guessing at the roads' makes him forget his own evidence. It also drops tonight's seven carts off the B7 map when canon already places them on roads that are on the table.",
+      "evidence": "Ch7 final L391 (Corin: 'Kett's bills. The office copies. Look at the days on them. Every bill on Kett's mark is written for the first carts out. The south road, the weir road.'). Memory locations/tenter-row-and-ketts-granary.json establishedFacts ('every bill on Kett's mark is for the first carts out, the south road and weir road'); threads/copied-yard-marks-and-corins-letters.json.",
+      "suggestedFix": "Let him use what he knows and admit only what he doesn't: '\"All of them for the first carts out, south road or weir road, the same as the rest.\" He didn't look up. \"I'd be guessing which.\" / \"Then put them on both.\"' Or keep 'leave them off' and make the uncertainty explicitly about which of the two roads."
+    },
+    {
+      "violationId": "V5",
+      "severity": "soft",
+      "category": "physical",
+      "location": "L89: 'You'll not walk him to the post across the Exchange square with his face like that'",
+      "description": "Ch7 establishes that the route from the militia post to Tenter Row is Hurdle Lane: 'down Hurdle Lane from here', 'Behind Holt's from here'. Jaina walked it minutes before this chapter opens. No Exchange square lies on that route. Havel contradicts himself at L267: 'Out the gate onto Hurdle Lane and up to the Row end ... and from there it's a straight walk to the post.' If the line is meant as a Havel lie, Jaina has just walked the route and would notice, but the narration never registers it and B6's recognition (L427-431) does not collect it. As written it reads as a geography slip.",
+      "evidence": "Ch7 final L155 ('We'll come at it from the back, down Hurdle Lane from here'); L187 ('Hurdle Lane ... Behind Holt's from here, past Garside's back gate'). Memory locations/hurdle-lane-and-loading-lanes.json ('Havel's route to Fenner's: Hurdle Lane from the post'); world/geography.md, Ch7 (the Corn Exchange is at the top of Mill Lane). chapter8.json chapterBridge ('The walk down Hurdle Lane is done'). v0c L267.",
+      "suggestedFix": "Cut the square: 'You'll not walk him up Hurdle Lane to the post with his face like that, past every loft window on it.' If the lie is intentional, give Jaina one clause noticing it, either here or in the B6 recognition at L429-431."
+    },
+    {
+      "violationId": "V6",
+      "severity": "soft",
+      "category": "knowledge",
+      "location": "L139: 'Up through it came the loft on his skin, still wet, and his blood going fast'. L193: 'His blood kicked at that. It came up the staff into her palm, one quick hard jump ... So it was whatever sat above the crock that frightened him'. L201: 'Under the staff heel his blood kicked again, harder.'",
+      "description": "Jaina reads the prisoner's pulse through the staff heel, which rests on the floorboards by his boot, and uses it as a fear detector to decide what frightens him. That is reading a person, which the ledger says she cannot do. Canon lets her feel residue, wards and spells on or around a person, and lets her see a pulse only under the diagnostic light. That light is a cast, and her one cast tonight is spent on the jaw. Ch5 and Ch6 both have her get nothing off a man ('No more than on you'; 'she couldn't read a man in any case'). The interrogation's change of control (B2) now rests on this new ability.",
+      "evidence": "chapter8.json knowledgeLedger.povKnowsAtOpen ('Jaina cannot read people (Ch6, said aloud to Sylvanas). She reads residue, wards and spells, not minds.'); constraints (the jaw-freeze is her one spell; after it she senses but does not cast). Ch6 final L283 ('There had been no knot in him, no lateness of his own. And she couldn't read a man in any case. She had told Sylvanas so herself.'). Memory world/magic.json, Ch5 ('Jaina cannot read paper, books or people ... the overseer carries nothing') and Ch6 ('she cannot read people ... has not tried turning the staff on a man'); Ch4 diagnostic-light fact (pulse visible only under the cast light).",
+      "suggestedFix": "Keep the staff on what she can sense: the loft residue and the absence of any thread or ward tied to him ('nothing tied to him that she could hear'). Move the fear cue to what she can see. At L193, the stool knocks, the sweat comes back on his lip, and his eyes go to the collar and not to the crock: 'He hadn't flinched for the crock or the gloves. He flinched now.' At L201, replace 'his blood kicked again' with a visible tell. The inference 'whatever sat above the crock frightened him' then comes from his body, read by sight."
+    }
+  ],
+  "advisoriesNotCounted": [
+    {
+      "id": "A1",
+      "category": "cross-chapter",
+      "location": "L593: 'she'd been sick over the mare's shoulder with it on the south road'",
+      "note": "In Ch6 (L61) her stomach turned and she leaned out and spat into the mist. She did not vomit. 'Been sick' reads as vomiting. Optional: 'she'd spat over the mare's shoulder with it on the south road'."
+    },
+    {
+      "id": "A2",
+      "category": "cross-chapter",
+      "location": "L395: 'I took it in the spring, for the copies. I didn't want them at the office'",
+      "note": "Ch7 dates Corin's copied marks and his weekly letters from midsummer ('Forty-one I'd swear to, since midsummer'; 'from the first copied mark I found'). Taking a hiding room in spring because he didn't want copies at the office comes before he had anything to hide. Optional: 'at midsummer' or 'after the first hook'."
+    },
+    {
+      "id": "A3",
+      "category": "knowledge",
+      "location": "L337 ('had sent men to stand in doorways, and they had gone and stood in them') and L341 ('In the doorways, all along'), against L319 ('She couldn't have said whether it stood in a doorway or a yard or on a roof. Sylvanas could.')",
+      "note": "Eighteen lines after stating that she cannot place the taint in a doorway, she places it in doorways. This holds if it is her inference from an empty, lamplit street. Consider showing the inference ('the street was empty under the lamps, so ...'), or have her say 'All along it, standing still' and let Sylvanas or Cyndia name the doorways. Plan B4: 'she can feel the net but not its corners, and Sylvanas has the corners.'"
+    },
+    {
+      "id": "A4",
+      "category": "cast",
+      "location": "L351-353 ('The bowstring went beside her ear') with L323-329 ('Lyriel. The captain.'), L339 ('Lyriel a hand behind him') and L437",
+      "note": "castKnowsLeavingChapter and factsLocked require 'Sylvanas killed him'. The page says so only by implication: at L437 Jaina, 'watching her', hears the bowstring again. The setup assigns Lyriel to watch Havel and places her right behind him, so a reader could credit Lyriel with the arrow. One clause at L351 that puts the bow in Sylvanas's hands (still showing the effect, not the decision) would lock it."
+    },
+    {
+      "id": "A5",
+      "category": "physical",
+      "location": "L581: 'I've the inbound bills for it, the second copies'",
+      "note": "Ch7 has the inspection office keeping second copies of outbound bills ('every bill that leaves the city under a yard's mark'). Inbound second copies are new but not contradicted. A clause on where they come from (the gate book, or the Exchange's in-book) would anchor the B8 east source."
+    },
+    {
+      "id": "A6",
+      "category": "physical",
+      "location": "L99: 'They went back into Tenter Row with Havel leading, the dye stink thickening toward the bend, where Lyriel stepped out'",
+      "note": "In Ch7 the back lane runs off the wider street, and that street meets Tenter Row at the bend. Coming out, they reach Lyriel at the bend before they walk any length of the Row. The line is acceptable as compression, but 'thickening toward the bend' implies they walked the Row first. Ch7 advisory A7 asked Ch8 to follow the walked route."
+    },
+    {
+      "id": "A7",
+      "category": "physical",
+      "location": "L291-295 (Jaina carries the staff crossways and grounds it) against L303 ('turned round to take the staff from Corin') and L311-317 (Jaina senses through the staff under the floor)",
+      "note": "The staff goes from Jaina to Corin to Lyriel without being shown, and then it is back in the dirt under Jaina's hand. A half-clause would fix the hand-offs."
+    },
+    {
+      "id": "A8",
+      "category": "cross-chapter",
+      "location": "L267: 'The post has a door that bars and men behind it.'",
+      "note": "This is not a violation. Ch7 L342 has Havel himself say that the night men go out on the lanes at the bell and do not come back until the Exchange rings again, so the post is empty at night. As written it is a good fair-play lie that goes unremarked. Jaina heard the Ch7 line, so the writer may want to collect it in the B6 recognition at L427-431."
+    },
+    {
+      "id": "A9",
+      "category": "cross-chapter",
+      "location": "L555: 'The stack in the jar at Brask's'",
+      "note": "Carried over from Ch7 advisory A1. The loft and granary are Joss's, and Brask is the village militia head. 'At Brask's' stands as shorthand for the village. Jaina was there in Ch4, so 'the jar in Joss's loft' would be more exact in her head."
+    }
+  ],
+  "verifiedClean": [
+    "Ch7 handoff: the chapter opens in position minutes after the candle, with Corin behind Jaina, Sylvanas taking the man where the lamps don't reach, Cyndia at the chimney across from the loft, Lyriel at the Tenter Row bend and Havel's lads at the Hurdle Lane end. The lean-to and water butt are at the near corner, the cobbles are dust-white, the long iron hasp is on Kett's lane door, and Kett's is the last door on the left.",
+    "Cast budget: the lane ward is put out by Corin's damper at her word, not by Jaina's cast. The jaw-freeze is her only spell. After it she only senses through the staff, 'a faster ward' is hindsight (L237, L443), and there is no ward in B3 and no frost in the flight.",
+    "Bite logic: the jaw is frozen before he can bite. Sylvanas cuts the collar and its waxed paper off him while the jaw is locked, and the questioning starts only after the jaw loosens in the store. The Tam callbacks are accurate: the empty paper fold, his chin on his collar down the lane, and the two fingers Tam bit, which Jaina saw in Ch4 L804.",
+    "The Ch7 loft-read guard is honoured in one clause (L75: the loft residue on his neck).",
+    "Havel: the formation question appears once in B1 and is never remarked on (L47). After the curse the tells are the planned ones: faster talk, 'we', a sweat line at the collar, a smile held too long, a look at the door they came in by. There is no confession speech, and his last words are a shout for his route. 'Coin' and 'paid' first appear in B6 in Corin's mouth (L421); the earlier 'old-coin taste' at L75 is the established contamination descriptor. His lads are never implicated.",
+    "Knowledge ladder: B2 gives the structure (one man over all of it, written down before the snow, the lower ranks not told what is in the crock). The half-sentence ('Learned where you were', 'They called him—') carries the shape of a name and the narration does not close it. The face flickers at L209 and is held at L557 without being resolved. The first claim that the grain is beyond recall is at L541 (B7). Kel'Thuzad is named first at L565 (B8), by Corin.",
+    "Kel'Thuzad guardrails: the page gives only the name, Kirin Tor, put out by the Archmage for necromancy, and the Eastweald east of Andorhal, sourced on the page through the factor's inbound east-road bills (L581). There is no look, voice, base, Barov tie, Scholomance, Lich King or Northrend. Dalaran's silence to Corin is left unresolved (L573). Antonidas is not made complicit, and the paired stone stays silent.",
+    "B6 fair-play payoff: Corin says the Havel pattern once and goes pale (the debts struck through at high summer, the notices left under the stone with 'leave it with the others, lad'). Cyndia's report of where the enforcers went first is in event order and starts with her rank (L413). Sylvanas's 'Kett shut his gate at noon' is correctly sourced to her. Jaina saw the three chalk lines in the Ch7 post scene. The notes are in Corin's hand at her dictation because she cannot close her fingers on the pen.",
+    "Address forms: Havel says 'Ranger-General', 'my lady' and 'lad'. Corin says 'Lady Proudmoore', 'Ranger-General' and 'Captain'. Jaina says 'Corin' and 'Ranger-General' aloud, and Sylvanas says 'Proudmoore' aloud. Lyriel says 'Jaina'; Cyndia never does. Cyndia starts every report with 'Ranger-General' and never jokes.",
+    "Lyriel is alive at the close and unwounded, with the sack hook a near miss. She gets one dry Silvermoon-magister line in B6 and nothing that foreshadows Ch9. Sylvanas is unwounded.",
+    "Jaina's body: the right hand is dead and the staff rides in the crook of that arm. Two numb fingertips are white to the second joint (an escalation from the first joint in Ch7). Her teeth go, the frost goes to water on a warm night, and nothing is healed.",
+    "B9: Jaina owns the turn east (L607). Sylvanas makes it practical: before light, horses outside the wall in the carter's yard (Ch7). Corin stays without a farewell scene (L613). The Antonidas line is held to B9 (L591).",
+    "Cross-chapter anchors that check out: the Strahnbrad knife slit exists (Ch5 L635, Ch6 L153), Tobin's chapel and the four loads (Ch4), Lyriel's seven loaded carts (Ch7 L413), forty-one copied bills (Ch7 L139), and Corin's ink on every finger of his right hand (Ch7)."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "agent": "continuity-gate",
+  "chapterId": "chapter1",
+  "iteration": 1,
+  "targetFile": "v1.md",
+  "status": "pass",
+  "hardViolations": 0,
+  "softViolations": 0,
+  "truthSources": [
+    ".afternoon/plans/chapter1.json",
+    ".afternoon/chapters/chapter1/continuity-findings-r0.json (iteration-0 findings, re-verified)",
+    ".afternoon/chapters/chapter1/v0c.md (diff base)",
+    ".afternoon/outlines/chapter2.md (forward continuity only: sending stone)",
+    "stories/the-plague-road/characters/jaina.md (Look)",
+    "grep of stories/the-plague-road for 'sending stone'"
+  ],
+  "notes": "Chapter 1: there is no previous chapter and no .afternoon/plans/memory ledger. A diff of v0c.md against v1.md shows that only lines 167, 171, 179, 223, 225, 235, 255 and 265 changed, all of them targeted by the iteration-0 findings. The whole of v1.md was then re-read against the knowledge ledger, the cast rules, beat order and physical tracking. The iteration parameter was not supplied, so it is set to 1 to follow continuity-writer iteration 1.",
+  "findings": [],
+  "priorFindingsResolved": [
+    {
+      "violationId": "V1 (r0, hard, physical)",
+      "resolution": "Fixed. L235 now traces east to the bend first: 'Her eye followed the outer ring east along the southern track to a bend round a shoulder of rock... There was a dot at the bend. There was a ring of ink around the dot. Past it, the ring ran on east over the ground she'd ridden that afternoon.' This matches L57 (noon stone at the bend) and L95/L119 (afternoon ride east). The Beat 7 payoff, where the circled dot is the stone her palm touched, now holds."
+    },
+    {
+      "violationId": "V2 (r0, soft, physical)",
+      "resolution": "Fixed. L171 no longer sends the patrol off round the bend. L179 now reads 'The patrol fell in behind Lor'themar in pairs, and she and the runner rode with them back up the track as far as the fork where the old road went north to Silvermoon. They split there.' That gives a single parting at the fork, which matches the Beat 5 sensory anchor. L167 adds 'I'll collect the others off the ridge', which closes the L55 loose end and fits castAndHandoffRules (the patrol leaves north with Lor'themar)."
+    },
+    {
+      "violationId": "V3 (r0, soft, cross-chapter)",
+      "resolution": "Fixed. L225 adds 'A flat grey pebble, too smooth for a riverbed, one face cut with a single rune, wrapped in a twist of cloth.' It is seen from outside only and is not named, identified, or linked to Antonidas, so the Ch 2 reveal and the silent-stone guilt stay intact."
+    },
+    {
+      "violationId": "V4 (r0, soft, cross-chapter)",
+      "resolution": "Fixed. In L223 the staff is now 'Plain ash, the grain dark where hands had worn it. Silver wire bound the grip... a binding rather than an ornament', which matches jaina.md 'staff plain and field-ready'. The wire and crystal remain as the identifying features, so Cyndia's L243 file match still works. L255 now builds the expectation 'out of the file and the ink', with the polished-wire basis removed. L265 now has a 'travelling robe... kilted up for walking', which matches jaina.md 'practical traveling robes'. Trousers under a kilted robe are compatible."
+    }
+  ],
+  "verifiedClean": [
+    "Name rule: 'Jaina Proudmoore' appears once, in Cyndia's dialogue at L243. Sylvanas's narration and thought use 'the mage' and 'the human' throughout.",
+    "No Jaina dialogue anywhere. Beat 9's reading of the stone is carried by eyes, frown and posture (L279-287).",
+    "Knowledge walls: no plague, no leyline-corruption explanation, no stated reason for Jaina's presence. Antonidas's role is left as open questions (L297), matching B8 stillUnknownAfterBeat. 'The whole ring could be limping by then' (L293) is Sylvanas's worry, not proof, so mustNotBeImpliedYet 'proof this is more than a human trespass' holds.",
+    "One physical sign of danger only: the noon stone. The roadside stones (L181), the cell stone (L283) and 'twenty stones since noon' (L285) all read as unconfirmed. The violet colour moving in the staff crystal under the damper (L223) is the mage's own focus, not a ward danger sign.",
+    "Ring reconciliation: the runner reports outer ring, before dawn, 'through it' (L131-135). Cyndia reports through the outer ring and found at first light on the second ring (L201). 'Down off the high road' (L135) matches 'below the high road' (L201).",
+    "Geography is internally consistent after the fixes. The runner comes 'south and behind' up the track (L121). The party rides back up the same track to the fork (L179), and the southern track climbs from the fork to the Pass. The map's outer ring runs east from the Pass along the southern track, through the noon bend, then over the afternoon ground (L235).",
+    "Beat order: budget session set up at L37 and named in Beat 3 (L97). Cyndia planted at L109 before the runner arrives. The runner's claim lands on the palm at L147 and L155. Split decision and interiority at L155-183. B6 facts given in order (L201-215). B7: rack, kit, map, circled stone, ink, staff match, name (L223-247). B8: expectation built at L255 and broken at L263-277. B9: silent stone-reading (L279-287). B10: interiority (L289-297), then the closing 'Start talking.' (L305).",
+    "Cast: Lor'themar and the patrol exit north at the fork in Scene 1. The runner rides with Sylvanas and is seen arriving at L187. Cyndia enters in Scene 2, left-handed (L205). Rangers wait in the doorway and clear a path at L301.",
+    "Arc: no trust or warmth. B8 and B10 povNotes are respected. The court-polish picture breaks at L267, and 'exactly what the file said' (L297) refers to file facts (strength, Antonidas, Kirin Tor ink), so the two do not contradict.",
+    "Physical tracking: right glove off and back on (L61, L81). The cold palm carries through L119, L147, L183, L209 and L237. The staff is on the rack under the damper, and the cell pegs are empty (L261). The time markers (mid-morning kill, noon stone, afternoon runner, arrival at the end of the light) fit B7's 'this morning' and the hours of detention."
+  ],
+  "advisories": [
+    "Not counted, Ch 2 writer and planner: the sending stone is now fixed on the page as 'a flat grey pebble, too smooth for a riverbed, one face cut with a single rune'. Ch 2 must describe it the same way and not as a crystal. The non-canonical stories/the-plague-road/chapters/chapter-1-alternative/chapter1.md L335 has Jaina pressing 'the crystal' between her palms, and should not be used as a source.",
+    "Not counted, Ch 2 planner (carried from r0): the Ch 2 outline's 'containment circle' and 'warded floor' should be read as the wall ward-stone and wooden chair already established at L261.",
+    "Not counted, Ch 2 planner (carried from r0): Ch 2 Beat 6 says the corruption is 'significantly worse than it was eight hours ago'. Ch 1 puts her in custody from first light to the end of the light, about 14 hours or more, before the interrogation starts.",
+    "Not counted: at L55 the remaining riders were told to 'finish here and follow', but at L167 Lor'themar expects to find them still 'off the ridge' hours later. This is plausible (burning bodies takes time, and they may not have caught up), but no later chapter should state that they rejoined the column on the southern track."
+  ]
+}

@@ -1,0 +1,2107 @@
+{
+  "chapterId": "chapter5",
+  "stage": "standard",
+  "pass": "c",
+  "iteration": 100,
+  "targetFile": "v2-r100.md",
+  "retroactive": true,
+  "retroNote": "Retroactive pass C audit of chapter5/final.md (copied to v2-r100.md). Pass C did not exist when chapter 5 went through the slop loop. Iteration numbering starts at 100 to avoid collisions with the original loop.",
+  "verdict": "fail",
+  "fixStrategy": "default (slopGateLoop.iterationKillsC is empty)",
+  "audits": [
+    {
+      "guide": "mannered-prose-guide.md",
+      "totalCandidates": 109,
+      "kills": 67,
+      "keeps": 42,
+      "severity": {
+        "SEVERE": 5,
+        "MODERATE": 22,
+        "MILD": 40
+      },
+      "dominantPattern": "M9 (12)",
+      "clusterRulesApplied": [
+        "L245: 3 kills in one paragraph -> all MODERATE",
+        "M5 at 5x cap -> weakest excess (L291) MODERATE",
+        "M9 at 7x cap -> weakest excess (L397) MODERATE",
+        "L381/L385: same move twice within five paragraphs -> L385 killed"
+      ],
+      "capCounts": {
+        "M1": {
+          "count": 3,
+          "cap": 0,
+          "keptLines": []
+        },
+        "M2": {
+          "count": 5,
+          "cap": 0,
+          "keptLines": []
+        },
+        "M3": {
+          "count": 4,
+          "cap": 0,
+          "keptLines": []
+        },
+        "M4": {
+          "count": 4,
+          "cap": 0,
+          "keptLines": [],
+          "note": "Polysyndeton is 16.2/10K against a soft cap of 3.9. Every 3+-'and' sentence was audited; lists ending on a turn were killed (M4 here, plus L7 under M3, L343 under R4 and L433 under M13)."
+        },
+        "M5_narration": {
+          "count": 10,
+          "cap": 2,
+          "keptLines": [
+            381,
+            485
+          ],
+          "killedLines": [
+            245,
+            245,
+            291,
+            293,
+            385,
+            603,
+            607,
+            609
+          ],
+          "note": "L245 counts twice (two maxims). The tool's L259 hit is an order (KEEP, not counted)."
+        },
+        "M5_dialogue": {
+          "count": 2,
+          "cap": "1 per scene",
+          "keptLines": [
+            399
+          ],
+          "killedLines": [
+            17
+          ]
+        },
+        "M6": {
+          "count": 1,
+          "cap": 0,
+          "keptLines": []
+        },
+        "M7": {
+          "count": 1,
+          "cap": 0,
+          "keptLines": []
+        },
+        "M8": {
+          "count": 5,
+          "cap": 0,
+          "keptLines": [],
+          "note": "The tool's L561 gloss_which hit is reclassified as M9."
+        },
+        "M9_narration": {
+          "count": 15,
+          "cap": 2,
+          "keptLines": [
+            127,
+            193
+          ],
+          "killedLines": [
+            61,
+            149,
+            175,
+            195,
+            397,
+            409,
+            503,
+            529,
+            531,
+            561,
+            571
+          ],
+          "note": "L571 holds two quips and is killed in one finding. L215 (ranking quip) is killed under R3 (C-R3-2). L483 is a reductio, not a quip, and is not counted."
+        },
+        "M9_spoken": {
+          "note": "Lyriel L231 has 3 jokes in one speech (cap 2 per speaker per scene). The spindle line is killed (M9) and 'paid by the loop' is killed under R2."
+        },
+        "M10": {
+          "count": 4,
+          "cap": 0,
+          "keptLines": []
+        },
+        "M11": {
+          "count": 5,
+          "cap": 0,
+          "keptLines": []
+        },
+        "M12_then_fragment": {
+          "count": 3,
+          "cap": 0,
+          "keptLines": []
+        },
+        "M12_second_guess": {
+          "count": 1,
+          "cap": 0,
+          "keptLines": []
+        },
+        "M12_echo_compliance": {
+          "count": 1,
+          "cap": 0,
+          "keptLines": [],
+          "note": "L411 and L267 were examined and KEPT as transitions, not compliance mirrors."
+        },
+        "M12_self_imperative": {
+          "count": 1,
+          "cap": 2,
+          "keptLines": [
+            295
+          ]
+        },
+        "M12_hypothesis_ladder": {
+          "count": 1,
+          "cap": 1,
+          "keptLines": [
+            485
+          ],
+          "note": "The L245 ladder dissolves once its 'X, then' and maxim rungs are cut."
+        },
+        "M12_self_address": {
+          "count": 0,
+          "cap": 0
+        },
+        "M13": {
+          "count": 9,
+          "cap": 0,
+          "keptLines": [],
+          "note": "7 tool hits plus L441 and L579. L307 is a dialogue literal comparison (KEEP)."
+        }
+      },
+      "selfCheck": "Test 1 run on every sentence, dialogue included. Capped patterns were counted past the tool floor (M5 +3, M9 manual, M13 +2, M12 +1, M10 +2, M1 +1). Voice decided only which instances survive. All fixes were re-run through M1-M13 and the pass A/B names (two fixes were reworded to avoid agentless or body-part subjects). The densest polysyndeton paragraphs and the dialogue answer/reason/maxim stacks were audited.",
+      "findings": [
+        {
+          "id": "C-M1-1",
+          "line": 1,
+          "text": "Sylvanas kept to the crown of the road and let the mare choose her own feet.",
+          "pattern": "M1 - bent idiom",
+          "test": "Test 2 (idiom distance)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Bends \"pick her footing\". Horses do not choose feet; the swap breaks the literal sense (guide's own example).",
+          "suggestedFix": "Sylvanas kept to the crown of the road and let the mare pick her footing.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "bent_idiom_seed"
+        },
+        {
+          "id": "C-M2-1",
+          "line": 5,
+          "text": "the mare stood among them with grey foam dried white along the cheek-strap, her fine legs trembling once and quiet.",
+          "pattern": "M2 - literal-sense failure",
+          "test": "Test 1 (plain paraphrase)",
+          "verdict": "KILL",
+          "severity": "SEVERE",
+          "reason": "Dangling adjective tail: \"her fine legs trembling once and quiet\" (guide's own example). \"grey foam dried white\" also contradicts itself on colour.",
+          "suggestedFix": "the mare stood among them with foam dried white along the cheek-strap, and her fine legs trembled once and went still.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M3-1",
+          "line": 7,
+          "text": "and the night in the village had been fire and a cage and Brask's men carrying sacks.",
+          "pattern": "M3 - equative montage",
+          "test": "Test 3 (job): recap of on-page events",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "It sums up a night the reader watched in chapter 4 as a list of images joined by \"had been\" (guide's own example).",
+          "suggestedFix": "",
+          "fixNote": "Delete the clause. Together with C-R1-1 this removes the whole two-sentence opener, and the paragraph opens on \"She worked her right hand open and shut on the rein...\". If C-R1-1 is not applied, end the sentence at \"since the night before the village.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "equative_montage"
+        },
+        {
+          "id": "C-M5-1",
+          "line": 17,
+          "text": "Yes. It's better there than in a yard. Everything in a yard gets walked over.",
+          "pattern": "M5 - maxim (dialogue overexplanation)",
+          "test": "Test 4 (count) + dialogue answer/reason/maxim stack",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "An answer, then a reason, then a maxim (guide's own example). A spoken answer gets at most one reason, and it has to be particular.",
+          "suggestedFix": "Yes. It's better there than in a yard.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "maxim"
+        },
+        {
+          "id": "C-M6-1",
+          "line": 25,
+          "text": "He stood up when they came in and then didn't know what to do about having stood.",
+          "pattern": "M6 - comic self-consciousness",
+          "test": "Test 1 + M6 zero-tolerance shape",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Zero-tolerance shape: \"didn't know what to do about having stood\" names no possible action (guide's own example).",
+          "suggestedFix": "He stood up when they came in, and stayed standing, the pen still in his fingers.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "did_not_know_what_to_do"
+        },
+        {
+          "id": "C-M9-1",
+          "line": 61,
+          "text": "Most of it was what she would have expected, if she'd ever thought about grain in her life.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count): 14 narration quips, cap 2",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A self-mocking narrator aside. Narration quips are at 14 against a cap of 2; the survivors are L193 and L127, both plan beats.",
+          "suggestedFix": "Most of it was what she would have expected.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M7-1",
+          "line": 69,
+          "text": "He heard himself, and his ears went red.",
+          "pattern": "M7 - self-monitoring beat",
+          "test": "M7 zero tolerance",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A self-hearing frame plus a blush beat (guide's own example). It also opens the blush_ears family in this chapter (see C-R4-5).",
+          "suggestedFix": "",
+          "fixNote": "Delete and merge the two quoted halves into one speech: \"They give a name, I don't write it. The yard's paid at the gate. It's the load I book, not the man. That's the rule. It's been the rule since my father had the book.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "self_hearing"
+        },
+        {
+          "id": "C-M8-1",
+          "line": 81,
+          "text": "Sylvanas waited for the lecture. Currents and lines, what the drag did in the pulse, why a road was a better thing to listen to than a yard: three sentences to get to one.",
+          "pattern": "M8 - interpreter gloss",
+          "test": "Test 3 (job): explains what is on the page",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "\"three sentences to get to one\" glosses the list it caps (guide's own example).",
+          "suggestedFix": "Sylvanas waited for the lecture: currents and lines, what the drag did in the pulse, why a road was a better thing to listen to than a yard.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M2-2",
+          "line": 109,
+          "text": "Another, lower down: a cross, meant, that looked like a bird's foot.",
+          "pattern": "M2 - literal-sense failure",
+          "test": "Test 1 (plain paraphrase)",
+          "verdict": "KILL",
+          "severity": "SEVERE",
+          "reason": "A participle stuck in the wrong slot (\"a cross, meant,\"), the guide's own example. The replacement also removes the recycled \"bird's foot\" simile (C-R1-3).",
+          "suggestedFix": "Another, lower down, that was meant for a cross.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M10-1",
+          "line": 123,
+          "text": "The wasp found the gap at the top of the pane and was gone.",
+          "pattern": "M10 - planted echo insert",
+          "test": "Test 3 (job): would be cut if it meant nothing",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A one-line paragraph about a creature escaping, placed right after the count that shows the trade slipping out east (guide's own example).",
+          "suggestedFix": "",
+          "fixNote": "Delete the paragraph. The wasp's setup at L23 can stay as plain room detail.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "planted_insert"
+        },
+        {
+          "id": "C-M3-2",
+          "line": 127,
+          "text": "A month of carts was a stroke, then; a summer of them was a blot with a tail.",
+          "pattern": "M3 - equative montage",
+          "test": "Test 3 (job): can an actor and verb come back? yes",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A span of time is equated with a mark through \"was\", with an \"X, then\" deduction tag attached. The fact it carries (the mage's marks encode how long the loads have been going out) survives once the verb comes back.",
+          "suggestedFix": "So a month of carts showed as a thin stroke, and a summer of them as a blot with a tail.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M4-1",
+          "line": 147,
+          "text": "Thirty-one, out of one shed, on four roads, in one season, and the shed a day's ride from anywhere that mattered.",
+          "pattern": "M4 - cadence list with a turn",
+          "test": "Test 3 (job) / polysyndeton audit",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A four-beat cadence whose last item is the payoff. Four roads and one season are already on the page; only the last item is new.",
+          "suggestedFix": "Thirty-one, out of one shed a day's ride from anywhere that mattered.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M4-2",
+          "line": 149,
+          "text": "She had thought, in that village, in the loft, on her knees in that cage with the boy's teeth in her hand, that she was following one man.",
+          "pattern": "M4 - cadence list with a turn",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A narrowing list of places that ends on the vivid payoff image. It recaps chapter 4 for rhythm.",
+          "suggestedFix": "She had thought, in that village, that she was following one man.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-2",
+          "line": 149,
+          "text": "She could follow one man; she had followed worse down worse roads, and caught them.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A pride quip with a rhetorical echo (\"worse down worse\"). It is over the cap, and it shares a paragraph with C-M4-2.",
+          "suggestedFix": "She could follow one man.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M11-1",
+          "line": 175,
+          "text": "watched the mage's face go a shade greyer each time and come back a shade less.",
+          "pattern": "M11 - stylised figure (chiasmus)",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Chiasmus used for shine (guide's own example).",
+          "suggestedFix": "watched the mage's face get greyer at each one.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-3",
+          "line": 175,
+          "text": "it was the carters' cobs that shied, and were cursed for it.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A comic tail on a pride contrast. The contrast between the horses survives without it.",
+          "suggestedFix": "it was the carters' cobs that shied.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-4",
+          "line": 195,
+          "text": "Every human road in Lordaeron she had ever sneered at for its ruts was down there under the ink with a cart on it.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count) + Test 1",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A comparative put-down of human roads that also fails the plain paraphrase, since the sheet covers one district, not every road in Lordaeron. The sentence before it already gives the scale (\"somebody with yards and books and boys...\").",
+          "suggestedFix": "",
+          "fixNote": "Delete. The paragraph ends on \"...a scale every sack on this side of the river went over.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M11-2",
+          "line": 197,
+          "text": "and felt a cold stick hum in her bones and mean nothing.",
+          "pattern": "M11 - stylised figure (zeugma)",
+          "test": "Test 1 + M11",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "\"Felt\" governs both a sensation (\"hum\") and a meaning (\"mean nothing\"). That is zeugma used for effect.",
+          "suggestedFix": "and felt only a cold hum in her bones.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M2-3",
+          "line": 223,
+          "text": "Sylvanas began to fold the sheet. It wouldn't fold along the old creases any more; there was too much on it. She folded it anyway, wrong, and tucked it into her coat with the sacking.",
+          "pattern": "M2 - literal-sense failure",
+          "test": "Test 1 (plain paraphrase)",
+          "verdict": "KILL",
+          "severity": "SEVERE",
+          "reason": "The plain paraphrase fails: ink on a sheet cannot stop it folding along its creases. The reason clause is there for effect (the case has outgrown the paper), not as a fact. The replacement keeps the \"wrong\" fold that L489 refers back to.",
+          "suggestedFix": "Sylvanas folded the sheet, wrong, and tucked it into her coat with the sacking.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-5",
+          "line": 231,
+          "text": "I've seen less thread on a spindle.",
+          "pattern": "M9 - house wit (spoken joke count)",
+          "test": "M9 spoken jokes per speaker per scene (>2)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Lyriel stacks three exaggerations in one speech (took up the page / paid by the loop / thread on a spindle). Her voice sheet says one flat comparison, then back to work. This is the weakest of the three.",
+          "suggestedFix": "",
+          "fixNote": "Delete. With C-R2-1 the speech closes \"...He wrote 'Coldwell' and it took up the page, Jaina.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M12-1",
+          "line": 245,
+          "text": "Bad luck, then.",
+          "pattern": "M12 - argument template ('X, then.' fragment)",
+          "test": "M12 cap 0",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "An \"X, then.\" deduction fragment (cap 0, guide's own example). MODERATE under the 3-kill paragraph cluster rule (with C-M5-2, C-M5-3).",
+          "suggestedFix": "",
+          "fixNote": "Delete. See C-M5-2 for the resulting paragraph.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "then_fragment"
+        },
+        {
+          "id": "C-M5-2",
+          "line": 245,
+          "text": "A free carter keeps carters' hours, and a slow hunt always runs a day behind.",
+          "pattern": "M5 - maxim",
+          "test": "Test 4 (count): 10 narration maxims, cap 2",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A generic present-tense rule used as the \"bad luck\" rung of a hypothesis ladder. This paragraph has 3 pass C kills (C-M12-1, C-M5-2, C-M5-3), so the cluster rule raises it to MODERATE.",
+          "suggestedFix": "",
+          "fixNote": "Delete. With C-M12-1 and C-M5-3 applied, the paragraph reads: \"A free carter had bought back his own spoiled flour at a loss, out of the goodness of his heart, the day before four elves came asking.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "maxim"
+        },
+        {
+          "id": "C-M5-3",
+          "line": 245,
+          "text": "And a free carter buys back his own spoiled flour at a loss, out of the goodness of his heart, the day before four elves come asking.",
+          "pattern": "M5 - maxim",
+          "test": "Test 4 (count)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The sarcasm is delivered as a generic present-tense rule. Put in the particular past, it keeps the sarcasm and the fact. MODERATE under the 3-kill paragraph cluster rule.",
+          "suggestedFix": "A free carter had bought back his own spoiled flour at a loss, out of the goodness of his heart, the day before four elves came asking.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "maxim"
+        },
+        {
+          "id": "C-M8-2",
+          "line": 261,
+          "text": "Cyndia said, \"Road's good,\" which was as much as to say the horses would do.",
+          "pattern": "M8 - interpreter gloss",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "It translates a line the reader just heard (guide's own example).",
+          "suggestedFix": "Cyndia said, \"Road's good.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "gloss_which"
+        },
+        {
+          "id": "C-M3-3",
+          "line": 267,
+          "text": "After that the night was the river road.",
+          "pattern": "M3 - equative montage",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "It equates a stretch of time with a road (guide's own example).",
+          "suggestedFix": "After that they kept to the river road all night.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "equative_single"
+        },
+        {
+          "id": "C-M11-3",
+          "line": 285,
+          "text": "The middle, where a man with a broom and a master waiting would sweep, and then the edges and the corners.",
+          "pattern": "M11 - stylised figure (zeugma)",
+          "test": "Test 1 + M11",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "\"with a broom and a master waiting\" yokes an object and a circumstance under one \"with\" for shine.",
+          "suggestedFix": "The middle, and then the edges and the corners.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M5-4",
+          "line": 291,
+          "text": "A barn was never quiet.",
+          "pattern": "M5 - maxim",
+          "test": "Test 4 (count)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A generic past that sets up an image the next sentence delivers anyway (a die-first case in the guide). Maxims run at 5x the cap and this is the weakest excess instance, so it is MODERATE.",
+          "suggestedFix": "",
+          "fixNote": "Delete. The paragraph becomes: \"The river slapped at the wharf piles beneath the floor and nothing else moved.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "maxim"
+        },
+        {
+          "id": "C-M5-5",
+          "line": 293,
+          "text": "Somebody had swept it, and not in a hurry, because a man in a hurry leaves the corners.",
+          "pattern": "M5 - maxim",
+          "test": "Test 4 (count): die-first cap maxim",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A maxim used as a cap after the evidence is on the page: the swept corners were in L285 (guide's own example).",
+          "suggestedFix": "Somebody had swept it, and taken their time over it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "maxim"
+        },
+        {
+          "id": "C-M8-3",
+          "line": 297,
+          "text": "Cyndia was crossing the yard from the stables at a walk, which meant it would keep a moment.",
+          "pattern": "M8 - interpreter gloss",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "It translates a gesture the reader just saw (guide's own example).",
+          "suggestedFix": "Cyndia was crossing the yard from the stables at a walk.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "gloss_which"
+        },
+        {
+          "id": "C-M8-4",
+          "line": 359,
+          "text": "He was frightened. Sylvanas could see that without a staff. It was in the colour of him and in the hands pressed flat to the wood so they would not do anything else, and in the way he had answered every question before she'd finished asking it.",
+          "pattern": "M8 - interpreter gloss",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A label, then a quip, then the evidence explained (guide's own example). The plan asks for the overseer's tells to be written without comment. His colour stays in L361 (\"this one went white\"), and the next paragraph names the fear.",
+          "suggestedFix": "He kept his hands pressed flat to the wood, and he had answered every question before she'd finished asking it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M3-4",
+          "line": 363,
+          "text": "Every breath she spent in this room was a furlong.",
+          "pattern": "M3 - equative montage",
+          "test": "Test 3 (job): duplicates the next sentence",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "It equates breath with distance (guide's own example). Two sentences later, \"Another question, and the wagons would be in Brill by tomorrow...\" already states the cost plainly.",
+          "suggestedFix": "",
+          "fixNote": "Delete the sentence. The paragraph runs from \"...even after the night they'd had.\" straight into \"Another question, and the wagons...\".",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "equative_single"
+        },
+        {
+          "id": "C-M13-1",
+          "line": 385,
+          "text": "slumped in and smoothed down the way a rut goes when a night's rain has stood in it and drained and dried.",
+          "pattern": "M13 - 'the way' simile",
+          "test": "M13 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A \"the way\" simile with a generic present-tense rule inside it. The tracker fact reads better stated directly.",
+          "suggestedFix": "slumped in and smoothed down where a night's rain had stood in them and drained and dried.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "the_way_simile"
+        },
+        {
+          "id": "C-M5-6",
+          "line": 385,
+          "text": "There were always ruts.",
+          "pattern": "M5 - maxim",
+          "test": "Test 4 (count) + cluster rule",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A generic past (\"always\") two paragraphs after the kept maxim at L381 (\"On clay a loaded wagon cuts deep.\"). Under the cluster rule, the same move twice within five paragraphs kills the second.",
+          "suggestedFix": "",
+          "fixNote": "Delete. The paragraph opens on \"Two deep old grooves ran up the hill...\".",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-6",
+          "line": 397,
+          "text": "admired his beans, which were very fine, and asked",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count) + 3x-cap rule",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A mock-precise narrator aside that carries no information. House wit is at 7x its cap and this is the weakest excess instance, so it is MODERATE.",
+          "suggestedFix": "admired his beans and asked",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M10-2",
+          "line": 401,
+          "text": "The sun went down behind them on the road they had come up.",
+          "pattern": "M10 - planted echo insert",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A one-line paragraph after the no-wagons reveal that mirrors the wasted road. L395 already marks the sunset (\"as the sun was going down\"), so the line exists only for what it means.",
+          "suggestedFix": "",
+          "fixNote": "Delete the paragraph.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-7",
+          "line": 409,
+          "text": "before the toll-keeper had his pole open, which he had begun to do out of habit.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count): quip in a tension beat",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A comic aside in the beat where Sylvanas learns the lie has cost her a day.",
+          "suggestedFix": "before the toll-keeper had his pole open.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M2-4",
+          "line": 415,
+          "text": "Every time she thought about anything on that road, she was thinking about the stove.",
+          "pattern": "M2 - literal-sense failure",
+          "test": "Test 1 (plain paraphrase)",
+          "verdict": "KILL",
+          "severity": "SEVERE",
+          "reason": "A quantifier paradox dressed as emphasis (guide's own example). The plain sense is that she kept thinking about the stove.",
+          "suggestedFix": "All the way back, she kept thinking about the stove.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M12-2",
+          "line": 425,
+          "text": "Alive, then, and the best part of a day ahead,",
+          "pattern": "M12 - argument template ('X, then.' fragment)",
+          "test": "M12 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A verbless \"X, then,\" deduction fragment. The comma form slipped past the tool.",
+          "suggestedFix": "He was alive, and the best part of a day ahead,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M13-2",
+          "line": 427,
+          "text": "The chair was pushed back from the desk at an angle, the way a man leaves a chair when he gets up quickly.",
+          "pattern": "M13 - 'the way' simile",
+          "test": "M13 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A \"the way\" simile. A stronger verb carries the hurry.",
+          "suggestedFix": "The chair had been shoved back from the desk at an angle.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "the_way_simile"
+        },
+        {
+          "id": "C-M13-3",
+          "line": 433,
+          "text": "A wad of paper the size of her fist, black on the outside and whole inside when she broke it open, the way paper goes when a man crams in too much at once and shuts the door on it and doesn't stay to see it through.",
+          "pattern": "M13 - 'the way' simile",
+          "test": "M13 cap 0 + polysyndeton densest paragraph",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A \"the way\" simile (guide's own example) with polysyndeton inside it, in the densest polysyndeton paragraph the checker found (L433). The fix keeps the fact and the actor.",
+          "suggestedFix": "A wad of paper the size of her fist, black on the outside and whole inside when she broke it open. He had crammed in too much at once and left it to burn.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "the_way_simile"
+        },
+        {
+          "id": "C-M13-4",
+          "line": 435,
+          "text": "and then he had stuffed his stove the way a man strikes camp with riders on the ridge.",
+          "pattern": "M13 - 'the way' simile",
+          "test": "M13 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A \"the way\" simile on a contrast the sentence already makes.",
+          "suggestedFix": "and then he had stuffed his stove and run.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "the_way_simile"
+        },
+        {
+          "id": "C-M1-2",
+          "line": 439,
+          "text": "let herself down onto the hearth-step by the stove in pieces,",
+          "pattern": "M1 - bent idiom",
+          "test": "Test 2 (idiom distance)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Bends \"in stages / by degrees\". \"In pieces\" breaks the literal sense: she is not in pieces, she is sitting down slowly.",
+          "suggestedFix": "lowered herself onto the hearth-step by the stove,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M13-5",
+          "line": 441,
+          "text": "and set them in rows the way she would lay out arrowheads off a field, by kind.",
+          "pattern": "M13 - 'the way' simile",
+          "test": "M13 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A \"the way\" simile; the tool missed it because there is no comma. The guide allows a plain \"like\" with a noun from the POV's trade.",
+          "suggestedFix": "and set them in rows by kind, like arrowheads off a field.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M13-6",
+          "line": 469,
+          "text": "Cyndia started saying it as she laid them, the way she said a count.",
+          "pattern": "M13 - 'the way' simile",
+          "test": "M13 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A \"the way\" simile. Her repeated \"Barov.\" in the next lines already shows the counting rhythm.",
+          "suggestedFix": "Cyndia started saying it as she laid them.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "the_way_simile"
+        },
+        {
+          "id": "C-M2-5",
+          "line": 479,
+          "text": "Every name so far had been a place.",
+          "pattern": "M2 - literal-sense failure",
+          "test": "Test 1 (contradicts the next sentence)",
+          "verdict": "KILL",
+          "severity": "SEVERE",
+          "reason": "The next three sentences contradict it: a boy in a loft, a young man with a cart and \"Own cart\" are not places (guide's own example).",
+          "suggestedFix": "So far she'd had places, and nobody who would give her a name.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M4-3",
+          "line": 481,
+          "text": "A man at the end of the road she had been riding since the Pass, with a face, and a hall, and a door.",
+          "pattern": "M4 - cadence list with a turn",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Polysyndeton that ends on the turn \"and a door\" (guide's own example). The tool tagged it equative_montage; it is the M4 shape.",
+          "suggestedFix": "A man at the end of the road she had been riding since the Pass, with a face and a door.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "equative_montage"
+        },
+        {
+          "id": "C-M13-7",
+          "line": 487,
+          "text": "Or whoever had the use of the lord's granaries, his seal, his sacks and his overseers, the way they'd had the use of a boy in a loft since the back end of summer?",
+          "pattern": "M13 - 'the way' simile",
+          "test": "M13 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A \"the way\" comparison. Split, the analogy to Tam stands as its own fact.",
+          "suggestedFix": "Or whoever had the use of the lord's granaries, his seal, his sacks and his overseers? Somebody had had the use of a boy in a loft since the back end of summer.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "the_way_simile"
+        },
+        {
+          "id": "C-M9-8",
+          "line": 503,
+          "text": "She had picked it up off the overseer's kitchen floor, half his wife's dresser drawer spilled round it, and she would answer to his wife for it if his wife ever came home.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A dry tail that adds nothing the scene uses.",
+          "suggestedFix": "She had picked it up off the overseer's kitchen floor, half his wife's dresser drawer spilled round it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M12-3",
+          "line": 507,
+          "text": "There was colour in her face again, or the candle was putting it there.",
+          "pattern": "M12 - argument template (second-guess tag)",
+          "test": "M12 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A second-guess tag (cap 0, guide's own example).",
+          "suggestedFix": "There was some colour in her face again.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "second_guess_tag"
+        },
+        {
+          "id": "C-M11-4",
+          "line": 525,
+          "text": "I stood in that road while you watered the horses, and it was a road.",
+          "pattern": "M11 - stylised figure (tautology punchline)",
+          "test": "M11 zero tolerance",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A tautology punchline (guide's own example).",
+          "suggestedFix": "I stood in that road while you watered the horses, and it was clean.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-9",
+          "line": 529,
+          "text": "The mage gave her back a word, two words, from wherever she kept them, as fast as Sylvanas could read.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A whimsical aside (\"from wherever she kept them\"). Over the cap.",
+          "suggestedFix": "The mage gave her back a word, two words, as fast as Sylvanas could read.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M9-10",
+          "line": 531,
+          "text": "Sylvanas put those slips in a heap on their own. It got to be a tall heap.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A deadpan understatement used as a cap. The fact (many villages she hasn't read) stays; the punch goes.",
+          "suggestedFix": "Sylvanas put those slips in a heap on their own, and the heap grew tall.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M10-3",
+          "line": 533,
+          "text": "A moth found it, going round, and round, and in.",
+          "pattern": "M10 - planted echo insert",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A trapped creature planted as a symbol, with a cadence turn on \"and in\" (guide's own example).",
+          "suggestedFix": "",
+          "fixNote": "Delete. Keep \"The candle burned down a finger's width.\" as the time beat.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "planted_insert"
+        },
+        {
+          "id": "C-M9-11",
+          "line": 561,
+          "text": "then opened them and shut the door behind her, which was more than Lyriel ever did.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count): quip in a strain beat",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A quip right after the strained reading Sylvanas has just stopped (\"That's enough\"). Quips in strain beats are always killed (guide's own example).",
+          "suggestedFix": "then opened them and shut the door behind her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "gloss_which"
+        },
+        {
+          "id": "C-M13-8",
+          "line": 569,
+          "text": "or the flat of a hand at the elbow, the way she kept a hand ready on a cliff path for a ranger who hadn't done that path before.",
+          "pattern": "M13 - 'the way' simile",
+          "test": "M13 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A \"the way\" simile that also adds a fifth ranger comparison to the chapter.",
+          "suggestedFix": "or the flat of a hand at the elbow.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "the_way_simile"
+        },
+        {
+          "id": "C-M9-12",
+          "line": 571,
+          "text": "A Kirin Tor mage, and Sylvanas had yet to meet one who could tell you the hour without wanting the sundial admired. She had come down out of the Pass expecting one more, with a worse seat on a horse.",
+          "pattern": "M9 - house wit",
+          "test": "Test 4 (count): two quips in one paragraph",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Two quips in one paragraph (always kill), and the sundial line repeats the mage-vanity joke already kept at L193. The arc beat (waiting for \"the bit at the end\") stays.",
+          "suggestedFix": "She had come down out of the Pass expecting another Kirin Tor mage.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M1-3",
+          "line": 575,
+          "text": "Jaina had been on her feet before the question was cold.",
+          "pattern": "M1 - bent idiom",
+          "test": "Test 2 (idiom distance)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Bends \"before the body was cold\"; questions do not go cold (guide's own example). This is the plan's Beat 7 line where narration first says \"Jaina\", so the fix keeps the name.",
+          "suggestedFix": "Jaina had got to her feet the moment she was asked.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "bent_idiom_seed"
+        },
+        {
+          "id": "C-M12-4",
+          "line": 577,
+          "text": "Jaina, then.",
+          "pattern": "M12 - argument template ('X, then.' fragment)",
+          "test": "M12 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "An \"X, then.\" fragment (cap 0). The plan's Beat 7 needs Sylvanas to catch herself thinking \"Jaina\" and let it stand. That beat stays; the template goes.",
+          "suggestedFix": "She let the name stand.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "then_fragment"
+        },
+        {
+          "id": "C-M13-9",
+          "line": 579,
+          "text": "bending it the way the light in the crystal had bent,",
+          "pattern": "M13 - 'the way' simile",
+          "test": "M13 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A \"the way\" construction the tool missed. \"Leaned\" matches L557 (\"The light leaned.\").",
+          "suggestedFix": "bending it as the light in the crystal had leaned,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M12-5",
+          "line": 583,
+          "text": "Sylvanas made it heavy.",
+          "pattern": "M12 - argument template (echo-compliance)",
+          "test": "M12 cap 0",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Echo-compliance after \"Make it heavy.\" (cap 0, guide's own example).",
+          "suggestedFix": "Sylvanas inked over the mark.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "echo_compliance"
+        },
+        {
+          "id": "C-M10-4",
+          "line": 585,
+          "text": "At the foot of the candle the moth was in the grease now, still moving.",
+          "pattern": "M10 - planted echo insert",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "It calls back the planted moth from L533 (guide's own example).",
+          "suggestedFix": "",
+          "fixNote": "Delete. The paragraph ends on \"...across the sheet from the bar through Hollow Green.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M5-7",
+          "line": 603,
+          "text": "And then he hadn't turned round. A man with an empty wagon and nothing to fill it with turns his horse and goes home.",
+          "pattern": "M5 - maxim",
+          "test": "Test 4 (count)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A generic present-tense rule (listed in the guide). It works from memory rather than from evidence in front of her, and the two kept maxims (L381 rut, L485 stove) are stronger. Making it particular keeps the deduction.",
+          "suggestedFix": "And then, with an empty wagon and nothing to fill it with, he hadn't turned round.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M5-8",
+          "line": 607,
+          "text": "Everybody stares at elves too long.",
+          "pattern": "M5 - maxim",
+          "test": "Test 4 (count)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A generic present-tense rule (guide's own example). It is also a fourth \"humans stare at elves\" beat in the chapter (family elf_ears_stare). \"She'd said it to rangers a hundred times...\" already carries the dismissal the plan asks for.",
+          "suggestedFix": "",
+          "fixNote": "Delete. The paragraph ends on \"...a woodcutter who had stared at them too long.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "maxim"
+        },
+        {
+          "id": "C-M5-9",
+          "line": 609,
+          "text": "And word didn't need a cob to carry it.",
+          "pattern": "M5 - maxim",
+          "test": "Test 4 (count)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A generic past-tense truth used as the premise of a deduction. It is over the cap, and a particular version does the same job.",
+          "suggestedFix": "And word could have gone south without him.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M8-5",
+          "line": 633,
+          "text": "Three of them, and every one pointing down this road.",
+          "pattern": "M8 - interpreter gloss",
+          "test": "Test 3 (job)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "It counts and sums up the three facts the paragraph has just listed (guide's own example).",
+          "suggestedFix": "",
+          "fixNote": "Delete. The paragraph ends on \"Cyndia's wide flat shoes.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        },
+        {
+          "id": "C-M11-5",
+          "line": 639,
+          "text": "The King's road was clean, and clean was no use to her.",
+          "pattern": "M11 - stylised figure (anadiplosis)",
+          "test": "M11 zero tolerance",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Anadiplosis (guide's own example).",
+          "suggestedFix": "The King's road was clean, and no use to her.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "anadiplosis"
+        },
+        {
+          "id": "C-M4-4",
+          "line": 651,
+          "text": "they'll put the flour after the orcs, and after the horses, and after the quartermaster's supper.",
+          "pattern": "M4 - cadence list with a turn",
+          "test": "Test 3 (job) / polysyndeton densest-sentence audit",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "A triple ranking whose last item is the joke. The flour-below-the-orcs point is the plan's B9 warning; the cadence and the punchline are decoration, and the same ranking joke already ran at L215 (see C-R3-2).",
+          "suggestedFix": "they'll put the flour after the orcs.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "refrain-guide.md",
+      "totalCandidates": 46,
+      "kills": 22,
+      "keeps": 24,
+      "severity": {
+        "SEVERE": 0,
+        "MODERATE": 17,
+        "MILD": 5
+      },
+      "dominantPattern": "R4 (9)",
+      "capCounts": {
+        "subordinate_yardstick": {
+          "countHere": 2,
+          "budget": "1 per 3 chapters (windowTotal 7)",
+          "keptLines": [
+            403
+          ],
+          "killedLines": [
+            403,
+            487
+          ],
+          "note": "L403's beat is kept because plan B6 names it; its flaying wording is killed. L487 is the second instance (the tool missed it)."
+        },
+        "elf_ears_stare": {
+          "countHere": 3,
+          "budget": "1 per 2 chapters",
+          "keptLines": [
+            25
+          ],
+          "killedLines": [
+            207,
+            343
+          ],
+          "note": "L607 is a fourth stare and is killed under M5."
+        },
+        "blush_ears": {
+          "countHere": 2,
+          "budget": "1 per 2 chapters",
+          "keptLines": [],
+          "killedLines": [
+            69,
+            361
+          ],
+          "note": "L69 is killed under M7."
+        },
+        "no_sleep_sand_eyes": {
+          "countHere": 2,
+          "budget": "1 per 3 chapters",
+          "keptLines": [],
+          "killedLines": [
+            7
+          ]
+        },
+        "lyriel_checks_cyndia": {
+          "countHere": 1,
+          "budget": "1 per 3 chapters (windowTotal 2)",
+          "keptLines": [],
+          "killedLines": [
+            237
+          ]
+        },
+        "knees_set": {
+          "countHere": 3,
+          "budget": "1 per 2 chapters",
+          "keptLines": [
+            5
+          ],
+          "killedLines": [
+            279,
+            631
+          ]
+        },
+        "empty_places_at_back": {
+          "countHere": 2,
+          "budget": "1 per 2 chapters",
+          "keptLines": [
+            229
+          ],
+          "killedLines": [
+            665
+          ]
+        },
+        "short_surprised_laugh": {
+          "countHere": 1,
+          "budget": "1 per 3 chapters (not over)",
+          "keptLines": [],
+          "killedLines": [
+            235
+          ],
+          "note": "Killed as R5 (recycled micro-scene from chapter 2), not on budget."
+        }
+      },
+      "r5Sweep": {
+        "previousChapter": "chapter4/final.md (read in full)",
+        "distinctiveBeatsChecked": [
+          "opening sense-arrival into a village",
+          "Lyriel's knot lesson / first 'Jaina'",
+          "'How sure?' exchange (L534)",
+          "Tam's collar poison: 'sewed it in for him and told him when' (L806)",
+          "ANDORHAL stencil reveal (L966-968)",
+          "Lyriel joke + glance at Cyndia (L992)",
+          "closing line of march with two empty places, road split, Sylvanas turns onto the road (L1004-1010)",
+          "'She could stand here and...' deliberation (L281)"
+        ],
+        "recycledHere": [
+          "closing line-of-march recital (C-R4-9)",
+          "'told him when' repeats (C-R3-5, C-R3-6)",
+          "Lyriel glance at Cyndia (C-R4-2)"
+        ],
+        "alsoChecked": "chapter2 L307-309 laugh micro-scene (C-R5-1)"
+      },
+      "selfCheck": "The previous chapter was read in full. No repeat was kept as a callback unless the text marks it (italics or attribution) or the plan names it. No refrain was replaced with a paraphrase of the same beat. Plain continuity vocabulary (heel of the staff, crook of the arm, line of march once) was kept. The opening and closing were checked against chapter 4's; the closing recital is killed.",
+      "findings": [
+        {
+          "id": "C-R1-1",
+          "line": 7,
+          "text": "Her eyes felt rubbed with sand. She had not slept since the night before the village,",
+          "pattern": "R1 - cross-chapter verbatim reuse",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A recycled opening: chapter 3 has \"She had not slept since the night before the troll hollow. Her eyes were full of sand\" (guide's own example). The no_sleep_sand_eyes family is also over budget (windowTotal 4, 1 per 3 chapters). Her fatigue is carried later (L413, L471), and the bitten fingers in the next sentence are this chapter's own fact.",
+          "suggestedFix": "",
+          "fixNote": "Delete. With C-M3-1 the whole two-sentence opener goes, and the paragraph opens on \"She worked her right hand open and shut on the rein...\".",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "crossChapter",
+          "source": "chapter3/final.md line 20",
+          "alsoFlags": [
+            "R4 family no_sleep_sand_eyes (overBudget)"
+          ]
+        },
+        {
+          "id": "C-R1-2",
+          "line": 33,
+          "text": "It's like standing in a boot.",
+          "pattern": "R1 - cross-chapter reuse (recycled simile)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A recycled simile: chapter 2 has \"It was like biting a boot.\" (the guide lists this pair). A replacement quip would be M9, so cut it.",
+          "suggestedFix": "",
+          "fixNote": "Delete. Lyriel's line ends \"You keep a fire lit in here? In this?\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "source": "chapter2/final.md line 151"
+        },
+        {
+          "id": "C-R1-3",
+          "line": 109,
+          "text": "that looked like a bird's foot",
+          "pattern": "R1 - cross-chapter reuse (recycled simile)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A recycled simile: chapter 3 has \"stiff as a dead bird's foot\" (the guide lists this pair).",
+          "suggestedFix": "",
+          "fixNote": "Resolved by C-M2-2's replacement (\"Another, lower down, that was meant for a cross.\"). Apply that one edit.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "source": "chapter3/final.md line 213"
+        },
+        {
+          "id": "C-R3-1",
+          "line": 195,
+          "text": "She had thought, when she'd thought at all, that at the end of the road there would be a man. A man with a cart, and a reason, and a face she could put an arrow through.",
+          "pattern": "R3 - within-chapter repeat",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The \"I thought it was one man\" realization appears three times (L149, here, L481). This is the plain repeat of L149's beat, with an M4 list-with-a-turn inside it. L481 is a different move (she wants it to be one man) and stays.",
+          "suggestedFix": "",
+          "fixNote": "Delete both sentences. The paragraph opens on \"One man with a cart didn't sell grain short at forty-odd villages...\".",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "source": "L149, L481"
+        },
+        {
+          "id": "C-R4-1",
+          "line": 207,
+          "text": "They looked at her ears, then at the bows against the wall.",
+          "pattern": "R4 - family over budget (elf_ears_stare)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The second of three ears-stare beats in the chapter (L25, L207, L343; L607 is a fourth stare line). The family budget is 1 per 2 chapters and windowTotal is 4. L25 is kept.",
+          "suggestedFix": "They looked at the bows against the wall.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:elf_ears_stare",
+          "source": "L25, L343; chapter4/final.md"
+        },
+        {
+          "id": "C-R3-2",
+          "line": 215,
+          "text": "If he had an opinion about grain at all, it would be somewhere below the orcs, and below his horse.",
+          "pattern": "R3 - within-chapter repeat",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The same ranking joke as L651 (\"after the orcs, and after the horses...\"). L651 is the plan's B9 warning to Jaina and is the stronger instance. This one is also house wit (listed in the guide).",
+          "suggestedFix": "",
+          "fixNote": "Delete. The paragraph ends on \"Terenas's boy, with an army and orcs to chase.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "source": "L651"
+        },
+        {
+          "id": "C-R2-1",
+          "line": 231,
+          "text": "He wrote 'Coldwell' and it took up the page. That man was paid by the loop, Jaina.",
+          "pattern": "R2 - voice-sheet lift",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Lifted verbatim from Lyriel's sample shape \"Whoever wrote this was paid by the loop.\" The plan requires a clerk's-handwriting joke and Lyriel saying \"Jaina\", not this wording. \"He wrote 'Coldwell' and it took up the page\" already gives her one flat exaggeration. Note: the voice sheet labels this sample \"(Ch 5)\", so the sheet itself seeds the lift.",
+          "suggestedFix": "He wrote 'Coldwell' and it took up the page, Jaina.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "voiceSheet",
+          "source": "stories/the-plague-road/characters/voice-sheets/lyriel-voice.md line 46"
+        },
+        {
+          "id": "C-R5-1",
+          "line": 235,
+          "text": "It came out short and surprised, as though somebody had pushed her. Then she laughed properly, bent over the pommel with the staff knocking the saddle-bow,",
+          "pattern": "R5 - recycled micro-scene",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "Chapter 2's sequence comes back: Lyriel jokes, Jaina laughs \"a short surprised sound\", Lyriel glances at Cyndia, and Cyndia watches the hedge (guide's own example). The plan keeps the joke, Jaina's laugh and Cyndia on the trees. This fix and C-R4-2 take out the recycled reaction wording and the glance.",
+          "suggestedFix": "She bent over the pommel with it, the staff knocking the saddle-bow,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:short_surprised_laugh",
+          "source": "chapter2/final.md lines 307-309"
+        },
+        {
+          "id": "C-R4-2",
+          "line": 237,
+          "text": "Lyriel turned to Cyndia.",
+          "pattern": "R4 - family over budget (lyriel_checks_cyndia)",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "Lyriel checks Cyndia after a joke. This also ran in chapter 2 (L309) and chapter 4 (L992), against a budget of 1 per 3 chapters. Cyndia watching the trees (the plan's contrast) stays.",
+          "suggestedFix": "",
+          "fixNote": "Delete the one-line paragraph. The scene runs from Jaina's \"On the seven.\" to \"Cyndia was watching the trees to the left...\".",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:lyriel_checks_cyndia",
+          "source": "chapter2/final.md line 309; chapter4/final.md line 992"
+        },
+        {
+          "id": "C-R4-3",
+          "line": 279,
+          "text": "Her knees had set again, worse than at Corley's, and for the first steps she walked on them stiffly, hating it.",
+          "pattern": "R4 - family over budget (knees_set)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The second of three \"knees had set\" beats (L5, here, L631). Chapter 2 has two more, against a budget of 1 per 2 chapters. L5 is kept.",
+          "suggestedFix": "For the first steps she walked stiffly, hating it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:knees_set",
+          "source": "L5, L631; chapter2/final.md"
+        },
+        {
+          "id": "C-R4-4",
+          "line": 343,
+          "text": "He had taken in the ears and the bow and Cyndia in the door, as they all did, and then his attention had gone to the mage and stayed there.",
+          "pattern": "R4 - family over budget (elf_ears_stare)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The third ears-stare, with the \"as they all did\" refrain tag. The plot clue (his attention goes to the mage) stays.",
+          "suggestedFix": "He had taken in the bow and Cyndia in the door, and then his attention had gone to the mage and stayed there.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:elf_ears_stare",
+          "source": "L25, L207"
+        },
+        {
+          "id": "C-R3-3",
+          "line": 347,
+          "text": "and hung there, wavering, dull gold, the colour of old horn.",
+          "pattern": "R3 - within-chapter repeat",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The second horn comparison for the crystal. L305 has \"not much brighter than horn\".",
+          "suggestedFix": "and hung there, wavering, dull gold.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "source": "L305"
+        },
+        {
+          "id": "C-R4-5",
+          "line": 361,
+          "text": "Corley had gone red to the ears and run at the nose; this one went white.",
+          "pattern": "R4 - family over budget (blush_ears)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The second blush_ears beat in the chapter (L69), with windowTotal 3. Once C-M7-1 removes the L69 blush, \"gone red to the ears\" also points back at something no longer on the page.",
+          "suggestedFix": "Corley had run at the nose; this one went white.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:blush_ears",
+          "source": "L69; chapter4/final.md line 117"
+        },
+        {
+          "id": "C-R4-6",
+          "line": 403,
+          "text": "She had heard that excuse from a ranger once, at the Pass, and taken the skin off him for it in front of his post.",
+          "pattern": "R4 - family over budget (subordinate_yardstick)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The yardstick beat has windowTotal 7 against a budget of 1 per 3 chapters. The plan names this beat at B6 (\"an excuse she would flay a ranger for\"), so one instance stays. Its flaying image repeats chapter 1's \"flayed\" and chapter 3's \"hide off\" and \"flayed\", so the wording goes. The plan keeps reseeding this beat (B6 and the Barov beat).",
+          "suggestedFix": "She had heard that excuse from a ranger once, at the Pass.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:subordinate_yardstick",
+          "source": "chapter1/final.md; chapter3/final.md (x5)"
+        },
+        {
+          "id": "C-R3-4",
+          "line": 439,
+          "text": "lay across the floor in a long bright slab, as it had the morning before,",
+          "pattern": "R3 - within-chapter repeat",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The second \"long bright slab\" (L321) (guide's own example). The callback marker \"as it had the morning before\" can stay without repeating the figure.",
+          "suggestedFix": "lay across the floor as it had the morning before,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "withinChapter",
+          "source": "L321"
+        },
+        {
+          "id": "C-R4-7",
+          "line": 487,
+          "text": "A ranger who brought her a name on a waybill and a look on his face would be sent back out for more.",
+          "pattern": "R4 - family over budget (subordinate_yardstick)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "A second yardstick in the same chapter, which the tool missed. The plan's Barov interiority (\"she'd have a ranger's hide for that\") copies the voice-sheet shape example. Only one plan-named instance can stay, and the B6 one (L403) does the chapter's stance test.",
+          "suggestedFix": "",
+          "fixNote": "Delete. The paragraph ends on \"She did not know.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "source": "L403; sylvanas-voice.md shape example 4"
+        },
+        {
+          "id": "C-R3-5",
+          "line": 589,
+          "text": "Before that, a boy in a loft with a fold of paper sewn into his collar, who had been told when.",
+          "pattern": "R3 - within-chapter repeat",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "\"Sewn into his collar ... told him when\" comes from chapter 4 L806 and is already recalled at L247. This is the second use in chapter 5 and L639 is the third, inside a recap paragraph.",
+          "suggestedFix": "",
+          "fixNote": "Delete. The paragraph ends on \"Before that, a free carter who bought his own flour back the day before.\"",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "source": "L247, L639; chapter4/final.md line 806"
+        },
+        {
+          "id": "C-R4-8",
+          "line": 631,
+          "text": "She knelt at the bench on stiff knees; they had set again in the night.",
+          "pattern": "R4 - family over budget (knees_set)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The third \"knees had set\" beat in the chapter.",
+          "suggestedFix": "She knelt at the bench on stiff knees.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:knees_set",
+          "source": "L5, L279"
+        },
+        {
+          "id": "C-R3-6",
+          "line": 639,
+          "text": "Whoever had told the overseer when would know that as well as she did.",
+          "pattern": "R3 - within-chapter repeat",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The third \"told ... when\" in the chapter (L247, L589).",
+          "suggestedFix": "Whoever had warned the overseer would know that as well as she did.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "source": "L247, L589"
+        },
+        {
+          "id": "C-R3-7",
+          "line": 659,
+          "text": "She folded the sheet, wrong, along new creases,",
+          "pattern": "R3 - within-chapter repeat",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The third \"folded ... wrong\" tag (L223, L489). L223 is the first and is kept in C-M2-3's fix.",
+          "suggestedFix": "She folded the sheet along new creases",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "source": "L223, L489"
+        },
+        {
+          "id": "C-R3-8",
+          "line": 661,
+          "text": "Cyndia went on checking a girth.",
+          "pattern": "R3 - within-chapter repeat",
+          "verdict": "KILL",
+          "severity": "MILD",
+          "reason": "The second \"Lyriel jokes, Cyndia stays unmoved\" beat in the chapter. L239 is the plan's required contrast and stays.",
+          "suggestedFix": "",
+          "fixNote": "Delete. The paragraph runs \"...whatever Cyndia tells you.\" Jaina took the crust in her two fingers and ate it.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "source": "L237-239"
+        },
+        {
+          "id": "C-R4-9",
+          "line": 665,
+          "text": "They went out of the fork in the old order: Sylvanas in front, Cyndia on the left, Lyriel on the right with her knee by Jaina's, Jaina in the middle, and the two places at the back. The King's road went away to their right,",
+          "pattern": "R4 - family over budget (empty_places_at_back)",
+          "verdict": "KILL",
+          "severity": "MODERATE",
+          "reason": "The second recital of the line of march and the empty places in this chapter (L229 is the plan's callback and is kept), with windowTotal 3. It also recycles chapter 4's closing sequence (\"They went down through the village in the same order... and two empty places at the back\", then the road split and the turn), which makes it R5 as well.",
+          "suggestedFix": "They rode out of the fork with the King's road going away on their right,",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "mannered-prose-guide.md",
+            "refrain-guide.md"
+          ],
+          "toolSignal": "family:empty_places_at_back",
+          "source": "L229; chapter4/final.md lines 1004-1010",
+          "alsoFlags": [
+            "R3 withinChapter (L229/L665)",
+            "R5 recycled chapter-closing sequence from chapter4"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalKills": 89,
+    "totalKeeps": 66,
+    "mildKills": 45,
+    "moderateOrSevereKills": 44,
+    "severeKills": 5,
+    "moderateKills": 39,
+    "guidesRun": [
+      "mannered-prose-guide.md",
+      "refrain-guide.md"
+    ],
+    "guidesWithKills": [
+      "mannered-prose-guide.md",
+      "refrain-guide.md"
+    ],
+    "killsWithFix": 89,
+    "killsUnfixable": 0,
+    "deletionFixes": 24,
+    "verdict": "fail",
+    "verdictReason": "89 KILLs (5 SEVERE, 39 MODERATE, 45 MILD) across both pass C guides. Mannered prose: 67 kills, led by house wit (12) and maxims (9) far over their caps of 2, with 9 'the way' similes (cap 0) and 5 literal-sense failures. Refrains: 22 kills. 7 families are over budget, the closing recycles chapter 4's line-of-march ending, the chapter-2 laugh micro-scene recurs, and 'paid by the loop' is lifted from Lyriel's voice sheet. Structural rhythm concerns: long_sentence_pct, one_sentence_paragraph_pct, mattr out of range. Texture is within target (score 91.0), em-dash low.",
+    "applyNotes": [
+      "Several findings overlap and resolve together: C-R1-1 + C-M3-1 (L7 opener), C-M2-2 + C-R1-3 (L109), C-M12-1 + C-M5-2 + C-M5-3 (L245), C-R2-1 + C-M9-5 (L231), C-M7-1 + C-R4-5 (L69/L361 blush), C-R4-2 + C-R5-1 (L235-237 laugh scene).",
+      "Plan-licensed beats kept, wording fixed: yardstick at L403 (plan B6), the 'Jaina' catch at L577 (plan Beat 7), the ranking warning at L651 (plan B9)."
+    ],
+    "outOfScopeObservations": [
+      "L537 'All of them, every heavy one and every old one, sat on the south road' conflicts with L83/L127/L131 (north road heavy and oldest at Millhaven). This is a continuity question, not a pass C pattern.",
+      "Slop-checker over-cap hits L669 'too brown for mist' (narrator_verdict, pass B) and L167 opener repeat (pass A) were not audited in this pass.",
+      "The plan and voice sheets reseed refrains: plan B6 and the Barov beat both name the ranger yardstick, and lyriel-voice.md scripts 'paid by the loop' for chapter 5."
+    ],
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.83,
+        "target": 0.733,
+        "delta": 0.097,
+        "range": [
+          0.613,
+          0.863
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 12.4,
+        "target": 12.412,
+        "delta": -0.012,
+        "range": [
+          10.412,
+          14.412
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.797,
+        "target": 0.723,
+        "delta": 0.074,
+        "range": [
+          0.623,
+          0.823
+        ],
+        "inRange": true
+      },
+      "short_sentence_pct": {
+        "actual": 35.8,
+        "target": 30.155,
+        "delta": 5.645,
+        "range": [
+          23.155,
+          37.155
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 22.2,
+        "target": 15.352,
+        "delta": 6.848,
+        "range": [
+          12.352,
+          19.352
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.16,
+        "target": 6.637,
+        "delta": -0.477,
+        "range": [
+          6.137,
+          7.137
+        ],
+        "inRange": true
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.4,
+        "target": 21.378,
+        "delta": 7.022,
+        "range": [
+          17.378,
+          26.378
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.774,
+        "target": 0.848,
+        "delta": -0.074,
+        "range": [
+          0.818,
+          0.888
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "long_sentence_pct",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "within_target",
+      "texture_score": 91.0,
+      "participial_pct": 6.2,
+      "compound_pct": 15.2,
+      "emdash_pct": 1.3,
+      "semicolon_pct": 1.5,
+      "short_pct": 45.9,
+      "verdict_reasons": [
+        "emdash: 1.3% below target 5.119% (score 66/100)"
+      ],
+      "interpretation": "EMDASH: 1.3% → target 5.119% (score 66/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegram_run_count": 12,
+      "texture_desert_count": 15
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 54,
+        "total_violations": 2,
+        "overCap": [
+          {
+            "category": "narrator_verdict",
+            "pattern": "verdict_too_x_for",
+            "count": 1,
+            "cap": 0,
+            "lines": [
+              669
+            ],
+            "owner": "pass B (narrator-seep)"
+          },
+          {
+            "category": "paragraph_structure",
+            "pattern": "opener_consecutive_repeat",
+            "count": 1,
+            "cap": 0,
+            "lines": [
+              167
+            ],
+            "owner": "pass A (recurring-prose-tics)"
+          }
+        ],
+        "note": "No slop-checker pattern maps to pass C. Both over-cap hits belong to passes A and B and are not audited here."
+      },
+      "manneredChecker": {
+        "summary": {
+          "patternHits": 36,
+          "patternsOverCap": 15,
+          "codesOverCap": [
+            "M5",
+            "M7",
+            "M11",
+            "M13"
+          ],
+          "crossChapterRuns": 5,
+          "voiceSheetRuns": 2,
+          "withinChapterRuns": 4,
+          "familiesOverBudget": 7,
+          "polysyndetonPer10k": 16.2
+        },
+        "calibration": {
+          "corpora": [
+            "style-samples/travel.md",
+            "style-samples/archmage"
+          ],
+          "generatedAt": "2026-10-15T20:04:35+00:00",
+          "recalibratedNow": false,
+          "stale": false,
+          "headroom": 2.0
+        },
+        "recalibratedThisRun": false,
+        "patternsOverCap": [
+          {
+            "name": "bent_idiom_seed",
+            "code": "M1",
+            "count": 2,
+            "cap": 0
+          },
+          {
+            "name": "equative_montage",
+            "code": "M3",
+            "count": 2,
+            "cap": 0
+          },
+          {
+            "name": "equative_single",
+            "code": "M3",
+            "count": 2,
+            "cap": 0
+          },
+          {
+            "name": "did_not_know_what_to_do",
+            "code": "M6",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "name": "having_nominal",
+            "code": "M6",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "name": "self_hearing",
+            "code": "M7",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "name": "blush",
+            "code": "M7",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "name": "gloss_which",
+            "code": "M8",
+            "count": 3,
+            "cap": 0
+          },
+          {
+            "name": "anadiplosis",
+            "code": "M11",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "name": "then_fragment",
+            "code": "M12",
+            "count": 2,
+            "cap": 0
+          },
+          {
+            "name": "second_guess_tag",
+            "code": "M12",
+            "count": 1,
+            "cap": 0
+          },
+          {
+            "name": "the_way_simile",
+            "code": "M13",
+            "count": 7,
+            "cap": 0
+          },
+          {
+            "name": "maxim",
+            "code": "M5",
+            "count": 9,
+            "cap": 2
+          },
+          {
+            "name": "planted_insert",
+            "code": "M10",
+            "count": 2,
+            "cap": 0
+          },
+          {
+            "name": "echo_compliance",
+            "code": "M12",
+            "count": 1,
+            "cap": 0
+          }
+        ],
+        "codesOverCap": {
+          "M5": {
+            "count": 9,
+            "cap": 2
+          },
+          "M7": {
+            "count": 2,
+            "cap": 0
+          },
+          "M11": {
+            "count": 1,
+            "cap": 0
+          },
+          "M13": {
+            "count": 7,
+            "cap": 0
+          }
+        },
+        "familiesOverBudget": [
+          "subordinate_yardstick",
+          "elf_ears_stare",
+          "blush_ears",
+          "no_sleep_sand_eyes",
+          "lyriel_checks_cyndia",
+          "knees_set",
+          "empty_places_at_back"
+        ],
+        "polysyndeton": {
+          "count": 20,
+          "per10k": 16.2,
+          "humanPer10k": 1.967,
+          "softCapPer10k": 3.9,
+          "overSoftCap": true
+        }
+      }
+    }
+  }
+}

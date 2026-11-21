@@ -1,0 +1,41 @@
+{
+  "chapterId": "chapter4",
+  "iteration": 0,
+  "targetFile": "v2g.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 1,
+      "sceneTitle": "The Village Before Collapse (lane arrival)",
+      "findingId": "G12-001",
+      "category": "G12",
+      "severity": "MODERATE",
+      "lines": "5",
+      "excerpt": "The borrowed Thalassian mare, who had walked through ward-stone hum without a flicker, flung her head up and blew at them, fine-boned neck gone rigid, the fitted leather creaking once.",
+      "reason": "The grounder's relative clause contradicts established canon. Chapter 3 (v2g line 9) and memory threads/ward-stones-wrong say horses bred at the wards 'sidestepped once at a stone' and then stood, and thalassian-horses.md says the same ('a sidestep near ward-stone vibration, then calm'). The phrase 'without a flicker' is not supported by the sources and goes against them. It also repeats the contrast Chapter 3 already opened with (calm at the stones, spooked here), but this time the trigger is two boys with a hoop, so the clause hints at a reading the beat never pays off. Packing an appositive and two absolute phrases into a fast street-noise paragraph also slows a quick spook beat (G9/G10). One Thalassian cue and one tack cue are enough.",
+      "suggestedFix": "The Thalassian mare flung her head up and blew at them, the fitted leather creaking once. Lyriel reached across from the right and took the cheek-strap without turning her head.",
+      "fixMode": "delete"
+    },
+    {
+      "sweep": "over-grounding-and-source-fidelity",
+      "sceneId": 3,
+      "sceneTitle": "The Granary (departure)",
+      "findingId": "G9-002",
+      "category": "G9",
+      "severity": "MILD",
+      "lines": "970",
+      "excerpt": "The mares were saddled under the yew, the light Farstrider tack giving off its one quiet creak as Cyndia went round the girths without looking up.",
+      "reason": "This copies the 'Quiet leather creak' cue from thalassian-horses.md, which the grounder already used at line 5 ('creaking once'). 'Its one quiet creak' reads as a cue being checked off, not as something tired Jaina notices, and the definite 'its one' points back to the opening creak as if it were a motif. The original sentence was a plain, clipped departure beat. The Farstrider/light-tack noun does real work in the tail; the repeated creak does not. Placed right after 'under the yew', 'light' can also be misread as daylight.",
+      "suggestedFix": "The mares were saddled under the yew in their light Farstrider tack, Cyndia going round the girths without looking up.",
+      "fixMode": "light-swap"
+    }
+  ],
+  "summary": {
+    "totalKills": 2,
+    "mildKills": 1,
+    "moderateKills": 1,
+    "severeKills": 0,
+    "dominantFailures": ["G12", "G9"]
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "chapterId": "chapter4",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 6,
+  "targetFile": "v2-r6.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 78,
+      "kills": 6,
+      "keeps": 72,
+      "severityMarkers": {
+        "MILD": 6,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "F3 (near-laugh partial-expression hedges) / F11 (repeat anaphoric frames)",
+      "modeSummary": {
+        "F1": 0,
+        "F2": 0,
+        "F3": 3,
+        "F4": 0,
+        "F5": 0,
+        "F6": 0,
+        "F7": 0,
+        "F8": 0,
+        "F9": 0,
+        "F10": 0,
+        "F11": 2,
+        "F12": 1,
+        "F13": 0,
+        "F14": 0,
+        "F15": 0
+      },
+      "findings": [
+        {
+          "id": "B-r6-01",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 286,
+          "text": "She had put it round a hundred flasks. She had never put it round a woman.",
+          "issue": "Anaphoric run: 'She had ... put it round' repeated across two sentences to fake weight. This is the second experience-vs-person contrast pair in the chapel scene, using the same frame as L214 ('She had seen this before... She had not seen it in a man who was still breathing.'). The scene's first run (L214) is kept; this repeat is the template showing.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "She had put it round a hundred flasks and never once round a woman.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r6-02",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F11",
+          "line": 697,
+          "text": "from the charts, from the warnings, from the ships that hadn't come home",
+          "issue": "Clause anaphora inside one sentence ('from... from... from'), decorative triplet on a simile that is already complete. The granary scene already runs 'toward' x4 (L671), 'the same' x3 (L691) and 'One part' x3 (L693), all kept because the repetition is the content (direction, identity, enumeration). This fourth run in three paragraphs adds no content and a list does the same job.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "from charts, warnings, and the ships that hadn't come home",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "texture_desert sentences 1020-1031 overlap this paragraph"
+        },
+        {
+          "id": "B-r6-03",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F12",
+          "line": 565,
+          "text": "She couldn't get the rest of it out at once.",
+          "issue": "Non-action beat. This is the second in the scene, five lines after the stronger 'Neither of them said it.' (L560, kept because the scene turns on not naming the cheap man). The dash on 'on—' and Sylvanas finishing the sentence already show the stall. This beat narrates the absence a second time.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "",
+          "fixAction": "delete the sentence (its whole paragraph); the dash and Sylvanas's \"On purpose\" carry the stall",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "texture_desert/telegram_run zone around sentences 837-856"
+        },
+        {
+          "id": "B-r6-04",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 158,
+          "text": "It was so unexpected that she nearly laughed.",
+          "issue": "Hedged partial expression ('nearly laughed'). This is the guide's 'He almost smiled' calibration case. It is also the first of three near-laughs in the chapter (L158, L368, L907).",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "It was so unexpected that she laughed under her breath.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        },
+        {
+          "id": "B-r6-05",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 368,
+          "text": "She heard herself and nearly laughed.",
+          "issue": "Hedged partial expression repeated verbatim from L158 in the same chapel scene. The Antonidas line that follows already carries the self-mockery.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "She heard herself.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ],
+          "textureZone": "telegram_run sentences 518-529 / texture_desert 518-534"
+        },
+        {
+          "id": "B-r6-06",
+          "guide": "gpt-5-prose-issues.md",
+          "pattern": "F3",
+          "line": 907,
+          "text": "Mother Haw. Jaina could have laughed.",
+          "issue": "'could have' hedge on a partial expression, the third near-laugh in the chapter. The free-indirect name already carries the amusement.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "suggestedFix": "Mother Haw, of course.",
+          "fixDifficulty": "low",
+          "crossChecked": [
+            "gpt-5-prose-issues.md",
+            "narrator-seep-guide.md",
+            "phantom-concreteness-guide.md",
+            "fake-simplification-guide.md"
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "totalCandidates": 34,
+      "kills": 0,
+      "keeps": 34,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "povRegister": "POV CHARACTER: Jaina Proudmoore. REGISTER SUMMARY: She is a young Dalaran prodigy and Kul Tiran admiral's daughter. She thinks fast in currents, wards and 'the sums', and checks herself in motion ('No. Slower.'). She is dry and unfair about herself ('Brilliant, Jaina', 'Lovely, Jaina', 'Antonidas's prize student'), says 'Oh, Light', and reaches for sea words (knots, reefs, harbour silt) and Antonidas's phrasing. She does not think in maxims, counted time or lab vocabulary. REGISTER CONFIDENCE: HIGH (voice sheet plus a full chapter of interiority).",
+      "cleanReason": "34 candidates examined. A1 shapes: 'Wrong, then.', 'which was low of her', 'the price of it', 'Well. Here was where it ended up.', 'Quite still.'. Each is Jaina's own self-correction or a beat in a decision in progress; the voice sheet lists 'dry asides about herself' and 'a claim, a no, a better claim'. A5/A8: L5, L623, L707, L799, L871 and L965 all either name the source first (bread smoke, a dog, hearth smoke) or delay it because she really cannot see it (loft light, footsteps on the stair, the smoke before she goes to the window). A7: 'as damp is everywhere in a cellar', 'as they did it in every village in Lordaeron and every port in Kul Tiras', 'Children coughed for any reason', and the one generic 'you' at L286 (alchemy-room training). Each is an operational inference that drives a decision, or her own idiom used once. B1-B4: the Millhaven knot metaphor, silt in a harbour, the reefs off Tiragarde and the reliquary memory all come from her Kul Tiran/Dalaran experience, not the theme. L508 ('gone straight back to thinking of her as maps') is the voice sheet's 'Sylvanas, early: escort muscle... she has to correct that view (outline chapter 4)', in her own unfair-to-herself idiom. L891 ('doing the sums backward') is her scholar's idiom on guilt-into-method. No Tier A shapes survived the defenses, and no Tier B line reads above her register. The slop checker reported 0 narrator_verdict, 0 ambient_inversion, 0 verbose/academic/dialogue_register hits."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 24,
+      "kills": 0,
+      "keeps": 24,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "cleanReason": "24 candidates examined, including all inferential and tactical compressions and the abstract dialogue. Each one cashes out against evidence already on the page. 'Most of them were early... Only Garran was late' follows the per-bed readings. 'One flour' / 'What sorts them is bread' follow the slate tally (L432-440, L536). 'It had been built' and 'Somebody very good made this' are anchored by the three-part reading at L693. 'the stack and the seams and the third part' (L829) and 'the third part' (L977) are anchored shorthand for L693. 'She had Windrunner down as maps' is cashed out in the same paragraph (ground, ambush angles, map read backward). 'The early ones were more than holding' follows Elsie cool and Col well (L937-941). 'by some road of her own' (L506) and 'or something else' (L486) mark honest gaps the POV cannot fill; the plan forbids cult proof before the granary, and the concrete test (who sold it, since when) is named in the same line. Tam's 'You don't know what you're keeping them from' is kept under the intentional-structure defense: its emptiness is the characterization, and L737 states he does not know what is in the jar. Brask's 'We'll see what's to be done' is his stalling, which the scene then breaks. Slop checker hedging and vague_pointer hits were reviewed: 'something about the hens' (the hens are established at L274), 'There was something on his lip. White.' (a real misperception, flour, then foam), and 'something in the hand gave' (numb hand, then specified as a tearing in the palm). All are kept. No P5 note-speak lines were found."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 6,
+      "kills": 0,
+      "keeps": 6,
+      "severityMarkers": {
+        "MILD": 0,
+        "MODERATE": 0,
+        "SEVERE": 0
+      },
+      "dominantPattern": "none",
+      "cleanReason": "6 translation setups audited as exchanges. (1) L364-368 'How much?' -> 'Small. Half a fist. A fist. Everywhere.': usable slate categories, already applied to every bed. (2) L534 'in small words, fit for Brask: It's the bread. Stop them eating the bread.': a usable target and action, and she chooses the full version instead (an arc beat). (3) L829-833 she drops 'the stack and the seams' for 'The baker lights his oven before light. If the captain waits for the morning, they'll bake with it.': a named oven and a visible threshold (before light). (4) L837-841 Sylvanas relays it as 'Your baker lights his oven before dawn?' -> 'Then you have until cockcrow.': a field-sign threshold. (5) L845-847 'Tell me what to shut' -> 'The granary. The bakehouse. Tonight... every sack of that man's flour that's gone into any house': named buildings and an operational order, which Brask executes without a follow-up. (6) L879 'made herself say plainly what the wards did': the plain version names two effects (nothing more comes in, nothing already in goes further) and the outcome threshold (the body does the rest or doesn't). No exchange needed a second unpacking."
+    }
+  ],
+  "summary": {
+    "totalKills": 6,
+    "totalKeeps": 136,
+    "mildKills": 6,
+    "moderateOrSevereKills": 0,
+    "guidesRun": [
+      "gpt-5-prose-issues.md",
+      "narrator-seep-guide.md",
+      "phantom-concreteness-guide.md",
+      "fake-simplification-guide.md"
+    ],
+    "guidesWithKills": [
+      "gpt-5-prose-issues.md"
+    ],
+    "killsWithFix": 6,
+    "killsUnfixable": 0,
+    "fixStrategy": "default (iterationKillsB [71, 26, 7, 6, 5, 2] strictly decreasing)",
+    "verdict": "fail",
+    "verdictReason": "6 MILD kills, which is more than the 3-MILD pass threshold. There are 0 MODERATE/SEVERE. All 6 kills are in gpt-5-prose-issues.md: three near-laugh partial-expression hedges (L158, L368, L907), two repeat anaphoric frames (L286, L697) and one second non-action beat in a scene (L565). Every fix is a drop-in edit of one sentence or less, or a deletion. Narrator seep, phantom concreteness and fake simplification are clean. The following do not drive the verdict: a structural texture deficit (texture score 79, below_target: participial 7.3% vs 12, emdash 1.1% vs 4, compound 12.1% vs 10), and structural rhythm concerns, with sentence_length_cv 0.864 (range 0.6-0.8), long_sentence_pct 18.9 (7-14), opener_entropy 6.59 (7.2-8.2), one_sentence_paragraph_pct 28.8 (15-24) and mattr 0.774 (0.80-0.87) out of range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {
+        "actual": 0.806,
+        "target": 0.72,
+        "delta": 0.086,
+        "range": [
+          0.6,
+          0.85
+        ],
+        "inRange": true
+      },
+      "sentence_length_mean": {
+        "actual": 11.6,
+        "target": 11.0,
+        "delta": 0.6,
+        "range": [
+          9.0,
+          13.0
+        ],
+        "inRange": true
+      },
+      "sentence_length_cv": {
+        "actual": 0.864,
+        "target": 0.7,
+        "delta": 0.164,
+        "range": [
+          0.6,
+          0.8
+        ],
+        "inRange": false
+      },
+      "short_sentence_pct": {
+        "actual": 41.1,
+        "target": 35.0,
+        "delta": 6.1,
+        "range": [
+          28.0,
+          42.0
+        ],
+        "inRange": true
+      },
+      "long_sentence_pct": {
+        "actual": 18.9,
+        "target": 10.0,
+        "delta": 8.9,
+        "range": [
+          7.0,
+          14.0
+        ],
+        "inRange": false
+      },
+      "opener_entropy": {
+        "actual": 6.59,
+        "target": 7.7,
+        "delta": -1.11,
+        "range": [
+          7.2,
+          8.2
+        ],
+        "inRange": false
+      },
+      "one_sentence_paragraph_pct": {
+        "actual": 28.8,
+        "target": 19.0,
+        "delta": 9.8,
+        "range": [
+          15.0,
+          24.0
+        ],
+        "inRange": false
+      },
+      "mattr": {
+        "actual": 0.774,
+        "target": 0.83,
+        "delta": -0.056,
+        "range": [
+          0.8,
+          0.87
+        ],
+        "inRange": false
+      },
+      "structuralRhythmConcerns": [
+        "sentence_length_cv",
+        "long_sentence_pct",
+        "opener_entropy",
+        "one_sentence_paragraph_pct",
+        "mattr"
+      ]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "texture_score": 79.0,
+      "participial_pct": 7.3,
+      "compound_pct": 12.1,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 1.4,
+      "short_pct": 51.4,
+      "verdict_reasons": [
+        "participial: 7.3% below target 12.0% (score 61/100)",
+        "compound: 12.1% above target 10.0% (score 82/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 7.3% → target 12.0% (score 61/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | COMPOUND: 12.1% → target 10.0% (score 82/100). Too many ', and/but/yet' joins. Break some into separate sentences for punch. | EMDASH: 1.1% → target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door—the same one she'd slammed—stood open.'",
+      "telegramRunCount": 36,
+      "textureDesertCount": 32,
+      "note": "structural texture deficit"
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 92,
+        "total_violations": 0,
+        "overCapCategories": [],
+        "passBMappedHits": {
+          "hedging": "3 (hedge_almost L210, L212; hedge_perhaps L579). All kept: degree-as-data in a diagnostic read, and real uncertainty in dialogue that drives Sylvanas's 'Then we're quick'",
+          "vague_pointers": "3 (L490, L683, L785). All kept; see the phantom-concreteness cleanReason",
+          "slopsquid": 0,
+          "ai_vocabulary": 0,
+          "clinical_anatomy": 0,
+          "narrator_verdict": 0,
+          "ambient_inversion": 0,
+          "verbose_phrases": 0,
+          "expression_decomposition": 0,
+          "academic_register": 0,
+          "dialogue_register": 0
+        }
+      }
+    }
+  }
+}

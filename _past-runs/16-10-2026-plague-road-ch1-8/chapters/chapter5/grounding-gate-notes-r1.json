@@ -1,0 +1,28 @@
+{
+  "chapterId": "chapter5",
+  "iteration": 1,
+  "targetFile": "v2g-r1.md",
+  "verdict": "fail",
+  "audits": [
+    {
+      "sweep": "scene-grounding",
+      "sceneId": 3,
+      "sceneTitle": "The Carters' Lodge at the Fork",
+      "findingId": "G1-001",
+      "category": "G1",
+      "severity": "MILD",
+      "lines": "521-523",
+      "excerpt": "There was a carters' lodge in the angle of the fork, a stone hut with a turf roof and one door, put up for men caught out by the dark with a load on. ... The horses stood hobbled in the lee of the wall, cropping the verge. ... Lyriel had the wall itself, sitting up on top of it with her bow across her knees and her back to the door",
+      "reason": "The scene's watch post is 'the wall', with a definite article from first mention, but no wall is ever set down. The only structure introduced is the hut, so the natural reading of 'the wall' is the hut's own wall. That makes 'sitting up on top of it ... her back to the door' hard to stage, since it would put her on a wall-top under a turf roof. The same unplaced wall carries the rest of the scene: Sylvanas 'going out to take the wall' (639), she 'climbed the wall in the dark' (641), Cyndia 'stopped below the wall with her face turned up' (645), Sylvanas 'dropped down off the wall' (653). This is the one surface in an otherwise well-built room that the reader has to guess at, and the final third's sentry blocking depends on it. One clause in the establishing sentence fixes it.",
+      "suggestedFix": "There was a carters' lodge in the angle of the fork, a stone hut with a turf roof and one door, put up for men caught out by the dark with a load on, and a chest-high dry-stone wall between the door and the road.",
+      "fixMode": "light-insert"
+    }
+  ],
+  "summary": {
+    "totalKills": 1,
+    "mildKills": 1,
+    "moderateKills": 0,
+    "severeKills": 0,
+    "dominantFailures": ["G1"]
+  }
+}

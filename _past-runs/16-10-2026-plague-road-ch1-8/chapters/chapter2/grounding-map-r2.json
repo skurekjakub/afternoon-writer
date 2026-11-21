@@ -1,0 +1,53 @@
+{
+  "chapterId": "chapter2",
+  "iteration": 2,
+  "mode": "revision",
+  "targetFile": "v2g-r1.md",
+  "globalRisks": ["tail-risk", "dialogue-heavy"],
+  "segments": {
+    "openingThird": { "risk": "low" },
+    "middleThird": { "risk": "low" },
+    "finalThird": { "risk": "medium" }
+  },
+  "touchedScenes": [2, 3],
+  "scenes": [
+    {
+      "sceneId": 2,
+      "title": "The Road to Millhaven",
+      "riskTags": ["physical-detail-contradiction"],
+      "biggestGap": "G12-003: Cyndia carries bow in her left hand, contradicting her left-handed draw (cyndia.md, cyndia-voice.md) and the chapter's own fight staging.",
+      "sourceBank": {
+        "characters": ["Cyndia: left-handed draw (stories/the-plague-road/characters/cyndia.md, voice-sheets/cyndia-voice.md)"],
+        "materials": ["bow", "arrow on the string", "farm yard"]
+      },
+      "sceneContract": {
+        "placeAnchor": "muddy farm yard, first empty farm, hedge corners",
+        "materialAnchor": "bow, arrow on the string, latched door",
+        "povAnchor": "Jaina watching the ranger check corners from the saddle",
+        "dialogueAnchor": "Cyndia reports at Windrunner's stirrup after walking back down the yard",
+        "exitAnchor": "cold kitchen felt through the staff"
+      },
+      "dialogueRuns": [{ "label": "Cyndia farm report", "risk": "low" }],
+      "fix": "line 341: bow in her right hand (left-handed archer holds the bow in the right)"
+    },
+    {
+      "sceneId": 3,
+      "title": "The Wildlife Attack",
+      "riskTags": ["stale-position"],
+      "biggestGap": "G4-004: Lyriel placed 'up on the road' after Jaina has left the ditch and is on the road by Neral and the horses.",
+      "sourceBank": {
+        "geography": ["ditch", "road", "holly wood edge"],
+        "materials": ["bowstring", "satchel", "field-book"]
+      },
+      "sceneContract": {
+        "placeAnchor": "road beside the ditch, horses bunched up-road with Neral",
+        "materialAnchor": "bowstring under two fingers, satchel flap, field-book",
+        "povAnchor": "Jaina reading the threat to her hands from the ranger's fingers",
+        "dialogueAnchor": "Cyndia's 'Slowly' paired with Lyriel's bowstring beat",
+        "exitAnchor": "writing in the book with blood on her fingers, then going to her mare"
+      },
+      "dialogueRuns": [{ "label": "satchel stop", "risk": "low" }],
+      "fix": "line 543: Lyriel 'Back by the ditch' so bow position is legible relative to Jaina on the road"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "chapterId": "chapter1",
+  "stage": "standard",
+  "pass": "b",
+  "iteration": 4,
+  "targetFile": "v2-r4.md",
+  "verdict": "fail",
+  "fixStrategy": "default (iterationKillsB 47 -> 10 -> 9 -> 6 strictly decreasing; this run 5)",
+  "audits": [
+    {
+      "guide": "gpt-5-prose-issues.md",
+      "totalCandidates": 36,
+      "kills": 5,
+      "keeps": 31,
+      "severity": "MILD",
+      "dominantPattern": "mixed single-instance (F2, F3, F4, F8, F14)",
+      "findings": [
+        {
+          "id": "B-r4-01",
+          "pattern": "F2",
+          "line": 131,
+          "text": "The patrol went quiet around her. Sylvanas went still in the saddle. \"Through the ring?\"",
+          "issue": "Generic reaction beat. 'Sylvanas went still in the saddle' is a stiffened/tensed-class beat with no character-specific physical detail. Any rider in the patrol could do it, and the patrol's silence one sentence earlier already carries the shock. The chapter also leans on 'still' elsewhere (fronds 'gone still', crystal 'went still again', 'holding still on the threshold').",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "textureZone": "inside telegram_run sentences 185-196 and texture_desert 185-201",
+          "suggestedFix": "The patrol went quiet around her. \"Through the ring?\" Sylvanas said.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r4-02",
+          "pattern": "F14",
+          "line": 81,
+          "text": "Leaning out of the saddle, he put his own bare hand to the stone, briefly, palm flat.",
+          "issue": "Fenced manner adverb. ', briefly,' adds a pacing pause, and it fails the deletion test because his next line ('I never sat still for it long enough to find out') already tells the reader how short the touch was.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "textureZone": "inside telegram_run sentences 115-122 and texture_desert 112-132",
+          "suggestedFix": "Leaning out of the saddle, he laid his own bare palm flat on the stone and took it away again.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r4-03",
+          "pattern": "F8",
+          "line": 113,
+          "text": "\"Of course.\"",
+          "echoes": "\"You'll be there to say it yourself, of course.\" (L111)",
+          "issue": "Echo exchange. The reply hands back Lor'themar's closing words and adds no fact, joke or turn. It is the second echo in Scene 1. The first is 'He slipped.' / 'He slipped into your arrow.' at L27-29, which does land a joke and stays.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "textureZone": "inside texture_desert sentences 158-170",
+          "suggestedFix": "\"Wouldn't miss it.\"",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r4-04",
+          "pattern": "F3",
+          "line": 175,
+          "word": "heard",
+          "text": "For a while she heard the patrol on the northern road, soft and shaded under the trees.",
+          "deletionTest": "For a while the patrol's hoofbeats came back off the northern road, soft under the trees.",
+          "issue": "Filter verb. 'she heard' puts the receding patrol through her perception, and the act of hearing is not the event here: the event is the sound fading as the party splits. The filter also lets 'soft and shaded' attach to 'the patrol' and not to the road or the sound.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "textureZone": "adjacent to texture_desert sentences 255-265",
+          "suggestedFix": "For a while the patrol's hoofbeats came back to her off the northern road, soft under the trees.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        },
+        {
+          "id": "B-r4-05",
+          "pattern": "F4",
+          "line": 157,
+          "text": "She caught herself liking that. Grinning over a breach, Ranger-General.",
+          "restates": "The self-rebuke 'Grinning over a breach, Ranger-General.' already shows that she is glad. 'She caught herself liking that.' names the emotion first and turns the image that follows into its subtitle.",
+          "issue": "Narrative over-translation: an emotion label next to the free-indirect line that already carries the same feeling. If the label is deleted, the grin shows the gladness and the rebuke shows the irritation at being glad, so the plan's double emotion survives.",
+          "severity": "MILD",
+          "verdict": "KILL",
+          "textureZone": "inside telegram_run sentences 226-234 and texture_desert 214-235",
+          "suggestedFix": "Grinning over a breach, Ranger-General.",
+          "fixDifficulty": "low",
+          "crossChecked": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"]
+        }
+      ],
+      "selfCheckNote": "The self-check expects 10 or more kills in a full chapter. This is the fourth revision pass, and every remaining candidate was re-read with the default stance set to KILL. The 31 keeps each rest on a stated guide exception (see scratchpad). Check for F5/F7: scene 1 closes on an action (rubbing her palm at the next stone) and the chapter closes on dialogue ('Start talking.'). Neither carries interpretive closure. Lor'themar's easy acceptance of the Convocation is plan-mandated (intentional-structure defense)."
+    },
+    {
+      "guide": "narrator-seep-guide.md",
+      "povRegister": "POV CHARACTER: Sylvanas Windrunner. REGISTER SUMMARY: Ranger-General, field soldier first. She thinks in hunter's and horseman's terms (footing, gait, a limping horse, a river rock, hounds at a rustle), swears under her breath ('Damn them', 'Sun's sake'), and rebukes herself in rank-voice ('Stalling, Ranger-General'). She argues with herself in quick questions and self-corrections, and she despises magister vocabulary and clerks. She would not reach for thematic or scholarly abstraction or name the significance of a moment. REGISTER CONFIDENCE: HIGH.",
+      "totalCandidates": 23,
+      "kills": 0,
+      "keeps": 23,
+      "severity": "none",
+      "dominantPattern": "none",
+      "toolSignalsAudited": [
+        {
+          "toolSignal": "verdict_too_x_for",
+          "line": 119,
+          "text": "hoofbeats too fast and too even for anyone who meant to stop politely",
+          "verdict": "KEEP",
+          "reason": "A concrete auditory read of a gait (pace and cadence) that drives the very next action: her raised fist and the patrol closing up. This is her tactical inference in her own wry idiom, not an abstract narrator verdict. The 'too X for Y' shape here is a purpose comparison grounded in sound."
+        }
+      ],
+      "findings": [],
+      "cleanReason": "23 candidates examined across A1 (fragments: 'Big for an axethrower.', 'The opening.', 'These had roads.', 'A nuisance with a pedigree.', 'A name worth watching.', 'Sick from the inside.'), A5 ('The patrol went quiet around her'), A7 (generalizations at L7, L55, L61, L207, L237 generic-you, L265 'Frightened people looked at the door'), A8 (L17 troll-blood smell, L63 cold under warmth, L143 horse blowing behind her) and B1 (L35, L93, L267, L271, L285). Each one is either a tactical or diagnostic conclusion she uses in a live decision (A1/A7 keep conditions), or a source named in the same clause (A8), or free indirect thought in her own idiom that she could mutter under her breath. The single generic-you instance (L237) is her deliberation and occurs once. The slop-checker verdict_too_x_for hit at L119 is a concrete gait read and is kept with its reasoning recorded above."
+    },
+    {
+      "guide": "phantom-concreteness-guide.md",
+      "totalCandidates": 11,
+      "kills": 0,
+      "keeps": 11,
+      "severity": "none",
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "11 candidates were run through the what-specifically, by-what-sign and cash-out tests. The candidates were L3 still fronds, L45 'three different hands', L105 'The opening.', L109 'the trolls can count', L157 'Under all of it', L161 'the map', L229 surveyor/raider/'These had roads', L265 'saying one thing since before dawn', L279 'meant to keep that chair', L285 'hand it off', and L287 'The mage had to be exactly what the file said.' Each one cashes out in the same or the adjacent sentence. L287 is followed by 'Strong enough to cross the ring without a ripple, Antonidas's to the bone, Kirin Tor ink in the creases of her fingers', and the staff match was shown at L239. L265 is anchored by Cyndia's 'She said it twice' and 'sick from the inside'. L229 is an operational distinction proved by the ruled lines on the map. L279 is evidence-based, following the boots planted heel and toe. No P5 planner shorthand remains: 'The opening.' is cashed out at once by 'She could tell him about the stone.' The keep rate is above 25%. Each keep was challenged against the anti-rationalization list and survives on a named keep condition, not on rhythm or the character's intelligence."
+    },
+    {
+      "guide": "fake-simplification-guide.md",
+      "totalCandidates": 4,
+      "kills": 0,
+      "keeps": 4,
+      "severity": "none",
+      "dominantPattern": "none",
+      "findings": [],
+      "cleanReason": "Four translation or short-version setups were audited as whole exchanges. (1) L77-79 'Off how?' gets 'The beat's uneven. There's cold under it.', which gives a tactile trigger Lor'themar acts on immediately by putting his own palm to the stone. (2) L127-129 'Skip the compliments. What.' gets the runner's 'Intruder. Outer ring, before dawn. Human. A woman. Mage.', which gives who, where and when, and is elaborated with the stone below the high road and papers on the ground. (3) L191-197 'Report as we go.' gets Cyndia's report naming the ring, the split-capped stone below the high road, the weighted papers, the watch's order and her response. (4) L105 'They would ask what she meant by cold. She would say cold.' is a plan-mandated failure of vocabulary (plan Beat 2: 'no word for what she felt'), not a claimed simplification. None of them needs a second translation pass."
+    }
+  ],
+  "summary": {
+    "totalKills": 5,
+    "totalKeeps": 69,
+    "mildKills": 5,
+    "moderateOrSevereKills": 0,
+    "guidesRun": ["gpt-5-prose-issues.md", "narrator-seep-guide.md", "phantom-concreteness-guide.md", "fake-simplification-guide.md"],
+    "guidesWithKills": ["gpt-5-prose-issues.md"],
+    "killsWithFix": 5,
+    "killsUnfixable": 0,
+    "verdict": "fail",
+    "verdictReason": "5 MILD kills exceed the 3-MILD pass threshold (0 MODERATE/SEVERE). All five are single-sentence gpt-5 issues (F2 generic beat L131, F14 fenced 'briefly' L81, F8 echo 'Of course.' L113, F3 filter 'heard' L175, F4 emotion label L157), and each has a low-difficulty drop-in fix. Narrator seep, phantom concreteness and fake simplification are clean. Structural texture deficit (participial 6.1% vs 12%, em-dash 1.1% vs 4%, texture score 82.3). Structural rhythm concerns: long_sentence_pct, opener_entropy, one_sentence_paragraph_pct and mattr are outside range.",
+    "rhythmMetrics": {
+      "comma_period_ratio": {"actual": 0.649, "target": 0.72, "delta": -0.071, "range": [0.6, 0.85], "inRange": true},
+      "sentence_length_mean": {"actual": 11.1, "target": 11.0, "delta": 0.1, "range": [9.0, 13.0], "inRange": true},
+      "sentence_length_cv": {"actual": 0.741, "target": 0.7, "delta": 0.041, "range": [0.6, 0.8], "inRange": true},
+      "short_sentence_pct": {"actual": 36.8, "target": 35.0, "delta": 1.8, "range": [28.0, 42.0], "inRange": true},
+      "long_sentence_pct": {"actual": 16.9, "target": 10.0, "delta": 6.9, "range": [7.0, 14.0], "inRange": false},
+      "opener_entropy": {"actual": 6.0, "target": 7.7, "delta": -1.7, "range": [7.2, 8.2], "inRange": false},
+      "one_sentence_paragraph_pct": {"actual": 24.7, "target": 19.0, "delta": 5.7, "range": [15.0, 24.0], "inRange": false},
+      "mattr": {"actual": 0.788, "target": 0.83, "delta": -0.042, "range": [0.8, 0.87], "inRange": false},
+      "structuralRhythmConcerns": ["long_sentence_pct", "opener_entropy", "one_sentence_paragraph_pct", "mattr"]
+    },
+    "textureMetrics": {
+      "verdict": "below_target",
+      "note": "structural texture deficit",
+      "texture_score": 82.3,
+      "participial_pct": 6.1,
+      "compound_pct": 11.0,
+      "emdash_pct": 1.1,
+      "semicolon_pct": 0.9,
+      "short_pct": 44.6,
+      "verdict_reasons": [
+        "participial: 6.1% below target 12.0% (score 56/100)",
+        "emdash: 1.1% below target 4.0% (score 73/100)"
+      ],
+      "interpretation": "PARTICIPIAL: 6.1% -> target 12.0% (score 56/100). Add ', Ving' phrases: ', turning back to the fire' / ', gripping the railing'. Connective tissue between actions. | EMDASH: 1.1% -> target 4.0% (score 73/100). Use for mid-sentence pivots: 'The door-the same one she'd slammed-stood open.'",
+      "flaggedPassages": {"telegram_run": 8, "texture_desert": 12}
+    },
+    "analyticHints": {
+      "slopChecker": {
+        "total_matches": 31,
+        "total_violations": 1,
+        "overCap": [
+          {"pattern": "verdict_too_x_for", "category": "narrator_verdict", "count": 1, "cap": 0, "line": 119, "guide": "narrator-seep-guide.md", "gateDecision": "KEEP (concrete gait read driving action)"}
+        ],
+        "passBMappedSignals": 1,
+        "passANotAudited": ["punct_colon_narration 5/5", "punct_semicolon 4/10", "participial_trailing 7/20", "simile_like 4/10", "simile_as_if 1/5", "simile_as_though 1/3", "contact_found 3/6", "contact_pressed 1/6", "filler_frowned 2/4", "filter_watched 2/3"]
+      }
+    }
+  }
+}
